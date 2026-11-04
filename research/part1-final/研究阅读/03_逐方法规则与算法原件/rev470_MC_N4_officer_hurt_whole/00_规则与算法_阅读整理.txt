@@ -1,0 +1,1110 @@
+杂气官伤完整作用与有限净补阴性
+rev470_MC_N4_officer_hurt_whole
+所属原模块：C02
+当前采用：rev479_MC_N4_whole_and_negative_net_adoption.json
+范围：adopted_exact47078_after47730_finite_whole_diagnostics_and_all_negative_net_results
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev470_MC_N4_officer_hurt_whole/algorithm_explanations_all_definitions.json
+SHA256：c5edf4615421309909baea3c50827e69dd8e86155b0718993190870b8cddd0e4
+
+1. mcn4.py:canonical
+算法标识：mcn4.py:canonical
+module：mcn4.py
+qualname：canonical
+contract：{
+  "purpose": "生成同版完整稳定JSON文本",
+  "inputs": "已pack结果",
+  "operations": "排序/Unicode/紧凑/allow_nanFalse",
+  "outputs": "str，非bytes；main补newline",
+  "preconditions_and_limits": "不检查源或业务schema"
+}
+source_identity：{
+  "file": "mcn4.py",
+  "qualname": "canonical",
+  "line": 8,
+  "module_sha256": "0cfd0fa672f9fda6dbbda98502aa0780ae13e968912c1b1b18f7d528e34c6e7e",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn4.py:canonical"
+}
+unexecuted_scope：null
+
+2. mcn4.py:pairs
+算法标识：mcn4.py:pairs
+module：mcn4.py
+qualname：pairs
+contract：{
+  "purpose": "拒歧义重复JSON键",
+  "inputs": "解析原pairs",
+  "operations": "逐项检查已有key，固定错误不回显坏键",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "仅解析层；源/业务后查"
+}
+source_identity：{
+  "file": "mcn4.py",
+  "qualname": "pairs",
+  "line": 9,
+  "module_sha256": "0cfd0fa672f9fda6dbbda98502aa0780ae13e968912c1b1b18f7d528e34c6e7e",
+  "AST_sha256": "0791eac94607e2a02bf48653caf61df128c81a00d0261e55b93313178c644d46",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn4.py:pairs"
+}
+unexecuted_scope：null
+
+3. mcn4.py:nonfinite
+算法标识：mcn4.py:nonfinite
+module：mcn4.py
+qualname：nonfinite
+contract：{
+  "purpose": "拒NaN/Infinity",
+  "inputs": "解析非法常量标记",
+  "operations": "抛固定ValueError",
+  "outputs": "没有正常return；trace None是异常展开",
+  "preconditions_and_limits": "不能把异常None写正常无结论"
+}
+source_identity：{
+  "file": "mcn4.py",
+  "qualname": "nonfinite",
+  "line": 15,
+  "module_sha256": "0cfd0fa672f9fda6dbbda98502aa0780ae13e968912c1b1b18f7d528e34c6e7e",
+  "AST_sha256": "63c8cbd70b17fdc028b8222951197440f50b033d209872457e51b55cdd8add8f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn4.py:nonfinite"
+}
+unexecuted_scope：null
+
+4. mcn4.py:bounded
+算法标识：mcn4.py:bounded
+module：mcn4.py
+qualname：bounded
+contract：{
+  "purpose": "限制公开输入树和Unicode",
+  "inputs": "API对象或JSON值",
+  "operations": "深12/节点500/对象15/数组30/串2000，拒代理/float等",
+  "outputs": "正常None或ValueError",
+  "preconditions_and_limits": "不校源/固定二盘；list/dict继续遍历key和值"
+}
+source_identity：{
+  "file": "mcn4.py",
+  "qualname": "bounded",
+  "line": 16,
+  "module_sha256": "0cfd0fa672f9fda6dbbda98502aa0780ae13e968912c1b1b18f7d528e34c6e7e",
+  "AST_sha256": "2b8695dc7cc813be04612590e0d54d711174786883c5afffc213b6736115007c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn4.py:bounded"
+}
+unexecuted_scope：null
+
+5. mcn4.py:strict_load
+算法标识：mcn4.py:strict_load
+module：mcn4.py
+qualname：strict_load
+contract：{
+  "purpose": "严格解析文本",
+  "inputs": "str≤10000字符",
+  "operations": "json对象pairs/非有限回调→bounded",
+  "outputs": "解析值或错误",
+  "preconditions_and_limits": "根schema由后续core核；UTF8由main先核"
+}
+source_identity：{
+  "file": "mcn4.py",
+  "qualname": "strict_load",
+  "line": 30,
+  "module_sha256": "0cfd0fa672f9fda6dbbda98502aa0780ae13e968912c1b1b18f7d528e34c6e7e",
+  "AST_sha256": "70258c2fc0862fa5ce932cd79412c943d800ec5418fef83bfe37523e47c40afa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn4.py:strict_load"
+}
+unexecuted_scope：null
+
+6. mcn4.py:guard
+算法标识：mcn4.py:guard
+module：mcn4.py
+qualname：guard
+contract：{
+  "purpose": "所有provider前来源绑定",
+  "inputs": "固定ROOT/LOCK_SHA",
+  "operations": "锁SHA→source/runtime精确集合→contained非软链/逐长度SHA",
+  "outputs": "dict[str,bytes]",
+  "preconditions_and_limits": "校字节不认证古籍/工程语义真值；source卡最后增绑不改数值"
+}
+source_identity：{
+  "file": "mcn4.py",
+  "qualname": "guard",
+  "line": 33,
+  "module_sha256": "0cfd0fa672f9fda6dbbda98502aa0780ae13e968912c1b1b18f7d528e34c6e7e",
+  "AST_sha256": "99a30f74bf4228f264c5a2a77b61cf4ccd9070f4ec51c7ade04d4e0dfd759cb9",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn4.py:guard"
+}
+unexecuted_scope：null
+
+7. mcn4.py:load
+算法标识：mcn4.py:load
+module：mcn4.py
+qualname：load
+contract：{
+  "purpose": "执行已核材料模块",
+  "inputs": "固定name/path/material",
+  "operations": "ModuleType并compile/exec精确bytes",
+  "outputs": "module",
+  "preconditions_and_limits": "本函数自身不做source核；caller须先guard"
+}
+source_identity：{
+  "file": "mcn4.py",
+  "qualname": "load",
+  "line": 46,
+  "module_sha256": "0cfd0fa672f9fda6dbbda98502aa0780ae13e968912c1b1b18f7d528e34c6e7e",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn4.py:load"
+}
+unexecuted_scope：null
+
+8. mcn4.py:evaluate
+算法标识：mcn4.py:evaluate
+module：mcn4.py
+qualname：evaluate
+contract：{
+  "purpose": "公开固定资料入口",
+  "inputs": "原四字段request",
+  "operations": "bounded/guard→读问题/ROOTprimitive→4精确provider→core.evaluate→pack",
+  "outputs": "完整JSON-compatible dict",
+  "preconditions_and_limits": "4provider不是4条古法；不联网/读旧项目/写自身"
+}
+source_identity：{
+  "file": "mcn4.py",
+  "qualname": "evaluate",
+  "line": 48,
+  "module_sha256": "0cfd0fa672f9fda6dbbda98502aa0780ae13e968912c1b1b18f7d528e34c6e7e",
+  "AST_sha256": "3cf95b5f966c5758701b97d41df252bbec874e9573030b19fce280ae54566c5c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn4.py:evaluate"
+}
+unexecuted_scope：null
+
+9. mcn4.py:main
+算法标识：mcn4.py:main
+module：mcn4.py
+qualname：main
+contract：{
+  "purpose": "原子CLI协议",
+  "inputs": "≤20000UTF8 bytes stdin",
+  "operations": "严格解码/strict/evaluate/canonical打印",
+  "outputs": "0为完整结果/语义源外，2为rejected无部分判断",
+  "preconditions_and_limits": "ValueError等固定类别捕获；不是所有源外都硬错"
+}
+source_identity：{
+  "file": "mcn4.py",
+  "qualname": "main",
+  "line": 52,
+  "module_sha256": "0cfd0fa672f9fda6dbbda98502aa0780ae13e968912c1b1b18f7d528e34c6e7e",
+  "AST_sha256": "101de6d8cf95504f1978890c700577cac02d329c4006dc88e748de5fb67dc5c3",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn4.py:main"
+}
+unexecuted_scope：null
+
+10. runtime/mcn4_core.py:inventory
+算法标识：runtime/mcn4_core.py:inventory
+module：runtime/mcn4_core.py
+qualname：inventory
+contract：{
+  "purpose": "保完整原演员与根并分接收资格",
+  "inputs": "固定raw/relation及旧facts/root/primitive",
+  "operations": "所有明藏ROOT逐原支、原/接收账并存、每element-origin max、静态actor份额",
+  "outputs": "base含actors/root_rows/groups/direct/weights",
+  "preconditions_and_limits": "不称新藏火、质量或现实inventory；source只公开两盘"
+}
+source_identity：{
+  "file": "runtime/mcn4_core.py",
+  "qualname": "inventory",
+  "line": 8,
+  "module_sha256": "eca6b66b10751d0a50e6c6c8d341c0b7cc48b80fde503aa61c5ab5f562b01820",
+  "AST_sha256": "be09eb9fc14e3f74d55e68f096c055688566f04e43e5d43cceb9aaafdded2dbb",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='relation'), arg(arg='facts'), arg(arg='roots'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn4_core.py:inventory"
+}
+unexecuted_scope：null
+
+11. runtime/mcn4_core.py:coefficients
+算法标识：runtime/mcn4_core.py:coefficients
+module：runtime/mcn4_core.py
+qualname：coefficients
+contract：{
+  "purpose": "建立同current全部正负矩阵与源费率",
+  "inputs": "base,b,c,exact,cut",
+  "operations": "逐actor naturalG/C近远/费用；木body stockloads；diag和K，Gauss求正权收缩证",
+  "outputs": "系数、所有边、费用、范数证",
+  "preconditions_and_limits": "cut仅土→年辛正边；潜在费率原样，实际费用随current；norm是证明工具不调参"
+}
+source_identity：{
+  "file": "runtime/mcn4_core.py",
+  "qualname": "coefficients",
+  "line": 32,
+  "module_sha256": "eca6b66b10751d0a50e6c6c8d341c0b7cc48b80fde503aa61c5ab5f562b01820",
+  "AST_sha256": "9a16ad0a42b063d7d64713b4754e267b2f0c5295265013c267fdc001192bd4a3",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='b'), arg(arg='c'), arg(arg='exact'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn4_core.py:coefficients"
+}
+unexecuted_scope：null
+
+12. runtime/mcn4_core.py:fixedpoint
+算法标识：runtime/mcn4_core.py:fixedpoint
+module：runtime/mcn4_core.py
+qualname：fixedpoint
+contract：{
+  "purpose": "精确唯一全盘量效",
+  "inputs": "direct,coefficients,exact",
+  "operations": "从全active面枚举，Gauss解线性式再代全部max检查",
+  "outputs": "dict element→Fraction",
+  "preconditions_and_limits": "已严格收缩，首个合法面即唯一；不是实测气物理定律"
+}
+source_identity：{
+  "file": "runtime/mcn4_core.py",
+  "qualname": "fixedpoint",
+  "line": 51,
+  "module_sha256": "eca6b66b10751d0a50e6c6c8d341c0b7cc48b80fde503aa61c5ab5f562b01820",
+  "AST_sha256": "fa89f4085052515da3d670e4da974ab447e77cf497017f99c69501ca82518019",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='direct'), arg(arg='cf'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn4_core.py:fixedpoint"
+}
+unexecuted_scope：null
+
+13. runtime/mcn4_core.py:origins
+算法标识：runtime/mcn4_core.py:origins
+module：runtime/mcn4_core.py
+qualname：origins
+contract：{
+  "purpose": "追逐根/输入的当前留存",
+  "inputs": "direct,coeff,x,exact",
+  "operations": "gross和rho；联合线性方程多rhs解全部origin；验非负/求和/逐来源方程",
+  "outputs": "gross,rho,ports,originlist",
+  "preconditions_and_limits": "不同于独立参考DAG解；当前无水不伪造water源；rho0处理零"
+}
+source_identity：{
+  "file": "runtime/mcn4_core.py",
+  "qualname": "origins",
+  "line": 62,
+  "module_sha256": "eca6b66b10751d0a50e6c6c8d341c0b7cc48b80fde503aa61c5ab5f562b01820",
+  "AST_sha256": "ef00f90138c979d0d534d61ce3b117007e8fa7e97f05157a650948031c6e627d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='direct'), arg(arg='cf'), arg(arg='x'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn4_core.py:origins"
+}
+unexecuted_scope：null
+
+14. runtime/mcn4_core.py:complete_graph
+算法标识：runtime/mcn4_core.py:complete_graph
+module：runtime/mcn4_core.py
+qualname：complete_graph
+contract：{
+  "purpose": "完整预算/边/费用及M/O/A",
+  "inputs": "base,direct,cf,x,exact",
+  "operations": "origin→gross=current+cost+loss；按同rho/actual控制分配全边；测年辛根及所有火伤害",
+  "outputs": "完整world与metrics",
+  "preconditions_and_limits": "body余量不是剩余木再扣同份负荷；财retained正不等净有利"
+}
+source_identity：{
+  "file": "runtime/mcn4_core.py",
+  "qualname": "complete_graph",
+  "line": 72,
+  "module_sha256": "eca6b66b10751d0a50e6c6c8d341c0b7cc48b80fde503aa61c5ab5f562b01820",
+  "AST_sha256": "7f12e168cece19273db815d2d8877059fa1ecf941c3461efda1d738a6c6ef0a0",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='direct'), arg(arg='cf'), arg(arg='x'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn4_core.py:complete_graph"
+}
+unexecuted_scope：null
+
+15. runtime/mcn4_core.py:world
+算法标识：runtime/mcn4_core.py:world
+module：runtime/mcn4_core.py
+qualname：world
+contract：{
+  "purpose": "一个输入/诊断的完整重解",
+  "inputs": "base,b,c,exact,selected,total,cut",
+  "operations": "复制原direct加数学origin，coeff→fixedpoint→whole graph",
+  "outputs": "完整world",
+  "preconditions_and_limits": "静态演员/份额；不是新干支或时间；私有留出不扩公共profile"
+}
+source_identity：{
+  "file": "runtime/mcn4_core.py",
+  "qualname": "world",
+  "line": 97,
+  "module_sha256": "eca6b66b10751d0a50e6c6c8d341c0b7cc48b80fde503aa61c5ab5f562b01820",
+  "AST_sha256": "532cb10ce4e43904cd2d07cd3020dfd58dd53431c241333b3a41b0a90dac7d09",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='b'), arg(arg='c'), arg(arg='exact'), arg(arg='selected'), arg(arg='total'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load()), Call(func=Name(id='F', ctx=Load()), args=[], keywords=[]), Constant(value=False)])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn4_core.py:world"
+}
+unexecuted_scope：null
+
+16. runtime/mcn4_core.py:net
+算法标识：runtime/mcn4_core.py:net
+module：runtime/mcn4_core.py
+qualname：net
+contract：{
+  "purpose": "比较原/新全部净目标",
+  "inputs": "两个完整world",
+  "operations": "严格新承载/官根、M/O不降/A不增及一严格；所有delta保",
+  "outputs": "checks/accepted/delta",
+  "preconditions_and_limits": "不做H最小上闭或J2；无通过不等缺水不需/某元素全忌"
+}
+source_identity：{
+  "file": "runtime/mcn4_core.py",
+  "qualname": "net",
+  "line": 104,
+  "module_sha256": "eca6b66b10751d0a50e6c6c8d341c0b7cc48b80fde503aa61c5ab5f562b01820",
+  "AST_sha256": "00211de86d982a72b9e050409b72229edc7220d0d000407c978c3dffbad7e499",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='before'), arg(arg='after')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn4_core.py:net"
+}
+unexecuted_scope：null
+
+17. runtime/mcn4_core.py:evaluate
+算法标识：runtime/mcn4_core.py:evaluate
+module：runtime/mcn4_core.py
+qualname：evaluate
+contract：{
+  "purpose": "源域/具名方法与完整45混合调度",
+  "inputs": "request,question,facts/roots/primitive/exact",
+  "operations": "精确字段和方法→合法性/二盘→基线/财生成关→15subset×3λ",
+  "outputs": "完整研究结果/invalid/outside",
+  "preconditions_and_limits": "先问题/方法固定，数值失败不选其他法；全局喜用/显示未算"
+}
+source_identity：{
+  "file": "runtime/mcn4_core.py",
+  "qualname": "evaluate",
+  "line": 111,
+  "module_sha256": "eca6b66b10751d0a50e6c6c8d341c0b7cc48b80fde503aa61c5ab5f562b01820",
+  "AST_sha256": "531fb6113f273b9cf461790f335e9a57382d04bcca4d1bca99ee54c0829d3406",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='question'), arg(arg='facts'), arg(arg='roots'), arg(arg='primitive'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：null
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn4_core.py:evaluate"
+}
+unexecuted_scope：null
+
+18. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+module：runtime/foundation_facts.py
+qualname：stem_element
+contract：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "十干查五行"
+}
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "stem_element",
+  "line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/foundation_facts.py:stem_element",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+unexecuted_scope：null
+
+19. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+module：runtime/foundation_facts.py
+qualname：ten_god
+contract：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "严格十神角色"
+}
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "ten_god",
+  "line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/foundation_facts.py:ten_god",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+unexecuted_scope：null
+
+20. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+module：runtime/foundation_facts.py
+qualname：validate
+contract：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原柱基础合法性"
+}
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "validate",
+  "line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/foundation_facts.py:validate",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate"
+}
+unexecuted_scope：null
+
+21. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+module：runtime/foundation_facts.py
+qualname：formal_relations
+contract：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留有位置的形式合冲"
+}
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "formal_relations",
+  "line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/foundation_facts.py:formal_relations",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+unexecuted_scope：null
+
+22. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+module：runtime/foundation_facts.py
+qualname：root_evidence
+contract：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "root_evidence",
+  "line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/foundation_facts.py:root_evidence",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+unexecuted_scope：null
+
+23. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+module：runtime/foundation_facts.py
+qualname：parse
+contract：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原61完整四柱事实入口"
+}
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "parse",
+  "line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/foundation_facts.py:parse",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse"
+}
+unexecuted_scope：null
+
+24. runtime/root_types.py:canonical
+算法标识：runtime/root_types.py:canonical
+module：runtime/root_types.py
+qualname：canonical
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "canonical original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "canonical",
+  "line": 30,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:canonical",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+25. runtime/root_types.py:strict_load
+算法标识：runtime/root_types.py:strict_load
+module：runtime/root_types.py
+qualname：strict_load
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "strict_load original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "strict_load",
+  "line": 34,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "2ef9ff64dfa5b57cd3c6b9fc32d7294ad2e92b9e2e37460455a48ea8c311e1fe",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:strict_load",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+26. runtime/root_types.py:strict_load.<locals>.pairs
+算法标识：runtime/root_types.py:strict_load.<locals>.pairs
+module：runtime/root_types.py
+qualname：strict_load.<locals>.pairs
+contract：{
+  "purpose": "旧ROOT内部JSON重复键校验回调",
+  "inputs": "内部解析pairs",
+  "operations": "逐键去重，重复时ValueError含原键；旧代码完全未改",
+  "outputs": "dict或异常",
+  "preconditions_and_limits": "当前470不调用ROOT.data/strict_load；不是本公开入口的安全拒绝实现，不冒新trace。原433主56说明未单列此回调，本处新增显式解释。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "strict_load.<locals>.pairs",
+  "line": 35,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "84be0e655057bd44adcf8874ae041932c14a574b747bd201b8e253b8c0dfc383",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:strict_load.<locals>.pairs",
+  "exact_AST": true,
+  "prior_separate_contract_existed": false,
+  "unchanged_unexecuted_callback_current_explicit_explanation": true,
+  "original_module": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_complete_followup/runtime/root_types.py",
+    "bytes": 9873,
+    "sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+  }
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+27. runtime/root_types.py:strict_load.<locals>.nonfinite
+算法标识：runtime/root_types.py:strict_load.<locals>.nonfinite
+module：runtime/root_types.py
+qualname：strict_load.<locals>.nonfinite
+contract：{
+  "purpose": "旧ROOT内部拒非有限常量回调",
+  "inputs": "内部JSON常量标记",
+  "operations": "抛ValueError并保原旧消息行为",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "当前不执行，不把None或新入口constant的trace冒此函数。原代码AST与433逐体相同，原56说明未单列。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "strict_load.<locals>.nonfinite",
+  "line": 41,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "09bf2a29cdc0a118e8e7feb8f560f977eec1a8478dd9e230dc76b12f25156dd7",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:strict_load.<locals>.nonfinite",
+  "exact_AST": true,
+  "prior_separate_contract_existed": false,
+  "unchanged_unexecuted_callback_current_explicit_explanation": true,
+  "original_module": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_complete_followup/runtime/root_types.py",
+    "bytes": 9873,
+    "sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+  }
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+28. runtime/root_types.py:data
+算法标识：runtime/root_types.py:data
+module：runtime/root_types.py
+qualname：data
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "data original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "data",
+  "line": 45,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "74c864b733cb2e6604ffdd2f501cd9e11724c091e6ede6b8deb7efd3c0330b80",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:data",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+29. runtime/root_types.py:validate_pair
+算法标识：runtime/root_types.py:validate_pair
+module：runtime/root_types.py
+qualname：validate_pair
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "validate_pair original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "validate_pair",
+  "line": 59,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "d9fcbb697b6f7ceea9e8a85060c1558bb7a18ad208193ada2057ad09bc4865ba",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:validate_pair",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+30. runtime/root_types.py:classify
+算法标识：runtime/root_types.py:classify
+module：runtime/root_types.py
+qualname：classify
+contract：{
+  "purpose": "原Primary ROOT类型",
+  "inputs": "合法stem/branch和已捕获原primitive",
+  "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+  "outputs": "type info",
+  "preconditions_and_limits": "caller已factsparse合法，primitive与ROOT代码源锁；不增加藏干、不判实际强弱。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "classify",
+  "line": 66,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:classify",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/root_types.py:classify"
+}
+unexecuted_scope：null
+
+31. runtime/root_types.py:choose_value
+算法标识：runtime/root_types.py:choose_value
+module：runtime/root_types.py
+qualname：choose_value
+contract：{
+  "purpose": "原公共ROOT工程刻度",
+  "inputs": "typeinfo",
+  "operations": "源类型优先7/2、5/2、非土阳墓3/2、未列0",
+  "outputs": "value/category",
+  "preconditions_and_limits": "0非现实无根证明；数额非经典唯一比值；未被新关系7/2改写原表。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "choose_value",
+  "line": 90,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "5f711116638a8c7bb0ccd95a1477d98dd5a444b9c76a38b4c81ee8e8cc09aaf2",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='info')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:choose_value",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/root_types.py:choose_value"
+}
+unexecuted_scope：null
+
+32. runtime/root_types.py:source_basis
+算法标识：runtime/root_types.py:source_basis
+module：runtime/root_types.py
+qualname：source_basis
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "source_basis original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "source_basis",
+  "line": 102,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "1643a04853eff5fc578612fb2bc1c05825cc388518eecf5b813ec4ae423fcc71",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='info')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:source_basis",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+33. runtime/root_types.py:explain
+算法标识：runtime/root_types.py:explain
+module：runtime/root_types.py
+qualname：explain
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "explain original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "explain",
+  "line": 122,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "222a4a79d6925a57d0b5c5bc35ae8e2208071362d26d957a80874e5c87bfaf8d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:explain",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+34. runtime/root_types.py:qualification
+算法标识：runtime/root_types.py:qualification
+module：runtime/root_types.py
+qualname：qualification
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "qualification original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "qualification",
+  "line": 141,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "85fdefa9f5a9d58b715853ed897344e9ac0c552605406c1104b0cab3e2f7ce19",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:qualification",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+35. runtime/root_types.py:matrix
+算法标识：runtime/root_types.py:matrix
+module：runtime/root_types.py
+qualname：matrix
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "matrix original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "matrix",
+  "line": 146,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "1379d3a571ba65c87b578d49f3315ce72171048b40ef7028f191f6acf33fd7ae",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:matrix",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+36. runtime/root_types.py:evaluate
+算法标识：runtime/root_types.py:evaluate
+module：runtime/root_types.py
+qualname：evaluate
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "evaluate original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "evaluate",
+  "line": 151,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "d0124402959b900ef224cb9c3d99f72dbae1c0a423edbc74ae5c03d08ffd2b44",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:evaluate",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+37. runtime/root_types.py:main
+算法标识：runtime/root_types.py:main
+module：runtime/root_types.py
+qualname：main
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "main original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "main",
+  "line": 166,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "d7d801468486509dd801cf6f2348c956a5d800d1b67b736cc0d7f61713c80cb6",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/root_types.py:main",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：null
+unexecuted_scope：Not in this current trace; exact old contract retained, not a fabricated actual return.
+
+38. runtime/exact_reused.py:pack
+算法标识：runtime/exact_reused.py:pack
+module：runtime/exact_reused.py
+qualname：pack
+contract：{
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Encode internal exact mathematics."
+}
+source_identity：{
+  "file": "runtime/exact_reused.py",
+  "qualname": "pack",
+  "line": 7,
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/exact_reused.py:pack",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/exact_reused.py:pack"
+}
+unexecuted_scope：null
+
+39. runtime/exact_reused.py:gauss
+算法标识：runtime/exact_reused.py:gauss
+module：runtime/exact_reused.py
+qualname：gauss
+contract：{
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve."
+}
+source_identity：{
+  "file": "runtime/exact_reused.py",
+  "qualname": "gauss",
+  "line": 14,
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+exact_reuse：{
+  "original433_id": "runtime/exact_reused.py:gauss",
+  "exact_AST_and_contract": true,
+  "source_contract": "reference/original433_function_contracts.json",
+  "old_IO_is_not_claimed_as_new470_trace": true
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/exact_reused.py:gauss"
+}
+unexecuted_scope：null
+

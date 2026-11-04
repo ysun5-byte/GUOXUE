@@ -1,0 +1,59 @@
+{
+  "schema": "617-five-effective-explanation-registration/1",
+  "status": "adopted_exact_five_Exception_constructor_text_precisions",
+  "handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_five_Exception_constructor_precision_handoff.json",
+    "bytes": 7133,
+    "sha256": "9cb2a7efee28c0c553278a442f2ae18f07a64475df0e9a8ecbfc347629840545"
+  },
+  "frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_five_Exception_constructor_precision",
+    "files": 9,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_five_Exception_constructor_precision/manifest.json",
+      "bytes": 1311,
+      "sha256": "b01a0b53d3da7866ccb152898b813903ee6b8f0bfc2e9e8065d79c2c592cd970"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_five_Exception_constructor_precision/freeze.json",
+      "bytes": 92,
+      "sha256": "fa27aa1df6263d1978407e34622897da5d2a36b04bb5200f68db8fb2be7a0565"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "root_substantive_checks": [
+    {
+      "component": "rev545_Ren262_DingRen_ZiWei_actual_time",
+      "source_class_and_function_AST_exact": true,
+      "only_exact_operations_and_provenance_changed": true,
+      "original_all_values_recovered_by_reverse_patch": true
+    },
+    {
+      "component": "rev569_Qi374_actual_five_layer_adaptation",
+      "source_class_and_function_AST_exact": true,
+      "only_exact_operations_and_provenance_changed": true,
+      "original_all_values_recovered_by_reverse_patch": true
+    },
+    {
+      "component": "rev568_absentfire_real_luck_current_roots",
+      "source_class_and_function_AST_exact": true,
+      "only_exact_operations_and_provenance_changed": true,
+      "original_all_values_recovered_by_reverse_patch": true
+    },
+    {
+      "component": "rev569_Strong417_actual_five_layer_adaptation",
+      "source_class_and_function_AST_exact": true,
+      "only_exact_operations_and_provenance_changed": true,
+      "original_all_values_recovered_by_reverse_patch": true
+    },
+    {
+      "component": "rev569_Force392_actual_five_layer_adaptation",
+      "source_class_and_function_AST_exact": true,
+      "only_exact_operations_and_provenance_changed": true,
+      "original_all_values_recovered_by_reverse_patch": true
+    }
+  ],
+  "old_sources_AST_IO_methods_and_all_rule_numbers_unchanged": true,
+  "no_new_coverage_credit": true,
+  "progress_delta": "0.00"
+}

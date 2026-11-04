@@ -1,0 +1,1617 @@
+全国地点技术身份/粗代理点及显式父版候选链
+rev442_national_city_identity
+所属原模块：C04
+当前采用：rev454_city_identity_source_layer_adoption.json
+范围：固定GN目录；行政/驻地、点与Rn分开，城市own/非CN/方向后续；8构建支持文档另留，不新增导航进度。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev442_national_city_identity/algorithm_explanations_38_runtime_functions.json
+SHA256：8428da907db2a2e22bb2bff5f779305f5588f7c0e815372b462b887bdd68be01
+
+1. city_lookup.py:canonical
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "city_lookup.py:canonical"
+}
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序键/紧凑/非ASCII原样/allow_nanFalse",
+  "outputs": "str，不是bytes；主入口最后编码UTF8",
+  "preconditions_and_limits": "不做来源/schema核；源输出必须先为JSON兼容类型",
+  "purpose": "稳定输出"
+}
+算法标识：city_lookup.py:canonical
+module：city_lookup.py
+qualname：canonical
+reuse：null
+source_identity：{
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "first_line": 8,
+  "module_sha256": "f908d03747bf4904cef726e689b3237600f76070da6b8eb006e642cc1fdfc447",
+  "qualified_name": "canonical",
+  "relative_path": "city_lookup.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+2. city_lookup.py:pairs
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "city_lookup.py:pairs"
+}
+contract：{
+  "inputs": "有序键值pairs",
+  "operations": "逐键检查已出现键；固定错误码不回显原键",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "孤立代理重复键也不进入错误输出，实际high/low都测",
+  "purpose": "拒重复JSON键"
+}
+算法标识：city_lookup.py:pairs
+module：city_lookup.py
+qualname：pairs
+reuse：null
+source_identity：{
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "first_line": 9,
+  "module_sha256": "f908d03747bf4904cef726e689b3237600f76070da6b8eb006e642cc1fdfc447",
+  "qualified_name": "pairs",
+  "relative_path": "city_lookup.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+3. city_lookup.py:constant
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "city_lookup.py:constant"
+}
+contract：{
+  "inputs": "NaN/Infinity token",
+  "operations": "固定ValueError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常unwindNone不冒正常None",
+  "purpose": "拒非有限常量"
+}
+算法标识：city_lookup.py:constant
+module：city_lookup.py
+qualname：constant
+reuse：null
+source_identity：{
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6",
+  "first_line": 15,
+  "module_sha256": "f908d03747bf4904cef726e689b3237600f76070da6b8eb006e642cc1fdfc447",
+  "qualified_name": "constant",
+  "relative_path": "city_lookup.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+4. city_lookup.py:bounded
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "city_lookup.py:bounded"
+}
+contract：{
+  "inputs": "直接API/已解析JSON值",
+  "operations": "迭代深度12/节点500/对象12/数组20/字符串2000及Unicode标量；只允null,bool,int",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不校城市schema，不校文件；float一律不作为请求值",
+  "purpose": "限制公开请求树"
+}
+算法标识：city_lookup.py:bounded
+module：city_lookup.py
+qualname：bounded
+reuse：null
+source_identity：{
+  "AST_sha256": "254230f28bae34f9a89a8611eed059eea862888686d987d5177a7e1f9321adfa",
+  "first_line": 16,
+  "module_sha256": "f908d03747bf4904cef726e689b3237600f76070da6b8eb006e642cc1fdfc447",
+  "qualified_name": "bounded",
+  "relative_path": "city_lookup.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+5. city_lookup.py:strict_load
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "city_lookup.py:strict_load"
+}
+contract：{
+  "inputs": "str≤10000字符",
+  "operations": "json.loads+pairs/constant后bounded",
+  "outputs": "JSON值或解析/边界异常",
+  "preconditions_and_limits": "main先UTF8strict decode；不是来源查表",
+  "purpose": "严格字面解析"
+}
+算法标识：city_lookup.py:strict_load
+module：city_lookup.py
+qualname：strict_load
+reuse：null
+source_identity：{
+  "AST_sha256": "e5b7a027faf55001a6e6504988417d43f73b41159e8a8b65776cc42f7ea5dd30",
+  "first_line": 30,
+  "module_sha256": "f908d03747bf4904cef726e689b3237600f76070da6b8eb006e642cc1fdfc447",
+  "qualified_name": "strict_load",
+  "relative_path": "city_lookup.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+6. city_lookup.py:guard
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "city_lookup.py:guard"
+}
+contract：{
+  "inputs": "ROOT固定lock及source/runtime/data",
+  "operations": "核lockSHA、精确文件集、逐regular/contained/长度/SHA，读成内存bytes",
+  "outputs": "dict[相对路径,bytes]",
+  "preconditions_and_limits": "全部完成后caller才exec；不声称OS级原子性/源真值",
+  "purpose": "来源先于provider"
+}
+算法标识：city_lookup.py:guard
+module：city_lookup.py
+qualname：guard
+reuse：null
+source_identity：{
+  "AST_sha256": "3d488af47bd0fafbc576702596b6891e38a23038f497ad2111345ff33a3b8cfb",
+  "first_line": 33,
+  "module_sha256": "f908d03747bf4904cef726e689b3237600f76070da6b8eb006e642cc1fdfc447",
+  "qualified_name": "guard",
+  "relative_path": "city_lookup.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+7. city_lookup.py:load
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "city_lookup.py:load"
+}
+contract：{
+  "inputs": "name/相对path/material",
+  "operations": "新ModuleType设真实__file__，compile material[path]并exec",
+  "outputs": "module",
+  "preconditions_and_limits": "loader不自行核来源；caller guard承担前置，实际2providers",
+  "purpose": "已核provider执行"
+}
+算法标识：city_lookup.py:load
+module：city_lookup.py
+qualname：load
+reuse：null
+source_identity：{
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "first_line": 46,
+  "module_sha256": "f908d03747bf4904cef726e689b3237600f76070da6b8eb006e642cc1fdfc447",
+  "qualified_name": "load",
+  "relative_path": "city_lookup.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+8. city_lookup.py:evaluate
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "city_lookup.py:evaluate"
+}
+contract：{
+  "inputs": "request",
+  "operations": "bounded→guard→固定gzip字节解码catalog→2provider→core.evaluate",
+  "outputs": "完整dict结果",
+  "preconditions_and_limits": "源坏在任何provider前拒绝；不读原zip/旧项目/网络，不接C20",
+  "purpose": "公开原生API"
+}
+算法标识：city_lookup.py:evaluate
+module：city_lookup.py
+qualname：evaluate
+reuse：null
+source_identity：{
+  "AST_sha256": "c036c2d4c89dde65e77a75dbdffb5b9442bc2ec06ac8b89b99578e00bc87ca5e",
+  "first_line": 48,
+  "module_sha256": "f908d03747bf4904cef726e689b3237600f76070da6b8eb006e642cc1fdfc447",
+  "qualified_name": "evaluate",
+  "relative_path": "city_lookup.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+9. city_lookup.py:main
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "city_lookup.py:main"
+}
+contract：{
+  "inputs": "stdinUTF8bytes≤20000",
+  "operations": "strict_load→evaluate→canonical+LF；所列异常固定拒绝JSON",
+  "outputs": "成功0/拒绝2及stdout；不回显原异常值",
+  "preconditions_and_limits": "AssertionError等未列异常不伪装正常结果；只支持此公开入口",
+  "purpose": "安全CLI"
+}
+算法标识：city_lookup.py:main
+module：city_lookup.py
+qualname：main
+reuse：null
+source_identity：{
+  "AST_sha256": "e7cf65e118167e39c65787ce04f3c895ed476e4e8adcb75451468b7afa9c7101",
+  "first_line": 51,
+  "module_sha256": "f908d03747bf4904cef726e689b3237600f76070da6b8eb006e642cc1fdfc447",
+  "qualified_name": "main",
+  "relative_path": "city_lookup.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+10. runtime/city_core.py:canonical
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/city_core.py:canonical"
+}
+contract：{
+  "inputs": "JSON兼容v",
+  "operations": "排序紧凑JSON",
+  "outputs": "str",
+  "preconditions_and_limits": "不生成source truth/地理真实性",
+  "purpose": "规范对象文字"
+}
+算法标识：runtime/city_core.py:canonical
+module：runtime/city_core.py
+qualname：canonical
+reuse：null
+source_identity：{
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "first_line": 7,
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266",
+  "qualified_name": "canonical",
+  "relative_path": "runtime/city_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+11. runtime/city_core.py:digest
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/city_core.py:digest"
+}
+contract：{
+  "inputs": "JSON兼容v",
+  "operations": "canonical UTF8 SHA256",
+  "outputs": "64小写hex str",
+  "preconditions_and_limits": "摘要是内容绑定，不是署名认证",
+  "purpose": "绑定内容摘要"
+}
+算法标识：runtime/city_core.py:digest
+module：runtime/city_core.py
+qualname：digest
+reuse：null
+source_identity：{
+  "AST_sha256": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+  "first_line": 8,
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266",
+  "qualified_name": "digest",
+  "relative_path": "runtime/city_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+12. runtime/city_core.py:normalize
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/city_core.py:normalize"
+}
+contract：{
+  "inputs": "str",
+  "operations": "NFKC→casefold→合并空白",
+  "outputs": "str",
+  "preconditions_and_limits": "只查询文字；不把繁简/别名跨记录传递、不推城市身份",
+  "purpose": "名字规范化"
+}
+算法标识：runtime/city_core.py:normalize
+module：runtime/city_core.py
+qualname：normalize
+reuse：null
+source_identity：{
+  "AST_sha256": "fa00b2fc5a92d2a7d7dbdc41c359271def1f816b63b0387ecd9bf3766f3fc758",
+  "first_line": 9,
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266",
+  "qualified_name": "normalize",
+  "relative_path": "runtime/city_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='s')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+13. runtime/city_core.py:ref_key
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/city_core.py:ref_key"
+}
+contract：{
+  "inputs": "恰namespace/id/version的dict，值trim非空str",
+  "operations": "字段/类型核后按固定顺序",
+  "outputs": "tuple(namespace,id,version)或ValueError",
+  "preconditions_and_limits": "命名空间和版是否存在在上层查；不数字强转/截前缀",
+  "purpose": "精确版本身份"
+}
+算法标识：runtime/city_core.py:ref_key
+module：runtime/city_core.py
+qualname：ref_key
+reuse：null
+source_identity：{
+  "AST_sha256": "fe8ae87c7790f2f244859d355e4b46ab523a7c8cde13d09b2ed01d411bdb13e4",
+  "first_line": 10,
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266",
+  "qualified_name": "ref_key",
+  "relative_path": "runtime/city_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='ref')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+14. runtime/city_core.py:candidate
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/city_core.py:candidate"
+}
+contract：{
+  "inputs": "一个固定record",
+  "operations": "deepcopy身份/类型/层级码/省祖先/点ref",
+  "outputs": "候选dict，not_automatically_selectedTrue",
+  "preconditions_and_limits": "稳定排序不是优先级；无人口/距离/第一条选取",
+  "purpose": "候选摘要"
+}
+算法标识：runtime/city_core.py:candidate
+module：runtime/city_core.py
+qualname：candidate
+reuse：null
+source_identity：{
+  "AST_sha256": "5361db42392529ef4afdcf798680c0635a93329623f6f439bae13a3d02b913a9",
+  "first_line": 13,
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266",
+  "qualified_name": "candidate",
+  "relative_path": "runtime/city_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+15. runtime/city_core.py:search
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/city_core.py:search"
+}
+contract：{
+  "inputs": "严格7字段request/data",
+  "operations": "核数据Unicode版本；名字匹配仅source label；partition/kind/唯一或歧义省提示过滤；全候选稳定输出",
+  "outputs": "status/normalized_query/candidates/province_candidates等dict",
+  "preconditions_and_limits": "简繁只用provider已列形式；未知省提示不退无提示；唯一候选也不自动lookup/采纳",
+  "purpose": "原源别名检索"
+}
+算法标识：runtime/city_core.py:search
+module：runtime/city_core.py
+qualname：search
+reuse：null
+source_identity：{
+  "AST_sha256": "d6482cc185fed7a5e043b0d5bfd57555a879b6f567ad1d40c6067bd9c2b4cb2f",
+  "first_line": 15,
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266",
+  "qualified_name": "search",
+  "relative_path": "runtime/city_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+16. runtime/city_core.py:cultural_attribute
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/city_core.py:cultural_attribute"
+}
+contract：{
+  "inputs": "record/nullableexactparentref/data/native module",
+  "operations": "显式父版→CN31命名桥和A行政范围→旧父source状态→保原frame/evidence完整链组合target_within_source_scope→旧native评价",
+  "outputs": "Rn dict：status/reason/native_request/report/parentreport/lineage证及限制",
+  "preconditions_and_limits": "新GN具名包含是工程解释候选，非官方城市/省界法证。P驻地/非CN无桥/父未决不补0；旧市自有版不换省版；不猜五行/权重",
+  "purpose": "同框父文化包含解释"
+}
+算法标识：runtime/city_core.py:cultural_attribute
+module：runtime/city_core.py
+qualname：cultural_attribute
+reuse：null
+source_identity：{
+  "AST_sha256": "543ea71cb81c984e0ff17c7fb487dd68f9a0b61248dcfb0fc3e5a93a3587090d",
+  "first_line": 34,
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266",
+  "qualified_name": "cultural_attribute",
+  "relative_path": "runtime/city_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='parent_ref'), arg(arg='data'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+17. runtime/city_core.py:evaluate
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/city_core.py:evaluate"
+}
+contract：{
+  "inputs": "request/data/native",
+  "operations": "schema/data版/op精确；lookup按GNid版，search不选首；点和Rn分开；文化context哈希绑定geo+父版+完整native请求",
+  "outputs": "完整lookup或search dict，含source/adoption/C0/D2/B状态",
+  "preconditions_and_limits": "Geo身份/点版与显式文化context分开；无lease/方向/C0/主题计算，不声称新C20已接",
+  "purpose": "精确新数据入口与context"
+}
+算法标识：runtime/city_core.py:evaluate
+module：runtime/city_core.py
+qualname：evaluate
+reuse：null
+source_identity：{
+  "AST_sha256": "e26a62e7a48f9f09fc8d316320eee64955f598501a68b31ee8b0f38937c57cf3",
+  "first_line": 57,
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266",
+  "qualified_name": "evaluate",
+  "relative_path": "runtime/city_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+18. runtime/region_evidence_catalog.py:ContractError.__init__
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:ContractError.__init__"
+}
+contract：{
+  "inputs": "status/path/code",
+  "operations": "赋三属性",
+  "outputs": "None",
+  "preconditions_and_limits": "仅旧文化engine内部错误载体",
+  "purpose": "结构化内部异常"
+}
+算法标识：runtime/region_evidence_catalog.py:ContractError.__init__
+module：runtime/region_evidence_catalog.py
+qualname：ContractError.__init__
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66",
+  "first_line": 23,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "ContractError.__init__",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+19. runtime/region_evidence_catalog.py:fail
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:fail"
+}
+contract：{
+  "inputs": "status/path/code",
+  "operations": "raise ContractError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常回传给evaluate，不是源判定",
+  "purpose": "抛内部异常"
+}
+算法标识：runtime/region_evidence_catalog.py:fail
+module：runtime/region_evidence_catalog.py
+qualname：fail
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04",
+  "first_line": 27,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "fail",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+20. runtime/region_evidence_catalog.py:obj
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:obj"
+}
+contract：{
+  "inputs": "value/allowedfields/path",
+  "operations": "必须dict、未知/缺项分别拒",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "只schema不证来源",
+  "purpose": "文化对象字段核"
+}
+算法标识：runtime/region_evidence_catalog.py:obj
+module：runtime/region_evidence_catalog.py
+qualname：obj
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "8370003829b998b49b7e5347a36da126d3d32b057e2f02c0c0a9fc272ee9b3e5",
+  "first_line": 31,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "obj",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='fields'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+21. runtime/region_evidence_catalog.py:text
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:text"
+}
+contract：{
+  "inputs": "value/path",
+  "operations": "必须非空且trim str",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不查文义/地理真值",
+  "purpose": "trim非空文字核"
+}
+算法标识：runtime/region_evidence_catalog.py:text
+module：runtime/region_evidence_catalog.py
+qualname：text
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "24378609ea51a60f93b5570f67462a2ae518150fbeee44fdf1f43ef370c24437",
+  "first_line": 40,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "text",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+22. runtime/region_evidence_catalog.py:choice
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:choice"
+}
+contract：{
+  "inputs": "value/allowed/path",
+  "operations": "str且allowed成员",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不是隐式映射",
+  "purpose": "枚举值核"
+}
+算法标识：runtime/region_evidence_catalog.py:choice
+module：runtime/region_evidence_catalog.py
+qualname：choice
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "ef44d01bd507164178a220ce8017809d49051de827789728a94583950fd6e696",
+  "first_line": 45,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "choice",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='allowed'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+23. runtime/region_evidence_catalog.py:sha
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:sha"
+}
+contract：{
+  "inputs": "value/path",
+  "operations": "64位小写hex正则",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不重新认证出处",
+  "purpose": "摘要语法核"
+}
+算法标识：runtime/region_evidence_catalog.py:sha
+module：runtime/region_evidence_catalog.py
+qualname：sha
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "ab12fcaffeebd0d4d57c85dc4fdd3dfea637a13c80b29b4be8f662daba60ccd3",
+  "first_line": 50,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "sha",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+24. runtime/region_evidence_catalog.py:digest
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:digest"
+}
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序紧凑UTF8 SHA",
+  "outputs": "64hex str",
+  "preconditions_and_limits": "精确旧AST未改",
+  "purpose": "旧规范摘要"
+}
+算法标识：runtime/region_evidence_catalog.py:digest
+module：runtime/region_evidence_catalog.py
+qualname：digest
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "87399cc705ddc0bce51619f01766e43b8d07720ce8247a0eb508c1633855fef6",
+  "first_line": 55,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "digest",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+25. runtime/region_evidence_catalog.py:reference
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:reference"
+}
+contract：{
+  "inputs": "value/path",
+  "operations": "id/version文本+SHA格式",
+  "outputs": "tuple(id,version)",
+  "preconditions_and_limits": "内容hash另在resolve_refs核",
+  "purpose": "旧三字段ref核"
+}
+算法标识：runtime/region_evidence_catalog.py:reference
+module：runtime/region_evidence_catalog.py
+qualname：reference
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "dbad1b23988ac94d47b09ed84834335bd9e3f5153c38a2f39582532922cced2e",
+  "first_line": 60,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "reference",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+26. runtime/region_evidence_catalog.py:ref_for
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:ref_for"
+}
+contract：{
+  "inputs": "带id/version的value",
+  "operations": "保id/version并digest完整value",
+  "outputs": "dict id/version/sha256",
+  "preconditions_and_limits": "不裁城市/省域",
+  "purpose": "旧内容ref生成"
+}
+算法标识：runtime/region_evidence_catalog.py:ref_for
+module：runtime/region_evidence_catalog.py
+qualname：ref_for
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "6450db815f6ac1fb49ae002563050ab6b7a88357ede1f7529b9a0d588bf45f6e",
+  "first_line": 68,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "ref_for",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+27. runtime/region_evidence_catalog.py:load_catalog
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:load_catalog"
+}
+contract：{
+  "inputs": "无参；邻文件",
+  "operations": "读旧固定文化表SHA，解析JSON并核每unit source_ref内容",
+  "outputs": "catalog dict或ContractError",
+  "preconditions_and_limits": "只给旧两个profile；无城市地理映射/运行采纳",
+  "purpose": "固定旧文化表装载"
+}
+算法标识：runtime/region_evidence_catalog.py:load_catalog
+module：runtime/region_evidence_catalog.py
+qualname：load_catalog
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "8e931b773b0998ea2c64406c2c39ddcaf4b582ae5a74a458475fac3887fd721e",
+  "first_line": 72,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "load_catalog",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+28. runtime/region_evidence_catalog.py:region
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:region"
+}
+contract：{
+  "inputs": "value/path",
+  "operations": "恰7字段、每字段文字、kind为3种既有值",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "level仅文字；GN层级仍提供方类型，不借此认证MCA市级",
+  "purpose": "旧region形状核"
+}
+算法标识：runtime/region_evidence_catalog.py:region
+module：runtime/region_evidence_catalog.py
+qualname：region
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "49e6779bcc49467a5df6b7a0db970354e7c438a08032ecbfcd8947922d2d856d",
+  "first_line": 91,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "region",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+29. runtime/region_evidence_catalog.py:frame
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:frame"
+}
+contract：{
+  "inputs": "value/path",
+  "operations": "恰id/version/era/description非空文字",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "frame完全相等由后续比较，不跨版投票",
+  "purpose": "旧frame核"
+}
+算法标识：runtime/region_evidence_catalog.py:frame
+module：runtime/region_evidence_catalog.py
+qualname：frame
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "89375389d855fcdb4ab0fc8c498ff305982ef185cacb10c6bae02dba8494ce37",
+  "first_line": 98,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "frame",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+30. runtime/region_evidence_catalog.py:unit_set
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:unit_set"
+}
+contract：{
+  "inputs": "value/allowed/path",
+  "operations": "list、每unit在固定profile、无重复",
+  "outputs": "set[str]",
+  "preconditions_and_limits": "不造新单位或权重",
+  "purpose": "旧文化单位集核"
+}
+算法标识：runtime/region_evidence_catalog.py:unit_set
+module：runtime/region_evidence_catalog.py
+qualname：unit_set
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "badb95fcf6e3b23aa70e44f5e118e09ffcc196bacbf61414201d61e58d161aa3",
+  "first_line": 104,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "unit_set",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='allowed'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+31. runtime/region_evidence_catalog.py:validate_source
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:validate_source"
+}
+contract：{
+  "inputs": "value/path",
+  "operations": "恰7文字字段",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "格式不认证真实发布/全界",
+  "purpose": "旧来源元数据核"
+}
+算法标识：runtime/region_evidence_catalog.py:validate_source
+module：runtime/region_evidence_catalog.py
+qualname：validate_source
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "ac2a73a291ba170988620a226c160bcba9e70305bad881bd8e7c6ff217fa03ac",
+  "first_line": 114,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "validate_source",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+32. runtime/region_evidence_catalog.py:validate_evidence
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:validate_evidence"
+}
+contract：{
+  "inputs": "value/path",
+  "operations": "按kind精确字段、来源/frame/审核/单位或链接形状",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "reviewed/complete是显式研究声明，不是软件真值认证",
+  "purpose": "旧geo/crosswalk证形状核"
+}
+算法标识：runtime/region_evidence_catalog.py:validate_evidence
+module：runtime/region_evidence_catalog.py
+qualname：validate_evidence
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "e43674850f9b9dd063330df63282a861449b8b644bff10ce8a6945a050f346c1",
+  "first_line": 120,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "validate_evidence",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+33. runtime/region_evidence_catalog.py:resolve_refs
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:resolve_refs"
+}
+contract：{
+  "inputs": "refs/index/kind/path",
+  "operations": "逐id+version+SHA核对象，去重复且kind匹配",
+  "outputs": "list[evidence]或ContractError",
+  "preconditions_and_limits": "同名/错版/改件不能替代",
+  "purpose": "旧证内容绑定"
+}
+算法标识：runtime/region_evidence_catalog.py:resolve_refs
+module：runtime/region_evidence_catalog.py
+qualname：resolve_refs
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "e7a6a917ae9de3ac3ca2459361c2ebdc1962d57285036cf37f0bf409856a05e5",
+  "first_line": 154,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "resolve_refs",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='values'), arg(arg='index'), arg(arg='kind'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+34. runtime/region_evidence_catalog.py:evaluate_coverage
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:evaluate_coverage"
+}
+contract：{
+  "inputs": "payload/profile/index/result",
+  "operations": "核target/profile/frame；geo单位并集与全集声明；接受同框已审完整same_scope/within链接；跨元素保ambiguous；无权重",
+  "outputs": "None，原地填result状态/单位/attribute等",
+  "preconditions_and_limits": "缺项或链接不可用保coverage_undetermined；exact集合不能由仅包含冒完全相同范围；不从坐标推属",
+  "purpose": "旧完整范围评价"
+}
+算法标识：runtime/region_evidence_catalog.py:evaluate_coverage
+module：runtime/region_evidence_catalog.py
+qualname：evaluate_coverage
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "b30c90c2b46934eb2cc209b48db9dcfc68a01e643a2cca5b982a94b32bb09da8",
+  "first_line": 172,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "evaluate_coverage",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload'), arg(arg='profile'), arg(arg='index'), arg(arg='result')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+35. runtime/region_evidence_catalog.py:evaluate
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:evaluate"
+}
+contract：{
+  "inputs": "5字段nativepayload",
+  "operations": "固定profile+target+证全部核；evaluate_coverage；结构异常转状态；deepcopy输出",
+  "outputs": "原native report dict",
+  "preconditions_and_limits": "源真实性/边界/现实效果未认证；不改变喜用/B/运行采用",
+  "purpose": "旧原生文化API"
+}
+算法标识：runtime/region_evidence_catalog.py:evaluate
+module：runtime/region_evidence_catalog.py
+qualname：evaluate
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "eceecaf04a472d5e8df7e8a26142f3f74b22ff122f8c36b5e2276773a78b90ef",
+  "first_line": 260,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "evaluate",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+36. runtime/region_evidence_catalog.py:load_request
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:load_request"
+}
+contract：{
+  "inputs": "str或bytes",
+  "operations": "json.loads unique及非有限constant拒绝",
+  "outputs": "JSON值或ValueError",
+  "preconditions_and_limits": "当前只读固定旧表；公开用户走新wrapper更严协议",
+  "purpose": "旧JSON读取"
+}
+算法标识：runtime/region_evidence_catalog.py:load_request
+module：runtime/region_evidence_catalog.py
+qualname：load_request
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "131852621d606b74efe1d01ffe1b052f3618d8ac3d9e1217335d225d922f1050",
+  "first_line": 304,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "load_request",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+37. runtime/region_evidence_catalog.py:load_request.<locals>.unique
+实际输入输出：{
+  "artifact": "actual/runtime37_actual_IO.json.gz",
+  "executed": true,
+  "record": "runtime/region_evidence_catalog.py:load_request.<locals>.unique"
+}
+contract：{
+  "inputs": "pairs",
+  "operations": "构dict并拒重复",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "保旧字节；不声称其错误序列化是新公共CLI",
+  "purpose": "旧JSON重复键钩子"
+}
+算法标识：runtime/region_evidence_catalog.py:load_request.<locals>.unique
+module：runtime/region_evidence_catalog.py
+qualname：load_request.<locals>.unique
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "6ff6e0da03aa43b7ebe74e0bc3001bfe7c611965325cfd37f0fa73f90904d715",
+  "first_line": 305,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "load_request.<locals>.unique",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：null
+
+38. runtime/region_evidence_catalog.py:main
+实际输入输出：null
+contract：{
+  "inputs": "argv一文件",
+  "operations": "读旧nativepayload，evaluate并print indentJSON；捕所列IO/ValueError",
+  "outputs": "已知三状态0，否则2",
+  "preconditions_and_limits": "未作为本包公开城市入口执行；静态解释，不编造IO",
+  "purpose": "旧独立文化CLI"
+}
+算法标识：runtime/region_evidence_catalog.py:main
+module：runtime/region_evidence_catalog.py
+qualname：main
+reuse：{
+  "exact_bytes_reused": true,
+  "prior_path": "work/rev338_XJ_excerpt_native_data/runtime/native_region_lookup_v0_22/vendor/region_evidence_catalog.py",
+  "whole_module_SHA256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+source_identity：{
+  "AST_sha256": "37bd4caf8cef79ac8128996f03a0a6d98255532639bebfba30a9772d7355e805",
+  "first_line": 316,
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+  "qualified_name": "main",
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='argv')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_scope：oldstandaloneCLIstaticonly
+
+原件：work/rev442_national_city_identity/support_8_algorithm_explanations.json
+SHA256：55f5554b68644d98e3daeb43ff9645c80630a217cef1df8350b4d462c9ca91d7
+
+1. extract_fixed_sources.py:canonical
+actual_IO_evidence：[
+  "source/extraction_inventory.json",
+  "build_summary.json",
+  "source/existing_data22_parent_inputs_and_reports.json",
+  "actual/exact_rebuild_and_legacy_regression.json",
+  "actual/software_strict_sourceguard_and_protocol_actual.json"
+]
+contract：{
+  "inputs": "JSON-compatible row",
+  "limits": "onlystorage, notnormativeidentity",
+  "operations": "排序ASCII紧凑json",
+  "outputs": "str",
+  "purpose": "选中原行稳定JSON"
+}
+算法标识：extract_fixed_sources.py:canonical
+not_claiming_separate_trace_for_every_support_helper：true
+source_identity：{
+  "AST_SHA": "e4a6d9eb7f942f1853437b168537338e74c39d3a34a067ffc9a213e6574399a4",
+  "first_line": 9,
+  "module": "extract_fixed_sources.py",
+  "module_SHA": "d3ec71cc2005cc74974ec36fa1a8978e07d16a060ad541776f3a5f8a2ab1173f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+2. extract_fixed_sources.py:extract
+actual_IO_evidence：[
+  "source/extraction_inventory.json",
+  "build_summary.json",
+  "source/existing_data22_parent_inputs_and_reports.json",
+  "actual/exact_rebuild_and_legacy_regression.json",
+  "actual/software_strict_sourceguard_and_protocol_actual.json"
+]
+contract：{
+  "inputs": "锁定original_archive_references四zip",
+  "limits": "actual1,011,303lines/6,214selected;notcityofficialcompleteness",
+  "operations": "核wholeSHA/每行19字段和feature/唯一GNid，保存exactrawline及行号/双SHA/CRC计数",
+  "outputs": "inventory dict及selected_raw_rows gzip",
+  "purpose": "固定四源流式选择"
+}
+算法标识：extract_fixed_sources.py:extract
+not_claiming_separate_trace_for_every_support_helper：true
+source_identity：{
+  "AST_SHA": "20677a15defb5c32eb85b39ad3923fc0d7c47fcb23092de8a4982fa4521961b4",
+  "first_line": 10,
+  "module": "extract_fixed_sources.py",
+  "module_SHA": "d3ec71cc2005cc74974ec36fa1a8978e07d16a060ad541776f3a5f8a2ab1173f",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+3. export_existing_cultural_inputs.py:main
+actual_IO_evidence：[
+  "source/extraction_inventory.json",
+  "build_summary.json",
+  "source/existing_data22_parent_inputs_and_reports.json",
+  "actual/exact_rebuild_and_legacy_regression.json",
+  "actual/software_strict_sourceguard_and_protocol_actual.json"
+]
+contract：{
+  "inputs": "旧338/core/data22精确源目录",
+  "limits": "旧目录只读、不再复制212件；export不是newlookup/runtime",
+  "operations": "原load_pack全件先核、validate_catalog执行64原请求，导出原record/report",
+  "outputs": "source snapshot file+summary stdout",
+  "purpose": "旧源原生实算导出"
+}
+算法标识：export_existing_cultural_inputs.py:main
+not_claiming_separate_trace_for_every_support_helper：true
+source_identity：{
+  "AST_SHA": "8363a6e0ccba20dc4a61c526968723bc53b66b7fb5a99bc0b7f9e6ddf3adc177",
+  "first_line": 8,
+  "module": "export_existing_cultural_inputs.py",
+  "module_SHA": "be647b8ec08f0b2e099eb90e122048773a2ab4a4a4c2eb562c60e001039b857a",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+4. build_catalog.py:canonical
+actual_IO_evidence：[
+  "source/extraction_inventory.json",
+  "build_summary.json",
+  "source/existing_data22_parent_inputs_and_reports.json",
+  "actual/exact_rebuild_and_legacy_regression.json",
+  "actual/software_strict_sourceguard_and_protocol_actual.json"
+]
+contract：{
+  "inputs": "完整catalog/dict",
+  "limits": "canonicalbytes同输入同版本一致",
+  "operations": "排序紧凑Unicode且拒非有限",
+  "outputs": "str",
+  "purpose": "整建规范JSON"
+}
+算法标识：build_catalog.py:canonical
+not_claiming_separate_trace_for_every_support_helper：true
+source_identity：{
+  "AST_SHA": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "first_line": 9,
+  "module": "build_catalog.py",
+  "module_SHA": "71afd6b14201f5186aff5c94f6f5d07054eff5eb36349bf72956613dd70b8e32",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+5. build_catalog.py:digest
+actual_IO_evidence：[
+  "source/extraction_inventory.json",
+  "build_summary.json",
+  "source/existing_data22_parent_inputs_and_reports.json",
+  "actual/exact_rebuild_and_legacy_regression.json",
+  "actual/software_strict_sourceguard_and_protocol_actual.json"
+]
+contract：{
+  "inputs": "JSON value",
+  "limits": "不是官方认证",
+  "operations": "canonical UTF8 SHA256",
+  "outputs": "64hex",
+  "purpose": "整建内容绑定"
+}
+算法标识：build_catalog.py:digest
+not_claiming_separate_trace_for_every_support_helper：true
+source_identity：{
+  "AST_SHA": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+  "first_line": 10,
+  "module": "build_catalog.py",
+  "module_SHA": "71afd6b14201f5186aff5c94f6f5d07054eff5eb36349bf72956613dd70b8e32",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+6. build_catalog.py:normalize
+actual_IO_evidence：[
+  "source/extraction_inventory.json",
+  "build_summary.json",
+  "source/existing_data22_parent_inputs_and_reports.json",
+  "actual/exact_rebuild_and_legacy_regression.json",
+  "actual/software_strict_sourceguard_and_protocol_actual.json"
+]
+contract：{
+  "inputs": "source label str",
+  "limits": "Unicode版保存，源别名不跨记录",
+  "operations": "NFKC/casefold/空白",
+  "outputs": "str",
+  "purpose": "编译源别名键"
+}
+算法标识：build_catalog.py:normalize
+not_claiming_separate_trace_for_every_support_helper：true
+source_identity：{
+  "AST_SHA": "fa00b2fc5a92d2a7d7dbdc41c359271def1f816b63b0387ecd9bf3766f3fc758",
+  "first_line": 11,
+  "module": "build_catalog.py",
+  "module_SHA": "71afd6b14201f5186aff5c94f6f5d07054eff5eb36349bf72956613dd70b8e32",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='s')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+7. build_catalog.py:coordinate
+actual_IO_evidence：[
+  "source/extraction_inventory.json",
+  "build_summary.json",
+  "source/existing_data22_parent_inputs_and_reports.json",
+  "actual/exact_rebuild_and_legacy_regression.json",
+  "actual/software_strict_sourceguard_and_protocol_actual.json"
+]
+contract：{
+  "inputs": "source str/limit90或180",
+  "limits": "源词形不改，空/非法点不退省；当前全部6214有效",
+  "operations": "Decimal解析、trim、finite及abs<=limit",
+  "outputs": "bool",
+  "purpose": "WGS84数额界"
+}
+算法标识：build_catalog.py:coordinate
+not_claiming_separate_trace_for_every_support_helper：true
+source_identity：{
+  "AST_SHA": "5105b0ca37e060062c387cbb923d701a758103470fcc464605039a454d0e43e4",
+  "first_line": 12,
+  "module": "build_catalog.py",
+  "module_SHA": "71afd6b14201f5186aff5c94f6f5d07054eff5eb36349bf72956613dd70b8e32",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='s'), arg(arg='limit')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+8. build_catalog.py:build
+actual_IO_evidence：[
+  "source/extraction_inventory.json",
+  "build_summary.json",
+  "source/existing_data22_parent_inputs_and_reports.json",
+  "actual/exact_rebuild_and_legacy_regression.json",
+  "actual/software_strict_sourceguard_and_protocol_actual.json"
+]
+contract：{
+  "inputs": "raw snapshot+inventory/old64exact/31namebridge",
+  "limits": "原源仅provider分类；identity/data/文化context各版本明示；改变派生内容须新发布号",
+  "operations": "逐sourceSHA/19字段/ID唯一；自点sourcelexeme；uniqueADM1+31桥；原64/63保；无人口排名",
+  "outputs": "完整catalog dict",
+  "purpose": "确定性GN目录/自有点/祖先"
+}
+算法标识：build_catalog.py:build
+not_claiming_separate_trace_for_every_support_helper：true
+source_identity：{
+  "AST_SHA": "bbb3cf9d4f92ae023040c80febf45fd6fbc57982517bc941dd6d7cd0f139bdc4",
+  "first_line": 16,
+  "module": "build_catalog.py",
+  "module_SHA": "71afd6b14201f5186aff5c94f6f5d07054eff5eb36349bf72956613dd70b8e32",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+原件：work/rev442_national_city_identity/rules_ten_fields.json
+SHA256：ac1b13fd31b6b7374e20e0ee0a448f1311f28eb2e1c5097caff3105df5341927
+
+1. CITY442-ID
+approach：原C04当地文化Rn与相对方向Rr的数据身份/代理点；不改格局/扶抑/调候，不产生喜用
+changes：源zip或规则/派生内容变须新明确版，不能同版覆盖；查询错版不latest
+conditions：固定6,214条active ADM1/2/3/ADMD与行政驻地代码，固定GNid与4源字节版
+conflicts：MCA代码与GN/FIPS分开；只按31已核全名桥，不做数字前缀
+exclusions：非当前官方全国城市总表；ADM3含县区，不仅县级市；历史H/普通PPL不在本目录
+expression：build_catalog + core.ref_key/evaluate，旧64与63点精确保留
+算法标识：CITY442-ID
+proposition：提供方身份不冒官方城市
+source：GeoNames固定4分卷全球ID/feature字段；官方国家地名库本轮未取得表
+来源层次：原始/提供方说明＋工程版本绑定
+status：提供方目录研究候选；非官方身份/全界认证
+verification：全6214实际identity/point、raw row SHA、旧目录精确重建
+
+2. CITY442-POINT
+approach：原C04当地文化Rn与相对方向Rr的数据身份/代理点；不改格局/扶抑/调候，不产生喜用
+changes：坐标或点定义/内容变须新点版，不能改旧点或仅用相同经纬触C0
+conditions：每个GN记录用自己的源坐标，坐标有效且完整绑定身份/版/点全文
+conflicts：行政区与驻地分实体；115无唯一驻地不是115无坐标；不人口排名
+exclusions：不是省会/驻地/中心/GPS/城市多边形；不同ID同坐标不合并
+expression：build_catalog.coordinate/build；point_ref.sha+region_r5内容绑定
+算法标识：CITY442-POINT
+proposition：本记录坐标粗代理
+source：GeoNames字段说明WGS84及固定行原始十进制词形
+来源层次：原始坐标事实＋工程代表点政策
+status：工程代理点候选，Rr点可独立known；新D2/C20消费者未接
+verification：6214源词形全等、10数界、同坐标2ID、拉萨ADM2不借3席位、昆山AD3
+
+3. CITY442-NAME
+approach：原C04当地文化Rn与相对方向Rr的数据身份/代理点；不改格局/扶抑/调候，不产生喜用
+changes：提示、省/类型/数据版变重查；源未列的繁体不强替
+conditions：固定Unicode版本；仅同一记录自身列名；partition/entity_kind/province_hint明示
+conflicts：多个名字/ADM层级/行政区与驻地保全部候选，稳定ID序不是优先
+exclusions：不自由繁简转换、不借驻地别名给行政区；别名可能含历史/俗名/音译，不当官方现名
+expression：core.normalize/search/candidate
+算法标识：CITY442-NAME
+proposition：同名与源别名全候选
+source：原提供方name/asciiname/alternate字段与ADM1明列标签
+来源层次：提供方别名＋NFKC/casefold/空白工程规范
+status：名称候选接口候选；不自动确认实际人位置
+verification：10独立原行预测含Suzhou安徽江苏、臺北/台北、蘇州仅源驻地、未知省不退省
+
+4. CITY442-ANCESTOR
+approach：原C04当地文化Rn与相对方向Rr的数据身份/代理点；不改格局/扶抑/调候，不产生喜用
+changes：源代码/ADM1/桥/选择文化父版变重核；缺/多祖先保unknown/候选
+conditions：显式admin1字段→唯一同分卷ADM1→31完整中文名称桥；不要求驻地join
+conflicts：记录为P驻地只有点，不能假装整行政区域的覆盖证明
+exclusions：不是FIPS=MCA或几何多边形等同；非CN无已审whole34桥不造
+expression：build_catalog.province_ancestry；core.cultural_attribute前置
+算法标识：CITY442-ANCESTOR
+proposition：GN省祖先与31全名桥
+source：readme对应admin feature由同country/adminX代码确定；原GN_MCA_CN31具名桥
+来源层次：提供方行政成员关系＋项目具名桥
+status：GN行政目录成员关系已逐行核，现代具名文化包含接合仍是待独审项目解释
+verification：3331 CN行政记录完整原型父版测试；5723行有31桥；HK点known/Rn待桥
+
+5. CITY442-RN
+approach：原C04当地文化Rn与相对方向Rr的数据身份/代理点；不改格局/扶抑/调候，不产生喜用
+changes：父版/原证/currentGN源变文化context变；点可保持不变；新资料须新版本
+conditions：显式精确父省版，父source原生已闭或跨元素ambiguous，行政区kind且CN31祖先链完整；保原frame全文/version
+conflicts：只保candidate_set包含界；父多元素仍ambiguous，无权重；城市自有文化版本走原旧接口不静默混省
+exclusions：不以坐标认古州；原父unknown/缺链/非CN/驻地点不补0；不用旧苏州自身版当省版；不认证跨年现实省界
+expression：core.cultural_attribute组合原subject→父完整链及GN命名成员链；同旧native.evaluate
+算法标识：CITY442-RN
+proposition：同框完整父覆盖派生
+source：旧data22原native请求及源geo/complete links；GN成员和名称桥
+来源层次：旧文化规则不变＋新具名包含工程解释
+status：候选研究：complete限已声明具名解释模型，不是官方/古界/GIS真值。须非作者源义复核后才能采用
+verification：3331测试原型父版结果456定/499歧义/2376未决（测试fixture非覆盖率）；5坏链/错frame/弱name_only真拒
+
+6. CITY442-VERSION
+approach：原C04当地文化Rn与相对方向Rr的数据身份/代理点；不改格局/扶抑/调候，不产生喜用
+changes：父文化版改可Rn变而Geo点不变；新schema/内容更新必须另编号
+conditions：GeoRef固定GN版，文化父Ref显式，derivation_context_ref绑定二者/旧profile/完整派生请求
+conflicts：未知版本/命名空间不退别版；旧34/苏州及全部旧版依旧可独立调用
+exclusions：相同坐标/城市名不足C0；不从观察日制造lease；新点未塞入旧消费者
+expression：core.evaluate/contextdigest；旧pipeline只读不替换
+算法标识：CITY442-VERSION
+proposition：Geo版与文化context分开
+source：343/data22及299/combined20原版本契约、D2/C0既定规格
+来源层次：既有用户原则＋工程内容绑定
+status：版本研究接口候选；B/显示/权重/默认不变
+verification：新疆oldunknown/new指定水同点不同context；错版/其他namespace无点fallback；旧64/63字节不动
+
+7. CITY442-GUARD
+approach：原C04当地文化Rn与相对方向Rr的数据身份/代理点；不改格局/扶抑/调候，不产生喜用
+changes：任何源/代码/数据变先拒，不发布半个判断
+conditions：所有锁件和source/runtime/data清单先核，后2provider exec；UTF8/重复键/树界先严
+conflicts：CLI拒绝固定码不回显疑似Unicode键；未知语义与结构错区分
+exclusions：不声称OS原子性或所有syscall；旧独立文化CLI不是新公开接口
+expression：city_lookup guard/load/evaluate/main
+算法标识：CITY442-GUARD
+proposition：来源与行为可复现
+source：source_execution_lock及38函数源码/AST/真实IO
+来源层次：工程完整性，不是真实性认证
+status：实际实现核验通过；非作者验收/采用未做，进度0
+verification：14strict、10坏件0provider/clean2、4整API/CLI、37实际IO/38解释、全数据gzip重建
+
+原件：work/rev442_national_city_identity/reference_receipt_complete.json
+SHA256：244ab8f34147986c07026ede7b11a5aa166d1b5baa2d02ab60f6ec9825744290
+
+{
+  "copyright": "No copied whole modern article; necessary short excerpts/index only. Main gazetteer CC BY4.0 attribution and license retained.",
+  "exact_material_files": {
+    "runtime/region_evidence_catalog.py": {
+      "bytes": 16309,
+      "path": "work/rev442_national_city_identity/runtime/region_evidence_catalog.py",
+      "sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+    },
+    "runtime/冻结文化目录.json": {
+      "bytes": 7588,
+      "path": "work/rev442_national_city_identity/runtime/冻结文化目录.json",
+      "sha256": "2f3b0bc71e3ae51e8c92158ea7fa42803ebc4814e3b5debfecaf114a02abbce7"
+    },
+    "source/GN_MCA_named_identity_bridge_CN31.json": {
+      "bytes": 32047,
+      "path": "work/rev442_national_city_identity/source/GN_MCA_named_identity_bridge_CN31.json",
+      "sha256": "277b4ee407b4bfb4bcce140028457f35d6cdffd963390da44dc28ac3f4299c64"
+    },
+    "source/admin1CodesASCII.txt": {
+      "bytes": 151510,
+      "path": "work/rev442_national_city_identity/source/admin1CodesASCII.txt",
+      "sha256": "42458864faa9887933d75c33408d4a808b765edbcd62a1328fa9e8cfcdfc718e"
+    },
+    "source/cc_by_4_legalcode.txt": {
+      "bytes": 18657,
+      "path": "work/rev442_national_city_identity/source/cc_by_4_legalcode.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    "source/countryInfo.txt": {
+      "bytes": 32112,
+      "path": "work/rev442_national_city_identity/source/countryInfo.txt",
+      "sha256": "79f8f59ea01cbb40438bf1856dd6c2ff201f03f8fc72d0530b2646aaf603ef04"
+    },
+    "source/download_receipt.json": {
+      "bytes": 6898,
+      "path": "work/rev442_national_city_identity/source/download_receipt.json",
+      "sha256": "6dc1e2dd4e4d8a4619df6c58d1ae008c2187a2d5e572963e762f8b08985c4bdf"
+    },
+    "source/existing_data22_parent_inputs_and_reports.json": {
+      "bytes": 533934,
+      "path": "work/rev442_national_city_identity/source/existing_data22_parent_inputs_and_reports.json",
+      "sha256": "42e7a320c4476cf7fa32ffa37622a734e02e790e70a20f00137b0c3755bfcefc"
+    },
+    "source/featureCodes_en.txt": {
+      "bytes": 58642,
+      "path": "work/rev442_national_city_identity/source/featureCodes_en.txt",
+      "sha256": "d44f129c1cffdeabf759c99fe7ea5b84f615c7f3e7366fb76ccf990f408f6af7"
+    },
+    "source/legacy_data22_catalog_exact.json": {
+      "bytes": 589958,
+      "path": "work/rev442_national_city_identity/source/legacy_data22_catalog_exact.json",
+      "sha256": "1de9ecfffbf3737967d23798fb03d9dc7fbba92c94f827d9a5295210f18a2f5b"
+    },
+    "source/readme.txt": {
+      "bytes": 8843,
+      "path": "work/rev442_national_city_identity/source/readme.txt",
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+    },
+    "source/selected_raw_rows.jsonl.gz": {
+      "bytes": 1084616,
+      "path": "work/rev442_national_city_identity/source/selected_raw_rows.jsonl.gz",
+      "sha256": "67152c16d3b2fafc3a30324c048be248a48047017b8cef0144cdee346f32a61b"
+    }
+  },
+  "local_files_all_read_and_reused": [
+    {
+      "bytes": 2182,
+      "path": "work/rev421_national_city_source_research/research_report.json",
+      "sha256": "ef0e64684121807ae5762d7500c3244f691a5d5e73285a4cee66bb950196a424"
+    },
+    {
+      "bytes": 6932,
+      "path": "work/rev421_national_city_source_research/new_primary_web_reading_receipt.json",
+      "sha256": "93315f3cdea643620e62260df2b14025e2bef8c61be1a05fffa688aad6473c2a"
+    },
+    {
+      "bytes": 255,
+      "path": "work/rev421_national_city_source_research/MCA2024_actual_fetch_receipt.json",
+      "sha256": "81a6f798ab633d6a91e2292d6f46b4b230c564f2552a818fb0900a61d0ecfcd1"
+    },
+    {
+      "bytes": 18397,
+      "path": "work/rev421_national_city_source_research/provider_seat_parenthood_join_feasibility_observation.json",
+      "sha256": "c155d24351119ed832a768acfea066957ddda4b9601188d5e1e7a7e7b9877318"
+    },
+    {
+      "bytes": 1978,
+      "path": "work/rev421_national_city_source_research/GeoNames_feature_coverage_observation.json",
+      "sha256": "287917312d80d752f8603e14cd8fc400ced547abd6c6436775cebad2fed069d5"
+    },
+    {
+      "bytes": 1000111,
+      "path": "work/rev421_national_city_source_research/GeoNames_provider_ADM1_ADM2_seat_raw_rows.json",
+      "sha256": "1fcd2cadfeffb9e4dcdf0274ea8108a9abd3fa45bcb683c4ed3b357de75d3abb"
+    },
+    {
+      "bytes": 1735,
+      "path": "work/rev67_national_region_points/selection_policy.json",
+      "sha256": "98d05525cf17a6b29525622a477aa902b6958e7ef982ffee507adccaa7db889c"
+    },
+    {
+      "bytes": 140381,
+      "path": "work/rev67_national_region_points/coverage_remaining.json",
+      "sha256": "23f7a2f7fef623ef6d8b3a60844d5dbcac8faa2405174eef53bbffe98cbdf36d"
+    },
+    {
+      "bytes": 2759,
+      "path": "work/rev67_national_region_points/README.txt",
+      "sha256": "318993bc2315584a1a208f5f539392a0ec4270081040918a4640e337b53e356d"
+    },
+    {
+      "bytes": 29248,
+      "path": "work/rev67_national_region_points/project_data_review_object.json",
+      "sha256": "f8a4d5ccdf0c712374f39b935e37332dfd4a73543083dd7c636298e1b9c70308"
+    },
+    {
+      "bytes": 1418,
+      "path": "work/rev68_national_points_project_adoption.json",
+      "sha256": "085643a9b420bcfd781563192becb864498ff64a5fda6e950883660604085132"
+    },
+    {
+      "bytes": 3222,
+      "path": "work/rev163_SH2021_project_adoption.json",
+      "sha256": "b81edee546cae4e293f361b48480156c42286b3db34abc6005f74c1191a0ab63"
+    },
+    {
+      "bytes": 1120,
+      "path": "work/rev202_release_notes.json",
+      "sha256": "e883ae3dee547711a788cdc1cb4d06dfbbb3f5e4af42b67ecee0083992a25324"
+    },
+    {
+      "bytes": 708,
+      "path": "work/rev202_editorial_erratum.json",
+      "sha256": "b23cb1a9c4ea9bbb31f6f6f7309760e986229a7bb55cd9a41b5eba9b57f1a86c"
+    },
+    {
+      "bytes": 1145,
+      "path": "work/rev202_Suzhou_whole_frame/source/actual_read_receipt.json",
+      "sha256": "63ad6d96d5bedb482efda924e313ac481416cc766826dc31f57373ef4f9d0cb1"
+    },
+    {
+      "bytes": 3327,
+      "path": "work/rev202_Suzhou_whole_frame/source/SZ2024_scope_logic.json",
+      "sha256": "254bc77323f6c15535a1451edcc68dbed21a7f528eb39cf912a21c2efefb9e31"
+    },
+    {
+      "bytes": 4170,
+      "path": "work/rev299_QH_reflow_frame_project_adoption.json",
+      "sha256": "52c6321a5066996670fcdb75feac81c2f0204c42b2bcd464c4c9b0f6dc561540"
+    }
+  ],
+  "new_city_containment_qualification": "GN explicit administrative member relation + full-name GNADM1 province bridge used only as proposed same-named modern cultural framework containment; not contemporaneous official polygon or FIPS=MCA equivalence, awaits nonauthor source qualification",
+  "new_web_actual": "source/new_primary_web_reading_receipt.json",
+  "no_new_seven_region_or_Zhengzhou_anchor_meaning": true,
+  "original_archive_pins": {
+    "archives": {
+      "CN": {
+        "bytes": 32236537,
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_national_region_points/source/CN.zip",
+        "sha256": "03ab6d5253815b4040b61493a8bed83ffcdb5b6c6b4cf0d6709e41e51abdebc6"
+      },
+      "HK": {
+        "bytes": 121034,
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_national_region_points/source/HK.zip",
+        "sha256": "2b89bf589a4afbce5717e8c1541d58f111674a34bb128cdb5bfce377afad0c30"
+      },
+      "MO": {
+        "bytes": 15536,
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_national_region_points/source/MO.zip",
+        "sha256": "4f6a7b0e7a04aa85252d5181d86beb92818bc851b7716595bbc495431f913dc7"
+      },
+      "TW": {
+        "bytes": 2299832,
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_national_region_points/source/TW.zip",
+        "sha256": "e9f8fc0891edc43a20ac96ea245d9bc738aba547900834f38a0028ddfcd8f164"
+      }
+    },
+    "fixed_observed_date": "2026-11-01",
+    "no_redownload_or_whole_archivecopy": true,
+    "runtime_will_use_pinned_selected_raw_rows_not_old_paths": true
+  },
+  "read_ranges_and_use": {
+    "CN31_bridge": "31 explicit full-name GNADM1/admin1Codes/MCA-name identities rechecked, original name-only/geometric-truth limits retained",
+    "GeoNames_featureCodes": "actual ADM1/2/3/ADMD and PPLC/PPLCD/PPLA/PPLA2/PPLA3, modern source taxonomy not official Chinese city taxonomy",
+    "GeoNames_readme": "actual lines1–38,45–95 main CC BY4.0/as-is, WGS84 lat/lon, FIPS/admin fields, ADM ancestor join, aliases limitation; main gazetteer license not postal subset",
+    "official_GN_sources": "actual new web source levels in source/new_primary_web_reading_receipt.json; old421 original actual failed-fetch receipt reused no local TLS retry",
+    "old_native": "exact 64records/63points retained; exact old profile units independently read after first wrong manual Jing土 oracle, corrected to荆金 before bulk",
+    "original_archives": "four archive bytes/SHA checked, all1,011,303lines streamed; 6214 full raw selected records with line number and SHA saved; archives only referenced not copied"
+  },
+  "schema": "442-complete-reading-and-reuse-index",
+  "web_reading_level": "URL/toolref/necessary short excerpts+actual read ranges; not raw HTML/PDF bytes, no invented HTTP SHA"
+}

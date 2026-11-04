@@ -1,0 +1,12 @@
+{
+  "schema": "C08-historical-operational-receipt-reading-precision/1",
+  "captured_receipt_member": "C08_runtime_integration_after612/lazy_prepare_fixed_contract_before_coldstart.json",
+  "captured_receipt_pin": {
+    "bytes": 771,
+    "sha256": "1537216a9ef6077f5abd4dc5a7828409f42a50e317839c46af4de41fcde31fe6"
+  },
+  "precision": "This operational recompile receipt was rewritten by later metadata-only compilations before recompiler became append-only. Its legacy filename/expected coldstart wording is not an immutable original-before-first-coldstart timestamp or sourcepin. Read actual_lazy_coldstart complete public results and recorded code evolution as historical behavior evidence; final source/registration pins and all20 current IO are independently exact, and genuine final review is still required.",
+  "no_native_rule_or_input_or_result_change": true,
+  "no_generic_mask_or_reconstructed_original_receipt": true,
+  "final_current20_moduleSHA_exact_actualIO": true
+}

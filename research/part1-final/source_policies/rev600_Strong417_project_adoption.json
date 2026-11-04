@@ -1,0 +1,106 @@
+{
+  "schema": "600-exact-Strong417-actualfive-after599-adoption/1",
+  "revision": 600,
+  "status": "adopted_exact569_Strong417_after599_finite_actualfive_R0_and_source_separate",
+  "saved_utc": "2026-11-03T17:32:11.952500+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Strong417_author_completion_handoff.json",
+    "bytes": 5484,
+    "sha256": "1f5830333220d7e71541873f4d60a1ce8a8fa4c03d5062e070e7f8b397e24370"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev599_independent_completion_handoff.json",
+    "bytes": 1064,
+    "sha256": "4fb526d84bd30d45f8037b5d1ca7da6def92921959dd7f63665c8f26d9e4d344"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Strong417_actual_five_layer_adaptation",
+    "files": 280,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Strong417_actual_five_layer_adaptation/manifest.json",
+      "bytes": 50555,
+      "sha256": "1e9bab4f041ee370d052529252166a5e5ecedf7509db86231861605071e5db9d"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Strong417_actual_five_layer_adaptation/freeze.json",
+      "bytes": 136,
+      "sha256": "919312871eafbf875276d474d16cd9a9e47cb4efac9fbb1d8d76b28cd2419c39"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev599_independent_review417",
+    "files": 47,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev599_independent_review417/manifest.json",
+      "bytes": 6732,
+      "sha256": "7b9aa734e739012e19ca6ca9c14b5161bcf64e431f7d340d90678858aa0168fe"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev599_independent_review417/freeze.json",
+      "bytes": 92,
+      "sha256": "9ac580e19667ee6d1926bacdcc8a822d76005ae25ed44da464919cd344934acd"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Strong417_complete_runtime_kernel",
+      "total_files": 42,
+      "payload_files": 40,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Strong417_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 6253,
+        "sha256": "2290925cfcfd8c922513ec70abc9d55b8e58cef6e5a5ef683feeacfccdced19a"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Strong417_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 115,
+        "sha256": "7ff27b89a2a151c75ba5a50a82af9841d43950d8692d0ed40f11ba85dcd5cdfe"
+      },
+      "all_exact_bytes_verified": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/Strong417 one complete readonly actual five research vqfsjpjd/complete exact five runtime with spaces",
+      "total_files": 42,
+      "payload_files": 40,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/Strong417 one complete readonly actual five research vqfsjpjd/complete exact five runtime with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 6253,
+        "sha256": "2290925cfcfd8c922513ec70abc9d55b8e58cef6e5a5ef683feeacfccdced19a"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/Strong417 one complete readonly actual five research vqfsjpjd/complete exact five runtime with spaces/DELIVERY_FREEZE.json",
+        "bytes": 115,
+        "sha256": "7ff27b89a2a151c75ba5a50a82af9841d43950d8692d0ed40f11ba85dcd5cdfe"
+      },
+      "all_exact_bytes_verified": true
+    }
+  ],
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev600_Strong417_effective_rule_cards.json",
+    "bytes": 11616,
+    "sha256": "37dc19c030bc509840f376f8fd1f5109fa51b8539a4b54798f40366843c8caec"
+  },
+  "all105_current_effective_explanations": {
+    "bytes": 303200,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Strong417_actual_five_layer_adaptation/algorithm_explanations_all105.json",
+    "sha256": "5695572a4be8cd25ce9e8ab721fc4abc18ec6c07d043f55e11c8e8a570271634"
+  },
+  "mandatory_source_axes": {
+    "bytes": 3056,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Strong417_actual_five_layer_adaptation/source/02_R0_known_model_and_source_continuation_axes_before_interface.json",
+    "sha256": "12b64feffa3d6badf2164f43163d33631dd5ebda896254d9a56da8972b172061"
+  },
+  "scope": "原417六人工合法甲子卯月家族和原八条件全保；六luck×三兼容四层frame，108完整五层输入，原出生POS根/日浮0。",
+  "R0_full_known_answer_and_original_source_continuation_separate": true,
+  "full_actual_root_actor_positive_negative_and_fee_chain": true,
+  "endpoint_mechanism_not_extra_auxiliary_H": true,
+  "new19references_not_old120_retested": true,
+  "all_original_C03_complete": false,
+  "original_task_complete": false,
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "no_B_or_display": true,
+  "real_prediction_validated": false
+}

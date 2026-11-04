@@ -1,0 +1,70 @@
+{
+  "status": "original_task_delivery_complete_all_artifacts_published",
+  "score": "100.00",
+  "final_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_original_full_acceptance/acceptance_decision.json",
+    "bytes": 15592,
+    "sha256": "f601d86c0fbfab0405ea2457aefdd94ef622a9390e3a5a2d4807fa710e921cd6"
+  },
+  "checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_live_checkpoint.json",
+    "bytes": 17104,
+    "sha256": "be69b417f6194c314300f41d570d6f1e467c17bc19cc56dd3375a6d52f1c0253"
+  },
+  "navigation": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_current_algorithm_navigation.json",
+    "bytes": 2698228,
+    "sha256": "3c27ff21a62c9e5f0871ac1f9aa7b5ea7bc7c0734f0b89412e87d954c0d5bda9"
+  },
+  "guide": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/当前研究与接续入口_rev625.txt",
+    "bytes": 1842,
+    "sha256": "f89273af5183003f88e12e3469de3454b9417a135051a83da8503856cbe0831e"
+  },
+  "overview": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/研究成果总览_先读这一份.txt",
+    "bytes": 5180,
+    "sha256": "1e02ef5b11f97622d575625609c22f7c6e3a7c2ef3d60dd8577fd5a401a82309"
+  },
+  "public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_最终验收与使用说明_rev624.txt",
+    "bytes": 8375,
+    "sha256": "8f49090347f5a052b1f406ef8051c663296b1edfa4663a2f0662a9b3fd06eee7"
+  },
+  "frozen_checkpoint": {
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_checkpoint_records/manifest.json",
+      "bytes": 1255,
+      "sha256": "e9624f842e4b8fde5ae98792f251a92b7bad33c68dbb65de27fff474c756d578"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_checkpoint_records/freeze.json",
+      "bytes": 92,
+      "sha256": "90af680465e80a77ef121190f4aded59fdd04b2f05e57fd8ab1bd446a21da606"
+    }
+  },
+  "current_state_snapshot": {
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_effective_current_state_snapshot_pins/manifest.json",
+      "bytes": 1019,
+      "sha256": "274b165384c8baf1da81bf2efbb07224877db9439949d8d10b5dfc91eac3a384"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_effective_current_state_snapshot_pins/freeze.json",
+      "bytes": 92,
+      "sha256": "dc9b5a18cb685ca461dcec842a75bf0b8a58e6f2821543d216496c77149e6a4d"
+    }
+  },
+  "stable_delivery_directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付",
+  "manifest": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_MANIFEST_r1.json",
+    "bytes": 49396,
+    "sha256": "5d5016b696bb55bd101b5592bd32cf5fedbf3b08b610881961bbd064f916add4"
+  },
+  "freeze": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_FREEZE_r1.json",
+    "bytes": 130,
+    "sha256": "fe444a07f44bd0eec1c9868fb6e139a27dffdb2145e2bde466695350cc4e9003"
+  },
+  "goal_manager_actual_completion_receipt_to_follow_after_all_files_complete": true
+}

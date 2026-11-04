@@ -1,0 +1,134 @@
+{
+  "schema": "547-exact539r1-after546-with-effectiveness-boundary/1",
+  "revision": 547,
+  "status": "adopted_exact539r1_83_kernel59_after546_independent18_new_analyses",
+  "registered_utc": "2026-11-03T12:40:34.988876+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_author_completion_handoff.json",
+    "bytes": 4745,
+    "sha256": "4ae535d5987580cb285acde9ade03b889d5abadc5531dfe7d0fd45f86193fbe0"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev546_independent_completion_handoff.json",
+    "bytes": 1088,
+    "sha256": "37bb272f8b1c570915733c6f3e46f8b65047c99b1a7dd839ad49e5c15d64b202"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_Lujie_hidden_food_and_single_finance_exception",
+    "files": 83,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_Lujie_hidden_food_and_single_finance_exception/manifest.json",
+      "bytes": 13326,
+      "sha256": "b494f52f41b94a12f25560cc0936559032d1cb102143cc29fe17305b8045d0e6"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_Lujie_hidden_food_and_single_finance_exception/freeze.json",
+      "bytes": 205,
+      "sha256": "e7a8d677fe2927fb056f04fe6bb6340a62d3c40d8ea38864df6560d0bc837af8"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev546_independent_review539",
+    "files": 53,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev546_independent_review539/manifest.json",
+      "bytes": 7668,
+      "sha256": "d3307f3f11fc52e42b3d8a951bc64937c682e0cd6220f4c32df957c7ef42e7a7"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev546_independent_review539/freeze.json",
+      "bytes": 92,
+      "sha256": "ce15ee3910b07e97248d15638558f74f71b84162c1c30803652527db692bcc9a"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "kernels": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_complete_runtime_kernel",
+      "files": 59,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 9442,
+        "sha256": "c55eb095d13bfd55755e39d82b55451028620d210867ea17ea5ff3630575959d"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 214,
+        "sha256": "1cf39e5cd36030b2bd50f1cdbc3e79d1d84ca589ba66f9a448f80372c1cc8908"
+      },
+      "all_exact": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/539 one complete readonly hidden food finance lpl5273_/complete r1 source runtime with spaces",
+      "files": 59,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/539 one complete readonly hidden food finance lpl5273_/complete r1 source runtime with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 9442,
+        "sha256": "c55eb095d13bfd55755e39d82b55451028620d210867ea17ea5ff3630575959d"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/539 one complete readonly hidden food finance lpl5273_/complete r1 source runtime with spaces/DELIVERY_FREEZE.json",
+        "bytes": 214,
+        "sha256": "1cf39e5cd36030b2bd50f1cdbc3e79d1d84ca589ba66f9a448f80372c1cc8908"
+      },
+      "all_exact": true
+    }
+  ],
+  "source_rules": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_Lujie_hidden_food_and_single_finance_exception/rules_ten_fields.json",
+    "bytes": 8019,
+    "sha256": "e0f7b301ce9acb00a0953bd55f25041ab082a38317c3af83e78968be5d245e96"
+  },
+  "all60_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_Lujie_hidden_food_and_single_finance_exception/algorithm_explanations_60_including_old_lambda.json",
+    "bytes": 140425,
+    "sha256": "1279f7c6912af524419a8d676ba8f2bfd40f9e1d299789f8fd0bc2e976f4f546"
+  },
+  "required_effectiveness_scope": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_Lujie_hidden_food_and_single_finance_exception/effectiveness_scope_clarification.json",
+    "bytes": 1240,
+    "sha256": "ecd94d56151d79e67959245502c5ebdd082f24bb62d223c66c7b991acdfc088e"
+  },
+  "author_first_defect_kept": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev539_Lujie_hidden_food_and_single_finance_exception/history/first_new_source_template_branch_none/first_failure_and_actual_missing_branch.json",
+    "bytes": 1472,
+    "sha256": "32adb1882728a9faee7b4e14da820afa82c5df5c3c5e850825e829c328e8345d"
+  },
+  "independent_behavior": {
+    "analyses": 18,
+    "worlds": 36,
+    "actor_edges": 1840,
+    "edge_origin_components": 22016,
+    "pool_origin_components": 1704,
+    "fee_origin_components": 8778,
+    "target_loss_components": 1704,
+    "H_rows": 584,
+    "native_rows": 584,
+    "root_witness_values": 310
+  },
+  "algorithms": {
+    "normal_paired_IO_replayed": 51,
+    "exception_IO_replayed": 1,
+    "old_unexecuted": 8,
+    "exact_prior_contracts_and_AST": 51,
+    "new_current_contracts": 9
+  },
+  "portable": {
+    "fresh": 13,
+    "controls": 52,
+    "old_project_or_package_normal_violations": 0,
+    "existing59_reused": true
+  },
+  "literal_S_current_two_of_nine_not_only_domain_is_all_truth": true,
+  "engineering_E_eight_of_nine_circuit_not_global_strength_or_final_priority": true,
+  "print_zero_of_nine_known_computed_not_unknown": true,
+  "source_layers_never_auto_AND_or_union": true,
+  "remaining_original12": "纯杀5、杀食5、杀财2由540继续；不以S/E通路成功替代原全部辅助冲突及验收。",
+  "all_original_C02_complete": false,
+  "all_original_task_complete": false,
+  "progress": "88.75/100",
+  "progress_delta": "0.00",
+  "no_B_theme_display": true,
+  "empirical_prediction_validated": false
+}

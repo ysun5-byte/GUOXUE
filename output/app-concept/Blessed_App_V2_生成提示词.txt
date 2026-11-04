@@ -1,0 +1,30 @@
+生成工具：内置 imagegen（编辑模式）
+版本：V2
+日期：2026-11-02
+本轮修改：单人首页顶部改为整宽带框信息卡，包含干支时辰及干支各自五行、当前位置及五行字段、古籍短段与出处。甲子时为示例；地点五行尚未确定。
+古籍摘句核验：原项目 U005-Z08-R_工作录文.txt，第 9 行；《子平真诠·论用神》。画面使用简体字转写。
+
+最终编辑提示词：
+
+Use case: precise-object-edit / ui-mockup.
+Edit the supplied Blessed three-screen mobile app concept board.
+INPUT ROLES: Image 1 is the clean original and the EDIT TARGET. Image 2 is the user's red-annotated copy, only a REFERENCE for the requested change. Do not reproduce the red drawing or annotation text.
+Make one focused layout revision to the LEFTMOST phone only. Preserve the center and right phones, all their particle art and typography, the overall board, screen frames, footer and all visual styling as exactly as possible.
+
+USER CHANGE: The current little time/location/title area at the top of the left phone must become ONE wide, neatly framed information card, spanning the ENTIRE content width of the phone, directly under the Blessed/bracelet header. It must contain (a) the current sexagenary hour and its corresponding element information, (b) current location and its element information, (c) a short classical text excerpt and source. It must no longer be a narrow cluster occupying only the left half of the top. This is the highest-priority visual change.
+
+DESIGN:
+- Keep the Blessed wordmark and bracelet icon in their current header row, along with the status bar.
+- Remove the old inline '11月02日 · 上海' and old oversized '此刻的你' heading from the edited area. Replace with a single full-width rounded rectangular CARD with a crisp 1-pixel warm-gray border, very subtle warm-white fill, elegant generous inner padding. Roughly x=108 to486 in the existing image coordinates; about 378 px wide. Keep equal left and right margins. The border must be visibly clear, refined rather than heavy.
+- Card top section uses TWO aligned columns with a delicate vertical divider. LEFT column has a small clock icon and label '干支时辰', then larger '甲子时', then smaller '甲 · 木    子 · 水'. Include a small discreet '示例' tag on this column so this is unmistakably illustrative rather than a calculation of the actual current hour.
+- RIGHT column has a location pin and label '当前位置', then larger '上海', then smaller '五行 · 待确定'. This field is intentionally unresolved: do NOT invent an element assignment for Shanghai and do not change '待确定' to a guessed value.
+- Below both columns, a thin horizontal separator INSIDE the same card. Below it, place the following verified classical excerpt, gracefully wrapped across 2–3 lines at readable size, with compact spacing:
+'先观用神之何属，然后或顺或逆，以年月日时，逐干逐支参配而权衡之。'
+- Beneath the excerpt, a lighter small source line '《子平真诠·论用神》'. This source and the excerpt must BOTH be inside the full-width framed card.
+- The card should be about 175–190 px tall, with a breathable, clear hierarchy. All Chinese must be legible and accurate, not compressed into tiny text.
+- Below the card, put a modest section label '我的形态' and retain the SAME beautiful black personal particle-cloud shape. Move or proportionately reduce this left-screen cloud only enough to fit below the card without overlap. Do not replace its shape or make it a different cloud. Retain its rotation and pause controls.
+- Retain the lower left-screen rows '今日喜用' with 木/火 chips, '今日解读', '生辰八字', and bottom navigation. If needed slightly adjust vertical spacing to fit, but keep everything inside the phone and readable.
+- Screen 2 '喜用' and screen 3 '相遇' are invariants: preserve them exactly, along with their particle clouds, layouts and all copy.
+- Preserve the original 3:2 landscape composition, three full phones, top Blessed | 看见运的形状 board heading, bottom captions and concept-demo footer.
+- The final should look like a carefully updated polished app UI, with the top info card clearly spanning the left phone's full usable width. No red annotations, no extra overlays, no added charts, no cropped phones. Opaque background.
+

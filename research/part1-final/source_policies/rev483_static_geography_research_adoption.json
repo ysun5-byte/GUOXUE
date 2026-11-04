@@ -1,0 +1,66 @@
+{
+  "schema": "483-static-GN-culture-and-relative-direction-adoption/1",
+  "revision": 483,
+  "registered_utc": "2026-11-03T07:13:12.617917+00:00",
+  "status": "adopted_exact478r1_126_after481_26_finite_static_research",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev478_geography_direction_research_chain",
+      "files": 126,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev478_geography_direction_research_chain/manifest.json",
+        "bytes": 20505,
+        "sha256": "fd514c3e8660e4a91371ebba7b1dd5af65afcad942b29c7a6961fa5445446152"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev478_geography_direction_research_chain/freeze.json",
+        "bytes": 168,
+        "sha256": "4614be6e2056d814e809e4eaad6411e7870e2254aabb2ff8046ecc9274490dbd"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev481_geography_static_independent_review",
+      "files": 26,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev481_geography_static_independent_review/manifest.json",
+        "bytes": 3712,
+        "sha256": "00bf6a2cbcdc94d8ae9d249350239c65f7e652cb5376e26700fa3691506b262a"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev481_geography_static_independent_review/freeze.json",
+        "bytes": 92,
+        "sha256": "1358a0bd9a8eeb295c911ba4fdd2548daafa51028eda258fe47135da993c280d"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev478_author_completion_handoff.json",
+    "bytes": 6216,
+    "sha256": "4070989133c627a78a1b976f6991471456ade5f7273e34550fc611b2330d810e"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev481_independent_completion_handoff.json",
+    "bytes": 6301,
+    "sha256": "8a019009e1a6edc32303547e6ac3abb2a52d7fd0438f852f9328ef8573b5bf73"
+  },
+  "support": "固定GN出生/当前地点显式身份及自有粗点，当前显式文化版，分别计算当地Rn及相对出生方向Rr。保持原ADM/驻地层级，不伪改city/province。",
+  "Rn": "完整复用已采用469/465/454和旧native来源链；只有覆盖闭合且元素唯一才按已批规格onehot。原歧义/unknown/候选/版/来源完整保留，不按点或省名私选。",
+  "Rr": "复用固定GeographicLib2.1/WGS84逆测地及原退化分类、D2八方连续。出生文化非前提，Rn未知不妨碍已知两点计算；缺出生不抹当前已闭合Rn。",
+  "C0": "ready两地完整规范region/version/point均同且coincident才已知无方向贡献；仅坐标同、名字同或文化同不成立。同GN换文化版不构成移动。",
+  "first_real_defect_and_repair": "原116快照/首败完整保留：两地均null会漏核固定data_version。r1在任何地点查找前加全局固定版检查；正版双null仍unknown，错版拒绝。四旧lookup核心及数学不变，16正确全输出仅锁元数据改变。",
+  "software_boundary": "坏源字节先于provider零执行；结构/固定版硬错的准确执行阶段另记，不谎称所有输入硬错零模块。完整只读环境实际正常违规0，主动负控确曾发生且均拒。",
+  "independent_evidence": "481新增8源条件、8新角度、5几何变例，核六卡十字段、73函数契约(65旧8新)、55真实IO/18未入该trace。两完整API/CLI字节相同；现成126完整副本9完整进程36真控+7局部守卫进程28真控，64全拒；3坏源0/clean15。全SHA/副本模式不变。",
+  "existing_correct_evidence_reused": "478作者16全协议、Rn原469全文回归、17手算D2及7几何边界、8strict和r1定点回归直接复用，不重复计独立盲例或重跑旧全量。",
+  "original_C04_scope": "依原done_when与V1有限范围，不新增每6214记录唯一古九州归属/现年官方多边形的无限门。32/34省级旧身份有闭合版、28单元素/4歧义可计算；TAR/HLJ旧文化证据不足如实保留，不补造零/自动新七区。",
+  "remaining": [
+    "新GN所选版本的真实研究窗口及变化比较由480继续，静态本版不冒窗口完成",
+    "原最终全链支持范围回放、版本使用说明和运行交付继续",
+    "旧文化来源限制及七区新含义未批均保留，不能暗换"
+  ],
+  "source_implementation_empirical_separate": true,
+  "no_B_C20_fullbudget_theme_RGB_display_or_physical_work": true,
+  "progress": "86.25/100",
+  "progress_delta": "0.00"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "rev261_current_single_window_project_adoption",
+  "version": "1",
+  "revision": 261,
+  "date": "2026-11-02",
+  "status": "adopted_bounded_source_qualified_current_single_window_transport",
+  "target": {
+    "component": "rev233_single_theme_window_candidate",
+    "files": 2483,
+    "manifest_sha256": "f52dc7c9242aa206741a287dc44f11ed20a1805c4e7ce1bfcf24ced51b75f90a",
+    "freeze_sha256": "b7630f65a8ae84cd06cd74052b8527813851168c3c5f024bca19c8ceb8369a10",
+    "relative_directory": "rev233_single_theme_window_candidate"
+  },
+  "target_binding": {
+    "single_window.py": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+    "dependency_lock.json": "8d73caa129ffbebcf32b30cab1cc42435e7435224c150e4c94840241b14d5647",
+    "report.json": "da22ab15dbfffbade9924b9d0bf6122d0820227b5d5ef1393320a7e761cef091",
+    "manifest.json": "f52dc7c9242aa206741a287dc44f11ed20a1805c4e7ce1bfcf24ced51b75f90a",
+    "freeze.json": "b7630f65a8ae84cd06cd74052b8527813851168c3c5f024bca19c8ceb8369a10"
+  },
+  "independent_review": {
+    "component": "rev257_single_window_independent",
+    "files": 95,
+    "manifest_sha256": "1b7824e0c836fff111a774f4f315886265cfa7b4daf91a01ad9c0ddbc7fdea77",
+    "freeze_sha256": "d7ccd9e44bbaec91914ccbe768fc03037227dd81af306c11bdee7f866316e25c",
+    "relative_directory": "rev257_single_window_independent"
+  },
+  "aggregate_acceptance": {
+    "component": "rev261_current_single_window_acceptance",
+    "files": 3,
+    "manifest_sha256": "9787d97379b3b0d13ade4cebd203ef1affff659866a728d476e36d28e9ad7180",
+    "freeze_sha256": "ccbe65f614ddec7aa75230b005a4737acd7292e831a078d5d60967d7e30cefd0",
+    "report_sha256": "6fbed2ee1db08e5b3ff38d7b28649838ee082ea35c0cfe97d956f4ffe7f6ec50"
+  },
+  "scope": {
+    "module_version": "DingChen-source-single-window-0.1",
+    "implementation_revision": "0.1.0",
+    "analysis_ref": {
+      "id": "DingChen-ordinary-Bing-veto-whole-theme-research",
+      "version": "0.1"
+    },
+    "source_profile": "ziping-primary-functions-with-sanming-DingRen-Bing-veto/0.1",
+    "actual_model_policy": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev254_DingRen_whole_project_model_adoption.json",
+      "sha256": "9e3c641b2237583d78adad21bcec5c84b5142896d65c78a314a54372695cb280"
+    },
+    "actual_chain": "Whole native timeatom proof → actual233sourcequalified wholemodel for everyatom → everycompleteH → exact254model-scope adoption binding → originalstrict theme0.2 → original comparison.",
+    "all_source_before_provider": "Exact2404sources and actualoriginal freezes/manifests/policies/targets bind before anydynamic provider; everyprovidedcurrent/previous/future badinput is inspected before frames.",
+    "whole_window": "Every fullinventory boundary is retained. Full09–11 and exact10microboundary demonstrated, interiorgaps stayunknown rather than endpoint/prior interpolation. No physicalcontinuity claim.",
+    "knowledge_states": [
+      "confirmed_change",
+      "confirmed_same",
+      "confirmed_current_value_without_validprevious",
+      "joint_H_with_unresolved_display_relation",
+      "known_no_additional_support_required",
+      "source_pending",
+      "actual_goals_not_met",
+      "unknown_context",
+      "hard_input_error"
+    ],
+    "identity": "Same actualperson/chart/version/method required for comparison and displayupdate. Independentlyvalid current value may remain nested when foreigncomparison is protected.",
+    "all_H_projection": "Only unique elementunion across all robust minimal alternatives projectssingle. Joint andmixedalternatives preservefull AND/OR facts, no inventedrank/halfshares or firstitemselection.",
+    "base_and_layers": "OriginalnatalB is neitherread norwritten. SymbolicT/C20/P/D2/C0 andRGB notcalled orreinterpreted. Currenttraditionalreview is separately identified.",
+    "effective_adoption": "This external root261policy accepts exactfrozenconsumer. Candidate metadata and254historicalconsumerFalse stayunchanged; they are not selfcertification or currentdeployment authority.",
+    "input_truth": "Artificial legal suppliedfive-layer softwarecontracts; realcalendar/identitypresence/prediction notauthenticated and nevercreated byhashes.",
+    "all_original_C03_complete": false
+  },
+  "runtime_consumer_adopted": true,
+  "original_natal_B_default_and_weights_changed": false,
+  "frozen_pending_metadata_not_rewritten": true,
+  "score": "82.50/100",
+  "progress_delta": "0.00",
+  "original_task_complete": false,
+  "real_prediction_validated": false
+}

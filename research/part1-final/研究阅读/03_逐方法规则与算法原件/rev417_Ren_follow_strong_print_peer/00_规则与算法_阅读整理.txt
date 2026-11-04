@@ -1,0 +1,962 @@
+任氏从强印比同心完整有限机制
+rev417_Ren_follow_strong_print_peer
+所属原模块：C02
+当前采用：rev427_follow_strong_project_model_adoption.json
+范围：六人工合法族印比帮助及完整负荷；印轻重比率为工程代理，未决丁壬等不冒确认不变。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev417_Ren_follow_strong_print_peer/algorithm_explanations_31_functions.json
+SHA256：07fab47d3bb8f8f2cd3dbd8723797b237c5e40b7d0c75fa3a759909632949614
+
+1. strong.py:canonical
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "strong.py:canonical"
+}
+contract：{
+  "inputs": "JSON-compatible result",
+  "operations": "SortedcompactUnicodeJSONallow_nanFalse",
+  "outputs": "str, not UTF8bytes",
+  "preconditions_and_limits": "packFractionsfirst; main ownsUTF8print",
+  "purpose": "StablepackedJSON"
+}
+exact_reuse_contract_ref：null
+算法标识：strong.py:canonical
+module：strong.py
+qualname：canonical
+source_identity：{
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "first_line": 9,
+  "module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "qualified_name": "canonical",
+  "relative_path": "strong.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+2. strong.py:pairs
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "strong.py:pairs"
+}
+contract：{
+  "inputs": "parserpairs",
+  "operations": "Buildmap, fixedduplicatecode/noecho",
+  "outputs": "dict orValueError",
+  "preconditions_and_limits": "not source/schema validation",
+  "purpose": "StrictuniqueJSONkeys"
+}
+exact_reuse_contract_ref：null
+算法标识：strong.py:pairs
+module：strong.py
+qualname：pairs
+source_identity：{
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "first_line": 12,
+  "module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "qualified_name": "pairs",
+  "relative_path": "strong.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+3. strong.py:reject_constant
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "strong.py:reject_constant"
+}
+contract：{
+  "inputs": "NaN/Infinitytoken",
+  "operations": "fixedValueError",
+  "outputs": "neverreturnsnormally",
+  "preconditions_and_limits": "unwindNoneisnotnormalNone",
+  "purpose": "RejectnonfiniteJSON"
+}
+exact_reuse_contract_ref：null
+算法标识：strong.py:reject_constant
+module：strong.py
+qualname：reject_constant
+source_identity：{
+  "AST_sha256": "576529a4e8ed9aa76c22939526ad59de069d13cbc4f522b5e7a39d7514781e71",
+  "first_line": 19,
+  "module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "qualified_name": "reject_constant",
+  "relative_path": "strong.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+4. strong.py:bounded
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "strong.py:bounded"
+}
+contract：{
+  "inputs": "requesttree",
+  "operations": "Exactdict/list/str bounds/depth20/nodes2000/rejectsurrogates/floats",
+  "outputs": "NoneorValueError",
+  "preconditions_and_limits": "notcalendar/sourceauth",
+  "purpose": "BoundJSON-likeAPI/Unicode"
+}
+exact_reuse_contract_ref：null
+算法标识：strong.py:bounded
+module：strong.py
+qualname：bounded
+source_identity：{
+  "AST_sha256": "826494bb324091deacd3c239ea293fc48a295d98e77ab55ff997e677a64fc5a6",
+  "first_line": 22,
+  "module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "qualified_name": "bounded",
+  "relative_path": "strong.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+5. strong.py:strict_load
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "strong.py:strict_load"
+}
+contract：{
+  "inputs": "str<=5000",
+  "operations": "jsonhooks+bounded",
+  "outputs": "JSONvalueorValueError/RecursionError",
+  "preconditions_and_limits": "UTF8decodehappensmain",
+  "purpose": "BoundedstrictUTF8decodedJSON"
+}
+exact_reuse_contract_ref：null
+算法标识：strong.py:strict_load
+module：strong.py
+qualname：strict_load
+source_identity：{
+  "AST_sha256": "38bb65684f4233c9b69e4bc1eaf1860060d486fc8cc7c1b14e5ac903aac78934",
+  "first_line": 37,
+  "module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "qualified_name": "strict_load",
+  "relative_path": "strong.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+6. strong.py:guard
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "strong.py:guard"
+}
+contract：{
+  "inputs": "fixedlocalhashlock/inventory",
+  "operations": "Exactsource/runtime list,containednonsymlink/hash/size,capturebytes",
+  "outputs": "dict relativepath->bytes,orValueError/OSError",
+  "preconditions_and_limits": "noexec; storedsourcebytebindingnotremotetruth;PDFreferencenotdereferenced",
+  "purpose": "Allprovider/sourcebytesfirst"
+}
+exact_reuse_contract_ref：null
+算法标识：strong.py:guard
+module：strong.py
+qualname：guard
+source_identity：{
+  "AST_sha256": "45bc8a264c772b1eaca061f747fb0efb435d21e952697d6b645145247341b11d",
+  "first_line": 41,
+  "module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "qualified_name": "guard",
+  "relative_path": "strong.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+7. strong.py:load
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "strong.py:load"
+}
+contract：{
+  "inputs": "name,relative,material",
+  "operations": "ModuleType/compile/exec",
+  "outputs": "module",
+  "preconditions_and_limits": "itselfnotauthenticatebytes;publicevaluatecallscompleteguardfirst",
+  "purpose": "Compilecapturedprovider"
+}
+exact_reuse_contract_ref：null
+算法标识：strong.py:load
+module：strong.py
+qualname：load
+source_identity：{
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740",
+  "first_line": 55,
+  "module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "qualified_name": "load",
+  "relative_path": "strong.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+8. strong.py:evaluate
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "strong.py:evaluate"
+}
+contract：{
+  "inputs": "boundedrequest",
+  "operations": "guard->3capturedproviderexec->lockedprior->core.evaluate->pack",
+  "outputs": "fullJSONcompatible resultorerror",
+  "preconditions_and_limits": "noB/theme/display;privatecorestateisnotuntrustedrawAPI",
+  "purpose": "Fixedraw417API"
+}
+exact_reuse_contract_ref：null
+算法标识：strong.py:evaluate
+module：strong.py
+qualname：evaluate
+source_identity：{
+  "AST_sha256": "a7f846e6b251c95b6f54f4914c589b8bdf98fd7fc1507a370937c9049969b8f6",
+  "first_line": 58,
+  "module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "qualified_name": "evaluate",
+  "relative_path": "strong.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+9. strong.py:main
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "strong.py:main"
+}
+contract：{
+  "inputs": "stdinUTF8<=20000bytes",
+  "operations": "strictload/evaluate/canonical,knownerrorsstaticASCIIrejection",
+  "outputs": "exit0fullJSONor2oneerrorJSON",
+  "preconditions_and_limits": "doesnotpromiseallOSbrokenstdoutrecoverable;rawinvalidstatusandlegaloutsidesemanticreportsexit0",
+  "purpose": "ActualCLI"
+}
+exact_reuse_contract_ref：null
+算法标识：strong.py:main
+module：strong.py
+qualname：main
+source_identity：{
+  "AST_sha256": "17f3ea510db6263ebb19b85e78ced07471c0ed2c2961fb3e65bd1c0bca39a749",
+  "first_line": 62,
+  "module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "qualified_name": "main",
+  "relative_path": "strong.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+10. runtime/common_pool.py:coefficients
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/common_pool.py:coefficients"
+}
+contract：{
+  "inputs": "base.cfgandoptionalunusedselected",
+  "operations": "actualendpoints;reservedb/h;creditedb/c; optionalonlywaterbirthoffwithsamecost;rowL<1",
+  "outputs": "b/c/h/diagonals/rates/K/L/present/printbirthflag",
+  "preconditions_and_limits": "selecteddoesnotlicenseH;onlydeclaredratebox;contractionnotrealityproof",
+  "purpose": "Full417samecurrentmap"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/common_pool.py:coefficients
+module：runtime/common_pool.py
+qualname：coefficients
+source_identity：{
+  "AST_sha256": "ee72db41ee914ceefc692c61834ad1354ddcdd83a3b093cfe172f8a3dac452bf",
+  "first_line": 9,
+  "module_sha256": "766179feb1f9faf0de4092490eb835e37d59cbf8da6d6c12259b1051a6d3b05a",
+  "qualified_name": "coefficients",
+  "relative_path": "runtime/common_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='selected')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+
+11. runtime/common_pool.py:pack
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/common_pool.py:pack"
+}
+contract：{
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "Encode internal exact mathematics."
+}
+exact_reuse_contract_ref：runtime/flow402.py:pack
+算法标识：runtime/common_pool.py:pack
+module：runtime/common_pool.py
+qualname：pack
+source_identity：{
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "first_line": 25,
+  "module_sha256": "766179feb1f9faf0de4092490eb835e37d59cbf8da6d6c12259b1051a6d3b05a",
+  "qualified_name": "pack",
+  "relative_path": "runtime/common_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+12. runtime/common_pool.py:gauss
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/common_pool.py:gauss"
+}
+contract：{
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve."
+}
+exact_reuse_contract_ref：runtime/flow402.py:gauss
+算法标识：runtime/common_pool.py:gauss
+module：runtime/common_pool.py
+qualname：gauss
+source_identity：{
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "first_line": 33,
+  "module_sha256": "766179feb1f9faf0de4092490eb835e37d59cbf8da6d6c12259b1051a6d3b05a",
+  "qualified_name": "gauss",
+  "relative_path": "runtime/common_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+13. runtime/common_pool.py:actors_from_raw
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/common_pool.py:actors_from_raw"
+}
+contract：{
+  "inputs": "Legal raw pillars, original facts module, optional internal literal comparison pillar.",
+  "operations": "Preserve four positions, lookup all hidden stems and strict tengod roles; optional external column gets its own identity/position.",
+  "outputs": "actors and pillar tuples.",
+  "preconditions_and_limits": "Caller has raw legality. Internal literal context is not realUTC or publicly accepted input; no absentgold actor created. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "Keep all visible and hidden real carriers."
+}
+exact_reuse_contract_ref：runtime/flow402.py:actors_from_raw
+算法标识：runtime/common_pool.py:actors_from_raw
+module：runtime/common_pool.py
+qualname：actors_from_raw
+source_identity：{
+  "AST_sha256": "2761c46300aaf228478b1a371ff1c631e7fc22009e8f6299ce0868e8a279bf89",
+  "first_line": 47,
+  "module_sha256": "766179feb1f9faf0de4092490eb835e37d59cbf8da6d6c12259b1051a6d3b05a",
+  "qualified_name": "actors_from_raw",
+  "relative_path": "runtime/common_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='context')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+
+14. runtime/common_pool.py:inventory
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/common_pool.py:inventory"
+}
+contract：{
+  "inputs": "Actors/raw/facts and fixed mu,m cfg; optional literal context.",
+  "operations": "Main hidden element1, other actualhidden mu, month m; one non-day visible float. Per-element typedorigin max once; actors weighted by their direct totals; preserve every actor-root row.",
+  "outputs": "actors,present,direct,weights,rootrows,cfg.",
+  "preconditions_and_limits": "mu/m are engineering qualifications, not hidden percentages or earth12palaces. Common pool demonstrably not actor-local; per-element qualifications not cross-element mass conservation. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "Build typed phasefree direct pools and declared actor shares."
+}
+exact_reuse_contract_ref：runtime/flow402.py:inventory
+算法标识：runtime/common_pool.py:inventory
+module：runtime/common_pool.py
+qualname：inventory
+source_identity：{
+  "AST_sha256": "0ef7beac7e0acc7fa3e0d296c660541ab9fa4d0eb3c3db8f5eeaf025aef67893",
+  "first_line": 61,
+  "module_sha256": "766179feb1f9faf0de4092490eb835e37d59cbf8da6d6c12259b1051a6d3b05a",
+  "qualified_name": "inventory",
+  "relative_path": "runtime/common_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='cfg'), arg(arg='context')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+
+15. runtime/common_pool.py:solve
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/common_pool.py:solve"
+}
+contract：{
+  "inputs": "Base and selected extras.",
+  "operations": "Enumerate all active faces over present elements, rational solve candidate, substitute full max equations and nonnegative vector. Global contraction supplies uniqueness.",
+  "outputs": "Current,coefficients,activeface,exact certificate.",
+  "preconditions_and_limits": "No float gate/hint or oracle-selected phase; original4elements<=16faces, real5elements<=32faces. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "Find exact unique max-affine fixed point."
+}
+exact_reuse_contract_ref：runtime/flow402.py:solve
+算法标识：runtime/common_pool.py:solve
+module：runtime/common_pool.py
+qualname：solve
+source_identity：{
+  "AST_sha256": "3f5e3a272d0d037d2d692a713a79b8317f9e06a1bb993ca6ca8aee3c6182789d",
+  "first_line": 83,
+  "module_sha256": "766179feb1f9faf0de4092490eb835e37d59cbf8da6d6c12259b1051a6d3b05a",
+  "qualified_name": "solve",
+  "relative_path": "runtime/common_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='selected')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+16. runtime/common_pool.py:origins
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/common_pool.py:origins"
+}
+contract：{
+  "inputs": "Base and exact current world.",
+  "operations": "Gross direct+licensed generation; retention=current/gross; solve multi-RHS linear inherited flow; check nonnegative and exact sums/substitution.",
+  "outputs": "Typed pools,gross,retention,b contraction bound.",
+  "preconditions_and_limits": "Each original element-qualification origin injected once; allzero/noorigin case valid. Does not equate same branch labels across elements. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "Reconstruct every typed source in the same solved vector."
+}
+exact_reuse_contract_ref：runtime/flow402.py:origins
+算法标识：runtime/common_pool.py:origins
+module：runtime/common_pool.py
+qualname：origins
+source_identity：{
+  "AST_sha256": "68b315515713bb428dd7871847a3de739c68fdb4906a425cb5967529d60afa48",
+  "first_line": 97,
+  "module_sha256": "766179feb1f9faf0de4092490eb835e37d59cbf8da6d6c12259b1051a6d3b05a",
+  "qualified_name": "origins",
+  "relative_path": "runtime/common_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+17. runtime/foundation_facts.py:stem_element
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+contract：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "十干查五行"
+}
+exact_reuse_contract_ref：runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+module：runtime/foundation_facts.py
+qualname：stem_element
+source_identity：{
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "first_line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "stem_element",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+18. runtime/foundation_facts.py:ten_god
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+contract：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "严格十神角色"
+}
+exact_reuse_contract_ref：runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+module：runtime/foundation_facts.py
+qualname：ten_god
+source_identity：{
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "first_line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "ten_god",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+19. runtime/foundation_facts.py:validate
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate"
+}
+contract：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "原柱基础合法性"
+}
+exact_reuse_contract_ref：runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+module：runtime/foundation_facts.py
+qualname：validate
+source_identity：{
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "first_line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "validate",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+20. runtime/foundation_facts.py:formal_relations
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+contract：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "保留有位置的形式合冲"
+}
+exact_reuse_contract_ref：runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+module：runtime/foundation_facts.py
+qualname：formal_relations
+source_identity：{
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "first_line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "formal_relations",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+21. runtime/foundation_facts.py:root_evidence
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+contract：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+exact_reuse_contract_ref：runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+module：runtime/foundation_facts.py
+qualname：root_evidence
+source_identity：{
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "first_line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "root_evidence",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+22. runtime/foundation_facts.py:parse
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse"
+}
+contract：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification.",
+  "purpose": "原61完整四柱事实入口"
+}
+exact_reuse_contract_ref：runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+module：runtime/foundation_facts.py
+qualname：parse
+source_identity：{
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "first_line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "parse",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+23. runtime/strong_core.py:family
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/strong_core.py:family"
+}
+contract：{
+  "inputs": "none",
+  "operations": "Explicityear/month×twolegalhours",
+  "outputs": "list6dicts",
+  "preconditions_and_limits": "notoriginalRenexamples/notall从强",
+  "purpose": "Sixsyntheticrawconditions"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/strong_core.py:family
+module：runtime/strong_core.py
+qualname：family
+source_identity：{
+  "AST_sha256": "622420df21a85bda53bce2ee01de8fb6a4ea17b85d1d4d26497a8d1a303b006e",
+  "first_line": 9,
+  "module_sha256": "46f481467ace4cd8c699c35615b5bbb301ea8ae194f00ee2397b1e0ef4cff1c2",
+  "qualified_name": "family",
+  "relative_path": "runtime/strong_core.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+24. runtime/strong_core.py:condition_base
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/strong_core.py:condition_base"
+}
+contract：{
+  "inputs": "validatedraw,cfg,registeredcondition,pool,facts",
+  "operations": "Reusedtypedbase;wholepillaroractualsingle-stemprobe;allwitness/rootrows;recomputeshare;dayextraFalse",
+  "outputs": "base actors/direct/shares/rootrows/cfg/condition/natalrootorigins",
+  "preconditions_and_limits": "stemprobehasnobranchortime;no dayfloat;notRenearth12palaces",
+  "purpose": "Allactualoriginal/diagnosticinventory"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/strong_core.py:condition_base
+module：runtime/strong_core.py
+qualname：condition_base
+source_identity：{
+  "AST_sha256": "65902a4b4782341ee6dd9628464fc9b458eae4a517ec44c5a7d44413c8c7b261",
+  "first_line": 12,
+  "module_sha256": "46f481467ace4cd8c699c35615b5bbb301ea8ae194f00ee2397b1e0ef4cff1c2",
+  "qualified_name": "condition_base",
+  "relative_path": "runtime/strong_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='cfg'), arg(arg='condition'), arg(arg='pool'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+25. runtime/strong_core.py:goals
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/strong_core.py:goals"
+}
+contract：{
+  "inputs": "base/exactworld/origins",
+  "operations": "2originalcarriersand2originalrootorigins/party;eachoriginalrootcurrent>=root_min;retainedprintbirth>0;positivecurrent",
+  "outputs": "checks/physicalmet/rootcounts/rootcurrent/actualretainedbirth",
+  "preconditions_and_limits": "sufficientengineeringnotRenstrengthnumbers;sourcecontinuationseparatelygated",
+  "purpose": "Bothpartiesactualstrongcooperation"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/strong_core.py:goals
+module：runtime/strong_core.py
+qualname：goals
+source_identity：{
+  "AST_sha256": "a1f7a83bbfcff780490e12f68c341d9574a0d7ec371b5971f8075160c90ebd3c",
+  "first_line": 32,
+  "module_sha256": "46f481467ace4cd8c699c35615b5bbb301ea8ae194f00ee2397b1e0ef4cff1c2",
+  "qualified_name": "goals",
+  "relative_path": "runtime/strong_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+26. runtime/strong_core.py:reconstruct
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/strong_core.py:reconstruct"
+}
+contract：{
+  "inputs": "base/world/origins",
+  "operations": "Actorports=share*pools;allrealendpoints;actualgen/control;gross-current-cost-loss;proportionaltargetloss;costheldoff",
+  "outputs": "actorports/allsignededges/allpotentialcosts/elementbudgets",
+  "preconditions_and_limits": "commonpoolgain1notlocalphysicalequivalence;zeroactorsandqualificationsnotremoved",
+  "purpose": "Everyactualactor-origin action/cost"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/strong_core.py:reconstruct
+module：runtime/strong_core.py
+qualname：reconstruct
+source_identity：{
+  "AST_sha256": "6fb6bbb9132e0635b822c4c37bf30a060e52cda2f59d592320932161aad63f72",
+  "first_line": 37,
+  "module_sha256": "46f481467ace4cd8c699c35615b5bbb301ea8ae194f00ee2397b1e0ef4cff1c2",
+  "qualified_name": "reconstruct",
+  "relative_path": "runtime/strong_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+27. runtime/strong_core.py:mechanism_witnesses
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/strong_core.py:mechanism_witnesses"
+}
+contract：{
+  "inputs": "base/world/ports/goals",
+  "operations": "Everywood/waterendpointmask;halfwoodcarrierandsameactualretainedprintedgecredit;allminimalsets",
+  "outputs": "endpointIDs/allrows/allminimalwitnesses/floors/semantics",
+  "preconditions_and_limits": "NOTextraAUX;dayonlyexistingendpoint;actualworld/badfunctions/costsunchanged;productsprovedbyedgeretention",
+  "purpose": "Wholefixed-statecooperationwitnesses"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/strong_core.py:mechanism_witnesses
+module：runtime/strong_core.py
+qualname：mechanism_witnesses
+source_identity：{
+  "AST_sha256": "18cff4480b00df55aba6b9400cdafe6058b184ea43a6f8bba5e5543e1f5cec75",
+  "first_line": 59,
+  "module_sha256": "46f481467ace4cd8c699c35615b5bbb301ea8ae194f00ee2397b1e0ef4cff1c2",
+  "qualified_name": "mechanism_witnesses",
+  "relative_path": "runtime/strong_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='g')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+28. runtime/strong_core.py:one_world
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/strong_core.py:one_world"
+}
+contract：{
+  "inputs": "base,pool",
+  "operations": "solve->origins->goals->fullgraph",
+  "outputs": "world/origins/goals/full_signed_graph",
+  "preconditions_and_limits": "noHselection/actor-deletionworld",
+  "purpose": "Onefullsamecurrentdiagnostic"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/strong_core.py:one_world
+module：runtime/strong_core.py
+qualname：one_world
+source_identity：{
+  "AST_sha256": "e43097f2319893b7e39b2f8def169bac1761a12d17b08008e44ddc083a8bfb56",
+  "first_line": 67,
+  "module_sha256": "46f481467ace4cd8c699c35615b5bbb301ea8ae194f00ee2397b1e0ef4cff1c2",
+  "qualified_name": "one_world",
+  "relative_path": "runtime/strong_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+29. runtime/strong_core.py:context_combination_audit
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/strong_core.py:context_combination_audit"
+}
+contract：{
+  "inputs": "baseactualactors",
+  "operations": "Onlynewcontextvsoriginalvisiblefive-combinationcandidates;pair/IDs/status kept",
+  "outputs": "rows/source_continuation_relations_closed/scope",
+  "preconditions_and_limits": "甲日旁丁壬not日主化格;noauto化/合绊/invalidity;pendingonlytheseunconsumednewcandidateconditions",
+  "purpose": "Newvisiblecontextsourcegate"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/strong_core.py:context_combination_audit
+module：runtime/strong_core.py
+qualname：context_combination_audit
+source_identity：{
+  "AST_sha256": "6fb6c122e02b6f641a5899761af12c7a10c27684439e90edd6b15a7f1a738598",
+  "first_line": 71,
+  "module_sha256": "46f481467ace4cd8c699c35615b5bbb301ea8ae194f00ee2397b1e0ef4cff1c2",
+  "qualified_name": "context_combination_audit",
+  "relative_path": "runtime/strong_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+30. runtime/strong_core.py:analyze
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/strong_core.py:analyze"
+}
+contract：{
+  "inputs": "base,natalactual,pool,conditionID",
+  "operations": "Samecostprintbirthoff;gain;fullmechanism;sourceabsence+relationgate;separatezero-candidateextraH;relativeI/Wandfood量",
+  "outputs": "actual/contrast/witnesses/extraH/sourcecontinuation/reasons/proxy/food/methodconclusion",
+  "preconditions_and_limits": "I/W1engineeringproxyonlytwotypedillustrations;sourceunfavorablefoodnotF0/death;pendingnotdefault;notalltraditionalfinalpriority",
+  "purpose": "Source/actual/mechanism/extra/foodbridge"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/strong_core.py:analyze
+module：runtime/strong_core.py
+qualname：analyze
+source_identity：{
+  "AST_sha256": "c8b2ad03a04d6564828d6effd4e67b475153bd97c58fbac059106b3a85f739cd",
+  "first_line": 80,
+  "module_sha256": "46f481467ace4cd8c699c35615b5bbb301ea8ae194f00ee2397b1e0ef4cff1c2",
+  "qualified_name": "analyze",
+  "relative_path": "runtime/strong_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='natal'), arg(arg='pool'), arg(arg='condition_id')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+31. runtime/strong_core.py:evaluate
+实际输入输出：{
+  "actual_current_execution": true,
+  "artifact": "actual/runtime31_actual_IO.json.gz",
+  "record": "runtime/strong_core.py:evaluate"
+}
+contract：{
+  "inputs": "exactrequest/prior/facts/pool",
+  "operations": "schema/condition->facts->6family->natalbase/conditionbase/fullanalysis",
+  "outputs": "completecandidateorinvalidoriginal/legaloutsidefactsreport",
+  "preconditions_and_limits": "no ordinary-failure-to-fromstrongfallback;unregisteredrelationsnotpretendclosed;noB/theme/timeconsumer",
+  "purpose": "Legalraw+finitesourceentry"
+}
+exact_reuse_contract_ref：null
+算法标识：runtime/strong_core.py:evaluate
+module：runtime/strong_core.py
+qualname：evaluate
+source_identity：{
+  "AST_sha256": "7240086f22a4bcb6c95b52dd98ace4d7758fca3ef812e26a8a9dd756db234317",
+  "first_line": 95,
+  "module_sha256": "46f481467ace4cd8c699c35615b5bbb301ea8ae194f00ee2397b1e0ef4cff1c2",
+  "qualified_name": "evaluate",
+  "relative_path": "runtime/strong_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='prior'), arg(arg='facts'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+原件：work/rev417_Ren_follow_strong_print_peer/source_rule_cards_ten_fields.json
+SHA256：a85cc1c8811efeadf20b75301da547df1746ef828e2d1e39df3cb40da2cc8aff
+
+1. SOURCE-STRONG
+changes：新增根/印比/财官/食伤必须完整重算；原格与源继续前件、实际量分开。
+conditions：原甲子日卯月纯木水的6合法结构；所有藏字实际枚举，多载体多根且现根承继过工程强门。
+conflicts：source前件优先，数学强门不冒经典充分必要；与从旺可重叠。
+exclusions：其他原柱不是传统从强必否；有新财官而current0也不当它身份不存在。
+算法标识：SOURCE-STRONG
+original44_id：REN-从强
+proposition：纯印比、日主当令且无财官
+rule_expression：source_scope + goals + analyze; no physical/root removal.
+school：任氏从强有限印比两方任务，不移作从旺/从气的唯一格名或主本文规则
+source：Ren1947cache368printed卷三九二从强段；367–370与374完整上下文，83–84刑害名消费有限复用
+source_layers：原文条件/来源命名重叠/phasefree资格/预算数门与机制见证工程分别标注
+status：作者0.1.1已实际研究/实现/行为核验；定量为明示工程；等待真正非作者复核与主任务采用，不自采用
+verification：6人工合法盘含多根未闭反例，印比/财官/食条件；无伪原载命例
+
+2. ROOT-AND-BUDGET
+changes：关印birth正许可保全部成本与坏控制，同源量不重复记。
+conditions：所有原始明藏、同支typed资格与非日浮量保；同originmax/异origin和；木印各两原根来源及rootcurrent>=1工程。
+conflicts：数门变化列参数敏感与严格边界，不能删根调数保古例。
+exclusions：不把有两个元素或角色名直接叫双方强；不借任土十二宫。
+算法标识：ROOT-AND-BUDGET
+original44_id：REN-从强
+proposition：实际根与双方同当前量
+rule_expression：condition_base/common_pool + reconstruct exactledgers
+school：任氏从强有限印比两方任务，不移作从旺/从气的唯一格名或主本文规则
+source：Ren1947cache368printed卷三九二从强段；367–370与374完整上下文，83–84刑害名消费有限复用
+source_layers：原文条件/来源命名重叠/phasefree资格/预算数门与机制见证工程分别标注
+status：作者0.1.1已实际研究/实现/行为核验；定量为明示工程；等待真正非作者复核与主任务采用，不自采用
+verification：原有root/新条件rawidentity/所有origin边与成本正反/边界
+
+3. MECHANISM-NOT-EXTRA
+changes：额外题[[]]/[]各自按数学真值，不叫无用神；机制见证变化不改物理世界。
+conditions：固定完整世界选木受力端点和印施力端点，半carrier/半存活印→木信用；印比本体固定额外候选为空。
+conflicts：双方机制H不与旧AUX extraH同名，不把任意两组H看作同义。
+exclusions：日干可受力，绝不标为可选额外辅助；不再注入主体无损助力；H非物理删人。
+算法标识：MECHANISM-NOT-EXTRA
+original44_id：REN-从强
+proposition：既有两方机制见证与新增辅助分离
+rule_expression：mechanism_witnesses exhaustive andanalyze.extra_auxiliary_question
+school：任氏从强有限印比两方任务，不移作从旺/从气的唯一格名或主本文规则
+source：Ren1947cache368printed卷三九二从强段；367–370与374完整上下文，83–84刑害名消费有限复用
+source_layers：原文条件/来源命名重叠/phasefree资格/预算数门与机制见证工程分别标注
+status：作者0.1.1已实际研究/实现/行为核验；定量为明示工程；等待真正非作者复核与主任务采用，不自采用
+verification：全部机制子集和实际边信用、源任务桥、原印关闭同预算对照
+
+4. PRINT-FOOD
+changes：单丙/丁条件无支不私补；丙午完整柱己财保留，不冒纯食伤。
+conditions：原局I/W比1仅工程相对代理；源食伤条并列，物理存活木→火/承载另判。
+conflicts：源建议、当前物理量与格是否继续前件分开。
+exclusions：仅主人工轻型与重型展示该代理分支，未认证古法轻重；源不宜不要求火0，不拟合死亡。
+算法标识：PRINT-FOOD
+original44_id：REN-从强
+proposition：印轻/重与食伤条件
+rule_expression：analyze.food_diagnostic; both actualwaterbirth andcontrolretained
+school：任氏从强有限印比两方任务，不移作从旺/从气的唯一格名或主本文规则
+source：Ren1947cache368printed卷三九二从强段；367–370与374完整上下文，83–84刑害名消费有限复用
+source_layers：原文条件/来源命名重叠/phasefree资格/预算数门与机制见证工程分别标注
+status：作者0.1.1已实际研究/实现/行为核验；定量为明示工程；等待真正非作者复核与主任务采用，不自采用
+verification：轻型存食、重型水控食；c=2/5时重型仍存火；等号/两侧
+
+5. CONDITIONS
+changes：原根继承、现量、控制损失和印相增益都给前后实际值。
+conditions：乙卯/壬子/戊辰/辛酉/丙午都加实际明藏根并完整重解，source_current_no_finance_officer按identity。
+conflicts：财官运源不宜不等普遍凶/原格必破；core维持也不等运吉。
+exclusions：不是完整大运排盘/真实UTC；未登记项和其他日月源列具体缺口。
+算法标识：CONDITIONS
+original44_id：REN-从强
+proposition：实际条件变化与来源前件
+rule_expression：condition_base + one_world + analyze
+school：任氏从强有限印比两方任务，不移作从旺/从气的唯一格名或主本文规则
+source：Ren1947cache368printed卷三九二从强段；367–370与374完整上下文，83–84刑害名消费有限复用
+source_layers：原文条件/来源命名重叠/phasefree资格/预算数门与机制见证工程分别标注
+status：作者0.1.1已实际研究/实现/行为核验；定量为明示工程；等待真正非作者复核与主任务采用，不自采用
+verification：所有48登记原柱/条件组合预期与同预算对照
+
+6. NEW-CONTEXT-VISIBLE-COMBINATION
+changes：退出条件可精确回到原局；数值/原根/成本/机制见证仍完整重算，只有源延续与额外题完成标签受未闭前件影响。
+conditions：只审新增context/probe明干与原明干出现的当前登记五合候选；本版丁壬/戊癸合绊/化的作用尚未消费。
+conflicts：新关系源前件未闭先于条件后从强取用结论，不能用未变换共池实算冒已解该合。
+exclusions：不宣所有五合无效，也不据春月丁壬四字自动化木；财已不满足无财官前件，与合效待判分列。
+算法标识：NEW-CONTEXT-VISIBLE-COMBINATION
+original44_id：REN-从强
+proposition：新条件旁干五合未消费须列源延续待核
+rule_expression：context_combination_audit -> source_continuation_relations_closed; no_deletion; complete includes this gate
+school：任氏从强有限印比两方任务，不移作从旺/从气的唯一格名或主本文规则
+source：原事实STEM_COMBINATIONS + Ren374化象完整条件边界；甲日旁干合不套日主化格
+source_layers：原文条件/来源命名重叠/phasefree资格/预算数门与机制见证工程分别标注
+status：作者0.1.1已实际研究/实现/行为核验；定量为明示工程；等待真正非作者复核与主任务采用，不自采用
+verification：事前新修复预期：重型单丁pending而物理不变；主型戊辰财身份和戊癸待判两个理由；原印比/单丙回归。
+
+原件：work/rev417_Ren_follow_strong_print_peer/reference_receipt_complete.json
+SHA256：662e5b3315b207b4a8513b5d71e89a5db613046e081edc6b83a7fe8dbcf2e9ff
+
+{
+  "all_quotes_and_summaries_are_cultural_source_evidence_not_empirical_validation": true,
+  "edition_limits": "source/edition248.json",
+  "main_URL": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf",
+  "main_reading_receipt": {
+    "path": "source/reference_reading_receipt.json",
+    "sha256": "40b71de4199924bb64ab40cb5fa8d8722046bc52c06380a5df30d0059cd8d6c2"
+  },
+  "main_source_layer": "book-labelled任氏曰, Ren368printed卷三九二从强; copiedsameeditionimages, not allbook newlyread",
+  "main_source_physical_pdf_pages": [
+    367,
+    368,
+    369,
+    370,
+    374
+  ],
+  "original_download_record": "source/download248.json",
+  "preserved_original_pdf_pointer": "source/original_pdf_reference.json",
+  "primary_edition_reauthentication_claim": false,
+  "reused_actual_visual_reading": {
+    "prior_receipt_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev409_follow_force_S2_independent_review/reference_reading_receipt.json",
+    "same_local_material": [
+      {
+        "path": "source/Ren-083.png",
+        "sha256": "4bddc9cf5bb46a2abb7a5a8033dba35f2644eddf211a477b3bd152973a9c03b3"
+      },
+      {
+        "path": "source/Ren-084.png",
+        "sha256": "fb5e49e802eab8809aa2b6842c7e60b40e6ea016b2ace3e2e891af0ed563798f"
+      }
+    ],
+    "same_researcher_prior_full_page_visual_read": "409 alltenpages actuallyviewed; this417 reusesonly83/84 named刑害finitecontext",
+    "scope": "Only刑害名不额外叠伤/保实际生克；notgenericall合化resolved",
+    "selected_pages": [
+      {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev392_Ren_follow_force_S2_whole/source/Ren-083.png",
+        "sha256": "4bddc9cf5bb46a2abb7a5a8033dba35f2644eddf211a477b3bd152973a9c03b3"
+      },
+      {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev392_Ren_follow_force_S2_whole/source/Ren-084.png",
+        "sha256": "fb5e49e802eab8809aa2b6842c7e60b40e6ea016b2ace3e2e891af0ed563798f"
+      }
+    ],
+    "sha256": "98736d16837a3d83d1e32b854056b9f7662e160a347221332320cdbb8480b657"
+  },
+  "runtime_original_project_reads": false,
+  "schema": "417-reference-receipt-complete"
+}

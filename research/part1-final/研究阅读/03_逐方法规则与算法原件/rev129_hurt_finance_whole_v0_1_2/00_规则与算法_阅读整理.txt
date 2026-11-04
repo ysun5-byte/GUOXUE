@@ -1,0 +1,615 @@
+伤官生财当下整盘
+rev129_hurt_finance_whole_v0_1_2
+所属原模块：C03
+当前采用：rev130_HF012_current_project_model_adoption.json
+范围：当前无活动印的限定域；全部比劫正负作用、财负担和反馈保留；财印两清、相对轻重未决不能凭数字成功放行。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev129_hurt_finance_whole_v0_1_2/algorithm_explanations.json
+SHA256：158b633243285cd0ae2c898f3037fb4832d82678bc914f175310973ba91af3ff
+
+1. HF-A01
+算法标识：HF-A01
+函数标识：canonical
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：17
+end_line：17
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+input：JSON value
+output：stable finite JSON text
+算法与理由：Sort keys and retain exact strings, enabling whole-result comparison.
+boundary：Does not certify source truth.
+actual_IO_ref：actual_function_IO.json.gz#canonical
+implementation_revision：0.1.2
+
+2. HF-A02
+算法标识：HF-A02
+函数标识：digest
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：18
+end_line：18
+函数AST摘要：ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431
+input：JSON value
+output：canonical SHA256
+算法与理由：Bind new method separately from literal old native input and current contexts.
+boundary：Hash is content identity, not authenticity.
+actual_IO_ref：actual_function_IO.json.gz#digest
+implementation_revision：0.1.2
+
+3. HF-A03
+算法标识：HF-A03
+函数标识：strict_load
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：19
+end_line：27
+函数AST摘要：d9536335029b08a4febbf30efc5962a6758b56b92b9cdd663d32ed116d4b7cb6
+input：JSON bytes/text
+output：unique finite parsed tree or rejection
+算法与理由：Duplicate-key and nonfinite tokens are rejected before method meaning.
+boundary：Native source and pillar contracts still apply.
+actual_IO_ref：actual_function_IO.json.gz#strict_load
+implementation_revision：0.1.2
+
+4. HF-A04
+算法标识：HF-A04
+函数标识：strict_load.pairs
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：20
+end_line：25
+函数AST摘要：b93f5768b70320d74d41a648047f1348ebf71ccabfde21d20070b9047a9c0fe4
+input：object key/value sequence
+output：unique dict or ValueError
+算法与理由：Avoid last-key-wins ambiguities.
+boundary：Structural only.
+actual_IO_ref：actual_function_IO.json.gz#strict_load.pairs
+implementation_revision：0.1.2
+
+5. HF-A05
+算法标识：HF-A05
+函数标识：strict_load.bad
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：26
+end_line：26
+函数AST摘要：0c0f2ab8c85d48401ddff002e7a74142778719cc7684675d4c7ce92d91180c87
+input：nonfinite token
+output：ValueError
+算法与理由：Prevent NaN/Infinity in exact arithmetic.
+boundary：Actual IO None denotes exception unwind, expressly annotated.
+actual_IO_ref：actual_function_IO.json.gz#strict_load.bad
+implementation_revision：0.1.2
+
+6. HF-A06
+算法标识：HF-A06
+函数标识：pack
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：28
+end_line：33
+函数AST摘要：0d978c60e5eeafc768866f9e60ecd53c0a775bd369a0f458ffb58059d73b6d3e
+input：Fraction/Interval/nested value
+output：rational strings and lower/upper interval JSON
+算法与理由：Preserve exact budgets, enclosures and uncertainty.
+boundary：No midpoint replacement or rounded goal.
+actual_IO_ref：actual_function_IO.json.gz#pack
+implementation_revision：0.1.2
+
+7. HF-A07
+算法标识：HF-A07
+函数标识：manifest_check
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：34
+end_line：41
+函数AST摘要：cffaf377f1554f409c50cf425070a842e761e5fc4a0309186b43fa54d88066c3
+input：prefix/captured/full hash inventory/count
+output：None or source refusal
+算法与理由：Whole original898, reviewer41, root acceptance3 with nested metadata retained.
+boundary：Root-only manifest/freeze exclusion, never trim subtrees.
+actual_IO_ref：actual_function_IO.json.gz#manifest_check
+implementation_revision：0.1.2
+
+8. HF-A08
+算法标识：HF-A08
+函数标识：source_correspondence
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：42
+end_line：81
+函数AST摘要：3b1023249d08c4fa9935e699ee981338de6c0a1758a01d339337800219fd1523
+input：all captured source JSON and actual byte hashes
+output：source contract or refusal before exec
+算法与理由：Before provider exec, actual referenced108freeze3target+reportSHA,113aggregatefreeze/report/schema/H-boundary,898model-freeze core/lock/report/algorithm/actualIO SHA/method/module/counts/nonadoption map to actual captured bytes; source preexisting metadata and all original954 unchanged. See actual_top_binding_map.json and29 actual zeroexec adversaries.
+boundary：Prior WT2 approval does not approve this new finance method. Source metadata truth is not source authenticity proof.
+actual_IO_ref：actual_function_IO.json.gz#source_correspondence
+implementation_revision：0.1.2
+
+9. HF-A09
+算法标识：HF-A09
+函数标识：load_modules
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：82
+end_line：102
+函数AST摘要：c4a3617ac0d18559135bc4056d577db1dea7c946e4097764b2481eedeb092271
+input：fixed954 dependencies/profile
+output：literal WT2/643 providers plus explicit new profile
+算法与理由：Check entire inventory/hashes/source correspondence and fixed old g/c/reach/load constants before any provider exec.
+boundary：Old898 and originalnative identity remain unchanged; new finance load/vitality and mediation contract explicitly new engineering.
+actual_IO_ref：actual_function_IO.json.gz#load_modules
+implementation_revision：0.1.2
+
+10. HF-A10
+算法标识：HF-A10
+函数标识：validate_request
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：103
+end_line：108
+函数AST摘要：efb9f71013cb96ff9438f72c04e30f2130b3d71c4749e4d06e2887324a5a4e38
+input：exact new outer wrapper and unchanged native input
+output：original native reports or rejection
+算法与理由：Bind method/native/profile/source contract; run literal original facts/time/natal and hard native checks.
+boundary：No caller cfg or H; original invalid pillars fail even if later source would be pending.
+actual_IO_ref：actual_function_IO.json.gz#validate_request
+implementation_revision：0.1.2
+
+11. HF-A11
+算法标识：HF-A11
+函数标识：root_witnesses
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：109
+end_line：112
+函数AST摘要：0d7d698e995552ad51efcbef0071e315ca7863964eddaa24fda7ed06da59b21e
+input：stem,raw,selected temporal records,primitive hidden facts
+output：actual same-element hidden-root witness list
+算法与理由：Record original vs temporary physical root facts separately from ROOT02 qi qualification.
+boundary：A qi root is not a fabricated hidden character; physical root presence alone is not body strength.
+actual_IO_ref：actual_function_IO.json.gz#root_witnesses
+implementation_revision：0.1.2
+
+12. HF-A12
+算法标识：HF-A12
+函数标识：secondary_guard
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：113
+end_line：124
+函数AST摘要：0328835dc456ef9a1b21e5af841ed6d13a5100d14983ebbb1d0012f8bd64110f
+input：raw/current typed root origins and actual direct ports
+output：named relation rows with positive root users and sourcepending
+算法与理由：Enumerate natal/current harm,break,self-punishment,two-branch3punishment; unresolved actual positive-root effect blocks H.
+boundary：Not universal classical格败, root deletion or harmlessness proof; partial three-harmony retains old root model without full transform credit.
+actual_IO_ref：actual_function_IO.json.gz#secondary_guard
+implementation_revision：0.1.2
+
+13. HF-A13
+算法标识：HF-A13
+函数标识：source_context
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：125
+end_line：155
+函数AST摘要：13dc1db780c34a34a8101cff6e3c87648245e7e14256e1723d97ce6829d5131d
+input：strict HAP,old actor context,actual ports and roots
+output：preselected source,all source reasons,H1/root witnesses
+算法与理由：Monthly伤官, actual roots and declared direct B/H predicate first. Finance strongB>H>0, wear proxy0<B<H<=2B, otherwise undecided. Relation/climate/H1, other roles, hidden-only hurt and finance/print compatibility are real hard pending gates.
+boundary：Never choose source by H success. B/H is explicit finite engineering proxy, not a classical general strength theorem; no unified cross-use router adopted.
+actual_IO_ref：actual_function_IO.json.gz#source_context
+implementation_revision：0.1.2
+
+14. HF-A14
+算法标识：HF-A14
+函数标识：certificate_scope
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：156
+end_line：180
+函数AST摘要：c80fa81e8ec0f4bb80242987a59324d6d1ab7af84f1bbc6b6893c5a9651de11f
+input：actual actors/nonnegative own direct ports/fixed cfg
+output：executable common-w premise checks and actual per-target slope portfolios
+算法与理由：Record actual nPrint,merged P,ownport hashes; verify every reach/g/c in[0,1]. Per-origin B_b,o(w)=max(D_b,o,w*max_j(g*r_jb*P_j,o)); actual slope masses bound by gP,g²P,cP for any print count under ONE w.
+boundary：This is not arbitrary portfolio L1 nonexpansion or independent w_j; actual common attack vector/positiveP/L are separately required before a feedback root. Negative ports or unbounded reach refuse certification.
+actual_IO_ref：actual_function_IO.json.gz#certificate_scope
+implementation_revision：0.1.2
+
+15. HF-A15
+算法标识：HF-A15
+函数标识：function_certificate
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：181
+end_line：191
+函数AST摘要：fee25a2964130210d0569d6ebf455aec3ecfc61ea32d4a22d92a32e3bf50d6e8
+input：all complete own portfolios and reach vectors
+output：actual distinct function groups,common finance attack rate,L certificate
+算法与理由：Each full key includes hurt direct,day/peer ports,ownprint birthday/control vector and every finance emission. Use conservative peer-inclusive c*((2*nF+nPeer)*m*g*(2g²+c)+nPeer*c*g).
+boundary：L>=1 is uncertified; common vector absent requires other model. Old9m/128 is not reused outside its original no-peer scope.
+actual_IO_ref：actual_function_IO.json.gz#function_certificate
+implementation_revision：0.1.2
+
+16. HF-A16
+算法标识：HF-A16
+函数标识：signed_map
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：192
+end_line：229
+函数AST摘要：a9e40eb068834d36e69f7d2dc0db2d3c8b41303f276a9b2ea488fd90ba327f4b
+input：fixed actual context/direct ports/cfg,availability w,internal blocked operators
+output：complete signed numeric state and origin ledgers
+算法与理由：Own Pj*w birthdays day/each peer,day/peer→hurt,print restraint with proportional retention,hurt→each finance,pooled peer gross less only own attenuated hurt-finance path,post-loss financial stock and full current hurt+direct finance carrying load.
+boundary：Continuous mediation is a new named engineering contract, not silent Food05 threshold removal. Other actual官杀/food roles are explicitly uncovered and cannot yield full H. Test blocked operators not accepted native input.
+actual_IO_ref：actual_function_IO.json.gz#signed_map
+implementation_revision：0.1.2
+
+17. HF-A17
+算法标识：HF-A17
+函数标识：actual_world
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：230
+end_line：257
+函数AST摘要：07fc54f38dfdfde94cbb3c2775e2d0a164ea1f2fe7e023f7f8e09dea9af49e3e
+input：fixed actual ports/source context/profile
+output：exact no-print state or certified feedback enclosure,all hard goals
+算法与理由：Without print no feedback target, one exact pass. With common print task solve single post-peer finance attack/merged P availability; all own emitters keep own ports, every signed edge recomputed. Then source degree/root/display/finance vitality/generation/carry goals.
+boundary：Numeric success never licenses finance/print source compatibility; missing vector,unprovedL or interval goal remains unresolved.
+actual_IO_ref：actual_function_IO.json.gz#actual_world
+implementation_revision：0.1.2
+
+18. HF-A18
+算法标识：HF-A18
+函数标识：actual_world.scalar
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：236
+end_line：238
+函数AST摘要：1a894de0be86722e98b538d37d30e8e065dfa4faac763c75c8c551806c48b370
+input：rational w in[0,1]
+output：exact max(0,1-commonRate*postPeerFinance/P)
+算法与理由：Execute full signed map at each solver point, assert point exactness.
+boundary：One shared attack only; no repeated budget per print. Evaluation points are not asserted roots.
+actual_IO_ref：actual_function_IO.json.gz#actual_world.scalar
+implementation_revision：0.1.2
+
+19. HF-A19
+算法标识：HF-A19
+函数标识：positive_carry_projection
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：258
+end_line：270
+函数AST摘要：c830f7e424ab872d6aaaae1c2a960732e04a0a0e0cb6d9098cfeaad15309bd24
+input：complete actual state plus all source/functional background
+output：all subsets,every-superset robust inclusion-minimal carry sets
+算法与理由：Globally remove disabled peer floating origins from every chosen body port, include chosen print birthdays; keep ALL actual harms/display/financial loss and current load fixed.
+boundary：This H explains positive carry assistance under actual hard background, not physical actor deletion or a claim all disabled worlds satisfy every functional goal.
+actual_IO_ref：actual_function_IO.json.gz#positive_carry_projection
+implementation_revision：0.1.2
+
+20. HF-A20
+算法标识：HF-A20
+函数标识：graph_for_support
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：271
+end_line：297
+函数AST摘要：0afdf5553e8e4cbbebb175417aedbb0f58a027aab58ceb9d5cbec37fddb0d1c8
+input：one full robust support set and complete actual state
+output：one complete AUX graph
+算法与理由：All actual goals hard; finance formation is selectable positive alternatives, and EACH support member has its own required goal. Separate complete graphs implement OR between support alternatives.
+boundary：No flattening joint requirements; positive/negative background alone cannot become H.
+actual_IO_ref：actual_function_IO.json.gz#graph_for_support
+implementation_revision：0.1.2
+
+21. HF-A21
+算法标识：HF-A21
+函数标识：graph_for_support.background
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：280
+end_line：281
+函数AST摘要：98f3b3d6d29399c7e481c7f300aa022646a29ec9e5edce84ec8613a5da035b7a
+input：task name/sign/current activity/source reason
+output：None plus actual task appended
+算法与理由：Keep birthday,restraint,financialstock/attack/cost,peer support/own mediation/loss,day generation and hurt generation/leak in graph with actual activity.
+boundary：Appender actual side effect captured in IO. Control0 is not marked active; background positive is not automatic helper.
+actual_IO_ref：actual_function_IO.json.gz#graph_for_support.background
+implementation_revision：0.1.2
+
+22. HF-A22
+算法标识：HF-A22
+函数标识：analyze_ledger
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：298
+end_line：309
+函数AST摘要：7ae35aab74be43bd096ad3f25d59eba413b6fee5540b78c344fc3f6dcb63d049
+input：unchanged raw/HAP,one selected temporal list,providers
+output：source context,actual world,projection/full H graphs or None
+算法与理由：Build direct ROOT02 ports, select source before any H, compute all actual state then gate native AUX by source and every actual goal.
+boundary：No print H fallback; original-natal/current/new-method ledgers distinguished.
+actual_IO_ref：actual_function_IO.json.gz#analyze_ledger
+implementation_revision：0.1.2
+
+23. HF-A23
+算法标识：HF-A23
+函数标识：evaluate
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：310
+end_line：322
+函数AST摘要：a4e3d4f33d33955b0f2329e5a42abd1c19a314259eb2405c040f3838cdfefaa0
+input：new outer request
+output：deterministic original/native + new natal/current reports
+算法与理由：Original full source/input checks first. Only complete current instantaneous records enter current ledger; valid windows and not_current inventories explicitly produce no current ledger/H.
+boundary：Point-only candidate, not window display release, B/C20 or same-chart distinct-single claim. Public VERSION/SCHEMA/METHOD remain original0.1.1; only new implementation_revision0.1.2 output metadata. No formula, config, source frame or native input changes.
+actual_IO_ref：actual_function_IO.json.gz#evaluate
+implementation_revision：0.1.2
+
+24. HF-A24
+算法标识：HF-A24
+函数标识：main
+file：hurt_finance.py
+module_version：current-hurt-finance-whole-0.1.1
+core_sha256：770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b
+start_line：323
+end_line：329
+函数AST摘要：fe3cbe04c1a54506c4264afb8bd3a0899c8854df59e1ed783b503230020e01a1
+input：bounded stdin JSON
+output：exact JSON success/softunknown or exit2 rejection
+算法与理由：Strict parsing,finite size,new identity/native binding,exact source and functional error handling.
+boundary：No stderr failures or caller override; missing current selection distinguished from confirmed goal failure. Public VERSION/SCHEMA/METHOD remain original0.1.1; only new implementation_revision0.1.2 output metadata. No formula, config, source frame or native input changes.
+actual_IO_ref：actual_function_IO.json.gz#main
+implementation_revision：0.1.2
+
+原件：work/rev129_hurt_finance_whole_v0_1_2/rule_cards_10_fields.json
+SHA256：0a99645a8c6cf999a05cbb30a80ade44b4821accc4427e3d42364083cffcd97a
+
+1. HF-R01
+算法标识：HF-R01
+sources：{
+  "edition": "国图藏上海世界图书馆发行本[19--?]",
+  "primary_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+  "main_chapter": "论伤官PDF82–85/book73–76，论用神成败救应PDF28–30；取运85后半另层",
+  "later_commentary": "中华典藏969c6d83ce4e.html徐注电子文本；未核纸本版，不混主本",
+  "source_contract": "source/source_contract.json",
+  "points": "HF1 PDF82/book73§2"
+}
+source_level：{
+  "main": "actually read primary pages, public-domain text",
+  "commentary": "later Xu electronic separately marked",
+  "engineering": "finite proxy/quantitative equations expressly new"
+}
+framework：格局之月令伤官用财，不是月食/月财用食换标签
+conditions：严格月主伤官且本版明伤载体、真实HAP任务消耗、实际财载体有根。
+exclusions_and_failure：月食不入此入口；隐藏月伤无明伤暂不以主文缺省证明充分；史例藏辛露庚不能改名使其硬过。
+change_conditions：月主/明藏/激活角色变化重核；暂时支不替换生月。
+conflict_resolution：Food05保原成果；本专条与格局一般成败合读，不把生官之具直接当见官许可。
+rule_expression：source_context strict月伤+H1+roots, all actual source gates before H。
+verification：PEER0源清；NOT_HURT_MONTH拒此源；MAIN_SHI保古典贵例但本有限域不覆盖。
+status：来源核实；明伤充分子域工程候选待非作者审，隐藏月伤核心仍未补齐。
+
+2. HF-R02
+算法标识：HF-R02
+sources：{
+  "edition": "国图藏上海世界图书馆发行本[19--?]",
+  "primary_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+  "main_chapter": "论伤官PDF82–85/book73–76，论用神成败救应PDF28–30；取运85后半另层",
+  "later_commentary": "中华典藏969c6d83ce4e.html徐注电子文本；未核纸本版，不混主本",
+  "source_contract": "source/source_contract.json",
+  "points": "HF1/HF3 主本用财/佩印对照"
+}
+source_level：{
+  "main": "actually read primary pages, public-domain text",
+  "commentary": "later Xu electronic separately marked",
+  "engineering": "finite proxy/quantitative equations expressly new"
+}
+framework：格局强弱条件与ROOT02工程代理分层
+conditions：财有实际藏根，直接BODY>直接伤池且伤>0；余伤、财保真、完整承载另外全过。
+exclusions_and_failure：有根不等于身强，ROOT气资格不等于实际藏字；B==H不猜；不把工程代理当古法全域强弱。
+change_conditions：当前根/浮量/角色改变后，在H之前重算B/H；印生日收益不倒填源强前提。
+conflict_resolution：财支强身与佩印稍弱身公开互斥代理；无法判定不得哪个H成功就挑哪个。
+rule_expression：preselect B>H>0 finance;0<B<H<=2B wear-proxy only, this module no wear fallback。
+verification：PEER0原局B49/4<H53/4未入财；同方法当前B119/4财支成立；另测B=H53/4为未决，癸卯气根不伪藏水；无两个已确认single变化。
+status：有限代理及现实边界明确，非传统身强理论已穷尽。
+
+3. HF-R03
+算法标识：HF-R03
+sources：{
+  "edition": "国图藏上海世界图书馆发行本[19--?]",
+  "primary_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+  "main_chapter": "论伤官PDF82–85/book73–76，论用神成败救应PDF28–30；取运85后半另层",
+  "later_commentary": "中华典藏969c6d83ce4e.html徐注电子文本；未核纸本版，不混主本",
+  "source_contract": "source/source_contract.json",
+  "points": "HF4 主本PDF83末–84§6；徐电子兼用注"
+}
+source_level：{
+  "main": "actually read primary pages, public-domain text",
+  "commentary": "later Xu electronic separately marked",
+  "engineering": "finite proxy/quantitative equations expressly new"
+}
+framework：财印兼用的程度/位置源条件
+conditions：主本两清不相碍，生财财太旺带印/佩印印太重带财须各有条件。
+exclusions_and_failure：任意共见、数值财攻印消尽或佩印失败都不足以改选财；不秀不自动全忌或作用归零。
+change_conditions：财印根、位置、作用/程度变化重审；本版只诊断，未闭继续HNone。
+conflict_resolution：保留主本与徐注“实非兼用”等解释差异；不借印格一般条覆盖伤官专条。
+rule_expression：if actual印 present: sourcecompatpending; keep full birthday/restraint/financeattack numerical map, do not choose H。
+verification：RESERVED_PRINT实际所有数值目标真仍HNone；MAIN_DING含关系与L边界，未拟参数。
+status：具体源缺口保留，当前不采纳财印转用；这是源不足，不是单以质量作无限硬门。
+
+4. HF-R04
+算法标识：HF-R04
+sources：{
+  "edition": "国图藏上海世界图书馆发行本[19--?]",
+  "primary_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+  "main_chapter": "论伤官PDF82–85/book73–76，论用神成败救应PDF28–30；取运85后半另层",
+  "later_commentary": "中华典藏969c6d83ce4e.html徐注电子文本；未核纸本版，不混主本",
+  "source_contract": "source/source_contract.json",
+  "points": "HF2/HF5 冬金化财、官杀与成败救应"
+}
+source_level：{
+  "main": "actually read primary pages, public-domain text",
+  "commentary": "later Xu electronic separately marked",
+  "engineering": "finite proxy/quantitative equations expressly new"
+}
+framework：格局/调候/会合口径分别保留
+conditions：正常有限温和月域无已激活未决气候、关系、官杀/混食伤任务。
+exclusions_and_failure：冬金冻水/连水化木、夏木逢润、伤生财带杀身轻、官印等不能被普通正边掩盖；古文有救应故非全局格败。
+change_conditions：加入官杀/合冲刑害/会局/气候条件时任务匹配并源未闭；当前正量根要绑定实际origin。
+conflict_resolution：专门源分支未实现则此H空，不清掉触发也不默认为零效。
+rule_expression：source_context full source reasons; secondary_guard each actual positive root user; numeric allrolescovered=False for other active roles。
+verification：CURRENT_KILL/冬金罗例/月食来源/正量根害破自刑均实际API/CLI；每例理由具体保存。
+status：已实现保守转出；相关核心专支仍未完成，不计默认覆盖。
+
+5. HF-R05
+算法标识：HF-R05
+sources：{
+  "edition": "国图藏上海世界图书馆发行本[19--?]",
+  "primary_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+  "main_chapter": "论伤官PDF82–85/book73–76，论用神成败救应PDF28–30；取运85后半另层",
+  "later_commentary": "中华典藏969c6d83ce4e.html徐注电子文本；未核纸本版，不混主本",
+  "source_contract": "source/source_contract.json",
+  "points": "HF1/HF3/HF4 + 旧WT2/Food05的作用语义"
+}
+source_level：{
+  "main": "actually read primary pages, public-domain text",
+  "commentary": "later Xu electronic separately marked",
+  "engineering": "finite proxy/quantitative equations expressly new"
+}
+framework：现代完整作用图，非古典比例真值
+conditions：生日、制伤、余伤生财、泄身/财负荷、比劫夺财与自有伤财疏导、财损后攻印同图。
+exclusions_and_failure：不能只加比劫承载或删印生日；疏导仅peer自己的路径，不把全部伤当peer泄；同源库存max不重复加。
+change_conditions：内部变化禁一算子重算整个actual；生产请求不收算子覆盖。
+conflict_resolution：连续自有子portfolio疏导另为新工程，旧Food05依display门切换原封不改；本版display/root另硬门。
+rule_expression：signed_map explicit own ports/retain/current finance then attack; all signed ledgers and task graph。
+verification：六手算全来源数量逐项匹配；PEER1carry真但余财243/64不足；禁疏导余财15/8；禁夺财恢复69/4。
+status：有限作用实现通过作者验证，现实作用未验证；待非作者复核。
+
+6. HF-R06
+算法标识：HF-R06
+sources：{
+  "edition": "国图藏上海世界图书馆发行本[19--?]",
+  "primary_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+  "main_chapter": "论伤官PDF82–85/book73–76，论用神成败救应PDF28–30；取运85后半另层",
+  "later_commentary": "中华典藏969c6d83ce4e.html徐注电子文本；未核纸本版，不混主本",
+  "source_contract": "source/source_contract.json",
+  "points": "global_feedback_proof_before_target_calls.json 与 literal interval_math"
+}
+source_level：{
+  "main": "actually read primary pages, public-domain text",
+  "commentary": "later Xu electronic separately marked",
+  "engineering": "finite proxy/quantitative equations expressly new"
+}
+framework：新peer反馈定量证明与区间实现
+conditions：所有端口非负、reach<=1、ownPj*w；共同财攻击系数才共享P可用率；全函数key的真实m。
+exclusions_and_failure：无共同向量/容量0/L>=1不可猜根；禁止沿用原无peer9m128扩域或取中点；数值根不等于源许可。
+change_conditions：各直接端口、角色数、生日/控制/生财向量变化重算key,m,L与全根。
+conflict_resolution：L1安全界显式包括net peer budget及自有子portfolio归一；保留原WT2证明/范围，不静默改9m128。
+rule_expression：L=c*((2*nF+nPeer)*m*g*(2*g*g+c)+nPeer*c*g); exact noprint one-pass else literal fixed_enclosure。
+verification：3个交错多印自身端口对抗通过18恒等式，负端口/越界reach/非共同攻击拒证与w域外拒绝；预先手算内部T0=17/32、T1=2209/3392、差407/3392>9/128；新L19/64；36点对仅辅助非替证明；L1边界无根证书。
+status：新工程数学候选，实际common-w/max-ownport范围门和数量斜率证据已补；证明与调用齐，仍需非作者独审。
+
+7. HF-R07
+算法标识：HF-R07
+sources：{
+  "edition": "国图藏上海世界图书馆发行本[19--?]",
+  "primary_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+  "main_chapter": "论伤官PDF82–85/book73–76，论用神成败救应PDF28–30；取运85后半另层",
+  "later_commentary": "中华典藏969c6d83ce4e.html徐注电子文本；未核纸本版，不混主本",
+  "source_contract": "source/source_contract.json",
+  "points": "HF1完整用财功能 + 原AUX字段/选择合同"
+}
+source_level：{
+  "main": "actually read primary pages, public-domain text",
+  "commentary": "later Xu electronic separately marked",
+  "engineering": "finite proxy/quantitative equations expressly new"
+}
+framework：整盘辅助集合解释，非单功能直接颜色
+conditions：所有实际源及10硬目标都过后，完整财形成目标加稳健极小承载支持，图内每支持单独AND目标。
+exclusions_and_failure：六数值/承载单独过不能H；正背景不可自动选；sourcepending不回退旧佩印/默认；替代不等于共同主位。
+change_conditions：允许输入变化全图重算；计算后同元素与无法判断分别状态；不改原局B。
+conflict_resolution：保正负任务，实际控制0不标active；OR只在完整图之间，保全部actor alternatives/元素集合。
+rule_expression：graph_for_support for each robust support, native AUX only then H; no priority/equal weights。
+verification：PEER0七财载体OR却只水元素；PEER1–5空H；原生对比保留整JSON/任务。
+status：新H候选不自采纳，不等整局最终喜忌/主次已全完。
+
+8. HF-R08
+算法标识：HF-R08
+sources：{
+  "edition": "国图藏上海世界图书馆发行本[19--?]",
+  "primary_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+  "main_chapter": "论伤官PDF82–85/book73–76，论用神成败救应PDF28–30；取运85后半另层",
+  "later_commentary": "中华典藏969c6d83ce4e.html徐注电子文本；未核纸本版，不混主本",
+  "source_contract": "source/source_contract.json",
+  "points": "原643时间原生合同 + HF6取运条件"
+}
+source_level：{
+  "main": "actually read primary pages, public-domain text",
+  "commentary": "later Xu electronic separately marked",
+  "engineering": "finite proxy/quantitative equations expressly new"
+}
+framework：外部五层输入与原局/当前三账
+conditions：同person/chart/oldmethod native输入全文验证；新outer method独立身份；当前一套完整instant记录。
+exclusions_and_failure：合法window不选中点；unknown目录不生成单主题；时层非真实同一自然日已证命例。
+change_conditions：时间记录改变可改变当前源强/财保真；静态旧到新方法差异不计时变。
+conflict_resolution：先全部原生facts/time/natal校验，再软未决/point域判断；坏绑定不得被unknown掩盖。
+rule_expression：validate_request original native; evaluate instant/current gate; natal-only_new_method/current_new_method separate。
+verification：11严格CLI、2 readiness API/CLI、source_degree严格等号不择法；非法原月干原门拒绝；未声称samechart两个不同confirmed single。
+status：point有限模块齐；窗口跨源显示、同盘换单主题仍待证，旧B/C20/default不动。
+
+9. HF-R09
+算法标识：HF-R09
+sources：{
+  "edition": "国图藏上海世界图书馆发行本[19--?]",
+  "primary_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+  "main_chapter": "论伤官PDF82–85/book73–76，论用神成败救应PDF28–30；取运85后半另层",
+  "later_commentary": "中华典藏969c6d83ce4e.html徐注电子文本；未核纸本版，不混主本",
+  "source_contract": "source/source_contract.json",
+  "points": "实际113采纳与108review/835勘误 + 新主本图"
+}
+source_level：{
+  "main": "actually read primary pages, public-domain text",
+  "commentary": "later Xu electronic separately marked",
+  "engineering": "finite proxy/quantitative equations expressly new"
+}
+framework：来源真实性、实现正确与现实有效分别记录
+conditions：全954依赖在providerexec前核，实际原898/41/3对应，core/report/manifest/freeze/方法/有效计数与原图绑定。
+exclusions_and_failure：只有status或有JSON字段不算真实源对应；工程验证不等现实命理有效；新模块没有沿用旧采纳授权。
+change_conditions：source/规则变更要新版本/复核；同输入同版本确定；源缺口不包装默认。
+conflict_resolution：保留原初稿防御缺口、失败/修复和全部首批证据；旧源字节不改。
+rule_expression：Original954 unchanged; current three top freeze/report/model bindings read and compared before exec, with actual schema/meaning/counts. Original126four bad cases stay blocked; repaired sibling0.1.2 differs only implementation metadata/guards.
+verification：29 negative cases0exec =original126four verbatim +17 current-top semantic/file bindings +8 original source cases;15valid+2ready wholeJSON equal blocked1093 numeric evidence except new revision;24currentIOAST and fullmove.
+status：Author implementation-only repair validated, pending nonauthor130; old1093 source status remains blocked; no B/default/progress or runtime self-adoption.
+

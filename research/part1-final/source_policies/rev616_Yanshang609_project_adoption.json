@@ -1,0 +1,152 @@
+{
+  "schema": "616-Yanshang609-after-genuine449/1",
+  "revision": 616,
+  "status": "adopted_exact609_Yanshang404_after449_complete_actual_five_source_R0",
+  "saved_utc": "2026-11-03T18:51:02.079618+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_author_completion_handoff.json",
+    "bytes": 4873,
+    "sha256": "200706ab506e74f61d204ef1a376de6429037d581454fa59651d75b48848d137"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_independent449_completion_handoff.json",
+    "bytes": 3611,
+    "sha256": "c7d994c7a309673113025fcecf5963429b41a36154fc7973537a8e38ca513e16"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation",
+    "files": 1640,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/manifest.json",
+      "bytes": 271019,
+      "sha256": "a47c96cc7f56ef2564e3b1a1bdfedc84007f5a961892a1a3c00c31dd5362821d"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/freeze.json",
+      "bytes": 92,
+      "sha256": "bf8cf32d44828974dd69924d96a6a2540478c7a5afbb9eb392a84ae39560f903"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_independent_review_449",
+    "files": 110,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_independent_review_449/manifest.json",
+      "bytes": 17960,
+      "sha256": "4c566238557fe2d28db8652e4ad1df38e3f8fd0c07a26194626835e131d851ad"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_independent_review_449/freeze.json",
+      "bytes": 92,
+      "sha256": "f40d2603fc3c15aa0aa8c4682fd1029521f8233622b9fd1aac2a7974de393f55"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_complete_runtime_kernel",
+      "total_files": 47,
+      "payload_files": 45,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 7165,
+        "sha256": "b078735297cfd41428cb9c79931d72a43084997c6c254dc9f48732867536c1f5"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 92,
+        "sha256": "cb43609ad281b4e77fa95c82cbafe3280adf258bc2be62959d78a03545a47bfb"
+      },
+      "all_payload_bytes_verified": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/609 one complete readonly Yanshang actual five ul7jtsps/complete current fire print jiji with spaces",
+      "total_files": 47,
+      "payload_files": 45,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/609 one complete readonly Yanshang actual five ul7jtsps/complete current fire print jiji with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 7165,
+        "sha256": "b078735297cfd41428cb9c79931d72a43084997c6c254dc9f48732867536c1f5"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/609 one complete readonly Yanshang actual five ul7jtsps/complete current fire print jiji with spaces/DELIVERY_FREEZE.json",
+        "bytes": 92,
+        "sha256": "cb43609ad281b4e77fa95c82cbafe3280adf258bc2be62959d78a03545a47bfb"
+      },
+      "all_payload_bytes_verified": true
+    }
+  ],
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev616_Yanshang609_effective_rule_cards.json",
+    "bytes": 13487,
+    "sha256": "f3c08b7c7254d58d94179863a53b22ec9ce12fcb92ae50994955d21035154b7b"
+  },
+  "all120_current_effective_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/algorithm_explanations_all120.json",
+    "bytes": 341814,
+    "sha256": "b9db3d3974ff51be31c16ba92bdebc8db639c5debe0e6d6d745939c91504b909"
+  },
+  "mandatory_constructor_precision": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/effective_contract_precision_Exception_constructor.json",
+    "bytes": 1352,
+    "sha256": "1db33b995806f95f192a19efc49d5a0c56abd4f914ddc82c420e3086aee835b1"
+  },
+  "mandatory_five_step_reader_precision": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_independent_review_449/effective_five_step_source_rulecard_precision.json",
+    "bytes": 1549,
+    "sha256": "e41d7ec9a7f58b08d3d2084b063816ea96db14049a73391078ae2b5ca1b69eaa"
+  },
+  "mandatory_independent_source_disposition": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_independent_review_449/source_and_scope_final_disposition.json",
+    "bytes": 3535,
+    "sha256": "0e5f313ae106ed811a784420be7fe66db940cfe9ed2a097659078d01c0c83973"
+  },
+  "mandatory_final_author_evidence": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/additional_final_author_evidence_index.json",
+    "bytes": 12148,
+    "sha256": "1034f32d1f88d89c182051fb0082fe0a4208adec3b6fc655dd1e418249e46312"
+  },
+  "pretransport_appendix": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/appendix_exact_locations.json",
+    "bytes": 585450,
+    "sha256": "63646f64feb21d09bf1ce12a534edf25a178ba14b6dd555bbaf5328b19877df5"
+  },
+  "appendix_exact_checkpoint_override": [
+    {
+      "relative_research_path": "recoverable_checkpoint.json",
+      "old_pretransport_pin": {
+        "bytes": 3103,
+        "sha256": "16acefa2848e8e4cbceb011d14f49c812e4b4ed73469b599b38d642c7bd99398"
+      },
+      "effective_final_author_MF_pin": {
+        "bytes": 3660,
+        "sha256": "183aa6f36766115b8debb208efb2520c2e0898112be859ae61502d51456395ff"
+      },
+      "reason": "Pretransport index precedes mutable checkpoint final update; final author MF explicitly authoritative with report+late evidence, not inside47 kernel. Only this exact file override, no source/math/IO change."
+    }
+  ],
+  "source_problem": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/source/00_complete_source_problem_before_new_numbers.json",
+    "bytes": 10025,
+    "sha256": "698c787c667757f7b637ff1ea3c4d7b19abdee017d3e2f3543e62663e22049cd"
+  },
+  "source_precision": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/source/00_complete_source_problem_before_new_numbers.json",
+    "bytes": 10025,
+    "sha256": "698c787c667757f7b637ff1ea3c4d7b19abdee017d3e2f3543e62663e22049cd"
+  },
+  "scope": "原404/416全部300出生成员；每一实际五层接受全部60合法柱、年上月日上时与UTC记录相容；三公开等率，原根/当前土/全作用同图。",
+  "root_role": "Root is609author and finite adopting maintainer; actual independent numeric/source/API/IO/readonly judgment is449, not root selfreview.",
+  "original_birth_Yin_Hai_source_not_backfilled_by_time": true,
+  "current_all_named_visible_soil_not_only_original_soil": true,
+  "R0_full_task_result_not_favorable_luck_or_water_metal_warning_reproduction": true,
+  "full_negative_zero_stock_actor_fees_and_origin_trace_preserved": true,
+  "old346_and300_not_repeated_by_independent": true,
+  "all_original_C03_complete": false,
+  "original_task_complete": false,
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "no_B_or_display": true,
+  "real_prediction_validated": false
+}

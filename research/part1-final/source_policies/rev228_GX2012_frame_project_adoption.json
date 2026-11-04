@@ -1,0 +1,61 @@
+{
+  "id": "rev228_GX2012_frame_project_adoption",
+  "revision": 228,
+  "date": "2026-11-02",
+  "status": "adopted_exact_version_attributed_modern_frame_engineering_reading",
+  "target": {
+    "component": "batch01_GX2012_candidate",
+    "files": 606,
+    "manifest_sha256": "d77c72bbeed7cbec1732f3136c3c9b5003eadf7a81e60a5bc32d7215e88d87d3",
+    "freeze_sha256": "ea319bd61e331d29e1aa0491c16b8f143dd21cddde265639ae8679b0027f2bf2",
+    "relative_directory": "rev214_region_source_batch/batch01_GX2012_candidate"
+  },
+  "independent_review": {
+    "component": "rev221_GX2012_independent",
+    "files": 19,
+    "manifest_sha256": "a340a1e73d53ade07a529b2272ec604a01dc0164a6c2c927de31dc209345ff3f",
+    "freeze_sha256": "f6dddc4decd8517c69bc31bb320eacb9f2fde218cae340eb8eee78405977ab79"
+  },
+  "aggregate_acceptance": {
+    "component": "rev228_GX2012_frame_acceptance",
+    "files": 3,
+    "manifest_sha256": "ccadf30b5f712b3d88a0f85029879d10f6c1d4f7bbf2dcef66988a9dcfd3d24e",
+    "freeze_sha256": "1cc7f3485fa211e45c12643217c87c61754be8df2b2f6ebb3bf65c342979693e",
+    "report_sha256": "39dae6e2b444909ce49a6874df2b94ff08b240293f464bcbcaad88ea071aff97"
+  },
+  "runtime_adopted": true,
+  "scope": {
+    "id": "GX2012-attributed-modern-named-Suizhi-cultural-account",
+    "region_ref": {
+      "id": "450000",
+      "version": "research-gx-archives2012-suizhi-named-account-jing-yang-v1"
+    },
+    "source_url": "https://www.gxdag.org.cn/show/141/3827",
+    "source_title": "广西历史沿革（一）",
+    "web_date": "2012-02-21",
+    "author": "网页未署名",
+    "source_layer": "现代文化史解释，广西档案馆网站刊载；不等于官方命理标准。",
+    "selected_reading": "以现代广西为叙述主语，杨州大部加只有零陵、熙平两郡属荆州；本项目将该作者口径按穷尽的二类叙述读取。",
+    "engineering_inference": "显式选择2012命名文化解释的全集阅读，不能把它认证为隋代全部现代地块的历史真值；只有大部分而无仅有例外不足以闭合。",
+    "source_errors_not_adopted": "原文隋朝九州行政说不采用；隋书州郡沿革与地理分类分开。",
+    "name_bridge": "原字杨保留；仅以原段六郡在隋书卷31扬州分类及两郡在荆州分类为本上下文杨→扬桥接，不建通用别名。",
+    "element_bridge": {
+      "荆州": "金",
+      "扬州": "火"
+    },
+    "element_bridge_source": "另存三命地域文化映射；不是广西网页本身的五行，也不是个人喜用。",
+    "runtime_result": "二候选不同五行，按已批唯一性门返回ambiguous；不输出Rn向量、不按多数选火、不等半，也不产生确定Z。C0仅退方向份额，不能消除当地属性未决。",
+    "preserved_limits": [
+      "旧广西属性未知版本仍可调用",
+      "河南湖北广东海南缺口不填造",
+      "没有逐地块古疆界认证",
+      "代理点仅用于方向，不证明范围",
+      "不自动选最新版本"
+    ]
+  },
+  "B_created": false,
+  "progress_delta": "0.00",
+  "score": "76.25/100",
+  "whole_original_task_complete": false,
+  "real_prediction_validated": false
+}

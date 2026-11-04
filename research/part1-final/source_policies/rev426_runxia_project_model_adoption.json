@@ -1,0 +1,202 @@
+{
+  "schema": "source-qualified-finite-Runxia-dam-metal-full-model-adoption-0.1",
+  "revision": 426,
+  "registered_utc": "2026-11-02T23:13:48.629337+00:00",
+  "status": "adopted_exact410r1_112_plus424_exact_prose_metadata_erratum",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1",
+      "files": 112,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/manifest.json",
+        "bytes": 18526,
+        "sha256": "6036b9baaa7dd0414bdeaac654fb55022113834e8f80663b7e4fd806f67e1068"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/freeze.json",
+        "bytes": 232,
+        "sha256": "fa97d9e07e1926733cc845a934aa5278d3ced1e841d399ee3c551def5ac59c4d"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev424_runxia_independent_review",
+      "files": 44,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev424_runxia_independent_review/manifest.json",
+        "bytes": 6605,
+        "sha256": "2ad4ebe627818e23b9680363fc95ca3638c7ae6ed90561e7f959f19994d56e9e"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev424_runxia_independent_review/freeze.json",
+        "bytes": 221,
+        "sha256": "49e659942cc8ae40fe1a40e2898ed59d7db3f10bb3f167748b2803df16cb98b3"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_r1_author_completion_handoff.json",
+    "bytes": 9306,
+    "sha256": "4b8ac1ef72e2d33dbf193176b871f0ed18efd3a87eb4ef118a40682c0714b288"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev424_independent_review_handoff.json",
+    "bytes": 2236,
+    "sha256": "21898ef8bf89e00595ebb8d77e24ceefa2a31d384de0e5b9933d03e7bd14f7b1"
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev424_runxia_independent_review/review_report.json",
+    "bytes": 6828,
+    "sha256": "d3778e99d3b1050dc370880320e31709454fd8db3ec450923cee4206d43beb54"
+  },
+  "mandatory_effective_prose_erratum": {
+    "json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev424_runxia_independent_review/精确勘误_当前原生字节数.json",
+      "bytes": 1354,
+      "sha256": "bae2e0027dc8230a43365b8c790b1ebcfb9ac85232f806530bdd61dc640207c7"
+    },
+    "txt": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev424_runxia_independent_review/精确勘误_当前原生字节数.txt",
+      "bytes": 811,
+      "sha256": "03e3837faac132c4950da2da10669f71516f7185b4681729503d98885cf8d59e"
+    },
+    "scope": "one prose metadata sentence only; no source quote, algorithm or output normalization change; old74 erroneous source_ref remains held",
+    "current_bytes": 9201810,
+    "original74_bytes": 9201648
+  },
+  "method_version": "0.1",
+  "implementation_version": "0.1.1",
+  "source": {
+    "book": "三命通会NLC42998卷六",
+    "PDF": 154,
+    "printed_leaf": 33,
+    "layer": "或曰的有条件土堤/金印救木伤土路线，不覆盖全润下",
+    "tail_original_order": "終是一生成敗。運喜西方不東宜南。原字序保留，断读/异版待校；当前不消费运方向/不说一生贵。",
+    "luck_direction_not_used": true
+  },
+  "scope": "壬日子月、完整申子辰、第四支申子辰亥、1—2具名明土轴、真实木金、无火无明干五合的明确有限结构；所有真实藏干保。",
+  "whole_source_conclusion": "水体维持后，土堤与金印共同辅助、主次不虚定。金制木保护土，也生水增加土堤压力；所有作用一同计算，不由角色标签直接得喜土金。",
+  "H_semantics": "or-yue water core preservation, actual soil dam and metal rescue, all actors/roots/negative functions/full source potential costs kept in every mask; robust H every permission superset. Distinct from fixed-world-credit H; AUX only truth projection.",
+  "physics": "每许可世界从原direct同解；土制水与堤任务联合包、金制木包；未选者库存/根/全部潜在源成本保，金生水/木伤土等不利反馈保。水存活并保半直接量，堤capacity4*有效土>=水、所选金制木至少覆盖木伤土容量。所有数额工程约定。",
+  "examples": {
+    "weak_metal": [
+      "戊申",
+      "甲子",
+      "壬辰",
+      "辛亥"
+    ],
+    "dam_and_metal": [
+      "庚申",
+      "戊子",
+      "壬辰",
+      "辛亥"
+    ],
+    "type": "人工合法原柱，不是古书或真人命例",
+    "H_counts_nominal": [
+      0,
+      6
+    ],
+    "H_counts_low": [
+      2,
+      4
+    ],
+    "H_counts_high": [
+      0,
+      6
+    ]
+  },
+  "all_nominal_legal_family": {
+    "raw_count": 36,
+    "complete": 22,
+    "not_complete": 14,
+    "physical_worlds": 2320
+  },
+  "verification": {
+    "method": "derive scalarB affine elimination on8faces (Mpositive justified in finite checks) and acyclic soil->metal->water->wood origin recurrence; not producer/author solver oracle",
+    "before_calls_prior_saved": true,
+    "parameters": [
+      "3/10",
+      "1/5"
+    ],
+    "new_raw": [
+      "戊辰",
+      "甲子",
+      "壬申",
+      "庚子"
+    ],
+    "new_exact_centers": [
+      "3871/3444",
+      "401/20",
+      "429/20"
+    ],
+    "sides": "±1/1234 and equality",
+    "all_cases": 12,
+    "all_worlds": 704,
+    "all_actor_directed_edges_checked": 42304,
+    "all_budget_origin_root_negative_permission_H_and_native_mask_truth": true,
+    "new_soil_right_side_individually_pass_but_no_robust_H": 44
+  },
+  "reuse": {
+    "old74_virtual_restored_and_actual_folder_all74_SHA_match": true,
+    "original74_source_ref_still_hold": true,
+    "function_native_H_two_string_constants_only": true,
+    "module_documentation_header_separate_delta_recorded": true,
+    "all_numeric_core_params_oracles_helper_bytes_unchanged": true,
+    "five_full_raw_JSON_only_declared_source_ref_paths_change": true,
+    "five_expected_before_r1_and_actual_bytes_exact": true,
+    "cached_old_arithmetic_R_H_rederived_counts": {
+      "original288": 288,
+      "family2320": 2320,
+      "old12bounds768": 768,
+      "old3reservedx3": 672
+    },
+    "old_full_actor_origin_budget_producer_evidence_reused_by_exact_byte_pins_not_relabelled_as_new_runs": true
+  },
+  "functions": {
+    "all48_substantively_read_and_exact_source_AST_signature_IO_links_checked": true,
+    "current_IO45_reexecuted_all_inputs_exceptions_returns_exact": true,
+    "three_unused_still_unexecuted": true,
+    "declared_context_adapted23_generic_exact25_not_new_classic_rule_count": true,
+    "load_guard_preconditions_canonical_str_Unicode_actual_parser_scope_correct": true,
+    "native_input_projection_not_full_physical_graph": true,
+    "historical384_adapter_note_explicitly_historical_current410_paths_recorded": true
+  },
+  "source_strict_portability": {
+    "registered_bad_sources_0exec": 19,
+    "other_bad_source_classes_0exec": 5,
+    "clean_provider_exec": 5,
+    "strict": 13,
+    "full_API_CLI_protocols": 5,
+    "fresh_processes": 50,
+    "complete_existing112_copy_reused_no_newtree": true,
+    "true_existing_oldfile_read_and_new_package_file_write_controls": true,
+    "normal_old_whole_project_reads_or_package_writes": 0,
+    "original_and_copy_all112_SHA_before_after_equal": true,
+    "audit_is_listed_Python_events_after_hook_not_all_OS_syscalls": true
+  },
+  "old74_hold": {
+    "freeze_sha256": "d645c8fa09c915e121f5d4ff1e4e3f003f802e1660937c29bb3f6f47d8cb36a0",
+    "full_original74_byte_recoverable_inside_r1": true,
+    "manifest_sha256": "27d6e13dd581d68ec2b0e5f867a3e93f96a3e146e9b8111aa3cd88ff2466831b",
+    "not_adopt_original_source_ref_labels": true,
+    "old_actual_move_receipt": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_author_readonly_and_complete_move_receipt.json",
+    "old_move_receipt_sha256": "713e41bd360f26a5e5ad89c749dac7a01cca8960e605aa1063c96ca9c2303af7",
+    "package": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole",
+    "restore_receipt": "actual/baseline74_math_and_full_recovery_SHA_receipt.json"
+  },
+  "restricted_semantic_repair": "only two native_H string constants plus dependent engineering source card/AST classification/lock/contracts/realIO/reports; all equations/coefficients/actors/origins/current/world/H/oracles unchanged; five full new expected JSONs were pinned before r1 changes/calls",
+  "first_failures_preserved": "original74 wrong source_ref labels; before-producer water-positive-only issue and old source paraphrase/lowres guess; one r1 doc generator premature FileNotFoundError saved, fixed by waiting for IO completion. No oracle fit or hidden numeric failure.",
+  "remaining_original_work": [
+    "癸日/火财/其他润下支",
+    "明干五合及更广真实关系效力",
+    "原岁运方向字序断读与实际五层变化",
+    "全传统最终主次与原最终统一交付"
+  ],
+  "all_Runxia_or_actual_time_complete": false,
+  "empirical_prediction_validated": false,
+  "B_theme_display_integration": false,
+  "original_goal_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

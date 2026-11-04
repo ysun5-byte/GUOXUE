@@ -1,0 +1,3642 @@
+任氏261实际壬寅癸卯及五层木制土护水
+rev532_Ren261_actual_luck_mobility
+所属原模块：C03
+当前采用：rev548_Ren261_actual_time_project_adoption.json
+范围：adopted_exact532103_kernel43_after54458_with_module_context_wording_correction
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev532_Ren261_actual_luck_mobility/algorithm_explanations_105_definitions_plus_inline.json
+SHA256：613c46ef2336bfe5de9417c4a86e34befd090670e605cefbe6da04af14046375
+
+1. current.py:ResearchError.__init__
+算法标识：current.py:ResearchError.__init__
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "ResearchError.__init__",
+  "first_line": 13,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='code'), arg(arg='status')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='invalid_input')])",
+  "AST_sha256": "76fe5c17a69fcce7f30862e13b19f66b73c4db1a6854f5a1f41029beb54d20b8",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "code,status=invalid_input",
+  "operations": "保存code/status并调用ValueError构造",
+  "outputs": "正常构造返回None；异常实例保存两个字段",
+  "preconditions_and_limits": "不生成判断结果；CLI据此返回2。",
+  "purpose": "建立当前入口的类型化异常"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "current.py:ResearchError.__init__",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:ResearchError.__init__",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+2. current.py:canonical
+算法标识：current.py:canonical
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "canonical",
+  "first_line": 16,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "JSON兼容value",
+  "operations": "Unicode、键排序、紧凑分隔、allow_nan=False",
+  "outputs": "str，不是UTF8 bytes",
+  "preconditions_and_limits": "Fraction需先pack；并不自行检查来源或业务schema。",
+  "purpose": "确定JSON文本"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "current.py:canonical",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:canonical",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+3. current.py:digest
+算法标识：current.py:digest
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "digest",
+  "first_line": 19,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "JSON兼容value",
+  "operations": "canonical文本UTF8编码后SHA256",
+  "outputs": "64位hex str",
+  "preconditions_and_limits": "指纹相同只绑定该规范值，不认证文献或历法。",
+  "purpose": "内容指纹"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "current.py:digest",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:digest",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+4. current.py:strict_load
+算法标识：current.py:strict_load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "strict_load",
+  "first_line": 22,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "da43b3c2a785a350bacda9238a86ebe24633bc615f41079312445d885accdadc",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "str，最多2000000字符",
+  "operations": "重复键与非有限常量回调拒绝，json.loads",
+  "outputs": "任意解析JSON值；根schema在evaluate检查",
+  "preconditions_and_limits": "不是单独Unicode scalar/深度校验；后续scalar_tree负责。",
+  "purpose": "当前CLI严格JSON解析"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "current.py:strict_load",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:strict_load",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+5. current.py:strict_load.<locals>.pairs
+算法标识：current.py:strict_load.<locals>.pairs
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "strict_load.<locals>.pairs",
+  "first_line": 24,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "74625c803e0589b53f87a2feb9cdcb7d8e3fc42a1ad9068a240895a9bafb7550",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "JSON解析器提供的键值序列",
+  "operations": "逐项构造dict，已有键即ResearchError",
+  "outputs": "唯一键dict",
+  "preconditions_and_limits": "仅JSON object回调；不能把覆盖旧键当成功。",
+  "purpose": "拒绝重复键"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "current.py:strict_load.<locals>.pairs",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:strict_load.<locals>.pairs",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+6. current.py:strict_load.<locals>.constant
+算法标识：current.py:strict_load.<locals>.constant
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "strict_load.<locals>.constant",
+  "first_line": 30,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fce474ceff0a4f04f2983720b398eb25aab021581a761c44251572bf7d5a4a7f",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "解析器常量文本",
+  "operations": "总是抛ResearchError(nonfinite_JSON_constant)",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "异常事件加None不是正常结果。",
+  "purpose": "拒绝非有限JSON常量"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "current.py:strict_load.<locals>.constant",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:strict_load.<locals>.constant",
+  "paired_same_frame": true,
+  "termination": "exception_exit_not_normal_None"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+7. current.py:scalar_tree
+算法标识：current.py:scalar_tree
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "scalar_tree",
+  "first_line": 33,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='depth')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=0)])",
+  "AST_sha256": "6669becbafcf9720f0f29a1bb6c7866fe60a7ec2a9a4a52d807d93dbd8030723",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value,depth=0",
+  "operations": "深度<=64、dict<=128、list<=512、str<=2000000且无代理码；字符串键；只JSON标量且float有限",
+  "outputs": "成功None；错误ResearchError",
+  "preconditions_and_limits": "不解析UTC或schema，不接受Fraction/tuple等非JSON对象。",
+  "purpose": "当前API JSON树和Unicode约束"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "current.py:scalar_tree",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:scalar_tree",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+8. current.py:load
+算法标识：current.py:load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "load",
+  "first_line": 48,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "name,relative,material",
+  "operations": "新ModuleType，设置__file__，compile并exec material指定字节",
+  "outputs": "该模块对象",
+  "preconditions_and_limits": "仅由evaluate在guard后调用；函数本身不重作guard；模块独立全局避免跨请求配置污染。",
+  "purpose": "执行已核模块字节"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "current.py:load",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:load",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+9. current.py:guard
+算法标识：current.py:guard
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "guard",
+  "first_line": 51,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "47c2525b33bac2538190d7d402dff54437c24173f8de664e585f0b24cae276a7",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "在任何动态加载前核对本版本24份源材料及实现依赖",
+  "inputs": "固定ROOT、LOCK_SHA与source_execution_lock.json；无调用者替换路径",
+  "operations": "先核锁文件摘要；runtime/source/vendor实际清单必须相等；逐份拒绝越界、符号链接及长度/摘要不符；核444和459采用身份",
+  "outputs": "原始bytes材料字典；失败抛dependency_mismatch，零provider执行",
+  "preconditions_and_limits": "校验来源身份和代码一致性，不认证古籍为真或预测有效。源码入口自身受交付清单约束；本锁不自我循环绑定current.py。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:guard",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+10. current.py:providers
+算法标识：current.py:providers
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "providers",
+  "first_line": 67,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='material'), arg(arg='params')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3341285dcc45234c4973ccebb7c0e61f2578fb960bcbb881b8d1b9428489ecf2",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "从已经核验的bytes建立事实、精确数值、选择器和当前作用模块",
+  "inputs": "guard返回的材料及注册参数",
+  "operations": "按固定六条相对路径用load建立ModuleType，附params；不从调用者路径导入",
+  "outputs": "facts/exact/aux/core/inventory/ports六模块及params",
+  "preconditions_and_limits": "guard必须先成功；模块代码身份和材料bytes在实际IO中分别保留，不声称记录整个模块堆。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:providers",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+11. current.py:evaluate_context
+算法标识：current.py:evaluate_context
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "evaluate_context",
+  "first_line": 70,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='material'), arg(arg='profile')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3425eff67edfd6a0a07bde2620b969da706b74b038a37f290d3359f7d2467e3d",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "计算古书仅给大运柱的明确条件题，同时保留未给其余层的信息边界",
+  "inputs": "精确六字段请求、已核材料与profile；来源classical_reported_luck或artificial_condition",
+  "operations": "先校验方法、绑定、柱合法性；古例限原261及壬寅/癸卯单luck；source_domain先于inventory；域外仅输出原始事实；域内构造全柱并analyze",
+  "outputs": "明确条件题完整计算，或source_effect_unclosed_for_this_method且inventory/calculation均None",
+  "preconditions_and_limits": "不造古例UTC或完整五层当前；未提供层为未知而非已知无贡献。修复前域外也先套转换库存的历史缺陷已保留。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:evaluate_context",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+12. current.py:evaluate
+算法标识：current.py:evaluate
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "evaluate",
+  "first_line": 89,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "56b9b3fdfd6343dfdc37796bf26ec7f13505711742b19c428cdfc8ec1591f1d6",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "将严格绑定的五层原生当前/前次输入接入当前木制湿土护水整题",
+  "inputs": "严格outer请求，或具名明确条件请求",
+  "operations": "guard与scalar_tree在前；双层绑定、参数注册、前次/未来/所有原生记录预检在算世界前；复用旧snapshot和compare，仅frame改接mobility",
+  "outputs": "全部原生来源、当前/前次完整计算与两轴比较、未决原因及其余原C03待办",
+  "preconditions_and_limits": "无显示/B；源未闭或任务不立不允许确认功能相同；时间来源变化与实际功能变化分别输出。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:evaluate",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+13. current.py:main
+算法标识：current.py:main
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "main",
+  "first_line": 103,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1f37c1a222653e90bcbbfe8581d061e4680a477cc0cc4c6250f39973c2a2e688",
+  "module_sha256": "4ad3d7e9cf7d166302a48f7d16341ac08dc6c20e043d2a5dd16b5c37f51d8d85"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "最多2000000 UTF8bytes stdin",
+  "operations": "读至2000001检超长；strict_load→evaluate→canonical；捕ResearchError及明确列举异常",
+  "outputs": "成功打印整JSON并返0；硬错打印无部分判断JSON并返2",
+  "preconditions_and_limits": "有效未知exit0；不捕所有BaseException；API自身不统一把所有内部异常改成正常结果。",
+  "purpose": "当前stdin/stdout公开CLI"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "current.py:main",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "current.py:main",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+14. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "bounded",
+  "first_line": 16,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite.",
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:bounded",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:bounded",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+15. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "shape",
+  "first_line": 38,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])",
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity.",
+  "purpose": "Require an exact allowed object field set."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:shape",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:shape",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+16. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "string",
+  "first_line": 43,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation.",
+  "purpose": "Require a nonempty string field."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:string",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:string",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+17. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "boolean",
+  "first_line": 48,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema.",
+  "purpose": "Require actual bool instead of truthy/coercible values."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:boolean",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:boolean",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+18. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "validate",
+  "first_line": 53,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])",
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate.",
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:validate",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:validate",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+19. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "closed",
+  "first_line": 135,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them.",
+  "purpose": "Check that every declared graph-scope obligation is marked complete."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:closed",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:closed",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+20. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "hard_failure",
+  "first_line": 139,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here.",
+  "purpose": "Determine whether a required actual goal or global check still blocks selection."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:hard_failure",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:hard_failure",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+21. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "repair_candidates",
+  "first_line": 144,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes.",
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:repair_candidates",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:repair_candidates",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+22. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "minimal_covers",
+  "first_line": 184,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case.",
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:minimal_covers",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:minimal_covers",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+23. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "prefer",
+  "first_line": 197,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred.",
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:prefer",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:prefer",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+24. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "preference_frontier",
+  "first_line": 206,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker.",
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:preference_frontier",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:preference_frontier",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+25. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "select",
+  "first_line": 224,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "基础结果含version/semantic_scope/positive_current_tasks、输入投影actors/tasks/goals/checks对应保留项、repair/needed_absent/luck/selected/common/final/B/warning；各分支添status；无目标添background，活跃目标另添coverage/allminimal/preference/frontier。不返回schema/mode/scope或full_native_graph。当前完整投影由外层current.frames[i].calculation.native_H.full_native_graph保；完整物理图另在current.frames[i].calculation.actual_full_world.actual_signed_graph。",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.",
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:select",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:select",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+26. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "strict_pairs",
+  "first_line": 272,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs.",
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:strict_pairs",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+27. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "reject_constant",
+  "first_line": 280,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite.",
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:reject_constant",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+28. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "main",
+  "first_line": 284,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main.",
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/auxiliary_selector.py:main",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+29. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。",
+  "purpose": "十干查五行"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+30. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。",
+  "purpose": "严格十神角色"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+31. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。",
+  "purpose": "原柱基础合法性"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/foundation_facts.py:validate",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+32. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "historical_note": "旧K2尾注全文仅在原428合同引用保，不充当前原吴作用规则。",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。本原吴木三合与午未有限源消费在scope，保原藏而不自动合化或删根。",
+  "purpose": "保留有位置的形式合冲"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+33. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+34. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。",
+  "purpose": "原61完整四柱事实入口"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/foundation_facts.py:parse",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+35. runtime/mobility.py:source_domain
+算法标识：runtime/mobility.py:source_domain
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "source_domain",
+  "first_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='selected'), arg(arg='natal')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b9e3531f31663607c3f661cddba93b7d08a9607cad3f805ff34fb78457b4f992",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "限制261命例及本次有明示的实际时柱扩展",
+  "inputs": "原四柱、已唯一选定的层记录、注册natal",
+  "operations": "原四柱必须精确相等；每新干限甲壬癸，每新支限寅卯子；识别古例两luck，保留原丙辛功能水假说及候选刑害的共存边界",
+  "outputs": "ready、pending、source_luck_named_in_book及关系口径",
+  "preconditions_and_limits": "这是有限源方法，不证明域外效应为0；新根不自动证实/解除原丙辛化。原377复杂根例只界定不能机械逆推。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:source_domain",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+36. runtime/mobility.py:inventory
+算法标识：runtime/mobility.py:inventory
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "inventory",
+  "first_line": 18,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='selected'), arg(arg='params'), arg(arg='facts'), arg(arg='reused'), arg(arg='digest')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "403e9fb01e1c1b7628850c2e20f6a82b62bc7f0986b064fb72ec634e1111dda5",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "把实际时柱全部显干与藏干加入同一原点库存",
+  "inputs": "原四柱、逐层原记录、注册参数、事实表及旧库存函数",
+  "operations": "先保原parse；附全时柱和原记录digest；精确复用430库存；重分出生根/当前根/时柱出生锚根；辰丑原土actor标wet；记录原藏水、原藏金和全部时木候选",
+  "outputs": "所有原/时actor、direct/weights/roots、wet_share与不可改写出生事实",
+  "preconditions_and_limits": "新寅甲丙戊及壬/癸水都参与，不只加木；新寅戊按本模型非辰丑普通制水，不声称古典必燥。转换无新演员/种子/ROOT。此方法沿430日干自种，与其他无日干浮量法不混。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:inventory",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+37. runtime/mobility.py:coefficients
+算法标识：runtime/mobility.py:coefficients
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "coefficients",
+  "first_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "0960f4938fb2ca67de3d2db3a0637dc89a1eae2c91e5c93ea3d0cfd67830c05f",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "形成全五行正负耦合与保守唯一性证",
+  "inputs": "全库存、cut为None或三种具名木制土诊断",
+  "operations": "a=1+b+c；一般P生、N克；湿土份额gamma*wet_share把土制水预算分为湿土生水与普通制水，土生金仍保；只切指定木制土不退费；K=(P-N)/a并验最大绝对行和<1",
+  "outputs": "P/N/K、严格全域收缩L、保留总费用、切除份额",
+  "preconditions_and_limits": "b,c在(0,1/3]，gamma在[0,1]；诊断γ0及转换关闭均报告，不能只挑有利参数。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:coefficients",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+38. runtime/mobility.py:solve
+算法标识：runtime/mobility.py:solve
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "solve",
+  "first_line": 51,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "6473190d1248ce44c5c59c97497f2e59c30b50e5b0b33c94d6501a5f891bf6c3",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "精确解五池同时生克与零截断",
+  "inputs": "全库存、精确gauss、具名cut",
+  "operations": "枚举32个活动面，解活动线性方程，逐面以有理数代回x=max(0,D/a+Kx)与非负；coefficients先给严格收缩",
+  "outputs": "唯一精确current、P/N、活动面与全等式状态",
+  "preconditions_and_limits": "无浮点容差、无逐条先后生克；无解/越界抛出，不填默认。库存为0的actor仍由inventory保留并可接收后参与。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:solve",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+39. runtime/mobility.py:sender_routes
+算法标识：runtime/mobility.py:sender_routes
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "sender_routes",
+  "first_line": 61,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='actor'), arg(arg='cf')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8441b919c1c41a5c74fe81689a90d1218d5b306c21a226742202cecc1aa1fd80",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "把宏观土的混合口径还原为每个真实actor路径及原费用",
+  "inputs": "actor及已锁coefficients",
+  "operations": "一般每actor生b克c；土按自身wet标志把c分生水/制水；在切木诊断前固定总预留b+c，切后仅撤所选制土能力",
+  "outputs": "逐目标正/负率和原正/负预留费用",
+  "preconditions_and_limits": "切边不退款；宏观湿土比例来自真实土actor静态份额，不把每个土都当湿土。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:sender_routes",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+40. runtime/mobility.py:reconstruct
+算法标识：runtime/mobility.py:reconstruct
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "reconstruct",
+  "first_line": 68,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "66991e125b167537350530b93210e7999df96d9d2509b5335e2f58da7e7c9b22",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "还原完整actor边、原点及受克容量/实际损失与费用账",
+  "inputs": "全库存、精确world及原点pools/gross/retention",
+  "operations": "每source池按固定份额分给actor，再按受纳份额分目标；制力按实际clamp折算；原点逐项保；核每池gross=current+reservedfee+actual_loss",
+  "outputs": "全边原点、全部actor预留/实发/未用账、五池账与clamp",
+  "preconditions_and_limits": "actual_effect_origins是控制者来源信用，不是目标被损原点；目标损原点由D、P、全池原点与留存可无损还原，见专门说明/核验。品质不再次扣能量费。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:reconstruct",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+41. runtime/mobility.py:metrics
+算法标识：runtime/mobility.py:metrics
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "metrics",
+  "first_line": 86,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='graph')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "80d3c8b2f297d5aac56c875620b64c6f222f7c610c8cee6fd953d7282d50bb9a",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "分开水量、被湿土牵滞的品质代理及原根、实际木制土与暖代理",
+  "inputs": "base、world、ports、graph",
+  "operations": "Twet=wet_share*x土；V=x水/(1+c*Twet)，Vnative用原藏水末态信用同分母；原金根单列；累计木→wet目标实际损失；出生/当前火根资格分别算暖容量",
+  "outputs": "全部有理数指标与当前暖代理成立与否",
+  "preconditions_and_limits": "V定义来自W=V+(c*Twet)V，是工程品质分割，非古书公式、物理流速或额外库存。native水只原藏癸，不含转换浮丙辛；暖代理只是独立诊断，不是木制土整题必要门。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:metrics",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+42. runtime/mobility.py:whole_goals
+算法标识：runtime/mobility.py:whole_goals
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "whole_goals",
+  "first_line": 90,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='actual'), arg(arg='off')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6edffc8f310ea83ad106902cb80d7681f3a1f01fe0f76dd28c907f7aeae505de",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "先全图成立，再计当前真实木的有效支持信用",
+  "inputs": "actual与同费用all_wood_control关闭world",
+  "operations": "要求水/原水根/原金根活，木对湿土实际损失正，Twet严格降、V及Vnative严格升；逐当前木actor统计实际制湿土量及当前木根来源信用",
+  "outputs": "七项checks、完整物理护水布尔、候选信用和半数门",
+  "preconditions_and_limits": "不是只看木制土边或总水量；每个原/新水土火金的反作用已在同时图内。当前木根为当前共享木池来源信用，不主张actor自己所在支独占来源。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:whole_goals",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+43. runtime/mobility.py:complete_H
+算法标识：runtime/mobility.py:complete_H
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "complete_H",
+  "first_line": 96,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='goal')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "24fff4fa404beda443dfc321da10f5117178ec6dc5de2df3c284a5e5f33c51c8",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "枚举此固定实际状态中所有充分当前木支持组",
+  "inputs": "所有当前真实木候选及whole_goals",
+  "operations": "每mask不删演员/不重算世界；需全物理题真、总实作用>0且≥全部木实制湿土量一半、每选actor当前木根信用>0；求所有极小通过组及最大失败集补集CNF",
+  "outputs": "全部真值、所有minimal_H、CNF与mask数",
+  "preconditions_and_limits": "各半为事前工程支持阈值，非五行权重/古典重要性。H不是增量投资或喜用排序；不能用H并集宣称所有元素喜。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:complete_H",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+44. runtime/mobility.py:native_H
+算法标识：runtime/mobility.py:native_H
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "native_H",
+  "first_line": 102,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='goal'), arg(arg='logic'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1326f6f3edbd324902d48352a62806f2f89654b11273203b63ac40b3826d8502",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "把已完整算好的题和H真值接入已验原生选择器",
+  "inputs": "全base/goal/logic及旧AUX",
+  "operations": "全硬目标逐项映射；CNF每子句映射实际支持任务；只投影当前木候选但外部完整保全actor；每mask核CNF与原H相等",
+  "outputs": "完整native图及结果，或无当前候选时native_result None并说明不是已知无需要",
+  "preconditions_and_limits": "这不是缺元素/修复路线入口；不拿无候选掩盖应研究的外来新元素。无取用/B/显示导出。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:native_H",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+45. runtime/mobility.py:analyze
+算法标识：runtime/mobility.py:analyze
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "analyze",
+  "first_line": 112,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='ports_provider'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a627886215afda7e595bc750deb6c70f0778b5dc25da4efde9b6ce1bfb161e3d",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "把同一全图、因果诊断、整题与原生支持接成一次结果",
+  "inputs": "全库存和精确/origin/AUX提供者",
+  "operations": "实际及全木/时木/原木三种同费关闭共四world；全部重建边/原点/账/品质；实际对全木关闭判题，再H/native",
+  "outputs": "完整四world、整题答案、暖诊断及保持原生辰源声明",
+  "preconditions_and_limits": "物理护水成立与有当前木支持分开；无当前木不得凭原木题真冒新运木喜用；无全局唯一优先/现实预测结论。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:analyze",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+46. runtime/mobility.py:functional_payload
+算法标识：runtime/mobility.py:functional_payload
+source_identity：{
+  "relative_path": "runtime/mobility.py",
+  "qualified_name": "functional_payload",
+  "first_line": 119,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='calculation'), arg(arg='method')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "27b8b9ad881fb6e193cd1f1457710814a945e507fa0fe5d482dbf8b8836d17ef",
+  "module_sha256": "8209fddb5d45d111546c666231b9b809f2a3186c548c9024356766e65509f5ca"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "形成真实作用比较内容，去掉纯记录身份",
+  "inputs": "base、完整calculation、具名method",
+  "operations": "保原四柱、层及柱、所有当前量/原点/边/费用/品质/目标/H、原根与当前根；不写仅记录id/version/digest",
+  "outputs": "可canonical后摘要的完整功能内容",
+  "preconditions_and_limits": "身份变化仍由source_trace另报；同名记录内容变要先不可变绑定拒绝。作用签名不是显示颜色或全局最终喜用签名。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mobility.py:functional_payload",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+47. runtime/reused_inventory.py:inventory
+算法标识：runtime/reused_inventory.py:inventory
+source_identity：{
+  "relative_path": "runtime/reused_inventory.py",
+  "qualified_name": "inventory",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params'), arg(arg='transform'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b842e0fcc5ace879cc2256a0e7b3b83f0c3c6e77a0ca030748686ca7b3777817",
+  "module_sha256": "28acf3269dcda7871947e8f729026a7386b268971ac4cbee6715de13df8159fc"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "facts_parsed、内部固定params/transform、原facts模块；只由上层精确源入口对真实raw调用",
+  "operations": "明干各1独立float；隐藏本气1/余气1/4且月乘3/2，每carrier一次。为每actor保4位置原五行藏根行；只year丙/month辛自己的1输入改功能水，原身份/根不删。逐origin before==after；功能池按ownseed比例分配演员权",
+  "outputs": "actors/direct/raw_direct/weights/56root_rows/parsed/params等base；重复origin或不守恒报ArithmeticError",
+  "preconditions_and_limits": "本内部函数不自己认证source，也不把辛原金根当转换水根。总direct等384，actor分配不等384；无未证土十二宫。",
+  "purpose": "保十四原实体并消费具名双方已有种子"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original430_all42_contracts.json",
+  "record": "runtime/cold_core.py:inventory",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/reused_inventory.py:inventory",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+48. runtime/reused_origin_ports.py:origin_ports
+算法标识：runtime/reused_origin_ports.py:origin_ports
+source_identity：{
+  "relative_path": "runtime/reused_origin_ports.py",
+  "qualified_name": "origin_ports",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "771deacd68aec8368b7b3d9d67ba9bb195ad2d7ee7b078fa03be78f95d2017b9",
+  "module_sha256": "b3a6d19307a404f23a0b452f99566d1fccaf340ff483330bfc910fc7a1c0c440"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "base的守恒direct、world同解与实际P、精确Gauss",
+  "operations": "gross=d+Px，rho=x/gross；解(I−diag(rho)P)p=diag(rho)d；逐项核非负、每池合x与全部origin方程",
+  "outputs": "pools/gross/retention/origin_linear_map_L/范围",
+  "preconditions_and_limits": "是完整正生成图，含湿土→水；成本与受克比例消耗，不把被克物转成控制者获益。调用者须传一致world。",
+  "purpose": "把同一实际current拆成可追溯原始origin"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original430_all42_contracts.json",
+  "record": "runtime/cold_core.py:origin_ports",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/reused_origin_ports.py:origin_ports",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+49. runtime/shared_exact.py:pack
+算法标识：runtime/shared_exact.py:pack
+source_identity：{
+  "relative_path": "runtime/shared_exact.py",
+  "qualified_name": "pack",
+  "first_line": 3,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d",
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "Fraction/字典/序列/集合等",
+  "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+  "outputs": "转换后的值",
+  "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。",
+  "purpose": "将数学结构转为可重复JSON兼容值"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/shared_exact.py:pack",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/shared_exact.py:pack",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+50. runtime/shared_exact.py:gauss
+算法标识：runtime/shared_exact.py:gauss
+source_identity：{
+  "relative_path": "runtime/shared_exact.py",
+  "qualified_name": "gauss",
+  "first_line": 10,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec",
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "n×n有理系数及n行多列右端",
+  "operations": "逐列选非零枢轴、归一、消去其他行",
+  "outputs": "有理数解矩阵；奇异报ArithmeticError",
+  "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。",
+  "purpose": "精确多右端线性消元"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/shared_exact.py:gauss",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/shared_exact.py:gauss",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+51. runtime/time_contract.py:ContractError.__init__
+算法标识：runtime/time_contract.py:ContractError.__init__
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "ContractError.__init__",
+  "first_line": 18,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='code'), arg(arg='status')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='invalid_input')])",
+  "AST_sha256": "76fe5c17a69fcce7f30862e13b19f66b73c4db1a6854f5a1f41029beb54d20b8",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "self, code, status='invalid_input'",
+  "operations": "Creates typed hard-failure reason. Default invalid_input, dependency/binding statuses explicit. Not a return result.",
+  "outputs": "None; exception instance .code:str and .status:str",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Creates typed hard-failure reason. Default invalid_input, dependency/binding statuses explicit. Not a return result."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:ContractError.__init__",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+52. runtime/time_contract.py:canonical
+算法标识：runtime/time_contract.py:canonical
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "canonical",
+  "first_line": 21,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "Canonicalizes JSON with allow_nan=False; serialization errors propagate. Does not parse or authorize input.",
+  "outputs": "str: sorted compact UTF-8-compatible JSON text",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Canonicalizes JSON with allow_nan=False; serialization errors propagate. Does not parse or authorize input."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:canonical",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:canonical",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+53. runtime/time_contract.py:digest
+算法标识：runtime/time_contract.py:digest
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "digest",
+  "first_line": 24,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "Value hash, not file-byte hash and not proof of source truth.",
+  "outputs": "str:64hex SHA256(canonical(value).encode())",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Value hash, not file-byte hash and not proof of source truth."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:digest",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:digest",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+54. runtime/time_contract.py:json_pairs
+算法标识：runtime/time_contract.py:json_pairs
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "json_pairs",
+  "first_line": 27,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "83d89b09d8841a3f0d9269edda31935f875dcd740f6803e5515b3e24144c1552",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "rows",
+  "operations": "Strict JSON object-pairs hook; duplicate keys raise ContractError. Does not independently bound nested size.",
+  "outputs": "dict[str,Any]",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Strict JSON object-pairs hook; duplicate keys raise ContractError. Does not independently bound nested size."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:json_pairs",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+55. runtime/time_contract.py:json_nonfinite
+算法标识：runtime/time_contract.py:json_nonfinite
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "json_nonfinite",
+  "first_line": 34,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e725fd4f4251cbe58b87e44ab05b3cb3a0afd4c530d663571f2d3c636a6a25a9",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "Rejects NaN/Infinity tokens during strict JSON parsing.",
+  "outputs": "Never returns normally; raises ContractError",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Rejects NaN/Infinity tokens during strict JSON parsing."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:json_nonfinite",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+56. runtime/time_contract.py:strict_load
+算法标识：runtime/time_contract.py:strict_load
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "strict_load",
+  "first_line": 37,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b389beac0fdf901d7a264de89822289bce60e1b08083442a5b8cdb7b471777fc",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "text",
+  "operations": "Requires input str <=2,000,000 characters; object duplicate/nonfinite hooks. Root schema is checked later in evaluate, not here.",
+  "outputs": "Any parsed JSON value",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Requires input str <=2,000,000 characters; object duplicate/nonfinite hooks. Root schema is checked later in evaluate, not here."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:strict_load",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+57. runtime/time_contract.py:bounded
+算法标识：runtime/time_contract.py:bounded
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "bounded",
+  "first_line": 41,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='depth')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=0)])",
+  "AST_sha256": "8141c84df631aeea1d0cdbababfbd4033b58448a2e13d1e2179d62fc5ac81c8e",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value, depth=0",
+  "operations": "Recursively enforces depth<=64, dict<=128 fields and list<=512 items; JSON serializability. No BaZi/source judgment.",
+  "outputs": "None on success",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Recursively enforces depth<=64, dict<=128 fields and list<=512 items; JSON serializability. No BaZi/source judgment."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:bounded",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+58. runtime/time_contract.py:shape
+算法标识：runtime/time_contract.py:shape
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "shape",
+  "first_line": 51,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='fields'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "93dcded0f65157201b66088f42a5d5f2b7e765fcb88fdb602484ebbd77333aa4",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value, fields, path",
+  "operations": "Requires exact dict key set at the named path; missing and extra fields fail.",
+  "outputs": "None on success",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Requires exact dict key set at the named path; missing and extra fields fail."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:shape",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:shape",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+59. runtime/time_contract.py:named_ref
+算法标识：runtime/time_contract.py:named_ref
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "named_ref",
+  "first_line": 54,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "da57d353857b7f363beb17790081410b9cf3c8ee93929c3b017cbb4064a580c7",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value, path",
+  "operations": "Exact id/version dict of nonempty trimmed strings; no source validity claim.",
+  "outputs": "None on success",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Exact id/version dict of nonempty trimmed strings; no source validity claim."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:named_ref",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:named_ref",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+60. runtime/time_contract.py:compatible
+算法标识：runtime/time_contract.py:compatible
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "compatible",
+  "first_line": 58,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='first'), arg(arg='second'), arg(arg='kind')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a214218c9b8daf79b2732f9551518ae3bcc79ff8cc670eb7128da1955498534f",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "first, second, kind",
+  "operations": "Five虎 annual/month or five鼠 day/hour stem compatibility for actual overlapping same-context records; glyph structure already validated upstream. No real calendar generation.",
+  "outputs": "bool",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Five虎 annual/month or five鼠 day/hour stem compatibility for actual overlapping same-context records; glyph structure already validated upstream. No real calendar generation."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:compatible",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:compatible",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+61. runtime/time_contract.py:preflight_native
+算法标识：runtime/time_contract.py:preflight_native
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "preflight_native",
+  "first_line": 63,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='native'), arg(arg='profile'), arg(arg='pack')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d9495760f44290f4f26516330e0fc0efb7b16ca56b19b5465962872817ae60e8",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "native, profile, pack",
+  "operations": "Validates exact native source-method/profile, owner/content hashes, ALL current/future records and overlapping calendar pairs; structural natal checks. Knowledge-unknown time may return a checked object, but hard invalid/binding fails before world math.",
+  "outputs": "dict: native,time_report,parsed,facts,identity_entries",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Validates exact native source-method/profile, owner/content hashes, ALL current/future records and overlapping calendar pairs; structural natal checks. Knowledge-unknown time may return a checked object, but hard invalid/binding fails before world math."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:preflight_native",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:preflight_native",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+62. runtime/time_contract.py:immutable_preflight
+算法标识：runtime/time_contract.py:immutable_preflight
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "immutable_preflight",
+  "first_line": 83,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='current'), arg(arg='previous')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "30e6c8f5fca4b83c78780da745adb17e06b6cb6c68e79344dc2729e37f93cfa3",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "current, previous",
+  "operations": "Current and previous entries with same kind/namespace/id/version must have identical SHA. Different identity/version permitted; verifies history identity consistency, not calendar truth.",
+  "outputs": "int: number of distinct typed immutable identities",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Current and previous entries with same kind/namespace/id/version must have identical SHA. Different identity/version permitted; verifies history identity consistency, not calendar truth."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:immutable_preflight",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:immutable_preflight",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+63. runtime/time_contract.py:atom_proof
+算法标识：runtime/time_contract.py:atom_proof
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "atom_proof",
+  "first_line": 94,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='checked'), arg(arg='at'), arg(arg='pack')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d5979d19ee8278bda0b2d7a268e420c4a525d08802aea3e8529f2a2c91bf4508",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "checked, at, pack",
+  "operations": "At a known instant, cuts on ALL provided endpoints and calls unchanged time01 for the whole surrounding half-open atom. Every layer must be unique across atom; does not reseal registry or generate records.",
+  "outputs": "dict:start/end/interval,all_provided_record_boundaries_used,native_full_atom_layer_reports,original_registry_resealed,selected",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "At a known instant, cuts on ALL provided endpoints and calls unchanged time01 for the whole surrounding half-open atom. Every layer must be unique across atom; does not reseal registry or generate records."
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:atom_proof",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+64. runtime/time_contract.py:window_functional_timeline
+算法标识：runtime/time_contract.py:window_functional_timeline
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "window_functional_timeline",
+  "first_line": 100,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='frames')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "5fa56e7eb199231330f28dfd29c3bfe083906458f084c458607452da69997b8b",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "frames",
+  "operations": "逐片必须有effect_signature；仅相邻且同effect合并",
+  "outputs": "start/end/effect时间线",
+  "preconditions_and_limits": "准确复用372/385；不计算effect、不认证source、不补缺口；调用方先证明全窗已知。",
+  "purpose": "合并已知相邻等效片"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:window_functional_timeline",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:window_functional_timeline",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+65. runtime/time_contract.py:snapshot_source_trace
+算法标识：runtime/time_contract.py:snapshot_source_trace
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "snapshot_source_trace",
+  "first_line": 110,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "0f369b98e3cc846f714ca65a083f62b6596bda55912bf7c972d99dd9749f489c",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "读instant所选或window原生片所选五层，记录id/version/fullrecordSHA；相邻同选择合并；仅全片唯一选齐才给identity_signature",
+  "outputs": "完整selectionknown/segments/refs/signature",
+  "preconditions_and_limits": "source已知可与功能pending并存；未知不是已知空选择；不拿全catalog替代实际所选。",
+  "purpose": "实际所选来源轴"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:snapshot_source_trace",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:snapshot_source_trace",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+66. runtime/time_contract.py:compare_window_functional
+算法标识：runtime/time_contract.py:compare_window_functional
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "compare_window_functional",
+  "first_line": 126,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='current'), arg(arg='previous'), arg(arg='pack')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "77ce198431524e19b7989547514e8f036b97d2b150107419ba5ec891df6e3c22",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "current,previous,pack",
+  "operations": "要求requestedwindow同域；取两timeline全部端点；每最小片双方必须各唯一覆盖，逐片比effect",
+  "outputs": "same或不同比较域、全部aligned_segments",
+  "preconditions_and_limits": "不是只比签名集合或单时点；前置双方已知、timeline完整且有序；不证明来源或重新算物理。",
+  "purpose": "同域已知功能窗并集切点比较"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:compare_window_functional",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:compare_window_functional",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+67. runtime/time_contract.py:snapshot
+算法标识：runtime/time_contract.py:snapshot
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "snapshot",
+  "first_line": 141,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='checked'), arg(arg='material'), arg(arg='pack'), arg(arg='cache')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d98fae72a8cd703c89cad6486e1ba491a66b868c4813ebaa5acb750551abcad7",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "checked,material,pack,cache",
+  "operations": "instant先全atom唯一证明；window保原0.2逐片覆盖后frame；仅每片当前辅助完整时建功能timeline；来源trace始终独立",
+  "outputs": "完整frames、coverage、known状态和规范timeline/签名",
+  "preconditions_and_limits": "源未解、缺档、辅助未立都不knownsame；物理可已算但aux未立。只改准确状态名，继承385比较逻辑。",
+  "purpose": "当前完整instant/window上下文"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:snapshot",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:snapshot",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+68. runtime/time_contract.py:compare
+算法标识：runtime/time_contract.py:compare
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "compare",
+  "first_line": 162,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='current'), arg(arg='previous'), arg(arg='current_native'), arg(arg='previous_native'), arg(arg='pack')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "0ae16201333a484d7761cfe0ba4e7cbbe3bc7f6eba68adccb24d2005404c747a",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "current/previous snapshots与双方native、pack.time",
+  "operations": "保旧身份/方法/出生/评估类型与窗口域可比门；source_trace独立；任一功能未知则evidence_insufficient；已知窗口用双方边界联合逐片比较，instant比较功能hash并报告回拨与旧租约，不把旧作为当前结果。只把旧单方向metadata改为具名任务描述。",
+  "outputs": "confirmed_same/changed、来源身份轴、逐片比较或明确not_comparable/insufficient。",
+  "preconditions_and_limits": "基本数学/时间条件AST来自原合同，改动仅一输出字段名称；0.1/0.2方法版本不可悄悄比较；不是显示或最终主题比较。",
+  "purpose": "按原372/385合同比较来源与当前完整具名功能"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "runtime/time_contract.py:compare",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:compare",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+69. runtime/time_contract.py:frame
+算法标识：runtime/time_contract.py:frame
+source_identity：{
+  "relative_path": "runtime/time_contract.py",
+  "qualified_name": "frame",
+  "first_line": 187,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='checked'), arg(arg='selected'), arg(arg='validity'), arg(arg='material'), arg(arg='pack'), arg(arg='cache')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1657e8fdf01dd37b46be05e5887f8d0a0dc41ff50869b7954e71e73891e69b74",
+  "module_sha256": "bc699379ed79f581013b2528fbcacadefbbfef8b80af517f164d9455586826ae"
+}
+条目分类：new_or_adapted_with_current_source_contract
+算法解释：{
+  "purpose": "仅将原有时间框架的一个完整选定状态改接261真实图",
+  "inputs": "已预检native、五层唯一selected、validity、已核材料、pack、cache",
+  "operations": "source_domain先于库存；未闭仅事实与未知轴；域内完整inventory/analyze；按raw/selected/method缓存；只有整题及当前H俱成才赋effect_signature，physical_signature仍单列",
+  "outputs": "含全计算、三知识轴、实际作用/功能签名和具名木题答案的frame",
+  "preconditions_and_limits": "旧snapshot/compare/半开UTC/来源身份算法原样复用。辅助未立仍可能物理变化，不可确认same；条件题接口与完整五层接口不混。"
+}
+exact_reuse_reference：null
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/time_contract.py:frame",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+70. vendor/time_validity_v0_1/time_validity.py:ContractError.__init__
+算法标识：vendor/time_validity_v0_1/time_validity.py:ContractError.__init__
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "ContractError.__init__",
+  "first_line": 24,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "status,path,code",
+  "operations": "保存三个字段；未调用super().__init__",
+  "outputs": "正常None；实例status/path/code",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "类型化中立合同错误"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:ContractError.__init__",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+71. vendor/time_validity_v0_1/time_validity.py:fail
+算法标识：vendor/time_validity_v0_1/time_validity.py:fail
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "fail",
+  "first_line": 28,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "status,path,code",
+  "operations": "raise ContractError(status,path,code)",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "统一抛合同异常"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:fail",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+72. vendor/time_validity_v0_1/time_validity.py:obj
+算法标识：vendor/time_validity_v0_1/time_validity.py:obj
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "obj",
+  "first_line": 32,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='path'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])",
+  "AST_sha256": "72228a38d33e9d7c6b0e567c982496a97870a88434d6a0571cee31668bb3c212",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value,required,path,optional=()",
+  "operations": "dict、必需/可选键集合检查；缺必需needs_input、多余invalid_input",
+  "outputs": "成功None",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "精确对象形状"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:obj",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:obj",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+73. vendor/time_validity_v0_1/time_validity.py:nonempty
+算法标识：vendor/time_validity_v0_1/time_validity.py:nonempty
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "nonempty",
+  "first_line": 41,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "71f77e1496392dc39b00aab96999da7e2794a40746e68e8f0d078f5332f77029",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value,path",
+  "operations": "要求str且value.strip()非空；不要求原串已经trimmed",
+  "outputs": "成功None，不返回或修改原字符串",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "含非空白的文本"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:nonempty",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:nonempty",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+74. vendor/time_validity_v0_1/time_validity.py:ref
+算法标识：vendor/time_validity_v0_1/time_validity.py:ref
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "ref",
+  "first_line": 46,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path'), arg(arg='with_hash')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])",
+  "AST_sha256": "3c668fa5f9ac7b83641a20280482bd70b308796b1a48c1156596a08287e15e58",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value,path,with_hash=False",
+  "operations": "精确id/version（可另sha256）对象，nonempty及hash语法检查",
+  "outputs": "(id,version) tuple，不返原dict",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "具名版本引用"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:ref",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:ref",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+75. vendor/time_validity_v0_1/time_validity.py:hash_value
+算法标识：vendor/time_validity_v0_1/time_validity.py:hash_value
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "hash_value",
+  "first_line": 56,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "aa33c9a8a29173f33325ab188638248c76f3d9ed0da3c13781b86d2b060b78ab",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value,path",
+  "operations": "要求64位小写hex字符串",
+  "outputs": "成功None",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "SHA字段语法"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:hash_value",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:hash_value",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+76. vendor/time_validity_v0_1/time_validity.py:digest
+算法标识：vendor/time_validity_v0_1/time_validity.py:digest
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "digest",
+  "first_line": 61,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ebed624263df4a325b075213744cf1991e520786d6cda9ee4de05ffde022a263",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "排序Unicode紧凑JSON、UTF8 SHA256",
+  "outputs": "hex str",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "规范值SHA"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:digest",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:digest",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+77. vendor/time_validity_v0_1/time_validity.py:payload_digest
+算法标识：vendor/time_validity_v0_1/time_validity.py:payload_digest
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "payload_digest",
+  "first_line": 67,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "929b212877e4ed2311b94399f8eb911956a00960517d326574045447aa2d0cff",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "request",
+  "operations": "完整请求仅排除registry顶层字段，再digest",
+  "outputs": "hex str；不裁剪或只取records",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "原声明载荷绑定"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:payload_digest",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:payload_digest",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+78. vendor/time_validity_v0_1/time_validity.py:load_request
+算法标识：vendor/time_validity_v0_1/time_validity.py:load_request
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "load_request",
+  "first_line": 72,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b5ff1444bfa960b2bf587052e42ceee9ecc1aaa895ff171257e99526b932876c",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "raw",
+  "operations": "重复键与非有限常量回调；json.loads",
+  "outputs": "解析JSON；异常拒绝",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "中立旧CLI严格解析"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:load_request",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+79. vendor/time_validity_v0_1/time_validity.py:load_request.<locals>.unique_object
+算法标识：vendor/time_validity_v0_1/time_validity.py:load_request.<locals>.unique_object
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "load_request.<locals>.unique_object",
+  "first_line": 74,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "c80d44e588d19c9eebfc2394d9d67ba26dd0a829c13f072b35968a468305a129",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "pairs",
+  "operations": "逐键插入，重复fail",
+  "outputs": "dict",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "拒绝重复对象键"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:load_request.<locals>.unique_object",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+80. vendor/time_validity_v0_1/time_validity.py:load_request.<locals>.reject_constant
+算法标识：vendor/time_validity_v0_1/time_validity.py:load_request.<locals>.reject_constant
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "load_request.<locals>.reject_constant",
+  "first_line": 82,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "50c2f9e0b629134f34610ed9e31aa6ffeee45985134f76de5c3fddbc9636dba7",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "fail nonfinite_JSON_number",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "拒绝非有限常量"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:load_request.<locals>.reject_constant",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+81. vendor/time_validity_v0_1/time_validity.py:utc
+算法标识：vendor/time_validity_v0_1/time_validity.py:utc
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "utc",
+  "first_line": 88,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "92b7ff371423a3e9c37df8936460e42b5d4391f92820a1d84ab4725593f3aa5c",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value,path",
+  "operations": "文本正则、显式Z/+00:00、微秒<=6、datetime解析",
+  "outputs": "UTC datetime",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "明确UTC解析"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:utc",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:utc",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+82. vendor/time_validity_v0_1/time_validity.py:utc_text
+算法标识：vendor/time_validity_v0_1/time_validity.py:utc_text
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "utc_text",
+  "first_line": 97,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "642c7386c0a5df3a05d03352e44cc11e850d01582faa140c8d2febf5a498448b",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "datetime",
+  "operations": "转UTC并isoformat；+00:00换Z",
+  "outputs": "str",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "UTC规范文本"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:utc_text",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:utc_text",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+83. vendor/time_validity_v0_1/time_validity.py:parse_evaluation
+算法标识：vendor/time_validity_v0_1/time_validity.py:parse_evaluation
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "parse_evaluation",
+  "first_line": 101,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d2fd4503ef77645e0ffe126cfe97dabc4f58feeaee49f17c90bbc3ba41d10f5c",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "精确字段；UTC解析；window start<end",
+  "outputs": "(kind,start,end)；instant两个时点均point，不是None",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "请求instant或半开window"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:parse_evaluation",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:parse_evaluation",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+84. vendor/time_validity_v0_1/time_validity.py:record_ref
+算法标识：vendor/time_validity_v0_1/time_validity.py:record_ref
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "record_ref",
+  "first_line": 117,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1f16bdc6172940b24e80061667bf069b81bfb4a81c6580e49ebe6209d29a7257",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "原始record",
+  "operations": "仅提取id/version",
+  "outputs": "二字段dict；不是selected完整record",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "简要记录身份引用"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:record_ref",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:record_ref",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+85. vendor/time_validity_v0_1/time_validity.py:parse_record
+算法标识：vendor/time_validity_v0_1/time_validity.py:parse_record
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "parse_record",
+  "first_line": 121,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='path'), arg(arg='context_hash'), arg(arg='evidence_index')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "073efc44f7db77c6d4e596ae3b3208cc71666c20c53d02303b61afd78638a155",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "record,path,context_hash,evidence_index",
+  "operations": "核shape/id/version/context/evidence/配对；解析范围与干支；缺项标记、坏绑定列issue",
+  "outputs": "含raw、datetime、missing标记/绑定issue的record",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "完整原记录解析"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:parse_record",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:parse_record",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+86. vendor/time_validity_v0_1/time_validity.py:relation
+算法标识：vendor/time_validity_v0_1/time_validity.py:relation
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "relation",
+  "first_line": 161,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='kind'), arg(arg='start'), arg(arg='end')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "80cc1239b8fdf7edcf45c898b3600c2f2bd3c9f22d443860d1bf9cc330d97fa7",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "parsed record,kind,start,end",
+  "operations": "按半开范围判断未来/过期/覆盖/局部/未知",
+  "outputs": "关系str",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "记录与评估关系"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:relation",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:relation",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+87. vendor/time_validity_v0_1/time_validity.py:overlap_in_evaluation
+算法标识：vendor/time_validity_v0_1/time_validity.py:overlap_in_evaluation
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "overlap_in_evaluation",
+  "first_line": 180,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='first'), arg(arg='second'), arg(arg='kind'), arg(arg='start'), arg(arg='end')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "cf29ff86ce27f02fbdfa55a9f86e812d5bd5240da6d82a3c4c58674e9cb98504",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "first,second,kind,start,end",
+  "operations": "先两记录区间相交，再检查instant a<=t<b或与window严格交；任一缺范围False",
+  "outputs": "bool，未知另由上层保留",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "两个记录在评估域是否真相交"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:overlap_in_evaluation",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+88. vendor/time_validity_v0_1/time_validity.py:evaluate_layer
+算法标识：vendor/time_validity_v0_1/time_validity.py:evaluate_layer
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "evaluate_layer",
+  "first_line": 190,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='records'), arg(arg='kind'), arg(arg='start'), arg(arg='end')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "53cd967656f383ffa7929d4483602c3319aefc28d9f881eca22855655c4db00e",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "全部parsedrecords,kind,start,end",
+  "operations": "全记录分类与binding/missing/partial/conflict优先处理；只有唯一全覆盖无issue为current",
+  "outputs": "单层report及selected或unknown",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "单层唯一选择与未知"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:evaluate_layer",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:evaluate_layer",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+89. vendor/time_validity_v0_1/time_validity.py:_evaluate
+算法标识：vendor/time_validity_v0_1/time_validity.py:_evaluate
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "_evaluate",
+  "first_line": 263,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b3108e9cecab25fa25e58fed25266d57276ad2fc20f95cbd6badaa72aece0015",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "request",
+  "operations": "context/方法/历法/registry/evidence/原payload绑定；全部层记录parse且全局id+version不得重复；五层全查",
+  "outputs": "完整report，唯全层无issue才current",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "完整中立合同检查"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:_evaluate",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:_evaluate",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+90. vendor/time_validity_v0_1/time_validity.py:evaluate
+算法标识：vendor/time_validity_v0_1/time_validity.py:evaluate
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_1/time_validity.py",
+  "qualified_name": "evaluate",
+  "first_line": 333,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "01f28d9c749e0a5ac0a684e0fbc8e7edd8d83a8e05a775fe00bdba6696f6fcab",
+  "module_sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "request",
+  "operations": "调用_evaluate；捕ContractError和规定结构/非有限异常",
+  "outputs": "正常或结构化unknown/error报告",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "中立合同公开安全包装"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:evaluate",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:evaluate",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+91. vendor/time_validity_v0_2/time_validity.py:ContractError.__init__
+算法标识：vendor/time_validity_v0_2/time_validity.py:ContractError.__init__
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "ContractError.__init__",
+  "first_line": 20,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "status,path,code",
+  "operations": "保存三个字段；未调用super().__init__",
+  "outputs": "正常None及status/path/code",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "0.2类型化错误"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:ContractError.__init__",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+92. vendor/time_validity_v0_2/time_validity.py:canonical
+算法标识：vendor/time_validity_v0_2/time_validity.py:canonical
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "canonical",
+  "first_line": 24,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "排序Unicode紧凑JSON无NaN后UTF8编码",
+  "outputs": "bytes，与外层同名函数返str不同",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "规范JSON字节"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:canonical",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:canonical",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+93. vendor/time_validity_v0_2/time_validity.py:digest
+算法标识：vendor/time_validity_v0_2/time_validity.py:digest
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "digest",
+  "first_line": 29,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "直接SHA256(canonical返回的bytes)",
+  "outputs": "hex str",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "规范值SHA"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:digest",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:digest",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+94. vendor/time_validity_v0_2/time_validity.py:load_request
+算法标识：vendor/time_validity_v0_2/time_validity.py:load_request
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "load_request",
+  "first_line": 33,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a6592b51a2e3b8c862ab667794db8486cd0e37d8096d0e2485ad79b73dcd852a",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "raw",
+  "operations": "json.loads重复键/nonfinite回调",
+  "outputs": "解析JSON",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "0.2严格JSON"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+95. vendor/time_validity_v0_2/time_validity.py:load_request.<locals>.unique
+算法标识：vendor/time_validity_v0_2/time_validity.py:load_request.<locals>.unique
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "load_request.<locals>.unique",
+  "first_line": 34,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "99575bd97f4e69b1e92f76411793cb9f4b7303b115613ec6e0d44b0d24052572",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "pairs",
+  "operations": "重复键抛ContractError",
+  "outputs": "dict",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "重复键拒绝"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request.<locals>.unique",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request.<locals>.unique",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+96. vendor/time_validity_v0_2/time_validity.py:load_request.<locals>.reject
+算法标识：vendor/time_validity_v0_2/time_validity.py:load_request.<locals>.reject
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "load_request.<locals>.reject",
+  "first_line": 41,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8f7e5a5e78c35411c6739caaa6df61115983ec449288ac2c5a38505d0715828b",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "抛ContractError",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "nonfinite拒绝"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request.<locals>.reject",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+97. vendor/time_validity_v0_2/time_validity.py:load_native
+算法标识：vendor/time_validity_v0_2/time_validity.py:load_native
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "load_native",
+  "first_line": 46,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d07e9036d82ed477fb6908fddda933542991cd46cb5aebd57b39d0665ec3ea42",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "无参数；固定__file__ ROOT与锁",
+  "operations": "核固定dep lockSHA及0.1 bytesSHA/版本，compile已核bytes；OSError转换dependency_unavailable",
+  "outputs": "(原0.1 module,lock) tuple",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "核旧中立依赖后执行"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_native",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_native",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+98. vendor/time_validity_v0_2/time_validity.py:identity_entries
+算法标识：vendor/time_validity_v0_2/time_validity.py:identity_entries
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "identity_entries",
+  "first_line": 69,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9c0dc5eaabdeaa938f63be10b87ed9bfc7d1d0eb40ce61206148c7688c6624e6",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "完整request",
+  "operations": "person/method/calendar namespace下context/registry/evidence/record逐项append规范SHA",
+  "outputs": "完整身份list",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "中立typed不可变身份清单"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:identity_entries",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:identity_entries",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+99. vendor/time_validity_v0_2/time_validity.py:identity_entries.<locals>.append
+算法标识：vendor/time_validity_v0_2/time_validity.py:identity_entries.<locals>.append
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "identity_entries.<locals>.append",
+  "first_line": 76,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='kind'), arg(arg='item')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2872c81d9e1b94e13f0f9f02d1ecd94aed1f789f51daa7966659b514e9520742",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "kind,item",
+  "operations": "附item id/version、namespace deepcopy与digest(item)",
+  "outputs": "修改外层result；None",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "登记一项身份"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:identity_entries.<locals>.append",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:identity_entries.<locals>.append",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+100. vendor/time_validity_v0_2/time_validity.py:validated_records
+算法标识：vendor/time_validity_v0_2/time_validity.py:validated_records
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "validated_records",
+  "first_line": 89,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "98c9dc28685862a1520c9cd0429d98546d3fef1a791f9437c771bf0733d26954",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "request,native",
+  "operations": "按每层不裁剪原records逐项native.parse_record",
+  "outputs": "parsed五层dict",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "复用旧parser完整原表"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:validated_records",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:validated_records",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+101. vendor/time_validity_v0_2/time_validity.py:collect_boundaries
+算法标识：vendor/time_validity_v0_2/time_validity.py:collect_boundaries
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "collect_boundaries",
+  "first_line": 99,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='start'), arg(arg='end'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "65fdc52f2064ec99ad06a80583d68e261b803a7f00082fcb7fbe40740cce130c",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "parsed,start,end,native",
+  "operations": "请求start/end加所有提供范围内端点，保来源，UTC排序",
+  "outputs": "全部端点及其来源",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "完整有限分割端点"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:collect_boundaries",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:collect_boundaries",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+102. vendor/time_validity_v0_2/time_validity.py:evaluate_segments
+算法标识：vendor/time_validity_v0_2/time_validity.py:evaluate_segments
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "evaluate_segments",
+  "first_line": 112,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='boundaries'), arg(arg='request'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "7798a0a1c2f6e8aeba246bf00ca2537b068f9fe555747ec7919bcc769a8d6db3",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "parsed,boundaries,request,native",
+  "operations": "相邻[a,b)调用原evaluate_layer全记录；且registry完整性已声明、所有层无issue才ready",
+  "outputs": "完整segments及eligible inputs",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "每相邻半开片五层唯一"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:evaluate_segments",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:evaluate_segments",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+103. vendor/time_validity_v0_2/time_validity.py:coverage_proof
+算法标识：vendor/time_validity_v0_2/time_validity.py:coverage_proof
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "coverage_proof",
+  "first_line": 132,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='strict_report'), arg(arg='segments'), arg(arg='boundaries')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "7f05283494a12be0603eaf06148725f3961f70f5bda00853ee9cc7a0781a9e03",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "request,strict_report,segments,boundaries",
+  "operations": "核segments首尾等boundaries首尾、相邻、全ready；附原输入/strictreport/payload hash及论证并hash自身",
+  "outputs": "coverage证明；非抽样；依赖调用方已按原请求生成完整边界，并非独立重查所有raw端点",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "完整覆盖和互斥证明"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:coverage_proof",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:coverage_proof",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+104. vendor/time_validity_v0_2/time_validity.py:evaluate_window_coverage
+算法标识：vendor/time_validity_v0_2/time_validity.py:evaluate_window_coverage
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "evaluate_window_coverage",
+  "first_line": 155,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ef29c08420082449e88abdb8b6f88db61b08bc48bb243aa75cfdb2bc9e5b9b95",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "完整request",
+  "operations": "load_native核源→原evaluate；要求window；typed身份、全表边界/逐片/全覆盖；保原整窗严格report",
+  "outputs": "complete或原生具体unknown/error",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "原严格报告及分段合同"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:evaluate_window_coverage",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:evaluate_window_coverage",
+  "paired_same_frame": true,
+  "termination": "normal_return"
+}
+unexecuted_note：null
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+105. vendor/time_validity_v0_2/time_validity.py:main
+算法标识：vendor/time_validity_v0_2/time_validity.py:main
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "qualified_name": "main",
+  "first_line": 195,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='argv')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "134775ae0ae217509d9caef290fd1c6f5f744268fa6abd3264cbdf321e05011d",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+}
+条目分类：exact_old_AST_and_substantive_contract_reused
+算法解释：{
+  "inputs": "文件参数或stdin",
+  "operations": "load_request→evaluate_window_coverage打印JSON；规定状态exit2",
+  "outputs": "exit0或2及stdoutJSON",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "旧0.2独立CLI"
+}
+exact_reuse_reference：{
+  "artifact": "reference/original488_all109_contracts.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:main",
+  "exact_AST": true,
+  "old_module_context_does_not_override_current_method": true
+}
+本版实际输入输出记录：null
+unexecuted_note：本次未执行旧函数：精确旧AST/合同复用，不伪造新IO。
+本版范围：[
+  "本模块以430库存/原点尺度和261指定原局为准；旧吴盘/其他格局/调候的上下文不迁移。",
+  "实现通过不等于现实预测验证。"
+]
+
+106. vendor/time_validity_v0_2/time_validity.py:collect_boundaries.<inline_lambda>
+算法标识：vendor/time_validity_v0_2/time_validity.py:collect_boundaries.<inline_lambda>
+source_identity：{
+  "relative_path": "vendor/time_validity_v0_2/time_validity.py",
+  "first_line": 108,
+  "column": 74,
+  "AST_sha256": "9489eb6748335bae927bb0dfe5fc1c053e428e57705482ae58b3045508baa3ea",
+  "module_sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_inline_lambda_documented_separately_not_new_algorithm
+算法解释：{
+  "purpose": "对同一边界的多个证据标记作确定性排序",
+  "inputs": "一个已验证边界source标记字典v",
+  "operations": "用canonical(v)作为sorted比较键，保来源字段，不合并不同source记录",
+  "outputs": "规范UTF8 JSON字节串（bytes），仅作排序键",
+  "preconditions_and_limits": "旧0.2内联键算法，非独立命理规则，不改变边界时间或来源真值。"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/boundary_inline_lambda_actual_IO.json",
+  "record": "actual",
+  "paired_same_frame": true
+}
+

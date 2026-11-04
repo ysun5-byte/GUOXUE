@@ -1,0 +1,285 @@
+印旺用财整盘
+rev97_print_finance_whole_research
+所属原模块：C02
+当前采用：rev107_PF1_whole_project_model_adoption.json
+范围：财抑印及印生日反馈、财负担、原印格功能保留门和真实重根资格全部核；不是印财共见就成立。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev97_print_finance_whole_research/algorithm_explanations.json
+SHA256：9458ab47102ea4bbb01c4fbde3d9dc939d95ab6e576698172e07dbcf87a6fa5a
+
+1. 1
+function：canonical
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 17,
+  "end_line": 17,
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+}
+actual_signature：value
+目的：确定的 JSON 序列化
+input_contract：任意可 JSON 编码且无 NaN/Infinity 的对象；本模块回包已经 Fraction→字符串。
+output_contract：str；UTF-8语义，中文保留、键排序、紧凑分隔；不写文件。
+method_and_conflicts：按键排序只稳定表示，不给候选五行排序意义；不可把序列先后当主次。
+errors_None_and_side_effects：TypeError/ValueError 由调用方处理。
+actual_IO_evidence：actual_algorithm_IO.json samples.canonical
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+2. 2
+function：pairs
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 18,
+  "end_line": 23,
+  "AST_sha256": "1baed2f4ba4e4ac0cc9c37218dc9cfdaf679f76c84cd887166678ec867cbfe19"
+}
+actual_signature：rows
+目的：拒绝 JSON 重复键
+input_contract：json object_pairs_hook 给出的按序二元组列表。
+output_contract：dict；键第一次出现时保留其值；第二次同键立即 ValueError。
+method_and_conflicts：不采用最后值覆盖；raw_pillars/配置/来源 JSON 共用此规则。
+errors_None_and_side_effects：duplicate JSON key:<key>；无外部副作用。
+actual_IO_evidence：actual_algorithm_IO.json samples.pairs
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+3. 3
+function：nonfinite
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 24,
+  "end_line": 24,
+  "AST_sha256": "f47199d5d405caad44c89d699c81c667d65697a1783d8778d2775e2f954cbfd5"
+}
+actual_signature：v
+目的：拒绝非有限 JSON 常数
+input_contract：json.parse_constant 传入 NaN、Infinity 或 -Infinity 字符串。
+output_contract：永不正常返回；抛出 ValueError。
+method_and_conflicts：非有限输入不进入数值模型；不是用 0 代替。
+errors_None_and_side_effects：nonfinite JSON:<token>。
+actual_IO_evidence：actual_algorithm_IO.json samples.nonfinite
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+4. 4
+function：parse
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 25,
+  "end_line": 25,
+  "AST_sha256": "4664435f513a009ec9439aa106927a7c50669fd6272ed1d11ccb1cb9a1ddb570"
+}
+actual_signature：text
+目的：统一严格 JSON 解析
+input_contract：str 或 json.loads 支持的 bytes；重复键和非有限常数钩子固定。
+output_contract：实际 JSON 值；本函数不要求其已经是研究请求。
+method_and_conflicts：解析正确≠DTO合法≠命例合法；evaluate 与 HAP 再分别核验。
+errors_None_and_side_effects：语法、深层嵌套、重复键/非有限异常向上传递。
+actual_IO_evidence：actual_algorithm_IO.json samples.parse
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+5. 5
+function：verify_tree
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 27,
+  "end_line": 35,
+  "AST_sha256": "2047d8932468d840e22bf39af47a4db4d54fdc7f9404b72f93247a6a6bcde707"
+}
+actual_signature：data, prefix
+目的：核原冻结组件完整库存
+input_contract：已逐件读入并核摘要的 data 字节字典和实际 prefix；支持真实原 manifest 的列表/字典两种形状，不给原报告补字段。
+output_contract：None；检查库存恰为 manifest登记文件加自身manifest/freeze；逐项SHA/字节，再核freeze指向实际manifest。
+method_and_conflicts：所有登记物都检查，包括未执行的原回放；额外未登记source拒绝，但不执行未用材料。None表示校验成功不是输出H。
+errors_None_and_side_effects：缺件/增件/摘要/字节/冻结指针不符拒绝；只读。
+actual_IO_evidence：actual_algorithm_IO.json samples.verify_tree
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+6. 6
+function：load_dependencies
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 37,
+  "end_line": 80,
+  "AST_sha256": "3ecb83d070150dabc20f43714b3157c7dd8e9e25974190e9ba1af2789bbddb7b"
+}
+actual_signature：
+目的：所有来源先核后执行
+input_contract：无外部参数；HERE 相对当前模块目录，固定 LOCK_SHA；211件登记依赖。
+output_contract：pack：实际原 math/facts/bridge/hidden/aux 库模块，加新profile和source_receipt。
+method_and_conflicts：先实际库存/所有字节，再原140/57/3库存，实际政策/独审/aggregate/四目标与真实AST版本、freeze四目标/report指针、合同系数与PDF/四页图；最后才exec已核原核心并由其原loader再验原依赖。不是新模型采纳。
+errors_None_and_side_effects：任何资料门失败在首次原provider exec前拒绝；磁盘只读；exec为载入已核本地算法，无通信。
+actual_IO_evidence：actual_algorithm_IO.json samples.load_dependencies
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+7. 7
+function：source_context
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 82,
+  "end_line": 114,
+  "AST_sha256": "6d9c8e59f97063e9c74a1e3f4b6bee5bd297d3c0cd436ab4664d6bf6047f4805"
+}
+actual_signature：raw, hap, pack
+目的：从原四柱确定有限源入口和未闭分支
+input_contract：已通过HAP严格原柱检查的 raw、原生 hap、已核pack。不得把任意手填结论作raw。
+output_contract：dict：actors/groups/month、完整关系、ROOT2类型见证、HAP消耗、气候/刑害破记录、known_other_source_reasons、unresolved_source_effects、numeric_components_complete等。
+method_and_conflicts：月令正/偏印；透同干月主气合并后≥2当前印载体；恰1明财；无当前食伤官杀比劫；至少1日主 ROOT2重类；全关系/命名藏干/已匹配原典气候门闭。多载体不等于真实印旺身强；十二月是新有限源域而非调候已全解。
+errors_None_and_side_effects：已知不同入口记known；作用算子未实现记pending；不说古法一律格败。positive-root刑害破是保守转支。numeric_complete只指此纯印财组件，仍须其他源门闭。
+actual_IO_evidence：actual_algorithm_IO.json samples.source_context
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+8. 8
+function：retention_cell
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 116,
+  "end_line": 118,
+  "AST_sha256": "da40e5801bfe99ced8a797d738c1ba96f57fe65a409f5dd80b121a450fd1f5ba"
+}
+actual_signature：input_stock, control_stock, m
+目的：一份印库存同时承担财克与生日
+input_contract：input_stock/control_stock：origin→非负Fraction；m为已核普通预算库。
+output_contract：input/control_by_origin/control_budget/uniform_retention/current/same_shared_retention_for_every_print_function。
+method_and_conflicts：A=Σinput,C=Σcontrol，A>0时 r=max(0,1−C/A)，否则r=0；各origin一起乘r。所有财克入量按同源max合池，不把同一来源重复累加。生日不得用克前库存。
+errors_None_and_side_effects：无来源断言/不做H；零库存与过度克制截0。半根护栏在effect对完整根池验，不是这里每个印都保半。
+actual_IO_evidence：actual_algorithm_IO.json samples.retention_cell
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+9. 9
+function：effect
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 120,
+  "end_line": 130,
+  "AST_sha256": "bab6d87e2fdef42ac81cc63308b1f18f9f166558422003376d13920a0c085298"
+}
+actual_signature：raw, ctx, cfg, pack, blocked=()
+目的：重算全部印生日、财抑印与承财负荷
+input_contract：raw、source_context、固定cfg、已核pack；blocked仅内部三任务操作解释，非产品可调权重。
+output_contract：dict：direct、逐印retention/生日、全部边、克前后印/根池、实际生日/body/财负荷的origin映射、quantities、predicates、完整性与范围标记。
+method_and_conflicts：ROOT2 direct；月增益/冲留存/透干origin；每财→每印 c×reach，均匀r后各印→日 g×reach；全印、生日、身体分别同源max；财负荷¼×财direct，BODY严格>5/4负荷。印池确减、原有根池>0、当前根≥原半且>0、实际印生日>0、承财门全成立。
+errors_None_and_side_effects：财克正用于抑过，同时真实减少生日函数；财负荷仍保留。生日函数损不等于最终BODY净损；同源已由日根覆盖的预算不再重复加。只阻断任务，不删除actor/root，也不以“选财”抹去财害。
+actual_IO_evidence：actual_algorithm_IO.json samples.effect
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+10. 10
+function：whole_graph
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 132,
+  "end_line": 144,
+  "AST_sha256": "caec18219d3fa0779bf83ff0650ecfe2244d48b0e988c2392341f83df643efe8"
+}
+actual_signature：hap, ctx, world, pack
+目的：完整正负作用绑定原AUX图
+input_contract：hap物理actor、ctx、实际effect world、已核pack。
+output_contract：原AUX schema 的 actors/goals/tasks/scope/global_checks；finance actor month-main 显式映射到实际 hidden:month:<干>。
+method_and_conflicts：所有物理天干藏干保留；纯印多源中的原印生日为PF-FRAME-POOL1既有框架任务，仅本源如此，不泛称所有印永不辅助。全部财抑印/生日损/承载负荷任务同时存在；仅源与全目标闭才可选财。
+errors_None_and_side_effects：未知/其他源scope关且H不得生成；未知不是确认无影响。HAP actor references均真存在。原印留在框架≠删除印生日/根，亦非功能承载F shortcut。
+actual_IO_evidence：actual_algorithm_IO.json samples.whole_graph
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+11. 11
+function：whole_world
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 146,
+  "end_line": 148,
+  "AST_sha256": "b98ce9eef13b9534fae3592b606c4f56614b92adf2f0340a50697fa34be9ed85"
+}
+actual_signature：raw, hap, ctx, cfg, pack, blocked=()
+目的：一次完整世界与未决分离
+input_contract：raw/hap/ctx/cfg/pack与可选blocked。
+output_contract：actual_component_effect、bound_whole_graph、native_selector、whole_auxiliary_actor_sets/element_sets、current_source_eligible_effect。
+method_and_conflicts：先effect再全图再原AUX select；完整保留所有最小候选集合，元素集合去重不排序主次。只有源条件无known/pending且组件完整，actual_effect才可称current_source_eligible；仍可能全目标失败/H空。
+errors_None_and_side_effects：源外数值只诊断，current_source_eligible_effect=None。不得搜索其他源成功后回退；本模块始终B=None。
+actual_IO_evidence：actual_algorithm_IO.json samples.whole_world
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+12. 12
+function：evaluate
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 150,
+  "end_line": 160,
+  "AST_sha256": "95654118996afb4894e1836b67804b17a3c9d032e23bf5a9d59fab94c0166400"
+}
+actual_signature：request
+目的：严格raw入口与固定模型回放
+input_contract：唯一允许形状 {raw_pillars:{year,month,day,hour}}，四个合法干支字串；源门先于DTO检验。
+output_contract：原生HAP、source_context、默认runtime_world、3操作反事实、16参数世界、最终H/priority或None、source层次/异文/限制与BNone。
+method_and_conflicts：HAP无效→invalid；knownother优先于pending；源闭而目标全合且选出H才返回computed，否则fixed_profile_goals_not_met。默认固定不因敏感性有成功世界换参数。单一元素仅标single_element，不输出古法主次/比例。
+errors_None_and_side_effects：不接ready/final/cfg。不改产品原B/C20/进度。输入四柱变化会重算；地区/时间/相遇不允许混入本原局raw判断。
+actual_IO_evidence：actual_algorithm_IO.json samples.evaluate
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+
+13. 13
+function：main
+module_version：print-finance-preserved-frame-whole-H-0.1
+core_sha256：4bdb430aeaa8542cf854d2e75e0963d96df12a015ac5b71999a94007c66655e8
+source_locator：{
+  "file": "print_finance.py",
+  "line": 162,
+  "end_line": 167,
+  "AST_sha256": "23f54499480a6fedd98645fd76883c6191406833037ed15c4742672f59477d3d"
+}
+actual_signature：
+目的：命令行可重复入口
+input_contract：stdin最多100000个字符；严格JSON后调用evaluate；不读主机路径/网络。
+output_contract：stdout单个确定JSON行；成功exit0，列明异常返回{status:rejected,error}且exit2。
+method_and_conflicts：原始王字非法回原生invalid状态exit0；语法/协议/source错误才rejected exit2。sourcepending也exit0但HNone，不冒充正常无变化。
+errors_None_and_side_effects：ValueError,TypeError,KeyError,OSError,RecursionError,ArithmeticError；其他程序错误不被编成成功。stdout写一次，无任何外部消息。
+actual_IO_evidence：actual_algorithm_IO.json samples.main
+full_world_replay：replays/P0_constructed_metal_API.json
+reused_dependencies：Literal vendor/official and original algorithm explanations retained; new source/goal/frame contract is separate, not old官source reused as印source
+scientific_status：finite rational engineering budget; not measured qi/strength or verified prediction
+

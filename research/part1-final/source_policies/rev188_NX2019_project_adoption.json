@@ -1,0 +1,53 @@
+{
+  "id": "project-adopted-NX2019-modern-author-frame",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_exact_version_modern_named_author_frame",
+  "component": "rev177_Ningxia_frame_reassessment_complete",
+  "target": {
+    "component": "rev177_Ningxia_frame_reassessment_complete",
+    "files": 559,
+    "manifest_sha256": "d0bf4a16955321806b8c6b00bffa460b2edab4c8d51dd128162be2a4666529c4",
+    "freeze_sha256": "f12533d4b773540bc85a1b23ffb5acc3fcb6d800a63d8829d9ddcd938db0c610"
+  },
+  "aggregate_acceptance": {
+    "component": "rev188_NX2019_acceptance",
+    "files": 3,
+    "manifest_sha256": "367e82269c17ad0dfe429b6832b3ad341dff6ad94e4cbebf0ce6ed83df24e2bc",
+    "freeze_sha256": "f9b15aefbedbe957465b385d2c3199dc6c5b656ec316e82b0959d230eabf36a6",
+    "report_sha256": "c5bad4475948041cb54a1c397662dd203e71b913937f3dd8f68b28a3ca7c8f23"
+  },
+  "independent_review": {
+    "component": "rev183_NX2019_independent",
+    "files": 14,
+    "manifest_sha256": "3dfac9184a0a57f5d9a06001d05a3c4d85489aaab9c9bd3bfdd9e3e2e2bf73fb",
+    "freeze_sha256": "01de427117afc041ecb399d977a51d62f3e64c45f382e10d4f33692c124871d7"
+  },
+  "selected_frame": {
+    "id": "NX-Yao2019-modern-named-author-culture-frame",
+    "canonical_region_id": "640000",
+    "author": "姚蔚玲",
+    "paper": "宁夏考古70年综述",
+    "edition": "宁夏师范学院学报2019,40(12):56–62",
+    "journal_metadata_publication_date": "2019-12-15",
+    "CSSN_repost_displayed": "2020-07-29",
+    "observed_date": "2026-11-02",
+    "bibliography_url": "https://gysb.cbpt.cnki.net/portal/journal/portal/client/paper/03ccf95bbbb7d91ae7b56075272779c7",
+    "article_repost_url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552651.shtml",
+    "subject_basis": "Articleexplicitlytakesmodern宁夏回族自治区since1958asworkingsubject;商周openingusesunqualified宁夏, whilelaterfindsitesuse南部/固原/彭阳subsets.",
+    "exact_historical_wording": "商、周时期雍州之域；该句未明引禹贡，不补写。",
+    "selected_scope": "Projectchosenmodernnamed-authorculturalinterpretation, notancientGIS/everyparcel or universalhistoriographicconsensus.",
+    "mapping_step": "Thearticleframe雍州 name -> fixedSanmingculturallabelyong -> 水. Cross-textnamebridgeexplicitlyengineering; notclaimidenticalancientterritories or theauthorprovidedfiveelements.",
+    "source_grade": "Journalbibliography/abstractverified; CSSNactualcacheparagraphs andsamearticlefullrepostread; nooriginalpaperPDFseen, repostnotindependentsecondsource.",
+    "version_policy": "Exactnewregion/point/sourceversionselectedexplicitly; oldpoint-onlyNX andold144historicalcounterframesremainaddressable; noautomaticlatest."
+  },
+  "lookup_core_sha256": "057fbbb13df7fc65d74aab415f80231dc621e4cc8262a2e3b7a3dfa4b638245d",
+  "composer_core_sha256": "899f8991c12611a036f5824c7e14c684e8876e622bd8d683ac9f89f7f3e507f9",
+  "source_card_sha256": "20ecf17d1a6e6317e9ca58be51145baf7649116738e883722d80a4426bb8cb62",
+  "scope_logic_sha256": "6bea348cefb413f7070f92f7300d404a55cd8bdb163a9f2958a5ecf992dbfad4",
+  "old_versions_remain_addressable": true,
+  "automatic_latest_or_old144_relabel": false,
+  "C20_D2_C0_and_B_P_unchanged": true,
+  "whole_C04_complete": false,
+  "progress_delta": "0.00"
+}

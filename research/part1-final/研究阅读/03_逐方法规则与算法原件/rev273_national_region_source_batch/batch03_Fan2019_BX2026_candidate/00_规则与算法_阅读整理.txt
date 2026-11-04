@@ -1,0 +1,1468 @@
+范曾2019三省近似文化称谓与本溪夏青
+rev273_national_region_source_batch/batch03_Fan2019_BX2026_candidate
+所属原模块：C04
+当前采用：rev295_Fan_Benxi_frame_project_adoption.json
+范围：河南豫土、湖北荆金、陕西雍水明确属现代近似文化命名；本溪夏青木与商营分开，不推全辽宁。身份草稿与GN代理点另外分层。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev273_national_region_source_batch/batch03_Fan2019_BX2026_candidate/docs/native_region_lookup_v0_18_算法说明.json
+SHA256：726b7c95f2ecfde64b5792da5e4dd3e50998d11ad73131e56fd02416cb5b0b44
+
+1. NRL01
+算法标识：NRL01
+title：严格JSON、规范摘要与全部固定字节先核
+输入：[
+  "原JSON请求",
+  "全部锁定依赖及lock"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "拒重复键/非有限数",
+  "精确字段与trimmed字符串",
+  "先读全量固定字节逐SHA核，再严格读JSON，最后exec已核旧源码",
+  "额外固定3份SC研究来源原文文件；全部active固定来源字节先核。旧lookup1完整33文件字节历史另存并由只读runner逐SHA核，不执行为新产品结果。"
+]
+why_calculated_this_way：摘要保证内容一致和来源绑定，不认证史地/原典真值；后项坏字节不能在旧源码已执行后才发现。
+basis_nature：engineering_contract
+输出：[
+  "合法请求/固定pack或硬拒"
+]
+does_not_guarantee：[
+  "不认证来源真值"
+]
+error_and_unknown_boundaries：[
+  "缺文件、错锁、错SHA不降unknown"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_18/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.18",
+    "file_sha256": "f24b52bff34773c3ba4524eaacfaa70787d1a837bc6b699845371f28f11383d5",
+    "symbols": [
+      {
+        "name": "ContractError.__init__",
+        "start_line": 25,
+        "end_line": 27,
+        "ast_sha256": "dd04c55d3678e6a8bb7882537b1a6d54576f77b7fafdd0ab001d0dce6f4d8ecf"
+      },
+      {
+        "name": "canonical",
+        "start_line": 30,
+        "end_line": 31,
+        "ast_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+      },
+      {
+        "name": "digest",
+        "start_line": 34,
+        "end_line": 35,
+        "ast_sha256": "d1bfb3c39d40eba325f5da0764662786680743ab0388fe32af4efd8099a44305"
+      },
+      {
+        "name": "load_request",
+        "start_line": 38,
+        "end_line": 50,
+        "ast_sha256": "6f3267e06bcbc0717041eadb164bf7d343fa619777c150aa22165d95d3dfc6bc"
+      },
+      {
+        "name": "obj",
+        "start_line": 53,
+        "end_line": 55,
+        "ast_sha256": "989aa118169da160b901865ae4adf045b39b017658ee7c461f22925bd48c68c0"
+      },
+      {
+        "name": "text",
+        "start_line": 58,
+        "end_line": 60,
+        "ast_sha256": "66ca2edce8b2468b7108d13a12cc846898c2a31b6615a9ef4b599ddcfa86f34b"
+      },
+      {
+        "name": "sha",
+        "start_line": 63,
+        "end_line": 65,
+        "ast_sha256": "cc8ff88fe3d5c7b222a0cfea4b57261d7a002e5c45d3c4c70ccf8fe08f3b53ce"
+      },
+      {
+        "name": "check_ref",
+        "start_line": 72,
+        "end_line": 77,
+        "ast_sha256": "b8794b7fb54d10430318f94866d7167558b6207bcc4ddccd8ad511bfcdb16bb9"
+      },
+      {
+        "name": "region_ref",
+        "start_line": 80,
+        "end_line": 84,
+        "ast_sha256": "74d75c9225f648e78c4ba197f31f9dba9f5ee23510a1abb4e560ef9adab68197"
+      },
+      {
+        "name": "load_pack",
+        "start_line": 87,
+        "end_line": 107,
+        "ast_sha256": "ce0055d41252198afef38d97638af592075dba2fddbc0be38787c6e560789bbf"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+2. NRL02
+算法标识：NRL02
+title：完整来源、点与typed identity绑定
+输入：[
+  "完整固定sources/points/records"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "所有提供来源包括未用来源先验",
+  "完整source_ref解引用",
+  "点SHA与R5完整SHA绑定，typed同kind/namespace/id/version变内容拒",
+  "新active catalog的旧sources/records/points逐对象等旧版前缀，后缀逐对象等冻结SC raw草案；不把草案原先未执行标记改写为过去已执行。"
+]
+why_calculated_this_way：未命中地区不能跳坏未选记录；点可用性与史地归属不同轴。
+basis_nature：engineering_content_binding
+输出：[
+  "全量合法身份/refs或原子硬拒"
+]
+does_not_guarantee：[
+  "不认证reviewed/完整性宣言为事实",
+  "不承诺跨运行注册"
+]
+error_and_unknown_boundaries：[
+  "坏unused point/source也拒，合法CRS未知是点语义未定"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_18/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.18",
+    "file_sha256": "f24b52bff34773c3ba4524eaacfaa70787d1a837bc6b699845371f28f11383d5",
+    "symbols": [
+      {
+        "name": "ref",
+        "start_line": 68,
+        "end_line": 69,
+        "ast_sha256": "a1bfb032661c13fa073f9f1a98e966bbffecc2ba8d2a74ea4dafd8a997c505dd"
+      },
+      {
+        "name": "validate_point",
+        "start_line": 137,
+        "end_line": 168,
+        "ast_sha256": "4927ecb22b1384d72862efc592f9381316a3a08bd0b29db82c21be168b93aa10"
+      },
+      {
+        "name": "validate_catalog.guard",
+        "start_line": 187,
+        "end_line": 196,
+        "ast_sha256": "a6b56341c807fe2ff487b8318f934e119ca6aa375adc19e191c13f2c2f1b82db"
+      },
+      {
+        "name": "validate_catalog.source_refs",
+        "start_line": 210,
+        "end_line": 220,
+        "ast_sha256": "7b33b54676a9fe46a3ac0ae95dcead34258bb68d169b9cbe07b73e66d1127595"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+3. NRL03
+算法标识：NRL03
+title：每条完整Rn原请求实际执行
+输入：[
+  "全部目录原Rn请求/target R7/请求SHA"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "先核wrapper与原目标全文",
+  "真实旧evaluate处理全部原始evidence",
+  "不按将选地区裁剪，不消费给定ready",
+  "原生hard error整体拒，unknown/ambiguous保留"
+]
+why_calculated_this_way：沿用冻结Rn原约束，防止选择湖南时隐藏江苏坏请求；全源来源推论仍与产品采用分层。
+basis_nature：actual_fixed_native_execution
+输出：[
+  "完整实际原生报告及执行trace"
+]
+does_not_guarantee：[
+  "标量资料不证明整评估窗",
+  "不认证古今实际界址"
+]
+error_and_unknown_boundaries：[
+  "Rn跨元素不私选/均分；未审和缺覆盖仍未定"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_18/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.18",
+    "file_sha256": "f24b52bff34773c3ba4524eaacfaa70787d1a837bc6b699845371f28f11383d5",
+    "symbols": [
+      {
+        "name": "validate_catalog",
+        "start_line": 171,
+        "end_line": 295,
+        "ast_sha256": "00344c66835dc6a1f0dcc4e569f47146155dd88688c9dbb401ce774b0148e918"
+      }
+    ]
+  },
+  {
+    "path": "runtime/native_region_lookup_v0_18/vendor/region_evidence_catalog.py",
+    "module_relative_path": "vendor/region_evidence_catalog.py",
+    "module_version": "region-evidence-catalog-0.1",
+    "file_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 260,
+        "end_line": 301,
+        "ast_sha256": "eceecaf04a472d5e8df7e8a26142f3f74b22ff122f8c36b5e2276773a78b90ef"
+      },
+      {
+        "name": "evaluate_coverage",
+        "start_line": 172,
+        "end_line": 257,
+        "ast_sha256": "b30c90c2b46934eb2cc209b48db9dcfc68a01e643a2cca5b982a94b32bb09da8"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+4. NRL04
+算法标识：NRL04
+title：精确命名地区身份与版本薄查询
+输入：[
+  "普通namespace/id/version"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "全目录成功校验后再精确查key",
+  "匹配返回完整R7与确切era/scope",
+  "错版仅列可见版本不私选",
+  "未收录不当无影响或零"
+]
+why_calculated_this_way：普通caller不用自找史地数据库；产品明确配置版本，软件不得暗选最高版改变命名范围。
+basis_nature：version_exact_catalog_lookup
+输出：[
+  "region_found/version_not_found/not_found及独立原生轴"
+]
+does_not_guarantee：[
+  "3试点不等全国覆盖",
+  "region_found不等Rn/点均ready"
+]
+error_and_unknown_boundaries：[
+  "错namespace/错版不复用另一领土范围",
+  "SC版本只承载2019全境叙述+MCA2024名码的明列项目identity解释，不宣称2026省界或各年代边界恒等。"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_18/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.18",
+    "file_sha256": "f24b52bff34773c3ba4524eaacfaa70787d1a837bc6b699845371f28f11383d5",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 313,
+        "end_line": 368,
+        "ast_sha256": "091e53ee61341d18033cd2148896f65161ee703402227a9f5dffbd7c1af37097"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+5. NRL05
+算法标识：NRL05
+title：代表点数据独立输出
+输入：[
+  "项目选定点、R5和提供者CRS/来源"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "按固定R2同样type/trim/十进制regex/finite/range门原样核坐标，不清洗或重写；空格/下划线数值串硬拒",
+  "只WGS84且含义已声明、坐标齐才数据available",
+  "缺点或语义未知不抹掉Rn",
+  "不解算两点方向或C0",
+  "SC返回成都GeoNames1815286 PPLA原WGS84 30.66667/104.06667；FIPS32非国标510000。与HN点一起实际经冻结R2 validate_point/resolve_location/calculate兼容回放，方向结果仅独立研究回放，不改变public lookup的Rr/C0/lease=null。"
+]
+why_calculated_this_way：来源给长沙地名点，项目选择其承载湖南粗地区；二者不是全省真实方向/出生位置。
+basis_nature：declared_project_proxy_plus_primary_dataset
+输出：[
+  "point_available/no_record/point_semantically_undetermined"
+]
+does_not_guarantee：[
+  "不是个人位置",
+  "同坐标不同地区不证明C0",
+  "不静改CGCS2000为WGS84"
+]
+error_and_unknown_boundaries：[
+  "坏绑定仍整包硬拒，合法未知只影响点轴",
+  "Decimal可解析不等R2可接收；词法坏值为invalid_input，不降point未知或available"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_18/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.18",
+    "file_sha256": "f24b52bff34773c3ba4524eaacfaa70787d1a837bc6b699845371f28f11383d5",
+    "symbols": [
+      {
+        "name": "point_status",
+        "start_line": 110,
+        "end_line": 118,
+        "ast_sha256": "8094673ea06d5a433a83c8e05cc9e74ec9e04f3bf02b1da49d67be3a2a885c9c"
+      },
+      {
+        "name": "validate_point",
+        "start_line": 137,
+        "end_line": 168,
+        "ast_sha256": "4927ecb22b1384d72862efc592f9381316a3a08bd0b29db82c21be168b93aa10"
+      },
+      {
+        "name": "validate_coordinate",
+        "start_line": 121,
+        "end_line": 134,
+        "ast_sha256": "7ccbefd4abfdb6433ae0285e1f73c2447e1f046030f72ce66a783f328fcedb25"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+6. NRL06
+算法标识：NRL06
+title：原报告保留、研究边界和只读CLI
+输入：[
+  "实际API报告和原请求文件"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "逐轴保留原生candidate/unknown/ambiguous及全文ref",
+  "不创建产品采纳/lease/库存/B/Rr",
+  "CLI硬错误退出2，其余实际查询结果退出0"
+]
+why_calculated_this_way：承认有界正常Rn资料已算通，同时不把资料审阅/推论和软件SHA冒充产品采用或传统效力。
+basis_nature：research_boundary_and_replay
+输出：[
+  "完整JSON及可回放状态"
+]
+does_not_guarantee：[
+  "不升C04分数",
+  "无自然UTC效力",
+  "不计算最终喜用"
+]
+error_and_unknown_boundaries：[
+  "非法JSON独立拒绝，不生成ready摘要"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_18/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.18",
+    "file_sha256": "f24b52bff34773c3ba4524eaacfaa70787d1a837bc6b699845371f28f11383d5",
+    "symbols": [
+      {
+        "name": "empty_report",
+        "start_line": 298,
+        "end_line": 310,
+        "ast_sha256": "772010d33c85fba62f3224ab8463018b61508de59cf9667ecc8481b1e00292ee"
+      },
+      {
+        "name": "main",
+        "start_line": 371,
+        "end_line": 382,
+        "ast_sha256": "98680ba180450896340e390aaa6160028a48b0d2b4c25585f2deae62d24a223f"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+原件：work/rev273_national_region_source_batch/batch03_Fan2019_BX2026_candidate/docs/region_lookup_composer_v0_18_算法说明.json
+SHA256：711e26aa1a078fffd9321cea7192c9104806611fb1c48ec08f2d21fd055757d4
+
+1. RLC01
+算法标识：RLC01
+title：严格JSON与全部固定字节先核
+输入：[
+  "完整普通请求",
+  "dependency_lock、研究profile、50份固定依赖快照"
+]
+preconditions：[
+  "有限JSON对象；无重复键/非有限数；全部依赖核完才exec"
+]
+steps_or_formula：[
+  "严格解析并递归限制JSON值；规范UTF8排序摘要。",
+  "核lock/profile固定SHA；完整snapshot文件集、大小、SHA与JSON；全部读核完成后执行两固定模块并加载其原依赖。"
+]
+why_calculated_this_way：软件绑定先于notfound或语义unknown，后项坏字节不能被先查地区绕过。摘要只证明内容一致。
+basis_nature：engineering_contract
+输出：[
+  "已核pack或硬拒"
+]
+does_not_guarantee：[
+  "来源现实真值、软件外历史修改检测"
+]
+error_and_unknown_boundaries：[
+  "缺文件/多文件/错锁/SHA/路径逃逸硬拒；不降unknown"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_18/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.18",
+    "file_sha256": "2d73ac14054328f1c2b969a76d90fccba7bf23fcbc2e3c2755c3df9f33a7dd4f",
+    "symbols": [
+      {
+        "name": "ContractError.__init__",
+        "start_line": 29,
+        "end_line": 31,
+        "ast_sha256": "dd04c55d3678e6a8bb7882537b1a6d54576f77b7fafdd0ab001d0dce6f4d8ecf"
+      },
+      {
+        "name": "canonical",
+        "start_line": 34,
+        "end_line": 35,
+        "ast_sha256": "3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96"
+      },
+      {
+        "name": "digest",
+        "start_line": 38,
+        "end_line": 39,
+        "ast_sha256": "2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8"
+      },
+      {
+        "name": "json_tree",
+        "start_line": 42,
+        "end_line": 55,
+        "ast_sha256": "9586ca19af36b08a071aa95e52c6069c0cfdf2f86ab1a9da16c7b3fa31d42020"
+      },
+      {
+        "name": "load_request",
+        "start_line": 58,
+        "end_line": 68,
+        "ast_sha256": "6f3267e06bcbc0717041eadb164bf7d343fa619777c150aa22165d95d3dfc6bc"
+      },
+      {
+        "name": "load_request.pairs",
+        "start_line": 59,
+        "end_line": 65,
+        "ast_sha256": "89e247811acfaaec1a9741ae200978648d1a9b8175ed99ff5d13dfe486c3b737"
+      },
+      {
+        "name": "load_request.nonfinite",
+        "start_line": 66,
+        "end_line": 67,
+        "ast_sha256": "788503789eea1e391bac6a705410c1ae61129aee1d6067b920c2d0087c5a3993"
+      },
+      {
+        "name": "load_pack",
+        "start_line": 86,
+        "end_line": 126,
+        "ast_sha256": "82acc3a5fba34f1395751770e3087738c56199c94cdbaf9a84834e0e4461fb6c"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+2. RLC02
+算法标识：RLC02
+title：普通地区身份、主体方法与完整位置声明绑定
+输入：[
+  "context、两完整exact ref、外部claim及其全文SHA",
+  "原始B/T/P或null"
+]
+preconditions：[
+  "仅本主口径；无caller Rn/Rr/point/coverage/ready"
+]
+steps_or_formula：[
+  "精确字段及非空trim字符串；ref namespace/id/version全部保留。",
+  "claim人物/方法等context，两个ref摘要等真实ref；source/validity全文摘要等required location_claim_sha256。",
+  "所有提供UTC按旧原P.utc词法真实解析，正半开期限；unknown/null保留，不加默认寿命。"
+]
+why_calculated_this_way：caller只声明普通身份与本次外部位置使用范围；source verified是其状态，不是系统认证。合法更改原文和摘要为新声明。
+basis_nature：engineering_binding_and_external_declaration
+输出：[
+  "完整已核普通请求/原claim或硬拒"
+]
+does_not_guarantee：[
+  "行政区永远有效、现实个人位置、源权威"
+]
+error_and_unknown_boundaries：[
+  "不支持方法硬拒；给定摘要矛盾硬拒；unknown或缺界限后续未决"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_18/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.18",
+    "file_sha256": "2d73ac14054328f1c2b969a76d90fccba7bf23fcbc2e3c2755c3df9f33a7dd4f",
+    "symbols": [
+      {
+        "name": "obj",
+        "start_line": 71,
+        "end_line": 73,
+        "ast_sha256": "989aa118169da160b901865ae4adf045b39b017658ee7c461f22925bd48c68c0"
+      },
+      {
+        "name": "text",
+        "start_line": 76,
+        "end_line": 78,
+        "ast_sha256": "66ca2edce8b2468b7108d13a12cc846898c2a31b6615a9ef4b599ddcfa86f34b"
+      },
+      {
+        "name": "sha",
+        "start_line": 81,
+        "end_line": 83,
+        "ast_sha256": "cc8ff88fe3d5c7b222a0cfea4b57261d7a002e5c45d3c4c70ccf8fe08f3b53ce"
+      },
+      {
+        "name": "validate_request",
+        "start_line": 129,
+        "end_line": 187,
+        "ast_sha256": "024b5e5da920de48463bab29d30145340fef7602d279b1fc6983b7df60806749"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+3. RLC03
+算法标识：RLC03
+title：原B/T/P实际public composer先核
+输入：[
+  "完整原始B/T/P、context、真实固定composer lock"
+]
+preconditions：[
+  "instant；给定源不得用手填ready替代"
+]
+steps_or_formula：[
+  "系统生成内容绑定的C20预核packet，Rn/Rr/lease明确null。",
+  "真实public compose；保存完整请求/报告/SHA。任何给定B/T/P结构/绑定错误先硬拒，不因地区未收录提前返回。",
+  "system packet/joins身份含完整输入及阶段，两个阶段不会同ID版本改内容。"
+]
+why_calculated_this_way：缺地理因素仍必须核所有提供源；P嵌入base不能补独立B。预核不是最终Z，也不是伪ready证明。
+basis_nature：engineering_native_reexecution
+输出：[
+  "真实预核原报告或硬拒"
+]
+does_not_guarantee：[
+  "B/T/P外部源真值、传统取用自动完成"
+]
+error_and_unknown_boundaries：[
+  "合法B/T/P语义未知可继续查资料但Z最终仍null；结构/绑定错不能跳"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_18/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.18",
+    "file_sha256": "2d73ac14054328f1c2b969a76d90fccba7bf23fcbc2e3c2755c3df9f33a7dd4f",
+    "symbols": [
+      {
+        "name": "composer_request",
+        "start_line": 190,
+        "end_line": 203,
+        "ast_sha256": "255fa4fc55e12080adf8d007f5e93905f9cc3725ae455bc2e28beca84971a22b"
+      },
+      {
+        "name": "require_native",
+        "start_line": 206,
+        "end_line": 211,
+        "ast_sha256": "52c0d61a1d57204470b509c0f2977f77c7fe982d8209678aecde4dceec9ca9d7"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+4. RLC04
+算法标识：RLC04
+title：两次精确lookup与Rn/Rr独立轴导出
+输入：[
+  "两个exact region refs",
+  "两个实际lookup完整返回"
+]
+preconditions：[
+  "实际lookup每次全目录硬核及执行原Rn；无最高版/第一条回退"
+]
+steps_or_formula：[
+  "出生和当前分别实际evaluate；保完整原请求/报告/SHA。",
+  "当前原native_request全文成为Rn，不改ambiguous/coverage_undetermined。",
+  "两边target R7准确投影公共R5，目录原point_ref/full record成为Rr；未收录region=null，缺点ref=null。",
+  "同点仅完整id/version/content相同才去重；同身份变内容硬拒。",
+  "新lookup2版真实取得SC2019/MCA2024完整身份及成都PPLA代理；和HN点实际求有向初始方位，SC→HN木1、HN→SC金1，不能直接喂入预算Rr或假点。"
+]
+why_calculated_this_way：文化属性可用性与代表点可用性独立；代表点是项目省会PPLA代理，不代表个人GPS或全域方向。
+basis_nature：source_backed_lookup_plus_explicit_project_mapping
+输出：[
+  "真实Rn、Rr和逐字段映射",
+  "完整两lookup来源/版本/解释"
+]
+does_not_guarantee：[
+  "全国覆盖、苏州全域闭合、不同地区同点C0、外部点补齐"
+]
+error_and_unknown_boundaries：[
+  "JS原生火土歧义保留；SZ原生覆盖未闭保留；任何缺项不作零贡献"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_18/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.18",
+    "file_sha256": "2d73ac14054328f1c2b969a76d90fccba7bf23fcbc2e3c2755c3df9f33a7dd4f",
+    "symbols": [
+      {
+        "name": "derive_regions",
+        "start_line": 214,
+        "end_line": 255,
+        "ast_sha256": "64f984e9fd988ff6921592e9c60c89692b3487360c60ac49d4aaf880ae9c9719"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+5. RLC05
+算法标识：RLC05
+title：外部声明绑定本次实际导出的lease
+输入：[
+  "完整claim和已核claim SHA",
+  "实际完整Rn/Rr/context"
+]
+preconditions：[
+  "不创造外部位置真值或自然历史有效期"
+]
+steps_or_formula：[
+  "status/start/end/source逐字段原样复制。",
+  "系统native_request/relative_request及R7/R5全内容摘要直接绑定真实导出。",
+  "lease ID摘要包含完整claim、Rn/Rr、context和研究profile，version固定adapter版本。"
+]
+why_calculated_this_way：声明有效期只许可本次用这些真实导出资料，不把研究资料reviewed写成产品采用。完整内容改变则新lease身份。
+basis_nature：engineering_binding_of_provided_claim
+输出：[
+  "系统绑定lease及身份preimage"
+]
+does_not_guarantee：[
+  "跨运行历史权威、行政沿革长期有效、用户默认数据采用"
+]
+error_and_unknown_boundaries：[
+  "unknown/空界限/过期/未来不补窗，实际composer阻断；半开end时刻已过期"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_18/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.18",
+    "file_sha256": "2d73ac14054328f1c2b969a76d90fccba7bf23fcbc2e3c2755c3df9f33a7dd4f",
+    "symbols": [
+      {
+        "name": "bind_lease",
+        "start_line": 258,
+        "end_line": 272,
+        "ast_sha256": "44beb2b20126f743c9d129c8c3c4f8148ca19f6c91984919ee4381552bb9df7f"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+6. RLC06
+算法标识：RLC06
+title：真正第二次C20/D2/C0组合而非查询占位
+输入：[
+  "原B/T/P全文",
+  "真实Rn/Rr/lease及准确join"
+]
+preconditions：[
+  "真实固定composer0.3执行；不复用预核计算报告"
+]
+steps_or_formula：[
+  "再次public compose完整重算，保完整原请求/报告/各native结果与权重。",
+  "固定已批C20系数B4/5、T1/20、Rn1/40、Rr1/40、P1/10；所有数值计算由固定原composer和原API执行。",
+  "严格同地区身份+同完整point_ref且原Rr确证同代理点才C0，仅Rr1/40归B；Rn金仍1/40。",
+  "P明确空时1/10归B，非空用peer_mean；任何未知不归B，完整Z=null。",
+  "全窗只实际验证原提供B/T/P，原evaluation不改；不造at或join，不计算Z，明确unsupported。",
+  "非C0两方向Rr均保1/40且不归B；Rn金仍保1/40。未知位置声明即使两点方位已算，Z也为null。"
+]
+why_calculated_this_way：只为资料进入真实作用路径提供研究验证；已有公式已批不等新资料已批，更不产传统final/B。
+basis_nature：user_approved_formula_executed_with_research_data
+输出：[
+  "native Z或null",
+  "完整原报告与边界flags"
+]
+does_not_guarantee：[
+  "传统效力、最终喜用、window覆盖、默认库存、主题selector呈现"
+]
+error_and_unknown_boundaries：[
+  "原生错误硬拒；未决因子不得均值/填零/C0；无previous"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_18/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.18",
+    "file_sha256": "2d73ac14054328f1c2b969a76d90fccba7bf23fcbc2e3c2755c3df9f33a7dd4f",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 289,
+        "end_line": 362,
+        "ast_sha256": "33f8c029e67075eba2ce847987a7c96db39b2bf8ec299fe01223eccf68f2fc95"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+7. RLC07
+算法标识：RLC07
+title：可复算原文、错误与CLI返回
+输入：[
+  "普通原始输入、完整中间及最终原生回报"
+]
+preconditions：[
+  "输出无B/采纳写入与现实真值认证"
+]
+steps_or_formula：[
+  "保完整input_snapshot/摘要、claim原文、两lookup、导出字段/lease preimage、两次composer请求/结果。",
+  "结构/绑定/固定依赖错显式硬拒；原合法未知报告保留，根Z=null。",
+  "严格CLI仅一原JSON文件；与API完全同值；正常/未知/明确unsupported返回0，硬错2。"
+]
+why_calculated_this_way：调用者和独审能直接复跑原composer输入，不被只见query报告或美化candidate历史字段遮蔽。
+basis_nature：engineering_audit_contract
+输出：[
+  "完整可复算研究回报或显式硬错"
+]
+does_not_guarantee：[
+  "产品采用、活动库存、真实个人位置、历法和传统效力",
+  "lookup2尚未独审，不能声称source acceptance或生产采用；四川全境解释限定2019+MCA2024，不以代理点认证2026行政界或个人位置。"
+]
+error_and_unknown_boundaries：[
+  "window与全国缺口继续开放；native历史candidate字段原样保留"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_18/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.18",
+    "file_sha256": "2d73ac14054328f1c2b969a76d90fccba7bf23fcbc2e3c2755c3df9f33a7dd4f",
+    "symbols": [
+      {
+        "name": "empty_report",
+        "start_line": 275,
+        "end_line": 286,
+        "ast_sha256": "ce4e9c5b4d37c5ff59b470c83cceb29688020aa528cfa6c90302c52d87097cb3"
+      },
+      {
+        "name": "main",
+        "start_line": 365,
+        "end_line": 375,
+        "ast_sha256": "c100923064279719da1336f27952b23b3f3f856658934ea4953142bd6e6eadfc"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actualcurrentwrapper43IOisnewlycaptured. Numericalproofsreused,notnewlyclaimed. Oldcounts/examplesremainhistorical; currentcounts/bindingsinthiseditionindex.
+
+原件：work/rev273_national_region_source_batch/batch03_Fan2019_BX2026_candidate/docs/batch_source_and_auxiliary_algorithms.json
+SHA256：77fee51d924f38e1626eecb05025d4515f9c7a32155e4032331b40d43de8885b
+
+1. BATCH273F-read
+算法标识：BATCH273F-read
+输入：Explicitpath
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：ReadcompleteJSONwithoutlatest/network.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：Objectorerror.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "read",
+        "start_line": 11,
+        "end_line": 12,
+        "ast_sha256": "eb0c878a297a01fa18b6a88fe42a87f1bd560a02b2be04e7dc3baf9e9852aab4"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#read
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+2. BATCH273F-write
+算法标识：BATCH273F-write
+输入：Explicitpath/object
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：DeterministicUTF8JSON,NaNforbidden.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：Writtenbytes.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "write",
+        "start_line": 14,
+        "end_line": 17,
+        "ast_sha256": "89c37d097b2694b8c229e2dbe42b8672e915dc29e6a4bd202a10b86884d428b8"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#write
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+3. BATCH273F-sha
+算法标识：BATCH273F-sha
+输入：Path
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：SHA256completebytes; notsource-truth.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：HexSHA.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "sha",
+        "start_line": 19,
+        "end_line": 20,
+        "ast_sha256": "f44b68eca57557554ed5003be6ebc9cebaf265bd3c6f8465e7e36a1c4a0e6b46"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#sha
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+4. BATCH273F-digest
+算法标识：BATCH273F-digest
+输入：Object
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：CanonicalsortedcompactUTF8JSONthenSHA256.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：SemanticobjectSHA.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "digest",
+        "start_line": 22,
+        "end_line": 24,
+        "ast_sha256": "c95fb8aef5d97f85e6f7404a960a492855f68b746c41c32295786803b58a284e"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#digest
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+5. BATCH273F-ref
+算法标识：BATCH273F-ref
+输入：Versionedobject
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：Literalid/version/canonicalSHA; noalias/latest.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：Exactref.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "ref",
+        "start_line": 26,
+        "end_line": 27,
+        "ast_sha256": "a1bfb032661c13fa073f9f1a98e966bbffecc2ba8d2a74ea4dafd8a997c505dd"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#ref
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+6. BATCH273F-replace_constant
+算法标识：BATCH273F-replace_constant
+输入：Source/key/value
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：ASTlocateconstantassignment; replaceonlyconstantlinesandcompareallremainingAST.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：Reboundsource.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "replace_constant",
+        "start_line": 29,
+        "end_line": 34,
+        "ast_sha256": "23b7765960c2073365aff4800aa66d3eaa4ba59e66f0f8bf471f54cba016dd79"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#replace_constant
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+7. BATCH273F-validate_entry
+算法标识：BATCH273F-validate_entry
+输入：Entry/sourcecards/actualbasepolicy
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：FixedFanHENyu/HUBjing/SAXyongandBXXiaqing; preserveapproximation,2013/2019editionboundary,ShangYing,draftnotapproved,exactGNrow; hashallactualreviewedsourcesandreal282adoption. Pending800inputisnotcalledadopted.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：TrueorhardValueError.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "validate_entry",
+        "start_line": 36,
+        "end_line": 73,
+        "ast_sha256": "e892139ecd1e5cb55dbc518aab05f4b5b117d8b05aa9bda428da1dc9e4b74f3c"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#validate_entry
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+8. BATCH273F-add_source
+算法标识：BATCH273F-add_source
+输入：Catalog/sourceobject
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：Deduplicatebyid/versionplusfullcontentequality; rejectsameidentitydifferentcontent. ExplicitcataloginputretainedinactualIO.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：Exactsource_refandmutatedcatalogsources.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "add_source",
+        "start_line": 76,
+        "end_line": 81,
+        "ast_sha256": "1859668abe8e7ca498f9dfefc179d4a9a00119ca89f1ab1dfb069f1aa5be124f"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#add_source
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+9. BATCH273F-append_entries
+算法标识：BATCH273F-append_entries
+输入：Exactdata17intermediatecatalog/fourentries
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：Deepcopyall49/48/44; appendthreeexistingprovinceversionsandoneBenxicity. Originalprovinceproxybytesrebound;BenxiGN2038300explicitnameproxywithallalternativesretained. Fancommondocumentonce; aliasanddraftcodelayersseparate.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：53records52points48sources;alloldprefixexact.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "append_entries",
+        "start_line": 83,
+        "end_line": 148,
+        "ast_sha256": "a5ed6d64b95a06d609efa81a49f0fe09e5d34d8148871c0feef92912cf6325e0"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#append_entries
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+10. BATCH273F-build
+算法标识：BATCH273F-build
+输入：Newemptydirectory/sourceconfig
+preconditions：Sourceandexpectedbehaviorsfixedbeforefirstnewruntimeexecution;282actualadopted,data17pendingintermediateexplicit.
+steps_or_formula：Copyexactpendingdata17inputonactual282data16authority;sourcefilesrecursivelysnapshot;refreshlookupPINS/composerlocks/profile/safeentryconstants. Runtimefunctions/othernumericdependenciesunchanged.
+why_calculated_this_way：Separateauthornamedculture,modernidentity,pointprovider,Sanmingmappingandprojectadoption; preservepriorversionsandcross-elementambiguity.
+basis_nature：finite_engineering_contract
+输出：Reproducibleruntime+safeentrysource;nopolicyadoption.
+error_and_unknown_boundaries：Byteintegrityisnothistoryauthentication; partial/unknowncannotbecomplete; unsupported州名neveraliased.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "e31f26aa09aa70b678238253c1984d94c0c3076a3616bfba20fc2c43b67109f0",
+    "symbols": [
+      {
+        "name": "build",
+        "start_line": 151,
+        "end_line": 210,
+        "ast_sha256": "125e6ea8fb73aa8f4f6a3fd87616e77a0bc13117854f674def8ad0c5af24949a"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#build
+verification_refs：[
+  "author_actual.json",
+  "expectations_before_runtime.json",
+  "old49_regression_actual.json"
+]
+
+11. SAFE273F-execute
+算法标识：SAFE273F-execute
+输入：Pinnedmode/explicitJSONpath
+preconditions：ExactnativecoresandstrictJSON.
+steps_or_formula：ComparefullcoreSHA beforeexec; preservefullnativeAPIreport.
+why_calculated_this_way：Sourcebytes/badJSONcannotsoftdefaultasunknown.
+basis_nature：reused_engineering_contract
+输出：Fullreportorhardinvalid/dependencyfailure.
+error_and_unknown_boundaries：Noimplicitlatest/network/providertruth.
+implementation_refs：[
+  {
+    "path": "safe_region_entry.py",
+    "file_sha256": "87cb5318cd68f4e6c87116608ec8f184bf495528528f730be450d6225d5c964b",
+    "symbols": [
+      {
+        "name": "execute",
+        "start_line": 14,
+        "end_line": 35,
+        "ast_sha256": "feb750769e6e54795b4425630a6f6d2462bbaa6f3ae1045d2a0ca2936ba3ac78"
+      }
+    ]
+  }
+]
+actual_IO_ref：algorithm_actual_IO.json
+verification_refs：[
+  "author_actual.json"
+]
+
+12. SAFE273F-main
+算法标识：SAFE273F-main
+输入：Pinnedmode/explicitJSONpath
+preconditions：ExactnativecoresandstrictJSON.
+steps_or_formula：ComparefullcoreSHA beforeexec; preservefullnativeAPIreport.
+why_calculated_this_way：Sourcebytes/badJSONcannotsoftdefaultasunknown.
+basis_nature：reused_engineering_contract
+输出：Fullreportorhardinvalid/dependencyfailure.
+error_and_unknown_boundaries：Noimplicitlatest/network/providertruth.
+implementation_refs：[
+  {
+    "path": "safe_region_entry.py",
+    "file_sha256": "87cb5318cd68f4e6c87116608ec8f184bf495528528f730be450d6225d5c964b",
+    "symbols": [
+      {
+        "name": "main",
+        "start_line": 38,
+        "end_line": 44,
+        "ast_sha256": "2cab09f22817de098116e24a454bdf3dde022e20d79fd8c332dc13dbb55906f7"
+      }
+    ]
+  }
+]
+actual_IO_ref：algorithm_actual_IO.json
+verification_refs：[
+  "author_actual.json"
+]
+
+原件：work/rev273_national_region_source_batch/batch03_Fan2019_BX2026_candidate/docs/rule_ten_fields.json
+SHA256：bf557b0acafaa6e1849f9f228c0888c96aa90b8b78147b67aa8c097c3e56c363
+
+1. REG273F-FAN-SOURCE
+1_source：明确2019网站版、实际网页引用位置、2013仅metadata/index、名称锚粮食2023原PDF读级分别报告。
+2_source_layers：现代作者文化命名、2013刊物目录、名称简称表、MCA行政名码、GeoNames点、三命元素映射分层不代证。
+3_interpretation：范曾2019对三个现代省名的九州文化称谓框架，保大体限定，不冒古疆域GIS或命理规范。
+4_conditions：先固定作者/网站版/三目标及yu/jing/yong再producer；完整该命名frame并保原Rn门。
+5_exclusions：不以简称自动推州；不以省会/古县移全省；河北湖北不混；2013原文未读不冒称。
+6_changes：任何来源/版本/时代/point/默认/窗口改变都显式另版本；保已采用基线前缀。
+7_conflicts：原大体限定、其他目标与不同作者逆向框架、局部原文问题保留；不静改也不全文判假。
+8_rule_expression：原Rn唯一元素集与完整frame门、RrD2连续、C0严格、C20原权重；sourceguard0firstexec；不加新算法。
+9_verification：Fan2013_reprint_actual.json,Fan2019_LN_actual_relevant.json,SDU2013_actual_open.json,Shaanxi_alias_actual20.json；待任何producer前真实原刊/网页链核验记录。
+10_status：source_first_candidate_not_runtime_not_adopted
+算法标识：REG273F-FAN-SOURCE
+algorithm_reason：针对作者自己完整的现代具名对应关系建版本，先区分命名文化完备性与逐地古边界精度。把有限的大体文化说法编成显式版本并保来源争议，而不从输出倒推更换来源或把不支持地区归为unknown算完成。
+
+2. REG273F-BX-SOURCE
+1_source：2026本溪市史志办完整页 +2023具名草稿代码表 +冻结GeoNames原行/readme；各版本读级分别见本卡。
+2_source_layers：现代文化释义、旧草稿名码、点提供者、三命名字桥、工程解释各层不代证。
+3_interpretation：现代本溪全市具名文化frame，限夏青→木，不是古疆域GIS认证或个人喜木。
+4_conditions：明确夏时期、全部本溪地域主语解释、准确名码/point出处、固定profile与coverage门；先保存期望再producer。
+5_exclusions：商营不alias青；本溪市不冒本溪县；一市不推全辽宁；草稿不冒正式标准/MCA2024。
+6_changes：新来源/时代/地区身份/point/lease须另显式版本；旧unknown/其他来源保持。
+7_conflicts：来源其他时期和分区原样保留；草稿题名错和placeholder不静改、不因此整篇判假或全书认证。
+8_rule_expression：pendingauthorframe input[qing] only after source/target contractclosed; originalRn/Rr/C0/C20ruleunchanged。
+9_verification：Benxi_Yingkou_actual.json,LN2023codes_actual.json,GN_Benxi_explicit_name_proxy_review.json；本卡未运行新producer/未冻结。
+10_status：source_prepared_not_runtime_candidate_not_adopted
+算法标识：REG273F-BX-SOURCE
+algorithm_reason：把三代分期与原州名分别明示，使用实际现代具名来源而不套省简称或城市人口等级；后续构建只追加并验证原核，不凭运行结果反推源范围。
+
+3. REG273F-VERSION
+算法标识：REG273F-VERSION
+1_source：source/Fan2019_primary_source_card.json;source/BX2026_primary_source_card.json;actualbasepolicyandoriginalfrozenprofile
+2_source_layers：现代作者文化/经典州名/旧行政名码/点提供者/元素profile/工程采纳分层不代证。
+3_interpretation：明确现代具名文化框架Rn，与个人喜用/B分开。
+4_conditions：准确目标/来源/时代/版本/点/位置有效窗和各摘要全部绑定。
+5_exclusions：改变版本/字形/作者/范围必须显式新记录，不静改原文或判整篇假。
+6_changes：新源/目标/版本/点/窗口须显式新ref，旧版本不覆盖。
+7_conflicts：反向异源/局部错/粗略限定原样保留，不majority或倒推源范围。
+8_rule_expression：2019网站确切署名版，不预设与2013原刊逐字相同；大体位置限定及南宋邢昺原文局部错误保留。
+9_verification：expectations_before_runtime.json;author_actual.json;c0_boundary_actual.json;algorithm_actual_IO.json;builder_actual_IO.json
+10_status：author_verified_implementation_pending_independent_source_behavior_review
+algorithm_reason：Exactsource/versionbindingsmakeboundedculturalinterpretationreviewablewithoutchangingnumericmethodsorclaimingrealityproof.
+
+4. REG273F-IDENTITY
+算法标识：REG273F-IDENTITY
+1_source：source/Fan2019_primary_source_card.json;source/BX2026_primary_source_card.json;actualbasepolicyandoriginalfrozenprofile
+2_source_layers：现代作者文化/经典州名/旧行政名码/点提供者/元素profile/工程采纳分层不代证。
+3_interpretation：明确现代具名文化框架Rn，与个人喜用/B分开。
+4_conditions：准确目标/来源/时代/版本/点/位置有效窗和各摘要全部绑定。
+5_exclusions：只传源所支持的名码时代与性质；不把网站备案码或GN等级当行政码证。
+6_changes：新源/目标/版本/点/窗口须显式新ref，旧版本不覆盖。
+7_conflicts：反向异源/局部错/粗略限定原样保留，不majority或倒推源范围。
+8_rule_expression：三省复用原MCA名码；陕=陕西只用LS/T简称表作名称锚，27不作MCA/GN；Benxi2023征求意见稿旧名码非有效标准或2026MCA。
+9_verification：expectations_before_runtime.json;author_actual.json;c0_boundary_actual.json;algorithm_actual_IO.json;builder_actual_IO.json
+10_status：author_verified_implementation_pending_independent_source_behavior_review
+algorithm_reason：Exactsource/versionbindingsmakeboundedculturalinterpretationreviewablewithoutchangingnumericmethodsorclaimingrealityproof.
+
+5. REG273F-RN
+算法标识：REG273F-RN
+1_source：source/Fan2019_primary_source_card.json;source/BX2026_primary_source_card.json;actualbasepolicyandoriginalfrozenprofile
+2_source_layers：现代作者文化/经典州名/旧行政名码/点提供者/元素profile/工程采纳分层不代证。
+3_interpretation：明确现代具名文化框架Rn，与个人喜用/B分开。
+4_conditions：准确目标/来源/时代/版本/点/位置有效窗和各摘要全部绑定。
+5_exclusions：旧unknown仍unknown；完整ji/qing水木为真实ambiguous，不投票不等半；无其他省自动推出。
+6_changes：新源/目标/版本/点/窗口须显式新ref，旧版本不覆盖。
+7_conflicts：反向异源/局部错/粗略限定原样保留，不majority或倒推源范围。
+8_rule_expression：完整所选现代具名frame且唯一元素才onehot：HENyu土、HUBjing金、SAXyong水、BXqing木。
+9_verification：expectations_before_runtime.json;author_actual.json;c0_boundary_actual.json;algorithm_actual_IO.json;builder_actual_IO.json
+10_status：author_verified_implementation_pending_independent_source_behavior_review
+algorithm_reason：Exactsource/versionbindingsmakeboundedculturalinterpretationreviewablewithoutchangingnumericmethodsorclaimingrealityproof.
+
+6. REG273F-POINT
+算法标识：REG273F-POINT
+1_source：source/Fan2019_primary_source_card.json;source/BX2026_primary_source_card.json;actualbasepolicyandoriginalfrozenprofile
+2_source_layers：现代作者文化/经典州名/旧行政名码/点提供者/元素profile/工程采纳分层不代证。
+3_interpretation：明确现代具名文化框架Rn，与个人喜用/B分开。
+4_conditions：准确目标/来源/时代/版本/点/位置有效窗和各摘要全部绑定。
+5_exclusions：代理点不证明市府入口、行政等级、质心、古界或GPS；无nearest/人口推定。
+6_changes：新源/目标/版本/点/窗口须显式新ref，旧版本不覆盖。
+7_conflicts：反向异源/局部错/粗略限定原样保留，不majority或倒推源范围。
+8_rule_expression：三省旧冻结代理点只重绑版本；Benxi原档CN/P/admin1=19中文alternative本溪市唯一2038300，保云南同罗马名和ADM2候选。
+9_verification：expectations_before_runtime.json;author_actual.json;c0_boundary_actual.json;algorithm_actual_IO.json;builder_actual_IO.json
+10_status：author_verified_implementation_pending_independent_source_behavior_review
+algorithm_reason：Exactsource/versionbindingsmakeboundedculturalinterpretationreviewablewithoutchangingnumericmethodsorclaimingrealityproof.
+
+7. REG273F-C0
+算法标识：REG273F-C0
+1_source：source/Fan2019_primary_source_card.json;source/BX2026_primary_source_card.json;actualbasepolicyandoriginalfrozenprofile
+2_source_layers：现代作者文化/经典州名/旧行政名码/点提供者/元素profile/工程采纳分层不代证。
+3_interpretation：明确现代具名文化框架Rn，与个人喜用/B分开。
+4_conditions：准确目标/来源/时代/版本/点/位置有效窗和各摘要全部绑定。
+5_exclusions：unknown/过期/同坐标异版本不能冒C0；Rr未知不等knownempty。
+6_changes：新源/目标/版本/点/窗口须显式新ref，旧版本不覆盖。
+7_conflicts：反向异源/局部错/粗略限定原样保留，不majority或倒推源范围。
+8_rule_expression：相同ID/version/point才C0，仅方向2.5%返B，Rn保留。4C0事前向量按固定Rn各异；6真Rr边界+1同坐标异版本全API/CLI。
+9_verification：expectations_before_runtime.json;author_actual.json;c0_boundary_actual.json;algorithm_actual_IO.json;builder_actual_IO.json
+10_status：author_verified_implementation_pending_independent_source_behavior_review
+algorithm_reason：Exactsource/versionbindingsmakeboundedculturalinterpretationreviewablewithoutchangingnumericmethodsorclaimingrealityproof.
+
+8. REG273F-C20
+算法标识：REG273F-C20
+1_source：source/Fan2019_primary_source_card.json;source/BX2026_primary_source_card.json;actualbasepolicyandoriginalfrozenprofile
+2_source_layers：现代作者文化/经典州名/旧行政名码/点提供者/元素profile/工程采纳分层不代证。
+3_interpretation：明确现代具名文化框架Rn，与个人喜用/B分开。
+4_conditions：准确目标/来源/时代/版本/点/位置有效窗和各摘要全部绑定。
+5_exclusions：只软件合成fixture，不冒真实传统命例/喜用/物理效力；数学复用不冒新独立数学证明。
+6_changes：新源/目标/版本/点/窗口须显式新ref，旧版本不覆盖。
+7_conflicts：反向异源/局部错/粗略限定原样保留，不majority或倒推源范围。
+8_rule_expression：原B80/T5/Rn2.5/Rr2.5/P10不变；10组手算先独立Vincenty/D2容差后实际角度精确分数C20，原BTP对象逐一相同。
+9_verification：expectations_before_runtime.json;author_actual.json;c0_boundary_actual.json;algorithm_actual_IO.json;builder_actual_IO.json
+10_status：author_verified_implementation_pending_independent_source_behavior_review
+algorithm_reason：Exactsource/versionbindingsmakeboundedculturalinterpretationreviewablewithoutchangingnumericmethodsorclaimingrealityproof.
+
+9. REG273F-APPEND
+算法标识：REG273F-APPEND
+1_source：source/Fan2019_primary_source_card.json;source/BX2026_primary_source_card.json;actualbasepolicyandoriginalfrozenprofile
+2_source_layers：现代作者文化/经典州名/旧行政名码/点提供者/元素profile/工程采纳分层不代证。
+3_interpretation：明确现代具名文化框架Rn，与个人喜用/B分开。
+4_conditions：准确目标/来源/时代/版本/点/位置有效窗和各摘要全部绑定。
+5_exclusions：实际已采根据282/data16，800在准备时仅冻结pending中间输入；不以文件日期自动latest或自采纳。
+6_changes：新源/目标/版本/点/窗口须显式新ref，旧版本不覆盖。
+7_conflicts：反向异源/局部错/粗略限定原样保留，不majority或倒推源范围。
+8_rule_expression：53条不等53省；49/48/44全部对象前缀保留，仅一个新城市ID，范三目标共享一篇文章且分开身份/源。
+9_verification：expectations_before_runtime.json;author_actual.json;c0_boundary_actual.json;algorithm_actual_IO.json;builder_actual_IO.json
+10_status：author_verified_implementation_pending_independent_source_behavior_review
+algorithm_reason：Exactsource/versionbindingsmakeboundedculturalinterpretationreviewablewithoutchangingnumericmethodsorclaimingrealityproof.
+
+10. REG273F-GATE
+算法标识：REG273F-GATE
+1_source：source/Fan2019_primary_source_card.json;source/BX2026_primary_source_card.json;actualbasepolicyandoriginalfrozenprofile
+2_source_layers：现代作者文化/经典州名/旧行政名码/点提供者/元素profile/工程采纳分层不代证。
+3_interpretation：明确现代具名文化框架Rn，与个人喜用/B分开。
+4_conditions：准确目标/来源/时代/版本/点/位置有效窗和各摘要全部绑定。
+5_exclusions：哈希/实现通过不认证来源全文真值；不说一个入口检查整包所有文件；测试数量不加覆盖或分数。
+6_changes：新源/目标/版本/点/窗口须显式新ref，旧版本不覆盖。
+7_conflicts：反向异源/局部错/粗略限定原样保留，不majority或倒推源范围。
+8_rule_expression：14缺失/毒化来源案均在未知位置首provider前拒绝，cleancontrol1；6严格JSON；43wrapper/10builder真IO；全冻结包迁移另核。
+9_verification：expectations_before_runtime.json;author_actual.json;c0_boundary_actual.json;algorithm_actual_IO.json;builder_actual_IO.json
+10_status：author_verified_implementation_pending_independent_source_behavior_review
+algorithm_reason：Exactsource/versionbindingsmakeboundedculturalinterpretationreviewablewithoutchangingnumericmethodsorclaimingrealityproof.
+

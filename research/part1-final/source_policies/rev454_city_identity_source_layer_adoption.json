@@ -1,0 +1,79 @@
+{
+  "schema": "454-finite-national-provider-identity-point-and-named-parent-chain-adoption/1",
+  "revision": 454,
+  "registered_utc": "2026-11-03T00:37:44.092430+00:00",
+  "status": "adopted_exact44270_technical_identity_own_coarse_point_and_explicit_parent_frame_candidate_chain_after451",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev442_national_city_identity",
+      "files": 70,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev442_national_city_identity/manifest.json",
+        "bytes": 10610,
+        "sha256": "3c59df51ed4689e68fd8c00274f8a1056d3a52e20770fe80c7d6eb8e40bec61b"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev442_national_city_identity/freeze.json",
+        "bytes": 487,
+        "sha256": "82c5e21fd7b3812e520b03577926b2336eff9356c85a90a81c1ebc46f4c61c05"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev451_city_chain_independent_review",
+      "files": 93,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev451_city_chain_independent_review/manifest.json",
+        "bytes": 15702,
+        "sha256": "99038c8f1f36812ba5868342aa86394b8935c671d5c38e33ac8474bd22e25021"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev451_city_chain_independent_review/freeze.json",
+        "bytes": 202,
+        "sha256": "27fbfb677ed73559c81a827b406fb87078dd559f4899e2b17efb1882d207718b"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev442_author_completion_handoff.json",
+    "bytes": 6795,
+    "sha256": "a4a356654432638c0f56775abcec07191a4303fb9b6fa82d459d2ea1a189a628"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev451_independent_completion_handoff.json",
+    "bytes": 4196,
+    "sha256": "aa9962f208a8f2799817455d6fb912955471c3c25ed54cfd97047bb4c6488382"
+  },
+  "data_version": "GN-CN-HK-MO-TW-20261101-befba23caa7f119e",
+  "source": "GeoNames既有2026-11-01固定CN/HK/MO/TW分卷，CC BY4.0；原ZIP和6214原行层次及中文名桥分别可追溯。",
+  "identity_scope": "6214提供方行政及驻地记录，含ADM3县/区/县级市等；GN ID+版固定，行政和驻地不混，非官方现行城市总数。",
+  "own_point_policy": "本条源坐标原词形明示粗代理，不是政府驻地、几何中心、出生GPS或实时人在场证明。",
+  "name_resolution": "NFKC/casefold/空白与源明列别名；同名保全部候选，省与feature仅收窄候选，无借驻地名/自由繁简/自动所在地认证。",
+  "adopted_named_parent_chain_interpretation": "对CN行政记录，固定GN行政成员→唯一同源ADM1→既核中文名桥，接调用方显式所选旧父省文化版完整前链，在同一旧frame/version中作现代具名包含候选。仅继承原候选上界，不推子域含全部父古域。",
+  "not_adopted_or_not_claimed": [
+    "七区新文化含义/郑州锚点",
+    "GN=民政代码或官方跨年多边形真值",
+    "仅由坐标推出传统元素",
+    "驻地whole范围文化继承",
+    "城市ID不明自动退省点",
+    "非CN完整whole文化桥已闭",
+    "GN与旧城市自有文化版自动同一",
+    "C0只因同坐标即可触发",
+    "原data22native/20combined默认已替换",
+    "D2/C0/C20显示消费者正式接合已完成"
+  ],
+  "data_and_semantic_boundaries": "新技术目录/粗代理及明示父版工程包含可有限采用；不修改旧Rn含义或旧九州真值，不把上界歧义变零/固定权重。点known与Rn unknown分开。",
+  "original_followup": [
+    "非CN已约定地区完整桥、原城市自有文化资料版正式接续",
+    "GN身份/版/点/文化context与原方向、同地及研究全链接合（不做手环显示）",
+    "原西藏/黑龙江当地含义与完整范围未闭、最终回放和可运行分发"
+  ],
+  "official_current_truth_not_new_acceptance_gate": "当前资料不认证全国官方现行名单/边界；这是披露限制，不新增原V1没有要求的全官方实时或逐米真值验收门。",
+  "review_evidence_reused": "451独立全四ZIP/6214原字段/点/祖先、64旧父回归、38运行+8支持算法、37IO/旧main未执行、完整协议/strict/坏源/现成完整70移位均实核。",
+  "first_errors_preserved": "作者荆土误预期改为原源荆金（producer未改）；独审准备错误与真实只读首拒/临时写位及finally原mode/字节恢复均保存。",
+  "no_theme_B_weights_or_display_change": true,
+  "progress": "86.25/100",
+  "progress_delta": 0,
+  "not_empirical_or_reality_element_validation": true
+}

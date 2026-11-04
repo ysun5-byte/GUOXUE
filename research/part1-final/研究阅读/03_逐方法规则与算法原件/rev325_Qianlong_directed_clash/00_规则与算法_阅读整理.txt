@@ -1,0 +1,2750 @@
+乾隆原例：有向双冲、火炼及全部成本
+rev325_Qianlong_directed_clash
+所属原模块：C02
+当前采用：rev381_Qianlong_composite_project_adoption.json
+范围：精确runtime325 0.1.3加解释层377；主三目标全部失败，另立二目标机理诊断；不由生平倒推。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev377_Qianlong_explanation_layer/all78_corrected_function_explanations.json
+SHA256：2e2c7879f38daa43a734fbdcacd1c6226e24583a288205926d87f6b9f4f57bc3
+
+1. 1
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": true,
+  "actual_input": {
+    "bytes": 235,
+    "path": "function_io/evidence/3d72b547e2d1d73eabb63d413631bfd16929c882b09cedf223216017d4d5c101.json",
+    "sha256": "3d72b547e2d1d73eabb63d413631bfd16929c882b09cedf223216017d4d5c101"
+  },
+  "actual_return_event": {
+    "bytes": 253,
+    "path": "function_io/evidence/35e88e00fba701f345c8e203da819fe608810f6cf64aea4619ec7188eddbce79.json",
+    "sha256": "35e88e00fba701f345c8e203da819fe608810f6cf64aea4619ec7188eddbce79"
+  },
+  "line": 16,
+  "name": "canonical",
+  "scenario": "strict_final0.1.3_deep_main",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：把JSON兼容值序列化为Unicode JSON文本str：键排序、紧凑分隔、ensure_ascii=False、allow_nan=False；不删字段，不作比较归一化。此函数不返回UTF8 bytes，字节编码由调用者或输出流完成。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_whole.py:16:canonical
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+2. 2
+函数AST摘要：4a1d3bdf1ed6fa57368d84c9f27fb5fcbd98fc0a87c29e3579197021b1e0e15b
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 192,
+    "path": "function_io/evidence/4ad9d5f1d3a2dd56decd8b9887ffec492af3e96d1233543567692261daf71cd7.json",
+    "sha256": "4ad9d5f1d3a2dd56decd8b9887ffec492af3e96d1233543567692261daf71cd7"
+  },
+  "actual_return_event": {
+    "bytes": 419642,
+    "path": "function_io/evidence/6e30e2949d8a3141e1b54df270867e289dd11459094d9e29e23c783b76d40480.json",
+    "sha256": "6e30e2949d8a3141e1b54df270867e289dd11459094d9e29e23c783b76d40480"
+  },
+  "line": 17,
+  "name": "strict_load",
+  "scenario": "final0.1.3_pending_actual_API_new_transitive_source_gate",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：调用json.loads解析str或bytes，逐对象拒绝重复键，parse_constant拒绝NaN/Infinity。它本身不实施main的5000字符上限，也不拒绝Unicode代理字符或验证四柱语义；原始四柱Unicode标量检查由evaluate执行，深递归由main捕获。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_whole.py:17:strict_load
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+3. 3
+函数AST摘要：ba143a6b63bf80ac4f344c595af7aa37569666ccc42004030d72c8e55b89be1f
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 3,
+    "path": "function_io/evidence/ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356.json",
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "actual_return_event": {
+    "bytes": 1060265,
+    "path": "function_io/evidence/f4caf2311bdfd57e1f856e83e0fbdf5872034b3395b421fd928bcccd6044bcd1.json",
+    "sha256": "f4caf2311bdfd57e1f856e83e0fbdf5872034b3395b421fd928bcccd6044bcd1"
+  },
+  "line": 26,
+  "name": "capture",
+  "scenario": "final0.1.3_pending_actual_API_new_transitive_source_gate",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：所有声明文件逐SHA/bytes、路径/类型、名录检查；最终入口还覆盖四传递root锁与未来未选文件，先于provider exec。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_whole.py:26:capture
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+4. 4
+函数AST摘要：6b2161512e22519ddab7b1c989547632c5fb9c8048390c62a9dee499f266f0e3
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 640639,
+    "path": "function_io/evidence/9be4458972fb8a9a56f0fe69fa59a9e62f31ce39a41dcd3ed5c5de548de7c329.json",
+    "sha256": "9be4458972fb8a9a56f0fe69fa59a9e62f31ce39a41dcd3ed5c5de548de7c329"
+  },
+  "actual_return_event": {
+    "bytes": 234,
+    "path": "function_io/evidence/d68a0301970e52e758ab1a8b310d8d0a08ee119cc6b928dcdfda919bd3383339.json",
+    "sha256": "d68a0301970e52e758ab1a8b310d8d0a08ee119cc6b928dcdfda919bd3383339"
+  },
+  "line": 42,
+  "name": "module",
+  "scenario": "final0.1.3_pending_actual_API_new_transitive_source_gate",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：按给定相对名从data取源码bytes，创建ModuleType并令__file__指向当前包内该名，compile后exec这些bytes，返回模块。本函数不独立核来源；实际providers先调用capture取得已核data，这是安全使用的调用前提。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_whole.py:42:module
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+5. 5
+函数AST摘要：cf5dd27c5a6b9cfde11e94a8a54b5b58a64638bf25dcac18168ba57b34067ada
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 3,
+    "path": "function_io/evidence/ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356.json",
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "actual_return_event": {
+    "bytes": 1317549,
+    "path": "function_io/evidence/f3207f5d13b28f9df35359083a81cf1c20c54f0fd87df60b3f1fc82b9171b031.json",
+    "sha256": "f3207f5d13b28f9df35359083a81cf1c20c54f0fd87df60b3f1fc82b9171b031"
+  },
+  "line": 44,
+  "name": "providers",
+  "scenario": "final0.1.3_pending_actual_API_new_transitive_source_gate",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：完整锁与1672原件/327范围检查后绑定原包、固定数学后端及元数据模块；拒预载未核Z3，单API模块内部可复用已核实例。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_whole.py:44:providers
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+6. 6
+函数AST摘要：7fe084ab073a21edf5040065627d35cc843523b0e704c21793cdd0bc4ae026c7
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 1310707,
+    "path": "function_io/evidence/d644193f803b75d352dac5e44b7e9b6e1a7412a47c6bc508498623e989209221.json",
+    "sha256": "d644193f803b75d352dac5e44b7e9b6e1a7412a47c6bc508498623e989209221"
+  },
+  "actual_return_event": {
+    "bytes": 37375894,
+    "path": "function_io/evidence/30bbfd749eb3a5a0cd5975865359a64724474e9adcc1c68ad709f2648e8c34fc.json",
+    "sha256": "30bbfd749eb3a5a0cd5975865359a64724474e9adcc1c68ad709f2648e8c34fc"
+  },
+  "line": 51,
+  "name": "all_worlds",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：枚举8包的全部256子集，逐一求同一完整图；补7任务端口，保所有世界与未决索引。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_whole.py:53:all_worlds
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+7. 7
+函数AST摘要：5ea50cbb8bc1f0a608294876bdc3c2b8e3756c193c7cb579e6b9c3a5035dbc09
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 38686586,
+    "path": "function_io/evidence/425ca6acb494aee65103a6fa7ed4ea83cd636b887499808d28d9cec4670bb8e3.json",
+    "sha256": "425ca6acb494aee65103a6fa7ed4ea83cd636b887499808d28d9cec4670bb8e3"
+  },
+  "actual_return_event": {
+    "bytes": 4459,
+    "path": "function_io/evidence/da7c0063471da4391c85f16633f4b96b47e93af89d5777871ba880cff9f429c1.json",
+    "sha256": "da7c0063471da4391c85f16633f4b96b47e93af89d5777871ba880cff9f429c1"
+  },
+  "line": 58,
+  "name": "select_native_aux",
+  "scenario": "original_native_AUX_from_full_truth",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：由完整稳健superset真值构造最大失败子集子句，调用原AUX并逐值核对H；失败/unknown不导出成功H。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_whole.py:60:select_native_aux
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+8. 8
+函数AST摘要：2276e9b479e6719ee3041793e4c476f2ad0c54eb7d469c8260076af4d664c5fc
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 275,
+    "path": "function_io/evidence/c6dd6e78d78e16bf5eeaaa5c19f4a15215e9f4787a3cfd544da33b59e37af893.json",
+    "sha256": "c6dd6e78d78e16bf5eeaaa5c19f4a15215e9f4787a3cfd544da33b59e37af893"
+  },
+  "actual_return_event": {
+    "bytes": 164451,
+    "path": "function_io/evidence/d446c3194792e545d593ce6a9018c153b82d22e727221b8df4dc0c6407f9b6e3.json",
+    "sha256": "d446c3194792e545d593ce6a9018c153b82d22e727221b8df4dc0c6407f9b6e3"
+  },
+  "line": 75,
+  "name": "evaluate",
+  "scenario": "final0.1.3_pending_actual_API_new_transitive_source_gate",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：严格schema/Unicode标量和真实原生合法性→固定源→显式有限解释选择→两套512→独立H状态；不因目标失败换源。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_whole.py:75:evaluate
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+9. 9
+函数AST摘要：b68a135db18c93d8c35449147dc1be37bd4aad973af71d446e540c4947e81171
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": true,
+  "actual_input": {
+    "bytes": 3,
+    "path": "function_io/evidence/ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356.json",
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "actual_return_event": {
+    "bytes": 2,
+    "path": "function_io/evidence/53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3.json",
+    "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3"
+  },
+  "line": 92,
+  "name": "main",
+  "scenario": "strict_final0.1.3_deep_main",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：标准输入限5000字符，成功输出单行完整JSON；ValueError/OSError/ArithmeticError/RecursionError等统一exit2无stderr。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_whole.py:92:main
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+10. 10
+函数AST摘要：9075480b319c0822c8ca4417cecda3109df067d5c6bc7d535345c0c4a3e927f5
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 180,
+    "path": "function_io/evidence/b888323a1fdf6630156d54e9147bc022d43e33c6f0a48fbac35677c15a1bf4cc.json",
+    "sha256": "b888323a1fdf6630156d54e9147bc022d43e33c6f0a48fbac35677c15a1bf4cc"
+  },
+  "actual_return_event": {
+    "bytes": 93,
+    "path": "function_io/evidence/ffb33b5facc617a52eb400425e09ba5c1b10792d7e5f324d14d2b0441e1d0ebf.json",
+    "sha256": "ffb33b5facc617a52eb400425e09ba5c1b10792d7e5f324d14d2b0441e1d0ebf"
+  },
+  "line": 18,
+  "name": "pairs",
+  "scenario": "final0.1.3_pending_actual_API_new_transitive_source_gate",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：逐键建对象，重复键立即ValueError，不保后值。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_whole.py:18:pairs
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+11. 11
+函数AST摘要：b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": true,
+  "actual_input": {
+    "bytes": 12,
+    "path": "function_io/evidence/597d18e630f57a4b41efa04d88afc695497aa98c56bd4963a9936a35cfeaa0ea.json",
+    "sha256": "597d18e630f57a4b41efa04d88afc695497aa98c56bd4963a9936a35cfeaa0ea"
+  },
+  "actual_return_event": {
+    "bytes": 5,
+    "path": "function_io/evidence/38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed.json",
+    "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+  },
+  "line": 24,
+  "name": "bad",
+  "scenario": "strict_final0.1.3_NaN_raises",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：NaN/Infinity解析回调总是抛ValueError。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_whole.py:24:bad
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+12. 12
+函数AST摘要：fee535f114985cc02adccf9b86f348801938dce68e4e820e088395746c0778c5
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 141,
+    "path": "function_io/evidence/d8955f92f4fa8ea00e796ab227ceb6e7428ac068ee7d10df927565579fbaa7fa.json",
+    "sha256": "d8955f92f4fa8ea00e796ab227ceb6e7428ac068ee7d10df927565579fbaa7fa"
+  },
+  "actual_return_event": {
+    "bytes": 131,
+    "path": "function_io/evidence/a8e36cb6a5e02dff5bb6f07d03a3352b413284c8cb3b24c60491c77a31553816.json",
+    "sha256": "a8e36cb6a5e02dff5bb6f07d03a3352b413284c8cb3b24c60491c77a31553816"
+  },
+  "line": 65,
+  "name": "<lambda>",
+  "scenario": "original_native_AUX_from_full_truth",
+  "source": "qianlong_whole.py"
+}
+actual_algorithm：实际轻量表达式：lambda s:tuple(sorted(s))。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：最终0.1.3研究入口/全源捕获/完整512消费，不自采用
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_whole.py:67:<lambda>
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_whole.py
+source_sha256：910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003
+
+13. 13
+函数AST摘要：399b7255954d430e1eefe6987ce65b1f642ab76786011c59f83715d3b7f88bf8
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 30,
+    "path": "function_io/evidence/3cc4b33680746300bc0697297faa5bf41a29aa7aba73716411fd15fc76dc1491.json",
+    "sha256": "3cc4b33680746300bc0697297faa5bf41a29aa7aba73716411fd15fc76dc1491"
+  },
+  "actual_return_event": {
+    "bytes": 28,
+    "path": "function_io/evidence/866b7fbc537926905614c6ec35a610f9d3b794c88bedb8c663d22de3006b9079.json",
+    "sha256": "866b7fbc537926905614c6ec35a610f9d3b794c88bedb8c663d22de3006b9079"
+  },
+  "line": 11,
+  "name": "canonical",
+  "scenario": "verified_provider_binding",
+  "source": "capture_and_first_native.py"
+}
+actual_algorithm：把JSON兼容值序列化为Unicode JSON文本str：键排序、紧凑分隔、ensure_ascii=False、allow_nan=False；不删字段，不作比较归一化。此函数不返回UTF8 bytes，字节编码由调用者或输出流完成。
+applicability：旧304全1672来源完整性与新Ren具名任务/资格接合
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：capture_and_first_native.py:11:canonical
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：capture_and_first_native.py
+source_sha256：783ae08e1499e7fc3e2844fb0927a0ba4bb6e4b1da39e5232bb9057e77794245
+
+14. 14
+函数AST摘要：a45ca953b2f7b0a242b42009952531335a9934f75aa5d0e97dfc182704ccd620
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 15,
+    "path": "function_io/evidence/1aed33a4e7aa4494cdfdcba63609611d1b50e6c414fb68c6d213fde4c4ac5393.json",
+    "sha256": "1aed33a4e7aa4494cdfdcba63609611d1b50e6c414fb68c6d213fde4c4ac5393"
+  },
+  "actual_return_event": {
+    "bytes": 855573,
+    "path": "function_io/evidence/493a419595871960c226d90b9aaa443e4af4054fa2bafec0a8af1fba0e343efc.json",
+    "sha256": "493a419595871960c226d90b9aaa443e4af4054fa2bafec0a8af1fba0e343efc"
+  },
+  "line": 12,
+  "name": "capture",
+  "scenario": "native_API_source_assumption_pending",
+  "source": "capture_and_first_native.py"
+}
+actual_algorithm：所有声明文件逐SHA/bytes、路径/类型、名录检查；最终入口还覆盖四传递root锁与未来未选文件，先于provider exec。
+applicability：旧304全1672来源完整性与新Ren具名任务/资格接合
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：capture_and_first_native.py:12:capture
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：capture_and_first_native.py
+source_sha256：783ae08e1499e7fc3e2844fb0927a0ba4bb6e4b1da39e5232bb9057e77794245
+
+15. 15
+函数AST摘要：29808d27f1ecc6c89c819c995ac6999c3789a2dc21411838ff9c2ce32fef7eea
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 636339,
+    "path": "function_io/evidence/306d339f38b4c13a3d5a10c7c124769db6afed566a852d14c8ca54c20ca9e884.json",
+    "sha256": "306d339f38b4c13a3d5a10c7c124769db6afed566a852d14c8ca54c20ca9e884"
+  },
+  "actual_return_event": {
+    "bytes": 95886,
+    "path": "function_io/evidence/8cba4808fd0f08cdd5aff5798e025bd5168137ec515e3eb7d2a08b30aede6c68.json",
+    "sha256": "8cba4808fd0f08cdd5aff5798e025bd5168137ec515e3eb7d2a08b30aede6c68"
+  },
+  "line": 37,
+  "name": "native_intake",
+  "scenario": "native_API_source_assumption_pending",
+  "source": "capture_and_first_native.py"
+}
+actual_algorithm：原HAP全明细保留，另按源具名激活支任务与己跨章推论；Ren资格callback逐origin匹配事前手账，不改原默认。
+applicability：旧304全1672来源完整性与新Ren具名任务/资格接合
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：capture_and_first_native.py:37:native_intake
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：capture_and_first_native.py
+source_sha256：783ae08e1499e7fc3e2844fb0927a0ba4bb6e4b1da39e5232bb9057e77794245
+
+16. 16
+函数AST摘要：cec741adcdb83d2b8d7095514dae22dfa5e1f1dc38a1617c708b259ecab85066
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 636339,
+    "path": "function_io/evidence/306d339f38b4c13a3d5a10c7c124769db6afed566a852d14c8ca54c20ca9e884.json",
+    "sha256": "306d339f38b4c13a3d5a10c7c124769db6afed566a852d14c8ca54c20ca9e884"
+  },
+  "actual_return_event": {
+    "bytes": 230,
+    "path": "function_io/evidence/eb36c7b9823d405cb86cab9ccdae218fba24741b61773afacca388fd0f0e5455.json",
+    "sha256": "eb36c7b9823d405cb86cab9ccdae218fba24741b61773afacca388fd0f0e5455"
+  },
+  "line": 68,
+  "name": "load_math",
+  "scenario": "native_API_source_assumption_pending",
+  "source": "capture_and_first_native.py"
+}
+actual_algorithm：全部字节捕获后才引固定本地Z3及原图；检查版本并拒绝未知预载实例。
+applicability：旧304全1672来源完整性与新Ren具名任务/资格接合
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：capture_and_first_native.py:68:load_math
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：capture_and_first_native.py
+source_sha256：783ae08e1499e7fc3e2844fb0927a0ba4bb6e4b1da39e5232bb9057e77794245
+
+17. 17
+函数AST摘要：f0072cc8930526c8bc2e8374b0e714c119fbe849bf43da666648fa28897787e4
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 367,
+    "path": "function_io/evidence/7c10016598db674690089384ad99d1d58f99f7f705acf87f5885ff72dd8c12c7.json",
+    "sha256": "7c10016598db674690089384ad99d1d58f99f7f705acf87f5885ff72dd8c12c7"
+  },
+  "actual_return_event": {
+    "bytes": 116,
+    "path": "function_io/evidence/e564ba19d06ecdc4666fdfaa63780096e8ea8a14be61167a045a0c2a358e0b57.json",
+    "sha256": "e564ba19d06ecdc4666fdfaa63780096e8ea8a14be61167a045a0c2a358e0b57"
+  },
+  "line": 43,
+  "name": "ren_qualification",
+  "scenario": "native_API_source_assumption_pending",
+  "source": "capture_and_first_native.py"
+}
+actual_algorithm：非土按共同四生禄旺/墓及实际藏根；土只按实际本气/余气；不借阴生或未证火宫。
+applicability：旧304全1672来源完整性与新Ren具名任务/资格接合
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：capture_and_first_native.py:43:ren_qualification
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：capture_and_first_native.py
+source_sha256：783ae08e1499e7fc3e2844fb0927a0ba4bb6e4b1da39e5232bb9057e77794245
+
+18. 18
+函数AST摘要：3cb95917e049519b0a3b9b9db466eaf6ea8a4adffa270d1e51d64bea2b2aab64
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 37,
+    "path": "function_io/evidence/ec0438af273fd720a293ecf25992790f6dc253442b625107afee775824b0bb98.json",
+    "sha256": "ec0438af273fd720a293ecf25992790f6dc253442b625107afee775824b0bb98"
+  },
+  "actual_return_event": {
+    "bytes": 40,
+    "path": "function_io/evidence/99ae430591a90ee88ce3db79cb4f468ef7f6665373596c85fc1bd7839f5a3dad.json",
+    "sha256": "99ae430591a90ee88ce3db79cb4f468ef7f6665373596c85fc1bd7839f5a3dad"
+  },
+  "line": 26,
+  "name": "reach",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：位置相距至少2乘1/2，隐藏发送再乘1/2，逐载体而非同干并位。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:26:reach
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+19. 19
+函数AST摘要：a0bec79b46c219fd76ae3a0ffdbd5071a8c0bc1e93d538c48733df30bb7e862d
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 205,
+    "path": "function_io/evidence/5f7445d3a8092cf26cad94b9271d7cf2606c47ce3b4426400787de56cd6f0dca.json",
+    "sha256": "5f7445d3a8092cf26cad94b9271d7cf2606c47ce3b4426400787de56cd6f0dca"
+  },
+  "actual_return_event": {
+    "bytes": 8982,
+    "path": "function_io/evidence/9dc9e2980cfe27ddc6053aa387d6a3ae7b9a4c0e769eacc8c9c094723377b28b.json",
+    "sha256": "9dc9e2980cfe27ddc6053aa387d6a3ae7b9a4c0e769eacc8c9c094723377b28b"
+  },
+  "line": 30,
+  "name": "edge_spec",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：完整普通生成/控制、正包耦合与始终负功能；远合反向绊只在事前第二解释中，丙克辛不重复。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:30:edge_spec
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+20. 20
+函数AST摘要：e7b77522ad087e16b603f359d9cb067fd0e776bd667bef1d0dc1fcc1a34c0461
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 44,
+    "path": "function_io/evidence/9bb1583d0d7c30117cdad132ffb37523bb813237dcddd6703ce07c60e1f942da.json",
+    "sha256": "9bb1583d0d7c30117cdad132ffb37523bb813237dcddd6703ce07c60e1f942da"
+  },
+  "actual_return_event": {
+    "bytes": 41,
+    "path": "function_io/evidence/71cc1d2f2074492b5101e46fda26eb5e3cabd94c2e9538c557d6a84da0a7a1de.json",
+    "sha256": "71cc1d2f2074492b5101e46fda26eb5e3cabd94c2e9538c557d6a84da0a7a1de"
+  },
+  "line": 59,
+  "name": "q",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：Fraction转换为Z3精确有理常量，不经float。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:59:q
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+21. 21
+函数AST摘要：773508ac9db72f3a05c31ce787ce0276fcd258727bcc64abbf6089e9cc43cbbe
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 131,
+    "path": "function_io/evidence/0092ad61aca6cbd9d7e582be7f2dd7e2b7d532fe1d265a54c66fb441c1f0b45d.json",
+    "sha256": "0092ad61aca6cbd9d7e582be7f2dd7e2b7d532fe1d265a54c66fb441c1f0b45d"
+  },
+  "actual_return_event": {
+    "bytes": 89,
+    "path": "function_io/evidence/2d34464822e18a682dda470a5afc3560f0658e1af697d3164da71071f9aaa3c0.json",
+    "sha256": "2d34464822e18a682dda470a5afc3560f0658e1af697d3164da71071f9aaa3c0"
+  },
+  "line": 61,
+  "name": "mx",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：把有限逐origin最大值写为精确If比较，含零输入。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:61:mx
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+22. 22
+函数AST摘要：af1e55bfdf6586fc56c1b30b448230d47bdaacee5c7722efc1a4d3adf3935435
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 2281,
+    "path": "function_io/evidence/8157f1dd98aa2d13e5d11beaa0a6a90b0397b94ef80271d21428538dae042483.json",
+    "sha256": "8157f1dd98aa2d13e5d11beaa0a6a90b0397b94ef80271d21428538dae042483"
+  },
+  "actual_return_event": {
+    "bytes": 1912,
+    "path": "function_io/evidence/dfbe8858df8f949337a01390b791b1d360ef9556f84c7dfc62110c91c4ebed2a.json",
+    "sha256": "dfbe8858df8f949337a01390b791b1d360ef9556f84c7dfc62110c91c4ebed2a"
+  },
+  "line": 67,
+  "name": "total",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：按origin求和而不是把同根载体总量重复相加。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:67:total
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+23. 23
+函数AST摘要：663d16ca90ff481084dcb4460412482e12de69b1af8b28a00f72fb4dc3431eda
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 4871,
+    "path": "function_io/evidence/fc6a8279f85f53e3680451a9bf6dd4ec1b9318dd027b079156627d7d4e0e53b0.json",
+    "sha256": "fc6a8279f85f53e3680451a9bf6dd4ec1b9318dd027b079156627d7d4e0e53b0"
+  },
+  "actual_return_event": {
+    "bytes": 1507,
+    "path": "function_io/evidence/af8e6c77a169850818cbbfcb387b929053c99aa2adac0476a67aaca13b88f296.json",
+    "sha256": "af8e6c77a169850818cbbfcb387b929053c99aa2adac0476a67aaca13b88f296"
+  },
+  "line": 68,
+  "name": "union",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：同角色多个载体按每origin最大值合并，保全部来源坐标。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:68:union
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+24. 24
+函数AST摘要：c8373d0a7588229d46fb02da2541f8a5db3f2909e0eb2dfd124574fb1de6b0ba
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 942,
+    "path": "function_io/evidence/3a9f43b1501b0fb24b073c1c604d2951cb00f04d3b10cde30738bb7365a19d49.json",
+    "sha256": "3a9f43b1501b0fb24b073c1c604d2951cb00f04d3b10cde30738bb7365a19d49"
+  },
+  "actual_return_event": {
+    "bytes": 145519,
+    "path": "function_io/evidence/98c5bc687bd2dddc63fb9167ba283d4e73fcf483d339654d20ccb4fb55acd534.json",
+    "sha256": "98c5bc687bd2dddc63fb9167ba283d4e73fcf483d339654d20ccb4fb55acd534"
+  },
+  "line": 70,
+  "name": "build",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：建立9×8现量、保留率、所有max/clip、日主宿根与KF W负担方程及闭盒；原始公式用于精确向量身份。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:70:build
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+25. 25
+函数AST摘要：460b194024a6562dc9256d151f151a4a68a64308db9b881bf25aac61663d8851
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 47,
+    "path": "function_io/evidence/0c41280c4524b7b107ef4ccef4008af1e0159575993693539bd0bdae8e0e96f1.json",
+    "sha256": "0c41280c4524b7b107ef4ccef4008af1e0159575993693539bd0bdae8e0e96f1"
+  },
+  "actual_return_event": {
+    "bytes": 4,
+    "path": "function_io/evidence/94664180e5190a6c6dc2ba6e2d7944081d2dd0e0151a9ff07f62c8865eeb9389.json",
+    "sha256": "94664180e5190a6c6dc2ba6e2d7944081d2dd0e0151a9ff07f62c8865eeb9389"
+  },
+  "line": 108,
+  "name": "exact_record",
+  "scenario": "archived_direct_explicit_alloff",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：有理数按分数；显式代数数按多项式/根序/严格有理隔离区间；闭布尔必须精确已定。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:108:exact_record
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+26. 26
+函数AST摘要：fc94e51a740c28f5d75b12a20648e26126b964b9b87e34a43e09ea1ebbf34726
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 152055,
+    "path": "function_io/evidence/a1b54ce9830a1dc9b43f3356d490a178f51830da9f58512084e5c1df296caeba.json",
+    "sha256": "a1b54ce9830a1dc9b43f3356d490a178f51830da9f58512084e5c1df296caeba"
+  },
+  "actual_return_event": {
+    "bytes": 24348,
+    "path": "function_io/evidence/f1ddfc5a14226a87927c7fc62efcac4d8dfb47a39155a81c445af1ab55f2b2a9.json",
+    "sha256": "f1ddfc5a14226a87927c7fc62efcac4d8dfb47a39155a81c445af1ab55f2b2a9"
+  },
+  "line": 120,
+  "name": "snapshot",
+  "scenario": "archived_direct_explicit_alloff",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：显式候选逐式代回原非简化方程，保存全部现量、控制预算、边及三目标；不是局部根即通过。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:120:snapshot
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+27. 27
+函数AST摘要：2c811147707902913b4aa8d1d4cde6e047424596baf0feb8050f5a41b8716cb0
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 121,
+    "path": "function_io/evidence/3ee52b80f55960029d7c196086636c7b9436e32113cf1c6c69af19c13a9af49f.json",
+    "sha256": "3ee52b80f55960029d7c196086636c7b9436e32113cf1c6c69af19c13a9af49f"
+  },
+  "actual_return_event": {
+    "bytes": 68098,
+    "path": "function_io/evidence/fc4dccfd3f0718fdda6a582607f66ff4234e0caa76a8dde950cb332face3a4aa.json",
+    "sha256": "fc4dccfd3f0718fdda6a582607f66ff4234e0caa76a8dde950cb332face3a4aa"
+  },
+  "line": 130,
+  "name": "solve_world",
+  "scenario": "archived_direct_explicit_alloff",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：按所属文件规定求同一整图：原全局NRA/局部相位或最终全域唯一隐式向量；所有unknown/不确定符号保留，不能伪成失败或成功。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:130:solve_world
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+28. 28
+函数AST摘要：ea9b028a1e3af4a6c65f263a2ce090ee7fe96de2859970c8ca971eaa5600801a
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 37183819,
+    "path": "function_io/evidence/df4cab8aa21dad0326b5fb2edcf672e035acc776279a10e01b643b043eb1085b.json",
+    "sha256": "df4cab8aa21dad0326b5fb2edcf672e035acc776279a10e01b643b043eb1085b"
+  },
+  "actual_return_event": {
+    "bytes": 218,
+    "path": "function_io/evidence/94cb04106db13d55bc0e5f7af94490441dd032bd9a482aee0add376537fc7911.json",
+    "sha256": "94cb04106db13d55bc0e5f7af94490441dd032bd9a482aee0add376537fc7911"
+  },
+  "line": 156,
+  "name": "all_H",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：必须完整256世界，稳健集合须所有superset成功；返回全部包含极小集合，未知保留，实际全开失败H=None。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:156:all_H
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+29. 29
+函数AST摘要：a1cea1bd90824e6e28509f6e517463c99dd7eb908208cb968cecc610220bf37e
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 194,
+    "path": "function_io/evidence/a1376d33f4cc8352ffe6b855a514286dea742defb959dc85e5f72083032fb193.json",
+    "sha256": "a1376d33f4cc8352ffe6b855a514286dea742defb959dc85e5f72083032fb193"
+  },
+  "actual_return_event": {
+    "bytes": 5,
+    "path": "function_io/evidence/38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed.json",
+    "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+  },
+  "line": 35,
+  "name": "add",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：建立单条带原reach系数和许可的真实边，保名义与实际gain。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:35:add
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+30. 30
+函数AST摘要：4bc7db8e01d6ec10ac0d78d5aad5eaaf40bb47866a1780602f266c0486eede6f
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 51,
+    "path": "function_io/evidence/13288244db6b50cdb29b7eff577c2f4b22e44806fc8ec49edc97a949002e7edb.json",
+    "sha256": "13288244db6b50cdb29b7eff577c2f4b22e44806fc8ec49edc97a949002e7edb"
+  },
+  "actual_return_event": {
+    "bytes": 41,
+    "path": "function_io/evidence/b12d830b93391cd034cf3613c1b370bd0af5b6a38a2f16eb9b05d957bc21c7ef.json",
+    "sha256": "b12d830b93391cd034cf3613c1b370bd0af5b6a38a2f16eb9b05d957bc21c7ef"
+  },
+  "line": 121,
+  "name": "<lambda>",
+  "scenario": "archived_direct_explicit_alloff",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：实际轻量表达式：lambda x:m.eval(x,model_completion=True)。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:121:<lambda>
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+31. 31
+函数AST摘要：05486f030a8688abbd2e4eaf136bd94b5cbfa6ebaa64c0eccc6f864903f891ad
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 4615,
+    "path": "function_io/evidence/b956a6da5f012e8a0a5cb3956ea9d629a91523b8d2987e9fe335f5816378409b.json",
+    "sha256": "b956a6da5f012e8a0a5cb3956ea9d629a91523b8d2987e9fe335f5816378409b"
+  },
+  "actual_return_event": {
+    "bytes": 1683,
+    "path": "function_io/evidence/7dfaa43899e0616902e024624d573d3b8ec1d0f0c6bff4698fe4f4544f98d614.json",
+    "sha256": "7dfaa43899e0616902e024624d573d3b8ec1d0f0c6bff4698fe4f4544f98d614"
+  },
+  "line": 122,
+  "name": "<lambda>",
+  "scenario": "archived_direct_explicit_alloff",
+  "source": "qianlong_exact_graph.py"
+}
+actual_algorithm：实际轻量表达式：lambda p:{a:{o:exact_record(value(v))for o,v in rows.items()}for a,rows in p.items()}。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：原始完整QF_NRA方程，显式求解器历史与同题完整H
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_graph.py:122:<lambda>
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_graph.py
+source_sha256：3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c
+
+32. 32
+函数AST摘要：b2fab4f108f16a704a81768559b3b0ef4ba2a348cdd44ccb8caae9f16aa82893
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 1541,
+    "path": "function_io/evidence/31631682e85b9682b278076b119b982286ed4e91b932f7133b395db94cb9d040.json",
+    "sha256": "31631682e85b9682b278076b119b982286ed4e91b932f7133b395db94cb9d040"
+  },
+  "actual_return_event": {
+    "bytes": 445,
+    "path": "function_io/evidence/c2c2eeacfe2a160b5398121aa25b669bb453708e8fb406007a53ddefc80cb8ea.json",
+    "sha256": "c2c2eeacfe2a160b5398121aa25b669bb453708e8fb406007a53ddefc80cb8ea"
+  },
+  "line": 10,
+  "name": "merge",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_phase_solver.py"
+}
+actual_algorithm：同源最大值合并向量；正包开关不删除角色或负功能。
+applicability：同图全域收缩证明、严格残差根盒、局部代数尝试
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_phase_solver.py:10:merge
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_phase_solver.py
+source_sha256：7aece780752d9b4f98453818a7f97803b7f53703d5bbe10d82562be12a117124
+
+33. 33
+函数AST摘要：5f090725b80a7469978ce610ccbd6d5f02351f4411ee5af8f2cdbac307ae2a97
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 451,
+    "path": "function_io/evidence/3059a2c8f2d854026a361cff514cbd7499ce41ac198ac1c7e5ddc46b1e7956ec.json",
+    "sha256": "3059a2c8f2d854026a361cff514cbd7499ce41ac198ac1c7e5ddc46b1e7956ec"
+  },
+  "actual_return_event": {
+    "bytes": 41,
+    "path": "function_io/evidence/fa3b1f3974e78388be48398834cd7f5453107825368a61c5bfe381961e521839.json",
+    "sha256": "fa3b1f3974e78388be48398834cd7f5453107825368a61c5bfe381961e521839"
+  },
+  "line": 11,
+  "name": "total",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_phase_solver.py"
+}
+actual_algorithm：按origin求和而不是把同根载体总量重复相加。
+applicability：同图全域收缩证明、严格残差根盒、局部代数尝试
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_phase_solver.py:11:total
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_phase_solver.py
+source_sha256：7aece780752d9b4f98453818a7f97803b7f53703d5bbe10d82562be12a117124
+
+34. 34
+函数AST摘要：c2369863f9f134a38c1188d832f5fe3f83d65bc6b0ad3bf1095df31007800eca
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 5035,
+    "path": "function_io/evidence/bba797678cafb8173cdabbd6bb1c0ac55fd221f9f0c137adc61631f00d900c21.json",
+    "sha256": "bba797678cafb8173cdabbd6bb1c0ac55fd221f9f0c137adc61631f00d900c21"
+  },
+  "actual_return_event": {
+    "bytes": 12947,
+    "path": "function_io/evidence/883977bb8e13671b5d29549dacf5317473f02726cf902ed4e01176307dd68d64.json",
+    "sha256": "883977bb8e13671b5d29549dacf5317473f02726cf902ed4e01176307dd68d64"
+  },
+  "line": 12,
+  "name": "step",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_phase_solver.py"
+}
+actual_algorithm：对9载体同时用旧量计算完整下一步，日主当前再生伤官；只用于精确有理残差/相位发现，不冒作真根。
+applicability：同图全域收缩证明、严格残差根盒、局部代数尝试
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_phase_solver.py:12:step
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_phase_solver.py
+source_sha256：7aece780752d9b4f98453818a7f97803b7f53703d5bbe10d82562be12a117124
+
+35. 35
+函数AST摘要：5e0f6d5721220c717df2a2bf7a016268776ae93609478a0baacba1fc404269b0
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 3,
+    "path": "function_io/evidence/ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356.json",
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "actual_return_event": {
+    "bytes": 1196,
+    "path": "function_io/evidence/694ae3bcee2e1fdc9bf3fe490aebd971115c9521ea65185c80f19a2f505027e3.json",
+    "sha256": "694ae3bcee2e1fdc9bf3fe490aebd971115c9521ea65185c80f19a2f505027e3"
+  },
+  "line": 24,
+  "name": "contraction_certificate",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "qianlong_exact_phase_solver.py"
+}
+actual_algorithm：按全开启最大边矩阵核Aw=w−1与全正w，统一L=25156049/26188041<1覆盖两解释全部世界。
+applicability：同图全域收缩证明、严格残差根盒、局部代数尝试
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_phase_solver.py:24:contraction_certificate
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_phase_solver.py
+source_sha256：7aece780752d9b4f98453818a7f97803b7f53703d5bbe10d82562be12a117124
+
+36. 36
+函数AST摘要：53046a220470742b709048feb3ca131263d42e3f2f2b3d6175ad5bc787fd2b4b
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 934,
+    "path": "function_io/evidence/12e15b3150352cea392644d069bff024891fe3cb8686d19f2b0d3a56cfee6a5c.json",
+    "sha256": "12e15b3150352cea392644d069bff024891fe3cb8686d19f2b0d3a56cfee6a5c"
+  },
+  "actual_return_event": {
+    "bytes": 24193,
+    "path": "function_io/evidence/1d17dc644100d718514e84796f4699a2da09f5e2326756b9d36382cd9e216eb0.json",
+    "sha256": "1d17dc644100d718514e84796f4699a2da09f5e2326756b9d36382cd9e216eb0"
+  },
+  "line": 33,
+  "name": "grid_probe",
+  "scenario": "archived_local_explicit_alloff",
+  "source": "qianlong_exact_phase_solver.py"
+}
+actual_algorithm：精确有理网格只选相位，计算原图残差/(1−L)严格包根；不输出网格点为真现量。
+applicability：同图全域收缩证明、严格残差根盒、局部代数尝试
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_phase_solver.py:33:grid_probe
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_phase_solver.py
+source_sha256：7aece780752d9b4f98453818a7f97803b7f53703d5bbe10d82562be12a117124
+
+37. 37
+函数AST摘要：98d0c13eee2ed759e3c59e51c740178d11bbf9a6d6b56f7308848d8a0094beb4
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 150194,
+    "path": "function_io/evidence/395a50afe2f15ce4e2ad6a91508d2dd7b94aa589fa85ccc58435fce303948a8d.json",
+    "sha256": "395a50afe2f15ce4e2ad6a91508d2dd7b94aa589fa85ccc58435fce303948a8d"
+  },
+  "actual_return_event": {
+    "bytes": 29585,
+    "path": "function_io/evidence/e25b8d5c3ada37f5ff769b83d990c444b630708ba87b89e73824e8de687092fc.json",
+    "sha256": "e25b8d5c3ada37f5ff769b83d990c444b630708ba87b89e73824e8de687092fc"
+  },
+  "line": 43,
+  "name": "select_phase",
+  "scenario": "archived_local_explicit_alloff",
+  "source": "qianlong_exact_phase_solver.py"
+}
+actual_algorithm：在精确有理探针处选max分支并保守卫；不改原式或用局部可解代替全域唯一性。
+applicability：同图全域收缩证明、严格残差根盒、局部代数尝试
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_phase_solver.py:43:select_phase
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_phase_solver.py
+source_sha256：7aece780752d9b4f98453818a7f97803b7f53703d5bbe10d82562be12a117124
+
+38. 38
+函数AST摘要：6233554e11e3b87b9fed00da4ab81e70409a03c96b374d1aa15a4e9e89f70ef6
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 121,
+    "path": "function_io/evidence/3ee52b80f55960029d7c196086636c7b9436e32113cf1c6c69af19c13a9af49f.json",
+    "sha256": "3ee52b80f55960029d7c196086636c7b9436e32113cf1c6c69af19c13a9af49f"
+  },
+  "actual_return_event": {
+    "bytes": 106726,
+    "path": "function_io/evidence/1281cd084937cd69c0ae1ab8c60d2484c77d3be5c51a380f79b47f120fd9ea14.json",
+    "sha256": "1281cd084937cd69c0ae1ab8c60d2484c77d3be5c51a380f79b47f120fd9ea14"
+  },
+  "line": 57,
+  "name": "solve_world",
+  "scenario": "archived_local_explicit_alloff",
+  "source": "qianlong_exact_phase_solver.py"
+}
+actual_algorithm：按所属文件规定求同一整图：原全局NRA/局部相位或最终全域唯一隐式向量；所有unknown/不确定符号保留，不能伪成失败或成功。
+applicability：同图全域收缩证明、严格残差根盒、局部代数尝试
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_phase_solver.py:57:solve_world
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_phase_solver.py
+source_sha256：7aece780752d9b4f98453818a7f97803b7f53703d5bbe10d82562be12a117124
+
+39. 39
+函数AST摘要：7151fb58a9fe32a677f5d2ba6d8c9c0a56e9868dc02ea597aa5abab0eb72d3b2
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 57,
+    "path": "function_io/evidence/658497a8757d75eb4d81a0cfae957ba0373f8074798c85b371cc651267b462b5.json",
+    "sha256": "658497a8757d75eb4d81a0cfae957ba0373f8074798c85b371cc651267b462b5"
+  },
+  "actual_return_event": {
+    "bytes": 51,
+    "path": "function_io/evidence/22fec4ae878f275a8e347ff5ee96d2c485c4fd9323076023de39e57bcb46077a.json",
+    "sha256": "22fec4ae878f275a8e347ff5ee96d2c485c4fd9323076023de39e57bcb46077a"
+  },
+  "line": 45,
+  "name": "walk",
+  "scenario": "archived_local_explicit_alloff",
+  "source": "qianlong_exact_phase_solver.py"
+}
+actual_algorithm：递归替换该相位If，同时加入精确守卫，避免隐藏嵌套If分支。
+applicability：同图全域收缩证明、严格残差根盒、局部代数尝试
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：qianlong_exact_phase_solver.py:45:walk
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_exact_phase_solver.py
+source_sha256：7aece780752d9b4f98453818a7f97803b7f53703d5bbe10d82562be12a117124
+
+40. 40
+函数AST摘要：809ee3fb923a09a5dde7e26a33580ab5ea59daa3d15e20a496c33decb5436217
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 80,
+    "path": "function_io/evidence/0e6c884e695a794cafb7ecf7ebb023d321a53d2852abe3c953fce111323cec1b.json",
+    "sha256": "0e6c884e695a794cafb7ecf7ebb023d321a53d2852abe3c953fce111323cec1b"
+  },
+  "actual_return_event": {
+    "bytes": 74,
+    "path": "function_io/evidence/eac24f889874aa8542d3609680b7f96a7337672fbc2eb0cbb7599e8205ffe2c6.json",
+    "sha256": "eac24f889874aa8542d3609680b7f96a7337672fbc2eb0cbb7599e8205ffe2c6"
+  },
+  "line": 22,
+  "name": "cast",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：把有理常量视为退化闭区间，已有I保持原对象。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:22:cast
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+41. 41
+函数AST摘要：9ff3714da95f5f40e9085321e76e3bd55a54bfafd99883f854f73d052cd08161
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 116,
+    "path": "function_io/evidence/a35241a994b7eeffd0ef9abc9dc0a59b64c983697d81be84c627a25319e7a323.json",
+    "sha256": "a35241a994b7eeffd0ef9abc9dc0a59b64c983697d81be84c627a25319e7a323"
+  },
+  "actual_return_event": {
+    "bytes": 151,
+    "path": "function_io/evidence/cbce34a21a1fa23b154f0703202e752336286463fdb0596afa55762e798928c7.json",
+    "sha256": "cbce34a21a1fa23b154f0703202e752336286463fdb0596afa55762e798928c7"
+  },
+  "line": 23,
+  "name": "maximum",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：每个区间下端取max、上端取max，形成严格外包。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:23:maximum
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+42. 42
+函数AST摘要：67e32894e23a19eab447b252fcc669c9824408a54273c66f7a4d3b623e29e2f9
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 968,
+    "path": "function_io/evidence/912e89bf86d217b5bc7eb9e754181d5a4ab67735f7bf80f61b7d55d2aa8e1174.json",
+    "sha256": "912e89bf86d217b5bc7eb9e754181d5a4ab67735f7bf80f61b7d55d2aa8e1174"
+  },
+  "actual_return_event": {
+    "bytes": 151,
+    "path": "function_io/evidence/d2ca6e85bc2e94f2653a70eb0e87bf757b1b1d9b6d1251565ee9abc0f67d078e.json",
+    "sha256": "d2ca6e85bc2e94f2653a70eb0e87bf757b1b1d9b6d1251565ee9abc0f67d078e"
+  },
+  "line": 25,
+  "name": "total",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：按origin求和而不是把同根载体总量重复相加。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:25:total
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+43. 43
+函数AST摘要：90124824482a70efe84e3882fe4455d79bf167df5fdb4037ac34d6d0aeaa91cd
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 2757,
+    "path": "function_io/evidence/a37e75aaaf1710eb6c1eb3dc40b2265926ca56a45294a30b6c286372da3f22cf.json",
+    "sha256": "a37e75aaaf1710eb6c1eb3dc40b2265926ca56a45294a30b6c286372da3f22cf"
+  },
+  "actual_return_event": {
+    "bytes": 962,
+    "path": "function_io/evidence/fe025148f42055456c74293ae3ced4b6eb133cece53728800e80cadcf0e7e2e2.json",
+    "sha256": "fe025148f42055456c74293ae3ced4b6eb133cece53728800e80cadcf0e7e2e2"
+  },
+  "line": 26,
+  "name": "merge",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：同源最大值合并向量；正包开关不删除角色或负功能。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:26:merge
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+44. 44
+函数AST摘要：3547579be06fc5fda06bc7c5748392b61f534efa2bf1a72d3ef6b56c48bebd97
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 560,
+    "path": "function_io/evidence/fc2f1aef4d6ef20bec7e5ccb576b29d69565323229d7e0fdad101df509e2a4e1.json",
+    "sha256": "fc2f1aef4d6ef20bec7e5ccb576b29d69565323229d7e0fdad101df509e2a4e1"
+  },
+  "actual_return_event": {
+    "bytes": 812,
+    "path": "function_io/evidence/e7828f9810db1b68d6b618fff7349793f08fab720508507cd7758b6dbaffba38.json",
+    "sha256": "e7828f9810db1b68d6b618fff7349793f08fab720508507cd7758b6dbaffba38"
+  },
+  "line": 27,
+  "name": "stock_control",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：控制映射对目标单调、对预算反单调；用目标下/预算上与目标上/预算下取得保守现量包围，含目标零。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:27:stock_control
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+45. 45
+函数AST摘要：3ef43c27d802f8a826900c2f6a05e6eb627895fbce0009013cba85a30964a685
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 8280,
+    "path": "function_io/evidence/e8864426af13911903272337709e2d04e6e6a673543b534d396ad726e5f3d50d.json",
+    "sha256": "e8864426af13911903272337709e2d04e6e6a673543b534d396ad726e5f3d50d"
+  },
+  "actual_return_event": {
+    "bytes": 29714,
+    "path": "function_io/evidence/9c22e2fcc48815651089faa4ab963aa65e951f8da53a8c120c44a6e22cdd6251.json",
+    "sha256": "9c22e2fcc48815651089faa4ab963aa65e951f8da53a8c120c44a6e22cdd6251"
+  },
+  "line": 32,
+  "name": "interval_map",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：所有当前坐标同一个根盒，完整普通图/宿根/全部成本/炼功一起区间展开，不独立选端点凑世界。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:32:interval_map
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+46. 46
+函数AST摘要：493e38aa094a75129d7bb1729e8087c1ad0ed54d7effd55d2da4d0dce65e2c27
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 955,
+    "path": "function_io/evidence/0b98c69442d2001158c3625dbec3bb0e98b39280bb02e188d5f2d224fa4ea33b.json",
+    "sha256": "0b98c69442d2001158c3625dbec3bb0e98b39280bb02e188d5f2d224fa4ea33b"
+  },
+  "actual_return_event": {
+    "bytes": 7640,
+    "path": "function_io/evidence/6865725b3cdd6c4338536deb52934e38aa554a1affe2a1c618be2918ccb5f68d.json",
+    "sha256": "6865725b3cdd6c4338536deb52934e38aa554a1affe2a1c618be2918ccb5f68d"
+  },
+  "line": 42,
+  "name": "certified_probe",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：精确原图网格残差给每actor每origin严格根盒；原探针与原映射只作可复代证明数据。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:42:certified_probe
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+47. 47
+函数AST摘要：70dee10a9356dac5fdf7b2d9a0b2ffbe8dd17d3809739b5cde973342c5ca857c
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 44,
+    "path": "function_io/evidence/a675d308c05ada8919e7f16cf4836d4b073baf678a88b8283f7ceeaa825bbe68.json",
+    "sha256": "a675d308c05ada8919e7f16cf4836d4b073baf678a88b8283f7ceeaa825bbe68"
+  },
+  "actual_return_event": {
+    "bytes": 6,
+    "path": "function_io/evidence/2ed27c1421e6928dbe13dbfdb5c59e1045b30341fe7ebe05700006bc5ac572c0.json",
+    "sha256": "2ed27c1421e6928dbe13dbfdb5c59e1045b30341fe7ebe05700006bc5ac572c0"
+  },
+  "line": 54,
+  "name": "positive",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：lower>0证真、upper≤0证假，否则None；不把很小或跨零当0。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:54:positive
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+48. 48
+函数AST摘要：edbab3bba20c0f2c15dd6ff71a339b2f88ecff56ef80862d7cfb6ad8f9ee389d
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 126,
+    "path": "function_io/evidence/81b2256564f187644a7e71301c187a1d4db9fbedc232d44529a2baae2ccc8443.json",
+    "sha256": "81b2256564f187644a7e71301c187a1d4db9fbedc232d44529a2baae2ccc8443"
+  },
+  "actual_return_event": {
+    "bytes": 107945,
+    "path": "function_io/evidence/0b58a6a50206854bd7287085019b9834a034209b3eb5ddd5c11a741a37af9caa.json",
+    "sha256": "0b58a6a50206854bd7287085019b9834a034209b3eb5ddd5c11a741a37af9caa"
+  },
+  "line": 55,
+  "name": "solve_world",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：按所属文件规定求同一整图：原全局NRA/局部相位或最终全域唯一隐式向量；所有unknown/不确定符号保留，不能伪成失败或成功。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:55:solve_world
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+49. 49
+函数AST摘要：a011949107e4a8b1f99128d8d6bdd783eeaaf982b287245268e4439cce38d8ba
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 153,
+    "path": "function_io/evidence/11ca8c645be2bfb72481ef5247d04eb936bfcb48fd04e591b787f80eb9493ab2.json",
+    "sha256": "11ca8c645be2bfb72481ef5247d04eb936bfcb48fd04e591b787f80eb9493ab2"
+  },
+  "actual_return_event": {
+    "bytes": 5,
+    "path": "function_io/evidence/38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed.json",
+    "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+  },
+  "line": 10,
+  "name": "__init__",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：旧未舍入区间版：将lo及hi（缺省时用lo）转为精确Fraction并存入self.lo/self.hi，若lo>hi抛ArithmeticError；此文件不读ROUND_BITS、不进行网格舍入。不要将r1构造器的外舍入步骤归到此旧函数。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:10:__init__
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+50. 50
+函数AST摘要：d369198c77e2f9787f5b9c4464f9434ec05e580efd815051b5cf2e6384c41bb5
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 195,
+    "path": "function_io/evidence/a026d4ffbfb628f40a0fe33ad04b683c52a49d3c5a38d952ba519cd48d499822.json",
+    "sha256": "a026d4ffbfb628f40a0fe33ad04b683c52a49d3c5a38d952ba519cd48d499822"
+  },
+  "actual_return_event": {
+    "bytes": 151,
+    "path": "function_io/evidence/cbce34a21a1fa23b154f0703202e752336286463fdb0596afa55762e798928c7.json",
+    "sha256": "cbce34a21a1fa23b154f0703202e752336286463fdb0596afa55762e798928c7"
+  },
+  "line": 13,
+  "name": "__add__",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：区间对应端点相加，r1结果向外舍入。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:13:__add__
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+51. 51
+函数AST摘要：577b043ac828352451cbdf254a998e82065ba0177e4bd602c6f39e4628c025d1
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 317,
+    "path": "function_io/evidence/a80cac4c809f0f4cc6d48ce855c691cb3bf3538b466825b6d7a42d833188f4ca.json",
+    "sha256": "a80cac4c809f0f4cc6d48ce855c691cb3bf3538b466825b6d7a42d833188f4ca"
+  },
+  "actual_return_event": {
+    "bytes": 155,
+    "path": "function_io/evidence/4f98e47fe4a6f78ba69b0fc90b5ff535083960ac4b0c0e85d03fc264fe1a1e9a.json",
+    "sha256": "4f98e47fe4a6f78ba69b0fc90b5ff535083960ac4b0c0e85d03fc264fe1a1e9a"
+  },
+  "line": 16,
+  "name": "__sub__",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：区间下端减对方上端，上端减对方下端，r1向外舍入。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:16:__sub__
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+52. 52
+函数AST摘要：41bf23bcaee2e066f0222025ca2972d3f24339bf5768b6d003a43bb266d1935d
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 199,
+    "path": "function_io/evidence/55722ae5cfd5901b034de228300ca9cd150fca4e80848b45e9ebaddb4d6f62b6.json",
+    "sha256": "55722ae5cfd5901b034de228300ca9cd150fca4e80848b45e9ebaddb4d6f62b6"
+  },
+  "actual_return_event": {
+    "bytes": 146,
+    "path": "function_io/evidence/30f9903cdde531f03232d27431d28b17f0077a20e835ca1c4071f4f8944a113f.json",
+    "sha256": "30f9903cdde531f03232d27431d28b17f0077a20e835ca1c4071f4f8944a113f"
+  },
+  "line": 18,
+  "name": "__mul__",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：旧未舍入区间版：把乘数转为该文件的I，精确计算四个Fraction端点积并取min/max；该文件I构造器只保留精确端点和检查有序，不做网格向外舍入。结果仍是严格包含乘积的闭区间，不把独立端点当同一真实世界。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:18:__mul__
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+53. 53
+函数AST摘要：76cb7b76ce768f0c11fc7e17bce54b92b1202f4f26f2b0391b32c34fc25a698c
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 40,
+    "path": "function_io/evidence/9b71982ecafa9a075238de44d55124eeb5d0cdc9979ce37891ca89932babe1af.json",
+    "sha256": "9b71982ecafa9a075238de44d55124eeb5d0cdc9979ce37891ca89932babe1af"
+  },
+  "actual_return_event": {
+    "bytes": 34,
+    "path": "function_io/evidence/aa7cbf786c3e635238d8795951363df0fb0cb8e1ca3928e100cac476d3894a41.json",
+    "sha256": "aa7cbf786c3e635238d8795951363df0fb0cb8e1ca3928e100cac476d3894a41"
+  },
+  "line": 21,
+  "name": "record",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：输出严格有理闭区间的两端字符串，不输出中点。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:21:record
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+54. 54
+函数AST摘要：fdda310e360910dd975a7e8dd74f19c5e18068a6cd05bbe15d4229c3ecdbe8c8
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 42,
+    "path": "function_io/evidence/616eba977f87ecf483807aad746be771742a33b0e3e30d039a2f4487572cb3d4.json",
+    "sha256": "616eba977f87ecf483807aad746be771742a33b0e3e30d039a2f4487572cb3d4"
+  },
+  "actual_return_event": {
+    "bytes": 34,
+    "path": "function_io/evidence/0125b9a152b5362ce8b5f0270f7f6aeaa2ae551bd9500a06b8aa568d4a731f4f.json",
+    "sha256": "0125b9a152b5362ce8b5f0270f7f6aeaa2ae551bd9500a06b8aa568d4a731f4f"
+  },
+  "line": 67,
+  "name": "<lambda>",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：实际轻量表达式：lambda a,o:'X['+a+']['+o+']'。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:67:<lambda>:argc=2
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+55. 55
+函数AST摘要：8b9a022c8e1ab511325d10104999b462e23b86c9003e4d96532136600385510a
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 3660,
+    "path": "function_io/evidence/c86a99007a8b17d88eaf94b6f6c37abd6547d0f5ee65f87f05d0e9311b9343ca.json",
+    "sha256": "c86a99007a8b17d88eaf94b6f6c37abd6547d0f5ee65f87f05d0e9311b9343ca"
+  },
+  "actual_return_event": {
+    "bytes": 3869,
+    "path": "function_io/evidence/8c6e821b964f102ca1f8aad83a9fdb6ae21a4ac56723d257c0b006f8da0c6664.json",
+    "sha256": "8c6e821b964f102ca1f8aad83a9fdb6ae21a4ac56723d257c0b006f8da0c6664"
+  },
+  "line": 67,
+  "name": "<lambda>",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector.py"
+}
+actual_algorithm：实际轻量表达式：lambda pp:{a:{o:v.record()for o,v in ll.items()}for a,ll in pp.items()}。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：保留的未做区间外舍入版本；真实分母增长记录
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector.py:67:<lambda>:argc=1
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector.py
+source_sha256：82b3c0d9d93cba5fb9d1c16c9fc5ec880bc7d2ed27e4d9d4862c5597bea43abd
+
+56. 56
+函数AST摘要：809ee3fb923a09a5dde7e26a33580ab5ea59daa3d15e20a496c33decb5436217
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 72,
+    "path": "function_io/evidence/e242658f7b4c595fd830d7baf7c8b4568ca003875248bf04cbc6d91647bb6a54.json",
+    "sha256": "e242658f7b4c595fd830d7baf7c8b4568ca003875248bf04cbc6d91647bb6a54"
+  },
+  "actual_return_event": {
+    "bytes": 66,
+    "path": "function_io/evidence/f52de70724128b6636516b006294d038a7b68ee952c7ba29da9759d36e27de69.json",
+    "sha256": "f52de70724128b6636516b006294d038a7b68ee952c7ba29da9759d36e27de69"
+  },
+  "line": 28,
+  "name": "cast",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：把有理常量视为退化闭区间，已有I保持原对象。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:28:cast
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+57. 57
+函数AST摘要：9ff3714da95f5f40e9085321e76e3bd55a54bfafd99883f854f73d052cd08161
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 116,
+    "path": "function_io/evidence/a78ebfa2fcbfdc12b20b4215b0c0c27dea9190539984544a603c624ea5e90999.json",
+    "sha256": "a78ebfa2fcbfdc12b20b4215b0c0c27dea9190539984544a603c624ea5e90999"
+  },
+  "actual_return_event": {
+    "bytes": 131,
+    "path": "function_io/evidence/ad0e4f59a496b319175f4ff2561ae789d0bec38c4fa78c77c8b8469f7f726778.json",
+    "sha256": "ad0e4f59a496b319175f4ff2561ae789d0bec38c4fa78c77c8b8469f7f726778"
+  },
+  "line": 29,
+  "name": "maximum",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：每个区间下端取max、上端取max，形成严格外包。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:29:maximum
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+58. 58
+函数AST摘要：67e32894e23a19eab447b252fcc669c9824408a54273c66f7a4d3b623e29e2f9
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 870,
+    "path": "function_io/evidence/505fb2d9800ba440d617ab414e2ae3771df0b51426c9f33dc4b99d1b33f28211.json",
+    "sha256": "505fb2d9800ba440d617ab414e2ae3771df0b51426c9f33dc4b99d1b33f28211"
+  },
+  "actual_return_event": {
+    "bytes": 135,
+    "path": "function_io/evidence/c27d4ef6d974f58676c57ec526bcebc75aa8a5d2e62cda88d6a636b14a614464.json",
+    "sha256": "c27d4ef6d974f58676c57ec526bcebc75aa8a5d2e62cda88d6a636b14a614464"
+  },
+  "line": 31,
+  "name": "total",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：按origin求和而不是把同根载体总量重复相加。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:31:total
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+59. 59
+函数AST摘要：90124824482a70efe84e3882fe4455d79bf167df5fdb4037ac34d6d0aeaa91cd
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 2524,
+    "path": "function_io/evidence/d8fa6fb97accacf09bc69f9d45f0d4c3c6ebec3f8c75ea17c3ed65e884618f30.json",
+    "sha256": "d8fa6fb97accacf09bc69f9d45f0d4c3c6ebec3f8c75ea17c3ed65e884618f30"
+  },
+  "actual_return_event": {
+    "bytes": 864,
+    "path": "function_io/evidence/9925a51c06d1b72591ecadb1396b635be45449dc66e7429cd9f6f1f60bef4eef.json",
+    "sha256": "9925a51c06d1b72591ecadb1396b635be45449dc66e7429cd9f6f1f60bef4eef"
+  },
+  "line": 32,
+  "name": "merge",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：同源最大值合并向量；正包开关不删除角色或负功能。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:32:merge
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+60. 60
+函数AST摘要：3547579be06fc5fda06bc7c5748392b61f534efa2bf1a72d3ef6b56c48bebd97
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 545,
+    "path": "function_io/evidence/189b2123a44b599be57ceda59dd9e42543f59105f6bdeff0925c0d61ac99b233.json",
+    "sha256": "189b2123a44b599be57ceda59dd9e42543f59105f6bdeff0925c0d61ac99b233"
+  },
+  "actual_return_event": {
+    "bytes": 752,
+    "path": "function_io/evidence/11b8e5bcad010233e6a66efe11466b5b2eeca9664440c907006c939ed21855be.json",
+    "sha256": "11b8e5bcad010233e6a66efe11466b5b2eeca9664440c907006c939ed21855be"
+  },
+  "line": 33,
+  "name": "stock_control",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：控制映射对目标单调、对预算反单调；用目标下/预算上与目标上/预算下取得保守现量包围，含目标零。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:33:stock_control
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+61. 61
+函数AST摘要：3ef43c27d802f8a826900c2f6a05e6eb627895fbce0009013cba85a30964a685
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 7711,
+    "path": "function_io/evidence/0a9545fd02cf2bbf799efd5a8a61ca0962b3c8cd212c14de5ccf8e34af76c76a.json",
+    "sha256": "0a9545fd02cf2bbf799efd5a8a61ca0962b3c8cd212c14de5ccf8e34af76c76a"
+  },
+  "actual_return_event": {
+    "bytes": 28181,
+    "path": "function_io/evidence/ba629888f98b954b2767b6efa042b37ff374c18cb8c247c4da00f7d16bb078ed.json",
+    "sha256": "ba629888f98b954b2767b6efa042b37ff374c18cb8c247c4da00f7d16bb078ed"
+  },
+  "line": 38,
+  "name": "interval_map",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：所有当前坐标同一个根盒，完整普通图/宿根/全部成本/炼功一起区间展开，不独立选端点凑世界。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:38:interval_map
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+62. 62
+函数AST摘要：ad079761ca2b56b89f20e7a9261bcf760c4feab0d5ad50b4015e818e4464c8b6
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 955,
+    "path": "function_io/evidence/0b98c69442d2001158c3625dbec3bb0e98b39280bb02e188d5f2d224fa4ea33b.json",
+    "sha256": "0b98c69442d2001158c3625dbec3bb0e98b39280bb02e188d5f2d224fa4ea33b"
+  },
+  "actual_return_event": {
+    "bytes": 10558,
+    "path": "function_io/evidence/3a04725c9f94f9ea84821fc338fe40fd8813f4364b04181df64da5da09d2ad3b.json",
+    "sha256": "3a04725c9f94f9ea84821fc338fe40fd8813f4364b04181df64da5da09d2ad3b"
+  },
+  "line": 48,
+  "name": "certified_probe",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：精确原图网格残差给每actor每origin严格根盒；原探针与原映射只作可复代证明数据。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:48:certified_probe
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+63. 63
+函数AST摘要：70dee10a9356dac5fdf7b2d9a0b2ffbe8dd17d3809739b5cde973342c5ca857c
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 44,
+    "path": "function_io/evidence/a675d308c05ada8919e7f16cf4836d4b073baf678a88b8283f7ceeaa825bbe68.json",
+    "sha256": "a675d308c05ada8919e7f16cf4836d4b073baf678a88b8283f7ceeaa825bbe68"
+  },
+  "actual_return_event": {
+    "bytes": 6,
+    "path": "function_io/evidence/2ed27c1421e6928dbe13dbfdb5c59e1045b30341fe7ebe05700006bc5ac572c0.json",
+    "sha256": "2ed27c1421e6928dbe13dbfdb5c59e1045b30341fe7ebe05700006bc5ac572c0"
+  },
+  "line": 60,
+  "name": "positive",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：lower>0证真、upper≤0证假，否则None；不把很小或跨零当0。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:60:positive
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+64. 64
+函数AST摘要：b458de81245608e4eeb513e824f94988d10ee7b57ff6ad226a8c392e100c23ba
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 126,
+    "path": "function_io/evidence/81b2256564f187644a7e71301c187a1d4db9fbedc232d44529a2baae2ccc8443.json",
+    "sha256": "81b2256564f187644a7e71301c187a1d4db9fbedc232d44529a2baae2ccc8443"
+  },
+  "actual_return_event": {
+    "bytes": 112272,
+    "path": "function_io/evidence/bc9e5d153c094f974bb182f30e1325c17099af489fac9976a4dbdb5bf8886532.json",
+    "sha256": "bc9e5d153c094f974bb182f30e1325c17099af489fac9976a4dbdb5bf8886532"
+  },
+  "line": 61,
+  "name": "solve_world",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：按所属文件规定求同一整图：原全局NRA/局部相位或最终全域唯一隐式向量；所有unknown/不确定符号保留，不能伪成失败或成功。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:61:solve_world
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+65. 65
+函数AST摘要：6be180bc21ac7dc4eb37314d5345c7801fb24a01b9cbce8a331de347eb14e986
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 153,
+    "path": "function_io/evidence/11ca8c645be2bfb72481ef5247d04eb936bfcb48fd04e591b787f80eb9493ab2.json",
+    "sha256": "11ca8c645be2bfb72481ef5247d04eb936bfcb48fd04e591b787f80eb9493ab2"
+  },
+  "actual_return_event": {
+    "bytes": 5,
+    "path": "function_io/evidence/38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed.json",
+    "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+  },
+  "line": 11,
+  "name": "__init__",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：将lo及hi（缺省时用lo）先转为Fraction，原输入倒置立即抛ArithmeticError；再按模块全局ROUND_BITS规定的2**ROUND_BITS格，下端floor、上端ceil，核有序后存入self.lo/self.hi。ROUND_BITS初值100；solve_world在正常求解前把它设置为本轮bits+24，构造器本身没有bits参数。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:11:__init__
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+66. 66
+函数AST摘要：d369198c77e2f9787f5b9c4464f9434ec05e580efd815051b5cf2e6384c41bb5
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 175,
+    "path": "function_io/evidence/eca5ddef8e3e58c66afa79dae4e6c750af1ca335dd4f7673fb4aebfc1d0bf985.json",
+    "sha256": "eca5ddef8e3e58c66afa79dae4e6c750af1ca335dd4f7673fb4aebfc1d0bf985"
+  },
+  "actual_return_event": {
+    "bytes": 131,
+    "path": "function_io/evidence/ad0e4f59a496b319175f4ff2561ae789d0bec38c4fa78c77c8b8469f7f726778.json",
+    "sha256": "ad0e4f59a496b319175f4ff2561ae789d0bec38c4fa78c77c8b8469f7f726778"
+  },
+  "line": 19,
+  "name": "__add__",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：区间对应端点相加，r1结果向外舍入。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:19:__add__
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+67. 67
+函数AST摘要：577b043ac828352451cbdf254a998e82065ba0177e4bd602c6f39e4628c025d1
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 281,
+    "path": "function_io/evidence/214686f8d49532055c2360e15f0f6d3034a6f2ab6c8c83ada626d6cc28540c5f.json",
+    "sha256": "214686f8d49532055c2360e15f0f6d3034a6f2ab6c8c83ada626d6cc28540c5f"
+  },
+  "actual_return_event": {
+    "bytes": 139,
+    "path": "function_io/evidence/6859a72bb66e5dc826f89bc966c73b9b62008f09a47dd685dd3c79d19b3d7e60.json",
+    "sha256": "6859a72bb66e5dc826f89bc966c73b9b62008f09a47dd685dd3c79d19b3d7e60"
+  },
+  "line": 22,
+  "name": "__sub__",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：区间下端减对方上端，上端减对方下端，r1向外舍入。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:22:__sub__
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+68. 68
+函数AST摘要：41bf23bcaee2e066f0222025ca2972d3f24339bf5768b6d003a43bb266d1935d
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 186,
+    "path": "function_io/evidence/bdd9270cc56626ed84d856bd66738918695151100183a1c82ff153f5b3dd65ea.json",
+    "sha256": "bdd9270cc56626ed84d856bd66738918695151100183a1c82ff153f5b3dd65ea"
+  },
+  "actual_return_event": {
+    "bytes": 131,
+    "path": "function_io/evidence/b1135f38d1ca9c87de1cb3c2d38f6a0cf6186b5ae33d23daf7e504d50b408459.json",
+    "sha256": "b1135f38d1ca9c87de1cb3c2d38f6a0cf6186b5ae33d23daf7e504d50b408459"
+  },
+  "line": 24,
+  "name": "__mul__",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：四端点积取min/max，再由区间构造向外舍入；不把不同区间端点作真实独立世界。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:24:__mul__
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+69. 69
+函数AST摘要：76cb7b76ce768f0c11fc7e17bce54b92b1202f4f26f2b0391b32c34fc25a698c
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 40,
+    "path": "function_io/evidence/9b71982ecafa9a075238de44d55124eeb5d0cdc9979ce37891ca89932babe1af.json",
+    "sha256": "9b71982ecafa9a075238de44d55124eeb5d0cdc9979ce37891ca89932babe1af"
+  },
+  "actual_return_event": {
+    "bytes": 34,
+    "path": "function_io/evidence/aa7cbf786c3e635238d8795951363df0fb0cb8e1ca3928e100cac476d3894a41.json",
+    "sha256": "aa7cbf786c3e635238d8795951363df0fb0cb8e1ca3928e100cac476d3894a41"
+  },
+  "line": 27,
+  "name": "record",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：输出严格有理闭区间的两端字符串，不输出中点。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:27:record
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+70. 70
+函数AST摘要：fdda310e360910dd975a7e8dd74f19c5e18068a6cd05bbe15d4229c3ecdbe8c8
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 42,
+    "path": "function_io/evidence/616eba977f87ecf483807aad746be771742a33b0e3e30d039a2f4487572cb3d4.json",
+    "sha256": "616eba977f87ecf483807aad746be771742a33b0e3e30d039a2f4487572cb3d4"
+  },
+  "actual_return_event": {
+    "bytes": 34,
+    "path": "function_io/evidence/0125b9a152b5362ce8b5f0270f7f6aeaa2ae551bd9500a06b8aa568d4a731f4f.json",
+    "sha256": "0125b9a152b5362ce8b5f0270f7f6aeaa2ae551bd9500a06b8aa568d4a731f4f"
+  },
+  "line": 75,
+  "name": "<lambda>",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：实际轻量表达式：lambda a,o:'X['+a+']['+o+']'。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:75:<lambda>:argc=2
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+71. 71
+函数AST摘要：8b9a022c8e1ab511325d10104999b462e23b86c9003e4d96532136600385510a
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 3853,
+    "path": "function_io/evidence/4a4e04560685d113a052580b990c412675b75c5c1236fe4a28b49a6357e5d845.json",
+    "sha256": "4a4e04560685d113a052580b990c412675b75c5c1236fe4a28b49a6357e5d845"
+  },
+  "actual_return_event": {
+    "bytes": 4062,
+    "path": "function_io/evidence/a59caba196f64913c46ac62b9698cb48aa4f523c795f491440dd12461fdd6eee.json",
+    "sha256": "a59caba196f64913c46ac62b9698cb48aa4f523c795f491440dd12461fdd6eee"
+  },
+  "line": 75,
+  "name": "<lambda>",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：实际轻量表达式：lambda pp:{a:{o:v.record()for o,v in ll.items()}for a,ll in pp.items()}。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:75:<lambda>:argc=1
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+72. 72
+函数AST摘要：3469a797e5816017c02ec6225600a37a570ae1fb5dfc54b4af20a49b23c6a653
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 44,
+    "path": "function_io/evidence/1ce9d11511dd4552200c5255a2e3969bdd83a75c3962fa929e096c964de396c5.json",
+    "sha256": "1ce9d11511dd4552200c5255a2e3969bdd83a75c3962fa929e096c964de396c5"
+  },
+  "actual_return_event": {
+    "bytes": 38,
+    "path": "function_io/evidence/5d502edb7a052f993755751c38350a12d4eea0ea0aa352c8ba4996b5aa32cf9a.json",
+    "sha256": "5d502edb7a052f993755751c38350a12d4eea0ea0aa352c8ba4996b5aa32cf9a"
+  },
+  "line": 15,
+  "name": "<lambda>",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：实际轻量表达式：lambda v:F((v*den).numerator//(v*den).denominator,den)。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:15:<lambda>
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+73. 73
+函数AST摘要：56d6d956f1a7a95c3cc2ee6fc56a1231bcc36f3dbc8dccbe795efc964bee8d57
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 77,
+    "path": "function_io/evidence/a122a3893b0bd496b5b6d7c110aa28adfa23c60d57aa0b8f70bb09ddde7683b5.json",
+    "sha256": "a122a3893b0bd496b5b6d7c110aa28adfa23c60d57aa0b8f70bb09ddde7683b5"
+  },
+  "actual_return_event": {
+    "bytes": 68,
+    "path": "function_io/evidence/48bff753ab78ffbece82919fca37d68e3d9eb9cd7f20e0089a8303031a1c2027.json",
+    "sha256": "48bff753ab78ffbece82919fca37d68e3d9eb9cd7f20e0089a8303031a1c2027"
+  },
+  "line": 16,
+  "name": "<lambda>",
+  "scenario": "fresh_four_same_line_lambdas_disambiguated",
+  "source": "qianlong_certified_vector_r1.py"
+}
+actual_algorithm：实际轻量表达式：lambda v:-flo(-v)。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：最终唯一隐式向量与逐操作严格向外舍入区间
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：qianlong_certified_vector_r1.py:16:<lambda>
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：qianlong_certified_vector_r1.py
+source_sha256：928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679
+
+74. 74
+函数AST摘要：b4400c01c8adfbfb608ff8934985a3b3055e80669df8bb31ec1e8b57c093ab26
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 92,
+    "path": "function_io/evidence/16d8ad5bc75065a41f03b77aaa0bdfc823b024df49c3ce377952d6bf2946f44f.json",
+    "sha256": "16d8ad5bc75065a41f03b77aaa0bdfc823b024df49c3ce377952d6bf2946f44f"
+  },
+  "actual_return_event": {
+    "bytes": 34,
+    "path": "function_io/evidence/aa7cbf786c3e635238d8795951363df0fb0cb8e1ca3928e100cac476d3894a41.json",
+    "sha256": "aa7cbf786c3e635238d8795951363df0fb0cb8e1ca3928e100cac476d3894a41"
+  },
+  "line": 6,
+  "name": "scaled_interval",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "complete_task_port_metadata.py"
+}
+actual_algorithm：已经计算的现量区间乘非负原gain，精确分数结果只用于显式账行。
+applicability：仅补已计算的7个宿根/炼功/成本端口明账
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：complete_task_port_metadata.py:6:scaled_interval
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：complete_task_port_metadata.py
+source_sha256：0d82b7be634dc8540a19c5f69da3264f97d99984de45e0611ffb7f5f77a9c927
+
+75. 75
+函数AST摘要：69eb3cf0ad26094413b5ef0ccbdc629140830939df99d6b643d269d94b4c2a18
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 112519,
+    "path": "function_io/evidence/277b5b49facf60113fba29b3dc970ff59ee6e214b1e93bf1b77387bb82562fc2.json",
+    "sha256": "277b5b49facf60113fba29b3dc970ff59ee6e214b1e93bf1b77387bb82562fc2"
+  },
+  "actual_return_event": {
+    "bytes": 125704,
+    "path": "function_io/evidence/911ad208cd69e6d2003f2395987ae75a1af3700e614290ad5335a343dc1231f4.json",
+    "sha256": "911ad208cd69e6d2003f2395987ae75a1af3700e614290ad5335a343dc1231f4"
+  },
+  "line": 7,
+  "name": "complete",
+  "scenario": "all256_ordinary_full_live_runtime",
+  "source": "complete_task_port_metadata.py"
+}
+actual_algorithm：给普通边总表补3炼功+3角色成本+1宿根支持，所有表达式共用原坐标；无新增物理或阈值。
+applicability：仅补已计算的7个宿根/炼功/成本端口明账
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：precise_reuse_identical_function_AST_and_source_segment
+function_id：complete_task_port_metadata.py:7:complete
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：complete_task_port_metadata.py
+source_sha256：0d82b7be634dc8540a19c5f69da3264f97d99984de45e0611ffb7f5f77a9c927
+
+76. 76
+函数AST摘要：edb76ff82768d9220f56319539c6e871a18cd476b049250452b28bccff8d558f
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 3,
+    "path": "function_io/evidence/ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356.json",
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "actual_return_event": {
+    "bytes": 248126,
+    "path": "function_io/evidence/16a849a5cc1ef372d3c8e1d2cd68aaf95ceae87b5ab73a0801a4378546f0e0b4.json",
+    "sha256": "16a849a5cc1ef372d3c8e1d2cd68aaf95ceae87b5ab73a0801a4378546f0e0b4"
+  },
+  "line": 8,
+  "name": "evaluate",
+  "scenario": "separate_source_path_diagnostic_in_fresh_bound_process",
+  "source": "mechanism_H_diagnostic.py"
+}
+actual_algorithm：先核独立诊断题卡SHA，再消费已核同512布尔表，完整稳健子集与原AUX验证三单火OR；原三目标H=None不改。
+applicability：不同问题G1∧G2诊断，消费同512，不改主H或新建物理
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：mechanism_H_diagnostic.py:8:evaluate
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：mechanism_H_diagnostic.py
+source_sha256：e1771481a5f05fc0d76763c7f9100d240be8cb86c3d3d475c063f006707f2963
+
+77. 77
+函数AST摘要：fd44954fac1c834d91f8b9fcce372dffd2e4fb705842a629fb176e733eba8ae8
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 3,
+    "path": "function_io/evidence/ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356.json",
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "actual_return_event": {
+    "bytes": 5,
+    "path": "function_io/evidence/38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed.json",
+    "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+  },
+  "line": 25,
+  "name": "main",
+  "scenario": "separate_source_path_diagnostic_in_fresh_bound_process",
+  "source": "mechanism_H_diagnostic.py"
+}
+actual_algorithm：独立进程运行不同问题的诊断，将完整512表/原AUX/预期绑定写为研究收据；不调用新物理求解器。
+applicability：不同问题G1∧G2诊断，消费同512，不改主H或新建物理
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：mechanism_H_diagnostic.py:25:main
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：mechanism_H_diagnostic.py
+source_sha256：e1771481a5f05fc0d76763c7f9100d240be8cb86c3d3d475c063f006707f2963
+
+78. 78
+函数AST摘要：fee535f114985cc02adccf9b86f348801938dce68e4e820e088395746c0778c5
+actual_IO_evidence：{
+  "Python_return_event_for_deliberate_raise_explained_by_scenario": false,
+  "actual_input": {
+    "bytes": 102,
+    "path": "function_io/evidence/7ba3419d5bc581aaed400d3b52cf542733b3d6a0eb5e3e283a6e5a99f10144e6.json",
+    "sha256": "7ba3419d5bc581aaed400d3b52cf542733b3d6a0eb5e3e283a6e5a99f10144e6"
+  },
+  "actual_return_event": {
+    "bytes": 92,
+    "path": "function_io/evidence/8ac6b4aa4e9be33ec1a062018d69608f9c5649e177946c0b94f1f5356853031c.json",
+    "sha256": "8ac6b4aa4e9be33ec1a062018d69608f9c5649e177946c0b94f1f5356853031c"
+  },
+  "line": 19,
+  "name": "<lambda>",
+  "scenario": "separate_source_path_diagnostic_in_fresh_bound_process",
+  "source": "mechanism_H_diagnostic.py"
+}
+actual_algorithm：实际轻量表达式：lambda s:tuple(sorted(s))。同一行不同lambda按真实参数个数分别留IO，不复用错误别名。
+applicability：不同问题G1∧G2诊断，消费同512，不改主H或新建物理
+boundary：初始unknown、倒置区间、跨零、坏源、深JSON、不同源均按各已存真实测试，不回改oracle
+evidence_mode：fresh_final0.1.3_actual_call_return
+function_id：mechanism_H_diagnostic.py:19:<lambda>
+parameters_or_authority：源题卡/完整图/全域证明保持；数额是工程定义，不称原典给值
+source：mechanism_H_diagnostic.py
+source_sha256：e1771481a5f05fc0d76763c7f9100d240be8cb86c3d3d475c063f006707f2963
+
+原件：work/rev325_Qianlong_directed_clash/source_rule_cards_ten_fields.json
+SHA256：295705f48806799baf61e700d409ba31779c712d8f2309bd3c82c802dfd6073b
+
+1. QL01
+actor_and_roles：[
+  "v月丁官",
+  "h午丁官",
+  "v时丙杀",
+  "v日庚"
+]
+antecedent：庚秋金的本例具体结构；非所有金火一律吉。
+counterexample_and_boundary：Ren97–98用火时壬癸紧贴、是否有甲引化会改变；削火也减炼。
+算法标识：QL01
+original_locator：{
+  "PDF_pages": [
+    56,
+    73,
+    97,
+    98,
+    204
+  ],
+  "images": [
+    {
+      "bytes": 86786,
+      "path": "pages/Ren-056.png",
+      "sha256": "f7c470cabd20088624c804817f6778b80b4561e4cec605fceb372748b7d2a8f8"
+    },
+    {
+      "bytes": 111421,
+      "path": "pages/Ren-073.png",
+      "sha256": "1868bd78df5a622299069683a91fdf6a143da1305c443626ca26be26229227d5"
+    },
+    {
+      "bytes": 100300,
+      "path": "pages/Ren-097.png",
+      "sha256": "ab72b83a4a0bcb51ad78c949b6e33adfd0e8393f910b0867dff173c400bee24c"
+    },
+    {
+      "bytes": 97310,
+      "path": "pages/Ren-098.png",
+      "sha256": "8870a5deaf28c5ea30e3d8751e7a38fdf0fb4e67079a0e4c9a2007d0bc65bace"
+    },
+    {
+      "bytes": 95402,
+      "path": "pages/Ren-204.png",
+      "sha256": "7993f15bb160c8ccb05eba8f22f50065c4e67377455b40048711ffa58e5ce8eb"
+    }
+  ]
+}
+quantitative_engineering：炼端口沿原control×reach标示正量，G1只问>0；数额不是任书公式。
+signed_graph_mapping：同一当前火量既有炼任务正端口，又保克辛/生印/潜压；不加假印生日。透丙透丁直接配炼有源，藏午丁可单独炼庚为跨章工程推论，不能冒原文指定第三用神。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：透干机制直接有源；藏午丁独立正炼是假说；足量炼成与贵级未认证。
+text_rule：本例丙丁同配火炼秋金；丁对庚的炼功有具名说明，丙亦可在有情条件下奏炼功。
+
+2. QL02
+actor_and_roles：[
+  "h时癸伤官",
+  "h日丁官",
+  "月酉辛宿根"
+]
+antecedent：本例原局明冲；得令得势的反冲条件必须另论。
+counterexample_and_boundary：午旺有木而无金可反冲子；不整支删除午己；不把所有冲都标好。
+算法标识：QL02
+original_locator：{
+  "PDF_pages": [
+    56,
+    89,
+    90
+  ],
+  "images": [
+    {
+      "bytes": 86786,
+      "path": "pages/Ren-056.png",
+      "sha256": "f7c470cabd20088624c804817f6778b80b4561e4cec605fceb372748b7d2a8f8"
+    },
+    {
+      "bytes": 104004,
+      "path": "pages/Ren-089.png",
+      "sha256": "8cd95f50b7352881b2fef53b3439bf2236ff7f602caa5a3582010491de4a4a7f"
+    },
+    {
+      "bytes": 103487,
+      "path": "pages/Ren-090.png",
+      "sha256": "dbab2b790b9ed020f6e99f5b60b2647cc268c5803fff1f3979830ef383217300"
+    }
+  ]
+}
+quantitative_engineering：control1/2、隐藏发送1/2、距离工程系数不称原文有数。
+signed_graph_mapping：癸控制同一火现量，火的全部出边一起减少；月辛受控后的自身月金origin用作日主实际宿根。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：本例进入正式完整图；并非永久外域。
+text_rule：子午冲在本例为子中癸水克午中丁火，使午火不破酉金。
+
+3. QL03
+actor_and_roles：[
+  "h月辛",
+  "v年辛同根载体",
+  "h年乙财",
+  "全部丙丁"
+]
+antecedent：本例酉金与卯木方向；不同全柱可反冲。
+counterexample_and_boundary：卯旺提纲有火无土可反冲酉；在年辛正包开启的条件下，月辛可选正包被较强同源端口支配；宿根本体仍保留。
+算法标识：QL03
+original_locator：{
+  "PDF_pages": [
+    56,
+    90
+  ],
+  "images": [
+    {
+      "bytes": 86786,
+      "path": "pages/Ren-056.png",
+      "sha256": "f7c470cabd20088624c804817f6778b80b4561e4cec605fceb372748b7d2a8f8"
+    },
+    {
+      "bytes": 103487,
+      "path": "pages/Ren-090.png",
+      "sha256": "dbab2b790b9ed020f6e99f5b60b2647cc268c5803fff1f3979830ef383217300"
+    }
+  ]
+}
+quantitative_engineering：同源max与原reach为工程法；同根多载体不先并位。
+signed_graph_mapping：同源月金origin经辛载体制乙，乙再生火、坏印，所有反馈一并重算；同一控制兼护金与夺财只算一次。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：方向有直接源；量级与载体等价性分别检验。
+text_rule：卯酉冲为酉中辛金克卯中乙木，减卯木助午火。
+
+4. QL04
+actor_and_roles：[
+  "庚",
+  "月辛宿根",
+  "辛助身",
+  "己印"
+]
+antecedent：不得由酉令或有一个ROOT标签即判旺弱或能承所有负担。
+counterexample_and_boundary：非旺不自动等于弱/从；潜压不等于已实际伤身。
+算法标识：QL04
+original_locator：{
+  "PDF_pages": [
+    56,
+    94,
+    96,
+    99
+  ],
+  "images": [
+    {
+      "bytes": 86786,
+      "path": "pages/Ren-056.png",
+      "sha256": "f7c470cabd20088624c804817f6778b80b4561e4cec605fceb372748b7d2a8f8"
+    },
+    {
+      "bytes": 101381,
+      "path": "pages/Ren-094.png",
+      "sha256": "81f2dec1cebbcc5584a1633a7abefa8c91bfad2cc69e091eab7ad7f4361e396c"
+    },
+    {
+      "bytes": 90957,
+      "path": "pages/Ren-096.png",
+      "sha256": "9ec539c3bc2c19f74174cd2e414623c99f2eab9220f7612594f1c78e7f73c243"
+    },
+    {
+      "bytes": 83967,
+      "path": "pages/Ren-099.png",
+      "sha256": "9d3513b9acc79724a134ba7cf639181ae5862d494ca11fe7db53aca198a4c917"
+    }
+  ]
+}
+quantitative_engineering：月根资格21/4来自工程7/2×3/2，不是任氏实测力。
+signed_graph_mapping：不可选出生根资格是日主基础；其有效支持随宿根载体控制率变化；可选额外辛生日另包。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：根资格/现量/承载三层分账。
+text_rule：本例虽秋令不作旺论；根受制、冲拔与全柱支持要区分。
+
+5. QL05
+actor_and_roles：[
+  "丁酉",
+  "丙午/丁午",
+  "庚酉",
+  "己午"
+]
+antecedent：独立Ren比较口径；不改主本ROOT02。
+counterexample_and_boundary：不把阴长生无资格当现实绝无功能；不以土火宫未经证表作新正例。
+算法标识：QL05
+original_locator：{
+  "PDF_pages": [
+    92,
+    93,
+    94
+  ],
+  "images": [
+    {
+      "bytes": 103408,
+      "path": "pages/Ren-092.png",
+      "sha256": "c340755998254122a77804a2f305981a03ffad7edfca245382aa226439671ed6"
+    },
+    {
+      "bytes": 110238,
+      "path": "pages/Ren-093.png",
+      "sha256": "34d33f44f3ef7361521da1d276b9cf0353ee5fe2bb9c80ac32709d6304ea7ac2"
+    },
+    {
+      "bytes": 101381,
+      "path": "pages/Ren-094.png",
+      "sha256": "81f2dec1cebbcc5584a1633a7abefa8c91bfad2cc69e091eab7ad7f4361e396c"
+    }
+  ]
+}
+quantitative_engineering：7/2、5/2、3/2及月令倍率均明确工程移植。
+signed_graph_mapping：丁酉不取Primary独立阴长生；土不继承未证火宫总表；己午仅实际余气5/2。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：新口径与主本、旧315工程土表分开。
+text_rule：任氏只取四长生，阴阳同生死，并察实际藏印等功能。
+
+6. QL06
+actor_and_roles：[
+  "h日己正印",
+  "庚与辛",
+  "癸"
+]
+antecedent：小注与正文层次分开，跨章推论须显列。
+counterexample_and_boundary：把无土读作明透/本气层是推论；火少火晦未给量门，不能凭有己自动激活或宣其现实为零。
+算法标识：QL06
+original_locator：{
+  "PDF_pages": [
+    56,
+    72,
+    74,
+    94
+  ],
+  "images": [
+    {
+      "bytes": 86786,
+      "path": "pages/Ren-056.png",
+      "sha256": "f7c470cabd20088624c804817f6778b80b4561e4cec605fceb372748b7d2a8f8"
+    },
+    {
+      "bytes": 105028,
+      "path": "pages/Ren-072.png",
+      "sha256": "7cba799b93a4e0a7f7b76b4e5f20babb5d13bce33f0e63ff27ae3213d58235df"
+    },
+    {
+      "bytes": 103258,
+      "path": "pages/Ren-074.png",
+      "sha256": "8721797aff0366b06539429719bc55ac8d5d16d79df454cedbed07285a64160e"
+    },
+    {
+      "bytes": 101381,
+      "path": "pages/Ren-094.png",
+      "sha256": "81f2dec1cebbcc5584a1633a7abefa8c91bfad2cc69e091eab7ad7f4361e396c"
+    }
+  ]
+}
+quantitative_engineering：己午直接余气5/2；普通g/c不变。
+signed_graph_mapping：具名跨章工程假说允许己普通接火/生日/生辛/制水全部功能；不默认特殊晦丁。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：有限解释须显式finite_context_assumption；经典完整作用未由本模型穷尽。
+text_rule：本版庚午小注官印与正文无土并存；午藏己事实不能删除；藏印实际生日可论。
+
+7. QL07
+actor_and_roles：[
+  "丙杀",
+  "丁官",
+  "辛劫"
+]
+antecedent：本例同配炼且共有午源；是否取清须具体结构。
+counterexample_and_boundary：Ren213邻位丙辛合去杀同时去劫；216近似四柱湿辰泄火生金，不能冒为本例。
+算法标识：QL07
+original_locator：{
+  "PDF_pages": [
+    201,
+    202,
+    203,
+    204,
+    213,
+    216,
+    217,
+    218
+  ],
+  "images": [
+    {
+      "bytes": 106225,
+      "path": "pages/Ren-201.png",
+      "sha256": "242dc59ac58f229a047fdaa3da9cb3a9421c2dc72777f1a2457f826767537ce1"
+    },
+    {
+      "bytes": 111234,
+      "path": "pages/Ren-202.png",
+      "sha256": "0901305d87a1f697d3669c6b118d80a83be8840a3064d2e0e3dc2dcd8a7e117f"
+    },
+    {
+      "bytes": 99603,
+      "path": "pages/Ren-203.png",
+      "sha256": "0ef1c7385fa426d4c46e6a35ddbb4f8231b390d3e15f32f36f185fd7b2e0586c"
+    },
+    {
+      "bytes": 95402,
+      "path": "pages/Ren-204.png",
+      "sha256": "7993f15bb160c8ccb05eba8f22f50065c4e67377455b40048711ffa58e5ce8eb"
+    },
+    {
+      "bytes": 73958,
+      "path": "pages/Ren-213.png",
+      "sha256": "1fde0746508d18a05669a4b003ec5f9424f782e17f7f3132259acbed3a80972a"
+    },
+    {
+      "bytes": 97266,
+      "path": "pages/Ren-216.png",
+      "sha256": "4cdd1d72bc0b8f5b3b200ea0a8a59d30628ae6d719d0b6b7f3d0713318e2ee34"
+    },
+    {
+      "bytes": 85821,
+      "path": "pages/Ren-217.png",
+      "sha256": "30fa2d28bcad3664d3c91751bf0724743770b9c763706c11308b80f6e2407ab6"
+    },
+    {
+      "bytes": 81320,
+      "path": "pages/Ren-218.png",
+      "sha256": "2929c1d429238315bd95517aac36e50b5ac5fe17b4fa2feb33857021b7a5c356"
+    }
+  ]
+}
+quantitative_engineering：来源说明不转成贵级数额。
+signed_graph_mapping：丙丁都保全部作用；无强制去丙留丁字段。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：直接原则与本例共同作用推论分层。
+text_rule：官杀同流共源可混，各立门户不可混；不一律见二火去一。
+
+8. QL08
+actor_and_roles：[
+  "v年辛",
+  "v时丙"
+]
+antecedent：年辛时丙相隔丁庚，不能直接挪用邻合例。
+counterexample_and_boundary：两套各全256，不挑成功支；H相同亦不等于远合定量唯一。
+算法标识：QL08
+original_locator：{
+  "PDF_pages": [
+    109,
+    110,
+    213,
+    214
+  ],
+  "images": [
+    {
+      "bytes": 99514,
+      "path": "pages/Ren-109.png",
+      "sha256": "2d7b0b311ffc2ddbbf159d23badfda947dbedf59c5b7add2d5b75f6a12689404"
+    },
+    {
+      "bytes": 89624,
+      "path": "pages/Ren-110.png",
+      "sha256": "14083145b57628380103a7664f5170ffa98efab30f74413948592f688d6c5037"
+    },
+    {
+      "bytes": 73958,
+      "path": "pages/Ren-213.png",
+      "sha256": "1fde0746508d18a05669a4b003ec5f9424f782e17f7f3132259acbed3a80972a"
+    },
+    {
+      "bytes": 78690,
+      "path": "pages/Ren-214.png",
+      "sha256": "c5f7c84735e8e8bd9fdb547b85022eb364f7fff02fb78e8a5813c4360183c5ce"
+    }
+  ]
+}
+quantitative_engineering：反向1/4是工程敏感性，不称任本例给定；无变水。
+signed_graph_mapping：事前两套：无额外绊；按原control×far双向绊。丙克辛原有预算与合绊同源max不重复；反向绊一并减辛/丙全部出边。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：源强度仍有明确不确定；不是失败fallback。
+text_rule：合须随局考察合化/不化及两端作用，形式不等于100%合去。
+
+9. QL09
+actor_and_roles：[
+  "子卯",
+  "子酉",
+  "卯午"
+]
+antecedent：限定该Ren文本口径，不能泛抹其他学校。
+counterexample_and_boundary：其他方法须另有源，不混用主本关系任务。
+算法标识：QL09
+original_locator：{
+  "PDF_pages": [
+    83,
+    84
+  ],
+  "images": [
+    {
+      "bytes": 107556,
+      "path": "pages/Ren-083.png",
+      "sha256": "4bddc9cf5bb46a2abb7a5a8033dba35f2644eddf211a477b3bd152973a9c03b3"
+    },
+    {
+      "bytes": 79513,
+      "path": "pages/Ren-084.png",
+      "sha256": "fb5e49e802eab8809aa2b6842c7e60b40e6ea016b2ace3e2e891af0ed563798f"
+    }
+  ]
+}
+quantitative_engineering：没有新增刑破折扣参数。
+signed_graph_mapping：保形式关系名与普通水木火金作用，不额外添加刑破伤害/veto。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：此处不用形式名一票否决本例。
+text_rule：任论刑破等名应归生克细察，不独立按刑名断伤。
+
+10. QL10
+actor_and_roles：[
+  "九载体各自位置",
+  "官印财食"
+]
+antecedent：不从某字存在或只同五行就宣任务有效。
+counterexample_and_boundary：远壬不能制紧贴午火、官近印远等具名例不能因系数>0就宣古典任务成立。
+算法标识：QL10
+original_locator：{
+  "PDF_pages": [
+    96,
+    106,
+    107,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241
+  ],
+  "images": [
+    {
+      "bytes": 90957,
+      "path": "pages/Ren-096.png",
+      "sha256": "9ec539c3bc2c19f74174cd2e414623c99f2eab9220f7612594f1c78e7f73c243"
+    },
+    {
+      "bytes": 92193,
+      "path": "pages/Ren-106.png",
+      "sha256": "de5ce6f773546bd3500367ff5b7f02258052c4e562b9533242dfa1c69454ac17"
+    },
+    {
+      "bytes": 93061,
+      "path": "pages/Ren-107.png",
+      "sha256": "26eff7ffa6b6da9274bb1f721d09588cde135ab563f2c6c156714b82c9bb39b7"
+    },
+    {
+      "bytes": 86193,
+      "path": "pages/Ren-235.png",
+      "sha256": "f5b8cceed7857af89ed7038341204e7336189da6338518d0d253d351262a436f"
+    },
+    {
+      "bytes": 110270,
+      "path": "pages/Ren-236.png",
+      "sha256": "537eddd83c1cd285222a7ff32ea0201b99a75b3714dc5536567b714939bd83e6"
+    },
+    {
+      "bytes": 113443,
+      "path": "pages/Ren-237.png",
+      "sha256": "4e39fdeb314bf6e760e83a94e59d8944cbf6578f8e08f3ac2a482dee426138f9"
+    },
+    {
+      "bytes": 90383,
+      "path": "pages/Ren-238.png",
+      "sha256": "2a5b704e13d4550e64dfb28f77d100c3cfbbf26973c0cb8e8376136bf6e073b5"
+    },
+    {
+      "bytes": 98807,
+      "path": "pages/Ren-239.png",
+      "sha256": "82ea93ecddb0966c627b2c6648b0f57cafcbf00a5d747e5d9c327245f364aa89"
+    },
+    {
+      "bytes": 109319,
+      "path": "pages/Ren-240.png",
+      "sha256": "c2372809fe03b88bdc8d8f9bd6c6b3b9e5a32f3554d2dc69bc8138d145a52a23"
+    },
+    {
+      "bytes": 93087,
+      "path": "pages/Ren-241.png",
+      "sha256": "8a6f864321abe133ba8be49a4c1b8bfc911a7c39dba22f93df5172a2f74357da"
+    }
+  ]
+}
+quantitative_engineering：距离远1/2、隐藏发送1/2为项目工程折衷，未冒原文定量。
+signed_graph_mapping：所有载体各自距离、现量与同源竞争；未先同干并位。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：有限数值图与源足量判断分开。
+text_rule：根、贴近日主、印是否真能化官与清浊均有完整前件。
+
+11. QL11
+actor_and_roles：[
+  "当前K/F/W与日主正预算"
+]
+antecedent：G1炼路径>0、G2宿根>0，与G3 S>5/4(K+F/2+W/4)分别定义。
+counterexample_and_boundary：512主世界全失败不证伪原典正面解释；机制诊断三个单火OR不证明足量贵级或水金无益。
+算法标识：QL11
+original_locator：{
+  "PDF_pages": [
+    56
+  ],
+  "images": [
+    {
+      "bytes": 86786,
+      "path": "pages/Ren-056.png",
+      "sha256": "f7c470cabd20088624c804817f6778b80b4561e4cec605fceb372748b7d2a8f8"
+    }
+  ]
+}
+quantitative_engineering：5/4、lambda1/2、财1/4属原工程门，非任56原文数。
+signed_graph_mapping：原主H三目标合取；另名机制H只问G1∧G2；不相互顶替。
+source：{
+  "edition": "任氏注/李雨田校订1947大东本，正文/原注/小注分层",
+  "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf"
+}
+status_and_effect：两问题均完整保留；无B/主题/显示/现实预测。
+text_rule：原文制伏得宜是具体经典判断；本研究另有更强工程承载问题。
+

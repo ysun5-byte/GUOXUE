@@ -1,0 +1,352 @@
+{
+  "schema": "558-exact540-after557-source-corrected-project-adoption/1",
+  "revision": 558,
+  "status": "adopted_finite_complete_K_Q_P_source_operator_with_required557_attribution_correction",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_author_completion_handoff.json",
+    "bytes": 4246,
+    "sha256": "fa5df356c6fcabf15932766307b8592bab5ba2df8a4bfc26ab1a2a699bdafe37"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev557_independent_completion_handoff.json",
+    "bytes": 1898,
+    "sha256": "bcad32f69ce779b746e507ed1331b75935aae289da33e8b96302ff75ac8f3618"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole",
+    "files": 85,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/manifest.json",
+      "bytes": 13341,
+      "sha256": "f8fb5701feaa025d2bc129e3ef9e63a2f9ddd7518d7a6915140787cc377627de"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/freeze.json",
+      "bytes": 202,
+      "sha256": "6995f5380f50c58523cf76e5079c95964ae4e6c4665c2b9e4f427c816f95ca7f"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev557_independent_review540",
+    "files": 77,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev557_independent_review540/manifest.json",
+      "bytes": 11335,
+      "sha256": "e02c2afbb5750f670dbcdfb44503cccf91d8014d8885aafc16f4d653e0b041f0"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev557_independent_review540/freeze.json",
+      "bytes": 92,
+      "sha256": "1891e805578b5befaecd705a6919eb0d44d0f8c10df0d83fdb126fce53811689"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "kernel": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_complete_runtime_kernel",
+    "total_files": 60,
+    "payload_files": 58,
+    "payload_bytes": 5884202,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+      "bytes": 9355,
+      "sha256": "518277a99d2b6443ec32b8f20f7085e01368c73d268d5af49a8f5cd37a136802"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_complete_runtime_kernel/DELIVERY_FREEZE.json",
+      "bytes": 198,
+      "sha256": "26e67a99d63785e408ddfced199e24c6f085b7c057483b37f1b5ed48c0b1e4fd"
+    },
+    "one_complete_readonly_copy": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/540 one complete readonly Xin whole v4a42feb/complete twelve source runtime with spaces",
+    "no_new_clone_or_chmod": true,
+    "exact_research_map": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/runtime_kernel_to_research_map.json",
+      "bytes": 12767,
+      "sha256": "913c2940a53c33a9440f924d776dd0a0d900f362b32bf420595b56b8d46e4a6a"
+    }
+  },
+  "source_rules_original": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/rules_ten_fields.json",
+    "bytes": 11130,
+    "sha256": "3676464b6e516d9f242bbae26f25875cc49cca62f8382d0d1604460929d2b259"
+  },
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev558_Xin_effective_rule_cards.json",
+    "bytes": 13693,
+    "sha256": "0c2a81eb29b6f8505e5e8388208f6662a92437e35c3ad5d6e09dc10a52899932"
+  },
+  "mandatory_source_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev557_independent_review540/required_effective_P_source_correction.json",
+    "bytes": 3706,
+    "sha256": "b67034a3184634cc55674589afd45f44f79233fd8db2dabe36d33a8142cf0cb1"
+  },
+  "all64_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/algorithm_explanations_64_including_old_lambda.json",
+    "bytes": 144438,
+    "sha256": "75ae0b81491870500da437e01b8473caf991a47641b33f6d9e9d7d11f7ccb11d"
+  },
+  "independent_checks": {
+    "schema": "557-nonauthor-original12-Xin-complete-review/1",
+    "status": "passed_with_required_documentary_source_correction",
+    "utc": "2026-11-03T14:24:56.053846+00:00",
+    "author_frozen": {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole",
+      "files": 85,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/manifest.json",
+        "bytes": 13341,
+        "sha256": "f8fb5701feaa025d2bc129e3ef9e63a2f9ddd7518d7a6915140787cc377627de"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/freeze.json",
+        "bytes": 202,
+        "sha256": "6995f5380f50c58523cf76e5079c95964ae4e6c4665c2b9e4f427c816f95ca7f"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    "independent_new_counts": {
+      "analyses": 13,
+      "worlds": 52,
+      "pool_origin_components": 2820,
+      "actor_origin_components": 6520,
+      "edges": 2508,
+      "edge_origin_components": 27324,
+      "fee_origin_components": 13040,
+      "target_loss_origin_components": 2820,
+      "H_rows": 180
+    },
+    "new_condition_kind": "Original registered artificial12 raws known before review; new two parameter sets,2/3 amount, same-total foreign-source negatives and3 inverse-target mathematical combinations. No real出生/古命例/empirical holdout claim.",
+    "positive_negative_boundary": {
+      "K": "两新参数杀食成立；纯杀无足食为已算阴性；同总金/火源替换原辛/原食信用失败，演员与总量不抹。",
+      "Q": "新逆构造金夹零源财2成立；同参数小正金K可真/Q假，原两财盘Q失败完整保。",
+      "P": "新逆构造F0而原辛→同水→木真实连续链及同费承载救应成立，不用食当前正作P必要条件。"
+    },
+    "algorithm_full_audit": {
+      "passed": true,
+      "counts": {
+        "normal_paired_IO_replayed": 49,
+        "exception_IO_replayed": 1,
+        "old_unexecuted": 14,
+        "exact_prior_contracts_and_AST": 51,
+        "new_current_contracts": 13
+      },
+      "definitions": 63,
+      "old_lambda": 1,
+      "distinct_verified_material_pins": 22,
+      "distinct_module_code_contexts": 4,
+      "context_heap_not_serialized_or_claimed": true,
+      "same_frame_arguments_return_not_summary_aggregation": true,
+      "no_trace_fabricated_for_unused_fourteen": true,
+      "actual_material_and_context_pins": {
+        "materials": [
+          [
+            "parameters_and_method.json",
+            "b3861005dc1bbd377abc196b9a9a2cb05d039f8509eba73b43a12735b65d29be"
+          ],
+          [
+            "runtime/auxiliary_selector.py",
+            "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+          ],
+          [
+            "runtime/flow402.py",
+            "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+          ],
+          [
+            "runtime/foundation_facts.py",
+            "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+          ],
+          [
+            "runtime/lujie_joint.py",
+            "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b"
+          ],
+          [
+            "runtime/xin_joint.py",
+            "4a93d7c4934c8b80f6581b9fed483075ee737a61dc5158b24b28a8d636edc63a"
+          ],
+          [
+            "source/00_含辛十二盘_源题与整盘目标_新数值前.txt",
+            "ca4ce45ac110ddf7831bdf6509d6d3a8c4d65c5d1d919715a0240fef15c8778c"
+          ],
+          [
+            "source/01_补读偏官取运_无新数值.json",
+            "c66ab41f57004b31b4843dd23628ea6e99cd82dca196ce4d8394eb4e7dc697f6"
+          ],
+          [
+            "source/02_根核读与方向措辞订正_首数值前.json",
+            "2c3fe18444c6738cc108d9594903e22ee7f07fe075301a47c67ae74e9a1f59cd"
+          ],
+          [
+            "source/Primary-029.png",
+            "413e10729edd685bf371635773a3a9884e3a88fa80f25d623153c6e50a2822e5"
+          ],
+          [
+            "source/Primary-090.png",
+            "03d4fb23e31862f663a711451050dbaf67297d4bd15aabf0db0292084803f071"
+          ],
+          [
+            "source/Primary-091.png",
+            "ddcab7f66a6e998c0c2e50775dab24f18003768b6f720977bcedf8538a37d3e4"
+          ],
+          [
+            "source/Primary-092.png",
+            "f6c91354afe73b5913167ed6d812ed3b2bc3d636bfcfd75c2c84986d13830515"
+          ],
+          [
+            "source/additional4_original_food_all_source_loss_before_producer_plan.json",
+            "bb3eabfad1e66f9a83eb5b25e7b6f9064c9c473094ec51eec30b37929c7cc95d"
+          ],
+          [
+            "source/independent_private_and_fullpressure_plan_before_any_numeric.json",
+            "cc4ce50a3a950cbc59d761168563965ab4d26692b64ba5d475f708a0f18f5586"
+          ],
+          [
+            "source/primary-078.png",
+            "65e3ba3ea4cdf96df896d398fe944537454fc3bc5ffa0fdce795e1a69ab2ac7a"
+          ],
+          [
+            "source/primary-079.png",
+            "7733b3d023b02139e0f2862f830ff755b2eb60aa9af89feb43599a2feb90befd"
+          ],
+          [
+            "source/primary-080.png",
+            "ec747d37ffaf2ad9b6052ffadb9ff293a218032991dec6b2e3e4e01175303f3b"
+          ],
+          [
+            "source/primary-081.png",
+            "583ded16fcf3ff197c2ffb7a8e178aafd9c008e889183826c0beb592f7c796aa"
+          ],
+          [
+            "source/primary-082.png",
+            "cb6ddb3342d29c6c2ba19a21462d3184355adbaa193f5c89b1524f224efda7fa"
+          ],
+          [
+            "source/prior_all204_complete_before_runtime_creation.json",
+            "44d4d78cf79b24d0bd0733873b6da25c18702e67f1122b5bce9a1cd6bb79e58f"
+          ],
+          [
+            "source/reused_primary_web_and_transcript_reading_archive.json",
+            "30d5c8cb0c22aadfcf8a85f554d334d33923520cbc1d918f2e57ad52f3ba9a4a"
+          ]
+        ],
+        "module_contexts": [
+          [
+            "runtime/auxiliary_selector.py",
+            "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+          ],
+          [
+            "runtime/flow402.py",
+            "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+          ],
+          [
+            "runtime/foundation_facts.py",
+            "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+          ],
+          [
+            "runtime/lujie_joint.py",
+            "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b"
+          ]
+        ]
+      }
+    },
+    "fresh_protocol_summary": {
+      "processes": 18,
+      "real_negative_controls": 72,
+      "normal_violations": 0,
+      "three_full_API_CLI_groups_exact": true,
+      "three_bad_source0_clean5": true,
+      "four_new_strict_before_providers0": true,
+      "legal_other_source_actual5_nomath": true,
+      "old60copy_bytes_modes_unchanged": true,
+      "copy_not_cloned_chmod": true
+    },
+    "actual_IO_replay_precision": "49 normal+1 recorded exception/14 exact-old unused no invented trace; replays necessarily evaluate representative old known inputs, not all204 new physical cases or zero old solves claim.",
+    "source_substance": {
+      "schema": "557-required-effective-P-source-attribution-correction/1",
+      "kind": "source attribution correction, no runtime or numeric change",
+      "affected_rule": "LJ-XIN-P-CONTINUOUS-PRINT-RESCUE",
+      "original_rule_file": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/rules_ten_fields.json",
+        "bytes": 11130,
+        "sha256": "3676464b6e516d9f242bbae26f25875cc49cca62f8382d0d1604460929d2b259"
+      },
+      "original_problematic_source": "Primary79印护煞本非所宜/印有情，杀重身轻用食不能当不若转印；同通月令另法",
+      "actual_reading": {
+        "Primary79_print70": "杀用食段有身健/食制与印夺食破局、印有情的不同具体条件，何例有同通月令条件；本十二盘不满足何例。没有本卡概述的直接转印句。",
+        "Primary81_print72": "既成偏官局后的取运分食杀轻重/根轻助身/用印等；不能直接改成原局应喜水、应转印。",
+        "Primary78_80_82": "分别相邻偏官/取运上下文实际整页复核，不新归出那条未核原句。"
+      },
+      "effective_source": "Primary79具体印有情/不宜混食诸分题作为动机；Primary81既成杀印局取运作语境限制。连续同原辛→同水actor→木、同费用印关超载/印开承载是本项目明确工程组合证书，不声称已据原典直接判应转印。未查实的“杀重身轻用食不能当不若转印”不作为原典原句或直接依据。",
+      "source_illustrations": [
+        {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/source/Primary-029.png",
+          "bytes": 137159,
+          "sha256": "413e10729edd685bf371635773a3a9884e3a88fa80f25d623153c6e50a2822e5"
+        },
+        {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/source/Primary-090.png",
+          "bytes": 114984,
+          "sha256": "03d4fb23e31862f663a711451050dbaf67297d4bd15aabf0db0292084803f071"
+        },
+        {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/source/primary-078.png",
+          "bytes": 140159,
+          "sha256": "65e3ba3ea4cdf96df896d398fe944537454fc3bc5ffa0fdce795e1a69ab2ac7a"
+        },
+        {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/source/primary-079.png",
+          "bytes": 149485,
+          "sha256": "7733b3d023b02139e0f2862f830ff755b2eb60aa9af89feb43599a2feb90befd"
+        },
+        {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/source/primary-080.png",
+          "bytes": 142219,
+          "sha256": "ec747d37ffaf2ad9b6052ffadb9ff293a218032991dec6b2e3e4e01175303f3b"
+        },
+        {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/source/primary-081.png",
+          "bytes": 135756,
+          "sha256": "583ded16fcf3ff197c2ffb7a8e178aafd9c008e889183826c0beb592f7c796aa"
+        },
+        {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole/source/primary-082.png",
+          "bytes": 144346,
+          "sha256": "cb6ddb3342d29c6c2ba19a21462d3184355adbaa193f5c89b1524f224efda7fa"
+        }
+      ],
+      "author_acknowledgement": "review474_mcn2消息确认无已保存可定位直接原句，同意外置订正，不改冻结85/源码/数值。",
+      "all_original_frozen_bytes_unchanged": true,
+      "formula_parameter_goal_or_prior_changes": false,
+      "not_claim_classics_never_contain_other_similar_statement": true
+    },
+    "algorithm_substantive": "全部13新/适配合同已逐项对照当前源码。源准入、双辛实体/原根空事实、同费C/F、五池32面、目标被损与控制者原点、K/Q/P各完整前件与实际路线和总组信用、数学火非新演员/真运、known阴性/全局喜用边界均核。51旧AST与合同逐字复用。",
+    "producer_defects": [],
+    "documentary_defects": [
+      {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev557_independent_review540/required_effective_P_source_correction.json",
+        "bytes": 3706,
+        "sha256": "b67034a3184634cc55674589afd45f44f79233fd8db2dabe36d33a8142cf0cb1"
+      }
+    ],
+    "reviewer_first_failure": "history/first_native_none_vs_empty_schema；Ka四世界/硬门/route/H已匹配，审者把consumer无解None与数学[]直接比较误败。仅校验器规范化，必要重放Ka4一次。",
+    "old_correct_author204_and24_regressions_reused_exact_not_bulk_rerun": true,
+    "complete_does_not_always_mean_knowledge": "source_main_answer_complete是历史成功旗，不是资料是否齐；questions.status明确known_met/known_failed。使用说明必须保留该区别。",
+    "recommendation": "可采用精确540整盘具名K/Q/P有限规则及强制557文献订正；不把局部K诊断或多个任务H并集直接当全局喜用。原范围终局汇总另审，不加全流派唯一门。",
+    "self_adoption": false,
+    "progress_delta": "0.00",
+    "no_B_or_display": true,
+    "real_prediction_validated": false
+  },
+  "adoption_limits": [
+    "杀财2主Q，K仅同数诊断；K/Q/P各自完整前件、整盘负作用及代价已算，但不无规则合其H成全局主次。",
+    "原辛根已知空≠无辛实体，数学火增量≠新丁/出生根/真实时运；完整现实变化原C03继续。",
+    "P工程组合来源归因已按557纠正，不以未核原句支撑。",
+    "同版本输入确定、所有阴性和失败门保；资料准确/实现正确/现实预测分列。"
+  ],
+  "all_original_C02_complete": false,
+  "all_original_task_complete": false,
+  "score": "88.75/100",
+  "progress_delta": "0.00",
+  "B": null,
+  "display": false,
+  "real_prediction_validated": false
+}

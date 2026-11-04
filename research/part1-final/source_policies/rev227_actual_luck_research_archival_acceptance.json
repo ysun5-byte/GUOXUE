@@ -1,0 +1,32 @@
+{
+  "id": "rev227_actual_luck_research_archival_acceptance",
+  "revision": 227,
+  "date": "2026-11-02",
+  "status": "accepted_independently_reviewed_conditional_actual_luck_research_only",
+  "target": {
+    "component": "rev186_actual_luck_change_source_whole",
+    "files": 1282,
+    "manifest_sha256": "e7d6e833c86d91cc1117ad21cfabf2319418ae1c9db2d507caa12cc1c016abc1",
+    "freeze_sha256": "424c0a98d25d8596432325400ddc0df8dde4adb51b05e7ea2b8e83d8994994af"
+  },
+  "independent_review": {
+    "component": "rev222_actual_luck_independent",
+    "files": 103,
+    "manifest_sha256": "2fe17549c23b31c1fc97fa4cdad4cbc5319ff4bf017c4b2ca517a17ef756b2c4",
+    "freeze_sha256": "95619db65e62fa968ab01c70f3721eb8ad5d54eee9df9d5f0ad0e816f4eed493"
+  },
+  "aggregate_acceptance": {
+    "component": "rev227_actual_luck_archive_acceptance",
+    "files": 3,
+    "manifest_sha256": "d1a4585927e5f187013c27c9efb1ec557bebb8060d2edb1fc091d1eac7cb21dc",
+    "freeze_sha256": "ef7a2e33a8b4c78c3d1a63300a4611838bb1f64a6ee653f6178b3130094e3120",
+    "report_sha256": "8fdfc0cb893bd3902f74fa41abca37a7cd6b79bf8bd551fe576728c8d2af39a0"
+  },
+  "runtime_adopted": false,
+  "scope": "New explicit conditional Ding/Chen officer-survival and body-carry research, exact single-officer/single-hurt feedback and complete unordered support alternatives under declared source profile. Source/ordinary assumption and engineering coefficients remain explicit. No default natal/current theme adoption.",
+  "B_created": false,
+  "progress_delta": "0.00",
+  "score": "76.25/100",
+  "whole_original_task_complete": false,
+  "real_prediction_validated": false
+}

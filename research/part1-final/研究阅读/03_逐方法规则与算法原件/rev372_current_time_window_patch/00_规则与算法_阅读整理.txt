@@ -1,0 +1,846 @@
+从儿实际大运年月日时：完整流通与变化比较
+rev372_current_time_window_patch
+所属原模块：C03
+当前采用：rev385_actual_time_flow_project_adoption.json
+范围：限定土金水与申酉实际外来载体、完整成本及已修正窗口比较；更广时支、会化仍保留原待办。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev372_current_time_window_patch/prior357/new_algorithm_explanations.json
+SHA256：6bb662e0a1ab372fa6e04f607fe9b2bb77f15f3cd561ebb55bd2e2e276bb0267
+
+1. 1
+function：current_follow_child.ContractError.__init__
+module：current_follow_child
+qualname：ContractError.__init__
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：20
+参数：self, code, status='invalid_input'
+returns：None; exception instance .code:str and .status:str
+algorithm_and_boundaries：Creates typed hard-failure reason. Default invalid_input, dependency/binding statuses explicit. Not a return result.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+2. 2
+function：current_follow_child.canonical
+module：current_follow_child
+qualname：canonical
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：23
+参数：value
+returns：str: sorted compact UTF-8-compatible JSON text
+algorithm_and_boundaries：Canonicalizes JSON with allow_nan=False; serialization errors propagate. Does not parse or authorize input.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+3. 3
+function：current_follow_child.digest
+module：current_follow_child
+qualname：digest
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：26
+参数：value
+returns：str:64hex SHA256(canonical(value).encode())
+algorithm_and_boundaries：Value hash, not file-byte hash and not proof of source truth.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+4. 4
+function：current_follow_child.json_pairs
+module：current_follow_child
+qualname：json_pairs
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：29
+参数：rows
+returns：dict[str,Any]
+algorithm_and_boundaries：Strict JSON object-pairs hook; duplicate keys raise ContractError. Does not independently bound nested size.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+5. 5
+function：current_follow_child.json_nonfinite
+module：current_follow_child
+qualname：json_nonfinite
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：36
+参数：value
+returns：Never returns normally; raises ContractError
+algorithm_and_boundaries：Rejects NaN/Infinity tokens during strict JSON parsing.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+6. 6
+function：current_follow_child.strict_load
+module：current_follow_child
+qualname：strict_load
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：39
+参数：text
+returns：Any parsed JSON value
+algorithm_and_boundaries：Requires input str <=2,000,000 characters; object duplicate/nonfinite hooks. Root schema is checked later in evaluate, not here.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+7. 7
+function：current_follow_child.bounded
+module：current_follow_child
+qualname：bounded
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：43
+参数：value, depth=0
+returns：None on success
+algorithm_and_boundaries：Recursively enforces depth<=64, dict<=128 fields and list<=512 items; JSON serializability. No BaZi/source judgment.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+8. 8
+function：current_follow_child.shape
+module：current_follow_child
+qualname：shape
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：53
+参数：value, fields, path
+returns：None on success
+algorithm_and_boundaries：Requires exact dict key set at the named path; missing and extra fields fail.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+9. 9
+function：current_follow_child.named_ref
+module：current_follow_child
+qualname：named_ref
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：56
+参数：value, path
+returns：None on success
+algorithm_and_boundaries：Exact id/version dict of nonempty trimmed strings; no source validity claim.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+10. 10
+function：current_follow_child.guard
+module：current_follow_child
+qualname：guard
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：60
+参数：
+returns：dict[str,bytes]:58 pinned source/model/library materials
+algorithm_and_boundaries：Checks pinned source_lock bytes and exact protected inventory; regular contained material paths, all lengths/SHA, exact354 adoption status. Runs before any provider module execution. The source bytes returned are not already executed.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+11. 11
+function：current_follow_child.module_from_bytes
+module：current_follow_child
+qualname：module_from_bytes
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：77
+参数：name, relative, material
+returns：types.ModuleType
+algorithm_and_boundaries：Byte loader/exec only: consumes material[relative] under ROOT-relative filename. This helper has no own guard; evaluate calls guard first, then load_protocol/frame use verified material. Direct unsafe helper use is not the guarded public API.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+12. 12
+function：current_follow_child.load_protocol
+module：current_follow_child
+qualname：load_protocol
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：80
+参数：material
+returns：dict with time/window/facts ModuleType values
+algorithm_and_boundaries：Executes unchanged pinned time01,time02 and foundation facts modules from verified materials; does not yet execute current_flow math. Caller must pass guard output.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+13. 13
+function：current_follow_child.compatible
+module：current_follow_child
+qualname：compatible
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：83
+参数：first, second, kind
+returns：bool
+algorithm_and_boundaries：Five虎 annual/month or five鼠 day/hour stem compatibility for actual overlapping same-context records; glyph structure already validated upstream. No real calendar generation.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+14. 14
+function：current_follow_child.preflight_native
+module：current_follow_child
+qualname：preflight_native
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：88
+参数：native, profile, pack
+returns：dict: native,time_report,parsed,facts,identity_entries
+algorithm_and_boundaries：Validates exact native source-method/profile, owner/content hashes, ALL current/future records and overlapping calendar pairs; structural natal checks. Knowledge-unknown time may return a checked object, but hard invalid/binding fails before world math.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+15. 15
+function：current_follow_child.immutable_preflight
+module：current_follow_child
+qualname：immutable_preflight
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：108
+参数：current, previous
+returns：int: number of distinct typed immutable identities
+algorithm_and_boundaries：Current and previous entries with same kind/namespace/id/version must have identical SHA. Different identity/version permitted; verifies history identity consistency, not calendar truth.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+16. 16
+function：current_follow_child.source_domain
+module：current_follow_child
+qualname：source_domain
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：119
+参数：raw, selected
+returns：dict:ready:bool,pending:list[str],new_formal_tasks:list,background_contexts:list plus scope flags
+algorithm_and_boundaries：Exact adoptedQ6 + five external branches申酉/three-element stems only. New wood/fire, new stem combination, six-combination/clash/full三合三会 retained pending. Partial三合/secondary break/selfpunishment retained as background, never erased or proved no real effect. No evidence of this branch is not a non-fromchild judgment.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+17. 17
+function：current_follow_child.atom_proof
+module：current_follow_child
+qualname：atom_proof
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：139
+参数：checked, at, pack
+returns：dict:start/end/interval,all_provided_record_boundaries_used,native_full_atom_layer_reports,original_registry_resealed,selected
+algorithm_and_boundaries：At a known instant, cuts on ALL provided endpoints and calls unchanged time01 for the whole surrounding half-open atom. Every layer must be unique across atom; does not reseal registry or generate records.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+18. 18
+function：current_follow_child.frame
+module：current_follow_child
+qualname：frame
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：145
+参数：checked, selected, validity, material, pack, cache
+returns：dict:validity,source,all_carriers_and_root_facts,calculation,status,effect_signature,B/theme/real_prediction flags; known adds required_element_sets_in_H
+algorithm_and_boundaries：Always preserves actual carriers. Pending source returns calculation=None and signature=None. Ready computes/caches complete math inventory and H. Signature binds method/profile/natal/raw actual pillars, so source-ID-only replacements may confirm same functional result while IDs remain in all ledgers.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+19. 19
+function：current_follow_child.snapshot
+module：current_follow_child
+qualname：snapshot
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：155
+参数：checked, material, pack, cache
+returns：dict:time_report,evaluation,frames,status,effect_signature,all_provided_records_preflighted,B/theme; instant validity or window coverage/comparison fields
+algorithm_and_boundaries：Instant unknown stays knowledge-unknown. Ready instant has one whole-atom frame. Window uses unchanged0.2 ready/blocked segments and computes each known segment; multiple different known effects are a complete varying window, not insufficient. Any gap/pending segment prevents whole-window known result.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+20. 20
+function：current_follow_child.compare
+module：current_follow_child
+qualname：compare
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：172
+参数：current, previous, current_native, previous_native, pack
+returns：dict:status,change_or_same_confirmed; known instant adds source_record_identity_changed,clock_moved_back,previous_lease_valid_at_current_at
+algorithm_and_boundaries：Compares only same owner/method/chart and evaluation kind. Unknown/pending cannot confirm same or change. Known functional signatures distinguish confirmed_same/changed, and clock rollback never licenses stale result reuse. This compares computation, not theme/display.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+21. 21
+function：current_follow_child.evaluate
+module：current_follow_child
+qualname：evaluate
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：187
+参数：request
+returns：dict:version,status,current,previous,comparison,hard_inputs_all_current_previous_future_precede_any_world,immutable_source_identities_validated,distinct_actual_selected_inventory_computations,external_calendar_generated,real_calendar_truth_verified,actual_carrier_engineering_extension_not_printed_classical_numbers,all_C03_complete,B,theme,adopted,progress_delta,real_prediction_validated
+algorithm_and_boundaries：Guarded public API. Source lock and provider load precede schema checks; ALL current/previous hard validations precede any frame/world. No public parameter tuning, B/theme or progress adoption. Raises ContractError on hard invalid and never turns a hard error into a normal default.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+22. 22
+function：current_follow_child.main
+module：current_follow_child
+qualname：main
+file：current_follow_child.py
+source_sha256：fb9ae20140e131322d02eda868fb9787e19b8829fe3804ef108fe95563853083
+line：197
+参数：
+returns：int exit code:0 success,2 hard invalid/dependency; writes one compact JSON object to stdout
+algorithm_and_boundaries：Reads bounded stdin via strict_load then guarded evaluate. ContractError prints status/reason; fixed generic malformed exceptions produce invalid_input_or_fixed_dependency. Does not treat API helper return None as successful research.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_pinned_core",
+  "357_author_actual",
+  "357_behavior_producer",
+  "357_actual_core_IO"
+]
+
+23. 23
+function：current_flow.pack
+module：current_flow
+qualname：pack
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：9
+参数：value
+returns：JSON-compatible recursively copied dict/list or scalar; Fraction→str
+algorithm_and_boundaries：Serialization only; bool/int remain native. Does not approve source or classify chart.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+24. 24
+function：current_flow.family
+module：current_flow
+qualname：family
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：15
+参数：
+returns：list[dict[str,str]]:128 endpoint configs
+algorithm_and_boundaries：Old344 seven axes unchanged; corners complement whole continuous-box theorem, not standalone proof or128 independent experiments.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+25. 25
+function：current_flow.total
+module：current_flow
+qualname：total
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：18
+参数：port
+returns：fractions.Fraction
+algorithm_and_boundaries：Exact sum of one origin→amount port, empty sum0.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+26. 26
+function：current_flow.inventory
+module：current_flow
+qualname：inventory
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：21
+参数：raw, selected, facts, digest
+returns：dict:actors:list,origins:list[str],roots:list,natal_month_and_day_not_replaced,external_context_not_natal_column
+algorithm_and_boundaries：All four natal visible/hidden actors and each selected actual time visible/all hidden actors retained. Two new origins per external pillar, immutable source record refs. Natal dayactor exists, but not duplicate visible supply origin. Does not itself decide source readiness.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+27. 27
+function：current_flow.direct_inventory
+module：current_flow
+qualname：direct_inventory
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：37
+参数：material, cfg, facts
+returns：tuple:(dict[element,dict[origin,Fraction]],list qualification ledger)
+algorithm_and_boundaries：Ready three-element-domain only: each origin/element mainroot1/minorμ; only natal month multiplierm; external visible unit supply except natalday. Caller must establish domain before direct_inventory; wood/fire inputs are not silently converted to0.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+28. 28
+function：current_flow.route
+module：current_flow
+qualname：route
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：49
+参数：source, target, cfg
+returns：tuple[Fraction,Fraction,Fraction,Fraction]:sender,receiver,reach,product
+algorithm_and_boundaries：Hidden endpoint weighth; external endpoint reach1; otherwise natal neighboring1/far r. Actual outside layer is not mapped to fake natalcolumn.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+29. 29
+function：current_flow.geometry
+module：current_flow
+qualname：geometry
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：54
+参数：material, cfg
+returns：dict:groups,edges,A,C,L,maxima,day_already_maximal
+algorithm_and_boundaries：Enumerates every actual 土→金/金→水/土→水 endpoint pair. Per-origin parallel coefficients take max, never sum cloned actor claims. All paths and negative tasks retained.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+30. 30
+function：current_flow.coefficients
+module：current_flow
+qualname：coefficients
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：65
+参数：selected, geo, cfg
+returns：tuple[Fraction,Fraction]:(selected b,selected receiver k)
+algorithm_and_boundaries：Selected positive function credit, not actor removal. b=g*max selected actual 金→水 route; k=max selected waterendpoint1/h. All unselected physical actors and full-negative L retained elsewhere.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+31. 31
+function：current_flow.coefficient_classes
+module：current_flow
+qualname：coefficient_classes
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：70
+参数：geo, cfg
+returns：list[dict:b:Fraction,k:Fraction,witness_subset:list[str]]
+algorithm_and_boundaries：Complete quotient of all2^N subsets by (b,k). Every nonzero b has an attaining pair; k has an attaining water endpoint, so <=3 selected actors witness any class. All0/water-only/pair/triple witnesses deduplicated; this is not oldAUX execution overN>16.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+32. 32
+function：current_flow.allocate_control
+module：current_flow
+qualname：allocate_control
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：82
+参数：supply, budgets
+returns：dict:water,same_origin_used,spill_by_source,remaining_before_spill,spill_total,remaining_total,cross_source_actual_total,source_target_rows,actual_spent_by_source,unused_potential_by_source,damage_by_target,all_control_potential_budgets,total_budget,total_actual_spent,total_unused,legacy_per_origin_clip_equal_here
+algorithm_and_boundaries：Nonnegative source/target inventories: sameorigin min debit first, remaining source budget spill pro-rata to remaining target water up to min(R,V). Keeps every source×target real debit and unused budget; exact ΣW=max(0,ΣS−Σq). Negative-input helper use is outside its typed caller domain. On original344 whole box no spill, exactly same origin outputs.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+33. 33
+function：current_flow.world
+module：current_flow
+qualname：world
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：91
+参数：direct, geo, cfg, b, k
+returns：dict:cfg,A,C,L_full_actual_negative_demand,selected_b,selected_receiver_weight,direct,current_ports,current_totals,water_supply_before_control,control_allocation,terminal_capacity,offered_total,accepted_total,acceptance_ratio,goals,all_goals_met,equation_residuals,negative/cost flags
+algorithm_and_boundaries：Exact simultaneous T/M with committed birth/control/leak costs, global spill W, offer bΣM, capacity kΣW and J=min. Full physical book uses b=L,k=1. Positive subset book uses W_S and remains an explanation ledger; source budgets and spent controls are distinct. Costs are explicit engineering potential commitments, not empirical energy conservation.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+34. 34
+function：current_flow.signed_edges
+module：current_flow
+qualname：signed_edges
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：101
+参数：full, geo, cfg
+returns：list[dict] of all geometry signed rows and peractor cost witnesses
+algorithm_and_boundaries：Each row has actual_origin_potential_port from the same solved T/M. Control actual spend is source_target allocation, not this potential port. Actor shared costs are witnesses, never extra summed duplicate stock.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+35. 35
+function：current_flow.normal_domain_certificate
+module：current_flow
+qualname：normal_domain_certificate
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：110
+参数：selected, direct, geo, cfg
+returns：dict:nT,nM,nW,shen_root_count,DT_DM_DW,whole_box_lower_margin,actual_conservative_margin,proof_source,whole_7parameter_continuous_box_not_only_128_corners
+algorithm_and_boundaries：Requires exact five compatible ready pillars, nT<=3,j>=2 and natalday already maximal. Verifies actual stocks match closed count formula and conservative DW−DT/4−DM/8>=31/64. Whole-box sufficiency relies on source-before-producer proof; no corner-only claim.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+36. 36
+function：current_flow.analyze
+module：current_flow
+qualname：analyze
+file：current_flow.py
+source_sha256：39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176
+line：119
+参数：raw, selected, facts, digest
+returns：dict:all_original_and_current_carriers,package_universe,food_sender_packages,water_receiving_capacity_packages,extra_earth_positive_packages,family,nominal_model_index,H,conditional_extra_H,B,theme,real_prediction_validated
+algorithm_and_boundaries：Public math only after native source domain gate. Every128 config stores fullactual world, complete quotient states, all signed paths/costs and actual actor current bindings. H=all metal×water pairs under proved continuous domain; conditional extra earth H=[[]] is separate. Does not invoke oldAUX over16 or claim2^N native calls.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "357_current_flow",
+  "357_helper_IO",
+  "357_mathtest_new"
+]
+
+37. 37
+function：entry.main
+module：entry
+qualname：main
+file：entry.py
+source_sha256：082c9cad5c6ccfbfc1e9d2263a4898d59c464ea9bdeab88edf90be088a93f181
+line：7
+参数：
+returns：int exit code from guarded core.main, or2 pinned_core mismatch
+algorithm_and_boundaries：Safe CLI entry reads exact pinned core bytes before executing it. Core then guards materials before providers. This entry is not a data parser, source truth certifier or independent calculator.
+来源层次：工程算法；传统前提见 rule_cards_ten_fields.json；不等于现实预测已验证
+actual_IO_receipt：actual/A_newfunction_first_IO.json.gz and interface/IO supplement; final binding index enumerates which function actually ran in which case
+module_identity：Canonical source filename module plus exact lexical qualname, line and bytes; runtime exec/import aliases explicitly recorded here rather than conflated.
+actual_runtime_module_aliases：[
+  "__main__",
+  "357_actual_entry_IO"
+]
+
+原件：work/rev372_current_time_window_patch/changed_algorithm_explanations.json
+SHA256：49913ffd0c44836f8fe1fca666b7adfe94c010c64937394609bd7e0260ca1158
+
+{
+  "comparison_version": "time-functional-and-source-comparison-0.1.1",
+  "five_new_or_changed_functions": [
+    {
+      "AST_sha256": "5fa56e7eb199231330f28dfd29c3bfe083906458f084c458607452da69997b8b",
+      "actual_IO": "changed_functions_actual_IO.json; fullunchangedmathsubobjects represented by explicitactual native output artifact, never removed fromproducer",
+      "algorithm_and_scope": "Requires already complete known frames in ordered nativecoverage. Rejects any Noneeffect. Merges only adjacent contiguous equal-effect intervals. Does not itself prove input source/time completeness; snapshot gates it with exact nativecoverage+everyframecomputed. No sourceIDs enter this hash.",
+      "arguments": "frames",
+      "file": "current_follow_child.py",
+      "function": "current_follow_child.window_functional_timeline",
+      "line": 155,
+      "module": "current_follow_child",
+      "qualname": "window_functional_timeline",
+      "return_contract": "list[dict[str,str]] with start,end,effect",
+      "source_layer": "Engineeringtimecomparisonfix of368actualdefects; no newtraditional orphysicalclaim",
+      "source_sha256": "54e662139d9404754bc605df9c2d780131dcc84a6e213596e92d84f6a700cd86"
+    },
+    {
+      "AST_sha256": "0f369b98e3cc846f714ca65a083f62b6596bda55912bf7c972d99dd9749f489c",
+      "actual_IO": "changed_functions_actual_IO.json; fullunchangedmathsubobjects represented by explicitactual native output artifact, never removed fromproducer",
+      "algorithm_and_scope": "Instant source is wholeatom.selected; window sources are eachactual native_segment.eligible_time_inputs. Each layer/id/version/fullrecordSHA retained. Rawtrace never discarded; only adjacent sameknownness+exactrecordrefs merge. Complete time selection may coexist with pendingfunction; unknowntime is never a known emptyselection. Instant signature uses selected refs, windows use canonical refs overactualbounds.",
+      "arguments": "value",
+      "file": "current_follow_child.py",
+      "function": "current_follow_child.snapshot_source_trace",
+      "line": 165,
+      "module": "current_follow_child",
+      "qualname": "snapshot_source_trace",
+      "return_contract": "dict:kind:str,complete_selection:bool,segments:list,canonical_segments:list,identity_signature:str|None,actual_selected_records_only:bool,unknown_is_not_known_empty_selection:bool",
+      "source_layer": "Engineeringtimecomparisonfix of368actualdefects; no newtraditional orphysicalclaim",
+      "source_sha256": "54e662139d9404754bc605df9c2d780131dcc84a6e213596e92d84f6a700cd86"
+    },
+    {
+      "AST_sha256": "77ce198431524e19b7989547514e8f036b97d2b150107419ba5ec891df6e3c22",
+      "actual_IO": "changed_functions_actual_IO.json; fullunchangedmathsubobjects represented by explicitactual native output artifact, never removed fromproducer",
+      "algorithm_and_scope": "Caller supplies two complete known canonical functional timelines. Same requested UTCdomain required. Both boundarysets form exact subintervals; eachside must have one covering effect perpiece. Compares effects and records changedpieces. Differentrequestedbounds yields notcomparable, not functionalchanged. It doesnot silently make gaps known or define crossdomain comparison.",
+      "arguments": "current, previous, pack",
+      "file": "current_follow_child.py",
+      "function": "current_follow_child.compare_window_functional",
+      "line": 181,
+      "module": "current_follow_child",
+      "qualname": "compare_window_functional",
+      "return_contract": "dict:domain_comparable:bool,reason:str|None,same:bool|None,aligned_segments:list; comparable adds both_functional_boundary_sets_used:True",
+      "source_layer": "Engineeringtimecomparisonfix of368actualdefects; no newtraditional orphysicalclaim",
+      "source_sha256": "54e662139d9404754bc605df9c2d780131dcc84a6e213596e92d84f6a700cd86"
+    },
+    {
+      "AST_sha256": "a8cad0d17f7617f7501af69083fb9c725970bab8cf122e587176ba44e2726d62",
+      "actual_IO": "changed_functions_actual_IO.json; fullunchangedmathsubobjects represented by explicitactual native output artifact, never removed fromproducer",
+      "algorithm_and_scope": "Same original C03 instant/wholeatom/windowcoverage and original rawframes/calculations retained. Onlycompleteknownwindow gets canonical functional timeline+hash; unknown/pending keeps None. Allsnapshots carry source_trace independent offunctionalstatus. Mathematicaleffect_signature and fullcarrierrecompute stay unchanged.",
+      "arguments": "checked, material, pack, cache",
+      "file": "current_follow_child.py",
+      "function": "current_follow_child.snapshot",
+      "line": 196,
+      "module": "current_follow_child",
+      "qualname": "snapshot",
+      "return_contract": "dict:prior snapshot fields plus source_trace; windows additionally functional_timeline:list|None and comparison_signature:str|None",
+      "source_layer": "Engineeringtimecomparisonfix of368actualdefects; no newtraditional orphysicalclaim",
+      "source_sha256": "54e662139d9404754bc605df9c2d780131dcc84a6e213596e92d84f6a700cd86"
+    },
+    {
+      "AST_sha256": "a2ddf3d03072517e0f31acf8ef3d5c311a1e18e9b73b219af94507ba8d6e9064",
+      "actual_IO": "changed_functions_actual_IO.json; fullunchangedmathsubobjects represented by explicitactual native output artifact, never removed fromproducer",
+      "algorithm_and_scope": "Sameowner/method/chart and evaluationkind remain prerequisites. Samewindowdomain is explicitlyrequired. Unique actual source selections compare independently offunction; unknown time sourceidentity remains None. Knownwindowfunction uses alignedcanonicalpieces, instants retain glyphfunctional signature and clock/lease checks. Pending/unknown cannotconfirm same/change; rawsource trace kept separately. Currentonly has no historicalsourcecomparison, soidentityflagNone, not False.",
+      "arguments": "current, previous, current_native, previous_native, pack",
+      "file": "current_follow_child.py",
+      "function": "current_follow_child.compare",
+      "line": 217,
+      "module": "current_follow_child",
+      "qualname": "compare",
+      "return_contract": "dict:prior status/changeconfirmation plus algorithm_version,source_record_identity_changed:bool|None,source_identity_comparison; knownwindows add functional_window_comparison",
+      "source_layer": "Engineeringtimecomparisonfix of368actualdefects; no newtraditional orphysicalclaim",
+      "source_sha256": "54e662139d9404754bc605df9c2d780131dcc84a6e213596e92d84f6a700cd86"
+    }
+  ],
+  "input_schema_and_mathMETHOD_profile": "0.1 unchanged; recordvalues/inputbindings remain compatible, source/math lock identical",
+  "patchversion": "REN-Q6-ACTUAL-FIVE-TIME-FLOW-0.1.1",
+  "prior_correct_contracts": "prior357/new_algorithm_explanations.json, actualIO files, and review368/all37_actual_contract_source_IO_review.json retained as prior evidence. Unchangedfunction AST doesnot claim unchangedwhole output when calledfunctions/globalVERSION change. NewfullnativeAPI/CLI covers actualcurrentcallchain. No fake40newtraces."
+}
+原件：work/rev372_current_time_window_patch/rule_cards_window_patch.json
+SHA256：8eab1d95274e52e9ffae2c9e20b56f9b7d27c323b8c88636a7c4e30bec5c3acf
+
+1. 372-FUNCTIONAL-PARTITION-INVARIANCE
+changes：Newactualglyph effect inanyunionpiece changesfunctionaljudgment; merelysplittingequalstate records doesnot
+conditions：Sameowner/method/chart, samewindowbounds, allsegments uniquelyknown andsourceeffects closed
+conflict_resolution：Usewholeknownnativecoverage thenmergeadjacentsameeffect, compareonunionofbothnormalizedboundaries; sourceidentity separate
+exclusions：Unknown/pending/gaps/differentbounds cannotbe normalizedinto knownsame
+framework：Existing actualfive-time C03 finiteQ6
+算法标识：372-FUNCTIONAL-PARTITION-INVARIANCE
+rule_expression：sameforallalignedpieces -> confirmed_same; anydifferingpiece -> confirmed_changed
+source：368realcounterexample redundant_partition_native_actual_summary.json
+来源层次：Real implementationdefect andengineeringintervallogic; no newclassicalrule
+status：Authorpatchcandidate, independentreview pending
+verification：actual372/targeted_receipt.json + helper_actual.json
+
+2. 372-SOURCE-TRACE
+changes：NewactualselectedsourceID/version/content changes identitytrace even ifglyphfunctionsame; redundant partition withidenticalactualrefs doesnot
+conditions：Eachactualsegment uniquelyselected5records; use layer/id/version/recordSHA
+conflict_resolution：Keep rawframes andrawtrace, canonicallymergeidenticalrefintervals onlyforcomparison; pendingfunctionalstate maystillhaveknownsources
+exclusions：No topwindowvalidity.selected placeholder or{}=={} falseclaim; unknownselectionisNone
+framework：ExistingC03 typedimmutable evidence
+算法标识：372-SOURCE-TRACE
+rule_expression：complete_sources -> comparecanonicalactualrefs; else source_identity_changed=None
+source：368realcounterexample maximum33_window_native_actual_summary.json
+来源层次：Actual sourceidentity metadatafix
+status：Authorpatchcandidate, independentreview pending
+verification：Two368originalcounterexamples realfullAPI/CLI andnewgap/pending/instantcases
+

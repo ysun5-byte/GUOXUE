@@ -1,0 +1,1760 @@
+真实五时层同干多载体的食杀印完整整盘模型
+rev286_food_kill_print_current_consumer/model_whole_extension
+所属原模块：C03
+当前采用：rev301_current_carriers_inner_project_adoption.json
+范围：全部真实角色、根来源、位置和作用边保留，只在逐来源支配证明成立时等价约简；同杀流攻击/生印、制食与生日、严格承载与存杀、全H重选。内层采用，不提前批准上层显示/主题。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev286_food_kill_print_current_consumer/model_whole_extension/algorithm_explanations.json
+SHA256：ac11ca684d97e05208c394d09d8bc96e3e4e7a7c18ca3503cb1537fdb14761bd
+
+1. 1
+file：carrier_coupled_extension.py
+qualified_function：LineMap.__add__
+line：37
+end_line：37
+signature：self, x
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：2f7af649129f852078cb16c2aff9e02f3aee30a16f1391b6912f5f1cf78b0aab
+actual_invocation_count_in_capture：252564
+输入：Map and scalar/map
+输出：Exact sum map
+actual_flow：Delegate to joint addition on the full shared phase partition.
+conditions_exceptions_None_and_side_effects：No file effects; conversion and phase errors propagate.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.__add__]
+signature_AST_and_source_bytes_actually_verified：true
+
+2. 2
+file：carrier_coupled_extension.py
+qualified_function：LineMap.__init__
+line：12
+end_line：19
+signature：self, rows
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：f1e4aff7b051ab2cf26db044794f5d39f343cb64029a7a0b2dd6870333e452cb
+actual_invocation_count_in_capture：2811970
+输入：Rows(left,right,intercept,slope) over[0,1]
+输出：Initialized exact continuous piecewise-affine object; normal return None
+actual_flow：Convert to Fraction, coalesce adjacent identical affine rows, and assert complete contiguous coverage and continuity at every boundary.
+conditions_exceptions_None_and_side_effects：No file effects. Rows must be nonempty valid exact phases; invalid coverage/continuity raises. None here is constructor completion.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.__init__]
+signature_AST_and_source_bytes_actually_verified：true
+
+3. 3
+file：carrier_coupled_extension.py
+qualified_function：LineMap.__mul__
+line：42
+end_line：46
+signature：self, x
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：a0318d437aebb278b54263a3e4c7f0640f6fd844950bf84482c297c0e673a90e
+actual_invocation_count_in_capture：694898
+输入：Map and scalar or a constant map
+输出：Exact scalar-multiplied map
+actual_flow：Multiply affine coefficients only when one operand is constant. Enforce the single-variable phase program; variable times variable is rejected.
+conditions_exceptions_None_and_side_effects：No file effects. Assertion prevents silently treating a quadratic as affine. Public flow fixes rho when t varies, or t when rho varies.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.__mul__]
+signature_AST_and_source_bytes_actually_verified：true
+
+4. 4
+file：carrier_coupled_extension.py
+qualified_function：LineMap.__neg__
+line：39
+end_line：39
+signature：self
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：4ad7a2ee26c78bdbd95f8533ae4624428d539eb02d563bd1201d14b15b9d72de
+actual_invocation_count_in_capture：21424
+输入：Map
+输出：Negated exact map
+actual_flow：Negate each intercept/slope without changing its interval partition.
+conditions_exceptions_None_and_side_effects：No file effects; preserves continuity.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.__neg__]
+signature_AST_and_source_bytes_actually_verified：true
+
+5. 5
+file：carrier_coupled_extension.py
+qualified_function：LineMap.__rsub__
+line：41
+end_line：41
+signature：self, x
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：70cac47a51203862dad4f604d2700179937cf83fa4a77033ba587a65c8a26dfe
+actual_invocation_count_in_capture：3600
+输入：Scalar/map minus this map
+输出：Exact reversed difference map
+actual_flow：Cast the left operand and add the negated right map.
+conditions_exceptions_None_and_side_effects：No file effects; this is necessary for1-Q/K and1-cost/S.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.__rsub__]
+signature_AST_and_source_bytes_actually_verified：true
+
+6. 6
+file：carrier_coupled_extension.py
+qualified_function：LineMap.__sub__
+line：40
+end_line：40
+signature：self, x
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：bdbd8133c93918b036bf882801212a8ca1bbf622dc3ad4616a103c3cbec2d6e6
+actual_invocation_count_in_capture：7112
+输入：Map and scalar/map
+输出：Exact difference map
+actual_flow：Cast, negate and add using the existing phase algebra.
+conditions_exceptions_None_and_side_effects：No file effects; no floating arithmetic.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.__sub__]
+signature_AST_and_source_bytes_actually_verified：true
+
+7. 7
+file：carrier_coupled_extension.py
+qualified_function：LineMap.at
+line：28
+end_line：28
+signature：self, x
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：07710a199cb5a499db04bf9cc63e909b54790d01eaf50be44e09fafa3ee047dd
+actual_invocation_count_in_capture：7112
+输入：Map and unit-interval point
+输出：Exact scalar map value
+actual_flow：Evaluate a+b*x using the containing exact affine phase.
+conditions_exceptions_None_and_side_effects：No file effects; point/phase errors propagate.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.at]
+signature_AST_and_source_bytes_actually_verified：true
+
+8. 8
+file：carrier_coupled_extension.py
+qualified_function：LineMap.cast
+line：25
+end_line：25
+signature：x
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：463e2beae6a2ace1b086c882a4ef79ae2428a49c6caaeedecd878e6e205b1d5e
+actual_invocation_count_in_capture：1660956
+输入：Exact scalar or LineMap
+输出：Existing map or exact constant map
+actual_flow：Preserve an existing phase map; otherwise adapt scalar arithmetic without approximating it.
+conditions_exceptions_None_and_side_effects：No file effects; invalid scalar conversion raises.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.cast]
+signature_AST_and_source_bytes_actually_verified：true
+
+9. 9
+file：carrier_coupled_extension.py
+qualified_function：LineMap.coefficients
+line：26
+end_line：27
+signature：self, x
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：3e02ed633ce446d5825d87c90f18ce2df985dccd1e9dd240f269a6eddc1e9513
+actual_invocation_count_in_capture：1903580
+输入：Map and point in[0,1]
+输出：Exact intercept/slope for its containing phase
+actual_flow：Find a closed phase containing the point. Shared boundary phases agree by constructor continuity.
+conditions_exceptions_None_and_side_effects：No file effects; out-of-domain points have no contract and may raise StopIteration.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.coefficients]
+signature_AST_and_source_bytes_actually_verified：true
+
+10. 10
+file：carrier_coupled_extension.py
+qualified_function：LineMap.constant
+line：21
+end_line：21
+signature：x
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：313a4d05a20017ddc5f9bd43e77fed9941baf1e3612078886ed114e6c061b879
+actual_invocation_count_in_capture：1162622
+输入：Exact scalar
+输出：Constant LineMap over the full unit interval
+actual_flow：Construct one zero-slope phase, preserving exact rational value.
+conditions_exceptions_None_and_side_effects：No file effects; Fraction conversion/domain errors propagate.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.constant]
+signature_AST_and_source_bytes_actually_verified：true
+
+11. 11
+file：carrier_coupled_extension.py
+qualified_function：LineMap.joint
+line：29
+end_line：36
+signature：self, other, operation
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：f7feae2c94cc7f59165f495c07eb5d54bbdf372c9ecfbd9c53d2227f862cc0f0
+actual_invocation_count_in_capture：948234
+输入：Two maps and internal add/max operation
+输出：Complete exact resulting phase map
+actual_flow：Union every existing knot, solve every affine crossing inside each interval for max, keep both sides, and rebuild a continuous complete map. Addition unions phases without inventing roots.
+conditions_exceptions_None_and_side_effects：No file effects. Operation is internally add or max; unsupported caller operations are outside the private domain. Every real crossing is retained, not endpoint sampled.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.joint]
+signature_AST_and_source_bytes_actually_verified：true
+
+12. 12
+file：carrier_coupled_extension.py
+qualified_function：LineMap.maximum
+line：48
+end_line：48
+signature：self, x
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：d8858a06b18f92a1f20286112666180f52d1438b92ce7bbbc60c49c639061427
+actual_invocation_count_in_capture：695670
+输入：Map and scalar/map
+输出：Exact componentwise max map
+actual_flow：Use joint crossing enumeration over the complete unit interval.
+conditions_exceptions_None_and_side_effects：No file effects. Exact zero and shared endpoints are preserved.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.maximum]
+signature_AST_and_source_bytes_actually_verified：true
+
+13. 13
+file：carrier_coupled_extension.py
+qualified_function：LineMap.positive
+line：49
+end_line：49
+signature：self
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：343eb3fb1790af77cc60bc63cd1f033f0217a1f8b1ebb5546d3bf6a49032bd34
+actual_invocation_count_in_capture：10712
+输入：Map
+输出：max(0,map)
+actual_flow：Apply the exact max primitive for food, kill and outer zero clips.
+conditions_exceptions_None_and_side_effects：No file effects; clipping is part of the model, not unknown knowledge.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.positive]
+signature_AST_and_source_bytes_actually_verified：true
+
+14. 14
+file：carrier_coupled_extension.py
+qualified_function：LineMap.variable
+line：23
+end_line：23
+signature：
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：48a3da57378b0d9be424b3be0196ee39a5ea14585e7aee52f8942b3a96955506
+actual_invocation_count_in_capture：1800
+输入：No input
+输出：Identity variable map t or rho over[0,1]
+actual_flow：Construct intercept0/slope1 over the whole interval.
+conditions_exceptions_None_and_side_effects：No file effects; not a caller-selected coefficient or physical time angle.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=LineMap.variable]
+signature_AST_and_source_bytes_actually_verified：true
+
+15. 15
+file：carrier_coupled_extension.py
+qualified_function：exact_fixed
+line：56
+end_line：63
+signature：map_, slope_bound
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：d08225b1ff4a0d88766a2db305448d4eed8da1d374ba3f9f122105fd6b54bf8b
+actual_invocation_count_in_capture：1800
+输入：Continuous self-map and proved absolute slope bound<1
+输出：One exact Fraction fixed point
+actual_flow：Solve each affine phase candidate, check its closed phase and entire map equality, deduplicate boundaries, and require exactly one root.
+conditions_exceptions_None_and_side_effects：No file effects. Slope-bound, missing or multiple-root failures raise rather than approximate a certificate.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=exact_fixed]
+signature_AST_and_source_bytes_actually_verified：true
+
+16. 16
+file：carrier_coupled_extension.py
+qualified_function：expand
+line：132
+end_line：162
+signature：data, rho, t, math
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：5b6dcf41de9e671fbd43e346be0639d82068dad935c0fcf2b0bfac28e8544b05
+actual_invocation_count_in_capture：192
+输入：Guarded data, exact Fraction or inherited interval rho/t, inherited279 interval algebra
+输出：Full individual K/P/F/body stocks and all signed origin edges
+actual_flow：Rebuild each native target retention and generation/control edge, per-origin group unions, actual typed pressure and lambda food-stock cost. Preserve independent original/external retentions and every negative edge.
+conditions_exceptions_None_and_side_effects：No file effects. Interval boxes retain correlations as uncertainty; no duplicate-origin sum or glyph-only pressure exemption. Scalar and port box widths need not coincide.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=expand]
+signature_AST_and_source_bytes_actually_verified：true
+
+17. 17
+file：carrier_coupled_extension.py
+qualified_function：fixed_t_rho
+line：105
+end_line：108
+signature：data, t
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：58bc6a8b29d73c96682bef8af911efba5f36f423aa3711739ff895100a7f4f52
+actual_invocation_count_in_capture：44
+输入：Guarded data and fixed rational t
+输出：Exact rational outer fixed point for that fixed-t phase problem
+actual_flow：Build the rho-variable program with constant body budget, then solve its clipped outer map with slope<=1/8. S0 returns0.
+conditions_exceptions_None_and_side_effects：No file effects. This fixed-t helper does not claim the full joint root unless inner consistency also passes.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=fixed_t_rho]
+signature_AST_and_source_bytes_actually_verified：true
+
+18. 18
+file：carrier_coupled_extension.py
+qualified_function：gain
+line：65
+end_line：68
+signature：source, target, generation
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：6408259dbbbcd148572fbe1eaba114290a1d7ee29807b8907f49b72530f3027f
+actual_invocation_count_in_capture：388774
+输入：Full source/target actor identities and generation flag
+输出：Exact native edge gain
+actual_flow：Use original exponential natal distance; any external endpoint has reach1. Generation1/4 and control1/2 then give original1/4print-control and1/8food-control exceptions.
+conditions_exceptions_None_and_side_effects：No file effects. Actor locations are never fabricated by appending time layers as natal columns.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=gain]
+signature_AST_and_source_bytes_actually_verified：true
+
+19. 19
+file：carrier_coupled_extension.py
+qualified_function：inner
+line：101
+end_line：103
+signature：data, rho, certificate=False
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：b80e512e5d001a598402044f10ab189af29d562159c02989723c6de3d29922c3
+actual_invocation_count_in_capture：1756
+输入：Guarded data, rational rho, certificate flag
+输出：Unique exact t, full scalar witness and optional every affine phase
+actual_flow：Construct the entire t-map, solve all phases under globalL1/16, and re-evaluate the original next-t equality.
+conditions_exceptions_None_and_side_effects：No file effects. Failure raises without partial H; certificates retain all clips/crossings.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=inner]
+signature_AST_and_source_bytes_actually_verified：true
+
+20. 20
+file：carrier_coupled_extension.py
+qualified_function：line_max
+line：51
+end_line：54
+signature：values
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：6f37956d1492145246782039ac96f8596eea5c89b28c3f891871f2c9f9439615
+actual_invocation_count_in_capture：192024
+输入：Iterable of nonnegative-budget scalar/maps
+输出：Exact maximum with zero floor
+actual_flow：Fold max from0, retaining every underlying crossing. Used for per-origin incoming/control unions and selected controller budgets.
+conditions_exceptions_None_and_side_effects：No file effects. Empty list yields0; not a sum of duplicate actor roots.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=line_max]
+signature_AST_and_source_bytes_actually_verified：true
+
+21. 21
+file：carrier_coupled_extension.py
+qualified_function：make_data
+line：70
+end_line：80
+signature：context, enabled, receive_cut=False, birth_cut=False
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：51163d7c36dfe7b3a7dfdf372abfabaf70806e03ee2501f6ee3a6e38d958298e
+actual_invocation_count_in_capture：64
+输入：Source-ready context, enabled package ids and private all-receive/all-birth cuts
+输出：Guarded exact role vectors, all actors, native geometry and proof conditions
+actual_flow：Require one original day, K/food positive, nonnegative exact vectors, identical actual same-stem vectors, and original print/kill month roots for route eligibility. Keep all packages and actors.
+conditions_exceptions_None_and_side_effects：No file effects. Nonidentical full vectors raise ValueError; scalar totals alone do not admit reduction. Private cuts are math interventions, not new source charts.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=make_data]
+signature_AST_and_source_bytes_actually_verified：true
+
+22. 22
+file：carrier_coupled_extension.py
+qualified_function：program
+line：82
+end_line：95
+signature：data, rho, t
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：f48145bc90d91c1f74975da4294c08b653311b9b1d59ded17c244d540a51bc62
+actual_invocation_count_in_capture：3556
+输入：Guarded data; either rho or t variable, other fixed
+输出：Exact per-origin maps, per-target control/food maps and original-kill next-t map
+actual_flow：Compose every print stock, body union, common food input, per-target print maximum, food clipping and selected food-control maximum. Original versus external controls remain distinct.
+conditions_exceptions_None_and_side_effects：No file effects. Multiplication guard forbids both variables varying in one affine program; public coefficients remain fixed.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=program]
+signature_AST_and_source_bytes_actually_verified：true
+
+23. 23
+file：carrier_coupled_extension.py
+qualified_function：root
+line：110
+end_line：130
+signature：data, bits=48
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：d793741ec3c2df6bb92f9c1aa5856a86d0043f1220205d31f9e92d7a72cffdd3
+actual_invocation_count_in_capture：64
+输入：Guarded data and internal positive integer precision(default48)
+输出：Unique joint root as exact rational state or rigorous isolating box
+actual_flow：Evaluate exact threshold1/5, endpoints, no-food t1 and possible zero-t phases. Otherwise bisect strict Phi-rho signs and retain exact inner endpoint certificates.
+conditions_exceptions_None_and_side_effects：No file effects. Internal precision is not a public parameter; only positive integer precision belongs to the private domain. Nondyadic rational roots may remain valid boxes; no midpoint promoted to Fraction.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=root]
+signature_AST_and_source_bytes_actually_verified：true
+
+24. 24
+file：carrier_coupled_extension.py
+qualified_function：scalar_state
+line：97
+end_line：99
+signature：data, rho, t
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：c255546202523fa40077dfa0e2e5feb86c724ebb404e6ee9c52f44cfb0b1da2e
+actual_invocation_count_in_capture：1756
+输入：Guarded data and rational(rho,t)
+输出：Exact inner-point S/food/pressure/cost/next states
+actual_flow：Evaluate the complete phase program, use original-food dominance for common-origin stock cost, and restore potential pressure whenever the complete selected print path is lost.
+conditions_exceptions_None_and_side_effects：No file effects. S0 gives next-rho0. Exact values are rational witness states, not approximations to an irrational final root.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=scalar_state]
+signature_AST_and_source_bytes_actually_verified：true
+
+25. 25
+file：carrier_coupled_extension.py
+qualified_function：solve_world
+line：164
+end_line：177
+signature：context, enabled, math, receive_cut=False, birth_cut=False, bits=48
+source_file_sha256：ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb
+函数AST摘要：7eb9f8bc61e520d8b2ff9ddb538b66537882227418553513bfed7f5a80d0c05e
+actual_invocation_count_in_capture：64
+输入：Source-ready context, enabled positive packages and internal precision/cuts
+输出：Certified complete actor world, strict goals and exact proof record
+actual_flow：Solve the joint system, refine residual-K positivity, expand interval states, and check both rational inner endpoints against full origin dominance and every print incoming union. Decide strict carry at1/5.
+conditions_exceptions_None_and_side_effects：No file effects. Public packages couple receiving/birthday; all-receiving and all-birthday private cuts are separately proved. Unproved state/endpoint mismatch raises, never success fallback.
+source_and_engineering_layer：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=carrier_coupled_extension.py,qualified_function=solve_world]
+signature_AST_and_source_bytes_actually_verified：true
+
+26. 26
+file：extension_model.py
+qualified_function：all_supports
+line：125
+end_line：146
+signature：context, mods
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：88e31eac925df8af12e56568b98fb1a0dbfee5ba2376e725a2fec1b0d64cd34c
+actual_invocation_count_in_capture：2
+输入：Source-ready current context and modules
+输出：Every package world, exact robust minima, native AUX and candidate projection
+actual_flow：Recompute every print/food package subset, require every superset, build maximal-failed complement clauses and complete signed edge accounting, then demand original AUX equality. Project only all-H unique singleton.
+conditions_exceptions_None_and_side_effects：No files changed. More than7 packages or native disagreement raises; failed actual goals have H=None. Joint/mixed alternatives remain unordered. Empty-support state is distinct, although mandatory live-print goal makes it unreachable in this finite source domain.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=all_supports]
+signature_AST_and_source_bytes_actually_verified：true
+
+27. 27
+file：extension_model.py
+qualified_function：canonical
+line：21
+end_line：21
+signature：v
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+actual_invocation_count_in_capture：5
+输入：JSON-compatible value
+输出：Deterministic strict JSON text
+actual_flow：Sort keys, compact serialization and reject nonfinite numbers. Identity helper only.
+conditions_exceptions_None_and_side_effects：No files changed; unsupported objects, nonfinite values or recursion may raise. None is JSON null.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=canonical]
+signature_AST_and_source_bytes_actually_verified：true
+
+28. 28
+file：extension_model.py
+qualified_function：capture
+line：33
+end_line：71
+signature：
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：438cba88a06d61c1357df71f338610be7c888121a2a46c87391e3d08388c1d0e
+actual_invocation_count_in_capture：2
+输入：Fixed component files; no caller source override
+输出：Captured bytes, verified identities, actual280 and117 policies
+actual_flow：Check complete lock/inventory/regular paths, every payload, original own-freeze anchors, exact policies, target/review/aggregate identities and the new fixed engine/contract before first provider.
+conditions_exceptions_None_and_side_effects：Reads files only. Any missing/foreign source raises before provider exec. Coherent outer-lock resealing cannot replace fixed own-freeze anchors; arbitrary target-code replacement is outside this theorem.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=capture]
+signature_AST_and_source_bytes_actually_verified：true
+
+29. 29
+file：extension_model.py
+qualified_function：digest
+line：22
+end_line：22
+signature：v
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431
+actual_invocation_count_in_capture：4
+输入：JSON-compatible value
+输出：Hex SHA256 of canonical UTF-8 JSON
+actual_flow：Hash the exact semantic envelope, source record or proof; it does not authenticate a person/calendar.
+conditions_exceptions_None_and_side_effects：No writes; canonical serialization errors propagate; None is a hashable JSON null.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=digest]
+signature_AST_and_source_bytes_actually_verified：true
+
+30. 30
+file：extension_model.py
+qualified_function：evaluate
+line：148
+end_line：152
+signature：request
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：c82a9b80d4e5225459a13e55089149c90462eecf3b5013e5135c2f7295559829
+actual_invocation_count_in_capture：2
+输入：Exact286 current input
+输出：Full JSON-compatible current whole report or source/time knowledge state
+actual_flow：Verify sources, native input and source tasks first; only ready current source calls all_supports. Preserve reports, H and candidate theme while declaring current extension not adopted.
+conditions_exceptions_None_and_side_effects：Reads verified providers but never writes. Bad inputs raise to main; pending/unknown are returned data. No natal B/theme deployment or score change.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=evaluate]
+signature_AST_and_source_bytes_actually_verified：true
+
+31. 31
+file：extension_model.py
+qualified_function：load_modules
+line：73
+end_line：79
+signature：
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：167cf7390d1bb9e2756548ae9b97c13efd1f4748e2dae49fa278125ee3c1ab68
+actual_invocation_count_in_capture：2
+输入：No caller parameters
+输出：Fresh279, native window, new engine and verified packs
+actual_flow：Capture all sources first, recheck compiled provider bytes, then load exact inherited modules.280 is source/whole authority only, not286 current/consumer approval.
+conditions_exceptions_None_and_side_effects：Reads and executes verified local code, with no artifact writes. Source failures raise; returned modules are fresh.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=load_modules]
+signature_AST_and_source_bytes_actually_verified：true
+
+32. 32
+file：extension_model.py
+qualified_function：main
+line：154
+end_line：162
+signature：
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：f51a4123fb95da31d7abaabe9043e80975d2dc90ef512318ec88194b3d495ae8
+actual_invocation_count_in_capture：1
+输入：Bounded stdin JSON
+输出：One stdout JSON line and exit0, or atomic rejected line and exit2
+actual_flow：Set no-bytecode mode, reject over-size input, strictly parse and evaluate once. Catch declared software/depth/arithmetic errors and inherited structured native errors.
+conditions_exceptions_None_and_side_effects：Consumes stdin/writes stdout only. Tests include deep JSON, future bad records and every full normal API/CLI; no artifact writes or ordinary fallback.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=main]
+signature_AST_and_source_bytes_actually_verified：true
+
+33. 33
+file：extension_model.py
+qualified_function：source_intake
+line：88
+end_line：123
+signature：request, reports, mods
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：c408589ea2e960772421b6b2f626ebbef8d8d80f1c016f65ab091f40d3d4de5c
+actual_invocation_count_in_capture：2
+输入：Request, native reports and verified modules
+输出：Full raw/time actor/hidden/ROOT/gain facts, ready and exact pending/unknown reasons
+actual_flow：Retain279 source gate, select actual five records, keep all nine actors, native named relation/climate tasks and current_ports. Verify original279 baseline, equal same-stem vectors and all actual native gains before reduction.
+conditions_exceptions_None_and_side_effects：No artifact writes. Actual unimplemented roles/relations remain pending, never zero or success-based fallback. Unknown time returns knowledge_unknown. Invalid native/source bindings raise.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=source_intake]
+signature_AST_and_source_bytes_actually_verified：true
+
+34. 34
+file：extension_model.py
+qualified_function：strict
+line：23
+end_line：31
+signature：v
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：f3b3bf6aa460b202f1c44be4abdc51d8cf32abfd9410d9b753a8b438fa2640fd
+actual_invocation_count_in_capture：38
+输入：JSON text/bytes
+输出：Parsed Python JSON or exception
+actual_flow：Use duplicate-key and nonfinite callbacks before fields can be erased or quantities admitted.
+conditions_exceptions_None_and_side_effects：No files changed; syntax/depth/type/callback errors propagate. JSON null is a normal None, not an unknown-context decision.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=strict]
+signature_AST_and_source_bytes_actually_verified：true
+
+35. 35
+file：extension_model.py
+qualified_function：strict.bad
+line：30
+end_line：30
+signature：v
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31
+actual_invocation_count_in_capture：1
+输入：Nonfinite token string
+输出：Always ValueError
+actual_flow：Reject NaN/Infinity before source identity or arithmetic.
+conditions_exceptions_None_and_side_effects：No normal return. Profile return-None is exception unwind, not a successful unknown value.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=strict.bad]
+signature_AST_and_source_bytes_actually_verified：true
+
+36. 36
+file：extension_model.py
+qualified_function：strict.pairs
+line：24
+end_line：29
+signature：rows
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：2a72712bc22459575237e24cf8c62d6e9f11515ff6d8227085c7e65eff8013c2
+actual_invocation_count_in_capture：6064
+输入：Ordered key/value rows
+输出：One dict or duplicate-key ValueError
+actual_flow：Reject an already-seen key, preserving every ordinary value including None.
+conditions_exceptions_None_and_side_effects：No writes; normally returns a dict.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=strict.pairs]
+signature_AST_and_source_bytes_actually_verified：true
+
+37. 37
+file：extension_model.py
+qualified_function：validate
+line：81
+end_line：86
+signature：request, mods
+source_file_sha256：733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063
+函数AST摘要：d2fc5f1451e9290fe1ea821f0f6628092f20ef095f7619f5952e48e5b447aa10
+actual_invocation_count_in_capture：2
+输入：Exact286 outer request and verified packs
+输出：Original native validation reports
+actual_flow：Validate explicit method/profile/schema and all outer bindings; invoke the unchanged native full-input validator, including all future unselected records.
+conditions_exceptions_None_and_side_effects：No artifact writes. Native structured input errors propagate; no current world or H is solved here.
+source_and_engineering_layer：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+complete_actual_IO_reference：actual_new_algorithm_IO.json.gz records[file=extension_model.py,qualified_function=validate]
+signature_AST_and_source_bytes_actually_verified：true
+
+原件：work/rev286_food_kill_print_current_consumer/model_whole_extension/algorithm_rules_ten_fields.json
+SHA256：875e88b9dae4d3939a9a79473ba49d269060d72c780dd8374f32c1742f072ebd
+
+1. 286-A01
+算法标识：286-A01
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Map and scalar/map; exact signature self, x
+exclusions：No file effects; conversion and phase errors propagate.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Delegate to joint addition on the full shared phase partition.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.__add__; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 2f7af649129f852078cb16c2aff9e02f3aee30a16f1391b6912f5f1cf78b0aab
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact sum map
+
+2. 286-A02
+算法标识：286-A02
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Rows(left,right,intercept,slope) over[0,1]; exact signature self, rows
+exclusions：No file effects. Rows must be nonempty valid exact phases; invalid coverage/continuity raises. None here is constructor completion.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Convert to Fraction, coalesce adjacent identical affine rows, and assert complete contiguous coverage and continuity at every boundary.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.__init__; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST f1e4aff7b051ab2cf26db044794f5d39f343cb64029a7a0b2dd6870333e452cb
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Initialized exact continuous piecewise-affine object; normal return None
+
+3. 286-A03
+算法标识：286-A03
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Map and scalar or a constant map; exact signature self, x
+exclusions：No file effects. Assertion prevents silently treating a quadratic as affine. Public flow fixes rho when t varies, or t when rho varies.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Multiply affine coefficients only when one operand is constant. Enforce the single-variable phase program; variable times variable is rejected.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.__mul__; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST a0318d437aebb278b54263a3e4c7f0640f6fd844950bf84482c297c0e673a90e
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact scalar-multiplied map
+
+4. 286-A04
+算法标识：286-A04
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Map; exact signature self
+exclusions：No file effects; preserves continuity.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Negate each intercept/slope without changing its interval partition.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.__neg__; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 4ad7a2ee26c78bdbd95f8533ae4624428d539eb02d563bd1201d14b15b9d72de
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Negated exact map
+
+5. 286-A05
+算法标识：286-A05
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Scalar/map minus this map; exact signature self, x
+exclusions：No file effects; this is necessary for1-Q/K and1-cost/S.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Cast the left operand and add the negated right map.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.__rsub__; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 70cac47a51203862dad4f604d2700179937cf83fa4a77033ba587a65c8a26dfe
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact reversed difference map
+
+6. 286-A06
+算法标识：286-A06
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Map and scalar/map; exact signature self, x
+exclusions：No file effects; no floating arithmetic.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Cast, negate and add using the existing phase algebra.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.__sub__; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST bdbd8133c93918b036bf882801212a8ca1bbf622dc3ad4616a103c3cbec2d6e6
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact difference map
+
+7. 286-A07
+算法标识：286-A07
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Map and unit-interval point; exact signature self, x
+exclusions：No file effects; point/phase errors propagate.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Evaluate a+b*x using the containing exact affine phase.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.at; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 07710a199cb5a499db04bf9cc63e909b54790d01eaf50be44e09fafa3ee047dd
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact scalar map value
+
+8. 286-A08
+算法标识：286-A08
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Exact scalar or LineMap; exact signature x
+exclusions：No file effects; invalid scalar conversion raises.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Preserve an existing phase map; otherwise adapt scalar arithmetic without approximating it.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.cast; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 463e2beae6a2ace1b086c882a4ef79ae2428a49c6caaeedecd878e6e205b1d5e
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Existing map or exact constant map
+
+9. 286-A09
+算法标识：286-A09
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Map and point in[0,1]; exact signature self, x
+exclusions：No file effects; out-of-domain points have no contract and may raise StopIteration.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Find a closed phase containing the point. Shared boundary phases agree by constructor continuity.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.coefficients; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 3e02ed633ce446d5825d87c90f18ce2df985dccd1e9dd240f269a6eddc1e9513
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact intercept/slope for its containing phase
+
+10. 286-A10
+算法标识：286-A10
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Exact scalar; exact signature x
+exclusions：No file effects; Fraction conversion/domain errors propagate.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Construct one zero-slope phase, preserving exact rational value.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.constant; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 313a4d05a20017ddc5f9bd43e77fed9941baf1e3612078886ed114e6c061b879
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Constant LineMap over the full unit interval
+
+11. 286-A11
+算法标识：286-A11
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Two maps and internal add/max operation; exact signature self, other, operation
+exclusions：No file effects. Operation is internally add or max; unsupported caller operations are outside the private domain. Every real crossing is retained, not endpoint sampled.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Union every existing knot, solve every affine crossing inside each interval for max, keep both sides, and rebuild a continuous complete map. Addition unions phases without inventing roots.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.joint; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST f7feae2c94cc7f59165f495c07eb5d54bbdf372c9ecfbd9c53d2227f862cc0f0
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Complete exact resulting phase map
+
+12. 286-A12
+算法标识：286-A12
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Map and scalar/map; exact signature self, x
+exclusions：No file effects. Exact zero and shared endpoints are preserved.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Use joint crossing enumeration over the complete unit interval.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.maximum; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST d8858a06b18f92a1f20286112666180f52d1438b92ce7bbbc60c49c639061427
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact componentwise max map
+
+13. 286-A13
+算法标识：286-A13
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Map; exact signature self
+exclusions：No file effects; clipping is part of the model, not unknown knowledge.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Apply the exact max primitive for food, kill and outer zero clips.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.positive; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 343eb3fb1790af77cc60bc63cd1f033f0217a1f8b1ebb5546d3bf6a49032bd34
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：max(0,map)
+
+14. 286-A14
+算法标识：286-A14
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：No input; exact signature 
+exclusions：No file effects; not a caller-selected coefficient or physical time angle.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Construct intercept0/slope1 over the whole interval.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::LineMap.variable; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 48a3da57378b0d9be424b3be0196ee39a5ea14585e7aee52f8942b3a96955506
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Identity variable map t or rho over[0,1]
+
+15. 286-A15
+算法标识：286-A15
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Continuous self-map and proved absolute slope bound<1; exact signature map_, slope_bound
+exclusions：No file effects. Slope-bound, missing or multiple-root failures raise rather than approximate a certificate.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Solve each affine phase candidate, check its closed phase and entire map equality, deduplicate boundaries, and require exactly one root.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::exact_fixed; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST d08225b1ff4a0d88766a2db305448d4eed8da1d374ba3f9f122105fd6b54bf8b
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：One exact Fraction fixed point
+
+16. 286-A16
+算法标识：286-A16
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Guarded data, exact Fraction or inherited interval rho/t, inherited279 interval algebra; exact signature data, rho, t, math
+exclusions：No file effects. Interval boxes retain correlations as uncertainty; no duplicate-origin sum or glyph-only pressure exemption. Scalar and port box widths need not coincide.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Rebuild each native target retention and generation/control edge, per-origin group unions, actual typed pressure and lambda food-stock cost. Preserve independent original/external retentions and every negative edge.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::expand; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 5b6dcf41de9e671fbd43e346be0639d82068dad935c0fcf2b0bfac28e8544b05
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Full individual K/P/F/body stocks and all signed origin edges
+
+17. 286-A17
+算法标识：286-A17
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Guarded data and fixed rational t; exact signature data, t
+exclusions：No file effects. This fixed-t helper does not claim the full joint root unless inner consistency also passes.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Build the rho-variable program with constant body budget, then solve its clipped outer map with slope<=1/8. S0 returns0.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::fixed_t_rho; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 58bc6a8b29d73c96682bef8af911efba5f36f423aa3711739ff895100a7f4f52
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact rational outer fixed point for that fixed-t phase problem
+
+18. 286-A18
+算法标识：286-A18
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Full source/target actor identities and generation flag; exact signature source, target, generation
+exclusions：No file effects. Actor locations are never fabricated by appending time layers as natal columns.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Use original exponential natal distance; any external endpoint has reach1. Generation1/4 and control1/2 then give original1/4print-control and1/8food-control exceptions.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::gain; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 6408259dbbbcd148572fbe1eaba114290a1d7ee29807b8907f49b72530f3027f
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact native edge gain
+
+19. 286-A19
+算法标识：286-A19
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Guarded data, rational rho, certificate flag; exact signature data, rho, certificate=False
+exclusions：No file effects. Failure raises without partial H; certificates retain all clips/crossings.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Construct the entire t-map, solve all phases under globalL1/16, and re-evaluate the original next-t equality.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::inner; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST b80e512e5d001a598402044f10ab189af29d562159c02989723c6de3d29922c3
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Unique exact t, full scalar witness and optional every affine phase
+
+20. 286-A20
+算法标识：286-A20
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Iterable of nonnegative-budget scalar/maps; exact signature values
+exclusions：No file effects. Empty list yields0; not a sum of duplicate actor roots.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Fold max from0, retaining every underlying crossing. Used for per-origin incoming/control unions and selected controller budgets.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::line_max; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 6f37956d1492145246782039ac96f8596eea5c89b28c3f891871f2c9f9439615
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact maximum with zero floor
+
+21. 286-A21
+算法标识：286-A21
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Source-ready context, enabled package ids and private all-receive/all-birth cuts; exact signature context, enabled, receive_cut=False, birth_cut=False
+exclusions：No file effects. Nonidentical full vectors raise ValueError; scalar totals alone do not admit reduction. Private cuts are math interventions, not new source charts.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Require one original day, K/food positive, nonnegative exact vectors, identical actual same-stem vectors, and original print/kill month roots for route eligibility. Keep all packages and actors.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::make_data; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 51163d7c36dfe7b3a7dfdf372abfabaf70806e03ee2501f6ee3a6e38d958298e
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Guarded exact role vectors, all actors, native geometry and proof conditions
+
+22. 286-A22
+算法标识：286-A22
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Guarded data; either rho or t variable, other fixed; exact signature data, rho, t
+exclusions：No file effects. Multiplication guard forbids both variables varying in one affine program; public coefficients remain fixed.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Compose every print stock, body union, common food input, per-target print maximum, food clipping and selected food-control maximum. Original versus external controls remain distinct.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::program; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST f48145bc90d91c1f74975da4294c08b653311b9b1d59ded17c244d540a51bc62
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact per-origin maps, per-target control/food maps and original-kill next-t map
+
+23. 286-A23
+算法标识：286-A23
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Guarded data and internal positive integer precision(default48); exact signature data, bits=48
+exclusions：No file effects. Internal precision is not a public parameter; only positive integer precision belongs to the private domain. Nondyadic rational roots may remain valid boxes; no midpoint promoted to Fraction.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Evaluate exact threshold1/5, endpoints, no-food t1 and possible zero-t phases. Otherwise bisect strict Phi-rho signs and retain exact inner endpoint certificates.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::root; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST d793741ec3c2df6bb92f9c1aa5856a86d0043f1220205d31f9e92d7a72cffdd3
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Unique joint root as exact rational state or rigorous isolating box
+
+24. 286-A24
+算法标识：286-A24
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Guarded data and rational(rho,t); exact signature data, rho, t
+exclusions：No file effects. S0 gives next-rho0. Exact values are rational witness states, not approximations to an irrational final root.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Evaluate the complete phase program, use original-food dominance for common-origin stock cost, and restore potential pressure whenever the complete selected print path is lost.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::scalar_state; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST c255546202523fa40077dfa0e2e5feb86c724ebb404e6ee9c52f44cfb0b1da2e
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Exact inner-point S/food/pressure/cost/next states
+
+25. 286-A25
+算法标识：286-A25
+source：multicarrier_domain_proof.md; source_contract.json; exact inherited279 and native window012
+preconditions：Source-ready context, enabled positive packages and internal precision/cuts; exact signature context, enabled, math, receive_cut=False, birth_cut=False, bits=48
+exclusions：No file effects. Public packages couple receiving/birthday; all-receiving and all-birthday private cuts are separately proved. Unproved state/endpoint mismatch raises, never success fallback.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Solve the joint system, refine residual-K positivity, expand interval states, and check both rational inner endpoints against full origin dominance and every print incoming union. Decide strict carry at1/5.
+tests：actual_new_algorithm_IO.json.gz::carrier_coupled_extension.py::solve_world; sourcefileSHA ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb; AST 7eb9f8bc61e520d8b2ff9ddb538b66537882227418553513bfed7f5a80d0c05e
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Certified complete actor world, strict goals and exact proof record
+
+26. 286-A26
+算法标识：286-A26
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：Source-ready current context and modules; exact signature context, mods
+exclusions：No files changed. More than7 packages or native disagreement raises; failed actual goals have H=None. Joint/mixed alternatives remain unordered. Empty-support state is distinct, although mandatory live-print goal makes it unreachable in this finite source domain.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Recompute every print/food package subset, require every superset, build maximal-failed complement clauses and complete signed edge accounting, then demand original AUX equality. Project only all-H unique singleton.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::all_supports; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST 88e31eac925df8af12e56568b98fb1a0dbfee5ba2376e725a2fec1b0d64cd34c
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Every package world, exact robust minima, native AUX and candidate projection
+
+27. 286-A27
+算法标识：286-A27
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：JSON-compatible value; exact signature v
+exclusions：No files changed; unsupported objects, nonfinite values or recursion may raise. None is JSON null.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Sort keys, compact serialization and reject nonfinite numbers. Identity helper only.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::canonical; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST 49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Deterministic strict JSON text
+
+28. 286-A28
+算法标识：286-A28
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：Fixed component files; no caller source override; exact signature 
+exclusions：Reads files only. Any missing/foreign source raises before provider exec. Coherent outer-lock resealing cannot replace fixed own-freeze anchors; arbitrary target-code replacement is outside this theorem.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Check complete lock/inventory/regular paths, every payload, original own-freeze anchors, exact policies, target/review/aggregate identities and the new fixed engine/contract before first provider.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::capture; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST 438cba88a06d61c1357df71f338610be7c888121a2a46c87391e3d08388c1d0e
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Captured bytes, verified identities, actual280 and117 policies
+
+29. 286-A29
+算法标识：286-A29
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：JSON-compatible value; exact signature v
+exclusions：No writes; canonical serialization errors propagate; None is a hashable JSON null.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Hash the exact semantic envelope, source record or proof; it does not authenticate a person/calendar.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::digest; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Hex SHA256 of canonical UTF-8 JSON
+
+30. 286-A30
+算法标识：286-A30
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：Exact286 current input; exact signature request
+exclusions：Reads verified providers but never writes. Bad inputs raise to main; pending/unknown are returned data. No natal B/theme deployment or score change.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Verify sources, native input and source tasks first; only ready current source calls all_supports. Preserve reports, H and candidate theme while declaring current extension not adopted.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::evaluate; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST c82a9b80d4e5225459a13e55089149c90462eecf3b5013e5135c2f7295559829
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Full JSON-compatible current whole report or source/time knowledge state
+
+31. 286-A31
+算法标识：286-A31
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：No caller parameters; exact signature 
+exclusions：Reads and executes verified local code, with no artifact writes. Source failures raise; returned modules are fresh.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Capture all sources first, recheck compiled provider bytes, then load exact inherited modules.280 is source/whole authority only, not286 current/consumer approval.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::load_modules; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST 167cf7390d1bb9e2756548ae9b97c13efd1f4748e2dae49fa278125ee3c1ab68
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Fresh279, native window, new engine and verified packs
+
+32. 286-A32
+算法标识：286-A32
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：Bounded stdin JSON; exact signature 
+exclusions：Consumes stdin/writes stdout only. Tests include deep JSON, future bad records and every full normal API/CLI; no artifact writes or ordinary fallback.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Set no-bytecode mode, reject over-size input, strictly parse and evaluate once. Catch declared software/depth/arithmetic errors and inherited structured native errors.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::main; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST f51a4123fb95da31d7abaabe9043e80975d2dc90ef512318ec88194b3d495ae8
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：One stdout JSON line and exit0, or atomic rejected line and exit2
+
+33. 286-A33
+算法标识：286-A33
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：Request, native reports and verified modules; exact signature request, reports, mods
+exclusions：No artifact writes. Actual unimplemented roles/relations remain pending, never zero or success-based fallback. Unknown time returns knowledge_unknown. Invalid native/source bindings raise.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Retain279 source gate, select actual five records, keep all nine actors, native named relation/climate tasks and current_ports. Verify original279 baseline, equal same-stem vectors and all actual native gains before reduction.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::source_intake; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST c408589ea2e960772421b6b2f626ebbef8d8d80f1c016f65ab091f40d3d4de5c
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Full raw/time actor/hidden/ROOT/gain facts, ready and exact pending/unknown reasons
+
+34. 286-A34
+算法标识：286-A34
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：JSON text/bytes; exact signature v
+exclusions：No files changed; syntax/depth/type/callback errors propagate. JSON null is a normal None, not an unknown-context decision.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Use duplicate-key and nonfinite callbacks before fields can be erased or quantities admitted.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::strict; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST f3b3bf6aa460b202f1c44be4abdc51d8cf32abfd9410d9b753a8b438fa2640fd
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Parsed Python JSON or exception
+
+35. 286-A35
+算法标识：286-A35
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：Nonfinite token string; exact signature v
+exclusions：No normal return. Profile return-None is exception unwind, not a successful unknown value.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Reject NaN/Infinity before source identity or arithmetic.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::strict.bad; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Always ValueError
+
+36. 286-A36
+算法标识：286-A36
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：Ordered key/value rows; exact signature rows
+exclusions：No writes; normally returns a dict.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Reject an already-seen key, preserving every ordinary value including None.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::strict.pairs; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST 2a72712bc22459575237e24cf8c62d6e9f11515ff6d8227085c7e65eff8013c2
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：One dict or duplicate-key ValueError
+
+37. 286-A37
+算法标识：286-A37
+source：Actual280/117/275 correspondence and strict native contracts; numerical/source interpretations are separately labelled
+preconditions：Exact286 outer request and verified packs; exact signature request, mods
+exclusions：No artifact writes. Native structured input errors propagate; no current world or H is solved here.
+changes：Actual native records determine ports and graph; this function does not change natal columns, B or coefficients.
+conflicts：Classical source condition, numeric engineering, software proof and real prediction remain distinct; no H-success source switch.
+expression：Validate explicit method/profile/schema and all outer bindings; invoke the unchanged native full-input validator, including all future unselected records.
+tests：actual_new_algorithm_IO.json.gz::extension_model.py::validate; sourcefileSHA 733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063; AST d2fc5f1451e9290fe1ea821f0f6628092f20ef095f7619f5952e48e5b447aa10
+status：actual_body_called_explained_candidate_pending_nonauthor_review
+explanation：Original native validation reports
+
+原件：work/rev286_food_kill_print_current_consumer/model_whole_extension/functional_rules_ten_fields.json
+SHA256：460a2a282c49b27d007f694183b1bd16cdb8961e3c50fe8ccecccf4b76f9a855
+
+1. 286-SOURCE
+算法标识：286-SOURCE
+source：Actual280 exact279 and Primary43/76/77
+preconditions：Original MCN3/Jia/K/F source ready, original roots and every old named task closed
+exclusions：No failure fallback or invented Chen-hiddenJia/Ren-for-Gui; unclosed relation/climate stayspending
+changes：Actual current actor facts are selected by full native five-layer input
+conflicts：280 is source/whole only, not currentextension/consumer adoption
+expression：source_intake before all_supports
+tests：A/B native source + foreignrole/fullrelation pending
+status：implemented_author_candidate_not_adopted
+explanation：Fixed selected food-uses-kill-print whole question
+
+2. 286-TIME
+算法标识：286-TIME
+source：Primary56-59 whole-natal luck wording plus explicit native EX-T5
+preconditions：Same natal chart; actual legal five-layer records and complete bindings
+exclusions：No symbolicT, equal layer weights, latest-layer override or calendar-authenticity claim
+changes：Native time roots/visible credits; temporary monthly never replaces natalmonth
+conflicts：Luck source versus annual/month/day/hour project extension separated
+expression：Native validate_request/actors_from_selected/current_ports
+tests：10record A/B + future bad + halfopenEND
+status：implemented_author_candidate_not_adopted
+explanation：Real typed context facts alter the actual graph
+
+3. 286-ALLACTORS
+算法标识：286-ALLACTORS
+source：Native reach and ROOT inventories, explicit new full graph
+preconditions：All original4 and every external actor/hidden/ROOT row retained
+exclusions：Unsupported roles or nonidenticalvectors pending; no glyph->actor and no deletion
+changes：Each time actor keeps its own1/2control geometry
+conflicts：Same stem alone is not proof of equal all-function behavior
+expression：All31edges; actualgain record equality
+tests：9actors/81ROOT per source state;22operatorcases
+status：implemented_author_candidate_not_adopted
+explanation：Full actors precede any exact reduction
+
+4. 286-DOMINANCE
+算法标识：286-DOMINANCE
+source：New componentwise proof in multicarrier_domain_proof.md
+preconditions：Identical same-stem full D; nativegain matrix exact
+exclusions：Plausible scalar total alone insufficient
+changes：Original F dominates external F; original K dominates external K
+conflicts：Retentions still differ; time actors are not moved into natalpositions
+expression：Per-origin controls then uniformretention then groupmax
+tests：DifferentKretentions in16simpleworlds; vectorguardnegative
+status：implemented_author_candidate_not_adopted
+explanation：Exact dimension reduction with complete expansion
+
+5. 286-INNER
+算法标识：286-INNER
+source：New complete phase proof, fixed inheritedgains
+preconditions：One variable at a time; nonnegative exact ports
+exclusions：No corner sampling or variable*variable affine lie
+changes：Split all P/T/controlmax/food0/K0 intersections
+conflicts：Old279single-cell proof does not cover new externalgainmatrix
+expression：Exact LineMap; unique t underL<=1/16
+tests：22operatorworlds +64currentworlds +original8regressions
+status：implemented_author_candidate_not_adopted
+explanation：Exhaustive continuous full-domain inner solve
+
+6. 286-OUTER
+算法标识：286-OUTER
+source：New implicit derivative/contraction proof
+preconditions：Public print packages pair receiving/birthday; guarded roots
+exclusions：No approximate midpoint or claim every rationalroot is recognized as point
+changes：Monotone inner t and originalfood; cuts useconstantS4/15bound
+conflicts：Pressure cuts restore same post-foodK, not rawstock or totalexemption
+expression：Unique Phi-rho root; rational endpoint witnesses
+tests：Strict equal/two sides, receiving/birthday cuts, zeroK
+status：implemented_author_candidate_not_adopted
+explanation：Exact root existence/uniqueness and epistemic boxes
+
+7. 286-UNITS
+算法标识：286-UNITS
+source：Original71lambda1/2 and279carry contract
+preconditions：Actual common-origin food stock and Kpressure computed
+exclusions：Not generationcredit,3/4otherproxy or duplicateactorroot sum
+changes：Cost=lambdaFgroup+actualKpressure; rho charges once
+conflicts：Qualification, positivebudget and remainingcapacity separate
+expression：S>5/4cost iff rho>1/5
+tests：704/279byunchangedbytes; new22 and64 worlds
+status：implemented_author_candidate_not_adopted
+explanation：Keep the units of every positive and negative function
+
+8. 286-PATH
+算法标识：286-PATH
+source：P76selectedquestion plus bounded typedroute engineering
+preconditions：Original root eligibility and same print actual receive+birthday
+exclusions：Print name/ROOT alone not pressure0; zeroK has no live task
+changes：Lost receiving or birthday restores actualcurrentpotential
+conflicts：Typedzero is a limited declared proxy, not ancientphysical theorem
+expression：All per-K pressure edges and same-stock printcredits
+tests：2realoperatorcuts andzeroK
+status：implemented_author_candidate_not_adopted
+explanation：No spared positive K when food controls its negative task
+
+9. 286-H
+算法标识：286-H
+source：Unchanged native AUX plus complete signed package semantics
+preconditions：All subsets solved and allsupersets pass same hardgoals
+exclusions：No firstH/roleunion/rolecolor/rank/equalweights
+changes：Independent original/time P/F packages, negatives remain
+conflicts：All AND-within and OR-between preserved
+expression：Maxbad complementCNF, strict native7-fieldtasks
+tests：64truth rows,3P singletonsB/A noH, nativeAUX equal
+status：implemented_author_candidate_not_adopted
+explanation：All complete H precede candidate element
+
+10. 286-KNOWLEDGE
+算法标识：286-KNOWLEDGE
+source：Native clock and explicit whole-question knowledge types
+preconditions：Source/frame/input identity exact
+exclusions：Unknown not zero; goal failure not source-pending; no endpoint fill
+changes：Sourcepending,unknown_context,actual_goals_failed,knownH separate
+conflicts：Empty-support state is distinct but unreachable under mandatoryliveprint here
+expression：evaluate status + complete current report
+tests：Protocol7 +strict9
+status：implemented_author_candidate_not_adopted
+explanation：Product can explain why no current theme exists
+
+11. 286-AUTHORITY
+算法标识：286-AUTHORITY
+source：Real280 model +117 transport; future separate inner/consumer acceptance
+preconditions：Genuine rootpolicy bytes and exacttarget/review/aggregate correspondence
+exclusions：No fabricated accepted fixture, policy cycle or natalB bridge
+changes：Inner freezes independently; upperconsumer is one-way
+conflicts：Old261/233source-specific adoption is reference only fornewMCN3
+expression：current_extension_project_adopted=false; BNone
+tests：Source14zeroexec+clean1; oldaggregate loaderfailure preserved
+status：implemented_author_candidate_not_adopted
+explanation：Concrete candidate before root adoption
+
+12. 286-REFERENCE
+算法标识：286-REFERENCE
+source：User request to retain every reference and original58navigation
+preconditions：Edition/page/URL/localSHA/readgrade and specific supported/refuted rule
+exclusions：No invented URL, scan read or fullbookreading; no AIguide asprimary
+changes：Keep original PDFs/images/transcripts, proofs and all real failures
+conflicts：Inherited read receipt versus actual new read clearly labelled
+expression：reference_receipt.json and source_cards.json
+tests：287pagePDFarchive; newlyviewed56-59; prior43/76/77
+status：implemented_author_candidate_not_adopted
+explanation：Aggregatable stable knowledge evidence without root-index mutation
+
+原件：work/rev286_food_kill_print_current_consumer/model_whole_extension/actual_new_algorithm_IO_index.json
+SHA256：d4af4fac23d4e9643cd1fab8b048129e9f10405671805700d1b943e425775b8e
+
+{
+  "status": "passed",
+  "static_new_qualified_functions": 37,
+  "actual_new_qualified_functions": 37,
+  "missing": [],
+  "core_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+  "engine_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+  "actual_main_A_stdout_sha256": "d409fc85455292b8c9822d5b0b4bbdcdaa8f664123a9fb75dc340eef283496bf",
+  "actual_main_A_stdout_file": "actual_main_A_stdout.json.gz",
+  "strict_nonfinite_exception_callback_actually_called": true,
+  "assigned_method_aliases_not_fictitious_new_function_definitions": [
+    "LineMap.__radd__=__add__",
+    "LineMap.__rmul__=__mul__"
+  ],
+  "no_frozen_dependency_files_written": true,
+  "records": [
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.__add__",
+      "line": 37,
+      "end_line": 37,
+      "signature": "self, x",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "2f7af649129f852078cb16c2aff9e02f3aee30a16f1391b6912f5f1cf78b0aab",
+      "actual_invocation_count_in_capture": 252564
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.__init__",
+      "line": 12,
+      "end_line": 19,
+      "signature": "self, rows",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "f1e4aff7b051ab2cf26db044794f5d39f343cb64029a7a0b2dd6870333e452cb",
+      "actual_invocation_count_in_capture": 2811970
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.__mul__",
+      "line": 42,
+      "end_line": 46,
+      "signature": "self, x",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "a0318d437aebb278b54263a3e4c7f0640f6fd844950bf84482c297c0e673a90e",
+      "actual_invocation_count_in_capture": 694898
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.__neg__",
+      "line": 39,
+      "end_line": 39,
+      "signature": "self",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "4ad7a2ee26c78bdbd95f8533ae4624428d539eb02d563bd1201d14b15b9d72de",
+      "actual_invocation_count_in_capture": 21424
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.__rsub__",
+      "line": 41,
+      "end_line": 41,
+      "signature": "self, x",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "70cac47a51203862dad4f604d2700179937cf83fa4a77033ba587a65c8a26dfe",
+      "actual_invocation_count_in_capture": 3600
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.__sub__",
+      "line": 40,
+      "end_line": 40,
+      "signature": "self, x",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "bdbd8133c93918b036bf882801212a8ca1bbf622dc3ad4616a103c3cbec2d6e6",
+      "actual_invocation_count_in_capture": 7112
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.at",
+      "line": 28,
+      "end_line": 28,
+      "signature": "self, x",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "07710a199cb5a499db04bf9cc63e909b54790d01eaf50be44e09fafa3ee047dd",
+      "actual_invocation_count_in_capture": 7112
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.cast",
+      "line": 25,
+      "end_line": 25,
+      "signature": "x",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "463e2beae6a2ace1b086c882a4ef79ae2428a49c6caaeedecd878e6e205b1d5e",
+      "actual_invocation_count_in_capture": 1660956
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.coefficients",
+      "line": 26,
+      "end_line": 27,
+      "signature": "self, x",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "3e02ed633ce446d5825d87c90f18ce2df985dccd1e9dd240f269a6eddc1e9513",
+      "actual_invocation_count_in_capture": 1903580
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.constant",
+      "line": 21,
+      "end_line": 21,
+      "signature": "x",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "313a4d05a20017ddc5f9bd43e77fed9941baf1e3612078886ed114e6c061b879",
+      "actual_invocation_count_in_capture": 1162622
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.joint",
+      "line": 29,
+      "end_line": 36,
+      "signature": "self, other, operation",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "f7feae2c94cc7f59165f495c07eb5d54bbdf372c9ecfbd9c53d2227f862cc0f0",
+      "actual_invocation_count_in_capture": 948234
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.maximum",
+      "line": 48,
+      "end_line": 48,
+      "signature": "self, x",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "d8858a06b18f92a1f20286112666180f52d1438b92ce7bbbc60c49c639061427",
+      "actual_invocation_count_in_capture": 695670
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.positive",
+      "line": 49,
+      "end_line": 49,
+      "signature": "self",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "343eb3fb1790af77cc60bc63cd1f033f0217a1f8b1ebb5546d3bf6a49032bd34",
+      "actual_invocation_count_in_capture": 10712
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "LineMap.variable",
+      "line": 23,
+      "end_line": 23,
+      "signature": "",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "48a3da57378b0d9be424b3be0196ee39a5ea14585e7aee52f8942b3a96955506",
+      "actual_invocation_count_in_capture": 1800
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "exact_fixed",
+      "line": 56,
+      "end_line": 63,
+      "signature": "map_, slope_bound",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "d08225b1ff4a0d88766a2db305448d4eed8da1d374ba3f9f122105fd6b54bf8b",
+      "actual_invocation_count_in_capture": 1800
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "expand",
+      "line": 132,
+      "end_line": 162,
+      "signature": "data, rho, t, math",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "5b6dcf41de9e671fbd43e346be0639d82068dad935c0fcf2b0bfac28e8544b05",
+      "actual_invocation_count_in_capture": 192
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "fixed_t_rho",
+      "line": 105,
+      "end_line": 108,
+      "signature": "data, t",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "58bc6a8b29d73c96682bef8af911efba5f36f423aa3711739ff895100a7f4f52",
+      "actual_invocation_count_in_capture": 44
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "gain",
+      "line": 65,
+      "end_line": 68,
+      "signature": "source, target, generation",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "6408259dbbbcd148572fbe1eaba114290a1d7ee29807b8907f49b72530f3027f",
+      "actual_invocation_count_in_capture": 388774
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "inner",
+      "line": 101,
+      "end_line": 103,
+      "signature": "data, rho, certificate=False",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "b80e512e5d001a598402044f10ab189af29d562159c02989723c6de3d29922c3",
+      "actual_invocation_count_in_capture": 1756
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "line_max",
+      "line": 51,
+      "end_line": 54,
+      "signature": "values",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "6f37956d1492145246782039ac96f8596eea5c89b28c3f891871f2c9f9439615",
+      "actual_invocation_count_in_capture": 192024
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "make_data",
+      "line": 70,
+      "end_line": 80,
+      "signature": "context, enabled, receive_cut=False, birth_cut=False",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "51163d7c36dfe7b3a7dfdf372abfabaf70806e03ee2501f6ee3a6e38d958298e",
+      "actual_invocation_count_in_capture": 64
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "program",
+      "line": 82,
+      "end_line": 95,
+      "signature": "data, rho, t",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "f48145bc90d91c1f74975da4294c08b653311b9b1d59ded17c244d540a51bc62",
+      "actual_invocation_count_in_capture": 3556
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "root",
+      "line": 110,
+      "end_line": 130,
+      "signature": "data, bits=48",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "d793741ec3c2df6bb92f9c1aa5856a86d0043f1220205d31f9e92d7a72cffdd3",
+      "actual_invocation_count_in_capture": 64
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "scalar_state",
+      "line": 97,
+      "end_line": 99,
+      "signature": "data, rho, t",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "c255546202523fa40077dfa0e2e5feb86c724ebb404e6ee9c52f44cfb0b1da2e",
+      "actual_invocation_count_in_capture": 1756
+    },
+    {
+      "file": "carrier_coupled_extension.py",
+      "qualified_function": "solve_world",
+      "line": 164,
+      "end_line": 177,
+      "signature": "context, enabled, math, receive_cut=False, birth_cut=False, bits=48",
+      "source_file_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "AST_sha256": "7eb9f8bc61e520d8b2ff9ddb538b66537882227418553513bfed7f5a80d0c05e",
+      "actual_invocation_count_in_capture": 64
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "all_supports",
+      "line": 125,
+      "end_line": 146,
+      "signature": "context, mods",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "88e31eac925df8af12e56568b98fb1a0dbfee5ba2376e725a2fec1b0d64cd34c",
+      "actual_invocation_count_in_capture": 2
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "canonical",
+      "line": 21,
+      "end_line": 21,
+      "signature": "v",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+      "actual_invocation_count_in_capture": 5
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "capture",
+      "line": 33,
+      "end_line": 71,
+      "signature": "",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "438cba88a06d61c1357df71f338610be7c888121a2a46c87391e3d08388c1d0e",
+      "actual_invocation_count_in_capture": 2
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "digest",
+      "line": 22,
+      "end_line": 22,
+      "signature": "v",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+      "actual_invocation_count_in_capture": 4
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "evaluate",
+      "line": 148,
+      "end_line": 152,
+      "signature": "request",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "c82a9b80d4e5225459a13e55089149c90462eecf3b5013e5135c2f7295559829",
+      "actual_invocation_count_in_capture": 2
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "load_modules",
+      "line": 73,
+      "end_line": 79,
+      "signature": "",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "167cf7390d1bb9e2756548ae9b97c13efd1f4748e2dae49fa278125ee3c1ab68",
+      "actual_invocation_count_in_capture": 2
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "main",
+      "line": 154,
+      "end_line": 162,
+      "signature": "",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "f51a4123fb95da31d7abaabe9043e80975d2dc90ef512318ec88194b3d495ae8",
+      "actual_invocation_count_in_capture": 1
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "source_intake",
+      "line": 88,
+      "end_line": 123,
+      "signature": "request, reports, mods",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "c408589ea2e960772421b6b2f626ebbef8d8d80f1c016f65ab091f40d3d4de5c",
+      "actual_invocation_count_in_capture": 2
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "strict",
+      "line": 23,
+      "end_line": 31,
+      "signature": "v",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "f3b3bf6aa460b202f1c44be4abdc51d8cf32abfd9410d9b753a8b438fa2640fd",
+      "actual_invocation_count_in_capture": 38
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "strict.bad",
+      "line": 30,
+      "end_line": 30,
+      "signature": "v",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31",
+      "actual_invocation_count_in_capture": 1
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "strict.pairs",
+      "line": 24,
+      "end_line": 29,
+      "signature": "rows",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "2a72712bc22459575237e24cf8c62d6e9f11515ff6d8227085c7e65eff8013c2",
+      "actual_invocation_count_in_capture": 6064
+    },
+    {
+      "file": "extension_model.py",
+      "qualified_function": "validate",
+      "line": 81,
+      "end_line": 86,
+      "signature": "request, mods",
+      "source_file_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "AST_sha256": "d2fc5f1451e9290fe1ea821f0f6628092f20ef095f7619f5952e48e5b447aa10",
+      "actual_invocation_count_in_capture": 2
+    }
+  ],
+  "complete_actual_IO_file_sha256": "296e1dce72e9e16ef8be4758984c249156322805de63fded1a189595c0eb6659"
+}
+原件：work/rev286_food_kill_print_current_consumer/model_whole_extension/reference_receipt.json
+SHA256：53e74261b986951761e2f07859aefb9aff7ee0c8b1042afbd81f9a880c025114
+
+{
+  "schema": "286-aggregatable-reference-receipt-0.1",
+  "status": "references_retained_for_root_knowledge_navigation",
+  "source_cards_file": "source_cards.json",
+  "source_cards_sha256": "54ea6aad89a11a271b46cff95ecfa1af78ebebf8caddec7b5d7b69ca40e479c9",
+  "reference_cards": 18,
+  "original_master_source_index": "Existing project source index58 is root maintained; this task does not mutate it or allocate replacement source ids.",
+  "complete_locked_material_coverage": {
+    "lock": "dependency_lock.json",
+    "sha256": "1a7e7e4099f7524237edc0b5f900cc2e9fc22180a47931371251eaf8fdf88f9e",
+    "files": 1501,
+    "original_component_anchors": {
+      "runtime/model279": {
+        "files": 631,
+        "manifest_sha256": "29cd44567f8816b46b2112286fc68b49a1698b30951ddd13f41d5c6167022b65",
+        "freeze_sha256": "60a1a9a6802480df1e5f85a3ef7def1bbffd0597301e81743c16b088ee551be2"
+      },
+      "runtime/window012": {
+        "files": 773,
+        "manifest_sha256": "55e7a88830a10b097c66794e6f4beb8b240757baa48b7b48f86fe728ca8def6b",
+        "freeze_sha256": "42eca8e0c976eee1a604a535062cf7988ba0b12d666c3c2629a3e70c516e33c1"
+      },
+      "sources/model_review275": {
+        "files": 45,
+        "manifest_sha256": "3855464f02fa5b78615667fa2c772c84cded91403643c2df24e4e5b996b0b4a1",
+        "freeze_sha256": "e68aef6fb8653b229280358f72207fe87500daa56e780a50b4046d43624853e8"
+      },
+      "sources/model_acceptance280": {
+        "files": 3,
+        "manifest_sha256": "e6e282015e86c48885ee38688e884ee90ae029b477240348e6d6da92cf62f8ce",
+        "freeze_sha256": "2f18f458f7be4e30fc1078a58c7b89dc08a0855947fdd0422ea609453807c432"
+      },
+      "sources/window_review111": {
+        "files": 27,
+        "manifest_sha256": "4b028935e5ebbf4c94e8dce0c73f792e63ea63a343bb19a338c49fb35409b6b8",
+        "freeze_sha256": "ff0113f064d209fe3b765065cd56ea9b17318a13428509132638de3e37ed2c41"
+      },
+      "sources/window_acceptance117": {
+        "files": 3,
+        "manifest_sha256": "c9fbbf6463a8a63d95649656e11c6250f6d454d3267f04c393fc6f72d0c3bd1b",
+        "freeze_sha256": "e14ab42f5c860e4efb3ffafd11b474dd993307d664a2ceb42d34c681f9f39cf0"
+      }
+    },
+    "reading_level_for_unlisted_payloads": "Byte-verified inherited material, not falsely claimed new semantic/manual reading of every payload."
+  },
+  "new_visual_reading": {
+    "PDF": "provenance/ziping_world_library_NLC.pdf",
+    "sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620",
+    "total_pages": 287,
+    "newly_viewed": [
+      56,
+      57,
+      58,
+      59
+    ],
+    "same_agent_prior275_viewed": [
+      43,
+      76,
+      77
+    ],
+    "all_other_pages": "Not newly viewed in286; inherited earlier reading receipts remain individually scoped."
+  },
+  "unread_or_inherited_source_index": [
+    {
+      "original_source_id": "P-YONGSHEN",
+      "url": "https://changxianyi.com/guji/ziping/nlc-yongshen-review-20261005/yongshen/",
+      "locator": "§1/3/4，L60/71/77；PDF26—28",
+      "286_read_grade": "inherited_source_index_only_not_new_body_read",
+      "specific_source_limit": "未给五层现代权重、先后覆盖或本新盘当前辅助全集。"
+    },
+    {
+      "original_source_id": "P-XINGDONG",
+      "url": "https://changxianyi.com/guji/ziping/nlc-xingdong-text-20261004/xingdong/",
+      "locator": "§1 L53；§4—9 L69/75/81/86/92/98；§10—13 L103/109/114/120，PDF56—58",
+      "286_read_grade": "actual_image_and_web_read_for_P-XINGDONG",
+      "specific_source_limit": "这些并非五层同构、短层覆盖长层或数量分数表；§9巳等异文不静默改。"
+    },
+    {
+      "original_source_id": "P-XIJI-ZHIGAN",
+      "url": "https://changxianyi.com/guji/ziping/nlc-chengge-zhigan-text-20261004/xiji-zhigan/",
+      "locator": "§1—3 L53/58/64，PDF59—60",
+      "286_read_grade": "inherited_source_index_only_not_new_body_read",
+      "specific_source_limit": "不支持所有未透藏物永远零，也未给所有时层、位置、半组的充分算法。"
+    },
+    {
+      "original_source_id": "P-TOUQING",
+      "url": "https://changxianyi.com/guji/ziping/nlc-touqing-text-20261004/zhizhong-touqing/",
+      "locator": "§1 L53；§2 L58；§3/4 L64/69，PDF60—62",
+      "286_read_grade": "inherited_source_index_only_not_new_body_read",
+      "specific_source_limit": "寅藏戊、五层都可同构的自动后件不是本已冻小核；未即非未支；成/王疑字不能改后造规则，五年句不造现代分期。"
+    },
+    {
+      "original_source_id": "P-XINGYUN-CHENGGE",
+      "url": "https://changxianyi.com/guji/ziping/nlc-chengge-zhigan-text-20261004/xingyun-chengge/",
+      "locator": "§1/2/4/5 L53/58/70/75，PDF58—59",
+      "286_read_grade": "inherited_source_index_only_not_new_body_read",
+      "specific_source_limit": "本轮不据王/成疑字新建构式；不把任务加入直接等同净吉凶或重新选定辅助。"
+    },
+    {
+      "original_source_id": "P-JIANLU",
+      "url": "https://changxianyi.com/guji/ziping/nlc-continuation-text-review-20261005/jianlu-yuejie/",
+      "locator": "§1/5/9 L59/82/105，PDF89—91",
+      "286_read_grade": "inherited_source_index_only_not_new_body_read",
+      "specific_source_limit": "不充分定义任意新盘无财官/身强/泄不过重，也未定义本方案新增财后的承受界线。"
+    },
+    {
+      "original_source_id": "P-JIANLU-YUN",
+      "url": "https://changxianyi.com/guji/ziping/nlc-continuation-text-review-20261005/jianlu-yuejie-quyun/",
+      "locator": "§1/4/7 L59/76/94，PDF92—93",
+      "286_read_grade": "inherited_source_index_only_not_new_body_read",
+      "specific_source_limit": "财方向不倒推出原局静藏土已用；加入具体财后是否仍原入口、能否承受、主次等须重新处理。"
+    }
+  ],
+  "policy_source_proof_direction": [
+    "280 -> exact279 -> classicalsource/r3contract/shared-currentK wholeproof",
+    "280 -> exact275independent review -> actual source/implementation evidence",
+    "280 -> actual aggregate -> exact target+review+scope+effect",
+    "117 -> exact773nativewindow -> clock/preflight/atoms/derive/strictconsumercontracts",
+    "286inner ->279source + nativeROOT/timefacts/gains -> newall-carrier proof -> everyworld/H",
+    "upperconsumer -> separately frozen286inner and future genuine rootadoption; no inner->upperpolicy cycle"
+  ],
+  "source_implementation_prediction_axes": {
+    "classical_source": "Exact edition/conditional text and cross-chapter inference disclosed",
+    "software_and_engineering": "Fixed budgets/gains/typedpaths/fullphaseproof and actual whole behavior, not sourceprinted formulas",
+    "reality_prediction": "Not validated"
+  },
+  "primary_web_UI_AIguide_not_used_as_evidence": true,
+  "original_bytes_and_unread_indices_retained": true,
+  "root_unified_index_or_other_freezes_modified": false
+}

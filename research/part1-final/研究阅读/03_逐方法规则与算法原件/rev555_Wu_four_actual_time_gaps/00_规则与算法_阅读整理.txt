@@ -1,0 +1,4262 @@
+原吴当前辛生印与伤木实际五层研究
+rev555_Wu_four_actual_time_gaps
+所属原模块：C03
+当前采用：rev576_Xin_actual_time_project_adoption.json
+范围：adopted_exact555_0.3.1_with574_source_erratum_finite_actualfive_Xin_research
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev555_Wu_four_actual_time_gaps/function_explanations122.json
+SHA256：8daf23086f3c24f21a8270df1e862f1f0fec407d9e89d05b58d1eecc6bbb92e3
+
+1. current.py:ResearchError.__init__
+算法标识：current.py:ResearchError.__init__
+source_identity：{
+  "path": "current.py",
+  "line": 13,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "76fe5c17a69fcce7f30862e13b19f66b73c4db1a6854f5a1f41029beb54d20b8"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "self, code, status='invalid_input'",
+  "operations": "Creates typed hard-failure reason. Default invalid_input, dependency/binding statuses explicit. Not a return result.",
+  "outputs": "None; exception instance .code:str and .status:str",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Creates typed hard-failure reason. Default invalid_input, dependency/binding statuses explicit. Not a return result."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:ContractError.__init__",
+  "AST_sha256": "76fe5c17a69fcce7f30862e13b19f66b73c4db1a6854f5a1f41029beb54d20b8"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:ResearchError.__init__"
+}
+本版未执行情况：null
+
+2. current.py:canonical
+算法标识：current.py:canonical
+source_identity：{
+  "path": "current.py",
+  "line": 16,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "Canonicalizes JSON with allow_nan=False; serialization errors propagate. Does not parse or authorize input.",
+  "outputs": "str: sorted compact UTF-8-compatible JSON text",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Canonicalizes JSON with allow_nan=False; serialization errors propagate. Does not parse or authorize input."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:canonical",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:canonical"
+}
+本版未执行情况：null
+
+3. current.py:digest
+算法标识：current.py:digest
+source_identity：{
+  "path": "current.py",
+  "line": 19,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "Value hash, not file-byte hash and not proof of source truth.",
+  "outputs": "str:64hex SHA256(canonical(value).encode())",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Value hash, not file-byte hash and not proof of source truth."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:digest",
+  "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:digest"
+}
+本版未执行情况：null
+
+4. current.py:strict_load
+算法标识：current.py:strict_load
+source_identity：{
+  "path": "current.py",
+  "line": 22,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "da43b3c2a785a350bacda9238a86ebe24633bc615f41079312445d885accdadc"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "str，最多2000000字符",
+  "operations": "重复键与非有限常量回调拒绝，json.loads",
+  "outputs": "任意解析JSON值；根schema在evaluate检查",
+  "preconditions_and_limits": "不是单独Unicode scalar/深度校验；后续scalar_tree负责。",
+  "purpose": "当前CLI严格JSON解析"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "current.py:strict_load",
+  "AST_sha256": "da43b3c2a785a350bacda9238a86ebe24633bc615f41079312445d885accdadc"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:strict_load"
+}
+本版未执行情况：null
+
+5. current.py:strict_load.pairs
+算法标识：current.py:strict_load.pairs
+source_identity：{
+  "path": "current.py",
+  "line": 24,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "74625c803e0589b53f87a2feb9cdcb7d8e3fc42a1ad9068a240895a9bafb7550"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "JSON解析器提供的键值序列",
+  "operations": "逐项构造dict，已有键即ResearchError",
+  "outputs": "唯一键dict",
+  "preconditions_and_limits": "仅JSON object回调；不能把覆盖旧键当成功。",
+  "purpose": "拒绝重复键"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "current.py:strict_load.<locals>.pairs",
+  "AST_sha256": "74625c803e0589b53f87a2feb9cdcb7d8e3fc42a1ad9068a240895a9bafb7550"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:strict_load.pairs"
+}
+本版未执行情况：null
+
+6. current.py:strict_load.constant
+算法标识：current.py:strict_load.constant
+source_identity：{
+  "path": "current.py",
+  "line": 30,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "fce474ceff0a4f04f2983720b398eb25aab021581a761c44251572bf7d5a4a7f"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "解析器常量文本",
+  "operations": "总是抛ResearchError(nonfinite_JSON_constant)",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "异常事件加None不是正常结果。",
+  "purpose": "拒绝非有限JSON常量"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "current.py:strict_load.<locals>.constant",
+  "AST_sha256": "fce474ceff0a4f04f2983720b398eb25aab021581a761c44251572bf7d5a4a7f"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:strict_load.constant"
+}
+本版未执行情况：null
+
+7. current.py:scalar_tree
+算法标识：current.py:scalar_tree
+source_identity：{
+  "path": "current.py",
+  "line": 33,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "6669becbafcf9720f0f29a1bb6c7866fe60a7ec2a9a4a52d807d93dbd8030723"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value,depth=0",
+  "operations": "深度<=64、dict<=128、list<=512、str<=2000000且无代理码；字符串键；只JSON标量且float有限",
+  "outputs": "成功None；错误ResearchError",
+  "preconditions_and_limits": "不解析UTC或schema，不接受Fraction/tuple等非JSON对象。",
+  "purpose": "当前API JSON树和Unicode约束"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "current.py:scalar_tree",
+  "AST_sha256": "6669becbafcf9720f0f29a1bb6c7866fe60a7ec2a9a4a52d807d93dbd8030723"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:scalar_tree"
+}
+本版未执行情况：null
+
+8. current.py:guard
+算法标识：current.py:guard
+source_identity：{
+  "path": "current.py",
+  "line": 48,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "94a0cfb2519aea4c277182bada92140d101954cd9de997afdd1da570f626ae49"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "在任何提供者执行前固定本研究材料",
+  "inputs": "包内source_execution_lock、27项材料及440/459/508采用记录",
+  "operations": "先验lock字节；核精确runtime/vendor/source库存、非软链包内正规文件、全部长度和SHA；核三份具名采用状态",
+  "outputs": "完整材料bytes字典；任一不符抛dependency_mismatch",
+  "preconditions_and_limits": "锁只认证此版本资料身份；不证明原典预测有效。错误资料字节先于任何提供者；正常完整窗口实际10次exec、9个不同文件。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:guard"
+}
+本版未执行情况：null
+
+9. current.py:load
+算法标识：current.py:load
+source_identity：{
+  "path": "current.py",
+  "line": 68,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "name,relative,material",
+  "operations": "新ModuleType，设置__file__，compile并exec material指定字节",
+  "outputs": "该模块对象",
+  "preconditions_and_limits": "仅由evaluate在guard后调用；函数本身不重作guard；模块独立全局避免跨请求配置污染。",
+  "purpose": "执行已核模块字节"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "current.py:load",
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:load"
+}
+本版未执行情况：null
+
+10. current.py:evaluate
+算法标识：current.py:evaluate
+source_identity：{
+  "path": "current.py",
+  "line": 71,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "a4b69fec9f81ef1b0561c2a3ea043940506559e86a5fed2fdf1444b5937ba498"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "贯通真实提供的五层UTC与辛研究",
+  "inputs": "精确外层请求、显式方法版本、current/previous native、源绑定",
+  "operations": "guard后树形校验与深复制；核外层字段/源/绑定；加载9不同提供者；current/previous含未来窗外记录全部preflight、不可变身份核后才snapshot；最后双轴比较",
+  "outputs": "完整当前/前次窗口、全部实际图、具名任务及比较；任何硬错无部分判断",
+  "preconditions_and_limits": "人工外部UTC声明不等于自然历法认证；本输出不含整盘最终喜用、B、主题或显示。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:evaluate"
+}
+本版未执行情况：null
+
+11. current.py:main
+算法标识：current.py:main
+source_identity：{
+  "path": "current.py",
+  "line": 95,
+  "module": {
+    "bytes": 8336,
+    "sha256": "b017afcde7c1fd27d740bdc60245b59b4ba56eb0b54b875303550c80454a5496"
+  },
+  "AST_sha256": "1f37c1a222653e90bcbbfe8581d061e4680a477cc0cc4c6250f39973c2a2e688"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "最多2000000 UTF8bytes stdin",
+  "operations": "读至2000001检超长；strict_load→evaluate→canonical；捕ResearchError及明确列举异常",
+  "outputs": "成功打印整JSON并返0；硬错打印无部分判断JSON并返2",
+  "preconditions_and_limits": "有效未知exit0；不捕所有BaseException；API自身不统一把所有内部异常改成正常结果。",
+  "purpose": "当前stdin/stdout公开CLI"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "current.py:main",
+  "AST_sha256": "1f37c1a222653e90bcbbfe8581d061e4680a477cc0cc4c6250f39973c2a2e688"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:main"
+}
+本版未执行情况：null
+
+12. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 16,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite.",
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:bounded",
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:bounded"
+}
+本版未执行情况：null
+
+13. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 38,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity.",
+  "purpose": "Require an exact allowed object field set."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:shape",
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:shape"
+}
+本版未执行情况：null
+
+14. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 43,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation.",
+  "purpose": "Require a nonempty string field."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:string",
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:string"
+}
+本版未执行情况：null
+
+15. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 48,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema.",
+  "purpose": "Require actual bool instead of truthy/coercible values."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:boolean",
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:boolean"
+}
+本版未执行情况：null
+
+16. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 53,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate.",
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:validate",
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:validate"
+}
+本版未执行情况：null
+
+17. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 135,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them.",
+  "purpose": "Check that every declared graph-scope obligation is marked complete."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:closed",
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:closed"
+}
+本版未执行情况：null
+
+18. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 139,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here.",
+  "purpose": "Determine whether a required actual goal or global check still blocks selection."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:hard_failure",
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:hard_failure"
+}
+本版未执行情况：null
+
+19. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 144,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes.",
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:repair_candidates",
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:repair_candidates"
+}
+本版未执行情况：null
+
+20. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 184,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case.",
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:minimal_covers",
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:minimal_covers"
+}
+本版未执行情况：null
+
+21. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 197,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred.",
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:prefer",
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+22. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 206,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker.",
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:preference_frontier",
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:preference_frontier"
+}
+本版未执行情况：null
+
+23. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 224,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "基础结果含version/semantic_scope/positive_current_tasks、输入投影actors/tasks/goals/checks对应保留项、repair/needed_absent/luck/selected/common/final/B/warning；各分支添status；无目标添background，活跃目标另添coverage/allminimal/preference/frontier。不返回schema/mode/scope或full_native_graph。当前完整投影由外层current.frames[i].calculation.native_H.full_native_graph保；完整物理图另在current.frames[i].calculation.actual_full_world.actual_signed_graph。",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.",
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:select",
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:select"
+}
+本版未执行情况：null
+
+24. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 272,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs.",
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:strict_pairs",
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+25. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 280,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite.",
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:reject_constant",
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+26. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 284,
+  "module": {
+    "bytes": 16035,
+    "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+  },
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main.",
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/auxiliary_selector.py:main",
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+27. runtime/current_wu.py:source_domain
+算法标识：runtime/current_wu.py:source_domain
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 9,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "79c33ae0e85a6019e7049f635699fe6384f6cd5c49fc4cacff02bd984ee81b1c"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "只打开已经研究的辛作用入口",
+  "inputs": "原吴出生四柱、五层显式所选记录、固定出生参照",
+  "operations": "调用旧488源域，保留全部旧待闭合关系；仅移除当前明辛角色未闭合项；ready当且仅当pending空",
+  "outputs": "原源资格、余缺口和本次辛源标记",
+  "preconditions_and_limits": "当前丙辛合、丁壬、新甲己及额外支关系未由本子模块擅判；后三具体任务继续另版。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:source_domain"
+}
+本版未执行情况：null
+
+28. runtime/current_wu.py:inventory
+算法标识：runtime/current_wu.py:inventory
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 13,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "17908b8fce4d2e09dd3296ad1aebababf599de46f0516b0f8142796cfadb7e2b"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "保全原始载体再定位当前明辛",
+  "inputs": "原吴raw、所选五层、具名g/c、事实库与pool",
+  "operations": "原样调用488库存/根/演员分配；枚举所有temporal且visible辛演员及其float源；不要求辛先有金根",
+  "outputs": "完整库存和原根、自有来源，以及new_Xin_ids/origins",
+  "preconditions_and_limits": "实际辛可以无金根，current为0也不删除真实演员；不能把时间干移作出生露干。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:inventory"
+}
+本版未执行情况：null
+
+29. runtime/current_wu.py:entity_coefficients
+算法标识：runtime/current_wu.py:entity_coefficients
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 17,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "2a0e6f328c9bae3bbb91391bde63e726d6c6109c64e06ec1982510395da45c7e"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "以真实元素在场分开初量与接收能力",
+  "inputs": "完整base.actors、generation/control各0<值<=1/3",
+  "operations": "P_i=存在该元素真实演员；a_i=1+bP_(i+1)+cP_(i+2)；存在目标时K_i,i-1=b/a_i，K_i,i-2=-c/a_i；验无穷范数<1",
+  "outputs": "完整五元素系数、在场证明与收缩界",
+  "preconditions_and_limits": "既有phase-free工程，不是古法强弱实测；不以direct为空/现量0等于元素不在场，不造float/root。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:entity_coefficients"
+}
+本版未执行情况：null
+
+30. runtime/current_wu.py:solve
+算法标识：runtime/current_wu.py:solve
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 24,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "dd13a222db0c69e6f3792243d0f1c60db5a3e329754eb10f1292bb872a1a3cf7"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "同一五层世界同时计算全部真实生克费用",
+  "inputs": "完整库存；原两明印功能子集；财克印/新丙受生/辛生水/辛克木各开关",
+  "operations": "固定全部潜在源费用；按被关演员权重仅衰减对应K通道，独立辛g/c；枚举32活动面解精确有理线性系统；逐坐标验x=max(0,d/a+Kx)",
+  "outputs": "现量、实际K、有效g/c、原费用、各功能分数与唯一面证书",
+  "preconditions_and_limits": "g=c为1/5、1/4、1/3预定参数；功能关闭不删演员、不退费，不是假想辛离开。0.3.1同时修K与reported g3/c3一致。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:solve"
+}
+本版未执行情况：null
+
+31. runtime/current_wu.py:origin_ports
+算法标识：runtime/current_wu.py:origin_ports
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 49,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "be7647fa5183ddd871ac7e7e273c204193f1c01b06e67925421016dbbddcfd81"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base/world/math",
+  "operations": "按实际generationrates形成gross与rho；多rhs有理解每origin；核每式、非负、和=current",
+  "outputs": "全ports/gross/retention",
+  "preconditions_and_limits": "不能把旧固定b origin函数用于theta非1；控制/成本消费比例同世界，不跨world。",
+  "purpose": "每诊断同解全部真实源追踪"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:origin_ports",
+  "AST_sha256": "be7647fa5183ddd871ac7e7e273c204193f1c01b06e67925421016dbbddcfd81"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:origin_ports"
+}
+本版未执行情况：null
+
+32. runtime/current_wu.py:actual_effects
+算法标识：runtime/current_wu.py:actual_effects
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 64,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "3d170a52a86f318500278bbb7e42558fd74daf670bbf547d0b971900015fa079"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "把总池结果还原为演员与逐来源双面费用",
+  "inputs": "同一base/world、origin_ports、真实演员权重",
+  "operations": "演员分得本元素来源池；对每真实生/克边按源开关与目标接收权重计算；克量按目标实际受损比例夹断；每源分别记潜在费用/实发/未用，不退款；校全部元素总账",
+  "outputs": "全部边的sent/effect/retained origins、演员预算和五元素平衡账",
+  "preconditions_and_limits": "共池份额是分配约定，不声称演员各有独立自然作用力；辛克木、生水都保，代价不再二次从余量扣。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:actual_effects"
+}
+本版未执行情况：null
+
+33. runtime/current_wu.py:qualified_H
+算法标识：runtime/current_wu.py:qualified_H
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 95,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "881b33c3c3097b65d3716b3792fc3696206cc6c5bb70d364138e20a408737125"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "在有资格成员域中求全部支持替代",
+  "inputs": "候选ids、真实保留信用、成员资格、组总floor、硬条件",
+  "operations": "先剔除固定世界无资格成员，再枚举其全部子集；逐项检查全硬条件、总信用>=floor且>0；取全部包含极小成功组和最大失败补集CNF",
+  "outputs": "原候选/拒绝原因、资格域所有mask真值、minimal_H及正CNF",
+  "preconditions_and_limits": "资格预筛只管离散选组，不删全图演员；不能在含已知无资格成员的全集里用正CNF冒充原真值。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:qualified_H"
+}
+本版未执行情况：null
+
+34. runtime/current_wu.py:native_qualified_H
+算法标识：runtime/current_wu.py:native_qualified_H
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 102,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "c2320bf3b2305028847fb9c20ec72720c8c28fa6c68d0ccd1faac4b7febe8de1"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "用既有选择器核离散H而不缩物理世界",
+  "inputs": "实际base、qualified_H逻辑、旧pool与aux",
+  "operations": "投影有资格选员加每实际元素一个不可选见证；<=16；调用原native_H；逐资格mask复核所有hard/coverage与原真值等价",
+  "outputs": "完整native图/结果、逐mask等价计数、物理与投影演员数",
+  "preconditions_and_limits": "投影不是物理删员。无资格演员仍在源、根、生克、成本和hard条件中。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:native_qualified_H"
+}
+本版未执行情况：null
+
+35. runtime/current_wu.py:Xin_metrics
+算法标识：runtime/current_wu.py:Xin_metrics
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 115,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "54b3e7b305a86ece0dbb924aa680c0e0acf3671a09051b8738099c3e4dc77bf2"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "识别连续辛生印生日通路与伤木实量",
+  "inputs": "同一世界真实边、newXin明源、wateractor分配与wood retention",
+  "operations": "对每明印只累计金→该同一水演员的辛明源保留量，乘该演员实际木生成率及木保留率；另加总新辛对木实际夹断损失",
+  "outputs": "每印每辛源连续信用、总通路信用、新辛实际伤木量",
+  "preconditions_and_limits": "不能以两端同源或金水角色相邻代替连续真实路径；演员份额只计一次。该F是诊断通路，不认证杀印格或喜金。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:Xin_metrics"
+}
+本版未执行情况：null
+
+36. runtime/current_wu.py:summarize_Xin
+算法标识：runtime/current_wu.py:summarize_Xin
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 122,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "c152a22318234482d05be38c9d03101177940e0ccdbdc24281aa3a843aa0c2ec"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "分列源忌类、实际克害、整体反作用和有资格助印组",
+  "inputs": "A、仅关辛克木、双关辛、原两印同关等同成本世界",
+  "operations": "余量M=x木-max(x火,x土,x金)；K1需明辛当前>0、伤木>0且A木/M低于controlOff；K2需A木/M低于bothOff；旧印桥必须全hard/H且木/M较两印off改善；F成员需原亥生日与连续辛路径正，组信用>=木体当前量1/32",
+  "outputs": "K1/K2各条件真值、F完整H、旧印桥和无辛明确不适用",
+  "preconditions_and_limits": "严格失败是本具名工程证书不成立，不是资料未知、古书反证或金自动可喜；组总1/32不要求每成员各达1/32；出生喜印不重写。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:summarize_Xin"
+}
+本版未执行情况：null
+
+37. runtime/current_wu.py:analyze
+算法标识：runtime/current_wu.py:analyze
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 126,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "493205f39afeace147961ff6227db66f710a01f8778cee3e6d1cdda9439d771d"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "完成辛与原488任务的全联合对照",
+  "inputs": "完整五层base、精确算术、pool、aux",
+  "operations": "统一世界缓存，计算A/辛三cut/原两印四开关/当前己controlOff及原明丙receiptOff全部必要联合；每世界全根/生克/来源/费；分别完整H/native；保旧positive_auxiliary门；另标所有声明研究已算",
+  "outputs": "完整世界注册表、mode refs、旧印/明丙任务、K1/K2/F、离散替代及已知阴性轴",
+  "preconditions_and_limits": "模式字可别名同世界，不虚增219；9人工组合×3参数正常201+私边界12=213独立完整预期；不是各层答案相加。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:analyze"
+}
+本版未执行情况：null
+
+38. runtime/current_wu.py:analyze.get
+算法标识：runtime/current_wu.py:analyze.get
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 128,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "8171cfc30993bf2a36795eaa370191286c696d6a3e89744f5fd62816acccd2b4"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "同一实际功能配置只解一次且保来源归因",
+  "inputs": "所启原印子集、辛birth/control、财control、foodreceipt布尔",
+  "operations": "仅无该类演员时规范无效开关为真；以原印身份子集和各真实开关组成key；miss才solve→origins→全边→goals/H/metrics并登记",
+  "outputs": "world ref与完整共享注册表",
+  "preconditions_and_limits": "不按现量碰巧相同合并来源；原印01/10身份不同不能因总系数同而合并。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:analyze.get"
+}
+本版未执行情况：null
+
+39. runtime/current_wu.py:functional_payload
+算法标识：runtime/current_wu.py:functional_payload
+source_identity：{
+  "path": "runtime/current_wu.py",
+  "line": 144,
+  "module": {
+    "bytes": 20592,
+    "sha256": "232081a981b8ec591ac8f710b02998a4ba1864ec29d5ea36873d73021585b9cc"
+  },
+  "AST_sha256": "5bc87e423c071fdeca3af8a018985ec5040de3bac2b65843c54ae35561fa06f6"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "限定前后比较为已算研究而非最终喜用",
+  "inputs": "实际base、完整calculation、显式方法版本",
+  "operations": "复用488实际功能投影；移除纯记录SHA身份，保真实层/干支/根/现量/正负作用；加入K1/K2/F资格组、连续信用和已知阴性标记",
+  "outputs": "可规范编码的研究payload及明确comparison_scope",
+  "preconditions_and_limits": "不同方法版本先硬错；同功能拆段/重排不变；有源不确定时frame不产生可确认签名；不把相同方向当全盘不变。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/current_wu.py:functional_payload"
+}
+本版未执行情况：null
+
+40. runtime/element_pool.py:inventory
+算法标识：runtime/element_pool.py:inventory
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 9,
+  "module": {
+    "bytes": 9203,
+    "sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf"
+  },
+  "AST_sha256": "5cdf8387d2fe6337a0eacda26e1f65c17a179960b5c92885df5456587703fb67"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "完整parsed及指定b/c参数",
+  "operations": "逐明藏根证：同元素各支主列1余列1/4月3/2、每明干浮源1；同元素同origin最大聚合；每演员根证总和归一作分配权重",
+  "outputs": "actors/direct/weights/parsed/params",
+  "preconditions_and_limits": "主余权重是工程结构权重，非司令/任土12宫。共池分配不是演员局部库存。",
+  "purpose": "保明藏全部实体并形成phase-free任务库"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/element_pool.py:inventory",
+  "AST_sha256": "5cdf8387d2fe6337a0eacda26e1f65c17a179960b5c92885df5456587703fb67"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/element_pool.py:inventory"
+}
+本版未执行情况：null
+
+41. runtime/element_pool.py:coefficients
+算法标识：runtime/element_pool.py:coefficients
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 37,
+  "module": {
+    "bytes": 9203,
+    "sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf"
+  },
+  "AST_sha256": "615b03099456f6f43f080508f3ebca37ed456b3adfc8b9293122fc5299b9e1fd"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base直接库与参数b,c",
+  "operations": "b,c∈(0,1/3]；无实体目标不接收/不预留该输出；a_i=1+b*生目标存在+c*克目标存在；K目标行生正克负除a；行和L核<1",
+  "outputs": "b,c,present,a,K,L",
+  "preconditions_and_limits": "每个正负发送与成本均读同一个解；预留全部控制容量不因目标被耗尽回收。",
+  "purpose": "声明同current全生克预算"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/element_pool.py:coefficients",
+  "AST_sha256": "615b03099456f6f43f080508f3ebca37ed456b3adfc8b9293122fc5299b9e1fd"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+42. runtime/element_pool.py:solve
+算法标识：runtime/element_pool.py:solve
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 50,
+  "module": {
+    "bytes": 9203,
+    "sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf"
+  },
+  "AST_sha256": "b7e9b32624c59cd4352eef349c857cce8326f350acb8704cdbf52ff0892ab382"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "base/math.gauss",
+  "operations": "枚举32活跃面；解(I-K_AA)x=v；非活跃0；对全部五行max方程精确有理代入、非负才收；结合全域L<1唯一",
+  "outputs": "current、coefficients、活跃面与证书",
+  "preconditions_and_limits": "全有理无浮点suggestion；缺实体坐标夹0；不生成不存在金等演员。",
+  "purpose": "精确求唯一五行任务状态"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/element_pool.py:solve",
+  "AST_sha256": "b7e9b32624c59cd4352eef349c857cce8326f350acb8704cdbf52ff0892ab382"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+43. runtime/element_pool.py:origin_ports
+算法标识：runtime/element_pool.py:origin_ports
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 64,
+  "module": {
+    "bytes": 9203,
+    "sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf"
+  },
+  "AST_sha256": "70baff7d919978b41bdcf3d715947a428e61ade1f4c704d6a20210e991c29261"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "base/world/math",
+  "operations": "gross_i=d_i+b*x_parent(须目标存在)；rho=x/gross；多右端解o_i=rho_i(d_i,o+b*o_parent)；逐origin非负/方程/和=x断言",
+  "outputs": "pools/gross/retention与L",
+  "preconditions_and_limits": "控制不把被克元素转换为克者；成本与克损同比耗用毛入。origin代表工程资格输入，不是物理分子守恒。",
+  "purpose": "在同解上分清所有库存来源"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/element_pool.py:origin_ports",
+  "AST_sha256": "70baff7d919978b41bdcf3d715947a428e61ade1f4c704d6a20210e991c29261"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+44. runtime/element_pool.py:reconstruct
+算法标识：runtime/element_pool.py:reconstruct
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 77,
+  "module": {
+    "bytes": 9203,
+    "sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf"
+  },
+  "AST_sha256": "64dd281189586e10828753327a067962357487735b0575f3a23e10f60c30256e"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "同一base/world/ports",
+  "operations": "actorports=权重*元素origin池；遍历所有真实演员，生/克每对按b或c及目标权重发送；gross=x+gen预算+control预算+实际克损逐项核",
+  "outputs": "全部actorports、全部有向生克边、五库存账、形式关系",
+  "preconditions_and_limits": "0现量演员仍在；容量超目标部分另记。没有跨不同world拼正负，也不删除未选包。",
+  "purpose": "还原每个演员每origin全部发送与消耗"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/element_pool.py:reconstruct",
+  "AST_sha256": "64dd281189586e10828753327a067962357487735b0575f3a23e10f60c30256e"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+45. runtime/element_pool.py:native_H
+算法标识：runtime/element_pool.py:native_H
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 103,
+  "module": {
+    "bytes": 9203,
+    "sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf"
+  },
+  "AST_sha256": "56fe1b2195732cc356eec3de8c69bc229643a286f00fa631b5b0090371617c2d"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base/完整logic/原AUX/实际目标是否满足",
+  "operations": "CNF按最多18goal/100tasks分块；每块存完整输入图并调用原select；AND各块的所有局部OR，枚举并集再最小化；与独立全H断言相等",
+  "outputs": "bounded_native_parts及全部最小并集",
+  "preconditions_and_limits": "原AUX源码不改；full_native_graph由此adapter保存，select本身不返schema/mode/scope。原AUX B字段恒未接产品。",
+  "purpose": "接原native选择器且保全部OR"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/element_pool.py:native_H",
+  "AST_sha256": "56fe1b2195732cc356eec3de8c69bc229643a286f00fa631b5b0090371617c2d"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/element_pool.py:native_H"
+}
+本版未执行情况：null
+
+46. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 39,
+  "module": {
+    "bytes": 11191,
+    "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+  },
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。",
+  "purpose": "十干查五行"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+本版未执行情况：null
+
+47. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 45,
+  "module": {
+    "bytes": 11191,
+    "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+  },
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。",
+  "purpose": "严格十神角色"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+本版未执行情况：null
+
+48. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 60,
+  "module": {
+    "bytes": 11191,
+    "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+  },
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。",
+  "purpose": "原柱基础合法性"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/foundation_facts.py:validate",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate"
+}
+本版未执行情况：null
+
+49. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 104,
+  "module": {
+    "bytes": 11191,
+    "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+  },
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "historical_note": "旧K2尾注全文仅在原428合同引用保，不充当前原吴作用规则。",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。本原吴木三合与午未有限源消费在scope，保原藏而不自动合化或删根。",
+  "purpose": "保留有位置的形式合冲"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+本版未执行情况：null
+
+50. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 121,
+  "module": {
+    "bytes": 11191,
+    "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+  },
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+本版未执行情况：null
+
+51. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 148,
+  "module": {
+    "bytes": 11191,
+    "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+  },
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。",
+  "purpose": "原61完整四柱事实入口"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/foundation_facts.py:parse",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse"
+}
+本版未执行情况：null
+
+52. runtime/legacy_wu.py:food_antecedent_facts
+算法标识：runtime/legacy_wu.py:food_antecedent_facts
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 9,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "03152bd15fd342e3b97261a14207a51c2a047792db46a9e708ca53dadc482d27"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "出生raw四柱、selected五层、已采用facts十神/藏干表",
+  "operations": "以出生乙日逐出生明干与藏干枚举食神/伤官，再独立枚举当前各层明干；Xu原局词面前件只由出生visible列表决定。",
+  "outputs": "natal_visible_food/natal_hidden_food/temporal_visible_food；Xu_natal_visible_food_antecedent为bool；当前不能改写原局标志。",
+  "preconditions_and_limits": "词面前件不是Xu印运忌的全部充分条件；原吴藏丁与当前丙伤官不得冒出生明食伤；其他出生盘只检词面并不纳入原吴整盘域。",
+  "purpose": "把原局露食伤与当前明食伤分开记录"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:food_antecedent_facts",
+  "AST_sha256": "03152bd15fd342e3b97261a14207a51c2a047792db46a9e708ca53dadc482d27"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_wu.py:food_antecedent_facts"
+}
+本版未执行情况：null
+
+53. runtime/legacy_wu.py:source_domain
+算法标识：runtime/legacy_wu.py:source_domain
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 22,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "1f652d475dbd7a798a36f2661fd9df19bf836dadea2daa38586298cabbc6ea97"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "raw、selected、固定natal",
+  "operations": "要求原吴；逐层明甲乙丙壬癸己、支亥卯未午；保所有出生/当前节点，对非纯出生对枚举五合/六合/六冲。只有预先声明的午未有限共存例外，其他新关系逐位置记录未闭原因。",
+  "outputs": "ready/pending去重列表/new_formal_relation_facts与明确来源层边界。",
+  "preconditions_and_limits": "丙在该合法支字母表为丙午；丁壬/丙辛/甲己等不能因元素表可算就跳过来源。未列出的刑害/暗合等不宣称传统零作用，只属于固定有限工程口径。",
+  "purpose": "保留原吴既有来源充分域并实际放行明丙"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:source_domain",
+  "AST_sha256": "1f652d475dbd7a798a36f2661fd9df19bf836dadea2daa38586298cabbc6ea97"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_wu.py:source_domain"
+}
+本版未执行情况：null
+
+54. runtime/legacy_wu.py:inventory
+算法标识：runtime/legacy_wu.py:inventory
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 41,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "dbe051a6614945dc9dfe8d5337ab99d74cc1e268faf8538eb75d50ee23cb7b2b"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "raw、合法selected、预定params、facts/pool/digest",
+  "operations": "保出生facts及库存；给当前位置绑定layer/id/version/fullSHA；复制完整柱与藏干入current_carrier_list；只有原月加权。重建共池权重和当前根，原生根从出生库存单独保留；另索引水印/己财/新明丙及前件。",
+  "outputs": "全部actors/direct/weights/current_root_evidence/original_roots，time_visible_food_ids与food_antecedents。",
+  "preconditions_and_limits": "时间不是第五根出生柱；按共同池分配演员份额，不声称演员局部物理气量。藏丁留在所有物理计算，不冒新明食伤。",
+  "purpose": "把真实选中五层的全部明藏、根与费用同时加入旧共池"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:inventory",
+  "AST_sha256": "dbe051a6614945dc9dfe8d5337ab99d74cc1e268faf8538eb75d50ee23cb7b2b"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_wu.py:inventory"
+}
+本版未执行情况：null
+
+55. runtime/legacy_wu.py:solve
+算法标识：runtime/legacy_wu.py:solve
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 66,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "8ca848d1e1ba8cf428c7666a1d7a21f693713a3af6edddd48a7ec94a8fa336a8"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base、exact math/pool、出生两印enabled集合、finance_control_on、food_receipt_on",
+  "operations": "旧coefficients保a与全部潜在费用；出生印受控比例缩K木水/火水；关财制印缩K水土；只关新丙受生时thetaF=1−各新丙火目标权重和，缩K火木及木实际生出率，丙演员/根/丙后续生克仍在。逐32活跃面有理Gauss并完整代回max非负方程。",
+  "outputs": "current及有效K/生克率/开关/active_face和完整费用证书；无解抛算术错误。",
+  "preconditions_and_limits": "所有衰减0..1保持旧全局收缩充分性；不以8个诊断相加当现实。入参开关供内部诊断，不是用户自由权限或现代物理实测。",
+  "purpose": "在全费用不退的联合诊断中解完整五池当前量"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:solve",
+  "AST_sha256": "8ca848d1e1ba8cf428c7666a1d7a21f693713a3af6edddd48a7ec94a8fa336a8"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+56. runtime/legacy_wu.py:origin_ports
+算法标识：runtime/legacy_wu.py:origin_ports
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 91,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "be7647fa5183ddd871ac7e7e273c204193f1c01b06e67925421016dbbddcfd81"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base/world/math",
+  "operations": "按实际generationrates形成gross与rho；多rhs有理解每origin；核每式、非负、和=current",
+  "outputs": "全ports/gross/retention",
+  "preconditions_and_limits": "不能把旧固定b origin函数用于theta非1；控制/成本消费比例同世界，不跨world。",
+  "purpose": "每诊断同解全部真实源追踪"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:origin_ports",
+  "AST_sha256": "be7647fa5183ddd871ac7e7e273c204193f1c01b06e67925421016dbbddcfd81"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+57. runtime/legacy_wu.py:actual_effects
+算法标识：runtime/legacy_wu.py:actual_effects
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 106,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "1cd0a6732309cd822faa3155ef2ef9632f9debcfb366276a91194af8910bae64"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base、单一world、该world的origin_ports",
+  "operations": "每元素共池按固定weights分给演员；穷举生/克边，分source_function_enabled与target_receiving_enabled，仅新丙受生边可关；逐来源传出/目标钳位/目标保留；逐演员记录已预留、实发送、未给信用费用，逐元素验证收支平衡和实际控制损失。",
+  "outputs": "全演员来源端口、所有带kind的生克边、五本账、全部演员来源费用表、clamps；所有演员/根保留。",
+  "preconditions_and_limits": "control_capacity的amount为非负容量大小，不代表正收益；负作用由kind、负K和loss表示。目标信用是共池分配，不冒演员局部实际力。关边不退款、不删丙、不把控制损失计作出生收益。",
+  "purpose": "将同一联解下全部实际生克、来源、费用与扣留分配到明藏演员"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:actual_effects",
+  "AST_sha256": "1cd0a6732309cd822faa3155ef2ef9632f9debcfb366276a91194af8910bae64"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+58. runtime/legacy_wu.py:goals
+算法标识：runtime/legacy_wu.py:goals
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 136,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "fdcb5e4de30d5bcb9bbdf3f38d2c6216662864ee985540c590f4ab5467f74ff4"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base,world,ports,graph",
+  "operations": "木主体覆盖火土金、半direct、原三木origin与亥水存活；原两隐丁受木生且F>0；计算全部明印实际保留生日信用和原亥贡献，门B/32",
+  "outputs": "checks、信用、根信用、量与完整布尔",
+  "preconditions_and_limits": "门是先定工程充分题，不是原典数字；新食不替代原食；信用来自实际全图，不由角色标签或H定义喜印。",
+  "purpose": "完整有限原吴当前任务"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:goals",
+  "AST_sha256": "fdcb5e4de30d5bcb9bbdf3f38d2c6216662864ee985540c590f4ab5467f74ff4"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_wu.py:goals"
+}
+本版未执行情况：null
+
+59. runtime/legacy_wu.py:exposed_food_metrics
+算法标识：runtime/legacy_wu.py:exposed_food_metrics
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 147,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "dda257d81999743201f728150478adb38b70c52e7443d9646bcc92c748999ab2"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base、完整actual world、该world完整graph",
+  "operations": "只对当前visible丙目标汇总木来源generation_retained_at_target_origins；再单独汇总原出生亥卯未木根来源分量；记录物理木当前量与其1/32。",
+  "outputs": "每新丙实际保留受生信用/原出生木根信用、木量和material_floor_wood_current_over_32。",
+  "preconditions_and_limits": "不是总火量、角色标签、裸木生火率，也不是个人基础主题B；原藏丁非该选择集合但仍在物理与安全前提中。",
+  "purpose": "计算实际木→当前明丙受生并保留下来的有效贡献"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:exposed_food_metrics",
+  "AST_sha256": "dda257d81999743201f728150478adb38b70c52e7443d9646bcc92c748999ab2"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_wu.py:exposed_food_metrics"
+}
+本版未执行情况：null
+
+60. runtime/legacy_wu.py:complete_food_H
+算法标识：runtime/legacy_wu.py:complete_food_H
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 160,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "5219290e040ae4b51f1650490366f496c8e338388a4728bd4885121a0bcb6955"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base.time_visible_food_ids、actual metrics、完整wood/root/原食/有丙/输出增益hard_checks",
+  "operations": "逐2^n子集；全硬条件且信用和>0且>=木当前量/32，入选每丙原出生木根信用>0才通过；由全部pass取包含意义最小H，由极大失败集补集生成CNF。",
+  "outputs": "全部mask真值/信用、所有最小H、精确CNF、mask数及阈值含义。",
+  "preconditions_and_limits": "不关闭演员重新算H，不从关受生诊断取H信用；H集合并集不等于最终喜用，不选原藏丁或未出现火。阈值是继承的工程充分阈值。",
+  "purpose": "以固定实际世界的真实信用穷举当前明丙任务最小支持集"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:complete_food_H",
+  "AST_sha256": "5219290e040ae4b51f1650490366f496c8e338388a4728bd4885121a0bcb6955"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_wu.py:complete_food_H"
+}
+本版未执行情况：null
+
+61. runtime/legacy_wu.py:native_food_H
+算法标识：runtime/legacy_wu.py:native_food_H
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 174,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "ccebf52091f070f38e2e53faf7b260f64ab1eeff83ccd08ed0e9bab9af70f6a6"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base、全mask logic、hardchecks、固定aux模块",
+  "operations": "投影所有可选新明丙与每实际元素一个不可选见证；物理全图仍独立保留；每硬条件建必须已满足goal，每CNF建支持task；调用原select并逐mask核覆盖真值和最小H完全相等。",
+  "outputs": "完整原生AUX graph/result、逐mask等价数、省略不可选演员ID及投影含义。",
+  "preconditions_and_limits": "≤12投影演员；不能删全物理图/负面作用，也不能从H推needed_absent、最终共同喜用或干预。空CNF不掩盖硬失败。",
+  "purpose": "把已完整求出的明丙信用真值精确接入旧AUX选择器"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:native_food_H",
+  "AST_sha256": "ccebf52091f070f38e2e53faf7b260f64ab1eeff83ccd08ed0e9bab9af70f6a6"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_wu.py:native_food_H"
+}
+本版未执行情况：null
+
+62. runtime/legacy_wu.py:complete_H
+算法标识：runtime/legacy_wu.py:complete_H
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 200,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "080601fe67ebfed25b468d43884bb3fcb5961d7277e64d60117ca7270bc4df29"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base,goal",
+  "operations": "枚举至多7明印全部mask，完整硬门+正信用>=B/32且各入选者原亥贡献>0；保所有最小真集与最大假集补CNF",
+  "outputs": "全部rows、全部OR最小H、CNF",
+  "preconditions_and_limits": "actual-fixed-world说明题；不是删去包外演员的反事实，也不是H并集直接喜用/需要。",
+  "purpose": "全明印实际正信用最小解释集合"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:complete_H",
+  "AST_sha256": "080601fe67ebfed25b468d43884bb3fcb5961d7277e64d60117ca7270bc4df29"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+63. runtime/legacy_wu.py:native_H
+算法标识：runtime/legacy_wu.py:native_H
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 209,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "9a17c644a52ab4e54c2ac108b0e8dead8bf4d0ca4402544b9ae004cd7cd9c6fe"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base,logic,goal,aux",
+  "operations": "投影所有可选明印+实际非可选元素见证(<=12)；硬目标+全假集CNF；调用原select，逐mask真值相等并比全H",
+  "outputs": "完整AUX投影graph/native_result、被省非可选id、等价数",
+  "preconditions_and_limits": "投影不是全物理图。全部未投影actors仍在physicalgraph。repair/interventions为空有源范围理由，不从H并集推出缺项。",
+  "purpose": "复用原AUX并证明每mask等价"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:native_H",
+  "AST_sha256": "9a17c644a52ab4e54c2ac108b0e8dead8bf4d0ca4402544b9ae004cd7cd9c6fe"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+64. runtime/legacy_wu.py:analyze
+算法标识：runtime/legacy_wu.py:analyze
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 229,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "0743dd75d214a953203853bd83f4ac18ece31a04fa5b3be0452da565d714ee51"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base、math/pool/aux",
+  "operations": "出生两印4开关×丙受生2开关，共8联合同费用世界（无新丙只4）；actual为两印全开受生开；印比较只取受生开两印关，食比较只取两印开受生关。actual计算旧printH/木体及margin改善，另按新food指标与actual火增益算foodH；加财制印关诊断重算双面。",
+  "outputs": "完整实际/8联合诊断引用/两个具名任务/H/全费用与财两面；原局水不变。named task complete是两个已核任务OR，不把方向并成全盘最终水火。",
+  "preconditions_and_limits": "一任务失败不抹另任务；两者都失败时物理可知但辅助未立，不能确认same。财增火减木两面只记录，不自动喜土；最美字眼不等无条件喜火/永远喜水。",
+  "purpose": "保全原局参考与两个分存的当前来源任务并重算所有双面作用"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:analyze",
+  "AST_sha256": "0743dd75d214a953203853bd83f4ac18ece31a04fa5b3be0452da565d714ee51"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+65. runtime/legacy_wu.py:functional_payload
+算法标识：runtime/legacy_wu.py:functional_payload
+source_identity：{
+  "path": "runtime/legacy_wu.py",
+  "line": 263,
+  "module": {
+    "bytes": 32409,
+    "sha256": "6468258b1fa0893ce6b1eb818a9a7feea50295611b7cdab84fb7932ad5d0599d"
+  },
+  "AST_sha256": "e995ec1b75191526107e78f5ccc715c6b0e229e55b897f4f9db579abf8cc8f21"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "base、完整calculation、具名method",
+  "operations": "当前pos/actor/origin映射为time:layer，保typedpillar、根位置/数量/原来源、实际各池/所有生克边/印H/新foodH及信用/阈值/诊断差值/原局前件；只剔除纯记录ID/hash。",
+  "outputs": "可canonical/hash的完整功能payload，与source_trace独立。",
+  "preconditions_and_limits": "不同method保留不同method；同池总量不足证明同功能。真实actor/root/负面作用不许抹；此比较不是主题/配色/最终喜用比较。",
+  "purpose": "归一化纯来源名并保留所有真实当前功能及两个任务结果"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/current_wu.py:functional_payload",
+  "AST_sha256": "e995ec1b75191526107e78f5ccc715c6b0e229e55b897f4f9db579abf8cc8f21"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_wu.py:functional_payload"
+}
+本版未执行情况：null
+
+66. runtime/shared_exact.py:pack
+算法标识：runtime/shared_exact.py:pack
+source_identity：{
+  "path": "runtime/shared_exact.py",
+  "line": 3,
+  "module": {
+    "bytes": 936,
+    "sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a"
+  },
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "Fraction/字典/序列/集合等",
+  "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+  "outputs": "转换后的值",
+  "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。",
+  "purpose": "将数学结构转为可重复JSON兼容值"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/shared_exact.py:pack",
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/shared_exact.py:pack"
+}
+本版未执行情况：null
+
+67. runtime/shared_exact.py:gauss
+算法标识：runtime/shared_exact.py:gauss
+source_identity：{
+  "path": "runtime/shared_exact.py",
+  "line": 10,
+  "module": {
+    "bytes": 936,
+    "sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a"
+  },
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "n×n有理系数及n行多列右端",
+  "operations": "逐列选非零枢轴、归一、消去其他行",
+  "outputs": "有理数解矩阵；奇异报ArithmeticError",
+  "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。",
+  "purpose": "精确多右端线性消元"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/shared_exact.py:gauss",
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/shared_exact.py:gauss"
+}
+本版未执行情况：null
+
+68. runtime/time_contract.py:ContractError.__init__
+算法标识：runtime/time_contract.py:ContractError.__init__
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 18,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "76fe5c17a69fcce7f30862e13b19f66b73c4db1a6854f5a1f41029beb54d20b8"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "self, code, status='invalid_input'",
+  "operations": "Creates typed hard-failure reason. Default invalid_input, dependency/binding statuses explicit. Not a return result.",
+  "outputs": "None; exception instance .code:str and .status:str",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Creates typed hard-failure reason. Default invalid_input, dependency/binding statuses explicit. Not a return result."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:ContractError.__init__",
+  "AST_sha256": "76fe5c17a69fcce7f30862e13b19f66b73c4db1a6854f5a1f41029beb54d20b8"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+69. runtime/time_contract.py:canonical
+算法标识：runtime/time_contract.py:canonical
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 21,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "Canonicalizes JSON with allow_nan=False; serialization errors propagate. Does not parse or authorize input.",
+  "outputs": "str: sorted compact UTF-8-compatible JSON text",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Canonicalizes JSON with allow_nan=False; serialization errors propagate. Does not parse or authorize input."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:canonical",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:canonical"
+}
+本版未执行情况：null
+
+70. runtime/time_contract.py:digest
+算法标识：runtime/time_contract.py:digest
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 24,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "Value hash, not file-byte hash and not proof of source truth.",
+  "outputs": "str:64hex SHA256(canonical(value).encode())",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Value hash, not file-byte hash and not proof of source truth."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:digest",
+  "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:digest"
+}
+本版未执行情况：null
+
+71. runtime/time_contract.py:json_pairs
+算法标识：runtime/time_contract.py:json_pairs
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 27,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "83d89b09d8841a3f0d9269edda31935f875dcd740f6803e5515b3e24144c1552"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "rows",
+  "operations": "Strict JSON object-pairs hook; duplicate keys raise ContractError. Does not independently bound nested size.",
+  "outputs": "dict[str,Any]",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Strict JSON object-pairs hook; duplicate keys raise ContractError. Does not independently bound nested size."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:json_pairs",
+  "AST_sha256": "83d89b09d8841a3f0d9269edda31935f875dcd740f6803e5515b3e24144c1552"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+72. runtime/time_contract.py:json_nonfinite
+算法标识：runtime/time_contract.py:json_nonfinite
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 34,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "e725fd4f4251cbe58b87e44ab05b3cb3a0afd4c530d663571f2d3c636a6a25a9"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "Rejects NaN/Infinity tokens during strict JSON parsing.",
+  "outputs": "Never returns normally; raises ContractError",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Rejects NaN/Infinity tokens during strict JSON parsing."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:json_nonfinite",
+  "AST_sha256": "e725fd4f4251cbe58b87e44ab05b3cb3a0afd4c530d663571f2d3c636a6a25a9"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+73. runtime/time_contract.py:strict_load
+算法标识：runtime/time_contract.py:strict_load
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 37,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "b389beac0fdf901d7a264de89822289bce60e1b08083442a5b8cdb7b471777fc"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "text",
+  "operations": "Requires input str <=2,000,000 characters; object duplicate/nonfinite hooks. Root schema is checked later in evaluate, not here.",
+  "outputs": "Any parsed JSON value",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Requires input str <=2,000,000 characters; object duplicate/nonfinite hooks. Root schema is checked later in evaluate, not here."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:strict_load",
+  "AST_sha256": "b389beac0fdf901d7a264de89822289bce60e1b08083442a5b8cdb7b471777fc"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+74. runtime/time_contract.py:bounded
+算法标识：runtime/time_contract.py:bounded
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 41,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "8141c84df631aeea1d0cdbababfbd4033b58448a2e13d1e2179d62fc5ac81c8e"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value, depth=0",
+  "operations": "Recursively enforces depth<=64, dict<=128 fields and list<=512 items; JSON serializability. No BaZi/source judgment.",
+  "outputs": "None on success",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Recursively enforces depth<=64, dict<=128 fields and list<=512 items; JSON serializability. No BaZi/source judgment."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:bounded",
+  "AST_sha256": "8141c84df631aeea1d0cdbababfbd4033b58448a2e13d1e2179d62fc5ac81c8e"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+75. runtime/time_contract.py:shape
+算法标识：runtime/time_contract.py:shape
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 51,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "93dcded0f65157201b66088f42a5d5f2b7e765fcb88fdb602484ebbd77333aa4"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value, fields, path",
+  "operations": "Requires exact dict key set at the named path; missing and extra fields fail.",
+  "outputs": "None on success",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Requires exact dict key set at the named path; missing and extra fields fail."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:shape",
+  "AST_sha256": "93dcded0f65157201b66088f42a5d5f2b7e765fcb88fdb602484ebbd77333aa4"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:shape"
+}
+本版未执行情况：null
+
+76. runtime/time_contract.py:named_ref
+算法标识：runtime/time_contract.py:named_ref
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 54,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "da57d353857b7f363beb17790081410b9cf3c8ee93929c3b017cbb4064a580c7"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value, path",
+  "operations": "Exact id/version dict of nonempty trimmed strings; no source validity claim.",
+  "outputs": "None on success",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Exact id/version dict of nonempty trimmed strings; no source validity claim."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:named_ref",
+  "AST_sha256": "da57d353857b7f363beb17790081410b9cf3c8ee93929c3b017cbb4064a580c7"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:named_ref"
+}
+本版未执行情况：null
+
+77. runtime/time_contract.py:compatible
+算法标识：runtime/time_contract.py:compatible
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 58,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "a214218c9b8daf79b2732f9551518ae3bcc79ff8cc670eb7128da1955498534f"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "first, second, kind",
+  "operations": "Five虎 annual/month or five鼠 day/hour stem compatibility for actual overlapping same-context records; glyph structure already validated upstream. No real calendar generation.",
+  "outputs": "bool",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Five虎 annual/month or five鼠 day/hour stem compatibility for actual overlapping same-context records; glyph structure already validated upstream. No real calendar generation."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:compatible",
+  "AST_sha256": "a214218c9b8daf79b2732f9551518ae3bcc79ff8cc670eb7128da1955498534f"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:compatible"
+}
+本版未执行情况：null
+
+78. runtime/time_contract.py:preflight_native
+算法标识：runtime/time_contract.py:preflight_native
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 63,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "d9495760f44290f4f26516330e0fc0efb7b16ca56b19b5465962872817ae60e8"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "native, profile, pack",
+  "operations": "Validates exact native source-method/profile, owner/content hashes, ALL current/future records and overlapping calendar pairs; structural natal checks. Knowledge-unknown time may return a checked object, but hard invalid/binding fails before world math.",
+  "outputs": "dict: native,time_report,parsed,facts,identity_entries",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Validates exact native source-method/profile, owner/content hashes, ALL current/future records and overlapping calendar pairs; structural natal checks. Knowledge-unknown time may return a checked object, but hard invalid/binding fails before world math."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:preflight_native",
+  "AST_sha256": "d9495760f44290f4f26516330e0fc0efb7b16ca56b19b5465962872817ae60e8"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:preflight_native"
+}
+本版未执行情况：null
+
+79. runtime/time_contract.py:immutable_preflight
+算法标识：runtime/time_contract.py:immutable_preflight
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 83,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "30e6c8f5fca4b83c78780da745adb17e06b6cb6c68e79344dc2729e37f93cfa3"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "current, previous",
+  "operations": "Current and previous entries with same kind/namespace/id/version must have identical SHA. Different identity/version permitted; verifies history identity consistency, not calendar truth.",
+  "outputs": "int: number of distinct typed immutable identities",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "Current and previous entries with same kind/namespace/id/version must have identical SHA. Different identity/version permitted; verifies history identity consistency, not calendar truth."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:immutable_preflight",
+  "AST_sha256": "30e6c8f5fca4b83c78780da745adb17e06b6cb6c68e79344dc2729e37f93cfa3"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:immutable_preflight"
+}
+本版未执行情况：null
+
+80. runtime/time_contract.py:atom_proof
+算法标识：runtime/time_contract.py:atom_proof
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 94,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "d5979d19ee8278bda0b2d7a268e420c4a525d08802aea3e8529f2a2c91bf4508"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "checked, at, pack",
+  "operations": "At a known instant, cuts on ALL provided endpoints and calls unchanged time01 for the whole surrounding half-open atom. Every layer must be unique across atom; does not reseal registry or generate records.",
+  "outputs": "dict:start/end/interval,all_provided_record_boundaries_used,native_full_atom_layer_reports,original_registry_resealed,selected",
+  "preconditions_and_limits": "13纯合同函数精确372 AST继承，357到372正确域沿已存阅读/继承收据；不是整个历史模块字节相同。",
+  "purpose": "At a known instant, cuts on ALL provided endpoints and calls unchanged time01 for the whole surrounding half-open atom. Every layer must be unique across atom; does not reseal registry or generate records."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:atom_proof",
+  "AST_sha256": "d5979d19ee8278bda0b2d7a268e420c4a525d08802aea3e8529f2a2c91bf4508"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+81. runtime/time_contract.py:window_functional_timeline
+算法标识：runtime/time_contract.py:window_functional_timeline
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 100,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "5fa56e7eb199231330f28dfd29c3bfe083906458f084c458607452da69997b8b"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "frames",
+  "operations": "逐片必须有effect_signature；仅相邻且同effect合并",
+  "outputs": "start/end/effect时间线",
+  "preconditions_and_limits": "准确复用372/385；不计算effect、不认证source、不补缺口；调用方先证明全窗已知。",
+  "purpose": "合并已知相邻等效片"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:window_functional_timeline",
+  "AST_sha256": "5fa56e7eb199231330f28dfd29c3bfe083906458f084c458607452da69997b8b"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:window_functional_timeline"
+}
+本版未执行情况：null
+
+82. runtime/time_contract.py:snapshot_source_trace
+算法标识：runtime/time_contract.py:snapshot_source_trace
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 110,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "0f369b98e3cc846f714ca65a083f62b6596bda55912bf7c972d99dd9749f489c"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "读instant所选或window原生片所选五层，记录id/version/fullrecordSHA；相邻同选择合并；仅全片唯一选齐才给identity_signature",
+  "outputs": "完整selectionknown/segments/refs/signature",
+  "preconditions_and_limits": "source已知可与功能pending并存；未知不是已知空选择；不拿全catalog替代实际所选。",
+  "purpose": "实际所选来源轴"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:snapshot_source_trace",
+  "AST_sha256": "0f369b98e3cc846f714ca65a083f62b6596bda55912bf7c972d99dd9749f489c"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:snapshot_source_trace"
+}
+本版未执行情况：null
+
+83. runtime/time_contract.py:compare_window_functional
+算法标识：runtime/time_contract.py:compare_window_functional
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 126,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "77ce198431524e19b7989547514e8f036b97d2b150107419ba5ec891df6e3c22"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "current,previous,pack",
+  "operations": "要求requestedwindow同域；取两timeline全部端点；每最小片双方必须各唯一覆盖，逐片比effect",
+  "outputs": "same或不同比较域、全部aligned_segments",
+  "preconditions_and_limits": "不是只比签名集合或单时点；前置双方已知、timeline完整且有序；不证明来源或重新算物理。",
+  "purpose": "同域已知功能窗并集切点比较"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:compare_window_functional",
+  "AST_sha256": "77ce198431524e19b7989547514e8f036b97d2b150107419ba5ec891df6e3c22"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:compare_window_functional"
+}
+本版未执行情况：null
+
+84. runtime/time_contract.py:snapshot
+算法标识：runtime/time_contract.py:snapshot
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 141,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "d98fae72a8cd703c89cad6486e1ba491a66b868c4813ebaa5acb750551abcad7"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "checked,material,pack,cache",
+  "operations": "instant先全atom唯一证明；window保原0.2逐片覆盖后frame；仅每片当前辅助完整时建功能timeline；来源trace始终独立",
+  "outputs": "完整frames、coverage、known状态和规范timeline/签名",
+  "preconditions_and_limits": "源未解、缺档、辅助未立都不knownsame；物理可已算但aux未立。只改准确状态名，继承385比较逻辑。",
+  "purpose": "当前完整instant/window上下文"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "runtime/time_contract.py:snapshot",
+  "AST_sha256": "d98fae72a8cd703c89cad6486e1ba491a66b868c4813ebaa5acb750551abcad7"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:snapshot"
+}
+本版未执行情况：null
+
+85. runtime/time_contract.py:compare
+算法标识：runtime/time_contract.py:compare
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 162,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "1569b9ba65ff4b00f426bdea9d22f0016f0a7c0f0c8ddf405e6d379e61f23d67"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "分别判断功能轴与资料身份轴",
+  "inputs": "完整current/previous snapshot与native、原时间库",
+  "operations": "核同owner/method/chart和同evaluation域；源选择完整时单独比身份；任一研究签名缺失不能确认；窗口取双方边界并片段比较；instant保倒时钟历史比较",
+  "outputs": "confirmed_same/changed、不可比或证据不足，以及单独source_changed",
+  "preconditions_and_limits": "已算false可比较；必要time/source未知不可confirmed_same；不是手环显示或全传统喜用比较。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:compare"
+}
+本版未执行情况：null
+
+86. runtime/time_contract.py:frame
+算法标识：runtime/time_contract.py:frame
+source_identity：{
+  "path": "runtime/time_contract.py",
+  "line": 187,
+  "module": {
+    "bytes": 17985,
+    "sha256": "6b10c1db7b3e5701695fb23389fdbfc257d0a9184120ebcc5392392767bce502"
+  },
+  "AST_sha256": "8bc209acc12951897f0f55a1c75d02c2f9537f01d4b07535e12cf9783f7bd691"
+}
+条目分类：new_or_changed_current_algorithm
+算法解释：{
+  "purpose": "把具名已算阴性与未闭来源分开",
+  "inputs": "checked/raw、selected、validity、guarded material、pack与cache",
+  "operations": "先源域/真实载体；源未闭只报告facts并无数学signature；已闭完整analyze后分别保存研究complete与旧positive；计算purephysical与完整research签名",
+  "outputs": "完整frame、知识轴、具体缺项/已算阴性、完整图及任务，不合并最终元素",
+  "preconditions_and_limits": "未决不拿原水当已算当前辅助；出生水另存；没有显示兜底，也不靠全部unsupported充完成。"
+}
+精确复用旧版记录：null
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/time_contract.py:frame"
+}
+本版未执行情况：null
+
+87. vendor/time_validity_v0_1/time_validity.py:ContractError.__init__
+算法标识：vendor/time_validity_v0_1/time_validity.py:ContractError.__init__
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 24,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "status,path,code",
+  "operations": "保存三个字段；未调用super().__init__",
+  "outputs": "正常None及status/path/code",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "0.2类型化错误"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:ContractError.__init__",
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+88. vendor/time_validity_v0_1/time_validity.py:fail
+算法标识：vendor/time_validity_v0_1/time_validity.py:fail
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 28,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "status,path,code",
+  "operations": "raise ContractError(status,path,code)",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "统一抛合同异常"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:fail",
+  "AST_sha256": "b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+89. vendor/time_validity_v0_1/time_validity.py:obj
+算法标识：vendor/time_validity_v0_1/time_validity.py:obj
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 32,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "72228a38d33e9d7c6b0e567c982496a97870a88434d6a0571cee31668bb3c212"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value,required,path,optional=()",
+  "operations": "dict、必需/可选键集合检查；缺必需needs_input、多余invalid_input",
+  "outputs": "成功None",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "精确对象形状"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:obj",
+  "AST_sha256": "72228a38d33e9d7c6b0e567c982496a97870a88434d6a0571cee31668bb3c212"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:obj"
+}
+本版未执行情况：null
+
+90. vendor/time_validity_v0_1/time_validity.py:nonempty
+算法标识：vendor/time_validity_v0_1/time_validity.py:nonempty
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 41,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "71f77e1496392dc39b00aab96999da7e2794a40746e68e8f0d078f5332f77029"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value,path",
+  "operations": "要求str且value.strip()非空；不要求原串已经trimmed",
+  "outputs": "成功None，不返回或修改原字符串",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "含非空白的文本"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:nonempty",
+  "AST_sha256": "71f77e1496392dc39b00aab96999da7e2794a40746e68e8f0d078f5332f77029"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:nonempty"
+}
+本版未执行情况：null
+
+91. vendor/time_validity_v0_1/time_validity.py:ref
+算法标识：vendor/time_validity_v0_1/time_validity.py:ref
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 46,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "3c668fa5f9ac7b83641a20280482bd70b308796b1a48c1156596a08287e15e58"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value,path,with_hash=False",
+  "operations": "精确id/version（可另sha256）对象，nonempty及hash语法检查",
+  "outputs": "(id,version) tuple，不返原dict",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "具名版本引用"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:ref",
+  "AST_sha256": "3c668fa5f9ac7b83641a20280482bd70b308796b1a48c1156596a08287e15e58"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:ref"
+}
+本版未执行情况：null
+
+92. vendor/time_validity_v0_1/time_validity.py:hash_value
+算法标识：vendor/time_validity_v0_1/time_validity.py:hash_value
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 56,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "aa33c9a8a29173f33325ab188638248c76f3d9ed0da3c13781b86d2b060b78ab"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value,path",
+  "operations": "要求64位小写hex字符串",
+  "outputs": "成功None",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "SHA字段语法"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:hash_value",
+  "AST_sha256": "aa33c9a8a29173f33325ab188638248c76f3d9ed0da3c13781b86d2b060b78ab"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:hash_value"
+}
+本版未执行情况：null
+
+93. vendor/time_validity_v0_1/time_validity.py:digest
+算法标识：vendor/time_validity_v0_1/time_validity.py:digest
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 61,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "ebed624263df4a325b075213744cf1991e520786d6cda9ee4de05ffde022a263"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "排序Unicode紧凑JSON、UTF8 SHA256",
+  "outputs": "hex str",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "规范值SHA"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:digest",
+  "AST_sha256": "ebed624263df4a325b075213744cf1991e520786d6cda9ee4de05ffde022a263"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:digest"
+}
+本版未执行情况：null
+
+94. vendor/time_validity_v0_1/time_validity.py:payload_digest
+算法标识：vendor/time_validity_v0_1/time_validity.py:payload_digest
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 67,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "929b212877e4ed2311b94399f8eb911956a00960517d326574045447aa2d0cff"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "request",
+  "operations": "完整请求仅排除registry顶层字段，再digest",
+  "outputs": "hex str；不裁剪或只取records",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "原声明载荷绑定"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:payload_digest",
+  "AST_sha256": "929b212877e4ed2311b94399f8eb911956a00960517d326574045447aa2d0cff"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:payload_digest"
+}
+本版未执行情况：null
+
+95. vendor/time_validity_v0_1/time_validity.py:load_request
+算法标识：vendor/time_validity_v0_1/time_validity.py:load_request
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 72,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "b5ff1444bfa960b2bf587052e42ceee9ecc1aaa895ff171257e99526b932876c"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "raw",
+  "operations": "重复键与非有限常量回调；json.loads",
+  "outputs": "解析JSON；异常拒绝",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "中立旧CLI严格解析"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:load_request",
+  "AST_sha256": "b5ff1444bfa960b2bf587052e42ceee9ecc1aaa895ff171257e99526b932876c"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+96. vendor/time_validity_v0_1/time_validity.py:load_request.unique_object
+算法标识：vendor/time_validity_v0_1/time_validity.py:load_request.unique_object
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 74,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "c80d44e588d19c9eebfc2394d9d67ba26dd0a829c13f072b35968a468305a129"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "pairs",
+  "operations": "逐键插入，重复fail",
+  "outputs": "dict",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "拒绝重复对象键"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:load_request.<locals>.unique_object",
+  "AST_sha256": "c80d44e588d19c9eebfc2394d9d67ba26dd0a829c13f072b35968a468305a129"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+97. vendor/time_validity_v0_1/time_validity.py:load_request.reject_constant
+算法标识：vendor/time_validity_v0_1/time_validity.py:load_request.reject_constant
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 82,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "50c2f9e0b629134f34610ed9e31aa6ffeee45985134f76de5c3fddbc9636dba7"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "fail nonfinite_JSON_number",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "拒绝非有限常量"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:load_request.<locals>.reject_constant",
+  "AST_sha256": "50c2f9e0b629134f34610ed9e31aa6ffeee45985134f76de5c3fddbc9636dba7"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+98. vendor/time_validity_v0_1/time_validity.py:utc
+算法标识：vendor/time_validity_v0_1/time_validity.py:utc
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 88,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "92b7ff371423a3e9c37df8936460e42b5d4391f92820a1d84ab4725593f3aa5c"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value,path",
+  "operations": "文本正则、显式Z/+00:00、微秒<=6、datetime解析",
+  "outputs": "UTC datetime",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "明确UTC解析"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:utc",
+  "AST_sha256": "92b7ff371423a3e9c37df8936460e42b5d4391f92820a1d84ab4725593f3aa5c"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:utc"
+}
+本版未执行情况：null
+
+99. vendor/time_validity_v0_1/time_validity.py:utc_text
+算法标识：vendor/time_validity_v0_1/time_validity.py:utc_text
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 97,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "642c7386c0a5df3a05d03352e44cc11e850d01582faa140c8d2febf5a498448b"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "datetime",
+  "operations": "转UTC并isoformat；+00:00换Z",
+  "outputs": "str",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "UTC规范文本"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:utc_text",
+  "AST_sha256": "642c7386c0a5df3a05d03352e44cc11e850d01582faa140c8d2febf5a498448b"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:utc_text"
+}
+本版未执行情况：null
+
+100. vendor/time_validity_v0_1/time_validity.py:parse_evaluation
+算法标识：vendor/time_validity_v0_1/time_validity.py:parse_evaluation
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 101,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "d2fd4503ef77645e0ffe126cfe97dabc4f58feeaee49f17c90bbc3ba41d10f5c"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "精确字段；UTC解析；window start<end",
+  "outputs": "(kind,start,end)；instant两个时点均point，不是None",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "请求instant或半开window"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:parse_evaluation",
+  "AST_sha256": "d2fd4503ef77645e0ffe126cfe97dabc4f58feeaee49f17c90bbc3ba41d10f5c"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:parse_evaluation"
+}
+本版未执行情况：null
+
+101. vendor/time_validity_v0_1/time_validity.py:record_ref
+算法标识：vendor/time_validity_v0_1/time_validity.py:record_ref
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 117,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "1f16bdc6172940b24e80061667bf069b81bfb4a81c6580e49ebe6209d29a7257"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "原始record",
+  "operations": "仅提取id/version",
+  "outputs": "二字段dict；不是selected完整record",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "简要记录身份引用"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:record_ref",
+  "AST_sha256": "1f16bdc6172940b24e80061667bf069b81bfb4a81c6580e49ebe6209d29a7257"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:record_ref"
+}
+本版未执行情况：null
+
+102. vendor/time_validity_v0_1/time_validity.py:parse_record
+算法标识：vendor/time_validity_v0_1/time_validity.py:parse_record
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 121,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "073efc44f7db77c6d4e596ae3b3208cc71666c20c53d02303b61afd78638a155"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "record,path,context_hash,evidence_index",
+  "operations": "核shape/id/version/context/evidence/配对；解析范围与干支；缺项标记、坏绑定列issue",
+  "outputs": "含raw、datetime、missing标记/绑定issue的record",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "完整原记录解析"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:parse_record",
+  "AST_sha256": "073efc44f7db77c6d4e596ae3b3208cc71666c20c53d02303b61afd78638a155"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:parse_record"
+}
+本版未执行情况：null
+
+103. vendor/time_validity_v0_1/time_validity.py:relation
+算法标识：vendor/time_validity_v0_1/time_validity.py:relation
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 161,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "80cc1239b8fdf7edcf45c898b3600c2f2bd3c9f22d443860d1bf9cc330d97fa7"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "parsed record,kind,start,end",
+  "operations": "按半开范围判断未来/过期/覆盖/局部/未知",
+  "outputs": "关系str",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "记录与评估关系"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:relation",
+  "AST_sha256": "80cc1239b8fdf7edcf45c898b3600c2f2bd3c9f22d443860d1bf9cc330d97fa7"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:relation"
+}
+本版未执行情况：null
+
+104. vendor/time_validity_v0_1/time_validity.py:overlap_in_evaluation
+算法标识：vendor/time_validity_v0_1/time_validity.py:overlap_in_evaluation
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 180,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "cf29ff86ce27f02fbdfa55a9f86e812d5bd5240da6d82a3c4c58674e9cb98504"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "first,second,kind,start,end",
+  "operations": "先两记录区间相交，再检查instant a<=t<b或与window严格交；任一缺范围False",
+  "outputs": "bool，未知另由上层保留",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "两个记录在评估域是否真相交"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:overlap_in_evaluation",
+  "AST_sha256": "cf29ff86ce27f02fbdfa55a9f86e812d5bd5240da6d82a3c4c58674e9cb98504"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+105. vendor/time_validity_v0_1/time_validity.py:evaluate_layer
+算法标识：vendor/time_validity_v0_1/time_validity.py:evaluate_layer
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 190,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "53cd967656f383ffa7929d4483602c3319aefc28d9f881eca22855655c4db00e"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "全部parsedrecords,kind,start,end",
+  "operations": "全记录分类与binding/missing/partial/conflict优先处理；只有唯一全覆盖无issue为current",
+  "outputs": "单层report及selected或unknown",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "单层唯一选择与未知"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:evaluate_layer",
+  "AST_sha256": "53cd967656f383ffa7929d4483602c3319aefc28d9f881eca22855655c4db00e"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:evaluate_layer"
+}
+本版未执行情况：null
+
+106. vendor/time_validity_v0_1/time_validity.py:_evaluate
+算法标识：vendor/time_validity_v0_1/time_validity.py:_evaluate
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 263,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "b3108e9cecab25fa25e58fed25266d57276ad2fc20f95cbd6badaa72aece0015"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "request",
+  "operations": "context/方法/历法/registry/evidence/原payload绑定；全部层记录parse且全局id+version不得重复；五层全查",
+  "outputs": "完整report，唯全层无issue才current",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "完整中立合同检查"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:_evaluate",
+  "AST_sha256": "b3108e9cecab25fa25e58fed25266d57276ad2fc20f95cbd6badaa72aece0015"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:_evaluate"
+}
+本版未执行情况：null
+
+107. vendor/time_validity_v0_1/time_validity.py:evaluate
+算法标识：vendor/time_validity_v0_1/time_validity.py:evaluate
+source_identity：{
+  "path": "vendor/time_validity_v0_1/time_validity.py",
+  "line": 333,
+  "module": {
+    "bytes": 16230,
+    "sha256": "95cc449e06cac0d15706269e25f2b36acd7e2a9089f44ea7a589875eac302525"
+  },
+  "AST_sha256": "01f28d9c749e0a5ac0a684e0fbc8e7edd8d83a8e05a775fe00bdba6696f6fcab"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "request",
+  "operations": "调用_evaluate；捕ContractError和规定结构/非有限异常",
+  "outputs": "正常或结构化unknown/error报告",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "中立合同公开安全包装"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_1/time_validity.py:evaluate",
+  "AST_sha256": "01f28d9c749e0a5ac0a684e0fbc8e7edd8d83a8e05a775fe00bdba6696f6fcab"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_1/time_validity.py:evaluate"
+}
+本版未执行情况：null
+
+108. vendor/time_validity_v0_2/time_validity.py:ContractError.__init__
+算法标识：vendor/time_validity_v0_2/time_validity.py:ContractError.__init__
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 20,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "status,path,code",
+  "operations": "保存三个字段；未调用super().__init__",
+  "outputs": "正常None及status/path/code",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "0.2类型化错误"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:ContractError.__init__",
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+109. vendor/time_validity_v0_2/time_validity.py:canonical
+算法标识：vendor/time_validity_v0_2/time_validity.py:canonical
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 24,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "排序Unicode紧凑JSON无NaN后UTF8编码",
+  "outputs": "bytes，与外层同名函数返str不同",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "规范JSON字节"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:canonical",
+  "AST_sha256": "3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:canonical"
+}
+本版未执行情况：null
+
+110. vendor/time_validity_v0_2/time_validity.py:digest
+算法标识：vendor/time_validity_v0_2/time_validity.py:digest
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 29,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "直接SHA256(canonical返回的bytes)",
+  "outputs": "hex str",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "规范值SHA"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:digest",
+  "AST_sha256": "2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:digest"
+}
+本版未执行情况：null
+
+111. vendor/time_validity_v0_2/time_validity.py:load_request
+算法标识：vendor/time_validity_v0_2/time_validity.py:load_request
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 33,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "a6592b51a2e3b8c862ab667794db8486cd0e37d8096d0e2485ad79b73dcd852a"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "raw",
+  "operations": "json.loads重复键/nonfinite回调",
+  "outputs": "解析JSON",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "0.2严格JSON"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request",
+  "AST_sha256": "a6592b51a2e3b8c862ab667794db8486cd0e37d8096d0e2485ad79b73dcd852a"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request"
+}
+本版未执行情况：null
+
+112. vendor/time_validity_v0_2/time_validity.py:load_request.unique
+算法标识：vendor/time_validity_v0_2/time_validity.py:load_request.unique
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 34,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "99575bd97f4e69b1e92f76411793cb9f4b7303b115613ec6e0d44b0d24052572"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "pairs",
+  "operations": "重复键抛ContractError",
+  "outputs": "dict",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "重复键拒绝"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request.<locals>.unique",
+  "AST_sha256": "99575bd97f4e69b1e92f76411793cb9f4b7303b115613ec6e0d44b0d24052572"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request.unique"
+}
+本版未执行情况：null
+
+113. vendor/time_validity_v0_2/time_validity.py:load_request.reject
+算法标识：vendor/time_validity_v0_2/time_validity.py:load_request.reject
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 41,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "8f7e5a5e78c35411c6739caaa6df61115983ec449288ac2c5a38505d0715828b"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "value",
+  "operations": "抛ContractError",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "nonfinite拒绝"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_request.<locals>.reject",
+  "AST_sha256": "8f7e5a5e78c35411c6739caaa6df61115983ec449288ac2c5a38505d0715828b"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+114. vendor/time_validity_v0_2/time_validity.py:load_native
+算法标识：vendor/time_validity_v0_2/time_validity.py:load_native
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 46,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "d07e9036d82ed477fb6908fddda933542991cd46cb5aebd57b39d0665ec3ea42"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "无参数；固定__file__ ROOT与锁",
+  "operations": "核固定dep lockSHA及0.1 bytesSHA/版本，compile已核bytes；OSError转换dependency_unavailable",
+  "outputs": "(原0.1 module,lock) tuple",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "核旧中立依赖后执行"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_native",
+  "AST_sha256": "d07e9036d82ed477fb6908fddda933542991cd46cb5aebd57b39d0665ec3ea42"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:load_native"
+}
+本版未执行情况：null
+
+115. vendor/time_validity_v0_2/time_validity.py:identity_entries
+算法标识：vendor/time_validity_v0_2/time_validity.py:identity_entries
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 69,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "9c0dc5eaabdeaa938f63be10b87ed9bfc7d1d0eb40ce61206148c7688c6624e6"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "完整request",
+  "operations": "person/method/calendar namespace下context/registry/evidence/record逐项append规范SHA",
+  "outputs": "完整身份list",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "中立typed不可变身份清单"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:identity_entries",
+  "AST_sha256": "9c0dc5eaabdeaa938f63be10b87ed9bfc7d1d0eb40ce61206148c7688c6624e6"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:identity_entries"
+}
+本版未执行情况：null
+
+116. vendor/time_validity_v0_2/time_validity.py:identity_entries.append
+算法标识：vendor/time_validity_v0_2/time_validity.py:identity_entries.append
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 76,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "2872c81d9e1b94e13f0f9f02d1ecd94aed1f789f51daa7966659b514e9520742"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "kind,item",
+  "operations": "附item id/version、namespace deepcopy与digest(item)",
+  "outputs": "修改外层result；None",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "登记一项身份"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:identity_entries.<locals>.append",
+  "AST_sha256": "2872c81d9e1b94e13f0f9f02d1ecd94aed1f789f51daa7966659b514e9520742"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:identity_entries.append"
+}
+本版未执行情况：null
+
+117. vendor/time_validity_v0_2/time_validity.py:validated_records
+算法标识：vendor/time_validity_v0_2/time_validity.py:validated_records
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 89,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "98c9dc28685862a1520c9cd0429d98546d3fef1a791f9437c771bf0733d26954"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "request,native",
+  "operations": "按每层不裁剪原records逐项native.parse_record",
+  "outputs": "parsed五层dict",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "复用旧parser完整原表"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:validated_records",
+  "AST_sha256": "98c9dc28685862a1520c9cd0429d98546d3fef1a791f9437c771bf0733d26954"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:validated_records"
+}
+本版未执行情况：null
+
+118. vendor/time_validity_v0_2/time_validity.py:collect_boundaries
+算法标识：vendor/time_validity_v0_2/time_validity.py:collect_boundaries
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 99,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "65fdc52f2064ec99ad06a80583d68e261b803a7f00082fcb7fbe40740cce130c"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "parsed,start,end,native",
+  "operations": "请求start/end加所有提供范围内端点，保来源，UTC排序",
+  "outputs": "全部端点及其来源",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "完整有限分割端点"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:collect_boundaries",
+  "AST_sha256": "65fdc52f2064ec99ad06a80583d68e261b803a7f00082fcb7fbe40740cce130c"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:collect_boundaries"
+}
+本版未执行情况：null
+
+119. vendor/time_validity_v0_2/time_validity.py:evaluate_segments
+算法标识：vendor/time_validity_v0_2/time_validity.py:evaluate_segments
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 112,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "7798a0a1c2f6e8aeba246bf00ca2537b068f9fe555747ec7919bcc769a8d6db3"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "parsed,boundaries,request,native",
+  "operations": "相邻[a,b)调用原evaluate_layer全记录；且registry完整性已声明、所有层无issue才ready",
+  "outputs": "完整segments及eligible inputs",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "每相邻半开片五层唯一"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:evaluate_segments",
+  "AST_sha256": "7798a0a1c2f6e8aeba246bf00ca2537b068f9fe555747ec7919bcc769a8d6db3"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:evaluate_segments"
+}
+本版未执行情况：null
+
+120. vendor/time_validity_v0_2/time_validity.py:coverage_proof
+算法标识：vendor/time_validity_v0_2/time_validity.py:coverage_proof
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 132,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "7f05283494a12be0603eaf06148725f3961f70f5bda00853ee9cc7a0781a9e03"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "request,strict_report,segments,boundaries",
+  "operations": "核segments首尾等boundaries首尾、相邻、全ready；附原输入/strictreport/payload hash及论证并hash自身",
+  "outputs": "coverage证明；非抽样；依赖调用方已按原请求生成完整边界，并非独立重查所有raw端点",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "完整覆盖和互斥证明"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:coverage_proof",
+  "AST_sha256": "7f05283494a12be0603eaf06148725f3961f70f5bda00853ee9cc7a0781a9e03"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:coverage_proof"
+}
+本版未执行情况：null
+
+121. vendor/time_validity_v0_2/time_validity.py:evaluate_window_coverage
+算法标识：vendor/time_validity_v0_2/time_validity.py:evaluate_window_coverage
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 155,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "ef29c08420082449e88abdb8b6f88db61b08bc48bb243aa75cfdb2bc9e5b9b95"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "完整request",
+  "operations": "load_native核源→原evaluate；要求window；typed身份、全表边界/逐片/全覆盖；保原整窗严格report",
+  "outputs": "complete或原生具体unknown/error",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "原严格报告及分段合同"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:evaluate_window_coverage",
+  "AST_sha256": "ef29c08420082449e88abdb8b6f88db61b08bc48bb243aa75cfdb2bc9e5b9b95"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "vendor/time_validity_v0_2/time_validity.py:evaluate_window_coverage"
+}
+本版未执行情况：null
+
+122. vendor/time_validity_v0_2/time_validity.py:main
+算法标识：vendor/time_validity_v0_2/time_validity.py:main
+source_identity：{
+  "path": "vendor/time_validity_v0_2/time_validity.py",
+  "line": 195,
+  "module": {
+    "bytes": 10510,
+    "sha256": "47c3c151392bec1f4e71c3e6d56ae7a7f99dfca3d1f94d227eb26d1d6eba65b9"
+  },
+  "AST_sha256": "134775ae0ae217509d9caef290fd1c6f5f744268fa6abd3264cbdf321e05011d"
+}
+条目分类：exact_old_AST_substantive_contract_reused
+算法解释：{
+  "inputs": "文件参数或stdin",
+  "operations": "load_request→evaluate_window_coverage打印JSON；规定状态exit2",
+  "outputs": "exit0或2及stdoutJSON",
+  "preconditions_and_limits": "完整旧中立代码字节锁定；只验证提供记录的合同，不生成/认证真实历法，不计算命理。",
+  "purpose": "旧0.2独立CLI"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact488_function_explanations109.json",
+  "record": "vendor/time_validity_v0_2/time_validity.py:main",
+  "AST_sha256": "134775ae0ae217509d9caef290fd1c6f5f744268fa6abd3264cbdf321e05011d"
+}
+本版范围：[
+  "本版辛0.3.1；旧488没有当前金的范围语句只属旧域，当前source_domain/coefficients/solve/graph/辛条件依本版新算法。",
+  "legacy_wu保持原AST，历史pending官杀/其他C03的注语不得冒成本版剩余清单；当前承诺以method_profile和00/02/03为准。",
+  "现实预测有效性未验证；资料身份、算法实现与现实预测三个结论分开。"
+]
+本版实际输入输出记录：null
+本版未执行情况：精确旧AST/旧合同复用；未冒成本版实调
+
+原件：work/rev576_Xin_actual_time_effective_rule_cards.json
+SHA256：44545fa60e00d3164de26df41baeecdc938c01e966b5ecac3c63ccad9afe1ab8
+
+1. X01-source-natal-vs-current
+算法标识：X01-source-natal-vs-current
+source：子平真诠Primary093印84原吴：癸亥乙卯乙未壬午；source/Primary093.png；原局喜印与运财食亦吉/官杀忌分句。Primary079印70偏官用食/印只作条件对照。
+来源层次：原正文与后徐注分层；440/459/508为已采用研究解释。
+method：原吴专旺/整盘承载；不改格局与扶抑调候口径。
+conditions：固定原吴；当前明辛、原亥卯未午及既有午未共存足域；旧域条件逐项有效。
+exclusions：其他出生盘、新五合/额外支冲合未闭不能默认开；不以79泛例改原吴93源类。
+changes：辛/根/当前来源或方法变须重算；当前不能把出生无明食改为露食。
+conflict_resolution：出生喜水不可抹；时间作用另给具名任务，F路线正不否定辛整体害。
+algorithm：source_domain/inventory；00/02/03、完整source lock。
+verification：213全物理先验、18窗口；旧12完整世界回归。
+status：经574非作者复核由576采用的有限当前辛作用；原C03其他任务继续。
+historical_author_status：source_checked_and_finite_engineering_adoptable_not_self_adopted
+
+2. X02-literal-presence-stock
+算法标识：X02-literal-presence-stock
+source：原488 phase-free算子；本版保实际演员，参考505r1缺陷教训但不移日去float法。
+来源层次：工程约定，不是传统测力公式。
+method：既有同池生克模型。
+conditions：实际演员定义P_i；g=c三预定值，所有真实五层同算。
+exclusions：不以0stock/current删元素；不补虚根/虚演员。
+changes：真实干支/根变引起完整库存变化；只换纯身份不改现量。
+conflict_resolution：presence优先于initialstock；关闭作用不关闭在场与发送潜在费用。
+algorithm：entity_coefficients/solve；a_i=1+bP_(i+1)+cP_(i+2)；32面精确校回。
+verification：213含12内部金0边界；36,057边逐项校验。
+status：经574非作者复核由576采用的有限当前辛作用；原C03其他任务继续。
+historical_author_status：finite_engineering_verified
+
+3. X03-Xin-control-and-package
+算法标识：X03-Xin-control-and-package
+source：Primary093印84官煞则忌；不能由定性句称原书给下列数值。
+来源层次：原文条件选择＋项目充分证书。
+method：原吴当前官杀源作用。
+conditions：明辛实际现量正；K1实际辛伤木>0且wood及M均较仅关辛克木差；K2二者较双关辛差。
+exclusions：条件失败就是证书不成立，不推金可喜；无辛为已知不适用。
+changes：真辛进入移除需重建库存；functionoff不是现实离开。
+conflict_resolution：保辛生水和全部成本；K1/K2分列；M不二次扣实际伤木。
+algorithm：summarize_Xin；M=木-max(火,土,金)；固定同成本cuts。
+verification：9组合×3参数；无辛反例、12金0私边界、真实第二半窗进入。
+status：经574非作者复核由576采用的有限当前辛作用；原C03其他任务继续。
+historical_author_status：source_checked_engineering_sufficient_certificates_verified
+
+4. X04-continuous-print-route
+算法标识：X04-continuous-print-route
+source：Primary093原吴原局喜印与运官煞忌分开；Primary079只保已核有条件类比，不采用未定位“杀重身轻…不若转而就印”直接引句。
+来源层次：本F为同一水演员连续辛来源生日、旧印全承载与同费对照的具名工程组装，非79直接给出转印算法或认证原吴杀印格。
+method：原吴全局维持/生日诊断。
+conditions：每成员原亥生日正、同一wateractor连续辛金→水→木正；旧印全hard/H与对照木/M改善；组信用>=当前木/32且>0。
+exclusions：有金水演员或两端同来源不足；不能促印便喜金；不要求每成员各1/32。
+changes：辛生水cut/真实印根/原木体存活及财克印等变化全图重算。
+conflict_resolution：辛伤木反作用不删，F与K同可成立；出生水不等于当前所有水皆喜。
+algorithm：Xin_metrics/summarize_Xin/qualified_H；actor share一次。
+verification：全213边源链与1356原mask/1074资格mask；eta三界12mask。
+status：经574非作者复核由576采用的有限当前辛作用；原C03其他任务继续。
+historical_author_status：source_boundary_checked_finite_route_verified
+historical_author_source：Primary079印70杀印有情/杀重用印仅作有条件对照；Primary093原吴喜印另为本体。
+mandatory_source_correction：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev574_independent_review555/required_effective_F_source_correction.json",
+  "bytes": 1619,
+  "sha256": "9037baad8f8087935e33272f64a83dd00a1a9a5429421a374cd15e25d24c203f"
+}
+
+5. X05-H-eligibility-and-all-alternatives
+算法标识：X05-H-eligibility-and-all-alternatives
+source：沿旧辅助选择器与488完整H，修本版原始正CNF资格域错误。
+来源层次：工程离散支持解释，不冒古书量化主次。
+method：当前同一实际世界完整辅助组。
+conditions：先固定成员资格再枚举全子集，保全部极小可行替代与最大失败补集CNF。
+exclusions：无资格成员不可借别人的信用入选；不得先删全图演员。
+changes：资格变需重做选择域；同物理图只变floor可重做H而无须重解世界。
+conflict_resolution：硬条件优先；完整实际负面进入hard，不能用H并集冒最终喜用。
+algorithm：qualified_H/native_qualified_H；选择投影<=16，逐mask等价。
+verification：28旧CNF错行首败保留；新0错、全部极小H未变；eta临界三组。
+status：经574非作者复核由576采用的有限当前辛作用；原C03其他任务继续。
+historical_author_status：defect_corrected_before_producer_and_verified
+
+6. X06-five-UTC-window
+算法标识：X06-five-UTC-window
+source：沿time-validity0.1/0.2及372/385中立合同，精确旧AST保留。
+来源层次：工程时间契约，不认证人工UTC为自然排盘。
+method：五层共同实际全局；无显示。
+conditions：current/previous/未来/窗外所有硬错先核；半开片段取联合边界，每片真正五层选中后同算。
+exclusions：有时间缺口/源未闭无可确认研究签名；不能用出生水兜底。
+changes：新干支实际库存/数学变化保片段；重排/同功能拆段不改功能答案。
+conflict_resolution：方法/不可变源错先拒；同功能与同资料分轴。
+algorithm：time_contract.preflight/immutable/snapshot/frame/compare及原window库。
+verification：18全API/CLI目标，5硬错任何世界前0；微秒缺口、未来错误/源未知均覆盖。
+status：经574非作者复核由576采用的有限当前辛作用；原C03其他任务继续。
+historical_author_status：finite_time_interface_verified
+
+7. X07-knownnegative-notunknown
+算法标识：X07-knownnegative-notunknown
+source：用户研究/事件反馈要求及既定研究时间中立合同。
+来源层次：产品研究知识口径工程；无显示更新。
+method：已声明的辛/旧任务研究比较。
+conditions：源域已闭且真实数学全算即researchknown，即使K/H全false；旧positive_auxiliary另存不改。
+exclusions：资料不足/sourcepending不能knownfalse或confirmed_same；不称整盘最终用神相同。
+changes：纯ID换源轴变但功能可same；真实干支改变可能方向相同但全功能changed。
+conflict_resolution：正支持、已算阴性、资料未知三个状态分开；必要unknown优先阻止确认。
+algorithm：frame/functional_payload/compare。
+verification：NO_KILL自身confirmed_same且旧positive false；currentXin vsNO_KILL changed；sourcepending阻止same。
+status：经574非作者复核由576采用的有限当前辛作用；原C03其他任务继续。
+historical_author_status：finite_research_semantics_verified
+
+8. X08-source-guard-and-reproducibility
+算法标识：X08-source-guard-and-reproducibility
+source：source_execution_lock的27材料、440/459/508精确采用记录；逐算法122合同。
+来源层次：来源字节身份与实现校验；不是现实预测验证。
+method：可复现研究发行。
+conditions：包内正规固定材料与显式参数，API/CLI同canonical结果。
+exclusions：源字节错或额外提供者必须0provider；不从旧项目动态读补。
+changes：规则版本/源材料变需新身份，不能悄悄比较成同方法。
+conflict_resolution：所有硬错误不部分输出；源真实性争议如实保留。
+algorithm：current.guard/evaluate/main；verify_delivery及只读迁移实控。
+verification：source_strict_actual与最终transport收据；资料/程序/现实效果分栏。
+status：经574非作者复核由576采用的有限当前辛作用；原C03其他任务继续。
+historical_author_status：source_and_runtime_verified_final_transport_pending
+
+必读有效边界：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev574_independent_review555/required_effective_F_source_correction.json",
+  "bytes": 1619,
+  "sha256": "9037baad8f8087935e33272f64a83dd00a1a9a5429421a374cd15e25d24c203f"
+}
+

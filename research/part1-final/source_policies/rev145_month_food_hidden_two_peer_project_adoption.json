@@ -1,0 +1,71 @@
+{
+  "id": "project-accepted-monthfood-hidden-exacttwopeer",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_bounded_whole_model_subdomain",
+  "reviewer_ref": "Codex-root-project-review-under-explicit-user-research-authorization",
+  "model_component": "rev110_food_month_finance_whole_research",
+  "method_ref": {
+    "id": "monthly-food-finance-whole",
+    "version": "0.1"
+  },
+  "model_core_file": "monthly_food_finance.py",
+  "model_core_sha256": "2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199",
+  "model_dependency_lock_sha256": "5779cdbd10362b1186fc3465ac064de0dc9bd172a78c20464057a05a03a668b8",
+  "model_manifest_sha256": "e3ea90e51ea1d7585bba092c2601a5e16bf3b9cbcf0031ac27da40cdc640370a",
+  "model_freeze_sha256": "e183122313285f6147889938dfa55d4acdf4d954bbb0182427ae0a75e1466cff",
+  "runtime_profile_sha256": "3f98401042fb36da720fb38d32ffbb9c02a0325ad079ba583b44f458a58c5e56",
+  "mandatory_scope_guard": {
+    "id": "hidden-month-food-exact-two-peer-no-print-0.1",
+    "input_scope": "Four legal raw pillars only; strict monthly食神, no independently active other unresolved task.",
+    "context_predicate": "context['hidden_month_food_engineering_extension'] is True and len(groups['food'])==1 and groups['food'][0]['actor_id']=='month-main' and groups['food'][0]['role']=='食神' and len(groups['peer'])==2 and len(groups['finance'])==1 and groups['finance'][0]['kind']=='visible' and not groups['print'] and not groups['official_kill'] and all(a['role'] in {'日主','食神','比肩','劫财','正财','偏财'} for a in context['actors'])",
+    "also_required": "All existing source/HAP/actual-root/secondary-relation/climate gates and all nine complete actual goals, unique exact feedback and original complete native H graph plus robust carry-support selection. Predicate alone is not success.",
+    "outside_domain": "Hiddenmonthlyfood with0/1peer, anyprint or other role additions are not newly adopted, even if a diagnostic implementation produces numbers or H."
+  },
+  "accepted_scope_union": {
+    "operator": "OR",
+    "previous_policy": {
+      "file": "rev124_month_food_visible_project_model_adoption.json",
+      "sha256": "1cb2cbdf412cf7e053550263c45c50d15bd62b4929675e526f1666ccfb3e2af0",
+      "not_rewritten": true
+    },
+    "previous_domain": "original124 visiblefood and<=1peer, plus all original model gates",
+    "new_domain": "hidden-month-food-exact-two-peer-no-print-0.1",
+    "no_other_scope_inferred": true
+  },
+  "aggregate_acceptance": {
+    "component": "rev145_month_food_hidden_two_peer_acceptance",
+    "report_sha256": "9809eda3505e8c254e54966afa309aacf4485a8f6cbc223601c0fe4f45e764f1",
+    "manifest_sha256": "623511bbfe00de92ebaef77bf55c582f38b285cbdf69fa2f2ed7c14fe96fe8af",
+    "freeze_sha256": "a62950ed433d4eca1238c40bbdc32a355a79319f7914858a9b86e97cca2e7cab"
+  },
+  "independent_review": {
+    "component": "rev145_month_food_frontier_independent",
+    "report_sha256": "c0260de598b07b350ef530fb5d5b74c4748fb7042c6e650f7f87086bbac01880",
+    "manifest_sha256": "bc514331efabe082eab0cef410e50a0fb1a2db0a5e2836711f3488a9892254ed",
+    "freeze_sha256": "b9a88c3adf604c762bb0a88d538934923a455f34f02b82d1998af88a1cfc4bbf"
+  },
+  "limits": {
+    "source_layer": "Existing110 hiddenmonth-food/two-peer activation is explicitly engineered inference over primary source conditions. Independent software/origin checks do not prove a universal ancient activation law.",
+    "unchanged_math": "OriginalROOT120 qualifications, monthgain3/2, near/far reach, gains, same-originmax stocks, own mediation, vitality and strict carry constants unchanged. No rule fitted to discovery outputs.",
+    "positive_case": "丁卯癸卯癸巳癸丑 and丁巳癸卯癸卯癸丑: BODY43/4, food79/8, financeinput223/32, remainingfinance145/64; currentcarrymargin11/128 and financevitalitymargin1/64.",
+    "causal_negative": "Blocking peer-to-food preserves totalfood and financeinput but removes only the peers own mediation, leavingfinance51/32 and noH. Cannot borrow day-to-food mediation for peers.",
+    "full_H": "Finance formation AND each necessary positive carry helper; actualpeer harm retained. Two positives require financialyear+peermonth+peerhour. This is unordered water/fire joint necessity, no order/equalweights/singleB.",
+    "finite_scope": "1224 independently enumerated structural combinations,34 sourceclear worlds fully compared with independent exact-origin/goals/subset/H oracles. Two positive worlds in this fixed universe, not a universal traditional theorem.",
+    "independence": "Discoveries disclosed before145; exploratory results are not blind ancient labels. Reviewer separately computed expected matrices before producer calls; all cases postdate frozen110 rules and did not set parameters.",
+    "prediction": "No verified real simultaneous calendar or observed life/effect validation.",
+    "remaining": [
+      "General hiddenmonthlyfood activation across other active roles/print/peer counts",
+      "Food-use-kill/print and official-kill/positional routes",
+      "Unresolved branch/stem/climate/secondary-root action operators",
+      "Original final whole-natal priorities/B bridge and symbolic/time/display full scope",
+      "Real prediction/effects not empirically verified"
+    ],
+    "source124_visible_scope_retained": true,
+    "B_P_C20_RGB_or_default_changed": false
+  },
+  "whole_H_complete_before_any_future_projection": true,
+  "B_export_or_unordered_ranking_adopted": false,
+  "all_original_C02_or_task_complete": false,
+  "progress_delta": "0.00"
+}

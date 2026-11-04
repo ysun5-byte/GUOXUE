@@ -1,0 +1,1499 @@
+庚春夏湿生燥脆条件完整研究
+rev583_Geng_summer_moist_dry_soil
+所属原模块：C03
+当前采用：rev588_Geng_soil_project_adoption.json
+范围：adopted_exact583_after587_finite_Geng_spring_summer_soil
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev583_Geng_summer_moist_dry_soil/algorithm_explanations_all39.json
+SHA256：83faad138f088529764c5773630f9c4a014ed04ebce377d3bb9988cb63056c8b
+
+1. current.py:canonical
+算法标识：current.py:canonical
+path：current.py
+line：11
+函数AST摘要：0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/current.py",
+  "bytes": 6040,
+  "sha256": "d4f9dc043d8d86c248ef101a19233d4ac1b0c130d5951f027291708bf40d6d2f"
+}
+参数：[
+  "value"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "稳定JSON文字",
+  "inputs": "JSON兼容值",
+  "operations": "排序键、紧凑、非ASCII原样、allow_nan=False",
+  "outputs": "str或类型/非有限异常",
+  "preconditions_and_limits": "不做UTF8编码，不认证内容。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact572_contracts48.json",
+  "record": "current.py:canonical"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:canonical"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+2. current.py:strict_load
+算法标识：current.py:strict_load
+path：current.py
+line：14
+函数AST摘要：8d5a868d238377e001b05cab6fe086573bebe7758cd8d3c0c71239924d02f80e
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/current.py",
+  "bytes": 6040,
+  "sha256": "d4f9dc043d8d86c248ef101a19233d4ac1b0c130d5951f027291708bf40d6d2f"
+}
+参数：[
+  "raw"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "有限JSON解析",
+  "inputs": "str最多5000字符",
+  "operations": "json.loads，重复键callback和非有限callback拒绝",
+  "outputs": "解析值或异常",
+  "preconditions_and_limits": "Unicode代理由scalar_tree而非本解析器拒绝；CLI先严格UTF8。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact572_contracts48.json",
+  "record": "current.py:strict_load"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:strict_load"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+3. current.py:strict_load.pairs
+算法标识：current.py:strict_load.pairs
+path：current.py
+line：16
+函数AST摘要：9821bdaa719a02380897afdb888e878803c58c11b2f29d7b41bd5e490f356f81
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/current.py",
+  "bytes": 6040,
+  "sha256": "d4f9dc043d8d86c248ef101a19233d4ac1b0c130d5951f027291708bf40d6d2f"
+}
+参数：[
+  "items"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "逐对象拒重复键",
+  "inputs": "解析器键值对",
+  "operations": "逐键已存在即ValueError，否则保原值",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "不做source/schema/四柱判断。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact572_contracts48.json",
+  "record": "current.py:strict_load.pairs"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:strict_load.pairs"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+4. current.py:strict_load.constant
+算法标识：current.py:strict_load.constant
+path：current.py
+line：22
+函数AST摘要：d6404d7b01f302ae0a93185cd23daf9d6e241a6fa548716b3bc3f7e57c850e3b
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/current.py",
+  "bytes": 6040,
+  "sha256": "d4f9dc043d8d86c248ef101a19233d4ac1b0c130d5951f027291708bf40d6d2f"
+}
+参数：[
+  "value"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "拒NaN/Infinity",
+  "inputs": "非有限JSON token",
+  "operations": "恒抛ValueError",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "trace return-event None和异常事件一起保存，不假报正常None。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact572_contracts48.json",
+  "record": "current.py:strict_load.constant"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+5. current.py:scalar_tree
+算法标识：current.py:scalar_tree
+path：current.py
+line：25
+函数AST摘要：42eab752ffe8da79bdda67913092a56dbc647d85f8a868d346adc3e6d366c453
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/current.py",
+  "bytes": 6040,
+  "sha256": "d4f9dc043d8d86c248ef101a19233d4ac1b0c130d5951f027291708bf40d6d2f"
+}
+参数：[
+  "value",
+  "depth"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "有限API树和Unicode检查",
+  "inputs": "request/depth",
+  "operations": "深度<=20、字串<=5000且无代理、dict/list<=20、键str、只JSON类型、float有限",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "guard在先；不负责四柱干支源含义。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact572_contracts48.json",
+  "record": "current.py:scalar_tree"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:scalar_tree"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+6. current.py:load
+算法标识：current.py:load
+path：current.py
+line：40
+函数AST摘要：d669cd8300a4894b8762903afcf1781b2918dbdec5b272d1dd35e1a0e17fd0ae
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/current.py",
+  "bytes": 6040,
+  "sha256": "d4f9dc043d8d86c248ef101a19233d4ac1b0c130d5951f027291708bf40d6d2f"
+}
+参数：[
+  "name",
+  "relative",
+  "material"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "加载一份内存provider",
+  "inputs": "名称/相对名/material",
+  "operations": "新ModuleType设__file__，compile caller给的material bytes后exec",
+  "outputs": "模块",
+  "preconditions_and_limits": "已核material是caller guard前提，本函数自己不验证SHA或来源；不注册sys.modules。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact572_contracts48.json",
+  "record": "current.py:load"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:load"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+7. current.py:guard
+算法标识：current.py:guard
+path：current.py
+line：45
+函数AST摘要：c857638ba2b2e7b4e71b18041c48c351404b865bb74c0b967cc2199f2bcc7cb0
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/current.py",
+  "bytes": 6040,
+  "sha256": "d4f9dc043d8d86c248ef101a19233d4ac1b0c130d5951f027291708bf40d6d2f"
+}
+参数：[]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "固定庚土质全部材料身份",
+  "inputs": "本目录锁/12材料/06根量出处订正",
+  "operations": "精确锁与source/runtime库存、包内正规文件及全部长度/SHA；核06不改数值的明确边界",
+  "outputs": "完整材料bytes或任意错拒绝",
+  "preconditions_and_limits": "先于任何模型提供者；身份不等于原文或预测为真。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:guard"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+8. current.py:evaluate
+算法标识：current.py:evaluate
+path：current.py
+line：61
+函数AST摘要：c43b05a6ccb99bf8d4d578a364d2e1e8e1aff35515133ef31f36a83aac946878
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/current.py",
+  "bytes": 6040,
+  "sha256": "d4f9dc043d8d86c248ef101a19233d4ac1b0c130d5951f027291708bf40d6d2f"
+}
+参数：[
+  "request"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "从明确原源域贯通完整单柱作用",
+  "inputs": "六字段请求、2人工出生、4当前土柱或natal、三参数/三theta方法",
+  "operations": "guard/请求字段与方法先核，facts后核两原盘范围；加载flow/core，保原/当前整库存，分析全对照",
+  "outputs": "全部世界/作用/来源/费及W/D/N和范围；其他合法盘仅facts",
+  "preconditions_and_limits": "这是具体原源任务，不是全部庚日或完整五时运、经典强弱等价或全局喜用。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:evaluate"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+9. current.py:main
+算法标识：current.py:main
+path：current.py
+line：72
+函数AST摘要：2189a5901559a972d78635a09354252819a1db2613cabe9c95c39bbd6314b200
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/current.py",
+  "bytes": 6040,
+  "sha256": "d4f9dc043d8d86c248ef101a19233d4ac1b0c130d5951f027291708bf40d6d2f"
+}
+参数：[]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "提供与API一致的完整命令行",
+  "inputs": "有界UTF8 JSON stdin",
+  "operations": "字节有界、严格UTF8/重复键/非有限拒，evaluate后canonical；失败整次拒",
+  "outputs": "一份完整结果加LF，退出0；异常明确整次拒退出2",
+  "preconditions_and_limits": "不生成部分成功；类型与Unicode错误不进入数学。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact572_contracts48.json",
+  "record": "current.py:main"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:main"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+10. runtime/flow402.py:pack
+算法标识：runtime/flow402.py:pack
+path：runtime/flow402.py
+line：7
+函数AST摘要：8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "x"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Encode internal exact mathematics.",
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:pack"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/flow402.py:pack"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+11. runtime/flow402.py:gauss
+算法标识：runtime/flow402.py:gauss
+path：runtime/flow402.py
+line：15
+函数AST摘要：07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "matrix",
+  "rhs"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:gauss"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/flow402.py:gauss"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+12. runtime/flow402.py:actors_from_raw
+算法标识：runtime/flow402.py:actors_from_raw
+path：runtime/flow402.py
+line：29
+函数AST摘要：2761c46300aaf228478b1a371ff1c631e7fc22009e8f6299ce0868e8a279bf89
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "raw",
+  "facts",
+  "context"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Keep all visible and hidden real carriers.",
+  "inputs": "Legal raw pillars, original facts module, optional internal literal comparison pillar.",
+  "operations": "Preserve four positions, lookup all hidden stems and strict tengod roles; optional external column gets its own identity/position.",
+  "outputs": "actors and pillar tuples.",
+  "preconditions_and_limits": "Caller has raw legality. Internal literal context is not realUTC or publicly accepted input; no absentgold actor created. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:actors_from_raw"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/flow402.py:actors_from_raw"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+13. runtime/flow402.py:inventory
+算法标识：runtime/flow402.py:inventory
+path：runtime/flow402.py
+line：43
+函数AST摘要：0ef7beac7e0acc7fa3e0d296c660541ab9fa4d0eb3c3db8f5eeaf025aef67893
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "raw",
+  "facts",
+  "cfg",
+  "context"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Build typed phasefree direct pools and declared actor shares.",
+  "inputs": "Actors/raw/facts and fixed mu,m cfg; optional literal context.",
+  "operations": "Main hidden element1, other actualhidden mu, month m; one non-day visible float. Per-element typedorigin max once; actors weighted by their direct totals; preserve every actor-root row.",
+  "outputs": "actors,present,direct,weights,rootrows,cfg.",
+  "preconditions_and_limits": "mu/m are engineering qualifications, not hidden percentages or earth12palaces. Common pool demonstrably not actor-local; per-element qualifications not cross-element mass conservation. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:inventory"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/flow402.py:inventory"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+14. runtime/flow402.py:solve
+算法标识：runtime/flow402.py:solve
+path：runtime/flow402.py
+line：65
+函数AST摘要：3f5e3a272d0d037d2d692a713a79b8317f9e06a1bb993ca6ca8aee3c6182789d
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "base",
+  "selected"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Find exact unique max-affine fixed point.",
+  "inputs": "Base and selected extras.",
+  "operations": "Enumerate all active faces over present elements, rational solve candidate, substitute full max equations and nonnegative vector. Global contraction supplies uniqueness.",
+  "outputs": "Current,coefficients,activeface,exact certificate.",
+  "preconditions_and_limits": "No float gate/hint or oracle-selected phase; original4elements<=16faces, real5elements<=32faces. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:solve"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+15. runtime/flow402.py:origins
+算法标识：runtime/flow402.py:origins
+path：runtime/flow402.py
+line：79
+函数AST摘要：68b315515713bb428dd7871847a3de739c68fdb4906a425cb5967529d60afa48
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "base",
+  "world"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Reconstruct every typed source in the same solved vector.",
+  "inputs": "Base and exact current world.",
+  "operations": "Gross direct+licensed generation; retention=current/gross; solve multi-RHS linear inherited flow; check nonnegative and exact sums/substitution.",
+  "outputs": "Typed pools,gross,retention,b contraction bound.",
+  "preconditions_and_limits": "Each original element-qualification origin injected once; allzero/noorigin case valid. Does not equate same branch labels across elements. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:origins"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+16. runtime/flow402.py:robust
+算法标识：runtime/flow402.py:robust
+path：runtime/flow402.py
+line：95
+函数AST摘要：b2a342ee6e918307ea9bead7387af4313b9e657a39683de9582bbc816fa7d85e
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "rows",
+  "ids"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Compute all minimal stable additional-support sets.",
+  "inputs": "Complete powerset rows and ordered IDs.",
+  "operations": "Boolean superset closure; every immediate-removal test gives minima, maximal stablefalse complements give CNF.",
+  "outputs": "AllH,CNF,true/robustcounts.",
+  "preconditions_and_limits": "Complete powerset is caller precondition. [[]] means no extra auxiliary under fixed core, never no用神. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:robust"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+17. runtime/flow402.py:packages
+算法标识：runtime/flow402.py:packages
+path：runtime/flow402.py
+line：109
+函数AST摘要：ebc9302b438faa5d77d5b4963754b8e7639b711c17d1a36d1f5f72930e482112
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "base"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Enumerate all real signed function and exhibition atoms.",
+  "inputs": "Fullactualbase.",
+  "operations": "Fireexhibition; noncorewoodcontrolsactualsoil; waterjointbirth/control; soilcontrol onlyifactualwater exists; sortexactIDs andpartitionhelpers/fire.",
+  "outputs": "ids,kinds,helpers,fire dict.",
+  "preconditions_and_limits": "Not permanentlygoodroles. Corebodyfixed; noabsenttargets/actors; no additionaldayfloatingstock."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:packages"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+18. runtime/flow402.py:coefficients
+算法标识：runtime/flow402.py:coefficients
+path：runtime/flow402.py
+line：120
+函数AST摘要：ddef5fed6602ccf07712703d4a70b1f33ecd0bb7932d31289547a304ddeeed8b
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "base",
+  "selected"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Build one complete fresh-from-direct permission-world map.",
+  "inputs": "Base andselected exactpackageIDs.",
+  "operations": "Potentialoutgoingcosts stayfixed fromactualendpoints. Waterbirth/control useonebeta/current; wood/soilcontrolbeta; basicW/Fgeneration fixed. Formtarget-normalizedK andrequireL<1.",
+  "outputs": "b,c,h,diagonals,rates,K,bound,present,helper_betas.",
+  "preconditions_and_limits": "Jointavailability semantics explicitlydifferent379positive-only. No physicalall-onresidual reinjury; everyworld solvedfromdirect once; noFexhibition deletion."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:coefficients"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+19. runtime/flow402.py:goals
+算法标识：runtime/flow402.py:goals
+path：runtime/flow402.py
+line：136
+函数AST摘要：70bff5c5fe473da8bd54c55df80296232743e56122d66ea3af71b5c64e7ed534
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "base",
+  "world",
+  "origin",
+  "selected"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Evaluate full carry/channel and true exhibition credit.",
+  "inputs": "Base,sharedworld,origins,selectedpackages.",
+  "operations": "W>0/root>0/F>0; L=retFire*bW>0; strictW>margin*load*F; selectedfireweightedL>=etaL>0.",
+  "outputs": "Checks/met/helpermet,root/current/strictload/channel/credit/threshold fields.",
+  "preconditions_and_limits": "Carrycomparison not anotherphysicaldebit. Coverageequalitypasses, carryequalityfails; no classicalstrength or lucklabel."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:goals"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+20. runtime/flow402.py:geometry
+算法标识：runtime/flow402.py:geometry
+path：runtime/flow402.py
+line：141
+函数AST摘要：d3503b5fc6993dce664450c1426e83c775330f9b7c16ac2e1380b37b465ca8a8
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "base"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Retain each real endpoint and source cost layout once.",
+  "inputs": "Completeactors/actualelements.",
+  "operations": "Enumerateallgeneration/control actorpairs andcostkind; retainpositions/distance/roles, sharedgain1,sourcepermissionkey.",
+  "outputs": "all_actual_endpoint_edges,all_potential_cost_layouts,nonlocal-equivalence flag.",
+  "preconditions_and_limits": "Sharedpool spatialgain1 is declaredengineering, not provedreduction oflocalinjury. Norealendpoint omitted orabsentgoldcreated."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:geometry"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+21. runtime/flow402.py:state_budget
+算法标识：runtime/flow402.py:state_budget
+path：runtime/flow402.py
+line：155
+函数AST摘要：a98fe50fbae83330c5231fe5d94e50c70ef4be14b83653289987f96551e567f6
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "base",
+  "world",
+  "origin"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Balance every element and every origin forone solvedworld.",
+  "inputs": "Base,world,origin.",
+  "operations": "Computeactualrequestedcapacity,clippedloss,unusedcapacity,potentialcost; apportiontargetgrossoriginlosses; exactcurrent+cost+loss checks.",
+  "outputs": "Element->direct/gross/current/cost/capacity/loss/unused/originbalances.",
+  "preconditions_and_limits": "Capacity notactualloss. Costs do not vanishwithpermission; all-onloss countedonce."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:state_budget"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+22. runtime/flow402.py:expand_ledger
+算法标识：runtime/flow402.py:expand_ledger
+path：runtime/flow402.py
+line：164
+函数AST摘要：7bef9f3eaa13d5600f41cff894c222665a75b6380714885ac4dc92ef78f7ab39
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "base",
+  "world",
+  "origin",
+  "selected",
+  "geo"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Expand lossless per-state/per-mask data into every real action.",
+  "inputs": "Base,world,origins,selected andoptionalgeo.",
+  "operations": "Actorports=share*elementorigins; realedge rate*receiver_share*sourceport*sourcepermission; costsunmasked; controlattribution bycapacity; checktotals andincludeexhibitiongoal.",
+  "outputs": "actorports,allrealedges,allcosts,budgets,exhibition andsemanticsflags.",
+  "preconditions_and_limits": "Same-current bothwaterfaces; no physicalsecondcontrol. Compactoutputstoresallelementvalues/weights/edges/masks needed to reconstructthis exactly, not hashonly."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:expand_ledger"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+23. runtime/flow402.py:analyze
+算法标识：runtime/flow402.py:analyze
+path：runtime/flow402.py
+line：178
+函数AST摘要：f4d16564e44f7a5519215f08111570fc70c2c5616a62c8c2109ddf44ca325e30
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/flow402.py",
+  "bytes": 17798,
+  "sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+参数：[
+  "base",
+  "full_table"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Compute complete signed availability truth and all robustH.",
+  "inputs": "Base,full_table flag.",
+  "operations": "Enumerateallhelpermasks; cacheonlyequalphysicalrates/states; retainactor-specificmask; enumerateallfirecoverage; supersetrobust both; tensorH/CNF. NominalallProws directlyre-evaluate andcheckfullclosure. Preserveallonexpandedledger.",
+  "outputs": "actors/qualifications/direct/shares/spec/geometry/states/helpertable/firetable/allnominalrows/actualallon/logic/factorization.",
+  "preconditions_and_limits": "full_table=False retainsfulltwofactortruth+allH, not droppedcombinations. Factorization provenbeforeproducer. No monotonichelperassumption or elementidentitymerge."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:analyze"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧精确合同保留，当前Geng主链未调此函数，不虚造IO。
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+24. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+path：runtime/foundation_facts.py
+line：39
+函数AST摘要：90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "stem"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "十干查五行",
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+25. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+path：runtime/foundation_facts.py
+line：45
+函数AST摘要：69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "day_stem",
+  "other_stem"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "严格十神角色",
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+26. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+path：runtime/foundation_facts.py
+line：60
+函数AST摘要：2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "payload"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "原柱基础合法性",
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/foundation_facts.py:validate"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+27. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+path：runtime/foundation_facts.py
+line：104
+函数AST摘要：37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "pillars"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "保留有位置的形式合冲",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+28. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+path：runtime/foundation_facts.py
+line：121
+函数AST摘要：fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "stem",
+  "pillars"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+29. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+path：runtime/foundation_facts.py
+line：148
+函数AST摘要：295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "payload"
+]
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "原61完整四柱事实入口",
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/foundation_facts.py:parse"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+30. runtime/geng_soil_core.py:inventory
+算法标识：runtime/geng_soil_core.py:inventory
+path：runtime/geng_soil_core.py
+line：7
+函数AST摘要：a7384fd3c869723b8281b3bae3e15c7c80ca5f6744a0257b09400379ce798f86
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/geng_soil_core.py",
+  "bytes": 11135,
+  "sha256": "e7be185b1d7e37e15627152654e6e5ab710cdcbf0fe3d09f0635dcafb719d84c"
+}
+参数：[
+  "raw",
+  "event",
+  "cfg",
+  "facts",
+  "flow"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "复用已核phasefree根量并规范真实原点",
+  "inputs": "raw/event/cfg、facts及旧flow402",
+  "operations": "旧flow库存全明藏/根/月权与去日float不变；把context改名event、原点/actor映射；定位当前湿干土，保R0端点事实",
+  "outputs": "完整actors/direct/weights/dry/wet/ROOT映射与形式关系",
+  "preconditions_and_limits": "只借flow库存，不移其禄劫方程/目标；06纠旧529归因，08限定theta0旧kernel比较对象。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/geng_soil_core.py:inventory"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+31. runtime/geng_soil_core.py:coefficients
+算法标识：runtime/geng_soil_core.py:coefficients
+path：runtime/geng_soil_core.py
+line：27
+函数AST摘要：b4b8f75c69fa1da8e7a4aa66409b11e05cbca9428c90200070397c4c94bbbeb0
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/geng_soil_core.py",
+  "bytes": 11135,
+  "sha256": "e7be185b1d7e37e15627152654e6e5ab710cdcbf0fe3d09f0635dcafb719d84c"
+}
+参数：[
+  "base",
+  "theta",
+  "abrasion_on"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "以干土自身生成预算表达脆金",
+  "inputs": "完整base、显式theta及abrasion开关",
+  "operations": "b/c在声明界、theta0..1；s=sum注册dry权重；delta=theta*b*s；g土=b-delta；金另受delta*T；a=1+b+c，K净土金b-2delta或Q中b-delta，核L",
+  "outputs": "完整g/delta/K/费用及收缩界",
+  "preconditions_and_limits": "每个dry正生b(1-theta)与脆btheta，其他土原b；非多扣两份费用；只含本源all5实际演员域。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/geng_soil_core.py:coefficients"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+32. runtime/geng_soil_core.py:solve
+算法标识：runtime/geng_soil_core.py:solve
+path：runtime/geng_soil_core.py
+line：37
+函数AST摘要：e47b2b1793d0a17ccb82c64f8e77071e2ff9b4435a1afb0a00e5c6b9398f9936
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/geng_soil_core.py",
+  "bytes": 11135,
+  "sha256": "e7be185b1d7e37e15627152654e6e5ab710cdcbf0fe3d09f0635dcafb719d84c"
+}
+参数：[
+  "base",
+  "theta",
+  "exact",
+  "abrasion_on"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "解包含脆金及全部旧反馈的唯一非负状态",
+  "inputs": "base/theta/exact及额外abrasion开关",
+  "operations": "32活动面Gauss，校全部五式max非负等式，原费用a固定",
+  "outputs": "current/K/所处面与精确验证证书",
+  "preconditions_and_limits": "Off只关额外实效，不恢复已分生金或退预留费用。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/geng_soil_core.py:solve"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+33. runtime/geng_soil_core.py:origins
+算法标识：runtime/geng_soil_core.py:origins
+path：runtime/geng_soil_core.py
+line：47
+函数AST摘要：fe43c1f61543316d0d89ded3693ab406216901f25e758c9e8ade36c0da6bb42f
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/geng_soil_core.py",
+  "bytes": 11135,
+  "sha256": "e7be185b1d7e37e15627152654e6e5ab710cdcbf0fe3d09f0635dcafb719d84c"
+}
+参数：[
+  "base",
+  "world",
+  "exact"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "将每一原输入追到同current终留",
+  "inputs": "同base/world和精确多右端Gauss",
+  "operations": "以实际正生成g和rho构造五环正来源线性式；逐来源与全部现量验和及代回",
+  "outputs": "各池原点、gross、retention",
+  "preconditions_and_limits": "脆与常规控制只消耗受方，不把受损物质归施控者；控制不进入正生成通路。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/geng_soil_core.py:origins"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+34. runtime/geng_soil_core.py:graph
+算法标识：runtime/geng_soil_core.py:graph
+path：runtime/geng_soil_core.py
+line：54
+函数AST摘要：953433034754fb156062218f81ca3b6f7edb5b4481c58ee50aa0981ea97c7382
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/geng_soil_core.py",
+  "bytes": 11135,
+  "sha256": "e7be185b1d7e37e15627152654e6e5ab710cdcbf0fe3d09f0635dcafb719d84c"
+}
+参数：[
+  "base",
+  "world",
+  "ports"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "核每条普通/脆边及逐源三面费用",
+  "inputs": "真实actor与weights、同一world/ports",
+  "operations": "actorport已有w源；逐边再乘正生/克/脆率和w目标；脆与原火对金共用总实际clamp；每源gen/普通ctl/abrasion费分列",
+  "outputs": "完整普通与额外边、所有来源/费用、五元素总账",
+  "preconditions_and_limits": "只注册新dry actor发脆；Q仍保btheta预留未用，不能移给旧湿土或退到正生金。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/geng_soil_core.py:graph"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+35. runtime/geng_soil_core.py:metrics
+算法标识：runtime/geng_soil_core.py:metrics
+path：runtime/geng_soil_core.py
+line：73
+函数AST摘要：b0f8edf710af229524ce496bf5562d8ab31fae4d29c354fc150b4f3c0eec1863
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/geng_soil_core.py",
+  "bytes": 11135,
+  "sha256": "e7be185b1d7e37e15627152654e6e5ab710cdcbf0fe3d09f0635dcafb719d84c"
+}
+参数：[
+  "base",
+  "world",
+  "ports",
+  "fullgraph"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "分清湿土生金留存与干土脆金实际来源",
+  "inputs": "同世界base/world/ports/fullgraph",
+  "operations": "W信用限newwet演员及new土root/float，在金目标实际留存；D限newdry及new源的实际脆损；另算原日庚份额留存/原申金源",
+  "outputs": "完整源信用、原庚/原申值、当次模型弱三条件",
+  "preconditions_and_limits": "发送量不等留存/实损；actor份额共同池分配，不是实测力。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/geng_soil_core.py:metrics"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+36. runtime/geng_soil_core.py:source_question
+算法标识：runtime/geng_soil_core.py:source_question
+path：runtime/geng_soil_core.py
+line：77
+函数AST摘要：0982a114cebbfaf8ea253493952d4eea1c785d0c38ad99b62b4467f56ddc122b
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/geng_soil_core.py",
+  "bytes": 11135,
+  "sha256": "e7be185b1d7e37e15627152654e6e5ab710cdcbf0fe3d09f0635dcafb719d84c"
+}
+参数：[
+  "current",
+  "theta0",
+  "birth"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "在加当前柱之前固定源弱门并给W/D/N",
+  "inputs": "当前/同整柱theta0/birth之前的指标",
+  "operations": "只从birth弱门取资格；W实际湿生信用>0，D干脆实损>0；N再要求原庚与原申源较完整theta0严格下降",
+  "outputs": "W/D/N及明确工程强弱/非全局用途边界",
+  "preconditions_and_limits": "湿修强或干损弱不能反选前件；D真不一定完整N真；N与Q不是同一比较。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/geng_soil_core.py:source_question"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+37. runtime/geng_soil_core.py:analyze
+算法标识：runtime/geng_soil_core.py:analyze
+path：runtime/geng_soil_core.py
+line：81
+函数AST摘要：63bcf0a59d03df370663548aa8393032103a902dd0a3ba457330fbcfe427a68a
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/geng_soil_core.py",
+  "bytes": 11135,
+  "sha256": "e7be185b1d7e37e15627152654e6e5ab710cdcbf0fe3d09f0635dcafb719d84c"
+}
+参数：[
+  "base",
+  "natal_base",
+  "theta",
+  "exact"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "组织出生前件及当前两类同费对照",
+  "inputs": "完整currentbase与natalbase、theta、exact",
+  "operations": "缓存A/Q/完整theta0/birth，逐世界完整solve/原点/全图/指标后source_question",
+  "outputs": "全部世界、引用、源题与Q/zero区别",
+  "preconditions_and_limits": "无新增H或个人基础，全部反馈保；102旧物理不因新组织函数重刷。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/geng_soil_core.py:analyze"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+38. runtime/geng_soil_core.py:analyze.get
+算法标识：runtime/geng_soil_core.py:analyze.get
+path：runtime/geng_soil_core.py
+line：83
+函数AST摘要：258bc1fae9a921b1e14c16164f9ec47e763b08f9503f0a83e91e0407a3f19b49
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/runtime/geng_soil_core.py",
+  "bytes": 11135,
+  "sha256": "e7be185b1d7e37e15627152654e6e5ab710cdcbf0fe3d09f0635dcafb719d84c"
+}
+参数：[
+  "current",
+  "t",
+  "abrasion"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "仅复用实际功能相同的完整世界",
+  "inputs": "当前库存、theta和abrasion开关",
+  "operations": "无dry时规范theta0，无实际脆时开关true；以当前事件/数值theta/开关键缓存；miss一次全图",
+  "outputs": "可追溯world ID",
+  "preconditions_and_limits": "保原各方法身份在外层；Q有dry时不会与theta0误合。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/geng_soil_core.py:analyze.get"
+}
+本版未执行情况：null
+本版范围：[
+  "flow402只用库存与gauss/pack，其余旧coeff/goals/robust不冒当前Geng规则；见08。",
+  "06根量出处与07计数精度随版保；当前phasefree不叫529 commonlife。",
+  "所有数值/分配/弱门为具名工程，非现实或经典强弱等价；无B/显示。"
+]
+
+39. runtime/flow402.py:robust.<locals>.<lambda>
+算法标识：runtime/flow402.py:robust.<locals>.<lambda>
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "robust.<locals>.<lambda>",
+  "first_line": 104,
+  "kind": "Lambda",
+  "AST_sha256": "c51d24376362a4b6cca991e431866aaff7ae77c44a7518eae4e4d8ee386ac15a",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='m')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Convert a package bitmask to all exact actor names.",
+  "inputs": "Integer mask over ordered IDs captured from robust.",
+  "operations": "Emit each ID whose bit is present.",
+  "outputs": "ID list.",
+  "preconditions_and_limits": "Local pure finite mapping, not source selection; actual mask0 returns empty member of mathematicalH. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact540_algorithm_contracts64.json",
+  "record": "runtime/flow402.py:robust.<locals>.<lambda>"
+}
+本版实际输入输出记录：null
+本版未执行情况：旧lambda随robust保留，当前不执行，无本次IO。
+
+原件：work/rev588_Geng_soil_effective_rule_cards.json
+SHA256：1f8f95611aaff99db29605f51dd15800798528bd78331c6a6fcb98bd0a3ee0ef
+
+1. GS01-conditional-source
+算法标识：GS01-conditional-source
+source：滴天髓阐微1947本PDF73印23，任氏庚注（后人注释原文层），先有春夏气稍弱语境，再说丑辰湿生、未戌燥脆。
+来源层次：任氏注原文、旧工程与本项目推论分别保，不叫古书数值。
+method：庚春夏材性/调候具名源，不等全局格局取用。
+conditions：两人工出生的庚日春/夏，先在未加当前土柱的完整原局检验模型相对弱充分门；不能先脆损再选弱。
+exclusions：不迁辛/秋冬庚；不称此工程弱门等价全部古法气稍弱。
+changes：新湿土修强或干土脆损不改变已固定出生前件；新真实源域需独立版本。
+conflict_resolution：前文前件先于作用；当次实际生/脆信用仍报，但前件失败不采W/D/N。
+algorithm：source_question/evaluate；出生弱由原局全反馈解而非土标签/干数。
+verification：107全世界：原不弱反例实际有湿生/干脆但W/D/N假；合法冬庚入口不误判。
+status：经587真正非作者复核，588采用为庚春夏且原局模型相对弱的有限工程解释；不等于现实作用验证。
+historical_author_status：作者完整计算/接口已过，待完整只读核与真正非作者；不自行采用。
+
+2. GS02-exact-root-method
+算法标识：GS02-exact-root-method
+source：沿540/524的flow402.inventory工程资格；06纠01误归529/554，08限定方程回归对象。
+来源层次：主1余1/4月3/2去原日float是工程；非529 commonlife3.5/2.5/1.5。
+method：本源phasefree共同池与typed来源。
+conditions：全部原/新干支藏干/根留；每element-origin max一次；原日庚无新增float但主体/根和全收支仍在。
+exclusions：不移旧禄劫目标/control_budget_cost，也不修改415/545的dayfloat1或529 ROOT。
+changes：当前整柱变化改变当前根/份额，不回填出生。
+conflict_resolution：06/08有效订正覆盖原计划的模块简称；旧稿、102事前数据及原7数学源码不抹。
+algorithm：inventory调用旧flow资格，显式actor/origin alias映射。
+verification：107 fullinventory逐项吻合；32同输入theta0退已采555全开五池算子。
+status：经587真正非作者复核，588采用为庚春夏且原局模型相对弱的有限工程解释；不等于现实作用验证。
+historical_author_status：作者完整计算/接口已过，待完整只读核与真正非作者；不自行采用。
+
+3. GS03-soil-budget-split
+算法标识：GS03-soil-budget-split
+source：任73湿生燥脆方向；01–04预算事前计划与可检验工程式。
+来源层次：theta0/half/1、static share与全部数值为项目假说。
+method：实际新未戌土自己的生成预算分配。
+conditions：dry每actor b分b(1-theta)正生成与btheta脆金，原c克水不动；其他土仍b；delta=theta*b*sDry。
+exclusions：不造土生火、不多扣delta费、不把旧湿土actor也标脆。
+changes：theta0恢复常规分配；不同theta是完整改配方法，全部报告不挑阳性。
+conflict_resolution：净土入金b-2delta的两倍是正转负代数差，费用仍b+c；保全部金木水火反馈。
+algorithm：coefficients/solve/graph；每一source-origin gen+abrasion+ctl=b+c。
+verification：净系数过0的±1/1013边界、新率及全部费用/目标夹断对照。
+status：经587真正非作者复核，588采用为庚春夏且原局模型相对弱的有限工程解释；不等于现实作用验证。
+historical_author_status：作者完整计算/接口已过，待完整只读核与真正非作者；不自行采用。
+
+4. GS04-global-loss-and-origin
+算法标识：GS04-global-loss-and-origin
+source：原全五池生克工程；本次额外土脆金与原火克金共目标。
+来源层次：生克概念与数值容量/共同池份额分层，非实测力。
+method：正生成来源与全部控制实际损耗。
+conditions：32max面全联解；脆与火控制共用金目标实际损耗/总容量clamp；来源经实际正g闭环。
+exclusions：不单独把两控制各min一次导致超损，不把受损金来源归土。
+changes：新土原点换成foreign同总量物理不变，新源联合信用必须0。
+conflict_resolution：全部actor/current/root/成本在同世界，控制只消耗不转源；半/关效不退款。
+algorithm：solve/origins/graph：|b-2delta|<=b，L<1；Gauss与独立Cramer/闭环对照。
+verification：107 world10109边/363550边来源/全部费和目标账通过；同总量反例保。
+status：经587真正非作者复核，588采用为庚春夏且原局模型相对弱的有限工程解释；不等于现实作用验证。
+historical_author_status：作者完整计算/接口已过，待完整只读核与真正非作者；不自行采用。
+
+5. GS05-wet-retained-W
+算法标识：GS05-wet-retained-W
+source：任73丑辰湿土能生庚金，必须连前文春夏气弱。
+来源层次：原文字方向＋工程共同演员/来源实际留存证。
+method：湿土具体作用，不是整柱喜忌。
+conditions：源弱门真；注册新湿土actor×其root/float土来源普通生金在目标金中实际留存>0。
+exclusions：仅发送bT不算目标得到帮助；不能把别的原土来源借新actor全归新输入。
+changes：实际新增干/藏/根/火水反馈可使信用变化，仍给全过程。
+conflict_resolution：W真不自动喜该柱/喜土，完整反作用另列。
+algorithm：metrics/source_question。
+verification：两湿柱/三参数及foreign同量失来源，公用API回放与出生不弱反例。
+status：经587真正非作者复核，588采用为庚春夏且原局模型相对弱的有限工程解释；不等于现实作用验证。
+historical_author_status：作者完整计算/接口已过，待完整只读核与真正非作者；不自行采用。
+
+6. GS06-dry-actual-D-and-net-N
+算法标识：GS06-dry-actual-D-and-net-N
+source：任73未戌燥土能脆的具体前件；02/04事前分D/N/Q。
+来源层次：工程作用见证/整改配净比较，不冒传统通用定理。
+method：干土实际脆金与完整净伤分题。
+conditions：D需源弱真与注册newdry actor×新root/float的实际脆金损耗>0；N另需原日庚终留及原申金源较同完整新柱theta0严格降。
+exclusions：容量不冒实损；有D不一概有N；不要求脆后原根仍正才承认伤害。
+changes：全部theta保；原局强反例D物理信用正而规则D不采用；foreign归因假。
+conflict_resolution：Q只关额外脆金，不把预留费还生金；N对完整theta0改配，两个基线分别解释。
+algorithm：metrics/source_question/analyze，所有对照共享完整同一原/新实体。
+verification：三预定theta、Q、两raw、边界/新率/foreign及不弱五状态。
+status：经587真正非作者复核，588采用为庚春夏且原局模型相对弱的有限工程解释；不等于现实作用验证。
+historical_author_status：作者完整计算/接口已过，待完整只读核与真正非作者；不自行采用。
+
+7. GS07-R0-formal-scope
+算法标识：GS07-R0-formal-scope
+source：原明干与地支关系事实表、源01/03明确R0范围。
+来源层次：关系名称为事实候选；本源不附未查明的独立转换/删根量。
+method：具名全生克量效口径，不宣所有流派关系定论。
+conditions：列全部本域真实端点；未/戌与原午/辰/卯/子等关系保；不发明时数组距离。
+exclusions：不能因关系名给随意1/2、纯元素化或删出生根；不称传统关系都无作用。
+changes：若找到本具体前件额外原典条件，另列方法M1，不暗改本R0。
+conflict_resolution：R0所有明藏/根/生克/费完整；源分歧与此模型结果分开。
+algorithm：inventory.formal_relations、全图，各方法版本显式。
+verification：实际全柱四种干支输入；来源图/根量审查与版本锁。
+status：经587真正非作者复核，588采用为庚春夏且原局模型相对弱的有限工程解释；不等于现实作用验证。
+historical_author_status：作者完整计算/接口已过，待完整只读核与真正非作者；不自行采用。
+
+8. GS08-reproducible-research
+算法标识：GS08-reproducible-research
+source：12锁材料/38函数+1旧lambda=39算法，全部对应解释。
+来源层次：来源身份、算法正确和现实预测三个结论分开。
+method：有限源任务入口和可复现版本。
+conditions：显式三参数/三theta/2人工原盘/四真实土柱或natal；27实际同帧IO包含全部11新。
+exclusions：不称全五UTC、辛或夏木土质完成；不输出B/手环，不自采/提分。
+changes：版本/材料变即新身份；源坏先于3提供者，未知条目不给默认判断。
+conflict_resolution：旧28AST合同及12未执行旧算法含lambda如实标；不为凑IO运行无关功能。
+algorithm：guard/evaluate/main、全39验证器与只读完整核。
+verification：完整API/CLI、坏源0restore3、strict、来源范围0模型及真实只读限制；最终复核待另一人。
+status：经587真正非作者复核，588采用为庚春夏且原局模型相对弱的有限工程解释；不等于现实作用验证。
+historical_author_status：作者完整计算/接口已过，待完整只读核与真正非作者；不自行采用。
+

@@ -1,0 +1,58 @@
+{
+  "id": "rev258_Jilin_frame_project_adoption",
+  "revision": 258,
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_exact_version_Jilin_Xiayu_named_cultural_frame",
+  "target": {
+    "component": "batch01_JL2011_candidate",
+    "files": 654,
+    "manifest_sha256": "3b90f9c14f971ad372200ca9c2022e284b9a25b50067c90b6cbc0d8753171316",
+    "freeze_sha256": "8a1917836ea782dca8acc5e569a574b54be26fd035e6754ece09622168b4914b",
+    "relative_directory": "rev255_national_region_source_batch/batch01_JL2011_candidate"
+  },
+  "independent_review": {
+    "component": "rev256_Jilin_data15_independent",
+    "files": 59,
+    "manifest_sha256": "875c4468db5a9f015a81b360b64c633cd0d3f68f86de5d4296c0a71699a29247",
+    "freeze_sha256": "f9251ce296bd59d0bfc5a9c6a23acc70a3b440011c8027f8a3d8ca4571c220a4"
+  },
+  "aggregate_acceptance": {
+    "component": "rev258_Jilin_frame_acceptance",
+    "files": 3,
+    "manifest_sha256": "972f4dfe4f9c5d1cebb56f6fbf754ee00ee1865b83ef475d6a3703a084ca81d2",
+    "freeze_sha256": "bd18f359216820cc07f4e1cb1e9a09c2e9dc26368b550fdd4609a0f2abf433a3",
+    "report_sha256": "f6d5e0fb019a4434d2f37a64e62bb1b5df84e34524c4e920074f445871442df3"
+  },
+  "scope": {
+    "id": "JL-DFZ-20111122-Xiayu-modern-named-whole-cultural-account",
+    "region_ref": {
+      "namespace": "cn-admin-code-named-region-project-versioned",
+      "id": "220000",
+      "version": "research-jl-dfz20111122-xiayu-modern-named-qing-v1"
+    },
+    "source_url": "https://dfz.jl.gov.cn/zsjl/201111/t20111122_5216469.html",
+    "source_title": "吉林省政区沿革",
+    "publisher": "吉林省地方志编纂委员会",
+    "displayed_date": "2011-11-22 07:05:00",
+    "source_locator": "L58/60–64modernprovince; L91XiayuQing; L102broaderNortheast; differentperiods andL136erratum retained",
+    "source_layer": "Selected modernofficialgazetteer culturalhistory account; no governmentBazi standard orcompleteancientGISclaim.",
+    "selected_reading": "This author maps modernnamed吉林省 to青州 in夏禹frame. Broader东北冀青 doesnot forcebothinto everycontainedprovince; othereras stayseparate.",
+    "engineering_bridge": "Namedmodernwhole → existing220000 identity; separate selectedSanming Qing→wood. Source itself doesnotassignfiveelements orpersonal喜木.",
+    "specific_error_retained": "网页汉武帝刘秀称号错，正确为汉光武帝；原字留存，相关夏禹主张与全史真值分开。",
+    "runtime_behavior": "Only explicit exactnewversion andcomplete reviewedcoverage obtainsRnwood; oldunknown version staysaddressable; noauto latest.",
+    "C0": "Exact same identity/version/pointcontent only returnsRr2.5%; localwood remains.",
+    "old_data_and_defaults": "Prior44/43/39 objects exactprefix; new45/44/40. Allotherunknown andambiguous sourceframes stay; originalnatalB andweights unchanged.",
+    "scope_and_truth": "Sourceproposal completewithinchosenauthorframe, notprovedeveryparcel orallquotedclassics. Noempiricalpredictionclaim."
+  },
+  "runtime_adopted": true,
+  "explicit_version_only": true,
+  "old_frozen_pending_flags_preserved": true,
+  "effective_root_adoption_is_external_policy": true,
+  "all_original_national_and_city_coverage_closed": false,
+  "weights_C20_D2_C0_and_original_B_changed": false,
+  "score": "82.50/100",
+  "progress_delta": "0.00",
+  "original_task_complete": false,
+  "real_prediction_validated": false
+}

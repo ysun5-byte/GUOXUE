@@ -1,0 +1,182 @@
+本身相合条件研究
+rev148_self_combination_whole_v0_1_2
+所属原模块：C02
+当前采用：rev149_self_combination_research_archival_acceptance.json
+范围：仅明确选择普通不化假设的窄域计算；不能据此认定无条件不化或原局最终基础。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev148_self_combination_whole_v0_1_2/algorithm_explanations.json
+SHA256：afde429d38c3f9a834d5c8558bfe294633e08a5b46cc05a00993cc6978a7baf1
+
+1. canonical
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+算法与理由：Stable sorted exact JSON; no nonfinite encoding.
+end_line：21
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.canonical
+来源层次与边界：software identity, not source authenticity or classical theory
+start_line：21
+函数标识：canonical
+
+2. digest
+函数AST摘要：ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431
+算法与理由：Content hash for exact request/relation identity, no combination identity collapse from same character names.
+end_line：22
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.digest
+来源层次与边界：engineering reproducibility
+start_line：22
+函数标识：digest
+
+3. pairs
+函数AST摘要：2a72712bc22459575237e24cf8c62d6e9f11515ff6d8227085c7e65eff8013c2
+算法与理由：Reject duplicate JSON object keys instead of silent last-key overwrite.
+end_line：28
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.pairs
+来源层次与边界：strict input engineering
+start_line：23
+函数标识：pairs
+
+4. no_constant
+函数AST摘要：363422e66ce4f2f2845184bb86e901ef57b8edff94fd1a35143b6fc99e8b2eca
+算法与理由：Reject NaN/Infinity; profiled None is exception unwind.
+end_line：29
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.no_constant
+来源层次与边界：strict input engineering
+start_line：29
+函数标识：no_constant
+
+5. parse
+函数AST摘要：1f73e8bc2bb46820adc5622ecdadb8d01515dd07c112fa6c3c5bf379dabd6d7a
+算法与理由：Strict object-pairs and nonfinite callbacks used on every locked JSON and outer input.
+end_line：30
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.parse
+来源层次与边界：software parsing, raw legality remains native HAP/facts
+start_line：30
+函数标识：parse
+
+6. pack
+函数AST摘要：c1e27166ecc04d905ced9250d2b750c039d409aee40f275fd078c2e6c02d508b
+算法与理由：Serialize exact rational fractions without rounding; preserve all nested original ledgers and relation facts.
+end_line：35
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.pack
+来源层次与边界：exact engineering, not physical energy
+start_line：31
+函数标识：pack
+
+7. Captured.sha
+函数AST摘要：1bb7b81376cab33c2219981b447d3528b40be6f91cf36acea09aea55cf8f07ff
+算法与理由：Hash captured actual bytes used by original acceptance verification, not caller supplied hash.
+end_line：37
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.Captured.sha
+来源层次与边界：pre-provider source binding
+start_line：37
+函数标识：Captured.sha
+
+8. Captured.size
+函数AST摘要：4bf21dafab94b7996c1096fc82f1707cbc58db5b96949aaa435dc74527333bd1
+算法与理由：Use captured actual byte length to validate inner exact original inventory.
+end_line：38
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.Captured.size
+来源层次与边界：pre-provider source binding
+start_line：38
+函数标识：Captured.size
+
+9. declared
+函数AST摘要：285c07aa4add98fe629db32d9d00bad50616d0759369623074070cca281583e8
+算法与理由：Read literal accepted native method version from AST before provider execution.
+end_line：39
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.declared
+来源层次与边界：source code identity, not inference from a claimed version
+start_line：39
+函数标识：declared
+
+10. verify_tree
+函数AST摘要：5ee3466e8ba438934fae2489df135c6ca67e2f33f0ba71ec6aacdfaaa9eddffd
+算法与理由：Require exact original complete member set and SHA/length, plus freeze-to-manifest binding.
+end_line：49
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.verify_tree
+来源层次与边界：original model/review preservation
+start_line：40
+函数标识：verify_tree
+
+11. verify_PF1
+函数AST摘要：8e3d19b020d7473a97e39135366bb467c80ca4e14fcc97243abf4bd1d59792bb
+算法与理由：Reuse B11/PF1 source map with a software-only correction: first bind complete original PF1 freeze bytes to fixed65ef2370... anchor, actual component/native VERSION/276 and each existing model-freeze author_report_sha256, algorithm_explanations_sha256 and actual_algorithm_IO_sha256 to captured actual corresponding payload BEFORE any provider exec. All freeze status/B/adoption/progress metadata now stays byte-exact. Other target/review/profile gates retained; no invented report fields.
+end_line：82
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.verify_PF1
+来源层次与边界：Prior checker AST retained in source receipt/history; corrected checker has its own AST. This source-integrity fix is not a new mathematical or traditional proof.
+start_line：51
+函数标识：verify_PF1
+
+12. load_modules
+函数AST摘要：b26b72b7137cc86dc180978336555a282b21c825992814dbe37ed419cd570e81
+算法与理由：Check exact331 source/material entries, all bytes/JSON/original acceptance/images/fixed ordinary profile and original cfg, then execute exact PF1 only. No unreviewed changed coefficient or manual nontransform input.
+end_line：109
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.load_modules
+来源层次与边界：Existing8 source0exec regressions and new3 coherent full-upstream model-payload reseals; original accepted provenance and explicit ordinary-interpretation limits
+start_line：85
+函数标识：load_modules
+
+13. combination_intake
+函数AST摘要：d876252d4b83648f94a9f2f87aaea473b670e45589ea5e7055f17e066bc271eb
+算法与理由：Keep all formal visible candidate pairs, distinguish yang self財/yin self官/third party, record competitors and precise year-partner/month-same-day preemption shape. After explicit caller profile selection, only unique adjacent self財, 庚day乙hour, 未month, unaffected actual 寅/卯woodmain root, not named正化pair, pure PF1 identity qualifies the declared ordinary interpretation. This is not an exhaustive chemistry classifier.
+end_line：126
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.combination_intake
+来源层次与边界：primary19–21 distinction + later Xu conditional same-use/month-table + explicit conservative engineering gates with Sanming conflict retained
+start_line：110
+函数标识：combination_intake
+
+14. joined_context
+函数AST摘要：2fdfe71cba06439e5066d7ddab5b2ab4df676fd59fee1368b80a0c5e587753d1
+算法与理由：Transfer only exact consumed relation IDs. Remove generic full-relation pending only when no other full relation remains; keep every branch, secondary positive-root, climate/HAP and original known-other gate. All original relation rows remain.
+end_line：132
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.joined_context
+来源层次与边界：actual consumed-source joining; source dispute still declared, not a universal non化 finding
+start_line：127
+函数标识：joined_context
+
+15. signed_world
+函数AST摘要：15fd5894cbd413c45b678bc27b22d73e50abf62b30ded70f9aca31fc9d25f364
+算法与理由：Call unchanged accepted PF1 full world with joined context and fixed cfg. Keep each print own portfolio/finance attack/whole retention/birthday, pooled root floor, financial load and native H-AUX. Record function retention1 as chosen ordinary-use interpretation, not no effect or physical removal.
+end_line：136
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.signed_world
+来源层次与边界：all original276 operators unchanged, three blocked-function full worlds diagnostic only
+start_line：133
+函数标识：signed_world
+
+16. evaluate
+函数AST摘要：16e9f9efbbebf11c950799312de9c45fa53c202d69b9ab7f616da9eb8a0cc58f
+算法与理由：Strict raw request with separate explicit profile_id selected by caller as a hypothesis, not an inferred non化 fact; complete snapshot/selection binding. Native PF1 diagnostic/HAP, source joining and full real graph. Assert actual signed effect exactly equals original PF1. Return only conditional profile H, no B, no unconditional transformation certification or wrapper adoption.
+end_line：147
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.evaluate
+来源层次与边界：positive full oracle +9 actual whole negative/regression pairs, all source/math/graph limits exposed
+start_line：137
+函数标识：evaluate
+
+17. main
+函数AST摘要：311acb0fa3d65db633463ac96f9d75b6f4d8a31ec7a626499999e7c86db1b1a9
+算法与理由：Bounded input, strict parse, deterministic complete result/rejection, preserve native invalid-pillar distinction.
+end_line：154
+file：self_combination.py
+input_output：actual_function_IO.json.gz#functions.main
+来源层次与边界：actual API/CLI equality and8 strict rejections/1 native-invalid result
+start_line：148
+函数标识：main
+

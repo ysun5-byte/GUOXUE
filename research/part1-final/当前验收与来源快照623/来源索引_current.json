@@ -1,0 +1,1316 @@
+{
+  "schema": "source-navigation-current-pointer-0.1",
+  "component": "work/rev292_reference_retention",
+  "index": {
+    "path": "work/rev292_reference_retention/index.json",
+    "sha256": "8841ab85926ace5260d6e1b1a82f00d538513a202136abbe34f0efe8acc537b0",
+    "bytes": 11012
+  },
+  "manifest": {
+    "path": "work/rev292_reference_retention/manifest.json",
+    "sha256": "35e166912305d1a92b3d46f1132521d2f30a184dad9dc485f43464c2d99ea53c",
+    "bytes": 3923
+  },
+  "freeze": {
+    "path": "work/rev292_reference_retention/freeze.json",
+    "sha256": "ef19a9026e8fa3032a281906d87162cdabe815360b2dcf386b4e0d505011f323",
+    "bytes": 205
+  },
+  "historical_source_index58_unchanged": true,
+  "automatic_runtime_adoption": false,
+  "subsequent_source_increments": [
+    {
+      "component": "work/rev297_Qianlong_Yangren_source",
+      "manifest_sha256": "22166ca6a0ea39b14f63cff0afb13f13616369f7bb8a3b0144735ed21267db48",
+      "freeze_sha256": "c0818f70851647df3d254356c87966cdbdd46f32380ece8df6e7d44825f50f8c",
+      "source_only": true,
+      "date_utc": "2026-11-02T14:42:17.059010+00:00"
+    },
+    {
+      "component": "work/rev309_special_patterns_primary",
+      "manifest_sha256": "39b405e687ea824aac858c392feae01eb344abf28a0004228652e4221060b91e",
+      "freeze_sha256": "ab1ae60aaf6e037d568fd09ab84a6f34d98bf21886ed11be0b001c9115acae53",
+      "scope": "Actual NLCvol6 source-only conditions and original61 increment; no new wholemodel adoption."
+    },
+    {
+      "component": "work/rev310_climate_source_scope_review",
+      "manifest_sha256": "fc2ba388c483c785b11cdb49b9ec1c43e41dd60e3aa629f6b6bad8c8929fbb42",
+      "freeze_sha256": "0691cf37f1a5ab3a45dd1e5f7ce0a3d44c7a43a19ac41e8ff90e849db714c40a",
+      "source_only_scope_audit": true
+    },
+    {
+      "component": "work/rev314_regions_scope_source_increment",
+      "manifest_sha256": "6651a42134522449958d6593145de131da0e0930ad025c3ff94fc0105189adce",
+      "freeze_sha256": "9928e5ba2fe2d10a1ed0fa1e47c121197539b14c685c57db19e724ffe7904618",
+      "scope": "2023author partial XJ/IM and Qing76outside; actualweb extraction, screenshots failed; no dataadoption"
+    },
+    {
+      "component": "work/rev317_yong_scope_positive_source",
+      "manifest_sha256": "697c92c3a24e04b76defaf800ba5f429dcc32145731fcc32cdaa045a1c6dd71c",
+      "freeze_sha256": "0f27dcee0866c3bf0980a3522daf024a38d87a9f88d83dd7e96d275210126716",
+      "scope": "PositiveXJwhole named modern text actuallyread; edition/PDFvisual unverified; imperial269methodology; no dataadoption"
+    },
+    {
+      "component": "work/rev315_ding_ren_fake_trace_repair/source_research",
+      "reference_receipt": {
+        "path": "work/rev315_ding_ren_fake_trace_repair/source_research/reference_receipt315.json",
+        "bytes": 3636,
+        "sha256": "a34b99982b9daff4b7b038a2efe6ad06ab2b057bf8a7161e5f37ad3ae9e93039"
+      },
+      "originals_and_actual_reading": "exact315/full old305 references; no new fullbookreading; root actualRen388imageview in320"
+    },
+    {
+      "component": "work/rev319_region_source_closure",
+      "manifest_sha256": "b407082756d31468a2487b0345add4df202d7618f0cec725a42d96cfa8f50606",
+      "freeze_sha256": "662090d0c03170264c452662ef8b315e1b7e75a10567106c0befbe5277c5d636",
+      "source_and_scope_inference_research_only": true
+    },
+    {
+      "component": "work/rev324_scope_bounds_semantic_review",
+      "manifest_sha256": "db1b10d8c85090725f9db53e8a32f30304480d5259195634c306b4e8065c9165",
+      "freeze_sha256": "5ebc4921adbe99b954da4cfda4e405a9dda3cb35a170d63b32bdc65bd0c00f20",
+      "scope": "319 upperbound/refinement semantics corrected after3realcounterexamples; all19logicalcases pass; no newnativeRn/coverage"
+    },
+    {
+      "component": "work/rev304_yangren_complete_feedback",
+      "reference_receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev304_yangren_complete_feedback/reference_receipt.json",
+        "bytes": 16452,
+        "sha256": "dbc0acea3eb9464cc1738e5bd9fac493f8effc01254a7fb4233532da8c8f986d"
+      },
+      "independent_reference_receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev322_yangren_independent_review/reference_receipt.json",
+        "bytes": 5896,
+        "sha256": "9cfcdcbae8e36d8f4435a0de8be9611374bf346c93965f7c0d947d7ece9d2443"
+      },
+      "source_read_scope": "author14unique pages, reviewer8pages; not booksreadwholly; old57/61 extended"
+    },
+    {
+      "component": "work/rev330_modern_seven_region_source_data",
+      "source_registration": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev330_modern_seven_region_source_data/source_reference_registration.json",
+        "bytes": 1149,
+        "sha256": "1556031dd906f310ce2ec2e589b6f8079ab8150328e6ea516448efdb502c21bc"
+      },
+      "nonauthor_reference_receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev333_seven_regions_independent_review/reference_receipt.json",
+        "bytes": 13271,
+        "sha256": "05625927166a0da1cb4c6fe320892b6773c370d2f6af9eef1fd4e6c24e1e9860"
+      },
+      "readscope": "actualpriorarticleHTML/text+nameanchor; source authenticity andhistorynotcertified; no neworiginalbookread"
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev337_XJ_attributed_excerpt_review",
+      "source_receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev337_XJ_attributed_excerpt_review/actual_web_body_reading_receipt.json",
+        "bytes": 3122,
+        "sha256": "774956896fc44eef4b0acf78c612cdc18c219776edb640e85f90d3744c899ab0"
+      },
+      "status": "qualified_attributed_webexcerpt_for_implementation_not_yet_native_adopted"
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev340_Ren_shunju_source",
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev340_Ren_shunju_source/manifest.json",
+        "bytes": 2266,
+        "sha256": "4dfc1560c4633057432644605102a1dd7be940424eee3dd1700f207895935c18"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev340_Ren_shunju_source/freeze.json",
+        "bytes": 133,
+        "sha256": "b5ff590130256ed492772a5746017f900771766fca9515f9b71d5d2ee4727c88"
+      },
+      "source_receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev340_Ren_shunju_source/actual_visual_reading_receipt.json",
+        "bytes": 2285,
+        "sha256": "e26bf8b96057269ff9cc128709f255d691d76c6d01a38afbf373a8d99d5bb308"
+      },
+      "scope": "Actual current root visual reading six Ren1947顺局 pages389–394 plus8 preregistered printed-chart raw fact calls; no full fromchild final solver."
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev342_Ren_luck_year_source",
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev342_Ren_luck_year_source/manifest.json",
+        "bytes": 2701,
+        "sha256": "28e4859cafcd72e65b33764b28a3b0b0426aa7aae27172932f276f8bf409864d"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev342_Ren_luck_year_source/freeze.json",
+        "bytes": 115,
+        "sha256": "c807d53f3e5ec30e25307250696970b89c5771bec3e81ba5b55f75e59af5f968"
+      },
+      "receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev342_Ren_luck_year_source/actual_visual_read_receipt.json",
+        "bytes": 3558,
+        "sha256": "7ac4df7013968d3b1cae977309b361c53fd24c64e6f6d784e9621105c0b4dc09"
+      },
+      "scope": "Actual Ren scan岁运502–511pre贞元 and501neighbor; 8 source cards, no new whole time solver."
+    },
+    {
+      "component": "work/rev345_remaining_regions_source_check",
+      "manifest": {
+        "path": "work/rev345_remaining_regions_source_check/manifest.json",
+        "bytes": 363,
+        "sha256": "3c2919cd98abe22dbd3ac480943aefecd9295ef1a9535531753891d2e46f500b"
+      },
+      "freeze": {
+        "path": "work/rev345_remaining_regions_source_check/freeze.json",
+        "bytes": 115,
+        "sha256": "cae45f1ac9150c5f7119874e0c3caa10b6082248b0036a30db4d13b16e4bf686"
+      },
+      "readgrade": "Extended cached search body of Wu2025 read; normal open timeout. HLJzhigao search OCR unread. No new coverage."
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev347_Ren_follow_kill_source",
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev347_Ren_follow_kill_source/manifest.json",
+        "bytes": 1466,
+        "sha256": "e719e1042b9b7fa2c584ceb66dc5e8a3f6569264cc6a9facc6f90dae2d3fa752"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev347_Ren_follow_kill_source/freeze.json",
+        "bytes": 129,
+        "sha256": "2fcec54416dc0151e024729144f98dcd0bc69c30dac718c8ae87ae5a50b457da"
+      },
+      "source_receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev347_Ren_follow_kill_source/actual_visual_read_receipt.json",
+        "bytes": 1383,
+        "sha256": "03db7ab1bd2421ad844cafcfb296436159540f81411b3dfe498fefde6bde0150"
+      },
+      "scope": "Actual3Ren从象 pages371–373, six preexpected rawfacts; no new final followkill/followwang solver."
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev361_useful_and_function_semantics_source",
+      "source_receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev361_useful_and_function_semantics_source/actual_visual_read_receipt.json",
+        "bytes": 5565,
+        "sha256": "daa3dfada94fad352201e6112fa486b42104d73435414e63fc0cad076bf99eb9"
+      },
+      "status": "source_semantics_verified_no_solver_change"
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev366_runxia_help_and_harm",
+      "source_receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev366_runxia_help_and_harm/source_reading_receipt.json",
+        "bytes": 1307,
+        "sha256": "15847e6da716c1521c7547c891ddcb7f4f2e89250092103905e961ca3a57ad0f"
+      },
+      "research_report": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev366_runxia_help_and_harm/research_report.json",
+        "bytes": 991,
+        "sha256": "9b0b8b4aaf1a339a6f96f97f8f5665dcbf8585383b50a1d31890f16eebcb112a"
+      },
+      "status": "source conditional rescue and artificial local counterexample only, not completeRunxiaSolver"
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev370_outer_patterns_source",
+      "source_receipt": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev370_outer_patterns_source/actual_visual_read_receipt.json",
+        "bytes": 3022,
+        "sha256": "9073226abc6d75b0050c3ae5240bfffe52c479f8248b16a1a92a68e4d9858abb"
+      },
+      "research_report": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev370_outer_patterns_source/research_report.json",
+        "bytes": 1213,
+        "sha256": "ea768e39727763c2cbc0a07fd4067fe73cbdc073bf797664207eee37e0f03e9f"
+      },
+      "status": "source_conditions_only_11rawlegal_1source_method_conflict_no_fullvirtualsolver"
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev522_Wang_YiGeng_actual_competition",
+      "exact_adoption": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev556_Wang_full_competition_project_adoption.json",
+        "bytes": 7465,
+        "sha256": "e93666af03e477736efa154eb061dbc696b4fed4d8b8c7097098137864cf0a12"
+      },
+      "effective_cards": null,
+      "required_correction": null,
+      "source_math_prediction_separate": true
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev528_fourform_insufficient_climate_research",
+      "exact_adoption": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev562_fourform_support_climate_project_adoption.json",
+        "bytes": 12359,
+        "sha256": "affac46cf4b990e84cedf46577ede542a7cd7e10fcc7a0198622a80b528d61ef"
+      },
+      "effective_cards": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev562_effective_rule_cards.json",
+        "bytes": 27053,
+        "sha256": "796bd68d2b3e677c4092178a3b1df04585bd7e80a91a9debc9562a382028ae0c"
+      },
+      "required_correction": null,
+      "source_math_prediction_separate": true
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_winter_warm_actual_effect",
+      "exact_adoption": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev563_winter_warm_whole_project_adoption.json",
+        "bytes": 13406,
+        "sha256": "5c5a3dde320fe2cbda5b0e09ca310269605eaccdf942a0f222f568a88817ecef"
+      },
+      "effective_cards": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev563_effective_rule_cards.json",
+        "bytes": 14599,
+        "sha256": "06ab6e32c3473b595a531f14dde7305308e9484d4257c7065ed6f62ccf78a63e"
+      },
+      "required_correction": null,
+      "source_math_prediction_separate": true
+    },
+    {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev540_Lujie_Xin_kill_food_finance_whole",
+      "exact_adoption": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev558_Xin_whole_project_adoption.json",
+        "bytes": 18076,
+        "sha256": "97eadee94755cbb2c5a900de3cf6a2ad6ee01ee470817ea30e9a4e6f7a76ef2d"
+      },
+      "effective_cards": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev558_Xin_effective_rule_cards.json",
+        "bytes": 13693,
+        "sha256": "0c2a81eb29b6f8505e5e8388208f6662a92437e35c3ad5d6e09dc10a52899932"
+      },
+      "required_correction": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev557_independent_review540/required_effective_P_source_correction.json",
+        "bytes": 3706,
+        "sha256": "b67034a3184634cc55674589afd45f44f79233fd8db2dabe36d33a8142cf0cb1"
+      },
+      "source_math_prediction_separate": true
+    },
+    {
+      "component": "rev565_original_D02_D03_final_method_reading",
+      "registration": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev565_method_reading_registration.json",
+        "bytes": 1481,
+        "sha256": "bcf1b882c7939632001df1371bc6526211101471193bd8cca853c7a7d2e6d94f"
+      },
+      "original_source_and_methods_373_362_412_reused": true,
+      "new_source_reading_or_numeric": 0
+    },
+    {
+      "component": "rev554_missing_fire_external_intervention",
+      "adoption": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev567_external_fire_project_adoption.json",
+        "bytes": 4976,
+        "sha256": "38ba68c55816e8e2088b980ea304c03538e5d1461ba0e5294a938613af2590a7"
+      },
+      "source_math_reality_separate": true
+    }
+  ],
+  "latest_research_content_index": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev408_current_research_navigation/existing_rule_and_algorithm_index.json",
+    "bytes": 791903,
+    "sha256": "195b7b3736f4d98e5cab5525773ea90e7ea6d95f2ea1545605b8cea6c3606621"
+  },
+  "latest_regional_source_ledger": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev273_national_region_source_batch/source_research/source_receipts_index.json",
+    "mutable": true,
+    "read_scope_from_own_receipts_not_mentioncounts": true
+  },
+  "post_snapshot_adoption_records": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev289_People2023_frame_project_adoption.json",
+      "sha256": "e7610503bf980b98044d38ef1ec6f9eef1fd85b0218329cdd9b1afcb666295e2"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev295_Fan_Benxi_frame_project_adoption.json",
+      "sha256": "9c0e91e383baa72fad8a4ed7d739c4fa013a29706a86949f549fd727b693f449"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev299_TW_GS_frame_project_adoption.json",
+      "sha256": "15f9517203bb15269c4c0060b7790d3cfbba13a48ae18c1f0472a706f98a2bd4"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev299_QH_reflow_frame_project_adoption.json",
+      "sha256": "52c6321a5066996670fcdb75feac81c2f0204c42b2bcd464c4c9b0f6dc561540"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev300_hidden_print_project_adoption.json",
+      "sha256": "ba0f1414142e8b9099189c2bfb897a474ca3cecdc60acf1fe526e65e655a8d1a"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev301_current_carriers_inner_project_adoption.json",
+      "sha256": "9645a0baec23f8595a5fd12534ca0c64c6db0830039087860cb63ff979c7d71a"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev316_DingRen_fake_whole_project_adoption.json",
+      "bytes": 9963,
+      "sha256": "734e260d60c1fccfa7ae117c1889a487a9d8587f020b0bb6bd5ea06ab7cbfeb1"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev327_Yangren_whole_project_adoption.json",
+      "bytes": 9034,
+      "sha256": "59aa436cfec1c9d4424c0f4a81f60cdc43f29c8d4f753b6c1de8c9d1877ff4a2"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev335_modern_seven_frame_project_adoption.json",
+      "bytes": 10819,
+      "sha256": "994429f4bb5fe6cc9e403bdbf7ea8af9932b0b1970b5aec89d4504c27e9488c6"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev343_XJ_native_project_adoption.json",
+      "bytes": 9862,
+      "sha256": "1474272d9f5c35f3ce8ac2b1ea221be0c19d430187251525034926e96b236694"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev354_follow_child_project_model_adoption.json",
+      "bytes": 11508,
+      "sha256": "64a53f84f9872a0f3d8f92f58cf19990e663bf462287bcfc88ee4f2e16fbe63a"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev362_true_transform_project_model_adoption.json",
+      "bytes": 8280,
+      "sha256": "32c32bb4b49f51db0ebcc4155fe499de70341c05f77deef0bb6d1b415ee61045"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev373_follow_child_whole_conclusion_adoption.json",
+      "bytes": 10026,
+      "sha256": "bcc513871419792109d27123ba7c99ac1aaf435379a0de4e790fc4497f2094bd"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev378_follow_kill_project_model_adoption.json",
+      "bytes": 7807,
+      "sha256": "10fec1cb39d556225c74799ac65978ca9c1e6ec7db6064befb439d2d209fcaa3"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev381_Qianlong_composite_project_adoption.json",
+      "bytes": 13320,
+      "sha256": "54ce0650646ca47f076f788354d6814843eb6b0260c829ab5ff851ba23d80dec"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev385_actual_time_flow_project_adoption.json",
+      "bytes": 9864,
+      "sha256": "3473b711d8a25be8dd9e98c41bf543977696bd4a8cc39f5739188423364c3bdb"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev391_follow_wang_project_model_adoption.json",
+      "bytes": 6381,
+      "sha256": "1eeea7b0f336b495458e2f173675cbe395785f53a447626bd3d812b0caaf0e90"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev401_Jiase_project_model_adoption.json",
+      "bytes": 7077,
+      "sha256": "36a81d4fa89f27c0ab2d636968760ba2423591f885f9e065b3185064d8404ad2"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev405_Jinglan_source_path_research_acceptance.json",
+      "bytes": 3595,
+      "sha256": "3ed7d94b67cbe609a8fa8ad7462a7b300d71f9d77d153fd8d918d9881094c8a4"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev412_follow_force_S2_project_model_adoption.json",
+      "bytes": 7782,
+      "sha256": "96f25459a83738f879087dbcbf96e4591a411802823f1a127a760863d7c1cffe"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev416_Yanshang_project_model_adoption.json",
+      "bytes": 7623,
+      "sha256": "4f07115e13b6cda0426ed9735d4527df1673f23669cf4c8034853ab285319fe9"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev419_primary_lujie_project_model_adoption.json",
+      "bytes": 6117,
+      "sha256": "2f68338ac460515a526f2f298dc2beb2d61b3668bafe08a41ac65b11d18cbf8a"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev425_follow_qi_project_model_adoption.json",
+      "bytes": 7189,
+      "sha256": "ab554d41cd34a6671f783aee98f706089bdba0e4d74e07203905dad1159f5994"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev426_runxia_project_model_adoption.json",
+      "bytes": 9658,
+      "sha256": "9c2f763aec7585b0bacf635ebc934805086e0e9048becd8edb20a393edc3a0f0"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev427_follow_strong_project_model_adoption.json",
+      "bytes": 6505,
+      "sha256": "e7cd94956098f0ad120756129742f5a87446e6c696ac00a882e1abd6f7997d82"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev434_Quzhi_maintenance_research_adoption.json",
+      "bytes": 6133,
+      "sha256": "9b5c35fcba9fd6bad48793d8e326728be8bec42283e9ae893225bd2c24e410ad"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev440_Primary_Wu_whole_print_adoption.json",
+      "bytes": 7194,
+      "sha256": "83a2e7f7c84e53e31490173e39903217b86db59ea3f687e0e0cb2cb34cfc81e5"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev444_coldmetal_composite_project_adoption.json",
+      "bytes": 9568,
+      "sha256": "a99245f7e90e3fc61d9c787e58f51d3343d6dc188a29ddf2a2fe7417a52e5d48"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev452_MC_N1_finite_research_adoption.json",
+      "bytes": 4882,
+      "sha256": "8953e94f5ac00a0c6e3de8392b49cdba20bcf56787ae6a0825298576774c9d03"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev454_city_identity_source_layer_adoption.json",
+      "bytes": 5028,
+      "sha256": "fd50840ff6296b3eede7bcfc7fd8c78d08114524da5945bc33aa284cf2b9d55e"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev460_MC_N1_net_auxiliary_project_adoption.json",
+      "bytes": 5407,
+      "sha256": "c376f0a6c6d788e807d5f71d5d24882c1fa07c5dcf8dc0773f480d2f592d2820"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev459_Wu_actual_five_time_project_adoption.json",
+      "bytes": 5290,
+      "sha256": "91b56b4e5d212283ccaf93756d2f2c279e5176179058fe81f997bccd4552b41e"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev465_existing_city_context_project_adoption.json",
+      "bytes": 5135,
+      "sha256": "4934bf986f83ce4419cb225a1256ca2fbf1782a616b0017986d6761d35052f18"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev464_surviving_print_follow_finance_adoption.json",
+      "bytes": 6206,
+      "sha256": "e7fc4f227865939352752a639e780cd4ab994afc20ed12517c9854513652efbc"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev473_nonCN_existing_context_adoption.json",
+      "bytes": 4779,
+      "sha256": "ebb61512e7c74c9fdfe3b5b8d15e5fc49a951010c0dd5bee88ff961a0e6190f0"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev475_MC_N2_complete_feedback_adoption.json",
+      "bytes": 5967,
+      "sha256": "050730c213519e8eabe0f8a6122a14f85623d3c11bae59edd6c77317e2042c8d"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev479_MC_N4_whole_and_negative_net_adoption.json",
+      "bytes": 5034,
+      "sha256": "36239f338d53a82d37950f46c7a9e642f339eb2b390eb5c09102bb61d7d74386"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev483_static_geography_research_adoption.json",
+      "bytes": 4842,
+      "sha256": "bb1c7f6d2bf23e08b10eef1085764836061a9db5071f76474165ddf1033a1124"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev489_Ren_true_follow_finance_engineering_adoption.json",
+      "bytes": 5987,
+      "sha256": "45fdb164cb95682b456877af84043af8c6fb203bb240c10082b5e53614942447"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev492_GN_actual_windows_adoption.json",
+      "bytes": 5730,
+      "sha256": "a1e23292ee82f2a5d0c1b9b6bc801c8111ab290400d18a66b161d6d7ad17fe80"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev495_Lujie_relative_outlet_adoption.json",
+      "bytes": 4794,
+      "sha256": "434fbc5201bfefa4bcce238a556b615a68b4691677715277e9c675403eba8cf6"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev499_GN_region_components_adoption.json",
+      "bytes": 5287,
+      "sha256": "3670d7e54235b912820560b0f226a6fc4b4470611166207412b1ec04e9ef2320"
+    }
+  ],
+  "latest_readable_research_compilation": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究内容与算法说明_阅读版_rev394/01_研究总稿.txt",
+    "bytes": 87089,
+    "sha256": "7448b940004bac6cdc884b75e38b76ef8dffd9d5335a4242e27abee17a6ce34f"
+  },
+  "latest_algorithm_explanation_increment": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/从杀乾隆与实际时层_逐算法解释增量_rev386.txt",
+    "bytes": 287437,
+    "sha256": "faf33d9a64e9c754da035f0bf8dcc5c600358d858631f45503ece5cb6a2b5793"
+  },
+  "latest_native_region_data": {
+    "policy": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev343_XJ_native_project_adoption.json",
+      "bytes": 9862,
+      "sha256": "1474272d9f5c35f3ce8ac2b1ea221be0c19d430187251525034926e96b236694"
+    },
+    "native_only": true,
+    "combined_remains_data20": true
+  },
+  "latest_research_main": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究内容与算法说明_阅读版_rev394/01_研究总稿.txt",
+    "bytes": 87089,
+    "sha256": "7448b940004bac6cdc884b75e38b76ef8dffd9d5335a4242e27abee17a6ce34f"
+  },
+  "research_content339": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev339_current_research_text",
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev339_current_research_text/manifest.json",
+      "bytes": 512,
+      "sha256": "5ab86f0730a55b7334a7d9373e68e349198755d71ed24762801c5b2bb8bb03ec"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev339_current_research_text/freeze.json",
+      "bytes": 122,
+      "sha256": "85897c8e51ff38fea4efceb0130b82d3fd13dcdf96adca58af8091cae7ea9e49"
+    },
+    "current_main": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究总稿_规则依据与算法解释_rev339.txt",
+      "bytes": 42526,
+      "sha256": "ee4f7d92538c92307daf4abaec3ca86c52a1bc85f2ac2407285819c893e1525e"
+    }
+  },
+  "unadopted_region_semantics_options348": {
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev348_region_remaining_concrete_options/manifest.json",
+      "bytes": 347,
+      "sha256": "dfbf702fefdcb4accacb51dd150b1f768fe90c088f9979f8a04d5724640ec72d"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev348_region_remaining_concrete_options/freeze.json",
+      "bytes": 121,
+      "sha256": "20ca5d215e1544e491ef0876b7d0368c126882e97738e6530b2c2c3e61ae6fab"
+    },
+    "new_adoption": false,
+    "user_question_pending": false
+  },
+  "latest_original44_scope_status349": {
+    "index": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev349_existing44_research_status_increment/existing44_scope_status_increment.json",
+      "bytes": 56827,
+      "sha256": "b2108d439531c140b48b8280209411df9452cfa9381e92708b74732f1ef6eb6e"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev349_existing44_research_status_increment/manifest.json",
+      "bytes": 363,
+      "sha256": "e802322f87e452b2e4609490643fb7b4775dff4d77ac49383729823fb0d2f5ff"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev349_existing44_research_status_increment/freeze.json",
+      "bytes": 142,
+      "sha256": "510e56a49bdcfa52e42a634de3dd58bf070e3bd4b0ce586348dfc6e8481977fa"
+    },
+    "new_scope_or_progress": false
+  },
+  "latest_follow_child_research_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev354_follow_child_project_model_adoption.json",
+    "bytes": 11508,
+    "sha256": "64a53f84f9872a0f3d8f92f58cf19990e663bf462287bcfc88ee4f2e16fbe63a"
+  },
+  "post_snapshot_integrity_holds": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev355_original313_explanation_accuracy_hold.json",
+      "bytes": 2915,
+      "sha256": "8ce8e040a826717fda624b367cbd14a6b0db52701de94c1b36776ff40946f979"
+    }
+  ],
+  "latest_true_transform_research_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev362_true_transform_project_model_adoption.json",
+    "bytes": 8280,
+    "sha256": "32c32bb4b49f51db0ebcc4155fe499de70341c05f77deef0bb6d1b415ee61045"
+  },
+  "latest_algorithm_index": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev623_current_algorithm_navigation.json",
+    "bytes": 2696876,
+    "sha256": "4f99a5e188deb71e682afa3ba3d8f096fedf5899734705f1f3542e841254aaea"
+  },
+  "research_content364": {
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev364_current_research_content/manifest.json",
+      "bytes": 720,
+      "sha256": "1949f1752645c5e436595084ec013ca6ab36271c72d7ea238477f644b8928622"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev364_current_research_content/freeze.json",
+      "bytes": 139,
+      "sha256": "8d028a257bc885734f0a0bd838dffb1fffddf97ddc0ecee74301cd8f0621657d"
+    },
+    "current_main": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究总稿_规则依据与算法解释_rev364.txt",
+      "bytes": 58106,
+      "sha256": "6a93cef76baf048391f163d9c3002f95d9541b78d16d68ad81c1d4ae14fed037"
+    },
+    "explanation_increment": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/从儿与真化逐算法解释增量_rev364.txt",
+      "bytes": 99840,
+      "sha256": "b4c4273ab8c5e4db8ce98f78ae709e83dc3c1032d192b728cfcfd270c5c98e41"
+    }
+  },
+  "latest_runxia_conditional_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev366_runxia_help_and_harm/research_report.json",
+    "bytes": 991,
+    "sha256": "9b0b8b4aaf1a339a6f96f97f8f5665dcbf8585383b50a1d31890f16eebcb112a"
+  },
+  "latest_follow_child_whole_natal_conclusion": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev373_follow_child_whole_conclusion_adoption.json",
+    "bytes": 10026,
+    "sha256": "bcc513871419792109d27123ba7c99ac1aaf435379a0de4e790fc4497f2094bd"
+  },
+  "latest_outer_source_search_activity": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev370_web_search_activity.json",
+    "bytes": 1328,
+    "sha256": "0b1c6107f0f3431bcc1a2a3a103c6d24b592faea919895c543994e4ff9a2e7ac"
+  },
+  "latest_current_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev408_live_checkpoint.json",
+    "bytes": 81065,
+    "sha256": "c64914670551bd61e8bb81f898d37fce2d7a42188ab29a271cccc984e2de9be3"
+  },
+  "latest_follow_kill_research_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev378_follow_kill_project_model_adoption.json",
+    "bytes": 7807,
+    "sha256": "10fec1cb39d556225c74799ac65978ca9c1e6ec7db6064befb439d2d209fcaa3"
+  },
+  "latest_Qianlong_composite_research_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev381_Qianlong_composite_project_adoption.json",
+    "bytes": 13320,
+    "sha256": "54ce0650646ca47f076f788354d6814843eb6b0260c829ab5ff851ba23d80dec"
+  },
+  "effective_algorithm_explanation_overrides": [
+    {
+      "runtime_component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_Qianlong_directed_clash",
+      "old_document": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_Qianlong_directed_clash/all_new_function_explanations.json",
+        "bytes": 109655,
+        "sha256": "3d933f8abed06d148fdcce69137f6cfabd0271903c74d0f5849db89b1bde0134"
+      },
+      "authoritative_document": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_Qianlong_explanation_layer/all78_corrected_function_explanations.json",
+        "bytes": 131081,
+        "sha256": "2e2c7879f38daa43a734fbdcacd1c6226e24583a288205926d87f6b9f4f57bc3"
+      },
+      "documentation_version": "QIANLONG-325-0.1.3-DOCS-0.1",
+      "exact_adoption": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev381_Qianlong_composite_project_adoption.json",
+        "bytes": 13320,
+        "sha256": "54ce0650646ca47f076f788354d6814843eb6b0260c829ab5ff851ba23d80dec"
+      },
+      "old_document_disposition": "historical_not_approved_as_accurate"
+    }
+  ],
+  "latest_follow_child_actual_time_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev385_actual_time_flow_project_adoption.json",
+    "bytes": 9864,
+    "sha256": "3473b711d8a25be8dd9e98c41bf543977696bd4a8cc39f5739188423364c3bdb"
+  },
+  "latest_actual_time_reading_note": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/从儿实际五时层_完整作用与变化判断_rev385r1.txt",
+    "bytes": 4226,
+    "sha256": "c386c013fac3aa0c55ff95635c8e4a8c506abc0636e775e7f61b9d9c6e24f857"
+  },
+  "reading_note_corrections": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev385_reading_locator_correction.json",
+      "bytes": 3014,
+      "sha256": "29656bd14452a6ceaf07e5eea391dce0300c308f31d88b114a176f5c00046cfa"
+    }
+  ],
+  "research_content386": {
+    "component": "rev386_current_research_content",
+    "index": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev386_current_research_content/existing_rule_and_algorithm_index.json",
+      "bytes": 718624,
+      "sha256": "f4657ba55fc964d194841b08b3e97a957e666f8c6b42ddace7fa20a2d21d966a"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev386_current_research_content/manifest.json",
+      "bytes": 2468,
+      "sha256": "8f7fd010d65758a8453d74f9a39925d26e7af423a8f2c2df2ddbfb6cd8c8333c"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev386_current_research_content/freeze.json",
+      "bytes": 139,
+      "sha256": "22dee12fcd25a3bff56dbfe03752a4f2498935628a41dc8063c2b4486fccd8d4"
+    },
+    "user_entry": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究总稿_规则依据与算法解释_rev386.txt",
+    "methods": 38,
+    "methods_not_progress": true,
+    "not_new_fullportable_release": true
+  },
+  "latest_follow_wang_natal_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev391_follow_wang_project_model_adoption.json",
+    "bytes": 6381,
+    "sha256": "1eeea7b0f336b495458e2f173675cbe395785f53a447626bd3d812b0caaf0e90"
+  },
+  "latest_reading_delivery": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究内容与算法说明_阅读版_rev501_交付核验.json",
+    "bytes": 978,
+    "sha256": "2f52bb6ac570c43d104ab1d96082fdf834ea0ac1bf272c741c6bdede3d374a27"
+  },
+  "latest_reading_archive": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究内容与算法说明_阅读版_rev501.zip",
+    "bytes": 73418382,
+    "sha256": "b9cea3d32bad97e1998bca03a2de695511dbb43979bf5d281f3bae6f724d68d0"
+  },
+  "latest_jinglan_source_paths397": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev397_author_completion_handoff.json",
+    "bytes": 1554,
+    "sha256": "35e3b228c621dc5c2b8450a7b3fc93f6b7ca8b91818c09bf556ce325eff476c1"
+  },
+  "original44_jinglan_binding_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev397_original44_binding_correction.json",
+    "bytes": 835,
+    "sha256": "2fb9ec26db957ee082ebd5b54d9bca11423ee318ec7a4fb34ac2b57a5a055f05"
+  },
+  "unadopted388_exact_implementation_hold": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev396_original388_implementation_hold.json",
+    "bytes": 1351,
+    "sha256": "29b42b543e7ea7b0304ace431f1bd254c5e124c0efd746bce0a743d2e00c4db4"
+  },
+  "region395_repair_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev395_author_completion_handoff.json",
+    "bytes": 2252,
+    "sha256": "702bf0f36a32d2fd0ffd97f5b983875764f82832ceac4c5bb768f3757cbbafe8"
+  },
+  "latest_reviewed_unadopted_seven_macro_candidate": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev400_seven_macro_repair_research_disposition.json",
+    "bytes": 3619,
+    "sha256": "f810b761cd3cdcf0f1a5b94ec31d6274699320d4f18e963ad32dc5265394a14d"
+  },
+  "latest_unadopted_seven_macro_reading_status": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/待审方案/全国七区候选_修复复核后的研究状态_rev400.txt",
+    "bytes": 1597,
+    "sha256": "4423179a8d195615e997fd5520fe087e318c632bdb055ca998f0e409330aca36"
+  },
+  "latest_Jiase_ChenWei_research_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev401_Jiase_project_model_adoption.json",
+    "bytes": 7077,
+    "sha256": "36a81d4fa89f27c0ab2d636968760ba2423591f885f9e065b3185064d8404ad2"
+  },
+  "corrected_NLC42998_leaf_locator": {
+    "PDF154": 33,
+    "PDF155": 34,
+    "PDF156": 35,
+    "receipt": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev384_Sanming_Jiase_onewood_whole/source/reference_receipt.json",
+      "bytes": 3275,
+      "sha256": "3d8f39d39ad94dbf626294d1d9e0ced311635ac038ab2570265ac0605b0bec3e"
+    }
+  },
+  "latest_Jinglan_source_path_research_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev405_Jinglan_source_path_research_acceptance.json",
+    "bytes": 3595,
+    "sha256": "3ed7d94b67cbe609a8fa8ad7462a7b300d71f9d77d153fd8d918d9881094c8a4"
+  },
+  "latest_original44_status_overlay": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev436_existing44_research_status_overlay.json",
+    "bytes": 7228,
+    "sha256": "7d1b70833fda9448c1d1b5457c4d8ef001c2074e55640f49e91e232e875575a3"
+  },
+  "effective_source_locator_overrides": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev407_special_pattern_locator_correction/precise_locator_correction.json",
+      "bytes": 7208,
+      "sha256": "ace729ffc85e97f81a166555d0b5227c926824b14653ed0fca5165a0651d9706"
+    }
+  ],
+  "latest_classic_source_locator_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev407_special_pattern_locator_correction/precise_locator_correction.json",
+    "bytes": 7208,
+    "sha256": "ace729ffc85e97f81a166555d0b5227c926824b14653ed0fca5165a0651d9706"
+  },
+  "latest_reading_guide": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/现阶段命理研究_先读这一份_rev501.txt",
+    "bytes": 5636,
+    "sha256": "16e94f968acb092a1c2aa2c5d5e62b265be88e251cef3e5a3ec8e93eb470fd62"
+  },
+  "latest_runxia_whole_question410": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole/complete_problem_before_producer.txt",
+    "bytes": 3271,
+    "sha256": "739358076bf2a4e2dc953f8385721fe7f465cf3c28e6de573dc90c86ce2cfa04"
+  },
+  "latest_follow_force_S2_whole_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev412_follow_force_S2_project_model_adoption.json",
+    "bytes": 7782,
+    "sha256": "96f25459a83738f879087dbcbf96e4591a411802823f1a127a760863d7c1cffe"
+  },
+  "effective_documentation_context_clarifications": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev409_follow_force_S2_independent_review/historical_K2_contract_context_clarification.json",
+      "bytes": 1128,
+      "sha256": "4ce9ce0895279e92c9bfe351fe846025bb7356e607174b9ed3f9d1d47335371f"
+    }
+  ],
+  "latest_Yanshang_natal_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev416_Yanshang_project_model_adoption.json",
+    "bytes": 7623,
+    "sha256": "4f07115e13b6cda0426ed9735d4527df1673f23669cf4c8034853ab285319fe9"
+  },
+  "latest_Primary_springwood_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev419_primary_lujie_project_model_adoption.json",
+    "bytes": 6117,
+    "sha256": "2f68338ac460515a526f2f298dc2beb2d61b3668bafe08a41ac65b11d18cbf8a"
+  },
+  "latest_Primary_springwood_reading": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/春木禄劫食伤泄秀_规则与算法解释_rev419r1.txt",
+    "bytes": 17320,
+    "sha256": "630ef7006f155b58c149e928fe3af95dec0e8ad31b642ae84a6832bb119bf278"
+  },
+  "rev419_reading_locator_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev419_reading_locator_correction.json",
+    "bytes": 1052,
+    "sha256": "319ff7b024ba35a9f279d98c30361d4c4a80f5bf23df1929dca79d537d9712aa"
+  },
+  "latest_acceptance_status_audit": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev418_original_acceptance_status_audit.json",
+    "bytes": 4471,
+    "sha256": "0de9048720cd8edc6d0e924e7a0eb89907f10bbfffd7cf86686aa5dce1b6289f"
+  },
+  "latest_city_source_research421": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev421_national_city_source_research/research_report.json",
+    "bytes": 2182,
+    "sha256": "ef0e64684121807ae5762d7500c3244f691a5d5e73285a4cee66bb950196a424"
+  },
+  "latest_follow_qi_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev425_follow_qi_project_model_adoption.json",
+    "bytes": 7189,
+    "sha256": "ab554d41cd34a6671f783aee98f706089bdba0e4d74e07203905dad1159f5994"
+  },
+  "latest_recoverable_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev538_live_checkpoint.json",
+    "bytes": 157986,
+    "sha256": "126e4b9fe3d519d851d587bf4ac67db8f34c9a42a948ef341c92cf96515f4b71"
+  },
+  "latest_current_algorithm_navigation": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev538_current_algorithm_navigation.json",
+    "bytes": 1710855,
+    "sha256": "3a99fa3b08fd0d4107727df8f8241e6cf89bf4d93fa7498a776d17c542ba8ab6"
+  },
+  "latest_climate_soil_source429": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev429_Ren_soil_quality_source/research_report.json",
+    "bytes": 1477,
+    "sha256": "3f744c03a7398c738c71f889ce629d30bd33a8fa122881f092ef893d86f459fa"
+  },
+  "latest_Runxia_whole_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev426_runxia_project_model_adoption.json",
+    "bytes": 9658,
+    "sha256": "9c2f763aec7585b0bacf635ebc934805086e0e9048becd8edb20a393edc3a0f0"
+  },
+  "latest_follow_strong_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev427_follow_strong_project_model_adoption.json",
+    "bytes": 6505,
+    "sha256": "e7cd94956098f0ad120756129742f5a87446e6c696ac00a882e1abd6f7997d82"
+  },
+  "latest_misc_MCN1_recovery433": {
+    "brief": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_recovery_brief.txt",
+    "source_reading_receipt": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_source_recovery_receipt.json",
+    "exploratory_not_oracle": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_exploratory_fourpool_before_new_method.json"
+  },
+  "reading_reproduction_locator_check434": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev434_reading_reproduction_locator_check.json",
+  "latest_Quzhi_maintenance_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev434_Quzhi_maintenance_research_adoption.json",
+    "bytes": 6133,
+    "sha256": "9b5c35fcba9fd6bad48793d8e326728be8bec42283e9ae893225bd2c24e410ad"
+  },
+  "latest_Runxia_direction_collation437": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev437_runxia_variant_collation/research_report.json",
+    "bytes": 668,
+    "sha256": "ff167c37d31b0864e2b5f917cfb70c0b4bb091c00b849dc16f3968c269c492cb"
+  },
+  "latest_original_Wu_whole_print_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev440_Primary_Wu_whole_print_adoption.json",
+    "bytes": 7194,
+    "sha256": "83a2e7f7c84e53e31490173e39903217b86db59ea3f687e0e0cb2cb34cfc81e5"
+  },
+  "latest_coldmetal_composite_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev444_coldmetal_composite_project_adoption.json",
+    "bytes": 9568,
+    "sha256": "a99245f7e90e3fc61d9c787e58f51d3343d6dc188a29ddf2a2fe7417a52e5d48"
+  },
+  "effective430_rule_card_override": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev441_coldmetal_effective_documentation_layer/all7_corrected_source_rule_cards.json",
+    "bytes": 13294,
+    "sha256": "a8b7c115cca6f47565a1f882f8323cd36968a0663a7627e0e10e76d906856a70"
+  },
+  "latest_research_algorithm_text_increment": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/逐算法解释完整增量_rev501.txt",
+    "bytes": 1269704,
+    "sha256": "b0c4ac6dea9edec4fbfec95a7e386a4c44ec2072679403bf217bbbf68a5e6948"
+  },
+  "latest_follow_finance_source446": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev446_follow_finance_and_fake_source_conditions/research_report.json",
+    "bytes": 949,
+    "sha256": "4736468557163e04d6c7d133e192849bb376b25b677b5dd46b243fba3548231a"
+  },
+  "post_snapshot_reference_research": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev446_follow_finance_and_fake_source_conditions/research_report.json",
+      "bytes": 949,
+      "sha256": "4736468557163e04d6c7d133e192849bb376b25b677b5dd46b243fba3548231a"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev447_Sanming_finance_scope_source/research_report.json",
+      "bytes": 940,
+      "sha256": "7861dcb3aebe335a9a353637c66af4f23df4b788ea2e4228358c3b7ed9313741"
+    }
+  ],
+  "latest_Sanming_finance_source447": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev447_Sanming_finance_scope_source/research_report.json",
+    "bytes": 940,
+    "sha256": "7861dcb3aebe335a9a353637c66af4f23df4b788ea2e4228358c3b7ed9313741"
+  },
+  "latest_surviving_print_mathematical_gap448": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev448_surviving_print_scalar_gap/research_report.json",
+    "bytes": 745,
+    "sha256": "1f6beefb2020eb4d8669cc32311c5326295aead7c09f0985723c96f92fdda443"
+  },
+  "latest_MCN1_finite_research_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev452_MC_N1_finite_research_adoption.json",
+    "bytes": 4882,
+    "sha256": "8953e94f5ac00a0c6e3de8392b49cdba20bcf56787ae6a0825298576774c9d03"
+  },
+  "effective_Primary41_42_43_printed_folios": {
+    "PDF41": 32,
+    "PDF42": 33,
+    "PDF43": 34,
+    "evidence": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev450_MC_N1_independent_review/source_substantive_reading_review.json",
+      "bytes": 2586,
+      "sha256": "4d8bf6fbb7aee6aa55550a6bb4da19ffd87b35b381755f2923317b2ac46dd73a"
+    },
+    "old_frozen_files_and_wrong_root_brief_unchanged": true,
+    "not_assumed_uniform_fullbook_offset": true
+  },
+  "latest_national_city_identity_source_layer": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev454_city_identity_source_layer_adoption.json",
+    "bytes": 5028,
+    "sha256": "fd50840ff6296b3eede7bcfc7fd8c78d08114524da5945bc33aa284cf2b9d55e"
+  },
+  "latest_MCN1_net_auxiliary_research_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev460_MC_N1_net_auxiliary_project_adoption.json",
+    "bytes": 5407,
+    "sha256": "c376f0a6c6d788e807d5f71d5d24882c1fa07c5dcf8dc0773f480d2f592d2820"
+  },
+  "effective_MCN1_453_eight_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/effective_eight_rule_cards_status_correction.json",
+    "bytes": 27132,
+    "sha256": "05ba640c859972aa77b3fccdef7679626402403fb77647f2ce205b872c5affb7"
+  },
+  "latest_Wu_actual_five_time_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev459_Wu_actual_five_time_project_adoption.json",
+    "bytes": 5290,
+    "sha256": "91b56b4e5d212283ccaf93756d2f2c279e5176179058fe81f997bccd4552b41e"
+  },
+  "latest_existing_city_context_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev465_existing_city_context_project_adoption.json",
+    "bytes": 5135,
+    "sha256": "4934bf986f83ce4419cb225a1256ca2fbf1782a616b0017986d6761d35052f18"
+  },
+  "effective_city_source_provenance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev461_existing_city_context_independent_review/effective_city_source_provenance_clarification.json",
+    "bytes": 11185,
+    "sha256": "1378c3420c29293df90a20f3b106d4772df51684d96630bd94c91678e1f8c615"
+  },
+  "latest_relation_source_followup466": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev466_misc_source_and_relation_followup/research_report.json",
+    "bytes": 2010,
+    "sha256": "656771556692a767d10faf2ae920d5216f6135c9f1b019e780a0ed504be52275"
+  },
+  "latest_surviving_print_follow_finance_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev464_surviving_print_follow_finance_adoption.json",
+    "bytes": 6206,
+    "sha256": "e7fc4f227865939352752a639e780cd4ab994afc20ed12517c9854513652efbc"
+  },
+  "effective449_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev463_surviving_print_independent_review/effective_algorithm_explanations_all154_named_definitions.json",
+    "bytes": 514872,
+    "sha256": "46e120ee9787ef262892efadca8334f5b805c2d9ee8a46b9739dc7a2d8b58dd0"
+  },
+  "effective_Ren1947_root_source_locator": {
+    "physical_pages": [
+      93,
+      94
+    ],
+    "printed_volume1_folios": [
+      43,
+      44
+    ],
+    "receipt": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev449_Ren_surviving_print_follow_finance/source/current_root_locator_receipt.json",
+      "bytes": 3568,
+      "sha256": "68f190c9a5ec5c0ec55bde2e30f5f3bf25ee1e9573df9c50f2171887d204e0ba"
+    },
+    "old_raw_legacy_wrong_string_preserved": true,
+    "not_Primary_book93_print84": true
+  },
+  "latest_nonCN_existing_context_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev473_nonCN_existing_context_adoption.json",
+    "bytes": 4779,
+    "sha256": "ebb61512e7c74c9fdfe3b5b8d15e5fc49a951010c0dd5bee88ff961a0e6190f0"
+  },
+  "latest_MCN2_whole_net_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev475_MC_N2_complete_feedback_adoption.json",
+    "bytes": 5967,
+    "sha256": "050730c213519e8eabe0f8a6122a14f85623d3c11bae59edd6c77317e2042c8d"
+  },
+  "latest_MCN4_whole_negative_net_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev479_MC_N4_whole_and_negative_net_adoption.json",
+    "bytes": 5034,
+    "sha256": "36239f338d53a82d37950f46c7a9e642f339eb2b390eb5c09102bb61d7d74386"
+  },
+  "latest_static_GN_direction_research_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev483_static_geography_research_adoption.json",
+    "bytes": 4842,
+    "sha256": "bb1c7f6d2bf23e08b10eef1085764836061a9db5071f76474165ddf1033a1124"
+  },
+  "source_only_followups_after_latest_reading": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev485_natal_and_temporal_food_antecedent_source/source_reading_and_boundary.json",
+      "bytes": 3141,
+      "sha256": "51fcbced35b669ee1194d0375f55ff24c5cc99a8f835c90ea37441e6770dd172"
+    }
+  ],
+  "latest_Ren370_engineering_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev489_Ren_true_follow_finance_engineering_adoption.json",
+    "bytes": 5987,
+    "sha256": "45fdb164cb95682b456877af84043af8c6fb203bb240c10082b5e53614942447"
+  },
+  "latest_GN_window_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev492_GN_actual_windows_adoption.json",
+    "bytes": 5730,
+    "sha256": "a1e23292ee82f2a5d0c1b9b6bc801c8111ab290400d18a66b161d6d7ad17fe80"
+  },
+  "latest_Lujie_outlet_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev495_Lujie_relative_outlet_adoption.json",
+    "bytes": 4794,
+    "sha256": "434fbc5201bfefa4bcce238a556b615a68b4691677715277e9c675403eba8cf6"
+  },
+  "latest_GN_region_components_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev499_GN_region_components_adoption.json",
+    "bytes": 5287,
+    "sha256": "3670d7e54235b912820560b0f226a6fc4b4470611166207412b1ec04e9ef2320"
+  },
+  "effective_reference_corrections": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev500_direct_Z_evidence_citation_clarification.json",
+      "bytes": 3697,
+      "sha256": "7d1a8fef6eded063f24715b2eeddd5cebf23904c9a01486a84d1c5d0346b958c"
+    }
+  ],
+  "latest_C04_research_delivery": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_地区作用研究_可复现版_rev500.zip",
+    "bytes": 65229467,
+    "sha256": "941b54f290a4b8277b57d9b4abe3000693cbbabbb4fee7758c0eba16d8659122"
+  },
+  "latest_C04_complete_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev500_C04_stage1_project_acceptance.json",
+    "bytes": 9939,
+    "sha256": "1dc020dd83e6cbef70999ccc451a06430a817c2f57a50288ea4c43b16f6e2ae5"
+  },
+  "original44_scope_audit496": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev496_completion_handoff.json",
+    "bytes": 950,
+    "sha256": "b0d6e9a7ccb8134d92b684abe8718ed2d5897358025b96ec046b33167c6c11b1"
+  },
+  "latest_actual_time_exposed_food_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev508_Wu_actual_exposed_food_adoption.json",
+    "bytes": 8421,
+    "sha256": "f6608171408d6370d2ed8210dc5efaf500f92792051c60994bb4fe30617b0a3e"
+  },
+  "latest_exposed_food_public_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/原吴新明丙_实际五层整盘研究与算法解释_rev508.txt",
+    "bytes": 242980,
+    "sha256": "0e4a128ca787433102da0c8da26e7f05b591ecd86f849847632bb9176f8d4d63"
+  },
+  "latest_pause_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev511_user_pause_checkpoint.json",
+    "bytes": 151757,
+    "sha256": "af45133b09ec59d9595baa17ccdb173ee61e2ac4b725131cf28fb689db4c61fe"
+  },
+  "latest_all_agents_pause_acknowledgements": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev511_agents_pause_acknowledgements.json",
+    "bytes": 1299,
+    "sha256": "10eeb596bb0e35f8123aaab97686f29294efbcfd8c4aeea4d94ce45f2858a531"
+  },
+  "execution_status": "active_research_first",
+  "user_pause_request_active": false,
+  "all_research_agents_paused": false,
+  "goal_status": "active",
+  "user_resume_revokes_pause": true,
+  "latest_resume_record": {
+    "path": "work/rev512_resume_after_explicit_user_continue.json",
+    "bytes": 886,
+    "sha256": "e5546fc0da709bd2a2c2c7b1d15558195f145d7e50ca047ddfc2241afec77b26"
+  },
+  "latest_multiple_MCN2_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev513_MCN2_multiple_visible_adoption.json",
+    "bytes": 19610,
+    "sha256": "4f52aaa16a3545bfae856b65ab6c70baa506121cec757c9c0d1fb9cc4b73b871"
+  },
+  "latest_MCN2_public_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/杂气多明印食_完整共同作用研究与算法解释_rev513.txt",
+    "bytes": 112007,
+    "sha256": "5c6fb365478fa16c0440fd8fe9bb1c61dc23496d50b83b868a5a42ae209c788c"
+  },
+  "latest_original_Ren_flow_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev518_Ren_original_throughflow_r1_adoption.json",
+    "bytes": 15558,
+    "sha256": "5442d9cd0fee72a03e2fb72709c8c57f9bcbbbb0dcb6189bb2ea6418140d9f5c"
+  },
+  "latest_original_Ren_flow_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/任氏从财原案_水木火流通与整盘净辅助_完整研究_rev518.txt",
+    "bytes": 115566,
+    "sha256": "42c1907930032553d69ea2bf6a7cbbdf92ecf547521bd6724dfe22ee256ce10f"
+  },
+  "latest_four_daymaster_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev523_four_daymaster_r1_project_adoption.json",
+    "bytes": 5850,
+    "sha256": "58123b279d206caf801c9acce6bf83caa20a323a0994c47617dacbd28009d910"
+  },
+  "latest_four_daymaster_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/四种日主化格_整盘作用与泄秀取用_完整研究_rev523.txt",
+    "bytes": 137786,
+    "sha256": "87b977ebdbfaa91f2415c4775f324a240058e80e0654ea7c0b5b6369d80a08b6"
+  },
+  "latest_Wang_521_source_witnesses": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev521_Wang_source_registry.json",
+    "bytes": 3331,
+    "sha256": "502409261011459d9535fc5ffc8af2756acebdd5efb3793ace925699435e1cbf"
+  },
+  "latest_three_season_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev527_three_season_intent_project_adoption.json",
+    "bytes": 5211,
+    "sha256": "755c589363643f3c1bb175fe2d33ff1b185223e593e9e870cff27b084526482a"
+  },
+  "latest_three_season_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/财星三季意向_全盘作用与算法解释_rev527.txt",
+    "bytes": 90596,
+    "sha256": "3ef1b79fc82735f79b0a31a98903f4e6aad8891bd1a1adf8020bd132a71c2f33"
+  },
+  "latest_Quzhi_complete_source_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev536_Quzhi_complete_source_and_Primary_print_adoption.json",
+    "bytes": 7346,
+    "sha256": "e6a9aecbbd9eb1bc6a4fa2abda7b866f13935c752f2d1e3e1891f35521ea1226"
+  },
+  "latest_Quzhi_complete_source_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/曲直格源题终结与喜印交集_完整规则算法_rev536.txt",
+    "bytes": 199004,
+    "sha256": "b294777774c3ebd4c9cd6b5314b619dd47554a9ec0bbdecfaadaa2dc58facf7e"
+  },
+  "latest_six_virtual_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev537_six_virtual_functions_and_D01_adoption.json",
+    "bytes": 7973,
+    "sha256": "63abf40f14ee6dd67c156d0fc295d76f88f9ab536a236178fec865461ae37d02"
+  },
+  "latest_six_virtual_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/六种经典特殊格局_条件作用与算法解释_rev537.txt",
+    "bytes": 145411,
+    "sha256": "25501d6d5d693769e83374cd238c311e661baa322e044016f7d0e7f9abc490df"
+  },
+  "latest_Lujie_food_finance_complete_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev543_Lujie_whole_food_finance_project_adoption.json",
+    "bytes": 8380,
+    "sha256": "0cfa896aae5615b6fdc98ef92ad8355a61bb3fb72f4917408bec9a8f354937bd"
+  },
+  "latest_Lujie_food_finance_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/禄劫用食与食伤生财_整盘规则算法研究_rev543.txt",
+    "bytes": 134250,
+    "sha256": "4991166341bb9c2b60418c29db25248e52d61e033f93db59e906a5d2d7265583"
+  },
+  "latest_Lujie_source_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev541_independent_review524/effective_source_correction.json",
+    "bytes": 2767,
+    "sha256": "54d57a4e2c7c44c34e97292b79b59bcee901779ca8d317175c17c6f3efbd2ce6"
+  },
+  "latest_Ren262_source": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev545_Ren262_DingRen_ZiWei_actual_time/source_read_receipt_before_new_numeric.json",
+    "bytes": 788,
+    "sha256": "e7e0c7a653e21240205260e4b480ce0f1699199f35e331f85f88708cfd40c6a5"
+  },
+  "latest_current_research_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev623_live_checkpoint.json",
+    "bytes": 21990,
+    "sha256": "f1c5ed302c4a662d6698b57797b87593a37e7d57c82c0b36bd35925973ddf024"
+  },
+  "latest_single_finance_exception_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev547_single_finance_exception_project_adoption.json",
+    "bytes": 6372,
+    "sha256": "b08735bb89850c3d04e6629f3ec26bcdc4c4f510acadb6c9f5b24fb3ead48a57"
+  },
+  "latest_single_finance_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/禄劫无明食用财例外_完整规则与算法_rev547.txt",
+    "bytes": 152183,
+    "sha256": "9c09f38184956539f69a41969a46f4249c2ca50959b348012e31bad298e36f29"
+  },
+  "latest_Ren262_working_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev545_live_running_checkpoint.json",
+    "bytes": 3351,
+    "sha256": "421c620d70252d9e89428208ce6db7aa1a41359951584dfcb65d8bb269d15f82"
+  },
+  "Ren262_original_target_and_transparent_correction": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev545_Ren262_DingRen_ZiWei_actual_time/01_固定全盘作用与变化问题_新数值前.txt",
+      "bytes": 8423,
+      "sha256": "ed109c9c045c87d048dd06c75835b93246df50344028a67d76e43d6b12890fdf"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev545_Ren262_DingRen_ZiWei_actual_time/02_首45状态后的源题层级更正_无producer.json",
+      "bytes": 3026,
+      "sha256": "df7c82f324a1643062b8cba568431f3909c19682b4e61f0d78a53b2738b62821"
+    }
+  ],
+  "latest_Ren261_actual_time_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev548_Ren261_actual_time_project_adoption.json",
+    "bytes": 8502,
+    "sha256": "7c8de5f13c56a4ad2574fd7df9a18acd53900344247bfa40d63e55a874cd6044"
+  },
+  "latest_Ren261_actual_time_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/壬寅癸卯木制土卫水_实际时运规则算法_rev549.txt",
+    "bytes": 217908,
+    "sha256": "ec3792abec8764f371ee07da0753a84c64bede7c259b20070396d175507bbd7c"
+  },
+  "Ren261_effective_module_count_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev544_Ren261_actual_time_independent_review/effective_module_context_wording_correction.json",
+    "bytes": 1119,
+    "sha256": "3d8cde080ede587431ad1c4d441b937e043c299ecc93f3209056b2f8043654b5"
+  },
+  "required_Ren261_direction_wording_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev549_Ren261_public_direction_wording_correction.json",
+    "bytes": 2131,
+    "sha256": "bdb73dd1997aa0bb2436f8bbc4e0e726c92c7c3e5c869e619f91d816bfa5e3d4"
+  },
+  "latest_current_research_guide": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/当前研究与接续入口_rev623.txt",
+    "bytes": 4382,
+    "sha256": "f81a07ff65dd52ee376817705ff44a0dccd4d6506d1ca85d1434066c3fd72a55"
+  },
+  "latest_Wang_full_competition_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev556_Wang_full_competition_project_adoption.json",
+    "bytes": 7465,
+    "sha256": "e93666af03e477736efa154eb061dbc696b4fed4d8b8c7097098137864cf0a12"
+  },
+  "latest_Wang_full_competition_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/王命例乙庚作用与真假从_整盘规则算法_rev556.txt",
+    "bytes": 58071,
+    "sha256": "c74b04187b5ecdbb2d0936ed643679249a339533823d7a78590296ae875f4c4c"
+  },
+  "latest_user_pause_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev560_pause_checkpoint.json",
+    "bytes": 7342,
+    "sha256": "43a2d1fceaa35458591eef57b20ad076d42d82c987802b10793ab7208e819b1b"
+  },
+  "latest_user_pause_guide": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/暂停与接续入口_rev560.txt",
+    "bytes": 1274,
+    "sha256": "c2d44b8cd23bf6c23272c6cc99a413e40ecc4670a2b9c8cfd98781ea126dafcf"
+  },
+  "latest_user_resume_record": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev561_user_resume_record.json",
+    "bytes": 1424,
+    "sha256": "b30462385ae2f2b5cd9f258fcc6f80895028641e79801e588496512b5508c27f"
+  },
+  "latest_method_source_crossreference": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev565_method_reading_registration.json",
+    "bytes": 1481,
+    "sha256": "bcf1b882c7939632001df1371bc6526211101471193bd8cca853c7a7d2e6d94f"
+  },
+  "latest_single_natal_source_scope_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev570_C02_full_acceptance_registration.json",
+    "bytes": 1145,
+    "sha256": "acfd77e5e6abd20254d7f01583ac75c6ca0735a08bb6adf1b8ccd73cecd44597"
+  },
+  "latest_all_current_artifact_pin_precheck": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev598_C08_evidence_precheck/effective_precheck_result.json",
+    "bytes": 497625,
+    "sha256": "290fe4fd4850026149f71eb1372d63aafab3deb8cbcc65066fdaaf103391ae26"
+  },
+  "latest_original_C03_full_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev622_C03_original_full_acceptance/acceptance_decision.json",
+    "bytes": 4938,
+    "sha256": "d77bca18062e4564ce41a106563c71c685655e473d517d6907abdc6613a3027b"
+  }
+}

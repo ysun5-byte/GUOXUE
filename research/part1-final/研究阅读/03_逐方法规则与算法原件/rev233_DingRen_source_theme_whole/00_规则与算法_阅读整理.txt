@@ -1,0 +1,291 @@
+丁辰原局的来源合取与完整当前判断
+rev233_DingRen_source_theme_whole
+所属原模块：C03
+当前采用：rev254_DingRen_whole_project_model_adoption.json
+范围：原自合不合去与另存三命丁壬见丙不化负条按声明复合profile取足域；不是所有合化已解决。保原角色、根、全部正负和所有H；有限火/木唯一投影来自完整功能问题，非用官水F。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev233_DingRen_source_theme_whole/algorithm_explanations.json
+SHA256：945d311d8e1d22d48b9e6bc64a4829595415495f214a2d3f62c3df4ebd3a7356
+
+1. S233-01
+算法标识：S233-01
+functions：[
+  "capture",
+  "load_parent"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "capture": "de7b5f6b099c19349ee1523e3a25b4848f2e4ce6ae78adfc9eab24e92d0b9c81",
+  "load_parent": "92652e2d3c290f3ef87e5524e1bcf029cd432f513a01ce97e8d6f136f5f7e2e1"
+}
+目的：任何提供者执行前核全真实源
+source：186/222冻结/审查；94145实体PDF；全部引用有精确文件指纹。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：完整capture依赖库存和实际版本/目标对应
+exclusions_and_failure：连贯重封parentpayload+manifest仍不能绕过原freeze；不得沿旧40完整IO断语
+change_conditions：任一源/版本/目标变化使当前固定release拒绝
+conflict_resolution：已采用旧数学只复用其原域；新source尚未因此获采纳
+rule_expression：核全1282/103原freeze+actualmanifest对应、逐字件数、reviewtarget、port_max更正，影印PDF固定SHA与实读页receipt实际字节。全过才exec。
+validation：source_and_semantic_guards_actual.json:坏源0firstexec/clean1；新论文PDF/页绑定另实核
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+2. S233-02
+算法标识：S233-02
+functions：[
+  "source_proof"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "source_proof": "a51b337239c46463e7814dc005af0ad207072ae2b5528b583e4c2d75e46111a9"
+}
+目的：从特定否定化条得到普通解释准入，而非不合去推不化
+source：SMTH94145 PDF128–130、印50–52；primary20、58–59、93–95分层。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：选定复合口径及所有实际来源前件
+exclusions_and_failure：时旺与丙辛福/真化例不被删，非本域返回未决；不化不等all合effects0
+change_conditions：辛/别合/木成组/另官/坐下自化或其他旧源任务改变时重审
+conflict_resolution：妒化纯向必要条件与旺气positive作合取裁决是明确项目解释；丙辛两字读法/别本保持分歧，不用正向月份表失败反证
+rule_expression：原丁辰/时辰、原明丙正量、无辛/其他合、唯一丁壬self、无全木成组、非丁亥坐下自化、原全部源门，逐项AND后允许固定普通图replay。无丙只回未决。
+validation：family0to5_source_qualification_before_H.json；NAMED_SELF_SEAT旧遗漏已复现并补beforeH门
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+3. S233-03
+算法标识：S233-03
+functions：[
+  "source_intake"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "source_intake": "91272d6a3364dc63710ad176de70c40312537146c71136b30a02f4024449fc27"
+}
+目的：真实原输入全验证，先来源再H
+source：186/222真实source intake与ROOT全源流复用；新partialmeeting比较仅诊断。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：原合法四柱/外给合法五层与全绑定
+exclusions_and_failure：不把隐根自动独立发用；不因bare harm名自动毁根或宣称现实0；fullmeeting等仍拦
+change_conditions：输入记录/有效窗口/实际任务变化才重判
+conflict_resolution：三账分离：库存、framework、独立戊发用；原Bing physicalstock不随positivepackage关闭删除
+rule_expression：按原schema验证完整时层目录及全部future记录，选五层，保全HAP/ROOT/关系/气候，正量D只作资格账；source_proof在调用父whole前。
+validation：全族0..5先逐一src再新族H；3旧/丁亥新源反例实际0whole
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+4. S233-04
+算法标识：S233-04
+functions：[
+  "evaluate",
+  "child_request"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "evaluate": "70b15239ba36587a497ac5310d5eaa6dbf5368abba346afb23f13a367498de01",
+  "child_request": "da4803bee7eac8cc8fbba3d55acdf61d51dc6f7e6c87c944f1e9a06a44d56527"
+}
+目的：同一新source方法调用原完整图，不按H成功选solver
+source：完整188/186 signed operator和222独审；g1/4 c1/2 month3/2 far1/2 carry5/4保持。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：所选source/proof已定，原所有实际目标仍必要
+exclusions_and_failure：不把旧stock-risk换flow；不把旧0.1历史改称新source已证；无fallback
+change_conditions：五层变化可变ROOT/角色/伤任务并触发原全反馈和所有支持重算
+conflict_resolution：只在固定同一source/goal/gains下找开发对，不换哪支求解成功；全部负边留场
+rule_expression：新source足门过后才以真实原0.1显式ordinary请求调用冻结父186；保原方法/源假设标签；新外层另绑定来源negative证据。
+validation：k2A128world全独算同；B5木H继承原数学；API/CLI全文相等；k3known-none
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+5. S233-05
+算法标识：S233-05
+functions：[
+  "project_complete_H"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "project_complete_H": "c51f99f0e9f2086166b4186bbfd25a73235f25acc70e0cf0298e7d50b971e987"
+}
+目的：所有真实原生图全备选唯一元素才single候选
+source：沿已采B12 all-H唯一元素工程口径；当前不是B writer，不含官roleF元素捷径。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：source和全actual目标已过，原H完整且所有原生图匹配
+exclusions_and_failure：joint无序不给排序/各半；woodORwoodfire不挑第一个；无须额外支持另记known-none
+change_conditions：明确新source或完整H/关系变化才改候选；并非symbolicT
+conflict_resolution：used官与goal/support分离；旧67/68优先足域先核，非标签排序
+rule_expression：逐图核全部actualhardgoal/global/scope、每selectedactor真在场，取原生selector所有AND集合OR并集，必须精确等于全topH和minimalsets；全元素并集size1方取single候选。
+validation：k2全6火、B全5木；旧Ajoint仍无候选、旧B混OR仍无候选；legacy_priority_reuse_actual.json
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+6. S233-06
+算法标识：S233-06
+functions：[
+  "validate",
+  "canonical",
+  "digest",
+  "strict_load",
+  "main"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "validate": "f1dda7ee9e7ebb45d73fb92969ec5d3d6b799d4ee200940e3391be682d6ce0c7",
+  "canonical": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "digest": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+  "strict_load": "f2703876bfe304efe1e20fb565634690898b3f0aca5b862329448e35efb8ac2a",
+  "main": "766e4a933101619b1443b217b1d283e65007047646296692c86584a1c5904da4"
+}
+目的：当前新方法/源口径精确绑定，严格输入
+source：工程输入/源身份/拒绝协议，非传统论断。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：完整原native合同由父同时校验
+exclusions_and_failure：caller不能改profile名/版本承用旧批准，不能用False/1假冒source已证
+change_conditions：同输入同固定release字节稳定；方法改变另计版本
+conflict_resolution：正式theme和B不自采纳；当前候选与source资格不混为projectaccepted
+rule_expression：固定schema/method/selectedprofile与完整native SHA；不接受额外ordinary_assumed绕过；JSON拒重复/NaN；异常不虚报未执行。
+validation：7严格+actualprovider spy；新源码14qualified完整输入输出含args机制
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+原件：work/rev233_DingRen_source_theme_whole/rule_cards_ten_fields.json
+SHA256：14b7c1f750f1259036be66552145017d6da78615ca888f49c4c0caeae1b3d864
+
+1. S233-01
+算法标识：S233-01
+functions：[
+  "capture",
+  "load_parent"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "capture": "de7b5f6b099c19349ee1523e3a25b4848f2e4ce6ae78adfc9eab24e92d0b9c81",
+  "load_parent": "92652e2d3c290f3ef87e5524e1bcf029cd432f513a01ce97e8d6f136f5f7e2e1"
+}
+目的：任何提供者执行前核全真实源
+source：186/222冻结/审查；94145实体PDF；全部引用有精确文件指纹。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：完整capture依赖库存和实际版本/目标对应
+exclusions_and_failure：连贯重封parentpayload+manifest仍不能绕过原freeze；不得沿旧40完整IO断语
+change_conditions：任一源/版本/目标变化使当前固定release拒绝
+conflict_resolution：已采用旧数学只复用其原域；新source尚未因此获采纳
+rule_expression：核全1282/103原freeze+actualmanifest对应、逐字件数、reviewtarget、port_max更正，影印PDF固定SHA与实读页receipt实际字节。全过才exec。
+validation：source_and_semantic_guards_actual.json:坏源0firstexec/clean1；新论文PDF/页绑定另实核
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+2. S233-02
+算法标识：S233-02
+functions：[
+  "source_proof"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "source_proof": "a51b337239c46463e7814dc005af0ad207072ae2b5528b583e4c2d75e46111a9"
+}
+目的：从特定否定化条得到普通解释准入，而非不合去推不化
+source：SMTH94145 PDF128–130、印50–52；primary20、58–59、93–95分层。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：选定复合口径及所有实际来源前件
+exclusions_and_failure：时旺与丙辛福/真化例不被删，非本域返回未决；不化不等all合effects0
+change_conditions：辛/别合/木成组/另官/坐下自化或其他旧源任务改变时重审
+conflict_resolution：妒化纯向必要条件与旺气positive作合取裁决是明确项目解释；丙辛两字读法/别本保持分歧，不用正向月份表失败反证
+rule_expression：原丁辰/时辰、原明丙正量、无辛/其他合、唯一丁壬self、无全木成组、非丁亥坐下自化、原全部源门，逐项AND后允许固定普通图replay。无丙只回未决。
+validation：family0to5_source_qualification_before_H.json；NAMED_SELF_SEAT旧遗漏已复现并补beforeH门
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+3. S233-03
+算法标识：S233-03
+functions：[
+  "source_intake"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "source_intake": "91272d6a3364dc63710ad176de70c40312537146c71136b30a02f4024449fc27"
+}
+目的：真实原输入全验证，先来源再H
+source：186/222真实source intake与ROOT全源流复用；新partialmeeting比较仅诊断。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：原合法四柱/外给合法五层与全绑定
+exclusions_and_failure：不把隐根自动独立发用；不因bare harm名自动毁根或宣称现实0；fullmeeting等仍拦
+change_conditions：输入记录/有效窗口/实际任务变化才重判
+conflict_resolution：三账分离：库存、framework、独立戊发用；原Bing physicalstock不随positivepackage关闭删除
+rule_expression：按原schema验证完整时层目录及全部future记录，选五层，保全HAP/ROOT/关系/气候，正量D只作资格账；source_proof在调用父whole前。
+validation：全族0..5先逐一src再新族H；3旧/丁亥新源反例实际0whole
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+4. S233-04
+算法标识：S233-04
+functions：[
+  "evaluate",
+  "child_request"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "evaluate": "70b15239ba36587a497ac5310d5eaa6dbf5368abba346afb23f13a367498de01",
+  "child_request": "da4803bee7eac8cc8fbba3d55acdf61d51dc6f7e6c87c944f1e9a06a44d56527"
+}
+目的：同一新source方法调用原完整图，不按H成功选solver
+source：完整188/186 signed operator和222独审；g1/4 c1/2 month3/2 far1/2 carry5/4保持。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：所选source/proof已定，原所有实际目标仍必要
+exclusions_and_failure：不把旧stock-risk换flow；不把旧0.1历史改称新source已证；无fallback
+change_conditions：五层变化可变ROOT/角色/伤任务并触发原全反馈和所有支持重算
+conflict_resolution：只在固定同一source/goal/gains下找开发对，不换哪支求解成功；全部负边留场
+rule_expression：新source足门过后才以真实原0.1显式ordinary请求调用冻结父186；保原方法/源假设标签；新外层另绑定来源negative证据。
+validation：k2A128world全独算同；B5木H继承原数学；API/CLI全文相等；k3known-none
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+5. S233-05
+算法标识：S233-05
+functions：[
+  "project_complete_H"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "project_complete_H": "c51f99f0e9f2086166b4186bbfd25a73235f25acc70e0cf0298e7d50b971e987"
+}
+目的：所有真实原生图全备选唯一元素才single候选
+source：沿已采B12 all-H唯一元素工程口径；当前不是B writer，不含官roleF元素捷径。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：source和全actual目标已过，原H完整且所有原生图匹配
+exclusions_and_failure：joint无序不给排序/各半；woodORwoodfire不挑第一个；无须额外支持另记known-none
+change_conditions：明确新source或完整H/关系变化才改候选；并非symbolicT
+conflict_resolution：used官与goal/support分离；旧67/68优先足域先核，非标签排序
+rule_expression：逐图核全部actualhardgoal/global/scope、每selectedactor真在场，取原生selector所有AND集合OR并集，必须精确等于全topH和minimalsets；全元素并集size1方取single候选。
+validation：k2全6火、B全5木；旧Ajoint仍无候选、旧B混OR仍无候选；legacy_priority_reuse_actual.json
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+
+6. S233-06
+算法标识：S233-06
+functions：[
+  "validate",
+  "canonical",
+  "digest",
+  "strict_load",
+  "main"
+]
+code_sha256：c42befc3409ef3c326fce0d061ed7db3fbdced925a826ba46c4035cfa500cf84
+function_AST_sha256：{
+  "validate": "f1dda7ee9e7ebb45d73fb92969ec5d3d6b799d4ee200940e3391be682d6ce0c7",
+  "canonical": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "digest": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+  "strict_load": "f2703876bfe304efe1e20fb565634690898b3f0aca5b862329448e35efb8ac2a",
+  "main": "766e4a933101619b1443b217b1d283e65007047646296692c86584a1c5904da4"
+}
+目的：当前新方法/源口径精确绑定，严格输入
+source：工程输入/源身份/拒绝协议，非传统论断。
+source_level：主本原图/三命原图/后注/工程适用分别见source_record.json；不是原文数学比例
+method_scope：selected子平普通官framework+三命妒化negative足门；全当前功能支持，非所有学派全部喜用/官阶预测
+conditions：完整原native合同由父同时校验
+exclusions_and_failure：caller不能改profile名/版本承用旧批准，不能用False/1假冒source已证
+change_conditions：同输入同固定release字节稳定；方法改变另计版本
+conflict_resolution：正式theme和B不自采纳；当前候选与source资格不混为projectaccepted
+rule_expression：固定schema/method/selectedprofile与完整native SHA；不接受额外ordinary_assumed绕过；JSON拒重复/NaN；异常不虚报未执行。
+validation：7严格+actualprovider spy；新源码14qualified完整输入输出含args机制
+status：implemented_author_verified_candidate_pending_nonauthor_and_project_adoption
+

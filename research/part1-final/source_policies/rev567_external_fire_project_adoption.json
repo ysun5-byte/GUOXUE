@@ -1,0 +1,100 @@
+{
+  "schema": "567-exact554-after566-finite-externalfire-project-adoption/1",
+  "revision": 567,
+  "status": "adopted_exact554_0.1.1_after566_complete_finite_external_actor_source_and_feedback",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev554_author_completion_handoff.json",
+    "bytes": 4320,
+    "sha256": "a58f51edb8393b31265fb573b2e22d442bc76f1f6d628fe30e8aea5c5dcd0ee3"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev566_independent_completion_handoff.json",
+    "bytes": 1315,
+    "sha256": "fc72191a9bcc3404ff30184553ddeed610098bcb44aee76593b99a014d6cd4bd"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev554_missing_fire_external_intervention",
+    "files": 274,
+    "all_payload_bytes_SHA_checked": true,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev554_missing_fire_external_intervention/MANIFEST.json",
+      "bytes": 52856,
+      "sha256": "ba7cb3d58978f9f53d3bb03919d3d2efe44bdb3bf25a74334c910f1005cf07de"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev554_missing_fire_external_intervention/FREEZE.json",
+      "bytes": 358,
+      "sha256": "ed856ac3d5828aea3ec76a6740b21eb7caa128e858b3040659d5824e464f3568"
+    }
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev566_independent_review554",
+    "files": 65,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev566_independent_review554/manifest.json",
+      "bytes": 9400,
+      "sha256": "0cfdb0bcdad438b758ffff89e0b8f0102c2b536541cc4056f44f53867d55bc95"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev566_independent_review554/freeze.json",
+      "bytes": 92,
+      "sha256": "41ed7638167a0272a907e06d950469946353a7e01db1885690e7a2c75ca4da0c"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev554_runtime_release",
+      "files": 110,
+      "payload_files": 109,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev554_runtime_release/release_manifest.json",
+        "bytes": 19087,
+        "sha256": "738efae149450c97fe0decf7ec11496514c19d61c86b345ee0d15166a4e83898"
+      },
+      "all_payload_bytes_SHA_checked": true,
+      "no_new_copy_chmod": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/554 one complete readonly externalfire research ll4llqwy/complete externalfire research with spaces",
+      "files": 110,
+      "payload_files": 109,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/554 one complete readonly externalfire research ll4llqwy/complete externalfire research with spaces/release_manifest.json",
+        "bytes": 19087,
+        "sha256": "738efae149450c97fe0decf7ec11496514c19d61c86b345ee0d15166a4e83898"
+      },
+      "all_payload_bytes_SHA_checked": true,
+      "no_new_copy_chmod": true
+    }
+  ],
+  "source_rules_original": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev554_missing_fire_external_intervention/rule_cards_substantive.json",
+    "bytes": 14642,
+    "sha256": "a553a77eaf4afe615dd8878ab4162a012224307897f2b848c6eaaf91c7f44da7"
+  },
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev567_external_fire_effective_rule_cards.json",
+    "bytes": 16536,
+    "sha256": "764e5214531a0be78d5997a78b89dbabb4ce15d875c689a03157f2c74ed4ae38"
+  },
+  "all35_algorithms": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev554_missing_fire_external_intervention/algorithm_explanations_all35.json",
+    "bytes": 89967,
+    "sha256": "031324b774c48ba52eeffc069e216f4e70d95d9d940717c15715ddf103b04b03"
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev566_independent_review554/independent_report.json",
+    "bytes": 11874,
+    "sha256": "caded16b6c86627871bfc837d61cf9a954f765975fefe44e3baec5188e750b72"
+  },
+  "scope": "原金日冬月无明藏火的具名外来元素工程干预。全原根/全正反路径/费用/源拆分/身体反馈/净比较算清；非所有寒暖/真实时柱或全局传统排名。",
+  "all_models_reported_not_positive_selected": true,
+  "original_C03_real_fire_pillars_still_open": true,
+  "C02_final_acceptance_separately_required": true,
+  "original_task_complete": false,
+  "score": "88.75/100",
+  "progress_delta": "0.00",
+  "no_B_or_display": true,
+  "real_prediction_or_temperature_validated": false
+}

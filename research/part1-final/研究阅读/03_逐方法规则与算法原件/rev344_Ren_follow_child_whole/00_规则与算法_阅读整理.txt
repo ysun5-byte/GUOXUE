@@ -1,0 +1,697 @@
+任氏从儿原例的完整共享任务流通
+rev344_Ren_follow_child_whole
+所属原模块：C02
+当前采用：rev354_follow_child_project_model_adoption.json
+范围：辛丑辛丑戊申壬子及声明参数族；共享池与信用账明确，不冒传统最终主次。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev344_Ren_follow_child_whole/algorithm_explanations.json
+SHA256：3a0e75c997ec2e695cfc2dec710a60ac31fdf6b44dd9212d08ed9c4fa3052145
+
+1. 1
+file：follow_child.py
+function：canonical
+line：21
+end_line：22
+signature：value
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d
+title：唯一JSON编码
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：固定排序键、UTF8和禁止NaN；同输入同版本可比完整字节。
+exclusions_changes_and_conflicts：只编码，不判断命理或来源。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "canonical"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+2. 2
+file：follow_child.py
+function：pairs
+line：25
+end_line：31
+signature：items
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：9137ab99723b4bd0f890b1e4bd5f37945818f0a92233b278f99137b1707b5511
+title：拒绝重复键
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：任何JSON深度重复键直接报错，不让后值遮住前值。
+exclusions_changes_and_conflicts：严格输入协议；不是命理规则。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "pairs"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：32
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+3. 3
+file：follow_child.py
+function：nonfinite
+line：34
+end_line：35
+signature：value
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：6b61cae9fd6a3cfa3bb5673619dbb009c86f3ec2d92ac3fb62f1e31fc1e74093
+title：拒绝非有限数
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：NaN和Infinity不能成为输入参数。
+exclusions_changes_and_conflicts：调用抛ValueError；第一次IO回调的None不是成功返回。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "nonfinite"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：2
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+4. 4
+file：follow_child.py
+function：strict_load
+line：38
+end_line：41
+signature：text
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：9ff799018cc49b17de1851be437860ff425ccfdca254e50af1a00ceba5957a69
+title：受限严格JSON输入
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：上限5000字符，配合重复键及非有限检查；深递归由main明确拒绝。
+exclusions_changes_and_conflicts：只接受原四柱与精确来源方法身份，无强度或H覆盖入口。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "strict_load"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：4
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+5. 5
+file：follow_child.py
+function：guard
+line：44
+end_line：66
+signature：
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：f3deb14c6b063d021314efc10f5e79135aba0bd2af813df2fce3089163a04aef
+title：先核原典与模型字节
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：完整28份来源、纸算与实现依赖全部核准后才执行任何事实/数学/选择器；源340的MF/fr与14payload逐项相接。
+exclusions_changes_and_conflicts：散列绑定具体包，不替代史实、古籍学或现实预测认证。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "guard"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+6. 6
+file：follow_child.py
+function：load_module
+line：69
+end_line：73
+signature：name, rel, material
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：3e236c49021ef388f689a27af8a5555ce2df5107c385eaf5b20cefa2b322509a
+title：执行已核的最小依赖
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：从guard返回的精确字节建隔离模块，原事实与原选择器均不改。
+exclusions_changes_and_conflicts：不按源文中的指令执行，不从原项目绝对路径补依赖。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "load_module"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：3
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+7. 7
+file：follow_child.py
+function：source_context
+line：76
+end_line：95
+signature：raw, facts, material
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：17023ca16bfd9aad96208a9ee386b925047794cab5564318cb1a7ded26b8699a
+title：原书入口与模型闭合分开
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：任注PDF393原Q6明确入篇从儿，先择本源，不能因普通格失败才换流派。全部八例仍留原事实；入篇资格不是成格成功，Q4原文未成另留。
+exclusions_changes_and_conflicts：其他七例需要自身气候、官印、合化等；返回本模型未闭合，不说它们非从儿。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "source_context"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+8. 8
+file：follow_child.py
+function：actors
+line：98
+end_line：109
+signature：raw, facts
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：c23bd8a5ba1c2f9d5d6b9b2d42dcdaa37c1696736f461d502308161f01ee6c45
+title：保留14个原实体
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：明4藏10，逐个位置、干、元素、十神；没有删丑中辛癸、申中壬戊，也没有只留选中正包。
+exclusions_changes_and_conflicts：把这些藏载体放进本例工程通道是工程消费，不宣称任氏逐个给了数值强度。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "actors"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+9. 9
+file：follow_child.py
+function：numerical_analysis
+line：112
+end_line：175
+signature：raw, inventory, facts, math
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：f66e69bb13b57480884319e59d7aeb0e93e49520c4585e592b38f98476c24e34
+title：完整子集与参数域流通判断
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：13个正功能信用包，128参数配置，对全部8192子集作精确系数等价归并再分类；实解704个不同数值状态、覆盖1048576个子集配置对。主体近达已达max，三土额外包全部8型有单独几何证明。
+exclusions_changes_and_conflicts：不把百万分类数说成百万独立测试；每个子集账明确positive_function_credit/W_S，完整实际模型账另标W。
+actual_IO_file：actual/current_changed_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "numerical_analysis"
+}
+current_release_fresh_dynamic_IO：true
+unchanged_AST_proof_reuses_previous_real_IO：false
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+10. 10
+file：follow_child.py
+function：native_auxiliary
+line：178
+end_line：214
+signature：inventory, analysis, math, aux
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：e7fbb73578c1aea8df5bb90af68150c83a49cf8d0d8a0577d9640a13199bab46
+title：接入已核原AUX全部H
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：由数值全目标、全参数及全超集直接导CNF，带14实体及78正负任务送原选择器，25个OR全对齐。
+exclusions_changes_and_conflicts：原协议名normal_branch只是旧接口，不改任氏流派；无source_assigned按标签强制财，无排序或B。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "native_auxiliary"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+11. 11
+file：follow_child.py
+function：evaluate
+line：217
+end_line：240
+signature：request
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：c82b427732fdc2d18c195cf3a1be94a2e27d72318d33d0f1d9d4ade50203ae5c
+title：原四柱到完整有限功能
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：guard→原事实→指定原例源消费→库存/同current完整世界→所有正功能解释H→原AUX复核；主体、终端存在与可选信用分开。
+exclusions_changes_and_conflicts：只关闭所声明原Q6有限模型，不声称所有从儿、岁运、原局喜用或原任务全部完成。
+actual_IO_file：actual/current_changed_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "evaluate"
+}
+current_release_fresh_dynamic_IO：true
+unchanged_AST_proof_reuses_previous_real_IO：false
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+12. 12
+file：follow_child.py
+function：main
+line：243
+end_line：251
+signature：
+source_sha256：083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf
+函数AST摘要：b4e36296245b2afba955147c5546d9c471be1ddf6b70e61ba89853f64e9e9b72
+title：原子命令行入口
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：精确stdin JSON，打印单个完整JSON；坏输入/坏来源退出2，无半截结果。
+exclusions_changes_and_conflicts：无显示、配色、B或新消息发送。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "follow_child.py",
+  "function": "main"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+13. 13
+file：flow_math.py
+function：pack
+line：16
+end_line：23
+signature：v
+source_sha256：ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7
+函数AST摘要：f1f04cdf12712e57c6d1c26081aef411c97778cadc2062da413c4535f0c4784d
+title：精确分数输出
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：Fraction保持精确有理数并以字符串编码，字典和列表递归保持。
+exclusions_changes_and_conflicts：不转换成概率或四舍五入的强度。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "flow_math.py",
+  "function": "pack"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：1029526
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+14. 14
+file：flow_math.py
+function：total
+line：26
+end_line：27
+signature：port
+source_sha256：ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7
+函数AST摘要：b669b08191a64e3c07b4ac8fc6e3464ee0bcba75c6e4844df55dbf2e8df8fff2
+title：同一已去重账求总
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：只对已按origin存放的数值相加；不把65条共享边重复相加。
+exclusions_changes_and_conflicts：不同元素账各自有资格，不能跨元素当同一物理能量。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "flow_math.py",
+  "function": "total"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：10638
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+15. 15
+file：flow_math.py
+function：family
+line：30
+end_line：31
+signature：
+source_sha256：ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7
+函数AST摘要：ff7ad75c61bad8a67796583222a9116320190c1a7506a406db28ec476ba3c1dc
+title：事前参数敏感性集合
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：七个轴各两端，共128角点；另有连续箱不等式证明，不用角点替代连续证明。
+exclusions_changes_and_conflicts：全部为工程区间，不是古书常量、抽样概率或按官位调参。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "flow_math.py",
+  "function": "family"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+16. 16
+file：flow_math.py
+function：direct_inventory
+line：34
+end_line：51
+signature：raw, actors, cfg, facts
+source_sha256：ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7
+函数AST摘要：74e64790ef3ebfd08b46992bd3a00aad6ade1198ca3e3711e0772797f0aad8ff
+title：无相位原藏据库存
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：每支一origin，主藏同元素1、其他同元素μ，月来源m；非日明干各1，日干不重复添一单位。多演员引用同origin共池，不加五份。
+exclusions_changes_and_conflicts：无任土十二宫；1/μ不是古法强度或藏干百分比，ROOT02只另作typed事实对照。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "flow_math.py",
+  "function": "direct_inventory"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：128
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+17. 17
+file：flow_math.py
+function：geometry
+line：54
+end_line：78
+signature：actors, cfg
+source_sha256：ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7
+函数AST摘要：33fd7b375ff137b17de07b20b3bd72799f3fbce7aee6400bd316143ea24b6062
+title：全部真实生克端口
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：土金水14实体，65实际源/受体对，明藏权、远近及位置全列；同origin平行路径取max，完整土→金、金→水、土克水。
+exclusions_changes_and_conflicts：共有任务库工程抽象，不等每个演员各有完整独立局部库存。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "flow_math.py",
+  "function": "geometry"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：128
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+18. 18
+file：flow_math.py
+function：coefficients
+line：81
+end_line：90
+signature：selected, geo, cfg
+source_sha256：ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7
+函数AST摘要：c3786047dc66263bc3f86cadc1573475c41be19a443122086aaa2b294474719b
+title：所选真实正信用系数
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：只有确实选了金发送端和水承接端才得到相应b及k；计算端权与位置，不以财角色exists直接通过。
+exclusions_changes_and_conflicts：停止的是解释信用许可；物理模型中的水、根和负作用不删除。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "flow_math.py",
+  "function": "coefficients"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：131072
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+19. 19
+file：flow_math.py
+function：world
+line：93
+end_line：124
+signature：direct, geo, cfg, b, k
+source_sha256：ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7
+函数AST摘要：ef442e3c4f2368a01a6bec3ae2983c9c9af513c1bb3fbdfabef4e13705305db2
+title：同current的流通与承接
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：逐origin精解T=D土/[1+λ(A+C)]、M=(D金+AT)/[1+λL]、W_S=max(0,D水+bM−CT)。正边及两端成本均用同一T/M；K=kΣW_S，J=min(offer,K)，不再把J加一次。
+exclusions_changes_and_conflicts：核心world原始W键由出口标注W_S；actual_full_world单列完整模型W。共池容量不同于actor-local算法，已有小反例。不是身承财阈值。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "flow_math.py",
+  "function": "world"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：704
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+20. 20
+file：flow_math.py
+function：signed_actual_edges
+line：127
+end_line：145
+signature：actual, geo, cfg
+source_sha256：ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7
+函数AST摘要：1712d809dead133657f2806713316a5dbdc22f85def71eab0926d770d87d2b18
+title：全正负边及共享成本解释
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：原65边加13个源演员共享成本见证，共78记录，逐origin可核。土生金泄耗、土克水及其耗、金生水泄耗同时保留。
+exclusions_changes_and_conflicts：个别演员的成本条目引用同一组成本，不允许求和成额外13份损耗。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "flow_math.py",
+  "function": "signed_actual_edges"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：128
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+21. 21
+file：flow_math.py
+function：robust_H
+line：148
+end_line：167
+signature：package_ids, family_bits
+source_sha256：ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7
+函数AST摘要：b6682e7117b3df23678c3770cb5f01e0089975f117a0be247c838f7c53179df8
+title：全部包含极小完整H
+来源层次：来源事实、任氏口径与明确工程推论分列；数值不是古书公式。
+conditions_and_reason：在所有模型均成功的支持上，自大到小检每个直接超集，得到全超集稳健性；保留每个极小解及等价CNF，不取第一项。
+exclusions_changes_and_conflicts：主H为数值完整流通正功能解释；conditional_extra_H固定食财任务另问三土，不能冒充主H为空。
+actual_IO_file：history/before_explicit_ledger_labels_0_1/actual_algorithm_IO.json.gz
+actual_IO_selector：{
+  "file": "flow_math.py",
+  "function": "robust_H"
+}
+current_release_fresh_dynamic_IO：false
+unchanged_AST_proof_reuses_previous_real_IO：true
+previous_actual_invocations：1
+source_mathematical_law_claimed：false
+tests：[
+  "current_release_actual.json",
+  "behavior_actual.json",
+  "source_guard_actual.json",
+  "shared_pool_local_and_two_books_actual.json"
+]
+
+22. 22
+file：entry.py
+function：main
+line：12
+end_line：24
+signature：
+source_sha256：c9d5948301b3e9bdaaa1931124db9ad58d29da38643a54a0ba9f86af4bd3807b
+函数AST摘要：67d07745a2ddb61e418e33a8977cc850206748a7620d3e8728882cbba2f5ce06
+title：外层先核core字节
+来源层次：精确版本执行协议，非命理算法。
+conditions_and_reason：先核本release core散列再exec；正常完整CLI与API同字节。坏core实测main返回2、core执行0次。
+exclusions_changes_and_conflicts：外层entry也被重写不构成外部真伪认证；最终采用仍须独立精确版本审查。
+actual_IO_file：outer_entry_actual_IO_and_0exec.json
+normal_full_process_IO：actual/ORIGINAL_Q6_CLI.stdout.gz
+current_release_fresh_dynamic_IO：true
+source_mathematical_law_claimed：false
+
+原件：work/rev344_Ren_follow_child_whole/rule_cards_ten_fields.json
+SHA256：907fd3ccecd82dbcb6e0755334b24c97bbd960bb9078634bbd62abe0ff3e7a34
+
+1. REN-Q6-SOURCE
+算法标识：REN-Q6-SOURCE
+source：任注1947扫描PDF389–390总论、393原叶五；source340六页与四规则卡
+来源层次：韵文/原注/任注分层；入口据任注原例。生平未外证。
+framework：REN-从儿/顺局；不并主本文普通财食格
+conditions：精确原四柱与本源口径；两辛通根、金水逢生及生育流通。
+exclusions_and_failure：不以月支本气食伤、普通身承财或从财孤弱作从儿通门。
+change_conditions：新命例、官印气候或运年必须相应新完整链。
+conflict_resolution：来源先选；别书/普通格模型不暗改任氏原例。
+rule_expression：sourceQ6 -> full14actors -> finiteflow；其余源例留事实和缺口，不判非从儿。
+verification：[
+  "source340/actual_visual_reading_receipt.json",
+  "behavior_actual.json"
+]
+status：原典条件已核；Q6有限功能实现待独立审/采用
+
+2. REN-Q6-RELATION
+算法标识：REN-Q6-RELATION
+source：PDF393在该四柱上仍明金水旺通根；原事实两远子丑合
+来源层次：任注定性结果+项目有限消费解释，原文没有另给子丑数值算法。
+framework：REN-从儿/顺局；不并主本文普通财食格
+conditions：本盘两六合形保留，原辛癸壬及申子物质据都在。
+exclusions_and_failure：不能泛化所有子丑不化，也不能无源化土删除财。
+change_conditions：别盘、强作用或运年新增需独立求效。
+conflict_resolution：本例以原作者保留金水的功能断语约束工程消费，形式候选不替代实效。
+rule_expression：keepformal2 AND keeprawroots AND noinventedtransformation
+verification：behavior_actual.json
+status：本例源消费已实现，非通用六合作用算法
+
+3. REN-Q6-POOL
+算法标识：REN-Q6-POOL
+source：complete_problem_before_producer.txt；ledger_semantics_qualification.json
+来源层次：明确工程无相位库存，不是任土十二宫/藏干百分比。
+framework：REN-从儿/顺局；不并主本文普通财食格
+conditions：同origin每元素一份共池，演员多次借用按max；明藏远近参数预先固定。
+exclusions_and_failure：不能把共池当每演员局部自有量；ROOT02主本文typed资格只作另账对照。
+change_conditions：改变共池/actor-local假设会改H，须新方法。
+conflict_resolution：完整模型W与解释账W_S明标，任何子集不改实际原实体或全负预算。
+rule_expression：T/ M exactequations；W_S clip；actual_full_world onlyfullbook；K=k*sum(W_S)
+verification：[
+  "shared_pool_local_and_two_books_actual.json",
+  "typed_ROOT02_reference_actual.json"
+]
+status：工程假设及不等价反例已明示，非古法唯一量化
+
+4. REN-Q6-RECEPTION
+算法标识：REN-Q6-RECEPTION
+source：任注PDF389–390“食伤又生财、生育流通”关系；容量方程事前工程纸算
+来源层次：来源关系为原文；K、J及数值区间为工程约定。
+framework：REN-从儿/顺局；不并主本文普通财食格
+conditions：真实所选金端供给，水端仍有生存库存和足够容纳量；角色exists不够。
+exclusions_and_failure：不将财实体直接赋B，也不把存在条件当必选标签。
+change_conditions：薄水、无源食流、末端许可关闭可失败；强弱门不据此普遍推断。
+conflict_resolution：所有正信用关闭只停止解释功能；原水和土克水/泄金全负预算保留。
+rule_expression：J=min(offer,K); offer>0 AND J=offer AND TtoM>0 AND M/W_S>0
+verification：[
+  "pencil_expectations_before_producer.json",
+  "behavior_actual.json"
+]
+status：原盘与独立纸算反例通过；共享任务库条件下有效
+
+5. REN-Q6-ALLH
+算法标识：REN-Q6-ALLH
+source：完整问题、连续箱手证及原AUX有限解释协议
+来源层次：工程全域说明，不是古书25喜用方案。
+framework：REN-从儿/顺局；不并主本文普通财食格
+conditions：128角点+箱内解析界；全8192子集、全目标、全超集；包外原负作用在。
+exclusions_and_failure：不以一个标签必选或取首项；主H不可替成conditional_extra_H。
+change_conditions：模型范围/目标/库存机制变更需新H；位置和OR身份保留。
+conflict_resolution：CNF从数值成功集合导出；原AUX复核全25，因果方向不证明主次。
+rule_expression：numericfullH=25 realfood/receiverpairs；conditionalextraH=[[]] inthreepeeruniverse
+verification：[
+  "current_release_actual.json",
+  "behavior_actual.json"
+]
+status：有限声明问题全H完成，待独审；无B/主题/主次
+

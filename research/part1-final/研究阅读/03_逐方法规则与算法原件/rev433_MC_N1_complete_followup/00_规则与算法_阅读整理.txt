@@ -1,0 +1,2507 @@
+原MCN1杂气官印一般量效与强全清
+rev433_MC_N1_complete_followup
+所属原模块：C02
+当前采用：rev452_MC_N1_finite_research_adoption.json
+范围：有限一般/强任务与fixedactual支持，非最终净辅助；13旧定义未执行如实标。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev433_MC_N1_complete_followup/algorithm_explanations_56_definitions_43_current.json
+SHA256：7f34d102e4bcfce1a0a0c12689d78c4d08cf9c3f85299e1d71508e43e70ecfeb
+
+1. mcn1.py:canonical
+算法标识：mcn1.py:canonical
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "canonical",
+  "line": 11,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "JSON-compatible result",
+  "operations": "SortedcompactUnicodeJSONallow_nanFalse",
+  "outputs": "str, not UTF8bytes",
+  "preconditions_and_limits": "packFractionsfirst; main ownsUTF8print 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "StablepackedJSON"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/strong.py",
+  "original_module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "same_AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:canonical",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+2. mcn1.py:pairs
+算法标识：mcn1.py:pairs
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "pairs",
+  "line": 14,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "parserpairs",
+  "operations": "Buildmap, fixedduplicatecode/noecho",
+  "outputs": "dict orValueError",
+  "preconditions_and_limits": "not source/schema validation 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "StrictuniqueJSONkeys"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/strong.py",
+  "original_module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "same_AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:pairs",
+  "actual_count": 2,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+3. mcn1.py:reject_constant
+算法标识：mcn1.py:reject_constant
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "reject_constant",
+  "line": 21,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "576529a4e8ed9aa76c22939526ad59de069d13cbc4f522b5e7a39d7514781e71",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "NaN/Infinitytoken",
+  "operations": "fixedValueError",
+  "outputs": "neverreturnsnormally",
+  "preconditions_and_limits": "unwindNoneisnotnormalNone 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "RejectnonfiniteJSON"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/strong.py",
+  "original_module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "same_AST_sha256": "576529a4e8ed9aa76c22939526ad59de069d13cbc4f522b5e7a39d7514781e71",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:reject_constant",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+4. mcn1.py:bounded
+算法标识：mcn1.py:bounded
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "bounded",
+  "line": 24,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "826494bb324091deacd3c239ea293fc48a295d98e77ab55ff997e677a64fc5a6",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "requesttree",
+  "operations": "Exactdict/list/str bounds/depth20/nodes2000/rejectsurrogates/floats",
+  "outputs": "NoneorValueError",
+  "preconditions_and_limits": "notcalendar/sourceauth 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "BoundJSON-likeAPI/Unicode"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/strong.py",
+  "original_module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "same_AST_sha256": "826494bb324091deacd3c239ea293fc48a295d98e77ab55ff997e677a64fc5a6",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:bounded",
+  "actual_count": 2,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+5. mcn1.py:strict_load
+算法标识：mcn1.py:strict_load
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "strict_load",
+  "line": 39,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "38bb65684f4233c9b69e4bc1eaf1860060d486fc8cc7c1b14e5ac903aac78934",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "str<=5000",
+  "operations": "jsonhooks+bounded",
+  "outputs": "JSONvalueorValueError/RecursionError",
+  "preconditions_and_limits": "UTF8decodehappensmain 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "BoundedstrictUTF8decodedJSON"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/strong.py",
+  "original_module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "same_AST_sha256": "38bb65684f4233c9b69e4bc1eaf1860060d486fc8cc7c1b14e5ac903aac78934",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:strict_load",
+  "actual_count": 2,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+6. mcn1.py:load
+算法标识：mcn1.py:load
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "load",
+  "line": 43,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "name,relative,material",
+  "operations": "ModuleType/compile/exec",
+  "outputs": "module",
+  "preconditions_and_limits": "itselfnotauthenticatebytes;publicevaluatecallscompleteguardfirst 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Compilecapturedprovider"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/strong.py",
+  "original_module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "same_AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:load",
+  "actual_count": 7,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+7. mcn1.py:guard
+算法标识：mcn1.py:guard
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "guard",
+  "line": 46,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "ac9927073f677f5766d286e3c1ba3b8098955c96df118e68e96af685728005c7",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "固定全部当前来源与执行字节后才允provider",
+  "inputs": "ROOT下精确锁及全部source/runtime清单",
+  "operations": "核固定锁SHA、完整两目录清单、包含路径/非symlink、每件长度/SHA，保存已核bytes",
+  "outputs": "relativepath->bytes或ValueError/OSError",
+  "preconditions_and_limits": "所有未来未选source/runtime也核；不认证古籍真伪，不能执行前跳过未决记录；entry本身由完整freeze外锚绑定。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:guard",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+8. mcn1.py:compare_interpretations
+算法标识：mcn1.py:compare_interpretations
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "compare_interpretations",
+  "line": 60,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "4f506424bb1156c0ea4ae26c836debf2d5aa29e7371c60d0759f8fdf9c87051c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='results'), arg(arg='context')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "不按成功择会合解释，区分失败/源待核/敏感/一致",
+  "inputs": "同raw六解释参数结果+先判source_context",
+  "operations": "按固定参数并列两解释；逐问题比较完整actorH及elementsets，源未闭不报一致已知",
+  "outputs": "三参数×一般/全清比较",
+  "preconditions_and_limits": "元素集合相同也不抹actorH差别；两HNone且源闭是目标已算失败，非空H或unknown；无排序成主次。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:compare_interpretations",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+9. mcn1.py:evaluate
+算法标识：mcn1.py:evaluate
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "evaluate",
+  "line": 72,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "c8e22eab29d66d891d0bd8a54704fb746e9c455ea7cb127173d28d6b65e92981",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "原MC-N1四柱原生入口",
+  "inputs": "明确schema/method/source_profile/raw_pillars",
+  "operations": "bounded→完整guard→七个capturedprovider→facts/source先选→固定两解释三参数全图/关单乙边诊断/H/native→并列比较",
+  "outputs": "完整JSONcompatible结果",
+  "preconditions_and_limits": "无效原柱与合法非源可给facts且results空；源未闭仍算完整未变换诊断但current sourceH为空。无H成功fallback，无B/主题/比例/现实/采纳。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:evaluate",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+10. mcn1.py:main
+算法标识：mcn1.py:main
+source_identity：{
+  "file": "mcn1.py",
+  "qualname": "main",
+  "line": 87,
+  "module_sha256": "6d5edfdcbad498e6e9dbdde51b1a71eb0c1df8555ad0b528f51a1f04458ff0b8",
+  "AST_sha256": "17f3ea510db6263ebb19b85e78ced07471c0ed2c2961fb3e65bd1c0bca39a749",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "stdinUTF8<=20000bytes",
+  "operations": "strictload/evaluate/canonical,knownerrorsstaticASCIIrejection",
+  "outputs": "exit0fullJSONor2oneerrorJSON",
+  "preconditions_and_limits": "doesnotpromiseallOSbrokenstdoutrecoverable;rawinvalidstatusandlegaloutsidesemanticreportsexit0 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "ActualCLI"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/strong.py",
+  "original_module_sha256": "b8724ea9986595a3f157207faecead0e071d005fc7ba3062404673bab5aa63b3",
+  "same_AST_sha256": "17f3ea510db6263ebb19b85e78ced07471c0ed2c2961fb3e65bd1c0bca39a749",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "mcn1.py:main",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+11. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "bounded",
+  "line": 16,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "限定解释图体积",
+  "inputs": "任意JSON树",
+  "operations": "检查depth≤20/nodes≤15000/容器标量",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不是raw命盘parser。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:bounded",
+  "actual_count": 54,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+12. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "shape",
+  "line": 38,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "字段精确集合",
+  "inputs": "对象及必需/可选keys",
+  "operations": "子集检查",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不判语义。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:shape",
+  "actual_count": 1174,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+13. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "string",
+  "line": 43,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "非空字符串",
+  "inputs": "value",
+  "operations": "类型非空检查",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不是安全来源认证。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:string",
+  "actual_count": 3278,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+14. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "boolean",
+  "line": 48,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "严格bool",
+  "inputs": "value",
+  "operations": "type is bool",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "整数0/1不替bool。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:boolean",
+  "actual_count": 2254,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+15. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "validate",
+  "line": 53,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "原生解释图合同",
+  "inputs": "graph/nestedflag",
+  "operations": "完整schema、ID引用、边类型、scope、修复及完整干预SHA",
+  "outputs": "actor/goal maps",
+  "preconditions_and_limits": "16actors20goals100tasks；不独立验古典来源或执行receipt。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:validate",
+  "actual_count": 54,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+16. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "closed",
+  "line": 135,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "解释图声明范围",
+  "inputs": "graph",
+  "operations": "所有SCOPE_KEYS为真",
+  "outputs": "bool",
+  "preconditions_and_limits": "只是声明；433另以完整图/源分层绑定。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:closed",
+  "actual_count": 54,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+17. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "hard_failure",
+  "line": 139,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "硬目标可行",
+  "inputs": "graph",
+  "operations": "hard goals/check不是met/pass/notapp就失败",
+  "outputs": "bool",
+  "preconditions_and_limits": "unknown同样不允许当前H，不说传统格败。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:hard_failure",
+  "actual_count": 54,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+18. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "repair_candidates",
+  "line": 144,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "原局缺而所需接口",
+  "inputs": "graph/actor_map/goal_map",
+  "operations": "原未过natal_repair且元素缺才列候选；完整干预保原不可变语义/全图通过后列有限可行",
+  "outputs": "pending,feasible",
+  "preconditions_and_limits": "本版调用没有新repair_routes；[]不证明不存在外方向，433外层留unknown；不认证未来干支/真实效果。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:repair_candidates",
+  "actual_count": 54,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+19. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "minimal_covers",
+  "line": 184,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "最小正任务覆盖",
+  "inputs": "eligible/coverage/required",
+  "operations": "组合枚举并去超集",
+  "outputs": "minimalsetlist",
+  "preconditions_and_limits": "最多256解释集；433每CNF子句单独调用后AND，不改此上限。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:minimal_covers",
+  "actual_count": 48,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+20. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "prefer",
+  "line": 197,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "有证据的单actor替换比较",
+  "inputs": "two sets/actors/preferences",
+  "operations": "只允许一对role及已核条件的preference",
+  "outputs": "bool",
+  "preconditions_and_limits": "433preferences为空，不因数组位置或星名排序。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:prefer",
+  "actual_count": 164,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+21. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "preference_frontier",
+  "line": 206,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "保全部偏序前沿",
+  "inputs": "sets/actors/preferences",
+  "operations": "构图、拓扑检测；有环保全",
+  "outputs": "sets/cyclic/edges",
+  "preconditions_and_limits": "不制造主次，空prefs保全部最小集合。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:preference_frontier",
+  "actual_count": 48,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+22. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "select",
+  "line": 224,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "原解释选择入口",
+  "inputs": "validated evaluatedgraph",
+  "operations": "validate/repair/scope/hardfeasibility/cover/prefer",
+  "outputs": "完整nativeJSONcompatible结构",
+  "preconditions_and_limits": "不是raw最终喜用器；sourcebindings未由selector独验，finalaux/priority/B保null。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:select",
+  "actual_count": 54,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+23. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "strict_pairs",
+  "line": 272,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "旧独立CLI去重hook",
+  "inputs": "pairs",
+  "operations": "重复key拒绝",
+  "outputs": "dict/ValueError",
+  "preconditions_and_limits": "本433入口未调用此旧CLIhook。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+24. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "reject_constant",
+  "line": 280,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "旧独立CLI常量hook",
+  "inputs": "token",
+  "operations": "拒非有限数",
+  "outputs": "ValueError",
+  "preconditions_and_limits": "本433入口未调用此旧CLIhook。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+25. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "file": "runtime/auxiliary_selector.py",
+  "qualname": "main",
+  "line": 284,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_generic_graph_contract
+contract：{
+  "purpose": "旧AUX独立图CLI",
+  "inputs": "stdin图",
+  "operations": "旧解析/选择/打印",
+  "outputs": "exitcode",
+  "preconditions_and_limits": "本433入口不执行旧main；无虚构current IO。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev410_runxia_dam_metal_whole_r1/runtime/auxiliary_selector.py",
+  "original_module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "same_AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "semantic_reuse_boundary": "exact_old_AST_generic_graph_contract"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+26. runtime/exact_reused.py:pack
+算法标识：runtime/exact_reused.py:pack
+source_identity：{
+  "file": "runtime/exact_reused.py",
+  "qualname": "pack",
+  "line": 7,
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Encode internal exact mathematics."
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/runtime/common_pool.py",
+  "original_module_sha256": "766179feb1f9faf0de4092490eb835e37d59cbf8da6d6c12259b1051a6d3b05a",
+  "same_AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/exact_reused.py:pack",
+  "actual_count": 161825,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+27. runtime/exact_reused.py:gauss
+算法标识：runtime/exact_reused.py:gauss
+source_identity：{
+  "file": "runtime/exact_reused.py",
+  "qualname": "gauss",
+  "line": 14,
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve."
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/runtime/common_pool.py",
+  "original_module_sha256": "766179feb1f9faf0de4092490eb835e37d59cbf8da6d6c12259b1051a6d3b05a",
+  "same_AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/exact_reused.py:gauss",
+  "actual_count": 24,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+28. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "stem_element",
+  "line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "十干查五行"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/runtime/foundation_facts.py",
+  "original_module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "same_AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "actual_count": 268,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+29. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "ten_god",
+  "line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "严格十神角色"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/runtime/foundation_facts.py",
+  "original_module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "same_AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "actual_count": 62,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+30. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "validate",
+  "line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原柱基础合法性"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/runtime/foundation_facts.py",
+  "original_module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "same_AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+31. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "formal_relations",
+  "line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留有位置的形式合冲"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/runtime/foundation_facts.py",
+  "original_module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "same_AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+32. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "root_evidence",
+  "line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/runtime/foundation_facts.py",
+  "original_module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "same_AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "actual_count": 4,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+33. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "parse",
+  "line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_stable_primitive_contract
+contract：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原61完整四柱事实入口"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev417_Ren_follow_strong_print_peer/runtime/foundation_facts.py",
+  "original_module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "same_AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "semantic_reuse_boundary": "exact_old_AST_stable_primitive_contract"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+34. runtime/named_equilibrium.py:coefficients
+算法标识：runtime/named_equilibrium.py:coefficients
+source_identity：{
+  "file": "runtime/named_equilibrium.py",
+  "qualname": "coefficients",
+  "line": 7,
+  "module_sha256": "b6b63c243737c00dcba668ed109efe2806db327173a43debe78e316b6a0aeb41",
+  "AST_sha256": "a51addd85502e67003e22d6fd040c38eace396a6b86cd84c818b7968d1aa7f8f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='cut_named_Yi')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "全部实际方向/位置/费用使用同一现量",
+  "inputs": "base、b/c固定盒、内部单乙→月戊cut",
+  "operations": "逐真实actor对生/克，sourcegroup内份额×target全元素份额×近1远1/2；全部潜在发送费用进delta；单cut只改信用不退费用；火另负3/4全土+1/4金stock任务",
+  "outputs": "G/C/load/delta/K/全edge及加权L",
+  "preconditions_and_limits": "实际生受体不存在则该类源预算也不存在；不按目标数重复一源预算；L≤32/33，含两土→水/金；保operator成本与食stocklambda不同账。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/named_equilibrium.py:coefficients",
+  "actual_count": 12,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+35. runtime/named_equilibrium.py:solve
+算法标识：runtime/named_equilibrium.py:solve
+source_identity：{
+  "file": "runtime/named_equilibrium.py",
+  "qualname": "solve",
+  "line": 27,
+  "module_sha256": "b6b63c243737c00dcba668ed109efe2806db327173a43debe78e316b6a0aeb41",
+  "AST_sha256": "8eb394b32d72df28cd7eb621d7bdc312834dd327e64be93605a7c5ca1c91029b",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='exact'), arg(arg='cut_named_Yi')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "唯一完整非负现量的精确活跃面解",
+  "inputs": "base、cfg、未变Gauss、可选内部具名边cut",
+  "operations": "至多六池64activefaces；精确解候选并整张max方程回代；由加权全域收缩给唯一性",
+  "outputs": "current/coeff/activegroups/精确方程证书",
+  "preconditions_and_limits": "无浮点容差、中点或oracle择相；边界零可多描述但向量唯一。全源解释是工程问题，不因有数学解即古法有效。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/named_equilibrium.py:solve",
+  "actual_count": 12,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+36. runtime/named_equilibrium.py:origins
+算法标识：runtime/named_equilibrium.py:origins
+source_identity：{
+  "file": "runtime/named_equilibrium.py",
+  "qualname": "origins",
+  "line": 39,
+  "module_sha256": "b6b63c243737c00dcba668ed109efe2806db327173a43debe78e316b6a0aeb41",
+  "AST_sha256": "f55c884d3056482ac9435bed2c53a69cb850aa7bb2487a1f783aefb6e76a9f73",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "重建同一现量所有typed来源",
+  "inputs": "base/已解state/精确Gauss",
+  "operations": "gross=direct+当前生成；rho=current/gross；多RHS线性解z=rho(d+Gz)，回代非负与sum=current",
+  "outputs": "全部pools/gross/rho/矩阵行界",
+  "preconditions_and_limits": "两土前驱可入金，统一行界1/2不是1/4；原root与incoming官信用分开，不将同支异元素看自然物理质量。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/named_equilibrium.py:origins",
+  "actual_count": 12,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+37. runtime/named_equilibrium.py:full_graph
+算法标识：runtime/named_equilibrium.py:full_graph
+source_identity：{
+  "file": "runtime/named_equilibrium.py",
+  "qualname": "full_graph",
+  "line": 47,
+  "module_sha256": "b6b63c243737c00dcba668ed109efe2806db327173a43debe78e316b6a0aeb41",
+  "AST_sha256": "560e955f2ef69c4fa959497986dc7ef06f4a9eb4d37c416c909772cff0b48ace",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "完整actor-origin正负、源预算和目标实损账",
+  "inputs": "base/state/origins",
+  "operations": "按池内份额归actor；逐源边发出各origin；容量受gross限幅，实际损失按接收来源分配；火水约身/食stock/财stock分别记录；核gross=current+sourcecost+loss",
+  "outputs": "全actorports/生克edges/潜费用/身体stock负荷/池账",
+  "preconditions_and_limits": "未用容量不返给另端；月戊被印制后的current才攻官，目标清官标签不再扣一份力量；所有未选仍全图。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/named_equilibrium.py:full_graph",
+  "actual_count": 12,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+38. runtime/primary_inventory.py:source_context
+算法标识：runtime/primary_inventory.py:source_context
+source_identity：{
+  "file": "runtime/primary_inventory.py",
+  "qualname": "source_context",
+  "line": 9,
+  "module_sha256": "c48009bb2808a401861190db2621842602fe0d4e766c7b7c670c70f5c95b3a82",
+  "AST_sha256": "e0298b72072167b8023f50a04068cfe8d6568b8eeb194b715f79d58e0f79f14b",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "物理前先固定源资格和具体关系任务",
+  "inputs": "raw、原factsparser",
+  "operations": "机械合法后匹配丙辰非日癸乙；保原形式/全木会/其它全组/secondary；唯一辰酉及木会入两声明解释，其他冲合争用/子卯/三刑列具体缺项",
+  "outputs": "facts/已消费任务/未闭任务/sourceclosed/源框架候选",
+  "preconditions_and_limits": "15/72是本有限解释足域，不是传统仅15盘可用；PDF21只斥合官不否一切辰酉。裸刑害破/半组沿208/225作用边界保候选非物理零。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/primary_inventory.py:source_context",
+  "actual_count": 1,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+39. runtime/primary_inventory.py:inventory
+算法标识：runtime/primary_inventory.py:inventory
+source_identity：{
+  "file": "runtime/primary_inventory.py",
+  "qualname": "inventory",
+  "line": 36,
+  "module_sha256": "c48009bb2808a401861190db2621842602fe0d4e766c7b7c670c70f5c95b3a82",
+  "AST_sha256": "d96b0477f30f045a302c7a7a0742c7cc3ba89b8c47bf75bf013a0df01c1eee46",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='interpretation'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive'), arg(arg='context')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "保全部明藏、位置、ROOT原账与关系账和具名月戊",
+  "inputs": "合法源raw、固定关系解释、facts、纯ROOTclassifier、捕获primitive、source_context",
+  "operations": "每个实字每支调用未变ROOT类型/数值；同origin原与关系取max；明浮1含日；元素内库存max一次；按资格总量分配真实actor；月戊单池、其余土另一池",
+  "outputs": "actors/rootrows/native/used资格、元素/分池direct与固定份额",
+  "preconditions_and_limits": "这是新明示共池预算，不证等价actorlocal或跨元素守恒；原表/原戊癸不删，qiROOT不造演员；藏字端点不等重新认证传统独立发用/月令立用。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/primary_inventory.py:inventory",
+  "actual_count": 2,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+40. runtime/root_types.py:canonical
+算法标识：runtime/root_types.py:canonical
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "canonical",
+  "line": 30,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "canonical original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+41. runtime/root_types.py:strict_load
+算法标识：runtime/root_types.py:strict_load
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "strict_load",
+  "line": 34,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "2ef9ff64dfa5b57cd3c6b9fc32d7294ad2e92b9e2e37460455a48ea8c311e1fe",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "strict_load original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "2ef9ff64dfa5b57cd3c6b9fc32d7294ad2e92b9e2e37460455a48ea8c311e1fe",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+42. runtime/root_types.py:data
+算法标识：runtime/root_types.py:data
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "data",
+  "line": 45,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "74c864b733cb2e6604ffdd2f501cd9e11724c091e6ede6b8deb7efd3c0330b80",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "data original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "74c864b733cb2e6604ffdd2f501cd9e11724c091e6ede6b8deb7efd3c0330b80",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+43. runtime/root_types.py:validate_pair
+算法标识：runtime/root_types.py:validate_pair
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "validate_pair",
+  "line": 59,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "d9fcbb697b6f7ceea9e8a85060c1558bb7a18ad208193ada2057ad09bc4865ba",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "validate_pair original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "d9fcbb697b6f7ceea9e8a85060c1558bb7a18ad208193ada2057ad09bc4865ba",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+44. runtime/root_types.py:classify
+算法标识：runtime/root_types.py:classify
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "classify",
+  "line": 66,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_ROOT_pure_active_subset
+contract：{
+  "purpose": "原Primary ROOT类型",
+  "inputs": "合法stem/branch和已捕获原primitive",
+  "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+  "outputs": "type info",
+  "preconditions_and_limits": "caller已factsparse合法，primitive与ROOT代码源锁；不增加藏干、不判实际强弱。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "semantic_reuse_boundary": "exact_ROOT_pure_active_subset"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/root_types.py:classify",
+  "actual_count": 128,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+45. runtime/root_types.py:choose_value
+算法标识：runtime/root_types.py:choose_value
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "choose_value",
+  "line": 90,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "5f711116638a8c7bb0ccd95a1477d98dd5a444b9c76a38b4c81ee8e8cc09aaf2",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='info')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_ROOT_pure_active_subset
+contract：{
+  "purpose": "原公共ROOT工程刻度",
+  "inputs": "typeinfo",
+  "operations": "源类型优先7/2、5/2、非土阳墓3/2、未列0",
+  "outputs": "value/category",
+  "preconditions_and_limits": "0非现实无根证明；数额非经典唯一比值；未被新关系7/2改写原表。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "5f711116638a8c7bb0ccd95a1477d98dd5a444b9c76a38b4c81ee8e8cc09aaf2",
+  "semantic_reuse_boundary": "exact_ROOT_pure_active_subset"
+}
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/root_types.py:choose_value",
+  "actual_count": 128,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+46. runtime/root_types.py:source_basis
+算法标识：runtime/root_types.py:source_basis
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "source_basis",
+  "line": 102,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "1643a04853eff5fc578612fb2bc1c05825cc388518eecf5b813ec4ae423fcc71",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='info')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "source_basis original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "1643a04853eff5fc578612fb2bc1c05825cc388518eecf5b813ec4ae423fcc71",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+47. runtime/root_types.py:explain
+算法标识：runtime/root_types.py:explain
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "explain",
+  "line": 122,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "222a4a79d6925a57d0b5c5bc35ae8e2208071362d26d957a80874e5c87bfaf8d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "explain original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "222a4a79d6925a57d0b5c5bc35ae8e2208071362d26d957a80874e5c87bfaf8d",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+48. runtime/root_types.py:qualification
+算法标识：runtime/root_types.py:qualification
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "qualification",
+  "line": 141,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "85fdefa9f5a9d58b715853ed897344e9ac0c552605406c1104b0cab3e2f7ce19",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "qualification original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "85fdefa9f5a9d58b715853ed897344e9ac0c552605406c1104b0cab3e2f7ce19",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+49. runtime/root_types.py:matrix
+算法标识：runtime/root_types.py:matrix
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "matrix",
+  "line": 146,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "1379d3a571ba65c87b578d49f3315ce72171048b40ef7028f191f6acf33fd7ae",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "matrix original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "1379d3a571ba65c87b578d49f3315ce72171048b40ef7028f191f6acf33fd7ae",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+50. runtime/root_types.py:evaluate
+算法标识：runtime/root_types.py:evaluate
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "evaluate",
+  "line": 151,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "d0124402959b900ef224cb9c3d99f72dbae1c0a423edbc74ae5c03d08ffd2b44",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "evaluate original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "d0124402959b900ef224cb9c3d99f72dbae1c0a423edbc74ae5c03d08ffd2b44",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+51. runtime/root_types.py:main
+算法标识：runtime/root_types.py:main
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "main",
+  "line": 166,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "d7d801468486509dd801cf6f2348c956a5d800d1b67b736cc0d7f61713c80cb6",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：preserved_unused_legacy_definition_not_current_semantic_API
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "main original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+exact_reuse：{
+  "original_path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+  "original_module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "same_AST_sha256": "d7d801468486509dd801cf6f2348c956a5d800d1b67b736cc0d7f61713c80cb6",
+  "semantic_reuse_boundary": "preserved_unused_legacy_definition_not_current_semantic_API"
+}
+实际输入输出：{
+  "current_executed": false,
+  "artifact": null,
+  "record": null,
+  "actual_count": 0,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+not_an_independent_classical_rule：true
+
+52. runtime/support_and_goals.py:goals
+算法标识：runtime/support_and_goals.py:goals
+source_identity：{
+  "file": "runtime/support_and_goals.py",
+  "qualname": "goals",
+  "line": 6,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "AST_sha256": "3a2396d8de6a3adc27a961281a0ac3ef7c9832b52b08a11a9620f458b7aeee6c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='ports'), arg(arg='graph')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "一般有情量效与强全清分层",
+  "inputs": "具名rawbase、同state/origins/fullgraph",
+  "operations": "只取透乙→h:month:戊实际受克份额，官原根/生乙、乙原根/生日、全体负担严格S>5/4C；强题另加月戊攻官0；局部减害归因除delta，不再入物理扣量",
+  "outputs": "两组checks/met、精确bodymargin与具名量",
+  "preconditions_and_limits": "别处土被制不能替月戊；实损>0非只capacity>0；局部归因非全反事实净变化，原句有情不以全清为普遍必要；不取官→喜水。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/support_and_goals.py:goals",
+  "actual_count": 12,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+53. runtime/support_and_goals.py:one_world
+算法标识：runtime/support_and_goals.py:one_world
+source_identity：{
+  "file": "runtime/support_and_goals.py",
+  "qualname": "one_world",
+  "line": 16,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "AST_sha256": "f5bd826b2df9580295f4fd01fb8ee64f01b1cddca1d156b3d379b9fa5227c383",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='math'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "一个完整实际作用世界",
+  "inputs": "base/config/math/exact",
+  "operations": "solve→origins→full_graph→goals",
+  "outputs": "完整state/origins/graph/goals",
+  "preconditions_and_limits": "不是单作用图或先选辅助再删负；原局所有真实字和根保留。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/support_and_goals.py:one_world",
+  "actual_count": 6,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+54. runtime/support_and_goals.py:numerical_support_table
+算法标识：runtime/support_and_goals.py:numerical_support_table
+source_identity：{
+  "file": "runtime/support_and_goals.py",
+  "qualname": "numerical_support_table",
+  "line": 20,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "AST_sha256": "6ba3b164cbd122832b7d21783d87f900d17c0d09d87aa16532a2ee585e79c0db",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "全幂集固定实际正功能解释",
+  "inputs": "base/实际完整world",
+  "operations": "日主分配direct为intrinsic；印生日/具名控制与比direct作为可选正信用；DP全部mask累加；严格body门+实际护月戊正量，强题需覆盖月戊gross的容量；求所有极小真/极大假",
+  "outputs": "全部数值行/真假/H/反CNF边界",
+  "preconditions_and_limits": "不重解或删演员，所有负/费用固定；日非aux；一般包不是全清；数学压力用同被替换directFire，不能偷用原始element缓存。H不是最终喜印/喜火或盘外方向。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/support_and_goals.py:numerical_support_table",
+  "actual_count": 6,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+55. runtime/support_and_goals.py:native_CNF_projection
+算法标识：runtime/support_and_goals.py:native_CNF_projection
+source_identity：{
+  "file": "runtime/support_and_goals.py",
+  "qualname": "native_CNF_projection",
+  "line": 36,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "AST_sha256": "bad843c82505a1ac331eb46fa229bf42215b1095907a913d66f7567310f23f72",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='table'), arg(arg='question'), arg(arg='aux'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "完整真值精确投影已有AUX，不改老限额",
+  "inputs": "base/world/完整table/question/原aux/exact",
+  "operations": "每个极大假集补集一CNF子句，真实旧native结果；子句结果AND最小并集与完整H逐值一致",
+  "outputs": "所有原生图/完整native结果/全部最终AND并集",
+  "preconditions_and_limits": "每包≤16actors/20goals/100tasks/256sets；没有提高限额。AUX只是有限numeric任务投影，不是全物理图；不因此替源未闭出口认证，更不证明未来修复实际发生。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/support_and_goals.py:native_CNF_projection",
+  "actual_count": 12,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+56. runtime/support_and_goals.py:analyze
+算法标识：runtime/support_and_goals.py:analyze
+source_identity：{
+  "file": "runtime/support_and_goals.py",
+  "qualname": "analyze",
+  "line": 52,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "AST_sha256": "1b6f3697accbc75a8302ebae37da34113f5fa64ca0e05b5b9811a4c56fdbf697",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='math'), arg(arg='exact'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted433
+contract：{
+  "purpose": "实际全图、单项诊断、全H和源桥分栏",
+  "inputs": "base/config/math/exact/aux",
+  "operations": "算实际和仅乙制月戊关闭同费用系数世界；保所有差额；全支持/native；源是否闭决定current_source_H能否导出；源官印身份独列",
+  "outputs": "完整两世界、两题数值H/native/sourceH/差额/身份/限制",
+  "preconditions_and_limits": "单项controlcut不是选择/增加整印的净因果证明；H正信用不可单独改名最终取印。traditional_final_auxiliary/priority/B皆null；absent方向未穷尽仍unknown。"
+}
+exact_reuse：null
+实际输入输出：{
+  "current_executed": true,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "record": "runtime/support_and_goals.py:analyze",
+  "actual_count": 6,
+  "unexecuted_none_is_not_fabricated_return": false
+}
+not_an_independent_classical_rule：true
+
+原件：work/rev433_MC_N1_complete_followup/source_rule_cards_ten_fields.json
+SHA256：f9a2f7fc82fd6368ef1248c4dd69ba18f7a217137d3a57e91b57fd6d090f68cb
+
+1. S1
+算法标识：S1
+school：Primary-selected MC-N1 finite complete research, not other editions or unique traditional consensus
+source：Primary42印三十三
+proposition：原丙辰透癸乙官印相生，印去辰暗土清官
+conditions：丙day辰month非日明癸乙，源选先于H
+exclusions：辰戊为食神/未己伤官；不先删戊或见乙免害
+rule_expression：保正官印source用与H/整盘目标三栏
+changes：一般有情量效与全清强题并列
+conflicts：Directsourcequalitative / application inference / explicit engineering / unvalidated reality remain separate.
+verification：合法非源、非法柱、72源前件先分
+status：preproducerresearchrule;notselfadopted
+
+2. S2
+算法标识：S2
+school：Primary-selected MC-N1 finite complete research, not other editions or unique traditional consensus
+source：Primary21/24/31-33
+proposition：辰酉不能直接合官；会合可改具体任务；透会可变或兼格
+conditions：唯一辰酉/完整寅卯辰实际前件，真实受体
+exclusions：不把斥合官变成所有辰酉无效；其他争合冲任务未闭
+rule_expression：原资格/真实受体重根解释先验并列
+changes：不择过路；会印兼官和原土戊癸保
+conflicts：Directsourcequalitative / application inference / explicit engineering / unvalidated reality remain separate.
+verification：原175酉例差异/木会变化全存
+status：preproducerresearchrule;notselfadopted
+
+3. S3
+算法标识：S3
+school：Primary-selected MC-N1 finite complete research, not other editions or unique traditional consensus
+source：ROOT02原合同+Primary22-23
+proposition：ROOT资格非实际量；全真实藏干不能由地支死墓标签删去
+conditions：原type/scalar3.5/2.5/1.5，month1.5，同originmax
+exclusions：不混Ren土十二宫，不造原无藏干
+rule_expression：原始ROOT/关系资格/实际origin三账
+changes：组效重根7/2只是沿公共工程规格
+conflicts：Directsourcequalitative / application inference / explicit engineering / unvalidated reality remain separate.
+verification：全actors原根、无真实金不造金
+status：preproducerresearchrule;notselfadopted
+
+4. S4
+算法标识：S4
+school：Primary-selected MC-N1 finite complete research, not other editions or unique traditional consensus
+source：旧384/417精确算子+新433前题
+proposition：同current全作用、具名月戊单受控池
+conditions：原五行与分月戊/余土共池预算，真实距离
+exclusions：共同池非actorlocal等价，不能别土被制替月戊
+rule_expression：全部制约与生日/生官/破印/夺食含同一现量
+changes：32/33加权收缩及1/2origin界，源费用不返
+conflicts：Directsourcequalitative / application inference / explicit engineering / unvalidated reality remain separate.
+verification：独立Cramer66原局+6边界
+status：preproducerresearchrule;notselfadopted
+
+5. S5
+算法标识：S5
+school：Primary-selected MC-N1 finite complete research, not other editions or unique traditional consensus
+source：旧173/195参数与本次新全图合同
+proposition：食泄3/4、财负1/4、严格5/4与发用费用分账
+conditions：官约身、食伤成本、财印反馈和全部ROOT现量
+exclusions：不把生食credit当lambda；不余体再扣一次5/4
+rule_expression：固定点一次扣完整cost，strict测S>5/4C
+changes：一般与全清失败不反判传统全凶
+conflicts：Directsourcequalitative / application inference / explicit engineering / unvalidated reality remain separate.
+verification：rho1/5精确等号两侧及水/财/弱体
+status：preproducerresearchrule;notselfadopted
+
+6. S6
+算法标识：S6
+school：Primary-selected MC-N1 finite complete research, not other editions or unique traditional consensus
+source：旧AUX解释合同+新433完整真值
+proposition：完整全图成立后再解释全部最小支持
+conditions：固定actual正功能credit；现有印/比候选，日主非aux
+exclusions：不删未选负作用、不把H元素union称全局喜用
+rule_expression：全AND/OR+Cnf分段AND精确最小并集
+changes：官被保护不自动喜水，源用官印另栏
+conflicts：Directsourcequalitative / application inference / explicit engineering / unvalidated reality remain separate.
+verification：全mask/minimal/native结果同值
+status：preproducerresearchrule;notselfadopted
+
+7. S7
+算法标识：S7
+school：Primary-selected MC-N1 finite complete research, not other editions or unique traditional consensus
+source：旧AUXrepair/intervention合同
+proposition：原局缺而所需已有接口，不另造显示含义
+conditions：具名natalrepair、完整干预图与真实receipt
+exclusions：不是currentactorH；不认证未来干支或现实可行
+rule_expression：本版未穷尽外来方向则明确unknown不作没有
+changes：有条件可计算后仅有限方法内方向
+conflicts：Directsourcequalitative / application inference / explicit engineering / unvalidated reality remain separate.
+verification：已有接口源码与实际scope核对
+status：preproducerresearchrule;notselfadopted
+
+8. S8
+算法标识：S8
+school：Primary-selected MC-N1 finite complete research, not other editions or unique traditional consensus
+source：175/195/208历史及218hold
+proposition：旧typed0与旧承载失败保历史，不作已证量效
+conditions：新方法独立身份，源码来源变更如实绑定
+exclusions：不消除195publichold；不从失败fallback别校
+rule_expression：源/数学/现实三轴，原其他MCN链仍未闭
+changes：不改B155/86.25或新增分母
+conflicts：Directsourcequalitative / application inference / explicit engineering / unvalidated reality remain separate.
+verification：来源坏0exec/严格/小包全移/新函数IO
+status：preproducerresearchrule;notselfadopted
+
+原件：work/rev433_MC_N1_complete_followup/reference_receipt.json
+SHA256：d039bca48f6f34b271b02c4599519494d14ac5afca9c2ab07d1cd55fec4288ea
+
+{
+  "chapter_locators": {
+    "18": "十干配合性情承前",
+    "19-21": "论十干合而不合（19起，21末转下章）",
+    "21-23": "论十干得时不旺失时不弱（21起，23末转下章）",
+    "23-25": "论刑冲会合解法（23起）",
+    "26-28": "论用神（26起，28末转下章）",
+    "28-30": "论用神成败救应（28起）",
+    "31-33": "论用神变化（31起）",
+    "34": "论用神纯杂",
+    "35-36": "论用神格局高低（35起）",
+    "41-43": "论杂气如何取用（41中起，43末转墓库）",
+    "44-45": "论墓库刑冲之说承前"
+  },
+  "edition_URL": {
+    "URL": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+    "bytes": 7126096,
+    "edition": "NLC世界图书馆发行本，年代未另认证",
+    "local": "source/Primary_WorldLibrary.pdf",
+    "sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+  },
+  "exact_source_propositions": [
+    {
+      "claim": "丙辰癸官乙印：官印相生，印去辰暗土以清官，合而有情；暗辰戊对丙是食神。",
+      "kind": "direct source",
+      "page": 42
+    },
+    {
+      "claim": "斥辰酉/卯戌皆作合官；只否定用地支合直接当十干官被合去的谬读，不证明辰酉合金或解冲均无效。",
+      "kind": "direct scope caution",
+      "page": 21
+    },
+    {
+      "claim": "会合可解特定冲刑，例酉与辰合而不冲卯；原ROOT/他效没有因此通用归零。",
+      "kind": "direct source",
+      "page": 24
+    },
+    {
+      "claim": "月令透会有变化，另有变而不失本格/兼格；完整木会改变印框架时不能只留标签，也不能自动删透官候选。MCN1会印兼官是本次明确适用推论，不是本页具名同一完整命例。",
+      "kind": "direct+application inference",
+      "pages": [
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "claim": "有情与有力并列，乙根深浅有差，印旺与身旺作用不同；不能有乙就视作已证量效。",
+      "kind": "direct scope",
+      "pages": [
+        35,
+        36
+      ]
+    }
+  ],
+  "items": [
+    {
+      "bytes": 7126096,
+      "level": "physical_PDF_and_individual_images_actually_read",
+      "path": "source/Primary_WorldLibrary.pdf",
+      "sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620",
+      "supports": "Primary42 MC-N1 / exact ROOT qualification / locator history; see rule cards and wave, not classical numeric certification"
+    },
+    {
+      "bytes": 2754,
+      "level": "actual_source_or_contract_read",
+      "path": "source/physical_folio_correction_receipt.json",
+      "sha256": "314b6a6ecc8d610baaa71ae3070f762d2652954cb8c39751c837b1fd6adda58e",
+      "supports": "Primary42 MC-N1 / exact ROOT qualification / locator history; see rule cards and wave, not classical numeric certification"
+    },
+    {
+      "bytes": 17076,
+      "level": "actual_source_or_contract_read",
+      "path": "source/source_wave1_before_new_model.json",
+      "sha256": "f97926dc3bf1752d0c4d0b75fb6f840b13fcc0378cea2419c0c8dd259debe22e",
+      "supports": "Primary42 MC-N1 / exact ROOT qualification / locator history; see rule cards and wave, not classical numeric certification"
+    },
+    {
+      "bytes": 930,
+      "level": "actual_source_or_contract_read",
+      "path": "source/ROOT_primitive_tables.json",
+      "sha256": "b76fb6f2d64ec1a343fafe501f9f67414f480dd4c1c592dc65aeaf64b0c7eb03",
+      "supports": "Primary42 MC-N1 / exact ROOT qualification / locator history; see rule cards and wave, not classical numeric certification"
+    },
+    {
+      "bytes": 1642,
+      "level": "actual_source_or_contract_read",
+      "path": "source/ROOT_source_contract.json",
+      "sha256": "bd96f9bd8cf82dfed01cc701ca1d0f9a464aab01510a0fe295eae11849c96e67",
+      "supports": "Primary42 MC-N1 / exact ROOT qualification / locator history; see rule cards and wave, not classical numeric certification"
+    },
+    {
+      "bytes": 124986,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-018.png",
+      "sha256": "32b0429a87030f39b7be692b430475b1eb739d65139cc6ded8c757d7429b017f",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 123150,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-019.png",
+      "sha256": "0afbd964ce134f4b972ccfa655ef5485af2a39ed438e2c33a25f057dc451dd31",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 128213,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-020.png",
+      "sha256": "aa0c8c4ec12b8acb8727f7a8569f4951a72347050237a3a855415ba1aabf004e",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 112492,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-021.png",
+      "sha256": "07a35a350ac8e46c95f57e4a9c5cfbb66aeff0fb7fc5533964c258df9cd98a16",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 133014,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-022.png",
+      "sha256": "73ade56cf8ab03618476ef47099a27b3af1eaebca0c672cf0d92e8f68e3b3f93",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 121372,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-023.png",
+      "sha256": "e4ef1c5190c3c37b7a93dde6bc82777f04b3257f72bfe1fbb8fc81dacfa2eaf7",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 132249,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-024.png",
+      "sha256": "a42444fcf699c4a8400480747bf95a44efc8bf6dfa127d324939ff0222dc363d",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 130398,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-025.png",
+      "sha256": "d579da4119b7af3119f2d140ef4d482f2e9d518bc200050d8e7d9527adc63852",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 123819,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-026.png",
+      "sha256": "a786e2322fe5d788815cc2ecff2d578a73a76e6ba95862167557d8a57268d0f9",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 130684,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-027.png",
+      "sha256": "2896ccec5d6f135359284a4f86aba62813ba8a2737ae6c912dc697508c160889",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 126453,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-028.png",
+      "sha256": "1f48604cb5410366818a4d17fb788de27b07581dacbe4c621dc15f42037fe28c",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 137159,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-029.png",
+      "sha256": "413e10729edd685bf371635773a3a9884e3a88fa80f25d623153c6e50a2822e5",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 131401,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-030.png",
+      "sha256": "25b03776436c2d12225041c981d1750134df62c726031fcae69c0dad8cd556a5",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 128001,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-031.png",
+      "sha256": "b32878c7abff841ba58ddc2003ddbbf67dca8f16cda6bf78c2ab631802f6a4bb",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 132105,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-032.png",
+      "sha256": "c4e0c90c06ea8f8430d58a8f0d74331a9dcf67d6cdf1e3705751a4c6138f6f85",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 116186,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-033.png",
+      "sha256": "c71267db2f0878cf9a815c94e9a52f6cafaed13cb91fb5f8c611eee08e060d4f",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 126375,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-034.png",
+      "sha256": "a21667788d0b4c474eb0c56135d333c3cdb7dbb2d63c9d32bef5deaaf2c8c43f",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 133342,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-035.png",
+      "sha256": "defa9597fbace79cc1ee4685f57033335462b55f31e8c6cb801c67cd0559b51d",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 126140,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-036.png",
+      "sha256": "22193d40c71c23083ee83790655a6fe8c97ad1a8a68b9eef7823116bc046b154",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 133647,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-actual-PDF-041.png",
+      "sha256": "ec09c10aae906805ed6721ae4294fd4f31980a2a77655444177cc00cc88a3b0e",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 146133,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-actual-PDF-042.png",
+      "sha256": "bdad7d0d96fe5046563ec8eacccaee2aa4383cda6c4df17df91e510aea212f95",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 133101,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/Primary-actual-PDF-043.png",
+      "sha256": "31a040f7b68883757f2ad948d418df451d2a0e73de1c507d960892f35de6bd9b",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 115876,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/primary-041.png",
+      "sha256": "9de020931745ff30bac7696eac5a12270be9ab098a73ff37a042baf2ded53f05",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 115656,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/primary-042.png",
+      "sha256": "68850419142309b011df44838ea266422b6f311d05e322d2fd087b79c23f501b",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 108159,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/primary-043.png",
+      "sha256": "513a44b678e1d9300557518539e11fd8cb51820309aa8e87e786816cfd31b2e3",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 111831,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/primary-044.png",
+      "sha256": "b19135b1c855b41e6ff6f767a1f6eb027114277bcfdbd8bcaadc1a594b787396",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 105479,
+      "level": "actual_full_visual_read_this_research_or_higher_resolution_recheck",
+      "path": "source/pages/primary-045.png",
+      "sha256": "6c12f7b37d0a91af37e097532fe6da6df8da216e2f753caca2c258ecdb156dbb",
+      "supports": "physical pages18–36,41–45; printed folios only individually checked; 41/42/43 corrected receipt controls old locator"
+    },
+    {
+      "bytes": 2504,
+      "local": "source/reused/00_rev433_MC_N1_recovery_brief.txt",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_recovery_brief.txt",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "e56fc8a1b87e279d331b73b3008f0dd650eea04886bdd773959fe77fa13c7066"
+    },
+    {
+      "bytes": 1469,
+      "local": "source/reused/01_rev433_MC_N1_source_recovery_receipt.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_source_recovery_receipt.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "8dcf19c8775edcc819043b6b28f05141e1b005620860445153ca73499b2b979b"
+    },
+    {
+      "bytes": 2557,
+      "local": "source/reused/02_rev433_exploratory_fourpool_before_new_method.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_exploratory_fourpool_before_new_method.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "1efd850a1bfd09c68557714f64782c75bdeaaa89aae3b3f2119d910ff2d225d3"
+    },
+    {
+      "bytes": 6750,
+      "local": "source/reused/03_source_specification.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev175_misc_month_source_conditions_v0_1_2/source_specification.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "bab4f79847a3a61083c0e6a4289878ca49281417f76172caf0e4ae6ebe841b9f"
+    },
+    {
+      "bytes": 3154,
+      "local": "source/reused/04_next_complete_chains.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev175_misc_month_source_conditions_v0_1_2/next_complete_chains.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "0d3ff61de8c6c74c1cbeba5ba9cad877d0fd79d296f7bf614f12efbd51a95184"
+    },
+    {
+      "bytes": 2835,
+      "local": "source/reused/05_rev178_misc_source_frontend_project_adoption.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev178_misc_source_frontend_project_adoption.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "c5c3d70ea369ea9bffdaf60f5b911bfdfb44e821e639138f67d8ac166fa0d111"
+    },
+    {
+      "bytes": 7520,
+      "local": "source/reused/06_preimplementation_goal_contract.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev195_misc_source_goal_semantics/preimplementation_goal_contract.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "c7841b2598aac69e9d1bbb6c906929da16004f5ae808ae9b4b1beac0ee6db5fe"
+    },
+    {
+      "bytes": 6645,
+      "local": "source/reused/07_preimplementation_relation_contract.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev208_relation_task_whole/preimplementation_relation_contract.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "bd1cce8c7ae73423f43404db2221fd94381435d93115a25c567176a9921dd534"
+    },
+    {
+      "bytes": 6004,
+      "local": "source/reused/08_report.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev225_relation_task_archive_acceptance/report.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "7227681a8397b90489b458e509ba25bfc685862ee169b75e9eaee630017ae4d8"
+    },
+    {
+      "bytes": 1029,
+      "local": "source/reused/09_rev218_195_source_binding_hold.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev218_195_source_binding_hold.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "307c826b955336e3a64c7128813e1d61e9d54bb8b25956edb936188668575c24"
+    },
+    {
+      "bytes": 9873,
+      "local": "source/reused/10_root_policy.py",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/root_policy.py",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+    },
+    {
+      "bytes": 930,
+      "local": "source/reused/11_primitive_tables.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/primitive_tables.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "b76fb6f2d64ec1a343fafe501f9f67414f480dd4c1c592dc65aeaf64b0c7eb03"
+    },
+    {
+      "bytes": 1642,
+      "local": "source/reused/12_source_contract.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/source_contract.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "bd96f9bd8cf82dfed01cc701ca1d0f9a464aab01510a0fe295eae11849c96e67"
+    },
+    {
+      "bytes": 309141,
+      "local": "source/reused/13_full_matrix_API_CLI.json",
+      "original": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev67_root_policy_v0_2/full_matrix_API_CLI.json",
+      "read_level": "actual relevant whole content read except full120cachedresult pinned numerical table inspected by schema, not new120source rerun",
+      "relation_to_current": "source/ROOT/interface provenance or old failed/held archive; no old source hold lifted",
+      "sha256": "1a21c870b2584053db9d69306494ef7e6bae4ab0373728ec3b20df1a1efe0b41"
+    },
+    {
+      "bytes": 16035,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "source/reused/auxiliary_selector_interface_reference.py.txt",
+      "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 10101,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "complete_problem_before_producer.json",
+      "sha256": "eb95e68c4f165c34dec1bfcebde6ed388d9fadfebac760be666d0e7bae9d59e7",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 2312,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "研究问题_先于实现.txt",
+      "sha256": "c3981155690c016441d26836687291069791f1078fb43e8ae9421b27d279b3f6",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 8889,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "source_rule_cards_ten_fields.json",
+      "sha256": "f9a2f7fc82fd6368ef1248c4dd69ba18f7a217137d3a57e91b57fd6d090f68cb",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 742,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "parameters_and_method.json",
+      "sha256": "87e1849a1b4311aba2d5c29f66f62246c87f1e40d4d3864200a7fbddc5a44bf4",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 65459,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "source72_antecedents_before_producer.json",
+      "sha256": "3c34ee2fd1a097adc6a0c0631be3658b3ded28416b09b7835b0ab46bbf56f5f7",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 920264,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "independent36_complete_expectations_before_producer.json.gz",
+      "sha256": "e1d290dfa62a7f560293c4c8f958561e66bd9752566f77990c0d2ccfead69a21",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 552691,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "reserved30_complete_expectations_before_producer.json.gz",
+      "sha256": "2299c0b229c9f334f63bcbfbbdbdfb58b98cdeb68e1f6ef89b36fbf60d44d89c",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 94871,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "six_exact_boundaries_before_producer.json.gz",
+      "sha256": "72fb0d8d7810c262bb0165be5aa3aad2dc04f64e8f0beb5396f8b3c4e30ddc17",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 7080,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "数学与完整H复算说明.txt",
+      "sha256": "124224fb78f78449bb4287f76813dea5cd9a7598db190d4207fba4c28f033795",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 109265,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "algorithm_explanations_56_definitions_43_current.json",
+      "sha256": "7f34d102e4bcfce1a0a0c12689d78c4d08cf9c3f85299e1d71508e43e70ecfeb",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 38833,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "actual/independent72_substantive_receipt.json",
+      "sha256": "3d149886170c5ce7286d951f63e9cb0d7ca707baefb500daa5ad9206f6a41882",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 4104444,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "actual/current_qualified_function_IO.json.gz",
+      "sha256": "404a2888d9771bca0d2a9b239c7ee2addf2aed0ea665185bbe581d8fd3026fe0",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 16646,
+      "level": "actual_contract_or_proof_or_original_full_IO_inspected",
+      "path": "actual/folio_only_full72_byte_equality_receipt.json",
+      "sha256": "b0a8dccbed17adaac6ad50aef0c02b6b4905e4b4729e809933f80cc2c57c95ee",
+      "supports": "exact source applicability, independent before-call math, current algorithm or all-byte regression; engineering proof not prediction"
+    },
+    {
+      "bytes": 356,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/before_actual_folio_correction/first_producer_identity_before_calls.json",
+      "sha256": "779d5f9ecc37883d931027cd3489f11ca91dcd74d3a81b70584b2c28431f8b69",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 16468,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/before_actual_folio_correction/source/source_wave1_before_new_model.json",
+      "sha256": "e307b6fb1000e55d6e7b71c85ccd6a277695eeb487b24283ed3346dbef6b4a78",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 9089,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/before_actual_folio_correction/source_execution_lock.json",
+      "sha256": "770ad3c2cfcb9cd079715c02e0696d7fedb1d3faf34a95d9c8d6b9ba52c33e9b",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 8889,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/before_actual_folio_correction/source_rule_cards_ten_fields.json",
+      "sha256": "84858e13f86f0ee34b933826e489f8c8b88b048f6249995fb746c50a9dd905d6",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 629,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/first_actual_validation_boundary_setup_failure/failure.json",
+      "sha256": "5ff64a2f360e33f1e3decee4ec017e62639da00265ccdca944f92b8ba51ddf80",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 432,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/preproducer_origin_bound_correction.json",
+      "sha256": "e860dd0db26ea8e3198d85ad9384c211ef2c30282497e8076d153800f1d4065e",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 9671,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/preproducer_origin_bound_first_draft.json",
+      "sha256": "474eb6cebb4960a4990fa0d8c21a740dcc5191ff6b50793accb3573d0fc6ca5a",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 1341,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/preproducer_pressure_stock_credit_inconsistency/first_producer_identity_before_calls.json",
+      "sha256": "b5b5b48dd9348d4e37c13393dfd8de0ed8cce908e2c097c731006d187513fc36",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 732,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/preproducer_pressure_stock_credit_inconsistency/record.json",
+      "sha256": "17ef04616652bdc2e2d7d4324fa6e39569cf8c56198c2fd6a76aefa630fe5e94",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 6078,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/preproducer_pressure_stock_credit_inconsistency/reserved_and_boundaries_summary_before_producer.json",
+      "sha256": "28e1a0ba975afe27e6196c6f3337e7619165f0952107783e394a7cd8607b616f",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 9089,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/preproducer_pressure_stock_credit_inconsistency/source_execution_lock.json",
+      "sha256": "88186e3a480af0592d57aade340937fec64d4aaf44abc84303088e72a3ef545c",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 304,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/public_status_refinement_before_first_public_call.json",
+      "sha256": "17e4cd2966e9971f0144f075a4a037f6f0d79028be7f4e0695961360dddfe27d",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 56201,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/source72_first_formal_only_catalogue.json",
+      "sha256": "c35a574552ad6a85d7653b01ecedef6e783df164caf5e7423f3f425a6116ac6b",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    },
+    {
+      "bytes": 423,
+      "level": "preserved_failure_or_superseded_before_producer_draft",
+      "path": "history/source72_primary_task_scope_refinement.json",
+      "sha256": "a6d2a2d1df0e503ae7b0f0da0583a437aa89d1e13dbcc4a7ff6daa7e0fce7bb4",
+      "supports": "reason for scope, proof, pressure-credit, harness or locator correction; no retroactive oracle replacement"
+    }
+  ],
+  "old195_hold218": "preserved;225 archive does not release195 runtime or authorize B",
+  "physical_folio_correction": {
+    "bytes": 2754,
+    "path": "source/physical_folio_correction_receipt.json",
+    "sha256": "314b6a6ecc8d610baaa71ae3070f762d2652954cb8c39751c837b1fd6adda58e"
+  },
+  "policy_direction": "original source and existing policies -> current question and math -> author evidence -> future independent review; no self-adoption or circular policy claim",
+  "root_files_modified": false,
+  "schema": "433-reference-provenance-and-reading-levels/1",
+  "unread_or_unproved": [
+    "No new alternative edition collation or dating certification",
+    "No empirical prediction validation or real birthday verification for artificial mechanically legal structures",
+    "Other MC-N2/N3/N4 not completed by MC-N1",
+    "57 public family relation tasks remain source-pending despite complete untransformed numerical diagnostics",
+    "R1 7/2 actual-receiver relation qualification is engineering sensitivity, not Primary text numeric theorem",
+    "No whole-print intervention/absent-repair final traditional auxiliary proof; existing AUX interface was read, not newly certified"
+  ]
+}

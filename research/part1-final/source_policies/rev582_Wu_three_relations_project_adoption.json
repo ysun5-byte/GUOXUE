@@ -1,0 +1,118 @@
+{
+  "schema": "582-exact573-after578-three-relations-adoption/1",
+  "revision": 582,
+  "status": "adopted_exact573_0.4.1_after578_complete_current_Ding_JiaJi_MaoYou_parallel_methods",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev573_author_completion_handoff.json",
+    "bytes": 2959,
+    "sha256": "dea7e507b543b41cf9983426b9fa33c351b0e86a88e11b868183f758076ab0e7"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev578_independent_completion_handoff.json",
+    "bytes": 1092,
+    "sha256": "bb4f87112600032a56d96feea6684d111b305e507b11e5de62f6944b43a86a5c"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev573_Wu_Ding_JiaJi_MaoYou_actual_followup",
+    "files": 189,
+    "payload_files": 187,
+    "payload_bytes": 83159550,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev573_Wu_Ding_JiaJi_MaoYou_actual_followup/RESEARCH_MANIFEST.json",
+      "bytes": 30862,
+      "sha256": "a7b733f0318cdd4009d4d20490caa602f4853f12ecd448181062947291fcdf2d"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev573_Wu_Ding_JiaJi_MaoYou_actual_followup/AUTHOR_FREEZE.json",
+      "bytes": 270,
+      "sha256": "e8ca0a111316c35259d786a75d080f8dd732f5095d3c15314638bbf530590a81"
+    },
+    "all_payload_bytes_and_SHA_checked": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev578_independent_review573",
+    "files": 32,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev578_independent_review573/manifest.json",
+      "bytes": 4758,
+      "sha256": "80923230ae1e080316c948316c38c882794ed8215c779bc225c307a184938e84"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev578_independent_review573/freeze.json",
+      "bytes": 92,
+      "sha256": "98ca2039533943a45516d2172765f0d95f109b8d19284ab3fd8f9f8f23adf222"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "work/rev573_complete_runtime_kernel",
+      "files": 68,
+      "payload_files": 66,
+      "payload_bytes": 5876267,
+      "manifest": {
+        "path": "work/rev573_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 10191,
+        "sha256": "54651f74e4391ac439932d21f1e8f4f2930ec996a074b5dafcffa05c8ec55d38"
+      },
+      "freeze": {
+        "path": "work/rev573_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 240,
+        "sha256": "90ef6b2b418454ee2ea38eeb7a925cc68f8c8cbd453d112baeff1529add26c9d"
+      },
+      "all_payload_bytes_and_SHA_checked": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/573 one final small complete readonly three Wu research oju_7q73/complete Ding JiaJi MaoYou five UTC research with spaces",
+      "files": 68,
+      "payload_files": 66,
+      "payload_bytes": 5876267,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/573 one final small complete readonly three Wu research oju_7q73/complete Ding JiaJi MaoYou five UTC research with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 10191,
+        "sha256": "54651f74e4391ac439932d21f1e8f4f2930ec996a074b5dafcffa05c8ec55d38"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/573 one final small complete readonly three Wu research oju_7q73/complete Ding JiaJi MaoYou five UTC research with spaces/DELIVERY_FREEZE.json",
+        "bytes": 240,
+        "sha256": "90ef6b2b418454ee2ea38eeb7a925cc68f8c8cbd453d112baeff1529add26c9d"
+      },
+      "all_payload_bytes_and_SHA_checked": true
+    }
+  ],
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev582_Wu_three_relations_effective_rule_cards.json",
+    "bytes": 11739,
+    "sha256": "7bba221384db16ce978a35c91b8bcced69560df468a37307a0c6302f4b804f5b"
+  },
+  "all139_runtime_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev573_Wu_Ding_JiaJi_MaoYou_actual_followup/function_explanations139.json",
+    "bytes": 292942,
+    "sha256": "1d93d891bf0f6c81128f604d294c8d35793d63ed20dcd26c43ec1560194d1c27"
+  },
+  "validation_IO_codec_explanation": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev578_independent_review573/source_and_algorithms_substantive_review.json",
+    "bytes": 3582,
+    "sha256": "43c57b7f3a915b965c9abb43662ad89844053706ca0b78c7e02108866aff4116"
+  },
+  "mandatory_inherited_source_errata": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev574_independent_review555/required_effective_F_source_correction.json",
+      "bytes": 1619,
+      "sha256": "9037baad8f8087935e33272f64a83dd00a1a9a5429421a374cd15e25d24c203f"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev557_independent_review540/required_effective_P_source_correction.json",
+      "bytes": 3706,
+      "sha256": "b67034a3184634cc55674589afd45f44f79233fd8db2dabe36d33a8142cf0cb1"
+    }
+  ],
+  "scope": "原吴出生不改，当前丁食神/丙伤官、甲己丁壬全部最大排他配对U/T、酉藏辛实际作用、会解额外根删除与源/功能时间比较；不合并全局最终喜用。",
+  "all_methods_and_alternatives_reported_not_positive_selected": true,
+  "all_original_C03_complete": false,
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "original_task_complete": false,
+  "no_B_or_display": true,
+  "real_prediction_validated": false
+}

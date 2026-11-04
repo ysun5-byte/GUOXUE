@@ -1,0 +1,68 @@
+{
+  "schema": "independently-reviewed-source-path-research-archival-acceptance",
+  "revision": 405,
+  "registered_utc": "2026-11-02T21:51:56.658463+00:00",
+  "status": "accepted_exact397_plus_original44_binding_erratum_source_paths_only_after399",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev397_primary_jinglan_virtual_paths",
+      "files": 23,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev397_primary_jinglan_virtual_paths/manifest.json",
+        "bytes": 3418,
+        "sha256": "d21ef3d5d424b5532fd6eeacb5295b73659068d1f0d8cdaac4be9af3c5cefa41"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev397_primary_jinglan_virtual_paths/freeze.json",
+        "bytes": 178,
+        "sha256": "8c4581e98a26b0950286aad4346f9e2efecfc8ea0a74785662a8d628db981925"
+      },
+      "root_all_SHA_bytes_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev399_jinglan_independent_review",
+      "files": 37,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev399_jinglan_independent_review/manifest.json",
+        "bytes": 5907,
+        "sha256": "078fdaaaf5a9c1c753499b124c400b3b86f4976ddf5c3cc55db05e6fff6cf286"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev399_jinglan_independent_review/freeze.json",
+        "bytes": 201,
+        "sha256": "245452d3c7ff0ef60c153cf982b7b2a9aae5308d3e8f40bb3efe7e45a36c6c65"
+      },
+      "root_all_SHA_bytes_verified": true
+    }
+  ],
+  "independent399": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev399_independent_completion_handoff.json",
+    "bytes": 2395,
+    "sha256": "7ae8fd8fd95b82eeecd7ec0480ec20e1d733d937bbc8d5bf7c79eab578c37357"
+  },
+  "required_navigation_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev397_original44_binding_correction.json",
+    "bytes": 835,
+    "sha256": "2fb9ec26db957ee082ebd5b54d9bca11423ee318ec7a4fb34ac2b57a5a055f05"
+  },
+  "existing44_id": "PRIMARY-WELL",
+  "source": "主本文PDF93/96印叶84/87原图实核；未定版网络27页转录只记异文，不认证校本。",
+  "actual_source_path": "庚日、辰申月、完整申子辰，实丙丁/巳午优先；更广实财与额外实支保明确未决。虚邀寅财午官戌印不回灌真实ROOT/藏干/体量。",
+  "original_Guo_actual_inventory": 14,
+  "virtual_paths_separate": 3,
+  "author_cases": 13,
+  "new_independent_artificial_cases": 11,
+  "new_independent_strict": 7,
+  "runtime_functions": 9,
+  "all_new_functions_real_IO_AST_checked": true,
+  "author_badsource_limit": "作者原2收据因未resolve私有临时BASE，只达符号链拒绝，不作为SHA改件门已证。旧收据保留；399resolve副本clean先行后2改件source_material_changed且provider增量0、恢复clean各1，补真实SHA门证据。",
+  "original23_existing_copy_fresh5process": "全JSON与SHA不变、oldrootIO0/包写0、前后23全指纹一致。",
+  "source_byte_guard_not_source_truth_or_prediction_certification": true,
+  "whole_Jinglan_or_final_auxiliary_complete": false,
+  "source_cards_creation_status_overridden_only_for_archival_scope": true,
+  "not_B_theme_display_export": true,
+  "all_C02_complete": false,
+  "original_task_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

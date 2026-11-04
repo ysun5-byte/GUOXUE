@@ -1,0 +1,60 @@
+{
+  "id": "project-adopted-SH2021-modern-named-frame",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_exact_version_bounded_cultural_frame",
+  "target": {
+    "component": "rev161_SH2021_named_frame",
+    "files": 460,
+    "manifest_sha256": "0d5f44f50686eec05a414dda4824ff7f54170f0535d1a177a2329c7de40d3363",
+    "freeze_sha256": "8a67686c101675e79faefae1aa23e9d4df5471ca436ea26088938b38b6292857"
+  },
+  "lookup_core_sha256": "f83b85b104f1f990669a404801228e761a2e747318055707bdcd1499076e9970",
+  "composer_core_sha256": "b897f9ae99149d3e2f70f36f4f8475cb2ecbdad3a474537bd9c6087a38aed3b8",
+  "aggregate_acceptance": {
+    "component": "rev163_SH2021_acceptance",
+    "files": 3,
+    "manifest_sha256": "e2518025a5760fde82df64ca3f225d16ee556b84a3e3003fc8d091e3dea79084",
+    "freeze_sha256": "561c08aecd6e09733c8b878361758c21e6792a852acaedde09b16a66050a45e5",
+    "report_sha256": "04c2d37c9b3899f99b5c3eee9cf29c9d0203dda91d3d5c7b7f8230f215581823"
+  },
+  "independent_review": {
+    "component": "rev163_SH2021_independent",
+    "files": 17,
+    "manifest_sha256": "5d22f7cbe60ab1c04d703868174962a1233849537cbaa97deab76731af836acd",
+    "freeze_sha256": "7ba667b7dbf602cdadcf0e5513adb31a82e8e1f3e01e1ec59e1d6cb0d25c4909"
+  },
+  "selected_frame": {
+    "id": "Shanghai-Liu2021-explicit-modern-named-culture-frame",
+    "region_ref": {
+      "namespace": "cn-admin-code-named-region-project-versioned",
+      "id": "310000",
+      "version": "research-sh-liu2021-yugong-modern-named-municipality-mca2024-v1"
+    },
+    "decision": "Adopt the explicitly selected modern Shanghai named cultural interpretation, under its own exact data version.",
+    "source_url": "https://www.qunzh.com/qzxlk/dzxt/2021/202103/202107/t20210705_96235.html",
+    "source_title": "和合南北的淮扬文化",
+    "author": "刘怀玉",
+    "edition": "群众·大众学堂2021年第3期",
+    "web_publication_date": "2021-07-05",
+    "scope_locator": "Second paragraph first sentence about Yugong Yangzhou; unqualified modern Shanghai list item.",
+    "source_layer": "Modern cultural-history explanation published by a party journal; not an official metaphysics standard or an ancient GIS survey.",
+    "interpretation_boundary": "Project selection of a modern named municipality in that cultural frame; not proof of every historical parcel, paper issue release date, or universal scholarly agreement.",
+    "mapping": "yang -> 火 from the separately retained Sanming cultural mapping, not from this article.",
+    "do_not_merge": [
+      "Later same-paragraph Huaiyang/Huainan historical frames",
+      "Economic-status analogy to Shanghai",
+      "2021-08-24 same-article repost as independent evidence",
+      "Partial areas south of the Huai River in Jiangsu/Anhui or partial Guangdong as whole provinces"
+    ],
+    "dates_not_presence": true,
+    "point_policy": "Versioned coarse WGS84 proxy; neither exact GPS nor geometric centroid."
+  },
+  "old_versions_remain_addressable": true,
+  "auto_latest_allowed": false,
+  "whole_china_or_all_historical_SH_closed": false,
+  "C20_D2_C0_and_B_P_unchanged": true,
+  "real_effect_or_prediction_validated": false,
+  "original_task_complete": false,
+  "progress_delta": "0.00"
+}

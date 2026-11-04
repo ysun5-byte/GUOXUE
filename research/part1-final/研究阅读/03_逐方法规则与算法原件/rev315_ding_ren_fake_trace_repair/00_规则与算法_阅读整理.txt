@@ -1,0 +1,2895 @@
+丁壬假化有效机制的完整作用与全参数族
+rev315_ding_ren_fake_trace_repair
+所属原模块：C02
+当前采用：rev316_DingRen_fake_whole_project_adoption.json
+范围：四具名合法条件组合；原角色/ROOT/HAP与全部正负作用、全theta线性根恢复族和全部稳健H。共同人任务代理明确非旧局部图，不定传统主次，不接显示。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev315_ding_ren_fake_trace_repair/algorithm_explanations_and_actual_IO_binding.json
+SHA256：aa76c614db1c06daf6f8fecc7cb9a6d2f0775aff4889e0584330f73a213e74ac
+
+1. 305-ALG-01
+算法标识：305-ALG-01
+file：extension_model.py
+function：canonical
+signature：canonical(value)
+line：31
+function_AST_sha256：463a7bb8ae95cd482b6b2bc0023411fe7d7beed3f06589df3d88f2696b68875d
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：One deterministic strict JSON protocol for native API and CLI values.
+exact_algorithm_and_reason：Strict deterministic JSON; no result normalization before API/CLI equality.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::canonical",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+2. 305-ALG-02
+算法标识：305-ALG-02
+file：extension_model.py
+function：pairs
+signature：pairs(items)
+line：35
+function_AST_sha256：1bcb9d08d9910641614f59f552b0e1c921ac5aca7b08d2eb3d9354ef92a12dc9
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Reject duplicate keys at every JSON depth before any source or math work.
+exact_algorithm_and_reason：Duplicate-key failure precedes model work; every nested JSON object uses the same hook.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::pairs",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+3. 305-ALG-03
+算法标识：305-ALG-03
+file：extension_model.py
+function：nonfinite
+signature：nonfinite(value)
+line：43
+function_AST_sha256：3086f064acea648769686da8518b68cace6fc5817cb0c276852f19c4c2a15309
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Reject NaN and infinities as invalid request values.
+exact_algorithm_and_reason：Every NaN/Infinity token is rejected; no float coercion.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::nonfinite",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+4. 305-ALG-04
+算法标识：305-ALG-04
+file：extension_model.py
+function：strict_load
+signature：strict_load(text)
+line：47
+function_AST_sha256：3700bd26c9f7efb057cd7c7e3df0862a569b7ce823fd1f926290b0ee2946828a
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Apply a 5000-character public bound; deep input is atomically rejected by main.
+exact_algorithm_and_reason：Read <=5000 characters, strict JSON hooks; RecursionError handled by publicmain.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::strict_load",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+5. 305-ALG-05
+算法标识：305-ALG-05
+file：extension_model.py
+function：validate
+signature：validate(request)
+line：52
+function_AST_sha256：e056dc46f93a05bd8427b30afb018887be3ac4ecfb9476950fa36125fca5a7e8
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Only a named source profile and four raw, legal-format pillars enter.
+exact_algorithm_and_reason：Exact {schema,profile,raw_pillars}; no theta/force/actor/H/ready overrides.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::validate",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+6. 305-ALG-06
+算法标识：305-ALG-06
+file：extension_model.py
+function：verify_manifest
+signature：verify_manifest(base, manifest)
+line：61
+function_AST_sha256：85b2b7e6b58bdf5651379b61f6b19fc22cf22999e07cd29925b3826e7b38a011
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Verify every immutable inherited payload entry without executing its provider.
+exact_algorithm_and_reason：All inherited manifest rows must match exact bytes/hash; no provider execution here.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::verify_manifest",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+7. 305-ALG-07
+算法标识：305-ALG-07
+file：extension_model.py
+function：guard
+signature：guard()
+line：69
+function_AST_sha256：dea6af6f47f63539bf3fcfb62869ff969a48e2f1e35669ae587dd17530d3eb24
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Check all source/runtime bytes and nested freeze links before any exec.
+Selected provenance is never represented as a copied complete 1180-file parent.
+exact_algorithm_and_reason：Source lock exact SHA + fixed semantic anchors + inherited manifest/freeze checks before every module exec.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::guard",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+8. 305-ALG-08
+算法标识：305-ALG-08
+file：extension_model.py
+function：load_module
+signature：load_module(name, rel, material)
+line：91
+function_AST_sha256：85fb84ea095960e241e52e574e6f2cf5524bcdbfcf6c2755fed1bdc2e490fc5c
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Execute an isolated module from bytes already checked by the complete guard.
+exact_algorithm_and_reason：Only already-verified material bytes compiled with local __file__; isolated namespace, no dependency path fallback.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::load_module",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+9. 305-ALG-09
+算法标识：305-ALG-09
+file：extension_model.py
+function：source_inventory
+signature：source_inventory(raw, material)
+line：97
+function_AST_sha256：916d78ad1ab82b7b5285cd905e1ffed6091fa028da119e4281fc4b80f8dd1435
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Keep native ROOT02/HAP ledgers; choose the Ren source before any new math.
+exact_algorithm_and_reason：Native legal/HAP facts first, then exact finite Ren predicate and all source consumption. Different source task -> zero math/Hnull.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::source_inventory",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+10. 305-ALG-10
+算法标识：305-ALG-10
+file：extension_model.py
+function：roots
+signature：roots(raw, material)
+line：127
+function_AST_sha256：2c4a31283329b869f2a9adaa586e6a22d1a8a0613ca040d5b50f36c2dec6ff43
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Get all four-element, four-origin qualifications in the named Ren school.
+ROOT02 comparison remains alongside each Ren decision; no earth phase borrowed.
+exact_algorithm_and_reason：16 Ren qualifications with same-origin identity; monthly3/2; original ROOT02 comparison separate. No earth qualification in active set.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::roots",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+11. 305-ALG-11
+算法标识：305-ALG-11
+file：extension_model.py
+function：signed_edges
+signature：signed_edges(full)
+line：143
+function_AST_sha256：526a2d8224f3d476a46d484a292c50366d09db229df80a1bd41589479316ae9d
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Preserve every positive/negative port and carrier/distance even if marginal H is zero.
+exact_algorithm_and_reason：15 actual functional edges retain original carriers/distances/current signed budgets, including zero current edges.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::signed_edges",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+trace_repair315：year_pool sends selected_year_current_pool_credit; off=zero, Ainventory remains. Physicalyear0->day2 distance2; no spatialreach because pre-existing co-owned personpool proxy.
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+12. 305-ALG-12
+算法标识：305-ALG-12
+file：extension_model.py
+function：world
+signature：world(qualified, a, b, h, math)
+line：172
+function_AST_sha256：3db9304bc06a9e93696acd9bc16dc249b84befa12fd56ab30efcdae49baee928
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Compute one complete theta-family world and all full-origin witnesses.
+exact_algorithm_and_reason：8 independent positive packages combined; alltheta exact family + full-origin witnesses + second definition substitution.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::world",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+13. 305-ALG-13
+算法标识：305-ALG-13
+file：extension_model.py
+function：all_H
+signature：all_H(worlds)
+line：193
+function_AST_sha256：dbda669b13014a2c0489d1e26121beb8c43168ac2501e684d83800aa62e61510
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Enumerate every support and all supersets against every hard theta-family goal.
+exact_algorithm_and_reason：Safe(S) iff every superset world meets every hard goal for every theta. Return every inclusion-minimal safe S and exact monotone CNF.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::all_H",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+14. 305-ALG-14
+算法标识：305-ALG-14
+file：extension_model.py
+function：auxiliary
+signature：auxiliary(whole, worlds, material)
+line：207
+function_AST_sha256：60929bb79462964c94145f95f063d292819013a3151fd9cc9acf6b83cbd8603c
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Use inherited AUX on the exact all-world robust CNF and all actual signed edges.
+CNF tasks explain finite-model coverage; they are not substituted classical quotes.
+exact_algorithm_and_reason：Native strict7field tasks consume proved CNF coverage plus all actual signed effects; independent allminimal H equality checked.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::auxiliary",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+15. 305-ALG-15
+算法标识：305-ALG-15
+file：extension_model.py
+function：evaluate
+signature：evaluate(request)
+line：237
+function_AST_sha256：564591d71ac3d3b661def8329984a51f711757bda4f778a0e78a86e3264fb9c8
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Guard -> strict raw -> native/source -> Ren roots -> all worlds -> all H.
+A source gap returns no world and no H; no ordinary-failure school switch.
+exact_algorithm_and_reason：guard -> raw -> native/source -> Ren -> math all8 -> allH -> AUX. Source not selected from H success.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::evaluate",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+16. 305-ALG-16
+算法标识：305-ALG-16
+file：extension_model.py
+function：main
+signature：main()
+line：256
+function_AST_sha256：d71f97dbfe1befc871d3b957480f680d8e030f0ccc8390746b9b629c969a8ed9
+module_sha256：a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91
+explanation：Atomic public CLI; deep1500 within5000 also exits2 with one JSON line/no stderr.
+exact_algorithm_and_reason：Atomic rejection: exit2, one JSON line, no stderr; deep1500/3001characters permanently tested.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "extension_model.py::main",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+17. 305-ALG-17
+算法标识：305-ALG-17
+file：transform_math.py
+function：pack
+signature：pack(value)
+line：13
+function_AST_sha256：ba36494d2b0e306287c7662f98a47865772e2e97541d159f25e94977f1651bcf
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Encode exact rational scalars and preserve every nested origin key.
+exact_algorithm_and_reason：Exact Fraction -> canonical rational string; unknown root retains polynomial/isolation, never midpoint result.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::pack",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+18. 305-ALG-18
+算法标识：305-ALG-18
+file：transform_math.py
+function：total
+signature：total(port)
+line：20
+function_AST_sha256：a9f10a1fb04e45666e16a79b1c41079d93005f88db24284dfee72ac69abc6c5a
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Add distinct origin values exactly; paths must already be coalesced.
+exact_algorithm_and_reason：sum distinct coalesced origins; never sum duplicate root links.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::total",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+19. 305-ALG-19
+算法标识：305-ALG-19
+file：transform_math.py
+function：scale
+signature：scale(port, gain)
+line：24
+function_AST_sha256：52782b6fe34813f295b1e4c747d92658cdecf4276cd2653b826fe4858d049a6a
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Apply one current stock gain without dropping zero origin witnesses.
+exact_algorithm_and_reason：Same current vector times declared edge gain; zero origin rows remain.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::scale",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+20. 305-ALG-20
+算法标识：305-ALG-20
+file：transform_math.py
+function：merge
+signature：merge(*ports)
+line：28
+function_AST_sha256：84af1ab87f6ca84a69f74a63d6e1b3c6cc27fb542700bcd412c910ef71a695f8
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Take same-origin maximum, never sum aliases of a source.
+exact_algorithm_and_reason：max paths within origin; sum occurs only between different origins.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::merge",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+21. 305-ALG-21
+算法标识：305-ALG-21
+file：transform_math.py
+function：primitive
+signature：primitive(coefficients)
+line：33
+function_AST_sha256：c6ccfa7a00180374505a8ba13346ddf5bbc78821efb3cb64a17dc7a0082b6c6b
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Clear rational denominators and gcd; order is ascending polynomial power.
+exact_algorithm_and_reason：LCM denominators, integer gcd, leading sign positive; polynomial coefficients ascending.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::primitive",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+22. 305-ALG-22
+算法标识：305-ALG-22
+file：transform_math.py
+function：polyval
+signature：polyval(coefficients, x)
+line：43
+function_AST_sha256：ba81ef49f955eb5ab6e9f7a54640f4b622b03f45b3cc1b35398d0a20c29c6483
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Horner evaluation supports rational and integer coefficients.
+exact_algorithm_and_reason：Exact rational Horner evaluation for isolation sign certificates.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::polyval",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+23. 305-ALG-23
+算法标识：305-ALG-23
+file：transform_math.py
+function：isolate
+signature：isolate(coefficients, lower, upper)
+line：49
+function_AST_sha256：d8d3713460cefb01f0a0acd83f8dccc0f59a150c463d833578ce19140216a2e4
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Return an exact rational root or a signed rational isolating interval.
+An irrational root is never represented by the midpoint Fraction.
+exact_algorithm_and_reason：Rational discriminant-square roots exact; irrational root bracket has opposite exact signs and >=112bit refinement.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::isolate",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+24. 305-ALG-24
+算法标识：305-ALG-24
+file：transform_math.py
+function：validate_capacity
+signature：validate_capacity(Q, D, E, K, tau, b=None)
+line：77
+function_AST_sha256：f7fde4703b901d3a66ee081b322d41f56f536d07894c7e99e2b378d18696cb34
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Enforce the corrected complete closed-domain guard, independently of raw source.
+exact_algorithm_and_reason：b0 Q>max(2tau,4D/7+57tau/112); b1 Q>max(2tau,4D/7+tau/112); K/tau<=13/2. Corrected guard preserves old failure.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::validate_capacity",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+25. 305-ALG-25
+算法标识：305-ALG-25
+file：transform_math.py
+function：capacity_polynomial
+signature：capacity_polynomial(Q, D, E, K, tau, theta)
+line：85
+function_AST_sha256：f5c775bf20b8bc094b316d0fdf7587e5e2e6eb13827bbf27a96732fdd8f38b67
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Corrected equation for positive-I branch, including the -8*S*k*I factor.
+exact_algorithm_and_reason：Use F(9S-E)=8SD+(S-E)(2S-I)-8SkI, F=4(tau-I), S=Q+I/16.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::capacity_polynomial",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+26. 305-ALG-26
+算法标识：305-ALG-26
+file：transform_math.py
+function：exact_point
+signature：exact_point(Q, D, E, K, tau, b, theta)
+line：92
+function_AST_sha256：aebd84d2041fea459a64dd86d41995e542c4fb3cf347c92bb2e26ea64006ad00
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Solve all clips at one private rational theta with exact algebra.
+Public callers never supply theta. General positive-I quadratics retain
+their polynomial and isolating interval; rational cases return exact values.
+exact_algorithm_and_reason：Exhaust food0/I0/positive-I; E0 rational reduction, E>0 exact quadratic and legal root; full scalar map checked.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::exact_point",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+27. 305-ALG-27
+算法标识：305-ALG-27
+file：transform_math.py
+function：family
+signature：family(Q, D, E, K, tau, b)
+line：130
+function_AST_sha256：0047f39d3603ab571906cd983f5448297171fc2b7d56b773143a43258f1ce12e
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Describe the entire theta interval by exact phases, not point sampling.
+Monotonicity and the uniform contraction proof apply to every theta.
+exact_algorithm_and_reason：Alltheta analytic phase description; unique for each theta via L<=27/32. Monotone endpoints certify strict body and I0 for admitted family.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::family",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+28. 305-ALG-28
+算法标识：305-ALG-28
+file：transform_math.py
+function：ports
+signature：ports(wood, water, fire, a, b, hidden, theta, point)
+line：166
+function_AST_sha256：ef3f2f94d34f88c892d49dd46515f46925cbe30b48f1c66d48394ef74f7a6b35
+module_sha256：2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4
+explanation：Reconstruct all signed origin stocks using the same current F and I.
+Raw native roles remain in the source ledger; these are functional ports.
+exact_algorithm_and_reason：Same I causes all metal attacks and old-R birth. Same R gives wood birth and Ding restraint. Shared rho then actual sender gains proves origin dominance.
+source：source_research/rules_ten_fields_candidate.json; DR11 text mechanism vs 305-ENG declared engineering; each formula additionally mapped by named function in cards
+source_boundary：Classical text supplies conditions/functions, not these numbers, current response family or shared-rho law.
+实际输入输出：{
+  "path": "actual/function_actual_IO.json",
+  "key": "transform_math.py::ports",
+  "args_and_return_bound": true,
+  "encoding": "Rationals exact; source bytes by actual SHA/length, modules by exact local material binding; entire plain port inputs/outputs retained."
+}
+validation：actual/normal_verification.json; private_verification.json; strict_actual.json; source_guard_actual.json; private_full_graph_actual.json
+conditions_and_exclusions：Only exact finite named source profile in public; private capacities/edge cuts do not create new classical cases.
+conflict_policy：Named Ren school selected before math; original Primary/SMTH alternatives and unresolved true-transform scope remain.
+real_prediction_validation：false
+trace_repair315：Two new explicitly licensed diagnostic vectors; old28ports formula/current values unchanged. Qualification beforeload separate from post-load support witness; no recursion.
+315_real_IO_binding：actual/function_actual_IO.json current315moduleSHA and own whole native outputs.
+
+原件：work/rev315_ding_ren_fake_trace_repair/source_research/rules_ten_fields_candidate.json
+SHA256：3b0498f6cc3aee4d2f64c6bb99d47e388759bab82f5d57945c1b0611f624bc89
+
+1. DR01
+算法标识：DR01
+proposition：{
+  "layer": "原文与明例支持的受限解释",
+  "claim": "从化先核具名来源及实际条件，不能由普通题失败转入；月令无用不得改写成月ROOT数值为零。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "Primary",
+    "edition": "NLC上海世界图书馆发行本，年未定",
+    "URL": "https://commons.wikimedia.org/wiki/File:NLC416-11jh010455-35296_子平真詮.pdf",
+    "original": {
+      "path": "originals/Primary_WorldLibrary.pdf",
+      "bytes": 7126096,
+      "sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+    },
+    "PDF_pages": [
+      93,
+      94
+    ],
+    "printed_locators": [
+      "书84",
+      "书85"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/0",
+    "image": {
+      "path": "images/Primary-093.png",
+      "bytes": 132135,
+      "sha256": "09a4bf98a26801b7e2bd6e5af2643745154f7d5ab1ef0efaf0ab22457e5dbc65"
+    },
+    "original_meaning_paraphrase": "杂格总入口月令无用；实财官不强取外格；一方秀气另途；末从化起句须接94。",
+    "recorded_boundary": "不把月令无用译成无ROOT数字，明例与原任务一起核。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/1",
+    "image": {
+      "path": "images/Primary-094.png",
+      "bytes": 134448,
+      "sha256": "ed6623d1f3c88e0d23f66c9fd4ced5e500481157bc38f9ee6f0d20ba1baf43b0"
+    },
+    "original_meaning_paraphrase": "从化续：得时乘令、四支局全，丁壬木全亥卯未或寅卯辰、春月上贵/亥未次等；明列甲戌丁卯壬寅甲辰；喜所化物、化印，财伤亦可，不利官煞。",
+    "recorded_boundary": "从化主段93末—94开，95不是该段。源例含辰戌冲/卯戌合及原根，不能统一outside或按ROOT正量否化。"
+  }
+]
+conditions：[
+  "先分从化原章与普通财官题",
+  "结合Primary93末和94续文、明例判读，不凭孤句"
+]
+applicability：原PRIMARY-TRANSFORM范围；本305先保来源准入先于数值/H的顺序。
+exclusions：[
+  "月ROOT正量一票否定全部化",
+  "ordinary失败后换学校求H",
+  "把正文未给出的ROOT数字当原句"
+]
+conflict_school_choice：Primary与Ren分别设profile；本次数值第一支选Ren388，不替主本从化全部定版。
+algorithm_mapping：{
+  "planned_responsibility": "source_gate先于ROOT有效力计算/whole/H；保原native事实",
+  "original_scope": [
+    "PRIMARY-TRANSFORM"
+  ]
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "正向保明示化例，不因月支有根删除",
+    "反向源条件缺失时具体退出，不宣所有意义不化",
+    "正式源门和零执行证据待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+2. DR02
+算法标识：DR02
+proposition：{
+  "layer": "文字明示与明例导出的有限任务",
+  "claim": "主本丁壬化木要求得时乘令、四支局全；明列甲戌丁卯壬寅甲辰，形式冲合不能一律当outside消灭正域。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "Primary",
+    "edition": "NLC上海世界图书馆发行本，年未定",
+    "URL": "https://commons.wikimedia.org/wiki/File:NLC416-11jh010455-35296_子平真詮.pdf",
+    "original": {
+      "path": "originals/Primary_WorldLibrary.pdf",
+      "bytes": 7126096,
+      "sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+    },
+    "PDF_pages": [
+      93,
+      94
+    ],
+    "printed_locators": [
+      "书84",
+      "书85"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/0",
+    "image": {
+      "path": "images/Primary-093.png",
+      "bytes": 132135,
+      "sha256": "09a4bf98a26801b7e2bd6e5af2643745154f7d5ab1ef0efaf0ab22457e5dbc65"
+    },
+    "original_meaning_paraphrase": "杂格总入口月令无用；实财官不强取外格；一方秀气另途；末从化起句须接94。",
+    "recorded_boundary": "不把月令无用译成无ROOT数字，明例与原任务一起核。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/1",
+    "image": {
+      "path": "images/Primary-094.png",
+      "bytes": 134448,
+      "sha256": "ed6623d1f3c88e0d23f66c9fd4ced5e500481157bc38f9ee6f0d20ba1baf43b0"
+    },
+    "original_meaning_paraphrase": "从化续：得时乘令、四支局全，丁壬木全亥卯未或寅卯辰、春月上贵/亥未次等；明列甲戌丁卯壬寅甲辰；喜所化物、化印，财伤亦可，不利官煞。",
+    "recorded_boundary": "从化主段93末—94开，95不是该段。源例含辰戌冲/卯戌合及原根，不能统一outside或按ROOT正量否化。"
+  }
+]
+conditions：[
+  "依该版春/亥未、亥卯未或寅卯辰具体文字",
+  "源例四柱原字和正式关系需另存事实账"
+]
+applicability：主本真化原项；仍待完整冲合、原丁及化神全作用研究。
+exclusions：[
+  "见丁壬合即真化",
+  "见辰就真化",
+  "仅缺丙就充分",
+  "将辰戌冲、卯戌合直接判现实无害"
+]
+conflict_school_choice：该主本条件不强塞Ren388假化；形式关系的存在可由原字核对，如何消费尚须独立准入。
+algorithm_mapping：{
+  "planned_responsibility": "主本source profile、完整关系任务和原始ROOT账",
+  "original_scope": [
+    "PRIMARY-TRANSFORM"
+  ],
+  "implementation_in_first_numeric_branch": false
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "主本明例保留作真化正源",
+    "改动时令、完整木方或关系需重新核源，不用旧负域凑正例",
+    "数值实施仍待后续原项"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+3. DR03
+算法标识：DR03
+proposition：{
+  "layer": "原典学校冲突记录",
+  "claim": "主本化后喜所化物/化印、财伤亦可而不利官煞；三命另载金为官的丁壬说，分别保存。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "Primary",
+    "edition": "NLC上海世界图书馆发行本，年未定",
+    "URL": "https://commons.wikimedia.org/wiki/File:NLC416-11jh010455-35296_子平真詮.pdf",
+    "original": {
+      "path": "originals/Primary_WorldLibrary.pdf",
+      "bytes": 7126096,
+      "sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+    },
+    "PDF_pages": [
+      94
+    ],
+    "printed_locators": [
+      "书85"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  },
+  {
+    "profile": "SMTH",
+    "edition": "NLC94145近代校本；1926/文明书局/秦慎安仅继承Commons metadata，刊记未新核",
+    "URL": "https://commons.wikimedia.org/wiki/File:NLC416-13jh000156-94145_三命通會.pdf",
+    "original": {
+      "path": "originals/SMTH_NLC94145_1926_metadata_provisional.pdf",
+      "bytes": 18622972,
+      "sha256": "c6eac6fca6411e45cb801f9b771aca6dd6a6d2dfb57ecc36ea5f42ecf1ac8bf9"
+    },
+    "PDF_pages": [
+      129
+    ],
+    "printed_locators": [
+      "卷二51"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/1",
+    "image": {
+      "path": "images/Primary-094.png",
+      "bytes": 134448,
+      "sha256": "ed6623d1f3c88e0d23f66c9fd4ced5e500481157bc38f9ee6f0d20ba1baf43b0"
+    },
+    "original_meaning_paraphrase": "从化续：得时乘令、四支局全，丁壬木全亥卯未或寅卯辰、春月上贵/亥未次等；明列甲戌丁卯壬寅甲辰；喜所化物、化印，财伤亦可，不利官煞。",
+    "recorded_boundary": "从化主段93末—94开，95不是该段。源例含辰戌冲/卯戌合及原根，不能统一outside或按ROOT正量否化。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/6",
+    "image": {
+      "path": "images/SMTH-129.png",
+      "bytes": 149529,
+      "sha256": "73cbfceaba6237ce3dbd65ad737b334a1c9fb152cda5d6114531204368321c76"
+    },
+    "original_meaning_paraphrase": "丁壬亥卯未月、次正月、柱丙不化；见甲寅受气临官；又曰金为官、丙辛为福；甲辰时寅卯月成象、怕午申时。",
+    "recorded_boundary": "主本不利官煞与金官另校；丙不化/丙辛为福条件不合成一条；多月说不投票定真伪。"
+  }
+]
+conditions：[
+  "先选明确版本/条文支系",
+  "辨化前原日十神与化后功能"
+]
+applicability：喜忌及金作用的学校比较；不合成单一通用金好坏表。
+exclusions：[
+  "拿三命金官替主本官杀限制补洞",
+  "只保金一个有利方向",
+  "由化字预贴H或等级"
+]
+conflict_school_choice：Primary不利官煞与SMTH金官不能无条件并用；本次数值采用Ren388丁制浮辛机制，不能声称三校已统一。
+algorithm_mapping：{
+  "planned_responsibility": "profile固定、signed_role选择与源冲突账",
+  "not_a_numeric_coefficient_source": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "同一金可在不同源口径任务不同",
+    "新增金或强金根先核该源全部功能，不只比H",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+4. DR04
+算法标识：DR04
+proposition：{
+  "layer": "集录条文边界",
+  "claim": "合不等于化；月、时旺、辰与他干等条件分条核对，逐月表与分段正文保其张力。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "SMTH",
+    "edition": "NLC94145近代校本；1926/文明书局/秦慎安仅继承Commons metadata，刊记未新核",
+    "URL": "https://commons.wikimedia.org/wiki/File:NLC416-13jh000156-94145_三命通會.pdf",
+    "original": {
+      "path": "originals/SMTH_NLC94145_1926_metadata_provisional.pdf",
+      "bytes": 18622972,
+      "sha256": "c6eac6fca6411e45cb801f9b771aca6dd6a6d2dfb57ecc36ea5f42ecf1ac8bf9"
+    },
+    "PDF_pages": [
+      127,
+      128,
+      129,
+      130,
+      131
+    ],
+    "printed_locators": [
+      "卷二49",
+      "卷二50",
+      "卷二51",
+      "卷二52",
+      "卷二53"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/4",
+    "image": {
+      "path": "images/SMTH-127.png",
+      "bytes": 142632,
+      "sha256": "6cb8df5352638addadc68d3ac0b632bcefe73796ac76b8c14382348761d7b5e1"
+    },
+    "original_meaning_paraphrase": "前段合须和气/神助及合中损伤；转论十干化气，五运所化与丁壬亥卯未。",
+    "recorded_boundary": "NLC94145近代校印；1926文明书局/秦慎安是旧metadata，尚未新核刊记，不冒明原刻。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/5",
+    "image": {
+      "path": "images/SMTH-128.png",
+      "bytes": 164571,
+      "sha256": "4c3549d8bb4a08da9c66b068d0ec5bfa63bb7d1881ab257f4c89267b7973cd69"
+    },
+    "original_meaning_paraphrase": "妬化诸式/日干配合可取年月时；丁壬木若柱癸并子成水不成木；月/时旺气的许与限。",
+    "recorded_boundary": "妬化与沈本两丁争壬不同。缺丙不充分；时旺许可不能被单月表删。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/6",
+    "image": {
+      "path": "images/SMTH-129.png",
+      "bytes": 149529,
+      "sha256": "73cbfceaba6237ce3dbd65ad737b334a1c9fb152cda5d6114531204368321c76"
+    },
+    "original_meaning_paraphrase": "丁壬亥卯未月、次正月、柱丙不化；见甲寅受气临官；又曰金为官、丙辛为福；甲辰时寅卯月成象、怕午申时。",
+    "recorded_boundary": "主本不利官煞与金官另校；丙不化/丙辛为福条件不合成一条；多月说不投票定真伪。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/7",
+    "image": {
+      "path": "images/SMTH-130.png",
+      "bytes": 116349,
+      "sha256": "0749445bb04f9885a11aab31ddc3eaf3c2e38aec446c5a1f948eac4fc0768728"
+    },
+    "original_meaning_paraphrase": "坐下自化壬午丁亥等；逐月正至六月，三月丁壬不化、四五月列化木。",
+    "recorded_boundary": "表与月段有张力，保木原字不按网录火改；坐下字不等永远真化。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/8",
+    "image": {
+      "path": "images/SMTH-131.png",
+      "bytes": 124268,
+      "sha256": "ae5e5bcd0410988974141c8fdbb3b21cb9f657b1b63cfe15459a1ded447d5081"
+    },
+    "original_meaning_paraphrase": "逐月七至十二：七木/八不化/九火/十十一木/十二不化；承接支元六合。",
+    "recorded_boundary": "集录不同说分条，未裁一份全月份充分算法。"
+  }
+]
+conditions：[
+  "用NLC94145实际127–131页",
+  "分辨合、妬化、化气、坐下及逐月表，不混段"
+]
+applicability：三命通会比较支系；尚未裁成所有月份的充分算法。
+exclusions：[
+  "以单月表否定所有时旺许可",
+  "按网络录文把影印木字改火",
+  "缺丙即真或所有合会outside"
+]
+conflict_school_choice：近代校本1926等刊记仅继承metadata，未冒明刻；矛盾分条保留，不投票选一个通用月份表。
+algorithm_mapping：{
+  "planned_responsibility": "三命source task分支、具体未闭条款",
+  "first_Ren_numeric_branch": "比较边界，非本支运行profile"
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "合法化正域不能全被形式关系统一排除",
+    "换月份必须核对应条文全条件",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+5. DR05
+算法标识：DR05
+proposition：{
+  "layer": "有条件的原文命题",
+  "claim": "柱丙不化、丙辛为福、癸并子成水及坐下自化各附自身条件，不据一条抹掉另一条。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "SMTH",
+    "edition": "NLC94145近代校本；1926/文明书局/秦慎安仅继承Commons metadata，刊记未新核",
+    "URL": "https://commons.wikimedia.org/wiki/File:NLC416-13jh000156-94145_三命通會.pdf",
+    "original": {
+      "path": "originals/SMTH_NLC94145_1926_metadata_provisional.pdf",
+      "bytes": 18622972,
+      "sha256": "c6eac6fca6411e45cb801f9b771aca6dd6a6d2dfb57ecc36ea5f42ecf1ac8bf9"
+    },
+    "PDF_pages": [
+      128,
+      129,
+      130
+    ],
+    "printed_locators": [
+      "卷二50",
+      "卷二51",
+      "卷二52"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/5",
+    "image": {
+      "path": "images/SMTH-128.png",
+      "bytes": 164571,
+      "sha256": "4c3549d8bb4a08da9c66b068d0ec5bfa63bb7d1881ab257f4c89267b7973cd69"
+    },
+    "original_meaning_paraphrase": "妬化诸式/日干配合可取年月时；丁壬木若柱癸并子成水不成木；月/时旺气的许与限。",
+    "recorded_boundary": "妬化与沈本两丁争壬不同。缺丙不充分；时旺许可不能被单月表删。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/6",
+    "image": {
+      "path": "images/SMTH-129.png",
+      "bytes": 149529,
+      "sha256": "73cbfceaba6237ce3dbd65ad737b334a1c9fb152cda5d6114531204368321c76"
+    },
+    "original_meaning_paraphrase": "丁壬亥卯未月、次正月、柱丙不化；见甲寅受气临官；又曰金为官、丙辛为福；甲辰时寅卯月成象、怕午申时。",
+    "recorded_boundary": "主本不利官煞与金官另校；丙不化/丙辛为福条件不合成一条；多月说不投票定真伪。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/7",
+    "image": {
+      "path": "images/SMTH-130.png",
+      "bytes": 116349,
+      "sha256": "0749445bb04f9885a11aab31ddc3eaf3c2e38aec446c5a1f948eac4fc0768728"
+    },
+    "original_meaning_paraphrase": "坐下自化壬午丁亥等；逐月正至六月，三月丁壬不化、四五月列化木。",
+    "recorded_boundary": "表与月段有张力，保木原字不按网录火改；坐下字不等永远真化。"
+  }
+]
+conditions：[
+  "分别指明来源页及完整条件",
+  "区别单丙、丙辛并见、癸子、坐下等构式"
+]
+applicability：三命丁壬条件与旧233丙阻不化域的比较。
+exclusions：[
+  "旧233负域冒当前真/假化正域完整结果",
+  "不见丙便自动成木",
+  "坐下字无条件覆盖他干根/岁月条件"
+]
+conflict_school_choice：丙不化与丙辛为福须分条，不能把不同条件并成自相矛盾的单一规则；本支不接这些他干。
+algorithm_mapping：{
+  "planned_responsibility": "不同他干构式的源先行gate及具体缺口",
+  "original_scope": [
+    "PRIMARY-TRANSFORM",
+    "REN-TRANSFORM-丁壬"
+  ],
+  "new_positive_branch_not_233_replay": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "单丙负构式保旧结果范围",
+    "新增辛或癸子需新足域，不靠旧结论猜值",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+6. DR06
+算法标识：DR06
+proposition：{
+  "layer": "化气本题与载体条件",
+  "claim": "化气论日干参与，其合神可在年/月/时，月旺和时旺许可按文中条件分别论。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "SMTH",
+    "edition": "NLC94145近代校本；1926/文明书局/秦慎安仅继承Commons metadata，刊记未新核",
+    "URL": "https://commons.wikimedia.org/wiki/File:NLC416-13jh000156-94145_三命通會.pdf",
+    "original": {
+      "path": "originals/SMTH_NLC94145_1926_metadata_provisional.pdf",
+      "bytes": 18622972,
+      "sha256": "c6eac6fca6411e45cb801f9b771aca6dd6a6d2dfb57ecc36ea5f42ecf1ac8bf9"
+    },
+    "PDF_pages": [
+      128
+    ],
+    "printed_locators": [
+      "卷二50"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/5",
+    "image": {
+      "path": "images/SMTH-128.png",
+      "bytes": 164571,
+      "sha256": "4c3549d8bb4a08da9c66b068d0ec5bfa63bb7d1881ab257f4c89267b7973cd69"
+    },
+    "original_meaning_paraphrase": "妬化诸式/日干配合可取年月时；丁壬木若柱癸并子成水不成木；月/时旺气的许与限。",
+    "recorded_boundary": "妬化与沈本两丁争壬不同。缺丙不充分；时旺许可不能被单月表删。"
+  }
+]
+conditions：[
+  "明示日干是谁、合神在哪个原位置",
+  "年月时距离与根势不得交换"
+]
+applicability：三命化气题；本305选壬日方向，不将同式丁日自动等同。
+exclusions：[
+  "把两非日干合直接当日主从化",
+  "把合神限制只许月干",
+  "移动角色位置沿用旧距离"
+]
+conflict_school_choice：本次数值日位化神木port采用是另有声明的工程准入；这条源文不提供木port数值或距离系数。
+algorithm_mapping：{
+  "planned_responsibility": "raw carrier/日主参与检查；原坐标保留",
+  "numeric_role_assignment_is_separate": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "原日壬与月丁保原坐标",
+    "将日干或合神位置改变即重核源及全图",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+7. DR07
+算法标识：DR07
+proposition：{
+  "layer": "任注与原注分层解释",
+  "claim": "真化审化神元神、虚实、余不足，不把逢龙当唯一充分条件；春壬带辰仍有真化明例。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "Ren1947",
+    "edition": "李雨田校订/发行1947年4月初版；任注与李补入层分开",
+    "URL": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf",
+    "original": {
+      "path": "originals/Ren1947.pdf",
+      "bytes": 14751242,
+      "sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803"
+    },
+    "PDF_pages": [
+      374,
+      375,
+      376,
+      378
+    ],
+    "printed_locators": [
+      "卷三98",
+      "卷三99",
+      "卷三100",
+      "卷三102"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/9",
+    "image": {
+      "path": "images/Ren-374.png",
+      "bytes": 86920,
+      "sha256": "725ca86906cfc29bdcad27d8fdd5afc98cd6064527ec6614354e67c9f837deeb"
+    },
+    "original_meaning_paraphrase": "化象题与原注：丁壬春独自合得龙为真化示意；化后审化神喜忌/旺衰/寒暖。",
+    "recorded_boundary": "不是见辰足以真化；原注/任氏曰另层，非全部五化已核。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/10",
+    "image": {
+      "path": "images/Ren-375.png",
+      "bytes": 104766,
+      "sha256": "972e8faafbdb152f3c4d4a02c2403c8f075ee94460f483af8ac7027c0f1eedb0"
+    },
+    "original_meaning_paraphrase": "原注续及任氏曰五行十干相合、配辰元神发露说。",
+    "recorded_boundary": "接376反仅逢龙之论；不得转换为未见数值表。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/11",
+    "image": {
+      "path": "images/Ren-376.png",
+      "bytes": 114399,
+      "sha256": "644b7a4c2d4e3f27bbb1da9cc582a6ff405242530e39d4c272d43bec71e967f3"
+    },
+    "original_meaning_paraphrase": "任注逢龙亦逢虎可化；按化神作用审表旺虚实，有余宜泄/不足宜助，须具体金水气候。",
+    "recorded_boundary": "根资格正量不是有余/不足充分判据；不混主本阴长生/任根口径。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/13",
+    "image": {
+      "path": "images/Ren-378.png",
+      "bytes": 76936,
+      "sha256": "dd4046b06be1c48b001a98533efc8e09bc3f2e387f6502bd392d3d545a8e7ad0"
+    },
+    "original_meaning_paraphrase": "丁壬真例己卯丁卯壬午甲辰；仲春甲元神透，化气有余宜泄，午火发辰秀；中运金水混化未显秩。",
+    "recorded_boundary": "形成不等显达结果；带辰水墓资格仍许真，不能ROOT>0一票否。"
+  }
+]
+conditions：[
+  "原注与任氏曰分层",
+  "结合374–376理论与378具体命例",
+  "ROOT资格不代替化神当前有效力"
+]
+applicability：Ren真化原项；甲参照、时令与完整功能需个案核定。
+exclusions：[
+  "见辰唯一判真",
+  "逢虎全排除",
+  "原水墓资格正量一票否定真化",
+  "借未证Ren土phase完成己土量化"
+]
+conflict_school_choice：Ren根口径与主本阴长生等根类别不混；本支不替原ROOT表打补丁。
+algorithm_mapping：{
+  "planned_responsibility": "Ren source profile、原始资格与采用/效力三账",
+  "implementation_in_first_numeric_branch": "仅用于源比较；Ren378仍为原未完研究"
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "己卯丁卯壬午甲辰保为真化正源",
+    "强金水或土功能的变化另核，不据命例成真便免全图",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+8. DR08
+算法标识：DR08
+proposition：{
+  "layer": "学校争合口径比较",
+  "claim": "任注反泛争合妒合，提同类/本气相让与多时强弱；不能由此无条件放行全部多合。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "Ren1947",
+    "edition": "李雨田校订/发行1947年4月初版；任注与李补入层分开",
+    "URL": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf",
+    "original": {
+      "path": "originals/Ren1947.pdf",
+      "bytes": 14751242,
+      "sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803"
+    },
+    "PDF_pages": [
+      376,
+      377
+    ],
+    "printed_locators": [
+      "卷三100",
+      "卷三101"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  },
+  {
+    "profile": "SMTH",
+    "edition": "NLC94145近代校本；1926/文明书局/秦慎安仅继承Commons metadata，刊记未新核",
+    "URL": "https://commons.wikimedia.org/wiki/File:NLC416-13jh000156-94145_三命通會.pdf",
+    "original": {
+      "path": "originals/SMTH_NLC94145_1926_metadata_provisional.pdf",
+      "bytes": 18622972,
+      "sha256": "c6eac6fca6411e45cb801f9b771aca6dd6a6d2dfb57ecc36ea5f42ecf1ac8bf9"
+    },
+    "PDF_pages": [
+      128
+    ],
+    "printed_locators": [
+      "卷二50"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/11",
+    "image": {
+      "path": "images/Ren-376.png",
+      "bytes": 114399,
+      "sha256": "644b7a4c2d4e3f27bbb1da9cc582a6ff405242530e39d4c272d43bec71e967f3"
+    },
+    "original_meaning_paraphrase": "任注逢龙亦逢虎可化；按化神作用审表旺虚实，有余宜泄/不足宜助，须具体金水气候。",
+    "recorded_boundary": "根资格正量不是有余/不足充分判据；不混主本阴长生/任根口径。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/12",
+    "image": {
+      "path": "images/Ren-377.png",
+      "bytes": 87843,
+      "sha256": "121fdef845385264f2278a7bb9b80411f8a25a2d75fc4a7f2c5a35cca1373be4"
+    },
+    "original_meaning_paraphrase": "反泛争合妒合；同类/本气可相让，多时仍争强弱；下为甲己真化例。",
+    "recorded_boundary": "沈本争合、三命妬化、任注反争各自条件，不因此全开多合。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/5",
+    "image": {
+      "path": "images/SMTH-128.png",
+      "bytes": 164571,
+      "sha256": "4c3549d8bb4a08da9c66b068d0ec5bfa63bb7d1881ab257f4c89267b7973cd69"
+    },
+    "original_meaning_paraphrase": "妬化诸式/日干配合可取年月时；丁壬木若柱癸并子成水不成木；月/时旺气的许与限。",
+    "recorded_boundary": "妬化与沈本两丁争壬不同。缺丙不充分；时旺许可不能被单月表删。"
+  }
+]
+conditions：[
+  "先选Ren或其他学校",
+  "实列每个合神/本气/竞争及原根任务"
+]
+applicability：争合/妬化研究；当前有限支只许唯一丁壬，不声称解决多合。
+exclusions：[
+  "沈本两丁争壬、三命妬化、任反争全部视同一命题",
+  "多干实体遗漏或借H选学校"
+]
+conflict_school_choice：三个学校条件分别保留；当前多合退出只是未涵盖，不宣现实全部不化。
+algorithm_mapping：{
+  "planned_responsibility": "载体全登记、源口径选择、competition任务",
+  "first_numeric_domain": "唯一月丁与日壬，不全开多合"
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "单对丁壬正域不由全多合禁令清空",
+    "增加另一丁/壬须新源与竞争全作用",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+9. DR09
+算法标识：DR09
+proposition：{
+  "layer": "源命例形成与结果分账",
+  "claim": "真化形成与显达结果不同；例述化气有余宜泄、午火发辰秀，同时中运金水混化未显秩。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "Ren1947",
+    "edition": "李雨田校订/发行1947年4月初版；任注与李补入层分开",
+    "URL": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf",
+    "original": {
+      "path": "originals/Ren1947.pdf",
+      "bytes": 14751242,
+      "sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803"
+    },
+    "PDF_pages": [
+      378
+    ],
+    "printed_locators": [
+      "卷三102"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/13",
+    "image": {
+      "path": "images/Ren-378.png",
+      "bytes": 76936,
+      "sha256": "dd4046b06be1c48b001a98533efc8e09bc3f2e387f6502bd392d3d545a8e7ad0"
+    },
+    "original_meaning_paraphrase": "丁壬真例己卯丁卯壬午甲辰；仲春甲元神透，化气有余宜泄，午火发辰秀；中运金水混化未显秩。",
+    "recorded_boundary": "形成不等显达结果；带辰水墓资格仍许真，不能ROOT>0一票否。"
+  }
+]
+conditions：[
+  "保完整原四柱和原注所述运程语境",
+  "区分本体成立、功能利弊、历史归因"
+]
+applicability：真化源例的研究边界；不以本体模型输出当现实成功验证。
+exclusions：[
+  "真化等于必富贵",
+  "只引有余宜泄删除金水混化负边",
+  "以古例后述当独立现实统计证据"
+]
+conflict_school_choice：本卡只保所读源例叙述，不另验历史事迹；不转旧269负归因为正例。
+algorithm_mapping：{
+  "planned_responsibility": "source/implementation/reality三轴、全signed与成败分账",
+  "not_a_score_rule": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "化体正源可与运中负作用并存",
+    "改强金水要核全功能，不只主张喜火",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+10. DR10
+算法标识：DR10
+proposition：{
+  "layer": "原文分类与日向边界",
+  "claim": "假化有多类并可有效化；丁日与壬日不对称，不能一律把丁壬同时改成木。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "Ren1947",
+    "edition": "李雨田校订/发行1947年4月初版；任注与李补入层分开",
+    "URL": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf",
+    "original": {
+      "path": "originals/Ren1947.pdf",
+      "bytes": 14751242,
+      "sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803"
+    },
+    "PDF_pages": [
+      384,
+      385,
+      386,
+      387,
+      388
+    ],
+    "printed_locators": [
+      "卷三108",
+      "卷三109",
+      "卷三110",
+      "卷三111",
+      "卷三112"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/14",
+    "image": {
+      "path": "images/Ren-384.png",
+      "bytes": 106731,
+      "sha256": "6625282ab23e71a01ebbb82cbb202f5803951b014b8a37d33f025b2154505b1f"
+    },
+    "original_meaning_paraphrase": "假化题、原注、任氏曰：真合与孤弱、不真与无根、化神余/不足、劫印或闲神妨害等多类。",
+    "recorded_boundary": "本批选丁壬具体源族，不冒任氏全部假化分类已解。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/15",
+    "image": {
+      "path": "images/Ren-385.png",
+      "bytes": 113393,
+      "sha256": "b68ddba1e55eb4e5218aa344ec5e07079ac41c54e5d15a083d76074badcab96b"
+    },
+    "original_meaning_paraphrase": "丁日春壬无根可从丁合；若木旺生火则反不从壬化木，比劫助须水制火；有以假成真。",
+    "recorded_boundary": "日干丁与壬不对称，不无条件把两干改木。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/16",
+    "image": {
+      "path": "images/Ren-386.png",
+      "bytes": 78872,
+      "sha256": "fa2ea9a5090c3cc042fdbd07e911b76b806d142ab747f7f8c7b29295795d1a19"
+    },
+    "original_meaning_paraphrase": "甲己等假化例，印杀/火/岁运解除气候妨害的不同。",
+    "recorded_boundary": "比较语境，不直接作丁壬充分构式。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/17",
+    "image": {
+      "path": "images/Ren-387.png",
+      "bytes": 88494,
+      "sha256": "c908b44b93b1ed75c73039baa7bb7d3b3d4522c3d2f3792bb4fcaf319353c65c"
+    },
+    "original_meaning_paraphrase": "甲己假化有情无争/运助化神；下续金水不足例。",
+    "recorded_boundary": "不把他化式有情一词当完整丁壬量化证据。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/18",
+    "image": {
+      "path": "images/Ren-388.png",
+      "bytes": 63463,
+      "sha256": "0444763b42ceaab8864729eddf6c7ecc2fc87ddbd11e5fc3f60472226961dfb5"
+    },
+    "original_meaning_paraphrase": "丁壬假化正例甲辰丁卯壬辰辛亥：仲春甲透；辛浮无根临绝，丁足制辛不使生壬；亥非壬禄旺乃甲长生；南火助，申酉金水破局刑耗。",
+    "recorded_boundary": "保原壬亥资格账而另核本源当前功能，不改ROOT矩阵；印存在/假化都不能直接否有效化。"
+  }
+]
+conditions：[
+  "区分假化题原注、任氏曰及具体例",
+  "明确日干方向、化神余不足和闲神妨害"
+]
+applicability：本次只取Ren388浮辛被丁制的具体假化机制；其他假类原任务保留。
+exclusions：[
+  "假字即全无效",
+  "丁日与壬日交换无影响",
+  "甲己等他化式语词直接作丁壬充分构式"
+]
+conflict_school_choice：386–387他化例是比较上下文，非本支充分源；384分类不由一例代结全部。
+algorithm_mapping：{
+  "planned_responsibility": "source classification先于wood port；原丁火与旧壬水功能保留",
+  "original_scope": [
+    "REN-TRANSFORM-丁壬"
+  ]
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "保388假化有效正源",
+    "改为丁日或旺火/印劫等必须重开具体源任务",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+11. DR11
+算法标识：DR11
+proposition：{
+  "layer": "源文明确机制与后续工程分界",
+  "claim": "388例辛浮受丁制，不能生壬；亥按甲长生的有效功能论。资格、采用与实际效力必须分账。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "Ren1947",
+    "edition": "李雨田校订/发行1947年4月初版；任注与李补入层分开",
+    "URL": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf",
+    "original": {
+      "path": "originals/Ren1947.pdf",
+      "bytes": 14751242,
+      "sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803"
+    },
+    "PDF_pages": [
+      385,
+      388
+    ],
+    "printed_locators": [
+      "卷三109",
+      "卷三112"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/15",
+    "image": {
+      "path": "images/Ren-385.png",
+      "bytes": 113393,
+      "sha256": "b68ddba1e55eb4e5218aa344ec5e07079ac41c54e5d15a083d76074badcab96b"
+    },
+    "original_meaning_paraphrase": "丁日春壬无根可从丁合；若木旺生火则反不从壬化木，比劫助须水制火；有以假成真。",
+    "recorded_boundary": "日干丁与壬不对称，不无条件把两干改木。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/18",
+    "image": {
+      "path": "images/Ren-388.png",
+      "bytes": 63463,
+      "sha256": "0444763b42ceaab8864729eddf6c7ecc2fc87ddbd11e5fc3f60472226961dfb5"
+    },
+    "original_meaning_paraphrase": "丁壬假化正例甲辰丁卯壬辰辛亥：仲春甲透；辛浮无根临绝，丁足制辛不使生壬；亥非壬禄旺乃甲长生；南火助，申酉金水破局刑耗。",
+    "recorded_boundary": "保原壬亥资格账而另核本源当前功能，不改ROOT矩阵；印存在/假化都不能直接否有效化。"
+  }
+]
+conditions：[
+  "甲辰丁卯壬辰辛亥原例",
+  "化神仲春、甲元神透、辛浮无根临绝、丁足制辛",
+  "同一辛current同时用于生壬和克木"
+]
+applicability：Ren388制浮辛不生旧日的有限充分机制；新辰/午与辰/寅变化是明确推论。
+exclusions：[
+  "辛无根当库存零",
+  "亥壬资格删除或Root矩阵改零",
+  "制辛只削坏处保原生日信用",
+  "把古文当1/4或theta公式"
+]
+conflict_school_choice：主本和三命非本条默认补丁；Ren根资格可存在，但该例采用功能与当前效力另核。
+algorithm_mapping：{
+  "planned_responsibility": "固定Ren388源、完整辛/旧壬/丁/木signed；同stock反馈及H",
+  "numeric_law_in_source": false
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "原假化有效例为正源",
+    "断丁控制应同时恢复辛克木及生旧壬",
+    "仅机制目标失败不推所有学校不化",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+12. DR12
+算法标识：DR12
+proposition：{
+  "layer": "版本、读级与完整原任务治理",
+  "claim": "所有引用保版本/页/原件SHA/读级/提取指针与争议；正文、现代录文、旧索引、失败及现实归因分层。"
+}
+source_version_locator_read_grade：[
+  {
+    "profile": "Primary",
+    "edition": "NLC上海世界图书馆发行本，年未定",
+    "URL": "https://commons.wikimedia.org/wiki/File:NLC416-11jh010455-35296_子平真詮.pdf",
+    "original": {
+      "path": "originals/Primary_WorldLibrary.pdf",
+      "bytes": 7126096,
+      "sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+    },
+    "PDF_pages": [
+      95,
+      96
+    ],
+    "printed_locators": [
+      "书86",
+      "书87"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  },
+  {
+    "profile": "Ren1947",
+    "edition": "李雨田校订/发行1947年4月初版；任注与李补入层分开",
+    "URL": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf",
+    "original": {
+      "path": "originals/Ren1947.pdf",
+      "bytes": 14751242,
+      "sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803"
+    },
+    "PDF_pages": [
+      9,
+      10,
+      386,
+      387
+    ],
+    "printed_locators": [
+      "序6",
+      "序7",
+      "卷三110",
+      "卷三111"
+    ],
+    "read_grade": "305作者逐页实际目读，见已保存阅读收据；本卡整理者实际读收据文字，未新增影印目读",
+    "original_acquired_at_exact": null,
+    "acquisition_note": "旧下载收据仅有日期或无精确时刻，不造取得时刻；本次只复制已有原件。",
+    "source_receipt": "source_research/reference_receipt_wave1.json",
+    "source_receipt_sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "source_research/reference_receipt_wave1.json",
+    "sha256": "0d7da1f96e08a3bd18d8ce1c9e17f97273abda0d3986d6c9d344a1945d760c73",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "source_research/reference_receipt_wave1_addendum.json",
+    "sha256": "e3818285e50f389004889217d9310e53f6bd80abc8b2eee374310c7f789b1425",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/2",
+    "image": {
+      "path": "images/Primary-095.png",
+      "bytes": 143097,
+      "sha256": "b13d75605716cfbaa87c817cb387bd125533977111686f80b5ff2ac5629ef047"
+    },
+    "original_meaning_paraphrase": "合禄、从财及从煞续，非新的化气条件。",
+    "recorded_boundary": "从财王十万归因仍按269 Hold，不借本页给305增准入。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/3",
+    "image": {
+      "path": "images/Primary-096.png",
+      "bytes": 137615,
+      "sha256": "9fd92204132f0096c708cb3ae50634003535c8029addb7aa8b4e2becbb9515a7"
+    },
+    "original_meaning_paraphrase": "井栏、刑合、遥合的具体条件及排除。",
+    "recorded_boundary": "仅附近上下文，不当真/假化量化古证。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/19",
+    "image": {
+      "path": "images/Ren-front-009.png",
+      "bytes": 493863,
+      "sha256": "18a7953cfd068126acc2c6424c7b4629a92479878c96194a3a5f06c6e42890e4"
+    },
+    "original_meaning_paraphrase": "任注流传/影印增注的序文。",
+    "recorded_boundary": "旧文件名contents并非此图实际目录；本轮实际读但不作化条。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/20",
+    "image": {
+      "path": "images/Ren-front-010.png",
+      "bytes": 516955,
+      "sha256": "0d9af36035f1a12fdad06883de5e2610584062b572c30df26cea29e53f32a9a5"
+    },
+    "original_meaning_paraphrase": "序文续，论钞本/制版/补刻传播。",
+    "recorded_boundary": "不作化象目录或丁壬本体规则。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/16",
+    "image": {
+      "path": "images/Ren-386.png",
+      "bytes": 78872,
+      "sha256": "fa2ea9a5090c3cc042fdbd07e911b76b806d142ab747f7f8c7b29295795d1a19"
+    },
+    "original_meaning_paraphrase": "甲己等假化例，印杀/火/岁运解除气候妨害的不同。",
+    "recorded_boundary": "比较语境，不直接作丁壬充分构式。"
+  },
+  {
+    "reliable_extract_kind": "已保存逐页可靠提取/释义指针；不是本卡新增逐字引文",
+    "pointer": "actual_source_reading_wave1.json#/pages/17",
+    "image": {
+      "path": "images/Ren-387.png",
+      "bytes": 88494,
+      "sha256": "c908b44b93b1ed75c73039baa7bb7d3b3d4522c3d2f3792bb4fcaf319353c65c"
+    },
+    "original_meaning_paraphrase": "甲己假化有情无争/运助化神；下续金水不足例。",
+    "recorded_boundary": "不把他化式有情一词当完整丁壬量化证据。"
+  }
+]
+conditions：[
+  "链接原61范围、58来源索引和292总入口",
+  "19规则页与2序页分计",
+  "旧稿错误保留，由后发勘误覆盖相关数学式"
+]
+applicability：本305全部引用与原完整任务；不建立平行来源权威。
+exclusions：[
+  "95附近误写为从化主段",
+  "旧文件名contents冒实际目录",
+  "旧Siku检索长摘要冒新全文核读",
+  "现代网页UI/AIguide作古证",
+  "旧269Hold改正例"
+]
+conflict_school_choice：Primary年未定、SMTH刊记未新核、Ren1947李校层分别明示；古典明示/类比工程/现实未验分别记。
+algorithm_mapping：{
+  "planned_responsibility": "来源依赖锁、reference receipt、source/implementation/reality三轴、原件不回改",
+  "original_scope_preserved": true,
+  "no_progress_or_B_change": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "旧失败及勘误原件保留可复核",
+    "真化与其他假化缺口具体保留，不用永久pending宣原任务完成",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+13. 305-ENG01
+算法标识：305-ENG01
+proposition：{
+  "layer": "本次新增功能port工程准入",
+  "claim": "化神木port仍属于原日壬载体日位2；甲仅是源例元神的元素资格参照，不是把port搬到年位0，也不给化神新浮量。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "HAP_month_main_preexecution_addendum.json",
+    "sha256": "2ebbe67d9fe157682af39b3045db343a10d2252e7c21f0b117b3c5749dcf9a79",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "geometry_current_dominance_before_runtime.json",
+    "sha256": "511d5dd548cc719de87e48d254de879ad5dcc815196431a5beb3e2a0ceaf3bdc",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "prospective_finite_model_contract.json#/inventory_and_functional_ports/chemical_port",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "geometry_current_dominance_before_runtime.json#/physical_coordinates",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "具名Ren388源和有限四柱谓词先成立",
+  "原壬native水事实与潜在资格单列保存",
+  "实际坐标year0/month1/day2/hour3"
+]
+applicability：仅声明的Ren388候选有限族；日位木/旧水是同一物理载体的不同typed功能。
+exclusions：[
+  "通用丁壬一律重标木",
+  "为求较大距离增益移动化神",
+  "新建一个明甲实体或visible float"
+]
+conflict_school_choice：文字支持化神/甲元神论法；日位typedport、资格参照和无float是本次工程采用，非古文数值定律。
+algorithm_mapping：{
+  "planned_responsibility": "actor registry + typed functional ports + unchanged raw facts",
+  "geometry_contract": "geometry_current_dominance_before_runtime.json"
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "正向保原day坐标和原丁火任务",
+    "错误将木放年位应被几何检查发现",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+14. 305-ENG02
+算法标识：305-ENG02
+proposition：{
+  "layer": "新增body-pool采用",
+  "claim": "化神木与所选年甲按同origin max并库，异origin sum；仅年甲正包选择时新增其独特visible:year1，原roots不复制。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "HAP_month_main_preexecution_addendum.json",
+    "sha256": "2ebbe67d9fe157682af39b3045db343a10d2252e7c21f0b117b3c5749dcf9a79",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "geometry_current_dominance_before_runtime.json",
+    "sha256": "511d5dd548cc719de87e48d254de879ad5dcc815196431a5beb3e2a0ceaf3bdc",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "prospective_finite_model_contract.json#/inventory_and_functional_ports/body_pool",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "geometry_current_dominance_before_runtime.json#/post_attack_origin_proof",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "资格账与current账分开",
+  "年甲a0仍有physical stock和负入边，只停其所选正功能",
+  "全origin同源归并"
+]
+applicability：新化框架明示body-pool干预，不改旧253 peer feed模型。
+exclusions：[
+  "把peer1/4悄改为整库并入",
+  "根路径叠加多次计同根",
+  "隐藏乙重引未选年甲独特浮量"
+]
+conflict_school_choice：旧native body-pool是工程参考；此化题采用须独审，不冒古典直接授予并库或旧253原义不变。
+algorithm_mapping：{
+  "planned_responsibility": "selected positive source pool + max/sum origin ledger",
+  "unchanged_existing_scales": "visible1,root qualification values retained"
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "a1相对a0仅本正包许可的独特源加入",
+    "h1/a0不得回流visible:year1",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+15. 305-ENG03
+算法标识：305-ENG03
+proposition：{
+  "layer": "复用HAP月本气资格并新增化框架任务",
+  "claim": "原HAP月卯乙已有独立任务资格；本支必须登记其正库存、发送和正包h，不因无float或H边际为零删除实体。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "HAP_month_main_preexecution_addendum.json",
+    "sha256": "2ebbe67d9fe157682af39b3045db343a10d2252e7c21f0b117b3c5749dcf9a79",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "geometry_current_dominance_before_runtime.json",
+    "sha256": "511d5dd548cc719de87e48d254de879ad5dcc815196431a5beb3e2a0ceaf3bdc",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "HAP_month_main_preexecution_addendum.json#/full_registry",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "HAP_month_main_preexecution_addendum.json#/coalescing_proof_required",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "完整原四明干及月乙channel登记",
+  "月乙无新增明量但有Ren木资格",
+  "h发送沿hidden_sender1/2"
+]
+applicability：原2包草稿由事前addendum补为3包8world；其他藏干保原门与具体任务状态。
+exclusions：[
+  "根正量自动生成任意隐藏actor",
+  "月乙无float即零",
+  "把同源支配误述为实体不存在或现实无效",
+  "未选隐任务按零填完"
+]
+conflict_school_choice：HAP准入与Ren根口径各存原账；新化任务由本合同采用，其他藏干未得正文任务许可仍具体待补。
+algorithm_mapping：{
+  "planned_responsibility": "HAP source ledger + exact monthlyYi channel + 8 positive packages worlds",
+  "old_draft_preserved": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "h0/h1均保库存及全部负背景",
+    "h1正输出逐origin非零可存在而合计/H边际为零",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+16. 305-ENG04
+算法标识：305-ENG04
+proposition：{
+  "layer": "新增共同body任务rho代理",
+  "claim": "所有木功能stock共用rho=max(0,1-cost/S)，cost=F/2+I/2；三条辛克木边分别保留后同源max，食泄用完整Fstock。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "HAP_month_main_preexecution_addendum.json",
+    "sha256": "2ebbe67d9fe157682af39b3045db343a10d2252e7c21f0b117b3c5749dcf9a79",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "geometry_current_dominance_before_runtime.json",
+    "sha256": "511d5dd548cc719de87e48d254de879ad5dcc815196431a5beb3e2a0ceaf3bdc",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "geometry_current_dominance_before_runtime.json#/admitted_current_operator",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "prospective_finite_model_contract.json#/equations/current",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "辛→日木1/2、→年甲1/4、→月乙1/4按实际距离留边",
+  "食泄lambda1/2沿现食stock",
+  "body任务同origin控制不重复三扣"
+]
+applicability：声明的人-任务共享负荷代理；不是每个木局部物理损伤模型。
+exclusions：[
+  "保原甲原量绕过body负荷生丁",
+  "以generation credit或3/4stock proxy替F泄耗",
+  "对同辛origin三次相加攻击",
+  "悄换各木独立rho还沿用支配证明"
+]
+conflict_school_choice：共享rho是新工程准入，不是任注给定物理；换局部retention必须重推足域、预期和审核。
+algorithm_mapping：{
+  "planned_responsibility": "complete stock current + same-origin control max + body carry ledger",
+  "not_classical_numeric_law": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "三木current和每条控制边独立留值",
+    "甲/乙出边必须用扣完后的同current",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+17. 305-ENG05
+算法标识：305-ENG05
+proposition：{
+  "layer": "新增不确定根恢复族",
+  "claim": "旧壬current R=theta*(I/tau)*r+(I/4)e_hour，theta∈[0,1]全部保留；不抹潜根、不挑theta拟合正源。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "HAP_month_main_preexecution_addendum.json",
+    "sha256": "2ebbe67d9fe157682af39b3045db343a10d2252e7c21f0b117b3c5749dcf9a79",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "source_research/peer_math_opinion_before_runtime.json",
+    "sha256": "5111a4e64479b1b96c91a8847cf280d979cff5252fbe1345eaaa1adbf70d33fa",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "prospective_finite_model_contract.json#/inventory_and_functional_ports/old_root_reactivation_family",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "HAP_month_main_preexecution_addendum.json#/Q_R_uncertainty_caveat",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "本族tau1，0<=I<=tau",
+  "旧根资格r另账",
+  "同一辛current保持率约束恢复根与实际生壬信用"
+]
+applicability：仅所声明线性恢复响应族；public不得直接提供theta或伪造能力参数。
+exclusions：[
+  "宣任氏给了theta公式",
+  "全theta证明冒所有物理响应",
+  "用theta0代表全族",
+  "R根一开始归零或另源重复加"
+]
+conflict_school_choice：古书仅给制辛不生壬/亥用甲生的机制；恢复曲线是开放工程选择，所有theta稳健也不证明现实普遍正确。
+algorithm_mapping：{
+  "planned_responsibility": "parameterized exact full-state family + robust alltheta goals",
+  "public_parameter_input": false
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "I0时恢复与生日信用一起归零且潜r账保留",
+    "切丁控制需恢复辛所有当前功能",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+18. 305-ENG06
+算法标识：305-ENG06
+proposition：{
+  "layer": "沿源机制的全signed工程实现要求",
+  "claim": "同一辛同时生旧壬/克木，旧壬同时生木/克丁，木current生丁，丁current制辛并泄木；每条功能用同一发送stock。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "HAP_month_main_preexecution_addendum.json",
+    "sha256": "2ebbe67d9fe157682af39b3045db343a10d2252e7c21f0b117b3c5749dcf9a79",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "geometry_current_dominance_before_runtime.json",
+    "sha256": "511d5dd548cc719de87e48d254de879ad5dcc815196431a5beb3e2a0ceaf3bdc",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "prospective_finite_model_contract.json#/all_signed_functions",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "geometry_current_dominance_before_runtime.json#/edge_geometry",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "有利和不利出边一起登记",
+  "同源max异源sum",
+  "正包只停指定正用，负背景和未选实体不删除"
+]
+applicability：有限源族的原四物理载体+月乙及日位两个功能port。
+exclusions：[
+  "制辛只减攻击木但保原生壬信用",
+  "只保旧壬生木不扣克丁",
+  "切R生木误删R克丁",
+  "把F泄木当生成边不取库存"
+]
+conflict_school_choice：源给作用方向与例证；增益、库存与群任务代理分别是明示工程规则。
+algorithm_mapping：{
+  "planned_responsibility": "complete signed edge and carrier ledger + one full current fixed state",
+  "private_directional_cuts": "四种切断各保原未切功能"
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "切birth/control的正负边界分别核",
+    "同F/I不能冒所有origin/rho相同",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+19. 305-ENG07
+算法标识：305-ENG07
+proposition：{
+  "layer": "沿既有尺度的精确坐标实现",
+  "claim": "保year0/month1/day2/hour3、邻同reach1/远距1/2、generation1/4、control1/2、月root3/2、明量1、hidden1/2，不改原件或默认尺度。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "HAP_month_main_preexecution_addendum.json",
+    "sha256": "2ebbe67d9fe157682af39b3045db343a10d2252e7c21f0b117b3c5749dcf9a79",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "geometry_current_dominance_before_runtime.json",
+    "sha256": "511d5dd548cc719de87e48d254de879ad5dcc815196431a5beb3e2a0ceaf3bdc",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "geometry_current_dominance_before_runtime.json#/edge_geometry",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "prospective_finite_model_contract.json#/equations/constants",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "每边显式sender/receiver/distance",
+  "化神仍日位，隐藏月乙仍月位",
+  "逐origin量使用Fraction或精确代数对象"
+]
+applicability：本支C02 flat-far工程profile，不声称古书授予这些数值。
+exclusions：[
+  "只保总量省载体距离",
+  "把隐藏乙同位generation误作1/4而漏sender1/2",
+  "用未证土phase补己土真化",
+  "更改B/原权重"
+]
+conflict_school_choice：数值尺度继承与新功能采用分开；Ren与Primary根学校不能拼成一张默认根表。
+algorithm_mapping：{
+  "planned_responsibility": "edge geometry and unchanged profile constants + source-qualified root origin matrix",
+  "new_unproven_earth_phase": false
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "hidden月乙→月丁增益1/8；日木→月丁1/4",
+    "辛→日木1/2、→年甲/月乙1/4",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+20. 305-ENG08
+算法标识：305-ENG08
+proposition：{
+  "layer": "有条件的完整向量缩并定理",
+  "claim": "逐origin证明R根生木被q覆盖、化神current覆盖所选甲乙发送，才可得S=Q+I/16及sum(U)=D+rho*(S-E)/4。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "complete_domain_derivation_before_calls.md",
+    "sha256": "e890efd59f3cd6d30e5f6270ac10475d262f14ea9f2a5e845dd8004d7e832ae3",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "geometry_current_dominance_before_runtime.json",
+    "sha256": "511d5dd548cc719de87e48d254de879ad5dcc815196431a5beb3e2a0ceaf3bdc",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "math_errata_before_runtime.json",
+    "sha256": "746f8996bee4889b6a50cc9aa38a4ba9105ea575264a0cbe702594b77936626d",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "source_research/peer_math_opinion_before_runtime.json",
+    "sha256": "5111a4e64479b1b96c91a8847cf280d979cff5252fbe1345eaaa1adbf70d33fa",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "geometry_current_dominance_before_runtime.json#/post_attack_origin_proof",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "source_research/peer_math_opinion_before_runtime.json#/verified_symbolic_arguments",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "r/4<=q逐origin且theta I/tau<=1",
+  "共享非负rho",
+  "a0关闭年甲正发且乙不含其float",
+  "Dingdirect覆盖origin集合及E逐origin可核"
+]
+applicability：只在声明的四raw足域及同样满足完整几何条件的私有容量几何。
+exclusions：[
+  "仅比较sum(r)与sum(q)作证明",
+  "用缩并删甲乙stock/出边",
+  "换独立retention仍复用定理",
+  "从少数点实测冒全参数证明"
+]
+conflict_school_choice：缩并是已列明工程假设下的代数结论，不反向证明源准入正确。
+algorithm_mapping：{
+  "planned_responsibility": "full origin reconstruction before/after reduction; state advance twice",
+  "full_vector_trace_retained": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "48事前手算点供实核但非全theta证明",
+    "origin alias错误须反例检出",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+21. 305-ENG09
+算法标识：305-ENG09
+proposition：{
+  "layer": "勘误后的全足域精确求解",
+  "claim": "采用后发勘误：统一正body guard Q>max(2tau,4D/7+57tau/112)；消元尾项为-8SkI，不能用旧稿-4SkI。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "complete_domain_derivation_before_calls.md",
+    "sha256": "e890efd59f3cd6d30e5f6270ac10475d262f14ea9f2a5e845dd8004d7e832ae3",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "math_errata_before_runtime.json",
+    "sha256": "746f8996bee4889b6a50cc9aa38a4ba9105ea575264a0cbe702594b77936626d",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "source_research/peer_math_opinion_before_runtime.json",
+    "sha256": "5111a4e64479b1b96c91a8847cf280d979cff5252fbe1345eaaa1adbf70d33fa",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "math_errata_before_runtime.json#/errata",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "source_research/peer_math_opinion_before_runtime.json#/new_private_quadratic_expectation_before_parent_solver",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "原错误稿保留且勘误先于solver绑定",
+  "b0与b1全部clip/max相位在闭域核",
+  "tau1/K<=13/2时全域L<=27/32",
+  "全分母正和目标门分别核"
+]
+applicability：本声明有限工程族及满足其几何/容量前提的私有数学测试。
+exclusions：[
+  "旧guard反例被藏掉",
+  "端点迭代或数值近似冒全闭域唯一性",
+  "无理根把区间中点写成精确Fraction",
+  "给未定theta假选一个精确答案"
+]
+conflict_school_choice：数学证明不补古典缺句；保每theta唯一与跨theta不同状态的区别。
+algorithm_mapping：{
+  "planned_responsibility": "exact phase solver + primitive polynomial + isolation interval + all-origin substitution",
+  "correct_elimination": "F(9S-E)=8SD+(S-E)(2S-I)-8SkI"
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "旧guard容量Q24/5,D8,tau1,b0反例应被更强guard挡住",
+    "私有I根803I^2+62608I-36864为无理，区间(584425832/10^9,584425833/10^9)",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+22. 305-ENG10
+算法标识：305-ENG10
+proposition：{
+  "layer": "严格承载与实际制尽双门工程",
+  "claim": "body须S>5cost/4即rho>1/5，等号失败；b1且tau>0时制辛尽I0等价F>=4tau，其等号允许。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "complete_domain_derivation_before_calls.md",
+    "sha256": "e890efd59f3cd6d30e5f6270ac10475d262f14ea9f2a5e845dd8004d7e832ae3",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "source_research/peer_math_opinion_before_runtime.json",
+    "sha256": "5111a4e64479b1b96c91a8847cf280d979cff5252fbe1345eaaa1adbf70d33fa",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "prospective_finite_model_contract.json#/fixed_question_and_H/hard_goals",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "source_research/peer_math_opinion_before_runtime.json#/verified_symbolic_arguments",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "S>0,cost>=0",
+  "公域tau1且controller正包b实际在场",
+  "成化充分机制同时检查body与不生旧壬及源任务"
+]
+applicability：本具体制浮辛不生旧壬充分机制，不是所有化气的普遍必要数值门。
+exclusions：[
+  "两种等号混同",
+  "I0但无实际controller的tau0空命题当通过",
+  "body过即称古典全部成化",
+  "断birth后I残余也称制尽"
+]
+conflict_school_choice：strictcarry数值是继承工程条件；源文不给1/5物理阈值。
+algorithm_mapping：{
+  "planned_responsibility": "strict body goal + real controller goal + current metal birth goal"
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "Q4,D31/5,tau1,E0的I0点rho恰1/5失败，Q±1/100分两侧",
+    "F4tau允许I0但仍须独立body严格门",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+23. 305-ENG11
+算法标识：305-ENG11
+proposition：{
+  "layer": "全部目标/套餐/稳健最小H工程",
+  "claim": "三个正包a年甲、b丁制辛、h月乙形成8world；每world核全theta与全部目标，再求全部superset稳健的极小AND与OR。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "HAP_month_main_preexecution_addendum.json",
+    "sha256": "2ebbe67d9fe157682af39b3045db343a10d2252e7c21f0b117b3c5749dcf9a79",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "pencil_expectations_before_calls.json",
+    "sha256": "69cd0297dea17b1dc3e7c6db304733b1ea0c8cbd58beda068a5ca5cb770de63f",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "HAP_month_main_preexecution_addendum.json#/new_positive_packages",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "pencil_expectations_before_calls.json#/cases",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "源profile先于H固定",
+  "正包不删除未选实体负背景",
+  "固定whole全部目标而非只看I0",
+  "原AUX严格全图接口待核"
+]
+applicability：只输出完整研究H结构；不导颜色、主题、排名、总分或B。
+exclusions：[
+  "用H成功换学校",
+  "挑一个好theta/好world",
+  "漏掉h包而称全部套餐",
+  "H外实体当无实际功能"
+]
+conflict_school_choice：H是所声明工程问句的最小稳健支持；不是古典“化神”标签直接指定元素输出。
+algorithm_mapping：{
+  "planned_responsibility": "8 complete worlds × alltheta hard goals; AUX all minimal robust AND/OR",
+  "not_product_display": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "事前原例H预期年甲+月丁AND；新火根作者例H预期月丁",
+    "两保留raw不由作者调用quant/H",
+    "待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+24. 305-ENG12
+算法标识：305-ENG12
+proposition：{
+  "layer": "有限源域和关系消费工程准入",
+  "claim": "仅年甲{辰,午}/月丁卯/日壬{辰,寅}/时辛亥；原生合法、具名Ren源、全部原HAP/ROOT事实与本源任务闭合后才进数值。"
+}
+source_version_locator_read_grade：[
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "prospective_finite_model_contract.json",
+    "sha256": "52b42beefd7d7bf1dcb8fb21639ee863c9d19b81a885d909fa4b3e6abc7dc5f6",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "HAP_month_main_preexecution_addendum.json",
+    "sha256": "2ebbe67d9fe157682af39b3045db343a10d2252e7c21f0b117b3c5749dcf9a79",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  },
+  {
+    "kind": "本305预注册工程合同/几何/数学材料，非古典数量原句",
+    "path": "source_school_conflicts_and_initial_propositions.json",
+    "sha256": "ea9fe291c1614c36cd6f84d8305937d189291864cbb9cfe2fb8fca332433f4da",
+    "read_grade": "本卡整理者实际全文读；只作预注册文字核对",
+    "acquired_at_exact": "由本地原件保留的创建记录决定；本卡不另造取得时刻"
+  }
+]
+reliable_extract_pointer：[
+  {
+    "pointer": "prospective_finite_model_contract.json#/finite_source_domain",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  },
+  {
+    "pointer": "prospective_finite_model_contract.json#/inventory_and_functional_ports/latent_tasks",
+    "kind": "本地工程命题定位；不得冒充原典原句"
+  }
+]
+conditions：[
+  "唯一丁壬、春月、甲透、浮辛无根的实际条件",
+  "完整寅卯辰/寅亥同向消费仅本源域明示推论",
+  "辰自刑/卯午破/半组保背景账",
+  "另有具名隐任务触发且未消费应具体退出"
+]
+applicability：四footprint有限工程候选；两作者条件与两定量保留分列，不以caseID结果查表。
+exclusions：[
+  "外来ready/actor/parameters/H指令改变事实",
+  "把所有正式合会outside宣完成",
+  "源未闭还执行math/AUX",
+  "latent无float就当现实零"
+]
+conflict_school_choice：有限新变化与同向关系消费是本次待独审推论；Primary真化和Ren378己土真化不由该许可自动覆盖。
+algorithm_mapping：{
+  "planned_responsibility": "strict schema and native raw validator; full source task consumer before solver; concrete pending with zero numeric execution",
+  "no_ordinary_failure_fallback": true
+}
+prospective_changes_and_status：{
+  "status": "预注册_待实现核",
+  "prospective_positive_negative_changes": [
+    "原例允许进入充分机制计算",
+    "外加庚/丙/戊己、旺金新根、多合或别月须保具体未消费任务",
+    "源0exec及正常clean实证待实现核"
+  ],
+  "implementation_validation": "本卡不填实现/运行通过；以后实际验证另存后发材料，不回改本预注册卡",
+  "formal_independent_review": "未由本卡宣通过",
+  "reality_validation": "未由本卡完成",
+  "adoption": false
+}
+
+原件：work/rev315_ding_ren_fake_trace_repair/trace_repair_rules_ten_fields315.json
+SHA256：23873a38f8f51705bd8333b10ad1aa932da904a20cf15eee03f7ffb167967a8e
+
+1. 315-TRACE-01
+算法标识：315-TRACE-01
+proposition：Year positive package controls actual outgoing current witness, never inventory existence.
+source：Original305 prospectivecontract and source Ren388 selected元神 task; actual independent312failure. This is output correctness, not new ancient numeric law.
+condition：a=true outputs Acurrent; a=false outputs exact zero with Acurrent separately retained.
+scope：Same finite source/method and all8world; no ordinaryfallback or new actors/parameters.
+exclusion：No current-support witness fed recursively into positivequalification; do not sum same-originaliases.
+conflict：Old193 signed row wrong despite correct mainmath. New315 supersedes trace/IO statements only; old193 remains hold fortrace.
+algorithm：transform_math.ports two output fields; extension_model.signed_edges uses selected current field.
+actual_evidence：actual/trace_repair_behavior_regression315.json 48states/720edges; newnormal API/CLI fullbytes equal.
+status：author verified; independent315 review pending; noadoption
+
+2. 315-TRACE-02
+算法标识：315-TRACE-02
+proposition：Physicalyear0 to chemicalday2 distance2; co-owned personpool admission does not apply spatialreach.
+source：Existing305 geometry/currentproxy sources, correct original fourcoordinates, independent312distance report.
+condition：Only year_pool special sharedperson-task qualification/currentwitness, no reinterpretation of15otheredge gains.
+scope：Chemicalwood port stays day2; yearJia stays year0.
+exclusion：Do not label distance0, move carrier, or multiply byfar1/2 and silently change model.
+conflict：Physical geometry and chosen nonlocal person-task admission are different ledgers; no proof of actor-local injury equivalence.
+algorithm：signed_edges metadata distance2/spatial_reach_applied false/accounting_layer; bodyequations untouched.
+actual_evidence：720rows physicaldistance checked againstactualpositions; oldfullH/AUX exact equal.
+status：author verified; independent315 review pending; noadoption
+
+原件：work/rev315_ding_ren_fake_trace_repair/source_research/reference_receipt315.json
+SHA256：a34b99982b9daff4b7b038a2efe6ad06ab2b057bf8a7161e5f37ad3ae9e93039
+
+{
+  "schema": "315-reference-retention-and-original-source-reuse",
+  "registered_at_utc": "2026-11-02T16:53:39.973220+00:00",
+  "original_reference_aggregate_unchanged": {
+    "path": "source_research/reference_receipt.json",
+    "bytes": 1634,
+    "sha256": "46d752d9ef6c635afc44ac483863178fa55b088a90da228da6b1e357750fdc7c"
+  },
+  "new_references": [
+    {
+      "path": "source_research/independent312_original_failure.json",
+      "bytes": 89314,
+      "sha256": "dbfe0a846762253ba8204291a0c5965f4a20fe4abb0fa197da689460451b9d31",
+      "actual_read_grade": "full actual defect evidence or author repair contract/AST/regression/trace rules read",
+      "URL": null,
+      "edition": "312independentactual and315 implementationrevision, not newclassicaledition",
+      "acquired_at_exact": null,
+      "supported_or_disputed_rules": [
+        "315-TRACE-01",
+        "315-TRACE-02"
+      ],
+      "boundary": "No new classical claim or physical prediction validation."
+    },
+    {
+      "path": "trace_repair_contract_before_calls.json",
+      "bytes": 2431,
+      "sha256": "d1d318f6a157b37540bdf9025f9e35bdd9cf084125d6c1e585e892a1e6d6a1f4",
+      "actual_read_grade": "full actual defect evidence or author repair contract/AST/regression/trace rules read",
+      "URL": null,
+      "edition": "312independentactual and315 implementationrevision, not newclassicaledition",
+      "acquired_at_exact": null,
+      "supported_or_disputed_rules": [
+        "315-TRACE-01",
+        "315-TRACE-02"
+      ],
+      "boundary": "No new classical claim or physical prediction validation."
+    },
+    {
+      "path": "AST_change_before_calls.json",
+      "bytes": 269,
+      "sha256": "9607fa078c4ab799962cb1389f22118edbd8790c313dbf42a4961ad90a0be8f1",
+      "actual_read_grade": "full actual defect evidence or author repair contract/AST/regression/trace rules read",
+      "URL": null,
+      "edition": "312independentactual and315 implementationrevision, not newclassicaledition",
+      "acquired_at_exact": null,
+      "supported_or_disputed_rules": [
+        "315-TRACE-01",
+        "315-TRACE-02"
+      ],
+      "boundary": "No new classical claim or physical prediction validation."
+    },
+    {
+      "path": "trace_repair_rules_ten_fields315.json",
+      "bytes": 2495,
+      "sha256": "23873a38f8f51705bd8333b10ad1aa932da904a20cf15eee03f7ffb167967a8e",
+      "actual_read_grade": "full actual defect evidence or author repair contract/AST/regression/trace rules read",
+      "URL": null,
+      "edition": "312independentactual and315 implementationrevision, not newclassicaledition",
+      "acquired_at_exact": null,
+      "supported_or_disputed_rules": [
+        "315-TRACE-01",
+        "315-TRACE-02"
+      ],
+      "boundary": "No new classical claim or physical prediction validation."
+    },
+    {
+      "path": "actual/trace_repair_behavior_regression315.json",
+      "bytes": 309439,
+      "sha256": "5c8465a68a123ea8f85aaaa982a4cf88e346090cefd0ea8119ad2e1c18bcecb0",
+      "actual_read_grade": "full actual defect evidence or author repair contract/AST/regression/trace rules read",
+      "URL": null,
+      "edition": "312independentactual and315 implementationrevision, not newclassicaledition",
+      "acquired_at_exact": null,
+      "supported_or_disputed_rules": [
+        "315-TRACE-01",
+        "315-TRACE-02"
+      ],
+      "boundary": "No new classical claim or physical prediction validation."
+    }
+  ],
+  "existing_navigation": [
+    "SOURCE_OF_TRUTH.md",
+    "work/来源索引_rev58.json",
+    "work/rev292_reference_retention/index.json"
+  ],
+  "root_index_untouched": true,
+  "no_parallel_authority": true
+}

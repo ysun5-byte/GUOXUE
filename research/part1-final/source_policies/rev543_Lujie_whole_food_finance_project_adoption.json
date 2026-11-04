@@ -1,0 +1,160 @@
+{
+  "schema": "543-exact524-after541-with-source-and-count-precision/1",
+  "revision": 543,
+  "registered_utc": "2026-11-03T12:16:48.429671+00:00",
+  "status": "adopted_exact52464_kernel43_after54125_with_effective_source_correction",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev524_author_completion_handoff.json",
+    "bytes": 4454,
+    "sha256": "ad1b89f0ee471e9fd8f2ad79a2fb0d76336fd20da2d09291cd333821e3742e57"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev541_independent_completion_handoff.json",
+    "bytes": 2093,
+    "sha256": "9aee33a10481461d06609560a3d08505272823ba932dfd672dc3b28a88fa7e00"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev524_Lujie_Yimao_exposed_food_finance_joint_operator",
+    "files": 64,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev524_Lujie_Yimao_exposed_food_finance_joint_operator/manifest.json",
+      "bytes": 9821,
+      "sha256": "2be598deb2ae1d2c5be614ab6e1b23917b44923cbdf1ec01e9b1141ee2159250"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev524_Lujie_Yimao_exposed_food_finance_joint_operator/freeze.json",
+      "bytes": 211,
+      "sha256": "a542c0e0cc2837fe59ea1337d3bd584dbc8f66439e1fa6ec5d37b3aa56fe1cdb"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev541_independent_review524",
+    "files": 25,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev541_independent_review524/manifest.json",
+      "bytes": 3664,
+      "sha256": "1c13b2817bc648a308de6e0ac80077dcd3644460468dadcda9e9d8eb5dc63b35"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev541_independent_review524/freeze.json",
+      "bytes": 315,
+      "sha256": "942e6e25ba5581419c8720fd1f4a3ca224a757d7c292b7a3a32fe5520522b9b6"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "kernels": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev524_complete_runtime_kernel",
+      "files": 43,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev524_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 6498,
+        "sha256": "446c6280768a66c6b7b5c32c7558c8ddee3835d4ff39962d3c0fa5302e63742e"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev524_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 214,
+        "sha256": "8c4897d81f666de1d3940ef3ad30e431653b2bff8a1a88ad252f656918a531c3"
+      },
+      "all_payload_exact": true,
+      "existing_copy_reused_no_clone_or_chmod": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/524 one complete readonly ordinary food finance 9qnivcdd/complete source runtime with spaces",
+      "files": 43,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/524 one complete readonly ordinary food finance 9qnivcdd/complete source runtime with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 6498,
+        "sha256": "446c6280768a66c6b7b5c32c7558c8ddee3835d4ff39962d3c0fa5302e63742e"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/524 one complete readonly ordinary food finance 9qnivcdd/complete source runtime with spaces/DELIVERY_FREEZE.json",
+        "bytes": 214,
+        "sha256": "8c4897d81f666de1d3940ef3ad30e431653b2bff8a1a88ad252f656918a531c3"
+      },
+      "all_payload_exact": true,
+      "existing_copy_reused_no_clone_or_chmod": true
+    }
+  ],
+  "required_source_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev541_independent_review524/effective_source_correction.json",
+    "bytes": 2767,
+    "sha256": "54d57a4e2c7c44c34e97292b79b59bcee901779ca8d317175c17c6f3efbd2ce6"
+  },
+  "required_review_counting_clarification": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev541_effective_counting_clarification.json",
+    "bytes": 1307,
+    "sha256": "5bf48d52939c634a073902aa582d5cc4ab2187c6b03101d3bad76c8ce38f55c0"
+  },
+  "effective_rules": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev543_Lujie_effective_rule_cards.json",
+    "bytes": 7913,
+    "sha256": "e9f0cc62d2204118deaa95dac14cefd02223f65fd4caa053a37e1c9c6d9304d3"
+  },
+  "source_leaf_changes": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev543_source_leaf_change_record.json",
+    "bytes": 1151,
+    "sha256": "965ecc4807c4b0764daf635d048eed3020133fab9a991f80a1377e7add0f3670"
+  },
+  "complete_algorithm_contracts": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev524_Lujie_Yimao_exposed_food_finance_joint_operator/algorithm_explanations_53_including_lambda.json",
+    "bytes": 119685,
+    "sha256": "be3694b1fe1e812db4afb4e96724ddde5d33d8d19c3148ba1c10a75a14e220f5"
+  },
+  "whole_tasks": {
+    "pure_food": "14/15主任务成立；原根/全作用/承载实际算；失败保留",
+    "food_finance": "12/19主任务成立；两段通路与食财实际根信用均验，不套外格二财禁令",
+    "original_print_rescue": "7/34充分工程子题成立；取运源动机与原局同费共同关闭证书分开；不直接古文原局无条件喜水"
+  },
+  "independent_behavior": {
+    "double_visible_Ji": "己未丁卯乙亥己卯普通PFT三参数主任务均成功，完整火AND财解释与三种财候选组合保；未错套外格禁令",
+    "carry_boundary": "M>0才过，M=0失败，不要求M越多越好；相同实际世界调解释覆盖等号时单演员/两演员替代按总信用正确变化",
+    "independent_print_rescue": "丁亥癸卯乙未丁亥三参数主任务与原印救应同时可真，未将两题强AND合主题；其他真实Moff已正时不强给印救证。",
+    "root_provenance_counters": "保持总量/current不变把1原木root移非根信用，两题均因原根未全活失败；全部火root移非根，火current仍正但泄秀H失败而印救应保真；全部财root移非根，食财H失败。",
+    "F0_counter": "新b/c/h及正来源输入压力，完整W3/F0/T3/2/I7且额外13/1013制火，main失败但print-rescue真；控制容量大于真实损耗，原演员/费用都保。"
+  },
+  "new_review_counting": {
+    "new_condition_analyses": 18,
+    "new_condition_worlds": 36,
+    "necessary_nominal_baseline_analyses": 4,
+    "necessary_nominal_baseline_worlds": 8,
+    "total_analyses": 22,
+    "total_worlds": 44,
+    "not44_unseen_raw_blind_worlds": true
+  },
+  "software_contracts": {
+    "algorithms": 53,
+    "named_definitions": 52,
+    "old_lambda": 1,
+    "old_exact_contract_and_AST": 41,
+    "new_or_adapted": 12,
+    "normal_real_same_frame_IO_replayed": 46,
+    "exception_IO_replayed": 1,
+    "old_unused_no_IO_fabricated": 6,
+    "distinct_actual_material_pins": 18,
+    "distinct_module_code_contexts": 3,
+    "module_heap_not_serialized_or_claimed": true
+  },
+  "portable": {
+    "existing43_complete_copy_reused_no_clone_chmod": true,
+    "all43_bytes_modes_unchanged": true,
+    "fresh_correct_processes": 15,
+    "real_controls_denied": 60,
+    "normal_old_read_scan_exec_write_or_package_write": 0,
+    "complete_PF_PFT_API_CLI_bytes_equal_existing_current_full_reports": true,
+    "source_faults": "3实际guard读字节注入，不冒磁盘真改；坏0provider，移除故障新进程正常4provider完整报告相同",
+    "invalid_and_outside": "合法剩余21/非法原柱均加载4模块后具体返回状态，非新增所有输入0modules门",
+    "old402_all78_bytes_modes_unchanged": true
+  },
+  "remaining_original21": [
+    "纯财9由539",
+    "纯杀5/杀食5/杀财2由540"
+  ],
+  "all34_final_unique_priority_claimed": false,
+  "all_original_C02_complete": false,
+  "no_B_theme_or_display": true,
+  "empirical_prediction_validated": false,
+  "progress": "88.75/100",
+  "progress_delta": "0.00"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "rev300-hidden-main-print-whole-project-adoption",
+  "status": "adopted_for_bounded_whole_model",
+  "method": "source-qualified-hidden-print-ordinary-finance-food/0.1",
+  "implementation_revision": "0.1.0",
+  "component": "rev285_hidden_print_effective_support",
+  "target": {
+    "component": "rev285_hidden_print_effective_support",
+    "files": 1331,
+    "manifest_sha256": "0f955a02409da0e1acd260b02ccba0b3eb9b403f4aa9f0a9492ec157efe976e7",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "5ac2d82245f3e937c7b67397340c6f30dd4ce197b1cd5825cd76186967ed6bc9",
+    "pins": {
+      "hidden_print_whole.py": "b2994452a235f263d4806107c5bb61b4e33eedd384709e97c1ba95d68bc12a29",
+      "hidden_print_scalar.py": "b4e58b844d93fb6f542e0f6e7c20f662c993bba3405fcf7a2fa2a208a9735268",
+      "dependency_lock.json": "a4731ba2d167447fa06a3c437f74aad77c3993984cb1ac587e569625fc5cdf89",
+      "source_proposition_before_calls.json": "9513cd5bf984d8559b84210c0f8de7bb95076e82a83fc021e3959aa7616e072e",
+      "hidden_print_domain_proof_v0_1r2_before_replay.md": "dfda6348b4c50abac7b7a0f02e1081e641187371cd6cd032122100dcbb42f2c3",
+      "pencil_expectations_v0_1r2_before_replay.json": "7026b0927358a1c6c965bc3f50e716b869de9fb5dd91e2b1eb98503861c7822d",
+      "author_report.json": "7ea7a6781e11b752d239cbb748dfdf66109f4ff2001e49b7e7772fe12698ed46",
+      "actual_algorithm_IO.json": "aeec142826a7bcb3726f20ee276f73733e74a0f4f34d5317de4819f3941160e4",
+      "algorithm_explanations.json": "acd24e117619ba9a50846ceb511a5948b3448ce0af45ed861765ec394f9e9302",
+      "rules_ten_fields.json": "2db7a281d333f7f3708680857e589a9e83d91cbf3c48552c0bd6500e247326b9",
+      "source_research/reference_receipt.json": "2c3244d52a73db6f09fa89f9b4e503a8eed96cc80eaf3f4f3024f7066d542990",
+      "verify_artifacts.py": "0a656b76998e3cb08ef1cf09ba7055d2731081c614d90ccbfbad34701f59cb3b",
+      "manifest.json": "0f955a02409da0e1acd260b02ccba0b3eb9b403f4aa9f0a9492ec157efe976e7",
+      "freeze.json": "5ac2d82245f3e937c7b67397340c6f30dd4ce197b1cd5825cd76186967ed6bc9"
+    }
+  },
+  "model_core_sha256": "b2994452a235f263d4806107c5bb61b4e33eedd384709e97c1ba95d68bc12a29",
+  "math_sha256": "b4e58b844d93fb6f542e0f6e7c20f662c993bba3405fcf7a2fa2a208a9735268",
+  "review": {
+    "component": "rev290_hidden_print_independent",
+    "files": 92,
+    "manifest_sha256": "350d5327a9315922ae6b17e2928977d738298fae760b14d234aa3ab7583f1389",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "ff1fe62a307f3d4b96549d2768d9d006d6a8559bdc47d9ebd61bbbccd249d0ee",
+    "report_sha256": "5acfc69286e52e4db371255eaae78bb1ae8f20c1890212cfeb4fa6b5685b80df"
+  },
+  "aggregate_acceptance": {
+    "component": "rev300_hidden_print_whole_acceptance",
+    "files": 3,
+    "manifest_sha256": "d267334fb9abfc88f03a5f4e976b7916f6f5f13df846d31c8f0e0b8dcaea248d",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "ad4034cc5f4df51b51fbbe8627c32c359e8de25911d3468b51e7b0dc8d7cdbbc",
+    "report_sha256": "d1d0fe7906d969369edf4fbe5f5cf3a75b943ffc1c3cd1ff63c17d06786652d4"
+  },
+  "scope": "Named nonmonthHai mainprint conditional family; source-before-whole domain and root profiles preserved. Also Wei full negative and Ren seasonal-source boundary, not a universal hiddenprint solution.",
+  "source_layer": "Primary69 normalfinance-food + Ren1947 Hai print-life is an explicit project cross-chapter inference. No classical numeric ratios, direct ancient verdict for constructed cases, or implicit HAP rewrite.",
+  "runtime_effect": "One shared printstock for birthday and foodrestraint, allwealth-controlsprint and actualfood-finance feedback/origin maxima; fullfixedtargets, allpackages/supersets/minimalH; source conditions do not depend on whether result passes.",
+  "source_presence_vs_function": "Original HAPgate0 record retained; positiveROOT never manufactures actor. Newly mapped namedtask explicitly distinguished from physicalpresence, qualifiedroot, positive/negative currenteffect and necessaryH.",
+  "export_restriction": {
+    "B": false,
+    "theme": false,
+    "priority_or_equalshares": false,
+    "default_replacement": false
+  },
+  "original_task_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0",
+  "remaining_original_tasks": [
+    "Broader necessary hidden-print support/financial-food-print nonobstruction positive source",
+    "Ren seasonal soil and spring-metal wood finance",
+    "Non-main hidden prints",
+    "Officers, actual combination/clash/climate mechanisms and other originalC02 work",
+    "C03 time/consumer beyond separately reviewed286 inner and all original wider tasks"
+  ]
+}

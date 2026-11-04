@@ -1,0 +1,132 @@
+{
+  "schema": "source-qualified-three-question-true-transformation-research-adoption-0.1",
+  "revision": 362,
+  "registered_utc": "2026-11-02T19:52:07.595249+00:00",
+  "status": "adopted_exact359_three_questions_with_inherited_correct352_356_and_final360",
+  "computational_version": "313-v03 unchanged in359; select explanation contract repaired",
+  "verified_components": {
+    "candidate359": {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev359_true_transform_select_contract_repair",
+      "files": 252,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev359_true_transform_select_contract_repair/manifest.json",
+        "bytes": 30392,
+        "sha256": "05be125b19fbee70fbdbf51d8ed3365603df1e85d8997f642e2ba17f8996f045"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev359_true_transform_select_contract_repair/freeze.json",
+        "bytes": 908,
+        "sha256": "6e91b34a6b82985e0ed10ee43a7833801ef91acbab1f16cf2474075815330f2d"
+      },
+      "all_bytes_and_hashes_checked_by_root": true
+    },
+    "independent360": {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev360_post359_independent_review",
+      "files": 33,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev360_post359_independent_review/manifest.json",
+        "bytes": 4813,
+        "sha256": "3bbba125b56e8a30773f1d5deb89012d075373312276136ea8317cb0d8203e39"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev360_post359_independent_review/freeze.json",
+        "bytes": 459,
+        "sha256": "7d21d8106f7234664f8558fe65f7ece382eb4d8b715897f6e239c60d8cdbf446"
+      },
+      "all_bytes_and_hashes_checked_by_root": true
+    },
+    "inherited352": {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev352_true_transform_independent_review/outputs",
+      "files": 43,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev352_true_transform_independent_review/outputs/manifest.json",
+        "bytes": 6388,
+        "sha256": "3fe1a4140ce8d2995a9ffe089f70d3953046f470fc1e3e1aef9c17da8791c577"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev352_true_transform_independent_review/outputs/freeze.json",
+        "bytes": 408,
+        "sha256": "2fa186c93d1774e18e174c8a0745521bf17cc1c98c4266c8b3f389df4afba981"
+      },
+      "all_bytes_and_hashes_checked_by_root": true
+    },
+    "inherited356": {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev356_post353_independent_review",
+      "files": 36,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev356_post353_independent_review/manifest.json",
+        "bytes": 5231,
+        "sha256": "1ac99d4998fe1653fd55ed0ce7794b11e852e80aa3bb1b28838705ee9058fa3b"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev356_post353_independent_review/freeze.json",
+        "bytes": 384,
+        "sha256": "f01aaf763c009cc5bff340d3a323d8a5ed6eb6b519d070c47a21fb7754639b98"
+      },
+      "all_bytes_and_hashes_checked_by_root": true
+    }
+  },
+  "final_independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev360_post359_independent_review/independent_report.json",
+    "bytes": 5149,
+    "sha256": "a84c0c6c3256af217faab5a9d1fc53d01f2a12bfb39c2a9cce1509a135345ba1"
+  },
+  "precise_pins": {
+    "manifest": "05be125b19fbee70fbdbf51d8ed3365603df1e85d8997f642e2ba17f8996f045",
+    "freeze": "6e91b34a6b82985e0ed10ee43a7833801ef91acbab1f16cf2474075815330f2d",
+    "cards": "33ea460840d1f97da0bedb522e0bde4ad15b2a302c1c9cea3769c66fa4e8fd4d",
+    "mapping": "785ffde5d405d582af45b15fbd472f54522c2375ef3c9f599d89a14f625cfc25",
+    "documentation_lock": "a76e97f45d976b743c5d4d938a6f4ad20c7c9fd8d51d9fe45c7af2bed83f9a80"
+  },
+  "source_case": {
+    "year": "己卯",
+    "month": "丁卯",
+    "day": "壬午",
+    "hour": "甲辰"
+  },
+  "source": "Ren1947 PDF378, source-context condition reviews including PDF72; source layers separate.",
+  "conditions": "Only the declared exact source case and bounded parameter/credit families. 化木成立、化气有余、甲元神真实优选、午火泄秀向辰土 are source conditions. Source-qualified numerical model is not a generic true-transformation solver.",
+  "preserved_raw_facts": "All initial roles, raw hidden actors, positions and original Ren潜根 remain. 丁壬合 does not mechanically erase original Ren entity; 甲己遥合 is consumed under the explicitly source-preserving coexistence operator.",
+  "source_correction": "No unconditional wet-soil-dims-rooted-noon-fire; fire-dimming premise and phase-free soil proxy/visible-Ding retention remain explicitly qualified.",
+  "current_state": "Source-compatible physical root attempts share the same actual soil-control budget; J>=7/4 exceeds root allowance3/2, producing physical R=0 by calculation, not by naming transformation. Residual-r credit stress is a separate counterfactual question.",
+  "complete_graph": "Same current root/wood/fire/soil state for all applicable beneficial and adverse ports; post-control r both生木 and克火, no separate invented stocks. All selected packets retain original negative effects and both-end costs.",
+  "three_questions": [
+    {
+      "id": "FLOW_NET_SUPPORT",
+      "result": "f OR u",
+      "meaning": "Declared complete numerical flow question; no claim all source-preferred actors are numerically necessary."
+    },
+    {
+      "id": "SOURCE_FAVOURED_ROUTE_REPRODUCTION",
+      "result": "a AND (f OR u)",
+      "meaning": "Reproduce source-explicit甲preferred route alongside actual outlet; preference is a declared goal, not a universal necessity theorem."
+    },
+    {
+      "id": "EXTRA_STRICT_NO_RETURN_CREDIT",
+      "result": "a AND j AND (f OR u)",
+      "meaning": "Additional selected-control-credit must cover all original root allowance; explicitly stronger engineering question."
+    }
+  ],
+  "packet_map": {
+    "a": "时干甲木元神支持",
+    "f": "月干丁火泄秀",
+    "u": "午中丁火泄秀",
+    "j": "年干己土控制信用"
+  },
+  "source_preference": "Original author truly prefers natal甲; numeric nonnecessity never cancels it.",
+  "remaining_traditional_gap": "No complete classical necessity/alternative conflict or pairwise ordering among Jia origin/noon outlet/Chen terminal; no source ordering after visible Ding engineering alternative is admitted.",
+  "math_verification": "Reuse independently correct352 physical32/credit64/current same-origin flows, three full-H alternatives, continuous bounds and private thin-Chen boundary; 356 correct17 explanation revisions and360 final select correction. Fresh complete359 API/CLI and full252 read-only move verified by360.",
+  "final_native_stdout_sha256": "d9bfa1c47ee093089287cfd47fa49db6d87f78496990d66f4713fdd041848426",
+  "function_explanations": "All39 function descriptions/AST/signatures/actual IO retained. Three unused AUX functions truthfully have empty actual_IO; no fresh39trace claim.",
+  "documentation_guard": "verify_artifacts only; binds bytes and structure, not truth of prose. Runtime source guards remain unchanged and independently verified.",
+  "fresh_root_numeric_repetition": false,
+  "old_versions": "Original313 hold355 and353 unapproved stay unchanged. Only exact359 is adopted.",
+  "engineering_limits": "Visible-Ding positive retained fire, phase-free soil inventory, numeric same-origin ports/shared tasks/cost/control and declared task thresholds are bounded engineering assumptions; software consistency is not empirical predictive validation.",
+  "all_transformation_types_complete": false,
+  "traditional_final_priority_unified": false,
+  "B_theme_J2_or_display_exported": false,
+  "real_prediction_validated": false,
+  "original_task_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

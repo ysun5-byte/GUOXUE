@@ -1,0 +1,172 @@
+{
+  "schema": "project-bounded-source-whole-model-adoption-0.1",
+  "revision": 327,
+  "registered_utc": "2026-11-02T17:31:21.159095+00:00",
+  "status": "adopted_exact304_singlewealth_foodabsent_Yangren_complete_feedback_engineering_model",
+  "method_version": "primary-yangren-onewealth-full-feedback/0.1",
+  "implementation_revision": "0.1.1",
+  "source_profile": "Primary-YR-HAP1-explicit-WuWu-task-full-feedback/0.1",
+  "candidate": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev304_yangren_complete_feedback",
+    "files": 1672,
+    "payload_bytes": 1088198980,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev304_yangren_complete_feedback/manifest.json",
+      "bytes": 327406,
+      "sha256": "b1c89addc4093e0dc3f623e6d563c6b373811c817d96c03727d8053d0271bc89"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev304_yangren_complete_feedback/freeze.json",
+      "bytes": 945,
+      "sha256": "5425281d44ee6075e7e0dc288c09f0de4b51f017a9632548b141dcfad08285de"
+    },
+    "all_actual_SHA_and_bytes_verified_by_root": true
+  },
+  "target_pins": {
+    "yangren_whole.py": {
+      "sha256": "780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a",
+      "bytes": 19619
+    },
+    "full_feedback.py": {
+      "sha256": "2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce",
+      "bytes": 14218
+    },
+    "dependency_lock.json": {
+      "sha256": "41dc33780d23e46f188d43214503d871ab2a1681ad834381c619943a495baf06",
+      "bytes": 301502
+    },
+    "source_question_before_producer.json": {
+      "sha256": "ac46f99b52632658f2aac72593e8334aca4a45489120256a850a3e4e70324cf2",
+      "bytes": 8555
+    },
+    "manifest.json": {
+      "sha256": "b1c89addc4093e0dc3f623e6d563c6b373811c817d96c03727d8053d0271bc89",
+      "bytes": 327406
+    },
+    "freeze.json": {
+      "sha256": "5425281d44ee6075e7e0dc288c09f0de4b51f017a9632548b141dcfad08285de",
+      "bytes": 945
+    },
+    "author_report.json": {
+      "sha256": "b3bf0ed6ee3513165e632f8448f467ac3f54a5c8c59ba41f602b6dfaa898227d",
+      "bytes": 10259
+    },
+    "reference_receipt.json": {
+      "sha256": "dbc0acea3eb9464cc1738e5bd9fac493f8effc01254a7fb4233532da8c8f986d",
+      "bytes": 16452
+    },
+    "new_function_actual_IO.json": {
+      "sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+      "bytes": 41294503
+    },
+    "new_function_explanations.json": {
+      "sha256": "34aa408d3dfdbdec4c65e16ef5b9d84db0dbdd422afb4af3e45d7a3649742e24",
+      "bytes": 87403
+    },
+    "source/rule_cards_304.json": {
+      "sha256": "745ac793c8b02b6f1a1926927886481944083e4062d736707a2fe3b7b93c21a5",
+      "bytes": 8239
+    },
+    "verify_frozen_release.py": {
+      "sha256": "5b4b854d47d8ae7bec295a374048715dfa28b54404b32e821ea28cbf1193903a",
+      "bytes": 4270
+    }
+  },
+  "independent_review": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev322_yangren_independent_review",
+    "files": 41,
+    "payload_bytes": 10567809,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev322_yangren_independent_review/manifest.json",
+      "bytes": 6648,
+      "sha256": "064cc6868da3eee78f0d594cd037f3a76569a661e36b9a7fd14ab49c31d2527b"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev322_yangren_independent_review/freeze.json",
+      "bytes": 245,
+      "sha256": "a17e64868d1c5d746b8bab73ed051d846a452442af7fbaea056c6c1fcfaebc0b"
+    },
+    "all_actual_SHA_and_bytes_verified_by_root": true
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev322_yangren_independent_review/independent_report.json",
+    "bytes": 10876,
+    "sha256": "0667202abc2212633c197f82737089005f764cc7f70ee427fd140dc1ffa17603"
+  },
+  "source_reading": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev322_yangren_independent_review/actual_source_reading_before_calls.json",
+    "bytes": 4765,
+    "sha256": "b7da40593550b2aa2b98c188586d32a17396103b7c11875481756fc75822a382"
+  },
+  "reference_receipt": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev304_yangren_complete_feedback/reference_receipt.json",
+    "bytes": 16452,
+    "sha256": "dbc0acea3eb9464cc1738e5bd9fac493f8effc01254a7fb4233532da8c8f986d"
+  },
+  "source_opinion": "Primary actual28–30/86–88/59–60 andclimate37–39 distinguish blade-control,財印,藏干participation andtooheavy adjustment. Declared joint goal is finite制刃兼护财/承载可行性, not universalclassicaladequacy or nobility.",
+  "scope": {
+    "entry": "Five exact阳干/monthbladepairs definedbyexistingprimary/sourceconditions; actualthree non-dayvisible actors exactlyone官or杀/one财/one印, no currentfood/hurt or extrawealth; fullnative/source guards anddeclaredhidden-task/intake bounds required.",
+    "all_facts": "Keepall rawvisible/hidden registry, originalROOT/HAP, directorigins, actualpositions andknown relation/climate tasks. ROOT alone never invents actor; newmonthWuJi blade task explicitlynamedbeforeROOT andHAPgate0 retained.",
+    "whole": "One actual wealth with multi print/peer actors asdeclared; wealthbirthK,wealthcontrolP,Kbladecontrol/KbirthP,Pbirthday/Pbirthpeer,peerbirthday/peerrobwealth all same full current graph. Never zero out outside actors toadmit.",
+    "goals": "Actual rooted bladecontrol losspositive AND wealthstillpositive AND daybudget strictlygreater than5/4*(currentwealth/4 + currentKpotentialdemand); currentKnotalreadydeductedinjury.",
+    "main_H": "Enumerate allpositive packages includingKbladecontrol/Kbirthprint, allgoal/allworld/allsupersets, allminimalAND/OR. ReceivingKtoP requiresbothKandPpositive permissions.",
+    "conditional_H": "Independent namedquantity additional_support_H_given_source_K_on. Empty conditional set is not empty mainH or no喜用."
+  },
+  "math_opinion": "Finite scalarwealthretention reduction preserves everyorigin/actualcarrier. Control nonexpansiveness andsamecarrier products giveglobalL<=11/16 withinactualgain/cardinality guards. ExactSturm/RootField roots acceptedonlyafteroriginal fullgraph exactsubstitution. No sample-only uniqueness claim.",
+  "engineering_status": "Inheritedgain/reach/5/4/stock costs andpotentialdemand are namedprojectchoices, not textprintedquantities or measuredqi. R3fixedbeforeproducer; R2keptcomparison not failurefallback.",
+  "actual_checks": {
+    "author_cases": 7,
+    "author_allworlds": 144,
+    "author_puremath_worlds": 1,
+    "author_full_origin_entries": 53314,
+    "author_full_API_CLI_pairs": 13,
+    "author_strict": 15,
+    "author_badsource_zeroexec": 15,
+    "author_actual_newfunctionIO_AST": 39,
+    "nonauthor_newraws": 2,
+    "nonauthor_worlds": 32,
+    "nonauthor_origin_phase_entries": 3712,
+    "nonauthor_native_signededges": 256,
+    "nonauthor_private_multicarrier_worlds": 64,
+    "nonauthor_strictcarry_boundary_worlds": 3,
+    "nonauthor_realraw_cubic_full_reconstruction": 2,
+    "nonauthor_private_quadratic_full_reconstruction": 1,
+    "nonauthor_strict": 7,
+    "nonauthor_source_invalid_boundaries": 2,
+    "nonauthor_badsource_zeroexec": 5,
+    "nonauthor_clean_providerexec": 23,
+    "nonauthor_full1672_move_new_API_CLI_pairs": 2,
+    "nonauthor_rootread_or_copywrite_attempts": 0,
+    "not_all39_fresh_nonauthor_dynamiccalls": "39authoractualIO independentlyAST/source/valuebound; nofalsefresh39claim",
+    "actual_origin_preexpectations": "Handwrittenbeforeproducer, independentnative/privategraph construction; no authorcurrentoutput as standardanswer"
+  },
+  "failures_preserved": [
+    "Authorpreproducerroot/source/Hsemantics corrections",
+    "AuthorfirstAUXfullregistry/currentintake mismatch andnarrowentryfix, math/oracleunchanged",
+    "Authorfirstspy pathalias invalidclean count andlateractualcontrol",
+    "Reviewerraised/exception tag error andAlgebraicpow APIassumption; checkersonlyfixed without unnecessary oldnumericreplay"
+  ],
+  "not_claimed": [
+    "General刃足量or贵级validated",
+    "Allcomplexformalrelations/food/extrafinance/timeorQianlongsolved",
+    "Realpredictionvalidity",
+    "NewpersonalB/priority/halfshares/display"
+  ],
+  "remaining_original_scope": [
+    "325Qianlongdirectedclash/concurrent官杀and火炼positive/negative",
+    "Otheragreed陽刃complexbranches/food裁损/morewealth/hidden tasks andcurrenttime",
+    "313true化 andotheroriginalC02/C03/C04/C08uncloseditems"
+  ],
+  "default_B155_ROOT_HAP_changed": false,
+  "B": null,
+  "theme": null,
+  "priority": null,
+  "weights_changed": false,
+  "display_integration": "deferred_perlatestuser",
+  "source_implementation_reality_axes_separate": true,
+  "real_prediction_validation": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00",
+  "original_denominator_unchanged": true,
+  "original_task_complete": false
+}

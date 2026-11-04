@@ -1,0 +1,275 @@
+关系救应前件与完整官印研究
+rev208_relation_task_whole
+所属原模块：C02
+当前采用：rev225_relation_task_research_archival_acceptance.json
+范围：先核来源任务适用，不从数值成功选支；11组完整模型均未过承载，无H/B。新source绑定修好不解除旧195hold。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev208_relation_task_whole/actual_algorithm_IO_AST.json
+SHA256：023f09f8bfe5fe3bab2e7849a1de6d5b9d5f97fad6dae951146a6475290b13ed
+
+1. 1
+function：adjudicate_context
+actual_IO_file：algorithm_IO/00_adjudicate_context.json
+actual_IO_sha256：41e224c344b51b051259774002c4b43e84f8ca2ac22b770dabc044b03b28ca7d
+function_AST_sha256：21255ffdcb56b2b9c77efe95b65d308516a5dc3a7b2d65279489a99856e2dbba
+line：76
+end_line：93
+
+2. 2
+function：evaluate
+actual_IO_file：algorithm_IO/01_evaluate.json
+actual_IO_sha256：043ce951c138e4c16b035e4668b58b821b2e3b3fa1b1cf84a9bb0e763e9707bd
+function_AST_sha256：b02f6457e4043a6d13e9c5253cd0ac56e28d046893dc69f4554ddc73f9a0aba8
+line：94
+end_line：109
+
+3. 3
+function：load
+actual_IO_file：algorithm_IO/02_load.json
+actual_IO_sha256：d5e9914c156546be1812e1bcc4ee080e6c61fd2f146dd3794f778774448b681e
+function_AST_sha256：7ceac02f222655a7a3d0e454b65553d207da8163c8e364ac5ba96619aa1bf549
+line：37
+end_line：52
+
+4. 4
+function：main
+actual_IO_file：algorithm_IO/03_main.json
+actual_IO_sha256：ca51caf4ae610b0c94108139d1980bd9eeb3e3fb048733bfb14f72fa510593d4
+function_AST_sha256：4029f4602c70a8e551b93ace196adea024970b16395b8717fc654c0a30ec4b8b
+line：110
+end_line：112
+
+5. 5
+function：pack
+actual_IO_file：algorithm_IO/04_pack.json
+actual_IO_sha256：f05bee311e8276a4b9440d38fda07149030c812ae38abe688b0d9f9a4b8a58ef
+function_AST_sha256：9d7fadf6ecb480a18b0dd082433494d7f1114b502460c46e66696806c2658159
+line：23
+end_line：27
+
+6. 6
+function：scoped_primary_tasks
+actual_IO_file：algorithm_IO/05_scoped_primary_tasks.json
+actual_IO_sha256：cef9785d6cbb9b5fbb22e2412726cb452c9c88170d38c309e66617b45fc34ab2
+function_AST_sha256：416de5978c7541a9f3f33837421d1381288c81e3690fc048823e1c24135c0117
+line：53
+end_line：75
+
+7. 7
+function：source_tree
+actual_IO_file：algorithm_IO/06_source_tree.json
+actual_IO_sha256：7d179e8bf7ef8dbcbc216043a7d8b8dc6f7426310da2957044ceb6b1afd0b3dd
+function_AST_sha256：d178359cd648a1e483f2959331755a14d745a281ed74a67d31f3b67594982ca7
+line：28
+end_line：36
+
+8. 8
+function：strict
+actual_IO_file：algorithm_IO/07_strict.json
+actual_IO_sha256：1ab1d9c9b604f37506800dbe906d9c29ead213f4340ee9ea20418d3f2c08040a
+function_AST_sha256：70b3dbac2dc3896c4b105ed39d00d353278656af18e3734c78df9e5111b70b8d
+line：14
+end_line：22
+
+9. 9
+function：strict.bad
+actual_IO_file：algorithm_IO/08_strict_bad.json
+actual_IO_sha256：946972ec329a6dbb6043a464278dac833a1f5e3735ba3d1c9568e9398a8d3a57
+function_AST_sha256：3bd45a4cb39147fb32468b755d00bdb91de6c524f631d8bfa1e76038cb13d988
+line：21
+end_line：21
+
+10. 10
+function：strict.pairs
+actual_IO_file：algorithm_IO/09_strict_pairs.json
+actual_IO_sha256：32732f8ae376479432a19806faa3a9777efdbf068dddf5e51642d4824f19fee7
+function_AST_sha256：729515ff34737d6cba1bdb88d95483365af435798e7c6fdd13525c0f23a47f07
+line：15
+end_line：20
+
+原件：work/rev208_relation_task_whole/rule_cards_ten_fields.json
+SHA256：98735df58c4c10dcb878351468b6e530fbea63be6c33166ce56d27f3f3107988
+
+1. B-REL-context-application208
+算法标识：B-REL-context-application208
+extends：existing175 context/B-REL and206 original cards, no parallel relation hierarchy
+命题：候选、已采用任务、实际效力分层
+1_来源：175既有context函数；186共享primary-context profile
+2_来源层次：{
+  "原文": "仅实际图023–025的清楚定性句与206已核定位",
+  "后人注释": "2015卯以与Xu半会另源，未作主本校改/默认激活",
+  "现代解释": "186/206与本批是方法记录，非另一个古典原文",
+  "工程约定": "ordinary profile、准入/episode/数值及支持图语义明确"
+}
+3_所属口径：原有source层级的应用
+4_成立条件：显式ordinary主本profile；裸self/harm/break/未激活partial无已采用task
+5_排除与失效条件：不得因名字或ROOT证人自动破格/必pending；不证明现实无害/0
+6_变化条件：若具名primary激活或正式合冲加入，转实际任务而非继续免除
+7_冲突处理：三刑主文字面范围不混入裸自刑政策；更别不改变旧173/195
+8_规则表达：adjudicate_context
+9_验证材料：72分类先于数字，11 admitted与离线源域逐项等；原195十条真实pending仍保
+10_当前状态：新充分应用假设，不是通用关系真值
+
+2. B-REL-extension-解冲刑
+算法标识：B-REL-extension-解冲刑
+extends：existing175 context/B-REL and206 original cards, no parallel relation hierarchy
+命题：会合可解指定冲刑
+1_来源：主PDF024/book15；206原卡
+2_来源层次：{
+  "原文": "仅实际图023–025的清楚定性句与206已核定位",
+  "后人注释": "2015卯以与Xu半会另源，未作主本校改/默认激活",
+  "现代解释": "186/206与本批是方法记录，非另一个古典原文",
+  "工程约定": "ordinary profile、准入/episode/数值及支持图语义明确"
+}
+3_所属口径：格局关系的限定任务
+4_成立条件：有原句要求的实际合/会条件，逐任务而不是全盘消除
+5_排除与失效条件：只见名词/缺全支/有反解不能套；未激活半组不冒全会
+6_变化条件：新匹配救应改变指定任务，原关系/根库存保留
+7_冲突处理：先核反解与作用范围；不隐别的合冲
+8_规则表达：scoped_primary_tasks / context175
+9_验证材料：206月官有酉与无酉对照API/CLI；无酉亥卯保候选
+10_当前状态：具名定性作用可判，非整盘H保证
+
+3. B-REL-extension-反得刑
+算法标识：B-REL-extension-反得刑
+extends：existing175 context/B-REL and206 original cards, no parallel relation hierarchy
+命题：两卯的一个来源事件与反解
+1_来源：主PDF024末–025首；206原卡
+2_来源层次：{
+  "原文": "仅实际图023–025的清楚定性句与206已核定位",
+  "后人注释": "2015卯以与Xu半会另源，未作主本校改/默认激活",
+  "现代解释": "186/206与本批是方法记录，非另一个古典原文",
+  "工程约定": "ordinary profile、准入/episode/数值及支持图语义明确"
+}
+3_所属口径：primary子卯任务
+4_成立条件：甲子月一子两卯；有戌合去之一后余卯刑，无戌原句不刑
+5_排除与失效条件：不外推任意重复支；不选先出现卯当被合根
+6_变化条件：加入戌的人工另盘对照改变任务，非C03同盘时间证据
+7_冲突处理：两pair保原位置但共享effect_group，不能两份独立攻击
+8_规则表达：scoped_primary_tasks
+9_验证材料：两合法raw真实对照；两个候选一episode、反解根分配未决
+10_当前状态：源任务实际判定，哪卯根被合/整盘效力待算
+
+4. B-REL-extension-不能解
+算法标识：B-REL-extension-不能解
+extends：existing175 context/B-REL and206 original cards, no parallel relation hierarchy
+命题：有会合亦可不能解
+1_来源：主PDF025/book16；206原卡
+2_来源层次：{
+  "原文": "仅实际图023–025的清楚定性句与206已核定位",
+  "后人注释": "2015卯以与Xu半会另源，未作主本校改/默认激活",
+  "现代解释": "186/206与本批是方法记录，非另一个古典原文",
+  "工程约定": "ordinary profile、准入/episode/数值及支持图语义明确"
+}
+3_所属口径：源激活层次
+4_成立条件：子年午月丑日/子年卯月戌日与时逢巳酉/寅午原文对应
+5_排除与失效条件：不编单时柱两个支；半会/全会/时层激活未明不擅等同
+6_变化条件：实际补充会支与层次可能复原冲刑，但本raw不足先未决
+7_冲突处理：裸partial仅报告的政策不能跳过已匹配的primary原句
+8_规则表达：scoped_primary_tasks
+9_验证材料：壬子癸卯甲戌丙寅、壬子丙午乙丑辛巳合法反例真实API/CLI
+10_当前状态：具体源层未闭保任务，不假造数值
+
+5. B-REL-extension-别位解月令
+算法标识：B-REL-extension-别位解月令
+extends：existing175 context/B-REL and206 original cards, no parallel relation hierarchy
+命题：别宫冲而保护月官
+1_来源：主PDF025/book16；206原卡
+2_来源层次：{
+  "原文": "仅实际图023–025的清楚定性句与206已核定位",
+  "后人注释": "2015卯以与Xu半会另源，未作主本校改/默认激活",
+  "现代解释": "186/206与本批是方法记录，非另一个古典原文",
+  "工程约定": "ordinary profile、准入/episode/数值及支持图语义明确"
+}
+3_所属口径：源任务范围
+4_成立条件：丙子月一卯另酉，按具名卯酉冲不刑月官
+5_排除与失效条件：月官被护不等别宫根无损；丙辛自合与其余源不豁免
+6_变化条件：酉加入/去掉改变指定保护前件，不是命运现实验证
+7_冲突处理：保活formal关系/ROOT证人；非195月辰域不回退全H
+8_规则表达：scoped_primary_tasks / evaluate
+9_验证材料：癸酉甲子丙寅辛卯 vs 癸亥甲子丙寅辛卯源对照
+10_当前状态：指定月官任务可采用，完整其他源仍待研究
+
+6. B-REL-primary-root-boundary208
+算法标识：B-REL-primary-root-boundary208
+extends：existing175 context/B-REL and206 original cards, no parallel relation hierarchy
+命题：primary未解不随secondary放宽
+1_来源：主PDF023三刑子卯巳申之类；175实际primary触发
+2_来源层次：{
+  "原文": "仅实际图023–025的清楚定性句与206已核定位",
+  "后人注释": "2015卯以与Xu半会另源，未作主本校改/默认激活",
+  "现代解释": "186/206与本批是方法记录，非另一个古典原文",
+  "工程约定": "ordinary profile、准入/episode/数值及支持图语义明确"
+}
+3_所属口径：来源适用性
+4_成立条件：子卯/近会火及正式冲合要实际处理；三刑文字范围未闭
+5_排除与失效条件：不能一律毁或一律免；正ROOT说明使用者，不给伤害率
+6_变化条件：输入真正匹配primary任务则新pending或具名解/反解
+7_冲突处理：C2卯年子日刑碰非月印根仍未闭；巳年寅日范围亦未闭
+8_规则表达：adjudicate_context
+9_验证材料：C2_primary_elsewhere、three_punishment_scope、formal_combination真实反例
+10_当前状态：具体未决，不宣称传统破格或无影响
+
+7. M208-WHOLE
+算法标识：M208-WHOLE
+extends：existing175 context/B-REL and206 original cards, no parallel relation hierarchy
+命题：关系准入后进入完整195目标世界
+1_来源：195完整三分目标；173 signed库存/ROOT/SCC原件
+2_来源层次：{
+  "原文": "仅实际图023–025的清楚定性句与206已核定位",
+  "后人注释": "2015卯以与Xu半会另源，未作主本校改/默认激活",
+  "现代解释": "186/206与本批是方法记录，非另一个古典原文",
+  "工程约定": "ordinary profile、准入/episode/数值及支持图语义明确"
+}
+3_所属口径：工程整盘
+4_成立条件：新方法/明示假设、全部源和任务闭合、预登记11条件
+5_排除与失效条件：不local清官→H/B；不删相克/泄身/全部负荷；非C2不套全图
+6_变化条件：改变根/角色需所有origin/四支持世界重算
+7_冲突处理：源身份、target、support、盘外方向与最终喜用各分开
+8_规则表达：evaluate ->195 pure target_world/three_ledgers/support_graph
+9_验证材料：11真实API/CLI、44全账独立Fraction、native全sets相等；canonical旧图同
+10_当前状态：当前全部body目标失败HNone，不是盘无救或传统终判
+
+8. M208-SOURCE-ID
+算法标识：M208-SOURCE-ID
+extends：existing175 context/B-REL and206 original cards, no parallel relation hierarchy
+命题：实际manifest必须对应原freeze
+1_来源：本次真实208及原195隔离源攻击；root218外hold
+2_来源层次：{
+  "原文": "仅实际图023–025的清楚定性句与206已核定位",
+  "后人注释": "2015卯以与Xu半会另源，未作主本校改/默认激活",
+  "现代解释": "186/206与本批是方法记录，非另一个古典原文",
+  "工程约定": "ordinary profile、准入/episode/数值及支持图语义明确"
+}
+3_所属口径：工程来源安全
+4_成立条件：完整freeze锚+实际MF digest对其manifest_sha+每payload/路径全核，先于provider
+5_排除与失效条件：仅固定freeze却相信另MF有缺口；spyexec0不等拒绝
+6_变化条件：来源/policy/MF/范围表变化须新版本，不coherent外重封冒原件
+7_冲突处理：原195hold不因208修复解除；旧数值研究不一并抹除
+8_规则表达：source_tree / load
+9_验证材料：初1应0真失败存history，修后同攻击0/clean1，另9源负例+8strict
+10_当前状态：当前208已修待独审；旧195仍hold
+
+9. M208-SCOPE
+算法标识：M208-SCOPE
+extends：existing175 context/B-REL and206 original cards, no parallel relation hierarchy
+命题：新方法身份与未覆盖方向不偷换
+1_来源：本次新合同、root后续C02方向要求
+2_来源层次：{
+  "原文": "仅实际图023–025的清楚定性句与206已核定位",
+  "后人注释": "2015卯以与Xu半会另源，未作主本校改/默认激活",
+  "现代解释": "186/206与本批是方法记录，非另一个古典原文",
+  "工程约定": "ordinary profile、准入/episode/数值及支持图语义明确"
+}
+3_所属口径：输出与研究边界
+4_成立条件：同raw同method确定；新profile依题选而非H成功选择
+5_排除与失效条件：support_H仅现有演员功能解释，不等所有盘外可扶方向或最终喜用
+6_变化条件：不选ordinary假设不load/H；换方法非实际岁运变化
+7_冲突处理：不把虚拟角色当实际根；未来外援需原典和完整反事实研究
+8_规则表达：strict / evaluate / main
+9_验证材料：假设false load0、旧schema/profile/shape拒；原21JSON仅core指纹变
+10_当前状态：不采纳/B/默认/分数，不宣布原C02完成
+

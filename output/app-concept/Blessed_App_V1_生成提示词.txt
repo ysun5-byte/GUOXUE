@@ -1,0 +1,50 @@
+生成工具：内置 imagegen
+用途：Blessed 手机 App 三屏概念示意，依据手绘草图的解读；不是已接入算法的真实产品界面。
+版本：V1
+日期：2026-11-02
+
+最终生成提示词：
+
+Use case: ui-mockup.
+Create one polished high fidelity mobile app UI concept board for Blessed, an Eastern culture technology jewelry brand. This is a NEW image based on an interpreted designer's sketch. Deliver a landscape image, approximately 3:2, with THREE complete large portrait phone interfaces side by side, front-facing, equal height, all readable. They demonstrate (1) personal current state, (2) personal shape plus favorable-element shape, (3) an encounter between two people. This is a consumer app prototype, not a financial dashboard and not a fantasy game.
+
+Visual direction: exquisite restrained editorial UI, off-white board background, pure-white app canvases, charcoal black type, ultrathin warm-gray dividers, very subtle rounded phone outline and soft shadow, generous whitespace. No shiny hardware, no perspective tilt. Simplified Chinese text must be crisp and accurately typeset. Small refined Blessed wordmark. Beautiful airy THREE-DIMENSIONAL CONTINUOUS PARTICLE CLOUDS made from thousands of very fine charcoal points: organic flowing folded ribbons, delicate layered surfaces, open central voids, dimensional depth, calm flowing impression. Shapes must look sophisticated and visibly different, like artistic strange attractors. They are volumetric particle clouds, NOT wireframe balls, solid tubes, planets, starfields, abstract icons, or cartoon swirls. All backgrounds light. Restrained sage-green and warm terracotta accents only for 木 and 火, mostly monochrome. No neon, no purple gradients, no generic gadget illustrations, no charts of luck scores.
+
+COMPOSITION: Narrow board header at top with wordmark "Blessed" and the simple Chinese board title "看见运的形状". Place three tall app screens below. Each phone must have realistic top safe area, minimalist status bar (9:41), clear content hierarchy, comfortable touch sizes, and bottom safe area. Add small outside captions under screens exactly "01  今日" / "02  喜用" / "03  相遇". Board footer small but readable: "界面概念示意 · 数据与形态仅作演示". No extraneous explanatory paragraphs outside the phones.
+
+SCREEN 1 — TODAY:
+Top app header Blessed at left and a small outlined bracelet icon at right.
+Small context line "11月02日 · 上海" with clock and location line icons.
+Large elegant heading "此刻的你", small subheading "我的形态".
+Huge dominant original personal cloud around upper-middle, occupying about 38% of screen: black, softly folded infinity-like ribbon with asymmetric flowing wings and delicate density gradients. This same personal cloud identity must repeat on screen 2.
+Under the cloud put tiny, unobtrusive rotate and pause controls, suggesting a genuinely interactive 3D object.
+Then a clean horizontal row "今日喜用" with two softly tinted element chips "木" and "火", a small info icon and right chevron. Make the entire row look tappable.
+Below, one light-touch text section "今日解读" and short exact copy "看看此刻的状态，了解变化的原因。" with a small text link "查看解读".
+One thin separator and list row "生辰八字" with a chevron.
+Bottom navigation three small simple line icons and labels "今日" "相遇" "我的", 今日 selected black, others gray.
+Clear hierarchy and lots of white space. No made-up astrological results.
+
+SCREEN 2 — FAVORABLE ELEMENTS:
+Back chevron, centered title "喜用", small info icon.
+Large heading "我的形态 ＋ 喜用形态".
+Small supporting line "看看喜用如何参与".
+At the center of the screen, show two separate beautiful small-to-medium 3D particle clouds side by side with a delicate "+" sign between, readable as distinct inputs, NOT a two-person interaction. Left cloud is the same charcoal personal cloud from screen 1 and labeled "我的形态". Right cloud is a new more slender open curling cloud, charcoal with restrained sage-green and warm terracotta particles, explicitly labeled "喜用形态". This is the visual focus.
+Below right/center show element chips "木" and "火".
+Underneath a spacious understated section titled "喜用说明", exact sentence "从形态，理解当下的喜用。"
+A clearly outlined clickable row "查看变化依据" with chevron.
+A broad understated charcoal button, rounded corners, white text "查看参与示意".
+At bottom a quiet link "返回今日".
+Do not draw a third merged-result cloud on this screen; the two input shapes plus the button are the conceptual flow. Avoid adding technical parameter panels.
+
+SCREEN 3 — ENCOUNTER:
+Header Blessed and a small discreet connection icon.
+Large title "相遇", supporting title "两个人的形状".
+Two small side-by-side profile markers labeled "你" and "对方", followed by a dominant very large elegant intertwined particle visualization: one recognizable charcoal personal ribbon and a distinct pale warm-gray three-lobed cloud gently interpenetrate while remaining distinguishable. Beautiful organic motion and fine particles, not heart shapes. No arbitrary compatibility percentage.
+Directly below, a slim neutral outlined status badge "已连接".
+A simple upward chevron cue and the exact text "下滑查看关系解读".
+A lower section begins, titled "关系解读", with exact copy "看见交汇，也看见彼此的不同。"
+Thin separator and clickable row "双方八字" with right chevron.
+Bottom nav "今日" "相遇" "我的", 相遇 selected.
+
+Must look like an attractive, implementable real mobile product, not an infographic. UI labels must not overlap the particle art; typography and spacings consistent between screens. All phones fully visible, not cropped. Preserve the distinction between my shape plus favorable-element shape (screen 2) and my shape plus another person's shape (screen 3). Do not include fabricated classical quotations, promises of changing destiny, claims of scientific validation, or financial/health advice.
+

@@ -1,0 +1,12 @@
+{
+  "files": {
+    "acceptance_decision.json": {
+      "bytes": 15592,
+      "sha256": "f601d86c0fbfab0405ea2457aefdd94ef622a9390e3a5a2d4807fa710e921cd6"
+    },
+    "root_substantive_acceptance_reason.txt": {
+      "bytes": 4067,
+      "sha256": "498865ff078d8ca5bc261c7eeebc4af87cd871498bdcd92d32405f9c9075051b"
+    }
+  }
+}

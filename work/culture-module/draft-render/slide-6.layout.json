@@ -1,0 +1,10 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/zyxsni5k","index":5,"layout":{"id":"ly/2t4jax8v","name":"智道石墨黑内容版式"},"backgroundColor":"rgba(16,18,20,1)","position":{"left":0,"top":0,"width":1600,"height":900}},
+"elements":[
+{"id":"sh/dkfmp4zy","kind":"textbox","name":"text","position":{"left":90,"top":45,"width":250,"height":44},"text":"智道","style":{"fontSize":25,"typeface":"Hiragino Sans GB","color":"#F1F1EF","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/qpwjmh8n","kind":"textbox","name":"text","position":{"left":1240,"top":48,"width":274,"height":32},"text":"文化合作  ·  06 / 06","style":{"fontSize":18,"typeface":"Hiragino Sans GB","color":"#7F878E","alignment":"right"},"geometry":"rect","lineWidth":0},
+{"id":"sh/rq50vmp8","kind":"textbox","name":"slide-title","position":{"left":90,"top":127,"width":1424,"height":105},"text":"科学探索纪录片前期计划","style":{"fontSize":64,"typeface":"Hiragino Sans GB","color":"#F1F1EF","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/4nu1krqh","kind":"textbox","name":"text","position":{"left":94,"top":248,"width":1420,"height":60},"text":"从首期选题与样片出发，逐步确定系列内容与发行安排","style":{"fontSize":29,"typeface":"Hiragino Sans GB","color":"#BDC2C6","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/2lczih8r","kind":"textbox","name":"text","position":{"left":90,"top":806,"width":1424,"height":42},"text":"首期形成可讨论的样片，并向合作方交付约定的整理成果。","style":{"fontSize":28,"typeface":"Hiragino Sans GB","color":"#79D8B5","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/gjuhg7ql","kind":"textbox","name":"text","position":{"left":90,"top":850,"width":1424,"height":30},"text":"前期拟议计划；时间、人员与预算另行落实。具体拍摄、资料及公开传播授权按内容确认。","style":{"fontSize":17,"typeface":"Hiragino Sans GB","color":"#7F878E","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"tb/jy1wvit0","kind":"table","position":{"left":90,"top":350,"width":1424,"height":420},"text":"阶段\t拟交付\t合作方参与\n01  选题调研\t首期问题、人物与资料范围\t共选主题，确认资料出处\n02  访谈与试拍\t访谈档案、现场影像与授权清单\t参与讲述，核对文化背景\n03  样片制作\t一支 3—5 分钟样片\t审看素材，讨论叙事表达\n04  系列评估\t后续集数、预算与发行建议\t明确署名与成果使用安排","rows":5,"cols":3}
+]}

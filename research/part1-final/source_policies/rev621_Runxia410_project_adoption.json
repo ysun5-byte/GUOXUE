@@ -1,0 +1,107 @@
+{
+  "schema": "621-Runxia410-actualfive-after618/1",
+  "revision": 621,
+  "status": "adopted_exact569_Runxia410_after618_originalwater_resource_R0_five_layer",
+  "saved_utc": "2026-11-03T19:14:59.376538+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Runxia410_author_completion_handoff.json",
+    "bytes": 5769,
+    "sha256": "a1e6f9382962fbf0158d6e45c20932fbc1fb6c7b0aeaa3a3b529d3e43397880c"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev618_independent_completion_handoff.json",
+    "bytes": 1069,
+    "sha256": "7f620d3b35bd09b1c74c22e968c6de2a737c9b18478d46c38ef3cb82f7efbf6a"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Runxia410_actual_five_layer_adaptation",
+    "files": 486,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Runxia410_actual_five_layer_adaptation/manifest.json",
+      "bytes": 85093,
+      "sha256": "a3dda5fe91fe05be90ee7b149a9263e033ca5cd0e2da0b0731b20798e70b4f87"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Runxia410_actual_five_layer_adaptation/freeze.json",
+      "bytes": 137,
+      "sha256": "974b1c301690825efd55dd9713e08bca3b8d5298d3f5c1a691ac7fc2bbc44a27"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev618_independent_review410",
+    "files": 48,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev618_independent_review410/manifest.json",
+      "bytes": 6912,
+      "sha256": "b97443fb1de2fb10a04e5b2c38b2c86b16b42ef51868245bb4e3e9a749c8bfff"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev618_independent_review410/freeze.json",
+      "bytes": 92,
+      "sha256": "a53452b79209e0c60816b7855a411154031f2652a9147edf1f10759fd4b9b2bc"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Runxia410_complete_runtime_kernel",
+      "total_files": 44,
+      "payload_files": 42,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Runxia410_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 6657,
+        "sha256": "0fcea42581b55477b4446b71140d3462b53f49718552b758e9505b370217a84b"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Runxia410_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 115,
+        "sha256": "0d9dec0339a32d2c68e8cf3d0ea3e44284774bb237573d80e1a77537b410a9c2"
+      },
+      "all_payload_bytes_verified": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/Runxia410 one complete readonly actual five research nir4q0ze/complete exact five runtime with spaces",
+      "total_files": 44,
+      "payload_files": 42,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/Runxia410 one complete readonly actual five research nir4q0ze/complete exact five runtime with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 6657,
+        "sha256": "0fcea42581b55477b4446b71140d3462b53f49718552b758e9505b370217a84b"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/Runxia410 one complete readonly actual five research nir4q0ze/complete exact five runtime with spaces/DELIVERY_FREEZE.json",
+        "bytes": 115,
+        "sha256": "0d9dec0339a32d2c68e8cf3d0ea3e44284774bb237573d80e1a77537b410a9c2"
+      },
+      "all_payload_bytes_verified": true
+    }
+  ],
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev621_Runxia410_effective_rule_cards.json",
+    "bytes": 10843,
+    "sha256": "a66281f36b71aefa30604591440d54898208ade59ec62edcd88a3436c25e0c53"
+  },
+  "all129_current_effective_explanations": {
+    "bytes": 384006,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Runxia410_actual_five_layer_adaptation/algorithm_explanations_all129.json",
+    "sha256": "2683a35e969907626814bf77cd61d7a093f4b32279648d2dfddab47d3dd2acf5"
+  },
+  "mandatory_source_problem": {
+    "bytes": 5816,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_Runxia410_actual_five_layer_adaptation/source/00_complete_source_problem_before_new_numbers.json",
+    "sha256": "67f42e8ffc3e10e2ff58943affa82174691160f5d5f491a21aa0e096775f1e30"
+  },
+  "scope": "完整原36出生族×8luck×2AM×2DH、三原参数；私有b2/11 c5/17和人工direct/foreign仅验证，不扩公开域。",
+  "strict_original_water_ROOT_and_current_roots_distinct": true,
+  "all_raw_nonmonotone_worlds_and_robust_failed_witness_preserved": true,
+  "dam_projection_not_second_water_deduction": true,
+  "old42_nonmonotone_cached_controls_not_other424_44": true,
+  "full_negative_signed_cost_and_origin_chains": true,
+  "all_original_C03_complete": false,
+  "original_task_complete": false,
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "no_B_or_display": true,
+  "real_prediction_validated": false
+}

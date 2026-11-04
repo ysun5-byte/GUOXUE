@@ -1,0 +1,1390 @@
+阳刃单官杀一财无食的完整财印比反馈
+rev304_yangren_complete_feedback
+所属原模块：C02
+当前采用：rev327_Yangren_whole_project_adoption.json
+范围：单明官或杀/财印、实际一财无食、已准入月刃/藏干任务；财官印比全signed同现量、所有正功能/主H及固定K额外H分开。非通用古典足量贵级，不接个人基础或显示。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev304_yangren_complete_feedback/new_function_explanations.json
+SHA256：34aa408d3dfdbdec4c65e16ef5b9d84db0dbdd422afb4af3e45d7a3649742e24
+
+1. yangren_whole.py:canonical:22:02481dbe6bb2
+算法标识：yangren_whole.py:canonical:22:02481dbe6bb2
+目的：以固定排序/紧凑JSON序列化原生完整值，禁止NaN；用于API与CLI原生字节比较，非归一化字段。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def canonical(x):return json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)
+source_path：yangren_whole.py
+source_line：22
+ast_sha256：399b7255954d430e1eefe6987ce65b1f642ab76786011c59f83715d3b7f88bf8
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:canonical:22:02481dbe6bb2"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+2. yangren_whole.py:strict_load:23:63d0d365f57d
+算法标识：yangren_whole.py:strict_load:23:63d0d365f57d
+目的：用重复键/非有限数回调读JSON；深层异常由main原子捕获，不执行依赖。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def strict_load(s):
+    def pairs(rows):
+        out={}
+        for k,v in rows:
+            if k in out:raise ValueError('duplicate_JSON_key:'+k)
+            out[k]=v
+        return out
+    def bad(v):raise ValueError('nonfinite_JSON:'+v)
+    return json.loads(s,object_pairs_hook=pairs,parse_constant=bad)
+source_path：yangren_whole.py
+source_line：23
+ast_sha256：b8290a086e4b1614ddcb4f99f0bff9c8e7f504467d57a5ab064914b134255a9c
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:strict_load:23:63d0d365f57d"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+3. yangren_whole.py:pairs:24:d441b1365118
+算法标识：yangren_whole.py:pairs:24:d441b1365118
+目的：逐JSON对象检查重复键，嵌套对象也拒绝；不能后值覆盖前值。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def pairs(rows):
+        out={}
+        for k,v in rows:
+            if k in out:raise ValueError('duplicate_JSON_key:'+k)
+            out[k]=v
+        return out
+source_path：yangren_whole.py
+source_line：24
+ast_sha256：2a72712bc22459575237e24cf8c62d6e9f11515ff6d8227085c7e65eff8013c2
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:pairs:24:d441b1365118"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+4. yangren_whole.py:bad:30:b54738d6a562
+算法标识：yangren_whole.py:bad:30:b54738d6a562
+目的：NaN/Infinity回调明确抛ValueError。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def bad(v):raise ValueError('nonfinite_JSON:'+v)
+source_path：yangren_whole.py
+source_line：30
+ast_sha256：b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:bad:30:b54738d6a562"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+5. yangren_whole.py:capture:32:5a07a4ed1a15
+算法标识：yangren_whole.py:capture:32:5a07a4ed1a15
+目的：先核1511固定文件及全部完整旧release自身manifest/freeze与硬pins，含原未来未选记录；全部验证完成才允许任何provider exec。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def capture():
+    raw=(H/'dependency_lock.json').read_bytes()
+    if sha256(raw).hexdigest()!=LOCK_SHA:raise ValueError('304_fixed_complete_sources_before_exec')
+    lock=strict_load(raw);actual={str(p.relative_to(H)) for folder in ['runtime','source','source_preparation','history'] for p in (H/folder).rglob('*') if p.is_file()}|set(EXTRA)
+    if actual!=set(lock['files']):raise ValueError('304_all_original_source_and_paper_inventory_required')
+    data={}
+    for n,row in lock['files'].items():
+        p=H/n
+        if p.is_symlink() or not p.resolve().is_relative_to(H.resolve()):raise ValueError('304_regular_contained_source')
+        b=p.read_bytes()
+        if {'bytes':len(b),'sha256':sha256(b).hexdigest()}!=row:raise ValueError('304_source_or_proof_changed:'+n)
+        data[n]=b
+    hs=lambda n:sha256(data[n]).hexdigest();read=lambda n:strict_load(data[n])
+    for n,pin in [('full_feedback.py',ENGINE_SHA),('source_question_before_producer.json',CONTRACT_SHA),('runtime/exact65/exact_poly.py',POLY_SHA),('source/parent_policy281.json',POLICY281_SHA)]:
+        if hs(n)!=pin:raise ValueError('304_actual_fixed_math_source_or_policy:'+n)
+    for prefix,(count,mfpin,frpin) in ANCHORS.items():
+        if hs(prefix+'/manifest.json')!=mfpin or hs(prefix+'/freeze.json')!=frpin:raise ValueError('304_actual_original_ownfreeze:'+prefix)
+        mf=read(prefix+'/manifest.json');fr=read(prefix+'/freeze.json');rows=mf.get('files',mf);rows={r['path']:r for r in rows} if isinstance(rows,list) else rows
+        members={n[len(prefix)+1:] for n in data if n.startswith(prefix+'/')}
+        if members!=set(rows)|{'manifest.json','freeze.json'} or len(members)!=count or fr['manifest_sha256']!=mfpin:raise ValueError('304_complete_original_release:'+prefix)
+        for n,r in rows.items():
+            r={'sha256':r} if isinstance(r,str) else r
+            if hs(prefix+'/'+n)!=r['sha256'] or ('bytes' in r and len(data[prefix+'/'+n])!=r['bytes']):raise ValueError('304_original_publication_member:'+prefix+'/'+n)
+    old57=read('source/original57/冻结记录.json');members={n[len('source/original57/'):] for n in data if n.startswith('source/original57/')}
+    if hs('source/original57/冻结记录.json')!='f5a3eb82d9a580f9b70aa41382a9bdc9360ebbb6e8f4f2fa29099c865c365ec1' or members!=set(old57['files'])|{'冻结记录.json'} or len(members)!=44:raise ValueError('304_original57_complete_own_freeze')
+    if any(hs('source/original57/'+n)!=v for n,v in old57['files'].items()):raise ValueError('304_original57_payload')
+    p=read('source/parent_policy281.json')
+    if p['status']!='adopted_for_bounded_whole_model' or p['component']!='rev253_effective_support_follow_competition' or p['model_freeze_sha256']!=ANCHORS['runtime/parent253'][2]:raise ValueError('304_parent281_actual_scope_not_new304_adoption')
+    if read('source/independent274/report.json')['blocking_findings_remaining']!=[]:raise ValueError('304_parent_review_has_remaining_blocker')
+    contract=read('source_question_before_producer.json')
+    if contract['source_revision']!='r3 preserve currentK potential demand; r2 taskpartition comparison only' or contract['adoption'] is not False:raise ValueError('304_source_fixed_before_success_no_partition_fallback')
+    return data
+source_path：yangren_whole.py
+source_line：32
+ast_sha256：60d7469adbf6978eed413b56462a5564702e5f4ccd189112e65ad0881a3cad97
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:capture:32:5a07a4ed1a15"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+6. yangren_whole.py:<lambda>:44:22486195820d
+算法标识：yangren_whole.py:<lambda>:44:22486195820d
+目的：对已经捕获的固定source bytes求SHA；不读另一路径替代材料。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：lambda n:sha256(data[n]).hexdigest()
+source_path：yangren_whole.py
+source_line：44
+ast_sha256：6485e0bb012d53bccc4e13767442408c8e0b40ed59ecb13a023a7d2e1880a440
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:<lambda>:44:22486195820d"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+7. yangren_whole.py:<lambda>:44:07c491d74216
+算法标识：yangren_whole.py:<lambda>:44:07c491d74216
+目的：仅从已捕获bytes严格解码其自身manifest/contract，防验后再读另一本。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：lambda n:strict_load(data[n])
+source_path：yangren_whole.py
+source_line：44
+ast_sha256：14e13e59829c6c2d127193c9b6c62fbae2ac30ae0ce80cff01a1ed4592da5dd0
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:<lambda>:44:07c491d74216"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+8. yangren_whole.py:load_modules:64:948f5b3a4275
+算法标识：yangren_whole.py:load_modules:64:948f5b3a4275
+目的：仅从完整捕获且再次逐值相同的bytes编译原253、固定旧65算术及304engine，加载原253包并注入旧精确算术。281仅原253政策，不创建304采用。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def load_modules():
+    data=capture();mods={}
+    for key,n in [('parent','runtime/parent253/support_competition.py'),('poly','runtime/exact65/exact_poly.py'),('engine','full_feedback.py')]:
+        if (H/n).read_bytes()!=data[n]:raise ValueError('304_provider_changed_after_capture')
+        m=types.ModuleType('_304_'+key);m.__file__=str(H/n);exec(compile(data[n],m.__file__,'exec'),m.__dict__);mods[key]=m
+    _,b=mods['parent'].load_package(mods['parent'].PRIMARY);mods['bundle']=b;mods['engine'].POLY=mods['poly'];mods['captured_files']=len(data);return mods
+source_path：yangren_whole.py
+source_line：64
+ast_sha256：dabac52e668a3c6024f8d6a37a6c8daca05ce8dd032a93011430fa3890a1bf51
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:load_modules:64:948f5b3a4275"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+9. yangren_whole.py:intake:70:75932476cf5b
+算法标识：yangren_whole.py:intake:70:75932476cf5b
+目的：真实四柱合法性、全明藏/HAP/ROOT/关系/气候先核；戊午源任务在ROOT前消费原registry己，所有未闭后件保pending；不按H成功换源。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def intake(raw,secondary,mods):
+    b=mods['bundle'];old=b['old'];a=b['actor'];facts=a.load_facts();day=raw['day'][0];template=day=='戊' and raw['month'][1]=='午'
+    hap=b['hap'].evaluate({'schema':b['hap'].VERSION,'profile':old.PROFILE['hidden_profile'],'raw_pillars':raw})
+    out={'raw':deepcopy(raw),'native_HAP':hap,'legal':hap['status']=='participation_inventory_closed_within_declared_policy','known':[],'pending':[],'source_before_whole':True,'no_default_ROOT_HAP_rewrite':True}
+    if not out['legal']:return out
+    actors=old.participation(raw,hap,a);tasks=[]
+    if template:
+        blade=next(x for x in actors if x['id']=='h:month:己')
+        if blade['kind']!='hidden' or blade['eligible_current']:raise ValueError('304_WuWu_requires_existing_unadopted_hidden_blade_task')
+        authority={'id':'304_Primary_WuWu_source_blade_task','condition_selected_from_raw_before_HAP_ROOT_evaluation':True,'source_ref':'Primary86 definition +87 actual戊午example;new304r3contract:'+CONTRACT_SHA,'original_HAP_row':deepcopy(blade['hap_origin']),'original_gate_preserved':blade['hap_origin']['policy_current_independent_gate'],'actor_id':blade['id'],'hidden_no_new_float':True,'month_MAIN_still_丁_print':True}
+        blade['eligible_current']=True;blade['participation_policy']='304_source_named_WuWu_blade_task';blade['additional304_source_task']=authority;tasks.append(authority)
+    cfg=dict(old.PROFILE['cfg'],relation='retain');D,activation,roots,formal=old.direct_inventory(raw,actors,cfg,a);formal+=b['context'].supplement_relations(raw)
+    active=[x for x in actors if x['eligible_current']];vis=[x for x in active if x['kind']=='visible' and x['group']!='day'];groups={g:[x for x in vis if x['group']==g] for g in ['officer','wealth','print']}
+    pair=BLADES.get(day);bladeid='h:month:'+pair[1] if pair is not None and raw['month'][1]==pair[0] else None
+    if bladeid is None:out['known'].append('not_this_primary_yangren_month_source_entry')
+    if any(len(groups[g])!=1 for g in groups) or len(vis)!=3:out['known'].append('not_single_visible_K_onefinance_oneprint_source_family')
+    if not secondary:out['pending'].append('finite_secondary_context_engineering_assumption_not_selected')
+    activeids={x['id'] for x in active}
+    if bladeid is not None and bladeid not in activeids:out['pending'].append('source_blade_task_not_consumed')
+    source_tasks=[]
+    for pos in ['year','month','day','hour']:
+        stem=a.MAIN[raw[pos][1]];role=facts.ten_god(day,stem);mapped=[x['id'] for x in active if x['stem']==stem]
+        source_tasks.append({'position':pos,'branch':raw[pos][1],'main_stem':stem,'role':role,'current_same_stem_task_actors':mapped,'not_automatic_same_position_or_new_hidden_actor_equivalence':True})
+        if role in ['正印','偏印','正官','七杀'] and not mapped:out['pending'].append('unmapped_branch_main_full_print_or_officer_task:'+pos+':'+stem)
+    self_only=[];external=[]
+    for r in formal:
+        if r['kind']=='stem_five_combination' and 'day' in r['positions']:
+            touched=[x for x in formal if x['kind']=='stem_five_combination' and 'day' not in x['positions'] and set(x['positions'])&set(r['positions'])]
+            if not touched:self_only.append(r);continue
+        if r['kind'] in ['stem_five_combination','branch_six_combination','branch_six_clash','three_harmony','three_meeting','branch_three_harmony','branch_three_meeting']:external.append(r)
+    if external:out['pending'].append('actual_external_or_full_relation_effect_unclosed')
+    relations=b['context'].adopted_relation_context(raw,formal)
+    if relations['applicable_primary_task_triggers']:out['pending'].append('actual_named_primary_relation_task_unclosed')
+    triples=[]
+    for p,q in combinations(['year','month','day','hour'],2):
+        if raw[p][1]!=raw[q][1] and any({raw[p][1],raw[q][1]}<=set(s) for s in ['寅巳申','丑未戌']):triples.append([p,q])
+    if triples:out['pending'].append('actual_general_three_punishment_source_task_unclosed')
+    climate=b['context'].climate_context(raw,actors,facts);climate_exact=[]
+    for row in climate['known_source_conditions_actually_matched']:
+        if not row['matched']:continue
+        all_outlets=[x['id'] for x in actors if x['role'] in ['食神','伤官']]
+        if row['id']=='winter_water_financial_context' and not all_outlets:
+            climate_exact.append({'original_background_candidate':row,'full_clause':'Primary38§5伤官用财用于冬水;source310independent audit','no_food_hurt_entity_anywhere':True,'full_antecedent_applies':False,'not_generic_climate_neutrality':True})
+        else:
+            climate_exact.append({'original_background_candidate':row,'full_antecedent_applies':None,'not_generic_climate_neutrality':True});out['pending'].append('named_climate_full_antecedent_or_consequent_unclosed:'+row['id'])
+    for x in hap['source_condition_primitives']:
+        if x['condition']:out['pending'].append('actual_named_HAP_source_consequent_unclosed:'+x['id'])
+    out.update(actors=actors,direct=D,activation=activation,roots=roots,formal=formal,cfg=cfg,source_blade_actor_id=bladeid,source_use_intent='single_visible_officer_or_kill_controls_blade',source_use_intent_K=groups['officer'],additional_source_tasks=tasks,branch_main_task_mapping=source_tasks,self_only_combinations_not_combined_away=self_only,unclosed_full_relations=external,relation_context=relations,general_three_punishment_tasks=triples,original_climate_background=climate,exact_climate_adjudication=climate_exact,old_six_month_engineering_scope_not_inherited_as_new_proof_boundary=True,all_latent_HAP_rows_preserved_not_real_zero_effect_proof=True,ordinary_vs_follow_or_print_source_not_selected_by_H_success=True,root_and_numerical_effectiveness_separate=True)
+    out['known']=sorted(set(out['known']));out['pending']=sorted(set(out['pending']));return out
+source_path：yangren_whole.py
+source_line：70
+ast_sha256：af63fe48cd27e72cf3416cbafbec2ea26f931d4a823d7681c1a70b828c0a59be
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:intake:70:75932476cf5b"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+10. yangren_whole.py:all_supports:119:d5c9db000c0b
+算法标识：yangren_whole.py:all_supports:119:d5c9db000c0b
+目的：枚举全部正包subset，完整solve真值转稳健superset闭包及极小H；用maximal-failed-set子句精确送原AUX，再与自算极小H逐值核。另独立取K_on条件H。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def all_supports(context,mods):
+    engine=mods['engine'];b=mods['bundle'];a=b['actor'];ids=sorted(x['id'] for x in context['actors'] if x['eligible_current'] and x['group'] in ['wealth','officer','print','peer']);rows=[]
+    if len(ids)>7:raise ValueError('304_complete_subset_domain_no_truncation')
+    for n in range(len(ids)+1):
+        for enabled in combinations(ids,n):
+            world=engine.solve(context,a,enabled)
+            if world['status']!='unique_complete_full_origin_fixed_state':return {'status':'actual_math_domain_unclosed','H':None,'math_guard':world['guard'],'already_evaluated_worlds':rows}
+            rows.append({'enabled':list(enabled),'world':world,'evaluation':world['evaluation']})
+    truth={frozenset(r['enabled']):r['evaluation']['formed'] for r in rows};robust={s:all(v for t,v in truth.items() if s<=t) for s in truth};mins=sorted(sorted(s) for s,v in robust.items() if v and not any(t<s and robust[t] for t in robust));actual=next(r for r in rows if r['enabled']==ids);whole=actual['evaluation']['formed'];failed=[s for s,v in robust.items() if not v];maxbad=[s for s in failed if not any(s<t for t in failed)];aux=b['aux'];goals=[{'id':'same_source_complete_whole_actual_goals','actual_status':'met' if whole else 'unmet','hard_requirement':True,'selection_required':False,'source_ref':'304r3 fixed potential-load + actualbladecontrol + retainedfinance; allsigned fullstates'}];tasks=[]
+    for i,bad in enumerate(sorted(maxbad,key=lambda s:tuple(sorted(s)))):
+        gid='304_all_positive_superset_clause:'+str(i);goals.append({'id':gid,'actual_status':'met','hard_requirement':True,'selection_required':True,'source_ref':'every robust superset avoids maximal failed subset'})
+        for aid in sorted(set(ids)-bad):tasks.append({'id':gid+':'+aid,'actor':aid,'goal':gid,'effect':'positive','effective_current':True,'selection_basis':'declared_model_goal_support','source_ref':'full allsubset truth table; not source-role presence'})
+    graph={'schema':aux.VERSION,'mode':'evaluated_normal_branch_graph','actors':[{'id':x['id'],'role':x['role'],'element':x['element'],'present_current':x['eligible_current'],'can_select_auxiliary':x['id'] in ids} for x in context['actors'] if x['eligible_current']],'goals':goals,'tasks':tasks,'scope':{k:True for k in aux.SCOPE_KEYS},'global_checks':[{'id':'complete_all_signed_graph_and_actual_fixed_source_goals','status':'pass' if whole else 'fail','hard_requirement':True,'source_ref':'bounded304currenttask profile; not alltraditional hidden/climate mechanisms certified'}],'preferences':[],'repair_routes':[],'luck_directions':[]}
+    native=aux.select(a.packed(graph));Hsets=native.get('selected_current_auxiliary_sets')
+    if whole and sorted(Hsets)!=mins:raise ArithmeticError('304_actual_original_AUX_not_all_robust_minimal_H')
+    if not whole and Hsets is not None:raise ArithmeticError('304_failed_actual_whole_must_not_export_H')
+    amap={x['id']:x for x in context['actors']};elements=sorted({tuple(sorted({amap[x]['element'] for x in s})) for s in Hsets}) if Hsets is not None else None
+    fixed_K=frozenset(x['id'] for x in context['source_use_intent_K']);conditional={s-fixed_K:v for s,v in truth.items() if fixed_K<=s};condrobust={s:all(v for t,v in conditional.items() if s<=t) for s in conditional};condmins=sorted(sorted(s) for s,v in condrobust.items() if v and not any(t<s and condrobust[t] for t in condrobust)) if whole else None
+    return {'status':'complete_whole_all_H_computed' if whole else 'complete_actual_whole_goals_not_met','all_worlds':rows,'actual_allpositive':actual,'all_robust_sets':sorted(sorted(s) for s,v in robust.items() if v),'H':Hsets,'H_contract':'YR-complete-positive-functions-including-sourceK/0.2','additional_support_H_given_source_K_on':condmins,'additional_support_contract':'YR-additional-support-conditioned-on-fixed-sourceK/0.1','old_background_papers_only_apply_to_conditioned_quantity':True,'all_element_sets':[list(x) for x in elements] if elements is not None else None,'native_AUX_graph':graph,'native_AUX_result':native,'source_K_actual_blade_function_positive_in_all_on':actual['evaluation']['goals']['actual_month_blade_control_path'],'source_role_intent_does_not_prepopulate_H':True,'H_within_AND_between_OR_without_priority_or_equalweights':True}
+source_path：yangren_whole.py
+source_line：119
+ast_sha256：33e67e4bba5654bbee4e35ad214b85bc9a47e5f92b2c72371fee55addd8c040f
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:all_supports:119:d5c9db000c0b"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+11. yangren_whole.py:<lambda>:128:c6226a1705f5
+算法标识：yangren_whole.py:<lambda>:128:c6226a1705f5
+目的：对极大失败集合使用确定字典序，保障完整AUX约束和输出稳定；不赋角色优先权。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：lambda s:tuple(sorted(s))
+source_path：yangren_whole.py
+source_line：128
+ast_sha256：fee535f114985cc02adccf9b86f348801938dce68e4e820e088395746c0778c5
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:<lambda>:128:c6226a1705f5"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+12. yangren_whole.py:evaluate:138:b64557173356
+算法标识：yangren_whole.py:evaluate:138:b64557173356
+目的：严格输入只收原始四柱与固定源profile/显式工程context假设；源先于whole，unknown/pending/坏合法性与actual-goal失败分开；B/theme/采用恒不创建。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def evaluate(request):
+    if type(request) is not dict or set(request)!={'schema','source_profile','secondary_context_assumption','raw_pillars'} or request['schema']!=VERSION or request['source_profile']!=PROFILE or type(request['secondary_context_assumption']) is not bool:raise ValueError('304_exact_fixed_source_raw_schema_required')
+    raw=request['raw_pillars']
+    if type(raw) is not dict or set(raw)!={'year','month','day','hour'} or any(type(v) is not str or len(v)!=2 for v in raw.values()):raise ValueError('304_exact_raw_four_pillars_required')
+    mods=load_modules();ctx=intake(raw,request['secondary_context_assumption'],mods);out={'version':VERSION,'implementation_revision':IMPLEMENTATION_REVISION,'source_profile':PROFILE,'core_sha256':sha256(Path(__file__).read_bytes()).hexdigest(),'engine_sha256':ENGINE_SHA,'exact65_arithmetic_sha256':POLY_SHA,'source_contract_sha256':CONTRACT_SHA,'dependency_lock_sha256':LOCK_SHA,'captured_source_files':mods['captured_files'],'input_snapshot':deepcopy(request),'source_context':ctx,'new304whole_calls':0,'native_AUX_calls':0,'H':None,'all_element_sets':None,'B':None,'theme':None,'priority':None,'weights':None,'project_adoption':False,'original_B155_ROOT_HAP_86_25_changed':False,'product_UI_J2_called':False,'real_prediction_validated':False}
+    if not ctx['legal']:out['status']='invalid_raw_pillars';return mods['engine'].serialize(out)
+    if ctx['known'] or ctx['pending']:out['status']='known_other_source_family' if ctx['known'] else 'source_effects_pending_before_whole';return mods['engine'].serialize(out)
+    whole=all_supports(ctx,mods);out.update(status=whole['status'],whole=whole,new304whole_calls=len(whole.get('all_worlds',whole.get('already_evaluated_worlds',[]))),native_AUX_calls=int('native_AUX_result' in whole),H=whole['H'],H_contract=whole.get('H_contract'),additional_support_H_given_source_K_on=whole.get('additional_support_H_given_source_K_on'),all_element_sets=whole.get('all_element_sets'));return mods['engine'].serialize(out)
+source_path：yangren_whole.py
+source_line：138
+ast_sha256：23e24205d72f1432dd3345252a2d0ba65be879c26d74b7c709d3de01d4ab1051
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:evaluate:138:b64557173356"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+13. yangren_whole.py:main:146:ec523e544e7c
+算法标识：yangren_whole.py:main:146:ec523e544e7c
+目的：5000字符有界stdin；完整成功JSON或exit2单行rejected，无部分输出；捕获RecursionError，保旧279真实缺陷经验。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def main():
+    try:
+        sys.dont_write_bytecode=True;s=sys.stdin.read(5001)
+        if len(s)>5000:raise ValueError('304_input_character_bound')
+        print(canonical(evaluate(strict_load(s))));return 0
+    except (ValueError,TypeError,KeyError,OSError,ArithmeticError,RecursionError) as e:print(canonical({'version':VERSION,'implementation_revision':IMPLEMENTATION_REVISION,'status':'rejected','reason':str(e),'H':None,'B':None,'theme':None}));return 2
+source_path：yangren_whole.py
+source_line：146
+ast_sha256：42f3808cca76a8acaaf88f38b6b07110a3c01e4a8b02e7d18ceff0c72bdba275
+source_file_sha256：780931e9b4c57437efa1cc93fc7c60e55b56650ff0f3951cd238578b78a0d74a
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "yangren_whole.py:main:146:ec523e544e7c"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+14. full_feedback.py:amount:9:d60f20bf22c1
+算法标识：full_feedback.py:amount:9:d60f20bf22c1
+目的：逐origin精确有理/代数求和；不把同源多actor在合并前重复加。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def amount(p):return sum(p.values(),F())
+source_path：full_feedback.py
+source_line：9
+ast_sha256：247d677163f19ce00290c9c7b21042f695b0ef3f55b630aa2fcee80df12c846f
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:amount:9:d60f20bf22c1"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+15. full_feedback.py:__init__:13:f4734acfc0b7
+算法标识：full_feedback.py:__init__:13:f4734acfc0b7
+目的：以旧65多项式gcd归约有理函数n/d，绑定有理探针与共同trace；不是浮点拟合。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __init__(self,numerator=(),denominator=(F(1),),probe=F(),trace=None):
+        if POLY is None:raise ValueError('exact65_backend_not_bound')
+        p=POLY;n=p.poly(numerator);d=p.poly(denominator)
+        if not d:raise ZeroDivisionError('zero_rational_function_denominator')
+        if not n:n,d=(),(F(1),)
+        else:
+            g=p.gcd(n,d);n,rn=p.divmod_poly(n,g);d,rd=p.divmod_poly(d,g);assert not rn and not rd
+            c=1/d[-1];n,d=p.scale(n,c),p.scale(d,c)
+        self.n,self.d,self.probe,self.trace=n,d,F(probe),trace if trace is not None else []
+source_path：full_feedback.py
+source_line：13
+ast_sha256：e6ce6b569ce1a0a7da04de32333035c1a7a010d7846128fcdecf7242e3aaef2b
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__init__:13:f4734acfc0b7"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+16. full_feedback.py:__deepcopy__:22:8268a0999f62
+算法标识：full_feedback.py:__deepcopy__:22:8268a0999f62
+目的：有理探针算术值不可变，deepcopy保同一上下文/trace；避免两个探针域静默混用。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __deepcopy__(self,memo):return self
+source_path：full_feedback.py
+source_line：22
+ast_sha256：808b568f09cc3cca8c2de5be247acf846b717836b2a933bfcd6276a5eccae92b
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__deepcopy__:22:8268a0999f62"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+17. full_feedback.py:coerce:23:f32c1f11f57e
+算法标识：full_feedback.py:coerce:23:f32c1f11f57e
+目的：同上下文有理探针或Fraction常数提升；不同probe/trace拒绝。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def coerce(self,x):
+        if isinstance(x,RationalProbe):
+            if x.probe!=self.probe or x.trace is not self.trace:raise ValueError('different_rational_probe_context')
+            return x
+        return RationalProbe((F(x),),probe=self.probe,trace=self.trace)
+source_path：full_feedback.py
+source_line：23
+ast_sha256：571630c0bf06b9109c2314da30f9a49ca5a230664e24fd08ddef815a8cae2763
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:coerce:23:f32c1f11f57e"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+18. full_feedback.py:value:28:9f51c4301d4f
+算法标识：full_feedback.py:value:28:9f51c4301d4f
+目的：在精确有理探针以Horner求n/d，分母0明确抛错，不近似越过消元极点。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def value(self):
+        d=POLY.evaluate(self.d,self.probe)
+        if not d:raise ZeroDivisionError('rational_probe_hits_elimination_pole')
+        return POLY.evaluate(self.n,self.probe)/d
+source_path：full_feedback.py
+source_line：28
+ast_sha256：4f30a7bb920a53d9796c500b5f707e927f8f6c69f5dd564e3a94c031a637203c
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:value:28:9f51c4301d4f"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+19. full_feedback.py:__add__:32:abbd6444a315
+算法标识：full_feedback.py:__add__:32:abbd6444a315
+目的：有理函数通分相加后归约；__radd__为同一实现别名。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __add__(self,x):
+        x=self.coerce(x);p=POLY;return RationalProbe(p.add(p.mul(self.n,x.d),p.mul(x.n,self.d)),p.mul(self.d,x.d),self.probe,self.trace)
+source_path：full_feedback.py
+source_line：32
+ast_sha256：6a9776a34885ee51146be524c515016e658eac9e993aebc3d0e99660b2a46cd0
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__add__:32:abbd6444a315"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+20. full_feedback.py:__neg__:35:6cb44c82036c
+算法标识：full_feedback.py:__neg__:35:6cb44c82036c
+目的：逐多项式系数取负，保分母/探针上下文。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __neg__(self):return RationalProbe(POLY.neg(self.n),self.d,self.probe,self.trace)
+source_path：full_feedback.py
+source_line：35
+ast_sha256：0a74f36996704abb8f9758c1b2955cb2b06320f44dfc7e61d84b00fa665b0f1d
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__neg__:35:6cb44c82036c"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+21. full_feedback.py:__sub__:36:46fa6a73eed1
+算法标识：full_feedback.py:__sub__:36:46fa6a73eed1
+目的：有理函数精确相减，复用取负与加法。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __sub__(self,x):return self+-self.coerce(x)
+source_path：full_feedback.py
+source_line：36
+ast_sha256：d70b5595b36b5ae4daee3825181f611b86c17933ff7f89ddd32441ce3e91c31d
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__sub__:36:46fa6a73eed1"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+22. full_feedback.py:__rsub__:37:0a9c9c9ede02
+算法标识：full_feedback.py:__rsub__:37:0a9c9c9ede02
+目的：支持Fraction减probe表达式，保持运算方向。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __rsub__(self,x):return self.coerce(x)+-self
+source_path：full_feedback.py
+source_line：37
+ast_sha256：f9bbe3bd2cc3149884735322440b77fb2531d0b85fecdab82bf973f1a4ac9264
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__rsub__:37:0a9c9c9ede02"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+23. full_feedback.py:__mul__:38:bb5f6765bd6c
+算法标识：full_feedback.py:__mul__:38:bb5f6765bd6c
+目的：分子/分母多项式乘积再归约；__rmul__为同一实现别名。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __mul__(self,x):
+        x=self.coerce(x);return RationalProbe(POLY.mul(self.n,x.n),POLY.mul(self.d,x.d),self.probe,self.trace)
+source_path：full_feedback.py
+source_line：38
+ast_sha256：f011e586fa833c6841ad43b3428b20f5c9f969bf9e5a0f8581f40e54717967b4
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__mul__:38:bb5f6765bd6c"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+24. full_feedback.py:__truediv__:41:2782aaf47256
+算法标识：full_feedback.py:__truediv__:41:2782aaf47256
+目的：有理函数精确相除，分母零多项式由构造器拒绝。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __truediv__(self,x):
+        x=self.coerce(x);return RationalProbe(POLY.mul(self.n,x.d),POLY.mul(self.d,x.n),self.probe,self.trace)
+source_path：full_feedback.py
+source_line：41
+ast_sha256：a5c74386c0c1cc614bfb4d41332219571f40ce2c3083a3f60bd74fb041a30dfc
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__truediv__:41:2782aaf47256"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+25. full_feedback.py:__rtruediv__:43:bbeffb173536
+算法标识：full_feedback.py:__rtruediv__:43:bbeffb173536
+目的：支持原native算子Fraction除probe的比例控制，不丢目标分母。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __rtruediv__(self,x):return self.coerce(x)/self
+source_path：full_feedback.py
+source_line：43
+ast_sha256：e8e3152fbc23d2305cf7726513032a7878263c4c6e9ba8466573c4ac1eac419d
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__rtruediv__:43:bbeffb173536"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+26. full_feedback.py:sign_against:44:df6210aa810d
+算法标识：full_feedback.py:sign_against:44:df6210aa810d
+目的：对差有理函数在探针处精确求符号，记录n/d与比较符号形成真实分段轨迹。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def sign_against(self,x):
+        diff=self-self.coerce(x);v=diff.value();s=(v>0)-(v<0)
+        self.trace.append({'difference_numerator':diff.n,'difference_denominator':diff.d,'probe':self.probe,'sign_at_probe':s})
+        return s
+source_path：full_feedback.py
+source_line：44
+ast_sha256：57ca46dda545c1def64d3e3680b45cfccf01b3e39a16f59011feff6d8cbc5c1d
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:sign_against:44:df6210aa810d"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+27. full_feedback.py:__eq__:48:48d49a74be85
+算法标识：full_feedback.py:__eq__:48:48d49a74be85
+目的：按探针精确相等；无法同域coerce的对象不伪装同一数。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __eq__(self,x):
+        try:return self.sign_against(x)==0
+        except (ValueError,TypeError):return False
+source_path：full_feedback.py
+source_line：48
+ast_sha256：f035a4db9a321b4dd164794676e1e5ed160673458285bfb5d1f71bdf977a667a
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__eq__:48:48d49a74be85"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+28. full_feedback.py:__lt__:51:5c66f982e04c
+算法标识：full_feedback.py:__lt__:51:5c66f982e04c
+目的：精确探针符号<0，为native min/max选择局部分段。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __lt__(self,x):return self.sign_against(x)<0
+source_path：full_feedback.py
+source_line：51
+ast_sha256：9fa27a07ef9efc43d678ad779d2bf1231b8d08c2d70610aa3086d49d81a8de22
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__lt__:51:5c66f982e04c"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+29. full_feedback.py:__gt__:52:092e69b807a7
+算法标识：full_feedback.py:__gt__:52:092e69b807a7
+目的：精确探针符号>0，为native min/max选择局部分段。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __gt__(self,x):return self.sign_against(x)>0
+source_path：full_feedback.py
+source_line：52
+ast_sha256：f0bd8956a5e00ed46c4d815513d71811cfbe0ffca51dd24ab4ff4d318c70f2fa
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__gt__:52:092e69b807a7"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+30. full_feedback.py:__le__:53:57f1fe42f294
+算法标识：full_feedback.py:__le__:53:57f1fe42f294
+目的：精确探针符号<=0，包含max/clip恰等边界。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __le__(self,x):return self.sign_against(x)<=0
+source_path：full_feedback.py
+source_line：53
+ast_sha256：22d1708e0c0e08269668a800df81e4c7c55f8f41b1dc5e1ef08cc18f6053b10c
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__le__:53:57f1fe42f294"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+31. full_feedback.py:__ge__:54:312c93dfd3ec
+算法标识：full_feedback.py:__ge__:54:312c93dfd3ec
+目的：精确探针符号>=0，包含max/clip恰等边界。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __ge__(self,x):return self.sign_against(x)>=0
+source_path：full_feedback.py
+source_line：54
+ast_sha256：6322fde4e732c5e912f2d5bfe0ed3f2129f7add94c60a39358fb0d7ad99ef640
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__ge__:54:312c93dfd3ec"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+32. full_feedback.py:__bool__:55:5986fcf0b920
+算法标识：full_feedback.py:__bool__:55:5986fcf0b920
+目的：以精确零判定处理空/零库存分支，不能用近似epsilon。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def __bool__(self):return self.sign_against(0)!=0
+source_path：full_feedback.py
+source_line：55
+ast_sha256：aaea61d2175aad39e3aaa71a896e1984eb46271bcccebeed79dfef010afda86d
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:__bool__:55:5986fcf0b920"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+33. full_feedback.py:guard:57:70b98b435473
+算法标识：full_feedback.py:guard:57:70b98b435473
+目的：检查一财无食、hidden比、最多4印4比及固定原coeff；按同K载体乘积算实际L并核<=11/16。域外返回未闭，不降级旧近似。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def guard(context,actor,enabled):
+    active=[a for a in context['actors'] if a['eligible_current']];groups={k:[a for a in active if a['group']==k] for k in ['wealth','officer','print','peer','day','outlet']};reasons=[]
+    if len(groups['wealth'])!=1 or len(groups['day'])!=1 or not groups['officer'] or not groups['print'] or not groups['peer'] or groups['outlet']:reasons.append('onewealth_oneday_nonempty_K_P_B_nofood_required')
+    if any(a['kind']!='hidden' for a in groups['peer']):reasons.append('all_current_peers_hidden_under_this_proved_gain_bound')
+    if len(groups['print'])>4 or len(groups['peer'])>4:reasons.append('proved_max4_print_and_hiddenpeer_current_carriers')
+    D=context['direct'];cfg=context['cfg']
+    if any(type(v) is not F or v<0 for ports in D.values() for v in ports.values()):reasons.append('exact_nonnegative_direct_origin_input_required')
+    if cfg['arithmetic']!='A' or F(cfg['far_reach'])!=F(1,2) or cfg['relation']!='retain':reasons.append('unchanged_fixed_original_native_coefficients_required')
+    candidates={a['id'] for a in active if a['group'] in ['wealth','officer','print','peer']}
+    if not set(enabled)<=candidates:reasons.append('unknown_positive_function_package')
+    if reasons:return {'admitted':False,'reasons':reasons}
+    wealth=groups['wealth'][0];w=amount(D[wealth['id']])
+    if w<=0:return {'admitted':False,'reasons':['positive_wealth_direct_total_required']}
+    ew=int(wealth['id'] in enabled);p_rows=[];b_rows=[]
+    for p in groups['print']:
+        products={k['id']:F(1,4)*actor.reach(k,p,cfg)*ew*F(1,4)*actor.reach(wealth,k,cfg) if p['id'] in enabled and k['id'] in enabled else F() for k in groups['officer']}
+        cj=F(1,2)*actor.reach(wealth,p,cfg);aj=max(products.values());p_rows.append({'id':p['id'],'same_carrier_W_K_P_products':products,'a':aj,'c':cj,'stock_L_over_w':aj+cj})
+    L=F()
+    for b in groups['peer']:
+        products={k['id']:F(1,2)*actor.reach(k,b,cfg)*ew*F(1,4)*actor.reach(wealth,k,cfg) if k['id'] in enabled else F() for k in groups['officer']};q=max(products.values())
+        incoming=sum((F(1,4)*actor.reach(next(a for a in groups['print'] if a['id']==p['id']),b,cfg)*p['stock_L_over_w'] for p in p_rows if p['id'] in enabled),F())
+        out=F(1,2)*actor.reach(b,wealth,cfg);L+=out*(incoming+q);b_rows.append({'id':b['id'],'same_carrier_W_K_B_products':products,'q':q,'print_to_peer_L_over_w':incoming,'peer_to_wealth_gain':out})
+    if L>F(11,16) or L>=1:return {'admitted':False,'reasons':['actual_native_gain_matrix_outside_complete_contraction_bound']}
+    return {'admitted':True,'reasons':[],'wealth_id':wealth['id'],'wealth_direct_total':w,'groups':groups,'candidates':sorted(candidates),'actual_global_L':L,'uniform_global_L':F(11,16),'closed_retention_domain':[F(),F(1)],'print_L_rows':p_rows,'peer_L_rows':b_rows,'no_disjoint_origin_or_equal_print_vector_assumption':True,'same_carrier_products_not_separate_maxima':True}
+source_path：full_feedback.py
+source_line：57
+ast_sha256：7ac92fa4acccb4ff015bbc412b7973df3abadf9bb9c752c8641c678a30c0ac1f
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:guard:57:70b98b435473"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+34. full_feedback.py:positive_feed:82:a2e406cc7998
+算法标识：full_feedback.py:positive_feed:82:a2e406cc7998
+目的：对每实际source/target调用原native feed，独立距离与隐藏发送，逐origin max合并；K→印需K与印两许可。不合并同干位置。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def positive_feed(sources,targets,ports,bases,gain,kind,cfg,actor,enabled,target_package=False):
+    result={};edges=[]
+    for target in targets:
+        credits=[]
+        for source in sources:
+            on=(target['id'] in enabled and source['id'] in enabled) if target_package else (source['id'] in enabled)
+            data,rows=actor.feed([source],[target],ports,bases,gain if on else F(),kind,cfg)
+            credits.append(data[target['id']]);edges.extend(dict(r,positive_package_on=bool(on),physical_actor_and_other_negative_functions_preserved=True) for r in rows)
+        result[target['id']]=actor.merge([bases[target['id']]]+credits)
+    return result,edges
+source_path：full_feedback.py
+source_line：82
+ast_sha256：b7ce9118e11b646afe3e957c0ad9989da8e33d78915678209e1ed2a08b965565
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:positive_feed:82:a2e406cc7998"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+35. full_feedback.py:blade_control:93:7eb1cc1a9a58
+算法标识：full_feedback.py:blade_control:93:7eb1cc1a9a58
+目的：K正功能off时仅mask该制刃输入许可，原native control保完整预算/marginal边；同一物理Kcurrent/ROOT/负荷仍留并单列。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def blade_control(sources,targets,ports,bases,cfg,actor,enabled):
+    """Cut the positive blade-control function, keep physical K and its load.
+    Control-port masking is explicit; same actual stock remains in portfolios.
+    """
+    permitted={s['id']:actor.scaled(ports[s['id']],F(int(s['id'] in enabled))) for s in sources}
+    result,states,edges=actor.control(sources,targets,permitted,bases,F(1,2),'officer_controls_peer',cfg)
+    for e in edges:
+        e['actual_source_current_stock_before_permission']=actor.amount(ports[e['source']])
+        e['positive_blade_function_on']=e['source'] in enabled
+        e['physical_K_not_deleted_and_potential_body_load_preserved']=True
+        e['effective_function_gain']=e['factor'] if e['positive_blade_function_on'] else F()
+    return result,states,edges
+source_path：full_feedback.py
+source_line：93
+ast_sha256：a60b3c6f93dcbfdaa6b6b2e4cc29eb15a4b18afd68d45636b3cd7c65a4d5c60e
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:blade_control:93:7eb1cc1a9a58"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+36. full_feedback.py:full_map:106:709a270d7c4f
+算法标识：full_feedback.py:full_map:106:709a270d7c4f
+目的：W输入→全部K/P/B相位→W反馈→P/B生日与潜在任务需求，全signed边一次完整重建；原生算子被复用，不另替换控制公式。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def full_map(context,actor,enabled,r):
+    """One complete simultaneous feedback step from W=r*DW; literal operators."""
+    enabled=set(enabled);G={k:[a for a in context['actors'] if a['eligible_current'] and a['group']==k] for k in ['wealth','officer','print','peer','day']};D=context['direct'];cfg=context['cfg'];wid=G['wealth'][0]['id'];w=amount(D[wid]);W={wid:actor.scaled(D[wid],r)}
+    K,eWK=positive_feed(G['wealth'],G['officer'],W,D,F(1,4),'wealth_generates_officer',cfg,actor,enabled)
+    Ppre,eKP=positive_feed(G['officer'],G['print'],K,D,F(1,4),'officer_generates_print',cfg,actor,enabled,True)
+    P,cp,eWP=actor.control(G['wealth'],G['print'],W,Ppre,F(1,2),'wealth_controls_print',cfg)
+    Bpre,ePB=positive_feed(G['print'],G['peer'],P,D,F(1,4),'print_generates_peer',cfg,actor,enabled)
+    B,cb,eKB=blade_control(G['officer'],G['peer'],K,Bpre,cfg,actor,enabled)
+    Wnew,cw,eBW=actor.control(G['peer'],G['wealth'],B,D,F(1,2),'peer_controls_wealth',cfg)
+    day_peer,eBD=positive_feed(G['peer'],G['day'],B,D,F(1),'peer_supports_day',cfg,actor,enabled)
+    day,ePD=positive_feed(G['print'],G['day'],P,day_peer,F(1,4),'print_generates_day',cfg,actor,enabled)
+    current={**D,**W,**K,**P,**B,**day}
+    totals={g:actor.amount(actor.merge([current[a['id']] for a in G[g]])) for g in G}
+    metrics={'body':totals['day'],'wealth':totals['wealth'],'officer':totals['officer'],'print':totals['print'],'peer':totals['peer'],'root_day':amount(D[G['day'][0]['id']]),'K_potential_body_load_not_prior_actual_injury':totals['officer']}
+    edges=eWK+eKP+eWP+ePB+eKB+eBW+eBD+ePD
+    Kpool=actor.merge([K[a['id']] for a in G['officer']]);edges.append({'kind':'officer_potential_body_load_not_prior_actual_injury','source':'all_current_K_origin_union','target':'whole_body_task_budget','factor':F(1),'origins':Kpool})
+    edges.append({'kind':'finance_body_task_budget','source':wid,'target':'whole_body_task_budget','factor':F(1,4),'origins':actor.scaled(W[wid],F(1,4))})
+    return {'input_wealth_retention':r,'next_wealth_retention':amount(Wnew[wid])/w,'wealth_input':W,'wealth_output':Wnew,'portfolios':{'direct':D,'officer':K,'print_before_finance':Ppre,'print':P,'peer_before_officer':Bpre,'peer':B,'day_after_peer':day_peer,'day':day,'current':current},'controls':{'print':cp,'peer':cb,'wealth':cw},'metrics':metrics,'all_signed_edges':edges,'all_K_outedges_and_potential_load_share_same_current_stock':True,'original_feed_control_merge_scaled_used':True}
+source_path：full_feedback.py
+source_line：106
+ast_sha256：8d31187943d95177c2ae17de1930c41f8b088135e11abe2457f485f86408b212
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:full_map:106:709a270d7c4f"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+37. full_feedback.py:source_goals:125:0f68594bc9f1
+算法标识：full_feedback.py:source_goals:125:0f68594bc9f1
+目的：联合有限工程目标：实际刃loss>0，current财>0，D>5/4*(K潜压+W/4)。一点制刃非独自充分，更不称古典贵级充分。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def source_goals(context,state,actor):
+    blade=context['source_blade_actor_id'];controls=[r for r in state['controls']['peer'] if r['actor_id']==blade];positive=bool(controls and controls[0]['loss']>0)
+    m=state['metrics'];load=m['officer']+m['wealth']/4;margin=m['body']-F(5,4)*load
+    goals={'actual_month_blade_control_path':positive,'current_finance_survives_all_peer_controls':m['wealth']>0,'strict_potential_body_carry':margin>0}
+    return {'goals':goals,'formed':all(goals.values()),'strict_margin':margin,'potential_load':load,'not_a_classical_nobility_grade_or_prior_actual_injury':True}
+source_path：full_feedback.py
+source_line：125
+ast_sha256：62f230f979a14fa16ec88548faaabd0d546c3ed9865fc7d37a5899c6383a69d3
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:source_goals:125:0f68594bc9f1"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+38. full_feedback.py:solve:131:e927efa2f04d
+算法标识：full_feedback.py:solve:131:e927efa2f04d
+目的：全域收缩保唯一；端点/有理探针→局部分段方程→旧Sturm全实根→完整原max/control代数复代；不合格根被拒而非fallback。最后两次整图exact equality。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def solve(context,actor,enabled):
+    data=guard(context,actor,set(enabled))
+    if not data['admitted']:return {'status':'outside_proved_math_domain','guard':data,'whole_current_state':None}
+    trials=[];seen=set();left,right=F(),F(1);root=None;field=None
+    for endpoint in [left,right]:
+        s=full_map(context,actor,enabled,endpoint)
+        if s['next_wealth_retention']==endpoint:root=endpoint;break
+    while root is None:
+        probe=(left+right)/2;s=full_map(context,actor,enabled,probe);sign=s['next_wealth_retention']-probe
+        if sign==0:root=probe;break
+        trace=[];x=RationalProbe((F(),F(1)),probe=probe,trace=trace);symbolic=full_map(context,actor,enabled,x);difference=symbolic['next_wealth_retention']-x
+        if not isinstance(difference,RationalProbe):raise ArithmeticError('symbolic_complete_feedback_did_not_produce_rational_function')
+        polynomial=POLY.squarefree(difference.n);key=tuple(polynomial)
+        if key not in seen:
+            seen.add(key);record={'probe':probe,'fixed_equation_numerator':polynomial,'elimination_denominator':difference.d,'all_branch_comparisons_at_probe':trace,'all_real_candidates':[]};trials.append(record)
+            if not polynomial:raise ArithmeticError('nonroot_probe_cannot_have_identically_zero_feedback_equation')
+            for isolated in POLY.isolate(polynomial):
+                candidate_field=POLY.RootField(**isolated);candidate=(-polynomial[0]/polynomial[1]) if len(polynomial)==2 else candidate_field.variable();row={'initial_root_certificate':candidate_field.certificate(),'accepted':False};record['all_real_candidates'].append(row)
+                if not 0<=candidate<=1:row['reason']='outside_closed_retention_domain';continue
+                try:
+                    actual=full_map(context,actor,enabled,candidate)
+                    good=actual['next_wealth_retention']==candidate
+                except ZeroDivisionError:row['reason']='elimination_pole_rejected_by_complete_original_map';continue
+                if good:
+                    root=candidate;field=None if isinstance(candidate,F) else candidate_field;row['accepted']=True;row['reason']='entire_original_max_control_map_exact_fixed_point';break
+                row['reason']='candidate_piece_not_fixed_under_entire_original_map'
+        if root is None:
+            if sign>0:left=probe
+            else:right=probe
+    first=full_map(context,actor,enabled,root);second=full_map(context,actor,enabled,first['next_wealth_retention'])
+    if first!=second or first['wealth_input']!=first['wealth_output']:raise ArithmeticError('exact_retention_requires_two_entire_origin_state_identities')
+    evaluation=source_goals(context,first,actor)
+    return {'status':'unique_complete_full_origin_fixed_state','version':VERSION,'guard':data,'retention':root,'root_field':field,'rational_root':root if isinstance(root,F) else None,'local_piece_candidates':trials,'complete_state':first,'second_complete_state':second,'all_origin_edges_and_metrics_exactly_equal_two_passes':True,'unique_on_entire_domain_by_global_contraction':True,'evaluation':evaluation,'enabled_positive_packages':sorted(enabled),'local_piece_is_not_source_choice_or_whole_goal_fallback':True}
+source_path：full_feedback.py
+source_line：131
+ast_sha256：248163096b3d8fe909dc6ad8641f87876998d4269be85dcb883bbd51251e2447
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:solve:131:e927efa2f04d"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+39. full_feedback.py:serialize:165:37d6d12578a7
+算法标识：full_feedback.py:serialize:165:37d6d12578a7
+目的：Fraction输出精确字符串，旧65代数数输出根中多项式+认证区间，RootField输出Sturm证书；区间非精确量替代，原API/CLI逐字节比较。
+input：new_function_actual_IO.json records[id].actual_arguments，真实调用快照；模块/bytes用完整固定source地址+SHA，数值保精确系数。
+output：同records[id].actual_return/outcome/exception，无假造例值。
+algorithm_source：def serialize(value):
+    if isinstance(value,F):return str(value)
+    if POLY is not None and isinstance(value,POLY.Algebraic):return dict(value.record(),root_ref='world_current_wealth_retention')
+    if POLY is not None and isinstance(value,POLY.RootField):return value.certificate()
+    if isinstance(value,dict):return {k:serialize(v) for k,v in value.items()}
+    if isinstance(value,(list,tuple)):return [serialize(v) for v in value]
+    if isinstance(value,(set,frozenset)):return sorted(serialize(v) for v in value)
+    return value
+source_path：full_feedback.py
+source_line：165
+ast_sha256：d70aa3baee084c058b1e945e3b629a956c6697dccfce8dd7f15bb124790df5fb
+source_file_sha256：2a3c14595c9970a3bdfe40428a52e7206849ddff453ae848bd8b12fd6be4d0ce
+actual_io_binding：{
+  "io_file": "new_function_actual_IO.json",
+  "io_sha256": "8265199d9d5b465d7628dcef73cf58245905190e2fe94f0f17d6523da08ee281",
+  "actual_record_key": "full_feedback.py:serialize:165:37d6d12578a7"
+}
+applicability_and_boundary：规则十字段见source/rule_cards_304.json；完整推导whole_feedback_proof_before_calls.md；默认R3潜压，R2分流只是保存比较；所有源/数学/reality轴独立。
+evidence：native_protocol_actual_receipt.json / independent_full_origin_reconstruction_receipt.json / source_zero_exec_actual_receipt.json / additional_exact_boundaries_actual.json；IO39不声称每个分支全部覆盖。
+
+原件：work/rev304_yangren_complete_feedback/source/rule_cards_304.json
+SHA256：745ac793c8b02b6f1a1926927886481944083e4062d736707a2fe3b7b93c21a5
+
+1. YR304-source-entry
+算法标识：YR304-source-entry
+proposition：阳刃有官杀制伏、财印相随的具名正作用，但角色出现不是整盘结果。
+来源层次：Primary WorldLibrary PDF28–30/86–88，实际原图；沿原57 S-REN/S-CP，不混任注。
+conditions：五阳刃exact甲卯/丙午/戊午/庚酉/壬子；当前研究为三非日明干恰一官或杀、一财、一印，显式secondary context工程假设；这不是古典普遍必要前件。
+algorithm：真实五虎/五鼠native验合法性→完整registry/HAP/ROOT/关系/气候→明确源门→给定source intent→全反馈。
+positive_case：事前有界壬子己官、丙午癸官、戊午甲杀实际限定goals全正可行；主H分别确需其官/杀包。
+negative_case：同源壬子印生日同时助比夺财、庚酉财尽、戊午乙官潜压过重失败；不换从格或学校。
+change_rule：源前条件变动重核其实际任务；sourcepending不转反例，不以旧57选官直接当newwhole/H。
+boundary：只有限制刃兼护财/承载可行性；不认证古典官杀足量制尽、贵级或现实预测；甲卯家族无此包实例认证。
+conflict_priority：主本、Ren1947分层；字面六阳/两处根深保留；原局、格高低、取运不拼句。
+status：源实读、144rawworld作者算法核；待非作者独审与根采用。
+
+2. YR304-WuWu-hiddenblade
+算法标识：YR304-WuWu-hiddenblade
+proposition：戊午刃具名对应午中己，午本气丁印仍在；ROOT不能自动创actor。
+来源层次：Primary86禄前一位/87贾平章甲寅庚午戊申甲寅原例 +59–60支静待用；源解释→工程映射，非原文数额。
+conditions：仅戊日午月，在ROOT前按raw选择具名刃任务；消费原registry h:month:己并保原HAP gate0行。
+algorithm：HAP原行不改；新增任务authority明确；己仍hidden、无float、原生距离/ROOT/全部birthday和夺财边；丁印全部独立算。
+positive_case：丙戌甲午戊申壬戌有visible丙印、hidden丁印及hidden己刃，32全world保不同ROOT/gain。
+negative_case：不能把午MAIN丁改己，不能据有己根给任意非本气藏者当前演员，不能因为隐藏无float宣0。
+change_rule：改日/月先变源任务，若未获具名源则pending；不能靠生日结果补造actor。
+boundary：不是所有藏印/藏杀任务已闭；任何其他支本气印/官杀无实际同干当前映射仍pending。
+conflict_priority：原HAP与新增源任务并存标注，ROOT资格与任务采用分开；不重写固定原件。
+status：两戊午条件64world原生库存/边实核，原HAP默认不改。
+
+3. YR304-full-current-feedback
+算法标识：YR304-full-current-feedback
+proposition：同一currentK既制刃又生印又形成潜在承载需求；财克印、印生比、比夺财和生日必须同图闭合。
+来源层次：Primary86–88功能机制；数额/同源max/距离沿原253/ROOT02，不称原书给出数值。
+conditions：一current财、无current食伤；全K/P/hiddenB保actor；最大4P/4hiddenB；固定A、far1/2、generation1/4/control1/2。
+algorithm：W=rDW→W生K→K生P→W制P→P生B→K制B→B制W；日取全P/B生日逐origin max；财反馈[0,1]收缩L<=11/16，精确全根。
+positive_case：144rawworld加1数学无理world，完整state、双复代、53314origin/1710signed边独立重建。
+negative_case：K或印不能每条边各取一份不同库存；不把同干载体按原位置并掉，不漏隐藏发送和重叠origin。
+change_rule：任一正包开关重算整图及其负后果；source事实/负作用保留；证明域外返回actual_math_domain_unclosed。
+boundary：额外财、食伤、多源/关系/复杂取清尚待扩完整图，绝不作为0或旧fallback；通用现实气效不已证。
+conflict_priority：源门先于数值/H；实际有效与有根分开；有限数学唯一性不替代来源完整性。
+status：当前完整一财无食图已作者实算；全C02及乾隆仍待后续。
+
+4. YR304-goals-and-H
+算法标识：YR304-goals-and-H
+proposition：制刃兼护财/承载可行性是三个联合工程目标，主H含官杀正功能，条件额外H另名。
+来源层次：Primary正制刃/太重裁损给机制方向；严格5/4、财1/4及K潜压沿原工程，不伪装古典量化。
+conditions：actual刃control loss>0、current财>0、D>5/4*(currentK+current财/4)。K是potential需求，D未预扣所谓伤身。
+algorithm：全部财/K/印/比正包subset及所有superset真值；稳健极小H由固定旧AUX实际再核；主契约YR-complete-positive-functions-including-sourceK/0.2。K_on切片另算additional_support_H_given_source_K_on。
+positive_case：戊午甲杀主H=[[v:month]]，固定其on的额外H=[[]]；壬子己官/丙午癸官同理。
+negative_case：一点制刃正量并不独自充分；财尽/承载不足仍全局失败。K_off制刃goal失败但实体、ROOT、currentK负荷不删。
+change_rule：K生印需K、P两包on；印生日与生比同包，若增印导致夺财须判失败。原16条件预期与新主32不能混比。
+boundary：H为此有限问题必要正功能集合；不输出全局喜忌、贵级、五行皆忌、主次或等权。条件空H不等无主用官杀。
+conflict_priority：源意图、实际正功、主H与条件H分别保字段；不因结果失败换目标或选R2阈值分流。
+status：全部144world/H吻合事前预期；严格等号/上下与断路真实测试通过。
+
+5. YR304-climate-antecedent
+算法标识：YR304-climate-antecedent
+proposition：冬水有财是旧宽背景candidate；伤官用财后件须先证伤官用财前件。
+来源层次：Primary PDF37–39实际原图+primary录文；root310独立源/逻辑审计，非新whole采用。
+conditions：无任何食伤实体的壬子单官杀源条件不满足§5伤官用财前件；若存在未闭的食伤实体须保pending，不自行定其无效。
+algorithm：完整registry角色先查；保原旧widecandidate与原engineering_month_scope；新exact_antecedent_false仅排本条特定后件，不作气候总中和。
+positive_case：两个壬子杀及新壬子己官无木食伤registry，本条前件false后可按新数学证明消费。
+negative_case：原57己亥丙子壬戌庚戌亥藏甲食神兼未映射戊杀任务仍pending，旧selected官不是新whole通过。
+change_rule：加食伤实体须重开完整伤官用财/气候后件；不得复制无食条件的排除结论。
+boundary：夏木§4伤官佩印、冬金伤官带杀、§8食神正印各有前件；没有普遍冬水气候中和。
+conflict_priority：不改旧253宽函数或旧freeze；root310只源审计，281只原253采用，均非304自采用。
+status：原图/旧函数/310审计已读；新有限源门已实用，外域保持pending。
+
+6. YR304-mixed-relations-deferred
+算法标识：YR304-mixed-relations-deferred
+proposition：乾隆双冲官杀并透有定向正负，不能用单官/杀模型冒闭合。
+来源层次：Ren1947李雨田校订《滴天髓阐微》知命PDF54–56/印4–6，root297来源增量沿原61题卡。
+conditions：辛卯丁酉庚午丙子；虽秋金不作旺论，子午冲水克火保护酉，卯酉冲金克木断卯助午，火炼秋金正作用仍在。
+algorithm：当前正式报known_other_source_family且保双冲/具名关系pending、newwhole0；后续复用已建全图而加真实方向/去留，不另造平行求解器。
+positive_case：本轮实际source-only保原四柱/双冲/午藏己；无皇帝身份oracle。
+negative_case：不能直接拿双冲当全盘同向减ROOT，不能删午己土以配无土句，不能把主本与任注拼成一条学校。
+change_rule：未来须全部carrier、方向、官杀去留及反救应同图后另交独审；当前不发布H。
+boundary：source-only297不是304数值正例；全阳刃、更多财食/混杂/关系救应继续原项，不因有限冻结宣全部100%。
+conflict_priority：每口径有自身source版本；不以君王事实选颜色/模型；保持原86.25/B155/权重。
+status：来源已实读，当前数值实现有意不冒充已完成，后续实体研究明确保留。
+
+原件：work/rev304_yangren_complete_feedback/reference_receipt.json
+SHA256：dbc0acea3eb9464cc1738e5bd9fac493f8effc01254a7fb4233532da8c8f986d
+
+{
+  "schema": "304-aggregate-reference-receipt-0.1",
+  "status": "sources_references_readlevels_and_failures_retained",
+  "new_actual_unique_source_pages": 14,
+  "actual_image_records": [
+    {
+      "path": "source_preparation/root297_source_only/pages/Primary-086.png",
+      "bytes": 116035,
+      "sha256": "e759e63fcb8ee9a07ef5371cf7e522ed1cb1efa3f5b83072a88886a0031d164b",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/root297_source_only/pages/Primary-087.png",
+      "bytes": 119792,
+      "sha256": "e0d2b9a8abd009130e43e4713aea61db3b51cd1dc44b7883eb7787e3f158bd06",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/root297_source_only/pages/Primary-088.png",
+      "bytes": 121272,
+      "sha256": "d37540947ab11faa3f5f8fd34553b3e8e38d46e1fd28486acb3e9b24e04f1b48",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/root297_source_only/pages/Ren1947-054.png",
+      "bytes": 69404,
+      "sha256": "38c5271f56c3498b1d8555f9e15b8e855991b26656b7b784b195ae3a25a00f91",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/root297_source_only/pages/Ren1947-055.png",
+      "bytes": 67194,
+      "sha256": "4b7baf100a448a600761eb2793a1c518e51e56326975dc6a670c66ccda65453e",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/root297_source_only/pages/Ren1947-056.png",
+      "bytes": 61939,
+      "sha256": "dd9770a5de5f0965e1c2040c4618d51d13736c05fca7ae181991432398155738",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/pages/Primary-28.png",
+      "bytes": 126453,
+      "sha256": "1f48604cb5410366818a4d17fb788de27b07581dacbe4c621dc15f42037fe28c",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/pages/Primary-29.png",
+      "bytes": 137159,
+      "sha256": "413e10729edd685bf371635773a3a9884e3a88fa80f25d623153c6e50a2822e5",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/pages/Primary-30.png",
+      "bytes": 131401,
+      "sha256": "25b03776436c2d12225041c981d1750134df62c726031fcae69c0dad8cd556a5",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/pages/Primary-37.png",
+      "bytes": 120714,
+      "sha256": "5570ebe8645a358a5128cdac8db690288b903e779a6182ecb0e29763aa0906a5",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/pages/Primary-38.png",
+      "bytes": 129432,
+      "sha256": "024ef73841bf353bc06fcab349c0aeb966c03db5bdb35e0a4cc54f6b6e9e0abd",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/pages/Primary-39.png",
+      "bytes": 121518,
+      "sha256": "41e2fdead3fe15ebf87ce0d261f2af99a9b9ef8a64777aeb1fa48faa11ac9975",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/pages/Primary-59.png",
+      "bytes": 127221,
+      "sha256": "43e855653036eb96b692332a7f3b266b088686331b050d4554012c88dda4714d",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/pages/Primary-60.png",
+      "bytes": 120301,
+      "sha256": "7d996266f5276017cb945ca9f4055c6e03219ee40daee7c13deda2d38157db75",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    },
+    {
+      "path": "source_preparation/pages/Primary-87.png",
+      "bytes": 120367,
+      "sha256": "7abd3102da16dc3af991a0b38afc1a49ffd4d3c8e404da76995a637bc004ba2d",
+      "actual_read_level": "actual_local_image_viewed_for304;87 additionallyrechecked;duplicate87notextrauniquepage"
+    }
+  ],
+  "references": [
+    {
+      "id": "304REF-Primary-Yangren",
+      "title": "子平真诠",
+      "edition": "国图藏上海世界图书馆发行本；出版年未知，不称清刻初本",
+      "chapter": "论阳刃/成败救应/喜忌支干/用神配气候",
+      "stable_original_URL": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NLC416-11jh010455-35296_%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE.pdf",
+      "stable_chapter_URLs": [
+        "https://changxianyi.com/guji/ziping/nlc-continuation-text-review-20261005/yangren/",
+        "https://changxianyi.com/guji/ziping/nlc-yongshen-review-20261005/yongshen-chengbai-jiuying/",
+        "https://changxianyi.com/guji/ziping/nlc-chengge-zhigan-text-20261004/xiji-zhigan/",
+        "https://changxianyi.com/guji/ziping/nlc-qihou-xiangshen-text-20261004/yongjing-pei-qihou/"
+      ],
+      "local_original": {
+        "path": "source_preparation/Primary_WorldLibrary_NLC.pdf",
+        "bytes": 7126096,
+        "sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+      },
+      "total_book_pages": 287,
+      "actual_new_unique_PDF_pages": [
+        28,
+        29,
+        30,
+        37,
+        38,
+        39,
+        59,
+        60,
+        86,
+        87,
+        88
+      ],
+      "printed_page_offset": "listed Primary printed =PDF−9",
+      "actual_read_level": "11 uniqueoriginalPrimaryimages actuallyviewed, samepage87duplicates retained; fullPDFretained/hashverified NOT entirebooknewread",
+      "support_rules": [
+        "YR304-source-entry",
+        "YR304-WuWu-hiddenblade",
+        "YR304-full-current-feedback",
+        "YR304-climate-antecedent"
+      ],
+      "direct_vs_inference": "directmechanism/conditionaltext; raw-task mapping is explicitnewinference; numericcoeff/goal thresholds are engineering not originalbookfigures",
+      "counterexamples": "root qualification≠taskadoption; barefinance≠伤官用财;一点制刃≠古典足量/贵级;六阳与两处根深literalretained"
+    },
+    {
+      "id": "304REF-Ren1947",
+      "title": "滴天髓阐微",
+      "edition": "1947上海大东书局李雨田校订本，任氏注层",
+      "chapter": "知命PDF54–56/印4–6",
+      "stable_original_URL": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf",
+      "local_original": {
+        "path": "runtime/parent253/source/Ren1947/SSID-11335994_滴天髓闡微.pdf",
+        "bytes": 14751242,
+        "sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803"
+      },
+      "total_book_pages": 516,
+      "actual_new_unique_PDF_pages": [
+        54,
+        55,
+        56
+      ],
+      "actual_read_level": "3 actualimages;57/58renderedbutunreadby304, otherprior253/248pagesonlyhistoricalreuse",
+      "support_rules": [
+        "YR304-mixed-relations-deferred"
+      ],
+      "direct_vs_inference": "原例辛卯丁酉庚午丙子及两冲方向、火炼秋金保留；不删午己、不以帝王事实倒推；不混Primary学校",
+      "not_numerical_case": true
+    },
+    {
+      "id": "304REF-old57",
+      "material": {
+        "path": "source/original57/冻结记录.json",
+        "bytes": 5453,
+        "sha256": "f5a3eb82d9a580f9b70aa41382a9bdc9360ebbb6e8f4f2fa29099c865c365ec1"
+      },
+      "complete_files": 44,
+      "actual_read_level": "fullfinalyangren_officer_selection.py + research_profile/source_catalog actuallyread; all44 frozenbytes verified eachcapture; not a fresh replay of allold57tests",
+      "supports": "原框架/有限壬子己官功能选择入口；无legacywhole/H可直接复用",
+      "limits": "R0-R3source-only, 原57selected官条件在304可因藏戊/冬水前件pending；不改旧结果"
+    },
+    {
+      "id": "304REF-parent253-and-policy",
+      "complete_files": 1180,
+      "pins": {
+        "manifest": {
+          "path": "runtime/parent253/manifest.json",
+          "bytes": 223597,
+          "sha256": "805b295cafb3cd57073970209ec9d6a70220a7a043c6ff18e0c3a8378d889851"
+        },
+        "freeze": {
+          "path": "runtime/parent253/freeze.json",
+          "bytes": 922,
+          "sha256": "2c8a4fc52c93252e1bb361dc9a0216839a902e1b17d59d334304c4e195a14e31"
+        },
+        "policy281": {
+          "path": "source/parent_policy281.json",
+          "bytes": 3946,
+          "sha256": "b57aeb868b7c0d4611cb9ac2db7211a8644b6857d4e6ad8393427811f9fa2546"
+        },
+        "independent274report": {
+          "path": "source/independent274/report.json",
+          "bytes": 8596,
+          "sha256": "96b0167f8a6f05b196adf4d89a589a374aa9409d67e773746ab9d935d0834cc0"
+        }
+      },
+      "actual_read_level": "fixednativecurrentROOT/HAP/feed/control/AUX code relevantfunctions read; complete1180eachcapture verified; prior274independence reused exactly, not relabelled new304non-author review",
+      "direction": "274review→281adopts exact253only→304loads fixednativefoundation. 281 is not304adoption. Newsource+newwhole requires independent322 and realrootpolicy later.",
+      "do_not_change": "ROOT/HAP,methodsourcePrimary/Renseparation,B155,86.25,weights"
+    },
+    {
+      "id": "304REF-exact65",
+      "material": {
+        "path": "runtime/exact65/exact_poly.py",
+        "bytes": 8374,
+        "sha256": "6dc57fb9607e4ac5dc10c53020dccc5027e3e0a53e08ac01de0f3f9704de1691"
+      },
+      "complete_release_files": 175,
+      "actual_read_level": "full exactarithmetic source read and actualSturm/RootFieldexecuted; complete175ownMF/frverified",
+      "supports": "only exactpolynomial gcd/Sturm/rootembedding arithmetic; not old65 ROOT routing/model/adoption",
+      "proofs": [
+        {
+          "path": "whole_feedback_proof_before_calls.md",
+          "bytes": 8335,
+          "sha256": "6e7cc3211a540cf9cf85db1d3a9a618fa667648165882edceb40a7c96f2dd716"
+        },
+        {
+          "path": "typed_blade_body_task_before_calls.md",
+          "bytes": 4032,
+          "sha256": "99eec1d7bb26a28d83ceca68fc3197f5e7f596c4dfc2bdd5369b55766757bc1e"
+        }
+      ],
+      "counterexamples": "R2typedpartition is archivedcomparison notdefault/fallback; cubicrealraw root and puremathematicalquadratic remain distinct"
+    },
+    {
+      "id": "304REF-297-310",
+      "material": [
+        {
+          "path": "source_preparation/root297_source_only/manifest.json",
+          "bytes": 1925,
+          "sha256": "22166ca6a0ea39b14f63cff0afb13f13616369f7bb8a3b0144735ed21267db48"
+        },
+        {
+          "path": "source_preparation/root297_source_only/freeze.json",
+          "bytes": 149,
+          "sha256": "c0818f70851647df3d254356c87966cdbdd46f32380ece8df6e7d44825f50f8c"
+        },
+        {
+          "path": "source/climate_review310/manifest.json",
+          "bytes": 725,
+          "sha256": "fc2ba388c483c785b11cdb49b9ec1c43e41dd60e3aa629f6b6bad8c8929fbb42"
+        },
+        {
+          "path": "source/climate_review310/freeze.json",
+          "bytes": 152,
+          "sha256": "0691cf37f1a5ab3a45dd1e5f7ce0a3d44c7a43a19ac41e8ff90e849db714c40a"
+        },
+        {
+          "path": "source/climate_review310/scope_audit.json",
+          "bytes": 6661,
+          "sha256": "9ecbf279f1e1d708746abff51bc769a2cc09379b6b0f717d7346efbf31784e96"
+        }
+      ],
+      "actual_read_level": "297sourcecards+54–56/86–88 actuallyviewed;310scope_audit fullread+own37–39images; full15/7material verified",
+      "supports": "Primary/Renlayers and climate fullantecedent. 310source_logic_audit_not_wholemodel; not304adoption",
+      "changed_reason": "oldwidewintercandidate omits伤官用财premise; keepoldcandidate/freeze and precise304antecedentadjudication"
+    },
+    {
+      "id": "304REF-preexpectations-and-failures",
+      "material": [
+        {
+          "path": "pencil_expectations_before_first_native_facts.json",
+          "bytes": 226717,
+          "sha256": "bd159a963e53229f0ae15927ff57fd32988abe770b4ee67c92e68d949843d013"
+        },
+        {
+          "path": "pencil_potential_r3_expectations_before_whole.json",
+          "bytes": 248107,
+          "sha256": "ec95601e2fa2b0b14742a9f5b50b4ade3f0176965e879f7fb445bee037900ee7"
+        },
+        {
+          "path": "complete_package_expectations_before_whole.json",
+          "bytes": 418553,
+          "sha256": "e224a8eb679547892d56700d85ec521900f46084042211d92a9ea4d8eeb03d13"
+        },
+        {
+          "path": "WuWu_source_and_bounds_before_native.json",
+          "bytes": 3402,
+          "sha256": "ff6a07685c47ce8dc8ee26fd02c95af797b5e3a36a9414f5d969f66bc72125fe"
+        },
+        {
+          "path": "source_family_extension_prior.json",
+          "bytes": 2992,
+          "sha256": "f1d47107706dd8c71e43980a7a09a0633c7c198cfa10ce865dac55d32f9ab463"
+        },
+        {
+          "path": "single_officer_whole_bounds_before_calls.json",
+          "bytes": 2714,
+          "sha256": "fc83838be9ad1c957fd0fdd7035d4815f6699fb46b24099d7101b7e525e6948a"
+        },
+        {
+          "path": "exact_math_boundaries_prior.json",
+          "bytes": 2288,
+          "sha256": "1de2ec9136328a76843a93addf811a4919652e1963d6984d59ccf9f38523534e"
+        },
+        {
+          "path": "history/first_actual_AUX_current_inventory_failure/failure_observation.json",
+          "bytes": 891,
+          "sha256": "ae0b469feb0ab3d98135da22cb6e6f6c61e6360909cf4467c9eb2224deb4d662"
+        }
+      ],
+      "actual_read_level": "authorownphysicalequations/bounds before their newwholecalls; nativefacts alreadyread explicitlynotblind; allfailureskept",
+      "supports": "源先选、同Kcoupling、strong/weak/strictgoals/fullH; no oracletuning",
+      "verification_failures_retained_under": "verification_history; source-spy aliasblindcontrolinvalidated+corrected; not producer/math pass evidence until actualpositivecontrol"
+    },
+    {
+      "id": "304REF-deferred286",
+      "actual_read_level": "previoussameagentcompleted1587inner actualmove/291review then301adoption; outeronlyprototype asstoppedcheckpoint",
+      "pointer": "../rev286_food_kill_print_current_consumer/consumer_recoverable_checkpoint.json",
+      "checkpoint_sha256": "f30715a075b4f17779a64f32f63c5058f5ff4e51682a794b7bf31201f45596f1",
+      "inner_reference_receipt": "../rev286_food_kill_print_current_consumer/model_whole_extension/reference_receipt.json",
+      "inner_reference_sha256": "53e74261b986951761e2f07859aefb9aff7ee0c8b1042afbd81f9a880c025114",
+      "root301policy_sha256": "9645a0baec23f8595a5fd12534ca0c64c6db0830039087860cb63ff979c7d71a",
+      "direction": "279/275→280→286inner→291→301, previous117source/version binding retained there; not input to304 and not outer/UIadoption",
+      "user_priority": "researchcontent first, preserveouter code/prior/failure/unverifiedstate; noJ2/UI/displaynewwork"
+    },
+    {
+      "id": "304REF-unread-index",
+      "actual_read_level": "pointer/rootforwardedtextonly, no new304source-image audit or implementation",
+      "pointers": [
+        "../rev309_special_patterns_primary/pages/Sanming-153.png",
+        "../rev309_special_patterns_primary/pages/Sanming-154.png"
+      ],
+      "limits": "曲直/炎上/润下/稼穑 completeconditions not304inputs; not silently addtheirnumeric/source rules. Qianlongfurtherdoubleclash/官杀去留 fullmodel remains originaltask, sourceonly297 not completednumericmodel."
+    }
+  ],
+  "three_axes": {
+    "source": "actualtext+qualifyingpremises+explicitinferencevsengineering",
+    "implementation": "145fullstates independentlyreconstructed, nativecompleteJSON and faultactualreceipts",
+    "reality": "no blindhistorical/predictivecalibration, B/theme/scores unchanged"
+  },
+  "root_unified_index_not_modified": true,
+  "adoption": false,
+  "B": null
+}

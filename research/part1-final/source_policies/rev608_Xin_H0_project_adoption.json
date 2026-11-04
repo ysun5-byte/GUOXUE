@@ -1,0 +1,114 @@
+{
+  "schema": "608-Xin-three-source-H0-after-genuine449-adoption/1",
+  "revision": 608,
+  "status": "adopted_exact584_H0_three_source_branches_after449_M1_still_separate",
+  "saved_utc": "2026-11-03T17:41:13.695999+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_author_completion_handoff.json",
+    "bytes": 3240,
+    "sha256": "314eeb4ae63bc1dac017a31dffb31ae37061204d7d50b31cb210411a53c4f4ad"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_H0_independent449_completion_handoff.json",
+    "bytes": 2247,
+    "sha256": "441fbb7614259518d7ded57dc18d762ec561f84f8bb8a0a60f543ee1ff6f6272"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Xin_three_source_branches",
+    "files": 75,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Xin_three_source_branches/manifest.json",
+      "bytes": 11691,
+      "sha256": "bb9385ae4ad739277db60c80d043d3f676c74fc3462d2d162e4933d6da4094be"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Xin_three_source_branches/freeze.json",
+      "bytes": 139,
+      "sha256": "16ad753c901edb597605ebb1eaf8860696dbe5484424d34b7c9b9528fde700db"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_H0_independent_review_449",
+    "files": 53,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_H0_independent_review_449/manifest.json",
+      "bytes": 8282,
+      "sha256": "20354de52f1e0449ed1252de911c77d2828cfdd23e8c7ce39b1ab6a27d8120a0"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_H0_independent_review_449/freeze.json",
+      "bytes": 92,
+      "sha256": "b7c200a252f0c7b4c29e15a487c72996d9f6af31c5f0e336fd44786fa93384a1"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_complete_runtime_kernel",
+      "files": 71,
+      "payload_files": 69,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 11056,
+        "sha256": "615e7e20c4335356316773ccc064ff442a0e125679167c462b000f4f4f78bdea"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 148,
+        "sha256": "21a2c11012bc0185a61ef9eecba4bb038d34f4ad606bb14db147d3a6669cb486"
+      },
+      "all_payload_bytes_verified": true
+    },
+    {
+      "directory": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/584 one complete readonly Xin source research gj28_977/complete three Ren74 source questions with spaces",
+      "files": 71,
+      "payload_files": 69,
+      "manifest": {
+        "path": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/584 one complete readonly Xin source research gj28_977/complete three Ren74 source questions with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 11056,
+        "sha256": "615e7e20c4335356316773ccc064ff442a0e125679167c462b000f4f4f78bdea"
+      },
+      "freeze": {
+        "path": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/584 one complete readonly Xin source research gj28_977/complete three Ren74 source questions with spaces/DELIVERY_FREEZE.json",
+        "bytes": 148,
+        "sha256": "21a2c11012bc0185a61ef9eecba4bb038d34f4ad606bb14db147d3a6669cb486"
+      },
+      "all_payload_bytes_verified": true
+    }
+  ],
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev608_Xin_H0_effective_rule_cards.json",
+    "bytes": 10074,
+    "sha256": "6f9b76eb90cb527aa8c1ed0415a7f126a51e463450b27a0e4db79bb17608c329"
+  },
+  "all49_current_effective_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Xin_three_source_branches/algorithm_explanations_all49.json",
+    "bytes": 83380,
+    "sha256": "04e54d5ccac2a253876a4344963e1d667ff16fcfcd67c4257e790247344c706a"
+  },
+  "mandatory_source_boundary05": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Xin_three_source_branches/05_己引化与独立敛火材性_来源边界待独审.txt",
+    "bytes": 3366,
+    "sha256": "b2600c2891c22236abd10cd23eebb998cde594f1d51c94155b3c17c7e46bf8fa"
+  },
+  "mandatory_independent_source_disposition": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_H0_independent_review_449/source_budget_and_original_scope_disposition.json",
+    "bytes": 2802,
+    "sha256": "a81501b489007ffba21ca5428bae929b3e7769d8178f0fbf90f1a75575ad6bc1"
+  },
+  "scope": "两人工辛酉研究原局及注册重戊/夏己/冬丁完整柱；所有预定率、磨金份额、暖工与同费对照全报。",
+  "local_channel_quality_and_whole_net_separate": true,
+  "same_actor_and_same_origin_twohop_budget_preserved": true,
+  "heat_work_only_registered_new_Ding_sources_other_origins_still_pay": true,
+  "ordinary_Ji_induction_not_unique_materiality": true,
+  "M1_original_task_unfinished": true,
+  "root_not_claiming_genuine_reviewer_role": "Root participated in source02/03 and independent-pencil preparation; genuine review is agent449, not root.",
+  "old180_and369_reused_not_rerun": true,
+  "all_original_C03_complete": false,
+  "original_task_complete": false,
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "no_B_or_display": true,
+  "real_prediction_or_temperature_validated": false
+}

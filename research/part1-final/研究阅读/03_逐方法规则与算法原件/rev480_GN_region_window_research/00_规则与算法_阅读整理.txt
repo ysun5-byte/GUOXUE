@@ -1,0 +1,3769 @@
+固定GN完整窗口与源/功能变化
+rev480_GN_region_window_research
+所属原模块：C04
+当前采用：rev492_GN_actual_windows_adoption.json
+范围：adopted_exact480129_after487111_with_effective121docs_and_two_new_IO
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev487_GN_window_independent_review/effective_algorithm_explanations121.json
+SHA256：f43e450760e0cd92af0fcd9b8b1f09d1e1bad12de3d17f5214de09c212b1dedc
+
+1. gn_region_window_research.py:canonical
+算法标识：gn_region_window_research.py:canonical
+module：gn_region_window_research.py
+qualname：canonical
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序键/紧凑/非ASCII原样/allow_nanFalse",
+  "outputs": "str，不是bytes；主入口最后编码UTF8",
+  "preconditions_and_limits": "不做来源/schema核；源输出必须先为JSON兼容类型",
+  "purpose": "稳定输出"
+}
+source_identity：{
+  "relative_path": "gn_region_window_research.py",
+  "qualified_name": "canonical",
+  "first_line": 7,
+  "last_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f"
+}
+reuse：{
+  "exact478_entry_AST_and_contract": "canonical"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+2. gn_region_window_research.py:pairs
+算法标识：gn_region_window_research.py:pairs
+module：gn_region_window_research.py
+qualname：pairs
+contract：{
+  "inputs": "有序键值pairs",
+  "operations": "逐键检查已出现键；固定错误码不回显原键",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "孤立代理重复键也不进入错误输出，实际high/low都测",
+  "purpose": "拒重复JSON键"
+}
+source_identity：{
+  "relative_path": "gn_region_window_research.py",
+  "qualified_name": "pairs",
+  "first_line": 8,
+  "last_line": 13,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "module_sha256": "bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f"
+}
+reuse：{
+  "exact478_entry_AST_and_contract": "pairs"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+3. gn_region_window_research.py:constant
+算法标识：gn_region_window_research.py:constant
+module：gn_region_window_research.py
+qualname：constant
+contract：{
+  "inputs": "NaN/Infinity token",
+  "operations": "固定ValueError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常unwindNone不冒正常None",
+  "purpose": "拒非有限常量"
+}
+source_identity：{
+  "relative_path": "gn_region_window_research.py",
+  "qualified_name": "constant",
+  "first_line": 14,
+  "last_line": 14,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6",
+  "module_sha256": "bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f"
+}
+reuse：{
+  "exact478_entry_AST_and_contract": "constant"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+4. gn_region_window_research.py:bounded
+算法标识：gn_region_window_research.py:bounded
+module：gn_region_window_research.py
+qualname：bounded
+contract：{
+  "inputs": "public JSON tree",
+  "operations": "depth20/nodes20000/object16/list64/str6400/Unicode scalar；null/bool/int only",
+  "outputs": "None orValueError",
+  "preconditions_and_limits": "snapshot records最多32另在core核；这是有限输入内存约束，不是传统数学条件",
+  "purpose": "整窗输入边界"
+}
+source_identity：{
+  "relative_path": "gn_region_window_research.py",
+  "qualified_name": "bounded",
+  "first_line": 15,
+  "last_line": 28,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "90150128b8337231cb21ad695b7ba43bf78582f63c101bf8ece387d5e31941aa",
+  "module_sha256": "bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "gn_region_window_research.py:bounded",
+  "calls": 23,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+5. gn_region_window_research.py:strict_load
+算法标识：gn_region_window_research.py:strict_load
+module：gn_region_window_research.py
+qualname：strict_load
+contract：{
+  "inputs": "str max200000 chars",
+  "operations": "duplicate/nonfinite reject→bounded",
+  "outputs": "JSON value orValueError",
+  "preconditions_and_limits": "CLI先strictUTF8和400000byte cap",
+  "purpose": "整窗严格JSON"
+}
+source_identity：{
+  "relative_path": "gn_region_window_research.py",
+  "qualified_name": "strict_load",
+  "first_line": 29,
+  "last_line": 31,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "40625c4337fea33e89327dc21706e497d44094ee1406558f1bad6f73a919c365",
+  "module_sha256": "bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/actual_new_strict_load_main_complete_IO.json.gz",
+  "record": "gn_region_window_research.py:strict_load",
+  "calls": 1,
+  "capture_phase": "487 actual unchanged-function callable observation, complete inputs/return; original author91 profiling count remains91",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/actual_new_strict_load_main_complete_IO.json.gz",
+    "bytes": 2053,
+    "sha256": "3cbf478361b4a8d2cb88448df9fd3f1ccb486386475849de254a6d944cc83c35"
+  }
+}
+not_executed_scope：null
+
+6. gn_region_window_research.py:guard
+算法标识：gn_region_window_research.py:guard
+module：gn_region_window_research.py
+qualname：guard
+contract：{
+  "inputs": "fixed root andsource lock",
+  "operations": "先lockSHA，再deps/runtime/source精确72材料bytes/SHA/非软链/包含；含root483精确采纳policy，全通过才返回可执行bytes",
+  "outputs": "dict[str,bytes] orValueError",
+  "preconditions_and_limits": "任何provider前拒来源坏；普通shape错不新增0模块加载要求；来源真值未认证",
+  "purpose": "整图执行前来源核"
+}
+source_identity：{
+  "relative_path": "gn_region_window_research.py",
+  "qualified_name": "guard",
+  "first_line": 32,
+  "last_line": 44,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6d652bb34a7c9595711cf4a0858aa1890a510a7201bd5d91a72701bcf6c421d2",
+  "module_sha256": "bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "gn_region_window_research.py:guard",
+  "calls": 7,
+  "capture_phase": "final483-disposition-bound implementation"
+}
+not_executed_scope：null
+
+7. gn_region_window_research.py:load
+算法标识：gn_region_window_research.py:load
+module：gn_region_window_research.py
+qualname：load
+contract：{
+  "inputs": "name/相对path/material",
+  "operations": "新ModuleType设真实__file__，compile material[path]并exec",
+  "outputs": "module",
+  "preconditions_and_limits": "loader不自行核来源；caller guard承担前置，实际2providers",
+  "purpose": "已核provider执行"
+}
+source_identity：{
+  "relative_path": "gn_region_window_research.py",
+  "qualified_name": "load",
+  "first_line": 45,
+  "last_line": 46,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "module_sha256": "bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f"
+}
+reuse：{
+  "exact478_entry_AST_and_contract": "load"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "gn_region_window_research.py:load",
+  "calls": 92,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+8. gn_region_window_research.py:evaluate
+算法标识：gn_region_window_research.py:evaluate
+module：gn_region_window_research.py
+qualname：evaluate
+contract：{
+  "inputs": "bounded request",
+  "operations": "guard→三窗口模块+固定478entry→478guard→原chain/oldref preflight模块→绑定root483policy/outer source锁→window.evaluate",
+  "outputs": "complete dict orhard error",
+  "preconditions_and_limits": "不执行旧大C20组合；资料版与分析版固定；所有raw preflight之前不pair math",
+  "purpose": "窗口原生路由"
+}
+source_identity：{
+  "relative_path": "gn_region_window_research.py",
+  "qualified_name": "evaluate",
+  "first_line": 47,
+  "last_line": 61,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "88bed1b810881a9ab6efbcf4de83eeb5305c2280ca3a2ff40a6c161003883eee",
+  "module_sha256": "bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "gn_region_window_research.py:evaluate",
+  "calls": 7,
+  "capture_phase": "final483-disposition-bound implementation"
+}
+not_executed_scope：null
+
+9. gn_region_window_research.py:main
+算法标识：gn_region_window_research.py:main
+module：gn_region_window_research.py
+qualname：main
+contract：{
+  "inputs": "stdin UTF8 max400000bytes",
+  "operations": "strict_load→evaluate→canonical str；typed/常见输入异常固定拒绝JSON",
+  "outputs": "stdout +exit0/2",
+  "preconditions_and_limits": "不回显用户原字段；未知系统错误不伪成功",
+  "purpose": "公开CLI"
+}
+source_identity：{
+  "relative_path": "gn_region_window_research.py",
+  "qualified_name": "main",
+  "first_line": 62,
+  "last_line": 70,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4dce0a70bf984e101bbaa73a56f328085fc7d410c804e4e3e8aeded0c9625224",
+  "module_sha256": "bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/actual_new_strict_load_main_complete_IO.json.gz",
+  "record": "gn_region_window_research.py:main",
+  "calls": 1,
+  "capture_phase": "487 actual unchanged-function callable observation, complete inputs/return; original author91 profiling count remains91",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/actual_new_strict_load_main_complete_IO.json.gz",
+    "bytes": 2053,
+    "sha256": "3cbf478361b4a8d2cb88448df9fd3f1ccb486386475849de254a6d944cc83c35"
+  }
+}
+not_executed_scope：null
+
+10. runtime/gn_window.py:parse_snapshot
+算法标识：runtime/gn_window.py:parse_snapshot
+module：runtime/gn_window.py
+qualname：parse_snapshot
+contract：{
+  "inputs": "one snapshot dict,label,verified modules/data pack",
+  "operations": "精确4字段→person/method/UTC window→registry完整preimage→逐条row形状/区间→原478请求schema/ref与固定data版→validity精确字段/owner/method/fullpairSHA/区间→固定源region/point和原始source/registry不可变条目",
+  "outputs": "parsed dict with index/ranges/boundaries/entries/complete; or hard exception",
+  "preconditions_and_limits": "包括所有W外/未来/前次记录；本函数不调用任何pair evaluate或测地方位；缺未知边界不是无限有效",
+  "purpose": "在任何判断前完成全原始硬门"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "parse_snapshot",
+  "first_line": 6,
+  "last_line": 49,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='label'), arg(arg='pack')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "780278d6df2fee05cff255b4e955c6bdac06d19d4c4835023e48e2bc7574fe32",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:parse_snapshot",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+11. runtime/gn_window.py:select_source
+算法标识：runtime/gn_window.py:select_source
+module：runtime/gn_window.py
+qualname：select_source
+contract：{
+  "inputs": "parsed snapshot,start/end UTC datetimes,common",
+  "operations": "已知range必须覆盖整片；未知端点仅当其已知边界不能排除此片才possibly_applicable；完整registry+恰一active且无unknownpossible才selection_known",
+  "outputs": "(selected row orNone,bool,issues list,possible row hashes)",
+  "preconditions_and_limits": "只同数值不能解决两source竞争；unknown有已知结束边界后可恢复；known selection不等于validity verified",
+  "purpose": "整片唯一源，不作端点抽样"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "select_source",
+  "first_line": 51,
+  "last_line": 63,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='start'), arg(arg='end'), arg(arg='common')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dbab1c5c506e4d39e564c5b55c2cf60c434c463b04bc231ad14ba7a49bb4a9de",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:select_source",
+  "calls": 46,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+12. runtime/gn_window.py:location_model
+算法标识：runtime/gn_window.py:location_model
+module：runtime/gn_window.py
+qualname：location_model
+contract：{
+  "inputs": "one478 geography_only dict",
+  "operations": "found且有point→保完整region_r5和point_ref；否则None",
+  "outputs": "dict orNone",
+  "preconditions_and_limits": "完整point SHA/版保留；仅坐标、文化ref、同名不证明同模型",
+  "purpose": "出生与现地参照分别追踪"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "location_model",
+  "first_line": 65,
+  "last_line": 69,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='place')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "519098097eea1caa5cebe49e33b376f8005dbd8f3f28863483fc89ba950bbb59",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:location_model",
+  "calls": 88,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+13. runtime/gn_window.py:function_state
+算法标识：runtime/gn_window.py:function_state
+module：runtime/gn_window.py
+qualname：function_state
+contract：{
+  "inputs": "full478 report,kind Rn/Rr,usable bool,common",
+  "operations": "Rn仅encoded_single_element；Rr仅computed或strictC0；再与整片usable相与；known时给功能内容及digest，否则function/effect=null",
+  "outputs": "typed channel dict",
+  "preconditions_and_limits": "C0 function为known_no_direction_contribution+vectorNone，是已知状态；unknown null不是zero或same；Rn与Rr互不当先决条件",
+  "purpose": "各通道功能状态"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "function_state",
+  "first_line": 71,
+  "last_line": 82,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='report'), arg(arg='kind'), arg(arg='usable'), arg(arg='common')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b1ebff0c00b65cb70978481b1070b6b05b35d81d3d325e7d3361829c7b2da3a4",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:function_state",
+  "calls": 88,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+14. runtime/gn_window.py:segment
+算法标识：runtime/gn_window.py:segment
+module：runtime/gn_window.py
+qualname：segment
+contract：{
+  "inputs": "one half-open segment,parsed,precomputed exact pair reports,pack",
+  "operations": "选择源→检查完整validity status/界/整片覆盖→独立Rn/Rr状态→绑定源ref、完整pair reportSHA、出生模型/现地/文化context",
+  "outputs": "raw segment dict; unresolved source或channel仍显式保留",
+  "preconditions_and_limits": "source可唯一但validity未知/过期；实际报告保存在all_original_pair_results；不默认B/北水/零向量",
+  "purpose": "完整区间分片研究"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "segment",
+  "first_line": 84,
+  "last_line": 102,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='segment'), arg(arg='parsed'), arg(arg='computed'), arg(arg='pack')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "53683e661fd44f3a4ed05335369bd4a206ec4dbe4f5b5479581708bd5682ea44",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:segment",
+  "calls": 46,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+15. runtime/gn_window.py:merge_timeline
+算法标识：runtime/gn_window.py:merge_timeline
+module：runtime/gn_window.py
+qualname：merge_timeline
+contract：{
+  "inputs": "ordered rows,explicit equality fields",
+  "operations": "仅相邻end==start且指定状态字段全等才合并；deepcopy输入",
+  "outputs": "canonical rows list",
+  "preconditions_and_limits": "不跨gap或unknown补洞；只有调用者已证明known才能用于functional timeline；源/功能调用不同fields",
+  "purpose": "时间中立合并基础"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "merge_timeline",
+  "first_line": 104,
+  "last_line": 109,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows'), arg(arg='fields')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a1b5dc0c4b59fc898bb3ab2755f70b29d1628b0d3a07a5e00c7a88fe5299ee7c",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:merge_timeline",
+  "calls": 88,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+16. runtime/gn_window.py:functional_timeline
+算法标识：runtime/gn_window.py:functional_timeline
+module：runtime/gn_window.py
+qualname：functional_timeline
+contract：{
+  "inputs": "raw segments,kind",
+  "operations": "全部片该通道known才取effect；Rr连出生model作为比较域；相邻effect/model同则merge",
+  "outputs": "timeline list orNone",
+  "preconditions_and_limits": "sourceid/record拆段不创造功能变化；出生模型改动不能被相同vector吞掉；任一unknown不给known timeline",
+  "purpose": "整窗已知功能规范形"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "functional_timeline",
+  "first_line": 111,
+  "last_line": 115,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='segments'), arg(arg='kind')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9ed9ec71096c76ddfe04e7f778fec75bbb633279275cd88cdb13e2cadc70a9be",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:functional_timeline",
+  "calls": 70,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+17. runtime/gn_window.py:source_trace
+算法标识：runtime/gn_window.py:source_trace
+module：runtime/gn_window.py
+qualname：source_trace
+contract：{
+  "inputs": "raw segments,common",
+  "operations": "取实际unique selected source id/version/fullrecordSHA；只合并相邻同refs/selection状态；全部selectionknown才有identity signature",
+  "outputs": "trace dict with raw/canonical refs andsignature orNone",
+  "preconditions_and_limits": "可以在功能/validityunknown时仍知道选择了哪个声明；gap/竞争unknown不以{}空对象与自己比same",
+  "purpose": "资料轴独立于功能轴"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "source_trace",
+  "first_line": 117,
+  "last_line": 123,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='segments'), arg(arg='common')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "67dc133f884997f4b50edd2322a93e6f6ef936073387746719ab1fa48e3d7efe",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:source_trace",
+  "calls": 35,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+18. runtime/gn_window.py:boundary_events
+算法标识：runtime/gn_window.py:boundary_events
+module：runtime/gn_window.py
+qualname：boundary_events
+contract：{
+  "inputs": "chronological raw segments",
+  "operations": "逐相邻片列source/出生模型/现地声明/文化context变化；功能两片都known才列function change；出生改动明确inputmodel非当前旅行",
+  "outputs": "event dict array",
+  "preconditions_and_limits": "不认证人在何处或移动；source选择未知则变化轴None；不触发显示",
+  "purpose": "给有依据事件明确语义反馈"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "boundary_events",
+  "first_line": 125,
+  "last_line": 141,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='segments')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d7245cfee294944371798a1a9c152cb0f9b239ea34a44347829cb491d15a822b",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:boundary_events",
+  "calls": 35,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+19. runtime/gn_window.py:compute_snapshot
+算法标识：runtime/gn_window.py:compute_snapshot
+module：runtime/gn_window.py
+qualname：compute_snapshot
+contract：{
+  "inputs": "preflighted snapshot,per-call cache,pack",
+  "operations": "所有raw pair_requests（含W外未来）按完整SHA重算/同key缓存→原common.partition联合applicability/validity边界→逐segment→各通道functional/source traces/events→保全部原478报告",
+  "outputs": "complete/unresolved snapshot dict",
+  "preconditions_and_limits": "只能在current/previous硬预核及共同immutable guard之后调用；partition数学完整不等同来源事实真实；不作持续时长加权",
+  "purpose": "真正全窗运行与可回放结果"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "compute_snapshot",
+  "first_line": 143,
+  "last_line": 158,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='cache'), arg(arg='pack')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f999e17941fa588119460f0a53bbc8428f99216a4e7eb7316562471de9b28aff",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:compute_snapshot",
+  "calls": 35,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+20. runtime/gn_window.py:aligned_piece_state
+算法标识：runtime/gn_window.py:aligned_piece_state
+module：runtime/gn_window.py
+qualname：aligned_piece_state
+contract：{
+  "inputs": "current/previous aligned raw pieces,kind",
+  "operations": "先两侧known，否则insufficient；Rr出生完整model不等则not_comparable；其余完整function等值比较",
+  "outputs": "status +same bool orNone",
+  "preconditions_and_limits": "同null未知不能same；C0是known标签；改变出生源不能冒现实旅行",
+  "purpose": "逐联合片比较"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "aligned_piece_state",
+  "first_line": 160,
+  "last_line": 166,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='current'), arg(arg='previous'), arg(arg='kind')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "411a73a6d2a246e239017bab7010f7cfeae12c46df54f7d31894f605716f9570",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:aligned_piece_state",
+  "calls": 50,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+21. runtime/gn_window.py:compare
+算法标识：runtime/gn_window.py:compare
+module：runtime/gn_window.py
+qualname：compare
+contract：{
+  "inputs": "current snapshot,previous ornull,pack",
+  "operations": "no_previous→person/method/同UTC domain门→独立实际source identity trace→双方所有raw边界原partition联合→逐片两通道比较→各通道及全窗确认",
+  "outputs": "typed comparison with aligned_segments,source axis,whole confirmation",
+  "preconditions_and_limits": "方法版本/不同W不可悄悄同方法；Rn与Rr可一个same一个unknown；任一必要unknown不确认全窗same/changed；只重排/等功能拆段不造变",
+  "purpose": "复用385/372中立比较，不是主题/显示比较"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "compare",
+  "first_line": 168,
+  "last_line": 204,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='current'), arg(arg='previous'), arg(arg='pack')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "219fe59919b9ac55ffb89e1fd83f4396c108835d3bbb4f4a502f2c77687207d9",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:compare",
+  "calls": 18,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+22. runtime/gn_window.py:evaluate
+算法标识：runtime/gn_window.py:evaluate
+module：runtime/gn_window.py
+qualname：evaluate
+contract：{
+  "inputs": "five-field window request and verifiedpack",
+  "operations": "精确schema/analysis/operation→parse ALLcurrent+previous→common immutable guard→才compute snapshots→compare→input/source/dependency trace",
+  "outputs": "complete conditional_GN_region_window_research dict orhard rejection",
+  "preconditions_and_limits": "固定478依root disposition接；不自采用来源/新增传统映射；不输出B/预算/主题/RGB；prediction false",
+  "purpose": "原C04整窗研究入口"
+}
+source_identity：{
+  "relative_path": "runtime/gn_window.py",
+  "qualified_name": "evaluate",
+  "first_line": 206,
+  "last_line": 224,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='pack')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fb57c24978d88e53e7f7c006c2af9b2ecdf4f47b325bd699e11dd67e46491862",
+  "module_sha256": "0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:evaluate",
+  "calls": 7,
+  "capture_phase": "final483-disposition-bound implementation"
+}
+not_executed_scope：null
+
+23. runtime/region_window_exact_helpers.py:canonical
+算法标识：runtime/region_window_exact_helpers.py:canonical
+module：runtime/region_window_exact_helpers.py
+qualname：canonical
+contract：{
+  "inputs": "JSON value",
+  "operations": "排序紧凑UTF8 finite",
+  "outputs": "bytes",
+  "preconditions_and_limits": "和入口canonical输出str不同",
+  "purpose": "旧源条目序列化"
+}
+source_identity：{
+  "relative_path": "runtime/region_window_exact_helpers.py",
+  "qualified_name": "canonical",
+  "first_line": 6,
+  "last_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96",
+  "module_sha256": "bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106"
+}
+reuse：{
+  "exact_original_region_window_function": "canonical",
+  "original_source": "reference/original_region_window.py"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:canonical",
+  "calls": 44,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+24. runtime/region_window_exact_helpers.py:digest
+算法标识：runtime/region_window_exact_helpers.py:digest
+module：runtime/region_window_exact_helpers.py
+qualname：digest
+contract：{
+  "inputs": "JSON value",
+  "operations": "canonical→SHA256",
+  "outputs": "64hex str",
+  "preconditions_and_limits": "完整内容绑定",
+  "purpose": "旧source ref摘要"
+}
+source_identity：{
+  "relative_path": "runtime/region_window_exact_helpers.py",
+  "qualified_name": "digest",
+  "first_line": 10,
+  "last_line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8",
+  "module_sha256": "bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106"
+}
+reuse：{
+  "exact_original_region_window_function": "digest",
+  "original_source": "reference/original_region_window.py"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:digest",
+  "calls": 44,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+25. runtime/region_window_exact_helpers.py:parse_range
+算法标识：runtime/region_window_exact_helpers.py:parse_range
+module：runtime/region_window_exact_helpers.py
+qualname：parse_range
+contract：{
+  "inputs": "start/end可能null的dict,path,common",
+  "operations": "非null按UTC解析；两端known需start<end",
+  "outputs": "(datetime orNone,datetime orNone)",
+  "preconditions_and_limits": "None是未知端点，不是已知无限有效；窗口选择按可影响范围处理",
+  "purpose": "原区间合同"
+}
+source_identity：{
+  "relative_path": "runtime/region_window_exact_helpers.py",
+  "qualified_name": "parse_range",
+  "first_line": 13,
+  "last_line": 19,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path'), arg(arg='common')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "c413a5712c7b542a3e8d3bd5de5dc713000dbb6d733e5935fd77f1a8211dbbb6",
+  "module_sha256": "bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106"
+}
+reuse：{
+  "exact_original_region_window_function": "parse_range",
+  "original_source": "reference/original_region_window.py"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:parse_range",
+  "calls": 99,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+26. runtime/region_window_exact_helpers.py:method
+算法标识：runtime/region_window_exact_helpers.py:method
+module：runtime/region_window_exact_helpers.py
+qualname：method
+contract：{
+  "inputs": "profile_id/version dict,path,common",
+  "operations": "精确两字段text",
+  "outputs": "None orhard error",
+  "preconditions_and_limits": "typed来源上下文；实际算法固定analysis_ref不任意路由",
+  "purpose": "原方法来源绑定"
+}
+source_identity：{
+  "relative_path": "runtime/region_window_exact_helpers.py",
+  "qualified_name": "method",
+  "first_line": 21,
+  "last_line": 23,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path'), arg(arg='common')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "676b53dfa76ed33b8c7abe6ec7c1bb940167ebc446e0403e7e48a91f0dbb0f31",
+  "module_sha256": "bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106"
+}
+reuse：{
+  "exact_original_region_window_function": "method",
+  "original_source": "reference/original_region_window.py"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:method",
+  "calls": 91,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+27. runtime/region_window_exact_helpers.py:source_ref
+算法标识：runtime/region_window_exact_helpers.py:source_ref
+module：runtime/region_window_exact_helpers.py
+qualname：source_ref
+contract：{
+  "inputs": "full row id/version",
+  "operations": "id/version+完整rowSHA",
+  "outputs": "dict",
+  "preconditions_and_limits": "不把同功能误作同来源",
+  "purpose": "旧源引用"
+}
+source_identity：{
+  "relative_path": "runtime/region_window_exact_helpers.py",
+  "qualified_name": "source_ref",
+  "first_line": 25,
+  "last_line": 26,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='row')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4e7fbb17a2c8c79f2f526c612a92e600673f05792ee3e537c343866f960aedfb",
+  "module_sha256": "bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106"
+}
+reuse：{
+  "exact_original_region_window_function": "source_ref",
+  "original_source": "reference/original_region_window.py"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:source_ref",
+  "calls": 44,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+28. runtime/region_window_exact_helpers.py:native_identity_entries
+算法标识：runtime/region_window_exact_helpers.py:native_identity_entries
+module：runtime/region_window_exact_helpers.py
+qualname：native_identity_entries
+contract：{
+  "inputs": "native request,owner,common",
+  "operations": "取region/coverage/frame/evidence全内容并构造旧entry",
+  "outputs": "entry list",
+  "preconditions_and_limits": "本版已固定source preflight用data region/point；此legacy工具未调用",
+  "purpose": "旧native不可变条目留存"
+}
+source_identity：{
+  "relative_path": "runtime/region_window_exact_helpers.py",
+  "qualified_name": "native_identity_entries",
+  "first_line": 28,
+  "last_line": 48,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='owner'), arg(arg='common')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f4232838cbc058b29a03b89b57d442b3c648d56bea45910c39bcc42f19efb1db",
+  "module_sha256": "bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106"
+}
+reuse：{
+  "exact_original_region_window_function": "native_identity_entries",
+  "original_source": "reference/original_region_window.py"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+29. runtime/region_window_exact_helpers.py:native_identity_entries.region
+算法标识：runtime/region_window_exact_helpers.py:native_identity_entries.region
+module：runtime/region_window_exact_helpers.py
+qualname：native_identity_entries.region
+contract：{
+  "inputs": "inner region dict",
+  "operations": "有REGION5则region5 entry；有era/kind再native_region7",
+  "outputs": "修改外层entries，returnNone",
+  "preconditions_and_limits": "旧工具内部回调，未调用",
+  "purpose": "旧region展开"
+}
+source_identity：{
+  "relative_path": "runtime/region_window_exact_helpers.py",
+  "qualified_name": "native_identity_entries.region",
+  "first_line": 30,
+  "last_line": 35,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "97b90bca7489d554efa998d5d11ed578e02ce3e0a66e00c007e219baf895208f",
+  "module_sha256": "bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106"
+}
+reuse：{
+  "exact_original_region_window_function": "native_identity_entries.region",
+  "original_source": "reference/original_region_window.py"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+30. runtime/region_window_exact_helpers.py:relative_identity_entries
+算法标识：runtime/region_window_exact_helpers.py:relative_identity_entries
+module：runtime/region_window_exact_helpers.py
+qualname：relative_identity_entries
+contract：{
+  "inputs": "old relative request,common",
+  "operations": "取origin/current region和point_records source/edition entry",
+  "outputs": "entry list",
+  "preconditions_and_limits": "本版GN自有点由固定data preflight，本工具未调用；不伪改层级",
+  "purpose": "旧relative不可变条目留存"
+}
+source_identity：{
+  "relative_path": "runtime/region_window_exact_helpers.py",
+  "qualified_name": "relative_identity_entries",
+  "first_line": 50,
+  "last_line": 61,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='common')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "7003e4dc2fe9bc46881e3332cad53c45a22f0580488c14bb739e890295406679",
+  "module_sha256": "bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106"
+}
+reuse：{
+  "exact_original_region_window_function": "relative_identity_entries",
+  "original_source": "reference/original_region_window.py"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+31. runtime/window_common.py:ContractError.__init__
+算法标识：runtime/window_common.py:ContractError.__init__
+module：runtime/window_common.py
+qualname：ContractError.__init__
+contract：{
+  "inputs": "status/path/code",
+  "operations": "保存属性",
+  "outputs": "None",
+  "preconditions_and_limits": "异常对象，不是正常判断",
+  "purpose": "有定位错误"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "ContractError.__init__",
+  "first_line": 9,
+  "last_line": 9,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "ContractError.__init__"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:__init__",
+  "calls": 3,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+32. runtime/window_common.py:fail
+算法标识：runtime/window_common.py:fail
+module：runtime/window_common.py
+qualname：fail
+contract：{
+  "inputs": "status/path/code",
+  "operations": "raise ContractError",
+  "outputs": "不正常返回",
+  "preconditions_and_limits": "profile return None可能为异常unwind，不当成功None",
+  "purpose": "硬错误"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "fail",
+  "first_line": 11,
+  "last_line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "fail"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:fail",
+  "calls": 3,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+33. runtime/window_common.py:obj
+算法标识：runtime/window_common.py:obj
+module：runtime/window_common.py
+qualname：obj
+contract：{
+  "inputs": "value,exact fieldset,path",
+  "operations": "dict且键集合完全相等",
+  "outputs": "None orhard error",
+  "preconditions_and_limits": "不补默认字段",
+  "purpose": "严格形状"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "obj",
+  "first_line": 12,
+  "last_line": 13,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='fields'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "44b44bc3785bcbdebb2ccd7ef079bea5ec4a2e6bfdc4edba34269c2228d7789d",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "obj"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:obj",
+  "calls": 1253,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+34. runtime/window_common.py:text
+算法标识：runtime/window_common.py:text
+module：runtime/window_common.py
+qualname：text
+contract：{
+  "inputs": "value,path",
+  "operations": "非空无两侧空白str",
+  "outputs": "None orhard error",
+  "preconditions_and_limits": "不做名称身份推理",
+  "purpose": "文本字段"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "text",
+  "first_line": 14,
+  "last_line": 15,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "24378609ea51a60f93b5570f67462a2ae518150fbeee44fdf1f43ef370c24437",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "text"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:text",
+  "calls": 2901,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+35. runtime/window_common.py:canonical
+算法标识：runtime/window_common.py:canonical
+module：runtime/window_common.py
+qualname：canonical
+contract：{
+  "inputs": "JSON value",
+  "operations": "排序紧凑UTF8/nonASCII/finite",
+  "outputs": "bytes",
+  "preconditions_and_limits": "不是真值认证",
+  "purpose": "稳定序列化"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "canonical",
+  "first_line": 16,
+  "last_line": 16,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "canonical"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:canonical",
+  "calls": 1378,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+36. runtime/window_common.py:digest
+算法标识：runtime/window_common.py:digest
+module：runtime/window_common.py
+qualname：digest
+contract：{
+  "inputs": "JSON value",
+  "operations": "canonical→SHA256",
+  "outputs": "64hex str",
+  "preconditions_and_limits": "完整内容绑定，不是签名",
+  "purpose": "稳定摘要"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "digest",
+  "first_line": 17,
+  "last_line": 17,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "digest"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:digest",
+  "calls": 787,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+37. runtime/window_common.py:utc
+算法标识：runtime/window_common.py:utc
+module：runtime/window_common.py
+qualname：utc
+contract：{
+  "inputs": "Z UTC str max6fraction digits,path",
+  "operations": "严格正则并datetime.fromisoformat",
+  "outputs": "aware UTC datetime orhard error",
+  "preconditions_and_limits": "不生成历法/GPS事实；非法日期拒绝",
+  "purpose": "原UTC解析"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "utc",
+  "first_line": 18,
+  "last_line": 21,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='utc')])",
+  "AST_sha256": "0cd9195b03cacde49408e922c6f7631b97bce9723693e0157b2e6777c2610417",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "utc"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:utc",
+  "calls": 1206,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+38. runtime/window_common.py:stamp
+算法标识：runtime/window_common.py:stamp
+module：runtime/window_common.py
+qualname：stamp
+contract：{
+  "inputs": "UTC datetime",
+  "operations": "检查UTC offset并规范秒/微秒Z",
+  "outputs": "str",
+  "preconditions_and_limits": "规范拼写不增加时间精度",
+  "purpose": "原UTC输出"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "stamp",
+  "first_line": 22,
+  "last_line": 24,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "0a740d9313f01120147866a6d49d21cfc0c5afc2030e197c0e2eadbeb145ac02",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "stamp"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:stamp",
+  "calls": 454,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+39. runtime/window_common.py:window
+算法标识：runtime/window_common.py:window
+module：runtime/window_common.py
+qualname：window
+contract：{
+  "inputs": "kind/start/end dict",
+  "operations": "window kind且positive start<end UTC",
+  "outputs": "(start,end) datetimes",
+  "preconditions_and_limits": "半开正区间；同domain比较用解析后时间",
+  "purpose": "原评价窗"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "window",
+  "first_line": 25,
+  "last_line": 30,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='evaluation')])",
+  "AST_sha256": "a9ec64d4994b23509e1f2624595a3e428d78b35fb1d52fe994378fd4b4f3b1ce",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "window"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:window",
+  "calls": 166,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+40. runtime/window_common.py:source
+算法标识：runtime/window_common.py:source
+module：runtime/window_common.py
+qualname：source
+contract：{
+  "inputs": "provider_ref/record_ref/basis dict",
+  "operations": "精确三字段text",
+  "outputs": "None orhard error",
+  "preconditions_and_limits": "只是来源声明",
+  "purpose": "来源结构"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "source",
+  "first_line": 32,
+  "last_line": 34,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='source')])",
+  "AST_sha256": "26038277c9614b9cfe1b5d2ca6cbb421fb3b8837fe494cb7460a2f5399898a35",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "source"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:source",
+  "calls": 91,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+41. runtime/window_common.py:check_registry
+算法标识：runtime/window_common.py:check_registry
+module：runtime/window_common.py
+qualname：check_registry
+contract：{
+  "inputs": "registry,full records preimage,evaluation,path",
+  "operations": "核精确字段/来源/wholewindow/recordsSHA/明确complete或unknown",
+  "outputs": "bool complete",
+  "preconditions_and_limits": "不是信任一个complete标志；W外record也在完整preimage",
+  "purpose": "原完整目录合同"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "check_registry",
+  "first_line": 36,
+  "last_line": 44,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='registry'), arg(arg='records'), arg(arg='evaluation'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='registry')])",
+  "AST_sha256": "4287b6ecc76b4e282b406a4ae52780d81984c708980fffa360ece1407d1c44e5",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "check_registry"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:check_registry",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+42. runtime/window_common.py:registry
+算法标识：runtime/window_common.py:registry
+module：runtime/window_common.py
+qualname：registry
+contract：{
+  "inputs": "records/window/id/version/provider",
+  "operations": "构造声明registry和preimageSHA",
+  "outputs": "dict",
+  "preconditions_and_limits": "fixture utility，本版生产链未调用；不认证complete事实",
+  "purpose": "旧构造工具留存"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "registry",
+  "first_line": 46,
+  "last_line": 49,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='records'), arg(arg='evaluation'), arg(arg='identifier'), arg(arg='version'), arg(arg='provider')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='1'), Constant(value='synthetic-provider')])",
+  "AST_sha256": "69070495782a7865ad010777869b2a061824c1719daa15c3d8d3547fbd6b3468",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "registry"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+43. runtime/window_common.py:partition
+算法标识：runtime/window_common.py:partition
+module：runtime/window_common.py
+qualname：partition
+contract：{
+  "inputs": "evaluation and all labelled boundaries",
+  "operations": "校验全部边界后仅有效时刻clip到W；集合排序；输出所有相邻半开片和来源标签",
+  "outputs": "boundaries/segments/proof dict",
+  "preconditions_and_limits": "union==W且disjoint是数学声明；domain/source事实不是此函数证明；不是端点抽样",
+  "purpose": "原精确分段"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "partition",
+  "first_line": 51,
+  "last_line": 67,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='evaluation'), arg(arg='boundaries')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])",
+  "AST_sha256": "f4f81747da4bf59f204cb0899d79bbd9ae42fadecf85532cd2ce6b68bfd4c655",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "partition"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:partition",
+  "calls": 50,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+44. runtime/window_common.py:entry
+算法标识：runtime/window_common.py:entry
+module：runtime/window_common.py
+qualname：entry
+contract：{
+  "inputs": "kind,nonempty structured namespace,full record withid/version",
+  "operations": "规范身份及内容SHA",
+  "outputs": "identity entry dict",
+  "preconditions_and_limits": "保明确namespace；不是只看外层packetid",
+  "purpose": "原不可变条目"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "entry",
+  "first_line": 69,
+  "last_line": 74,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='kind'), arg(arg='namespace'), arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2f74804c9291742a293d8de16178c6fc0a225f43758e221b19f3ba75ea3071c3",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "entry"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:entry",
+  "calls": 321,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+45. runtime/window_common.py:guard
+算法标识：runtime/window_common.py:guard
+module：runtime/window_common.py
+qualname：guard
+contract：{
+  "inputs": "all identity entries current+previous",
+  "operations": "以kind/namespace/id/version为键；同键不同SHA硬拒；去重规范列表",
+  "outputs": "registry count/hash/entries dict",
+  "preconditions_and_limits": "source sameidversion更内容不能靠新window/segmentid绕过；事实真实性false",
+  "purpose": "原全图不可变检查"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "guard",
+  "first_line": 76,
+  "last_line": 89,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='entries')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "305b69388062a15db96abd90e0ca2789599340843637e7a2dac99fc99c031eb7",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "guard"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:guard",
+  "calls": 19,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+46. runtime/window_common.py:load_fixed
+算法标识：runtime/window_common.py:load_fixed
+module：runtime/window_common.py
+qualname：load_fixed
+contract：{
+  "inputs": "dependency metadata,anchor_file",
+  "operations": "原兄弟目录包含性/SHA/version校验后exec",
+  "outputs": "module orhard error",
+  "preconditions_and_limits": "本版入口不调用，统一整图guard接管加载；旧兼容函数留存",
+  "purpose": "原小依赖加载"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "load_fixed",
+  "first_line": 91,
+  "last_line": 101,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='meta'), arg(arg='anchor_file')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8854a581581e42e30487715fd967e4dae097b68f4b768c3eb9204c9ffb934c5e",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "load_fixed"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+47. runtime/window_common.py:load_request
+算法标识：runtime/window_common.py:load_request
+module：runtime/window_common.py
+qualname：load_request
+contract：{
+  "inputs": "JSON raw",
+  "operations": "loads with duplicate callback andnonfinite reject",
+  "outputs": "JSON value orValueError",
+  "preconditions_and_limits": "本版公开入口用bounded strict_load；此原工具未执行",
+  "purpose": "原JSON读入留存"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "load_request",
+  "first_line": 103,
+  "last_line": 110,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f93d34afc28407812a993681f755776d969cdcf80f01c9b434d11714e1406562",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "load_request"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+48. runtime/window_common.py:load_request.pairs
+算法标识：runtime/window_common.py:load_request.pairs
+module：runtime/window_common.py
+qualname：load_request.pairs
+contract：{
+  "inputs": "ordered pairs",
+  "operations": "拒重复key再dict",
+  "outputs": "dict orValueError",
+  "preconditions_and_limits": "旧内部回调，本版未执行",
+  "purpose": "原重复键拒绝"
+}
+source_identity：{
+  "relative_path": "runtime/window_common.py",
+  "qualified_name": "load_request.pairs",
+  "first_line": 104,
+  "last_line": 109,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f8d84d0ecc432b175133db1e727ee459a69833f2f3095056742fa0e2f0c6dde7",
+  "module_sha256": "0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377"
+}
+reuse：{
+  "exact_original_whole_module": "reference/fixed_dependency_and_exact_reuse.json",
+  "old_function": "load_request.pairs"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+49. deps/gn_pair/geography_direction_research.py:canonical
+算法标识：deps/gn_pair/geography_direction_research.py:canonical
+module：deps/gn_pair/geography_direction_research.py
+qualname：canonical
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序键/紧凑/非ASCII原样/allow_nanFalse",
+  "outputs": "str，不是bytes；主入口最后编码UTF8",
+  "preconditions_and_limits": "不做来源/schema核；源输出必须先为JSON兼容类型",
+  "purpose": "稳定输出"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/geography_direction_research.py",
+  "qualified_name": "canonical",
+  "first_line": 7,
+  "last_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16"
+}
+reuse：{
+  "exact478_AST_and_contract": "geography_direction_research.py:canonical",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+50. deps/gn_pair/geography_direction_research.py:pairs
+算法标识：deps/gn_pair/geography_direction_research.py:pairs
+module：deps/gn_pair/geography_direction_research.py
+qualname：pairs
+contract：{
+  "inputs": "有序键值pairs",
+  "operations": "逐键检查已出现键；固定错误码不回显原键",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "孤立代理重复键也不进入错误输出，实际high/low都测",
+  "purpose": "拒重复JSON键"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/geography_direction_research.py",
+  "qualified_name": "pairs",
+  "first_line": 8,
+  "last_line": 13,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "module_sha256": "2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16"
+}
+reuse：{
+  "exact478_AST_and_contract": "geography_direction_research.py:pairs",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+51. deps/gn_pair/geography_direction_research.py:constant
+算法标识：deps/gn_pair/geography_direction_research.py:constant
+module：deps/gn_pair/geography_direction_research.py
+qualname：constant
+contract：{
+  "inputs": "NaN/Infinity token",
+  "operations": "固定ValueError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常unwindNone不冒正常None",
+  "purpose": "拒非有限常量"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/geography_direction_research.py",
+  "qualified_name": "constant",
+  "first_line": 14,
+  "last_line": 14,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6",
+  "module_sha256": "2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16"
+}
+reuse：{
+  "exact478_AST_and_contract": "geography_direction_research.py:constant",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+52. deps/gn_pair/geography_direction_research.py:bounded
+算法标识：deps/gn_pair/geography_direction_research.py:bounded
+module：deps/gn_pair/geography_direction_research.py
+qualname：bounded
+contract：{
+  "inputs": "直接API/已解析JSON值",
+  "operations": "迭代深度12/节点500/对象12/数组20/字符串2000及Unicode标量；只允null,bool,int",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不校城市schema，不校文件；float一律不作为请求值",
+  "purpose": "限制公开请求树"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/geography_direction_research.py",
+  "qualified_name": "bounded",
+  "first_line": 15,
+  "last_line": 28,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "254230f28bae34f9a89a8611eed059eea862888686d987d5177a7e1f9321adfa",
+  "module_sha256": "2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16"
+}
+reuse：{
+  "exact478_AST_and_contract": "geography_direction_research.py:bounded",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/geography_direction_research.py:bounded",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+53. deps/gn_pair/geography_direction_research.py:strict_load
+算法标识：deps/gn_pair/geography_direction_research.py:strict_load
+module：deps/gn_pair/geography_direction_research.py
+qualname：strict_load
+contract：{
+  "inputs": "str≤10000字符",
+  "operations": "json.loads+pairs/constant后bounded",
+  "outputs": "JSON值或解析/边界异常",
+  "preconditions_and_limits": "main先UTF8strict decode；不是来源查表",
+  "purpose": "严格字面解析"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/geography_direction_research.py",
+  "qualified_name": "strict_load",
+  "first_line": 29,
+  "last_line": 31,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e5b7a027faf55001a6e6504988417d43f73b41159e8a8b65776cc42f7ea5dd30",
+  "module_sha256": "2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16"
+}
+reuse：{
+  "exact478_AST_and_contract": "geography_direction_research.py:strict_load",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+54. deps/gn_pair/geography_direction_research.py:guard
+算法标识：deps/gn_pair/geography_direction_research.py:guard
+module：deps/gn_pair/geography_direction_research.py
+qualname：guard
+contract：{
+  "inputs": "ROOT与固定source_execution_lock SHA，无公开参数",
+  "operations": "先锁文件SHA；精确核source/runtime/data/relative共66件集合、bytes/SHA、非软链和包含；全部通过才返回被核字节",
+  "outputs": "dict[str,bytes]或ValueError",
+  "preconditions_and_limits": "包括方向库全部18个release许可/测试文件；不是来源真实性认证；任何provider均后置",
+  "purpose": "本版一条完整来源守卫"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/geography_direction_research.py",
+  "qualified_name": "guard",
+  "first_line": 32,
+  "last_line": 44,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8804c71f33cfdda88126c516559adbc36548b154757a23b3fe7060e7d7872e03",
+  "module_sha256": "2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16"
+}
+reuse：{
+  "exact478_AST_and_contract": "geography_direction_research.py:guard",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/geography_direction_research.py:guard",
+  "calls": 44,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+55. deps/gn_pair/geography_direction_research.py:load
+算法标识：deps/gn_pair/geography_direction_research.py:load
+module：deps/gn_pair/geography_direction_research.py
+qualname：load
+contract：{
+  "inputs": "name/相对path/material",
+  "operations": "新ModuleType设真实__file__，compile material[path]并exec",
+  "outputs": "module",
+  "preconditions_and_limits": "loader不自行核来源；caller guard承担前置，实际2providers",
+  "purpose": "已核provider执行"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/geography_direction_research.py",
+  "qualified_name": "load",
+  "first_line": 45,
+  "last_line": 46,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "module_sha256": "2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16"
+}
+reuse：{
+  "exact478_AST_and_contract": "geography_direction_research.py:load",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/geography_direction_research.py:load",
+  "calls": 193,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+56. deps/gn_pair/geography_direction_research.py:evaluate
+算法标识：deps/gn_pair/geography_direction_research.py:evaluate
+module：deps/gn_pair/geography_direction_research.py
+qualname：evaluate
+contract：{
+  "inputs": "有限JSON request，7个精确字段",
+  "operations": "bounded→guard→解压同一GN目录→从核字节载四旧查找核心+原方向核心+原C0谓词+新薄组合；调用新研究core",
+  "outputs": "完整research_pair_evaluated dict或异常",
+  "preconditions_and_limits": "公开输入不含坐标；Rr和Rn不互当先决条件；不是窗口/显示/预算入口",
+  "purpose": "可复现地区研究链"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/geography_direction_research.py",
+  "qualified_name": "evaluate",
+  "first_line": 47,
+  "last_line": 59,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f0bb5c7d73daa4ef45b8e2848fa98115aaa5c58c2559104fb1a47bd9da7accd8",
+  "module_sha256": "2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16"
+}
+reuse：{
+  "exact478_AST_and_contract": "geography_direction_research.py:evaluate",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/geography_direction_research.py:evaluate",
+  "calls": 21,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+57. deps/gn_pair/geography_direction_research.py:main
+算法标识：deps/gn_pair/geography_direction_research.py:main
+module：deps/gn_pair/geography_direction_research.py
+qualname：main
+contract：{
+  "inputs": "stdinUTF8bytes≤20000",
+  "operations": "strict_load→evaluate→canonical+LF；所列异常固定拒绝JSON",
+  "outputs": "成功0/拒绝2及stdout；不回显原异常值",
+  "preconditions_and_limits": "AssertionError等未列异常不伪装正常结果；只支持此公开入口",
+  "purpose": "安全CLI"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/geography_direction_research.py",
+  "qualified_name": "main",
+  "first_line": 60,
+  "last_line": 66,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e7cf65e118167e39c65787ce04f3c895ed476e4e8adcb75451468b7afa9c7101",
+  "module_sha256": "2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16"
+}
+reuse：{
+  "exact478_AST_and_contract": "geography_direction_research.py:main",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+58. deps/gn_pair/runtime/c0_exact.py:c0_eligible
+算法标识：deps/gn_pair/runtime/c0_exact.py:c0_eligible
+module：deps/gn_pair/runtime/c0_exact.py
+qualname：c0_eligible
+contract：{
+  "inputs": "request.origin/current的region+point_ref与result ready状态/geometry",
+  "operations": "仅ready/ready且coincident，再要求两个region dict完整相等、point_ref完整相等",
+  "outputs": "bool",
+  "preconditions_and_limits": "函数AST与原region_window_v0_1精确一致；caller已核point SHA/CRS/meaning/coords；只同坐标或文化ref相同不够",
+  "purpose": "原严格C0谓词精确复用"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/c0_exact.py",
+  "qualified_name": "c0_eligible",
+  "first_line": 2,
+  "last_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='result')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "306a465b61dadddb80a61a165bc340c1ba18e6194d579505367f3a24e445624b",
+  "module_sha256": "2f70e5e2cec150f7b5fefe2e32d3bf9a72c30f9ddab6b307e2a36b26c2a9f86c"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/c0_exact.py:c0_eligible",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/c0_exact.py:c0_eligible",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+59. deps/gn_pair/runtime/city_core.py:canonical
+算法标识：deps/gn_pair/runtime/city_core.py:canonical
+module：deps/gn_pair/runtime/city_core.py
+qualname：canonical
+contract：{
+  "inputs": "JSON兼容v",
+  "operations": "排序紧凑JSON",
+  "outputs": "str",
+  "preconditions_and_limits": "不生成source truth/地理真实性",
+  "purpose": "规范对象文字"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/city_core.py",
+  "qualified_name": "canonical",
+  "first_line": 7,
+  "last_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/city_core.py:canonical",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:canonical",
+  "calls": 430,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+60. deps/gn_pair/runtime/city_core.py:digest
+算法标识：deps/gn_pair/runtime/city_core.py:digest
+module：deps/gn_pair/runtime/city_core.py
+qualname：digest
+contract：{
+  "inputs": "JSON兼容v",
+  "operations": "canonical UTF8 SHA256",
+  "outputs": "64小写hex str",
+  "preconditions_and_limits": "摘要是内容绑定，不是署名认证",
+  "purpose": "绑定内容摘要"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/city_core.py",
+  "qualified_name": "digest",
+  "first_line": 8,
+  "last_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/city_core.py:digest",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:digest",
+  "calls": 412,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+61. deps/gn_pair/runtime/city_core.py:normalize
+算法标识：deps/gn_pair/runtime/city_core.py:normalize
+module：deps/gn_pair/runtime/city_core.py
+qualname：normalize
+contract：{
+  "inputs": "str",
+  "operations": "NFKC→casefold→合并空白",
+  "outputs": "str",
+  "preconditions_and_limits": "只查询文字；不把繁简/别名跨记录传递、不推城市身份",
+  "purpose": "名字规范化"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/city_core.py",
+  "qualified_name": "normalize",
+  "first_line": 9,
+  "last_line": 9,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='s')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fa00b2fc5a92d2a7d7dbdc41c359271def1f816b63b0387ecd9bf3766f3fc758",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/city_core.py:normalize",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+62. deps/gn_pair/runtime/city_core.py:ref_key
+算法标识：deps/gn_pair/runtime/city_core.py:ref_key
+module：deps/gn_pair/runtime/city_core.py
+qualname：ref_key
+contract：{
+  "inputs": "恰namespace/id/version的dict，值trim非空str",
+  "operations": "字段/类型核后按固定顺序",
+  "outputs": "tuple(namespace,id,version)或ValueError",
+  "preconditions_and_limits": "命名空间和版是否存在在上层查；不数字强转/截前缀",
+  "purpose": "精确版本身份"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/city_core.py",
+  "qualified_name": "ref_key",
+  "first_line": 10,
+  "last_line": 12,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='ref')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fe8ae87c7790f2f244859d355e4b46ab523a7c8cde13d09b2ed01d411bdb13e4",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/city_core.py:ref_key",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:ref_key",
+  "calls": 6173,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+63. deps/gn_pair/runtime/city_core.py:candidate
+算法标识：deps/gn_pair/runtime/city_core.py:candidate
+module：deps/gn_pair/runtime/city_core.py
+qualname：candidate
+contract：{
+  "inputs": "一个固定record",
+  "operations": "deepcopy身份/类型/层级码/省祖先/点ref",
+  "outputs": "候选dict，not_automatically_selectedTrue",
+  "preconditions_and_limits": "稳定排序不是优先级；无人口/距离/第一条选取",
+  "purpose": "候选摘要"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/city_core.py",
+  "qualified_name": "candidate",
+  "first_line": 13,
+  "last_line": 14,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "5361db42392529ef4afdcf798680c0635a93329623f6f439bae13a3d02b913a9",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/city_core.py:candidate",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+64. deps/gn_pair/runtime/city_core.py:search
+算法标识：deps/gn_pair/runtime/city_core.py:search
+module：deps/gn_pair/runtime/city_core.py
+qualname：search
+contract：{
+  "inputs": "严格7字段request/data",
+  "operations": "核数据Unicode版本；名字匹配仅source label；partition/kind/唯一或歧义省提示过滤；全候选稳定输出",
+  "outputs": "status/normalized_query/candidates/province_candidates等dict",
+  "preconditions_and_limits": "简繁只用provider已列形式；未知省提示不退无提示；唯一候选也不自动lookup/采纳",
+  "purpose": "原源别名检索"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/city_core.py",
+  "qualified_name": "search",
+  "first_line": 15,
+  "last_line": 33,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d6482cc185fed7a5e043b0d5bfd57555a879b6f567ad1d40c6067bd9c2b4cb2f",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/city_core.py:search",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+65. deps/gn_pair/runtime/city_core.py:cultural_attribute
+算法标识：deps/gn_pair/runtime/city_core.py:cultural_attribute
+module：deps/gn_pair/runtime/city_core.py
+qualname：cultural_attribute
+contract：{
+  "inputs": "record/nullableexactparentref/data/native module",
+  "operations": "显式父版→CN31命名桥和A行政范围→旧父source状态→保原frame/evidence完整链组合target_within_source_scope→旧native评价",
+  "outputs": "Rn dict：status/reason/native_request/report/parentreport/lineage证及限制",
+  "preconditions_and_limits": "新GN具名包含是工程解释候选，非官方城市/省界法证。P驻地/非CN无桥/父未决不补0；旧市自有版不换省版；不猜五行/权重",
+  "purpose": "同框父文化包含解释"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/city_core.py",
+  "qualified_name": "cultural_attribute",
+  "first_line": 34,
+  "last_line": 56,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='parent_ref'), arg(arg='data'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "543ea71cb81c984e0ff17c7fb487dd68f9a0b61248dcfb0fc3e5a93a3587090d",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/city_core.py:cultural_attribute",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:cultural_attribute",
+  "calls": 58,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+66. deps/gn_pair/runtime/city_core.py:evaluate
+算法标识：deps/gn_pair/runtime/city_core.py:evaluate
+module：deps/gn_pair/runtime/city_core.py
+qualname：evaluate
+contract：{
+  "inputs": "request/data/native",
+  "operations": "schema/data版/op精确；lookup按GNid版，search不选首；点和Rn分开；文化context哈希绑定geo+父版+完整native请求",
+  "outputs": "完整lookup或search dict，含source/adoption/C0/D2/B状态",
+  "preconditions_and_limits": "Geo身份/点版与显式文化context分开；无lease/方向/C0/主题计算，不声称新C20已接",
+  "purpose": "精确新数据入口与context"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/city_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 57,
+  "last_line": 75,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e26a62e7a48f9f09fc8d316320eee64955f598501a68b31ee8b0f38937c57cf3",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/city_core.py:evaluate",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:evaluate",
+  "calls": 58,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+67. deps/gn_pair/runtime/context_core.py:unknown
+算法标识：deps/gn_pair/runtime/context_core.py:unknown
+module：deps/gn_pair/runtime/context_core.py
+qualname：unknown
+contract：{
+  "purpose": "保留地点已知、文化尚未定的分别状态",
+  "inputs": "selected ref、固定reason及具体来源/成员details",
+  "operations": "复制selected、native_request/report置None、标注不是零贡献及点不作scope证据，再加入details",
+  "outputs": "coverage_undetermined dict",
+  "preconditions_and_limits": "kwargs为内部可信固定字段，非任意公开覆盖；未定不等于判定无文化贡献"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/context_core.py",
+  "qualified_name": "unknown",
+  "first_line": 6,
+  "last_line": 9,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='selected'), arg(arg='reason')], kwonlyargs=[], kw_defaults=[], kwarg=arg(arg='details'), defaults=[])",
+  "AST_sha256": "312f535c8650f04cc2c65eaf0bdd4508da8ef45d21a3a319e6ce09afe7e7a2f4",
+  "module_sha256": "af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/context_core.py:unknown",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/context_core.py:unknown",
+  "calls": 24,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+68. deps/gn_pair/runtime/context_core.py:city_membership
+算法标识：deps/gn_pair/runtime/context_core.py:city_membership
+module：deps/gn_pair/runtime/context_core.py
+qualname：city_membership
+contract：{
+  "purpose": "核固定城市具名身份和提供者行政成员关系",
+  "inputs": "固定record/旧city/data/specs",
+  "operations": "选legacy_id/name登记anchor；拒驻地与非CN；核省桥、源行SHA、feature、中文名；同精确record直连，ADM3则按admin1/admin2唯一ADM2；全部合格证明均保留",
+  "outputs": "qualified bool、reason或proofs；anchor资料不一致拒绝",
+  "preconditions_and_limits": "这是工程文化frame包含，不证明当前官方行政多边形一致；不合并潜江两层GN身份；不按经纬度判城市全境"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/context_core.py",
+  "qualified_name": "city_membership",
+  "first_line": 11,
+  "last_line": 38,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='legacy'), arg(arg='data'), arg(arg='specs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "668b053d8bbae09e0f558c5c709927d5cb7677f9ddfe6062b0b1caa68a00b21c",
+  "module_sha256": "af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/context_core.py:city_membership",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/context_core.py:city_membership",
+  "calls": 1,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+69. deps/gn_pair/runtime/context_core.py:derive_city
+算法标识：deps/gn_pair/runtime/context_core.py:derive_city
+module：deps/gn_pair/runtime/context_core.py
+qualname：derive_city
+contract：{
+  "purpose": "先核旧城市完整来源链，再生成本次GN目标文化候选上界",
+  "inputs": "固定GNrecord、精确旧city entry、data/native/oldcore/specs",
+  "operations": "成员核→原native重放→完整geo集合和旧subject链接→同frame组合certificate→新直接完整候选上界链接→原native重放；保留旧scope限制与原报告",
+  "outputs": "未定或完整派生native_request/report/lineage certificates/membership",
+  "preconditions_and_limits": "旧source==旧target可无旧中间链接；其余须complete、reviewed、同frame；原未决不会被新桥洗成已知；代表点独立"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/context_core.py",
+  "qualified_name": "derive_city",
+  "first_line": 40,
+  "last_line": 89,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='entry'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='specs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dad8ab48730b59e4d3cb5b31187711017c718e21d057bf2bd8e654c5618a8042",
+  "module_sha256": "af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/context_core.py:derive_city",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/context_core.py:derive_city",
+  "calls": 1,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+70. deps/gn_pair/runtime/context_core.py:evaluate
+算法标识：deps/gn_pair/runtime/context_core.py:evaluate
+module：deps/gn_pair/runtime/context_core.py
+qualname：evaluate
+contract：{
+  "purpose": "明确所选文化资料的分支调度及版本追溯",
+  "inputs": "精确schema/operation/data_version/region_ref/cultural_record_ref五字段；固定data/native/oldcore/specs",
+  "operations": "严格字段/ref核→先取得独立地点/点→null/未知ref未定，province复用442，city调用derive_city→context hash绑定实际GN与资料native request",
+  "outputs": "新wrapper下的完整地点、点、文化报告与版本边界",
+  "preconditions_and_limits": "未知地点/地点版本不构造文化结果；不自动优先城市；同名宿州不会因名称相近继承苏州；无D2/C0/C20/显示"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/context_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 91,
+  "last_line": 119,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='specs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "69877c0e3b40b8e4bb23ba25febe589a95ca773ab8c9e38752efe533141c65b4",
+  "module_sha256": "af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/context_core.py:evaluate",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/context_core.py:evaluate",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+71. deps/gn_pair/runtime/noncn_core.py:membership
+算法标识：deps/gn_pair/runtime/noncn_core.py:membership
+module：deps/gn_pair/runtime/noncn_core.py
+qualname：membership
+contract：{
+  "purpose": "正向具名行政成员资格",
+  "inputs": "固定record、family、data",
+  "operations": "核admin种类/支持层级→唯一原ADM1→精确正向anchor row SHA/admin/code；TW下级另核唯一ADM2及20正向锚；输出完整源证书",
+  "outputs": "qualified bool与proof或明确reason；锚材料不一致拒绝",
+  "preconditions_and_limits": "不是补集规则、不按点判全境、不把01转04；驻地和不明ADMD不继承；相同坐标不合并身份"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/noncn_core.py",
+  "qualified_name": "membership",
+  "first_line": 6,
+  "last_line": 37,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='family'), arg(arg='data')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "efd75283b297ca8a901f0bb1ed04488e673a21b7eb01c6c5dbca63694a817ceb",
+  "module_sha256": "327d5941065f993cbfaee0dbafe814b375536bef57729494f5c3e72f80f07be3"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/noncn_core.py:membership",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/noncn_core.py:membership",
+  "calls": 18,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+72. deps/gn_pair/runtime/noncn_core.py:derive
+算法标识：deps/gn_pair/runtime/noncn_core.py:derive
+module：deps/gn_pair/runtime/noncn_core.py
+qualname：derive
+contract：{
+  "purpose": "完整旧源链之后接新正向成员包含",
+  "inputs": "固定record/精确旧entry/family/data/native/oldcore/legacy/spec",
+  "operations": "membership→原native重放→全部geo引用→必要原subject旧target完整同frame link→组合证书→新直接same-frame candidate upper-bound→原native重放",
+  "outputs": "unknown或完整native request/report、原报告、成员证据及旧限制",
+  "preconditions_and_limits": "原subject==target无需中间link；原未知/断链无法由新桥修好；不把旧文化点覆盖GN自有点或新造权重"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/noncn_core.py",
+  "qualified_name": "derive",
+  "first_line": 39,
+  "last_line": 83,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='entry'), arg(arg='family'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='legacy'), arg(arg='spec')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "86649fb3c4311cd5d51ae6e3a0638fc6ae483cc0c959a9875cacf1c9d3888567",
+  "module_sha256": "327d5941065f993cbfaee0dbafe814b375536bef57729494f5c3e72f80f07be3"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/noncn_core.py:derive",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/noncn_core.py:derive",
+  "calls": 18,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+73. deps/gn_pair/runtime/noncn_core.py:evaluate
+算法标识：deps/gn_pair/runtime/noncn_core.py:evaluate
+module：deps/gn_pair/runtime/noncn_core.py
+qualname：evaluate
+contract：{
+  "purpose": "新非CN路径与精确旧455语义调度",
+  "inputs": "精确新schema五字段；固定data/native/oldcore/legacy/cityspec/noncnspec",
+  "operations": "新schema核→同请求转旧455取地点/点与原路径→仅已知HK/MO/TW、精确所选原文化身份匹配才derive→重绑新context→新版wrapper",
+  "outputs": "完整地点/点/Rn及明确新旧方法版本",
+  "preconditions_and_limits": "CN与旧city identity/point/Rn逐字段不改，未知GN不补点；null/未知文化不改成closed；跨分区文化ref保持未定"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/noncn_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 85,
+  "last_line": 105,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='legacy'), arg(arg='cityspec'), arg(arg='spec')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6ea5e689b27578086663ef76345f04fcda13eb4d649a5ff018a444f70fb174c5",
+  "module_sha256": "327d5941065f993cbfaee0dbafe814b375536bef57729494f5c3e72f80f07be3"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/noncn_core.py:evaluate",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/noncn_core.py:evaluate",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+74. deps/gn_pair/runtime/region_evidence_catalog.py:ContractError.__init__
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:ContractError.__init__
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：ContractError.__init__
+contract：{
+  "inputs": "status/path/code",
+  "operations": "赋三属性",
+  "outputs": "None",
+  "preconditions_and_limits": "仅旧文化engine内部错误载体",
+  "purpose": "结构化内部异常"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "ContractError.__init__",
+  "first_line": 23,
+  "last_line": 24,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:ContractError.__init__",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+75. deps/gn_pair/runtime/region_evidence_catalog.py:fail
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:fail
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：fail
+contract：{
+  "inputs": "status/path/code",
+  "operations": "raise ContractError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常回传给evaluate，不是源判定",
+  "purpose": "抛内部异常"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "fail",
+  "first_line": 27,
+  "last_line": 28,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:fail",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+76. deps/gn_pair/runtime/region_evidence_catalog.py:obj
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:obj
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：obj
+contract：{
+  "inputs": "value/allowedfields/path",
+  "operations": "必须dict、未知/缺项分别拒",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "只schema不证来源",
+  "purpose": "文化对象字段核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "obj",
+  "first_line": 31,
+  "last_line": 37,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='fields'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8370003829b998b49b7e5347a36da126d3d32b057e2f02c0c0a9fc272ee9b3e5",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:obj",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:obj",
+  "calls": 1061,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+77. deps/gn_pair/runtime/region_evidence_catalog.py:text
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:text
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：text
+contract：{
+  "inputs": "value/path",
+  "operations": "必须非空且trim str",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不查文义/地理真值",
+  "purpose": "trim非空文字核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "text",
+  "first_line": 40,
+  "last_line": 42,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "24378609ea51a60f93b5570f67462a2ae518150fbeee44fdf1f43ef370c24437",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:text",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:text",
+  "calls": 3133,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+78. deps/gn_pair/runtime/region_evidence_catalog.py:choice
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:choice
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：choice
+contract：{
+  "inputs": "value/allowed/path",
+  "operations": "str且allowed成员",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不是隐式映射",
+  "purpose": "枚举值核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "choice",
+  "first_line": 45,
+  "last_line": 47,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='allowed'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ef44d01bd507164178a220ce8017809d49051de827789728a94583950fd6e696",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:choice",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:choice",
+  "calls": 469,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+79. deps/gn_pair/runtime/region_evidence_catalog.py:sha
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:sha
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：sha
+contract：{
+  "inputs": "value/path",
+  "operations": "64位小写hex正则",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不重新认证出处",
+  "purpose": "摘要语法核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "sha",
+  "first_line": 50,
+  "last_line": 52,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ab12fcaffeebd0d4d57c85dc4fdd3dfea637a13c80b29b4be8f662daba60ccd3",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:sha",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:sha",
+  "calls": 771,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+80. deps/gn_pair/runtime/region_evidence_catalog.py:digest
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:digest
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：digest
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序紧凑UTF8 SHA",
+  "outputs": "64hex str",
+  "preconditions_and_limits": "精确旧AST未改",
+  "purpose": "旧规范摘要"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "digest",
+  "first_line": 55,
+  "last_line": 57,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "87399cc705ddc0bce51619f01766e43b8d07720ce8247a0eb508c1633855fef6",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:digest",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:digest",
+  "calls": 916,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+81. deps/gn_pair/runtime/region_evidence_catalog.py:reference
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:reference
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：reference
+contract：{
+  "inputs": "value/path",
+  "operations": "id/version文本+SHA格式",
+  "outputs": "tuple(id,version)",
+  "preconditions_and_limits": "内容hash另在resolve_refs核",
+  "purpose": "旧三字段ref核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "reference",
+  "first_line": 60,
+  "last_line": 65,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dbad1b23988ac94d47b09ed84834335bd9e3f5153c38a2f39582532922cced2e",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:reference",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:reference",
+  "calls": 663,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+82. deps/gn_pair/runtime/region_evidence_catalog.py:ref_for
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:ref_for
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：ref_for
+contract：{
+  "inputs": "带id/version的value",
+  "operations": "保id/version并digest完整value",
+  "outputs": "dict id/version/sha256",
+  "preconditions_and_limits": "不裁城市/省域",
+  "purpose": "旧内容ref生成"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "ref_for",
+  "first_line": 68,
+  "last_line": 69,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6450db815f6ac1fb49ae002563050ab6b7a88357ede1f7529b9a0d588bf45f6e",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:ref_for",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:ref_for",
+  "calls": 108,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+83. deps/gn_pair/runtime/region_evidence_catalog.py:load_catalog
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:load_catalog
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：load_catalog
+contract：{
+  "inputs": "无参；邻文件",
+  "operations": "读旧固定文化表SHA，解析JSON并核每unit source_ref内容",
+  "outputs": "catalog dict或ContractError",
+  "preconditions_and_limits": "只给旧两个profile；无城市地理映射/运行采纳",
+  "purpose": "固定旧文化表装载"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "load_catalog",
+  "first_line": 72,
+  "last_line": 88,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8e931b773b0998ea2c64406c2c39ddcaf4b582ae5a74a458475fac3887fd721e",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:load_catalog",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:load_catalog",
+  "calls": 37,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+84. deps/gn_pair/runtime/region_evidence_catalog.py:region
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:region
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：region
+contract：{
+  "inputs": "value/path",
+  "operations": "恰7字段、每字段文字、kind为3种既有值",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "level仅文字；GN层级仍提供方类型，不借此认证MCA市级",
+  "purpose": "旧region形状核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "region",
+  "first_line": 91,
+  "last_line": 95,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49e6779bcc49467a5df6b7a0db970354e7c438a08032ecbfcd8947922d2d856d",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:region",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:region",
+  "calls": 73,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+85. deps/gn_pair/runtime/region_evidence_catalog.py:frame
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:frame
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：frame
+contract：{
+  "inputs": "value/path",
+  "operations": "恰id/version/era/description非空文字",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "frame完全相等由后续比较，不跨版投票",
+  "purpose": "旧frame核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "frame",
+  "first_line": 98,
+  "last_line": 101,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "89375389d855fcdb4ab0fc8c498ff305982ef185cacb10c6bae02dba8494ce37",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:frame",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:frame",
+  "calls": 108,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+86. deps/gn_pair/runtime/region_evidence_catalog.py:unit_set
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:unit_set
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：unit_set
+contract：{
+  "inputs": "value/allowed/path",
+  "operations": "list、每unit在固定profile、无重复",
+  "outputs": "set[str]",
+  "preconditions_and_limits": "不造新单位或权重",
+  "purpose": "旧文化单位集核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "unit_set",
+  "first_line": 104,
+  "last_line": 111,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='allowed'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "badb95fcf6e3b23aa70e44f5e118e09ffcc196bacbf61414201d61e58d161aa3",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:unit_set",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:unit_set",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+87. deps/gn_pair/runtime/region_evidence_catalog.py:validate_source
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:validate_source
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：validate_source
+contract：{
+  "inputs": "value/path",
+  "operations": "恰7文字字段",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "格式不认证真实发布/全界",
+  "purpose": "旧来源元数据核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "validate_source",
+  "first_line": 114,
+  "last_line": 117,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ac2a73a291ba170988620a226c160bcba9e70305bad881bd8e7c6ff217fa03ac",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:validate_source",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:validate_source",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+88. deps/gn_pair/runtime/region_evidence_catalog.py:validate_evidence
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:validate_evidence
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：validate_evidence
+contract：{
+  "inputs": "value/path",
+  "operations": "按kind精确字段、来源/frame/审核/单位或链接形状",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "reviewed/complete是显式研究声明，不是软件真值认证",
+  "purpose": "旧geo/crosswalk证形状核"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "validate_evidence",
+  "first_line": 120,
+  "last_line": 151,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e43674850f9b9dd063330df63282a861449b8b644bff10ce8a6945a050f346c1",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:validate_evidence",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:validate_evidence",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+89. deps/gn_pair/runtime/region_evidence_catalog.py:resolve_refs
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:resolve_refs
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：resolve_refs
+contract：{
+  "inputs": "refs/index/kind/path",
+  "operations": "逐id+version+SHA核对象，去重复且kind匹配",
+  "outputs": "list[evidence]或ContractError",
+  "preconditions_and_limits": "同名/错版/改件不能替代",
+  "purpose": "旧证内容绑定"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "resolve_refs",
+  "first_line": 154,
+  "last_line": 169,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='values'), arg(arg='index'), arg(arg='kind'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e7a6a917ae9de3ac3ca2459361c2ebdc1962d57285036cf37f0bf409856a05e5",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:resolve_refs",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:resolve_refs",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+90. deps/gn_pair/runtime/region_evidence_catalog.py:evaluate_coverage
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:evaluate_coverage
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：evaluate_coverage
+contract：{
+  "inputs": "payload/profile/index/result",
+  "operations": "核target/profile/frame；geo单位并集与全集声明；接受同框已审完整same_scope/within链接；跨元素保ambiguous；无权重",
+  "outputs": "None，原地填result状态/单位/attribute等",
+  "preconditions_and_limits": "缺项或链接不可用保coverage_undetermined；exact集合不能由仅包含冒完全相同范围；不从坐标推属",
+  "purpose": "旧完整范围评价"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "evaluate_coverage",
+  "first_line": 172,
+  "last_line": 257,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload'), arg(arg='profile'), arg(arg='index'), arg(arg='result')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b30c90c2b46934eb2cc209b48db9dcfc68a01e643a2cca5b982a94b32bb09da8",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:evaluate_coverage",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:evaluate_coverage",
+  "calls": 37,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+91. deps/gn_pair/runtime/region_evidence_catalog.py:evaluate
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:evaluate
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：evaluate
+contract：{
+  "inputs": "5字段nativepayload",
+  "operations": "固定profile+target+证全部核；evaluate_coverage；结构异常转状态；deepcopy输出",
+  "outputs": "原native report dict",
+  "preconditions_and_limits": "源真实性/边界/现实效果未认证；不改变喜用/B/运行采用",
+  "purpose": "旧原生文化API"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "evaluate",
+  "first_line": 260,
+  "last_line": 301,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "eceecaf04a472d5e8df7e8a26142f3f74b22ff122f8c36b5e2276773a78b90ef",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:evaluate",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:evaluate",
+  "calls": 37,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+92. deps/gn_pair/runtime/region_evidence_catalog.py:load_request
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:load_request
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：load_request
+contract：{
+  "inputs": "str或bytes",
+  "operations": "json.loads unique及非有限constant拒绝",
+  "outputs": "JSON值或ValueError",
+  "preconditions_and_limits": "当前只读固定旧表；公开用户走新wrapper更严协议",
+  "purpose": "旧JSON读取"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "load_request",
+  "first_line": 304,
+  "last_line": 313,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "131852621d606b74efe1d01ffe1b052f3618d8ac3d9e1217335d225d922f1050",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:load_request",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:load_request",
+  "calls": 37,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+93. deps/gn_pair/runtime/region_evidence_catalog.py:load_request.unique
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:load_request.unique
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：load_request.unique
+contract：{
+  "inputs": "pairs",
+  "operations": "构dict并拒重复",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "保旧字节；不声称其错误序列化是新公共CLI",
+  "purpose": "旧JSON重复键钩子"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "load_request.unique",
+  "first_line": 305,
+  "last_line": 311,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6ff6e0da03aa43b7ebe74e0bc3001bfe7c611965325cfd37f0fa73f90904d715",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:load_request.unique",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:unique",
+  "calls": 1221,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+94. deps/gn_pair/runtime/region_evidence_catalog.py:main
+算法标识：deps/gn_pair/runtime/region_evidence_catalog.py:main
+module：deps/gn_pair/runtime/region_evidence_catalog.py
+qualname：main
+contract：{
+  "inputs": "argv一文件",
+  "operations": "读旧nativepayload，evaluate并print indentJSON；捕所列IO/ValueError",
+  "outputs": "已知三状态0，否则2",
+  "preconditions_and_limits": "未作为本包公开城市入口执行；静态解释，不编造IO",
+  "purpose": "旧独立文化CLI"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/region_evidence_catalog.py",
+  "qualified_name": "main",
+  "first_line": 316,
+  "last_line": 324,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='argv')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "37bd4caf8cef79ac8128996f03a0a6d98255532639bebfba30a9772d7355e805",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/region_evidence_catalog.py:main",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+95. deps/gn_pair/runtime/research_chain.py:validate_request
+算法标识：deps/gn_pair/runtime/research_chain.py:validate_request
+module：deps/gn_pair/runtime/research_chain.py
+qualname：validate_request
+contract：{
+  "inputs": "request dict与accepted city_core模块",
+  "operations": "核精确7字段/schema/operation/data_version字符串/scope两值；对三组非null引用调用原ref_key",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "固定data_version真值由原查找核再核；文化ref仅现地，出生地无需文化ref",
+  "purpose": "阻止暗中补参及新默认含义"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/research_chain.py",
+  "qualified_name": "validate_request",
+  "first_line": 12,
+  "last_line": 20,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='oldcore')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2424c26e9e6a45f406b491ef67a582cb0a5c85a5b8ce8ab862d366938abbf6ac",
+  "module_sha256": "35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/research_chain.py:validate_request",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:validate_request",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+96. deps/gn_pair/runtime/research_chain.py:lookup_location
+算法标识：deps/gn_pair/runtime/research_chain.py:lookup_location
+module：deps/gn_pair/runtime/research_chain.py
+qualname：lookup_location
+contract：{
+  "inputs": "地理ref或null，文化ref或null，请求及四旧核心/固定spec/data",
+  "operations": "null→明确place_not_supplied；否则构造469精确五字段请求、实际调用未改noncn.evaluate",
+  "outputs": "原469完整lookup dict或missing dict",
+  "preconditions_and_limits": "生地区固定selected=null；不自动选文化版/省版/城市版",
+  "purpose": "复用已采用显式文化源链"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/research_chain.py",
+  "qualified_name": "lookup_location",
+  "first_line": 22,
+  "last_line": 28,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='ref'), arg(arg='selected'), arg(arg='request'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='legacy'), arg(arg='noncn'), arg(arg='cityspec'), arg(arg='noncnspec')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3861c1121f983e5b81d3f1d808edc4945bdf26649a62e13229801329aff0cf98",
+  "module_sha256": "35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/research_chain.py:lookup_location",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:lookup_location",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+97. deps/gn_pair/runtime/research_chain.py:geography_only
+算法标识：deps/gn_pair/runtime/research_chain.py:geography_only
+module：deps/gn_pair/runtime/research_chain.py
+qualname：geography_only
+contract：{
+  "inputs": "lookup dict、原relative模块",
+  "operations": "保留lookup_status、完整identity/point、整份lookup摘要及点含义说明",
+  "outputs": "JSON dict；identity/point可null",
+  "preconditions_and_limits": "去掉的是未请求的出生文化输出，身份及点的完整source receipt仍在；不把地理source hash等同文化状态",
+  "purpose": "公开地理与文化责任分开"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/research_chain.py",
+  "qualified_name": "geography_only",
+  "first_line": 30,
+  "last_line": 35,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='lookup'), arg(arg='relative')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "91cac8cd751e06775c03514035b98e2fdeae7b1d78dc58195861f3d4aa9faf0b",
+  "module_sha256": "35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/research_chain.py:geography_only",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:geography_only",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+98. deps/gn_pair/runtime/research_chain.py:resolve_point
+算法标识：deps/gn_pair/runtime/research_chain.py:resolve_point
+module：deps/gn_pair/runtime/research_chain.py
+qualname：resolve_point
+contract：{
+  "inputs": "原lookup dict、原relative模块、错误路径label",
+  "operations": "非place_found→语义未定；核五字段region真实GN.feature_code及3字段ref绑定；核原point/ref格式、SHA、identity内自有点相等、region_sha；known/WGS84/坐标→原coordinate",
+  "outputs": "(resolved dict,ready)；或(None,reason)；绑定坏项抛异常",
+  "preconditions_and_limits": "resolved lat/lon为Decimal，float另存；不调用原city/province验证器、不伪改GN级别；缺文化不影响点；所有点均来自已锁源",
+  "purpose": "为旧数学提供真实GN身份和已绑定自有点"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/research_chain.py",
+  "qualified_name": "resolve_point",
+  "first_line": 37,
+  "last_line": 60,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='lookup'), arg(arg='relative'), arg(arg='label')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "c6f884e91252bc9bb70e16f3f79664f84f7d5bf6ad22592aa850c4b00b9496ab",
+  "module_sha256": "35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/research_chain.py:resolve_point",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:resolve_point",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+99. deps/gn_pair/runtime/research_chain.py:relative_report
+算法标识：deps/gn_pair/runtime/research_chain.py:relative_report
+module：deps/gn_pair/runtime/research_chain.py
+qualname：relative_report
+contract：{
+  "inputs": "出生和现地lookup、scope、原relative和原C0模块",
+  "operations": "解析两点→真实范围请求拒代表点替代→ready门→同id冲突门→原WGS84 inverse/有限检查/退化分类→原C0精确谓词→唯一方向原D2",
+  "outputs": "Rr dict：known_no_direction_contribution / relative_direction_computed / direction_undetermined / unsupported_scope",
+  "preconditions_and_limits": "C0仅同规范region完整五字段+point_ref完整三字段且known点同点；异id同坐标未定；不填零向量/默认北/中心土；不退还预算也不计算B",
+  "purpose": "区分已知无方向贡献、已算方向、证据不足"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/research_chain.py",
+  "qualified_name": "relative_report",
+  "first_line": 62,
+  "last_line": 112,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='origin_lookup'), arg(arg='current_lookup'), arg(arg='scope'), arg(arg='relative'), arg(arg='c0')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a24c6d345c21c1e67170bc9bc7997e885ebd36e35725098a2121d2ba39ac5fed",
+  "module_sha256": "35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/research_chain.py:relative_report",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:relative_report",
+  "calls": 21,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+100. deps/gn_pair/runtime/research_chain.py:evaluate
+算法标识：deps/gn_pair/runtime/research_chain.py:evaluate
+module：deps/gn_pair/runtime/research_chain.py
+qualname：evaluate
+contract：{
+  "inputs": "7字段request、固定data/spec、四旧核心、原relative/C0、lock SHA",
+  "operations": "请求结构核→直接核固定data_version，即使两地null也不能绕过→出生无文化lookup→现地显式文化lookup→保持Rn原报告或明确unknown；仅原native链闭合且元素唯一才按已批工程规则给Rn_encoding one-hot，歧义/未知保持null→独立Rr→完整源/框架/输入摘要",
+  "outputs": "完整JSON dict；源identity/point、原Rn native_request/native_report、单独Rn_encoding与新Rr分别可追溯",
+  "preconditions_and_limits": "静态给定地点对，不宣称实际出生或现时在场；Rn one-hot不把原candidate_only历史记录改成现实真值；无主题、全预算、RGB、显示；不制造采纳",
+  "purpose": "本版研究交付"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/runtime/research_chain.py",
+  "qualified_name": "evaluate",
+  "first_line": 114,
+  "last_line": 143,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='legacy'), arg(arg='noncn'), arg(arg='cityspec'), arg(arg='noncnspec'), arg(arg='relative'), arg(arg='c0'), arg(arg='lock_sha')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1ff4878be607a92e5ce40875a99d155b81e242d446c3d6400351619ab69d8751",
+  "module_sha256": "35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a"
+}
+reuse：{
+  "exact478_AST_and_contract": "runtime/research_chain.py:evaluate",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:evaluate",
+  "calls": 21,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+101. deps/gn_pair/relative/relative_region.py:ContractError.__init__
+算法标识：deps/gn_pair/relative/relative_region.py:ContractError.__init__
+module：deps/gn_pair/relative/relative_region.py
+qualname：ContractError.__init__
+contract：{
+  "inputs": "status,path,code",
+  "operations": "保存三个属性",
+  "outputs": "exception对象初始化",
+  "preconditions_and_limits": "不是正常结果；新入口转ValueError后拒绝",
+  "purpose": "带定位的原合同错误"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "ContractError.__init__",
+  "first_line": 29,
+  "last_line": 30,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:ContractError.__init__",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+102. deps/gn_pair/relative/relative_region.py:fail
+算法标识：deps/gn_pair/relative/relative_region.py:fail
+module：deps/gn_pair/relative/relative_region.py
+qualname：fail
+contract：{
+  "inputs": "status,path,code",
+  "operations": "raise ContractError",
+  "outputs": "不正常返回",
+  "preconditions_and_limits": "调用者处理；无部分向量",
+  "purpose": "原拒绝入口"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "fail",
+  "first_line": 33,
+  "last_line": 34,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:fail",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+103. deps/gn_pair/relative/relative_region.py:obj
+算法标识：deps/gn_pair/relative/relative_region.py:obj
+module：deps/gn_pair/relative/relative_region.py
+qualname：obj
+contract：{
+  "inputs": "value,fields,path",
+  "operations": "必须dict，差集检查未知/缺失字段",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "原isinstance语义保留；公开输入另经bounded约束",
+  "purpose": "精确对象形状"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "obj",
+  "first_line": 37,
+  "last_line": 40,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='fields'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8370003829b998b49b7e5347a36da126d3d32b057e2f02c0c0a9fc272ee9b3e5",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:obj",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:obj",
+  "calls": 160,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+104. deps/gn_pair/relative/relative_region.py:text
+算法标识：deps/gn_pair/relative/relative_region.py:text
+module：deps/gn_pair/relative/relative_region.py
+qualname：text
+contract：{
+  "inputs": "value,path",
+  "operations": "非空、无两侧空格str",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不做别名或简繁转换",
+  "purpose": "原文本格式"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "text",
+  "first_line": 43,
+  "last_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "24378609ea51a60f93b5570f67462a2ae518150fbeee44fdf1f43ef370c24437",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:text",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:text",
+  "calls": 680,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+105. deps/gn_pair/relative/relative_region.py:digest
+算法标识：deps/gn_pair/relative/relative_region.py:digest
+module：deps/gn_pair/relative/relative_region.py
+qualname：digest
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "ensure_asciiFalse、排序键、紧凑、allow_nanFalse后UTF8 SHA256",
+  "outputs": "64位小写str",
+  "preconditions_and_limits": "绑定完整内容，不认证真值",
+  "purpose": "稳定内容绑定"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "digest",
+  "first_line": 48,
+  "last_line": 50,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "87399cc705ddc0bce51619f01766e43b8d07720ce8247a0eb508c1633855fef6",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:digest",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:digest",
+  "calls": 203,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+106. deps/gn_pair/relative/relative_region.py:ref_for
+算法标识：deps/gn_pair/relative/relative_region.py:ref_for
+module：deps/gn_pair/relative/relative_region.py
+qualname：ref_for
+contract：{
+  "inputs": "含id/version的JSON record",
+  "operations": "保留id/version并digest完整record",
+  "outputs": "dict{id,version,sha256}",
+  "preconditions_and_limits": "本版主链不调用；旧公共API兼容保留",
+  "purpose": "旧ref构造"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "ref_for",
+  "first_line": 53,
+  "last_line": 54,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6450db815f6ac1fb49ae002563050ab6b7a88357ede1f7529b9a0d588bf45f6e",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:ref_for",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+107. deps/gn_pair/relative/relative_region.py:reference
+算法标识：deps/gn_pair/relative/relative_region.py:reference
+module：deps/gn_pair/relative/relative_region.py
+qualname：reference
+contract：{
+  "inputs": "三字段point ref、path",
+  "operations": "obj精确字段；id/version text；SHA正则",
+  "outputs": "tuple(id,version)或ContractError",
+  "preconditions_and_limits": "用于point ref而非GN三字段地名ref；两者不可混用",
+  "purpose": "原点引用验证"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "reference",
+  "first_line": 57,
+  "last_line": 62,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "7a97a3dadc21c12490b4f074aa598e537a3c54dd360d41c028783cdfabf60d1c",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:reference",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:reference",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+108. deps/gn_pair/relative/relative_region.py:verified_vendor
+算法标识：deps/gn_pair/relative/relative_region.py:verified_vendor
+module：deps/gn_pair/relative/relative_region.py
+qualname：verified_vendor
+contract：{
+  "inputs": "relative目录的原manifest/requirements/vendor",
+  "operations": "先固定manifest SHA，再requirements SHA和18文件精确集合/每件SHA，返回所核源bytes",
+  "outputs": "(manifest dict,dict[str,bytes])或ContractError",
+  "preconditions_and_limits": "忽略原库合同中的pyc但本版外层66件精确守卫不忽略新增文件；不得认证代码仓库真实性",
+  "purpose": "原GeographicLib2.1完整源校验"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "verified_vendor",
+  "first_line": 65,
+  "last_line": 89,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ac737d023a80465fa1c82ee83162569b67a2f88b78a66caa66ebc4f9ba960dcb",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:verified_vendor",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:verified_vendor",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+109. deps/gn_pair/relative/relative_region.py:load_geodesic
+算法标识：deps/gn_pair/relative/relative_region.py:load_geodesic
+module：deps/gn_pair/relative/relative_region.py
+qualname：load_geodesic
+contract：{
+  "inputs": "无公开参数；verified_vendor返回的固定bytes",
+  "operations": "RLock；仅同源8模块集可复用，否则按LOAD_ORDER compile所核字节；核2.1及WGS84参数",
+  "outputs": "Geodesic class或ContractError",
+  "preconditions_and_limits": "不走全局安装/字节码；同进程恶意对象安全不在此合同；新鲜进程首次8源模块",
+  "purpose": "原测地加载"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "load_geodesic",
+  "first_line": 92,
+  "last_line": 126,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "450cb8e023e1962485804c3d431e4a7fc6b502d155e98a1225ad6cfc96c9ee95",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:load_geodesic",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:load_geodesic",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+110. deps/gn_pair/relative/relative_region.py:coordinate
+算法标识：deps/gn_pair/relative/relative_region.py:coordinate
+module：deps/gn_pair/relative/relative_region.py
+qualname：coordinate
+contract：{
+  "inputs": "str/int/float非bool,limit=90或180,path",
+  "operations": "严格有限十进制/范围；Decimal保留相等性，-0归0、+180归-180；转binary64",
+  "outputs": "(Decimal,float)或ContractError",
+  "preconditions_and_limits": "不提升输入精度；本版公共点只从固定GN来源读字符串",
+  "purpose": "原坐标解析"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "coordinate",
+  "first_line": 129,
+  "last_line": 144,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='limit'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d8644342cff881a98091630548974a22ad2d1ad5236dff32292f1bc9c526d286",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:coordinate",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:coordinate",
+  "calls": 160,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+111. deps/gn_pair/relative/relative_region.py:validate_region
+算法标识：deps/gn_pair/relative/relative_region.py:validate_region
+module：deps/gn_pair/relative/relative_region.py
+qualname：validate_region
+contract：{
+  "inputs": "五字段旧region,path",
+  "operations": "obj/text并仅city/province级别",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "旧公共calculate专用；本版GN消费者明确不调用，也不把GN层级伪装city/province",
+  "purpose": "原地区级别门留存"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "validate_region",
+  "first_line": 147,
+  "last_line": 151,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6cb825aa3998559fe14c84871a297d723bb68cd807b883274a78e8aa2abfd813",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:validate_region",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+112. deps/gn_pair/relative/relative_region.py:validate_point
+算法标识：deps/gn_pair/relative/relative_region.py:validate_point
+module：deps/gn_pair/relative/relative_region.py
+qualname：validate_point
+contract：{
+  "inputs": "十字段point,path",
+  "operations": "核文本/SHA/meaning、四字段source、给定坐标有限范围",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "known与unknown均可结构合法；是否可算由resolve核；本版仍用原函数",
+  "purpose": "原代表点记录合同"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "validate_point",
+  "first_line": 154,
+  "last_line": 166,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2c86316214329171b06ec3204f18d40a70915d30e796b6244f174257d5ea7d1d",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:validate_point",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:validate_point",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+113. deps/gn_pair/relative/relative_region.py:resolve_location
+算法标识：deps/gn_pair/relative/relative_region.py:resolve_location
+module：deps/gn_pair/relative/relative_region.py
+qualname：resolve_location
+contract：{
+  "inputs": "旧{region,point_ref}、点索引、path",
+  "operations": "旧validate_region、point ref和full SHA/region SHA/meaning/CRS/coords",
+  "outputs": "(resolved,ready)或(None,reason)或ContractError",
+  "preconditions_and_limits": "只服务旧city/province原API；本版GN由新resolve_point提供同数学输入，不调用此函数",
+  "purpose": "旧位置解析兼容留存"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "resolve_location",
+  "first_line": 169,
+  "last_line": 186,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='index'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "bf0acb682dc11f033f01fd34faac3b7e511f15f5ca5676ca5b0ead5a66843557",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:resolve_location",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+114. deps/gn_pair/relative/relative_region.py:fraction_record
+算法标识：deps/gn_pair/relative/relative_region.py:fraction_record
+module：deps/gn_pair/relative/relative_region.py
+qualname：fraction_record
+contract：{
+  "inputs": "Fraction",
+  "operations": "取numerator/denominator",
+  "outputs": "dict[str,int]",
+  "preconditions_and_limits": "不转浮点，也不暗示测地精度提升",
+  "purpose": "原有理向量编码"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "fraction_record",
+  "first_line": 189,
+  "last_line": 190,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a01fce7089e22fa6153f4fef25c7f076a5579b677a674e4f34dfbf0c105f100b",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:fraction_record",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:fraction_record",
+  "calls": 90,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+115. deps/gn_pair/relative/relative_region.py:normalize_azimuth
+算法标识：deps/gn_pair/relative/relative_region.py:normalize_azimuth
+module：deps/gn_pair/relative/relative_region.py
+qualname：normalize_azimuth
+contract：{
+  "inputs": "finite binary64角度",
+  "operations": "模360；binary64极小负角可舍成360时再归0",
+  "outputs": "float in[0,360)",
+  "preconditions_and_limits": "必须先核逆解有限；不能给未知方位强造0",
+  "purpose": "原角度归一"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "normalize_azimuth",
+  "first_line": 193,
+  "last_line": 196,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='azimuth')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ad15f98aa00733c1962731a5f651b3237dbfb2bb00ec0e0b2cb6b3a29c0da102",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:normalize_azimuth",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:normalize_azimuth",
+  "calls": 112,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+116. deps/gn_pair/relative/relative_region.py:direction_vector
+算法标识：deps/gn_pair/relative/relative_region.py:direction_vector
+module：deps/gn_pair/relative/relative_region.py
+qualname：direction_vector
+contract：{
+  "inputs": "唯一方向finite角度",
+  "operations": "theta规范→Fraction(str)→q=floor(theta/45),t→水土木木火土金金水相邻1-t/t累加→sum1/非负",
+  "outputs": "五元素dict，各含整数numerator/denominator",
+  "preconditions_and_limits": "八方锚点为文化对应；连续比例为已批工程规则；同元素段累加为1；无距离衰减",
+  "purpose": "原D2精确复用"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "direction_vector",
+  "first_line": 199,
+  "last_line": 208,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='azimuth')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b7d17bb6c933df3fc4dc131be11abd0610a03cd125c55ec1391d5996cddc073d",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:direction_vector",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:direction_vector",
+  "calls": 18,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+117. deps/gn_pair/relative/relative_region.py:classify_geometry
+算法标识：deps/gn_pair/relative/relative_region.py:classify_geometry
+module：deps/gn_pair/relative/relative_region.py
+qualname：classify_geometry
+contract：{
+  "inputs": "两份含Decimal及float坐标的resolved、inverse dict",
+  "operations": "先exact同点，再float折叠/零距离、数值舍成极点、异极点、起点极点、反纬两解/舍入反纬，最后唯一",
+  "outputs": "七类status字符串之一",
+  "preconditions_and_limits": "近对跖不一概未定；终点极点可唯一；实际全地区/GPS误差未建模",
+  "purpose": "原唯一性和退化边界"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "classify_geometry",
+  "first_line": 211,
+  "last_line": 231,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='origin'), arg(arg='current'), arg(arg='inverse')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "5def3ee53ad582d28e6ab8b5ef7346e6ab3ca6e7e67b1eed2c4e0d78deb08449",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:classify_geometry",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:classify_geometry",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+118. deps/gn_pair/relative/relative_region.py:calculate
+算法标识：deps/gn_pair/relative/relative_region.py:calculate
+module：deps/gn_pair/relative/relative_region.py
+qualname：calculate
+contract：{
+  "inputs": "旧relative-region0.2/prof/scope/origin/current/point_records",
+  "operations": "旧全point验证→旧city/province解析→逆测地→唯一D2；返回原历史批准元数据",
+  "outputs": "完整dict",
+  "preconditions_and_limits": "本版GN主入口不调用，因GN真实level不属于旧city/province；其center_policy not_approved等是当时历史输出，不充当本版C0状态",
+  "purpose": "旧原API兼容保留，不冒本版IO"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "calculate",
+  "first_line": 234,
+  "last_line": 311,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "aeaf10cd680386f72fdb38e5e99af953faa7d75e169fc71a52c0dc50c338abcd",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:calculate",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+
+119. deps/gn_pair/relative/relative_region.py:load_request
+算法标识：deps/gn_pair/relative/relative_region.py:load_request
+module：deps/gn_pair/relative/relative_region.py
+qualname：load_request
+contract：{
+  "inputs": "JSON str或bytes",
+  "operations": "json.loads并unique拒重复键，parse_constant拒非有限",
+  "outputs": "JSON值或ValueError",
+  "preconditions_and_limits": "原库读manifest时实际调用；不是本版公开bounded入口",
+  "purpose": "原严格JSON读入"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "load_request",
+  "first_line": 314,
+  "last_line": 322,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "131852621d606b74efe1d01ffe1b052f3618d8ac3d9e1217335d225d922f1050",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:load_request",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:load_request",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+120. deps/gn_pair/relative/relative_region.py:load_request.unique
+算法标识：deps/gn_pair/relative/relative_region.py:load_request.unique
+module：deps/gn_pair/relative/relative_region.py
+qualname：load_request.unique
+contract：{
+  "inputs": "有序键值pairs",
+  "operations": "逐键查重再dict",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "内部回调；不做来源认证",
+  "purpose": "原重复键拒绝"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "load_request.unique",
+  "first_line": 315,
+  "last_line": 320,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6ff6e0da03aa43b7ebe74e0bc3001bfe7c611965325cfd37f0fa73f90904d715",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:load_request.unique",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:unique",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+not_executed_scope：null
+
+121. deps/gn_pair/relative/relative_region.py:main
+算法标识：deps/gn_pair/relative/relative_region.py:main
+module：deps/gn_pair/relative/relative_region.py
+qualname：main
+contract：{
+  "inputs": "argv恰一JSON文件路径",
+  "operations": "读request→calculate→prettyJSON；按三个语义状态0否则2",
+  "outputs": "int退出码及stdout",
+  "preconditions_and_limits": "旧city/province文件CLI，本版不调用；新公开CLI读stdin",
+  "purpose": "旧CLI留存，不冒本版执行"
+}
+source_identity：{
+  "relative_path": "deps/gn_pair/relative/relative_region.py",
+  "qualified_name": "main",
+  "first_line": 325,
+  "last_line": 332,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='argv')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "78f21a08a569414d56e4f661dbb4afed68b59f5d969379a21bb030608786e5a0",
+  "module_sha256": "0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31"
+}
+reuse：{
+  "exact478_AST_and_contract": "relative/relative_region.py:main",
+  "reference": "reference/478_function_contracts.json",
+  "status": "as fixed disposition reference, never self-adopted by480"
+}
+current_actual_IO：null
+not_executed_scope：No per-function IO claimed in23 profiled cases. CLI and3 later boundary cases were full public runs without full function tracing. Retained legacy routines are not new capabilities.
+

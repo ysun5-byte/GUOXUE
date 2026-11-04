@@ -1,0 +1,149 @@
+{
+  "schema": "C08-r1-source-material-collection-correction-not-native-rule-change/1",
+  "all_author_source_repairs_passed": true,
+  "original274_permanent_files_unchanged": true,
+  "source_manifest_methods95_all_nonempty": true,
+  "source_path_records49419": true,
+  "actual_unique_object_readSHA17713": true,
+  "actual_unique_read_bytes10019308704": true,
+  "original_missing379_all_real_reader_fetch_returned_exact": true,
+  "old266_locator244": true,
+  "rev359_pathrecords135_newunique117": true,
+  "two_historical_navigation_snapshots_still_explicit_unavailable": true,
+  "effective_source_reader": "research_files_effective_r1.py",
+  "effective_source_catalog": "research_catalog_effective_r1.json",
+  "current20_helper_explanations": "运行整合层_当前有效20个算法解释_r1.json",
+  "superseded_original2_reader_functions_preserved_as_historical": true,
+  "old_r0_zero_row_source_closure_claim_superseded_not_valid": true,
+  "all_native_entry_guard_runtime_source_and_parameters_unchanged": true,
+  "correct_first_runtime_review49process_prefix_reusable": true,
+  "genuine_r1_source_review_and_root_acceptance_still_required": true,
+  "no_self_adoption_or_progress": true,
+  "evidence_members": [
+    {
+      "member": "original_independent_expectations/all95_full_normalized_manifest_expected_rows_for_r1.json",
+      "bytes": 15230150,
+      "sha256": "485978f9bbccc1809c3f14bffa2db20e9beb93d2f97f2b71612d9b4bcf4837c3"
+    },
+    {
+      "member": "original_independent_expectations/final95_normalized_manifest_payload_availability.json",
+      "bytes": 217084,
+      "sha256": "f089338dfe001bf89ad57d46253a8247f886ea9f183e58b88ff67dee2002c725"
+    },
+    {
+      "member": "original_independent_expectations/five_legacy_manifest_schemas_missing_catalog_objects_archive266_classification.json",
+      "bytes": 44062,
+      "sha256": "ace8540e88e1eeddb9e6f736cdcb0a58f6c1e003df7c87298b49bad60f0a318b"
+    },
+    {
+      "member": "original_independent_expectations/rev359_missing135_actual_original_source_bytes_verification.json",
+      "bytes": 52868,
+      "sha256": "a948cf2736e78f2245adfaf39161deb99d712f3fca9c9483358b5de5a8bca080"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_all95_r1_full_object_SHA_and_alias_validation.json",
+      "bytes": 15086866,
+      "sha256": "2f4310fd1174a676579a3bbad593adce7dcbcd54a45f41404f4ec4638d2d36a8"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/0.function_IO.json.gz",
+      "bytes": 928,
+      "sha256": "dca551cd31d27f2afcb22416be334e5f6fa2c90484a526a9c8f4d3e8f9b12325"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/0.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/0.stdout.gz",
+      "bytes": 491,
+      "sha256": "1f318102c70da57b501c45115617b6cf7c9a8e760a490626d2348cd221b1cd85"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/1.function_IO.json.gz",
+      "bytes": 619,
+      "sha256": "2f7fae35ae3e234d756431099dc95e238349f22d3a5c7498f4a6d47ab95dbb93"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/1.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/1.stdout.gz",
+      "bytes": 232,
+      "sha256": "635534c45158c0e73f410c91bd8b789601a12626de916e333f3d4e6aa8a546b5"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/complete_report.json",
+      "bytes": 1027,
+      "sha256": "0ea04f473a0b784e4829ee437107b9c7abe9315a9fb3267011bfc14cf70648f3"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/first_complete_actual_r1_reader_IO.json.gz",
+      "bytes": 928,
+      "sha256": "dca551cd31d27f2afcb22416be334e5f6fa2c90484a526a9c8f4d3e8f9b12325"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/unavailable0.stderr",
+      "bytes": 1145,
+      "sha256": "4bb2588f988d3180779400fbf4c18177d277d7fb74542350f1c60ec19a2aabbf"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/unavailable1.stderr",
+      "bytes": 1145,
+      "sha256": "77d4fc4e26c5fdf4068d11159d124f6179846cd88066705e074fab856c2c0fdf"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_original274_permanent_payload_unchanged_after_r1.json",
+      "bytes": 72027,
+      "sha256": "fc2e10be9ff87864b21e7d8ab5e9ed92a0ebca3feac0a459f8a8998c7f78b59e"
+    },
+    {
+      "member": "C08_runtime_integration_after612/actual_r1_reader_all379_restored_records.json",
+      "bytes": 126493,
+      "sha256": "e7128f29cbf1cbfab4ec15310255d9223a0fa1565996139e09b262e358e51b92"
+    },
+    {
+      "member": "C08_runtime_integration_after612/capture_effective_r1_reader_IO.py",
+      "bytes": 3340,
+      "sha256": "c47b30e3e5c1f51961d014cb56258ea12b2ec5f2685bf75d300f850ca052bc17"
+    },
+    {
+      "member": "C08_runtime_integration_after612/check_r1_reader_all379_restored_records.py",
+      "bytes": 1892,
+      "sha256": "4befdfa07bb78011998802d891d7233d6de163b2adc115be455a960ca088f5c3"
+    },
+    {
+      "member": "C08_runtime_integration_after612/normalize95_and_stage_source_r1.py",
+      "bytes": 8667,
+      "sha256": "db51b41c84cfa27eb9acbd6a27b0e6ccedc7695ca9a3ea14143c82da7db61f17"
+    },
+    {
+      "member": "C08_runtime_integration_after612/r1_append_install_only_new_files.json",
+      "bytes": 983,
+      "sha256": "43e8c522adc08139ff6ddc6dc03505d3d61a6ac738a50ceae9ade3cfd55318f1"
+    },
+    {
+      "member": "C08_runtime_integration_after612/r1_normalizer_exact_all95_independent_expectations_and_schema_behavior.json",
+      "bytes": 1646,
+      "sha256": "4f7a339c9468afd2452d20761f83d8ef011b24459ec81dd6882ef285a4dd33e9"
+    },
+    {
+      "member": "C08_runtime_integration_after612/r1_reader_exact_code_delta_and_current20_explanations.json",
+      "bytes": 570,
+      "sha256": "7a2bab714b1adcaa96c9060811ecae2f0f535c43efd0d09152e39ca87c99ce06"
+    },
+    {
+      "member": "C08_runtime_integration_after612/r1_stage_normalization_completion.json",
+      "bytes": 557,
+      "sha256": "d7999b1c87bf38f3ddcf10d9a1b0ac954aff5b681ddb21371c838384eec52592"
+    },
+    {
+      "member": "C08_runtime_integration_after612/verify_all95_r1_objects_and_path_aliases.py",
+      "bytes": 2025,
+      "sha256": "86591de1bc6cf1646a280eebc54da4100f2763e94b3b4592100d1f1102196b3c"
+    }
+  ]
+}

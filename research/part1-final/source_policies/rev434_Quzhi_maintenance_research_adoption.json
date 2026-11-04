@@ -1,0 +1,146 @@
+{
+  "schema": "finite-Quzhi-Hai-whole-maintenance-research-adoption-0.1",
+  "revision": 434,
+  "registered_utc": "2026-11-02T23:28:56.077645+00:00",
+  "status": "adopted_exact428_whole_wood_maintenance_and_Hai_help_only_after432",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev428_Sanming_Quzhi_Hai_whole",
+      "files": 53,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev428_Sanming_Quzhi_Hai_whole/manifest.json",
+        "bytes": 7971,
+        "sha256": "a3a6c2ec6b7027d3e7e419c23424d00739cc01e0aa35218488e7e69dd5af5be1"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev428_Sanming_Quzhi_Hai_whole/freeze.json",
+        "bytes": 214,
+        "sha256": "984689aa787c959dad8be0f615bec63994ba24d959f04b8713518246d57f746e"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev432_Quzhi_Hai_independent_review",
+      "files": 63,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev432_Quzhi_Hai_independent_review/manifest.json",
+        "bytes": 9613,
+        "sha256": "e8fb6da8544016c173fd9f6fff795ffe0bdfb0335585875dec8842f2ce02e61b"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev432_Quzhi_Hai_independent_review/freeze.json",
+        "bytes": 181,
+        "sha256": "9bf354b6f64152f51c949ec25cfb8da339d9c720f1a28c34c317cb9a6bc482fd"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev428_author_completion_handoff.json",
+    "bytes": 3987,
+    "sha256": "0051d9f66d6da6a84d62c3ae4d39b8b04cd3bf5f4073cb70b5139eb2f3248532"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev432_independent_completion_handoff.json",
+    "bytes": 11531,
+    "sha256": "9f8b58a1a7a3f07fdf2ad5a5cf45aa6c1d2253523876b632c302d14c1d09a0ff"
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev432_Quzhi_Hai_independent_review/independent_report.json",
+    "bytes": 10174,
+    "sha256": "7da3368ded1b4b45ca5c043d42ca0c5e3303e417b534deeea047faaf9cd305e9"
+  },
+  "original44_id": "SANMING-曲直",
+  "source": "三命NLC42998 PDF153卷六印32曲直有亥正文；按407有效页脚，不沿旧309印31。",
+  "source_scope": "亥印为入格条件；无亥金土、丁卯另例、寅卯辰仁寿及坎位诗时域分层，不合成一律喜木水。",
+  "finite_scope": "乙日卯月、四支亥卯未且齐60合法结构；甲日这个全阴支域自然为空，不外推所有甲日不能曲直。",
+  "whole_result": "完整木体维护＋三支木原根存活＋亥源水沿真实生日在木池留存，完整明藏/根/正负作用/源成本保留。",
+  "not_final_favorable_woodwater": true,
+  "H_question": "固定实际世界上全部亥源水留木信用组合；不删除未选角色/关闭坏边，不是许可反事实，不等于传统最终喜用。",
+  "parameter_sensitivity_complete_counts": {
+    "high_transfer": 47,
+    "low_transfer": 29,
+    "nominal": 39
+  },
+  "half_direct_gate": "由木覆盖及b,c<=1/3蕴含，保完整推导但不计独立额外功能/独立隔离门。",
+  "synthetic_case": [
+    "癸亥",
+    "乙卯",
+    "乙未",
+    "癸未"
+  ],
+  "case_type": "人工合法条件，非古籍原载或真人预测",
+  "current_wood_fire_earth_metal_water": [
+    "2791/890",
+    "591/890",
+    "492/445",
+    "0",
+    "808/445"
+  ],
+  "H": [
+    [
+      "h:year:壬",
+      "v:hour:癸",
+      "v:year:癸"
+    ]
+  ],
+  "Hai_water_retained_in_wood": "404/4005",
+  "low_transfer_failure_kept": true,
+  "verification": {
+    "actor_budget_origin_components": 28916,
+    "edge_origin_components": 119420,
+    "edges": 10025,
+    "masks": 1050,
+    "worlds": 206
+  },
+  "contracts": {
+    "caller_guard_loader_responsibilities_separate": true,
+    "changed": 10,
+    "contracts_substantively_read": true,
+    "exact_reused": 35,
+    "new_changed_context_actual_IO": 10,
+    "old_actual_IO": 42,
+    "old_unexecuted": 3,
+    "total_AST": 45
+  },
+  "software": {
+    "correct_old20badsource_11strict_domain_reused": true,
+    "legaloutside0math": 3,
+    "new_badmaterial0provider": 4,
+    "new_public_full_API_CLI": 3,
+    "new_strict": 6,
+    "returned_mutation_isolated": true,
+    "same_resolvedclean_provider_exec": 5
+  },
+  "transport": {
+    "actual_fresh_processes": 17,
+    "all_SHA_before_after_equal": true,
+    "audit_scope": "Python audit after hook installation, not every OS syscall/earlier bootstrap imports",
+    "full_data_no_normalization": true,
+    "full_files": 53,
+    "live_negative_old_reads": 2,
+    "live_negative_package_write": 1,
+    "new_original_moved_pairs": 8,
+    "no_new_complete_copy": true,
+    "normal_oldroot_or_packagewrite_attempts": 0
+  },
+  "source_implementation_prediction": {
+    "implementation": "statedfiniteequations/graphs/masks/contracts/guard/transportverified",
+    "reality": "notverified",
+    "source": "locatablephysicalpagesactuallyreadwitheditionlimits"
+  },
+  "source_bridge_next": "主本文PRIMARY-ONE-QI原吴含午喜印源支正在428b独立研究，不混入三命方法或替换旧53。",
+  "remaining_original_scope": [
+    "Finite60乙日卯月threebranchfamilyonly;甲日其他域retained",
+    "NooriginalWu含午full喜印bridgeclaimedhere",
+    "NoallQuzhi/no亥金土/仁寿/诗坎时域/fullreal运coverageclaim",
+    "Allnumericqualifications/budgets/thresholdsandH explicitengineering",
+    "NoB/theme/proportion/display/weightschanges",
+    "Implementationverificationnotrealprediction"
+  ],
+  "all_Quzhi_or_final_auxiliary_complete": false,
+  "B_theme_display_integration": false,
+  "original_goal_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

@@ -1,0 +1,882 @@
+有根与印比的普通财/从财完整竞争
+rev253_effective_support_follow_competition
+所属原模块：C02
+当前采用：rev281_effective_support_project_adoption.json
+范围：Primary与Ren1947明确分校；来源先于普通/依财题及全H，实际生日、自立、财制印与夺食全部重算；所选财信用须覆盖每印。浅根/浮印/有根印/浮比比较已核，不等于通用真假从或B采纳。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev253_effective_support_follow_competition/algorithm_explanations.json
+SHA256：a0112800b0b815a05611efb1343b0a48a150ab8d7a9f39dfe62bfc6a1476d645
+
+1. ES01
+算法标识：ES01
+file：mask_scalar.py
+function：analyze
+line：40
+end_line：45
+source_sha256：3e1fdf258febc2abd2ef35a483e6875a18b3e318c840639498acc9506c1f331e
+函数AST摘要：a5faaa346a17aedff7ddd5b2b9bb76ebddea897a112ae8c930735df2d570fe35
+actual_IO_file：actual_IO/00_mask_scalar_analyze.json
+actual_IO_sha256：0d4129318eded678ac0ac628da627e850fbddfbe97cdce8b9eb608312b3c9da1
+signature：base, a, enabled, cut_day_food=False
+输入：Actual base world, actor module, enabled packages and optional cut
+输出：Guarded scalar certificate with two identical actual full-origin maps, or explicit no-certificate
+actual_flow：Apply guard, solve with actual masks, recover print retention, and run the original complete origin feedback map twice. Demand exact fixed point, map identity and print/food/BODY scalar agreement. The scalar equation alone cannot certify full state.
+side_effects_exceptions_None_and_boundaries：No writes. Out-of-domain returns unique_full_state_proved=False; exact-map disagreement raises. All negative edges and original gains survive both full advances.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+2. ES02
+算法标识：ES02
+file：mask_scalar.py
+function：guard
+line：10
+end_line：28
+source_sha256：3e1fdf258febc2abd2ef35a483e6875a18b3e318c840639498acc9506c1f331e
+函数AST摘要：d1292dd22234521d2cff502d954cf919a4cf27407e9b1bcce44793efff1ad1f7
+actual_IO_file：actual_IO/01_mask_scalar_guard.json
+actual_IO_sha256：42f8e0288a950af2c18b79b376fd0961d3fe437449f526a7de4bfb130827d4ae
+signature：base, a
+输入：Actual base world and original actor algebra module
+输出：Admitted bool and full structural/gain/origin evidence, or reasons
+actual_flow：Require exactly one month print, one hour food, two same-stem year-visible/month-hidden finance actors, no peer/officer, zero direct day, fixed gains, no formal relations, nonnegative Fraction portfolios, finance componentwise identity/dominance and pairwise disjoint direct-origin sets. Scalar totals alone do not qualify.
+side_effects_exceptions_None_and_boundaries：No writes. Unsupported structural cells return admitted=False, not an approximate solution or general source impossibility.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+3. ES03
+算法标识：ES03
+file：mask_scalar.py
+function：solve
+line：30
+end_line：38
+source_sha256：3e1fdf258febc2abd2ef35a483e6875a18b3e318c840639498acc9506c1f331e
+函数AST摘要：0f442d6741145af6ee9fd7f35d6153065d0b50f9cd5830d6458f2420545448f8
+actual_IO_file：actual_IO/02_mask_scalar_solve.json
+actual_IO_sha256：79abf8da748cfff898babe8906a3e38bc080b9e48223ddbc6414c6af2e83069e
+signature：I, C, F0, epsilon, delta, cut_day_food=False
+输入：Nonnegative exact I,C,F0 and bool print/food/day-food masks
+输出：Unique exact piecewise max-affine scalar state and global contraction certificate
+actual_flow：Set k=1/4−epsilon/16 (or 1/4 under day-food cut), F=max(0,F0−kP), P=max(0,I−C−delta F/16). Solve zero-print, zero-food or positive cell exactly; verify P=f(P), P∈[0,I] and slope≤1/64. This proves the whole admitted capacity domain, not sampled corners.
+side_effects_exceptions_None_and_boundaries：No writes. Bad type/sign/mask or map/bound failure raises. Magnitudes are the fixed project algebra, not classical energy measurements.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+4. ES04
+算法标识：ES04
+file：ren_root_types.py
+function：explain
+line：14
+end_line：27
+source_sha256：a6eaac47ee968f5d23715cab36b7306d56a57e812264c78d5af8cd250936602a
+函数AST摘要：e0072392f5104b0bc8031b0e632c8928196e30d5ec3251b1bfc41c49681ef63c
+actual_IO_file：actual_IO/03_ren_root_types_explain.json
+actual_IO_sha256：9139857b87946f5737f5764dbd9bf816b162ead594df21b50a27991496daea0c
+signature：stem, branch, facts=None
+输入：A validated stem/branch pair and optional inherited facts
+输出：Typed qualification, source/engineering layers and original ROOT02 comparison
+actual_flow：Use common yang-phase reference per element to implement Ren four birthplaces/阴阳同生死; retain actual hidden stems and explicit numeric priority. Import 7/2,5/2,3/2 as engineering magnitudes. Earth/fire-palace and actual effectiveness remain separately limited.
+side_effects_exceptions_None_and_boundaries：Requires explicit verified Primary provider binding; no writes. q=0 is this finite qualification, never proof of physical qi absence.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+5. ES05
+算法标识：ES05
+file：ren_root_types.py
+function：matrix
+line：32
+end_line：34
+source_sha256：a6eaac47ee968f5d23715cab36b7306d56a57e812264c78d5af8cd250936602a
+函数AST摘要：8fe4657d70589bbef2466705f389c2cb1ecc6cbecfc4b233d7e8b20bb9676f31
+actual_IO_file：actual_IO/04_ren_root_types_matrix.json
+actual_IO_sha256：f3725f8374d41230cc324bd3fa4a4b7b74d1a929c39ecc8de17fdcc4aa924027
+signature：
+输入：No arguments; explicit bound Primary provider
+输出：All 10×12=120 typed ROOT comparisons
+actual_flow：Iterate actual source stem/branch orders and call explain for every pair. This is a type table, not 120 raw four-pillar charts.
+side_effects_exceptions_None_and_boundaries：No writes; absent provider binding raises.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+6. ES06
+算法标识：ES06
+file：ren_root_types.py
+function：qualification
+line：29
+end_line：30
+source_sha256：a6eaac47ee968f5d23715cab36b7306d56a57e812264c78d5af8cd250936602a
+函数AST摘要：c96be5d6f9fdf9903725d89da7e98a5d3a07dccd3c0348fb9ce1783f36bfbe72
+actual_IO_file：actual_IO/05_ren_root_types_qualification.json
+actual_IO_sha256：b79ee093c3907bf0f6b5e0253c1c7a50885d72208f06f950f50264ab6d8361ac
+signature：stem, branch, facts=None
+输入：Stem/branch pair, optional facts
+输出：Exact Fraction qualification and typed method/category string
+actual_flow：Delegate to explain and adapt its result to the unchanged numerical actor interface.
+side_effects_exceptions_None_and_boundaries：No writes; pair/binding errors propagate. It does not select H or declare self-standing.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+7. ES07
+算法标识：ES07
+file：source_kernel.py
+function：compiled
+line：47
+end_line：48
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：091a71e1d34aac948b8e5e77bf2a833599adf0ab5bad4f0a25b7d0d00f8bd927
+actual_IO_file：actual_IO/06_source_kernel_compiled.json
+actual_IO_sha256：b9e0f732a2c16b7d5fc794c8d983c9f6838d78d0fc06bbdc453e4ad7f0d67b2f
+signature：name, data
+输入：One registered relative source name and already captured byte dictionary
+输出：A freshly compiled module bound to its in-tree path
+actual_flow：Compile captured bytes, never reread mutable provider code after source validation.
+side_effects_exceptions_None_and_boundaries：Executes trusted captured local source in a fresh module; no own file writes. Called only after material verifies all sources.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+8. ES08
+算法标识：ES08
+file：source_kernel.py
+function：load
+line：49
+end_line：56
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：957409c2411c7e513f1a2fb6911c284fa26a45999dfbe5804ad4bdac9cb8eac1
+actual_IO_file：actual_IO/07_source_kernel_load.json
+actual_IO_sha256：6304ffe1f8d516d02702b4b3309076cd3e9569af06f5309cd681ae9300a12054
+signature：profile
+输入：Explicit Primary or Ren profile
+输出：Bundle of original whole-map/actor/HAP/AUX/context modules and new root interpretation
+actual_flow：Verify material first, compile the unchanged From06 provider, reuse its dependencies, retain Primary ROOT02 for Primary, and bind separate Ren qualifier only for Ren. Retain original source bytes/versions and context taxonomy.
+side_effects_exceptions_None_and_boundaries：Reads/executes local modules and rebinds fresh actor qualification for Ren. Original frozen ROOT02 and older model bytes stay unchanged.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+9. ES09
+算法标识：ES09
+file：source_kernel.py
+function：material
+line：30
+end_line：46
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：a2dbe7f700f5fa54e1c8a1dbc58000f9ccca9474eeb115bff956e91445fb7696
+actual_IO_file：actual_IO/08_source_kernel_material.json
+actual_IO_sha256：341f552125a20edf8ddb3a67dd76641021ef51246b6db408b485b6dd2ce41a80
+signature：
+输入：No caller source override; fixed dependency lock and source tree
+输出：Captured verified source bytes
+actual_flow：Verify exact lock hash, runtime/source inventory, in-tree regular-file paths, all bytes, original subtree anchors, initial contract and Root248 source-only identity before compilation.
+side_effects_exceptions_None_and_boundaries：Reads files only. Missing/foreign/symlinked source raises. Guard theorem excludes arbitrary replacement of target loader code/anchor constants.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+10. ES10
+算法标识：ES10
+file：source_kernel.py
+function：strict
+line：10
+end_line：18
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：ea5c0fbf046831f09d203ce3138c48524e7317be5778a6f580d5fa21a9ed74a0
+actual_IO_file：actual_IO/09_source_kernel_strict.json
+actual_IO_sha256：1e4cae69d90eaed1bf5d2de3adf9cb9141f5c6472fef7d764e35c2b17116e461
+signature：raw
+输入：JSON str or bytes
+输出：Parsed Python JSON value or exception
+actual_flow：Parse using explicit duplicate-key and nonfinite callbacks. The nested callbacks are separately captured.
+side_effects_exceptions_None_and_boundaries：No writes; syntax/type/depth and callback errors propagate. null may normally return None.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+11. ES11
+算法标识：ES11
+file：source_kernel.py
+function：strict.bad
+line：17
+end_line：17
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31
+actual_IO_file：actual_IO/10_source_kernel_strict_bad.json
+actual_IO_sha256：2f2c0dd9a8948e97fe41a686b5a8a0db21244f0a0780dbc15cc2ce43fb0855bd
+signature：v
+输入：A NaN/Infinity token string
+输出：Always ValueError; no normal result
+actual_flow：Reject nonfinite JSON values before they become arithmetic or source identities.
+side_effects_exceptions_None_and_boundaries：The actual profiler return None records exception unwind, not a successful None result.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+12. ES12
+算法标识：ES12
+file：source_kernel.py
+function：strict.pairs
+line：11
+end_line：16
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：2a72712bc22459575237e24cf8c62d6e9f11515ff6d8227085c7e65eff8013c2
+actual_IO_file：actual_IO/11_source_kernel_strict_pairs.json
+actual_IO_sha256：23860fe3be38c5f80e7896f766698a20f4ae3e14f7786d8127e8127d17b168f4
+signature：rows
+输入：Ordered key/value rows from one JSON object
+输出：A dict with every original field, or ValueError
+actual_flow：Reject a duplicate before dict construction could erase evidence; otherwise retain all values.
+side_effects_exceptions_None_and_boundaries：No writes; None values are retained, not interpreted.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+13. ES13
+算法标识：ES13
+file：source_kernel.py
+function：verify_tree
+line：19
+end_line：29
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：be9ac0a9f870744819fab6752a968c72fa4e612f2eea2feb208e51e8cdc0f6d0
+actual_IO_file：actual_IO/12_source_kernel_verify_tree.json
+actual_IO_sha256：e21c118a13a3293e834516510a99e063115ea0fe5773b619381da32c1f90126d
+signature：data, prefix, row
+输入：Captured source byte dictionary, subtree prefix and fixed anchor
+输出：None only on full successful verification
+actual_flow：Require exact original freeze hash, actual manifest pointer, complete known file set/count and every manifest payload byte/SHA. A coherently resealed outer lock cannot replace these own-freeze anchors.
+side_effects_exceptions_None_and_boundaries：No provider compilation or writes. Any mismatch raises; successful None is validation completion, not an unknown result.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+14. ES14
+算法标识：ES14
+file：support_competition.py
+function：all_supports
+line：180
+end_line：196
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：19cfdfdee32ea743c4946127d25457d2567135514aa59ea2f053083ae5b44709
+actual_IO_file：actual_IO/13_support_competition_all_supports.json
+actual_IO_sha256：8f1285e9efdb3a397769515d35abfd81e995bed197c823586999912053d3a18e
+signature：c, current, q, b, capacities=None
+输入：Source-clear context, current world, fixed question and bundle; optional private capacities
+输出：Every signed package world, robust minimal H and actual native AUX graph/result
+actual_flow：Enumerate all subsets E and recompute each full signed world. H must succeed in every enabled superset. Preserve every minimal AND set and every OR alternative. Convert maximal failed sets to a complement-CNF and demand original AUX equality.
+side_effects_exceptions_None_and_boundaries：Source-pending contexts raise. Over seven packages returns explicit finite-domain refusal. Unclosed worlds expose no current H; AUX disagreement raises ArithmeticError. No order/halfweight/B export.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+15. ES15
+算法标识：ES15
+file：support_competition.py
+function：canonical
+line：24
+end_line：24
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：399b7255954d430e1eefe6987ce65b1f642ab76786011c59f83715d3b7f88bf8
+actual_IO_file：actual_IO/14_support_competition_canonical.json
+actual_IO_sha256：7d6394d7281c91d3ceb1bb16735700dc4a3067c53e74b627362c8df43a6aab28
+signature：x
+输入：A JSON-compatible value
+输出：One deterministic strict JSON string
+actual_flow：Sort keys and use compact UTF-8 JSON, rejecting nonfinite values. Serialization only.
+side_effects_exceptions_None_and_boundaries：No writes; TypeError/ValueError/RecursionError propagate; None serializes as null.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+16. ES16
+算法标识：ES16
+file：support_competition.py
+function：choose_question
+line：155
+end_line：165
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：cfb2d878fb74ec5ef251df67c6ab7bba08014e44b71a870552fcabcf1a6c433a
+actual_IO_file：actual_IO/15_support_competition_choose_question.json
+actual_IO_sha256：c69c2e2556a3b6aec766a744b43addb127dcef941e3333db1170ca7319301b6f
+signature：c, w, profile, b
+输入：Fixed source context, full current world, profile and bundle
+输出：Source question and independent predicate evidence; no H
+actual_flow：Primary retains the ordinary 财食 question. Ren requires absence of independent self-standing support plus financial floor/dominance, weak share and zero actual print birthday before selecting the dependent question. Otherwise preserve ordinary or explicit unresolved status. Never choose by H success.
+side_effects_exceptions_None_and_boundaries：No writes. Unclosed worlds return an evidence-based unclosed/dependency status; no classical true/fake verdict is certified.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+17. ES17
+算法标识：ES17
+file：support_competition.py
+function：evaluate
+line：198
+end_line：210
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：97c1877c8d4f6213bca7d4ec8cde4640cdefd2d3a9c05ce9e7bdc5f1c88f1952
+actual_IO_file：actual_IO/16_support_competition_evaluate.json
+actual_IO_sha256：0050ae46edb69cd58ee7367fb7f938cbef3009f76bcf04703177581fabfc83a6
+signature：req
+输入：Exact four-key raw request with explicit version/profile/bool assumption
+输出：Complete JSON-compatible current result, pending/known result or legal-input refusal
+actual_flow：Validate the outer schema, verify source, consume raw source tasks, build the actual signed world, fix the source question, and only then enumerate H. Retained nonzero print is an explicit unclosed joint-source task. Record the actual day-food intervention for source-clear complete questions.
+side_effects_exceptions_None_and_boundaries：Reads modules but never writes. Schema/source errors raise; legal source/goal statuses are ordinary returned data. B remains None, default/adoption/progress remain unchanged.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+18. ES18
+算法标识：ES18
+file：support_competition.py
+function：goals
+line：167
+end_line：178
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：86cb8a2f8c35fa0cec6db7521a1d181edb14912a1ab64cdd1afc4910aec8d9a4
+actual_IO_file：actual_IO/17_support_competition_goals.json
+actual_IO_sha256：3906dc1f87173f27051502e63292ac2ba39ba8d7da6fd9ff71ddb84977613284
+signature：c, w, enabled, question, b, cut_day_food=False
+输入：Fixed context/world, enabled packages, the preselected question and optional day-food-cut label
+输出：All whole-goal booleans, actual target/print coverage, paths, load and carry margin
+actual_flow：Recompute selected rooted financial per-origin union, actual supported food→selected net-finance path, joint coverage of every print direct input, and ordinary strict carry or all dependent targets. Hidden/visible aliases cannot be summed as duplicate origins. Negative costs use the entire world.
+side_effects_exceptions_None_and_boundaries：No writes. formed is false if the whole world is unclosed; this is not a proof that every traditional chart fails. Conditional goal contracts retain engineering provenance.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+19. ES19
+算法标识：ES19
+file：support_competition.py
+function：intake
+line：42
+end_line：100
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：0d9bda1b434d985cafca6b76a5692d5a4942407affc4bd39e0da817b74c4634a
+actual_IO_file：actual_IO/18_support_competition_intake.json
+actual_IO_sha256：835562bfc0e02f0e3a4c24905181394f281d744597f8b02b7a4ad9a24d87da80
+signature：raw, profile, assumption, b
+输入：Legal raw four pillars, explicit source profile, bool assumption and verified modules
+输出：Full source context with actual HAP/ROOT inventories, known and pending tasks
+actual_flow：Run the native legal/HAP parser; retain all latent rows and positive ROOT witnesses. Fix strict 财-month, storage exposure, active roles, branch-main印/官 mapping, formal/named relations, season, earth and other source tasks before H. A known or pending task is not numeric failure.
+side_effects_exceptions_None_and_boundaries：Reads through verified providers; no file writes. Unmapped 未/亥 main印 stays pending even with ordinary carry; all unconsumed main官 stays pending. Invalid native raw returns legal=False.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+20. ES20
+算法标识：ES20
+file：support_competition.py
+function：kernel
+line：25
+end_line：40
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：35bff082ffa703077cf481768b2e32b049ffc10acc2945b1486bd79b3fe13f5a
+actual_IO_file：actual_IO/19_support_competition_kernel.json
+actual_IO_sha256：bc862efac5154fd4ba8219254e04477b52415edea95eaff99612f645a7c5149d
+signature：
+输入：No caller quantities; fixed in-tree source files
+输出：A captured source-kernel module
+actual_flow：Verify exact new-method contracts, scalar source, source copies and attribution correction before compiling the source loader. The returned module holds captured scalar bytes.
+side_effects_exceptions_None_and_boundaries：Reads fixed files and executes this source loader; missing/foreign bytes raise before any numerical provider. It never writes.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+21. ES21
+算法标识：ES21
+file：support_competition.py
+function：load_package
+line：102
+end_line：103
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：6dcdef79eba5c61e3962d4d9c55a9ec051ff954069782648d241f5f877eb9429
+actual_IO_file：actual_IO/20_support_competition_load_package.json
+actual_IO_sha256：3a63691741664d94243e4c57d7f3de73541b4868a58705caf425ad801ece422a
+signature：profile
+输入：One of the two explicit profile identifiers
+输出：Verified original bundle plus captured scalar module
+actual_flow：Load the source kernel and original finite numerical provider, attach the separate Ren ROOT interpretation only for Ren, then compile the already captured scalar bytes.
+side_effects_exceptions_None_and_boundaries：Reads/executes verified local modules; no writes. Invalid profile or source binding raises.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+22. ES22
+算法标识：ES22
+file：support_competition.py
+function：main
+line：228
+end_line：233
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：3c7d09413bae57ed1c4a2c7f979b7da998cd590c65eac85e9c84bd52615011f3
+actual_IO_file：actual_IO/21_support_competition_main.json
+actual_IO_sha256：155a6e03e74a12b0c30751ed2191e9894da64f5cf63e2624919a8905167c0e04
+signature：
+输入：At most 100000 stdin characters containing strict JSON
+输出：Exactly one JSON stdout line and exit 0, or atomic rejected line and exit 2
+actual_flow：Bound input, use duplicate/nonfinite rejecting parser, evaluate once, and catch declared schema/arithmetic/filesystem/depth errors. Errors carry current_H=None and B=None.
+side_effects_exceptions_None_and_boundaries：Consumes stdin and writes stdout only. No traceback for tested errors; no artifact writes. A JSON null value is not semantic unknown.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+23. ES23
+算法标识：ES23
+file：support_competition.py
+function：masked_world
+line：105
+end_line：141
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：e880aef12c22186a999c0a65bad80ab5e7152b662e3cba2a3b652b6ac9e8db2b
+actual_IO_file：actual_IO/22_support_competition_masked_world.json
+actual_IO_sha256：3b3bff40abae1d2ffee5c2007216e52b05ba31e05a009442697afec07a6b699f
+signature：c, b, enabled, cut_day_food=False, exact_actual=False, capacities=None
+输入：Fixed context/bundle, enabled positive actor packages, optional bool day-food cut, exact-current flag, private exact capacities
+输出：Complete original signed world, or explicit unclosed evidence
+actual_flow：Temporarily wrap positive feed and optional direct capacities, preserving actors, roots and every negative control. Use the original zero-print DAG when closed; otherwise use the guarded exact scalar theorem and full-map identity. The original actual-state solver is allowed only for the actual full package, never as a counterfactual H fallback.
+side_effects_exceptions_None_and_boundaries：Temporarily rebinds two functions on freshly loaded modules and restores both in finally. No writes. Invalid capacities raise; source/root provenance relabel describes the new comparison without editing old files.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+24. ES24
+算法标识：ES24
+file：support_competition.py
+function：masked_world.feed
+line：118
+end_line：126
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：608662cc2de91f6867fcd063ee99f1a81565ecac889c0a606f440d3ab9deee62
+actual_IO_file：actual_IO/23_support_competition_masked_world_feed.json
+actual_IO_sha256：8f53f40f31a266352ddd613de10c59a13a98d814e62b85a3cb4e7b9deb4ad684
+signature：sources, targets, ports, bases, gain, kind, cfg
+输入：Source/target actors, origin portfolios/bases, gain, kind and fixed configuration
+输出：Full generated origin portfolios and causal edges
+actual_flow：Delegate every negative function unchanged. For named positive packages multiply only generation permission by its bool mask; the actor and negative edges remain. A day→food cut disables only that function. Merge by same-origin maximum.
+side_effects_exceptions_None_and_boundaries：Nested closure uses fixed masks and original feed; no writes. Zero transmitted credit is a real declared intervention, not missing knowledge or removal of a character.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+25. ES25
+算法标识：ES25
+file：support_competition.py
+function：masked_world.inventory
+line：108
+end_line：116
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：f75f11bed7a75064319e96b6016a8b2c9eb4f2f3868d6e9d6a18ca53df6487e4
+actual_IO_file：actual_IO/24_support_competition_masked_world_inventory.json
+actual_IO_sha256：b32d2c6c4151b8a3cb0b9842017936e0ef7f913669842ac908a0808b704e0b39
+signature：raw, actors, cfg, actor_arg
+输入：Original raw/actors/config and actor module
+输出：Original direct inventory, activation, roots and formal relations, with optional private capacity scaling
+actual_flow：Reuse original per-origin inventory; scale all finance/print direct inputs before generation, update derived root amounts and retain unscaled qualification evidence. This is not a new raw chart or formal combination.
+side_effects_exceptions_None_and_boundaries：Nested closure reads private capacities; returns newly built inventories; no file writes. Exceptions propagate to the restoring outer finally.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+26. ES26
+算法标识：ES26
+file：support_competition.py
+function：private_capacity_analysis
+line：212
+end_line：226
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：3a7d37fa280eeca20c0f6db3e6ac42468178facd649c5600d2430fee9f8ecc10
+actual_IO_file：actual_IO/25_support_competition_private_capacity_analysis.json
+actual_IO_sha256：659351e1f9350b0d9053216d6301dccd7224142dab5749f24520edd195fe7643
+signature：req, alpha, beta, all_packages=False
+输入：Exact Ren raw request, Fraction alpha∈[0,1], Fraction beta∈[1,32], bool all_packages
+输出：Exact capacity world/effective-print evidence and optionally conditional complete H
+actual_flow：First fix the original raw/source question; reject source-pending or ordinary charts. Scale direct capacities without altering raw ROOT facts, solve the same signed graph, and compare print actual root birthday/gross and net BODY increment with full load. All-H is conditional on this unchanged original question.
+side_effects_exceptions_None_and_boundaries：Research-only function, absent from public request schema. Cannot fix source by tuning, relabel ordinary as follow, export B, or turn a strong-print food failure into a general ancient verdict. Invalid types/domain/unproved closure raise.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+27. ES27
+算法标识：ES27
+file：support_competition.py
+function：standing
+line：143
+end_line：153
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：e38b6083aaf50df72e94a081cf6195917bc680b52dbc37379978aece4fcf97cb
+actual_IO_file：actual_IO/26_support_competition_standing.json
+actual_IO_sha256：3429419d4d95f8e4aace86b8434c576955a2c1dbbfc70ea1ca894aae5e2966bc
+signature：c, w, b
+输入：Source context, exact full current world and verified bundle
+输出：Per-root and peer evidence plus three engineering self-standing guards
+actual_flow：Trace actual ROOT-origin birthday credit, preserve per-origin maximum, and distinguish firm retained paths, rooted-peer contribution and light-root actual body≥load. Gross shared credit is not added again to BODY.
+side_effects_exceptions_None_and_boundaries：Pure evidence calculation. Typed root alone does not universally veto follow. Thresholds are declared project engineering, not an ancient measured force law.
+source_layers：Named classical qualitative condition versus explicitly declared numeric/finite engineering interpretation; software guards have no classical prediction claim. See rule cards and the cited contracts.
+actual_IO_contains_observed_arguments_and_return：true
+
+原件：work/rev253_effective_support_follow_competition/actual_algorithm_IO_AST.json
+SHA256：18b24c1829c2898971d67c9ac2fcdfeaf7076c6911b42705de6aae6ddf809a67
+
+1. 1
+file：mask_scalar.py
+function：analyze
+line：40
+end_line：45
+source_sha256：3e1fdf258febc2abd2ef35a483e6875a18b3e318c840639498acc9506c1f331e
+函数AST摘要：a5faaa346a17aedff7ddd5b2b9bb76ebddea897a112ae8c930735df2d570fe35
+actual_IO_file：actual_IO/00_mask_scalar_analyze.json
+actual_IO_sha256：0d4129318eded678ac0ac628da627e850fbddfbe97cdce8b9eb608312b3c9da1
+
+2. 2
+file：mask_scalar.py
+function：guard
+line：10
+end_line：28
+source_sha256：3e1fdf258febc2abd2ef35a483e6875a18b3e318c840639498acc9506c1f331e
+函数AST摘要：d1292dd22234521d2cff502d954cf919a4cf27407e9b1bcce44793efff1ad1f7
+actual_IO_file：actual_IO/01_mask_scalar_guard.json
+actual_IO_sha256：42f8e0288a950af2c18b79b376fd0961d3fe437449f526a7de4bfb130827d4ae
+
+3. 3
+file：mask_scalar.py
+function：solve
+line：30
+end_line：38
+source_sha256：3e1fdf258febc2abd2ef35a483e6875a18b3e318c840639498acc9506c1f331e
+函数AST摘要：0f442d6741145af6ee9fd7f35d6153065d0b50f9cd5830d6458f2420545448f8
+actual_IO_file：actual_IO/02_mask_scalar_solve.json
+actual_IO_sha256：79abf8da748cfff898babe8906a3e38bc080b9e48223ddbc6414c6af2e83069e
+
+4. 4
+file：ren_root_types.py
+function：explain
+line：14
+end_line：27
+source_sha256：a6eaac47ee968f5d23715cab36b7306d56a57e812264c78d5af8cd250936602a
+函数AST摘要：e0072392f5104b0bc8031b0e632c8928196e30d5ec3251b1bfc41c49681ef63c
+actual_IO_file：actual_IO/03_ren_root_types_explain.json
+actual_IO_sha256：9139857b87946f5737f5764dbd9bf816b162ead594df21b50a27991496daea0c
+
+5. 5
+file：ren_root_types.py
+function：matrix
+line：32
+end_line：34
+source_sha256：a6eaac47ee968f5d23715cab36b7306d56a57e812264c78d5af8cd250936602a
+函数AST摘要：8fe4657d70589bbef2466705f389c2cb1ecc6cbecfc4b233d7e8b20bb9676f31
+actual_IO_file：actual_IO/04_ren_root_types_matrix.json
+actual_IO_sha256：f3725f8374d41230cc324bd3fa4a4b7b74d1a929c39ecc8de17fdcc4aa924027
+
+6. 6
+file：ren_root_types.py
+function：qualification
+line：29
+end_line：30
+source_sha256：a6eaac47ee968f5d23715cab36b7306d56a57e812264c78d5af8cd250936602a
+函数AST摘要：c96be5d6f9fdf9903725d89da7e98a5d3a07dccd3c0348fb9ce1783f36bfbe72
+actual_IO_file：actual_IO/05_ren_root_types_qualification.json
+actual_IO_sha256：b79ee093c3907bf0f6b5e0253c1c7a50885d72208f06f950f50264ab6d8361ac
+
+7. 7
+file：source_kernel.py
+function：compiled
+line：47
+end_line：48
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：091a71e1d34aac948b8e5e77bf2a833599adf0ab5bad4f0a25b7d0d00f8bd927
+actual_IO_file：actual_IO/06_source_kernel_compiled.json
+actual_IO_sha256：b9e0f732a2c16b7d5fc794c8d983c9f6838d78d0fc06bbdc453e4ad7f0d67b2f
+
+8. 8
+file：source_kernel.py
+function：load
+line：49
+end_line：56
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：957409c2411c7e513f1a2fb6911c284fa26a45999dfbe5804ad4bdac9cb8eac1
+actual_IO_file：actual_IO/07_source_kernel_load.json
+actual_IO_sha256：6304ffe1f8d516d02702b4b3309076cd3e9569af06f5309cd681ae9300a12054
+
+9. 9
+file：source_kernel.py
+function：material
+line：30
+end_line：46
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：a2dbe7f700f5fa54e1c8a1dbc58000f9ccca9474eeb115bff956e91445fb7696
+actual_IO_file：actual_IO/08_source_kernel_material.json
+actual_IO_sha256：341f552125a20edf8ddb3a67dd76641021ef51246b6db408b485b6dd2ce41a80
+
+10. 10
+file：source_kernel.py
+function：strict
+line：10
+end_line：18
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：ea5c0fbf046831f09d203ce3138c48524e7317be5778a6f580d5fa21a9ed74a0
+actual_IO_file：actual_IO/09_source_kernel_strict.json
+actual_IO_sha256：1e4cae69d90eaed1bf5d2de3adf9cb9141f5c6472fef7d764e35c2b17116e461
+
+11. 11
+file：source_kernel.py
+function：strict.bad
+line：17
+end_line：17
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31
+actual_IO_file：actual_IO/10_source_kernel_strict_bad.json
+actual_IO_sha256：2f2c0dd9a8948e97fe41a686b5a8a0db21244f0a0780dbc15cc2ce43fb0855bd
+
+12. 12
+file：source_kernel.py
+function：strict.pairs
+line：11
+end_line：16
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：2a72712bc22459575237e24cf8c62d6e9f11515ff6d8227085c7e65eff8013c2
+actual_IO_file：actual_IO/11_source_kernel_strict_pairs.json
+actual_IO_sha256：23860fe3be38c5f80e7896f766698a20f4ae3e14f7786d8127e8127d17b168f4
+
+13. 13
+file：source_kernel.py
+function：verify_tree
+line：19
+end_line：29
+source_sha256：6416a87946e9994b6b8fde5f0b6655990137aa91adc5886fc3df346928161018
+函数AST摘要：be9ac0a9f870744819fab6752a968c72fa4e612f2eea2feb208e51e8cdc0f6d0
+actual_IO_file：actual_IO/12_source_kernel_verify_tree.json
+actual_IO_sha256：e21c118a13a3293e834516510a99e063115ea0fe5773b619381da32c1f90126d
+
+14. 14
+file：support_competition.py
+function：all_supports
+line：180
+end_line：196
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：19cfdfdee32ea743c4946127d25457d2567135514aa59ea2f053083ae5b44709
+actual_IO_file：actual_IO/13_support_competition_all_supports.json
+actual_IO_sha256：8f1285e9efdb3a397769515d35abfd81e995bed197c823586999912053d3a18e
+
+15. 15
+file：support_competition.py
+function：canonical
+line：24
+end_line：24
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：399b7255954d430e1eefe6987ce65b1f642ab76786011c59f83715d3b7f88bf8
+actual_IO_file：actual_IO/14_support_competition_canonical.json
+actual_IO_sha256：7d6394d7281c91d3ceb1bb16735700dc4a3067c53e74b627362c8df43a6aab28
+
+16. 16
+file：support_competition.py
+function：choose_question
+line：155
+end_line：165
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：cfb2d878fb74ec5ef251df67c6ab7bba08014e44b71a870552fcabcf1a6c433a
+actual_IO_file：actual_IO/15_support_competition_choose_question.json
+actual_IO_sha256：c69c2e2556a3b6aec766a744b43addb127dcef941e3333db1170ca7319301b6f
+
+17. 17
+file：support_competition.py
+function：evaluate
+line：198
+end_line：210
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：97c1877c8d4f6213bca7d4ec8cde4640cdefd2d3a9c05ce9e7bdc5f1c88f1952
+actual_IO_file：actual_IO/16_support_competition_evaluate.json
+actual_IO_sha256：0050ae46edb69cd58ee7367fb7f938cbef3009f76bcf04703177581fabfc83a6
+
+18. 18
+file：support_competition.py
+function：goals
+line：167
+end_line：178
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：86cb8a2f8c35fa0cec6db7521a1d181edb14912a1ab64cdd1afc4910aec8d9a4
+actual_IO_file：actual_IO/17_support_competition_goals.json
+actual_IO_sha256：3906dc1f87173f27051502e63292ac2ba39ba8d7da6fd9ff71ddb84977613284
+
+19. 19
+file：support_competition.py
+function：intake
+line：42
+end_line：100
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：0d9bda1b434d985cafca6b76a5692d5a4942407affc4bd39e0da817b74c4634a
+actual_IO_file：actual_IO/18_support_competition_intake.json
+actual_IO_sha256：835562bfc0e02f0e3a4c24905181394f281d744597f8b02b7a4ad9a24d87da80
+
+20. 20
+file：support_competition.py
+function：kernel
+line：25
+end_line：40
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：35bff082ffa703077cf481768b2e32b049ffc10acc2945b1486bd79b3fe13f5a
+actual_IO_file：actual_IO/19_support_competition_kernel.json
+actual_IO_sha256：bc862efac5154fd4ba8219254e04477b52415edea95eaff99612f645a7c5149d
+
+21. 21
+file：support_competition.py
+function：load_package
+line：102
+end_line：103
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：6dcdef79eba5c61e3962d4d9c55a9ec051ff954069782648d241f5f877eb9429
+actual_IO_file：actual_IO/20_support_competition_load_package.json
+actual_IO_sha256：3a63691741664d94243e4c57d7f3de73541b4868a58705caf425ad801ece422a
+
+22. 22
+file：support_competition.py
+function：main
+line：228
+end_line：233
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：3c7d09413bae57ed1c4a2c7f979b7da998cd590c65eac85e9c84bd52615011f3
+actual_IO_file：actual_IO/21_support_competition_main.json
+actual_IO_sha256：155a6e03e74a12b0c30751ed2191e9894da64f5cf63e2624919a8905167c0e04
+
+23. 23
+file：support_competition.py
+function：masked_world
+line：105
+end_line：141
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：e880aef12c22186a999c0a65bad80ab5e7152b662e3cba2a3b652b6ac9e8db2b
+actual_IO_file：actual_IO/22_support_competition_masked_world.json
+actual_IO_sha256：3b3bff40abae1d2ffee5c2007216e52b05ba31e05a009442697afec07a6b699f
+
+24. 24
+file：support_competition.py
+function：masked_world.feed
+line：118
+end_line：126
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：608662cc2de91f6867fcd063ee99f1a81565ecac889c0a606f440d3ab9deee62
+actual_IO_file：actual_IO/23_support_competition_masked_world_feed.json
+actual_IO_sha256：8f53f40f31a266352ddd613de10c59a13a98d814e62b85a3cb4e7b9deb4ad684
+
+25. 25
+file：support_competition.py
+function：masked_world.inventory
+line：108
+end_line：116
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：f75f11bed7a75064319e96b6016a8b2c9eb4f2f3868d6e9d6a18ca53df6487e4
+actual_IO_file：actual_IO/24_support_competition_masked_world_inventory.json
+actual_IO_sha256：b32d2c6c4151b8a3cb0b9842017936e0ef7f913669842ac908a0808b704e0b39
+
+26. 26
+file：support_competition.py
+function：private_capacity_analysis
+line：212
+end_line：226
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：3a7d37fa280eeca20c0f6db3e6ac42468178facd649c5600d2430fee9f8ecc10
+actual_IO_file：actual_IO/25_support_competition_private_capacity_analysis.json
+actual_IO_sha256：659351e1f9350b0d9053216d6301dccd7224142dab5749f24520edd195fe7643
+
+27. 27
+file：support_competition.py
+function：standing
+line：143
+end_line：153
+source_sha256：25140b591d2f49a90a0588003b4720c3739c201d6c1014ccfed1a91ac73a2d6b
+函数AST摘要：e38b6083aaf50df72e94a081cf6195917bc680b52dbc37379978aece4fcf97cb
+actual_IO_file：actual_IO/26_support_competition_standing.json
+actual_IO_sha256：3429419d4d95f8e4aace86b8434c576955a2c1dbbfc70ea1ca894aae5e2966bc
+
+原件：work/rev253_effective_support_follow_competition/rules_ten_fields.json
+SHA256：fc7bdb6a97c2d40081a0879e5dd5572c6b902bf1c64660f19fa2b6cd4e5821f7
+
+1. ES-SOURCE
+算法标识：ES-SOURCE
+name：具名来源先定普通财食或依财问题
+source：Primary PDF69财用食生; Ren1947 PDF367/370/380; whole_contract_addendum_before_first_whole.json
+preconditions：合法raw、明选来源/secondary assumption、strict财月且源任务闭合
+exclusions：非食神主本/活官/正式关系/未消费HAP及气候任务不套此分支
+time_or_input_change：改四柱需重做全部源与实际支持条件；private容量不修源
+conflict_policy：Primary普通失败保普通；Ren独立条件先过才进入依财；不先试H再换学派
+expression：intake + choose_question
+tests：FIRM/SHALLOW两来源、ROOTED_PRINT、REN_ET/REN_METAL/PRIMARY_WANG
+state：bounded source-specific author candidate, not adopted
+
+2. ES-ROOT
+算法标识：ES-ROOT
+name：根资格、实际生日与能否自立分开
+source：Ren PDF93–94阴阳同生死、367根浅难立; 原ROOT02对照
+preconditions：逐branch+element来源、实际传递、全负荷；明确工程7/2等
+exclusions：土随火宫未证不作新正例；ROOT正数不自动拒从；ROOT零不证现实无气
+time_or_input_change：同一raw可因具名根口径有不同预期；root改变重算源与反馈
+conflict_policy：主本根表保原字节；Ren单独方法不覆盖原ROOT02
+expression：ren_root_types + standing
+tests：120 pair actual；SHALLOW→FIRM；HELD_FIRM_YEAR；Ren/Primary FLOAT_PEER
+state：qualitative text + bounded quantitative engineering
+
+3. ES-PEER
+算法标识：ES-PEER
+name：有比字、浮生日与有根独立支撑不等同
+source：Ren PDF380劫印自顾不暇；preimplementation_contract.json
+preconditions：实际peer→day正边和peer争财负边同图；至少一个独立guard才自立
+exclusions：不能删peer负边换成功；多peer与未闭合印官转known/pending
+time_or_input_change：丁酉己酉丁丑辛丑在Ren有实际浮生日1/2且无自立；Primary有根仍普通失败
+conflict_policy：不叫From06零扶域；不是已证传统真从/假从评级
+expression：standing + choose_question + masked_world
+tests：float_peer_actual.json 两来源各16世界；原PEER_FIRM/WEAK不清财库保持pending
+state：complete floating-peer finite comparison; other rooted-peer/source tasks remain
+
+4. ES-PRINT
+算法标识：ES-PRINT
+name：印生日、夺食与财破印用同一实际存量
+source：Primary69–70财食兼印; Ren380财仍破印; source_repair_contract_before_calls.json
+preconditions：支本气印映射到实际同干current印actor并消费全部正负；或明确pending
+exclusions：未/亥未映射印不能被HAP inactive、ordinary carry或root成功跳过；存活印其他源条件未闭合
+time_or_input_change：rooted甲印能被实际财食反馈制尽；增强印容量时有实际生日与全负荷变化
+conflict_policy：不把不同木根/水印origin擅并或双计；零印充分域不等穷尽有效印假从
+expression：intake branch_main_tasks + masked_world + evaluate
+tests：真实亥失败保存；修复后亥/未pending；ROOTED_PRINT及13容量点
+state：0.2 repaired finite source sufficient domain; surviving-print branch pending
+
+5. ES-FOOD-FINANCE
+算法标识：ES-FOOD-FINANCE
+name：食生财、财完整目标与印救援都验
+source：Ren370必要食伤吐秀; Primary69财用食生; target_accounting_correction_before_rooted_whole.json
+preconditions：实际食→selected净财、ownROOT或body供食、selected rooted财≥4及相对完整目标、每个印direct控制coverage
+exclusions：财库存够不代表有完整制印功能；同源visible/hidden不能相加；无独立食根不是硬传统否门
+time_or_input_change：private切day→food保留食float及一切负边；影响实际路径和全目标
+conflict_policy：旧rooted双财替代误预期留原合同；唯一默认H依后发correction为年财+时食
+expression：goals + actual_day_food_path_intervention
+tests：192 complete package world comparisons；ROOTED_PRINT default/half/finance target/print zero equality
+state：conditional exact finite goal contract
+
+6. ES-FEEDBACK
+算法标识：ES-FEEDBACK
+name：有根甲印反馈全域唯一闭合
+source：rooted_print_scalar_contract_before_calls.json + mask_scalar.py explicit theorem
+preconditions：oneprint onefood two same-origin finance、daydirect0、固定gains、非负Fraction与disjoint originsets
+exclusions：非共同origin、负portfolio、hiddenfood错gain、day非零及formal关系无证不近似
+time_or_input_change：alpha直接财[0,1]、beta直接印[1,32]为私有容量诊断，非新生日/流年/合化
+conflict_policy：P=max(0,I-C-deltaF/16),F=max(0,F0-kP), slope≤1/64; 原完整map两遍同一state才可用
+expression：mask_scalar.guard/solve/analyze
+tests：13 exact parameter points；6 points×16包；5 scope negatives；actual_IO math
+state：proved whole admitted structural/capacity domain; no broader scalar claim
+
+7. ES-H
+算法标识：ES-H
+name：全正负套餐、所有稳健极小H与原生AUX
+source：原AUX合同 + 253 all_supports
+preconditions：先固定source question；每个E精确闭合并满足所有硬目标；H的每superset都成功
+exclusions：不删actor/ROOT避害；不截OR或编权重；unclosed不当failed；超过7套餐不造答案
+time_or_input_change：正功能开关只改其credit，全部负成本常留；逐E重算
+conflict_policy：AND在集合内、OR在集合间；土金无主次；H不接B/单双主题
+expression：all_supports original AUX complement CNF
+tests：actual_whole_behavior.json、rooted_print_scalar_actual.json、float_peer_actual.json全部世界
+state：complete bounded auxiliary selection, no project adoption
+
+8. ES-BOUNDARY
+算法标识：ES-BOUNDARY
+name：所有源未决与Wang归因保留
+source：scope_supplement_before_float_peer_calls.json; Wang_primary_literal_attribution_review.json; reference_source/rev269_Wang_example_attribution_correction.json
+preconditions：未消费本气官、印、库取清、春金木财季候、土印、正式关系等逐项列出
+exclusions：不把候选半会/破害通用折损；也不拿208官印任务充普遍Ren豁免
+time_or_input_change：输入/source改变即重验；已冻结93/248仍原字节
+conflict_policy：Wang直接唯一负归因Hold，不翻正；当前raw按实际乙庚等任务pending
+expression：source_context known/pending + named task inventory
+tests：16 repaired raw/profile API/CLI plus14 coherent source0attempt mutations
+state：original gaps remain explicit; neither missing=complete nor label-driven
+
+9. ES-SOFTWARE
+算法标识：ES-SOFTWARE
+name：完整来源先验、strict原子错误与恢复
+source：source_kernel.py own-freeze anchors; source_guard_preexpectations.json
+preconditions：精确来源树/bytes/SHA/manifest→freeze；确切新合同和reference copies
+exclusions：攻击者重封outerlock不能重写已知ownfreeze；不宣任意改目标代码防御
+time_or_input_change：原0.1按1022 phase map完整重构并保真实失败；移位后原生命令重放
+conflict_policy：source spy首次路径工具失败留旧脚本；仅resolve修复，不动core/oracle
+expression：material/verify_tree/main; readonly verifier
+tests：source14 bad→0first provider attempts clean→1；strict14；27IO/AST；full readonly/move external receipt
+state：software candidate integrity, not reality-prediction validation
+

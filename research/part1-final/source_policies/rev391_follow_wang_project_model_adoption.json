@@ -1,0 +1,143 @@
+{
+  "schema": "source-qualified-follow-wang-wood-whole-natal-model-adoption-0.1",
+  "revision": 391,
+  "registered_utc": "2026-11-02T21:33:20.692113+00:00",
+  "status": "adopted_exact379_RenW1_natal_woodcore_after389",
+  "verified": {
+    "candidate379": {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev379_Ren_follow_wang_wood",
+      "files": 94,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev379_Ren_follow_wang_wood/manifest.json",
+        "bytes": 14184,
+        "sha256": "2658012a2ebd5e0b1f9faf60f292be96ad351bae18c3562212a1f4acfd99f9fa"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev379_Ren_follow_wang_wood/freeze.json",
+        "bytes": 395,
+        "sha256": "7c2526c88678ad445bb440a46111fe236777f6d8272cdf25605b9199a79237af"
+      },
+      "all_payload_bytes_and_SHA_checked": true
+    },
+    "independent389": {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev389_follow_wang_wood_independent",
+      "files": 59,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev389_follow_wang_wood_independent/manifest.json",
+        "bytes": 9311,
+        "sha256": "86820c6b0d73da4423b1dc74d4fb03604155fa46d0c536c977f7d2beecd7d6fa"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev389_follow_wang_wood_independent/freeze.json",
+        "bytes": 245,
+        "sha256": "babdba4f26d3be9f28a8bf2dda0ec20cdabc45a43ff849fc10a5049493815c2f"
+      },
+      "all_payload_bytes_and_SHA_checked": true
+    }
+  },
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev379_author_completion_handoff.json",
+    "bytes": 2839,
+    "sha256": "57219c4d15e01bea18fbde90f0d42d67271aa061d25b28bbc668fd883da7ec07"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev389_independent_completion_handoff.json",
+    "bytes": 3062,
+    "sha256": "6c9cefd2d17e9cf07e0da8f4c645dccd62da4d2bbb623e07e5045bdc6033ecec"
+  },
+  "independent_postfreeze_label_erratum": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev389_independent_count_label_erratum.json",
+    "bytes": 1013,
+    "sha256": "ec536c4360087a86d33453647ec329be53ceaf377064ef47c36f350d3bc67d01"
+  },
+  "source": {
+    "book": "1947《滴天髓阐微》任氏从象",
+    "PDF_page": 372,
+    "printed_leaf": "卷三九六",
+    "actual_full_context_read": "作者/389实读372与367—370；沿347原页上下文，未冒全章全书核毕"
+  },
+  "source_case": [
+    "癸卯",
+    "乙卯",
+    "甲寅",
+    "乙亥"
+  ],
+  "source_task_opinion": "两卯旺、寅禄、亥生及乙助癸印是原文选择从自身旺神的条件；本例核心木不由数值成功倒选。全部藏干与完整木火土水生克后复核核心，印水的实质助旺另记。",
+  "inventory": {
+    "actual_actors": 11,
+    "wood": 7,
+    "water": 2,
+    "fire": 1,
+    "earth": 1,
+    "metal": 0,
+    "hidden_Bing_Wu_Ren_kept": true,
+    "no_invented_metal_receiver": true,
+    "Hai_Yin_form_kept_no_unlicensed_hidden_deletion_or_bonus": true
+  },
+  "model": {
+    "same_current_all_actions": true,
+    "four_element_active_faces": 16,
+    "exact_rational_unique_fixedpoint": "逐行收缩上界与全部活跃面代回，工程方程唯一",
+    "nominal_current_wood_fire_earth_water": [
+      "538/121",
+      "307/605",
+      "0",
+      "16/11"
+    ],
+    "root_inventory_and_pool_coefficients": "无相位工程单位；共池分摊不等于逐演员局部能量守恒，原书未定数额。"
+  },
+  "whole_natal_conclusion": {
+    "method_core": "木",
+    "actual_assistance": "印水实际生木助旺",
+    "all_robust_minimal_extra_H": [
+      []
+    ],
+    "meaning": "既有主体木及原印助已在完整世界，不需另外共同辅助；不是无用神或其他角色无作用。",
+    "no_automatic_proportion_or_rank": true
+  },
+  "bounded_derived_raw_family": {
+    "legal_count": 2,
+    "other_case": [
+      "癸卯",
+      "甲寅",
+      "甲寅",
+      "乙亥"
+    ],
+    "other_case_is_engineering_condition_inference_not_book_original_case": true,
+    "not_all_followwang_or_all_spring_wood": true
+  },
+  "verification": {
+    "author": "两盘全部256组合/32参数角点，全部现量、来源、作用及连续盒证明；正反/精确边界另存",
+    "independent_new_worlds": 512,
+    "new_origin_components": 22528,
+    "new_actual_edges": 22272,
+    "new_potential_cost_rows": 10752,
+    "budget_balances": 2048,
+    "new_boundaries": 4,
+    "new_complete_H_checks": 3,
+    "software_functions": 50,
+    "actual_IO_functions": 47,
+    "legacy_AUX_CLI_unexecuted": 3,
+    "all_actual_returns_AST_and_identity_checked": true
+  },
+  "strict_source_and_transport": "389新3坏源0依赖执行/clean4、5strict深度Unicode、域外0数学；原位与既存94副本4次新全native进程，17,580,489字节SHA一致，旧root访问0/包写0/全部94前后SHA相同。",
+  "native_output": {
+    "bytes": 17580489,
+    "sha256": "d6ea6fddd2b43e859818df7e1a59bc0a48fd72565acb120b28587f59831e9912"
+  },
+  "future_context_limits": {
+    "core_unchanged_does_not_mean_favorable_luck": true,
+    "old_false_comparison_retained_and_withdrawn": "原把核心维持与书中运吉比较的解释归因已勘误；原始预期/数值不回改。",
+    "new_same_current_relative_diagnostics": "庚戌木现量及原木根损失可与木仍核心同时成立；辛亥金生水和金克木同时保留。",
+    "earth_current_zero_in_ordinary_external_tests": "尚未复现源土金并旺/活土生金与湿土特殊条件；非真实UTC或未来运吉凶算法。"
+  },
+  "reviewer_own_label_erratum": "13数学命名+1lambda、6core+9入口+6facts+15AUX=50；已冻审稿两分类标签错，正文身份与实际IO正确，外附勘误，不影响379原算法。",
+  "no_B_theme_display_export": true,
+  "default_B155_or_weights_changed": false,
+  "other_traditional_followwang_complete": false,
+  "all_C02_complete": false,
+  "real_prediction_validated": false,
+  "original_task_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

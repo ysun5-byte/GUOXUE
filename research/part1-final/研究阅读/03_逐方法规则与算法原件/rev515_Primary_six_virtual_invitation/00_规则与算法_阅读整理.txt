@@ -1,0 +1,1588 @@
+六肯定虚邀源功能与四D01命题
+rev515_Primary_six_virtual_invitation
+所属原模块：C02
+当前采用：rev537_six_virtual_functions_and_D01_adoption.json
+范围：adopted_exact515174_after53455_with_historical_context_and_IO_reading_notes
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev515_Primary_six_virtual_invitation/function_explanations54.json
+SHA256：6bf39e74a04f928f6304e36412960b3e2417ee64c653576bbd218ca4ee522c5d
+
+1. current.py:ResearchError.__init__
+算法标识：current.py:ResearchError.__init__
+source_identity：{
+  "path": "current.py",
+  "line": 12,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "76fe5c17a69fcce7f30862e13b19f66b73c4db1a6854f5a1f41029beb54d20b8",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='code'), arg(arg='status')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='invalid_input')])"
+}
+算法解释：{
+  "inputs": "code,status=invalid_input",
+  "operations": "保存code/status并调用ValueError构造",
+  "outputs": "正常构造返回None；异常实例保存两个字段",
+  "preconditions_and_limits": "不生成判断结果；CLI据此返回2。",
+  "purpose": "建立当前入口的类型化异常"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "current.py:ResearchError.__init__",
+    "exact_AST_and_module_bytes": false
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:ResearchError.__init__"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+2. current.py:canonical
+算法标识：current.py:canonical
+source_identity：{
+  "path": "current.py",
+  "line": 15,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "JSON兼容value",
+  "operations": "Unicode、键排序、紧凑分隔、allow_nan=False",
+  "outputs": "str，不是UTF8 bytes",
+  "preconditions_and_limits": "Fraction需先pack；并不自行检查来源或业务schema。",
+  "purpose": "确定JSON文本"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "current.py:canonical",
+    "exact_AST_and_module_bytes": false
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:canonical"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+3. current.py:digest
+算法标识：current.py:digest
+source_identity：{
+  "path": "current.py",
+  "line": 18,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "JSON兼容value",
+  "operations": "canonical文本UTF8编码后SHA256",
+  "outputs": "64位hex str",
+  "preconditions_and_limits": "指纹相同只绑定该规范值，不认证文献或历法。",
+  "purpose": "内容指纹"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "current.py:digest",
+    "exact_AST_and_module_bytes": false
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:digest"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+4. current.py:strict_load
+算法标识：current.py:strict_load
+source_identity：{
+  "path": "current.py",
+  "line": 21,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "da43b3c2a785a350bacda9238a86ebe24633bc615f41079312445d885accdadc",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "str，最多2000000字符",
+  "operations": "重复键与非有限常量回调拒绝，json.loads",
+  "outputs": "任意解析JSON值；根schema在evaluate检查",
+  "preconditions_and_limits": "不是单独Unicode scalar/深度校验；后续scalar_tree负责。",
+  "purpose": "当前CLI严格JSON解析"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "current.py:strict_load",
+    "exact_AST_and_module_bytes": false
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:strict_load"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+5. current.py:strict_load.pairs
+算法标识：current.py:strict_load.pairs
+source_identity：{
+  "path": "current.py",
+  "line": 23,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "74625c803e0589b53f87a2feb9cdcb7d8e3fc42a1ad9068a240895a9bafb7550",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "JSON解析器提供的键值序列",
+  "operations": "逐项构造dict，已有键即ResearchError",
+  "outputs": "唯一键dict",
+  "preconditions_and_limits": "仅JSON object回调；不能把覆盖旧键当成功。",
+  "purpose": "拒绝重复键"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "current.py:strict_load.<locals>.pairs",
+    "exact_AST_and_module_bytes": false
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:strict_load.pairs"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+6. current.py:strict_load.constant
+算法标识：current.py:strict_load.constant
+source_identity：{
+  "path": "current.py",
+  "line": 29,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "fce474ceff0a4f04f2983720b398eb25aab021581a761c44251572bf7d5a4a7f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "解析器常量文本",
+  "operations": "总是抛ResearchError(nonfinite_JSON_constant)",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "异常事件加None不是正常结果。",
+  "purpose": "拒绝非有限JSON常量"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "current.py:strict_load.<locals>.constant",
+    "exact_AST_and_module_bytes": false
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:strict_load.constant"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+7. current.py:scalar_tree
+算法标识：current.py:scalar_tree
+source_identity：{
+  "path": "current.py",
+  "line": 32,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "6669becbafcf9720f0f29a1bb6c7866fe60a7ec2a9a4a52d807d93dbd8030723",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='depth')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=0)])"
+}
+算法解释：{
+  "inputs": "value,depth=0",
+  "operations": "深度<=64、dict<=128、list<=512、str<=2000000且无代理码；字符串键；只JSON标量且float有限",
+  "outputs": "成功None；错误ResearchError",
+  "preconditions_and_limits": "不解析UTC或schema，不接受Fraction/tuple等非JSON对象。",
+  "purpose": "当前API JSON树和Unicode约束"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "current.py:scalar_tree",
+    "exact_AST_and_module_bytes": false
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:scalar_tree"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+8. current.py:guard
+算法标识：current.py:guard
+source_identity：{
+  "path": "current.py",
+  "line": 47,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "de8ff2f1a454b31f1e79b6fd3e408c9c3375ea671739af086c73e10775e7eea2",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "在执行任何提供者之前核固定材料",
+  "inputs": "package ROOT/source_execution_lock.json以及32固定材料",
+  "operations": "核硬锁、运行源清单、常规包内文件/无符号链、每件大小SHA、405精确已采用状态；返回已捕获bytes",
+  "outputs": "dict[str,bytes]；任意坏材料先抛ResearchError/OSError，0提供者",
+  "preconditions_and_limits": "只guard返回后compile捕获字节；不从新路径二读运行源。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:guard"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+9. current.py:load
+算法标识：current.py:load
+source_identity：{
+  "path": "current.py",
+  "line": 62,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "name,relative,material",
+  "operations": "新ModuleType，设置__file__，compile并exec material指定字节",
+  "outputs": "该模块对象",
+  "preconditions_and_limits": "仅由evaluate在guard后调用；函数本身不重作guard；模块独立全局避免跨请求配置污染。",
+  "purpose": "执行已核模块字节"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "current.py:load",
+    "exact_AST_and_module_bytes": false
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:load"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+10. current.py:evaluate
+算法标识：current.py:evaluate
+source_identity：{
+  "path": "current.py",
+  "line": 65,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "49686dec6fa729c14d879fd762a390c71c9b4a4ba3eb4220868658aa2105fe11",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "执行一个预选具名虚功能题",
+  "inputs": "精确绑定的schema/method_ref/source_profile/rule/interpretation/chart/binding",
+  "operations": "先guard/JSON树/版本/问题内容绑定，再6捕获模块；旧facts合法性；全库存→源资格→完整实际图/费用/H",
+  "outputs": "完整JSON兼容dict；源拒用仍有实际图，非法四柱抛ResearchError",
+  "preconditions_and_limits": "原古例身份来自固定raw证据，不由caller origin或数值阳性指定；无默认喜用。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:evaluate"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+11. current.py:main
+算法标识：current.py:main
+source_identity：{
+  "path": "current.py",
+  "line": 87,
+  "module_sha256": "5631f6ad3f6be81a7a67f1690efa7fc82479e1b49cb25b2d1d3a965453cae7aa",
+  "AST_sha256": "1f37c1a222653e90bcbbfe8581d061e4680a477cc0cc4c6250f39973c2a2e688",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "最多2000000 UTF8bytes stdin",
+  "operations": "读至2000001检超长；strict_load→evaluate→canonical；捕ResearchError及明确列举异常",
+  "outputs": "成功打印整JSON并返0；硬错打印无部分判断JSON并返2",
+  "preconditions_and_limits": "有效未知exit0；不捕所有BaseException；API自身不统一把所有内部异常改成正常结果。",
+  "purpose": "当前stdin/stdout公开CLI"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "current.py:main",
+    "exact_AST_and_module_bytes": false
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:main"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+12. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 16,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite.",
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:bounded",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:bounded"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+13. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 38,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])"
+}
+算法解释：{
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity.",
+  "purpose": "Require an exact allowed object field set."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:shape",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:shape"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+14. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 43,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation.",
+  "purpose": "Require a nonempty string field."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:string",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:string"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+15. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 48,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema.",
+  "purpose": "Require actual bool instead of truthy/coercible values."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:boolean",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:boolean"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+16. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 53,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+算法解释：{
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate.",
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:validate",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:validate"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+17. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 135,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them.",
+  "purpose": "Check that every declared graph-scope obligation is marked complete."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:closed",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:closed"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+18. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 139,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here.",
+  "purpose": "Determine whether a required actual goal or global check still blocks selection."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:hard_failure",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:hard_failure"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+19. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 144,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes.",
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:repair_candidates",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:repair_candidates"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+20. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 184,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case.",
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:minimal_covers",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:minimal_covers"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+21. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 197,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred.",
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:prefer",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:prefer"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+22. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 206,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker.",
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:preference_frontier",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:preference_frontier"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+23. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 224,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "基础结果含version/semantic_scope/positive_current_tasks、输入投影actors/tasks/goals/checks对应保留项、repair/needed_absent/luck/selected/common/final/B/warning；各分支添status；无目标添background，活跃目标另添coverage/allminimal/preference/frontier。不返回schema/mode/scope或full_native_graph。当前完整投影由外层current.frames[i].calculation.native_H.full_native_graph保；完整物理图另在current.frames[i].calculation.actual_full_world.actual_signed_graph。",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.",
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:select",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:select"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+24. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 272,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs.",
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:strict_pairs",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：null
+execution_status：515未执行，精确保留旧契约；不冒新IO
+current_context：本版当前入口只用pool.inventory，其余旧pool解算/H函数保源模块但不作为本版producer；旧aux独立CLI/strict未由本版调用。
+
+25. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 280,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite.",
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:reject_constant",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：null
+execution_status：515未执行，精确保留旧契约；不冒新IO
+current_context：本版当前入口只用pool.inventory，其余旧pool解算/H函数保源模块但不作为本版producer；旧aux独立CLI/strict未由本版调用。
+
+26. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "path": "runtime/auxiliary_selector.py",
+  "line": 284,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main.",
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol."
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/auxiliary_selector.py:main",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：null
+execution_status：515未执行，精确保留旧契约；不冒新IO
+current_context：本版当前入口只用pool.inventory，其余旧pool解算/H函数保源模块但不作为本版producer；旧aux独立CLI/strict未由本版调用。
+
+27. runtime/element_pool.py:inventory
+算法标识：runtime/element_pool.py:inventory
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 9,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "5cdf8387d2fe6337a0eacda26e1f65c17a179960b5c92885df5456587703fb67",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "完整parsed及指定b/c参数",
+  "operations": "逐明藏根证：同元素各支主列1余列1/4月3/2、每明干浮源1；同元素同origin最大聚合；每演员根证总和归一作分配权重",
+  "outputs": "actors/direct/weights/parsed/params",
+  "preconditions_and_limits": "主余权重是工程结构权重，非司令/任土12宫。共池分配不是演员局部库存。",
+  "purpose": "保明藏全部实体并形成phase-free任务库"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/element_pool.py:inventory",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/element_pool.py:inventory"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+28. runtime/element_pool.py:coefficients
+算法标识：runtime/element_pool.py:coefficients
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 37,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "615b03099456f6f43f080508f3ebca37ed456b3adfc8b9293122fc5299b9e1fd",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "base直接库与参数b,c",
+  "operations": "b,c∈(0,1/3]；无实体目标不接收/不预留该输出；a_i=1+b*生目标存在+c*克目标存在；K目标行生正克负除a；行和L核<1",
+  "outputs": "b,c,present,a,K,L",
+  "preconditions_and_limits": "每个正负发送与成本均读同一个解；预留全部控制容量不因目标被耗尽回收。",
+  "purpose": "声明同current全生克预算"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/element_pool.py:coefficients",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：null
+execution_status：515未执行，精确保留旧契约；不冒新IO
+current_context：本版当前入口只用pool.inventory，其余旧pool解算/H函数保源模块但不作为本版producer；旧aux独立CLI/strict未由本版调用。
+
+29. runtime/element_pool.py:solve
+算法标识：runtime/element_pool.py:solve
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 50,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "b7e9b32624c59cd4352eef349c857cce8326f350acb8704cdbf52ff0892ab382",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "base/math.gauss",
+  "operations": "枚举32活跃面；解(I-K_AA)x=v；非活跃0；对全部五行max方程精确有理代入、非负才收；结合全域L<1唯一",
+  "outputs": "current、coefficients、活跃面与证书",
+  "preconditions_and_limits": "全有理无浮点suggestion；缺实体坐标夹0；不生成不存在金等演员。",
+  "purpose": "精确求唯一五行任务状态"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/element_pool.py:solve",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：null
+execution_status：515未执行，精确保留旧契约；不冒新IO
+current_context：本版当前入口只用pool.inventory，其余旧pool解算/H函数保源模块但不作为本版producer；旧aux独立CLI/strict未由本版调用。
+
+30. runtime/element_pool.py:origin_ports
+算法标识：runtime/element_pool.py:origin_ports
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 64,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "70baff7d919978b41bdcf3d715947a428e61ade1f4c704d6a20210e991c29261",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "base/world/math",
+  "operations": "gross_i=d_i+b*x_parent(须目标存在)；rho=x/gross；多右端解o_i=rho_i(d_i,o+b*o_parent)；逐origin非负/方程/和=x断言",
+  "outputs": "pools/gross/retention与L",
+  "preconditions_and_limits": "控制不把被克元素转换为克者；成本与克损同比耗用毛入。origin代表工程资格输入，不是物理分子守恒。",
+  "purpose": "在同解上分清所有库存来源"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/element_pool.py:origin_ports",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：null
+execution_status：515未执行，精确保留旧契约；不冒新IO
+current_context：本版当前入口只用pool.inventory，其余旧pool解算/H函数保源模块但不作为本版producer；旧aux独立CLI/strict未由本版调用。
+
+31. runtime/element_pool.py:reconstruct
+算法标识：runtime/element_pool.py:reconstruct
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 77,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "64dd281189586e10828753327a067962357487735b0575f3a23e10f60c30256e",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "同一base/world/ports",
+  "operations": "actorports=权重*元素origin池；遍历所有真实演员，生/克每对按b或c及目标权重发送；gross=x+gen预算+control预算+实际克损逐项核",
+  "outputs": "全部actorports、全部有向生克边、五库存账、形式关系",
+  "preconditions_and_limits": "0现量演员仍在；容量超目标部分另记。没有跨不同world拼正负，也不删除未选包。",
+  "purpose": "还原每个演员每origin全部发送与消耗"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/element_pool.py:reconstruct",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：null
+execution_status：515未执行，精确保留旧契约；不冒新IO
+current_context：本版当前入口只用pool.inventory，其余旧pool解算/H函数保源模块但不作为本版producer；旧aux独立CLI/strict未由本版调用。
+
+32. runtime/element_pool.py:native_H
+算法标识：runtime/element_pool.py:native_H
+source_identity：{
+  "path": "runtime/element_pool.py",
+  "line": 103,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "56fe1b2195732cc356eec3de8c69bc229643a286f00fa631b5b0090371617c2d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='logic'), arg(arg='aux'), arg(arg='actual_met')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "base/完整logic/原AUX/实际目标是否满足",
+  "operations": "CNF按最多18goal/100tasks分块；每块存完整输入图并调用原select；AND各块的所有局部OR，枚举并集再最小化；与独立全H断言相等",
+  "outputs": "bounded_native_parts及全部最小并集",
+  "preconditions_and_limits": "原AUX源码不改；full_native_graph由此adapter保存，select本身不返schema/mode/scope。原AUX B字段恒未接产品。",
+  "purpose": "接原native选择器且保全部OR"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/element_pool.py:native_H",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：null
+execution_status：515未执行，精确保留旧契约；不冒新IO
+current_context：本版当前入口只用pool.inventory，其余旧pool解算/H函数保源模块但不作为本版producer；旧aux独立CLI/strict未由本版调用。
+
+33. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。",
+  "purpose": "十干查五行"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/foundation_facts.py:stem_element",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+34. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。",
+  "purpose": "严格十神角色"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/foundation_facts.py:ten_god",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+35. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。",
+  "purpose": "原柱基础合法性"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/foundation_facts.py:validate",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+36. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "historical_note": "旧K2尾注全文仅在原428合同引用保，不充当前原吴作用规则。",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。本原吴木三合与午未有限源消费在scope，保原藏而不自动合化或删根。",
+  "purpose": "保留有位置的形式合冲"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/foundation_facts.py:formal_relations",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+37. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/foundation_facts.py:root_evidence",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+38. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "path": "runtime/foundation_facts.py",
+  "line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。",
+  "purpose": "原61完整四柱事实入口"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/foundation_facts.py:parse",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+39. runtime/legacy_source_paths.py:real_inventory
+算法标识：runtime/legacy_source_paths.py:real_inventory
+source_identity：{
+  "path": "runtime/legacy_source_paths.py",
+  "line": 2,
+  "module_sha256": "04baf60dd535710aa06b5a2ffb49fefb3ac2186ad6546c8ce41273e2c526dfc4",
+  "AST_sha256": "3e4af613d9913d08bce3df79d4d90f00f4e0d654e900f89d91ebe3f2b3c19f7b",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "保持全部真实演员",
+  "inputs": "已合法解析facts",
+  "operations": "每柱明干与全部真实藏干各列一项，保位置；不接虚邀分支或加根量。",
+  "outputs": "真实演员list；此处无强弱判断",
+  "preconditions_and_limits": "精确405/397源路径旧契约；本版单独新实际图/许可另列，不修改旧一明财未决。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact397_algorithm_explanations.json",
+    "record": "real_inventory",
+    "exact_AST": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_source_paths.py:real_inventory"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+40. runtime/legacy_source_paths.py:inspect_conditions
+算法标识：runtime/legacy_source_paths.py:inspect_conditions
+source_identity：{
+  "path": "runtime/legacy_source_paths.py",
+  "line": 16,
+  "module_sha256": "04baf60dd535710aa06b5a2ffb49fefb3ac2186ad6546c8ce41273e2c526dfc4",
+  "AST_sha256": "c8c6540889c924a86cbd51d007dae99c6634fffae61b7756e4140c209dfdd2c3",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "裁本来源的路径条件",
+  "inputs": "已机械合法四柱",
+  "operations": "按日干、月支、已现官杀、完整三支、额外实支、明透财的预定次序分流。",
+  "outputs": "(status,reason)；待研究与明确本条排除分别记录",
+  "preconditions_and_limits": "精确405/397源路径旧契约；本版单独新实际图/许可另列，不修改旧一明财未决。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact397_algorithm_explanations.json",
+    "record": "inspect_conditions",
+    "exact_AST": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_source_paths.py:inspect_conditions"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+41. runtime/legacy_source_paths.py:virtual_paths
+算法标识：runtime/legacy_source_paths.py:virtual_paths
+source_identity：{
+  "path": "runtime/legacy_source_paths.py",
+  "line": 33,
+  "module_sha256": "04baf60dd535710aa06b5a2ffb49fefb3ac2186ad6546c8ce41273e2c526dfc4",
+  "AST_sha256": "c74641736391ea849512ea7a34545e9d361f04a34c3c481ce59b7e8698ccfddc",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "列明三条虚邀主张",
+  "inputs": "已通过限定路径条件的raw",
+  "operations": "申→寅财、子→午官、辰→戌印，只记录真实源位置及对象类别，不添加目标藏干。",
+  "outputs": "三条虚路径；actual_actor/root/quantity均None",
+  "preconditions_and_limits": "精确405/397源路径旧契约；本版单独新实际图/许可另列，不修改旧一明财未决。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact397_algorithm_explanations.json",
+    "record": "virtual_paths",
+    "exact_AST": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/legacy_source_paths.py:virtual_paths"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+42. runtime/shared_exact.py:pack
+算法标识：runtime/shared_exact.py:pack
+source_identity：{
+  "path": "runtime/shared_exact.py",
+  "line": 3,
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Fraction/字典/序列/集合等",
+  "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+  "outputs": "转换后的值",
+  "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。",
+  "purpose": "将数学结构转为可重复JSON兼容值"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/shared_exact.py:pack",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/shared_exact.py:pack"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+43. runtime/shared_exact.py:gauss
+算法标识：runtime/shared_exact.py:gauss
+source_identity：{
+  "path": "runtime/shared_exact.py",
+  "line": 10,
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "n×n有理系数及n行多列右端",
+  "operations": "逐列选非零枢轴、归一、消去其他行",
+  "outputs": "有理数解矩阵；奇异报ArithmeticError",
+  "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。",
+  "purpose": "精确多右端线性消元"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[
+  {
+    "artifact": "reference/exact445_function_explanations105.json",
+    "record": "runtime/shared_exact.py:gauss",
+    "exact_AST_and_module_bytes": true
+  }
+]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/shared_exact.py:gauss"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+44. runtime/virtual_functions.py:channel
+算法标识：runtime/virtual_functions.py:channel
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 7,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "f5b0dfdca563ac49aa3f6b98a266f81a41f5d37309ce13c3ec43afdce893384e",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='ids'), arg(arg='roots'), arg(arg='element'), arg(arg='claim')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "把源所取虚功能与实际源载体分账",
+  "inputs": "通道名、实际actor IDs、真实根origins、源元素、源虚功能claim",
+  "operations": "组装强类型通道，目标actor/root/quantity始终None、新藏干空",
+  "outputs": "channel dict",
+  "preconditions_and_limits": "不是虚元素presence/ROOT，服务信用另列actual源预算。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:channel"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+45. runtime/virtual_functions.py:source_admission
+算法标识：runtime/virtual_functions.py:source_admission
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 11,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "9d8d2a5e6ca111c5643920706d65ae90119af80a7955f6d86ce1aa4772e25e21",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='base'), arg(arg='rule'), arg(arg='interpretation'), arg(arg='profile'), arg(arg='facts'), arg(arg='legacy')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "完整六源前件、失效和月门/实财官优先",
+  "inputs": "合法raw、完整base、具名rule/interpretation/profile、旧facts和3纯legacy函数",
+  "operations": "先具体源型/填实破源；M1固定古例/M2同干月主有限准入；明官杀/两财/一财深根；癸两口径分存；保所有形式关系和普通候选",
+  "outputs": "ready bool/channels/reasons/月证据/书中明确所取虚财官/疑字与优先记录",
+  "preconditions_and_limits": "M2不等月令事实上无用；非同字异干照常生克；D01四项只拒独立吉格，不替普通整盘结论。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:source_admission"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+46. runtime/virtual_functions.py:inventory
+算法标识：runtime/virtual_functions.py:inventory
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 80,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "98d8c6b4984ab5722b3a28b57a3247d68173592ac37b9780c91d7e6047bc874e",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "保所有真实演员和原日真实根",
+  "inputs": "合法parsed、generation/control参数、精确445pool模块",
+  "operations": "原445库存/去重origin/权重照用，保原日float；清选择标记、存原日element/真实根",
+  "outputs": "完整base dict，Fraction保内部",
+  "preconditions_and_limits": "不沿505化气题去日float；本源不存在的虚财官无演员/根/初量。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:inventory"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+47. runtime/virtual_functions.py:coefficients
+算法标识：runtime/virtual_functions.py:coefficients
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 86,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "5f7887823694751c3f849607806c7874780d1e496acb1b2270fb65d45fc9cfc5",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='source'), arg(arg='fee_on')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "把实际源服务费加入共同池费用",
+  "inputs": "base、source资格、fee_on bool",
+  "operations": "literal演员presence；b/c发送费；每个实际源演员只一次c*weight并按元素聚合，加入a_i；核全图L<1",
+  "outputs": "b/c,present,a,K,L,source IDs/weights",
+  "preconditions_and_limits": "来源不合时服务费0，但全部实际实体生克仍在；服务费非古典定量。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:coefficients"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+48. runtime/virtual_functions.py:solve
+算法标识：runtime/virtual_functions.py:solve
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 100,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "d85bc143401e8958f8623b4dbf5b2d2709ee21f73432e0c678f9209249246ebb",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='source'), arg(arg='math'), arg(arg='fee_on')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=True)])"
+}
+算法解释：{
+  "purpose": "精确解含全部真实控制/成本的唯一现量",
+  "inputs": "base/source、旧精确math、fee_on",
+  "operations": "枚举32活跃面，用旧Gauss解；逐一代回x=max(0,d/a+Kx)，核非负和L<1",
+  "outputs": "world(current/coefficients/active face/证书)",
+  "preconditions_and_limits": "服务费只消费真实源，不产生虚目标；控制到0不表示原实体不在。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:solve"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+49. runtime/virtual_functions.py:origin_ports
+算法标识：runtime/virtual_functions.py:origin_ports
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 112,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "fd566309c0922fdb038d6c8ecd8eb5b7ba980afe41b7512f39c9dd83b46803ed",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "保同一实际世界的全部真实源归因",
+  "inputs": "base、已解world、旧math",
+  "operations": "gross=direct+b*parent；rho=x/gross；Gauss解p_i=rho_i*(direct_i+b*p_parent)，逐来源/总和核对",
+  "outputs": "pools/gross/retention",
+  "preconditions_and_limits": "来源仅原实际direct，虚origin空；工程共同池归因不是每演员局部测量力。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:origin_ports"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+50. runtime/virtual_functions.py:actual_effects
+算法标识：runtime/virtual_functions.py:actual_effects
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 122,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "ada42d8e940c4e453549cf03f391efd040e9de17e25da886877ea98a2ba7a9c8",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "重建所有正负边、钳位与发送/服务费预算",
+  "inputs": "base/world/origin_ports",
+  "operations": "每真实发送者对所有生/克接收者按权重分；控制按目标min(gross,attack)同比钳位；每actor每origin列生/克/源服务；五池守恒",
+  "outputs": "所有边、actor来源、费用、五账本",
+  "preconditions_and_limits": "克的正数是控制容量/损耗，不是有益；任何H不删除相反作用或成本。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:actual_effects"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+51. runtime/virtual_functions.py:complete_goals
+算法标识：runtime/virtual_functions.py:complete_goals
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 148,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "df524e2941383b42d45ac20e0c0f25c8a886091c99c2e4a6839c29f869a8084f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='source'), arg(arg='actual'), arg(arg='credit_on')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=True)])"
+}
+算法解释：{
+  "purpose": "对具名虚功能许可证书判完整充分条件",
+  "inputs": "固定base/source/actual、credit_on",
+  "operations": "源成立、原日现量/真实根存活、retention>1/5、原日量>全部服务费；每路实际源服务信用按通道数分且有指定根；列current/32门",
+  "outputs": "all_hard_checks/routes/ids/total_service_cost",
+  "preconditions_and_limits": "阈值是工程充分域；同费用credit-off物理不变但许可失败；不是虚官实体克金等物理收益。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:complete_goals"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+52. runtime/virtual_functions.py:complete_H
+算法标识：runtime/virtual_functions.py:complete_H
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 165,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "ae7f7d2849211a62bb6eff4dd74b7c043cefe9b9dc1f8b3372349c5ee75943ae",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='goal')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "不漏任一最小实际支持替代",
+  "inputs": "固定goal而非删除实体后的反事实盘",
+  "operations": "枚举全部源候选子集；各路合计credit>0且>=floor、入选者指定根正；硬条件AND；保最小H和最大失败CNF",
+  "outputs": "全部真值行、最小H、CNF、mask count",
+  "preconditions_and_limits": "门作用于每通道所选aggregate，不是每演员均达到1/32；井栏三通道共同需要。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:complete_H"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+53. runtime/virtual_functions.py:native_H
+算法标识：runtime/virtual_functions.py:native_H
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 178,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "1fa059b34a08973d775a1b70c72af34dca9bd5d69725c0812e5b2aa08b5c9e09",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='goal'), arg(arg='logic'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "接原生辅助求解并逐mask核等价",
+  "inputs": "base/goal/logic、精确旧aux",
+  "operations": "选全部实际可选源+每真实元素见证；实际硬门与精确CNF转原生图；调用aux.select且逐mask比真值",
+  "outputs": "完整原生图/原生结果/等价数",
+  "preconditions_and_limits": "投影仅缩非选择者，完整实际负面图另存；不冒全传统最终喜用。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:native_H"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+
+54. runtime/virtual_functions.py:analyze
+算法标识：runtime/virtual_functions.py:analyze
+source_identity：{
+  "path": "runtime/virtual_functions.py",
+  "line": 195,
+  "module_sha256": "29f376257ef78d73f78f6faaf0ac39686809f2056585b0fe96fb52f5c99ae870",
+  "AST_sha256": "d23e2fe6f90ccf5501a7e9d3fe5370da32ffc344ca0a1a63b3f03725f47bbafb",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='source'), arg(arg='math'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "输出实际轴与功能轴完整研究结论",
+  "inputs": "base/source、math/aux",
+  "operations": "实际有费与去费两世界各全解/归因/边账；同费credit-off；完整目标/H/native；附本书结论与已消费条件",
+  "outputs": "完整具名许可证书/失败、相反作用/费用、所有替代",
+  "preconditions_and_limits": "没有虚实体物理增益；D01拒名/已知源失败和资料未知分开，不接B/主题/显示。"
+}
+来源层次：具体原文前件见10规则卡；数值服务费/根量/充分门/求解与H是工程约定，不是古典数值或预测验证
+exact_old_contract_reference：[]
+actual_515_IO_reference：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/virtual_functions.py:analyze"
+}
+execution_status：515真实调用/输入/返回收据
+current_context：本版完整井栏/朝阳/API/CLI真实调用；参数若是运行module以验证源身份记录，不冒模块全成员JSON序列化。
+

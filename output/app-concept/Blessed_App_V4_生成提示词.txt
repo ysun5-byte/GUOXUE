@@ -1,0 +1,23 @@
+生成工具：内置 imagegen（编辑模式）
+版本：V4
+日期：2026-11-02
+本轮修改：单人首页今日喜用、木火标签与喜用形态合并到同一个圆角框内。
+
+最终编辑提示词：
+
+Use case: precise-object-edit / ui-mockup.
+Edit this supplied Blessed V3 three-phone UI concept board with ONE small targeted layout change on the LEFT phone.
+
+User request: Put "今日喜用" and "喜用形态" together INSIDE THE SAME BOX.
+
+Implement precisely:
+- Replace the current small rounded outline around ONLY the '今日喜用' row with ONE larger, continuous rounded rectangular outline encompassing BOTH that entire row AND the entire '喜用形态' section below it.
+- Inside this single unified card, top row remains '今日喜用' + the green 木 and peach 火 chips + info icon + chevron. Below an optional subtle horizontal internal divider, show the '喜用形态' label and the same green/orange particle-cloud visualization.
+- There must be ONE outer card border for the whole group, not two separately framed cards, not a nested outline. The frame must visibly wrap all the text, chips, and the complete favorable-element particle cloud.
+- Align the card's left and right edges with the upper full-width information card. Use the same refined warm-gray thin border and softly rounded corners. Keep a white or extremely subtle warm-white fill, comfortable interior padding. Approximate reference image coordinates: x=100–494, y=605–818. Give the particle artwork enough lower padding to stay fully INSIDE the frame.
+- Keep '生辰八字' OUTSIDE this new card, directly below it. Keep bottom navigation untouched.
+- Keep the exact same favorable-element particle shape and color. Slightly adjust spacing within this lower-left group only if needed for card padding.
+- Do NOT add any new copy. Do NOT reintroduce '今日解读'.
+
+INVARIANTS: Preserve all other content and layout: the left phone's top framed time/location/quote card, '我的形态' black cloud and controls; preserve the ENTIRE middle phone and ENTIRE right phone exactly; preserve brand heading, board footer, all labels, phone outlines, shadows, three-phone composition, 3:2 image aspect ratio and typography. This is a simple enclosing-frame edit, not a redesign. Keep all phones fully visible, white backgrounds, no annotations, no extra objects.
+

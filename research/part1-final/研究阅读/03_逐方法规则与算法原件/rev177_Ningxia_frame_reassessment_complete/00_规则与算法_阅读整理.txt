@@ -1,0 +1,2310 @@
+宁夏2019具名文化框架
+rev177_Ningxia_frame_reassessment_complete
+所属原模块：C04
+当前采用：rev188_NX2019_project_adoption.json
+范围：原刊书目与实际转载正文支持现代宁夏具名文化解释；商周雍州名称接三命雍水为明示工程桥。仅采用精确新版本，旧宁夏部分覆盖及点版本不变，不补写禹贡。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev177_Ningxia_frame_reassessment_complete/docs/algorithm_index.json
+SHA256：c521a3a171cbbecad9732a5d383b956ec4f09d48b4057308ad8235b0ef8c7492
+
+{
+  "algorithm_rows": 49,
+  "inherited_runtime_groups": 13,
+  "new_auxiliary_rows": 36,
+  "actual_current_wrapper_IO": 43,
+  "original_mathematical_proofs_reused_not_new": true,
+  "source_name_bridge_engineering": true,
+  "empirical_validated": false
+}
+原件：work/rev177_Ningxia_frame_reassessment_complete/docs/native_region_lookup_v0_11_算法说明.json
+SHA256：749d80726aeba0cd1a0f218ce2f64062b1dbdf09d073c759366f63777f1bd780
+
+1. NRL01
+算法标识：NRL01
+title：严格JSON、规范摘要与全部固定字节先核
+输入：[
+  "原JSON请求",
+  "全部锁定依赖及lock"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "拒重复键/非有限数",
+  "精确字段与trimmed字符串",
+  "先读全量固定字节逐SHA核，再严格读JSON，最后exec已核旧源码",
+  "额外固定3份SC研究来源原文文件；全部active固定来源字节先核。旧lookup1完整33文件字节历史另存并由只读runner逐SHA核，不执行为新产品结果。"
+]
+why_calculated_this_way：摘要保证内容一致和来源绑定，不认证史地/原典真值；后项坏字节不能在旧源码已执行后才发现。
+basis_nature：engineering_contract
+输出：[
+  "合法请求/固定pack或硬拒"
+]
+does_not_guarantee：[
+  "不认证来源真值"
+]
+error_and_unknown_boundaries：[
+  "缺文件、错锁、错SHA不降unknown"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_11/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.11",
+    "file_sha256": "057fbbb13df7fc65d74aab415f80231dc621e4cc8262a2e3b7a3dfa4b638245d",
+    "symbols": [
+      {
+        "name": "ContractError.__init__",
+        "start_line": 25,
+        "end_line": 27,
+        "ast_sha256": "dd04c55d3678e6a8bb7882537b1a6d54576f77b7fafdd0ab001d0dce6f4d8ecf"
+      },
+      {
+        "name": "canonical",
+        "start_line": 30,
+        "end_line": 31,
+        "ast_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+      },
+      {
+        "name": "digest",
+        "start_line": 34,
+        "end_line": 35,
+        "ast_sha256": "d1bfb3c39d40eba325f5da0764662786680743ab0388fe32af4efd8099a44305"
+      },
+      {
+        "name": "load_request",
+        "start_line": 38,
+        "end_line": 50,
+        "ast_sha256": "6f3267e06bcbc0717041eadb164bf7d343fa619777c150aa22165d95d3dfc6bc"
+      },
+      {
+        "name": "obj",
+        "start_line": 53,
+        "end_line": 55,
+        "ast_sha256": "989aa118169da160b901865ae4adf045b39b017658ee7c461f22925bd48c68c0"
+      },
+      {
+        "name": "text",
+        "start_line": 58,
+        "end_line": 60,
+        "ast_sha256": "66ca2edce8b2468b7108d13a12cc846898c2a31b6615a9ef4b599ddcfa86f34b"
+      },
+      {
+        "name": "sha",
+        "start_line": 63,
+        "end_line": 65,
+        "ast_sha256": "cc8ff88fe3d5c7b222a0cfea4b57261d7a002e5c45d3c4c70ccf8fe08f3b53ce"
+      },
+      {
+        "name": "check_ref",
+        "start_line": 72,
+        "end_line": 77,
+        "ast_sha256": "b8794b7fb54d10430318f94866d7167558b6207bcc4ddccd8ad511bfcdb16bb9"
+      },
+      {
+        "name": "region_ref",
+        "start_line": 80,
+        "end_line": 84,
+        "ast_sha256": "74d75c9225f648e78c4ba197f31f9dba9f5ee23510a1abb4e560ef9adab68197"
+      },
+      {
+        "name": "load_pack",
+        "start_line": 87,
+        "end_line": 107,
+        "ast_sha256": "ce0055d41252198afef38d97638af592075dba2fddbc0be38787c6e560789bbf"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+2. NRL02
+算法标识：NRL02
+title：完整来源、点与typed identity绑定
+输入：[
+  "完整固定sources/points/records"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "所有提供来源包括未用来源先验",
+  "完整source_ref解引用",
+  "点SHA与R5完整SHA绑定，typed同kind/namespace/id/version变内容拒",
+  "新active catalog的旧sources/records/points逐对象等旧版前缀，后缀逐对象等冻结SC raw草案；不把草案原先未执行标记改写为过去已执行。"
+]
+why_calculated_this_way：未命中地区不能跳坏未选记录；点可用性与史地归属不同轴。
+basis_nature：engineering_content_binding
+输出：[
+  "全量合法身份/refs或原子硬拒"
+]
+does_not_guarantee：[
+  "不认证reviewed/完整性宣言为事实",
+  "不承诺跨运行注册"
+]
+error_and_unknown_boundaries：[
+  "坏unused point/source也拒，合法CRS未知是点语义未定"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_11/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.11",
+    "file_sha256": "057fbbb13df7fc65d74aab415f80231dc621e4cc8262a2e3b7a3dfa4b638245d",
+    "symbols": [
+      {
+        "name": "ref",
+        "start_line": 68,
+        "end_line": 69,
+        "ast_sha256": "a1bfb032661c13fa073f9f1a98e966bbffecc2ba8d2a74ea4dafd8a997c505dd"
+      },
+      {
+        "name": "validate_point",
+        "start_line": 137,
+        "end_line": 168,
+        "ast_sha256": "4927ecb22b1384d72862efc592f9381316a3a08bd0b29db82c21be168b93aa10"
+      },
+      {
+        "name": "validate_catalog.guard",
+        "start_line": 187,
+        "end_line": 196,
+        "ast_sha256": "a6b56341c807fe2ff487b8318f934e119ca6aa375adc19e191c13f2c2f1b82db"
+      },
+      {
+        "name": "validate_catalog.source_refs",
+        "start_line": 210,
+        "end_line": 220,
+        "ast_sha256": "7b33b54676a9fe46a3ac0ae95dcead34258bb68d169b9cbe07b73e66d1127595"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+3. NRL03
+算法标识：NRL03
+title：每条完整Rn原请求实际执行
+输入：[
+  "全部目录原Rn请求/target R7/请求SHA"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "先核wrapper与原目标全文",
+  "真实旧evaluate处理全部原始evidence",
+  "不按将选地区裁剪，不消费给定ready",
+  "原生hard error整体拒，unknown/ambiguous保留"
+]
+why_calculated_this_way：沿用冻结Rn原约束，防止选择湖南时隐藏江苏坏请求；全源来源推论仍与产品采用分层。
+basis_nature：actual_fixed_native_execution
+输出：[
+  "完整实际原生报告及执行trace"
+]
+does_not_guarantee：[
+  "标量资料不证明整评估窗",
+  "不认证古今实际界址"
+]
+error_and_unknown_boundaries：[
+  "Rn跨元素不私选/均分；未审和缺覆盖仍未定"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_11/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.11",
+    "file_sha256": "057fbbb13df7fc65d74aab415f80231dc621e4cc8262a2e3b7a3dfa4b638245d",
+    "symbols": [
+      {
+        "name": "validate_catalog",
+        "start_line": 171,
+        "end_line": 295,
+        "ast_sha256": "00344c66835dc6a1f0dcc4e569f47146155dd88688c9dbb401ce774b0148e918"
+      }
+    ]
+  },
+  {
+    "path": "runtime/native_region_lookup_v0_11/vendor/region_evidence_catalog.py",
+    "module_relative_path": "vendor/region_evidence_catalog.py",
+    "module_version": "region-evidence-catalog-0.1",
+    "file_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 260,
+        "end_line": 301,
+        "ast_sha256": "eceecaf04a472d5e8df7e8a26142f3f74b22ff122f8c36b5e2276773a78b90ef"
+      },
+      {
+        "name": "evaluate_coverage",
+        "start_line": 172,
+        "end_line": 257,
+        "ast_sha256": "b30c90c2b46934eb2cc209b48db9dcfc68a01e643a2cca5b982a94b32bb09da8"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+4. NRL04
+算法标识：NRL04
+title：精确命名地区身份与版本薄查询
+输入：[
+  "普通namespace/id/version"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "全目录成功校验后再精确查key",
+  "匹配返回完整R7与确切era/scope",
+  "错版仅列可见版本不私选",
+  "未收录不当无影响或零"
+]
+why_calculated_this_way：普通caller不用自找史地数据库；产品明确配置版本，软件不得暗选最高版改变命名范围。
+basis_nature：version_exact_catalog_lookup
+输出：[
+  "region_found/version_not_found/not_found及独立原生轴"
+]
+does_not_guarantee：[
+  "3试点不等全国覆盖",
+  "region_found不等Rn/点均ready"
+]
+error_and_unknown_boundaries：[
+  "错namespace/错版不复用另一领土范围",
+  "SC版本只承载2019全境叙述+MCA2024名码的明列项目identity解释，不宣称2026省界或各年代边界恒等。"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_11/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.11",
+    "file_sha256": "057fbbb13df7fc65d74aab415f80231dc621e4cc8262a2e3b7a3dfa4b638245d",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 313,
+        "end_line": 368,
+        "ast_sha256": "091e53ee61341d18033cd2148896f65161ee703402227a9f5dffbd7c1af37097"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+5. NRL05
+算法标识：NRL05
+title：代表点数据独立输出
+输入：[
+  "项目选定点、R5和提供者CRS/来源"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "按固定R2同样type/trim/十进制regex/finite/range门原样核坐标，不清洗或重写；空格/下划线数值串硬拒",
+  "只WGS84且含义已声明、坐标齐才数据available",
+  "缺点或语义未知不抹掉Rn",
+  "不解算两点方向或C0",
+  "SC返回成都GeoNames1815286 PPLA原WGS84 30.66667/104.06667；FIPS32非国标510000。与HN点一起实际经冻结R2 validate_point/resolve_location/calculate兼容回放，方向结果仅独立研究回放，不改变public lookup的Rr/C0/lease=null。"
+]
+why_calculated_this_way：来源给长沙地名点，项目选择其承载湖南粗地区；二者不是全省真实方向/出生位置。
+basis_nature：declared_project_proxy_plus_primary_dataset
+输出：[
+  "point_available/no_record/point_semantically_undetermined"
+]
+does_not_guarantee：[
+  "不是个人位置",
+  "同坐标不同地区不证明C0",
+  "不静改CGCS2000为WGS84"
+]
+error_and_unknown_boundaries：[
+  "坏绑定仍整包硬拒，合法未知只影响点轴",
+  "Decimal可解析不等R2可接收；词法坏值为invalid_input，不降point未知或available"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_11/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.11",
+    "file_sha256": "057fbbb13df7fc65d74aab415f80231dc621e4cc8262a2e3b7a3dfa4b638245d",
+    "symbols": [
+      {
+        "name": "point_status",
+        "start_line": 110,
+        "end_line": 118,
+        "ast_sha256": "8094673ea06d5a433a83c8e05cc9e74ec9e04f3bf02b1da49d67be3a2a885c9c"
+      },
+      {
+        "name": "validate_point",
+        "start_line": 137,
+        "end_line": 168,
+        "ast_sha256": "4927ecb22b1384d72862efc592f9381316a3a08bd0b29db82c21be168b93aa10"
+      },
+      {
+        "name": "validate_coordinate",
+        "start_line": 121,
+        "end_line": 134,
+        "ast_sha256": "7ccbefd4abfdb6433ae0285e1f73c2447e1f046030f72ce66a783f328fcedb25"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+6. NRL06
+算法标识：NRL06
+title：原报告保留、研究边界和只读CLI
+输入：[
+  "实际API报告和原请求文件"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "逐轴保留原生candidate/unknown/ambiguous及全文ref",
+  "不创建产品采纳/lease/库存/B/Rr",
+  "CLI硬错误退出2，其余实际查询结果退出0"
+]
+why_calculated_this_way：承认有界正常Rn资料已算通，同时不把资料审阅/推论和软件SHA冒充产品采用或传统效力。
+basis_nature：research_boundary_and_replay
+输出：[
+  "完整JSON及可回放状态"
+]
+does_not_guarantee：[
+  "不升C04分数",
+  "无自然UTC效力",
+  "不计算最终喜用"
+]
+error_and_unknown_boundaries：[
+  "非法JSON独立拒绝，不生成ready摘要"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_11/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.11",
+    "file_sha256": "057fbbb13df7fc65d74aab415f80231dc621e4cc8262a2e3b7a3dfa4b638245d",
+    "symbols": [
+      {
+        "name": "empty_report",
+        "start_line": 298,
+        "end_line": 310,
+        "ast_sha256": "772010d33c85fba62f3224ab8463018b61508de59cf9667ecc8481b1e00292ee"
+      },
+      {
+        "name": "main",
+        "start_line": 371,
+        "end_line": 382,
+        "ast_sha256": "98680ba180450896340e390aaa6160028a48b0d2b4c25585f2deae62d24a223f"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+原件：work/rev177_Ningxia_frame_reassessment_complete/docs/new_NX_data_and_auxiliary_algorithms.json
+SHA256：9303f33c1a646ecc5a9d3042b35a8e61b1451cdbaa9240b866404e157de8834b
+
+1. build_increment.py:read
+算法标识：build_increment.py:read
+输入：本地固定JSON
+steps_why_and_outputs：读完整内容，无自动latest或默认空表。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "82b0ba4196b9d0b3ff38f1b7fb96c7e7b12f1dccc95f0006b904693540ee85eb",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "read",
+        "start_line": 15,
+        "end_line": 15,
+        "ast_sha256": "165365da25c105273b069e139db74406526caba3b4ae1c2885a35919c4ebf7fe"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+2. build_increment.py:write
+算法标识：build_increment.py:write
+输入：作者目录的新路径与JSON对象
+steps_why_and_outputs：UTF8确定性写，禁止NaN，不回写旧冻件。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "82b0ba4196b9d0b3ff38f1b7fb96c7e7b12f1dccc95f0006b904693540ee85eb",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "write",
+        "start_line": 18,
+        "end_line": 20,
+        "ast_sha256": "89c37d097b2694b8c229e2dbe42b8672e915dc29e6a4bd202a10b86884d428b8"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+3. build_increment.py:sha
+算法标识：build_increment.py:sha
+输入：真实文件字节
+steps_why_and_outputs：SHA256内容绑定，非原HTML或来源真值。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "82b0ba4196b9d0b3ff38f1b7fb96c7e7b12f1dccc95f0006b904693540ee85eb",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "sha",
+        "start_line": 23,
+        "end_line": 23,
+        "ast_sha256": "f44b68eca57557554ed5003be6ebc9cebaf265bd3c6f8465e7e36a1c4a0e6b46"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+4. build_increment.py:digest
+算法标识：build_increment.py:digest
+输入：完整JSON对象
+steps_why_and_outputs：规范排序紧凑编码后SHA，非地理真实性证明。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "82b0ba4196b9d0b3ff38f1b7fb96c7e7b12f1dccc95f0006b904693540ee85eb",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "digest",
+        "start_line": 26,
+        "end_line": 26,
+        "ast_sha256": "c95fb8aef5d97f85e6f7404a960a492855f68b746c41c32295786803b58a284e"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+5. build_increment.py:ref
+算法标识：build_increment.py:ref
+输入：含id/version的完整对象
+steps_why_and_outputs：id/version/规范SHA三联引用。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "82b0ba4196b9d0b3ff38f1b7fb96c7e7b12f1dccc95f0006b904693540ee85eb",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "ref",
+        "start_line": 29,
+        "end_line": 29,
+        "ast_sha256": "a1bfb032661c13fa073f9f1a98e966bbffecc2ba8d2a74ea4dafd8a997c505dd"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+6. build_increment.py:replace_constant
+算法标识：build_increment.py:replace_constant
+输入：指定顶层常量与明确值
+steps_why_and_outputs：仅替该声明行，剩余全部AST须等价。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "82b0ba4196b9d0b3ff38f1b7fb96c7e7b12f1dccc95f0006b904693540ee85eb",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "replace_constant",
+        "start_line": 32,
+        "end_line": 35,
+        "ast_sha256": "23b7765960c2073365aff4800aa66d3eaa4ba59e66f0f8bf471f54cba016dd79"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+7. build_increment.py:build
+算法标识：build_increment.py:build
+输入：已采用data10快照、人工实读卡/主语/名称桥及新空目录
+steps_why_and_outputs：只加一个NX独立target/point/source，原40/39/35全部对象精确前缀保留；输出41/40/36。仅声明/pins/locks/profile变，原GN小数/CRS/来源及全部数学不变。名称承接是明示工程文化桥，不是原典疆界证明。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "82b0ba4196b9d0b3ff38f1b7fb96c7e7b12f1dccc95f0006b904693540ee85eb",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "build",
+        "start_line": 38,
+        "end_line": 129,
+        "ast_sha256": "0f87a4c4af616bde5527a2f06e637e52ac8d8100696cb4fa038015da8a0c2580"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+8. author_checks.py:load
+算法标识：author_checks.py:load
+输入：指定源码
+steps_why_and_outputs：作者加载真实模块供实际检查；依赖exec计数从公开evaluate开始，加载顶层另分。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "38f0be826b5af6b5d361313a8dc084e1d6441d33781b0518369eba1790674a55",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "load",
+        "start_line": 12,
+        "end_line": 13,
+        "ast_sha256": "4729df944f0071e810641760dfb5cd05979a6fab4376fc4770f8cef2442201db"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+9. author_checks.py:inventory
+算法标识：author_checks.py:inventory
+输入：目录
+steps_why_and_outputs：含嵌套元数据的每个非缓存文件实际SHA。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "38f0be826b5af6b5d361313a8dc084e1d6441d33781b0518369eba1790674a55",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "inventory",
+        "start_line": 14,
+        "end_line": 14,
+        "ast_sha256": "e07bdb9b45039adc652256e005601272440f92205493d4d112a112791b6e2865"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+10. author_checks.py:vector
+算法标识：author_checks.py:vector
+输入：分子/分母向量
+steps_why_and_outputs：还原Fraction核精确C20，不将浮点误差当精确公式。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "38f0be826b5af6b5d361313a8dc084e1d6441d33781b0518369eba1790674a55",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "vector",
+        "start_line": 15,
+        "end_line": 15,
+        "ast_sha256": "b074dcb7cdd781635c80771d1d93156cb20ee5d6e29f65bbacb38d37f0abb549"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+11. author_checks.py:prepare
+算法标识：author_checks.py:prepare
+输入：原合成B/P、原GN点和已批C20/D2/C0；已采纳B12实际输入包
+steps_why_and_outputs：第一次native import前保存3地理正例、4未决和1真实0.12包的新dataC20预期；2普通点对复用独立Vincenty，不重作旧数学证明或B12求解。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "38f0be826b5af6b5d361313a8dc084e1d6441d33781b0518369eba1790674a55",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "prepare",
+        "start_line": 16,
+        "end_line": 38,
+        "ast_sha256": "5bb46e01defd982a4cd018611562fd08072fca389d24bf227384adb837591007"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+12. author_checks.py:prepare.bind
+算法标识：author_checks.py:prepare.bind
+输入：完整birth/current ref及位置claim
+steps_why_and_outputs：重绑ref/claim的规范摘要；来源年份不生成个人位置有效期。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "38f0be826b5af6b5d361313a8dc084e1d6441d33781b0518369eba1790674a55",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "prepare.bind",
+        "start_line": 18,
+        "end_line": 20,
+        "ast_sha256": "9a0a72ab3a9665eb8382a7d2b757aa7c56e8ae38136f8ec354c99d9c41287925"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+13. author_checks.py:prepare.make
+算法标识：author_checks.py:prepare.make
+输入：明确版本的origin/current和测试名
+steps_why_and_outputs：B/P原合成对象不改，五层给定甲寅；只构造可审软件输入，非真实出生或历法。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "38f0be826b5af6b5d361313a8dc084e1d6441d33781b0518369eba1790674a55",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "prepare.make",
+        "start_line": 21,
+        "end_line": 25,
+        "ast_sha256": "1635d38ec679de738cb749683be30651e0ca4c722c4f1dbb898d7e3c19358e1d"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+14. author_checks.py:run
+算法标识：author_checks.py:run
+输入：固定新来源/runtime/事前预期
+steps_why_and_outputs：11真API/safeCLI、4手式C20（含已采用B12原结果输入包）、2普通几何、4坏源0exec、6strict及195runtime空目录重建。输出当前真实作者结果，旧阶段记录另存不冒新跑。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "38f0be826b5af6b5d361313a8dc084e1d6441d33781b0518369eba1790674a55",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run",
+        "start_line": 40,
+        "end_line": 86,
+        "ast_sha256": "e43e0a0f14eaf394972f6a7fe7867021eaf87864640ec4d2648b080a91a38c3d"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+15. author_checks.py:run.need
+算法标识：author_checks.py:run.need
+输入：一个明确布尔条件及标签
+steps_why_and_outputs：失败即AssertionError；通过只记软件事实，不认证史地/命理现实。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "38f0be826b5af6b5d361313a8dc084e1d6441d33781b0518369eba1790674a55",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run.need",
+        "start_line": 42,
+        "end_line": 44,
+        "ast_sha256": "f89e507e7a24eca1b8c3b40b674dd0a99fa3a781b876412943265644d38123ab"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+16. capture_algorithm_io.py:encode
+算法标识：capture_algorithm_io.py:encode
+输入：真实调用的输入/返回/异常对象
+steps_why_and_outputs：保JSON、Path/module/bytes及Fraction类型的可读表示，不改业务输入；字节SHA不认证远端网页。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "8adb2988bff2501cb0ac184eeadf1f7fd4986d2bd860d6245ad97e76c07ef54e",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "encode",
+        "start_line": 8,
+        "end_line": 22,
+        "ast_sha256": "0a54b81f689c2b10ef763ee91df30d34f87ab08fd24846bf064d52f01cc5fa5c"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+17. capture_algorithm_io.py:symbols
+算法标识：capture_algorithm_io.py:symbols
+输入：真实当前Python文件
+steps_why_and_outputs：建实际函数首行与限定名索引。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "8adb2988bff2501cb0ac184eeadf1f7fd4986d2bd860d6245ad97e76c07ef54e",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "symbols",
+        "start_line": 24,
+        "end_line": 33,
+        "ast_sha256": "b93d955feba3f6520a74fc7345370c2fc88234a1c97afcabc934883dd70a4aef"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+18. capture_algorithm_io.py:symbols.walk
+算法标识：capture_algorithm_io.py:symbols.walk
+输入：父AST及限定名前缀
+steps_why_and_outputs：递归类/嵌套函数，避免仅同短名误绑。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "8adb2988bff2501cb0ac184eeadf1f7fd4986d2bd860d6245ad97e76c07ef54e",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "symbols.walk",
+        "start_line": 26,
+        "end_line": 32,
+        "ast_sha256": "df42b53c7fb1fa322dddbfea01aa3197760dc422323b68467d01759befc89a6d"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+19. capture_algorithm_io.py:run
+算法标识：capture_algorithm_io.py:run
+输入：本次data11 wrapper、已保存事前请求与当前真实回放
+steps_why_and_outputs：新采43wrapper函数实际IO/异常事件，5定点公开轨迹另加非法contract/重复/NaN；数值与原算法证明复用，不作新数学大矩阵。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "8adb2988bff2501cb0ac184eeadf1f7fd4986d2bd860d6245ad97e76c07ef54e",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run",
+        "start_line": 35,
+        "end_line": 87,
+        "ast_sha256": "62526fbb89318bc974aba2ab1d5c16e93c475a5c69ac1f3aa746a6fd79136133"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+20. capture_algorithm_io.py:run.profiler
+算法标识：capture_algorithm_io.py:run.profiler
+输入：Python call/exception/return事件
+steps_why_and_outputs：每个当前函数第一条真实调用；异常事件另存，None返回事件不冒正常成功。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "8adb2988bff2501cb0ac184eeadf1f7fd4986d2bd860d6245ad97e76c07ef54e",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run.profiler",
+        "start_line": 39,
+        "end_line": 54,
+        "ast_sha256": "a563571be95cfc34820b46324083afe87c4df02334439d27fa2347ab3266b3c6"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+21. safe_region_entry.py:execute
+算法标识：safe_region_entry.py:execute
+输入：lookup/compose、一个JSON路径
+steps_why_and_outputs：先核当前core字节，再原严格parser/evaluate；完整保未知/硬错/报告。不改函数AST，仅显式版本与corepin重绑。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "safe_region_entry.py",
+    "file_sha256": "43e99322a5d058725a7cea737d862954de909e5e08da24f7b129f963b67af217",
+    "module_version": "safe-national-region-entry-0.8",
+    "symbols": [
+      {
+        "name": "execute",
+        "start_line": 14,
+        "end_line": 35,
+        "ast_sha256": "feb750769e6e54795b4425630a6f6d2462bbaa6f3ae1045d2a0ca2936ba3ac78"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+22. safe_region_entry.py:main
+算法标识：safe_region_entry.py:main
+输入：模式及路径argv
+steps_why_and_outputs：打印原safe完整报告，结构/依赖错exit2；语义未知不转默认。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "safe_region_entry.py",
+    "file_sha256": "43e99322a5d058725a7cea737d862954de909e5e08da24f7b129f963b67af217",
+    "module_version": "safe-national-region-entry-0.8",
+    "symbols": [
+      {
+        "name": "main",
+        "start_line": 38,
+        "end_line": 44,
+        "ast_sha256": "2cab09f22817de098116e24a454bdf3dde022e20d79fd8c332dc13dbb55906f7"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+23. reference_math.py:vincenty_inverse
+算法标识：reference_math.py:vincenty_inverse
+输入：普通非退化WGS84点对
+steps_why_and_outputs：原非作者Vincenty公式作为作者对新点对验算的已审参考，不声称本次新独立数学审查或全局反极点证明。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "reference_math.py",
+    "file_sha256": "7231db27bcaab6ca4c3b324e0430b24489486fc7e308abc7bd099f2dac4ad3a6",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "vincenty_inverse",
+        "start_line": 7,
+        "end_line": 46,
+        "ast_sha256": "1a72689118682400e0f64905badb330b020d24722fa30f4e47e793b41bc74394"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+24. reference_math.py:d2
+算法标识：reference_math.py:d2
+输入：方向角
+steps_why_and_outputs：已批后天八方水土木木火土金金，相邻45度Fraction插值；局部文化雍水与相对方向各自解释。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "reference_math.py",
+    "file_sha256": "7231db27bcaab6ca4c3b324e0430b24489486fc7e308abc7bd099f2dac4ad3a6",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "d2",
+        "start_line": 48,
+        "end_line": 56,
+        "ast_sha256": "0e023d13531fcc4f030dbaede2cef2535344652aa4a3238207895d90f3b88849"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+25. verify_frozen.py:read
+算法标识：verify_frozen.py:read
+输入：本地固定JSON
+steps_why_and_outputs：读完整内容，无自动latest或默认空表。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "42fc7b4f0e33f69c0e0f50ce7505842febea846aec66f1bafaf85fa5fbbd25d5",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "read",
+        "start_line": 10,
+        "end_line": 10,
+        "ast_sha256": "a31cdd237d6d86d793611fe045c8ab8474ce5ad5864355cfd6fda05c03eb8842"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+26. verify_frozen.py:inventory
+算法标识：verify_frozen.py:inventory
+输入：目录
+steps_why_and_outputs：含嵌套元数据的每个非缓存文件实际SHA。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "42fc7b4f0e33f69c0e0f50ce7505842febea846aec66f1bafaf85fa5fbbd25d5",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "inventory",
+        "start_line": 13,
+        "end_line": 14,
+        "ast_sha256": "617403ecba3541bd1ba1db0aa87ece1dfecab2bea2cee0dc8e35450ed2dc9350"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+27. verify_frozen.py:symbols
+算法标识：verify_frozen.py:symbols
+输入：真实源码
+steps_why_and_outputs：取得完整AST与限定名，不把文件名当版本。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "42fc7b4f0e33f69c0e0f50ce7505842febea846aec66f1bafaf85fa5fbbd25d5",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "symbols",
+        "start_line": 17,
+        "end_line": 24,
+        "ast_sha256": "441001e8f46131f229243caa68ebc878c5991535e13fc88f6e425f03c43036dc"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+28. verify_frozen.py:symbols.visit
+算法标识：verify_frozen.py:symbols.visit
+输入：父节点与作用域前缀
+steps_why_and_outputs：递归记录函数/类层次，避免同名误绑。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "42fc7b4f0e33f69c0e0f50ce7505842febea846aec66f1bafaf85fa5fbbd25d5",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "symbols.visit",
+        "start_line": 19,
+        "end_line": 23,
+        "ast_sha256": "4dfcb3c5eeaaf8622e7b23b156dd4a3161e4f7e0f5c1c941c8851d6fd76416ec"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+29. verify_frozen.py:literal_version
+算法标识：verify_frozen.py:literal_version
+输入：顶层AST
+steps_why_and_outputs：只读实际VERSION，无版本脚本记null。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "42fc7b4f0e33f69c0e0f50ce7505842febea846aec66f1bafaf85fa5fbbd25d5",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "literal_version",
+        "start_line": 27,
+        "end_line": 29,
+        "ast_sha256": "c58e4456b60802824f1de2cb87289e322313df9aa6b796525f72435740854858"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+30. verify_frozen.py:run
+算法标识：verify_frozen.py:run
+输入：冻结清单、说明、实际回放及43IO
+steps_why_and_outputs：只读逐文件SHA/数量/实际VERSION/AST/行号/回放一致性；不会认证现代作者解释真值或个人位置。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "42fc7b4f0e33f69c0e0f50ce7505842febea846aec66f1bafaf85fa5fbbd25d5",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run",
+        "start_line": 32,
+        "end_line": 64,
+        "ast_sha256": "7c459a035ceeaff0f8d7cd05bf1a4c1216b59d918942028134895f997f57162e"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+31. document_and_freeze.py:read
+算法标识：document_and_freeze.py:read
+输入：本地固定JSON
+steps_why_and_outputs：读完整内容，无自动latest或默认空表。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "4eba1045be57d17438868ee496549ef1b0cd11a3e34664689c318299e093b02f",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "read",
+        "start_line": 9,
+        "end_line": 9,
+        "ast_sha256": "96a757168d9b80f107ccfac925e964ad6a86778bcc1fb0e7a4518518b731bf85"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+32. document_and_freeze.py:write
+算法标识：document_and_freeze.py:write
+输入：作者目录的新路径与JSON对象
+steps_why_and_outputs：UTF8确定性写，禁止NaN，不回写旧冻件。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "4eba1045be57d17438868ee496549ef1b0cd11a3e34664689c318299e093b02f",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "write",
+        "start_line": 10,
+        "end_line": 10,
+        "ast_sha256": "f6c34c1c509a44cf80ba8f3c936ce5bf30f19a11b7c78ccee8380421a168dffb"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+33. document_and_freeze.py:binding
+算法标识：document_and_freeze.py:binding
+输入：源码路径及限定名
+steps_why_and_outputs：生成实际SHA、literalVERSION、AST及行号。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "4eba1045be57d17438868ee496549ef1b0cd11a3e34664689c318299e093b02f",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "binding",
+        "start_line": 11,
+        "end_line": 12,
+        "ast_sha256": "ca981235b80f72451a5b4ac520df91b0d5cfebc85522e6ac5b3adc3e7206859b"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+34. document_and_freeze.py:description
+算法标识：document_and_freeze.py:description
+输入：作者辅助函数标识
+steps_why_and_outputs：显式解释输入、步骤、输出和边界；缺解释硬拒。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "4eba1045be57d17438868ee496549ef1b0cd11a3e34664689c318299e093b02f",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "description",
+        "start_line": 14,
+        "end_line": 43,
+        "ast_sha256": "f37254b0da33f17215d02da4ade8e972c11404b0d31fe2a2ac4b2cb894879465"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+35. document_and_freeze.py:run
+算法标识：document_and_freeze.py:run
+输入：当前已过作者证据、原13数学说明及源卡
+steps_why_and_outputs：重绑新0.11真实代码/41/40/36/真实locks，逐项写辅助函数与7实质规则；原144全41保历史，新候选不采纳、不加分、不改旧版本。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "4eba1045be57d17438868ee496549ef1b0cd11a3e34664689c318299e093b02f",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run",
+        "start_line": 45,
+        "end_line": 91,
+        "ast_sha256": "b9c5c6752bcd7a8b6d30b418ab439af73837f348a4c45ac7961f2a89a91f2c2c"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+36. document_and_freeze.py:run.stripped
+算法标识：document_and_freeze.py:run.stripped
+输入：旧/新源码和允许声明清单
+steps_why_and_outputs：只去VERSION/PINS或指定locks/profile常量，比较整个剩余AST；不删函数/生克/几何来伪等价。
+basis_nature：explicit_source_interpretation_or_engineering_contract_or_reused_fixed_math
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "4eba1045be57d17438868ee496549ef1b0cd11a3e34664689c318299e093b02f",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run.stripped",
+        "start_line": 69,
+        "end_line": 70,
+        "ast_sha256": "117395eda86750c6575559587639b88c1a4520a3d3339017571bcb8145f586b3"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+limits：[
+  "来源电子读取方式/未得原刊PDF保留",
+  "商周雍州与三命雍同名承接是工程文化桥，非两书古界相等",
+  "原144府/镇/部分的具体反例和7旧scope未知行为继续正确",
+  "数据对象数非全国覆盖率",
+  "实际B12包只复用已算且已采用结果，不新判真实个人"
+]
+
+原件：work/rev177_Ningxia_frame_reassessment_complete/docs/region_lookup_composer_v0_11_算法说明.json
+SHA256：440f1f28d1bd18cbf3676f0a95373800e7773f8097e3cc91c528b7cc0e12b45d
+
+1. RLC01
+算法标识：RLC01
+title：严格JSON与全部固定字节先核
+输入：[
+  "完整普通请求",
+  "dependency_lock、研究profile、50份固定依赖快照"
+]
+preconditions：[
+  "有限JSON对象；无重复键/非有限数；全部依赖核完才exec"
+]
+steps_or_formula：[
+  "严格解析并递归限制JSON值；规范UTF8排序摘要。",
+  "核lock/profile固定SHA；完整snapshot文件集、大小、SHA与JSON；全部读核完成后执行两固定模块并加载其原依赖。"
+]
+why_calculated_this_way：软件绑定先于notfound或语义unknown，后项坏字节不能被先查地区绕过。摘要只证明内容一致。
+basis_nature：engineering_contract
+输出：[
+  "已核pack或硬拒"
+]
+does_not_guarantee：[
+  "来源现实真值、软件外历史修改检测"
+]
+error_and_unknown_boundaries：[
+  "缺文件/多文件/错锁/SHA/路径逃逸硬拒；不降unknown"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_11/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.11",
+    "file_sha256": "899f8991c12611a036f5824c7e14c684e8876e622bd8d683ac9f89f7f3e507f9",
+    "symbols": [
+      {
+        "name": "ContractError.__init__",
+        "start_line": 29,
+        "end_line": 31,
+        "ast_sha256": "dd04c55d3678e6a8bb7882537b1a6d54576f77b7fafdd0ab001d0dce6f4d8ecf"
+      },
+      {
+        "name": "canonical",
+        "start_line": 34,
+        "end_line": 35,
+        "ast_sha256": "3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96"
+      },
+      {
+        "name": "digest",
+        "start_line": 38,
+        "end_line": 39,
+        "ast_sha256": "2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8"
+      },
+      {
+        "name": "json_tree",
+        "start_line": 42,
+        "end_line": 55,
+        "ast_sha256": "9586ca19af36b08a071aa95e52c6069c0cfdf2f86ab1a9da16c7b3fa31d42020"
+      },
+      {
+        "name": "load_request",
+        "start_line": 58,
+        "end_line": 68,
+        "ast_sha256": "6f3267e06bcbc0717041eadb164bf7d343fa619777c150aa22165d95d3dfc6bc"
+      },
+      {
+        "name": "load_request.pairs",
+        "start_line": 59,
+        "end_line": 65,
+        "ast_sha256": "89e247811acfaaec1a9741ae200978648d1a9b8175ed99ff5d13dfe486c3b737"
+      },
+      {
+        "name": "load_request.nonfinite",
+        "start_line": 66,
+        "end_line": 67,
+        "ast_sha256": "788503789eea1e391bac6a705410c1ae61129aee1d6067b920c2d0087c5a3993"
+      },
+      {
+        "name": "load_pack",
+        "start_line": 86,
+        "end_line": 126,
+        "ast_sha256": "82acc3a5fba34f1395751770e3087738c56199c94cdbaf9a84834e0e4461fb6c"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+2. RLC02
+算法标识：RLC02
+title：普通地区身份、主体方法与完整位置声明绑定
+输入：[
+  "context、两完整exact ref、外部claim及其全文SHA",
+  "原始B/T/P或null"
+]
+preconditions：[
+  "仅本主口径；无caller Rn/Rr/point/coverage/ready"
+]
+steps_or_formula：[
+  "精确字段及非空trim字符串；ref namespace/id/version全部保留。",
+  "claim人物/方法等context，两个ref摘要等真实ref；source/validity全文摘要等required location_claim_sha256。",
+  "所有提供UTC按旧原P.utc词法真实解析，正半开期限；unknown/null保留，不加默认寿命。"
+]
+why_calculated_this_way：caller只声明普通身份与本次外部位置使用范围；source verified是其状态，不是系统认证。合法更改原文和摘要为新声明。
+basis_nature：engineering_binding_and_external_declaration
+输出：[
+  "完整已核普通请求/原claim或硬拒"
+]
+does_not_guarantee：[
+  "行政区永远有效、现实个人位置、源权威"
+]
+error_and_unknown_boundaries：[
+  "不支持方法硬拒；给定摘要矛盾硬拒；unknown或缺界限后续未决"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_11/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.11",
+    "file_sha256": "899f8991c12611a036f5824c7e14c684e8876e622bd8d683ac9f89f7f3e507f9",
+    "symbols": [
+      {
+        "name": "obj",
+        "start_line": 71,
+        "end_line": 73,
+        "ast_sha256": "989aa118169da160b901865ae4adf045b39b017658ee7c461f22925bd48c68c0"
+      },
+      {
+        "name": "text",
+        "start_line": 76,
+        "end_line": 78,
+        "ast_sha256": "66ca2edce8b2468b7108d13a12cc846898c2a31b6615a9ef4b599ddcfa86f34b"
+      },
+      {
+        "name": "sha",
+        "start_line": 81,
+        "end_line": 83,
+        "ast_sha256": "cc8ff88fe3d5c7b222a0cfea4b57261d7a002e5c45d3c4c70ccf8fe08f3b53ce"
+      },
+      {
+        "name": "validate_request",
+        "start_line": 129,
+        "end_line": 187,
+        "ast_sha256": "024b5e5da920de48463bab29d30145340fef7602d279b1fc6983b7df60806749"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+3. RLC03
+算法标识：RLC03
+title：原B/T/P实际public composer先核
+输入：[
+  "完整原始B/T/P、context、真实固定composer lock"
+]
+preconditions：[
+  "instant；给定源不得用手填ready替代"
+]
+steps_or_formula：[
+  "系统生成内容绑定的C20预核packet，Rn/Rr/lease明确null。",
+  "真实public compose；保存完整请求/报告/SHA。任何给定B/T/P结构/绑定错误先硬拒，不因地区未收录提前返回。",
+  "system packet/joins身份含完整输入及阶段，两个阶段不会同ID版本改内容。"
+]
+why_calculated_this_way：缺地理因素仍必须核所有提供源；P嵌入base不能补独立B。预核不是最终Z，也不是伪ready证明。
+basis_nature：engineering_native_reexecution
+输出：[
+  "真实预核原报告或硬拒"
+]
+does_not_guarantee：[
+  "B/T/P外部源真值、传统取用自动完成"
+]
+error_and_unknown_boundaries：[
+  "合法B/T/P语义未知可继续查资料但Z最终仍null；结构/绑定错不能跳"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_11/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.11",
+    "file_sha256": "899f8991c12611a036f5824c7e14c684e8876e622bd8d683ac9f89f7f3e507f9",
+    "symbols": [
+      {
+        "name": "composer_request",
+        "start_line": 190,
+        "end_line": 203,
+        "ast_sha256": "255fa4fc55e12080adf8d007f5e93905f9cc3725ae455bc2e28beca84971a22b"
+      },
+      {
+        "name": "require_native",
+        "start_line": 206,
+        "end_line": 211,
+        "ast_sha256": "52c0d61a1d57204470b509c0f2977f77c7fe982d8209678aecde4dceec9ca9d7"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+4. RLC04
+算法标识：RLC04
+title：两次精确lookup与Rn/Rr独立轴导出
+输入：[
+  "两个exact region refs",
+  "两个实际lookup完整返回"
+]
+preconditions：[
+  "实际lookup每次全目录硬核及执行原Rn；无最高版/第一条回退"
+]
+steps_or_formula：[
+  "出生和当前分别实际evaluate；保完整原请求/报告/SHA。",
+  "当前原native_request全文成为Rn，不改ambiguous/coverage_undetermined。",
+  "两边target R7准确投影公共R5，目录原point_ref/full record成为Rr；未收录region=null，缺点ref=null。",
+  "同点仅完整id/version/content相同才去重；同身份变内容硬拒。",
+  "新lookup2版真实取得SC2019/MCA2024完整身份及成都PPLA代理；和HN点实际求有向初始方位，SC→HN木1、HN→SC金1，不能直接喂入预算Rr或假点。"
+]
+why_calculated_this_way：文化属性可用性与代表点可用性独立；代表点是项目省会PPLA代理，不代表个人GPS或全域方向。
+basis_nature：source_backed_lookup_plus_explicit_project_mapping
+输出：[
+  "真实Rn、Rr和逐字段映射",
+  "完整两lookup来源/版本/解释"
+]
+does_not_guarantee：[
+  "全国覆盖、苏州全域闭合、不同地区同点C0、外部点补齐"
+]
+error_and_unknown_boundaries：[
+  "JS原生火土歧义保留；SZ原生覆盖未闭保留；任何缺项不作零贡献"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_11/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.11",
+    "file_sha256": "899f8991c12611a036f5824c7e14c684e8876e622bd8d683ac9f89f7f3e507f9",
+    "symbols": [
+      {
+        "name": "derive_regions",
+        "start_line": 214,
+        "end_line": 255,
+        "ast_sha256": "64f984e9fd988ff6921592e9c60c89692b3487360c60ac49d4aaf880ae9c9719"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+5. RLC05
+算法标识：RLC05
+title：外部声明绑定本次实际导出的lease
+输入：[
+  "完整claim和已核claim SHA",
+  "实际完整Rn/Rr/context"
+]
+preconditions：[
+  "不创造外部位置真值或自然历史有效期"
+]
+steps_or_formula：[
+  "status/start/end/source逐字段原样复制。",
+  "系统native_request/relative_request及R7/R5全内容摘要直接绑定真实导出。",
+  "lease ID摘要包含完整claim、Rn/Rr、context和研究profile，version固定adapter版本。"
+]
+why_calculated_this_way：声明有效期只许可本次用这些真实导出资料，不把研究资料reviewed写成产品采用。完整内容改变则新lease身份。
+basis_nature：engineering_binding_of_provided_claim
+输出：[
+  "系统绑定lease及身份preimage"
+]
+does_not_guarantee：[
+  "跨运行历史权威、行政沿革长期有效、用户默认数据采用"
+]
+error_and_unknown_boundaries：[
+  "unknown/空界限/过期/未来不补窗，实际composer阻断；半开end时刻已过期"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_11/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.11",
+    "file_sha256": "899f8991c12611a036f5824c7e14c684e8876e622bd8d683ac9f89f7f3e507f9",
+    "symbols": [
+      {
+        "name": "bind_lease",
+        "start_line": 258,
+        "end_line": 272,
+        "ast_sha256": "44beb2b20126f743c9d129c8c3c4f8148ca19f6c91984919ee4381552bb9df7f"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+6. RLC06
+算法标识：RLC06
+title：真正第二次C20/D2/C0组合而非查询占位
+输入：[
+  "原B/T/P全文",
+  "真实Rn/Rr/lease及准确join"
+]
+preconditions：[
+  "真实固定composer0.3执行；不复用预核计算报告"
+]
+steps_or_formula：[
+  "再次public compose完整重算，保完整原请求/报告/各native结果与权重。",
+  "固定已批C20系数B4/5、T1/20、Rn1/40、Rr1/40、P1/10；所有数值计算由固定原composer和原API执行。",
+  "严格同地区身份+同完整point_ref且原Rr确证同代理点才C0，仅Rr1/40归B；Rn金仍1/40。",
+  "P明确空时1/10归B，非空用peer_mean；任何未知不归B，完整Z=null。",
+  "全窗只实际验证原提供B/T/P，原evaluation不改；不造at或join，不计算Z，明确unsupported。",
+  "非C0两方向Rr均保1/40且不归B；Rn金仍保1/40。未知位置声明即使两点方位已算，Z也为null。"
+]
+why_calculated_this_way：只为资料进入真实作用路径提供研究验证；已有公式已批不等新资料已批，更不产传统final/B。
+basis_nature：user_approved_formula_executed_with_research_data
+输出：[
+  "native Z或null",
+  "完整原报告与边界flags"
+]
+does_not_guarantee：[
+  "传统效力、最终喜用、window覆盖、默认库存、主题selector呈现"
+]
+error_and_unknown_boundaries：[
+  "原生错误硬拒；未决因子不得均值/填零/C0；无previous"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_11/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.11",
+    "file_sha256": "899f8991c12611a036f5824c7e14c684e8876e622bd8d683ac9f89f7f3e507f9",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 289,
+        "end_line": 362,
+        "ast_sha256": "33f8c029e67075eba2ce847987a7c96db39b2bf8ec299fe01223eccf68f2fc95"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+7. RLC07
+算法标识：RLC07
+title：可复算原文、错误与CLI返回
+输入：[
+  "普通原始输入、完整中间及最终原生回报"
+]
+preconditions：[
+  "输出无B/采纳写入与现实真值认证"
+]
+steps_or_formula：[
+  "保完整input_snapshot/摘要、claim原文、两lookup、导出字段/lease preimage、两次composer请求/结果。",
+  "结构/绑定/固定依赖错显式硬拒；原合法未知报告保留，根Z=null。",
+  "严格CLI仅一原JSON文件；与API完全同值；正常/未知/明确unsupported返回0，硬错2。"
+]
+why_calculated_this_way：调用者和独审能直接复跑原composer输入，不被只见query报告或美化candidate历史字段遮蔽。
+basis_nature：engineering_audit_contract
+输出：[
+  "完整可复算研究回报或显式硬错"
+]
+does_not_guarantee：[
+  "产品采用、活动库存、真实个人位置、历法和传统效力",
+  "lookup2尚未独审，不能声称source acceptance或生产采用；四川全境解释限定2019+MCA2024，不以代理点认证2026行政界或个人位置。"
+]
+error_and_unknown_boundaries：[
+  "window与全国缺口继续开放；native历史candidate字段原样保留"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_11/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.11",
+    "file_sha256": "899f8991c12611a036f5824c7e14c684e8876e622bd8d683ac9f89f7f3e507f9",
+    "symbols": [
+      {
+        "name": "empty_report",
+        "start_line": 275,
+        "end_line": 286,
+        "ast_sha256": "ce4e9c5b4d37c5ff59b470c83cceb29688020aa528cfa6c90302c52d87097cb3"
+      },
+      {
+        "name": "main",
+        "start_line": 365,
+        "end_line": 375,
+        "ast_sha256": "c100923064279719da1336f27952b23b3f3f856658934ea4953142bd6e6eadfc"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/NX2019_Yao_source_card.json",
+  "source/NX2019_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_NX_FRAME_API.json",
+  "replays/compose/SH_TO_NX_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_NX_API.json"
+]
+current_edition_note：data11仅新增姚2019现代宁夏具名解释与工程名称桥。商周雍州原文不补禹贡，独立三命雍水；旧40/39/35精确前缀不动，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+

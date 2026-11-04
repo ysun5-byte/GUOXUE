@@ -1,0 +1,51 @@
+{
+  "id": "rev280-bounded-source-whole-project-adoption",
+  "status": "adopted_for_bounded_whole_model",
+  "component": "rev279_food_kill_print_cli_repair",
+  "method_version": "misc-Chen-food-uses-kill-print-whole-functions/0.1",
+  "implementation_revision": "0.1.1",
+  "model_core_sha256": "c4aa5c67a208e2ee754a64544c8336b9da9d5293eb517151fc3915911ab0e5f1",
+  "model_math_files": {
+    "coupled_equilibrium.py": "69f0c6fbc80a0b89efbe37c72362e77c335609facd4cdb5afb0178fe76c516e3"
+  },
+  "model_dependency_lock_sha256": "9d6920892767c6957ff0d5c5e208c24323b4eaf1bb14bd6ad0ec51bf89c82a12",
+  "model_manifest_sha256": "29cd44567f8816b46b2112286fc68b49a1698b30951ddd13f41d5c6167022b65",
+  "model_freeze_sha256": "60a1a9a6802480df1e5f85a3ef7def1bbffd0597301e81743c16b088ee551be2",
+  "source_scope": "Primary MCN3 source qualification plus explicitly labelled cross-chapter P76/77 food-uses-kill-print application. Visible甲 is not fabricated Chen-hidden甲; Ren storage does not replace Gui. Source roles/ROOT/HAP/relations/climate precede the fixed whole question. Typed-path zero pressure, lambda/ROOT/gains/rho thresholds are declared engineering.",
+  "accepted_effect": "Actual four-pillar source→shared post-food currentK→kill-to-print and print-to-body generation plus print restraint/food stock cost/actual potential kill pressure→strict full carry→every robust minimum H. The same Kcurrent drives benefits and harms; path loss restores potential pressure. Irrational roots remain certified intervals, strict gate checked at rational1/5.",
+  "independent_review": {
+    "component": "rev275_food_kill_print_independent",
+    "files": 45,
+    "manifest_sha256": "3855464f02fa5b78615667fa2c772c84cded91403643c2df24e4e5b996b0b4a1",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "e68aef6fb8653b229280358f72207fe87500daa56e780a50b4046d43624853e8",
+    "report_sha256": "c544a244715b8c490dce803e23222c5f3080b10cf68024cff32691fb15f59295"
+  },
+  "aggregate_acceptance": {
+    "component": "rev280_whole_model_acceptance",
+    "files": 3,
+    "manifest_sha256": "e6e282015e86c48885ee38688e884ee90ae029b477240348e6d6da92cf62f8ce",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "2f18f458f7be4e30fc1078a58c7b89dc08a0855947fdd0422ea609453807c432",
+    "report_sha256": "35c7e4aa2190248d85e2edae247536e9bc5dedb3bfc41f466a7a6a1ee4df9a7e"
+  },
+  "frozen_historical_pending_flags_not_rewritten": true,
+  "original_natal_B_adapter_adopted": false,
+  "current_theme_window_consumer_adopted": false,
+  "full_original_scope_remaining": [
+    "Other original food/kill/finance/print mixed-source and transformation cases",
+    "Broader five-layer current roles and active relation effects",
+    "Current traditional theme/window consumer not included in280;286 continues separately",
+    "Original auxiliary ranking/natalB and all C02/C03/fullrelease tasks remain"
+  ],
+  "original_B155_and_ROOT02_and_C20_unchanged": true,
+  "all_original_task_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00",
+  "original259_delivery_hold": {
+    "file": "rev280_original259_strict_CLI_delivery_hold.json",
+    "sha256": "3e71002d62c9b4b866940d8c5f1d2f63c1136fe39d5f96c94079cc55970ec0b6"
+  },
+  "repair_scope": "Only implementation revision and main RecursionError catch; numerical/source semantics unchanged. Old259 failure retained. Exact279 only is adopted."
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "459-originalWu-actual-five-time-finite-method-adoption/1",
+  "revision": 459,
+  "registered_utc": "2026-11-03T01:16:39.007620+00:00",
+  "status": "adopted_exact445127_after457_actual_five_UTC_whole_and_window_comparison_finite_method",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev445_Wu_actual_five_time_whole",
+      "files": 127,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev445_Wu_actual_five_time_whole/manifest.json",
+        "bytes": 20507,
+        "sha256": "da9fadea3b0215b7d2d42d9e777b64934f44f3bd5928e27c9426ede7e7d3a8ed"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev445_Wu_actual_five_time_whole/freeze.json",
+        "bytes": 336,
+        "sha256": "731123f8fe6270a052d26653896d6ccb8561fce8076bcc96d7c5c13c61c020d1"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev457_Wu_actual_time_independent_review",
+      "files": 94,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev457_Wu_actual_time_independent_review/manifest.json",
+        "bytes": 15692,
+        "sha256": "673938b3174acc6d9d9646c89158e6558b1e99fbb32ddabe55f94f0701d209c2"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev457_Wu_actual_time_independent_review/freeze.json",
+        "bytes": 303,
+        "sha256": "06309decd64432a9949eb8995f16f3369c1eb992803158976d754362d7b4be83"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev445_author_completion_handoff.json",
+    "bytes": 9334,
+    "sha256": "8291b1a17f3b7a781a9a30acea661f4d0fc0335d5d2934f2cba4858508e6633c"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev457_independent_completion_handoff.json",
+    "bytes": 10535,
+    "sha256": "1de191a1d0c1162a56863db209e0c920c5a47d87f3170178e2ec33909e4af3cd"
+  },
+  "source": "Primary PDF93印84原吴癸亥乙卯乙未壬午：原局喜印露体纯、随后行运与徐注露食条件各别；不合并成原局水木土火皆喜。",
+  "version": "PRIMARY-WU-ACTUAL-FIVE-UTC-WHOLE-0.1",
+  "method_profile": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev445_Wu_actual_five_time_whole/method_profile.json",
+    "bytes": 2197,
+    "sha256": "38ad83729158aa28ee005e1513df180fd23333baaa76fce8636d7c345adcc85d"
+  },
+  "support": "仅原吴；五层明甲乙壬癸己、支亥卯未午且无新未解明合/支合冲；出生四柱/根不可变，外来各层干支藏干根/位置/来源全部同时入一共同量效。",
+  "engineering_layer": "外五层同作用资格、共池静态源权、全部正负/源费用、信用H及有限当前喜印水充分条件为工程延伸，不假称古书等权/实测气。",
+  "not_five_separate_sums": "108作者world的完整联解保留；已验证共同钳位土0而错误分层相加−136/445；某线性活跃面偶合可加不等于一般可加。",
+  "nontrivial_results": "一财联动木/水下降、火恢复；五癸亥食火仍正；三己未财超主体导致有限完整任务失败；结果有变有不变，物理已算但辅助未立时保留两状态。",
+  "time_comparison": "固定id/version+全内容绑定，当前/前次/未来硬错先查；半开区间逐双方边界联合比较。只变来源ID/重排/相邻等价拆段功能同而来源轴另报；同五池总量不抹去根位置与H差异。unknown绝不写confirmed_same。",
+  "runtime_disputes": "nominal/low/high按具名方法版本分别执行；不按哪版通过改参数救结果，不以所有流派一致为门。",
+  "independent_evidence": "457事前5新组合共25完整world，6375带符号边/172320逐来源分项/18235演员来源预算格/168H；10新窗口，6CLI+2API严格输入，6坏源0/clean9+9，105合同26当前IO与79精确复用实审。",
+  "complete_move": "现成127件小完整核，9新进程/36真实读、scan、exec、append负控；禁用旧项目后完整API/CLI字节同，全部127文件SHA不变。",
+  "first_failures_preserved": "审者同id漏start差异及带previous额外neutral模块次数错误均保留，仅修审者夹具/观察预期；作者445未改。",
+  "original_remaining": [
+    "新官杀/乙庚甲己等实际关系",
+    "露食与原典/徐注条件",
+    "新支会化冲刑害、土质/通关、其他原局格局及约定时运",
+    "261制土卫水与262丁壬/子未完整链及其他确实未实现所需干预",
+    "最终原支持范围统一回放及完整运行分发"
+  ],
+  "not_new_validation_gate": "原资料里real-world validation字样只记录科学限制，不新增现实预测证明或全部历法认证为原交付100%门；外部UTC/干支合同责任按既有范围。",
+  "no_B_theme_display_or_weight_change": true,
+  "not_empirical_predictive_validation": true,
+  "progress": "86.25/100",
+  "progress_delta": 0
+}

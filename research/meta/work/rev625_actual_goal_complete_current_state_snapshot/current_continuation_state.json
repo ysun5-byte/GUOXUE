@@ -1,0 +1,3054 @@
+{
+  "research_revision": 625,
+  "weighted_score": "100.00",
+  "display_percent": "100%",
+  "goal_status": "complete",
+  "goal_complete": true,
+  "traditional_primary_profile": "ziping-world-library-primary-provisional-v1",
+  "traditional_validation": 0,
+  "real_business_outputs": 0,
+  "source_registry_count": 69,
+  "complete_source_charts": 33,
+  "next_work": [],
+  "active_agents_next_batch": {},
+  "latest_user_steering": "先出研究内容，不研究手环显示；研究/实现/验证/修复/记录自主继续至原全验收，原完整范围和质量不降低。",
+  "latest_online_research_supplement": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_生辰核与变色规则_接续研究包_v0.12/03_研究记录/rev58_jianlu_online_followup.txt",
+  "module_stages": {
+    "C01": "1.00",
+    "C02": "1.00",
+    "C03": "1.00",
+    "C04": "1.00",
+    "C05": "1.00",
+    "C06": "1.00",
+    "C07": "1.00",
+    "C08": "1.00"
+  },
+  "function_research_proposal": {
+    "archive": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/传统印格透官_具体方案_rev56.zip",
+    "archive_sha256": "6a466932efc86f917e2d8eefb8a11f9144fe661334ef842b27cf2f220f2d3717",
+    "guide": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/传统印格透官_具体方案_rev56/00_请先读_本次选择.txt",
+    "core_sha256": "3fdd1d1a56f7cfbc996f68f3472d61c9fd2a60b3c9e45e8e4faf398976918896",
+    "status": "historical_F_superseded_by_H_whole_natal_default",
+    "F_adopted": false,
+    "H_adopted": true,
+    "B_created": false,
+    "stage_delta": "0.00",
+    "historical_record": true,
+    "default_policy_superseded_by": "personal_baseline_user_decision_20261101.json: comprehensive_natal_result_first; do not infer present F/H undecided from historical flags"
+  },
+  "algorithm_count": 192,
+  "latest_research_components": {
+    "directories": [
+      "yin_officer_selection_v0_1",
+      "yangren_officer_selection_v0_1",
+      "native_region_lookup_v0_1",
+      "touqing_effects_v0_1"
+    ],
+    "research_only": true,
+    "isolated_nine_runners_passed": true,
+    "weighted_delta": "0.00",
+    "F_adopted": false,
+    "B_created": false,
+    "regional_data_default_adopted": false
+  },
+  "latest_verified_research": {
+    "ordinary_region_chain": "region_lookup_composer_v0_2 / native_region_lookup_v0_2 independently passed; SC/HN true non-C0 and HN C0; default data adoption false",
+    "M1": "bounded executable proposal independently accepted for archival only; 500 raw/20 structural-valid/2 default positive; no stage gain or default B",
+    "regional_scope": "MCA2024 34 identities, 12 with material, 6 chosen-edition complete-modern statements/sets, 22 without reviewed geographic material",
+    "actual_archive_runners": 11,
+    "weighted_delta": "0.00",
+    "current_production_entry_unchanged": "v1_entry_v0_2",
+    "rev62": {
+      "status": "delivery_verified",
+      "revision": 62,
+      "date": "2026-11-01",
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_格局核心研究推进_rev62",
+      "archive": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_格局核心研究推进_rev62.zip",
+      "archive_sha256": "f3a69969b51be63af5cd464b1cbf5db8cadfb4ae51bdf72aa2905b1a20404ac3",
+      "archive_bytes": 6326883,
+      "manifest_files_excluding_self": 671,
+      "actual_unzip_all_bytes_verified": true,
+      "actual_unzip_six_full_CLI_replays_equal": true,
+      "algorithm_explanations": 53,
+      "all_algorithm_bindings_verified": true,
+      "original_six_component_snapshots_unchanged": true,
+      "formal_v0_12_archive_unchanged": true,
+      "production_entry_and_symbolic_core_unchanged": true,
+      "score": "62.50",
+      "score_delta": "0.00",
+      "default_B": null,
+      "whole_goal_complete": false
+    },
+    "rev63": {
+      "status": "delivery_verified",
+      "revision": 63,
+      "date": "2026-11-01",
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_从财逐字作用与食财取舍_rev63",
+      "archive": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_从财逐字作用与食财取舍_rev63.zip",
+      "archive_sha256": "30d7006ec34c44d78fa14d55c20ca6150e3e8a3ac1e303a8f2df3aa5580112a2",
+      "archive_bytes": 14227046,
+      "manifest_files_excluding_self": 352,
+      "actual_unzip_all_files_and_five_CLI_equal": true,
+      "explanations_verified": 44,
+      "full_follow_family_actor_worlds": 864,
+      "full_follow_total_actual_calls": 912,
+      "score": "62.50",
+      "score_delta": "0.00",
+      "goal_complete": false,
+      "goal_active": true,
+      "default_B": null
+    },
+    "rev64": {
+      "status": "delivery_verified",
+      "revision": 64,
+      "date": "2026-11-01",
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_杀印财联动与辅助取舍_rev64",
+      "archive": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_杀印财联动与辅助取舍_rev64.zip",
+      "archive_sha256": "31459c8986045f5cb36a8ac5c23a136d86d2829274e25811361cd1499fe75961",
+      "archive_bytes": 25502887,
+      "manifest_files_excluding_self": 260,
+      "actual_unzip_all_files_and_five_CLI_equal": true,
+      "family_worlds_checked": 793,
+      "algorithm_explanations": 41,
+      "score": "62.50",
+      "score_delta": "0.00",
+      "default_B": null,
+      "goal_active": true,
+      "goal_complete": false,
+      "extra_author_full_component_portability_receipt": "work/rev64_kill_print_finance_portable_checks.json"
+    },
+    "rev65_C02_partial": {
+      "date": "2026-11-01",
+      "revision": 65,
+      "fixed_ledger_version": "rules-progress-0.1",
+      "fixed_total_weight": 100,
+      "score_before": "62.50",
+      "score_after": "68.75",
+      "display_percent": 69,
+      "delta_points": "6.25",
+      "change_only": "C02: 0.25→0.50; 25×0.25=6.25",
+      "criterion_unchanged": ".50至少一个完整约定正常分支的关键前提可由原始四柱判定，得到有理由的单人整盘辅助方法结果，保留方法分歧；不是整个C02 done",
+      "verified_substantive_basis": [
+        "raw固定facts与H1逐藏资格，不接caller的ready/final/goals",
+        "所有hidden行实映射；已激活或具名源任务未实现则转支",
+        "逐origin官生印、印生日、官约身及受控后身体保留，全有理数算术",
+        "有无新增印生日均核；默认直接carry等值反例确实不结论",
+        "明竞争、采用关系、已知气候前件在actual raw重判",
+        "完整目标及硬条件先检，再H-AUX筛当前辅助；印正背景与官负担均未删除",
+        "固定默认预先加载且不为单盘改参；16敏感性全保，不票选、不择成功world",
+        "新原柱跨水/土两元素成功，竞争/气候/关系/隐藏任务与carry反例阻断F式见官出口"
+      ],
+      "core_sha256": "44b448a94386d9ff38fccca291b6f1fa7ef5be90af1b08d0c193be375bad371e",
+      "lock_sha256": "d1a01f498947871a62d512eb673877c51dfb18e39342b61d8f7046625e4b3c21",
+      "independent_report_sha256": "21c0af354670054b75182f715f57f4a5cda2565f2b940a42b6586fb51f79f548",
+      "independent_gate_opinion_sha256": "98dab163c31b1eb2bdb1f2f198f6524da5a41a7594ba4fc0b8ef149126a0f9b3",
+      "project_adoption_file": "work/rev65_whole_natal_baseline/runtime/project_model_adoption.json",
+      "whole_C02_completed": false,
+      "whole_project_completed": false,
+      "original_scope_reduced": false,
+      "remaining": [
+        "原局需印生日承载或多角色并用的更广正常分支",
+        "财印同盘、食伤/官杀及其他竞争作用和主次",
+        "普通/从格真假、化气与其他特殊格局",
+        "全藏干耦合作用、关系解反解、调候及不同方法",
+        "全支持范围基准输出接合；本桥当前不写旧final/B"
+      ],
+      "B_integration_status": "first actual raw→whole H→original final/reason/adoption→original theme→original base export executed; adapter independent acceptance pending",
+      "real_business_data_cases": 0,
+      "real_world_prediction_validation": 0,
+      "formal_v0_12_bytes_changed": false
+    },
+    "rev65_baseline": {
+      "status": "independently_accepted",
+      "raw_H_model": "raw-normal-print-officer-whole-auxiliary-0.2",
+      "baseline_component": "rev65_whole_natal_baseline_v0_2",
+      "baseline_core_sha256": "24db92b8234fd1e1491d564782ed134ae7c54e90609231d2ac46e649ff57d651",
+      "independent_report_sha256": "e12401275b4149681548a8cea8f1cc5ac917e7a6f43b949779e08975976c8166",
+      "actual_raw_to_original_B": true,
+      "scope": "finite admitted whole normal print/officer branch, not F shortcut or all natal charts",
+      "score": "68.75",
+      "score_delta": "0.00 for adapter",
+      "later_integration_defect": {
+        "defect": "unchanged raw validity claim reused as generated binding identity on chart revision; entry cross-input guard correctly rejected",
+        "found_by": "p01 independent entry review",
+        "root_response": "preserve source declaration; independently content-address generated binding in baseline0.3",
+        "new_component": "work/rev66_whole_natal_baseline_v0_3",
+        "core_sha256": "a04bcd871c88e33d3487bcb6083dc82d18d780a7e2ad200ef75d3439eb2e99a1",
+        "freeze_sha256": "245973e57e0dd4459227b89b8d006b1540f9a356e475cdf8d7af997f1e53383d",
+        "status": "author_full_checks_and_portable_passed_independent_narrow_review_running",
+        "affects_original_H_natal_mathematics": false,
+        "progress_delta": "0.00"
+      }
+    },
+    "rev66_raw_to_C20": {
+      "status": "author_behavior_passed_independent_pending",
+      "component": "rev66_raw_to_c20_chain",
+      "core_sha256": "0510730808137274d5aaec91a9f30376632e089a5efb27582f903e77c3ceb328",
+      "freeze_sha256": "7f01fe59d00f09bff20e15f628d56fa1a3ac735e212ccf58c70a10c8a6201a5d",
+      "actual_computed_A_Q_Bs": true,
+      "time_position_presence": "explicit constructed declarations",
+      "traditional_time_effects_computed": false,
+      "regional_data_edition_adopted": "bounded 8-record/3-point source edition; not national",
+      "four_cases_16_lifecycle_stages_API_CLI": true,
+      "score_delta": "0.00"
+    },
+    "rev67_C03": {
+      "status": "limited_model_project_adopted_after_independent_source_behavior_review",
+      "core_sha256": "c256908ef2cdd0b1fcf717eea5e71f2516e76aed97920f50cc349f83f0ff36a5",
+      "independent_report_sha256": "094dc53d09b7f94d8798f9d5d251be5916c17a1409b04c92bab35b95ca8f1b51",
+      "weighted_score": "72.50",
+      "delta": "3.75",
+      "not_all_C03_complete": true
+    },
+    "current_unified_entry": "rev68_v1_entry_v0_5 independently accepted; source-correct ROOT2 normalH/baseline4, old other27 behavior retained",
+    "raw_computed_B_C20": "rev69_raw_to_c20_chain_v0_3 independently passed; own bounded8region/3point data edition explicit, not silently national",
+    "rev67_delivery": {
+      "status": "delivered_and_unzipped_verified",
+      "archive": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_核心规则推进_研究增量_rev67.zip",
+      "archive_sha256": "f4b1fb6518035f41c7483ea99bc04b47f1be48adcc32c7d78b3d4b39d466469d",
+      "archive_bytes": 45743414,
+      "manifest_files_excluding_self": 3436,
+      "actual_unzip_all_bytes_equal": true,
+      "actual_unzip_nine_full_CLI_equal": true,
+      "component_sources_and_old_formal_bytes_unchanged": true,
+      "score": "72.50",
+      "goal_complete": false
+    },
+    "rev69_delivery": {
+      "schema": "Part1-rev69-actual-delivery-verification-0.1",
+      "status": "passed",
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_根资格修订与时间主题接合_研究增量_rev69",
+      "archive": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_根资格修订与时间主题接合_研究增量_rev69.zip",
+      "archive_sha256": "b28086f12c1ae573543aa30b3fdacbd4fb70483c4d06678878cf454f97b9be1e",
+      "archive_bytes": 248089617,
+      "manifest_files_excluding_self": 5231,
+      "actual_unzip_all_bytes_equal": true,
+      "actual_unzip_ten_full_CLI_stdout_equal": true,
+      "all_frozen_component_source_bytes_unchanged": true,
+      "old_formal_archive_unchanged": true,
+      "progress": "72.50",
+      "delta": "0.00",
+      "whole_goal_complete": false,
+      "checks": [
+        {
+          "status": "all_files_verified",
+          "files": 5231,
+          "progress": "72.50",
+          "whole_goal_complete": false
+        },
+        {
+          "status": "ten_whole_CLI_relocation_equal",
+          "rows": [
+            {
+              "case": "ROOT120",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "2f75145d9773d93807e6429295bc065b90940c98f7465c1f388aced0768297ae"
+            },
+            {
+              "case": "HAP03",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "f7780f10b63547c09e3de4bc2181a9d46d0828a28de231277e9612f98a0befeb"
+            },
+            {
+              "case": "normal_H03",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "3e684c34d442b1b09a1a890020fdaea0e5f4177e3a6b2f6953ae35b6099a58c1"
+            },
+            {
+              "case": "food_H05",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "b6eb595e9bfa89abf48c464bc37a77104241e420205d082a3d70b2c69ded9cdf"
+            },
+            {
+              "case": "time_H02",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "ed6a00565138b375a7714e20922d0cff43387979450cfdc2ac47563c64f02ee7"
+            },
+            {
+              "case": "natal_B04",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "d87ea44d5a7353101e45ad694b130994b0dca7fdde5451ac20e64048e39a493f"
+            },
+            {
+              "case": "time_review_B01",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "3c6329a29243f8e8e8908369b6f79f7414d8f62705fb920478f130a61a0205aa"
+            },
+            {
+              "case": "entry05",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "d0218b1c1e9467888f60aa45224f7a0435031767b05ac3279d2f5bc86aa65227"
+            },
+            {
+              "case": "raw_C20_03",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "68a128c1456504cf1db6db01a8dd7254d718997724d580e07e2dc51058519639"
+            },
+            {
+              "case": "national34_lookup",
+              "full_actual_CLI_stdout_equal": true,
+              "sha256": "4dbd22974de7927f4ca14796c1c9d0f65dc7432029d20cb4b75d0b6eee0c43ac"
+            }
+          ],
+          "not_new_rule_or_reality_validation": true
+        }
+      ]
+    }
+  },
+  "baseline_default_clarification": {
+    "schema_version": "product-baseline-clarification-0.1",
+    "date": "2026-11-01",
+    "decision_kind": "assistant_corrects_default_recommendation_to_align_with_original_user_goal",
+    "user_steering": "用户连续强调整盘冲突与喜用研究清楚再给结果，并质疑此前为什么推荐功能承载。此记录不伪称用户另行点击了H，也不抹去历史F选择。",
+    "historical_F_selection_preserved": true,
+    "default_product_standard": "个人基础主题以完整原局辅助喜用及主次的明确结果为依据；未完成时保持待定。",
+    "selected_officer_function_alone_creates_default_B": false,
+    "functional_results_retained_for_research_and_explanation": true,
+    "F_default_integration_deferred_due_to_corrected_priority": true,
+    "original_full_C02_and_C03_scope_preserved": true,
+    "approved_C20_D2_C0_peer_rules_changed": false,
+    "existing_frozen_artifacts_modified": false,
+    "modern_scientific_efficacy_claimed": false,
+    "goal_status": "active",
+    "progress_delta": "0.00",
+    "reason": "此前推荐F是为了先让已有明确分支可用于产品；用户没有要求优先获得阶段底色。最终默认底色不得用局部功能替代完整目标。",
+    "explicit_user_confirmation_received": true,
+    "confirmed_plan": "comprehensive_natal_result_first"
+  },
+  "traditional_branch_status_audit": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/traditional_branch_status_audit_20261101.json",
+  "baseline_explicit_user_decision": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/personal_baseline_user_decision_20261101.json",
+  "latest_research_increment": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_根资格修订与时间主题接合_研究增量_rev69",
+  "latest_research_increment_archive": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_根资格修订与时间主题接合_研究增量_rev69.zip",
+  "latest_research_increment_verification": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/根资格修订与时间主题接合_rev69_交付核验.json",
+  "resumed_goal_context": {
+    "date": "2026-11-01",
+    "observed_goal_status": "active",
+    "observed_goal_label": "resume",
+    "interpretation": "用户恢复先前完整研究任务，未取消或缩减原100%目标。",
+    "full_research_objective_retained": "在固定 rules-progress-0.1 八模块与权重下，将 Part 1 生辰核/生成核与语义变色规则推进到可验收100%：完整规则、可运行代码、逐算法解释、原始计算回放、来源/推论/采纳账本、全链验收；保持主口径，整盘结果优先，不以局部功能替代默认个人基础主题。",
+    "previous_blocker_resolved": true
+  },
+  "ongoing_next_research": {
+    "kill_math": "work/rev65_kill_algebraic",
+    "kill_sources": "work/rev65_hidden_effect_activation",
+    "status": "rev64_published_verified_rev65_active",
+    "must_revalidate_before_wait_or_resume": true,
+    "last_verified_agent": "/root/food_finance_branch",
+    "last_verified_agent_status": "running",
+    "verification_kind": "collaboration.list_agents actual lifecycle current turn",
+    "auxiliary_semantics": "work/rev64_auxiliary_semantics",
+    "independent_kill_review": "work/rev64_kill_independent",
+    "all_three_live_agents_revalidated": true,
+    "no_new_release_published_yet": true,
+    "hidden_policy": "work/rev65_hidden_effect_activation",
+    "algebraic_feedback": "work/rev65_kill_algebraic",
+    "raw_auxiliary_bridge": "work/rev65_raw_auxiliary_bridge",
+    "hidden_independent": "work/rev65_hidden_independent",
+    "independent_hidden": "work/rev65_hidden_independent",
+    "regional_increment": "work/rev65_zhejiang_region_increment",
+    "regional_independent": "work/rev65_zhejiang_independent",
+    "hidden_patch": "work/rev65_hidden_effect_activation_v0_2",
+    "hidden_patch_status": "author_fixed_657e_and_independently_passed_limited_participation_only",
+    "no_hard_user_blocker_observed": true
+  },
+  "execution_acceptance_addendum": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/user_execution_acceptance_addendum_20261101.json",
+  "current_acceptance_registry": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/current_acceptance_registry.json",
+  "full_goal_authorization_reaffirmed": true,
+  "original_all_delivery_acceptance_required_before_goal_complete": true,
+  "latest_working_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev538_live_checkpoint.json",
+    "bytes": 157986,
+    "sha256": "126e4b9fe3d519d851d587bf4ac67db8f34c9a42a948ef341c92cf96515f4b71"
+  },
+  "latest_progress_ledger": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/生成核_变色规则进度账本_current.json",
+  "latest_progress_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_full_acceptance_registration.json",
+    "bytes": 1390,
+    "sha256": "8a3e7eca59d9bb1f630c5b23a639b5a6a42ebe63737af79f5b75031336ded4a2"
+  },
+  "baseline_model_B_integration_status": "baseline0.4 independently passed with source-correct H03; old equal-carry example no longer exports B",
+  "latest_research_revision": 625,
+  "latest_published_research_directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付",
+  "no_wait_for_user_continue": true,
+  "new_substantive_source_audit": {
+    "status": "adopted_ROOT_HAP_normal_food_time_natal_base_entry_and_C20_paths_independently_revalidated_no_score_increase",
+    "primary_pages": "NLC PDF21-23 actual render/read by branch",
+    "potential_policy_gap": "qualification treats甲亥/丙寅/庚巳/壬申 as other-hidden5/2 vs禄旺7/2; check declared proxy meaning and source category order before default policy revision",
+    "not_claimed": "No old frozen code changed or empirical truth inferred; fixed-model mathematics remains separately tested",
+    "assigned": "branch_status_audit with classic source feedback",
+    "required_next": "complete120 stem/branch type table with direct/derived/engineering source layers; new root-policy minimal explicit ordinal-consistent inference; dependent necessary behavior/source revalidation before further acceptance",
+    "initial_data_error_claim": "withdrawn: selected primary reads 三比 versus 三长生禄刃; old exclusion of 三比 versus 一长生 had grounds",
+    "misread_correction_preserved": true,
+    "confirmed_type_coverage_gap": "陽長生甲亥/丙寅/戊寅 directly supported by same book but generic other-hidden qualification;陰長生 general cases need typed same-book derivation, not literal concealment. Numeric proxy source impact being repaired as new root-policy, no assumption all results wrong.",
+    "source_view_by_root": "actual local large PDF22 and23 inspected; three-to-three confirmed"
+  },
+  "last_accepted_progress": "100.00",
+  "root_source_policy_revalidation_pending": false,
+  "no_additional_progress_while_root_policy_under_repair": false,
+  "root_policy_module_status": {
+    "schema": "project-root-qualification-method-adoption-0.2",
+    "status": "adopted_for_explicit_new_method_versions_only",
+    "method": "root-policy-primary-types-0.2",
+    "primary_profile": "ziping-world-library-primary-provisional-v1",
+    "component": "rev67_root_policy_v0_2",
+    "freeze": {
+      "path": "rev67_root_policy_v0_2/freeze.json",
+      "sha256": "75e3498442ae9dc3ad3a9ca85e83646f11ae128024cdec4028b33c68cd1ed2cc"
+    },
+    "independent_review": {
+      "path": "rev68_root_policy_independent/report.json",
+      "sha256": "7d640c6b1f06401fa3b6b23d9e9704a4a41790b7c7c51df12daf3eb721ea43e7"
+    },
+    "reason": "Restore source-root categories missing from the legacy generic hidden-root proxy; keep the existing numeric scale as an explicit project embedding.",
+    "source_types_and_numbers_distinct": true,
+    "source_reading_correction": "Selected primary reads three peers versus three life/birth/lu/blade roots, not three versus one. The latter reading was withdrawn and was not used to select numeric values.",
+    "old_frozen_methods_unchanged": true,
+    "required_dependent_validation": [
+      "raw normal whole H",
+      "food-finance whole H",
+      "five-layer whole H",
+      "wearing-print and print-release",
+      "follow-finance",
+      "kill-print ratio/cell qualification domains",
+      "baseline",
+      "unified entry",
+      "computed B to C20"
+    ],
+    "dependent_H_or_B_revalidation_completed_by_this_record": false,
+    "qualification_is_not_effective_strength_or_automatic_carry": true,
+    "reality_prediction_validated": false,
+    "progress_delta": "0.00"
+  },
+  "national_point_edition_status": {
+    "schema": "project-bounded-national-point-edition-adoption-0.1",
+    "status": "adopted_bounded_data_edition_not_full_Rn_acceptance",
+    "component": "rev68_national_region_points_docs_v0_1_patch",
+    "freeze": {
+      "path": "rev68_national_region_points_docs_v0_1_patch/freeze.json",
+      "sha256": "4e8d05fc161250f186485ff489ceeb3f967d11b79a7493ab99cdd60822cda376"
+    },
+    "independent_review": {
+      "path": "rev68_national_region_points_independent/report.json",
+      "sha256": "6728106e714f448265e319bd9e76d0d6551668ff069bed7af677a07058f3fb38"
+    },
+    "scope": "34 provincial named representative-point proxies plus preserved Suzhou record, existing ordinary lookup/direction/C20 contracts.",
+    "not_claimed": [
+      "GPS position",
+      "geographic centroid",
+      "administrative polygon certification",
+      "national local-element Rn completion",
+      "physical metaphysical effects"
+    ],
+    "Rn_status": {
+      "single_element_closed": 3,
+      "cross_element_ambiguous": 4,
+      "coverage_gap": 27
+    },
+    "Rn_unknown_still_prevents_complete_C20_if_Rn_required": true,
+    "C0_requires_full_normalized_identity_version_point_and_content": true,
+    "documentation_defect_fixed_in_new_edition": "NRL03 references vendor VERSION 0.1, rather than incorrectly inheriting wrapper 0.4. Literal AST VERSION verification added; source/math unchanged.",
+    "no_in_place_entry_or_catalog_replacement": true,
+    "progress_delta": "0.00"
+  },
+  "root_policy_dependent_acceptance": {
+    "ROOT02": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev67_root_policy_v0_2",
+      "report": "rev68_root_policy_independent/report.json",
+      "report_sha256": "7d640c6b1f06401fa3b6b23d9e9704a4a41790b7c7c51df12daf3eb721ea43e7"
+    },
+    "HAP03": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev68_hidden_activation_v0_3",
+      "report": "rev68_hidden_independent/report.json",
+      "report_sha256": "2243a528fc6eabc486e9558f25a201b05456fc43e14921f982d1a4f8083aae75"
+    },
+    "normal_H03": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev68_raw_auxiliary_bridge_v0_3",
+      "report": "rev68_raw_auxiliary_independent/report.json",
+      "report_sha256": "ba5a0d7d017da102bc6e857ccfc553db839e337ec05a69ec0b80872c21576402"
+    },
+    "food_H05": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev68_food_finance_feedback_v0_5",
+      "report": "rev68_food_finance_independent/report.json",
+      "report_sha256": "22695deec68ecbdc7c434052c6a77a29e44ddd52461a1b59b944f28dda137acc"
+    },
+    "time_H02_docs1": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev68_five_layer_whole_H_v0_2_docs1",
+      "report": "rev68_five_layer_whole_H_independent/report.json",
+      "report_sha256": "c81f45b9fdacc7d5416e2d547dfe5826fe697481d75059a5ed724ad850a1d6f9"
+    },
+    "natal_base04": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev68_whole_natal_baseline_v0_4",
+      "report": "rev68_baseline_independent/report.json",
+      "report_sha256": "9f3b5d39fc59c1e61069a517b719fc64683cae422da8cdca5b4b9103d8972a31"
+    },
+    "entry05": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev68_v1_entry_v0_5",
+      "report": "rev69_entry05_independent/report.json",
+      "report_sha256": "75c730637ac2d84a02f0f643735637d367ecaf5fe931a3da5e695ec89565bfac"
+    },
+    "time_review_base01": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev69_time_to_original_base_v0_1",
+      "report": "rev69_time_adapter_independent/report.json",
+      "report_sha256": "4d3de9cde0b03b75857d20a512a9bf50eec64e92f7d5be7a0b05a13292162d08"
+    },
+    "raw_natal_C20_03": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev69_raw_to_c20_chain_v0_3",
+      "report": "rev69_raw_to_c20_chain_independent/report.json",
+      "report_sha256": "4fd18988510cb6d0c310ec4c654fded16dc5611f9b80cc82f778857bb3a7bd1f"
+    },
+    "national34_points_docs1": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev68_national_region_points_docs_v0_1_patch",
+      "report": "rev68_national_region_points_independent/report.json",
+      "report_sha256": "6728106e714f448265e319bd9e76d0d6551668ff069bed7af677a07058f3fb38"
+    },
+    "wear_print03_docs2": {
+      "status": "independently_passed_bounded_wearing_print_scope",
+      "component": "rev70_hurt_print_release_v0_3_docs2",
+      "report": "rev70_hurt_print_independent/report.json",
+      "report_sha256": "f9f004c941ad043824955f77c8d4c1e375451cc41a83ce9357d5b3b724c390ac",
+      "release_empty_domain_not_complete": true
+    },
+    "print_release04_docs1": {
+      "status": "independently_passed_bounded_extremely_narrow_scope",
+      "component": "rev70_print_release_whole_H_v0_4_docs1",
+      "report": "rev70_print_release_independent/report.json",
+      "report_sha256": "ee7fd32a37bcabecc5d14e8b7a5d711dd9b5013a7e7a82d36a2ea5c6e33cf4d2"
+    },
+    "follow_scalar04_docs2": {
+      "status": "independently_passed_bounded_numeric_and_whole_auxiliary_research_scope",
+      "component": "rev70_follow_scalar_print_v0_4_docs2",
+      "report": "rev70_follow_independent/report.json",
+      "report_sha256": "c659f9bcbdc5a060adbc0b7391e509c8e4aeeef8083db012a676d02c4beed492"
+    },
+    "entry06": {
+      "status": "independently_passed_bounded_scope",
+      "component": "rev69_v1_entry_v0_6",
+      "report": "rev70_entry06_independent/report.json",
+      "report_sha256": "5199f27d748107c5dd3ecacae62f06242de39e1835491c85870f80ce97f5e1c6"
+    },
+    "FJ_named_data06": {
+      "status": "independently_passed_bounded_named_source_frame",
+      "component": "rev71_region_Rn_evidence_excerpt_edition",
+      "report": "rev71_region_Rn_independent/report.json",
+      "report_sha256": "e98654d5cc3f73ce073d07d76d1c5b04a143cddabb729e25e92e765793c9dce5"
+    },
+    "kill_food_whole011": {
+      "status": "independent_math_and_root_IO_patch_review_passed_bounded_scope",
+      "component": "rev71_kill_food_whole_feedback_v0_1_1",
+      "report": "rev71_kill_whole_project_acceptance/report.json",
+      "report_sha256": "b8367027e92650e428519a11bdbaa588f022715e6f8533e417a493d0e2aa738e"
+    },
+    "SX_CQ_named_data08": {
+      "status": "independently_passed_bounded_explicit_named_edition",
+      "component": "rev71_chongqing_Rn_target_bridge",
+      "report": "rev72_SX_CQ_region_independent/report.json",
+      "report_sha256": "6077d00862dfca8b61118e75159157f544076aef846c02ac10b855a43d15ed37"
+    }
+  },
+  "current_unified_entry": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/v1_entry.py",
+  "current_natal_B_C20_chain": "rev69_raw_to_c20_chain_v0_3 independently passed; own bounded8region/3point data edition explicit, not silently national",
+  "time_review_to_original_B": "rev69_time_to_original_base_v0_1 independently passed; supplied full-window inventory claim plus native all-record window proof, separate current snapshot, no default natal override",
+  "latest_working_but_unpublished_components": {
+    "hurt_print03": "docs2 bounded model + precise13 doc overlay0.1.2 independently adopted; in rev74",
+    "print_release04": "docs1 independently accepted; in B07/rev74",
+    "follow_scalar04": "docs2 independently passed 3newraw/108H1worlds+108H2unknown/12interventions,31alg43AST; no B/default adoption",
+    "entry06": "independently accepted and distributed in rev74; current-time route distinct from natal B",
+    "kill_ROOT2": "0.1.1 adopted in B07 and rev74; exact foodgod/hurtrole retained",
+    "Rn_sources": "JX09 explicit named frame accepted and distributed in rev74;7single4ambiguous23gap; no national default replacement",
+    "lujie_whole": "Lu01 standalone whole-H accepted with precise11 doc overlay; included rev74; B07 not extended"
+  },
+  "latest_published_research_revision": 625,
+  "execution_status": "original_task_complete",
+  "user_pause_request_active": false,
+  "count_snapshot_scope": "source_registry_count69, complete_source_charts33 and algorithm_count192 are historical snapshots, not recomputed totals of new frozen subcomponents; no progress is counted from these numbers.",
+  "latest_accepted_regional_named_frame": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev282_Qianjiang_frame_project_adoption.json",
+    "sha256": "87ef317776a798f220e21e60b9cff7b981f3fcd6f0041256a15835299a83f015",
+    "status": "adopted_exact_version_attributed_modern_named_city_frame"
+  },
+  "effective_wear_algorithm_documentation": {
+    "overlay": "rev73_wear_precise_algorithm_document_errata_v0_1_2",
+    "adoption": "rev73_wear_effective_documentation_adoption.json",
+    "adoption_sha256": "a3641133081f57f2d305032df9027750dc38e21ada03e926f03f773589202312",
+    "rules_or_runtime_changed": false
+  },
+  "latest_accepted_whole_natal_adapter": {
+    "component": "rev155_month_food_baseline_v0_12",
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev155_month_food_baseline_v0_12",
+    "method_version": "whole-natal-multibranch-to-original-base-0.12",
+    "implementation_revision": "0.12.0",
+    "policy": "rev167_B12_project_adoption.json",
+    "policy_sha256": "16cdb74a0e4eb3c374f5c1da52ce4c5fdc9418ecbc2da6d791b8f9d9f00b320c",
+    "aggregate": {
+      "component": "rev167_B12_acceptance",
+      "files": 3,
+      "manifest_sha256": "a3d1346df50f92c60b20fd09473126944d61772fc6662740a94e67d4580979fa",
+      "freeze_sha256": "59082392927356822fbe0e5e38099a78be5fcaca867c3ba7a400860e8f85e490",
+      "report_sha256": "cc6ab7901cbbb09f07054cac04c615f1cb67ba5309a6a6b2b5ace86cb62c3ec1"
+    },
+    "target_binding": {
+      "component": "rev155_month_food_baseline_v0_12",
+      "core_sha256": "e5e85d47c03e8e3ee9d0ccbc43404b7cdd44afc58530c6e979074e7dc2b08476",
+      "lock_sha256": "c8047f7509d5e456ea4cc1a249734f9c7f1a66475685c443c4dda914dd39acba",
+      "author_report_sha256": "b219b495bc68675f83db58eccce14c5d8430213265308843e2c23ac57518f2bb",
+      "manifest_sha256": "be2cb5f5abfebf4d4a1e0e27e571f74850cc18fbc813b88867c4546de6c7477d",
+      "freeze_sha256": "197cd137c78d4ed319aed83b1331397df363bc22f3c6898179d543d4dd77e99c",
+      "source_registry_sha256": "6200ab8122557079b3e94798b396b9c440a1588e2a02bd5f6b14aebc2dd073c5",
+      "files": 5163,
+      "runtime_source_files": 4989,
+      "method_version": "whole-natal-multibranch-to-original-base-0.12",
+      "implementation_revision": "0.12.0"
+    },
+    "B11_prior_records_retained": true,
+    "no_F_or_unordered_projection": true
+  },
+  "latest_accepted_LuJie_whole": {
+    "component": "rev72_lujie_outlet_whole",
+    "aggregate": "rev73_lujie_project_acceptance/report.json",
+    "adoption": "rev73_lujie_project_model_adoption.json",
+    "wholeH_accepted": true,
+    "B07_route_extended": false,
+    "progress_delta": "0.00"
+  },
+  "latest_published_increment": {
+    "revision": 190,
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_整盘取用与算法解释_研究增量_rev190",
+    "archive": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_整盘取用与算法解释_研究增量_rev190.zip",
+    "archive_sha256": "6fc6dc317b49970147cd6a3da83c064993af1fbae80b551bec9a44ab3f3ef0d4",
+    "archive_bytes": 859360155,
+    "verification_file": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_整盘取用与算法解释_研究增量_rev190_交付核验.json",
+    "verification_sha256": "54bab66a0bee52ca9b8e7644c4430d2a08b14c34068b65a6211e31e80fd1533c",
+    "actual_full_unzip_SHA_and_bytes": 19500,
+    "native_full_JSON_replays": 20,
+    "CRC_actual_full_unzip_all_SHA_native_postbytes": "passed",
+    "score": "73.75/100",
+    "progress_delta": "0.00",
+    "original_task_complete": false
+  },
+  "checkpoint_revision": 625,
+  "latest_delivery_proof": {
+    "revision": 266,
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_整盘取用与算法解释_研究增量_rev266",
+    "archive": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_整盘取用与算法解释_研究增量_rev266.zip",
+    "archive_sha256": "5eb22f50f038c4acc0964f2690b4b90950f1b8a85d467a297c3073d5b768b328",
+    "archive_bytes": 1214143940,
+    "verification_file": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_整盘取用与算法解释_研究增量_rev266_交付核验.json",
+    "verification_sha256": "0da31c3946303a62536763c451f9fb7e6cec4799926088b13f278a813dba6d2e",
+    "actual_full_unzip_SHA_and_bytes": 30856,
+    "native_full_JSON_replays": 33,
+    "CRC_actual_full_unzip_all_SHA_native_postbytes": "passed",
+    "score": "86.25/100",
+    "progress_delta": "0.00",
+    "original_task_complete": false
+  },
+  "score_changed": true,
+  "rev76_follow05_verified_research": {
+    "policy": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev76_follow05_bounded_research_adoption.json",
+    "independent_review_sha256": "dda2b3d3679aeae4874e6fb656ec3ce3f17687a7bb53d042f75eaacef0146a35",
+    "B_export_allowed": false,
+    "progress_delta": "0.00"
+  },
+  "food05_precise16_documentation": {
+    "status": "independently_passed_and_effective_documentation_adopted",
+    "policy": "work/rev76_food_effective_documentation_adoption.json",
+    "policy_sha256": "c80a1e8145e37bd5d83a1ab8e8c1b01a3c1bb44b204de0b703ed714da5a04e13",
+    "new_math_or_score": false
+  },
+  "B08_Lu_integration": {
+    "status": "independently_passed_and_adopted_for_bounded_H_to_B",
+    "component": "rev77_whole_natal_baseline_v0_8",
+    "files": 1272,
+    "core_sha256": "039243e1f68f8488b1b4ab3fe844de72a1d4542f300c3840e563ad2eace881bb",
+    "freeze_sha256": "dd601e43a493a0ccaa5b5d2793ecad8ee1c3102480830bba8a35aafe424352f8",
+    "reviewer": "branch_status_audit",
+    "default_not_overwritten": true,
+    "new_math_holdouts": 0,
+    "progress_delta": "0.00"
+  },
+  "C03_current_feedback": {
+    "author_component": "rev74_current_kill_wear_feedback_v0_1",
+    "status": "independently_passed_exact_documents_and_bounded_current_model_adopted",
+    "author_freeze_sha256": "4ed37301b75ed4ce6f9770d9baebc22182e6564de622b60638221b6d4ddb8f57",
+    "root_kernel_imported_or_called": true,
+    "root_prior_expectations": "rev78_C03_independent_preexecution_corrected.json",
+    "negative_fixture_correction": "rev78_C03_independent_preexecution_v0_3.json",
+    "KT_numeric_report": "rev78_current_feedback_KT_independent/independent_numeric_report.json",
+    "KT_numeric_report_sha256": "32831aff567f3151cd37d80a8d1831eb31d4b2e04fa82a877f213e5780b319f6",
+    "KT_full_parameter_worlds": 32,
+    "KT_full_package_worlds": 512,
+    "KT_binding_and_boundaries": "rev78_current_feedback_KT_independent/boundaries_and_bindings_report.json",
+    "WT_reviewer": "food_finance_branch",
+    "B": null,
+    "adopted": false,
+    "KT_report": "rev78_current_feedback_KT_independent/report.json",
+    "KT_report_sha256": "bf1ce708b4436e8eb9d806325b4c94bd5196aae57926d1e1317ccec5b76c341c",
+    "KT_freeze_sha256": "0c7758d5ab85b6f80583b8c7b22cb4a24fd2b2a515b4d46c8ead28e63dd7522f",
+    "KT_review_files": 40,
+    "C03_component_adopted": false,
+    "progress_delta": "0.00",
+    "component": "rev74_current_kill_wear_feedback_v0_1",
+    "component_files": 643,
+    "KT_review": "rev78_current_feedback_KT_independent/report.json",
+    "WT_review": "rev78_current_feedback_WT_independent/report.json",
+    "aggregate": "rev80_current_feedback_project_acceptance/report.json",
+    "aggregate_sha256": "5a690ec9d0f47fcff211db00a10d0e1bedd50562cf2d70af17750ab8f85b2247",
+    "model_policy": "rev80_current_feedback_whole_project_model_adoption.json",
+    "model_policy_sha256": "f322f204c21a012806ea1e2abbada1a73df98559cf53c16bf391e934e5f7d908",
+    "documentation_policy": "rev80_current_feedback_effective_documentation_adoption.json",
+    "documentation_policy_sha256": "a6f7eaaad9e7f96d5a5305c6179653820e018f5c68f15471d59cdb748642abdc",
+    "current_H_supported_bounded": true,
+    "B_or_default_changed": false,
+    "all_C03_complete": false
+  },
+  "latest_checkpoint_local_date": "2026-11-02",
+  "new_bounded_source_adoptions": {
+    "food05": "rev78_food05_whole_project_model_adoption.json",
+    "Lu12": "rev78_Lu12_whole_project_model_adoption.json",
+    "support_scope": "existing complete actor-port packages on unchanged actual background, not original-source minimality or causal deletion; C03 global-origin-removal separate",
+    "source_math_or_default_changed": false,
+    "progress_delta": "0.00"
+  },
+  "current_feedback_effective_documentation_candidate": {
+    "component": "rev79_current_feedback_precise_document_errata_v0_1",
+    "freeze_sha256": "e45fb05a0718193ad1d974cc200b3fe9185127d6e2d2c44ac1f14fb0cb85778f",
+    "files": 9,
+    "status": "frozen_author_readonly_passed; food_finance_branch final nonauthor review running",
+    "fixes": "Initializer None/side effects, conditional output paths, noncontractive WT output shape, exact interval max and helper source layers; no643 runtime change"
+  },
+  "summer_wood_climate_whole_candidate": {
+    "status": "adopted_bounded_natal_model_not_B_route",
+    "component": "rev80_summer_wood_wear_v0_1_4",
+    "policy": "work/rev81_summer_whole_project_model_adoption.json",
+    "policy_sha256": "f21323dfc0c444f02a60fbb34b53362472e0e98dee892549536a7e760911b1a3",
+    "Suo_primary_source_frontier_unresolved": true,
+    "no_F_or_C_candidate_adopted": true
+  },
+  "source6_hidden_water_candidate": {
+    "status": "accepted_as_audited_research_diagnostic_only",
+    "policy": "work/rev81_source6_research_archival_acceptance.json",
+    "policy_sha256": "e41fb3ec5cc02b85fdc50d60b94b4f712f68456873820f4dd0325722bfb7d957",
+    "whole_H_positive_domain_covered": false,
+    "B": null
+  },
+  "normal_officer_finance_print_candidate": {
+    "status": "adopted_bounded_natal_source_not_B_route",
+    "component": "rev78_official_finance_print_whole_v0_2",
+    "independent_review": "rev82_official_finance_print_independent",
+    "review_SHA": "2c0d501f52fe7e90062c178dcfe1431c5914c6b18611bdbe8dbd21dd89b6e53b",
+    "policy": "work/rev84_official_whole_project_model_adoption.json",
+    "policy_SHA": "6407f271e50aca9d7e56f2ab16ed5eea64ad66118c9080a90a54e3962ae6dded",
+    "source_relation_guard_all_positive_inputs": true,
+    "same_chart_priority_invented": false,
+    "B": null,
+    "progress_delta": "0.00"
+  },
+  "whole_goal_complete": true,
+  "no_user_hard_blocker": true,
+  "B09_candidate": {
+    "component": "rev79_whole_natal_baseline_v0_9",
+    "status": "author1606_frozen_complete_portable_passed; root_independent_preparation",
+    "core_sha256": "bf9f56d6325ad1b50c9bc3aca11c4e333d47de5a6bf80e5c002c9811ddbb0bbe",
+    "freeze_sha256": "d861c0dcd641e006f7323eb08914c8882043e5e45b9708a75f1266929754267c",
+    "not_adopted": true
+  },
+  "new_zero_direct_summer_F1_candidate": {
+    "component": "rev82_zero_direct_summer_F1_whole_v0_1",
+    "status": "author348_frozen_full_run_checks_and_complete_relocation_passed_pending_nonauthor_review",
+    "pure_structural_candidates": 94,
+    "unchanged_native_source_closed": 19,
+    "default_complete_H": 4,
+    "actual_numeric_assertions": 20966,
+    "full_API_CLI_pairs": 8,
+    "full_parameter_plus_default_worlds": 136,
+    "positive_package_rows": 662,
+    "new_blind_classical_or_prediction_cases": 0,
+    "original_summer223_unchanged": true,
+    "B": null,
+    "progress_delta": "0.00",
+    "freeze_SHA": "914278c9c0cb5a3cc68eb4c377e613432cc18b340833b4b310b7644489cbd7ef",
+    "portability_receipt": "work/rev82_zero_summer_complete_portability_receipt.json",
+    "portability_receipt_SHA": "b3b0918e39e438b21093e929a3b4bd0209808454aec02afdcb4f4844e7ce3818"
+  },
+  "C03_source_direction_effective_correction": {
+    "status": "adopted_exact_documentary_correction_only",
+    "field": "WT_FINANCE_LOOP1.source_direction_check",
+    "component": "rev83_C03_source_direction_effective_erratum",
+    "targeted_review": "rev83_C03_direction_erratum_independent",
+    "review_SHA": "0624d9fb50894fad7e6910d5c69368a5602dbbf7b6e47cc29938a3b31408dc3c",
+    "effective_model_policy": "work/rev83_current_feedback_whole_project_model_adoption.json",
+    "policy_SHA": "f69130f8ccccbb8f66bafa9e9c967a827707eddfb80a787abb3f761da9aeba4d",
+    "runtime_changed": false,
+    "new_L_or_monotonic_theorem_claimed": false,
+    "progress_delta": "0.00"
+  },
+  "research_revision_at_legacy_formal_snapshot": 58,
+  "root_live_metadata_corrections": {
+    "revision": 85,
+    "reason": "Stale latest_published_research_archive still pointed to69 despite verified74. Corrected to actual74; legacy formal0.12 archive preserved separately. No research score change."
+  },
+  "regional_source_lookahead_rev83": "work/rev83_region_GD_QH_NX_HB_source_followup.json",
+  "follow05_new_zero_support_research_check": {
+    "directory": "work/rev83_root_zero_support_follow_check",
+    "status": "four_actual_API_CLI_pairs_with_source_closure_gap_retained_not_adopted",
+    "primary_PDF95_actual_root_visual_read": true,
+    "clean_candidate_raw": "丙戌 戊戌 乙巳 丙戌",
+    "clean_quantities": {
+      "body": "0",
+      "wealth": "309/16",
+      "outlet": "43/4"
+    },
+    "native_H_elements": [
+      "土",
+      "火"
+    ],
+    "native_H_unordered_not_coprimary": true,
+    "old_酉_case_has_unimplemented_酉戌害": true,
+    "full_申酉戌_meeting_not_HAP_activated": true,
+    "no_source_absence_claim_from_HAP_nonactivation": true,
+    "new_From06_source_gate_not_implemented": true,
+    "B": null,
+    "progress_delta": "0.00"
+  },
+  "entry07_independent_open_API_issue": {
+    "status": "software_issue_must_fix_before_adoption",
+    "component": "rev80_v1_entry_v0_7",
+    "evidence": "work/rev80_entry07_independent/strict_API_route_echo_counterexample.json",
+    "finding": "execute fills blank response with unchecked route_id before canonical; illegal Python NaN/set route echo makes response non-JSON-safe. DTO/worker0; strict CLI rejects correctly.",
+    "authorized_minimum_fix": "only a string route_id may be echoed, otherwiseNone; implement new sibling, preserve4128",
+    "not_a_new_native_math_or_JSON_CLI_failure": true,
+    "not_yet_fixed": true,
+    "independent_review_status": "blocked_pending_software_fix",
+    "review_SHA": "4d2d2b75cb94fb4ab6145c7a6148825f3f60c99c252929bd9d53b92cf8215fee",
+    "freeze_SHA": "1b11969a832ba0b4b3d659c0747064c8d6f087fed7ed751c17defdcb97b22e93",
+    "repair_status": "branch author working new0.7.1, old4128 preserved",
+    "minimum_fix_scope": "blank only string echo plus canonical-before-source provided-nonstr-route type guard; normal valid requests retain full source gate"
+  },
+  "paused_or_completed_agents": {
+    "p01_followup": "entry07 nonauthor review152 frozen with actual API blocker; waiting new0.7.1 for targeted review"
+  },
+  "last_user_readable_checkpoints": [
+    "outputs/本轮已查明的规则与算法解释_rev81.md",
+    "outputs/夏木无直根新分支_推导与待审边界_rev82.md",
+    "outputs/时间反馈方向说明_已生效勘误_rev83.md",
+    "outputs/从财规则_新算例与反例发现_rev83.md",
+    "outputs/正官财印_整盘规则与11项算法解释_rev84.md",
+    "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/当前接续入口_rev263.txt"
+  ],
+  "latest_live_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_live_checkpoint.json",
+    "bytes": 17104,
+    "sha256": "be69b417f6194c314300f41d570d6f1e467c17bc19cc56dd3375a6d52f1c0253"
+  },
+  "accepted_after_rev74": {
+    "rev88_entry071_project_adoption.json": {
+      "sha256": "088d20796a6bc17f96a499b62023cf3c57dceb25cdebb22808584f50dbbd1156",
+      "progress_delta": "0.00"
+    },
+    "rev88_F1_whole_project_model_adoption.json": {
+      "sha256": "d32068dd0e55bdaefc2cd61dffc1937cee7d28b5ce72db2854856c6b420229c4",
+      "progress_delta": "0.00"
+    },
+    "rev89_From06_whole_project_model_adoption.json": {
+      "sha256": "a58b83e048279d8aa6e4131045c48393f6f55c6f3d3a75efd6d0632281714069",
+      "progress_delta": "0.00"
+    },
+    "rev91_current_window011_project_adoption.json": {
+      "sha256": "0fd09bcf1632efcbbccad9c5e1a766ce14f6df4177f016eb3b3c2756dcea57a2",
+      "progress_delta": "0.00"
+    },
+    "rev95_B10_project_adoption.json": {
+      "sha256": "dc6283007f0a26f58ec899c62a331a978f4283c5407f32f66dc98e0399e4a12c",
+      "progress_delta": "0.00"
+    }
+  },
+  "reviewed_research_only": {
+    "rev93_From07_research_archival_acceptance.json": {
+      "sha256": "5ff7c805db2cd380a10428da4cbbe6c1b76959f6b284dba7daa34eb8c3182085",
+      "B_allowed": false
+    }
+  },
+  "preferred_resume_entry": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_live_checkpoint.json",
+  "formal_legacy_package_not_preferred_resume_entry": true,
+  "accepted_after_rev96": {
+    "rev99_WT2_QF_semantic_interpretation_adoption.json": {
+      "sha256": "dd86df2cc07a9a6d0e4a9412804f438043cb3be091a21ab71ff6effef44418eb",
+      "progress_delta": "0.00"
+    },
+    "rev107_PF1_whole_project_model_adoption.json": {
+      "sha256": "a1601494fef329620c7ff0faec79291069bbdbb916952e3be962ed324bece06b",
+      "progress_delta": "0.00"
+    },
+    "rev113_WT2QF_current_project_model_adoption.json": {
+      "sha256": "944bae47d30d64ae425be86708f1ec2fb766abbfaef884073c6d4fe07a9a0678",
+      "progress_delta": "0.00"
+    },
+    "rev117_current012_project_adoption.json": {
+      "sha256": "03337fe405f66c182b0519d38a675279516d78762b088f15221fa106a5dfb197",
+      "progress_delta": "0.00"
+    },
+    "rev124_month_food_visible_project_model_adoption.json": {
+      "sha256": "1cb2cbdf412cf7e053550263c45c50d15bd62b4929675e526f1666ccfb3e2af0",
+      "progress_delta": "0.00"
+    }
+  },
+  "rev113_unpublished_state": {
+    "current012": {
+      "component": "rev104_current_feedback_window_theme_v0_1_2",
+      "files": 773,
+      "core_sha256": "1e516f2fb2267444b7e1958d4126c5c97533fea8ad99687544655666e846289c",
+      "manifest_sha256": "55e7a88830a10b097c66794e6f4beb8b240757baa48b7b48f86fe728ca8def6b",
+      "freeze_sha256": "42eca8e0c976eee1a604a535062cf7988ba0b12d666c3c2629a3e70c516e33c1",
+      "status": "author_complete9API_CLI3zero_frame_guards16IO_full773move2API_CLI_passed_pending111nonauthor",
+      "portability_report_sha256": "3b6b52a206a024db421654f5ac31ec5655906cd186d171f6c077e8c03c387f01",
+      "adopted": false
+    },
+    "region112": {
+      "component": "rev112_Jiangsu_named_frame",
+      "files": 220,
+      "manifest_sha256": "79d7a08151b9142e8306a6f9c4da74ffe7b8429e43dd083853c0d7463e815a3c",
+      "freeze_sha256": "6f1dc0d5982d770c26971673b8065e34b3afd9e9ab42f0b8df065e0cdf1912c5",
+      "status": "authorvalidated_conditional_source_comparison_research_only",
+      "original395_unchanged": true,
+      "source_fact_is_previously_known_not_new_discovery": true,
+      "old_JS_status": "ambiguous Xu/Yang/Yu =fire/earth, notpointonlygap",
+      "new_portal_frame": "Xu/Yangonly=>fireconditional, cannotreplaceoldsourceorclaimnewprovincecoverage",
+      "default_adopted": false,
+      "new_province_coverage": 0
+    }
+  },
+  "rev107_reviewed_research_only": {
+    "rev107_FromKill103_research_archival_acceptance.json": {
+      "sha256": "3a0f0413ec96c7ef99d5f4f5e9f0b75ba42db7d24ebd5a3baa3012a65c597a52",
+      "runtime_H_or_B_adoption": false
+    }
+  },
+  "latest_user_readable_rule_docs": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_规则与算法总入口_rev189.txt",
+  "rev124_unpublished_status": {
+    "current012": {
+      "component": "rev104_current_feedback_window_theme_v0_1_2",
+      "files": 773,
+      "core_sha256": "1e516f2fb2267444b7e1958d4126c5c97533fea8ad99687544655666e846289c",
+      "manifest_sha256": "55e7a88830a10b097c66794e6f4beb8b240757baa48b7b48f86fe728ca8def6b",
+      "freeze_sha256": "42eca8e0c976eee1a604a535062cf7988ba0b12d666c3c2629a3e70c516e33c1",
+      "status": "adopted_bounded_software_fix_under117",
+      "portability_report_sha256": "3b6b52a206a024db421654f5ac31ec5655906cd186d171f6c077e8c03c387f01",
+      "adopted": true,
+      "policy": "rev117_current012_project_adoption.json",
+      "policy_sha256": "03337fe405f66c182b0519d38a675279516d78762b088f15221fa106a5dfb197",
+      "nonauthor_review": "rev111_current012_independent",
+      "nonauthor_report_sha256": "f1cc2e56f4e112201746b373462dd3580d1d2eccaf06e29f73044b978ed42972"
+    },
+    "region112": {
+      "component": "rev112_Jiangsu_named_frame",
+      "files": 220,
+      "manifest_sha256": "79d7a08151b9142e8306a6f9c4da74ffe7b8429e43dd083853c0d7463e815a3c",
+      "freeze_sha256": "6f1dc0d5982d770c26971673b8065e34b3afd9e9ab42f0b8df065e0cdf1912c5",
+      "status": "authorvalidated_conditional_source_comparison_research_only",
+      "original395_unchanged": true,
+      "source_fact_is_previously_known_not_new_discovery": true,
+      "old_JS_status": "ambiguous Xu/Yang/Yu =fire/earth, notpointonlygap",
+      "new_portal_frame": "Xu/Yangonly=>fireconditional, cannotreplaceoldsourceorclaimnewprovincecoverage",
+      "default_adopted": false,
+      "new_province_coverage": 0
+    },
+    "B11": {
+      "component": "rev115_whole_natal_baseline_v0_11",
+      "files": 4115,
+      "core_sha256": "e66b7ba7dbcd2afb5fecf757a9c5476e4819872c68f6ffdb8b1ebc991e7066d0",
+      "manifest_sha256": "7156c2f4f7b0601ad052f657d790652c1628d1822a4348ad0fb32e991f8d37c1",
+      "freeze_sha256": "74f70c8f873d182eab866dea56f6588b28115fa463abd6fcdeba894c8e5955e7",
+      "status": "author_complete_full_move_passed_122_nonauthor_in_progress_not_yet_adopted",
+      "new_raw_independent_prefix": "I01癸丑丁巳己卯丁卯=>waterB;I02乙丑己丑辛亥己丑=>numericalltrue but noheavyROOT/NoB, actualpassedperagent; finalreviewnotyetclosed",
+      "old_accepted_B101_unchanged": true
+    },
+    "food_month110": {
+      "component": "rev110_food_month_finance_whole_research",
+      "files": 541,
+      "manifest_sha256": "e3ea90e51ea1d7585bba092c2601a5e16bf3b9cbcf0031ac27da40cdc640370a",
+      "freeze_sha256": "e183122313285f6147889938dfa55d4acdf4d954bbb0182427ae0a75e1466cff",
+      "nonauthor119_41_report_sha256": "bccd02a4ff4f3ffcf5a60cf04db634f9d01d5fb77f89171d536ff508427ce1c1",
+      "status": "root124_adopted_visible_food_maxonepeer_subdomain_only",
+      "mandatory_scope_guard_policy": "rev124_month_food_visible_project_model_adoption.json",
+      "hidden_month_or_two_peer_positive_source_frontier_not_complete": true,
+      "B_integration": false
+    },
+    "KP109": {
+      "component": "rev109_kill_print_whole_research",
+      "files": 326,
+      "nonauthor116_19_report_sha256": "c3ef0742f72dd13c42b7d4943c23a26ba42218558362f3e07a5fc4aba37a8418",
+      "status": "reviewed_research_only_Heprimarybridge_still_incomplete",
+      "next_source_hypotheses": "rev118_kill_print_bridge_hypotheses_before_implementation.json"
+    }
+  },
+  "latest_accepted_B": {
+    "component": "rev155_month_food_baseline_v0_12",
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev155_month_food_baseline_v0_12",
+    "method_version": "whole-natal-multibranch-to-original-base-0.12",
+    "implementation_revision": "0.12.0",
+    "policy": "rev167_B12_project_adoption.json",
+    "policy_sha256": "16cdb74a0e4eb3c374f5c1da52ce4c5fdc9418ecbc2da6d791b8f9d9f00b320c",
+    "aggregate": {
+      "component": "rev167_B12_acceptance",
+      "files": 3,
+      "manifest_sha256": "a3d1346df50f92c60b20fd09473126944d61772fc6662740a94e67d4580979fa",
+      "freeze_sha256": "59082392927356822fbe0e5e38099a78be5fcaca867c3ba7a400860e8f85e490",
+      "report_sha256": "cc6ab7901cbbb09f07054cac04c615f1cb67ba5309a6a6b2b5ace86cb62c3ec1"
+    },
+    "target_binding": {
+      "component": "rev155_month_food_baseline_v0_12",
+      "core_sha256": "e5e85d47c03e8e3ee9d0ccbc43404b7cdd44afc58530c6e979074e7dc2b08476",
+      "lock_sha256": "c8047f7509d5e456ea4cc1a249734f9c7f1a66475685c443c4dda914dd39acba",
+      "author_report_sha256": "b219b495bc68675f83db58eccce14c5d8430213265308843e2c23ac57518f2bb",
+      "manifest_sha256": "be2cb5f5abfebf4d4a1e0e27e571f74850cc18fbc813b88867c4546de6c7477d",
+      "freeze_sha256": "197cd137c78d4ed319aed83b1331397df363bc22f3c6898179d543d4dd77e99c",
+      "source_registry_sha256": "6200ab8122557079b3e94798b396b9c440a1588e2a02bd5f6b14aebc2dd073c5",
+      "files": 5163,
+      "runtime_source_files": 4989,
+      "method_version": "whole-natal-multibranch-to-original-base-0.12",
+      "implementation_revision": "0.12.0"
+    },
+    "B11_prior_records_retained": true,
+    "no_F_or_unordered_projection": true
+  },
+  "active_tasks": {},
+  "latest_current_HF_adoption": {
+    "component": "rev129_hurt_finance_whole_v0_1_2",
+    "files": 1126,
+    "status": "adopted_bounded_current_instant_model_under130_after42_independent",
+    "core_sha256": "770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b",
+    "manifest_sha256": "58bc301ed9ff862128316a6663aeb8c1dc343d9ec0f417edaf91f4af6c2ce84e",
+    "freeze_sha256": "b83cac0adb95afbfa2c3b041883e00b44f87a94647f9b56ca392abe167bf29eb",
+    "policy": "rev130_HF012_current_project_model_adoption.json",
+    "policy_sha256": "e3743be0ca9db1f0965cdff5a0fc9a028a17b700994b676727da5e0056a0d4a2",
+    "nonauthor_review": "rev130_hurt_finance012_independent",
+    "nonauthor_report_sha256": "7e21776994330e821ae9c4dcbaaad744ea9176e981e94e04f1e0ee7811e5e97b",
+    "B_or_C20_or_window_adoption": false,
+    "source_guard": "pure exposed monthlyhurt, no active印, finance bodystrong ROOT proxy, actualroots/fullsource/allactualgoals; unresolved source neverpromoted"
+  },
+  "B11_later_effective_hold": {
+    "file": "rev136_B11_adoption_source_hold.json",
+    "sha256": "aa7a0405da1979c05544245dacdc0c3fde0977f46f946998d0aaf42ac1195437",
+    "status": "hold_new_adopted_computations_pending137_and139"
+  },
+  "B11_hold_evidence_binding": {
+    "file": "rev136_B11_hold_actual_evidence_binding.json",
+    "sha256": "15f1a37e3c5c05930d36097f6bc22de9917b5eb80544208741c70b6625a2f38a"
+  },
+  "user_resume_revokes_pause": true,
+  "B11_later_effective_hold_resolution": {
+    "file": "rev147_B11_fullfreeze_project_adoption.json",
+    "sha256": "ab1d947c0a04165b0a2978ae0510fec8b53a038dc7bd1cf0f018130f976d2a3d",
+    "resolution": "lift_new_computation_hold_only_for_exact146repairedrelease; original4115/137/135/139failedverdicts unchanged"
+  },
+  "last_verified_research_checkpoint": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev408_live_checkpoint.json",
+  "new_accepted_current": {
+    "B12_whole_natal": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev167_B12_project_adoption.json",
+      "sha256": "16cdb74a0e4eb3c374f5c1da52ce4c5fdc9418ecbc2da6d791b8f9d9f00b320c",
+      "status": "adopted_bounded_whole_natal_base_adapter"
+    },
+    "Suzhou_selected_frame": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev212_Suzhou_frame_project_adoption.json",
+      "sha256": "425219c6333776ed71b3e1e0682d0d87ae6bdba9254742ea3ff6a63c0ac2c30c",
+      "status": "adopted_exact_version_bounded_modern_city_frame"
+    },
+    "GX2012_selected_attributed_frame": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev228_GX2012_frame_project_adoption.json",
+      "sha256": "9f5e7a9c57e1fe4bc03cc69586c7e62976c65224d72a605cabc17383eaa3b6c5",
+      "status": "adopted_exact_version_attributed_modern_frame_engineering_reading"
+    },
+    "C04_original_stage075": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev216_C04_stage075_project_acceptance.json",
+      "sha256": "66455e78eb54754b095cadcfc7bc10e0df55e1fe985a71033456de5440590d68",
+      "status": "accepted_original_stage_milestone"
+    },
+    "from革_smallfire_finite_whole_model": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev235_reforming_whole_project_model_adoption.json",
+      "sha256": "b9ac38f1c40db7c15dfcf804be6b234de771f5ab518ae05a4e3f0a744aa2524a",
+      "status": "adopted_bounded_comparative_source_whole_model"
+    },
+    "C02_original_stage075": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev243_C02_stage075_project_acceptance.json",
+      "sha256": "05317f11e52ab42a56bbdb7d8339f3afd6f30d36cdbe9b6a0dea57a336d218f2",
+      "status": "accepted_original_stage_milestone"
+    },
+    "rev249_Yunnan": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev249_YNoffice_frame_project_adoption.json",
+      "sha256": "efa9cef51a53076f1bf30b1d52b56d64daf662a5874113eb2fcb34042a4a5a9c"
+    },
+    "rev251_explicit_from革_bridge": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev251_reforming_bridge_project_adoption.json",
+      "sha256": "2e083c3873e6d1dada8f961024a13eef6faba5519b66c40c2aefd7083f3e28a2"
+    },
+    "rev254_DingRen_source_whole": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev254_DingRen_whole_project_model_adoption.json",
+      "sha256": "9e3c641b2237583d78adad21bcec5c84b5142896d65c78a314a54372695cb280"
+    },
+    "rev258_Jilin": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev258_Jilin_frame_project_adoption.json",
+      "sha256": "1cb8bf1fed3ed0633a48b8f701e517a2b1864845b83de99fbccae83e9905ec60"
+    },
+    "rev261_current_single_window": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev261_current_single_window_project_adoption.json",
+      "sha256": "fe0c1ce699f2b5b1c247067718d8e64599324a2e1d99afcb19eb1c785e4d5913"
+    },
+    "print_finance_outlet": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev277_concurrent_print_finance_project_adoption.json",
+      "sha256": "3fda17b9b0a925eadb18e0796c2d408783abb24705d62ab95b9ee1394dac13be",
+      "status": "adopted_for_bounded_current_model"
+    },
+    "food_kill_print": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev280_food_kill_print_project_adoption.json",
+      "sha256": "796828d24531807faf03782fdcfab2824fb5ec798b53340a47926d9c191cd925",
+      "status": "adopted_for_bounded_whole_model"
+    },
+    "effective_support": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev281_effective_support_project_adoption.json",
+      "sha256": "b57aeb868b7c0d4611cb9ac2db7211a8644b6857d4e6ad8393427811f9fa2546",
+      "status": "adopted_for_bounded_whole_model"
+    },
+    "Qianjiang_data16": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev282_Qianjiang_frame_project_adoption.json",
+      "sha256": "87ef317776a798f220e21e60b9cff7b981f3fcd6f0041256a15835299a83f015",
+      "status": "adopted_exact_version_attributed_modern_named_city_frame"
+    },
+    "People2023_data17": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev289_People2023_frame_project_adoption.json",
+      "sha256": "e7610503bf980b98044d38ef1ec6f9eef1fd85b0218329cdd9b1afcb666295e2"
+    },
+    "Fan_Benxi_data18": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev295_Fan_Benxi_frame_project_adoption.json",
+      "sha256": "9c0e91e383baa72fad8a4ed7d739c4fa013a29706a86949f549fd727b693f449"
+    },
+    "TW_GS_data19r2": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev299_TW_GS_frame_project_adoption.json",
+      "sha256": "15f9517203bb15269c4c0060b7790d3cfbba13a48ae18c1f0472a706f98a2bd4"
+    },
+    "QH_data20": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev299_QH_reflow_frame_project_adoption.json",
+      "sha256": "52c6321a5066996670fcdb75feac81c2f0204c42b2bcd464c4c9b0f6dc561540"
+    },
+    "hidden_print": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev300_hidden_print_project_adoption.json",
+      "sha256": "ba0f1414142e8b9099189c2bfb897a474ca3cecdc60acf1fe526e65e655a8d1a"
+    },
+    "current_native_carriers_inner": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev301_current_carriers_inner_project_adoption.json",
+      "sha256": "9645a0baec23f8595a5fd12534ca0c64c6db0830039087860cb63ff979c7d71a"
+    },
+    "DingRen_fake_finite315_after312_320": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev316_DingRen_fake_whole_project_adoption.json",
+      "bytes": 9963,
+      "sha256": "734e260d60c1fccfa7ae117c1889a487a9d8587f020b0bb6bd5ea06ab7cbfeb1"
+    },
+    "Yangren_singlewealth_full304_after322": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev327_Yangren_whole_project_adoption.json",
+      "bytes": 9034,
+      "sha256": "59aa436cfec1c9d4424c0f4a81f60cdc43f29c8d4f753b6c1de8c9d1877ff4a2"
+    },
+    "seven_modern_frames_data21_native_only": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev335_modern_seven_frame_project_adoption.json",
+      "bytes": 10819,
+      "sha256": "994429f4bb5fe6cc9e403bdbf7ea8af9932b0b1970b5aec89d4504c27e9488c6"
+    },
+    "XJ_online_excerpt_data22_native_only": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev343_XJ_native_project_adoption.json",
+      "bytes": 9862,
+      "sha256": "1474272d9f5c35f3ce8ac2b1ea221be0c19d430187251525034926e96b236694"
+    },
+    "Ren_followchild_344_after350": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev354_follow_child_project_model_adoption.json",
+      "bytes": 11508,
+      "sha256": "64a53f84f9872a0f3d8f92f58cf19990e663bf462287bcfc88ee4f2e16fbe63a"
+    },
+    "follow_kill_K2_363_after374": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev378_follow_kill_project_model_adoption.json",
+      "bytes": 7807,
+      "sha256": "10fec1cb39d556225c74799ac65978ca9c1e6ec7db6064befb439d2d209fcaa3",
+      "status": "adopted_exact363_K2_full_fiveelement_sharedbudget_research_after374"
+    },
+    "Qianlong325_runtime_plus377_explanation": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev381_Qianlong_composite_project_adoption.json",
+      "bytes": 13320,
+      "sha256": "54ce0650646ca47f076f788354d6814843eb6b0260c829ab5ff851ba23d80dec",
+      "status": "adopted_exact325_runtime0.1.3_plus377_DOCS0.1_after371"
+    },
+    "current_follow_child372_after380": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev385_actual_time_flow_project_adoption.json",
+      "bytes": 9864,
+      "sha256": "3473b711d8a25be8dd9e98c41bf543977696bd4a8cc39f5739188423364c3bdb",
+      "status": "adopted_exact372_0.1.1_after380_and_reused368_correct_source_math"
+    },
+    "from_wang_379_after389": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev391_follow_wang_project_model_adoption.json",
+      "bytes": 6381,
+      "sha256": "1eeea7b0f336b495458e2f173675cbe395785f53a447626bd3d812b0caaf0e90",
+      "status": "adopted_exact379_RenW1_natal_woodcore_after389"
+    },
+    "from_wang379_after389": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev391_follow_wang_project_model_adoption.json",
+      "bytes": 6381,
+      "sha256": "1eeea7b0f336b495458e2f173675cbe395785f53a447626bd3d812b0caaf0e90",
+      "status": "adopted_exact379_RenW1_natal_woodcore_after389"
+    },
+    "Jiase384_after390": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev401_Jiase_project_model_adoption.json",
+      "bytes": 7077,
+      "sha256": "36a81d4fa89f27c0ab2d636968760ba2423591f885f9e065b3185064d8404ad2",
+      "status": "adopted_exact384_ChenWei_one_official_wood_fixed_actualworld_credit_after390"
+    },
+    "follow_force392_after409": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev412_follow_force_S2_project_model_adoption.json",
+      "bytes": 7782,
+      "sha256": "96f25459a83738f879087dbcbf96e4591a411802823f1a127a760863d7c1cffe",
+      "status": "adopted_exact392_method0.1.1_connectedH0.2_after409_with_historical_contract_clarification"
+    },
+    "Yanshang404_after413": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev416_Yanshang_project_model_adoption.json",
+      "bytes": 7623,
+      "sha256": "4f07115e13b6cda0426ed9735d4527df1673f23669cf4c8034853ab285319fe9",
+      "status": "adopted_exact404_YinWuXu_Hai_natal_complete_tasks_after413"
+    },
+    "Primary_springwood402_after414": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev419_primary_lujie_project_model_adoption.json",
+      "bytes": 6117,
+      "sha256": "2f68338ac460515a526f2f298dc2beb2d61b3668bafe08a41ac65b11d18cbf8a",
+      "status": "adopted_exact402_springwood_complete_tasks_and_robust_sufficient_explanations_after414"
+    },
+    "Ren_follow_qi415_after423": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev425_follow_qi_project_model_adoption.json",
+      "bytes": 7189,
+      "sha256": "ab554d41cd34a6671f783aee98f706089bdba0e4d74e07203905dad1159f5994",
+      "status": "adopted_exact415_natal_goldwater_full_tasks_and_fixed_actualworld_H_after423"
+    },
+    "Runxia410r1_after424_plus_exact_erratum": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev426_runxia_project_model_adoption.json",
+      "bytes": 9658,
+      "sha256": "9c2f763aec7585b0bacf635ebc934805086e0e9048becd8edb20a393edc3a0f0",
+      "status": "adopted_exact410r1_112_plus424_exact_prose_metadata_erratum"
+    },
+    "Ren_follow_strong417_after431": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev427_follow_strong_project_model_adoption.json",
+      "bytes": 6505,
+      "sha256": "e7cd94956098f0ad120756129742f5a87446e6c696ac00a882e1abd6f7997d82",
+      "status": "adopted_exact417_0.1.1_full_print_peer_method_after431"
+    },
+    "Quzhi428_maintenance_only_after432": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev434_Quzhi_maintenance_research_adoption.json",
+      "bytes": 6133,
+      "sha256": "9b5c35fcba9fd6bad48793d8e326728be8bec42283e9ae893225bd2c24e410ad",
+      "status": "adopted_exact428_whole_wood_maintenance_and_Hai_help_only_after432"
+    },
+    "Original_Wu428b_whole_print_after438": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev440_Primary_Wu_whole_print_adoption.json",
+      "bytes": 7194,
+      "sha256": "83a2e7f7c84e53e31490173e39903217b86db59ea3f687e0e0cb2cb34cfc81e5",
+      "status": "adopted_exact428b_originalWu_full_natal_print_water_after438"
+    },
+    "Coldmetal430runtime_plus441cards_after439_443": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev444_coldmetal_composite_project_adoption.json",
+      "bytes": 9568,
+      "sha256": "a99245f7e90e3fc61d9c787e58f51d3343d6dc188a29ddf2a2fe7417a52e5d48",
+      "status": "adopted_exact430_runtime80_plus441_corrected7cards_after439_443"
+    },
+    "MCN1_433_general_and_strong_after450": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev452_MC_N1_finite_research_adoption.json",
+      "bytes": 4882,
+      "sha256": "8953e94f5ac00a0c6e3de8392b49cdba20bcf56787ae6a0825298576774c9d03",
+      "status": "adopted_exact433373_finite_general_concordance_strong_fullclear_and_fixedactual_H_after450_not_final_auxiliary"
+    },
+    "GN442_identity_coarsepoint_namedparent_after451": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev454_city_identity_source_layer_adoption.json",
+      "bytes": 5028,
+      "sha256": "fd50840ff6296b3eede7bcfc7fd8c78d08114524da5945bc33aa284cf2b9d55e",
+      "status": "adopted_exact44270_technical_identity_own_coarse_point_and_explicit_parent_frame_candidate_chain_after451"
+    },
+    "MCN1_453_net_auxiliary_after458": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev460_MC_N1_net_auxiliary_project_adoption.json",
+      "bytes": 5407,
+      "sha256": "c376f0a6c6d788e807d5f71d5d24882c1fa07c5dcf8dc0773f480d2f592d2820",
+      "status": "adopted_exact453102_finite_source_based_local_net_auxiliary_after458_with_effective_status_cards"
+    },
+    "Wu445_actual_five_time_after457": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev459_Wu_actual_five_time_project_adoption.json",
+      "bytes": 5290,
+      "sha256": "91b56b4e5d212283ccaf93756d2f2c279e5176179058fe81f997bccd4552b41e",
+      "status": "adopted_exact445127_after457_actual_five_UTC_whole_and_window_comparison_finite_method"
+    },
+    "existing_city455_context_after461": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev465_existing_city_context_project_adoption.json",
+      "bytes": 5135,
+      "sha256": "4934bf986f83ce4419cb225a1256ca2fbf1782a616b0017986d6761d35052f18",
+      "status": "adopted_exact455102_after461_with_external_effective_provenance_clarification"
+    },
+    "surviving_print449_after463": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev464_surviving_print_follow_finance_adoption.json",
+      "bytes": 6206,
+      "sha256": "e7fc4f227865939352752a639e780cd4ab994afc20ed12517c9854513652efbc",
+      "status": "adopted_exact4490.1.2_375_after46356_with_effective154_algorithm_contracts"
+    },
+    "nonCN469_after471": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev473_nonCN_existing_context_adoption.json",
+      "bytes": 4779,
+      "sha256": "ebb61512e7c74c9fdfe3b5b8d15e5fc49a951010c0dd5bee88ff961a0e6190f0",
+      "status": "adopted_exact46981_after47145_finite_positive_named_administrative_chain_not_partition_whole_claim"
+    },
+    "MCN2_467_after474": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev475_MC_N2_complete_feedback_adoption.json",
+      "bytes": 5967,
+      "sha256": "050730c213519e8eabe0f8a6122a14f85623d3c11bae59edd6c77317e2042c8d",
+      "status": "adopted_exact4670.1.1_95_and_bound_complete49_runtime_after47442_nonauthor_review"
+    },
+    "MCN4_470_after477": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev479_MC_N4_whole_and_negative_net_adoption.json",
+      "bytes": 5034,
+      "sha256": "36239f338d53a82d37950f46c7a9e642f339eb2b390eb5c09102bb61d7d74386",
+      "status": "adopted_exact47078_after47730_finite_whole_diagnostics_and_all_negative_net_results"
+    },
+    "GN478r1_static_after481": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev483_static_geography_research_adoption.json",
+      "bytes": 4842,
+      "sha256": "bb1c7f6d2bf23e08b10eef1085764836061a9db5071f76474165ddf1033a1124",
+      "status": "adopted_exact478r1_126_after481_26_finite_static_research"
+    },
+    "Ren370_472_after486_engineering_only": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev489_Ren_true_follow_finance_engineering_adoption.json",
+      "bytes": 5987,
+      "sha256": "45fdb164cb95682b456877af84043af8c6fb203bb240c10082b5e53614942447",
+      "status": "adopted_exact472101_after48633_with_effective31docs_and_source_attribution_correction_finite_engineering_only"
+    },
+    "GN480_windows_after487": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev492_GN_actual_windows_adoption.json",
+      "bytes": 5730,
+      "sha256": "a1e23292ee82f2a5d0c1b9b6bc801c8111ab290400d18a66b161d6d7ad17fe80",
+      "status": "adopted_exact480129_after487111_with_effective121docs_and_two_new_IO"
+    },
+    "Lujie482_after494": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev495_Lujie_relative_outlet_adoption.json",
+      "bytes": 4794,
+      "sha256": "434fbc5201bfefa4bcce238a556b615a68b4691677715277e9c675403eba8cf6",
+      "status": "adopted_exact48271_after49466_finite_relative_outlet_not_traditional_final_yong"
+    },
+    "GN490_components_after493": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev499_GN_region_components_adoption.json",
+      "bytes": 5287,
+      "sha256": "3670d7e54235b912820560b0f226a6fc4b4470611166207412b1ec04e9ef2320",
+      "status": "adopted_exact490132_after49333_with_external_transport_counter_correction"
+    },
+    "rev488": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev508_Wu_actual_exposed_food_adoption.json",
+      "bytes": 8421,
+      "sha256": "f6608171408d6370d2ed8210dc5efaf500f92792051c60994bb4fe30617b0a3e"
+    },
+    "rev497": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev513_MCN2_multiple_visible_adoption.json",
+      "bytes": 19610,
+      "sha256": "4f52aaa16a3545bfae856b65ab6c70baa506121cec757c9c0d1fb9cc4b73b871"
+    },
+    "rev506r1": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev518_Ren_original_throughflow_r1_adoption.json",
+      "bytes": 15558,
+      "sha256": "5442d9cd0fee72a03e2fb72709c8c57f9bcbbbb0dcb6189bb2ea6418140d9f5c"
+    },
+    "rev505r1": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev523_four_daymaster_r1_project_adoption.json",
+      "bytes": 5850,
+      "sha256": "58123b279d206caf801c9acce6bf83caa20a323a0994c47617dacbd28009d910"
+    },
+    "rev510": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev527_three_season_intent_project_adoption.json",
+      "bytes": 5211,
+      "sha256": "755c589363643f3c1bb175fe2d33ff1b185223e593e9e870cff27b084526482a"
+    },
+    "rev519": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev536_Quzhi_complete_source_and_Primary_print_adoption.json",
+      "bytes": 7346,
+      "sha256": "e6a9aecbbd9eb1bc6a4fa2abda7b866f13935c752f2d1e3e1891f35521ea1226"
+    },
+    "rev515": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev537_six_virtual_functions_and_D01_adoption.json",
+      "bytes": 7973,
+      "sha256": "63abf40f14ee6dd67c156d0fc295d76f88f9ab536a236178fec865461ae37d02"
+    },
+    "rev524": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev543_Lujie_whole_food_finance_project_adoption.json",
+      "bytes": 8380,
+      "sha256": "0cfa896aae5615b6fdc98ef92ad8355a61bb3fb72f4917408bec9a8f354937bd"
+    },
+    "rev539": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev547_single_finance_exception_project_adoption.json",
+      "bytes": 6372,
+      "sha256": "b08735bb89850c3d04e6629f3ec26bcdc4c4f510acadb6c9f5b24fb3ead48a57"
+    },
+    "rev532": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev548_Ren261_actual_time_project_adoption.json",
+      "bytes": 8502,
+      "sha256": "7c8de5f13c56a4ad2574fd7df9a18acd53900344247bfa40d63e55a874cd6044"
+    },
+    "rev522": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev556_Wang_full_competition_project_adoption.json",
+      "bytes": 7465,
+      "sha256": "e93666af03e477736efa154eb061dbc696b4fed4d8b8c7097098137864cf0a12"
+    }
+  },
+  "research_only_current": {
+    "relations_source_to_whole208": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev225_relation_task_research_archival_acceptance.json",
+      "sha256": "b9f421c52edd3bc10ee536136eb745d50729371c5619579e892a4957b94e3b0f",
+      "status": "accepted_independently_reviewed_relation_application_research_only"
+    },
+    "actual_luck186_with_true_IO_overlay": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev227_actual_luck_research_archival_acceptance.json",
+      "sha256": "37e16dbc82709f48fd58163ff4e5a6953138208bbbd3bf09dc0682b6537f50b8",
+      "status": "accepted_independently_reviewed_conditional_actual_luck_research_only"
+    },
+    "old_misc195_math_only_source_hold_overlaid": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev209_misc_joint_research_archival_acceptance.json",
+      "sha256": "859f5dcf028ada72fa12389b97e4f05331542331d6c42affb863870dedb86900",
+      "status": "accepted_independently_reviewed_new_goal_research_only"
+    }
+  },
+  "latest_live_research_revision": 283,
+  "actual_source_failure_current": {
+    "166_component": "rev166_misc_month_source_conditions",
+    "original235_unchanged": true,
+    "independent174_files": 9,
+    "hold": "rev174_misc166_source_hold.json",
+    "hold_sha256": "a3c94f40ea4d859f834caa3fdaf3f07d9f6fae32b904d806e1413972b5457c58",
+    "reason": "ActualNLC043reads無所得;166misattributed无碍asprimarylocalexception; noH/Bexportaffected;175siblingrepairinprogress.",
+    "new_exact_release": "rev175_misc_month_source_conditions_v0_1_2",
+    "new_exact_release_files": 299,
+    "new_independent176_files": 20,
+    "resolution_policy": "rev178_misc_source_frontend_project_adoption.json",
+    "resolution_sha256": "c5c3d70ea369ea9bffdaf60f5b911bfdfb44e821e639138f67d8ac166fa0d111",
+    "old166_still_blocked": true,
+    "primary_consequent_still_unresolved": true,
+    "repair_in_progress": false
+  },
+  "latest_He_source_bounds": {
+    "component": "rev171_He_relationship_source_bridge",
+    "files": 20,
+    "report_sha256": "4b4ef4a4020598e1681f432de34ca48ee1cc4da476a6527112fb58c7f846a3e7",
+    "full_origin_worlds": 36,
+    "He_current_H": null
+  },
+  "in_progress_candidate": null,
+  "score": "100.00",
+  "quality_reaffirmation": "All original scope and quality retained; research content first perlatestuser, new display integration deferred.",
+  "latest_failed_delivery": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev180_delivery_failure.json",
+    "sha256": "91acda0b5fd6059ce75ea72cf3ce2c7dbabb5711bfb53212e94da57a9eafc922"
+  },
+  "unresolved_source_integrity_hold": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev218_195_source_binding_hold.json",
+    "sha256": "307c826b955336e3a64c7128813e1d61e9d54bb8b25956edb936188668575c24",
+    "status": "source_integrity_hold_research_math_semantics_preserved"
+  },
+  "denominator": 100,
+  "current_status_authority": "624 root original-task full acceptance +625 final recoverable publication; immutable earlier status is history",
+  "latest_review_closure_receipt": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev251_two_closures_receipt.json",
+    "sha256": "bcaa783a67a3778ddf0724114d5e885816f15f60a4ad6365db78aca0f01259b9"
+  },
+  "latest_accepted_from革_model": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev235_reforming_whole_project_model_adoption.json",
+    "sha256": "b9ac38f1c40db7c15dfcf804be6b234de771f5ab518ae05a4e3f0a744aa2524a",
+    "status": "adopted_bounded_comparative_source_whole_model"
+  },
+  "last_progress_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_full_acceptance_registration.json",
+    "bytes": 1390,
+    "sha256": "8a3e7eca59d9bb1f630c5b23a639b5a6a42ebe63737af79f5b75031336ded4a2"
+  },
+  "latest_stage_update_revision": 624,
+  "stage_update_checkpoint_overlay": "500原C04 .75→1.00，86.25→88.75；C02/C03/C08和原分母/权重不变。",
+  "remaining_total_points": "0.00",
+  "latest_user_readable_progress": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_最终验收与使用说明_rev624.txt",
+    "bytes": 8375,
+    "sha256": "8f49090347f5a052b1f406ef8051c663296b1edfa4663a2f0662a9b3fd06eee7"
+  },
+  "latest_accepted_from革_bridge": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev251_reforming_bridge_project_adoption.json",
+    "sha256": "2e083c3873e6d1dada8f961024a13eef6faba5519b66c40c2aefd7083f3e28a2"
+  },
+  "latest_actual_edition_source_increment": {
+    "component": "rev248_follow_primary_and_Ren_source",
+    "files": 37,
+    "manifest_sha256": "1d6a3782cce31eb881e7294e835e688b8f7ceb83959c559fe858ca2a22d6e9e0",
+    "freeze_sha256": "925ba4064f5adfb356e252006f6852fc88c145dc62e5d1021f218e49740eb5ea",
+    "source_only_not_modeladoption": true,
+    "substance": "Actual1947LiYutianeditedphysicalwitness: frompoemdifferentfromelectronic suppliedverse; effective roots/print/fakefollowcriteria; primary95negativekept."
+  },
+  "latest_accepted_current_whole_model": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev254_DingRen_whole_project_model_adoption.json",
+    "sha256": "9e3c641b2237583d78adad21bcec5c84b5142896d65c78a314a54372695cb280"
+  },
+  "current_C03_single_pair_candidate": {
+    "whole_model": {
+      "component": "rev233_DingRen_source_theme_whole",
+      "files": 1506,
+      "manifest_sha256": "c8c02e3aea510cc902bbea01aa1361954a94ccc5fb8fd6d2cd7801dc09f47242",
+      "freeze_sha256": "d7c66e5004d4498bb678968d0dd86049a433c203a2cedf033f080f4774234078"
+    },
+    "model_policy": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev254_DingRen_whole_project_model_adoption.json",
+      "sha256": "9e3c641b2237583d78adad21bcec5c84b5142896d65c78a314a54372695cb280"
+    },
+    "independent_whole_review": {
+      "component": "rev250_DingRen_whole_independent",
+      "files": 88,
+      "report_sha256": "ca10defca80828442121fca13cbc1992e103a8782777f62439a04487477f4517"
+    },
+    "consumer": {
+      "component": "rev233_single_theme_window_candidate",
+      "files": 2483,
+      "registered_sources": 2404,
+      "core_sha256": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+      "lock_sha256": "8d73caa129ffbebcf32b30cab1cc42435e7435224c150e4c94840241b14d5647",
+      "manifest_sha256": "f52dc7c9242aa206741a287dc44f11ed20a1805c4e7ce1bfcf24ced51b75f90a",
+      "freeze_sha256": "b7630f65a8ae84cd06cd74052b8527813851168c3c5f024bca19c8ceb8369a10",
+      "author_actual_chain": "Samechart/samemethod fullnativewindow/whole→native theme fire→wood→actualchangedcomparison passed; knownsame/unknown/joint/knownnone/failedgoals/sourcepending kept distinct.",
+      "own_independent_review": "rev25795passed; root261adoptedexact2483",
+      "effective_adoption": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev261_current_single_window_project_adoption.json",
+        "sha256": "fe0c1ce699f2b5b1c247067718d8e64599324a2e1d99afcb19eb1c785e4d5913"
+      }
+    },
+    "original_natal_B_unchanged": true,
+    "joint_no_rank_or_equalshare_added": true,
+    "progress_delta": "0.00",
+    "status": "actual_currenttheme_wholewindow_and_comparison_adopted_bounded"
+  },
+  "latest_accepted_current_window_consumer": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev261_current_single_window_project_adoption.json",
+    "sha256": "fe0c1ce699f2b5b1c247067718d8e64599324a2e1d99afcb19eb1c785e4d5913"
+  },
+  "current_progress_alias_correction_note": "旧263纠正72.5别名并确认为86.25的历史不改；当前500地区完整研究验收后88.75。",
+  "effective_source_attribution_corrections": {
+    "Wang_100k_misc95": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev269_Wang_example_attribution_correction.json",
+      "sha256": "7ef1024c6a6182438f90207390c3031ee2feffec1557f395597f0ab46e43da53",
+      "status": "hold_overstrong_direct_negative_attribution_not_adopt_positive_replacement",
+      "effective_over_frozen_rev93_and_rev248_Wang_attribution": true,
+      "underlying_conditional_math_or_B_or_score_changed": false
+    }
+  },
+  "parallel_remaining_modules_explicitly_authorized": true,
+  "runtime_delivery_holds": {
+    "original259607": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev280_original259_strict_CLI_delivery_hold.json",
+      "sha256": "3e71002d62c9b4b866940d8c5f1d2f63c1136fe39d5f96c94079cc55970ec0b6",
+      "status": "hold_original_strict_CLI_depth_failure_preserved",
+      "exact279_repair_adopted": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev280_food_kill_print_project_adoption.json",
+        "sha256": "796828d24531807faf03782fdcfab2824fb5ec798b53340a47926d9c191cd925",
+        "status": "adopted_for_bounded_whole_model"
+      },
+      "math_and_source_integrity_not_rejected": true
+    }
+  },
+  "latest_pause_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev560_pause_checkpoint.json",
+    "bytes": 7342,
+    "sha256": "43a2d1fceaa35458591eef57b20ad076d42d82c987802b10793ab7208e819b1b"
+  },
+  "latest_pause_utc": "2026-11-03T13:36:58.772134+00:00",
+  "latest_resume_utc": "2026-11-03T14:10:06.447462+00:00",
+  "source_navigation": {
+    "schema": "source-navigation-current-pointer-0.1",
+    "component": "work/rev292_reference_retention",
+    "index": {
+      "path": "work/rev292_reference_retention/index.json",
+      "sha256": "8841ab85926ace5260d6e1b1a82f00d538513a202136abbe34f0efe8acc537b0",
+      "bytes": 11012
+    },
+    "manifest": {
+      "path": "work/rev292_reference_retention/manifest.json",
+      "sha256": "35e166912305d1a92b3d46f1132521d2f30a184dad9dc485f43464c2d99ea53c",
+      "bytes": 3923
+    },
+    "freeze": {
+      "path": "work/rev292_reference_retention/freeze.json",
+      "sha256": "ef19a9026e8fa3032a281906d87162cdabe815360b2dcf386b4e0d505011f323",
+      "bytes": 205
+    },
+    "historical_source_index58_unchanged": true,
+    "automatic_runtime_adoption": false,
+    "subsequent_source_increments": [
+      {
+        "component": "work/rev297_Qianlong_Yangren_source",
+        "manifest_sha256": "22166ca6a0ea39b14f63cff0afb13f13616369f7bb8a3b0144735ed21267db48",
+        "freeze_sha256": "c0818f70851647df3d254356c87966cdbdd46f32380ece8df6e7d44825f50f8c",
+        "source_only": true,
+        "date_utc": "2026-11-02T14:42:17.059010+00:00"
+      },
+      {
+        "component": "work/rev309_special_patterns_primary",
+        "manifest_sha256": "39b405e687ea824aac858c392feae01eb344abf28a0004228652e4221060b91e",
+        "freeze_sha256": "ab1ae60aaf6e037d568fd09ab84a6f34d98bf21886ed11be0b001c9115acae53",
+        "scope": "Actual NLCvol6 source-only conditions and original61 increment; no new wholemodel adoption."
+      }
+    ],
+    "latest_research_content_index": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev303_research_content/existing_rule_and_algorithm_index.json",
+      "sha256": "1fa4f208a5d40e3ce811688484a39783c49b63ffb0c42ba5d2d31ee7482f86cf"
+    },
+    "latest_regional_source_ledger": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev273_national_region_source_batch/source_research/source_receipts_index.json",
+      "mutable": true,
+      "read_scope_from_own_receipts_not_mentioncounts": true
+    },
+    "post_snapshot_adoption_records": [
+      {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev289_People2023_frame_project_adoption.json",
+        "sha256": "e7610503bf980b98044d38ef1ec6f9eef1fd85b0218329cdd9b1afcb666295e2"
+      },
+      {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev295_Fan_Benxi_frame_project_adoption.json",
+        "sha256": "9c0e91e383baa72fad8a4ed7d739c4fa013a29706a86949f549fd727b693f449"
+      },
+      {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev299_TW_GS_frame_project_adoption.json",
+        "sha256": "15f9517203bb15269c4c0060b7790d3cfbba13a48ae18c1f0472a706f98a2bd4"
+      },
+      {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev299_QH_reflow_frame_project_adoption.json",
+        "sha256": "52c6321a5066996670fcdb75feac81c2f0204c42b2bcd464c4c9b0f6dc561540"
+      },
+      {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev300_hidden_print_project_adoption.json",
+        "sha256": "ba0f1414142e8b9099189c2bfb897a474ca3cecdc60acf1fe526e65e655a8d1a"
+      },
+      {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev301_current_carriers_inner_project_adoption.json",
+        "sha256": "9645a0baec23f8595a5fd12534ca0c64c6db0830039087860cb63ff979c7d71a"
+      }
+    ]
+  },
+  "post283_accepted_People2023": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev289_People2023_frame_project_adoption.json",
+    "sha256": "e7610503bf980b98044d38ef1ec6f9eef1fd85b0218329cdd9b1afcb666295e2"
+  },
+  "research_first_addendum": {
+    "user_message": "不是你先不研究手环的显示，你就先出这个研究内容",
+    "recorded_utc": "2026-11-02T15:19:39.510701+00:00",
+    "priority": "Sources, actual conditions, full traditional rules, algorithms/explanations, positive/negative/boundary/change/regression and research manuscript",
+    "deferred": [
+      "new bracelet/theme display integration",
+      "286 outer theme/export consumer",
+      "J2 product adapter implementation"
+    ],
+    "original_scope_preserved": true,
+    "already_approved_semantic_decisions_retained": true,
+    "stop_original_research_requested": false,
+    "new_display_work_started_after_addendum": false
+  },
+  "J2_user_decision": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev307_J2_user_semantic_adoption.json",
+    "sha256": "88102bfd55b324c8b2a9189864af3c53fdc68fabd8a2a4a05fefe663aa5c4dfa"
+  },
+  "post293_new_adoptions": {
+    "Fan_Benxi_data18": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev295_Fan_Benxi_frame_project_adoption.json",
+      "sha256": "9c0e91e383baa72fad8a4ed7d739c4fa013a29706a86949f549fd727b693f449"
+    },
+    "TW_GS_data19r2": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev299_TW_GS_frame_project_adoption.json",
+      "sha256": "15f9517203bb15269c4c0060b7790d3cfbba13a48ae18c1f0472a706f98a2bd4"
+    },
+    "QH_data20": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev299_QH_reflow_frame_project_adoption.json",
+      "sha256": "52c6321a5066996670fcdb75feac81c2f0204c42b2bcd464c4c9b0f6dc561540"
+    },
+    "hidden_print": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev300_hidden_print_project_adoption.json",
+      "sha256": "ba0f1414142e8b9099189c2bfb897a474ca3cecdc60acf1fe526e65e655a8d1a"
+    },
+    "current_native_carriers_inner": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev301_current_carriers_inner_project_adoption.json",
+      "sha256": "9645a0baec23f8595a5fd12534ca0c64c6db0830039087860cb63ff979c7d71a"
+    }
+  },
+  "active_research_tasks": {},
+  "latest_source309": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev309_special_patterns_primary",
+    "scope": "Sourceonly sixconditional propositions with actualNLCvol6 pages; no newwholeadoption or progress."
+  },
+  "research_content311": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev311_research_compendium",
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev311_research_compendium/manifest.json",
+      "bytes": 943,
+      "sha256": "ff9e0fb991e0b818d356e632ee23e39a6ac9ec9555953a984dbf068e05e3f7a6"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev311_research_compendium/freeze.json",
+      "bytes": 232,
+      "sha256": "51eb672b7d687d53c76d9f39177cf9aaf8f08f50350fa96a3df3fca9d8141833"
+    },
+    "all_payload_hashes_actually_checked": true
+  },
+  "latest_source314": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev314_regions_scope_source_increment",
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev314_regions_scope_source_increment/manifest.json",
+      "bytes": 656,
+      "sha256": "6651a42134522449958d6593145de131da0e0930ad025c3ff94fc0105189adce"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev314_regions_scope_source_increment/freeze.json",
+      "bytes": 115,
+      "sha256": "9928e5ba2fe2d10a1ed0fa1e47c121197539b14c685c57db19e724ffe7904618"
+    },
+    "all_payload_hashes_actually_checked": true
+  },
+  "latest_source317": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev317_yong_scope_positive_source",
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev317_yong_scope_positive_source/manifest.json",
+      "bytes": 509,
+      "sha256": "697c92c3a24e04b76defaf800ba5f429dcc32145731fcc32cdaa045a1c6dd71c"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev317_yong_scope_positive_source/freeze.json",
+      "bytes": 139,
+      "sha256": "0f27dcee0866c3bf0980a3522daf024a38d87a9f88d83dd7e96d275210126716"
+    },
+    "all_payload_hashes_actually_checked": true
+  },
+  "original305_trace_hold": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev318_original305_trace_semantics_hold.json",
+    "bytes": 3321,
+    "sha256": "f7343ee62d21089dfaaf275b3303b96fc4ed0f044539fad569e5cca95235617a"
+  },
+  "latest_research_content321": {
+    "index": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev321_research_content_increment/existing_rule_and_algorithm_index.json",
+      "bytes": 513970,
+      "sha256": "b0767230dca15cd239e7c2a13116c49c130e3171e3d404a4211f1006f39f7f0d"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev321_research_content_increment/manifest.json",
+      "bytes": 746,
+      "sha256": "f1d28b72eca583ad10b729b647b8fdeb16982974663ac82fe530608a7448d0de"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev321_research_content_increment/freeze.json",
+      "bytes": 129,
+      "sha256": "2d16b61894825b33d482f9dcc36e1f4b5a1a31d18efba02bcddc59b226447e5c"
+    },
+    "main": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究总稿_规则依据与算法解释_rev321.txt",
+      "bytes": 30536,
+      "sha256": "d16322bf480237784c40360a65f18971be5fd3d7d07c85aa65b102a2556a8fa3"
+    }
+  },
+  "post318_adoption316": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev316_DingRen_fake_whole_project_adoption.json",
+    "bytes": 9963,
+    "sha256": "734e260d60c1fccfa7ae117c1889a487a9d8587f020b0bb6bd5ea06ab7cbfeb1"
+  },
+  "latest_source319": {
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev319_region_source_closure/manifest.json",
+      "bytes": 1722,
+      "sha256": "b407082756d31468a2487b0345add4df202d7618f0cec725a42d96cfa8f50606"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev319_region_source_closure/freeze.json",
+      "bytes": 153,
+      "sha256": "662090d0c03170264c452662ef8b315e1b7e75a10567106c0befbe5277c5d636"
+    },
+    "research_only": true,
+    "runtime_adoption": false
+  },
+  "latest_source324_semantic_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev326_319_scope_inference_semantic_correction.json",
+    "bytes": 1852,
+    "sha256": "45d3638d3f87e02d396b783d5764955f845f249151e1f19606510a0f6482e036"
+  },
+  "post326_adoption327": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev327_Yangren_whole_project_adoption.json",
+    "bytes": 9034,
+    "sha256": "59aa436cfec1c9d4424c0f4a81f60cdc43f29c8d4f753b6c1de8c9d1877ff4a2"
+  },
+  "regional_source_qualifications328": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev328_seven_named_frame_source_qualification.json",
+    "bytes": 9300,
+    "sha256": "7dd15d59620ae358d2fa2b1f7fd595ee9fbcfeee4a0dcfa22ec99092bafd251a"
+  },
+  "post331_adoption335": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev335_modern_seven_frame_project_adoption.json",
+    "bytes": 10819,
+    "sha256": "994429f4bb5fe6cc9e403bdbf7ea8af9932b0b1970b5aec89d4504c27e9488c6"
+  },
+  "latest_native_region_data21": {
+    "policy": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev335_modern_seven_frame_project_adoption.json",
+      "bytes": 10819,
+      "sha256": "994429f4bb5fe6cc9e403bdbf7ea8af9932b0b1970b5aec89d4504c27e9488c6"
+    },
+    "native_only": true,
+    "combined_remains_data20": true
+  },
+  "latest_source334_condition_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev334_Ren378_source_condition_correction.json",
+    "bytes": 2797,
+    "sha256": "0bfb1b34a0d2dcfd5bcec6657e2c2f303dc0b7bafb8c5a7695427e178edb292f"
+  },
+  "latest_research_content332": {
+    "index": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev332_Yangren_algorithm_increment/existing_rule_and_algorithm_index.json",
+      "bytes": 558783,
+      "sha256": "e46c298074dc69f22e5d43201e2e2b09d7a7ebbaa7f9299d926dcbb8120a9350"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev332_Yangren_algorithm_increment/manifest.json",
+      "bytes": 525,
+      "sha256": "b9990fbb338cac7c59a4f436b260f8084d9ebba87aacda8f4efeb0bfd6a63851"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev332_Yangren_algorithm_increment/freeze.json",
+      "bytes": 122,
+      "sha256": "ce81f9856fd8b1f535d4213a7c53b8e3463a78c1a59dde8fe220d7fc1477b0f0"
+    }
+  },
+  "post336_adoption343": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev343_XJ_native_project_adoption.json",
+    "bytes": 9862,
+    "sha256": "1474272d9f5c35f3ce8ac2b1ea221be0c19d430187251525034926e96b236694"
+  },
+  "latest_native_region_data22": {
+    "policy": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev343_XJ_native_project_adoption.json",
+      "bytes": 9862,
+      "sha256": "1474272d9f5c35f3ce8ac2b1ea221be0c19d430187251525034926e96b236694"
+    },
+    "native_only": true,
+    "combined_remains_data20": true
+  },
+  "latest_research_main339": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究总稿_规则依据与算法解释_rev339.txt",
+    "bytes": 42526,
+    "sha256": "ee4f7d92538c92307daf4abaec3ca86c52a1bc85f2ac2407285819c893e1525e"
+  },
+  "latest_source340": {
+    "component": "work/rev340_Ren_shunju_source",
+    "report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev340_Ren_shunju_source/research_report.json",
+      "bytes": 1690,
+      "sha256": "0629a7a32a1ece5449a405c0b7fc4e66a595deea8bc8fd20f2d09220211e58f2"
+    },
+    "facts8_actual": true,
+    "whole_solver": false
+  },
+  "latest_source342": {
+    "component": "work/rev342_Ren_luck_year_source",
+    "report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev342_Ren_luck_year_source/research_report.json",
+      "bytes": 988,
+      "sha256": "212671b7ca3b458882468745b01451a17bfc475efa77a415ef596c2b2610bd16"
+    },
+    "new_source_cards": 8,
+    "new_math_or_behavior_runs": 0
+  },
+  "latest_original44_scope_status349": {
+    "index": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev349_existing44_research_status_increment/existing44_scope_status_increment.json",
+      "bytes": 56827,
+      "sha256": "b2108d439531c140b48b8280209411df9452cfa9381e92708b74732f1ef6eb6e"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev349_existing44_research_status_increment/manifest.json",
+      "bytes": 363,
+      "sha256": "e802322f87e452b2e4609490643fb7b4775dff4d77ac49383729823fb0d2f5ff"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev349_existing44_research_status_increment/freeze.json",
+      "bytes": 142,
+      "sha256": "510e56a49bdcfa52e42a634de3dd58bf070e3bd4b0ce586348dfc6e8481977fa"
+    },
+    "all44_old_fields_preserved": true,
+    "new_family_completion": false
+  },
+  "candidate313_frozen_not_adopted": {
+    "handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev313_author_completion_handoff.json",
+      "bytes": 4800,
+      "sha256": "a1d8effdc9c6c31904afd1780235bbe6e0f5dbe23d8f729af89b365a3d74e7e9"
+    },
+    "full_readonly_move": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev313_author_readonly_and_complete_move_receipt.json",
+      "bytes": 38086815,
+      "sha256": "0945b1cae70f8ecdda4154ccf5ea6586512e6a4276b123d8881aa4f403a2e97a"
+    },
+    "proof_addendum": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev313_continuous_domain_proof_addendum.json",
+      "bytes": 3614,
+      "sha256": "222634227386c08ef6866b12089ab6821d2286a11c5f622c978a1d623afc2304"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev313_ding_ren_true_transform/manifest.json",
+      "bytes": 24348,
+      "sha256": "e6720ab808130f2d3d9b432a078f6a61e5d78eb736e67a2e86c4eb77d9610a60"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev313_ding_ren_true_transform/freeze.json",
+      "bytes": 575,
+      "sha256": "a779fba8d34e70deaa331cc3d4eaf96ae7f8c144aad896590d502697f0ba1908"
+    },
+    "files": 206,
+    "current_native_v03_threequestions": true,
+    "review352_underway": true,
+    "source_final_useful_priority_unified": false,
+    "newB_or_theme": false
+  },
+  "candidate344_frozen_not_adopted": {
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/manifest.json",
+      "bytes": 12328,
+      "sha256": "9d9cdfc1f57d22e38d001ee789ae1f926ccd02987c8b9720c774667041483634"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/freeze.json",
+      "bytes": 424,
+      "sha256": "ca0fff87b80a2c59f70f39ea8415f54ab7a97e300198dbcbb1c860e2672d651e"
+    },
+    "files": 79,
+    "review350_underway": true,
+    "allminimal_H": 25,
+    "all13package_subsets": 8192,
+    "actual_equivalentworld_numeric_evaluations": 704,
+    "128parametercorner_classification_pairs": 1048576,
+    "not1048576_independent_numeric_solutions": true,
+    "shared_pool_vs_actorlocal_and_physical_vs_credit_ledgers_disclosed": true,
+    "newB_or_theme": false
+  },
+  "unadopted_region_options348": {
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev348_region_remaining_concrete_options/manifest.json",
+      "bytes": 347,
+      "sha256": "dfbf702fefdcb4accacb51dd150b1f768fe90c088f9979f8a04d5724640ec72d"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev348_region_remaining_concrete_options/freeze.json",
+      "bytes": 121,
+      "sha256": "20ca5d215e1544e491ef0876b7d0368c126882e97738e6530b2c2c3e61ae6fab"
+    },
+    "status": "draft_not_adopted_no_question_pending_no_runtime_or_coverage_change"
+  },
+  "post351_adoption354": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev354_follow_child_project_model_adoption.json",
+    "bytes": 11508,
+    "sha256": "64a53f84f9872a0f3d8f92f58cf19990e663bf462287bcfc88ee4f2e16fbe63a"
+  },
+  "original313_explanation_hold355": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev355_original313_explanation_accuracy_hold.json",
+    "bytes": 2915,
+    "sha256": "8ce8e040a826717fda624b367cbd14a6b0db52701de94c1b36776ff40946f979"
+  },
+  "candidate353_not_adopted": {
+    "component": "work/rev353_true_transform_explanation_repair",
+    "handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev353_author_completion_handoff.json",
+      "bytes": 5709,
+      "sha256": "a015fe156ac376cb43ab0e618854c395035b02076535839abfdabe4fa8e26035"
+    },
+    "move": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev353_author_readonly_and_complete_move_receipt.json",
+      "bytes": 38087856,
+      "sha256": "e5737e376600e6857fb1880686204795e9b9ae7c291f1c6cf2637ab3e05c034a"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev353_true_transform_explanation_repair/manifest.json",
+      "bytes": 26954,
+      "sha256": "ae21ab955c924fa9d6bbfe1f8657dcbbfe4d01d33e8d8c41236be6e4933d0641"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev353_true_transform_explanation_repair/freeze.json",
+      "bytes": 814,
+      "sha256": "e18df4cf6b568144a8147e29ddfaf1b0ea60dd8eed0345399f76be4caa9327d5"
+    },
+    "review356_pending": false,
+    "remaining_actual_description_finding": "Historical exact353 select return-contract overclaim remains in353; repaired in359, not retroactively approved.",
+    "review356_complete": true,
+    "repaired_descendant359_adopted_by": 362
+  },
+  "post358_adoption362": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev362_true_transform_project_model_adoption.json",
+    "bytes": 8280,
+    "sha256": "32c32bb4b49f51db0ebcc4155fe499de70341c05f77deef0bb6d1b415ee61045"
+  },
+  "review360_completed": {
+    "report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev360_post359_independent_review/independent_report.json",
+      "bytes": 5149,
+      "sha256": "a84c0c6c3256af217faab5a9d1fc53d01f2a12bfb39c2a9cce1509a135345ba1"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev360_post359_independent_review/manifest.json",
+      "bytes": 4813,
+      "sha256": "3bbba125b56e8a30773f1d5deb89012d075373312276136ea8317cb0d8203e39"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev360_post359_independent_review/freeze.json",
+      "bytes": 459,
+      "sha256": "7d21d8106f7234664f8558fe65f7ece382eb4d8b715897f6e239c60d8cdbf446"
+    },
+    "status": "passed_exact359; correct352/356 domains reused, no pointless full-math rerun"
+  },
+  "latest_research_main364": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究总稿_规则依据与算法解释_rev364.txt",
+    "bytes": 58106,
+    "sha256": "6a93cef76baf048391f163d9c3002f95d9541b78d16d68ad81c1d4ae14fed037"
+  },
+  "latest_algorithm_index364": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev364_current_research_content/existing_rule_and_algorithm_index.json",
+    "bytes": 615079,
+    "sha256": "87dd44f7dae751f3de5115af3939ba8272b0b73173933ff8e3efe0a9fd3db15a"
+  },
+  "research_content364": {
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev364_current_research_content/manifest.json",
+      "bytes": 720,
+      "sha256": "1949f1752645c5e436595084ec013ca6ab36271c72d7ea238477f644b8928622"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev364_current_research_content/freeze.json",
+      "bytes": 139,
+      "sha256": "8d028a257bc885734f0a0bd838dffb1fffddf97ddc0ecee74301cd8f0621657d"
+    },
+    "main": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究总稿_规则依据与算法解释_rev364.txt",
+      "bytes": 58106,
+      "sha256": "6a93cef76baf048391f163d9c3002f95d9541b78d16d68ad81c1d4ae14fed037"
+    },
+    "algorithm_increment": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/从儿与真化逐算法解释增量_rev364.txt",
+      "bytes": 99840,
+      "sha256": "b4c4273ab8c5e4db8ce98f78ae709e83dc3c1032d192b728cfcfd270c5c98e41"
+    },
+    "old33method_and_navigation_exactly_preserved": true,
+    "new61function_explanation_fields_roundtrip": true,
+    "true_original83MB_IO_document_gzip_complete_bytes_roundtrip": true,
+    "new_numerical_or_display_work": false
+  },
+  "source361": {
+    "report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev361_useful_and_function_semantics_source/research_report.json",
+      "bytes": 855,
+      "sha256": "1386013cffac469d1e9d2a5444a27ebb7f02874295a364f6bf06590d7ec76402"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev361_useful_and_function_semantics_source/manifest.json",
+      "bytes": 2384,
+      "sha256": "b89dc8a432a6a397ebe17a01fab1b2a04050ff7c2a844d34a39f62f8100edf22"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev361_useful_and_function_semantics_source/freeze.json",
+      "bytes": 144,
+      "sha256": "c762ca9e84b4c9d664be49d95173146fb8691604797ad7004b57d8f345ec8381"
+    },
+    "actual12images_read": true,
+    "new_whole_solver": false
+  },
+  "post365_adoption373": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev373_follow_child_whole_conclusion_adoption.json",
+    "bytes": 10026,
+    "sha256": "bcc513871419792109d27123ba7c99ac1aaf435379a0de4e790fc4497f2094bd"
+  },
+  "original357_window_hold375": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev375_original357_window_comparison_hold.json",
+    "bytes": 1642,
+    "sha256": "04d2ea49defd7d6483b69496f2363a6698f4d53ef810b95070e51f4cffaa8f9a"
+  },
+  "review368_completed": {
+    "report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev368_follow_child_current_time_independent/independent_report.json",
+      "bytes": 8819,
+      "sha256": "b7ee10d3f7622a28ee4f0de05ebe7ee9e7566b7e30db1188390a51a5a23376a1"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev368_follow_child_current_time_independent/manifest.json",
+      "bytes": 5942,
+      "sha256": "0a72d3b244114fb72c84f10bbce887021e9d85c67f773d74973f6424b90f45a0"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev368_follow_child_current_time_independent/freeze.json",
+      "bytes": 573,
+      "sha256": "af8141a8c27a036bc5fc06c651d512c731d5c9d85a299e7bf436b622d996f38c"
+    },
+    "files": 50,
+    "status": "two_real_window_defects; correctmath/source domains reused in372"
+  },
+  "review369_completed": {
+    "report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev369_follow_child_conclusion_independent_review/independent_report.json",
+      "bytes": 7346,
+      "sha256": "7f3783b39ae2da02f5e7477822f0ce7562fe5560a5bfd57b42fd892ec50833a2"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev369_follow_child_conclusion_independent_review/manifest.json",
+      "bytes": 2823,
+      "sha256": "87ddca80c9fb0f848248b5e8616264a8e25ec679e721d4335d03782b27ad4040"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev369_follow_child_conclusion_independent_review/freeze.json",
+      "bytes": 202,
+      "sha256": "33fc6866db03c6670445ec5fcc0707de5bdaf5b11f2c1692a74e1b9491b03d81"
+    },
+    "files": 19,
+    "status": "passed_exact367; adopted373"
+  },
+  "candidate325_frozen_not_adopted": {
+    "handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_author_completion_handoff.json",
+      "bytes": 7903,
+      "sha256": "5a3a6fc18b51458e068a24cb01672fccbb64e9732da23e1717ab8785d0dc1715"
+    },
+    "complete_move": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_author_readonly_and_complete_move_receipt.json",
+      "bytes": 477554,
+      "sha256": "031e3da02b62f82289e09d05b8157e6f1ee3c45a5b0294f7d866322973146d1f"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_Qianlong_directed_clash/manifest.json",
+      "bytes": 471213,
+      "sha256": "bcbffbbba54a207be55b242496e4adb3b992f50dda3c8b26869866c98734a0a7"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_Qianlong_directed_clash/freeze.json",
+      "bytes": 706,
+      "sha256": "55a4c3310f66e2b82e830b36b320d834721809f9cd27194f2aed315420b0ed2d"
+    },
+    "files": 2689,
+    "all512_main_H_None": true,
+    "source_mechanism_only3fire_OR": true,
+    "review371_underway": false,
+    "noB_or_display": true,
+    "captured_historical_status": true,
+    "effective_adoption": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev381_Qianlong_composite_project_adoption.json",
+      "bytes": 13320,
+      "sha256": "54ce0650646ca47f076f788354d6814843eb6b0260c829ab5ff851ba23d80dec"
+    },
+    "effective_scope_note": "325只采用381明确合成版含377更正解释；363按378精确有限原局方法。旧候选名不表示尚待采用。"
+  },
+  "candidate363_frozen_not_adopted": {
+    "handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_author_completion_handoff.json",
+      "bytes": 2535,
+      "sha256": "b8d2ed2c3cf8b3f0265e76736fb769712423a6d98a324b7ff1c06c314fc73c43"
+    },
+    "complete_move": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_author_readonly_and_complete_move_receipt.json",
+      "bytes": 13767,
+      "sha256": "a47b7e5559d63a6517721a33a7a6479e77ac25b04f4f7effb332d3d6f3f2f87f"
+    },
+    "external_boundary_addendum": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_reusable_math_and_source_boundary_addendum.txt",
+      "bytes": 4049,
+      "sha256": "50a009a8312265cd9b088e5359f13b7e752aca6344d96d88e165119422d7a17f"
+    },
+    "stable_reference_map": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_stable_handoff_references.json",
+      "bytes": 2301,
+      "sha256": "ad48828b93302a1ac78fea2ad1ab37ebeb588cb9e537f17cfa0cfb2d65f0635d"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_Ren_follow_kill_whole/manifest.json",
+      "bytes": 9358,
+      "sha256": "9c59cc50dcca948d127cb3075c28e36b40adbd13eff7f15f0bbc86b8e0a56df3"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_Ren_follow_kill_whole/freeze.json",
+      "bytes": 403,
+      "sha256": "90004e75faebceb469a88d36f7bd6156c6075dd2481f510954b56ad51029d571"
+    },
+    "files": 64,
+    "main21_H_strict39_H": true,
+    "review374_underway": false,
+    "all41function_explanations_author_complete": true,
+    "whole_family_or_traditional_final_priorities_complete": false,
+    "captured_historical_status": true,
+    "effective_adoption": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev378_follow_kill_project_model_adoption.json",
+      "bytes": 7807,
+      "sha256": "10fec1cb39d556225c74799ac65978ca9c1e6ec7db6064befb439d2d209fcaa3"
+    },
+    "effective_scope_note": "325只采用381明确合成版含377更正解释；363按378精确有限原局方法。旧候选名不表示尚待采用。"
+  },
+  "source366": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev366_runxia_help_and_harm",
+    "report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev366_runxia_help_and_harm/research_report.json",
+      "bytes": 991,
+      "sha256": "9b0b8b4aaf1a339a6f96f97f8f5665dcbf8585383b50a1d31890f16eebcb112a"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev366_runxia_help_and_harm/manifest.json",
+      "bytes": 1482,
+      "sha256": "edf07de4a9fc3d38a0636f04033eedc04d0ec08898bae16f5b3b62694ebed2b0"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev366_runxia_help_and_harm/freeze.json",
+      "bytes": 124,
+      "sha256": "87552a91bf7e18a2b55e9d92da7e9532f970ab39f850d7289446c505bccd645e"
+    },
+    "new_whole_solver": false
+  },
+  "source370": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev370_outer_patterns_source",
+    "report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev370_outer_patterns_source/research_report.json",
+      "bytes": 1213,
+      "sha256": "ea768e39727763c2cbc0a07fd4067fe73cbdc073bf797664207eee37e0f03e9f"
+    },
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev370_outer_patterns_source/manifest.json",
+      "bytes": 2605,
+      "sha256": "f398fdf013be5fed439fc21e868cbfe17c0770ab7e6074898c84402e74dd27be"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev370_outer_patterns_source/freeze.json",
+      "bytes": 126,
+      "sha256": "b03617a24b41f580c0defe408c3142369032a3e4953ab9d1af5e0e62597e940f"
+    },
+    "new_whole_solver": false
+  },
+  "original_task_complete": true,
+  "current_rulebook": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev538_current_algorithm_navigation.json",
+  "latest_research_main": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究内容与算法说明_阅读版_rev394/01_研究总稿.txt",
+    "bytes": 87089,
+    "sha256": "7448b940004bac6cdc884b75e38b76ef8dffd9d5335a4242e27abee17a6ce34f"
+  },
+  "latest_algorithm_index": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_current_algorithm_navigation.json",
+    "bytes": 2698228,
+    "sha256": "3c27ff21a62c9e5f0871ac1f9aa7b5ea7bc7c0734f0b89412e87d954c0d5bda9"
+  },
+  "latest_actual_time_reading_note": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/从儿实际五时层_完整作用与变化判断_rev385r1.txt",
+    "bytes": 4226,
+    "sha256": "c386c013fac3aa0c55ff95635c8e4a8c506abc0636e775e7f61b9d9c6e24f857"
+  },
+  "effective_Qianlong_explanation": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_Qianlong_explanation_layer/all78_corrected_function_explanations.json",
+    "bytes": 131081,
+    "sha256": "2e2c7879f38daa43a734fbdcacd1c6226e24583a288205926d87f6b9f4f57bc3"
+  },
+  "historical_status_precedence": "625/624 effective task state and r1 source-reader default supersede earlier status aliases; source/code/math/holds remain versioned",
+  "latest_reading_delivery": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究内容与算法说明_阅读版_rev501_交付核验.json",
+    "bytes": 978,
+    "sha256": "2f52bb6ac570c43d104ab1d96082fdf834ea0ac1bf272c741c6bdede3d374a27"
+  },
+  "latest_reading_archive": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究内容与算法说明_阅读版_rev501.zip",
+    "bytes": 73418382,
+    "sha256": "b9cea3d32bad97e1998bca03a2de695511dbb43979bf5d281f3bae6f724d68d0"
+  },
+  "post_checkpoint_dispositions": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev400_seven_macro_repair_research_disposition.json",
+      "bytes": 3619,
+      "sha256": "f810b761cd3cdcf0f1a5b94ec31d6274699320d4f18e963ad32dc5265394a14d"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev401_Jiase_project_model_adoption.json",
+      "bytes": 7077,
+      "sha256": "36a81d4fa89f27c0ab2d636968760ba2423591f885f9e065b3185064d8404ad2"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev405_Jinglan_source_path_research_acceptance.json",
+      "bytes": 3595,
+      "sha256": "3ed7d94b67cbe609a8fa8ad7462a7b300d71f9d77d153fd8d918d9881094c8a4"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev412_follow_force_S2_project_model_adoption.json",
+      "bytes": 7782,
+      "sha256": "96f25459a83738f879087dbcbf96e4591a411802823f1a127a760863d7c1cffe"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev416_Yanshang_project_model_adoption.json",
+      "bytes": 7623,
+      "sha256": "4f07115e13b6cda0426ed9735d4527df1673f23669cf4c8034853ab285319fe9"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev419_primary_lujie_project_model_adoption.json",
+      "bytes": 6117,
+      "sha256": "2f68338ac460515a526f2f298dc2beb2d61b3668bafe08a41ac65b11d18cbf8a"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev425_follow_qi_project_model_adoption.json",
+      "bytes": 7189,
+      "sha256": "ab554d41cd34a6671f783aee98f706089bdba0e4d74e07203905dad1159f5994"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev426_runxia_project_model_adoption.json",
+      "bytes": 9658,
+      "sha256": "9c2f763aec7585b0bacf635ebc934805086e0e9048becd8edb20a393edc3a0f0"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev427_follow_strong_project_model_adoption.json",
+      "bytes": 6505,
+      "sha256": "e7cd94956098f0ad120756129742f5a87446e6c696ac00a882e1abd6f7997d82"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev434_Quzhi_maintenance_research_adoption.json",
+      "bytes": 6133,
+      "sha256": "9b5c35fcba9fd6bad48793d8e326728be8bec42283e9ae893225bd2c24e410ad"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev440_Primary_Wu_whole_print_adoption.json",
+      "bytes": 7194,
+      "sha256": "83a2e7f7c84e53e31490173e39903217b86db59ea3f687e0e0cb2cb34cfc81e5"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev444_coldmetal_composite_project_adoption.json",
+      "bytes": 9568,
+      "sha256": "a99245f7e90e3fc61d9c787e58f51d3343d6dc188a29ddf2a2fe7417a52e5d48"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev452_MC_N1_finite_research_adoption.json",
+      "bytes": 4882,
+      "sha256": "8953e94f5ac00a0c6e3de8392b49cdba20bcf56787ae6a0825298576774c9d03"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev454_city_identity_source_layer_adoption.json",
+      "bytes": 5028,
+      "sha256": "fd50840ff6296b3eede7bcfc7fd8c78d08114524da5945bc33aa284cf2b9d55e"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev460_MC_N1_net_auxiliary_project_adoption.json",
+      "bytes": 5407,
+      "sha256": "c376f0a6c6d788e807d5f71d5d24882c1fa07c5dcf8dc0773f480d2f592d2820"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev459_Wu_actual_five_time_project_adoption.json",
+      "bytes": 5290,
+      "sha256": "91b56b4e5d212283ccaf93756d2f2c279e5176179058fe81f997bccd4552b41e"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev465_existing_city_context_project_adoption.json",
+      "bytes": 5135,
+      "sha256": "4934bf986f83ce4419cb225a1256ca2fbf1782a616b0017986d6761d35052f18"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev464_surviving_print_follow_finance_adoption.json",
+      "bytes": 6206,
+      "sha256": "e7fc4f227865939352752a639e780cd4ab994afc20ed12517c9854513652efbc"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev473_nonCN_existing_context_adoption.json",
+      "bytes": 4779,
+      "sha256": "ebb61512e7c74c9fdfe3b5b8d15e5fc49a951010c0dd5bee88ff961a0e6190f0"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev475_MC_N2_complete_feedback_adoption.json",
+      "bytes": 5967,
+      "sha256": "050730c213519e8eabe0f8a6122a14f85623d3c11bae59edd6c77317e2042c8d"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev479_MC_N4_whole_and_negative_net_adoption.json",
+      "bytes": 5034,
+      "sha256": "36239f338d53a82d37950f46c7a9e642f339eb2b390eb5c09102bb61d7d74386"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev483_static_geography_research_adoption.json",
+      "bytes": 4842,
+      "sha256": "bb1c7f6d2bf23e08b10eef1085764836061a9db5071f76474165ddf1033a1124"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev489_Ren_true_follow_finance_engineering_adoption.json",
+      "bytes": 5987,
+      "sha256": "45fdb164cb95682b456877af84043af8c6fb203bb240c10082b5e53614942447"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev492_GN_actual_windows_adoption.json",
+      "bytes": 5730,
+      "sha256": "a1e23292ee82f2a5d0c1b9b6bc801c8111ab290400d18a66b161d6d7ad17fe80"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev495_Lujie_relative_outlet_adoption.json",
+      "bytes": 4794,
+      "sha256": "434fbc5201bfefa4bcce238a556b615a68b4691677715277e9c675403eba8cf6"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev499_GN_region_components_adoption.json",
+      "bytes": 5287,
+      "sha256": "3670d7e54235b912820560b0f226a6fc4b4470611166207412b1ec04e9ef2320"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev500_C04_stage1_project_acceptance.json",
+      "bytes": 9939,
+      "sha256": "1dc020dd83e6cbef70999ccc451a06430a817c2f57a50288ea4c43b16f6e2ae5"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev508_Wu_actual_exposed_food_adoption.json",
+      "bytes": 8421,
+      "sha256": "f6608171408d6370d2ed8210dc5efaf500f92792051c60994bb4fe30617b0a3e"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev513_MCN2_multiple_visible_adoption.json",
+      "bytes": 19610,
+      "sha256": "4f52aaa16a3545bfae856b65ab6c70baa506121cec757c9c0d1fb9cc4b73b871"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev518_Ren_original_throughflow_r1_adoption.json",
+      "bytes": 15558,
+      "sha256": "5442d9cd0fee72a03e2fb72709c8c57f9bcbbbb0dcb6189bb2ea6418140d9f5c"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev523_four_daymaster_r1_project_adoption.json",
+      "bytes": 5850,
+      "sha256": "58123b279d206caf801c9acce6bf83caa20a323a0994c47617dacbd28009d910"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev527_three_season_intent_project_adoption.json",
+      "bytes": 5211,
+      "sha256": "755c589363643f3c1bb175fe2d33ff1b185223e593e9e870cff27b084526482a"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev536_Quzhi_complete_source_and_Primary_print_adoption.json",
+      "bytes": 7346,
+      "sha256": "e6a9aecbbd9eb1bc6a4fa2abda7b866f13935c752f2d1e3e1891f35521ea1226"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev537_six_virtual_functions_and_D01_adoption.json",
+      "bytes": 7973,
+      "sha256": "63abf40f14ee6dd67c156d0fc295d76f88f9ab536a236178fec865461ae37d02"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev543_Lujie_whole_food_finance_project_adoption.json",
+      "bytes": 8380,
+      "sha256": "0cfa896aae5615b6fdc98ef92ad8355a61bb3fb72f4917408bec9a8f354937bd"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev547_single_finance_exception_project_adoption.json",
+      "bytes": 6372,
+      "sha256": "b08735bb89850c3d04e6629f3ec26bcdc4c4f510acadb6c9f5b24fb3ead48a57"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev548_Ren261_actual_time_project_adoption.json",
+      "bytes": 8502,
+      "sha256": "7c8de5f13c56a4ad2574fd7df9a18acd53900344247bfa40d63e55a874cd6044"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev556_Wang_full_competition_project_adoption.json",
+      "bytes": 7465,
+      "sha256": "e93666af03e477736efa154eb061dbc696b4fed4d8b8c7097098137864cf0a12"
+    }
+  ],
+  "latest_original44_status_overlay": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev436_existing44_research_status_overlay.json",
+    "bytes": 7228,
+    "sha256": "7d1b70833fda9448c1d1b5457c4d8ef001c2074e55640f49e91e232e875575a3"
+  },
+  "latest_reading_guide": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/当前研究与接续入口_rev625.txt",
+    "bytes": 1842,
+    "sha256": "f89273af5183003f88e12e3469de3454b9417a135051a83da8503856cbe0831e"
+  },
+  "latest_source_locator_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev407_special_pattern_locator_correction/precise_locator_correction.json",
+    "bytes": 7208,
+    "sha256": "ace729ffc85e97f81a166555d0b5227c926824b14653ed0fca5165a0651d9706"
+  },
+  "latest_module_acceptance_status_audit": "work/rev418_original_acceptance_status_audit.json",
+  "original410_exact74_semantic_hold": "two inherited native source_ref labels falsely describe fixedworld credit; original74+transport preserved. New112r1 pending424, same math core; no original74 adoption.",
+  "latest_research_algorithm_text_increment": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/逐算法解释完整增量_rev501.txt",
+    "bytes": 1269704,
+    "sha256": "b0c4ac6dea9edec4fbfec95a7e386a4c44ec2072679403bf217bbbf68a5e6948"
+  },
+  "latest_source446": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev446_follow_finance_and_fake_source_conditions/research_report.json",
+    "bytes": 949,
+    "sha256": "4736468557163e04d6c7d133e192849bb376b25b677b5dd46b243fba3548231a"
+  },
+  "next_follow_finance_source_problem446": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev446_follow_finance_and_fake_source_conditions/next_original_follow_finance_problem.txt",
+    "bytes": 2388,
+    "sha256": "44e3f86ee687b0890fc02ce76cd2e9a6048ccb69e6e161fd3470868581083162"
+  },
+  "latest_source447": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev447_Sanming_finance_scope_source/research_report.json",
+    "bytes": 940,
+    "sha256": "7861dcb3aebe335a9a353637c66af4f23df4b788ea2e4228358c3b7ed9313741"
+  },
+  "latest_surviving_print_gap448": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev448_surviving_print_scalar_gap/research_report.json",
+    "bytes": 745,
+    "sha256": "1f6beefb2020eb4d8669cc32311c5326295aead7c09f0985723c96f92fdda443"
+  },
+  "historic_current_progress_aliases_before500": {
+    "weighted_score": "86.25",
+    "score": "86.25",
+    "display_percent": 86,
+    "last_accepted_progress": "86.25",
+    "stage_update_checkpoint_overlay": "rev262_C03_stage075_project_acceptance.json updates C03.50→.75 and82.50→86.25 after261consumeradoption. OriginalC02.75accepted243 remains; currentstate263 authoritative.",
+    "remaining_total_points": "13.75",
+    "latest_user_readable_progress": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/当前接续入口_rev283.txt",
+    "current_progress_alias_correction_note": "rev263_current_alias_correction_receipt.json preserves former72.50lastacceptedalias as historical; score is86.25 in currentauthority263."
+  },
+  "latest_verified_progress_change": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_full_acceptance_registration.json",
+    "bytes": 1390,
+    "sha256": "8a3e7eca59d9bb1f630c5b23a639b5a6a42ebe63737af79f5b75031336ded4a2"
+  },
+  "latest_resume_after_user_recharge": "用户2026-11-03已要求充值后继续；后续继续撤销先前网络暂停，当前自主研究执行。",
+  "latest_C04_research_delivery_archive": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_地区作用研究_可复现版_rev500.zip",
+    "bytes": 65229467,
+    "sha256": "941b54f290a4b8277b57d9b4abe3000693cbbabbb4fee7758c0eba16d8659122"
+  },
+  "latest_C04_complete_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev500_C04_stage1_project_acceptance.json",
+    "bytes": 9939,
+    "sha256": "1dc020dd83e6cbef70999ccc451a06430a817c2f57a50288ea4c43b16f6e2ae5"
+  },
+  "latest_actual_time_exposed_food_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev508_Wu_actual_exposed_food_adoption.json",
+    "bytes": 8421,
+    "sha256": "f6608171408d6370d2ed8210dc5efaf500f92792051c60994bb4fe30617b0a3e"
+  },
+  "latest_all_agents_pause_acknowledgements": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev511_agents_pause_acknowledgements.json",
+    "bytes": 1299,
+    "sha256": "10eeb596bb0e35f8123aaab97686f29294efbcfd8c4aeea4d94ce45f2858a531"
+  },
+  "all_research_agents_paused": false,
+  "latest_resume_record": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev561_user_resume_record.json",
+    "bytes": 1424,
+    "sha256": "b30462385ae2f2b5cd9f258fcc6f80895028641e79801e588496512b5508c27f"
+  },
+  "latest_multiple_MCN2_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev513_MCN2_multiple_visible_adoption.json",
+    "bytes": 19610,
+    "sha256": "4f52aaa16a3545bfae856b65ab6c70baa506121cec757c9c0d1fb9cc4b73b871"
+  },
+  "latest_original_Ren_flow_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev518_Ren_original_throughflow_r1_adoption.json",
+    "bytes": 15558,
+    "sha256": "5442d9cd0fee72a03e2fb72709c8c57f9bcbbbb0dcb6189bb2ea6418140d9f5c"
+  },
+  "latest_four_daymaster_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev523_four_daymaster_r1_project_adoption.json",
+    "bytes": 5850,
+    "sha256": "58123b279d206caf801c9acce6bf83caa20a323a0994c47617dacbd28009d910"
+  },
+  "latest_three_season_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev527_three_season_intent_project_adoption.json",
+    "bytes": 5211,
+    "sha256": "755c589363643f3c1bb175fe2d33ff1b185223e593e9e870cff27b084526482a"
+  },
+  "latest_Quzhi_complete_source_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev536_Quzhi_complete_source_and_Primary_print_adoption.json",
+    "bytes": 7346,
+    "sha256": "e6a9aecbbd9eb1bc6a4fa2abda7b866f13935c752f2d1e3e1891f35521ea1226"
+  },
+  "latest_six_virtual_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev537_six_virtual_functions_and_D01_adoption.json",
+    "bytes": 7973,
+    "sha256": "63abf40f14ee6dd67c156d0fc295d76f88f9ab536a236178fec865461ae37d02"
+  },
+  "latest_Lujie_food_finance_complete_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev543_Lujie_whole_food_finance_project_adoption.json",
+    "bytes": 8380,
+    "sha256": "0cfa896aae5615b6fdc98ef92ad8355a61bb3fb72f4917408bec9a8f354937bd"
+  },
+  "current_navigation_counts_not_progress": {
+    "methods": 95,
+    "navigation_rows": 4958,
+    "progress_delta": 0
+  },
+  "candidate532_author_complete": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev532_author_completion_handoff.json",
+    "bytes": 3416,
+    "sha256": "75100e84ef79e61564a714fc3ad96284f0fd17255c76e4b3146466e8fb10c29c"
+  },
+  "latest_Ren262_source": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev545_Ren262_DingRen_ZiWei_actual_time/source_read_receipt_before_new_numeric.json",
+    "bytes": 788,
+    "sha256": "e7e0c7a653e21240205260e4b480ce0f1699199f35e331f85f88708cfd40c6a5"
+  },
+  "latest_single_finance_exception_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev547_single_finance_exception_project_adoption.json",
+    "bytes": 6372,
+    "sha256": "b08735bb89850c3d04e6629f3ec26bcdc4c4f510acadb6c9f5b24fb3ead48a57"
+  },
+  "latest_Ren262_working_checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev545_live_running_checkpoint.json",
+    "bytes": 3351,
+    "sha256": "421c620d70252d9e89428208ce6db7aa1a41359951584dfcb65d8bb269d15f82"
+  },
+  "all_root_sessions_currently_completed": true,
+  "observed_tool_sessions": {
+    "13917": "545 independent original1005 running, lastyield365; wait same session; no new545producer",
+    "16917": "additional45 expected done",
+    "26881": "539 readonly13 done",
+    "63481": "539 60algorithms realIO replay done"
+  },
+  "latest_Ren261_actual_time_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev548_Ren261_actual_time_project_adoption.json",
+    "bytes": 8502,
+    "sha256": "7c8de5f13c56a4ad2574fd7df9a18acd53900344247bfa40d63e55a874cd6044"
+  },
+  "latest_Ren261_actual_time_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/壬寅癸卯木制土卫水_实际时运规则算法_rev549.txt",
+    "bytes": 217908,
+    "sha256": "ec3792abec8764f371ee07da0753a84c64bede7c259b20070396d175507bbd7c"
+  },
+  "required_Ren261_direction_wording_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev549_Ren261_public_direction_wording_correction.json",
+    "bytes": 2131,
+    "sha256": "bdb73dd1997aa0bb2436f8bbc4e0e726c92c7c3e5c869e619f91d816bfa5e3d4"
+  },
+  "precise_remaining_original_acceptance_after548": {
+    "C02": [
+      "522王案及原真假从竞争的非作者验收",
+      "528四化不足助化/寒暖燥湿的交付与独审",
+      "529冬财真实暖品质/从神净支持及原缺火修复链",
+      "540纯杀5/杀食5/杀财2的全图制化与救应",
+      "按原49644条及六函数核全部条件/例外/冲突与既有正确模型的完整终局说明，不新增全流派共识或每盘唯一单元素门"
+    ],
+    "C03": [
+      "吴原盘现丁壬作用",
+      "吴原盘辛杀作用",
+      "吴原盘新甲己争合/不化等实际作用",
+      "吴原盘卯酉冲与当前根实际效力",
+      "原Ren262子未/丁壬具体目标和并发时柱（545正算）",
+      "原支持方法的约定时间适用/必要缺失新来源修复与多方案理由逐条实核；原505表之外已承诺项不删"
+    ],
+    "C08": [
+      "在剩余核心完成后，原全部传统与象征管线的统一版本/来源/使用说明/全链回放与独立留出",
+      "显示新工程按用户要求后置，已批准规则决定保持，不拿默认显示替核心"
+    ]
+  },
+  "latest_Wang_full_competition_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev556_Wang_full_competition_project_adoption.json",
+    "bytes": 7465,
+    "sha256": "e93666af03e477736efa154eb061dbc696b4fed4d8b8c7097098137864cf0a12"
+  },
+  "all_running_computations_stopped": true,
+  "last_user_pause_utc": "2026-11-03T13:36:58.772134+00:00",
+  "latest_pause_guide": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/暂停与接续入口_rev560.txt",
+    "bytes": 1274,
+    "sha256": "c2d44b8cd23bf6c23272c6cc99a413e40ecc4670a2b9c8cfd98781ea126dafcf"
+  },
+  "latest_fourform_support_climate_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev562_fourform_support_climate_project_adoption.json",
+    "bytes": 12359,
+    "sha256": "affac46cf4b990e84cedf46577ede542a7cd7e10fcc7a0198622a80b528d61ef"
+  },
+  "latest_winter_warm_whole_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev563_winter_warm_whole_project_adoption.json",
+    "bytes": 13406,
+    "sha256": "5c5a3dde320fe2cbda5b0e09ca310269605eaccdf942a0f222f568a88817ecef"
+  },
+  "latest_fourform_support_climate_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/四化不足生助与寒暖燥湿_规则算法研究_rev562.txt",
+    "bytes": 167105,
+    "sha256": "6c580fcd60239f2183af0364b81c4da242f5d1ecf904c3bfba0ca2030f29b84e"
+  },
+  "latest_winter_warm_whole_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/冬季木财暖局_整盘规则算法研究_rev563.txt",
+    "bytes": 111847,
+    "sha256": "88ae9cf11e5cd3ff0253ecae999eb40702ac3ff3281a9c948ea9b2a3a3d6f7f3"
+  },
+  "execution_paused": false,
+  "paused_research_tasks_historical560": {
+    "/root/resume463_review449": {
+      "paused": true,
+      "running_tool_sessions": [],
+      "checkpoint": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev552_independent_review528/recoverable_pause_checkpoint.json",
+        "bytes": 2840,
+        "sha256": "8790946c9a6b401fd5a2741ea4d7d35024d82055954776d5e04a329668d814af"
+      },
+      "facts": "552新63条件已完成，不再新增计算；61合同/IO、完整API/CLI/只读与最终handoff未完。529已作者封给553，554未开始。",
+      "session27187": "Ctrl-C request returned already completed exit0"
+    },
+    "/root/review471_noncn": {
+      "paused": true,
+      "running_tool_sessions": [],
+      "checkpoint": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev555_Wu_four_actual_time_gaps/paused_checkpoint.json",
+        "bytes": 3617,
+        "sha256": "9a905a9f01cb7bace998053aa128f4cb5582a86afca772d546657c0507d15df0"
+      },
+      "facts": "213物理(201+12)保留；H资格预筛源码已编辑并compile，但overlay构建/原mask等价未核，producer尚未建/0调用。551已完成并由556采用。",
+      "sessions": {
+        "94271": "exit1 author-count expectation;213 physical retained",
+        "1377": "exit0 index/metadata save",
+        "72404": "exit0 551"
+      }
+    },
+    "/root/review474_mcn2": {
+      "paused": true,
+      "running_tool_sessions": [],
+      "checkpoint": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/recoverable_checkpoint.json",
+        "bytes": 5253,
+        "sha256": "1b36258216996af2e74231a57bade0feda713c5ad5dda32bea153c0b4e8b6da5"
+      },
+      "facts": "553新13完整world与6人工谓词通过；33合同/IO、完整fresh回放和只读负控未完，无最终553handoff。540作者封存待root独审。"
+    }
+  },
+  "active_current_original_remaining_after563": {},
+  "latest_Xin_whole_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev558_Xin_whole_project_adoption.json",
+    "bytes": 18076,
+    "sha256": "97eadee94755cbb2c5a900de3cf6a2ad6ee01ee470817ea30e9a4e6f7a76ef2d"
+  },
+  "latest_Xin_whole_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/禄劫含辛制杀清杀与印救_整盘规则算法_rev558.txt",
+    "bytes": 177052,
+    "sha256": "869c52e9fceec9608ebd45909d3cd943201d8c2942ae1e64371b969f73ad00f6"
+  },
+  "mandatory_Xin_P_source_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev557_independent_review540/required_effective_P_source_correction.json",
+    "bytes": 3706,
+    "sha256": "b67034a3184634cc55674589afd45f44f79233fd8db2dabe36d33a8142cf0cb1"
+  },
+  "current_original_remaining_acceptance": {},
+  "latest_D02_D03_final_method_reading": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev565_method_reading_registration.json",
+    "bytes": 1481,
+    "sha256": "bcf1b882c7939632001df1371bc6526211101471193bd8cca853c7a7d2e6d94f"
+  },
+  "latest_Ren262_complete1050_math": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev545_Ren262_DingRen_ZiWei_actual_time/complete1050_math_closure_receipt.json",
+    "bytes": 4847,
+    "sha256": "6fe8f4c0cdb4e45ca0eb05ffc589838cdf8378942914b218e05e2b4e1d12749d"
+  },
+  "current_C03_scope_audit_started": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev569_original_C03_supported_scope_audit/seven_explicit_time_contract_checks.json",
+    "bytes": 6116,
+    "sha256": "c9a41196c0b2082e1038e73acda4f035807bfe172db63d6caaa744ca0fbe5175"
+  },
+  "root_session_note": "原5451005数值续验完成，后续外层集成由协作作者474；根566新预期16已封、尚未调用554，待作者正式封交后独审。",
+  "latest_external_fire_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev567_external_fire_project_adoption.json",
+    "bytes": 4976,
+    "sha256": "38ba68c55816e8e2088b980ea304c03538e5d1461ba0e5294a938613af2590a7"
+  },
+  "latest_external_fire_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/原缺火外来火作用_完整规则与算法研究_rev567.txt",
+    "bytes": 124292,
+    "sha256": "902546727ab028ac0ab4e619047d78a4460b8c06b0093438d4e48e818b0ef732"
+  },
+  "latest_C02_complete_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev570_C02_full_acceptance_registration.json",
+    "bytes": 1145,
+    "sha256": "acfd77e5e6abd20254d7f01583ac75c6ca0735a08bb6adf1b8ccd73cecd44597"
+  },
+  "current_remaining_points": {
+    "C03": "0.00",
+    "C08": "0.00",
+    "total": "0.00"
+  },
+  "historical_no_auto_resume_until_user561": true,
+  "latest_Xin_actual_time_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev576_Xin_actual_time_project_adoption.json",
+    "bytes": 5332,
+    "sha256": "03f1571df72cd9bebe92af9e14bc7337fe2d6bf4f332fa920047cbb6d1baabf8"
+  },
+  "latest_Xin_actual_time_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/当前辛金生印与伤木_规则和算法研究_rev576.txt",
+    "bytes": 263769,
+    "sha256": "2a2cb7594af818945d5810ad496be184fb33c1b7eee4bac8f12939e75a1d86ea"
+  },
+  "latest_Wu_three_relations_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev582_Wu_three_relations_project_adoption.json",
+    "bytes": 5850,
+    "sha256": "2b5fc7e6664f1bab4f376b0f28bc6c8b07a1dcd2feef0c534cdd90cbe34e29dc"
+  },
+  "latest_Wu_three_relations_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/丁壬甲己卯酉_实际时运规则和算法研究_rev582.txt",
+    "bytes": 331439,
+    "sha256": "86cc8000146dccce17b714a84dabd002050c3c8713716829e4d49325795902a9"
+  },
+  "latest_Ren262_actual_time_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev579_Ren262_project_adoption.json",
+    "bytes": 5563,
+    "sha256": "4860622279722e502cd37ccbdc03652e611b01f339a4128a6ea8a8bdc7c09134"
+  },
+  "latest_Ren262_actual_time_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/子未丁壬护丙_完整时运规则与算法研究_rev579.txt",
+    "bytes": 348844,
+    "sha256": "559143ea9e96ad2c692700f2cb77853085749c4b275793c2645db6229343cc51"
+  },
+  "latest_Ren374_drysoil_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev581_Ren374_drysoil_project_adoption.json",
+    "bytes": 5624,
+    "sha256": "dc70bd421fce2aaf671f95a67b31baf4cf8be41fb6343943fd50c7d3e75e1023"
+  },
+  "latest_Ren374_drysoil_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/己未燥土伤官助劫_规则与算法研究_rev581.txt",
+    "bytes": 124049,
+    "sha256": "6b5c5853f45c73100225417cf5f0da8c0566bd7acf5b5196fa3f8fdbe3b75a9e"
+  },
+  "latest_Geng_spring_summer_soil_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev588_Geng_soil_project_adoption.json",
+    "bytes": 6553,
+    "sha256": "d15ffb57033e0bab5084768454b815f4d01b3056d4373812221fc83b6ed9390f"
+  },
+  "latest_Geng_spring_summer_soil_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/庚春夏湿土生金与燥土脆金_规则算法研究_rev588.txt",
+    "bytes": 100697,
+    "sha256": "210915ff7d96fb904ebc5ce55d746b1adffb9a66d337d762845e223664ada150"
+  },
+  "latest_Qi_actualfive_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev589_Qi_actualfive_project_adoption.json",
+    "bytes": 5326,
+    "sha256": "8e09b07007d0563322a69ae601d1be2079773b09643316a8d31a65062f4cb8d0"
+  },
+  "latest_Qi_actualfive_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/金水势实际五层时运_规则与算法研究_rev589.txt",
+    "bytes": 378623,
+    "sha256": "17d6d8846dc7069189d0368e045f51367e276814eac927270f0ed90c89cd851d"
+  },
+  "latest_summerwood_soil_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev593_summerwood_project_adoption.json",
+    "bytes": 5169,
+    "sha256": "6fbb6260f53c5e7d893f178af89a8c3324da821149935bdbbea3bf0c33d451ab"
+  },
+  "latest_summerwood_soil_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/夏木湿土培木与燥土助火_规则算法研究_rev593.txt",
+    "bytes": 95039,
+    "sha256": "8c082cb486fb0c6cdf852198d0b30673a61e1cc650b9de8b1e4f24bb29cf4f43"
+  },
+  "latest_C08_evidence_locator_precheck_only": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev598_C08_evidence_precheck/effective_precheck_result.json",
+    "bytes": 497625,
+    "sha256": "290fe4fd4850026149f71eb1372d63aafab3deb8cbcc65066fdaaf103391ae26"
+  },
+  "C08_precheck_does_not_complete_original_release_or_source_behavior_acceptance": true,
+  "latest_584_materiality_scope_note_pending_review": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Xin_three_source_branches/05_己引化与独立敛火材性_来源边界待独审.txt",
+    "bytes": 3366,
+    "sha256": "b2600c2891c22236abd10cd23eebb998cde594f1d51c94155b3c17c7e46bf8fa"
+  },
+  "latest_real_fire_currentroot_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev595_real_fire_currentroot_project_adoption.json",
+    "bytes": 6012,
+    "sha256": "9b21977847839c29ff465227d792cce2dd8c630a59b78bce86de3b5a5b248780"
+  },
+  "latest_real_fire_currentroot_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/真实火柱与当前根生扶_完整规则算法研究_rev595.txt",
+    "bytes": 327680,
+    "sha256": "5c772168eaaa99d9446b06fec6dc815a603d44b57fa37dcfce6dfa89f3b2c093"
+  },
+  "latest_Strong417_actualfive_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev600_Strong417_project_adoption.json",
+    "bytes": 5489,
+    "sha256": "668355e20fd5c1c247d5fdb97516b57fd5860f086a8b25820844d363107c10c4"
+  },
+  "latest_Strong417_actualfive_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/从强格实际五层_规则与算法研究_rev600.txt",
+    "bytes": 326262,
+    "sha256": "d57d24980162a762f83224029bee0c17aa87492001fc7d1fe33c4b182ef11a63"
+  },
+  "latest_Force392_actualfive_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev605_Force392_project_adoption.json",
+    "bytes": 5674,
+    "sha256": "2cbd1dfb08fefeb399102193647eec8ba9932c454388c4f58c8f118a3f4d699c"
+  },
+  "latest_Force392_actualfive_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/从势格实际五层_规则与算法研究_rev605.txt",
+    "bytes": 347562,
+    "sha256": "9a13ab953052dfe877fbb7df937ff66927cd13cfef4448c61e31d6a47d112845"
+  },
+  "latest_Xin_H0_three_source_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev608_Xin_H0_project_adoption.json",
+    "bytes": 5972,
+    "sha256": "2978df12834c5cdce930b11b3048295dfac6e6e6e40943a76dcf120088feec8e"
+  },
+  "latest_Xin_H0_three_source_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/辛金三源作用_规则与算法研究_rev608.txt",
+    "bytes": 112625,
+    "sha256": "37a02196cfa1f1e45ea90ccb127e21f9c58d3691d8cbe0c40c6828a37f28cfd5"
+  },
+  "latest_independent_Ji_M1_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev612_Ji_M1_project_adoption.json",
+    "bytes": 6860,
+    "sha256": "3411e4075ea86c3f57b0c8701f4c257c3a3687af99a91f07f9b7f43833588ff3"
+  },
+  "latest_independent_Ji_M1_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/己土敛火材性_推导规则与算法研究_rev612.txt",
+    "bytes": 121631,
+    "sha256": "93b1a026a0c457090f50fbd1bc2db1d23409e2913b317111a45dabd06d6ff294"
+  },
+  "latest_Wang379_actualfive_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev615_Wang379_project_adoption.json",
+    "bytes": 6357,
+    "sha256": "249294bdc2721b81bd6c84e10db81294b83fa3154aeee0c89235f4c5aed0c0cc"
+  },
+  "latest_Wang379_actualfive_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/从旺格实际五层_规则与算法研究_rev615.txt",
+    "bytes": 414632,
+    "sha256": "9a3a88b480845c01549f4740b5f8eddd883d6ebc84cfaa6d888f1fcf04799640"
+  },
+  "latest_Yanshang609_actualfive_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev616_Yanshang609_project_adoption.json",
+    "bytes": 8243,
+    "sha256": "3285d33e4c961042966f09e284df84b3995e640354f1f8e352963a55f36a7630"
+  },
+  "latest_Yanshang609_actualfive_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/炎上格实际五层_规则与算法研究_rev616.txt",
+    "bytes": 385995,
+    "sha256": "ace0a806dbf5212b52c9edc3b3b7a43c30d637f38315e7656d3772f9fc2bfdbe"
+  },
+  "constructor_precision_registration": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev617_constructor_precision_registration.json",
+    "bytes": 2549,
+    "sha256": "18498abdfc43aa12fefd2d67da66ae709fefdb3bb90583ef0e315c71bdeefdb6"
+  },
+  "source616_locator_precision": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev616_Yanshang609_source_precision_locator_addendum.json",
+    "bytes": 1482,
+    "sha256": "3f7c1c44c5a12e048e471243a23728a7d445a4cdb070e9dd460b4b712753f9d1"
+  },
+  "latest_Jiase384_actualfive_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev619_Jiase384_project_adoption.json",
+    "bytes": 7100,
+    "sha256": "38ac90a048dd5ce029ce34f7ecd28aab2ebe7a26cfa8b386a5458cfd4407f568"
+  },
+  "latest_Jiase384_actualfive_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/稼穑格实际五层_规则与算法研究_rev619.txt",
+    "bytes": 371429,
+    "sha256": "759e353c4e16333f96953a47d77373645b2d63fde60a2de1b77a96ab3f1f4e15"
+  },
+  "latest_Runxia410_actualfive_research": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev621_Runxia410_project_adoption.json",
+    "bytes": 5508,
+    "sha256": "9cf209de7f4db13bd193574e322a89530d9ea370014f0f35544d4ce075b0b38e"
+  },
+  "latest_Runxia410_actualfive_public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/润下格实际五层_规则与算法研究_rev621.txt",
+    "bytes": 407633,
+    "sha256": "803ac994d92bbe7a6349086ff5293283d9696534be67e9f9538577f4d2772aaf"
+  },
+  "latest_C03_complete_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev622_C03_original_full_acceptance/acceptance_decision.json",
+    "bytes": 4938,
+    "sha256": "d77bca18062e4564ce41a106563c71c685655e473d517d6907abdc6613a3027b"
+  },
+  "historical_current_remaining_points_before624": {
+    "C03": "3.75",
+    "C08": "1.25",
+    "total": "5.00"
+  },
+  "historical_active_current_original_remaining_after563_before624": {
+    "C02": [
+      "540纯杀/杀食/杀财12盘整盘规则非作者复核",
+      "554真实缺火新来源修复",
+      "按原49644条/6函数核现有完整终局条件/例外/冲突，无新增全流派共识门"
+    ],
+    "C03": [
+      "555吴盘丁壬/辛/甲己/卯酉四具体链",
+      "545任262子未与丁壬护丙完整当前时间链",
+      "原已承诺支持方法的实际新时运/缺失来源及多方案边界逐条核验"
+    ],
+    "C08": [
+      "剩余核心完成后全管线统一版本、说明/来源/变化追溯/留出回放，显示按用户后置"
+    ]
+  },
+  "historical_current_status_authority_before624": "561 explicit resume overrides560 pause; mathematical acceptance unchanged",
+  "historical_goal_tool_last_reported_status_before624": "paused",
+  "historical_goal_manager_last_observed_status_before624": "paused",
+  "historical_active_tasks_before624": {
+    "root": "原621润下已采用、622原C03正式stage1，98.75。根继续最终C08证据/出处版本裁决、运行阅读解释与真正独审交接后最终授分；不为临时缺少历史导航字节伪造资料或抹源码证据。",
+    "/root/review471_noncn": "471最终统一发行已95传统方法138路，原31/C20逻辑不改；原501全部682、95作者完整MF/真实IO/声明附录已实际写入相对研究卷。ROOT/cache锚定与严格JSON树两个真实胶合缺陷定向修，保首反例；20辅助算法已解释并真IO。449真正非作者先封10完整native运输baseline/新schema/未知/硬错与sourceonly边界，0新统一调用时固定。10历史引用冲突已定位捕获根与实际不同版本，地区snapshot版本齐；两份历史mutable来源索引8045/6309旧字节仍由449/474定向查，不以当前69192冒旧SHA。待全部真实版本/缺失限制如实裁决、完整有效附录/新623状态小卷/最终相对包全字节和真正只读整链复现，移位测试后原候选rename成品outputs，不重复克隆旧大树或重95内部数学。",
+    "/root/resume463_review449": "最终C08真正非作者：138路/95方法全来源相对卷/有效叠加/20helpers、整链完整报告/knownnegative/same/unknown/hard与实际迁移子进程核验；旧13捕获根引用逐项查版本/源，不泛mask。",
+    "/root/review474_mcn2": "C03原范围作者aware审计已冻/根622采；专查两历史source-index 8045/6309在最初v0.1/v0.12和早期snapshot/明确记录操作的精确SHA，不能现69k顶旧，不重复449旧266/501/462搜索。"
+  },
+  "historical_active_research_tasks_before624": {
+    "root": "原621润下已采用、622原C03正式stage1，98.75。根继续最终C08证据/出处版本裁决、运行阅读解释与真正独审交接后最终授分；不为临时缺少历史导航字节伪造资料或抹源码证据。",
+    "/root/review471_noncn": "471最终统一发行已95传统方法138路，原31/C20逻辑不改；原501全部682、95作者完整MF/真实IO/声明附录已实际写入相对研究卷。ROOT/cache锚定与严格JSON树两个真实胶合缺陷定向修，保首反例；20辅助算法已解释并真IO。449真正非作者先封10完整native运输baseline/新schema/未知/硬错与sourceonly边界，0新统一调用时固定。10历史引用冲突已定位捕获根与实际不同版本，地区snapshot版本齐；两份历史mutable来源索引8045/6309旧字节仍由449/474定向查，不以当前69192冒旧SHA。待全部真实版本/缺失限制如实裁决、完整有效附录/新623状态小卷/最终相对包全字节和真正只读整链复现，移位测试后原候选rename成品outputs，不重复克隆旧大树或重95内部数学。",
+    "/root/resume463_review449": "最终C08真正非作者：138路/95方法全来源相对卷/有效叠加/20helpers、整链完整报告/knownnegative/same/unknown/hard与实际迁移子进程核验；旧13捕获根引用逐项查版本/源，不泛mask。",
+    "/root/review474_mcn2": "C03原范围作者aware审计已冻/根622采；专查两历史source-index 8045/6309在最初v0.1/v0.12和早期snapshot/明确记录操作的精确SHA，不能现69k顶旧，不重复449旧266/501/462搜索。"
+  },
+  "historical_active_agents_next_batch_before624": {
+    "root": "原621润下已采用、622原C03正式stage1，98.75。根继续最终C08证据/出处版本裁决、运行阅读解释与真正独审交接后最终授分；不为临时缺少历史导航字节伪造资料或抹源码证据。",
+    "/root/review471_noncn": "471最终统一发行已95传统方法138路，原31/C20逻辑不改；原501全部682、95作者完整MF/真实IO/声明附录已实际写入相对研究卷。ROOT/cache锚定与严格JSON树两个真实胶合缺陷定向修，保首反例；20辅助算法已解释并真IO。449真正非作者先封10完整native运输baseline/新schema/未知/硬错与sourceonly边界，0新统一调用时固定。10历史引用冲突已定位捕获根与实际不同版本，地区snapshot版本齐；两份历史mutable来源索引8045/6309旧字节仍由449/474定向查，不以当前69192冒旧SHA。待全部真实版本/缺失限制如实裁决、完整有效附录/新623状态小卷/最终相对包全字节和真正只读整链复现，移位测试后原候选rename成品outputs，不重复克隆旧大树或重95内部数学。",
+    "/root/resume463_review449": "最终C08真正非作者：138路/95方法全来源相对卷/有效叠加/20helpers、整链完整报告/knownnegative/same/unknown/hard与实际迁移子进程核验；旧13捕获根引用逐项查版本/源，不泛mask。",
+    "/root/review474_mcn2": "C03原范围作者aware审计已冻/根622采；专查两历史source-index 8045/6309在最初v0.1/v0.12和早期snapshot/明确记录操作的精确SHA，不能现69k顶旧，不重复449旧266/501/462搜索。"
+  },
+  "historical_next_work_before624": [
+    "471最终统一发行已95传统方法138路，原31/C20逻辑不改；原501全部682、95作者完整MF/真实IO/声明附录已实际写入相对研究卷。ROOT/cache锚定与严格JSON树两个真实胶合缺陷定向修，保首反例；20辅助算法已解释并真IO。449真正非作者先封10完整native运输baseline/新schema/未知/硬错与sourceonly边界，0新统一调用时固定。10历史引用冲突已定位捕获根与实际不同版本，地区snapshot版本齐；两份历史mutable来源索引8045/6309旧字节仍由449/474定向查，不以当前69192冒旧SHA。待全部真实版本/缺失限制如实裁决、完整有效附录/新623状态小卷/最终相对包全字节和真正只读整链复现，移位测试后原候选rename成品outputs，不重复克隆旧大树或重95内部数学。"
+  ],
+  "historical_current_unified_entry_before624": {
+    "component": "rev303_research_content",
+    "files": 20,
+    "index_sha256": "1fa4f208a5d40e3ce811688484a39783c49b63ffb0c42ba5d2d31ee7482f86cf",
+    "manifest_sha256": "75abf1701236a5351c8be0abb0ea9dfc3d5eb94c91bf5e54b4fff99aebb60d3e",
+    "freeze_sha256": "13e6332a8abf90f3d4a07f0df8d6c1587548693c71b6f9a2ecd0cc46ef33ad27",
+    "user_entry": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究总稿_规则依据与算法解释_rev303.txt",
+    "methods": 31,
+    "methods_not_progress": true,
+    "not_new_fullportable_release": true
+  },
+  "historical_latest_published_research_directory_before624": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_整盘取用与算法解释_研究增量_rev266",
+  "historical_latest_research_revision_before624": 408,
+  "historical_current_original_remaining_acceptance_before624": {
+    "C03": [],
+    "C08": [
+      "原全部已确认范围的统一运行/阅读、完整来源/IO/精确可移植附录、最后有效叠加和真正非作者整包复现/边界/冲突/留出，最终验收和稳定outputs交付。"
+    ]
+  },
+  "historical_execution_status_before624": "active_by_user_resume",
+  "historical_in_progress_candidate_before624": {
+    "root": "532原Ren261真实壬寅/癸卯木制土卫水质量；240全图/原点/费用/204H事前先验全过，5完整公开回放过；发现未决source仍造转换库存，已移source门到inventory前并保首败，新锁4ecc…8630，正常5回放重过，待严格边界/旧430零运归约/全部算法IO/定版与独审。",
+    "/root/review471_noncn": "533独审519通过并536采用；528源12,594及前数值双轴暖澄清已核读允许，现独立25计划与源/气候两轴先验，实际不足修复与母维持分列。",
+    "/root/review474_mcn2": "534独审515通过并537采用；524源方案漏字/根信用前数值澄清完成，34公开+4私参数+13边界102world独立预期完成，纯食14/15食财12/19印救7/34，按固定题实现。",
+    "/root/resume463_review449": "522王案R/B/C×S/L及普通/真假从全作用1218事前世界首轮全核，根印与原日回强反例保，正核来源/行为/全IO交付；之后529冬暖真实原缺口，不强求纯火单用成功。"
+  },
+  "historical_research_revision_before624": 408,
+  "historical_latest_published_research_revision_before624": 266,
+  "historical_latest_published_research_archive_before624": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_整盘取用与算法解释_研究增量_rev266.zip",
+  "historical_latest_published_research_sha256_before624": "5eb22f50f038c4acc0964f2690b4b90950f1b8a85d467a297c3073d5b768b328",
+  "historical_latest_published_research_verification_before624": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_整盘取用与算法解释_研究增量_rev266_交付核验.json",
+  "historical_latest_archive_before624": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_生辰核与变色规则_接续研究包_v0.12.zip",
+  "historical_archive_sha256_before624": "e52d64546685fa9194e7d30eea75d2e6006a63e07c5331362112a3849bb4e4b9",
+  "historical_latest_formal_package_before624": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_生辰核与变色规则_接续研究包_v0.12",
+  "latest_C08_complete_acceptance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_original_full_acceptance/acceptance_decision.json",
+    "bytes": 15592,
+    "sha256": "f601d86c0fbfab0405ea2457aefdd94ef622a9390e3a5a2d4807fa710e921cd6"
+  },
+  "latest_final_delivery_manifest": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_MANIFEST_r1.json",
+    "bytes": 49396,
+    "sha256": "5d5016b696bb55bd101b5592bd32cf5fedbf3b08b610881961bbd064f916add4"
+  },
+  "latest_final_delivery_freeze": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_FREEZE_r1.json",
+    "bytes": 130,
+    "sha256": "fe444a07f44bd0eec1c9868fb6e139a27dffdb2145e2bde466695350cc4e9003"
+  },
+  "goal_manager_status_precision": "Actual update_goal complete response is saved exactly; original delivery and final publication are achieved.",
+  "goal_manager_last_observed_status": "complete",
+  "goal_tool_last_reported_status": "complete",
+  "actual_goal_completion_receipt": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_goal_completion_receipt.json",
+    "bytes": 1075,
+    "sha256": "2cf06299f9bf5c32917fdde37e58e17cd51b8d3caf01929b60d45696581516d8"
+  }
+}

@@ -1,0 +1,721 @@
+实际五层变化和完整反馈条件研究
+rev186_actual_luck_change_source_whole
+所属原模块：C03
+当前采用：rev227_actual_luck_research_archival_acceptance.json
+范围：普通不化仍是明确假设；A木火、B木或木火的全备选保留，未出最终主题。函数真IO采用222外置修正后的39+1。 后续254/261在另一个明确方法下完成限定源足域和实际单主题变化；186原普通不化假设与旧失败均不改标签。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev186_actual_luck_change_source_whole/algorithm_explanations.json
+SHA256：dabb9c3e923e4be6225e9b03eead39e8b0346e5e8b554d1256a097faa4a9d270
+
+1. ALG186-SOURCE-BYTES
+算法标识：ALG186-SOURCE-BYTES
+implementation：{
+  "file": "current_luck_whole.py",
+  "functions": [
+    "capture_sources",
+    "load_modules"
+  ],
+  "source_sha256": "4aceb404d7971074ec21132545b195106882c4af631ebb09819249c04ddd643f",
+  "function_AST_sha256": {
+    "capture_sources": "987db56422a08108d68cb9b356b5938737f5bec13ff52deba706e9fad4960df8",
+    "load_modules": "75d8002227835b0809847d70f27f7e6625946076f30491399a996fd34595c023"
+  }
+}
+目的：先核真实来源与采纳范围，再执行任何提供者；不是验证文件名标签。
+输入：完整898/299包、原freeze与manifest、两个固定政策和实际采纳回执、全部新helper/profile
+actual_algorithm：读全量字节并比锁；核actual manifest SHA==原freeze.manifest_sha；固定原freeze/manifest/准确件数；逐member；核policy-review-target实际对应。全过才compile/exec。
+输出：captured bytes和绑定的模块；矛盾则首exec前拒绝。
+source_layer_and_scope：继承固定已采用source175/transport，仅复用其有效子能力；新186整盘未采纳。
+failure_conflict_and_change_conditions：外锁/内manifest重封不能重写原freeze authority；真实SHA不认证审者身份。
+actual_evidence：source_front_gate_actual.json:5连贯矛盾0firstexec/clean1且均实际exec0。
+real_prediction_validated：false
+
+2. ALG186-INPUT
+算法标识：ALG186-INPUT
+implementation：{
+  "file": "current_luck_whole.py",
+  "functions": [
+    "validate_outer",
+    "strict_load",
+    "canonical",
+    "digest",
+    "pack"
+  ],
+  "source_sha256": "4aceb404d7971074ec21132545b195106882c4af631ebb09819249c04ddd643f",
+  "function_AST_sha256": {
+    "validate_outer": "b31971147b943cbfc99e5b5e14497f58d20ec83bc68a32006c5bda7ae95248e7",
+    "strict_load": "052c3e02f644a0684df5a301827929f8e944051f10c7fde47fe9afe8f2cb361b",
+    "canonical": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+    "digest": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+    "pack": "0cbc3fb786dde1d52305b83980651f99e9a2c466f3ca6427608aca289ace3394"
+  }
+}
+目的：完整绑定相同研究方法与显式普通不化假设；拒混类型和重复键。
+输入：精确schema、analysis_ref、source_assumptions、native_input、binding
+actual_algorithm：源假设必须JSON bool true，不能Python equality相容1；method固定；对全部外输入/源profile校验绑定。原native schema/profile不重贴。
+输出：合法外层或拒绝；Fraction序列化为精确字符串。
+source_layer_and_scope：全为工程输入约定；ordinary为用户请求中明确选择的研究前提，不是自动判非化。
+failure_conflict_and_change_conditions：输入、身份、版本、资料变化会改绑定；未改来源/实际输入不因时间字符串等价写法偷换方法。
+actual_evidence：strict_input_actual.json 8拒+2合法shape；history保True==1原缺口与修复。
+real_prediction_validated：false
+
+3. ALG186-SOURCE-INVENTORY
+算法标识：ALG186-SOURCE-INVENTORY
+implementation：{
+  "file": "source_scope.py",
+  "functions": [
+    "load_library",
+    "source_view"
+  ],
+  "source_sha256": "f8431a7550e1111c42c53cfb54c03af39d26accc15090b32db73e7329ce64079",
+  "function_AST_sha256": {
+    "load_library": "997746d0d039ccca5df8d01b88c4c0bf7ae526ed53f74a7e6f7defb690c4032b",
+    "source_view": "2c7c9529b05d017094a429a05a9777f95ed871a5842fddc9531fcd872237356e"
+  }
+}
+目的：月根库存、月令框架和独立发用三账分离。
+输入：合法完整四柱、五个实际选中时间柱、显式ordinary、冻结source175/HAP/ROOT
+actual_algorithm：全部原HAP藏行保留；辰藏字符串原样戊乙癸；只明干/实际时间干生成actor；潜在戊根库存单列，不自动生成伤官actor。丁辰原有严格壬官/原无戊；新external戊才触发此相对原局发用任务。
+输出：actual actors、完整HAP/根库存、named框架、独立戊激活、原甲资格、源阻塞列表。
+source_layer_and_scope：主本PDF58–59书49–50成变例；字形王/成原样保留，壬由丁日十神官推导明确标工程解释；不是补古完整命例。
+failure_conflict_and_change_conditions：原甲必要仅此source入口，实际效力另算；原无甲不推一切救应不可能；原已有戊不当新透清；其他角色/气候/具名未闭任务仍拦。
+actual_evidence：source_scope_actual.json 8条；boundary_actual.json 三原生源反例0world。
+real_prediction_validated：false
+
+4. ALG186-RELATION-SCOPE
+算法标识：ALG186-RELATION-SCOPE
+implementation：{
+  "file": "source_scope.py",
+  "functions": [
+    "source_view"
+  ],
+  "source_sha256": "f8431a7550e1111c42c53cfb54c03af39d26accc15090b32db73e7329ce64079",
+  "function_AST_sha256": {
+    "source_view": "2c7c9529b05d017094a429a05a9777f95ed871a5842fddc9531fcd872237356e"
+  }
+}
+目的：复用175来源分层，不能见自刑/害名就当根损，也不说现实无效。
+输入：九节点全部干支正式候选、positive ROOT users、原context、climate
+actual_algorithm：唯一丁壬本身合只按PDF20不作合去；ordinary显式且非无条件化气结论。bare self/harm/break/partial保完整候选比较；具名primary任务、三刑类、六冲六合成组等未闭仍阻断。
+输出：全部关系候选/正根使用者/实际任务与条件域。
+source_layer_and_scope：主本PDF23–25书14–16有解/反解/不能解/别位保护，故不是全刑0也非全名致害；新application域不是另造primary权威。
+failure_conflict_and_change_conditions：其他profile仍未决；三刑类不得借bare secondary免除；气候有实际匹配也不特赦。
+actual_evidence：首192寅巳数学保源未闭；新A/B仅bare比较；source negatives preserve primary blocking。
+real_prediction_validated：false
+
+5. ALG186-ROOT-PORTS
+算法标识：ALG186-ROOT-PORTS
+implementation：{
+  "file": "current_luck_whole.py",
+  "functions": [
+    "evaluate"
+  ],
+  "source_sha256": "4aceb404d7971074ec21132545b195106882c4af631ebb09819249c04ddd643f",
+  "function_AST_sha256": {
+    "evaluate": "79b837c37a5907f421c128a8d1e3fa53e6c484191d727a3f47e71260e18d6a9f"
+  }
+}
+目的：调用冻结真实ROOT02+全部时间根，所有origin按max共享。
+输入：实际actor/原四柱/five temporals/固定cfg
+actual_algorithm：原current_ports对四支qualification、月3/2和原float逐源记；五层各加time-root及同元素time-visible；原藏表和所有原根完全不改；不按数值成功选source分支。
+输出：每actor完整direct、逐ROOT解释记录。
+source_layer_and_scope：ROOT120和原898 transport全字节继承；数值是工程资格量非古籍定量或物理能量。
+failure_conflict_and_change_conditions：资格库存不是独立发用；时间来源身份不同仍有各自port；同origin不重复预算。
+actual_evidence：independent_oracle_comparison_actual.json:9actor×全部origin A/B与先存独立ROOT120完全同。
+real_prediction_validated：false
+
+6. ALG186-REACH
+算法标识：ALG186-REACH
+implementation：{
+  "file": "whole_engine.py",
+  "functions": [
+    "reach"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "reach": "2507486c27a229a3197bf14343f0376db77613bccd739683cdc652a9902f2afc"
+  }
+}
+目的：固定位置作用系数，不为了成功调距。
+输入：两个真实actor和旧far_reach1/2
+actual_algorithm：有external或原位距离<=1取1，否则一律1/2；不是指数距离衰减。
+输出：exact Fraction reach
+source_layer_and_scope：沿旧78/WT ordinary工程作用约定，并非原文比例。
+failure_conflict_and_change_conditions：改位置/actor类型能改边；同位置不得改系数。
+actual_evidence：完整A/B独算含原月官到时甲far半；所有生成/控制/约身重新算。
+real_prediction_validated：false
+
+7. ALG186-PHYSICAL-COUPLED
+算法标识：ALG186-PHYSICAL-COUPLED
+implementation：{
+  "file": "whole_engine.py",
+  "functions": [
+    "world"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "world": "801e575aa575f66cf300c100f5979462bcef7a1312d01457690a01bc99ca0968"
+  }
+}
+目的：全部官→印→身→伤→官反馈同时求解。
+输入：完整D、固定E、cfg，至多一官一伤、所有印/peer
+actual_algorithm：O=Do*u；各印own=max(Dp,g*reach*O)，各物理身port=max(Db,enabled印生日)。伤supply=max(Dh,全部physical身生伤)，control=max(enabled印制伤)，Hamount=max(0,sumS-sumC)后原port统一retention；O反馈T=max(0,1-cH/Do)。
+输出：完整官/各印own/全部physical身/伤supply与每印control/retention及全signed edges。
+source_layer_and_scope：相生相克方向源与冻结工程系数g1/4 c1/2分层；新单官单伤完整组合，不冒古籍独有数学。
+failure_conflict_and_change_conditions：关闭peer正生日支持仍保其物理stock和生伤负边；生日与制伤同一印正套餐耦合，且生日新增伤的后果不能删。
+actual_evidence：A/B全部原生port与独算完全同；关制伤保所有甲与birthday仍u0，见boundary_actual.json。
+real_prediction_validated：false
+
+8. ALG186-POSITIVE-BODY
+算法标识：ALG186-POSITIVE-BODY
+implementation：{
+  "file": "whole_engine.py",
+  "functions": [
+    "world"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "world": "801e575aa575f66cf300c100f5979462bcef7a1312d01457690a01bc99ca0968"
+  }
+}
+目的：解释正支持开关与真实负背景分开。
+输入：day/peer/印实际actor、完整D与E
+actual_algorithm：物理身全部留供伤；正BODY只日主+selected peer，global disabled peer float origins从正BODY direct各处去除；印生日仍引用ownport，body pool按origin max。
+输出：positive和physical两套完整账本及disabled float清单。
+source_layer_and_scope：冻结shared-origin/max工程法；positive关闭是功能解释，不是从现实命盘删除actor。
+failure_conflict_and_change_conditions：同源float不得在别actor端口借回，物理负作用不得随关闭消失；反事实source资格不另冒已成古格。
+actual_evidence：192全部组合 BODY与负供伤逐origin及carry精确相等。
+real_prediction_validated：false
+
+9. ALG186-CONTINUOUS
+算法标识：ALG186-CONTINUOUS
+implementation：{
+  "file": "piecewise_exact.py",
+  "functions": [
+    "__init__",
+    "coeff",
+    "at",
+    "__add__",
+    "__neg__",
+    "__sub__",
+    "__rsub__",
+    "scaled",
+    "maximum",
+    "root_fixed",
+    "record",
+    "as_pw",
+    "sum_pw",
+    "port_max",
+    "port_scale",
+    "port_at",
+    "total",
+    "constant",
+    "variable"
+  ],
+  "source_sha256": "a88c136ccc425717b3892ead0b871d5312e7d3487522ce8e1c615b551bc878e5",
+  "function_AST_sha256": {
+    "__init__": "1b4b2dd55f9d1622952942889d9e879244c934747562cc4c9b9c026f0e1f3786",
+    "coeff": "94a583442724a05f96e283232cec55819b69a3e7640eb258c23f2b23d2b8c435",
+    "at": "6951de34cbea7fc18fdcd12f4178e95755b5e2232dafcab4680ef84e7c5aa431",
+    "__add__": "ea6ce3dd9500b3291ff90e8ea2572a38c7b70338f4affbfeed2908a58966e02d",
+    "__neg__": "2df2a56bcc56e24c2a8a83389311cf1adedf85d07de35aa7ded70b4a09573cde",
+    "__sub__": "e92fe2d718ab2d48fbc88b50d8acf3956f77f7efdc3c35e4fbd732a043f7cd8b",
+    "__rsub__": "6820db1ca69643ea7a114701e98cb07062e24fe8e6c00b626b5ee02ae4389f33",
+    "scaled": "337de2be52dcd1ee7620a90f62dc13d77ce9876a3460fda0d9f3584e4b2b64bd",
+    "maximum": "9f5e595fc1bea6529cd43cb8fc882d64078ba67c7a55033eb9d00879484b9213",
+    "root_fixed": "a767e3df28ffd0bac25c3879b00bdd4329c6bf5b70b3e730062ff9d8d3957b31",
+    "record": "3d2a85ae1dddf779b06ab54a8a8e2828334843b786da050d6cf97d6ca1acba96",
+    "as_pw": "1ceb29db6193f8e30a57b560e5a90cc66e40d07306d116be1a8b7f2f57725ee7",
+    "sum_pw": "7b3101cdaa055fc0411aa09156e40e6fae027d21aeb23526ca8c16c2bc041d25",
+    "port_max": "4724feff966926fbce6c6b4cf0965281b33a9f2b98247601b361b55a9eb504d0",
+    "port_scale": "13abc3d43c4d53e21a2e6e7899d22e5fe6532c6708bba777795f4bc91912544b",
+    "port_at": "12aa0edf57333a39258f365bf1b4c8711e2bec9c858a146b2ba1e9a93c4aba76",
+    "total": "47e1e1336d44bd20b503a09a86b9967fb2b1f9a5a5f9399566b91dda63e9fb50",
+    "constant": "64c3d36c9766a03718d4ed2092753cc9dfe9975393657b1aec12b2cf62cb39bb",
+    "variable": "f1eb6145672a30e9001a6c14b73c89dfcf2445332276b0645af09c53ee4b4fa5"
+  }
+}
+目的：全连续区间精确解，不以角点/若干采样替证明。
+输入：Fraction仿射段覆盖[0,1]、每origin portfolio、L=9/128
+actual_algorithm：加减缩放保精确；max按所有段端点和全部相交点细分；检查连续/覆盖。全段验证|slope|<=L<1、映射[0,1]→[0,1]，逐段解r=a/(1-b)，精确代回且唯一。
+输出：精确u、完整piecewise T和唯一证书。
+source_layer_and_scope：新几何独立推导Lip≤c*g*(g²+c)=9/128；同origin max使多印/身不重复sum；无财/至多一伤，不能挪至任意多目标。
+failure_conflict_and_change_conditions：全域L不满足就拒证，不报无根；测试通过不代表现实预测成立。
+actual_evidence：192world每段证书+先存另一point/secant exact独算全同；具体B892/1213；不是继承旧9m/128冒新全证明。
+real_prediction_validated：false
+
+10. ALG186-ACTUAL-GOALS
+算法标识：ALG186-ACTUAL-GOALS
+implementation：{
+  "file": "whole_engine.py",
+  "functions": [
+    "world"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "world": "801e575aa575f66cf300c100f5979462bcef7a1312d01457690a01bc99ca0968"
+  }
+}
+目的：按预固定功能问题验官活与完整承载，不把usedrole称全喜用。
+输入：实际完整世界O/B/H与原甲ROOT/control/birthday
+actual_algorithm：硬门含官原根活、O>0、若透戊原甲有原根且actual控制/生日>0、BODY>5/4*(.5reach*O+.75H)。边界严格>，官约身不再先扣身后双扣carry。
+输出：actual goals、总负荷、strict carry margin；所有目标全过后才可解释H。
+source_layer_and_scope：新功能研究问题显式与旧78官职分risk问题分开，不静改旧方法验收。
+failure_conflict_and_change_conditions：甲presence/根不是100%救；newWu如无有效制伤官可死；source qualified亦不保证数值成功。
+actual_evidence：boundary_actual.json:关制伤0官；equal carry不通过上下两侧明确。
+real_prediction_validated：false
+
+11. ALG186-OLD-RISK
+算法标识：ALG186-OLD-RISK
+implementation：{
+  "file": "whole_engine.py",
+  "functions": [
+    "world"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "world": "801e575aa575f66cf300c100f5979462bcef7a1312d01457690a01bc99ca0968"
+  }
+}
+目的：原官职分风险完整保诊断，不能把失败伪报旧通过。
+输入：每印direct和官到印reach；old3/4、half1/2
+actual_algorithm：risk_origin=max_p(.75reach*Dp_origin)；display=max(0,Ocurrent-sumrisk)，独立记录display>0且>=Ocurrent/2；gross官生印和max净增另列，不能说risk是实际生成耗。
+输出：旧公式risk/display/half比较与gross/net独立账。
+source_layer_and_scope：旧78工程risk沿用，主本58–59不规定此半存硬门；新问题非旧78源域判定，所有旧文件/失败不变。
+failure_conflict_and_change_conditions：新H不认证原78官职分目标；两时点旧risk均false保留。
+actual_evidence：A risk255/32, display249/32<252/32 by3/32；B同样失败，实际IO与独算同。
+real_prediction_validated：false
+
+12. ALG186-ALL-SUPPORT
+算法标识：ALG186-ALL-SUPPORT
+implementation：{
+  "file": "whole_engine.py",
+  "functions": [
+    "support_sets"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "support_sets": "3dfc1d9298e941a26761adcb675999e8eb66641a2ec1f1e765ed25ab8bcd34fc"
+  }
+}
+目的：所有正支持子集每次重算完整反馈，再做全部超集稳健最小化。
+输入：实际已过全部目标；print/peer候选最多8
+actual_algorithm：列2^n子集；每世界重求u/全部ports/负load；只按预固定官活与carry解释支持。枚举所有superset须仍真才robust；再取集合包含意义最小。
+输出：全部128+64 worlds、20/5稳健最小集合，完整备选保留。
+source_layer_and_scope：工程解释H：固定ACTUAL源资格下的两项目标支持；disabled世界不声称每一盘独立符合原文甲救格。
+failure_conflict_and_change_conditions：实际全目标未过则不H；不按某元素成功删掉其他支持；无来源优先不排主次/比例。
+actual_evidence：independent_oracle_comparison_actual.json 全192逐项；B原甲+原丙备选仍留。
+real_prediction_validated：false
+
+13. ALG186-NATIVE-H
+算法标识：ALG186-NATIVE-H
+implementation：{
+  "file": "whole_engine.py",
+  "functions": [
+    "native_graphs"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "native_graphs": "4407adc8145e762689e761908ad6b9e22e2425be6cecb2ddd1069bf9bc591555"
+  }
+}
+目的：真实原生AUX图选择，套餐内AND、套餐间OR。
+输入：actual actors/全部源硬门/完整signed背景/每个最小套餐
+actual_algorithm：每套餐单独全actor全goal图；每必需helper一个selection_required目标，所以AND；所有实际硬门共用背景不删；原生aux.select实际选每图套餐；全图结果并集为OR。used官不自动aux。
+输出：25完整原生图、全部actor_sets和element_sets；不自动equalshares/coprinicipal或B。
+source_layer_and_scope：复用原冻结AUX有限解释器；新图语义仍限此source/question。
+failure_conflict_and_change_conditions：A仅木火joint；B木single或木火joint都有；single_element字段None，theme None。
+actual_evidence：A/B实际原生API/CLI及25图与先验集合完全相等。
+real_prediction_validated：false
+
+14. ALG186-ORCHESTRATION
+算法标识：ALG186-ORCHESTRATION
+implementation：{
+  "file": "current_luck_whole.py",
+  "functions": [
+    "evaluate",
+    "main",
+    "judgment_status"
+  ],
+  "source_sha256": "4aceb404d7971074ec21132545b195106882c4af631ebb09819249c04ddd643f",
+  "function_AST_sha256": {
+    "evaluate": "79b837c37a5907f421c128a8d1e3fa53e6c484191d727a3f47e71260e18d6a9f",
+    "main": "7a1a55084052046ea2dc128d1cc5ae3991d251eca60f1ae64d14dd608781cb08",
+    "judgment_status": "cec95852bdff6b0f8878cc7af6c447e4dc194cd0802bc82163f4011821fc3aaa"
+  }
+}
+目的：同盘同方法两时间纵向调用，source先于数值。
+输入：同一raw/person/method/context/evidence/十记录catalog，仅evaluation变
+actual_algorithm：原schema真实验证完整目录，未来坏记录也先拒；选择五层→source→ROOT→actual全图→全子集→原生H；不按H成功换分支。例外不虚报0次执行，实际拒前0由spy实测。
+输出：完整报告含sourceused/goals/support/旧risk/H、无theme更新。
+source_layer_and_scope：当前研究未采纳、无B/P/C20/default/分数变更；人工柱条件不是自然历法或真实预测。
+failure_conflict_and_change_conditions：10:00右端B；11:00无当前不算判定不变；无须额外支持明确known-none，与actual失败/未决分开；未决theme不能冒已变色。
+actual_evidence：两API+两CLI全文同；10边界B H同、11零world、futurebad零world。
+real_prediction_validated：false
+
+原件：work/rev186_actual_luck_change_source_whole/rule_cards_ten_fields.json
+SHA256：0999de7264dd8c7e807a43bbabd1bab4d064b000eaecba239790037ded80e101
+
+1. ALG186-SOURCE-BYTES
+算法标识：ALG186-SOURCE-BYTES
+source：继承固定已采用source175/transport，仅复用其有效子能力；新186整盘未采纳。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：完整898/299包、原freeze与manifest、两个固定政策和实际采纳回执、全部新helper/profile；先核真实来源与采纳范围，再执行任何提供者；不是验证文件名标签。
+exclusions_and_failure：外锁/内manifest重封不能重写原freeze authority；真实SHA不认证审者身份。
+change_conditions：读全量字节并比锁；核actual manifest SHA==原freeze.manifest_sha；固定原freeze/manifest/准确件数；逐member；核policy-review-target实际对应。全过才compile/exec。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "current_luck_whole.py",
+  "functions": [
+    "capture_sources",
+    "load_modules"
+  ],
+  "source_sha256": "4aceb404d7971074ec21132545b195106882c4af631ebb09819249c04ddd643f",
+  "function_AST_sha256": {
+    "capture_sources": "987db56422a08108d68cb9b356b5938737f5bec13ff52deba706e9fad4960df8",
+    "load_modules": "75d8002227835b0809847d70f27f7e6625946076f30491399a996fd34595c023"
+  }
+}
+verification：source_front_gate_actual.json:5连贯矛盾0firstexec/clean1且均实际exec0。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+2. ALG186-INPUT
+算法标识：ALG186-INPUT
+source：全为工程输入约定；ordinary为用户请求中明确选择的研究前提，不是自动判非化。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：精确schema、analysis_ref、source_assumptions、native_input、binding；完整绑定相同研究方法与显式普通不化假设；拒混类型和重复键。
+exclusions_and_failure：输入、身份、版本、资料变化会改绑定；未改来源/实际输入不因时间字符串等价写法偷换方法。
+change_conditions：源假设必须JSON bool true，不能Python equality相容1；method固定；对全部外输入/源profile校验绑定。原native schema/profile不重贴。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "current_luck_whole.py",
+  "functions": [
+    "validate_outer",
+    "strict_load",
+    "canonical",
+    "digest",
+    "pack"
+  ],
+  "source_sha256": "4aceb404d7971074ec21132545b195106882c4af631ebb09819249c04ddd643f",
+  "function_AST_sha256": {
+    "validate_outer": "b31971147b943cbfc99e5b5e14497f58d20ec83bc68a32006c5bda7ae95248e7",
+    "strict_load": "052c3e02f644a0684df5a301827929f8e944051f10c7fde47fe9afe8f2cb361b",
+    "canonical": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+    "digest": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+    "pack": "0cbc3fb786dde1d52305b83980651f99e9a2c466f3ca6427608aca289ace3394"
+  }
+}
+verification：strict_input_actual.json 8拒+2合法shape；history保True==1原缺口与修复。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+3. ALG186-SOURCE-INVENTORY
+算法标识：ALG186-SOURCE-INVENTORY
+source：主本PDF58–59书49–50成变例；字形王/成原样保留，壬由丁日十神官推导明确标工程解释；不是补古完整命例。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：合法完整四柱、五个实际选中时间柱、显式ordinary、冻结source175/HAP/ROOT；月根库存、月令框架和独立发用三账分离。
+exclusions_and_failure：原甲必要仅此source入口，实际效力另算；原无甲不推一切救应不可能；原已有戊不当新透清；其他角色/气候/具名未闭任务仍拦。
+change_conditions：全部原HAP藏行保留；辰藏字符串原样戊乙癸；只明干/实际时间干生成actor；潜在戊根库存单列，不自动生成伤官actor。丁辰原有严格壬官/原无戊；新external戊才触发此相对原局发用任务。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "source_scope.py",
+  "functions": [
+    "load_library",
+    "source_view"
+  ],
+  "source_sha256": "f8431a7550e1111c42c53cfb54c03af39d26accc15090b32db73e7329ce64079",
+  "function_AST_sha256": {
+    "load_library": "997746d0d039ccca5df8d01b88c4c0bf7ae526ed53f74a7e6f7defb690c4032b",
+    "source_view": "2c7c9529b05d017094a429a05a9777f95ed871a5842fddc9531fcd872237356e"
+  }
+}
+verification：source_scope_actual.json 8条；boundary_actual.json 三原生源反例0world。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+4. ALG186-RELATION-SCOPE
+算法标识：ALG186-RELATION-SCOPE
+source：主本PDF23–25书14–16有解/反解/不能解/别位保护，故不是全刑0也非全名致害；新application域不是另造primary权威。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：九节点全部干支正式候选、positive ROOT users、原context、climate；复用175来源分层，不能见自刑/害名就当根损，也不说现实无效。
+exclusions_and_failure：其他profile仍未决；三刑类不得借bare secondary免除；气候有实际匹配也不特赦。
+change_conditions：唯一丁壬本身合只按PDF20不作合去；ordinary显式且非无条件化气结论。bare self/harm/break/partial保完整候选比较；具名primary任务、三刑类、六冲六合成组等未闭仍阻断。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "source_scope.py",
+  "functions": [
+    "source_view"
+  ],
+  "source_sha256": "f8431a7550e1111c42c53cfb54c03af39d26accc15090b32db73e7329ce64079",
+  "function_AST_sha256": {
+    "source_view": "2c7c9529b05d017094a429a05a9777f95ed871a5842fddc9531fcd872237356e"
+  }
+}
+verification：首192寅巳数学保源未闭；新A/B仅bare比较；source negatives preserve primary blocking。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+5. ALG186-ROOT-PORTS
+算法标识：ALG186-ROOT-PORTS
+source：ROOT120和原898 transport全字节继承；数值是工程资格量非古籍定量或物理能量。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：实际actor/原四柱/five temporals/固定cfg；调用冻结真实ROOT02+全部时间根，所有origin按max共享。
+exclusions_and_failure：资格库存不是独立发用；时间来源身份不同仍有各自port；同origin不重复预算。
+change_conditions：原current_ports对四支qualification、月3/2和原float逐源记；五层各加time-root及同元素time-visible；原藏表和所有原根完全不改；不按数值成功选source分支。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "current_luck_whole.py",
+  "functions": [
+    "evaluate"
+  ],
+  "source_sha256": "4aceb404d7971074ec21132545b195106882c4af631ebb09819249c04ddd643f",
+  "function_AST_sha256": {
+    "evaluate": "79b837c37a5907f421c128a8d1e3fa53e6c484191d727a3f47e71260e18d6a9f"
+  }
+}
+verification：independent_oracle_comparison_actual.json:9actor×全部origin A/B与先存独立ROOT120完全同。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+6. ALG186-REACH
+算法标识：ALG186-REACH
+source：沿旧78/WT ordinary工程作用约定，并非原文比例。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：两个真实actor和旧far_reach1/2；固定位置作用系数，不为了成功调距。
+exclusions_and_failure：改位置/actor类型能改边；同位置不得改系数。
+change_conditions：有external或原位距离<=1取1，否则一律1/2；不是指数距离衰减。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "whole_engine.py",
+  "functions": [
+    "reach"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "reach": "2507486c27a229a3197bf14343f0376db77613bccd739683cdc652a9902f2afc"
+  }
+}
+verification：完整A/B独算含原月官到时甲far半；所有生成/控制/约身重新算。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+7. ALG186-PHYSICAL-COUPLED
+算法标识：ALG186-PHYSICAL-COUPLED
+source：相生相克方向源与冻结工程系数g1/4 c1/2分层；新单官单伤完整组合，不冒古籍独有数学。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：完整D、固定E、cfg，至多一官一伤、所有印/peer；全部官→印→身→伤→官反馈同时求解。
+exclusions_and_failure：关闭peer正生日支持仍保其物理stock和生伤负边；生日与制伤同一印正套餐耦合，且生日新增伤的后果不能删。
+change_conditions：O=Do*u；各印own=max(Dp,g*reach*O)，各物理身port=max(Db,enabled印生日)。伤supply=max(Dh,全部physical身生伤)，control=max(enabled印制伤)，Hamount=max(0,sumS-sumC)后原port统一retention；O反馈T=max(0,1-cH/Do)。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "whole_engine.py",
+  "functions": [
+    "world"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "world": "801e575aa575f66cf300c100f5979462bcef7a1312d01457690a01bc99ca0968"
+  }
+}
+verification：A/B全部原生port与独算完全同；关制伤保所有甲与birthday仍u0，见boundary_actual.json。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+8. ALG186-POSITIVE-BODY
+算法标识：ALG186-POSITIVE-BODY
+source：冻结shared-origin/max工程法；positive关闭是功能解释，不是从现实命盘删除actor。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：day/peer/印实际actor、完整D与E；解释正支持开关与真实负背景分开。
+exclusions_and_failure：同源float不得在别actor端口借回，物理负作用不得随关闭消失；反事实source资格不另冒已成古格。
+change_conditions：物理身全部留供伤；正BODY只日主+selected peer，global disabled peer float origins从正BODY direct各处去除；印生日仍引用ownport，body pool按origin max。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "whole_engine.py",
+  "functions": [
+    "world"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "world": "801e575aa575f66cf300c100f5979462bcef7a1312d01457690a01bc99ca0968"
+  }
+}
+verification：192全部组合 BODY与负供伤逐origin及carry精确相等。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+9. ALG186-CONTINUOUS
+算法标识：ALG186-CONTINUOUS
+source：新几何独立推导Lip≤c*g*(g²+c)=9/128；同origin max使多印/身不重复sum；无财/至多一伤，不能挪至任意多目标。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：Fraction仿射段覆盖[0,1]、每origin portfolio、L=9/128；全连续区间精确解，不以角点/若干采样替证明。
+exclusions_and_failure：全域L不满足就拒证，不报无根；测试通过不代表现实预测成立。
+change_conditions：加减缩放保精确；max按所有段端点和全部相交点细分；检查连续/覆盖。全段验证|slope|<=L<1、映射[0,1]→[0,1]，逐段解r=a/(1-b)，精确代回且唯一。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "piecewise_exact.py",
+  "functions": [
+    "__init__",
+    "coeff",
+    "at",
+    "__add__",
+    "__neg__",
+    "__sub__",
+    "__rsub__",
+    "scaled",
+    "maximum",
+    "root_fixed",
+    "record",
+    "as_pw",
+    "sum_pw",
+    "port_max",
+    "port_scale",
+    "port_at",
+    "total",
+    "constant",
+    "variable"
+  ],
+  "source_sha256": "a88c136ccc425717b3892ead0b871d5312e7d3487522ce8e1c615b551bc878e5",
+  "function_AST_sha256": {
+    "__init__": "1b4b2dd55f9d1622952942889d9e879244c934747562cc4c9b9c026f0e1f3786",
+    "coeff": "94a583442724a05f96e283232cec55819b69a3e7640eb258c23f2b23d2b8c435",
+    "at": "6951de34cbea7fc18fdcd12f4178e95755b5e2232dafcab4680ef84e7c5aa431",
+    "__add__": "ea6ce3dd9500b3291ff90e8ea2572a38c7b70338f4affbfeed2908a58966e02d",
+    "__neg__": "2df2a56bcc56e24c2a8a83389311cf1adedf85d07de35aa7ded70b4a09573cde",
+    "__sub__": "e92fe2d718ab2d48fbc88b50d8acf3956f77f7efdc3c35e4fbd732a043f7cd8b",
+    "__rsub__": "6820db1ca69643ea7a114701e98cb07062e24fe8e6c00b626b5ee02ae4389f33",
+    "scaled": "337de2be52dcd1ee7620a90f62dc13d77ce9876a3460fda0d9f3584e4b2b64bd",
+    "maximum": "9f5e595fc1bea6529cd43cb8fc882d64078ba67c7a55033eb9d00879484b9213",
+    "root_fixed": "a767e3df28ffd0bac25c3879b00bdd4329c6bf5b70b3e730062ff9d8d3957b31",
+    "record": "3d2a85ae1dddf779b06ab54a8a8e2828334843b786da050d6cf97d6ca1acba96",
+    "as_pw": "1ceb29db6193f8e30a57b560e5a90cc66e40d07306d116be1a8b7f2f57725ee7",
+    "sum_pw": "7b3101cdaa055fc0411aa09156e40e6fae027d21aeb23526ca8c16c2bc041d25",
+    "port_max": "4724feff966926fbce6c6b4cf0965281b33a9f2b98247601b361b55a9eb504d0",
+    "port_scale": "13abc3d43c4d53e21a2e6e7899d22e5fe6532c6708bba777795f4bc91912544b",
+    "port_at": "12aa0edf57333a39258f365bf1b4c8711e2bec9c858a146b2ba1e9a93c4aba76",
+    "total": "47e1e1336d44bd20b503a09a86b9967fb2b1f9a5a5f9399566b91dda63e9fb50",
+    "constant": "64c3d36c9766a03718d4ed2092753cc9dfe9975393657b1aec12b2cf62cb39bb",
+    "variable": "f1eb6145672a30e9001a6c14b73c89dfcf2445332276b0645af09c53ee4b4fa5"
+  }
+}
+verification：192world每段证书+先存另一point/secant exact独算全同；具体B892/1213；不是继承旧9m/128冒新全证明。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+10. ALG186-ACTUAL-GOALS
+算法标识：ALG186-ACTUAL-GOALS
+source：新功能研究问题显式与旧78官职分risk问题分开，不静改旧方法验收。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：实际完整世界O/B/H与原甲ROOT/control/birthday；按预固定功能问题验官活与完整承载，不把usedrole称全喜用。
+exclusions_and_failure：甲presence/根不是100%救；newWu如无有效制伤官可死；source qualified亦不保证数值成功。
+change_conditions：硬门含官原根活、O>0、若透戊原甲有原根且actual控制/生日>0、BODY>5/4*(.5reach*O+.75H)。边界严格>，官约身不再先扣身后双扣carry。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "whole_engine.py",
+  "functions": [
+    "world"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "world": "801e575aa575f66cf300c100f5979462bcef7a1312d01457690a01bc99ca0968"
+  }
+}
+verification：boundary_actual.json:关制伤0官；equal carry不通过上下两侧明确。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+11. ALG186-OLD-RISK
+算法标识：ALG186-OLD-RISK
+source：旧78工程risk沿用，主本58–59不规定此半存硬门；新问题非旧78源域判定，所有旧文件/失败不变。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：每印direct和官到印reach；old3/4、half1/2；原官职分风险完整保诊断，不能把失败伪报旧通过。
+exclusions_and_failure：新H不认证原78官职分目标；两时点旧risk均false保留。
+change_conditions：risk_origin=max_p(.75reach*Dp_origin)；display=max(0,Ocurrent-sumrisk)，独立记录display>0且>=Ocurrent/2；gross官生印和max净增另列，不能说risk是实际生成耗。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "whole_engine.py",
+  "functions": [
+    "world"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "world": "801e575aa575f66cf300c100f5979462bcef7a1312d01457690a01bc99ca0968"
+  }
+}
+verification：A risk255/32, display249/32<252/32 by3/32；B同样失败，实际IO与独算同。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+12. ALG186-ALL-SUPPORT
+算法标识：ALG186-ALL-SUPPORT
+source：工程解释H：固定ACTUAL源资格下的两项目标支持；disabled世界不声称每一盘独立符合原文甲救格。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：实际已过全部目标；print/peer候选最多8；所有正支持子集每次重算完整反馈，再做全部超集稳健最小化。
+exclusions_and_failure：实际全目标未过则不H；不按某元素成功删掉其他支持；无来源优先不排主次/比例。
+change_conditions：列2^n子集；每世界重求u/全部ports/负load；只按预固定官活与carry解释支持。枚举所有superset须仍真才robust；再取集合包含意义最小。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "whole_engine.py",
+  "functions": [
+    "support_sets"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "support_sets": "3dfc1d9298e941a26761adcb675999e8eb66641a2ec1f1e765ed25ab8bcd34fc"
+  }
+}
+verification：independent_oracle_comparison_actual.json 全192逐项；B原甲+原丙备选仍留。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+13. ALG186-NATIVE-H
+算法标识：ALG186-NATIVE-H
+source：复用原冻结AUX有限解释器；新图语义仍限此source/question。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：actual actors/全部源硬门/完整signed背景/每个最小套餐；真实原生AUX图选择，套餐内AND、套餐间OR。
+exclusions_and_failure：A仅木火joint；B木single或木火joint都有；single_element字段None，theme None。
+change_conditions：每套餐单独全actor全goal图；每必需helper一个selection_required目标，所以AND；所有实际硬门共用背景不删；原生aux.select实际选每图套餐；全图结果并集为OR。used官不自动aux。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "whole_engine.py",
+  "functions": [
+    "native_graphs"
+  ],
+  "source_sha256": "4ea6e415a161cced1c74a6e1c1f9a2f248d3f186b893f262a1d251c2045776ed",
+  "function_AST_sha256": {
+    "native_graphs": "4407adc8145e762689e761908ad6b9e22e2425be6cecb2ddd1069bf9bc591555"
+  }
+}
+verification：A/B实际原生API/CLI及25图与先验集合完全相等。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+
+14. ALG186-ORCHESTRATION
+算法标识：ALG186-ORCHESTRATION
+source：当前研究未采纳、无B/P/C20/default/分数变更；人工柱条件不是自然历法或真实预测。
+source_level：原典/后注/解释/工程分别见source_record及algorithm条目
+method_scope：格局功能条件研究；不是扶抑/调候统一最终喜用或官阶现实预测
+conditions：同一raw/person/method/context/evidence/十记录catalog，仅evaluation变；同盘同方法两时间纵向调用，source先于数值。
+exclusions_and_failure：10:00右端B；11:00无当前不算判定不变；无须额外支持明确known-none，与actual失败/未决分开；未决theme不能冒已变色。
+change_conditions：原schema真实验证完整目录，未来坏记录也先拒；选择五层→source→ROOT→actual全图→全子集→原生H；不按H成功换分支。例外不虚报0次执行，实际拒前0由spy实测。
+conflict_resolution：先来源/显式profile/原schema，再实际全部硬目标，再每子集完整反馈和全备选；任何源未闭不以成功求解器回退；used/goals/support分离
+executable_rule：{
+  "file": "current_luck_whole.py",
+  "functions": [
+    "evaluate",
+    "main",
+    "judgment_status"
+  ],
+  "source_sha256": "4aceb404d7971074ec21132545b195106882c4af631ebb09819249c04ddd643f",
+  "function_AST_sha256": {
+    "evaluate": "79b837c37a5907f421c128a8d1e3fa53e6c484191d727a3f47e71260e18d6a9f",
+    "main": "7a1a55084052046ea2dc128d1cc5ae3991d251eca60f1ae64d14dd608781cb08",
+    "judgment_status": "cec95852bdff6b0f8878cc7af6c447e4dc194cd0802bc82163f4011821fc3aaa"
+  }
+}
+verification：两API+两CLI全文同；10边界B H同、11零world、futurebad零world。
+status：conditional_research_implemented_verified_pending_nonauthor_review_not_adopted
+

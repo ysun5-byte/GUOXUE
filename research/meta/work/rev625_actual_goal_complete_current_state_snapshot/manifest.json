@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "SOURCE_OF_TRUTH.md",
+      "bytes": 30422,
+      "sha256": "ebd6e04fa8af36e61905d4d9faea19ee071dafc61f8e6106d182e72dcdc1366a"
+    },
+    {
+      "path": "current_acceptance_registry.json",
+      "bytes": 181810,
+      "sha256": "5d2a69f7e703b6da4a9bad4a3794db07aaadf2ca198bb97bf5281d3b78ad766a"
+    },
+    {
+      "path": "current_continuation_state.json",
+      "bytes": 173349,
+      "sha256": "8ca1f0bbab72c3a40c5ea2e8d3c9d8af23e37ba6e03253ae2592412c6dd816b0"
+    },
+    {
+      "path": "rev72_root_checkpoint.json",
+      "bytes": 140677,
+      "sha256": "8c561ab8c74138b112b5d396f6dd02b0a3bc6ca7deb3d8176e57650079037be5"
+    },
+    {
+      "path": "来源索引_current.json",
+      "bytes": 70511,
+      "sha256": "45c9b62e5d07fce9176cc3d0c3e90c5a1f1e7aececce63aa3b0adfc07a547ad2"
+    },
+    {
+      "path": "生成核_变色规则进度账本_current.json",
+      "bytes": 166832,
+      "sha256": "2b654b38b758400c712d7ae357151eb6b0114021072baf63977935aa7dfe7018"
+    }
+  ]
+}

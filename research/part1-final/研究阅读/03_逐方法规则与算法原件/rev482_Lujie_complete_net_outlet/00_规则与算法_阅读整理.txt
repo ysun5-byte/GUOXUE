@@ -1,0 +1,1257 @@
+春木禄劫相对食伤出口与承载安全
+rev482_Lujie_complete_net_outlet
+所属原模块：C02
+当前采用：rev495_Lujie_relative_outlet_adoption.json
+范围：adopted_exact48271_after49466_finite_relative_outlet_not_traditional_final_yong
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev482_Lujie_complete_net_outlet/algorithm_explanations41.json
+SHA256：0e0936e772ee52a83606e19f55fdeb5d44243524c9818415803dcb5465647643
+
+1. outlet_net.py:canonical
+算法标识：outlet_net.py:canonical
+module：outlet_net.py
+kind：function_definition
+contract：{
+  "purpose": "Serialize a packed whole result deterministically.",
+  "inputs": "JSON-compatible result.",
+  "operations": "Compact Unicode JSON, sortedkeys, allow_nan=False; noencoding or valueprojection.",
+  "outputs": "str.",
+  "preconditions_and_limits": "Fractions/tuplekeys packed beforecall; main alone UTF8prints it."
+}
+source_identity：{
+  "relative_path": "outlet_net.py",
+  "qualified_name": "canonical",
+  "line": 9,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "module_sha256": "f407b178243315c76ac6d13504b2551ba6003b570e39ad3a1477e80577302419"
+}
+exact_reuse：{
+  "original402_id": "outlet.py:canonical",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "outlet_net.py:canonical",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+2. outlet_net.py:pairs
+算法标识：outlet_net.py:pairs
+module：outlet_net.py
+kind：function_definition
+contract：{
+  "purpose": "Reject all duplicate JSON keys safely.",
+  "inputs": "Object-pairs sequence fromjson.loads.",
+  "operations": "Builddict, reject secondoccurrence with fixedASCIIreason, neverreflect untrustedkey.",
+  "outputs": "dict orValueError.",
+  "preconditions_and_limits": "Not schema/source validation; handles surrogate keys without printing them."
+}
+source_identity：{
+  "relative_path": "outlet_net.py",
+  "qualified_name": "pairs",
+  "line": 12,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "c6b6da4b973cbf17fe5f11c9d9266023a6087a7f6c67fcd0ce62d8e1cbc1b841",
+  "module_sha256": "f407b178243315c76ac6d13504b2551ba6003b570e39ad3a1477e80577302419"
+}
+exact_reuse：{
+  "original402_id": "outlet.py:pairs",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "outlet_net.py:pairs",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+3. outlet_net.py:nonfinite
+算法标识：outlet_net.py:nonfinite
+module：outlet_net.py
+kind：function_definition
+contract：{
+  "purpose": "Reject JSON nonfinite tokens.",
+  "inputs": "parse_constant token.",
+  "operations": "Always raise fixedValueError.",
+  "outputs": "Exception only.",
+  "preconditions_and_limits": "Actual exceptionalcall retained; no fabricatednormalNone."
+}
+source_identity：{
+  "relative_path": "outlet_net.py",
+  "qualified_name": "nonfinite",
+  "line": 19,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "738d1722bbd20a94f468b3c896a63fd6037749d3d838cefb6548c41090a8f99b",
+  "module_sha256": "f407b178243315c76ac6d13504b2551ba6003b570e39ad3a1477e80577302419"
+}
+exact_reuse：{
+  "original402_id": "outlet.py:nonfinite",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "outlet_net.py:nonfinite",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+4. outlet_net.py:bounded
+算法标识：outlet_net.py:bounded
+module：outlet_net.py
+kind：function_definition
+contract：{
+  "purpose": "Bound raw API/decoded JSON safely.",
+  "inputs": "Any candidatevalue.",
+  "operations": "Iterativestack depth20,nodes1000,dict20/list50/string1000; scalarUnicode, onlyNone/bool/int other scalars.",
+  "outputs": "None orValueError.",
+  "preconditions_and_limits": "Doesnot selectsource orallow numericconfig."
+}
+source_identity：{
+  "relative_path": "outlet_net.py",
+  "qualified_name": "bounded",
+  "line": 22,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6061fbb8bf2673aaa3d2e58f6e4eaf366fc753c0f8144dea0466b44d197f8112",
+  "module_sha256": "f407b178243315c76ac6d13504b2551ba6003b570e39ad3a1477e80577302419"
+}
+exact_reuse：{
+  "original402_id": "outlet.py:bounded",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "outlet_net.py:bounded",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+5. outlet_net.py:strict_load
+算法标识：outlet_net.py:strict_load
+module：outlet_net.py
+kind：function_definition
+contract：{
+  "purpose": "Parse bounded strict JSON.",
+  "inputs": "str<=5000chars.",
+  "operations": "json.loads duplicate/nonfinite hooks thenbounded.",
+  "outputs": "PythonJSON value orparse/bound exception.",
+  "preconditions_and_limits": "DeepRecursionError propagates tomain catch; API usesbounded directly."
+}
+source_identity：{
+  "relative_path": "outlet_net.py",
+  "qualified_name": "strict_load",
+  "line": 37,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "92cf8911c84ff7072bb656e29244d67ffec8b9d0024e23ef529ac52f9432a71d",
+  "module_sha256": "f407b178243315c76ac6d13504b2551ba6003b570e39ad3a1477e80577302419"
+}
+exact_reuse：{
+  "original402_id": "outlet.py:strict_load",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "outlet_net.py:strict_load",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+6. outlet_net.py:guard
+算法标识：outlet_net.py:guard
+module：outlet_net.py
+kind：function_definition
+contract：{
+  "purpose": "Bind fixed newquestion and exact unchanged numerical sources before providers",
+  "inputs": "fixed16source/runtime files, exact source_lock and contained paths",
+  "operations": "lockSHA, exactsource/runtime file set, regular-contained checks then every length/SHA; return capturedbytes",
+  "outputs": "dict[str,bytes] or ValueError",
+  "preconditions_and_limits": "Entry itself and explanations are final-manifest-bound, not self-authenticated. Independent prior is release evidence, not executed as source truth."
+}
+source_identity：{
+  "relative_path": "outlet_net.py",
+  "qualified_name": "guard",
+  "line": 41,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8843a22a36914c180dd8707a4d17a55ea4cb9c561c37ab434bb1368e7e12e15a",
+  "module_sha256": "f407b178243315c76ac6d13504b2551ba6003b570e39ad3a1477e80577302419"
+}
+exact_reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "outlet_net.py:guard",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+7. outlet_net.py:load
+算法标识：outlet_net.py:load
+module：outlet_net.py
+kind：function_definition
+contract：{
+  "purpose": "Execute captured verified provider bytes.",
+  "inputs": "Moduleidentity,relativepath,capturedmaterial.",
+  "operations": "ModuleType,set__file__,compile+exec capturedbytes.",
+  "outputs": "module.",
+  "preconditions_and_limits": "Onlycaller guard grantsintendedbytes; loadalone is not securityapproval. Actualtrace serializes module name/file."
+}
+source_identity：{
+  "relative_path": "outlet_net.py",
+  "qualified_name": "load",
+  "line": 55,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d77ce2ded76c5e61962664dbec514c473a2ddb7654c0ba8943e9a8ea63cde002",
+  "module_sha256": "f407b178243315c76ac6d13504b2551ba6003b570e39ad3a1477e80577302419"
+}
+exact_reuse：{
+  "original402_id": "outlet.py:load",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "outlet_net.py:load",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+8. outlet_net.py:evaluate
+算法标识：outlet_net.py:evaluate
+module：outlet_net.py
+kind：function_definition
+contract：{
+  "purpose": "Current fixed relative-outlet research entry",
+  "inputs": "bounded JSON object request",
+  "operations": "guard, load exact facts/flow/source_scope and new net module, read guarded goalspec, evaluate and oldpack",
+  "outputs": "complete JSON-compatible result or exception",
+  "preconditions_and_limits": "4modules are not4ancient rules. Does not invoke old fullH/AUX/32corners or old external paths."
+}
+source_identity：{
+  "relative_path": "outlet_net.py",
+  "qualified_name": "evaluate",
+  "line": 58,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3c2f5af58aae6905a952c4b3cef697a630ed2dd9d2147c86539ff309b8cf66fe",
+  "module_sha256": "f407b178243315c76ac6d13504b2551ba6003b570e39ad3a1477e80577302419"
+}
+exact_reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "outlet_net.py:evaluate",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+9. outlet_net.py:main
+算法标识：outlet_net.py:main
+module：outlet_net.py
+kind：function_definition
+contract：{
+  "purpose": "Atomic raw CLI.",
+  "inputs": "stdin.buffer<=20001bytes.",
+  "operations": "Reject>20000; strictUTF8decode/JSON; evaluate; canonicalprint. Knownvalue/type/key/IO/recursion/arithmetic/Unicode/overflow failures printconstantASCII rejection.",
+  "outputs": "Return0/fullresult or2/onerejectedJSON.",
+  "preconditions_and_limits": "No arbitraryBaseException orbrokenpipe promise. Deep/surrogate/missinglock checked separately; nocallerreason reflection."
+}
+source_identity：{
+  "relative_path": "outlet_net.py",
+  "qualified_name": "main",
+  "line": 62,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fba7dfa6b947e46e9df1bfea3b1f4a3edc2fe06054058fc85f19c91703a00687",
+  "module_sha256": "f407b178243315c76ac6d13504b2551ba6003b570e39ad3a1477e80577302419"
+}
+exact_reuse：{
+  "original402_id": "outlet.py:main",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "outlet_net.py:main",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+10. runtime/core402.py:source_scope
+算法标识：runtime/core402.py:source_scope
+module：runtime/core402.py
+kind：function_definition
+contract：{
+  "purpose": "Choose declared Primary springwood task beforemath.",
+  "inputs": "Legalraw andcompleteparsedfacts.",
+  "operations": "Exactstructuralfive-memberpredicate; tagdirectZhang/user/derived; preserveformalrelations andspecificoriginaltasks/gaps.",
+  "outputs": "checks/within/sourceidentity/casekind/missing/formalrelations/futuretasks.",
+  "preconditions_and_limits": "Not universalLu/Jieclassifier; no sourcepositivefitting or ordinaryfailurefallback. HiddenWu/Gui retained; Zimaoexcludedonlythislimitedfamily, not a new universalbadgate."
+}
+source_identity：{
+  "relative_path": "runtime/core402.py",
+  "qualified_name": "source_scope",
+  "line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='parsed')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d8b5c7b78c5a4028a511dc77acb907f4da0d2f15818be9f764b0c990a7e014bd",
+  "module_sha256": "7ecd0cf620073f0a0b594660bdda1e586a850d795aab7840bbfc4e4bf4723cde"
+}
+exact_reuse：{
+  "original402_id": "runtime/core402.py:source_scope",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/core402.py:source_scope",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+11. runtime/core402.py:native_auxiliary
+算法标识：runtime/core402.py:native_auxiliary
+module：runtime/core402.py
+kind：function_definition
+contract：{
+  "purpose": "Connect completeH/CNF to original finiteAUX.",
+  "inputs": "Base,completeanalysis,unchangedAUX,flow.",
+  "operations": "Partition18clause/100taskbounds; buildtrustedinternalgraph withactualhardwholegoal; callAUX; minimalANDunions acrosschunks; assertallH equality.",
+  "outputs": "chunks withfull_native_graph andunmodified_native_result; allmathematicalH andsemantics.",
+  "preconditions_and_limits": "Selector cannot authenticate source. Nativeoriginallimits16actors/20goals/100tasks/256minima unchanged; noelementtruncation/preferences."
+}
+source_identity：{
+  "relative_path": "runtime/core402.py",
+  "qualified_name": "native_auxiliary",
+  "line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='analysis'), arg(arg='aux'), arg(arg='flow')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "da2df8a34bfb06ae27ae52cd7222042c07e7494d31da84aa1350cc580208b42a",
+  "module_sha256": "7ecd0cf620073f0a0b594660bdda1e586a850d795aab7840bbfc4e4bf4723cde"
+}
+exact_reuse：{
+  "original402_id": "runtime/core402.py:native_auxiliary",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：null
+unused_scope：Not invoked by new482. Original402 full-H/sourcecompletion/AUX-dependent methods remain in their original exact contract, not installed as a new public482 route. flow.robust and its exact local lambda/analyze are retained but not run. No fabricated callback/old actualIO.
+
+12. runtime/core402.py:parameter_vertices
+算法标识：runtime/core402.py:parameter_vertices
+module：runtime/core402.py
+kind：function_definition
+contract：{
+  "purpose": "Compute every declared5-axis corner on sameoperators.",
+  "inputs": "Raw,providers,fixedprofile.",
+  "operations": "32endpointtuples; fixedload/margin/eta; analyzeFalse retainscompletehelper/firetensor; keepallcurrent/origin/budgets/graphs andfailures.",
+  "outputs": "32cfg+complete_factorized_analysis records.",
+  "preconditions_and_limits": "Not continuoussuccessproof or requirementsourceagreeforallparameters. Two predeclaredZhangcarryfailures retained, nottuned away."
+}
+source_identity：{
+  "relative_path": "runtime/core402.py",
+  "qualified_name": "parameter_vertices",
+  "line": 29,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='flow'), arg(arg='profile')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b18e64677b5feb40be81e116c18f0160482107c584574a8ded82eea8c20f1a5b",
+  "module_sha256": "7ecd0cf620073f0a0b594660bdda1e586a850d795aab7840bbfc4e4bf4723cde"
+}
+exact_reuse：{
+  "original402_id": "runtime/core402.py:parameter_vertices",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：null
+unused_scope：Not invoked by new482. Original402 full-H/sourcecompletion/AUX-dependent methods remain in their original exact contract, not installed as a new public482 route. flow.robust and its exact local lambda/analyze are retained but not run. No fabricated callback/old actualIO.
+
+13. runtime/core402.py:source_task_completion
+算法标识：runtime/core402.py:source_task_completion
+module：runtime/core402.py
+kind：function_definition
+contract：{
+  "purpose": "Bridge manuallyreadfullsourceproblem toactualwholeevidence.",
+  "inputs": "Scope,base,completeanalysis.",
+  "operations": "Fourpredeclaredtasks: rootedLu notdirectwooduse, survivingWfire, allrawprintwealth/costbalance, wholecarry+allalternatives.",
+  "outputs": "Taskrows/allcomplete/manualcompleteness/futurequote/doubleloss boundary flags.",
+  "preconditions_and_limits": "Completeness semanticallyfixedbeforeproducer, notautomaticunionofbooleans; futurewealth/finaltraditionalpriority notdeclaredfinished."
+}
+source_identity：{
+  "relative_path": "runtime/core402.py",
+  "qualified_name": "source_task_completion",
+  "line": 35,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='scope'), arg(arg='base'), arg(arg='analysis')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "221145b71deae988c3955ca33ef8940f5489199f7085435e276bff62efa18e66",
+  "module_sha256": "7ecd0cf620073f0a0b594660bdda1e586a850d795aab7840bbfc4e4bf4723cde"
+}
+exact_reuse：{
+  "original402_id": "runtime/core402.py:source_task_completion",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：null
+unused_scope：Not invoked by new482. Original402 full-H/sourcecompletion/AUX-dependent methods remain in their original exact contract, not installed as a new public482 route. flow.robust and its exact local lambda/analyze are retained but not run. No fabricated callback/old actualIO.
+
+14. runtime/core402.py:natal_conclusion
+算法标识：runtime/core402.py:natal_conclusion
+module：runtime/core402.py
+kind：function_definition
+contract：{
+  "purpose": "State limitedmethodresult andallH aftersource/fullgoals.",
+  "inputs": "Scope,analysis,completion.",
+  "operations": "Requireallonmet andsourcecomplete. MapactualHactoridentitiestoelements withoutpriority/ratios; preserve sourcepositive judgment evenproxyfails.",
+  "outputs": "status/source_use/allH/elements/ANDOR/boundaries/priorityNone.",
+  "preconditions_and_limits": "Not Frole->B shortcut. H is conservativejointavailability sufficientexplanation, notuniquetraditionalcause. EmptyH notnousergod; futureearthnotuniversallyfavorable."
+}
+source_identity：{
+  "relative_path": "runtime/core402.py",
+  "qualified_name": "natal_conclusion",
+  "line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='scope'), arg(arg='analysis'), arg(arg='completion')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e53e00539a8a0fbf1972b189b354ae3ed0804ddaedc4fde32eee52c4b22631f0",
+  "module_sha256": "7ecd0cf620073f0a0b594660bdda1e586a850d795aab7840bbfc4e4bf4723cde"
+}
+exact_reuse：{
+  "original402_id": "runtime/core402.py:natal_conclusion",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：null
+unused_scope：Not invoked by new482. Original402 full-H/sourcecompletion/AUX-dependent methods remain in their original exact contract, not installed as a new public482 route. flow.robust and its exact local lambda/analyze are retained but not run. No fabricated callback/old actualIO.
+
+15. runtime/core402.py:evaluate
+算法标识：runtime/core402.py:evaluate
+module：runtime/core402.py
+kind：function_definition
+contract：{
+  "purpose": "Execute completefinitebranch fromoriginalraw.",
+  "inputs": "Exactschema/method/raw+fixedprofile/providers.",
+  "operations": "Factslegality first, sourcepredicatebeforeanalyze; legaloutside0worlds; nominalfulltable/sourcebridge/nativeAUX/32factorizedsensitivities/conclusion.",
+  "outputs": "Wholenative candidate orspecificlegal-sourcegap.",
+  "preconditions_and_limits": "No strength/context/passedsourceoverride, noUTC/luck/B/theme/display. Original72failure is history, not changedoldfreeze."
+}
+source_identity：{
+  "relative_path": "runtime/core402.py",
+  "qualified_name": "evaluate",
+  "line": 43,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='profile'), arg(arg='facts'), arg(arg='aux'), arg(arg='flow')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "379cbb1f2a688f48e8db8fc7bac71b033d15f838ba7ae3a7ec82a4112682a938",
+  "module_sha256": "7ecd0cf620073f0a0b594660bdda1e586a850d795aab7840bbfc4e4bf4723cde"
+}
+exact_reuse：{
+  "original402_id": "runtime/core402.py:evaluate",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：null
+unused_scope：Not invoked by new482. Original402 full-H/sourcecompletion/AUX-dependent methods remain in their original exact contract, not installed as a new public482 route. flow.robust and its exact local lambda/analyze are retained but not run. No fabricated callback/old actualIO.
+
+16. runtime/flow402.py:pack
+算法标识：runtime/flow402.py:pack
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Encode internal exact mathematics.",
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "pack",
+  "line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:pack",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:pack",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+17. runtime/flow402.py:gauss
+算法标识：runtime/flow402.py:gauss
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "gauss",
+  "line": 15,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:gauss",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:gauss",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+18. runtime/flow402.py:actors_from_raw
+算法标识：runtime/flow402.py:actors_from_raw
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Keep all visible and hidden real carriers.",
+  "inputs": "Legal raw pillars, original facts module, optional internal literal comparison pillar.",
+  "operations": "Preserve four positions, lookup all hidden stems and strict tengod roles; optional external column gets its own identity/position.",
+  "outputs": "actors and pillar tuples.",
+  "preconditions_and_limits": "Caller has raw legality. Internal literal context is not realUTC or publicly accepted input; no absentgold actor created. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "actors_from_raw",
+  "line": 29,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='context')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "2761c46300aaf228478b1a371ff1c631e7fc22009e8f6299ce0868e8a279bf89",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:actors_from_raw",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:actors_from_raw",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+19. runtime/flow402.py:inventory
+算法标识：runtime/flow402.py:inventory
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Build typed phasefree direct pools and declared actor shares.",
+  "inputs": "Actors/raw/facts and fixed mu,m cfg; optional literal context.",
+  "operations": "Main hidden element1, other actualhidden mu, month m; one non-day visible float. Per-element typedorigin max once; actors weighted by their direct totals; preserve every actor-root row.",
+  "outputs": "actors,present,direct,weights,rootrows,cfg.",
+  "preconditions_and_limits": "mu/m are engineering qualifications, not hidden percentages or earth12palaces. Common pool demonstrably not actor-local; per-element qualifications not cross-element mass conservation. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "inventory",
+  "line": 43,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='cfg'), arg(arg='context')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "0ef7beac7e0acc7fa3e0d296c660541ab9fa4d0eb3c3db8f5eeaf025aef67893",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:inventory",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:inventory",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+20. runtime/flow402.py:solve
+算法标识：runtime/flow402.py:solve
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Find exact unique max-affine fixed point.",
+  "inputs": "Base and selected extras.",
+  "operations": "Enumerate all active faces over present elements, rational solve candidate, substitute full max equations and nonnegative vector. Global contraction supplies uniqueness.",
+  "outputs": "Current,coefficients,activeface,exact certificate.",
+  "preconditions_and_limits": "No float gate/hint or oracle-selected phase; original4elements<=16faces, real5elements<=32faces. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "solve",
+  "line": 65,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='selected')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3f5e3a272d0d037d2d692a713a79b8317f9e06a1bb993ca6ca8aee3c6182789d",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:solve",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:solve",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+21. runtime/flow402.py:origins
+算法标识：runtime/flow402.py:origins
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Reconstruct every typed source in the same solved vector.",
+  "inputs": "Base and exact current world.",
+  "operations": "Gross direct+licensed generation; retention=current/gross; solve multi-RHS linear inherited flow; check nonnegative and exact sums/substitution.",
+  "outputs": "Typed pools,gross,retention,b contraction bound.",
+  "preconditions_and_limits": "Each original element-qualification origin injected once; allzero/noorigin case valid. Does not equate same branch labels across elements. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "origins",
+  "line": 79,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "68b315515713bb428dd7871847a3de739c68fdb4906a425cb5967529d60afa48",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:origins",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:origins",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+22. runtime/flow402.py:robust
+算法标识：runtime/flow402.py:robust
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Compute all minimal stable additional-support sets.",
+  "inputs": "Complete powerset rows and ordered IDs.",
+  "operations": "Boolean superset closure; every immediate-removal test gives minima, maximal stablefalse complements give CNF.",
+  "outputs": "AllH,CNF,true/robustcounts.",
+  "preconditions_and_limits": "Complete powerset is caller precondition. [[]] means no extra auxiliary under fixed core, never no用神. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "robust",
+  "line": 95,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows'), arg(arg='ids')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b2a342ee6e918307ea9bead7387af4313b9e657a39683de9582bbc816fa7d85e",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:robust",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：null
+unused_scope：Not invoked by new482. Original402 full-H/sourcecompletion/AUX-dependent methods remain in their original exact contract, not installed as a new public482 route. flow.robust and its exact local lambda/analyze are retained but not run. No fabricated callback/old actualIO.
+
+23. runtime/flow402.py:packages
+算法标识：runtime/flow402.py:packages
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Enumerate all real signed function and exhibition atoms.",
+  "inputs": "Fullactualbase.",
+  "operations": "Fireexhibition; noncorewoodcontrolsactualsoil; waterjointbirth/control; soilcontrol onlyifactualwater exists; sortexactIDs andpartitionhelpers/fire.",
+  "outputs": "ids,kinds,helpers,fire dict.",
+  "preconditions_and_limits": "Not permanentlygoodroles. Corebodyfixed; noabsenttargets/actors; no additionaldayfloatingstock."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "packages",
+  "line": 109,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ebc9302b438faa5d77d5b4963754b8e7639b711c17d1a36d1f5f72930e482112",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:packages",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:packages",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+24. runtime/flow402.py:coefficients
+算法标识：runtime/flow402.py:coefficients
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Build one complete fresh-from-direct permission-world map.",
+  "inputs": "Base andselected exactpackageIDs.",
+  "operations": "Potentialoutgoingcosts stayfixed fromactualendpoints. Waterbirth/control useonebeta/current; wood/soilcontrolbeta; basicW/Fgeneration fixed. Formtarget-normalizedK andrequireL<1.",
+  "outputs": "b,c,h,diagonals,rates,K,bound,present,helper_betas.",
+  "preconditions_and_limits": "Jointavailability semantics explicitlydifferent379positive-only. No physicalall-onresidual reinjury; everyworld solvedfromdirect once; noFexhibition deletion."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "coefficients",
+  "line": 120,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='selected')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ddef5fed6602ccf07712703d4a70b1f33ecd0bb7932d31289547a304ddeeed8b",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:coefficients",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:coefficients",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+25. runtime/flow402.py:goals
+算法标识：runtime/flow402.py:goals
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Evaluate full carry/channel and true exhibition credit.",
+  "inputs": "Base,sharedworld,origins,selectedpackages.",
+  "operations": "W>0/root>0/F>0; L=retFire*bW>0; strictW>margin*load*F; selectedfireweightedL>=etaL>0.",
+  "outputs": "Checks/met/helpermet,root/current/strictload/channel/credit/threshold fields.",
+  "preconditions_and_limits": "Carrycomparison not anotherphysicaldebit. Coverageequalitypasses, carryequalityfails; no classicalstrength or lucklabel."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "goals",
+  "line": 136,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='origin'), arg(arg='selected')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "70bff5c5fe473da8bd54c55df80296232743e56122d66ea3af71b5c64e7ed534",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:goals",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:goals",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+26. runtime/flow402.py:geometry
+算法标识：runtime/flow402.py:geometry
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Retain each real endpoint and source cost layout once.",
+  "inputs": "Completeactors/actualelements.",
+  "operations": "Enumerateallgeneration/control actorpairs andcostkind; retainpositions/distance/roles, sharedgain1,sourcepermissionkey.",
+  "outputs": "all_actual_endpoint_edges,all_potential_cost_layouts,nonlocal-equivalence flag.",
+  "preconditions_and_limits": "Sharedpool spatialgain1 is declaredengineering, not provedreduction oflocalinjury. Norealendpoint omitted orabsentgoldcreated."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "geometry",
+  "line": 141,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d3503b5fc6993dce664450c1426e83c775330f9b7c16ac2e1380b37b465ca8a8",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:geometry",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:geometry",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+27. runtime/flow402.py:state_budget
+算法标识：runtime/flow402.py:state_budget
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Balance every element and every origin forone solvedworld.",
+  "inputs": "Base,world,origin.",
+  "operations": "Computeactualrequestedcapacity,clippedloss,unusedcapacity,potentialcost; apportiontargetgrossoriginlosses; exactcurrent+cost+loss checks.",
+  "outputs": "Element->direct/gross/current/cost/capacity/loss/unused/originbalances.",
+  "preconditions_and_limits": "Capacity notactualloss. Costs do not vanishwithpermission; all-onloss countedonce."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "state_budget",
+  "line": 155,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='origin')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a98fe50fbae83330c5231fe5d94e50c70ef4be14b83653289987f96551e567f6",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:state_budget",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:state_budget",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+28. runtime/flow402.py:expand_ledger
+算法标识：runtime/flow402.py:expand_ledger
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Expand lossless per-state/per-mask data into every real action.",
+  "inputs": "Base,world,origins,selected andoptionalgeo.",
+  "operations": "Actorports=share*elementorigins; realedge rate*receiver_share*sourceport*sourcepermission; costsunmasked; controlattribution bycapacity; checktotals andincludeexhibitiongoal.",
+  "outputs": "actorports,allrealedges,allcosts,budgets,exhibition andsemanticsflags.",
+  "preconditions_and_limits": "Same-current bothwaterfaces; no physicalsecondcontrol. Compactoutputstoresallelementvalues/weights/edges/masks needed to reconstructthis exactly, not hashonly."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "expand_ledger",
+  "line": 164,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='origin'), arg(arg='selected'), arg(arg='geo')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "7bef9f3eaa13d5600f41cff894c222665a75b6380714885ac4dc92ef78f7ab39",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:expand_ledger",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/flow402.py:expand_ledger",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+29. runtime/flow402.py:analyze
+算法标识：runtime/flow402.py:analyze
+module：runtime/flow402.py
+kind：function_definition
+contract：{
+  "purpose": "Compute complete signed availability truth and all robustH.",
+  "inputs": "Base,full_table flag.",
+  "operations": "Enumerateallhelpermasks; cacheonlyequalphysicalrates/states; retainactor-specificmask; enumerateallfirecoverage; supersetrobust both; tensorH/CNF. NominalallProws directlyre-evaluate andcheckfullclosure. Preserveallonexpandedledger.",
+  "outputs": "actors/qualifications/direct/shares/spec/geometry/states/helpertable/firetable/allnominalrows/actualallon/logic/factorization.",
+  "preconditions_and_limits": "full_table=False retainsfulltwofactortruth+allH, not droppedcombinations. Factorization provenbeforeproducer. No monotonichelperassumption or elementidentitymerge."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "analyze",
+  "line": 178,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='full_table')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=True)])",
+  "AST_sha256": "f4d16564e44f7a5519215f08111570fc70c2c5616a62c8c2109ddf44ca325e30",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:analyze",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：null
+unused_scope：Not invoked by new482. Original402 full-H/sourcecompletion/AUX-dependent methods remain in their original exact contract, not installed as a new public482 route. flow.robust and its exact local lambda/analyze are retained but not run. No fabricated callback/old actualIO.
+
+30. runtime/flow402.py:robust.<locals>.<lambda>
+算法标识：runtime/flow402.py:robust.<locals>.<lambda>
+module：runtime/flow402.py
+kind：retained_old_local_lambda
+contract：{
+  "purpose": "Convert a package bitmask to all exact actor names.",
+  "inputs": "Integer mask over ordered IDs captured from robust.",
+  "operations": "Emit each ID whose bit is present.",
+  "outputs": "ID list.",
+  "preconditions_and_limits": "Local pure finite mapping, not source selection; actual mask0 returns empty member of mathematicalH. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "robust.<locals>.<lambda>",
+  "line": 104,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='m')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "c51d24376362a4b6cca991e431866aaff7ae77c44a7518eae4e4d8ee386ac15a",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d"
+}
+exact_reuse：{
+  "original402_id": "runtime/flow402.py:robust.<locals>.<lambda>",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：null
+unused_scope：Not invoked by new482. Original402 full-H/sourcecompletion/AUX-dependent methods remain in their original exact contract, not installed as a new public482 route. flow.robust and its exact local lambda/analyze are retained but not run. No fabricated callback/old actualIO.
+
+31. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+module：runtime/foundation_facts.py
+kind：function_definition
+contract：{
+  "purpose": "十干查五行",
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。"
+}
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+exact_reuse：{
+  "original402_id": "runtime/foundation_facts.py:stem_element",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+32. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+module：runtime/foundation_facts.py
+kind：function_definition
+contract：{
+  "purpose": "严格十神角色",
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+}
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+exact_reuse：{
+  "original402_id": "runtime/foundation_facts.py:ten_god",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+33. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+module：runtime/foundation_facts.py
+kind：function_definition
+contract：{
+  "purpose": "原柱基础合法性",
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+}
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "line": 60,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+exact_reuse：{
+  "original402_id": "runtime/foundation_facts.py:validate",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+34. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+module：runtime/foundation_facts.py
+kind：function_definition
+contract：{
+  "purpose": "保留有位置的形式合冲",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。"
+}
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "line": 104,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+exact_reuse：{
+  "original402_id": "runtime/foundation_facts.py:formal_relations",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+35. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+module：runtime/foundation_facts.py
+kind：function_definition
+contract：{
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+}
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "line": 121,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+exact_reuse：{
+  "original402_id": "runtime/foundation_facts.py:root_evidence",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+36. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+module：runtime/foundation_facts.py
+kind：function_definition
+contract：{
+  "purpose": "原61完整四柱事实入口",
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+}
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "line": 148,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+exact_reuse：{
+  "original402_id": "runtime/foundation_facts.py:parse",
+  "exact_AST_and_contract": true,
+  "old_contract_reference": "reference/algorithm_explanations_51_functions.json",
+  "not_old_IO_claimed_as_new": true
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+37. runtime/net_outlet.py:metrics
+算法标识：runtime/net_outlet.py:metrics
+module：runtime/net_outlet.py
+kind：function_definition
+contract：{
+  "purpose": "Measure actual channel, relative outlet, full carry and water injury",
+  "inputs": "originalbase, solvedcurrent, origin system, complete expandedledger",
+  "operations": "L=retF*bW; nativewoodroot ports only; M=W-carry*load*F; sum all realwater→fire losses and assert total; safety checks",
+  "outputs": "metrics dict with exactFractions/null R and booleans",
+  "preconditions_and_limits": "R is effective stockratio, not measuredqi or actual extraL. StrictM>0, no Mnondecrease. All costs already inside solvedcurrent, M is comparison notseconddebit."
+}
+source_identity：{
+  "relative_path": "runtime/net_outlet.py",
+  "qualified_name": "metrics",
+  "line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='original_base'), arg(arg='solved'), arg(arg='origins'), arg(arg='ledger')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "09b69be0c40d598f743f460781b1eb002dfc9392fe57a7a22799a54025c66729",
+  "module_sha256": "6166cb68ce2e2a79e04e58b540931acd3e3d632232604882a1c6a08388f8e90f"
+}
+exact_reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/net_outlet.py:metrics",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+38. runtime/net_outlet.py:world
+算法标识：runtime/net_outlet.py:world
+module：runtime/net_outlet.py
+kind：function_definition
+contract：{
+  "purpose": "One fresh complete actual-all-on mathematical intervention",
+  "inputs": "base, exactoldflow, selectedexisting elements, total, originprefix; root_scale privateonly",
+  "operations": "copydirect, optional private originalroot scale, add total/k mathematicalorigin; allactualpackages on, oldsolve/origins/expandedledger, metrics",
+  "outputs": "full direct/solver/origins/ledger/metrics dict",
+  "preconditions_and_limits": "Public calls use only fixednonnegative totals/existinggroups; private root_scale test is abstract, no rawchart/root fact rewrite. Original actor weights unchanged and all adverse packages active."
+}
+source_identity：{
+  "relative_path": "runtime/net_outlet.py",
+  "qualified_name": "world",
+  "line": 19,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='flow'), arg(arg='selected'), arg(arg='total'), arg(arg='prefix'), arg(arg='root_scale')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load()), Call(func=Name(id='F', ctx=Load()), args=[], keywords=[]), Constant(value='increment'), Constant(value=None)])",
+  "AST_sha256": "e323d0bbd79cc7f5e97374aae22e4ce7adc972449be3421d0b3acbd024cdc7e1",
+  "module_sha256": "6166cb68ce2e2a79e04e58b540931acd3e3d632232604882a1c6a08388f8e90f"
+}
+exact_reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/net_outlet.py:world",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+39. runtime/net_outlet.py:compare
+算法标识：runtime/net_outlet.py:compare
+module：runtime/net_outlet.py
+kind：function_definition
+contract：{
+  "purpose": "Execute predeclared new goal conjunction",
+  "inputs": "complete baseline and after worlds",
+  "operations": "require both source_safe, Rstrictup, Lnotdown>0, Anotup; retain failedouterchecks and full margin/channel/injury deltas",
+  "outputs": "checks/accepted/failures/Mdrop-safe/Lkind and exact deltas",
+  "preconditions_and_limits": "Failed new_source_safe expands in after.metrics.safety_checks with precise constraint names. No Hunion/supersetclosure, no oldmarginPareto. Aguard is conservative engineering, not classical necessity."
+}
+source_identity：{
+  "relative_path": "runtime/net_outlet.py",
+  "qualified_name": "compare",
+  "line": 33,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='before'), arg(arg='after')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f64f152a39287f54f771bbafb25f25e50f9575ff62d52c47c04808a9189b6e04",
+  "module_sha256": "6166cb68ce2e2a79e04e58b540931acd3e3d632232604882a1c6a08388f8e90f"
+}
+exact_reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/net_outlet.py:compare",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+40. runtime/net_outlet.py:pressures
+算法标识：runtime/net_outlet.py:pressures
+module：runtime/net_outlet.py
+kind：function_definition
+contract：{
+  "purpose": "Return fixed zero/excess-fire/available-print changes",
+  "inputs": "base,flow,baseline,guardedgoal spec",
+  "operations": "zero+fire8 always, water100 only when originalwater actor present; fullworld and compare each",
+  "outputs": "all pressure rows with exact complete worlds",
+  "preconditions_and_limits": "No new water actor/root for absentwater charts; mathematical pressure only, not actualluck. Preserve failed source_safe and which safetycheck failed."
+}
+source_identity：{
+  "relative_path": "runtime/net_outlet.py",
+  "qualified_name": "pressures",
+  "line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='flow'), arg(arg='before'), arg(arg='spec')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "34c3d354368d78049bd6ccffba497485b72e99a10a29d011048d05aca7024fa0",
+  "module_sha256": "6166cb68ce2e2a79e04e58b540931acd3e3d632232604882a1c6a08388f8e90f"
+}
+exact_reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/net_outlet.py:pressures",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+
+41. runtime/net_outlet.py:evaluate
+算法标识：runtime/net_outlet.py:evaluate
+module：runtime/net_outlet.py
+kind：function_definition
+contract：{
+  "purpose": "Preserve exact five-chart source family and all discrete options",
+  "inputs": "exactschema/method/rawrequest, fixedspec and oldfacts/source/flow modules",
+  "operations": "validate exactrequest, rawfacts, oldsource_scope; legaloutside preservefacts/no math; nominalinventory/base, everyexisting nonempty subset×3total, pressures and fullsummary",
+  "outputs": "full finite research result or explicit legaloutside, errors atomicatentry",
+  "preconditions_and_limits": "All177 options retained across5charts. AcceptedMdrop and Lsame/up explicitly reported. Not fulltraditional final喜用/priority, B, J2, theme or display. Futurewealth words never directly imply natalearth."
+}
+source_identity：{
+  "relative_path": "runtime/net_outlet.py",
+  "qualified_name": "evaluate",
+  "line": 54,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='spec'), arg(arg='facts'), arg(arg='source'), arg(arg='flow')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "905d177dd0805cd02b29cec217973145a5b0d9405ebb4f4bf1bf9d05b26a4bd0",
+  "module_sha256": "6166cb68ce2e2a79e04e58b540931acd3e3d632232604882a1c6a08388f8e90f"
+}
+exact_reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/net_outlet.py:evaluate",
+  "first_values_complete_except_exact_guarded_bytes_by_saved_file_ref": true
+}
+unused_scope：null
+

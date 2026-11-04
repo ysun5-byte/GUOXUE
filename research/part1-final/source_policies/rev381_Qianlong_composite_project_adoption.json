@@ -1,0 +1,214 @@
+{
+  "schema": "exact-runtime-plus-authoritative-corrected-explanations-adoption-0.1",
+  "revision": 381,
+  "registered_utc": "2026-11-02T20:45:21.794817+00:00",
+  "status": "adopted_exact325_runtime0.1.3_plus377_DOCS0.1_after371",
+  "composition": {
+    "runtime": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_Qianlong_directed_clash",
+      "files": 2689,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_Qianlong_directed_clash/manifest.json",
+        "bytes": 471213,
+        "sha256": "bcbffbbba54a207be55b242496e4adb3b992f50dda3c8b26869866c98734a0a7"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_Qianlong_directed_clash/freeze.json",
+        "bytes": 706,
+        "sha256": "55a4c3310f66e2b82e830b36b320d834721809f9cd27194f2aed315420b0ed2d"
+      },
+      "pins": {
+        "manifest.json": "bcbffbbba54a207be55b242496e4adb3b992f50dda3c8b26869866c98734a0a7",
+        "freeze.json": "55a4c3310f66e2b82e830b36b320d834721809f9cd27194f2aed315420b0ed2d",
+        "qianlong_whole.py": "910c08e9e453b3a61aa8321bf70154eade597858175e810fb690bd0ecb000003",
+        "qianlong_exact_graph.py": "3487f42983f10bc770b24770e7413a498d0c0fb1b48af3b6c3a90e95ef7de21c",
+        "qianlong_exact_phase_solver.py": "7aece780752d9b4f98453818a7f97803b7f53703d5bbe10d82562be12a117124",
+        "qianlong_certified_vector_r1.py": "928a00523c6bc39c4d28dcef88bfbc84f4d9294e1ea732b48c11b18f1903c679",
+        "producer_dependency_lock.json": "6e30e2949d8a3141e1b54df270867e289dd11459094d9e29e23c783b76d40480",
+        "all_new_function_explanations.json": "3d933f8abed06d148fdcce69137f6cfabd0271903c74d0f5849db89b1bde0134"
+      }
+    },
+    "authoritative_documentation": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_Qianlong_explanation_layer",
+      "files": 10,
+      "document": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_Qianlong_explanation_layer/all78_corrected_function_explanations.json",
+        "bytes": 131081,
+        "sha256": "2e2c7879f38daa43a734fbdcacd1c6226e24583a288205926d87f6b9f4f57bc3"
+      },
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_Qianlong_explanation_layer/manifest.json",
+        "bytes": 1351,
+        "sha256": "0162628f69d6e334b02713cbcf8744d59af407cf70f063f83151521d8aa4a9c5"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_Qianlong_explanation_layer/freeze.json",
+        "bytes": 152,
+        "sha256": "190845e2b1ba3be241e3d615df4e2bfb989a61e78460d288c7cf453c18ad04cb"
+      },
+      "version": "QIANLONG-325-0.1.3-DOCS-0.1"
+    },
+    "verifier_supporting_explanations": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_verifier_scope_and_algorithm_explanations.json",
+      "bytes": 6351,
+      "sha256": "34e7a95b14bd255da3b6bc43bb84d4d81a6c3d69aff8c400f1c0b0651a3256a4"
+    }
+  },
+  "root_verification": {
+    "new_review_and_doc_all_SHA": {
+      "independent371": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev371_Qianlong_independent_review",
+        "files": 50,
+        "manifest": {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev371_Qianlong_independent_review/manifest.json",
+          "bytes": 7717,
+          "sha256": "5a90ca2f4990ae9a97e97689c7c28934c6f36134b42d8087269099667e4630ad"
+        },
+        "freeze": {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev371_Qianlong_independent_review/freeze.json",
+          "bytes": 474,
+          "sha256": "84ba4f4ee046f8433f15b010b2758b8d7071c265a7ebd0334ec1fc67fed952c7"
+        },
+        "root_all_payload_SHA": true
+      },
+      "corrected377": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_Qianlong_explanation_layer",
+        "files": 10,
+        "manifest": {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_Qianlong_explanation_layer/manifest.json",
+          "bytes": 1351,
+          "sha256": "0162628f69d6e334b02713cbcf8744d59af407cf70f063f83151521d8aa4a9c5"
+        },
+        "freeze": {
+          "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_Qianlong_explanation_layer/freeze.json",
+          "bytes": 152,
+          "sha256": "190845e2b1ba3be241e3d615df4e2bfb989a61e78460d288c7cf453c18ad04cb"
+        },
+        "root_all_payload_SHA": true
+      }
+    },
+    "original_runtime_all2689_bytes_reused_from_prior_root_actual_whole_verifier": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev377_verifier_actual.json",
+      "bytes": 1862,
+      "sha256": "8ad8b47f8ebedbf09754e531e4d49e6cb566bc90e20aec3ffbf8a74914b03ef1"
+    },
+    "current_runtime_precise_pins_checked": true,
+    "independent_all2689_before_after_same": true,
+    "extra_root_runtime2GB_copy_or_numerical_rerun": false
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev371_Qianlong_independent_review/independent_report.json",
+    "bytes": 8280,
+    "sha256": "a566a133064a31a0491336a745e43e42265924afcf394feac28a216d14283571"
+  },
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_author_completion_handoff.json",
+    "bytes": 7903,
+    "sha256": "5a3a6fc18b51458e068a24cb01672fccbb64e9732da23e1717ab8785d0dc1715"
+  },
+  "author_complete_move": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev325_author_readonly_and_complete_move_receipt.json",
+    "bytes": 477554,
+    "sha256": "031e3da02b62f82289e09d05b8157e6f1ee3c45a5b0294f7d866322973146d1f"
+  },
+  "source_case": {
+    "year": "辛卯",
+    "month": "丁酉",
+    "day": "庚午",
+    "hour": "丙子"
+  },
+  "source_profile": "Ren1947-PDF56 ninecarrier directedclash fullfeedback; two predeclared remoteinterpretations.",
+  "source_opinion": {
+    "new_actual_full_page_images_read": [
+      56,
+      72,
+      73,
+      90,
+      213,
+      94,
+      204,
+      109,
+      110,
+      83
+    ],
+    "not_all76_author_pages_or_all516_book_claim": true,
+    "direct_support": "literal丙丁炼秋金 and 癸子克午丁护酉/酉辛克卯乙; not旺doesnot mean弱/从; 二火不一律删一",
+    "source_tensions_and_inferences_retained": "午己事实/官印小注 versus正文无土; hidden午丁独立炼 and ordinaryhidden己 tasks crosschapterengineering, not directthirdyong; 己晦丁 special firefew antecedent unproved; remote两profile numeric not adjacent213 allremoved/waterconversion",
+    "no_primary_Ren_root_merge_or_unproved_earth_phase": true,
+    "source_example_biography_not_empirically_verified": true
+  },
+  "source_boundary": "Literal丙丁炼秋金 and directed子克午/酉克卯 source direct; 午己 and hidden午丁 independentrefining retained as explicit crosschapter engineering. No literal无土 actor deletion, unconditional湿土晦 rootedfire, adjacent丙辛 removal applied toremote, or full化水.",
+  "exact_current_state": "One unique ninecoordinate implicitreal algebraic solution with strict rationalorigin enclosures. Global weightedcontraction certificate and samecurrent positive/negative/cost/root checks; no midpoint as exactquantity.",
+  "independent_mathematics": {
+    "global9coordinate_A_and_exact_IminusA_weights_independently_derived": true,
+    "L": "25156049/26188041",
+    "six_new72origin_rational_probe_maps_and_complete_cost_root_control_samecurrent": "exactly matched originalstep, no producer helper used as oracle",
+    "six_new_full_QFNRA_rational_witnesses": "two remote profiles times m=1887/310±7/93/equality, k17/5, monthDingpositiveon; exact wholeformula substitutions true; margins−7/108,0,+7/108; main only above passes",
+    "new_source_uniform_positive_lower_bounds": {
+      "live_month_root": "2265/1024",
+      "month_fire_total": "449/128",
+      "noon_fire_total": "97/64",
+      "hour_fire_total_remote": "116697/131072"
+    },
+    "unique_shared_implicit_real_algebraic_vector_not_midpoint": "full constraints plus independentlyverified globalBanach and rigorous rational enclosures; originalNLSat20s unknown retained, no minimalpolynomial claim",
+    "old_all512_numerical_independent_sweep_not_repeated": true
+  },
+  "questions": {
+    "original_main_G1G2G3": "all512 false, mainH=None; exactCNF oneemptyclause, not extraHempty and not source disproof",
+    "separate_source_path_G1G2": "three singletonfire OR; allG2 via uniformrootbound, G1iffanyfirepermission; complete256truth eachremote and4originalnativeAUX calls",
+    "conditional_monthXin_port_dominance": "source proof read; only yearXinpositiveon, optionalportredundancy, hostroot/actor and negativeeffects preserved, not samefullJSON or generic same-stem merge",
+    "no_traditional_final_yong_priority_B_or_grade_claim": true
+  },
+  "main_result": "All512 fullG1G2G3 false, mainH=None and CNF[[]]. Notconditional extraHempty or classicalnegativeproof.",
+  "separate_mechanism_result": "G1G2 three singletonfire OR; exact minimalposition alternatives retained. Not source-authorized traditionalthirdyong or fulladequacy/finalpriorities.",
+  "source_guard_evidence": {
+    "original15plus2remaining_transitive_rootlocks_bad_actual": 17,
+    "registered_provider_exec_each_bad": 0,
+    "clean_registered_exec_events": 59,
+    "all4_transitive_ROOTlocks_outerbound_beforeexec": true,
+    "reused_existing_restored_faultcopy_no_large_newclone": true,
+    "source_bytebinding_not_classical_truth_authentication": true
+  },
+  "native_complete_move": {
+    "existing_full2689copy_used": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/325 actual final frozen complete move uw8wpq47/all 2689 final Ren56 files with spaces",
+    "fresh_process_routes": 12,
+    "two_complete_public_runtime_routes": "API andCLI each68530810bytes SHA8743d6adeb6b6d455b16bf7c63ed89d516180c5eac6aa7663d7b1e6d845a6d7c, entirebytes equal archived and eachother withoutnormalization",
+    "normal_route_math_counts": "only necessary fullAPI/CLI reproduction ran512 each; no further all512independent math loop",
+    "strict_native_behavior": "realhigh/lowsurrogates rejected exit2 specificUnicode reason; deep/duplicate/NaN/overlimit exit2; nativeinvalidraw and newlegaloutside/finitepending return structuredstatus exit0, math0",
+    "all2689_original_and_copy_before_after_pins_equal": true,
+    "functional_oldroot_reads": 0,
+    "model_package_writes": 0,
+    "no_OS444_newgate": true,
+    "audit_scope": "Pythonopen/listdir/scandir/ctypes.dlopen with each CLI in samehooked newprocess, not claim every OS syscall"
+  },
+  "effective_explanation": "377 fullcorrected78 is unique effective description for this composition. Original325 old78card document explicitly unapproved asaccurate; historical bytes untouched.",
+  "explanation_verification": {
+    "all78_precise_source_qualified_name_line_lambda_argcount_AST_segment_IO_checked": true,
+    "fresh_original_records": 46,
+    "precise_unchanged_IO_reuse": 32,
+    "four_sameline_lambdas_separate": true,
+    "not_new78_dynamic_trace": true,
+    "patchable_findings_sha256": "f3dc8a3594f6b18ab7856f59964cb927bd5c11d9b4970e61bbaf9789e478df74",
+    "new_full78_docs_exact7operation_sentences_corrected_other71wholecards_identical": true,
+    "all78_original_IO_AST_source_fields_identical": true,
+    "new7_verifier_supporting_algorithms_source_AST_and_semantics_checked_not_perfunction_newtrace": true,
+    "new_layer_is_unique_effective_explanation": "not an externalnote waiving olderror; originaldocument remains historical/unapproved"
+  },
+  "doc_move_binding": {
+    "new_small_layer_only_files": 10,
+    "existing2689_explicit_runtime_path_used": true,
+    "fresh_clean_whole_verifier_pass": true,
+    "two_bad_doc_and_doclock_cases": "nonzero beforeanyruntimefile read; runtimeexec0/writes0/oldroot0; verifier exceptions are not model atomicJSON protocol",
+    "verifier_scope": "release-only byte/identity binding, no runtime/math execution, no prose truth certification; actual independent7sentencecheck supplies semantic evidence",
+    "composite_release_requires_runtime_and_layer": "neither historicalabs/tmp paths nor layeralone replace complete runtime"
+  },
+  "no_runtime_docs_semantic_authentication": "Releaseverifier binds bytes/identity only. Unchanged runtime doesnot read377; prose correctness supplied by371 manualsource/IO review.",
+  "source_and_real_prediction_separate": true,
+  "traditional_final_yong_or_generic_patterns_complete": false,
+  "B_theme_J2_display_exported": false,
+  "default_B155_or_weights_changed": false,
+  "known_limits": "finite exact Qianlong source question and two predeclared remoteinterpretations; G1/G2 only positivepaths/live roots, G3 stronger engineering门; no fullclassicaladequacy/finalpriority/generalcharts/prediction/physicaleffect validation; fixedmacOS15+ARM64 mathbinary only",
+  "original_task_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

@@ -1,0 +1,1532 @@
+{
+  "schema": "624-final-root-and-genuine-independent-evidence-archive-index/1",
+  "files": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_生辰核与变色规则_接续研究包_v0.12/02_规则与进度/生成核_变色规则进度账本_v0.1.json",
+      "bytes": 22946,
+      "sha256": "fab4ab043eadb5def3cc703dd9e869db8cc724ab38154b318d53d7eaeedff3fd",
+      "member": "outputs/Part1_生辰核与变色规则_接续研究包_v0.12/02_规则与进度/生成核_变色规则进度账本_v0.1.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_最终验收与使用说明_rev624.txt",
+      "bytes": 8375,
+      "sha256": "8f49090347f5a052b1f406ef8051c663296b1edfa4663a2f0662a9b3fd06eee7",
+      "member": "outputs/Part1_研究成果_最终验收与使用说明_rev624.txt"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/00_0_当前有效入口_请先读_r1.txt",
+      "bytes": 2029,
+      "sha256": "74a522edf85f7d51318125205b7eb0ee7b60d712050669cbc9eb2bc07e3bf274",
+      "member": "outputs/Part1_研究成果_统一可复现交付/00_0_当前有效入口_请先读_r1.txt"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_FREEZE_r1.json",
+      "bytes": 130,
+      "sha256": "fe444a07f44bd0eec1c9868fb6e139a27dffdb2145e2bde466695350cc4e9003",
+      "member": "outputs/Part1_研究成果_统一可复现交付/DELIVERY_FREEZE_r1.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_MANIFEST_r1.json",
+      "bytes": 49396,
+      "sha256": "5d5016b696bb55bd101b5592bd32cf5fedbf3b08b610881961bbd064f916add4",
+      "member": "outputs/Part1_研究成果_统一可复现交付/DELIVERY_MANIFEST_r1.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_author_effective_r1_delivery_handoff.json",
+      "bytes": 7087,
+      "sha256": "0a280e4df53a326265cd7fe50debe89f4028bf2e3a1e6fd8dd45ff1486c5acc6",
+      "member": "work/C08_author_effective_r1_delivery_handoff.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_author_final_delivery_handoff.json",
+      "bytes": 6032,
+      "sha256": "3cbef2b85369cce6e31f1a38bff713a0435e17b7fc522e33ed6167d814de7a73",
+      "member": "work/C08_author_final_delivery_handoff.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_early_source_index_exact_snapshot_search474_handoff.json",
+      "bytes": 1117,
+      "sha256": "0c5f23337356dbaf765ec298e0b1d458ee4928b5d837f77d8c91cc320d26b845",
+      "member": "work/C08_early_source_index_exact_snapshot_search474_handoff.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_final_genuine_independent449_completion_handoff.json",
+      "bytes": 5206,
+      "sha256": "cc54d7dcb2132d08b5501b04cd71b6e18c12cb2cfe21424c76ad49a9a0bcd4bc",
+      "member": "work/C08_final_genuine_independent449_completion_handoff.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_final_root_acceptance_checklist474.json",
+      "bytes": 19445,
+      "sha256": "dd8f93ae18a84af9bc8c18e4aaca3803dd77df7106d83d6ed8d40c30ce365fb5",
+      "member": "work/C08_final_root_acceptance_checklist474.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_final_root_acceptance_inputs.json",
+      "bytes": 13531,
+      "sha256": "480f177e40e4bfba9d9ea4be62ba8b1ca7394885af9c6287ae685e58de7e20ee",
+      "member": "work/C08_final_root_acceptance_inputs.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent449_review_evidence.zip",
+      "bytes": 16956315,
+      "sha256": "060316d76765359a3f518ed78035d6cbb3fdc5abfb65d3f841da56d1025b7483",
+      "member": "work/C08_genuine_independent449_review_evidence.zip"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/00_真正非作者最终复核说明.txt",
+      "bytes": 2258,
+      "sha256": "be2e90d93406248a6bc0bdf21dd9dccb10472d33ed11b900fed9016db27d42ae",
+      "member": "work/C08_genuine_independent_review449/00_真正非作者最终复核说明.txt"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/397_source_only.reference.raw.stdout.gz",
+      "bytes": 2709,
+      "sha256": "3ad274f69bad3f40241dacb794d07b433950baf64ed6d9e2979771999f62e595",
+      "member": "work/C08_genuine_independent_review449/actual/397_source_only.reference.raw.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/397_source_only.reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/397_source_only.reference.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/all95_current_policy_original_document_pins_pre_delivery.json",
+      "bytes": 163908,
+      "sha256": "fa5540248bd89ad19d020a40843fda41142e3051dcbafe951004b90708e53b6e",
+      "member": "work/C08_genuine_independent_review449/actual/all95_current_policy_original_document_pins_pre_delivery.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/all95_full_normalized_manifest_expected_rows_for_r1.json",
+      "bytes": 15230150,
+      "sha256": "485978f9bbccc1809c3f14bffa2db20e9beb93d2f97f2b71612d9b4bcf4837c3",
+      "member": "work/C08_genuine_independent_review449/actual/all95_full_normalized_manifest_expected_rows_for_r1.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/all_JSON_named_paths_metadata_only.txt",
+      "bytes": 30366463,
+      "sha256": "7990ca875ceded0e1c41eeb7a17e473691120cf47698482cf572d9c44cc0a0ec",
+      "member": "work/C08_genuine_independent_review449/actual/all_JSON_named_paths_metadata_only.txt"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/available_output_zip_paths.txt",
+      "bytes": 2964,
+      "sha256": "07b04a2988e112a42078db015b500581c07e790a1417a1602ee137f96e8db417",
+      "member": "work/C08_genuine_independent_review449/actual/available_output_zip_paths.txt"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure13_exact_JSONpointer_version_disposition_pending2indices.json",
+      "bytes": 116159,
+      "sha256": "af781a915e09349cb39cc53942f970a8c95fccf6ef521491dd68cb2cfcbd1786",
+      "member": "work/C08_genuine_independent_review449/actual/closure13_exact_JSONpointer_version_disposition_pending2indices.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure13_final_forensic_disposition_with2_unrecovered_navigation_versions.json",
+      "bytes": 118994,
+      "sha256": "ed76e3a29a1f90ffba9f20f0a12258733e9cbdbdb94dc7bcaee82fcab037ca1f",
+      "member": "work/C08_genuine_independent_review449/actual/closure13_final_forensic_disposition_with2_unrecovered_navigation_versions.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure13_origin_claims_and_archive266_matches.json",
+      "bytes": 79287,
+      "sha256": "2e45fe8388f790e5818bb890bb70a510ccee411e20a3e7b22662ebfb93cf90bc",
+      "member": "work/C08_genuine_independent_review449/actual/closure13_origin_claims_and_archive266_matches.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure_MR139_expected_manifest_actual_matches.json",
+      "bytes": 1227,
+      "sha256": "091a4180f8df4b6afeefa92361d81c1ab92df0d297bf59d4e19311dac7e1317b",
+      "member": "work/C08_genuine_independent_review449/actual/closure_MR139_expected_manifest_actual_matches.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure_MR_WT2_captured_foreign_root_full_table_alignment.json",
+      "bytes": 14774,
+      "sha256": "ff7f7572396362227d61574c663ec234b4bcf283ae3f16b22c1ef1b3f4868106",
+      "member": "work/C08_genuine_independent_review449/actual/closure_MR_WT2_captured_foreign_root_full_table_alignment.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure_current_source_index_reading_zip_versions.json",
+      "bytes": 3488,
+      "sha256": "1d36c56ec3c9672896608807b7ba09b008bd155c7db838e550c5347fcf800e5a",
+      "member": "work/C08_genuine_independent_review449/actual/closure_current_source_index_reading_zip_versions.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure_manifest_named_candidates.txt",
+      "bytes": 1122183,
+      "sha256": "82ce3460e600423965cb44f95e3904662bc59e8ee3eed9c125992e9357331280",
+      "member": "work/C08_genuine_independent_review449/actual/closure_manifest_named_candidates.txt"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure_named_files_exact_SHA_matches.json",
+      "bytes": 14684,
+      "sha256": "0dd78711534afcaf75482cb76cdea077c8047fdab161f9cb49c7326d657732af",
+      "member": "work/C08_genuine_independent_review449/actual/closure_named_files_exact_SHA_matches.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure_target_named_candidates.txt",
+      "bytes": 216996,
+      "sha256": "1ba79e3b35c7063b78b1a21e1716e865509b47fce68cb105a13c18ac80149f22",
+      "member": "work/C08_genuine_independent_review449/actual/closure_target_named_candidates.txt"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final274_full_stream_pin_and_true_move.json",
+      "bytes": 1001,
+      "sha256": "0612cdb9de71c9c5897a866e747ec9a3cba3adcb1f16a55014af15bdb6d6a313",
+      "member": "work/C08_genuine_independent_review449/actual/final274_full_stream_pin_and_true_move.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final95_normalized_manifest_payload_availability.json",
+      "bytes": 217084,
+      "sha256": "f089338dfe001bf89ad57d46253a8247f886ea9f183e58b88ff67dee2002c725",
+      "member": "work/C08_genuine_independent_review449/actual/final95_normalized_manifest_payload_availability.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_r1_285_permanent_fullSHA_302_currentdoc_aliases.json",
+      "bytes": 157251,
+      "sha256": "972b6d8047fa27047414dc24c1cd6456a89f747f6b97c74f720a72c42df3336b",
+      "member": "work/C08_genuine_independent_review449/actual/final_r1_285_permanent_fullSHA_302_currentdoc_aliases.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_r1_freeze_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_r1_freeze_stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_r1_freeze_stdout.log",
+      "bytes": 1037,
+      "sha256": "af741f59586a38bf8f6ec17479413e78837f455d9fb6dcc52e538058544e0790",
+      "member": "work/C08_genuine_independent_review449/actual/final_r1_freeze_stdout.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/397_source_only.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "9d071454b37433c015a9929bc8683d4b916ee932c81ea6196aa278464485603a",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/397_source_only.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/397_source_only.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/397_source_only.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/397_source_only.stdout.gz",
+      "bytes": 3063,
+      "sha256": "6f468cb42dbc7df6301a9f803be931b6705e82b85e00ab02fb1352f60cc8816d",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/397_source_only.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/616_complete.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "dc10f04aa540124c1340279e7fa0cffa6e78acd5c16f194990957431d431576b",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/616_complete.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/616_complete.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/616_complete.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/616_complete.stdout.gz",
+      "bytes": 389645,
+      "sha256": "8815aac5e19f07266ef40bf75980f4f7acc5349d564cf561c9bd1dc0897f41e1",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/616_complete.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/619_complete.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "bf9b5dc6557d3f0f3f071ef30f1a96031468ee62a77285eed6e32c2999e67f55",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/619_complete.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/619_complete.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/619_complete.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/619_complete.stdout.gz",
+      "bytes": 209254,
+      "sha256": "09e76cceb877d817e6b4e6502b796b8c3d1536b2d074ba7c8239d384c4d6e20c",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/619_complete.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/619_complete_CLI.actual_all_process_audit.jsonl",
+      "bytes": 652,
+      "sha256": "7c73156b8c00e803c025423f29b07bbbffd58eb7a0e86b07c54829c32fc9d4ea",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/619_complete_CLI.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/619_complete_CLI.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/619_complete_CLI.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/619_complete_CLI.stdout.gz",
+      "bytes": 209254,
+      "sha256": "09e76cceb877d817e6b4e6502b796b8c3d1536b2d074ba7c8239d384c4d6e20c",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/619_complete_CLI.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/619_knownnegative.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "11902a8cf57646be1bb09e0a589fec8b7b155eff1a61c7db2e8d3b9933d77978",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/619_knownnegative.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/619_knownnegative.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/619_knownnegative.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/619_knownnegative.stdout.gz",
+      "bytes": 266557,
+      "sha256": "4b95d346f863a3e67f957d6dc81b523184cf44e3606fae2e94a2dd72722cbb47",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/619_knownnegative.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/621_complete_Runxia.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "ad9a5a98bee3c748c7e6218f5e601967099d724eabe355ce166ef02b0b1d2f79",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/621_complete_Runxia.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/621_complete_Runxia.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/621_complete_Runxia.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/621_complete_Runxia.stdout.gz",
+      "bytes": 397625,
+      "sha256": "5260de82e457254709b480220fdb160f21480995228b8b9251f0ebb82c6a3dc4",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/621_complete_Runxia.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "5486fa2bc0b8032158da7462d983d804364202200f2bfdc59f0a184a8677075f",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0.stdout.gz",
+      "bytes": 14169,
+      "sha256": "0e07a6c3bc37e9db7e4936925700f1387593e8241ec031b3ddecf631b12295da",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0_CLI.actual_all_process_audit.jsonl",
+      "bytes": 652,
+      "sha256": "859bd8122acb695bbd4180f77cc26cb54f58b458f65c59eb88c44dbdb39b265d",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0_CLI.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0_CLI.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0_CLI.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0_CLI.stdout.gz",
+      "bytes": 14169,
+      "sha256": "0e07a6c3bc37e9db7e4936925700f1387593e8241ec031b3ddecf631b12295da",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/affected232_complete_positive_C0_CLI.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/bad_policy.actual_all_process_audit.jsonl",
+      "bytes": 323,
+      "sha256": "a4642375d574619cc33eaaf465d08b5470d51b4c71d0dc9038af95ee97de8a8c",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/bad_policy.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/bad_policy.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/bad_policy.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/bad_policy.stdout.gz",
+      "bytes": 379,
+      "sha256": "62295f48695ead15d197f077ab1c7b3b269942cf838c48f94f509e142dffcac0",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/bad_policy.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/bad_source.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "3932fb9abb9f736f6279683d15120dd42725c1c55467b216a19efd04089a4fb0",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/bad_source.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/bad_source.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/bad_source.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/bad_source.stdout.gz",
+      "bytes": 448,
+      "sha256": "4b7c7d0013c79d3c09fdb5264163dbb8cd4bc0127571d263c6cf936ef67a9eea",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/bad_source.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/complete_report.json",
+      "bytes": 10663,
+      "sha256": "c23daf4014a26ecabac352279c1d84d3073d7ad7ed7aa72f69888df355ccdca4",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/complete_report.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/cross_616_complete.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "e4df46b97e58ad9ad4d7c2c44c1f08c70c200b214cac8fbaae3a9d8d96061d67",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/cross_616_complete.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/cross_616_complete.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/cross_616_complete.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/cross_616_complete.stdout.gz",
+      "bytes": 316,
+      "sha256": "36dd6628150bca965101e62d1b456a2587f3be037eae2dc6585c5d19d28552c9",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/cross_616_complete.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/cross_619_complete.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "509d4c3bc9c37cf50004571c2816a554dac8e7c883d83908a4730e543d4d7625",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/cross_619_complete.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/cross_619_complete.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/cross_619_complete.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/cross_619_complete.stdout.gz",
+      "bytes": 315,
+      "sha256": "cdd1e2409ed8bc72620afeb3c7905d6863f9b0ab992e8320fe5a5ab87fa595c9",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/cross_619_complete.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/durable_passed_rows.json",
+      "bytes": 6108,
+      "sha256": "cf58cf13f30e00570fce24237720c29ca382f08d3c72366eb8058b2d7666cc25",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/durable_passed_rows.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_old_exec.actual_all_process_audit.jsonl",
+      "bytes": 432,
+      "sha256": "a9d581323530dbed6b6c865baaf4275a46e7fc4817fbd63fa13d8cd25d1bebb3",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_old_exec.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_old_exec.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_old_exec.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_old_exec.stdout.gz",
+      "bytes": 124,
+      "sha256": "083fb8f3503a79d941d7b3355585f7beef341dc502e11143f8c66d116dabcbaf",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_old_exec.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_old_read.actual_all_process_audit.jsonl",
+      "bytes": 366,
+      "sha256": "8b28935289da1c1598f35c64004c0254348843bcc83c7704874a43bbdd37f845",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_old_read.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_old_read.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_old_read.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_old_read.stdout.gz",
+      "bytes": 123,
+      "sha256": "1942895cf600906e6e05eb7c2801a237406378ed4b153eb38941a6e8206ccdc6",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_old_read.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_old_scan.actual_all_process_audit.jsonl",
+      "bytes": 366,
+      "sha256": "7520f7d728cebfbad403d17400299ad0115ed95ea6f9e9e0b1fb5e112449c84a",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_old_scan.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_old_scan.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_old_scan.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_old_scan.stdout.gz",
+      "bytes": 123,
+      "sha256": "8e3fde29f1f48971e9240cfdd7d5ce44b1192870e77c2991552e2bd84ae6882b",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_old_scan.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_package_write.actual_all_process_audit.jsonl",
+      "bytes": 368,
+      "sha256": "ba7d6db310062f64879321741c608b65839f18b3acad1ec6e4832269ba582250",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_package_write.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_package_write.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_package_write.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/negative_package_write.stdout.gz",
+      "bytes": 122,
+      "sha256": "a95963f9ae62b1b2026ba577e9910b608699e48fc280e92c14579c45d9dc0d5a",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/negative_package_write.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/new616_gap_to0040.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "60ae193e1c8c326b33204b047ab57ae07f7198d48f15ea23576e7029b789fd3b",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/new616_gap_to0040.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/new616_gap_to0040.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/new616_gap_to0040.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/new616_gap_to0040.stdout.gz",
+      "bytes": 389698,
+      "sha256": "3026f74d89fa50d5ab710334bccbfcd799044aff41c57e58e57cf58290d7a32d",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/new616_gap_to0040.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/new619_same_function_new_records.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "8ef52d332635fb3d15e69aea82033a69b392ab2e6aec2bd5652a30fae114cd48",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/new619_same_function_new_records.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/new619_same_function_new_records.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/new619_same_function_new_records.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/new619_same_function_new_records.stdout.gz",
+      "bytes": 193935,
+      "sha256": "0888dbc58a5b5728c5290352a78f42987ea754710056fa414fae3eb5f3988214",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/new619_same_function_new_records.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/old31_composer_timegap.actual_all_process_audit.jsonl",
+      "bytes": 975,
+      "sha256": "af8c8c989a47c403923cbcd1260e0ab4a5cadc46ef8048250992e62391375aa8",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/old31_composer_timegap.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/old31_composer_timegap.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/old31_composer_timegap.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/old31_composer_timegap.stdout.gz",
+      "bytes": 11659,
+      "sha256": "53f76778ed14270ff67870848d36cf3340505e0a07a2aaddf764ac5dd84974af",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/old31_composer_timegap.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/old31_composer_unknown_cannot_hide_badP.actual_all_process_audit.jsonl",
+      "bytes": 975,
+      "sha256": "2f0f704058d3e58031842ac7e4c19a850ba06dbf76c27c00d977715de495cc5d",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/old31_composer_unknown_cannot_hide_badP.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/old31_composer_unknown_cannot_hide_badP.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/old31_composer_unknown_cannot_hide_badP.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/old31_composer_unknown_cannot_hide_badP.stdout.gz",
+      "bytes": 2263,
+      "sha256": "dbad74d78da870dad9de3b151d77491a3070facf25c5ead8302d86122e10dc25",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/old31_composer_unknown_cannot_hide_badP.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/original251_C20_same_new.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "07109465b79f67a4a12ab45bc70024b6815ef767f73ac0db22f0d48267c98019",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/original251_C20_same_new.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/original251_C20_same_new.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/original251_C20_same_new.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/original251_C20_same_new.stdout.gz",
+      "bytes": 96383,
+      "sha256": "c44b8cdfb1f2509b370b20084a61ebd2e88521e1782b880e28dad0e355ee07f8",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/original251_C20_same_new.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/restored_source_policy.actual_all_process_audit.jsonl",
+      "bytes": 649,
+      "sha256": "23d841deb77f30f120588aeb3840cdb553cdc09ca3adef0c334e7ceac0c82454",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/restored_source_policy.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/restored_source_policy.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/restored_source_policy.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/restored_source_policy.stdout.gz",
+      "bytes": 3063,
+      "sha256": "6f468cb42dbc7df6301a9f803be931b6705e82b85e00ab02fb1352f60cc8816d",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/restored_source_policy.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/selected_component_preparation.actual_all_process_audit.jsonl",
+      "bytes": 328,
+      "sha256": "b154c35bd3948da58697f8138e2472aeae71ae1a049331c3f20b1ede31df275e",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/selected_component_preparation.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/selected_component_preparation.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/selected_component_preparation.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/selected_component_preparation.stdout.gz",
+      "bytes": 159,
+      "sha256": "f94d0ba237964f64debae25aa87c45f382482911d46170b551839a2317823a43",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/selected_component_preparation.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_cycle.actual_all_process_audit.jsonl",
+      "bytes": 323,
+      "sha256": "e1c52697027a74cc5288dfa04913b235f2b0c8f3bcfb7a10608d52861ce7e736",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_cycle.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_cycle.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_cycle.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_cycle.stdout.gz",
+      "bytes": 199,
+      "sha256": "1f7321e719c01e893675f05be84e27655c7e6d1202555cd8e17f00e8b5e76d21",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_cycle.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_dict_subclass.actual_all_process_audit.jsonl",
+      "bytes": 323,
+      "sha256": "1635673bed722ade91bf6b1bf39e926f3f3adfa03f6b8b16b7cd40bd4afc2c18",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_dict_subclass.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_dict_subclass.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_dict_subclass.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_dict_subclass.stdout.gz",
+      "bytes": 211,
+      "sha256": "50ea273181d361d1192fe1ef984d2529f6aad3bbcc49655c70ddf3413b993839",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_dict_subclass.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_integer_key.actual_all_process_audit.jsonl",
+      "bytes": 323,
+      "sha256": "973ca70983cdc0cb6a8378c87ac9b79653a076d1c1850ce1944f7f6dc135d3ae",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_integer_key.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_integer_key.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_integer_key.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_integer_key.stdout.gz",
+      "bytes": 214,
+      "sha256": "94651f7f39e2a6de9a0619716ec691d660fb9cf7bab5a6e6e9686186c0ea648f",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_integer_key.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_nonfinite.actual_all_process_audit.jsonl",
+      "bytes": 323,
+      "sha256": "dc2f6016fdc638f3f8e5b929311441726a4fbf37695dba8ab91511caaf82152c",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_nonfinite.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_nonfinite.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_nonfinite.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_nonfinite.stdout.gz",
+      "bytes": 220,
+      "sha256": "16a94613f0db013ff9bf44cc6a39efe323be7955efd35985c222abc308c69a85",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_nonfinite.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_surrogate.actual_all_process_audit.jsonl",
+      "bytes": 323,
+      "sha256": "ca7bd74a6b2edbeeaf82b2e87f0b680cbd8e696ffbfaa6208d8db3c3220a9dc6",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_surrogate.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_surrogate.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_surrogate.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_surrogate.stdout.gz",
+      "bytes": 247,
+      "sha256": "cfd6ee3378429d1ff1335e3a035d9a3645a068ad75e826ad6dea2ffe2bab7032",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_surrogate.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_tuple.actual_all_process_audit.jsonl",
+      "bytes": 323,
+      "sha256": "d1810e2d5e3e3bf7861bfb28594bef3b8f2857790124f8ca0c8c306f9f884ca5",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_tuple.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_tuple.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_tuple.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_API_tuple.stdout.gz",
+      "bytes": 211,
+      "sha256": "50ea273181d361d1192fe1ef984d2529f6aad3bbcc49655c70ddf3413b993839",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_API_tuple.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_duplicate_CLI.actual_all_process_audit.jsonl",
+      "bytes": 326,
+      "sha256": "862c07a3ab78d33586d0be5f8de926adf6c0f3e819b451c70429925e7ac44420",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_duplicate_CLI.actual_all_process_audit.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_duplicate_CLI.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_duplicate_CLI.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/strict_duplicate_CLI.stdout.gz",
+      "bytes": 152,
+      "sha256": "d32aee5d85a3e6f2a3f26075d97996ed0f953d663af0d619574774226a2ee6f7",
+      "member": "work/C08_genuine_independent_review449/actual/final_unified/strict_duplicate_CLI.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/first274_after_complete_campaign_integrity.json",
+      "bytes": 268,
+      "sha256": "8433c89045536719dddf92f1dde37a20c8bb0d835b7bbeb926fd15eae821be9a",
+      "member": "work/C08_genuine_independent_review449/actual/first274_after_complete_campaign_integrity.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/first_baseline_sealing_stdout.log",
+      "bytes": 418,
+      "sha256": "19d04fdb54e3feb9cdcabd9e673ffc8812b75adfd7e69aa222d7ce753714fe2c",
+      "member": "work/C08_genuine_independent_review449/actual/first_baseline_sealing_stdout.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/first_final_unified_campaign_stdout.log",
+      "bytes": 512,
+      "sha256": "d689e837d93122697902118560f22ef46484f8762665f5266bdec497ac94a6ec",
+      "member": "work/C08_genuine_independent_review449/actual/first_final_unified_campaign_stdout.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/five_legacy_manifest_schemas_missing_catalog_objects_archive266_classification.json",
+      "bytes": 44062,
+      "sha256": "ace8540e88e1eeddb9e6f736cdcb0a58f6c1e003df7c87298b49bad60f0a318b",
+      "member": "work/C08_genuine_independent_review449/actual/five_legacy_manifest_schemas_missing_catalog_objects_archive266_classification.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/frozen_r0_transport20_docs_actual_IO_substantive_audit.json",
+      "bytes": 6738,
+      "sha256": "5dfef044d76e2153e3eb6628877f6b81d9a06af0d8a35270fb58da01a605882f",
+      "member": "work/C08_genuine_independent_review449/actual/frozen_r0_transport20_docs_actual_IO_substantive_audit.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_complete.actual_all_processes.jsonl",
+      "bytes": 649,
+      "sha256": "0a31db51f24221a5fbcd6b5dfc7d70b4d06c4a506873f1cefcd7ab96281f4012",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_complete.actual_all_processes.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_complete.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_complete.stderr"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_complete.stdout.gz",
+      "bytes": 5530447,
+      "sha256": "fd924f79de2ef6bad3570118a5c350077ebd5944d8385afc7d125c8bce92f50e",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_complete.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_to616.actual_all_processes.jsonl",
+      "bytes": 649,
+      "sha256": "088d5305599a6b50991a9ed7c039f68155556c65d4d67d5e7a3aba5329b6e664",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_to616.actual_all_processes.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_to616.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_to616.stderr"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_to616.stdout.gz",
+      "bytes": 315,
+      "sha256": "cdd1e2409ed8bc72620afeb3c7905d6863f9b0ab992e8320fe5a5ab87fa595c9",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/615_to616.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/616_to615.actual_all_processes.jsonl",
+      "bytes": 649,
+      "sha256": "f73c4f059ee362e0421a86ac5508cb823ed89759a0c0d31cb58fa1b3761400ba",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/616_to615.actual_all_processes.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/616_to615.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/616_to615.stderr"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/616_to615.stdout.gz",
+      "bytes": 313,
+      "sha256": "87bff1f12b934564ed4abaa1461a7fe4411c5102ce99cc605476e88c7b7b143a",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/616_to615.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/complete_report.json",
+      "bytes": 1131,
+      "sha256": "cb5f0d60e81c834a6632c399973c8f10fd5ab3928e8951cadeb600ea9d79eec9",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/complete_report.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/selected615_prepare.actual_all_processes.jsonl",
+      "bytes": 326,
+      "sha256": "aacc24def6547d5f2591cfe1ca8b672661a5b16848f2bc97dafe200d81a43056",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/selected615_prepare.actual_all_processes.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/selected615_prepare.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/selected615_prepare.stderr"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/selected615_prepare.stdout.gz",
+      "bytes": 153,
+      "sha256": "af953d23f51c94db7e90359e9a980edee591d5cf3673044549767fef4e815acf",
+      "member": "work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/selected615_prepare.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/last615_stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_stdout.log",
+      "bytes": 969,
+      "sha256": "f13c42c9681b46a1d7a7aee0ddcd574c9657fcc7a7a484db12fa9813e1adb14d",
+      "member": "work/C08_genuine_independent_review449/actual/last615_stdout.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/new616_gap_to0040.reference.raw.stdout.gz",
+      "bytes": 389360,
+      "sha256": "30b17f2ce240cc9a7d3360581e44cd65d852ec6764a82f479c1c56adf11ea7e7",
+      "member": "work/C08_genuine_independent_review449/actual/new616_gap_to0040.reference.raw.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/new616_gap_to0040.reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/new616_gap_to0040.reference.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/new619_same_function_new_records.reference.raw.stdout.gz",
+      "bytes": 193576,
+      "sha256": "1ca5969c21aaed401622da46fea6524d03f6d8d0d0ccb82ede7ba765fe8f5607",
+      "member": "work/C08_genuine_independent_review449/actual/new619_same_function_new_records.reference.raw.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/new619_same_function_new_records.reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/new619_same_function_new_records.reference.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/old31_composer_timegap.reference.raw.stdout.gz",
+      "bytes": 11460,
+      "sha256": "a08e51a73f97ad8d74f63d79a03c9a51cafbed655e084f31af9ff9b5aafd338a",
+      "member": "work/C08_genuine_independent_review449/actual/old31_composer_timegap.reference.raw.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/old31_composer_timegap.reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/old31_composer_timegap.reference.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/old31_composer_unknown_cannot_hide_badP.reference.raw.stdout.gz",
+      "bytes": 2064,
+      "sha256": "34f57b6ea929bf4e3fea079a5cc042341fd1bf047fec341e6fa5df41c4e26bd2",
+      "member": "work/C08_genuine_independent_review449/actual/old31_composer_unknown_cannot_hide_badP.reference.raw.stdout.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/old31_composer_unknown_cannot_hide_badP.reference.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/old31_composer_unknown_cannot_hide_badP.reference.stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_actual379_production_reader/actual_CLI_complete_source.bin",
+      "bytes": 3375072,
+      "sha256": "4b85c7f3a1583031a6570a3d49b56f8a0e1b54aceb840015083e2dee6a3386ee",
+      "member": "work/C08_genuine_independent_review449/actual/r1_actual379_production_reader/actual_CLI_complete_source.bin"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_actual379_production_reader/actual_all_processes.jsonl",
+      "bytes": 652,
+      "sha256": "1c4d0dc3a77bce8e5186ad99d785a93204bc0d94228528becb1ac4b38b054c77",
+      "member": "work/C08_genuine_independent_review449/actual/r1_actual379_production_reader/actual_all_processes.jsonl"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_actual379_production_reader/complete_report.json",
+      "bytes": 89280,
+      "sha256": "97222f169fcfb7830e19532064a451fdd47b99d5ebb323ab9b9d1e0c29094f54",
+      "member": "work/C08_genuine_independent_review449/actual/r1_actual379_production_reader/complete_report.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_actual379_production_reader/complete_report_with_actual_guard.json",
+      "bytes": 89428,
+      "sha256": "c61063f7fe788a69c62ca89ba33824c5505252a5d1cc176bb6c396c61108e11e",
+      "member": "work/C08_genuine_independent_review449/actual/r1_actual379_production_reader/complete_report_with_actual_guard.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_actual379_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/r1_actual379_stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_actual379_stdout.log",
+      "bytes": 431,
+      "sha256": "a226c6682c3a1e9ce350839e7effd84ea2c99f34ff9a2c4ff02162e7d40f436e",
+      "member": "work/C08_genuine_independent_review449/actual/r1_actual379_stdout.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_all95_real49419_paths21610_objects_fullSHA.json",
+      "bytes": 6633063,
+      "sha256": "1e3fa163fc0b50717f623183c0b8b43ec49608684938278ddd70af0623073db2",
+      "member": "work/C08_genuine_independent_review449/actual/r1_all95_real49419_paths21610_objects_fullSHA.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_all95_stream_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/r1_all95_stream_stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_all95_stream_stdout.log",
+      "bytes": 1154,
+      "sha256": "cb09635114134ba739968295a53709ebf69267fafa5b90af0c01e9addfb13281",
+      "member": "work/C08_genuine_independent_review449/actual/r1_all95_stream_stdout.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_current20_contract_IO_and_schema_negative_audit.json",
+      "bytes": 2141,
+      "sha256": "05543c5fe238f2b6e000714d065766c844bd4ba95410e63a28efb52ecbffa180",
+      "member": "work/C08_genuine_independent_review449/actual/r1_current20_contract_IO_and_schema_negative_audit.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_docs_schema_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member": "work/C08_genuine_independent_review449/actual/r1_docs_schema_stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_docs_schema_stdout.log",
+      "bytes": 2141,
+      "sha256": "05543c5fe238f2b6e000714d065766c844bd4ba95410e63a28efb52ecbffa180",
+      "member": "work/C08_genuine_independent_review449/actual/r1_docs_schema_stdout.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_reader379_external_fixture_location.json",
+      "bytes": 128,
+      "sha256": "1bf4a934d0d88b047f86ef479293a720d5230d7cb0e0a3ca5ba42c3edfa3376e",
+      "member": "work/C08_genuine_independent_review449/actual/r1_reader379_external_fixture_location.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/reference_baseline_progress.json",
+      "bytes": 8451,
+      "sha256": "cfa1daa1e2959ac4b838e28f2c57e44c97320595c49e4c975d60ad257ae87fcf",
+      "member": "work/C08_genuine_independent_review449/actual/reference_baseline_progress.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/rev359_missing135_actual_original_source_bytes_verification.json",
+      "bytes": 52868,
+      "sha256": "a948cf2736e78f2245adfaf39161deb99d712f3fca9c9483358b5de5a8bca080",
+      "member": "work/C08_genuine_independent_review449/actual/rev359_missing135_actual_original_source_bytes_verification.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/source_index6309_8045_size_SHA_metadata_search.json",
+      "bytes": 158,
+      "sha256": "f902c99a6d38502924b4951ed7175ba256156572b9524ec4f6e91c4074a7bf34",
+      "member": "work/C08_genuine_independent_review449/actual/source_index6309_8045_size_SHA_metadata_search.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/source_index_two_historical_versions_runtime_descriptor_impact.json",
+      "bytes": 1177,
+      "sha256": "271605dcbedb46bc4c8b94de73960cd9dc931c0aeb05c6a65ac77205f7bda9ba",
+      "member": "work/C08_genuine_independent_review449/actual/source_index_two_historical_versions_runtime_descriptor_impact.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/unfrozen18_transport_AST_reading_before_final_calls.json",
+      "bytes": 5283,
+      "sha256": "b1cf4a0272dca5b6eaae7cb3e0aed33a8f44c9daf6ac4bde10311e08e7da5e64",
+      "member": "work/C08_genuine_independent_review449/actual/unfrozen18_transport_AST_reading_before_final_calls.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/unfrozen_common_cache_anchor_fix_independent_regression.json",
+      "bytes": 715,
+      "sha256": "db87e0105c6e636a95b38e3450627fb6dfb15af1009ead272a4c9340eeb02019",
+      "member": "work/C08_genuine_independent_review449/actual/unfrozen_common_cache_anchor_fix_independent_regression.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/unfrozen_common_cache_anchor_probe.json",
+      "bytes": 2000,
+      "sha256": "b5fc4b76221f5f64d4ff3d52e60bf144b4c9544f3b03246acc1e8e760658efad",
+      "member": "work/C08_genuine_independent_review449/actual/unfrozen_common_cache_anchor_probe.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/audit95_current_document_pins.py",
+      "bytes": 2615,
+      "sha256": "6e0226b027c391351ad7d9466498fa92766d0f07d1d5a069c0591c8732eb0ca2",
+      "member": "work/C08_genuine_independent_review449/audit95_current_document_pins.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/audit_final_r1_permanent_freeze_and_current_documents.py",
+      "bytes": 4368,
+      "sha256": "4f74277ca45dcd59eb6fd2e146e3f784507c656f8b3d0601693d7a68fdca666d",
+      "member": "work/C08_genuine_independent_review449/audit_final_r1_permanent_freeze_and_current_documents.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/audit_frozen_r0_transport20_IO.py",
+      "bytes": 6508,
+      "sha256": "ea48e54ada7167b66b902b1df39dc4eaa24cc5c89858b6527ad89833de051a1b",
+      "member": "work/C08_genuine_independent_review449/audit_frozen_r0_transport20_IO.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/audit_r1_normalizer_and_reader_contract_IO.py",
+      "bytes": 7001,
+      "sha256": "4d5709407e8730b7a3ab62ec1f395e7c171dc1e7b504c2d1d4abe752d61691b5",
+      "member": "work/C08_genuine_independent_review449/audit_r1_normalizer_and_reader_contract_IO.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/audit_r1_source_rows_and_real_objects.py",
+      "bytes": 4917,
+      "sha256": "e9e179e6ea22fa3dbe687a44b04d6ed4750648d8ad9678fb5fcf134ae1f84dc1",
+      "member": "work/C08_genuine_independent_review449/audit_r1_source_rows_and_real_objects.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/final_review_report.json",
+      "bytes": 16201,
+      "sha256": "d7d27b2540dff662238b2d30d297e4ce852cd5796d3df288ac1f009a89011eea",
+      "member": "work/C08_genuine_independent_review449/final_review_report.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/freeze.json",
+      "bytes": 142,
+      "sha256": "1e73e91d6b96d54d5e22466204ed6050604ddf4668039e5fb4b081d3c24345ab",
+      "member": "work/C08_genuine_independent_review449/freeze.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/history/checkpoint_before_r0_pass_r1_pending.json",
+      "bytes": 4175,
+      "sha256": "314ca1406b20bc20ffa392eb3d797c0c3ed25616c707db6b52f2bf5b0869747f",
+      "member": "work/C08_genuine_independent_review449/history/checkpoint_before_r0_pass_r1_pending.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/history/r1_contract_checker_boolean_field_assumed_numeric/audit_r1_normalizer_and_reader_contract_IO.py",
+      "bytes": 6740,
+      "sha256": "11e22d412812e97552af8fb786164ce067ad3ec54771d49198bdb84274b8216b",
+      "member": "work/C08_genuine_independent_review449/history/r1_contract_checker_boolean_field_assumed_numeric/audit_r1_normalizer_and_reader_contract_IO.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/history/r1_contract_checker_boolean_field_assumed_numeric/correction.json",
+      "bytes": 317,
+      "sha256": "413dd0f8cc5bda748887326e56db25d01de44436536936d045a80c4a0303fc21",
+      "member": "work/C08_genuine_independent_review449/history/r1_contract_checker_boolean_field_assumed_numeric/correction.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/history/r1_contract_checker_boolean_field_assumed_numeric/first_stderr.log",
+      "bytes": 343,
+      "sha256": "caec8e4b3a8169ed391d668484ff428071cebcd94503d58593526a775c749999",
+      "member": "work/C08_genuine_independent_review449/history/r1_contract_checker_boolean_field_assumed_numeric/first_stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/history/r1_final_checker_registration_vs_decision_locator/audit_final_r1_permanent_freeze_and_current_documents.py",
+      "bytes": 4203,
+      "sha256": "5a9c33aee071b9dc64b3261d58195f6f3ccdb2bcf488ca69dd0b1ee7b3eb83c4",
+      "member": "work/C08_genuine_independent_review449/history/r1_final_checker_registration_vs_decision_locator/audit_final_r1_permanent_freeze_and_current_documents.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/history/r1_final_checker_registration_vs_decision_locator/correction.json",
+      "bytes": 401,
+      "sha256": "3d4251141a7f82d083755797c4ead7cf67076fa528c4677800ff9345ebc8f032",
+      "member": "work/C08_genuine_independent_review449/history/r1_final_checker_registration_vs_decision_locator/correction.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/history/r1_final_checker_registration_vs_decision_locator/first_stderr.log",
+      "bytes": 378,
+      "sha256": "c3255ebe5c63a28e4d50041e50b5c482fb3722e01f65751de64328d13941884b",
+      "member": "work/C08_genuine_independent_review449/history/r1_final_checker_registration_vs_decision_locator/first_stderr.log"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/history/unfrozen_common_before_cache_anchor_fix.py.txt",
+      "bytes": 2858,
+      "sha256": "282b4ea009fef41bf1f097568ab077f5e5f83a582bddbf02e027eb329311f1f9",
+      "member": "work/C08_genuine_independent_review449/history/unfrozen_common_before_cache_anchor_fix.py.txt"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/inherited_review_runner.py",
+      "bytes": 6423,
+      "sha256": "c419787354fe5e81eac99193a80197d5622feca8856c0db4d2b8aa32dd43d24a",
+      "member": "work/C08_genuine_independent_review449/inherited_review_runner.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/manifest.json",
+      "bytes": 38413,
+      "sha256": "0faccb12c1127ec53eaa60eb29adbbf92ec85c17321a2032540b0528b445124d",
+      "member": "work/C08_genuine_independent_review449/manifest.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prepare_new_reference_inputs.py",
+      "bytes": 7010,
+      "sha256": "e85f39076be251eafc37433e5208abfdeae2b1dc5af9fbd80c645f32ad098693",
+      "member": "work/C08_genuine_independent_review449/prepare_new_reference_inputs.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/00_original_scope_and_new_independent_behavior_before_calls.json",
+      "bytes": 7614,
+      "sha256": "ec1d7daee1b850d915da4a1ede1f04d30148fa27d0009e5bf8449fe008c20daa",
+      "member": "work/C08_genuine_independent_review449/prior/00_original_scope_and_new_independent_behavior_before_calls.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/01_exact_new_inputs_and_behavior_before_reference_calls.json",
+      "bytes": 10945,
+      "sha256": "7341b385706bc6088f1701d1029e5249012fd53d011c08c0de3f75ebd058e524",
+      "member": "work/C08_genuine_independent_review449/prior/01_exact_new_inputs_and_behavior_before_reference_calls.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/02_full_native_expected_seal_before_unified_calls.json",
+      "bytes": 8951,
+      "sha256": "e13ce9691442289aab2309bb2ffb9fc5a2855201d4685585f93c856aaaeb87f2",
+      "member": "work/C08_genuine_independent_review449/prior/02_full_native_expected_seal_before_unified_calls.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/03_original251_C20_full_expected_before_unified_calls.json",
+      "bytes": 2317,
+      "sha256": "744f21041f48095c2e5ca2fa0355ffe34fa7ab2f2e94c22527a8487d220aa70c",
+      "member": "work/C08_genuine_independent_review449/prior/03_original251_C20_full_expected_before_unified_calls.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/04_final621_full_native_expected_before_unified_calls.json",
+      "bytes": 2782,
+      "sha256": "e0fa9ecd497adda8eefd7c97a3d35be9a0eaa610118797ca7d3b7cf491c606d7",
+      "member": "work/C08_genuine_independent_review449/prior/04_final621_full_native_expected_before_unified_calls.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/05_affected232_positive_full_expected_before_unified_calls.json",
+      "bytes": 2297,
+      "sha256": "d65aa3bf08bb65e4e076702de1da18a5841811f54620efec296eea64c9c5ec0b",
+      "member": "work/C08_genuine_independent_review449/prior/05_affected232_positive_full_expected_before_unified_calls.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/06_original251_C20_independent_approved_budget_arithmetic.json",
+      "bytes": 1305,
+      "sha256": "a9c04a1af162f74a29297d7decf07d585403e3bdac62906742a40b05922458f7",
+      "member": "work/C08_genuine_independent_review449/prior/06_original251_C20_independent_approved_budget_arithmetic.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/07_last615_root_presealed_original_full_pair_before615_unified_calls.json",
+      "bytes": 1108,
+      "sha256": "4d66e0bf718e2ea280792460331d254aef20190d478e8812724a2faa76f10444",
+      "member": "work/C08_genuine_independent_review449/prior/07_last615_root_presealed_original_full_pair_before615_unified_calls.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/08_r1_schema_behavior_before_actual_normalizer_calls.json",
+      "bytes": 3857,
+      "sha256": "f311dc9be7122450509b2c77e72472b9eb591587b952a4da58f840aa26028660",
+      "member": "work/C08_genuine_independent_review449/prior/08_r1_schema_behavior_before_actual_normalizer_calls.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/397_source_only.json.gz",
+      "bytes": 2709,
+      "sha256": "3ad274f69bad3f40241dacb794d07b433950baf64ed6d9e2979771999f62e595",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/397_source_only.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/616_complete.json.gz",
+      "bytes": 389329,
+      "sha256": "46242b3485bae740fe4ee8246a4fcdb47b979e932a160561b4503a3ab867f3f0",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/616_complete.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/619_complete.json.gz",
+      "bytes": 208893,
+      "sha256": "f712e5855b135b75d5198c7c574bdd2c102fa2677593c2cb2877eea726678d8e",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/619_complete.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/619_knownnegative.json.gz",
+      "bytes": 266186,
+      "sha256": "40ea17220cc28c2a065002fdac16febd97edf24eb4028ac49e478d6f17dac2ba",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/619_knownnegative.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/621_complete_Runxia.json.gz",
+      "bytes": 397314,
+      "sha256": "e9637ee1742bcb14a719d4f9aa06b51b7f482cafc76f09593cee06cd08a31da8",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/621_complete_Runxia.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/affected232_complete_positive_C0.json.gz",
+      "bytes": 13816,
+      "sha256": "063ed591fb27ad27ac665f44d3892b6c3ddcff7552f13a7756f307781b4890c0",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/affected232_complete_positive_C0.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/new616_gap_to0040.json.gz",
+      "bytes": 389360,
+      "sha256": "30b17f2ce240cc9a7d3360581e44cd65d852ec6764a82f479c1c56adf11ea7e7",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/new616_gap_to0040.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/new619_same_function_new_records.json.gz",
+      "bytes": 193576,
+      "sha256": "1ca5969c21aaed401622da46fea6524d03f6d8d0d0ccb82ede7ba765fe8f5607",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/new619_same_function_new_records.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/old31_composer_timegap.json.gz",
+      "bytes": 11460,
+      "sha256": "a08e51a73f97ad8d74f63d79a03c9a51cafbed655e084f31af9ff9b5aafd338a",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/old31_composer_timegap.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/old31_composer_unknown_cannot_hide_badP.json.gz",
+      "bytes": 2064,
+      "sha256": "34f57b6ea929bf4e3fea079a5cc042341fd1bf047fec341e6fa5df41c4e26bd2",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/old31_composer_unknown_cannot_hide_badP.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/complete_native_expected/original251_C20_same_new.json.gz",
+      "bytes": 96100,
+      "sha256": "a7a6535d33f71dc4dfbbc562d6bb082231b085adb28d0a5766c0ee9476059b89",
+      "member": "work/C08_genuine_independent_review449/prior/complete_native_expected/original251_C20_same_new.json.gz"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/final_frozen_delivery_target_acknowledged.json",
+      "bytes": 74690,
+      "sha256": "b6c99875c26280b06b02bf13ad54ba84e6414ea77fd312a178f9fb35b953ac00",
+      "member": "work/C08_genuine_independent_review449/prior/final_frozen_delivery_target_acknowledged.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/397_source_only.json",
+      "bytes": 83,
+      "sha256": "49db2a5ef81bd0ef2935460cdb2ccf90f4a3683fbd686f697fb00da0b8702df7",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/397_source_only.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/616_complete.json",
+      "bytes": 12568,
+      "sha256": "3fda07aa3b810b472f15d86d05b5800c1960398f507ab5f2e6a24eb2b81fd6a3",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/616_complete.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/619_complete.json",
+      "bytes": 12357,
+      "sha256": "cdd7c8b2415489e9315815f752aa4eed15e386766e6cce2e4c7b098ef9c63509",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/619_complete.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/619_knownnegative.json",
+      "bytes": 6688,
+      "sha256": "c2b7aea08837070d077dfae126d807cc8cf2b0b75e457a2e5391d1f2b70408d1",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/619_knownnegative.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/621_complete_Runxia.json",
+      "bytes": 8654,
+      "sha256": "6541f1e3b258b0d7a75110585be993e0a4d1e9bff2eee342800a2af9f2a2be28",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/621_complete_Runxia.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/affected232_complete_positive_C0.json",
+      "bytes": 281,
+      "sha256": "daebb271ee8c6e8b4d9764a4e26a9d6f9622971da813199d539833ef1606f3f6",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/affected232_complete_positive_C0.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/new616_gap_to0040.json",
+      "bytes": 12584,
+      "sha256": "90a93d86ec449d34a8c90fc9f86c629ab3b42c1b9dc41c8063529bbb01f6246c",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/new616_gap_to0040.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/new619_same_function_new_records.json",
+      "bytes": 12538,
+      "sha256": "a1ad2b3a5d511dc859abdd6d1f1c41e5afed0e6ba5bf1eca03424609f3286ea5",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/new619_same_function_new_records.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/old31_composer_timegap.json",
+      "bytes": 23603,
+      "sha256": "08dbe29627ca67e55bb747bf98e03d135ea8932dfac8a9809559a24f97680221",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/old31_composer_timegap.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/old31_composer_unknown_cannot_hide_badP.json",
+      "bytes": 24332,
+      "sha256": "3221ea3f4764d7716b0c9673a91b8d66ef75dd696fdd616c994b4136ecb248c6",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/old31_composer_unknown_cannot_hide_badP.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/native_inputs/original251_C20_same_new.json",
+      "bytes": 24920,
+      "sha256": "8ee3a21ee4c7495430d62d13d7af5f91bfec799ac26469f21c69a82a6085c3d6",
+      "member": "work/C08_genuine_independent_review449/prior/native_inputs/original251_C20_same_new.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/recoverable_checkpoint.json",
+      "bytes": 2869,
+      "sha256": "35c29d41ae9d93f66348d72748296fa87682a4723f9820e31d87d2ef614ac005",
+      "member": "work/C08_genuine_independent_review449/recoverable_checkpoint.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/reference_baseline_child.py",
+      "bytes": 384,
+      "sha256": "491baec30ec0ba716beb755b4a5b00132ffe34a2616c8a2950291894f05d76d8",
+      "member": "work/C08_genuine_independent_review449/reference_baseline_child.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/run_final_unified_delivery_review.py",
+      "bytes": 10356,
+      "sha256": "c8a49649d79136531a0cc69d263c3cf47f3b9a53a4d79875cc0736d52115f01a",
+      "member": "work/C08_genuine_independent_review449/run_final_unified_delivery_review.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/run_last615_full_source_pair.py",
+      "bytes": 4136,
+      "sha256": "bc0942bab8fef96befd51cf98f1c306e27977afe7c68a66dc49da0faaeeab6cb",
+      "member": "work/C08_genuine_independent_review449/run_last615_full_source_pair.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/run_r1_reader379_under_guard.py",
+      "bytes": 3034,
+      "sha256": "b541c92d36830acf2bdb888a189c4787b5308886aa21563c61d0289833934b79",
+      "member": "work/C08_genuine_independent_review449/run_r1_reader379_under_guard.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/seal_original_native_baselines.py",
+      "bytes": 3908,
+      "sha256": "c89aacf0924c463420f3314bbc6cd903d34a7dc2b08e0ec334e60b7310d94c75",
+      "member": "work/C08_genuine_independent_review449/seal_original_native_baselines.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/verify_final_freeze_and_true_move.py",
+      "bytes": 3509,
+      "sha256": "083669b474c4cbcf88d6deceb67d425b8298f86677ac27f7e1d3b9ebc8804a9a",
+      "member": "work/C08_genuine_independent_review449/verify_final_freeze_and_true_move.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_historical_operational_receipt_precision.json",
+      "bytes": 982,
+      "sha256": "33f61c584073ea130eb1d293a2c42934b9c21dd3a1a353cdb640bf367e9131e0",
+      "member": "work/C08_historical_operational_receipt_precision.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_independent449_review_archive_postfreeze_integrity.json",
+      "bytes": 338,
+      "sha256": "ee968b0e0bc522a2f4ac7fc8e0bb7b830266f3ca96689d0fde51d35c21b930fa",
+      "member": "work/C08_independent449_review_archive_postfreeze_integrity.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_root_genuine218_final_proof_validation.json",
+      "bytes": 1437,
+      "sha256": "baf3fb49a63d7d5d3449439e3d860a9f199c57a24c2912f1deb6d06539bb2742",
+      "member": "work/C08_root_genuine218_final_proof_validation.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_root_two_historical_navigation_gap_disposition.json",
+      "bytes": 3601,
+      "sha256": "f6d80327fad1e9d2cd9a97a0f988f945d84bdcffc215c3bb9245eed63029a57d",
+      "member": "work/C08_root_two_historical_navigation_gap_disposition.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_all138_route_transport_boundaries_r2/complete_report.json",
+      "bytes": 59560,
+      "sha256": "f877c98e3a57bbfd8dac32574313f1b83bb10496152481470101122cfa89822f",
+      "member": "work/C08_runtime_integration_after612/actual_all138_route_transport_boundaries_r2/complete_report.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_all95_r1_full_object_SHA_and_alias_validation.json",
+      "bytes": 15086866,
+      "sha256": "2f4310fd1174a676579a3bbad593adce7dcbcd54a45f41404f4ec4638d2d36a8",
+      "member": "work/C08_runtime_integration_after612/actual_all95_r1_full_object_SHA_and_alias_validation.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_disjoint_component_lifecycle_and_loaders/complete_report.json",
+      "bytes": 1154351,
+      "sha256": "b030a8296ba0f921973e78a79e68493a0d9b4390194179b13f4db6c0094c55fc",
+      "member": "work/C08_runtime_integration_after612/actual_disjoint_component_lifecycle_and_loaders/complete_report.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_existing251_fullchain/complete_report.json",
+      "bytes": 3752,
+      "sha256": "6a9e90d062c3b1bbff1a5ed2f15404f77a70b98a216cd1887c8258531975ba4c",
+      "member": "work/C08_runtime_integration_after612/actual_existing251_fullchain/complete_report.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_final_source_research_closure.json",
+      "bytes": 18128,
+      "sha256": "bcc99c08c68515c76b202f3fe201b3d31a13a4d0dae7e83f1c31f0886ca41aca",
+      "member": "work/C08_runtime_integration_after612/actual_final_source_research_closure.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_stable_outputs_final_receipt.json",
+      "bytes": 83137,
+      "sha256": "91ab84a98c0974442243fe053e87151a81e649ee4610734089af89410127c3e7",
+      "member": "work/C08_runtime_integration_after612/actual_stable_outputs_final_receipt.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_stable_outputs_final_handoff.json",
+      "bytes": 3870,
+      "sha256": "513d50150d08a8ca03ed5083b0e22013176a173e9383f3449d7729d07f486325",
+      "member": "work/C08_stable_outputs_final_handoff.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_unified_delivery_increment_after608/original_eight_modules_delivery_evidence_mapping.json",
+      "bytes": 15456,
+      "sha256": "b38127dfc8615e8770e99c3229b1ddd1c40220c6ecc61e3ce6e80e2886d26d48",
+      "member": "work/C08_unified_delivery_increment_after608/original_eight_modules_delivery_evidence_mapping.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/accept_rev624_and_publish625.py",
+      "bytes": 30425,
+      "sha256": "cd5d9173be88d94a1a5cd53d1b65a3f9ceb33a4b38f7e4cf0202940ef95e44e1",
+      "member": "work/accept_rev624_and_publish625.py"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev187_C08_stage075_project_acceptance.json",
+      "bytes": 1050,
+      "sha256": "5834e03790a7d5f81d995a0903bb90c5261f8c5a97cbc779e3a42a5d931a16bc",
+      "member": "work/rev187_C08_stage075_project_acceptance.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev500_C04_stage1_project_acceptance.json",
+      "bytes": 9939,
+      "sha256": "1dc020dd83e6cbef70999ccc451a06430a817c2f57a50288ea4c43b16f6e2ae5",
+      "member": "work/rev500_C04_stage1_project_acceptance.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev54_v1_scope_and_theme_acceptance_plan.json",
+      "bytes": 56457,
+      "sha256": "285a189ce84af93b0c417926986f5cc02ce46518eda20a7d41e845caa31a9369",
+      "member": "work/rev54_v1_scope_and_theme_acceptance_plan.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev570_C02_original_full_acceptance/acceptance_decision.json",
+      "bytes": 12834,
+      "sha256": "cddad94e5d16260354a978be686692d0f74cdd7f9362e46acd2f50131bdbf1f9",
+      "member": "work/rev570_C02_original_full_acceptance/acceptance_decision.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev622_C03_original_full_acceptance/acceptance_decision.json",
+      "bytes": 4938,
+      "sha256": "d77bca18062e4564ce41a106563c71c685655e473d517d6907abdc6613a3027b",
+      "member": "work/rev622_C03_original_full_acceptance/acceptance_decision.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev623_current_algorithm_navigation.json",
+      "bytes": 2696876,
+      "sha256": "4f99a5e188deb71e682afa3ba3d8f096fedf5899734705f1f3542e841254aaea",
+      "member": "work/rev623_current_algorithm_navigation.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev623_effective_current_state_snapshot/current_acceptance_registry.json",
+      "bytes": 178103,
+      "sha256": "06344b2a0027c1515016b2767c281283a98382c8ca3ed1acc2a33eef37cdfd3e",
+      "member": "work/rev623_effective_current_state_snapshot/current_acceptance_registry.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_original_full_acceptance/acceptance_decision.json",
+      "bytes": 15592,
+      "sha256": "f601d86c0fbfab0405ea2457aefdd94ef622a9390e3a5a2d4807fa710e921cd6",
+      "member": "work/rev624_C08_original_full_acceptance/acceptance_decision.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_original_full_acceptance/freeze.json",
+      "bytes": 92,
+      "sha256": "f61de752e8854498146528ea1e8bc760fe160854fc9da3a596a8a5e96e892e4a",
+      "member": "work/rev624_C08_original_full_acceptance/freeze.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_original_full_acceptance/manifest.json",
+      "bytes": 325,
+      "sha256": "7f39a5f1328871605e0bdfa1a514f55b9becfeac303803bf63a17fb278ec8a34",
+      "member": "work/rev624_C08_original_full_acceptance/manifest.json"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_original_full_acceptance/root_substantive_acceptance_reason.txt",
+      "bytes": 4067,
+      "sha256": "498865ff078d8ca5bc261c7eeebc4af87cd871498bdcd92d32405f9c9075051b",
+      "member": "work/rev624_C08_original_full_acceptance/root_substantive_acceptance_reason.txt"
+    }
+  ],
+  "index_itself_bound_by_outer_archive_SHA": true,
+  "archive": "outputs/Part1_最终验收与独立复核记录_rev624.zip",
+  "not_a_second_copy_of_the_large_research_distribution": true
+}

@@ -1,0 +1,482 @@
+从革少火炼金的限定完整模型
+rev232_reforming_metal_whole_research
+所属原模块：C02
+当前采用：rev235_reforming_whole_project_model_adoption.json
+范围：仅固定辛年/丁酉月/辛日/己丑时之声明从革足域。235完整模型已采，251另已采纳真实四柱到B/P/T/C20；不改变原默认或认证其他从革分支。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev232_reforming_metal_whole_research/algorithm_explanations.json
+SHA256：296b1fa4e7f908e66a03f59773b27b10258dd9ece1c9d88877d4e880b378be9d
+
+1. 1
+function：evaluate
+actual_IO_file：algorithm_IO/00_evaluate.json
+IO_sha256：1ba85f6ce6b16579c82b0dda6f4e3ab192659531ec40cd7cbea99ce3cca79ac7
+函数AST摘要：e8c02d969161c2c88104d962e9dbf94db270543af2563bb6e2feed2ab5e7a174
+line：140
+end_line：151
+explanation：要求明确native_triad_primary_context假设。未选→不加载无H；非法/其他口径/源任务未闭分存；只有四盘源清才整盘及AUX。
+来源层次与边界：可复算研究版本，不是从革普遍必要充分条件，不覆盖旧主本默认行为。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/00_evaluate.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+2. 2
+function：load
+actual_IO_file：algorithm_IO/01_load.json
+IO_sha256：362ecc2e809eeb4f6f7843ec700d3aac8412657351f600a146a6324e4f00e811
+函数AST摘要：cbf080201c11520fb4f4f9ab11355cbca9b7e78ede1705080f9290b448df311f
+line：39
+end_line：61
+explanation：读固定314项源材料，检查完整树与新源/前约/原参数；编译同次读验字节后只复用PF1的ROOT/HAP/portfolio/AUX库。
+来源层次与边界：旧PF1完整源/审查口径复用；三命新目标不是旧PF1源域或主本文已采纳profile。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/01_load.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+3. 3
+function：main
+actual_IO_file：algorithm_IO/02_main.json
+IO_sha256：08014079501d9611554d499d899c6fa340f01080d4186daba6488d3e0c6e4538
+函数AST摘要：5afda2959cbb700ac27e6691902b786ca749b722e54654356cd689867814f3b0
+line：152
+end_line：154
+explanation：稳定CLI出口增加捕获OSError与RecursionError。深JSON和源文件缺失均只返回既有error/B/current_H三字段JSON、退出2、stderr空；不制造结果，不掩盖KeyboardInterrupt/SystemExit。计算API evaluate的异常语义保持，只有main负责CLI封装。
+来源层次与边界：软件合同，非新增命理规则。直接复用226实际失败输入；原219700软件失败永久保留。
+实际输入输出：见algorithm_IO/02_main.json
+key_verification：[
+  "repair_atomic_guard_actual.json",
+  "repair_normal_regression_actual.json",
+  "repair_AST_boundary.json"
+]
+
+4. 4
+function：pack
+actual_IO_file：algorithm_IO/03_pack.json
+IO_sha256：85ee1a801d82e96a8c6f65394ce998b331fe4899b32a99a00caf59ea958058c6
+函数AST摘要：27482ad3571cb9af1413300a007719196568428428c3c8b58b4a7ea2e193ed56
+line：25
+end_line：29
+explanation：Fraction按精确分数字符串输出，递归保全图和所有H，不四舍五入选主题。
+来源层次与边界：纯序列化；不添加喜忌。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/03_pack.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+5. 5
+function：research_projection
+actual_IO_file：algorithm_IO/04_research_projection.json
+IO_sha256：45606534b26d39160b9e7d557e2fcf02f8f77cc97027ccaea7459157d74100c2
+函数AST摘要：042e09e7c4511ff9fff7deb76c379a26015b2d14e33c87dd48fda82b9ae1e1c7
+line：137
+end_line：139
+explanation：保全全部H及元素并集；只有并集唯一才给研究单主题候选。两元素未定主次绝不补成1/2或擅取一色。B仍None。
+来源层次与边界：新增三命method_ref与source_profile；不是旧F局部角色载体，不制造project_review。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/04_research_projection.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+6. 6
+function：source_context
+actual_IO_file：algorithm_IO/05_source_context.json
+IO_sha256：766e41bfc22b309693a0b965f9daa56b0f9ec09aee12ada7454c3138b0889eec
+函数AST摘要：9ef597ace1bac5b84fa3dbdac2a8351bb22c3b846a184edf7081526441188c6e
+line：62
+end_line：98
+explanation：先核四柱六项合法性、写火计数、金局、真实火藏根、全部明干/隐任务/关系/调候，再按固定年月时角色位置结构式分流；独立穷举36合法年日组合证4盘，运行不查case名单。重复金局只有一个框架，根表不变。
+来源层次与边界：从革原文有源；一二位歧义、H1/nativeROOT/位置充分域是明确比较工程前件。水土原文许可不等所有未支持盘皆忌。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/05_source_context.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+7. 7
+function：strict
+actual_IO_file：algorithm_IO/06_strict.json
+IO_sha256：b42f9a8f81f5e4227528cfeb95f9f00af40f4f1626eb132bca5e8bc669124dcf
+函数AST摘要：70b3dbac2dc3896c4b105ed39d00d353278656af18e3734c78df9e5111b70b8d
+line：16
+end_line：24
+explanation：解析标准JSON，拒重复键、NaN等不确定输入。
+来源层次与边界：原JSON协议，非命理算法。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/06_strict.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+8. 8
+function：strict.bad
+actual_IO_file：algorithm_IO/07_strict_bad.json
+IO_sha256：f1149be6f9f1c2251da8f87050a0cd7869190ee179a75c44c2477eb34371fb44
+函数AST摘要：3bd45a4cb39147fb32468b755d00bdb91de6c524f631d8bfa1e76038cb13d988
+line：23
+end_line：23
+explanation：拒绝非有限JSON数值；profiling的None是异常展开，不是正常成功返回。
+来源层次与边界：严格输入工程规则。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/07_strict_bad.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+9. 9
+function：strict.pairs
+actual_IO_file：algorithm_IO/08_strict_pairs.json
+IO_sha256：a6f545aa12c5f3383dedc7caef265b21f1d30eefb3f72b2b669bd6f36d439c36
+函数AST摘要：729515ff34737d6cba1bdb88d95483365af435798e7c6fdd13525c0f23a47f07
+line：17
+end_line：22
+explanation：逐键保存，重名即拒绝，防同一输入出现两个解释。
+来源层次与边界：严格输入工程规则；有实际拒绝回放。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/08_strict_pairs.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+10. 10
+function：verify_tree
+actual_IO_file：algorithm_IO/09_verify_tree.json
+IO_sha256：9f81f2a1cf4d587b7704e92dc0de3c3520181a1edb1d1debc33dd9c419c2cd4f
+函数AST摘要：29e978af09c01a1a384203f1e7fbc938e0182df2d4c3167514860dac70599566
+line：30
+end_line：38
+explanation：首执行前核完整原冻结字节、实际manifest与freeze指针、精确件数/路径/逐件SHA和字节数。
+来源层次与边界：保PF1原276及非作者前置11的真实历史状态；不把原pending改成采纳。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/09_verify_tree.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+11. 11
+function：whole_H
+actual_IO_file：algorithm_IO/10_whole_H.json
+IO_sha256：60beaa7967447711562358375f21b1fceed71e05e489d98053ad9dbb4c266194
+函数AST摘要：4697a42758289ddc33f16f970deaeffcb37fe39a05903d9e39f08160c98ef7af
+line：118
+end_line：136
+explanation：枚举火/印/比所有8套正函数套餐，再求所有向上稳健最小集合。将最大失败集变为完整目标覆盖子句交原AUX，实际集合必须与全表相等；所有原藏字与负任务仍在图。
+来源层次与边界：这是声明whole目标下既有演员支持解释，不等整盘最终喜用或所有可盘外补入元素。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/10_whole_H.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+12. 12
+function：world
+actual_IO_file：algorithm_IO/11_world.json
+IO_sha256：7b4d3f7cafb4def94174379d9699fd7043a17efd2c58df412e9dd650d4dba305
+函数AST摘要：2b76a120dfc69a54d67098f0f7875aba6ff61ddd2793aaff03dc1c5f74c56c1f
+line：99
+end_line：117
+explanation：先火生印，再印生日及生比，比受完整火制后扶身；同源max。火生印gross只扣炼金功能预算，克身仍全额；旧3/4库存风险只报告。每个支持组合重算生日/比作用和全部目标。
+来源层次与边界：g1/4 c1/2 远1/2 月3/2 ROOT02沿旧核；火refine双账户、5/4承载和位置迁移皆新工程假说，不是古典数学定律。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/11_world.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+13. 13
+function：world.effect
+actual_IO_file：algorithm_IO/12_world_effect.json
+IO_sha256：235fb63d5003dece5eb96a3ca3ae4155c6d80789800302b3781568c1694694cb
+函数AST摘要：6983ec2e0e1a99fed758c9c2c8d60dc4c32fd4c298a4055991bb0cccb24c0a8c
+line：103
+end_line：104
+explanation：统一生成每条有向实际边的系数、位置衰减和逐origin份额；断边只用于私有诊断，默认不可由调用者调参。
+来源层次与边界：generation/control路径与功能含义分开；关闭fire_refining不自动关闭火克身/生印。；函数AST与原219逐字结构相同，本次实际IO只采一次C0正常路径和NaN回调，不重做旧全域研究。
+实际输入输出：见algorithm_IO/12_world_effect.json
+key_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json",
+  "source_guard_actual.json",
+  "protocol/actual_protocol_boundary.json"
+]
+
+原件：work/rev232_reforming_metal_whole_research/actual_algorithm_IO_AST.json
+SHA256：f816ccd667fedba8e04e6d49b2844cd507c761356fb8e8322e4d99b915f0775d
+
+1. 1
+function：evaluate
+actual_IO_file：algorithm_IO/00_evaluate.json
+IO_sha256：1ba85f6ce6b16579c82b0dda6f4e3ab192659531ec40cd7cbea99ce3cca79ac7
+函数AST摘要：e8c02d969161c2c88104d962e9dbf94db270543af2563bb6e2feed2ab5e7a174
+line：140
+end_line：151
+
+2. 2
+function：load
+actual_IO_file：algorithm_IO/01_load.json
+IO_sha256：362ecc2e809eeb4f6f7843ec700d3aac8412657351f600a146a6324e4f00e811
+函数AST摘要：cbf080201c11520fb4f4f9ab11355cbca9b7e78ede1705080f9290b448df311f
+line：39
+end_line：61
+
+3. 3
+function：main
+actual_IO_file：algorithm_IO/02_main.json
+IO_sha256：08014079501d9611554d499d899c6fa340f01080d4186daba6488d3e0c6e4538
+函数AST摘要：5afda2959cbb700ac27e6691902b786ca749b722e54654356cd689867814f3b0
+line：152
+end_line：154
+
+4. 4
+function：pack
+actual_IO_file：algorithm_IO/03_pack.json
+IO_sha256：85ee1a801d82e96a8c6f65394ce998b331fe4899b32a99a00caf59ea958058c6
+函数AST摘要：27482ad3571cb9af1413300a007719196568428428c3c8b58b4a7ea2e193ed56
+line：25
+end_line：29
+
+5. 5
+function：research_projection
+actual_IO_file：algorithm_IO/04_research_projection.json
+IO_sha256：45606534b26d39160b9e7d557e2fcf02f8f77cc97027ccaea7459157d74100c2
+函数AST摘要：042e09e7c4511ff9fff7deb76c379a26015b2d14e33c87dd48fda82b9ae1e1c7
+line：137
+end_line：139
+
+6. 6
+function：source_context
+actual_IO_file：algorithm_IO/05_source_context.json
+IO_sha256：766e41bfc22b309693a0b965f9daa56b0f9ec09aee12ada7454c3138b0889eec
+函数AST摘要：9ef597ace1bac5b84fa3dbdac2a8351bb22c3b846a184edf7081526441188c6e
+line：62
+end_line：98
+
+7. 7
+function：strict
+actual_IO_file：algorithm_IO/06_strict.json
+IO_sha256：b42f9a8f81f5e4227528cfeb95f9f00af40f4f1626eb132bca5e8bc669124dcf
+函数AST摘要：70b3dbac2dc3896c4b105ed39d00d353278656af18e3734c78df9e5111b70b8d
+line：16
+end_line：24
+
+8. 8
+function：strict.bad
+actual_IO_file：algorithm_IO/07_strict_bad.json
+IO_sha256：f1149be6f9f1c2251da8f87050a0cd7869190ee179a75c44c2477eb34371fb44
+函数AST摘要：3bd45a4cb39147fb32468b755d00bdb91de6c524f631d8bfa1e76038cb13d988
+line：23
+end_line：23
+
+9. 9
+function：strict.pairs
+actual_IO_file：algorithm_IO/08_strict_pairs.json
+IO_sha256：a6f545aa12c5f3383dedc7caef265b21f1d30eefb3f72b2b669bd6f36d439c36
+函数AST摘要：729515ff34737d6cba1bdb88d95483365af435798e7c6fdd13525c0f23a47f07
+line：17
+end_line：22
+
+10. 10
+function：verify_tree
+actual_IO_file：algorithm_IO/09_verify_tree.json
+IO_sha256：9f81f2a1cf4d587b7704e92dc0de3c3520181a1edb1d1debc33dd9c419c2cd4f
+函数AST摘要：29e978af09c01a1a384203f1e7fbc938e0182df2d4c3167514860dac70599566
+line：30
+end_line：38
+
+11. 11
+function：whole_H
+actual_IO_file：algorithm_IO/10_whole_H.json
+IO_sha256：60beaa7967447711562358375f21b1fceed71e05e489d98053ad9dbb4c266194
+函数AST摘要：4697a42758289ddc33f16f970deaeffcb37fe39a05903d9e39f08160c98ef7af
+line：118
+end_line：136
+
+12. 12
+function：world
+actual_IO_file：algorithm_IO/11_world.json
+IO_sha256：7b4d3f7cafb4def94174379d9699fd7043a17efd2c58df412e9dd650d4dba305
+函数AST摘要：2b76a120dfc69a54d67098f0f7875aba6ff61ddd2793aaff03dc1c5f74c56c1f
+line：99
+end_line：117
+
+13. 13
+function：world.effect
+actual_IO_file：algorithm_IO/12_world_effect.json
+IO_sha256：235fb63d5003dece5eb96a3ca3ae4155c6d80789800302b3781568c1694694cb
+函数AST摘要：6983ec2e0e1a99fed758c9c2c8d60dc4c32fd4c298a4055991bb0cccb24c0a8c
+line：103
+end_line：104
+
+原件：work/rev232_reforming_metal_whole_research/rules_ten_fields.json
+SHA256：35ad953eac661c6c3ce964af148a66fa14007ec5cb37ebc38bb66207aef24008
+
+1. SANMING-从革/SM-REFORMING-source
+算法标识：SANMING-从革/SM-REFORMING-source
+1_source：NLC42998 PDF153–154卷六叶32–33；S-V6；四库录文卷06从革
+2_source_layer：原书正文/诗、电子转录、独立注释和工程规则明确分层；见source/source_read_receipt.json
+3_school：比较来源专旺
+4_conditions：金日巳酉丑局，少火炼、不可火多；辛三日五月警语
+5_exclusions：不可一律无火；本次只八月固定四柱位置
+6_change_conditions：年月/根/火计数/实际角色变化重分流
+7_conflict_and_reason：保持主本文、三命与其他专旺禁忌分开；不多数投票
+8_executable_rule：source_context literalconditions beforeH
+9_verification：[
+  "independent_preproducer/independent_source_legality_expectations.json",
+  "boundary_source_actual.json"
+]
+10_status：bounded_research_candidate_not_adopted
+
+2. SANMING-从革/count-ambiguity
+算法标识：SANMING-从革/count-ambiguity
+1_source：同条一二位；既有special primitives named_counts
+2_source_layer：原书正文/诗、电子转录、独立注释和工程规则明确分层；见source/source_read_receipt.json
+3_school：源字+工程充分域
+4_conditions：一明丁+一巳，2字/2owner兼容
+5_exclusions：3字2owner不能暗选一义；完整局真0火不可能
+6_change_conditions：加丁/午会改变计数，换柱可能保持总数
+7_conflict_and_reason：图保巳/已形近；本次规范化巳不是全版本校定
+8_executable_rule：characters<=2 AND owners<=2 AND one_exposedfire
+9_verification：[
+  "independent_preproducer/old_primitive_actual_comparison.json",
+  "boundary_source_actual.json"
+]
+10_status：bounded_research_candidate_not_adopted
+
+3. SANMING-从革/native-root-frame
+算法标识：SANMING-从革/native-root-frame
+1_source：源金局又需火；ROOT02/HAP03原源库
+2_source_layer：原书正文/诗、电子转录、独立注释和工程规则明确分层；见source/source_read_receipt.json
+3_school：源框架+工程比较
+4_conditions：显式nativeROOT非强制化金假设；真实巳藏火+正ROOT
+5_exclusions：不由局名清火根；阴长生丁酉资格不能冒真实火藏字
+6_change_conditions：关闭真实火根资格必须失去rootgoal，其他库存仍保
+7_conflict_and_reason：框架三合与实际藏干/气根/独立发用三账分开
+8_executable_rule：source_triads dedup; retain ROOT; HAP beforeH
+9_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json"
+]
+10_status：bounded_research_candidate_not_adopted
+
+4. SANMING-从革/fire-positive-negative
+算法标识：SANMING-从革/fire-positive-negative
+1_source：少火炼成器/火多伤；旧g/c/reach工程迁移
+2_source_layer：原书正文/诗、电子转录、独立注释和工程规则明确分层；见source/source_read_receipt.json
+3_school：正负整盘工程
+4_conditions：火炼正量且真实火根；完整火压日/比始终计算
+5_exclusions：不得关正面同时删除伤身；未证贪生忘克不自动免攻
+6_change_conditions：断炼功能H失；实际压身保持；断生印影响生日并释放炼用预算
+7_conflict_and_reason：炼金不是生日加分，火还可造成过载
+8_executable_rule：remaining=A*(1-gross_draw/A); refine=c*reach*remaining; fullpressure=c*reach*A
+9_verification：[
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json"
+]
+10_status：bounded_research_candidate_not_adopted
+
+5. SANMING-从革/print-peer-body
+算法标识：SANMING-从革/print-peer-body
+1_source：水土养育食印为吉；旧stock 3/4见old78profile
+2_source_layer：原书正文/诗、电子转录、独立注释和工程规则明确分层；见source/source_read_receipt.json
+3_school：源许可+完整代理
+4_conditions：印生身、生比；比受火后扶；全originmax
+5_exclusions：不按印presence全免火；不把旧half官门作三命必要
+6_change_conditions：关生日BODY下降，火pressure不随之消失
+7_conflict_and_reason：gross33/32、net1/8、legacyrisk183/32分别回答不同问题
+8_executable_rule：I=max(I0,gA); U=max(U0,gI); Uretfire; BODY=max(D,gI,gUret)
+9_verification：[
+  "hand_expectations_before_calls.json",
+  "whole_behavior_actual.json",
+  "boundary_source_actual.json"
+]
+10_status：bounded_research_candidate_not_adopted
+
+6. SANMING-从革/carry
+算法标识：SANMING-从革/carry
+1_source：5/4为既有工程裕度；无原典精确数值
+2_source_layer：原书正文/诗、电子转录、独立注释和工程规则明确分层；见source/source_read_receipt.json
+3_school：承载工程
+4_conditions：BODY严格大于5/4*完整火压
+5_exclusions：等号失败；不能只因少火字数就无条件通过
+6_change_conditions：改变margin为私有等号探针，不暴露公开调参
+7_conflict_and_reason：BODY未预扣火；carry只比较一次，不声守恒气力
+8_executable_rule：BODY>margin*pressure
+9_verification：[
+  "boundary_source_actual.json"
+]
+10_status：bounded_research_candidate_not_adopted
+
+7. SANMING-从革/full-H
+算法标识：SANMING-从革/full-H
+1_source：新具名目标合同+原AUX完整覆盖算法
+2_source_layer：原书正文/诗、电子转录、独立注释和工程规则明确分层；见source/source_read_receipt.json
+3_school：整盘支持解释
+4_conditions：源清四盘，火印比所有8套餐完整目标通过子集求解释
+5_exclusions：不得source name→火F；不得删掉未选演员/伤害
+6_change_conditions：每个函数off重算全目标，全部替代保留
+7_conflict_and_reason：supports≠所有source_used_roles≠全局最终喜用≠盘外救应
+8_executable_rule：robust[S]=all(formed[T] for T supersetS); all minimal sets; actualAUX==table
+9_verification：[
+  "whole_behavior_actual.json",
+  "actual_algorithm_IO_AST.json"
+]
+10_status：bounded_research_candidate_not_adopted
+
+8. SANMING-从革/product-boundary
+算法标识：SANMING-从革/product-boundary
+1_source：原semanticB/P/C20 profile白名单；当前新方法未独审采纳
+2_source_layer：原书正文/诗、电子转录、独立注释和工程规则明确分层；见source/source_read_receipt.json
+3_school：产品工程
+4_conditions：全H元素并集唯一才研究单主题候选
+5_exclusions：项目B/颜色更新仍无权限条件；不造accepted/project_review
+6_change_conditions：新真实源政策与桥独审后才允许正向新profile接合
+7_conflict_and_reason：旧主本协议/预算不改，方法不同不混算
+8_executable_rule：research_projection; originalbridge/P/C20 actualrefusal
+9_verification：[
+  "protocol/actual_protocol_boundary.json"
+]
+10_status：bounded_research_candidate_not_adopted
+
+9. SOFTWARE-CLI-ATOMIC-REJECTION-232
+算法标识：SOFTWARE-CLI-ATOMIC-REJECTION-232
+1_source：任务要求的原子事件反馈；rev226 early_guard两真实失败，字节见repair_evidence
+2_source_layer：纯软件错误封装，不归为三命原文/注释或任何命理推断
+3_school：接口协议
+4_conditions：main解析JSON递归溢出，或固定源材料读取触发OSError
+5_exclusions：不吞KeyboardInterrupt/SystemExit，不返回虚构H/B；evaluate直接调用者的异常协议未改
+6_change_conditions：修复资料后正常原始请求重新计算；坏输入/缺源仍不得生成结果
+7_conflict_and_reason：没有证据的判断不能更新产品；稳定JSON错误比栈trace更可由调用层处理
+8_executable_rule：except(ValueError,KeyError,TypeError,ArithmeticError,OSError,RecursionError): print(error,B=None,current_H=None);return2
+9_verification：同226两原payload：API main/真CLI单JSON、exit2、stderr0、首次provider0和H0；C0/C2完整结果只改impl/core
+10_status：implementation_patch_pending_nonauthor_incremental_review
+

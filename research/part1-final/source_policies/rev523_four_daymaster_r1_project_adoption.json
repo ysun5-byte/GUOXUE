@@ -1,0 +1,98 @@
+{
+  "schema": "523-exact505r1-after516-fourdaymaster-with-reading-errata/1",
+  "revision": 523,
+  "registered_utc": "2026-11-03T10:51:16.458611+00:00",
+  "status": "adopted_exact505_0.1.1_257_after51657_plus_required_document_errata",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev505_r1_author_completion_handoff.json",
+    "bytes": 13464,
+    "sha256": "1d8922216ebb2bd1ae550ab1758114905f931c6b0bf1bc2f823d6d67732e75d0"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev516_independent_completion_handoff_r1.json",
+    "bytes": 3581,
+    "sha256": "c21840b38e7beee1c2fff790a9015cf1b0d2350897b7278b74f42851de113421"
+  },
+  "author_frozen_verified": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev505_four_daymaster_true_transformation_r1",
+    "files": 257,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev505_four_daymaster_true_transformation_r1/manifest.json",
+      "bytes": 47511,
+      "sha256": "9bf186aa125ede027c332742e677799ee355a52df06105528777e0048181a3ba"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev505_four_daymaster_true_transformation_r1/freeze.json",
+      "bytes": 167,
+      "sha256": "66c734f2b1e3cb4da9e63333f7306f248d8487666b9883fe8bc09c2352dba267"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen_verified": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev516_fourform_independent_review",
+    "files": 57,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev516_fourform_independent_review/manifest.json",
+      "bytes": 10037,
+      "sha256": "d6664408dfe54af547158275538033d48c1f474ea345718882dd3bf9fe517986"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev516_fourform_independent_review/freeze.json",
+      "bytes": 139,
+      "sha256": "5c25cfc2bda688d38a0b0fd8176b747e45bf8fda7e2a47cf4b9fecedefa2c7cd"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "effective_rules8": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev505_four_daymaster_true_transformation_r1/rules_ten_fields_r1.json",
+    "bytes": 14143,
+    "sha256": "3b279df4a3fdd8bc571024276030f10d0b95ff5d4986f2bc33184447707a1513"
+  },
+  "effective_algorithms51": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev505_four_daymaster_true_transformation_r1/function_explanations51_r1.json",
+    "bytes": 118385,
+    "sha256": "d94938bce5109a6bf92461d38c1a2d173942b7aa2dd7e4c4743a17bb1b854590"
+  },
+  "required_document_errata": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev516_current_review_correction/effective_reading_errata_corrected.json",
+    "bytes": 1787,
+    "sha256": "61736c0aa7805034cd24defc94af7a6e457794f707e3d911c22955edc25d0239"
+  },
+  "current_source_lock": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev505_four_daymaster_true_transformation_r1/source_execution_lock.json",
+    "bytes": 6158,
+    "sha256": "a5774d39099214ae9967ad467305317208872fa1bb185c159061bec0d43c8fee"
+  },
+  "old505_0_1_not_adopted_or_modified": true,
+  "source_layer": "1947滴天髓阐微PDF374原注严格季/辰等足域与376任注旺余宜泄分别解释；反向日主、数字份额、形成充分证书和1/32门是工程推论。",
+  "actual_fourforms": "甲己土/乙庚金/丙辛水/戊癸火，与反向日主，各算原日原根原角色、所有实际生克与费用。化神是功能参照，不造新日干。",
+  "specific_actual_bug_and_fix": "literal actor presence separate from initialdirect；zero-witnessgroup1/n receiving without extra root/float；native retainszero-stock real day. Actual whole samecost generation/control and negativegraph retained. Source/goals/3profiles unchanged.",
+  "all_parameters_reported": "b=c 1/5、1/4、1/3独立具名执行；不按结果挑参数，也不声称古书有这些常数。",
+  "new_independent54_fullworlds_and336_H": {
+    "worlds": 54,
+    "edges": 3204,
+    "edge_origin_fields": 138456,
+    "actor_budgets": 678,
+    "H_masks": 336
+  },
+  "current25_IO": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev516_fourform_independent_review/r1_nonauthor_current25_actual_IO.json.gz",
+    "bytes": 89312,
+    "sha256": "984396676b4a1f5b9fc880da6da390a4d6c94bd90b45e449fd7ed476d2f9475d"
+  },
+  "all51_algorithm_AST_and_contracts": true,
+  "old102_and84unchanged_reuse": "作者修复前独立重推102，旧84全值不变，6旧问题世界重推；原90共享错误已保历史，不能拿它证明修复。516另54新全图/原点/费用/336H核对，不重复无变化旧域。",
+  "complete_public_and_readonly": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev516_fourform_independent_review/r1_existing_readonly_and_public_actual.json",
+    "bytes": 8446,
+    "sha256": "ae1c4dabf103aa553da84212a7fe744205554573d7b540da326563f4c4b95f53"
+  },
+  "source_data_accuracy_implementation_reality_separate": true,
+  "remaining_original_scope": "四式旺余泄题有限分支已贯通；不足助化、阴寒/燥湿/财官等原问题仍按原范围推进。其他普通格/真假从/虚邀/曲直、C03实际变化/缺失干预及最终全交付不因本分支采用而自动完成。",
+  "progress": "88.75/100",
+  "progress_delta": "0.00",
+  "all_original_C02_complete": false,
+  "all_original_task_complete": false,
+  "empirical_prediction_validated": false,
+  "no_B_theme_display_work": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "project-archived-conditional-self-combination-148",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "accepted_conditional_research_archive_only",
+  "aggregate_acceptance": {
+    "component": "rev149_self_combination_archive_acceptance",
+    "files": 3,
+    "manifest_sha256": "446d31050cd6e6a71f2c738f9062b06e2cbce94c458d83de5f4445c1e3110a23",
+    "freeze_sha256": "cae6673b856b8e85658cca25398e7e522deacc22ff95e3c87d8d22c184312bc0",
+    "report_sha256": "16af05b4c1fc7d18ba0b31954441d3e2bd27b4fb4704926ae20e8844cc4fdfb3"
+  },
+  "target": {
+    "component": "rev148_self_combination_whole_v0_1_2",
+    "files": 578,
+    "manifest_sha256": "26ee498829dc1474a9ecda444680651f3936ee0cd58e4e152008e697b869ffea",
+    "freeze_sha256": "3ba56ac2036bdef402b6ecfc8551a1bbd5a82b8c7f56f270b591e565cc99d8c0"
+  },
+  "review": {
+    "component": "rev149_self_combination_independent",
+    "files": 60,
+    "manifest_sha256": "824a95e25a3aabc0799c0375f609d40ebb172d17f04f0d0a8060a45b05c13017",
+    "freeze_sha256": "c26c036f6ac45f567f2529580c811b2a6740c7b0de76f65bbd6a21d63ee22d02"
+  },
+  "conditional_calculator_accepted": true,
+  "unconditional_classifier_adopted": false,
+  "B_default_C20_or_color_adopted": false,
+  "source_hypothesis_required": true,
+  "failure_history_retained": true,
+  "original_core_gap_closed": false,
+  "progress_delta": "0.00"
+}

@@ -1,0 +1,808 @@
+从革完整结果到个人基础及象征联算
+rev231_reforming_profile_bridge
+所属原模块：C02/C05/C06
+当前采用：rev251_reforming_bridge_project_adoption.json
+范围：实际四柱→232完整正负及全部H→真实235模型采纳→唯一元素基础→P/T/C20；显式独立三命方法，原默认B12不变。同色不免实际方法相同与有效兼容门，新旧完整基础记录须各自真实重新导出。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev231_reforming_profile_bridge/algorithm_explanations.json
+SHA256：a5b5007bed8a5362bd8ef40438b032fd0940ce6b7b1459f74383be0a04c654c6
+
+{
+  "bridge_version": "sanming-reforming-whole-to-base/0.1",
+  "bridge_core_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+  "protocol_entry_sha256": "e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e",
+  "new_entry_algorithms20_and_guard_changes3": [
+    {
+      "file": "profile_bridge.py",
+      "function": "build_theme",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "868495e8f018fc4f2d0f8617c95847592c324857ef22792389ec44d788191c87",
+      "line": 138,
+      "end_line": 145,
+      "actual_IO_file": "actual_IO/00_profile_bridge_build_theme.json",
+      "actual_IO_sha256": "00ad3a467614d23046fdb3c87c009004e7f7ebf73cf24b8ff5a0eb3041efa355",
+      "explanation": "根据真实235来源政策与完整模型结果构造可追溯的模型结果采纳记录；单主题仅取唯一并集。记录表示该具名方法内final支持，桥实现和生产默认仍待另审。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/00_profile_bridge_build_theme.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "canonical",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+      "line": 24,
+      "end_line": 24,
+      "actual_IO_file": "actual_IO/01_profile_bridge_canonical.json",
+      "actual_IO_sha256": "0e62bd0fc1a181251355ae7cb40da560eb3b94e19377b28f7e5a0b1fed2e5a69",
+      "explanation": "统一有序JSON用于内容身份，拒非有限数值；不改变元素或权重。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/01_profile_bridge_canonical.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "declared",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "285c07aa4add98fe629db32d9d00bad50616d0759369623074070cca281583e8",
+      "line": 35,
+      "end_line": 35,
+      "actual_IO_file": "actual_IO/02_profile_bridge_declared.json",
+      "actual_IO_sha256": "d81f30e2da345e21745df1e73983ff532216d00aee0ce7e6d69b0e0547ba5f0b",
+      "explanation": "从已验源代码AST读取真实VERSION/PROFILE/IMPL，核它们与235政策一致。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/02_profile_bridge_declared.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "digest",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+      "line": 25,
+      "end_line": 25,
+      "actual_IO_file": "actual_IO/03_profile_bridge_digest.json",
+      "actual_IO_sha256": "ee47c6be927773e949a8289a30ab35044adbe2234ef83964f4c76edc5503ac97",
+      "explanation": "计算完整输入/结果/证据哈希；相同标识不能靠换内容冒作同一决策。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/03_profile_bridge_digest.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "evaluate",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "c8ca8c66de66359a38219aa261fa3e8a30de474b45c682af165bcffd3a554519",
+      "line": 146,
+      "end_line": 158,
+      "actual_IO_file": "actual_IO/04_profile_bridge_evaluate.json",
+      "actual_IO_sha256": "e3f1a39bfe1f69899954d45340aa00929a5c9dffe8201383bed1c3bd194cfa94",
+      "explanation": "先形状再源政策，再从实际原始四柱算232；源外/未决/假设未选/使用期未知分别有明确反馈，绝不按哪个H成功换模型。全H唯一才走实际theme/B桥。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/04_profile_bridge_evaluate.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "load",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "85fd128a333773964560cf9d91ee8ac7e368ad10e5e1f1d5d54a55c8bb06d888",
+      "line": 75,
+      "end_line": 102,
+      "actual_IO_file": "actual_IO/05_profile_bridge_load.json",
+      "actual_IO_sha256": "fb94324cf1db4d5c855e73fcce332e7da34dff4e61f6c9d5c653025b4ab277e5",
+      "explanation": "读取全部1813固定源字节，核六个完整原件树、原128别名、新128派生图和契约独立字节锚；用同次读取的代码编译。初版两文档可连贯重封的缺口已留失败/修复证据。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/05_profile_bridge_load.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "main",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "ed4860d0c4211e83ecb5a037d575b930a9d20aa55b08885bf8dd1d66d2defbcd",
+      "line": 159,
+      "end_line": 164,
+      "actual_IO_file": "actual_IO/06_profile_bridge_main.json",
+      "actual_IO_sha256": "7f032d1250fbf645c1af2564c7af3f890220d007ac4257e8ae963f48af26f7eb",
+      "explanation": "真实stdin/JSON输出；包含OSError/RecursionError的原子错误出口，失败无B，不能创建兜底喜用。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/06_profile_bridge_main.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "strict",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "0c34b66a379aa253c4b0e693c4a4e16898792df1b2d4e42ff3bc3915a8843329",
+      "line": 26,
+      "end_line": 34,
+      "actual_IO_file": "actual_IO/07_profile_bridge_strict.json",
+      "actual_IO_sha256": "1587d07f8bca7f35e879f1038c90d1a62d843dfa79a06e7d42f8ee8ce8372507",
+      "explanation": "解析JSON并保留可拒绝重复键/NaN的入口；深输入由main原子拒绝。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/07_profile_bridge_strict.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "strict.bad",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31",
+      "line": 33,
+      "end_line": 33,
+      "actual_IO_file": "actual_IO/08_profile_bridge_strict_bad.json",
+      "actual_IO_sha256": "c586e802e4e28671b062cfe098600d1b5f56bf07c3b9c7c0657d896918518bf0",
+      "explanation": "拒绝NaN/Infinity；实际异常展开的None不是正常计算结果。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/08_profile_bridge_strict_bad.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "strict.pairs",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "9075480b319c0822c8ca4417cecda3109df067d5c6bc7d535345c0c4a3e927f5",
+      "line": 27,
+      "end_line": 32,
+      "actual_IO_file": "actual_IO/09_profile_bridge_strict_pairs.json",
+      "actual_IO_sha256": "5c092a16517c0bc36c3f0066bc8a322d26a3e2aa92e874b053c56b696e9c5c14",
+      "explanation": "逐键检查重复，避免同一method、schema或输入有两个含义。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/09_profile_bridge_strict_pairs.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "validate",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "093a6140b1a1eb6add8dee76fc0a74e1c69ab48a02ac088591c3934c6d365f52",
+      "line": 109,
+      "end_line": 116,
+      "actual_IO_file": "actual_IO/10_profile_bridge_validate.json",
+      "actual_IO_sha256": "1a208c3ebb7e3e1f9280ca85c34018ec5232de9c051d8827dbf27332eb4b5be5",
+      "explanation": "在基础形状后复用原B的UTC/有效期/身份约定；用户的有效期是使用声明，不认证出生事实。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/10_profile_bridge_validate.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "validate_shape",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "ab2f6640af944dbfe305a6841539a99f91fadb247d1949b04afdbce4ab09d970",
+      "line": 103,
+      "end_line": 108,
+      "actual_IO_file": "actual_IO/11_profile_bridge_validate_shape.json",
+      "actual_IO_sha256": "73b51c709fe22d2420fb5d56dc540cc3d15cefae85e6ed8ced123f57f88561ed",
+      "explanation": "任何provider前拒绝错schema、多字段、非bool研究假设、错四柱形状；不接收caller ready/H/权重。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/11_profile_bridge_validate_shape.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "verify_policies",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "2b4ba9f1e02374d7d3da9b1f37e393d815862174d7e50bea7a8fdbb4a1c887f5",
+      "line": 44,
+      "end_line": 74,
+      "actual_IO_file": "actual_IO/12_profile_bridge_verify_policies.json",
+      "actual_IO_sha256": "4c821be85e5f60e0e9bb885bcc687c3596b5fb48cb586357bdcc70146940c1cd",
+      "explanation": "把235真实政策、232837、22689、235聚合3及地区212/202/211全目标/报告/冻结对应，所有检查早于模型或协议provider执行。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/12_profile_bridge_verify_policies.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "verify_tree",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "ca492f4cbd01ab67390065dfe3bf0a1ab14f02be2e87683716fa0a2a7a995c8e",
+      "line": 36,
+      "end_line": 43,
+      "actual_IO_file": "actual_IO/13_profile_bridge_verify_tree.json",
+      "actual_IO_sha256": "6735e5e48020ee8065602eacbb1a162d09d9b6fda9decbd1394203eb918d0137",
+      "explanation": "核整个已知原冻结、真实manifest指针、逐件内容与精确路径/件数；不只验外层自洽哈希。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/13_profile_bridge_verify_tree.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "profile_bridge.py",
+      "function": "whole_selection",
+      "source_sha256": "bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a",
+      "AST_sha256": "f5df7b4d3d542ff5b985962d7683c882002d4c6cf380a4238cf4872169144b53",
+      "line": 117,
+      "end_line": 137,
+      "actual_IO_file": "actual_IO/14_profile_bridge_whole_selection.json",
+      "actual_IO_sha256": "e26f396548e6621a59f715a2e72083c84224a72908f19a0ddf3dac22357e0f04",
+      "explanation": "检查实际源清、全部8套餐与四个目标真值、向上稳健最小集合，重新调用原AUX核完整图，再从全部演员集合求元素并集。逐set单元素不等整盘并集唯一。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/14_profile_bridge_whole_selection.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "protocol_entry.py",
+      "function": "evaluate",
+      "source_sha256": "e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e",
+      "AST_sha256": "b2853a45b44f1519866ba3b1da0c2560632681378b1d285b67cce0357d90f1f9",
+      "line": 18,
+      "end_line": 23,
+      "actual_IO_file": "actual_IO/15_protocol_entry_evaluate.json",
+      "actual_IO_sha256": "a61fea2e0645f26ee1b2957856fff0a5b9b726f63555f8b500377c526e278de1",
+      "explanation": "先检查操作和完整原协议输入，验桥代码指纹，再走同一个1813源政策门，调用真实原P/T/C20功能；不把请求方结果当已计算报告。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/15_protocol_entry_evaluate.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "protocol_entry.py",
+      "function": "main",
+      "source_sha256": "e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e",
+      "AST_sha256": "c686f8ffa74288725394155033c31bffa76aaa96e0d5e784a2ce71c49fbe4b70",
+      "line": 24,
+      "end_line": 26,
+      "actual_IO_file": "actual_IO/16_protocol_entry_main.json",
+      "actual_IO_sha256": "f0d446205906f253b488233b3067450c869a207998bf13c361ad1785d8b04518",
+      "explanation": "P/T/C20独立CLI入口；严格JSON和原子错误，API/CLI真实全文相等。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/16_protocol_entry_main.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "protocol_entry.py",
+      "function": "strict",
+      "source_sha256": "e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e",
+      "AST_sha256": "0c34b66a379aa253c4b0e693c4a4e16898792df1b2d4e42ff3bc3915a8843329",
+      "line": 9,
+      "end_line": 17,
+      "actual_IO_file": "actual_IO/17_protocol_entry_strict.json",
+      "actual_IO_sha256": "ab82515429e72157838c34b28a5544553a2dbcb40479c76c6398dd819b40041e",
+      "explanation": "解析JSON并保留可拒绝重复键/NaN的入口；深输入由main原子拒绝。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/17_protocol_entry_strict.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "protocol_entry.py",
+      "function": "strict.bad",
+      "source_sha256": "e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e",
+      "AST_sha256": "b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31",
+      "line": 16,
+      "end_line": 16,
+      "actual_IO_file": "actual_IO/18_protocol_entry_strict_bad.json",
+      "actual_IO_sha256": "cb4cacf3347fcf69c83bc1e9a80796859dda6f79c48d23548aee73b1a61f859a",
+      "explanation": "拒绝NaN/Infinity；实际异常展开的None不是正常计算结果。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/18_protocol_entry_strict_bad.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "protocol_entry.py",
+      "function": "strict.pairs",
+      "source_sha256": "e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e",
+      "AST_sha256": "9075480b319c0822c8ca4417cecda3109df067d5c6bc7d535345c0c4a3e927f5",
+      "line": 10,
+      "end_line": 15,
+      "actual_IO_file": "actual_IO/19_protocol_entry_strict_pairs.json",
+      "actual_IO_sha256": "13af9abbcabfcca906cea26dda7d0b03fe9d4e675ce4db00e35a47a5ffd0eefb",
+      "explanation": "逐键检查重复，避免同一method、schema或输入有两个含义。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/19_protocol_entry_strict_pairs.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "runtime/profile_protocol/region_lookup_composer.py",
+      "function": "validate_request",
+      "source_sha256": "b3302752327a58592c0ca759b542dbbf89cb4dac5d051c865e917a6b43ecdcf5",
+      "AST_sha256": "ffe4e3ef55cf83c5286cad27bbac116661e91085facc5053882d02088465525d",
+      "line": 131,
+      "end_line": 189,
+      "actual_IO_file": "actual_IO/20_region_lookup_composer_validate_request.json",
+      "actual_IO_sha256": "771c9446f9ccf5fd8010fcc839d40dd24acc6688ee6bc997bed2f733a4cad3f9",
+      "explanation": "地区C20只增加同一个二元组；既有地理来源版本、位置有效期、T/P/B身份联结和C20/D2/C0保持。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/20_region_lookup_composer_validate_request.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "runtime/profile_protocol/依赖快照/peer_context_v0_1/peer_context.py",
+      "function": "base_status",
+      "source_sha256": "a14c0e2f536f5a03227199dfa778026484d4f5e31797b6bb00c5074c32412c14",
+      "AST_sha256": "b382e439855976757418a79dcebaa5ae32ec41e61cac9c554369415a08bd16bc",
+      "line": 192,
+      "end_line": 200,
+      "actual_IO_file": "actual_IO/21_peer_context_base_status.json",
+      "actual_IO_sha256": "2af6a130f9ccd301baff31307f55771a47a78af0698834538ee1c2e7c2c1fc22",
+      "explanation": "原P只增加该二元组准入；后面的same-method AND有效兼容、当前存在与10%多人总上限全部不变。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/21_peer_context_base_status.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    },
+    {
+      "file": "runtime/profile_protocol/依赖快照/theme_projection_v0_2/theme_projection.py",
+      "function": "validate_context",
+      "source_sha256": "e91b39a5ad71c93e8540df22f47cc47a7cc9242ffc1f860f4833a71805f30297",
+      "AST_sha256": "626076f52b1dc2d004a31f1e4fe7f43f0dab20b5042a4c9e64713c04d53a58bf",
+      "line": 79,
+      "end_line": 130,
+      "actual_IO_file": "actual_IO/22_theme_projection_validate_context.json",
+      "actual_IO_sha256": "7a63b95edf54c555b93a315fa7ed22853f9d0d2f09fd68e6865efc9109fc2ed5",
+      "explanation": "原主题验证器只增加明确三命(profile,method)二元组；其余旧primary校验与单/双主题规则保持。",
+      "source_layer": "桥接/身份/协议工程；不新增古典五行定律或真实预测认证",
+      "actual_inputs_outputs": "actual_IO/22_theme_projection_validate_context.json",
+      "implicit_file_inputs": "load的无参数输入是1813份实际读验源字节，见actual_source_reads_from_IO.json；protocol入口还实际读验profile_bridge.py",
+      "evidence": [
+        "initial_positive_actual.json",
+        "boundary_and_primary_actual.json",
+        "source_strict_actual.json",
+        "time_projection_actual.json"
+      ]
+    }
+  ],
+  "all_23_have_actual_IO_AST": true,
+  "unchanged_algorithms_reused": "protocol_derivation_AST_and_pins.json逐函数绑定原202；232全数学/ROOT/HAP/AUX继承235真实来源采用与226独审，不冒全新盲例或重做研究。"
+}
+原件：work/rev231_reforming_profile_bridge/actual_algorithm_IO_AST.json
+SHA256：131c03abcc56914c9122bd3b85fdb4f8a549b6cc82831de2491e0f165ad51325
+
+1. 1
+file：profile_bridge.py
+function：build_theme
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：868495e8f018fc4f2d0f8617c95847592c324857ef22792389ec44d788191c87
+line：138
+end_line：145
+actual_IO_file：actual_IO/00_profile_bridge_build_theme.json
+actual_IO_sha256：00ad3a467614d23046fdb3c87c009004e7f7ebf73cf24b8ff5a0eb3041efa355
+
+2. 2
+file：profile_bridge.py
+function：canonical
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+line：24
+end_line：24
+actual_IO_file：actual_IO/01_profile_bridge_canonical.json
+actual_IO_sha256：0e62bd0fc1a181251355ae7cb40da560eb3b94e19377b28f7e5a0b1fed2e5a69
+
+3. 3
+file：profile_bridge.py
+function：declared
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：285c07aa4add98fe629db32d9d00bad50616d0759369623074070cca281583e8
+line：35
+end_line：35
+actual_IO_file：actual_IO/02_profile_bridge_declared.json
+actual_IO_sha256：d81f30e2da345e21745df1e73983ff532216d00aee0ce7e6d69b0e0547ba5f0b
+
+4. 4
+file：profile_bridge.py
+function：digest
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431
+line：25
+end_line：25
+actual_IO_file：actual_IO/03_profile_bridge_digest.json
+actual_IO_sha256：ee47c6be927773e949a8289a30ab35044adbe2234ef83964f4c76edc5503ac97
+
+5. 5
+file：profile_bridge.py
+function：evaluate
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：c8ca8c66de66359a38219aa261fa3e8a30de474b45c682af165bcffd3a554519
+line：146
+end_line：158
+actual_IO_file：actual_IO/04_profile_bridge_evaluate.json
+actual_IO_sha256：e3f1a39bfe1f69899954d45340aa00929a5c9dffe8201383bed1c3bd194cfa94
+
+6. 6
+file：profile_bridge.py
+function：load
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：85fd128a333773964560cf9d91ee8ac7e368ad10e5e1f1d5d54a55c8bb06d888
+line：75
+end_line：102
+actual_IO_file：actual_IO/05_profile_bridge_load.json
+actual_IO_sha256：fb94324cf1db4d5c855e73fcce332e7da34dff4e61f6c9d5c653025b4ab277e5
+
+7. 7
+file：profile_bridge.py
+function：main
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：ed4860d0c4211e83ecb5a037d575b930a9d20aa55b08885bf8dd1d66d2defbcd
+line：159
+end_line：164
+actual_IO_file：actual_IO/06_profile_bridge_main.json
+actual_IO_sha256：7f032d1250fbf645c1af2564c7af3f890220d007ac4257e8ae963f48af26f7eb
+
+8. 8
+file：profile_bridge.py
+function：strict
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：0c34b66a379aa253c4b0e693c4a4e16898792df1b2d4e42ff3bc3915a8843329
+line：26
+end_line：34
+actual_IO_file：actual_IO/07_profile_bridge_strict.json
+actual_IO_sha256：1587d07f8bca7f35e879f1038c90d1a62d843dfa79a06e7d42f8ee8ce8372507
+
+9. 9
+file：profile_bridge.py
+function：strict.bad
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31
+line：33
+end_line：33
+actual_IO_file：actual_IO/08_profile_bridge_strict_bad.json
+actual_IO_sha256：c586e802e4e28671b062cfe098600d1b5f56bf07c3b9c7c0657d896918518bf0
+
+10. 10
+file：profile_bridge.py
+function：strict.pairs
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：9075480b319c0822c8ca4417cecda3109df067d5c6bc7d535345c0c4a3e927f5
+line：27
+end_line：32
+actual_IO_file：actual_IO/09_profile_bridge_strict_pairs.json
+actual_IO_sha256：5c092a16517c0bc36c3f0066bc8a322d26a3e2aa92e874b053c56b696e9c5c14
+
+11. 11
+file：profile_bridge.py
+function：validate
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：093a6140b1a1eb6add8dee76fc0a74e1c69ab48a02ac088591c3934c6d365f52
+line：109
+end_line：116
+actual_IO_file：actual_IO/10_profile_bridge_validate.json
+actual_IO_sha256：1a208c3ebb7e3e1f9280ca85c34018ec5232de9c051d8827dbf27332eb4b5be5
+
+12. 12
+file：profile_bridge.py
+function：validate_shape
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：ab2f6640af944dbfe305a6841539a99f91fadb247d1949b04afdbce4ab09d970
+line：103
+end_line：108
+actual_IO_file：actual_IO/11_profile_bridge_validate_shape.json
+actual_IO_sha256：73b51c709fe22d2420fb5d56dc540cc3d15cefae85e6ed8ced123f57f88561ed
+
+13. 13
+file：profile_bridge.py
+function：verify_policies
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：2b4ba9f1e02374d7d3da9b1f37e393d815862174d7e50bea7a8fdbb4a1c887f5
+line：44
+end_line：74
+actual_IO_file：actual_IO/12_profile_bridge_verify_policies.json
+actual_IO_sha256：4c821be85e5f60e0e9bb885bcc687c3596b5fb48cb586357bdcc70146940c1cd
+
+14. 14
+file：profile_bridge.py
+function：verify_tree
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：ca492f4cbd01ab67390065dfe3bf0a1ab14f02be2e87683716fa0a2a7a995c8e
+line：36
+end_line：43
+actual_IO_file：actual_IO/13_profile_bridge_verify_tree.json
+actual_IO_sha256：6735e5e48020ee8065602eacbb1a162d09d9b6fda9decbd1394203eb918d0137
+
+15. 15
+file：profile_bridge.py
+function：whole_selection
+source_sha256：bde75bcdfa6e3630deb9703b217e08f01371045f6af9a90abcaa349a6c8d2d8a
+函数AST摘要：f5df7b4d3d542ff5b985962d7683c882002d4c6cf380a4238cf4872169144b53
+line：117
+end_line：137
+actual_IO_file：actual_IO/14_profile_bridge_whole_selection.json
+actual_IO_sha256：e26f396548e6621a59f715a2e72083c84224a72908f19a0ddf3dac22357e0f04
+
+16. 16
+file：protocol_entry.py
+function：evaluate
+source_sha256：e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e
+函数AST摘要：b2853a45b44f1519866ba3b1da0c2560632681378b1d285b67cce0357d90f1f9
+line：18
+end_line：23
+actual_IO_file：actual_IO/15_protocol_entry_evaluate.json
+actual_IO_sha256：a61fea2e0645f26ee1b2957856fff0a5b9b726f63555f8b500377c526e278de1
+
+17. 17
+file：protocol_entry.py
+function：main
+source_sha256：e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e
+函数AST摘要：c686f8ffa74288725394155033c31bffa76aaa96e0d5e784a2ce71c49fbe4b70
+line：24
+end_line：26
+actual_IO_file：actual_IO/16_protocol_entry_main.json
+actual_IO_sha256：f0d446205906f253b488233b3067450c869a207998bf13c361ad1785d8b04518
+
+18. 18
+file：protocol_entry.py
+function：strict
+source_sha256：e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e
+函数AST摘要：0c34b66a379aa253c4b0e693c4a4e16898792df1b2d4e42ff3bc3915a8843329
+line：9
+end_line：17
+actual_IO_file：actual_IO/17_protocol_entry_strict.json
+actual_IO_sha256：ab82515429e72157838c34b28a5544553a2dbcb40479c76c6398dd819b40041e
+
+19. 19
+file：protocol_entry.py
+function：strict.bad
+source_sha256：e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e
+函数AST摘要：b7c6cb0e2e52c89c49e84530d97bdf4774cf1e927064a33f6133071135c93e31
+line：16
+end_line：16
+actual_IO_file：actual_IO/18_protocol_entry_strict_bad.json
+actual_IO_sha256：cb4cacf3347fcf69c83bc1e9a80796859dda6f79c48d23548aee73b1a61f859a
+
+20. 20
+file：protocol_entry.py
+function：strict.pairs
+source_sha256：e83811162e4d22eda0d18be18e263acad061156443ba946ee7de2ac8f8b8078e
+函数AST摘要：9075480b319c0822c8ca4417cecda3109df067d5c6bc7d535345c0c4a3e927f5
+line：10
+end_line：15
+actual_IO_file：actual_IO/19_protocol_entry_strict_pairs.json
+actual_IO_sha256：13af9abbcabfcca906cea26dda7d0b03fe9d4e675ce4db00e35a47a5ffd0eefb
+
+21. 21
+file：runtime/profile_protocol/region_lookup_composer.py
+function：validate_request
+source_sha256：b3302752327a58592c0ca759b542dbbf89cb4dac5d051c865e917a6b43ecdcf5
+函数AST摘要：ffe4e3ef55cf83c5286cad27bbac116661e91085facc5053882d02088465525d
+line：131
+end_line：189
+actual_IO_file：actual_IO/20_region_lookup_composer_validate_request.json
+actual_IO_sha256：771c9446f9ccf5fd8010fcc839d40dd24acc6688ee6bc997bed2f733a4cad3f9
+
+22. 22
+file：runtime/profile_protocol/依赖快照/peer_context_v0_1/peer_context.py
+function：base_status
+source_sha256：a14c0e2f536f5a03227199dfa778026484d4f5e31797b6bb00c5074c32412c14
+函数AST摘要：b382e439855976757418a79dcebaa5ae32ec41e61cac9c554369415a08bd16bc
+line：192
+end_line：200
+actual_IO_file：actual_IO/21_peer_context_base_status.json
+actual_IO_sha256：2af6a130f9ccd301baff31307f55771a47a78af0698834538ee1c2e7c2c1fc22
+
+23. 23
+file：runtime/profile_protocol/依赖快照/theme_projection_v0_2/theme_projection.py
+function：validate_context
+source_sha256：e91b39a5ad71c93e8540df22f47cc47a7cc9242ffc1f860f4833a71805f30297
+函数AST摘要：626076f52b1dc2d004a31f1e4fe7f43f0dab20b5042a4c9e64713c04d53a58bf
+line：79
+end_line：130
+actual_IO_file：actual_IO/22_theme_projection_validate_context.json
+actual_IO_sha256：7a63b95edf54c555b93a315fa7ed22853f9d0d2f09fd68e6865efc9109fc2ed5
+
+原件：work/rev231_reforming_profile_bridge/rules_ten_fields.json
+SHA256：bea8f94a38483e90bd27c8480c3811cfc95c11625c463b9ca817e0e0fa728494
+
+1. SANMING-从革-B-235
+算法标识：SANMING-从革-B-235
+source：235真实政策b9ac…/232837/22689
+来源层次：原235/212政策或既有协议，工程准入与古典原文分开
+school：固定三命整盘结果/象征产品协议
+conditions：固定位置、nativeROOT/HAP/完整源与全部终端目标实算后全部H唯一
+exclusions：不从官/火角色直接F；不把土印皆判忌；不把原CLASSICAL字段改写
+change_conditions：新原始四柱须实际重算；不支持位置精确无B
+conflict_resolution：采用明确方法内final最小正函数支持，而非所有外补方向
+rule_or_pseudocode：raw→whole→allH+nativeAUX→unionunique→actualresultrecord→B
+verification：B0/B1实际新raw API/CLI
+status：candidate_bridge_not_product_adopted
+
+2. PROFILE-EXACT-ADMISSION
+算法标识：PROFILE-EXACT-ADMISSION
+source：原theme/P/region合同+新明确二元组
+来源层次：原235/212政策或既有协议，工程准入与古典原文分开
+school：固定三命整盘结果/象征产品协议
+conditions：只PRIMARY旧约定或新三命exactprofile+method0.1
+exclusions：未知新version/profile不加入；没有无限registry
+change_conditions：新代码/来源需独立采用；旧摘要不换标签
+conflict_resolution：source profile不能并同主本，旧primary语义保留
+rule_or_pseudocode：threeguardOR exactMETHOD_REF; allotherfunctionsASTsame
+verification：protocol_derivation_AST_and_pins + legacy_primary
+status：candidate_bridge_not_product_adopted
+
+3. P-SAME-METHOD-AND-COMPAT
+算法标识：P-SAME-METHOD-AND-COMPAT
+source：用户有限共鸣+原P真实实现
+来源层次：原235/212政策或既有协议，工程准入与古典原文分开
+school：固定三命整盘结果/象征产品协议
+conditions：双方各自产生真实B、method完全一致、兼容有效且存在有效
+exclusions：同色或兼容声明不能解除方法不同
+change_conditions：进入/离开/届满重算并反馈
+conflict_resolution：同三命新盘可共鸣，和旧B12即使火火也拒
+rule_or_pseudocode：same_method AND verified_compatible AND active_presence
+verification：P_same_new / cross_actual_primary / missing_compat / unknown_compat
+status：candidate_bridge_not_product_adopted
+
+4. C20-T-REGION-JOIN
+算法标识：C20-T-REGION-JOIN
+source：原T/C20/D2/C0协议/真实212地区源
+来源层次：原235/212政策或既有协议，工程准入与古典原文分开
+school：固定三命整盘结果/象征产品协议
+conditions：五层完整T与本B/P同人同method；地区/位置声明可用
+exclusions：未知T/跨methodT不补0或重分权重
+change_conditions：已知同地C0只还方向2.5%B；已知P空还10%B
+conflict_resolution：状态变而Z经算相同必须说明确认未变，不当证据不足
+rule_or_pseudocode：.8B+.05T+.025Rn+.025Rr+.1P，原既有预算返回
+verification：C20_same_new Z木1/20火19/20；T其他method/unknownRegistry无Z
+status：candidate_bridge_not_product_adopted
+
+5. ALL-H-UNORDERED
+算法标识：ALL-H-UNORDERED
+source：真实whole_H/原AUX/235不无序等权原则
+来源层次：原235/212政策或既有协议，工程准入与古典原文分开
+school：固定三命整盘结果/象征产品协议
+conditions：核所有子集/所有最小H；当前四盘并集唯一火
+exclusions：每set单元素不能只选第一set；无源不做共同主位1/2
+change_conditions：出现双元素并集保未定，不强主题
+conflict_resolution：源用角色≠H支持，H集合内AND、集合间OR
+rule_or_pseudocode：deriveallelements from everyactor in everyactualnative_minset; lenunion==1 only
+verification：time_projection_actual syntheticcontradiction拒绝，无真实双元素从革例声明
+status：candidate_bridge_not_product_adopted
+
+6. SOURCE-BEFORE-EXEC-231
+算法标识：SOURCE-BEFORE-EXEC-231
+source：完整来源冻结/235/212政策与本次两个真实失败
+来源层次：原235/212政策或既有协议，工程准入与古典原文分开
+school：固定三命整盘结果/象征产品协议
+conditions：所有真实字段/原manifest→freeze/精确来源/契约锚执行前核
+exclusions：不能外lock重封后放行错来源声明
+change_conditions：新policy必须新代码/锁/复核，不能调caller输入
+conflict_resolution：记录原未冻231来源声明缺口，原232/235与旧默认不受影响
+rule_or_pseudocode：allfixedcompleteframes + actualtargets + independentcontractanchors beforeexec
+verification：9坏源+原2文档攻击0attempt；原失败保history
+status：candidate_bridge_not_product_adopted
+
+7. ATOMIC-UNKNOWN-NO-UPDATE
+算法标识：ATOMIC-UNKNOWN-NO-UPDATE
+source：原任务事件反馈/232已核CLI原子规则
+来源层次：原235/212政策或既有协议，工程准入与古典原文分开
+school：固定三命整盘结果/象征产品协议
+conditions：坏输入/缺资料有结构化反馈，合法未知保持原因
+exclusions：无H/B不能包装默认为完成
+change_conditions：使用期已知/未知/到期分别处理
+conflict_resolution：根本source未知与已计算确认不变分开
+rule_or_pseudocode：strictJSON; noB onsourceunclosed/unknownusage; noZ onunknownjoin
+verification：source_strict_actual 8strict/2atomic; noB3; leave/expiry状态反馈
+status：candidate_bridge_not_product_adopted
+

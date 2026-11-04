@@ -1,0 +1,146 @@
+{
+  "schema": "finite-Primary-Lujie-complete-engineering-method-adoption-0.1",
+  "revision": 419,
+  "registered_utc": "2026-11-02T22:49:17.248146+00:00",
+  "status": "adopted_exact402_springwood_complete_tasks_and_robust_sufficient_explanations_after414",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev402_primary_lujie_wood_fire",
+      "files": 78,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev402_primary_lujie_wood_fire/manifest.json",
+        "bytes": 11930,
+        "sha256": "445e50cfc765a821f13dd13bf8394ecc20fb947d9a8257eaa21417a28f6f1ce0"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev402_primary_lujie_wood_fire/freeze.json",
+        "bytes": 2236,
+        "sha256": "a3bf6fa16af9fac9a47c5c8d28df7b034f66a7a8b3a3e83e83f6119fef13eb8d"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev414_primary_lujie_independent_review",
+      "files": 60,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev414_primary_lujie_independent_review/manifest.json",
+        "bytes": 9802,
+        "sha256": "bf50c6ff24fdd0a7b46d9aa9b708c87f6ccd19a81bd8f373e0274761f15211f3"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev414_primary_lujie_independent_review/freeze.json",
+        "bytes": 201,
+        "sha256": "3fc6cbcc5e927485b7fe1a1432d2a6fb0cccabcf9efe449c10b5581d94bc17c7"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev402_author_completion_handoff.json",
+    "bytes": 9762,
+    "sha256": "a9166b6f6601d36ed1e72f35080b4bf654db489b8ae8e53f48467564803b73fe"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev414_independent_completion_handoff.json",
+    "bytes": 3230,
+    "sha256": "4646246ece9bdfe154dc75e541757a76888b5c2d54649f7f974865c39ede4bc8"
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev414_primary_lujie_independent_review/independent_report.json",
+    "bytes": 3625,
+    "sha256": "6594175dc34a0e8d29737ba56875eb7525cd499c82a08291c36bc085146e0af4"
+  },
+  "source": {
+    "book": "子平真诠，上海世界图书馆发行本，国图藏影印，年代未定",
+    "actual_PDF_pages": [
+      26,
+      27,
+      28,
+      37,
+      38,
+      39,
+      89,
+      90,
+      91,
+      92,
+      93
+    ],
+    "original_case": [
+      "甲子",
+      "丙寅",
+      "甲子",
+      "丙寅"
+    ],
+    "inference_case_from_user": [
+      "甲寅",
+      "丙寅",
+      "甲寅",
+      "丁卯"
+    ],
+    "no_unverified_printed_leaf_offset": true,
+    "future_wealth_luck_is_not_natal_earth_preference": true
+  },
+  "bounded_scope": 5,
+  "scope_predicate": "甲年甲日、丙寅月，年日支子/寅；丙寅时，或年日皆寅配丁卯时。恰五个合法原柱组合；不向其他季节、透财官印或会化分支泛化。",
+  "complete_natal_task": "月禄木有根，真实木生火在水制火后仍存，木能承全部火负荷；全原藏财印及每个生克端口、源成本、实际损失同current核算。",
+  "whole_source_bridge": "完整原局先证明食伤泄秀；再给全部保守充分功能解释集。不是从食伤名字直接取火，也不把相同元素的多个载体误写成共同必要。",
+  "H_semantics": "功能许可包的全世界、全超集稳健充分性。水生日和克食同时开关，每世界从原始库存重新解；不是固定实际世界正信用，也不是删除演员、唯一传统必要性或最终喜用主次。",
+  "terminology": "历史代码中的展示包指功能信用解释，不是手环显示；正文称功能许可包/辅助解释集。",
+  "all_H_counts": [
+    5,
+    7,
+    7,
+    17,
+    7
+  ],
+  "same_input_same_version_deterministic": true,
+  "verification": {
+    "all_worlds": 21504,
+    "full_helper_ledgers": 704,
+    "element_pool_origin_components": 34944,
+    "actor_origin_components": 123584,
+    "actual_edges": 46176,
+    "potential_cost_rows": 13664,
+    "parameter_corners": 64,
+    "predeclared_carry_failures_preserved": 2,
+    "functions": 51,
+    "actual_IO": 48,
+    "old_AUX_CLI_unused": 3,
+    "independent_new_strict": 10,
+    "independent_legal_outside_no_math": 2,
+    "independent_bad_source_no_exec": 2,
+    "clean_provider_exec_each": 4,
+    "all_original_and_existing_copy_78_SHA_unchanged": true,
+    "root_new_math_runs": 0,
+    "independent_correct_domain_checks_reused": true
+  },
+  "current_examples": {
+    "original_Zhang_wood_fire_earth_water": [
+      "340/121",
+      "2517/1210",
+      "0",
+      "16/11"
+    ],
+    "user_wood_fire_earth": [
+      "4",
+      "31/10",
+      "0"
+    ],
+    "source_H": "两个明丙共同，或任一明丙配任一寅藏丙，共5个替代方案。",
+    "user_H": "明丙明丁共同，或任一明火配三个寅藏丙中任意两个，共7个替代方案。"
+  },
+  "numeric_parameters": "工程约定，来源和独立纸算在402；并非古籍量值或经验预测拟合。",
+  "prior72_failure": "原张旧72固定承载题失败照留；402库存、共反馈和许可问题不同，不回改旧冻结或声称数值等价。",
+  "remaining_original_work": [
+    "Metal-water original and formal ShenZiChen context",
+    "broader Lu-jie/season/visible wealth-official-print branches",
+    "future luck source conditions and natal final traditional priority/unique necessity"
+  ],
+  "final_traditional_priority_or_unique_necessity_complete": false,
+  "all_Lujie_complete": false,
+  "no_B_theme_display_integration": true,
+  "empirical_prediction_validated": false,
+  "original_goal_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

@@ -1,0 +1,1684 @@
+辛重戊/夏己引化/冬丁暖养的三源H0完整作用
+rev584_Xin_three_source_branches
+所属原模块：C03
+当前采用：rev608_Xin_H0_project_adoption.json
+范围：adopted_exact584_H0_three_source_branches_after449_M1_still_separate
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev584_Xin_three_source_branches/algorithm_explanations_all49.json
+SHA256：04e54d5ccac2a253876a4344963e1d667ff16fcfcd67c4257e790247344c706a
+
+1. current.py:canonical
+算法标识：current.py:canonical
+path：current.py
+line：11
+参数：[
+  "value"
+]
+函数AST摘要：0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "稳定JSON文字",
+  "inputs": "JSON兼容值",
+  "operations": "排序键、紧凑、非ASCII原样、allow_nan=False",
+  "outputs": "str或类型/非有限异常",
+  "preconditions_and_limits": "不做UTF8编码，不认证内容。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "current.py:canonical"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:canonical"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+2. current.py:strict_load
+算法标识：current.py:strict_load
+path：current.py
+line：14
+参数：[
+  "raw"
+]
+函数AST摘要：8d5a868d238377e001b05cab6fe086573bebe7758cd8d3c0c71239924d02f80e
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "有限JSON解析",
+  "inputs": "str最多5000字符",
+  "operations": "json.loads，重复键callback和非有限callback拒绝",
+  "outputs": "解析值或异常",
+  "preconditions_and_limits": "Unicode代理由scalar_tree而非本解析器拒绝；CLI先严格UTF8。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "current.py:strict_load"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:strict_load"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+3. current.py:strict_load.pairs
+算法标识：current.py:strict_load.pairs
+path：current.py
+line：16
+参数：[
+  "items"
+]
+函数AST摘要：9821bdaa719a02380897afdb888e878803c58c11b2f29d7b41bd5e490f356f81
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "逐对象拒重复键",
+  "inputs": "解析器键值对",
+  "operations": "逐键已存在即ValueError，否则保原值",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "不做source/schema/四柱判断。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "current.py:strict_load.pairs"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:strict_load.pairs"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+4. current.py:strict_load.constant
+算法标识：current.py:strict_load.constant
+path：current.py
+line：22
+参数：[
+  "value"
+]
+函数AST摘要：d6404d7b01f302ae0a93185cd23daf9d6e241a6fa548716b3bc3f7e57c850e3b
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "拒NaN/Infinity",
+  "inputs": "非有限JSON token",
+  "operations": "恒抛ValueError",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "trace return-event None和异常事件一起保存，不假报正常None。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "current.py:strict_load.constant"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+5. current.py:scalar_tree
+算法标识：current.py:scalar_tree
+path：current.py
+line：25
+参数：[
+  "value",
+  "depth"
+]
+函数AST摘要：42eab752ffe8da79bdda67913092a56dbc647d85f8a868d346adc3e6d366c453
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "有限API树和Unicode检查",
+  "inputs": "request/depth",
+  "operations": "深度<=20、字串<=5000且无代理、dict/list<=20、键str、只JSON类型、float有限",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "guard在先；不负责四柱干支源含义。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "current.py:scalar_tree"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:scalar_tree"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+6. current.py:load
+算法标识：current.py:load
+path：current.py
+line：40
+参数：[
+  "name",
+  "relative",
+  "material"
+]
+函数AST摘要：d669cd8300a4894b8762903afcf1781b2918dbdec5b272d1dd35e1a0e17fd0ae
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "加载一份内存provider",
+  "inputs": "名称/相对名/material",
+  "operations": "新ModuleType设__file__，compile caller给的material bytes后exec",
+  "outputs": "模块",
+  "preconditions_and_limits": "已核material是caller guard前提，本函数自己不验证SHA或来源；不注册sys.modules。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "current.py:load"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:load"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+7. current.py:guard
+算法标识：current.py:guard
+path：current.py
+line：46
+参数：[]
+函数AST摘要：6be66257cc1fac9f857b91151aa091c87ab64204ee15ed845520a6c0fa552947
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "锁定辛三源与归因修订",
+  "inputs": "固定锁、15材料、04与588采用身份",
+  "operations": "锁SHA、精确source/runtime库存、正规包内文件、全部bytes/SHA及04首数值前修订状态",
+  "outputs": "完整材料bytes或明确拒绝",
+  "preconditions_and_limits": "先于提供者；身份正确不证明传统独解或现实预测。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:guard"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+8. current.py:evaluate
+算法标识：current.py:evaluate
+path：current.py
+line：64
+参数：[
+  "request"
+]
+函数AST摘要：6afe6eca82095c8a7fc4d8f2b2a622e429ef2cb8b88bd58f7f5e6c7665cbf8a6
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "一个版本承接三条原定辛来源问题",
+  "inputs": "六字段请求、两人工辛盘、注册当前条件/率/方法",
+  "operations": "先锁/树/schema/方法匹配，facts合法性/原盘域；四provider后原当前完整库存、冻结出生门、全部对照",
+  "outputs": "全图来源/费用/SA-NA、SB-NB或SC/NCquality/NCwhole",
+  "preconditions_and_limits": "有限条件图不是完整真实UTC；合法其他盘facts1但不做本源判断，不冒无效。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:evaluate"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+9. current.py:main
+算法标识：current.py:main
+path：current.py
+line：77
+参数：[]
+函数AST摘要：2189a5901559a972d78635a09354252819a1db2613cabe9c95c39bbd6314b200
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "提供与API一致的完整命令行",
+  "inputs": "有界UTF8 JSON stdin",
+  "operations": "字节有界、严格UTF8/重复键/非有限拒，evaluate后canonical；失败整次拒",
+  "outputs": "一份完整结果加LF，退出0；异常明确整次拒退出2",
+  "preconditions_and_limits": "不生成部分成功；类型与Unicode错误不进入数学。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "current.py:main"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:main"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+10. runtime/baseline583.py:inventory
+算法标识：runtime/baseline583.py:inventory
+path：runtime/baseline583.py
+line：7
+参数：[
+  "raw",
+  "event",
+  "cfg",
+  "facts",
+  "flow"
+]
+函数AST摘要：a7384fd3c869723b8281b3bae3e15c7c80ca5f6744a0257b09400379ce798f86
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "复用已核phasefree根量并规范真实原点",
+  "inputs": "raw/event/cfg、facts及旧flow402",
+  "operations": "旧flow库存全明藏/根/月权与去日float不变；把context改名event、原点/actor映射；定位当前湿干土，保R0端点事实",
+  "outputs": "完整actors/direct/weights/dry/wet/ROOT映射与形式关系",
+  "preconditions_and_limits": "只借flow库存，不移其禄劫方程/目标；06纠旧529归因，08限定theta0旧kernel比较对象。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/geng_soil_core.py:inventory"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+11. runtime/baseline583.py:coefficients
+算法标识：runtime/baseline583.py:coefficients
+path：runtime/baseline583.py
+line：27
+参数：[
+  "base",
+  "theta",
+  "abrasion_on"
+]
+函数AST摘要：b4b8f75c69fa1da8e7a4aa66409b11e05cbca9428c90200070397c4c94bbbeb0
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "以干土自身生成预算表达脆金",
+  "inputs": "完整base、显式theta及abrasion开关",
+  "operations": "b/c在声明界、theta0..1；s=sum注册dry权重；delta=theta*b*s；g土=b-delta；金另受delta*T；a=1+b+c，K净土金b-2delta或Q中b-delta，核L",
+  "outputs": "完整g/delta/K/费用及收缩界",
+  "preconditions_and_limits": "每个dry正生b(1-theta)与脆btheta，其他土原b；非多扣两份费用；只含本源all5实际演员域。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/geng_soil_core.py:coefficients"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+12. runtime/baseline583.py:solve
+算法标识：runtime/baseline583.py:solve
+path：runtime/baseline583.py
+line：37
+参数：[
+  "base",
+  "theta",
+  "exact",
+  "abrasion_on"
+]
+函数AST摘要：e47b2b1793d0a17ccb82c64f8e77071e2ff9b4435a1afb0a00e5c6b9398f9936
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "解包含脆金及全部旧反馈的唯一非负状态",
+  "inputs": "base/theta/exact及额外abrasion开关",
+  "operations": "32活动面Gauss，校全部五式max非负等式，原费用a固定",
+  "outputs": "current/K/所处面与精确验证证书",
+  "preconditions_and_limits": "Off只关额外实效，不恢复已分生金或退预留费用。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/geng_soil_core.py:solve"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+13. runtime/baseline583.py:origins
+算法标识：runtime/baseline583.py:origins
+path：runtime/baseline583.py
+line：47
+参数：[
+  "base",
+  "world",
+  "exact"
+]
+函数AST摘要：fe43c1f61543316d0d89ded3693ab406216901f25e758c9e8ade36c0da6bb42f
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "将每一原输入追到同current终留",
+  "inputs": "同base/world和精确多右端Gauss",
+  "operations": "以实际正生成g和rho构造五环正来源线性式；逐来源与全部现量验和及代回",
+  "outputs": "各池原点、gross、retention",
+  "preconditions_and_limits": "脆与常规控制只消耗受方，不把受损物质归施控者；控制不进入正生成通路。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/geng_soil_core.py:origins"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/baseline583.py:origins"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+14. runtime/baseline583.py:graph
+算法标识：runtime/baseline583.py:graph
+path：runtime/baseline583.py
+line：54
+参数：[
+  "base",
+  "world",
+  "ports"
+]
+函数AST摘要：953433034754fb156062218f81ca3b6f7edb5b4481c58ee50aa0981ea97c7382
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "核每条普通/脆边及逐源三面费用",
+  "inputs": "真实actor与weights、同一world/ports",
+  "operations": "actorport已有w源；逐边再乘正生/克/脆率和w目标；脆与原火对金共用总实际clamp；每源gen/普通ctl/abrasion费分列",
+  "outputs": "完整普通与额外边、所有来源/费用、五元素总账",
+  "preconditions_and_limits": "只注册新dry actor发脆；Q仍保btheta预留未用，不能移给旧湿土或退到正生金。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/geng_soil_core.py:graph"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+15. runtime/baseline583.py:metrics
+算法标识：runtime/baseline583.py:metrics
+path：runtime/baseline583.py
+line：73
+参数：[
+  "base",
+  "world",
+  "ports",
+  "fullgraph"
+]
+函数AST摘要：b0f8edf710af229524ce496bf5562d8ab31fae4d29c354fc150b4f3c0eec1863
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "分清湿土生金留存与干土脆金实际来源",
+  "inputs": "同世界base/world/ports/fullgraph",
+  "operations": "W信用限newwet演员及new土root/float，在金目标实际留存；D限newdry及new源的实际脆损；另算原日庚份额留存/原申金源",
+  "outputs": "完整源信用、原庚/原申值、当次模型弱三条件",
+  "preconditions_and_limits": "发送量不等留存/实损；actor份额共同池分配，不是实测力。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/geng_soil_core.py:metrics"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+16. runtime/baseline583.py:source_question
+算法标识：runtime/baseline583.py:source_question
+path：runtime/baseline583.py
+line：77
+参数：[
+  "current",
+  "theta0",
+  "birth"
+]
+函数AST摘要：0982a114cebbfaf8ea253493952d4eea1c785d0c38ad99b62b4467f56ddc122b
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "在加当前柱之前固定源弱门并给W/D/N",
+  "inputs": "当前/同整柱theta0/birth之前的指标",
+  "operations": "只从birth弱门取资格；W实际湿生信用>0，D干脆实损>0；N再要求原庚与原申源较完整theta0严格下降",
+  "outputs": "W/D/N及明确工程强弱/非全局用途边界",
+  "preconditions_and_limits": "湿修强或干损弱不能反选前件；D真不一定完整N真；N与Q不是同一比较。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/geng_soil_core.py:source_question"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+17. runtime/baseline583.py:analyze
+算法标识：runtime/baseline583.py:analyze
+path：runtime/baseline583.py
+line：81
+参数：[
+  "base",
+  "natal_base",
+  "theta",
+  "exact"
+]
+函数AST摘要：63bcf0a59d03df370663548aa8393032103a902dd0a3ba457330fbcfe427a68a
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "组织出生前件及当前两类同费对照",
+  "inputs": "完整currentbase与natalbase、theta、exact",
+  "operations": "缓存A/Q/完整theta0/birth，逐世界完整solve/原点/全图/指标后source_question",
+  "outputs": "全部世界、引用、源题与Q/zero区别",
+  "preconditions_and_limits": "无新增H或个人基础，全部反馈保；102旧物理不因新组织函数重刷。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/geng_soil_core.py:analyze"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+18. runtime/baseline583.py:analyze.get
+算法标识：runtime/baseline583.py:analyze.get
+path：runtime/baseline583.py
+line：83
+参数：[
+  "current",
+  "t",
+  "abrasion"
+]
+函数AST摘要：258bc1fae9a921b1e14c16164f9ec47e763b08f9503f0a83e91e0407a3f19b49
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "仅复用实际功能相同的完整世界",
+  "inputs": "当前库存、theta和abrasion开关",
+  "operations": "无dry时规范theta0，无实际脆时开关true；以当前事件/数值theta/开关键缓存；miss一次全图",
+  "outputs": "可追溯world ID",
+  "preconditions_and_limits": "保原各方法身份在外层；Q有dry时不会与theta0误合。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/geng_soil_core.py:analyze.get"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+19. runtime/flow402.py:pack
+算法标识：runtime/flow402.py:pack
+path：runtime/flow402.py
+line：7
+参数：[
+  "x"
+]
+函数AST摘要：8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Encode internal exact mathematics.",
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:pack"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/flow402.py:pack"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+20. runtime/flow402.py:gauss
+算法标识：runtime/flow402.py:gauss
+path：runtime/flow402.py
+line：15
+参数：[
+  "matrix",
+  "rhs"
+]
+函数AST摘要：07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:gauss"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/flow402.py:gauss"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+21. runtime/flow402.py:actors_from_raw
+算法标识：runtime/flow402.py:actors_from_raw
+path：runtime/flow402.py
+line：29
+参数：[
+  "raw",
+  "facts",
+  "context"
+]
+函数AST摘要：2761c46300aaf228478b1a371ff1c631e7fc22009e8f6299ce0868e8a279bf89
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Keep all visible and hidden real carriers.",
+  "inputs": "Legal raw pillars, original facts module, optional internal literal comparison pillar.",
+  "operations": "Preserve four positions, lookup all hidden stems and strict tengod roles; optional external column gets its own identity/position.",
+  "outputs": "actors and pillar tuples.",
+  "preconditions_and_limits": "Caller has raw legality. Internal literal context is not realUTC or publicly accepted input; no absentgold actor created. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:actors_from_raw"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+22. runtime/flow402.py:inventory
+算法标识：runtime/flow402.py:inventory
+path：runtime/flow402.py
+line：43
+参数：[
+  "raw",
+  "facts",
+  "cfg",
+  "context"
+]
+函数AST摘要：0ef7beac7e0acc7fa3e0d296c660541ab9fa4d0eb3c3db8f5eeaf025aef67893
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Build typed phasefree direct pools and declared actor shares.",
+  "inputs": "Actors/raw/facts and fixed mu,m cfg; optional literal context.",
+  "operations": "Main hidden element1, other actualhidden mu, month m; one non-day visible float. Per-element typedorigin max once; actors weighted by their direct totals; preserve every actor-root row.",
+  "outputs": "actors,present,direct,weights,rootrows,cfg.",
+  "preconditions_and_limits": "mu/m are engineering qualifications, not hidden percentages or earth12palaces. Common pool demonstrably not actor-local; per-element qualifications not cross-element mass conservation. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:inventory"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+23. runtime/flow402.py:solve
+算法标识：runtime/flow402.py:solve
+path：runtime/flow402.py
+line：65
+参数：[
+  "base",
+  "selected"
+]
+函数AST摘要：3f5e3a272d0d037d2d692a713a79b8317f9e06a1bb993ca6ca8aee3c6182789d
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Find exact unique max-affine fixed point.",
+  "inputs": "Base and selected extras.",
+  "operations": "Enumerate all active faces over present elements, rational solve candidate, substitute full max equations and nonnegative vector. Global contraction supplies uniqueness.",
+  "outputs": "Current,coefficients,activeface,exact certificate.",
+  "preconditions_and_limits": "No float gate/hint or oracle-selected phase; original4elements<=16faces, real5elements<=32faces. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:solve"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+24. runtime/flow402.py:origins
+算法标识：runtime/flow402.py:origins
+path：runtime/flow402.py
+line：79
+参数：[
+  "base",
+  "world"
+]
+函数AST摘要：68b315515713bb428dd7871847a3de739c68fdb4906a425cb5967529d60afa48
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Reconstruct every typed source in the same solved vector.",
+  "inputs": "Base and exact current world.",
+  "operations": "Gross direct+licensed generation; retention=current/gross; solve multi-RHS linear inherited flow; check nonnegative and exact sums/substitution.",
+  "outputs": "Typed pools,gross,retention,b contraction bound.",
+  "preconditions_and_limits": "Each original element-qualification origin injected once; allzero/noorigin case valid. Does not equate same branch labels across elements. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:origins"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+25. runtime/flow402.py:robust
+算法标识：runtime/flow402.py:robust
+path：runtime/flow402.py
+line：95
+参数：[
+  "rows",
+  "ids"
+]
+函数AST摘要：b2a342ee6e918307ea9bead7387af4313b9e657a39683de9582bbc816fa7d85e
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Compute all minimal stable additional-support sets.",
+  "inputs": "Complete powerset rows and ordered IDs.",
+  "operations": "Boolean superset closure; every immediate-removal test gives minima, maximal stablefalse complements give CNF.",
+  "outputs": "AllH,CNF,true/robustcounts.",
+  "preconditions_and_limits": "Complete powerset is caller precondition. [[]] means no extra auxiliary under fixed core, never no用神. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:robust"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+26. runtime/flow402.py:packages
+算法标识：runtime/flow402.py:packages
+path：runtime/flow402.py
+line：109
+参数：[
+  "base"
+]
+函数AST摘要：ebc9302b438faa5d77d5b4963754b8e7639b711c17d1a36d1f5f72930e482112
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Enumerate all real signed function and exhibition atoms.",
+  "inputs": "Fullactualbase.",
+  "operations": "Fireexhibition; noncorewoodcontrolsactualsoil; waterjointbirth/control; soilcontrol onlyifactualwater exists; sortexactIDs andpartitionhelpers/fire.",
+  "outputs": "ids,kinds,helpers,fire dict.",
+  "preconditions_and_limits": "Not permanentlygoodroles. Corebodyfixed; noabsenttargets/actors; no additionaldayfloatingstock."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:packages"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+27. runtime/flow402.py:coefficients
+算法标识：runtime/flow402.py:coefficients
+path：runtime/flow402.py
+line：120
+参数：[
+  "base",
+  "selected"
+]
+函数AST摘要：ddef5fed6602ccf07712703d4a70b1f33ecd0bb7932d31289547a304ddeeed8b
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Build one complete fresh-from-direct permission-world map.",
+  "inputs": "Base andselected exactpackageIDs.",
+  "operations": "Potentialoutgoingcosts stayfixed fromactualendpoints. Waterbirth/control useonebeta/current; wood/soilcontrolbeta; basicW/Fgeneration fixed. Formtarget-normalizedK andrequireL<1.",
+  "outputs": "b,c,h,diagonals,rates,K,bound,present,helper_betas.",
+  "preconditions_and_limits": "Jointavailability semantics explicitlydifferent379positive-only. No physicalall-onresidual reinjury; everyworld solvedfromdirect once; noFexhibition deletion."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:coefficients"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+28. runtime/flow402.py:goals
+算法标识：runtime/flow402.py:goals
+path：runtime/flow402.py
+line：136
+参数：[
+  "base",
+  "world",
+  "origin",
+  "selected"
+]
+函数AST摘要：70bff5c5fe473da8bd54c55df80296232743e56122d66ea3af71b5c64e7ed534
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Evaluate full carry/channel and true exhibition credit.",
+  "inputs": "Base,sharedworld,origins,selectedpackages.",
+  "operations": "W>0/root>0/F>0; L=retFire*bW>0; strictW>margin*load*F; selectedfireweightedL>=etaL>0.",
+  "outputs": "Checks/met/helpermet,root/current/strictload/channel/credit/threshold fields.",
+  "preconditions_and_limits": "Carrycomparison not anotherphysicaldebit. Coverageequalitypasses, carryequalityfails; no classicalstrength or lucklabel."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:goals"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+29. runtime/flow402.py:geometry
+算法标识：runtime/flow402.py:geometry
+path：runtime/flow402.py
+line：141
+参数：[
+  "base"
+]
+函数AST摘要：d3503b5fc6993dce664450c1426e83c775330f9b7c16ac2e1380b37b465ca8a8
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Retain each real endpoint and source cost layout once.",
+  "inputs": "Completeactors/actualelements.",
+  "operations": "Enumerateallgeneration/control actorpairs andcostkind; retainpositions/distance/roles, sharedgain1,sourcepermissionkey.",
+  "outputs": "all_actual_endpoint_edges,all_potential_cost_layouts,nonlocal-equivalence flag.",
+  "preconditions_and_limits": "Sharedpool spatialgain1 is declaredengineering, not provedreduction oflocalinjury. Norealendpoint omitted orabsentgoldcreated."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:geometry"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+30. runtime/flow402.py:state_budget
+算法标识：runtime/flow402.py:state_budget
+path：runtime/flow402.py
+line：155
+参数：[
+  "base",
+  "world",
+  "origin"
+]
+函数AST摘要：a98fe50fbae83330c5231fe5d94e50c70ef4be14b83653289987f96551e567f6
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Balance every element and every origin forone solvedworld.",
+  "inputs": "Base,world,origin.",
+  "operations": "Computeactualrequestedcapacity,clippedloss,unusedcapacity,potentialcost; apportiontargetgrossoriginlosses; exactcurrent+cost+loss checks.",
+  "outputs": "Element->direct/gross/current/cost/capacity/loss/unused/originbalances.",
+  "preconditions_and_limits": "Capacity notactualloss. Costs do not vanishwithpermission; all-onloss countedonce."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:state_budget"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+31. runtime/flow402.py:expand_ledger
+算法标识：runtime/flow402.py:expand_ledger
+path：runtime/flow402.py
+line：164
+参数：[
+  "base",
+  "world",
+  "origin",
+  "selected",
+  "geo"
+]
+函数AST摘要：7bef9f3eaa13d5600f41cff894c222665a75b6380714885ac4dc92ef78f7ab39
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Expand lossless per-state/per-mask data into every real action.",
+  "inputs": "Base,world,origins,selected andoptionalgeo.",
+  "operations": "Actorports=share*elementorigins; realedge rate*receiver_share*sourceport*sourcepermission; costsunmasked; controlattribution bycapacity; checktotals andincludeexhibitiongoal.",
+  "outputs": "actorports,allrealedges,allcosts,budgets,exhibition andsemanticsflags.",
+  "preconditions_and_limits": "Same-current bothwaterfaces; no physicalsecondcontrol. Compactoutputstoresallelementvalues/weights/edges/masks needed to reconstructthis exactly, not hashonly."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:expand_ledger"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+32. runtime/flow402.py:analyze
+算法标识：runtime/flow402.py:analyze
+path：runtime/flow402.py
+line：178
+参数：[
+  "base",
+  "full_table"
+]
+函数AST摘要：f4d16564e44f7a5519215f08111570fc70c2c5616a62c8c2109ddf44ca325e30
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Compute complete signed availability truth and all robustH.",
+  "inputs": "Base,full_table flag.",
+  "operations": "Enumerateallhelpermasks; cacheonlyequalphysicalrates/states; retainactor-specificmask; enumerateallfirecoverage; supersetrobust both; tensorH/CNF. NominalallProws directlyre-evaluate andcheckfullclosure. Preserveallonexpandedledger.",
+  "outputs": "actors/qualifications/direct/shares/spec/geometry/states/helpertable/firetable/allnominalrows/actualallon/logic/factorization.",
+  "preconditions_and_limits": "full_table=False retainsfulltwofactortruth+allH, not droppedcombinations. Factorization provenbeforeproducer. No monotonichelperassumption or elementidentitymerge."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:analyze"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+33. runtime/flow402.py:robust.<locals>.<lambda>
+算法标识：runtime/flow402.py:robust.<locals>.<lambda>
+path：runtime/flow402.py
+line：104
+参数：[
+  "m"
+]
+函数AST摘要：c51d24376362a4b6cca991e431866aaff7ae77c44a7518eae4e4d8ee386ac15a
+old_lambda：true
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "Convert a package bitmask to all exact actor names.",
+  "inputs": "Integer mask over ordered IDs captured from robust.",
+  "operations": "Emit each ID whose bit is present.",
+  "outputs": "ID list.",
+  "preconditions_and_limits": "Local pure finite mapping, not source selection; actual mask0 returns empty member of mathematicalH. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/flow402.py:robust.<locals>.<lambda>"
+}
+本版实际输入输出记录：null
+本版未执行情况：exact old AST and substantive contract; no synthetic IO
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+34. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+path：runtime/foundation_facts.py
+line：39
+参数：[
+  "stem"
+]
+函数AST摘要：90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "十干查五行",
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+35. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+path：runtime/foundation_facts.py
+line：45
+参数：[
+  "day_stem",
+  "other_stem"
+]
+函数AST摘要：69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "严格十神角色",
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+36. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+path：runtime/foundation_facts.py
+line：60
+参数：[
+  "payload"
+]
+函数AST摘要：2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "原柱基础合法性",
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/foundation_facts.py:validate"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+37. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+path：runtime/foundation_facts.py
+line：104
+参数：[
+  "pillars"
+]
+函数AST摘要：37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "保留有位置的形式合冲",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+38. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+path：runtime/foundation_facts.py
+line：121
+参数：[
+  "stem",
+  "pillars"
+]
+函数AST摘要：fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+39. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+path：runtime/foundation_facts.py
+line：148
+参数：[
+  "payload"
+]
+函数AST摘要：295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748
+条目分类：exact_old_AST_substantive_contract
+算法解释：{
+  "purpose": "原61完整四柱事实入口",
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+}
+精确复用旧版记录：{
+  "artifact": "reference/exact583_contracts39.json",
+  "record": "runtime/foundation_facts.py:parse"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+40. runtime/xin_three.py:inventory
+算法标识：runtime/xin_three.py:inventory
+path：runtime/xin_three.py
+line：6
+参数：[
+  "raw",
+  "events",
+  "cfg",
+  "facts"
+]
+函数AST摘要：a9ddedd0d8c40aefa4a1c309a3b13ad6ff33c29deee340f561e9c8bc12e7df71
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "将402真实资格扩到已注册多柱条件",
+  "inputs": "合法raw/events/cfg与facts",
+  "operations": "原四柱+time层完整明藏；主1余1/4月3/2仅原月，去日float；每typedorigin max一次；真实actor份额与关系事实",
+  "outputs": "全部actor/direct/weights/rootrows/presence",
+  "preconditions_and_limits": "固定两族根资格分母正；无actor元素不造股量；不移529 ROOT，合冲不暗删根。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:inventory"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+41. runtime/xin_three.py:source_gates
+算法标识：runtime/xin_three.py:source_gates
+path：runtime/xin_three.py
+line：32
+参数：[
+  "base",
+  "natal_world"
+]
+函数AST摘要：5cd4e3456609403a5d02dc8522ce4eeb292deda17370b005804f6ea0176ebf19
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "在新效果之前固定三不同前件",
+  "inputs": "当前完整direct、真实四柱natal普通全图",
+  "operations": "A当前明戊>=2且土direct严大水/金；B夏出生火严大金/水；C冬出生水严大金/火",
+  "outputs": "独立A/B/C充分工程门",
+  "preconditions_and_limits": "不以埋后金水弱反选重，不用current功能全0代替natal，不声称古典重多旺的唯一刻度。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:source_gates"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+42. runtime/xin_three.py:coefficients
+算法标识：runtime/xin_three.py:coefficients
+path：runtime/xin_three.py
+line：36
+参数：[
+  "base",
+  "theta",
+  "eta",
+  "gates",
+  "cut"
+]
+函数AST摘要：42b6fe757cc396675aa897fc544e362d7d474e7ac720b9660e1e1882fc3543e8
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "保存三源全部正负与同费预算",
+  "inputs": "实际base、theta/eta、既定gates/cut",
+  "operations": "实际actor-pair生成/控制；明戊b拆正生/埋；B只关注册pair；新丁加eta热费；a/G/C/K精确核L<1",
+  "outputs": "全pair图/费/diagonal/K/登记演员",
+  "preconditions_and_limits": "所有普通b+c保；无受方预留费明报未用，不造幽灵受方。热关不退费；不迁旧Geng弱门。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:coefficients"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+43. runtime/xin_three.py:solve
+算法标识：runtime/xin_three.py:solve
+path：runtime/xin_three.py
+line：56
+参数：[
+  "base",
+  "theta",
+  "eta",
+  "gates",
+  "exact",
+  "cut"
+]
+函数AST摘要：a5094a2ddceef8e51bd56b29a4b266a8d4ca2e01c750068cc9501851ae7b5909
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "扩展583精确max核求同费全局",
+  "inputs": "base/参数/门/旧exact.gauss/cut",
+  "operations": "32活动面Gauss，代回全部非负max等式；含热费分元素对角",
+  "outputs": "current/coefficients/面证书",
+  "preconditions_and_limits": "不存在元素行无真实入边；现量0不等实际演员不存在，绝不二扣实际伤害。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:solve"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+44. runtime/xin_three.py:graph
+算法标识：runtime/xin_three.py:graph
+path：runtime/xin_three.py
+line：66
+参数：[
+  "base",
+  "world",
+  "ports"
+]
+函数AST摘要：dc8c35cc9ee5e77d81b93a06ea6b6827a0875a7d47279add53780055e2e057c6
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "将全局状态落实到每边与每来源预算",
+  "inputs": "同一base/world/正来源ports",
+  "operations": "actorport已含源份额；逐pair只乘目标份额和rate；金火/埋共clamp；分列原预留及未用费/五账",
+  "outputs": "完整edges/sourcefees/clamps/ledgers",
+  "preconditions_and_limits": "生成effect是目标终留，控制effect是实损；原点施控与受方损失不互换；热费全保。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:graph"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+45. runtime/xin_three.py:marked_twohop
+算法标识：runtime/xin_three.py:marked_twohop
+path：runtime/xin_three.py
+line：82
+参数：[
+  "base",
+  "world",
+  "ports",
+  "fullgraph"
+]
+函数AST摘要：9702319bd5f55d290baac2b6f2015a9fe21044a0b0868c8e8140f4f836174ec2
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "核原火经同一新己到原辛的连续通路",
+  "inputs": "同世界base/world/ports/完整图",
+  "operations": "筛出生火ROOT/丙丁float；原火源到新己接收留存，再乘该己到原辛的实际发送率、辛份额/金留存，保分actor/原点trail",
+  "outputs": "精确两跳信用与原火源证据",
+  "preconditions_and_limits": "新己接收份额只用一次，不能第二次乘wJi；出生金水回流原点不冒原火源，04强制有效。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:marked_twohop"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+46. runtime/xin_three.py:metrics
+算法标识：runtime/xin_three.py:metrics
+path：runtime/xin_three.py
+line：91
+参数：[
+  "base",
+  "world",
+  "ports",
+  "fullgraph"
+]
+函数AST摘要：0a14698a003f8e2819aeed1b1d694fb679ee76832ad083ddd25dee914438c988
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "三源实际通路、热品质与原主体分证",
+  "inputs": "完整base/world/ports/graph",
+  "operations": "明戊×新土来源水损/埋金；己两跳/己自身土源生日/原酉三证分存；丁源×原水ROOT×原辛联合工作<=预留费；Q有界",
+  "outputs": "SA/SB/SC、原辛/总金根/指定酉根/水根/压力/Q及逐源热明细",
+  "preconditions_and_limits": "原酉单独root:day:金；Q不是金库存/温度，eta0/热关/foreign/金0不能借热源名拿证书。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:metrics"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+47. runtime/xin_three.py:summarize
+算法标识：runtime/xin_three.py:summarize
+path：runtime/xin_three.py
+line：104
+参数：[
+  "task",
+  "current",
+  "comparisons"
+]
+函数AST摘要：02d44b8b2f41213ec5418a68d76f85d8e8e60426df47949a22e5ebba7aef97a1
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "分别回答局部和完整净题",
+  "inputs": "task与实际/所有完整对照metrics",
+  "operations": "A比theta0三者严降；B对两个单关都需护辛酉与缓火；C质量相对热关、整局相对全部新丁功能关分开",
+  "outputs": "完整检查真值与精确delta向量",
+  "preconditions_and_limits": "保SB真NB假、NCquality真NCwhole假；热关物理必同只验证品质，不冒整体金改善或最终喜忌。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:summarize"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+48. runtime/xin_three.py:analyze
+算法标识：runtime/xin_three.py:analyze
+path：runtime/xin_three.py
+line：118
+参数：[
+  "base",
+  "natal",
+  "task",
+  "theta",
+  "eta",
+  "exact",
+  "legacy"
+]
+函数AST摘要：b084f55d79e238673c38c53b6c8027ef31ee96e3af7bf134ae5998fcb65716ff
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "冻结出生并贯通全部已承诺对照",
+  "inputs": "当前/真实natal、task/theta/eta、exact/legacy",
+  "operations": "真实natal ordinary先解；A/QA/theta0、B两单关双关、C同费热关/全丁功能关，每图完整来源/费/指标",
+  "outputs": "全部world/ref/sourcegate/净判断",
+  "preconditions_and_limits": "无当前新源0替出生门；方法/阴性全保、不拟合；不处理真实完整UTC/B/显示。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:analyze"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+49. runtime/xin_three.py:analyze.get
+算法标识：runtime/xin_three.py:analyze.get
+path：runtime/xin_three.py
+line：120
+参数：[
+  "current",
+  "th",
+  "heat",
+  "gates",
+  "cut"
+]
+函数AST摘要：8e436c24fc40da1bbdcd20215eccd1c7f4174e51c0f5771081cf1c6e50370481
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "只复用完整功能和来源相同的世界",
+  "inputs": "同单输入族current/theta/eta/gates/cut",
+  "operations": "key保完整direct、门、每pair开关率/预留费及热效开关；miss完整求解、来源、图、指标",
+  "outputs": "完整worldref",
+  "preconditions_and_limits": "热开关即使x相同品质不同也不合并；同矩阵但pair来源不同不合并；固定单族份额语境。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/xin_three.py:analyze.get"
+}
+本版未执行情况：null
+本版范围：[
+  "旧flow只pack/gauss、旧583只origins；其余旧Geng/禄劫判断未迁作辛三源。",
+  "根量仅402phasefree；529只借alpha0付费品质结构、不借commonlifeROOT/木stock负荷。",
+  "source04原火来源与原酉根精度有效；来源/实现/现实分开，全部数值为工程，无B/显示。",
+  "05来源边界：B只付费普通引化，未证明己相对戊独有敛火材性；404炎上全土质量投影不自动迁辛夏，未采用新材性算子。"
+]
+
+原件：work/rev608_Xin_H0_effective_rule_cards.json
+SHA256：6f9b76eb90cb527aa8c1ed0415a7f126a51e463450b27a0e4db79bb17608c329
+
+1. SOIL429-XIN-WU/SCOPE
+算法标识：SOIL429-XIN-WU/SCOPE
+source：Ren1947 PDF74印24辛原注/任注分层；原429 SOIL429-XIN-WU，原00电子录文不冒同版字形。
+layer：原注/任注与工程门分层
+method：三个独立辛源问题
+conditions：重戊、夏火多己、冬水旺丁分别准入
+exclusions：不迁庚湿燥门，不按任意土/火label，性别贵贱后件不拟合
+changes：当前不反选出生火多/水旺；A在新作用前direct门
+conflict：先源域，再局部S，再完整N；不合成最终喜忌
+rule：source_gates与三task分别执行
+verification：两人工W/S、反季、单戊非重、全部率和边界事前固定
+state：经449真正非作者完整源/新行为/来源/预算/发行复核，608采用的有限H0三源规则；不替代M1独立阴己材性或整盘最终喜用。
+historical_author_state：author_finite_engineering_verified_pending_genuine_nonauthor_not_self_adopted
+
+2. SOIL429-XIN-WU/ROOT
+算法标识：SOIL429-XIN-WU/ROOT
+source：Ren1947 PDF74印24辛原注/任注分层；原429 SOIL429-XIN-WU，原00电子录文不冒同版字形。；588/402根量
+layer：工程资格，不是529ROOT
+method：真实多柱全干藏/原点
+conditions：主1余1/4原月3/2、原日辛无float仍保酉根演员；每typed原点一次
+exclusions：无actor元素不生成幽灵受方；出生巳庚根不替原酉
+changes：当前time月不享原出生月倍；供给压力反事实资格/份额仍固定
+conflict：04原火仅火ROOT/丙丁float，原酉与总金根分列
+rule：inventory/positiveorigins；真实端点CF与普通预留费用
+verification：W无火出生/己冬仍F0及无入边；180/3完整源费；4精确旧核回归
+state：经449真正非作者完整源/新行为/来源/预算/发行复核，608采用的有限H0三源规则；不替代M1独立阴己材性或整盘最终喜用。
+historical_author_state：author_finite_engineering_verified_pending_genuine_nonauthor_not_self_adopted
+
+3. SOIL429-XIN-WU/A
+算法标识：SOIL429-XIN-WU/A
+source：Ren1947 PDF74印24辛原注/任注分层；原429 SOIL429-XIN-WU，原00电子录文不冒同版字形。
+layer：任注重戊方向+守恒b拆工程
+method：预先direct重门/实际水金损耗
+conditions：当前明戊>=2且土direct严大水/金；只明戊b拆θ正生/埋，原克水c仍在
+exclusions：藏戊己不代发埋、容量不冒实损；不由埋后金弱选重
+changes：theta0/半/1全报，QA只关实效不退分费
+conflict：火克金/明戊埋共一个金clamp；受害原点不转给施控者
+rule：SA=门&&新戊actor×新土来源实际水损及埋金均>0
+verification：W重戊SA/NA真，S重戊SA可真NA假；非重与theta0 false；foreign专属信用0
+state：经449真正非作者完整源/新行为/来源/预算/发行复核，608采用的有限H0三源规则；不替代M1独立阴己材性或整盘最终喜用。
+historical_author_state：author_finite_engineering_verified_pending_genuine_nonauthor_not_self_adopted
+
+4. SOIL429-XIN-WU/A-NET
+算法标识：SOIL429-XIN-WU/A-NET
+source：Ren1947 PDF74印24辛原注/任注分层；原429 SOIL429-XIN-WU，原00电子录文不冒同版字形。
+layer：有限完整净题为工程
+method：原辛/总出生金水根三者损伤
+conditions：比同完整新柱theta0，SA真且辛、总原金root、总原水root均严降
+exclusions：不以QA替theta0；原水无root时不假称root受损
+changes：所有当前普通生金/克水/火金反馈保
+conflict：局部损耗可正而完整三者俱伤不成立，阴性留
+rule：NA_checks逐项原值与delta交付
+verification：180完整图/全部费/目标clamp，S原水root缺项不造原点
+state：经449真正非作者完整源/新行为/来源/预算/发行复核，608采用的有限H0三源规则；不替代M1独立阴己材性或整盘最终喜用。
+historical_author_state：author_finite_engineering_verified_pending_genuine_nonauthor_not_self_adopted
+
+5. SOIL429-XIN-WU/B
+算法标识：SOIL429-XIN-WU/B
+source：Ren1947 PDF74印24辛原注/任注分层；原429 SOIL429-XIN-WU，原00电子录文不冒同版字形。；05另读Ren72原己与404炎上质量题
+layer：原夏辛条件+付费普通引化工程，非己独有材性证明
+method：同一新明己连续通路
+conditions：夏出生火严大金/水；原火ROOT/丙丁float经同己到原辛，新己自身土源生日、原酉仍存三证分开
+exclusions：不重复wJi、不把土源叫原酉来源；普通通关并非己独有，未证独立阴己敛火/遮蔽
+changes：只关原火→新己/新己→金两pair及双关，全费保持
+conflict：己克水可能增火；404全土F-T/4投影不偷迁，05材性精确未闭题保
+rule：SB具源三证；NB对两个单关均护辛酉并至少一火指标降且另一不增
+verification：SB真NB假完整保，正两跳额外真实同帧IO；金0/反季/foreign假
+state：经449真正非作者完整源/新行为/来源/预算/发行复核，608采用的有限H0三源规则；不替代M1独立阴己材性或整盘最终喜用。
+historical_author_state：author_finite_engineering_verified_pending_genuine_nonauthor_not_self_adopted
+
+6. SOIL429-XIN-WU/C
+算法标识：SOIL429-XIN-WU/C
+source：Ren1947 PDF74印24辛原注/任注分层；原429 SOIL429-XIN-WU，原00电子录文不冒同版字形。；529/554仅付费热工作结构
+layer：原注敌寒无歧义；任注冬单字不强断；alpha0工程
+method：冬原水旺/实际丁源联合品质工作
+conditions：冬出生水严大金/火；只新明丁付eta热费，原水root/原辛/原酉均活且专属热工>0
+exclusions：不造水生金库存/温度，未注册藏丁不代来源；不迁529ROOT/全部kappa
+changes：eta0/1/8/1/4全报；热关不退款且物理必同
+conflict：普通火克金/水制火全保；金0、foreign即使付费不授SC
+rule：work=eta*newDing_registered_origin*(nativeWaterroot/grossWater)*(Xin/grossMetal)<=paid；Q=Xin*work/(Waterroot+work)
+verification：180各热开关/eta0/压力金0/反季/foreign；全热原点费与工作分列
+state：经449真正非作者完整源/新行为/来源/预算/发行复核，608采用的有限H0三源规则；不替代M1独立阴己材性或整盘最终喜用。
+historical_author_state：author_finite_engineering_verified_pending_genuine_nonauthor_not_self_adopted
+
+7. SOIL429-XIN-WU/C-NET
+算法标识：SOIL429-XIN-WU/C-NET
+source：Ren1947 PDF74印24辛原注/任注分层；原429 SOIL429-XIN-WU，原00电子录文不冒同版字形。
+layer：品质净与整体净分别为工程
+method：NC_quality不充NC_whole
+conditions：品质比同费热关需Q严增及辛酉水根不降；整体比所有新丁函数关需辛酉不降且有实际辛/酉改善或火压下降
+exclusions：热关物理必同不能说整体存量改善，品质不替最终取用
+changes：热效关、全新丁普通生克/热关、真实natal三基线不同
+conflict：SC/NCquality真而NCwhole假照留，不调η追阳性
+rule：两套check与完整delta分存
+verification：物理相等逐world验，winter nominal NCwhole假保，全source/fee来源通过
+state：经449真正非作者完整源/新行为/来源/预算/发行复核，608采用的有限H0三源规则；不替代M1独立阴己材性或整盘最终喜用。
+historical_author_state：author_finite_engineering_verified_pending_genuine_nonauthor_not_self_adopted
+
+8. SOIL429-XIN-WU/REPRO
+算法标识：SOIL429-XIN-WU/REPRO
+source：Ren1947 PDF74印24辛原注/任注分层；原429 SOIL429-XIN-WU，原00电子录文不冒同版字形。；source04精度/05材性未闭外置说明
+layer：资料/实现/现实分开
+method：固定版本/全49算法/完整IO
+conditions：180Cramer配置中162不同物理，88分析/3foreign；49算法48def+λ；37旧/12新
+exclusions：22未执行旧不造IO；3参数模块非4exec；无B/显示、非全UTC
+changes：同输入同版复算，源坏0restore4，合法域外facts1math0
+conflict：首checker压力库存比较错保，86先过域复用，仅补2压力3foreign，producer不变
+rule：guard/evaluate/main/verify与唯一小完整只读核
+verification：27完整同帧IO含12新及B正通路补充；API7/严格6/坏源/读写负控
+state：经449真正非作者完整源/新行为/来源/预算/发行复核，608采用的有限H0三源规则；不替代M1独立阴己材性或整盘最终喜用。
+historical_author_state：author_finite_engineering_verified_pending_genuine_nonauthor_not_self_adopted
+
+必读有效边界：[
+  {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Xin_three_source_branches/05_己引化与独立敛火材性_来源边界待独审.txt",
+    "bytes": 3366,
+    "sha256": "b2600c2891c22236abd10cd23eebb998cde594f1d51c94155b3c17c7e46bf8fa"
+  },
+  {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_H0_independent_review_449/source_budget_and_original_scope_disposition.json",
+    "bytes": 2802,
+    "sha256": "a81501b489007ffba21ca5428bae929b3e7769d8178f0fbf90f1a75575ad6bc1"
+  }
+]
+

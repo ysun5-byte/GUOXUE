@@ -1,0 +1,13 @@
+已知且明确保留的档案例外
+
+早期两份“来源索引_current”可变导航文件曾仅记录尺寸和摘要，原字节未找回：
+8045字节，SHA256 fc96b8778abb9424b8194272c190fcd33e35c355f12cf4ae0048010dcf5eec18
+6309字节，SHA256 afaba15002c8a635157725509dfa70c55ef0c6d245957569c1e9315a5a142eb0
+
+它们是历史导航快照，不作为本次95个已采用规则/源码/参数/必要运行I/O的缺省依据。原引用pointer、搜索范围、失败恢复候选和实际新623快照分别保留；不认候选复原为原件，也不拿当前索引冒充这两个版本。读件器请求这两个SHA明确报“historical_navigation_snapshot_bytes_unavailable”。
+
+根裁决：research_files.py show work/C08_root_two_historical_navigation_gap_disposition.json
+逐版本/JSONpointer取证：research_files.py show work/C08_genuine_independent_review449/actual/closure13_final_forensic_disposition_with2_unrecovered_navigation_versions.json
+当前实际623状态原字节见本目录 当前验收与来源快照623；这是一份另外保存的新版本。
+
+资料准确性、规则实现正确性和现实预测验证分别记录；本研究没有据程序测试声称现实预测准确。

@@ -1,0 +1,230 @@
+{
+  "schema": "563-exact529-after553-project-adoption/1",
+  "revision": 563,
+  "status": "adopted_exact_finite_source_operator_after_independent_review",
+  "registered_utc": "2026-11-03T14:19:25.170837+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_author_completion_handoff.json",
+    "bytes": 4700,
+    "sha256": "3f05c763e9f9ae39dcd596be9c3e2cbfd23d45c7c97a0174e86ba75ad3f7de23"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_independent_completion_handoff.json",
+    "bytes": 3148,
+    "sha256": "c6c2295418fe4c36915ce9076b9f4dcf0af14442ea2b23cf1f12b79434a99fc0"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_winter_warm_actual_effect",
+    "files": 163,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_winter_warm_actual_effect/MANIFEST.json",
+      "bytes": 27476,
+      "sha256": "a613c86f9daddb833f6f9c8e44adc807389cf27b62e97ee741d7a8141a9cbbcd"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_winter_warm_actual_effect/FREEZE.json",
+      "bytes": 404,
+      "sha256": "a3752f5f6063e809c2be595ac671cf176e191824c4c5182230fa1ed77ed2d9df"
+    },
+    "root_all_payload_bytes_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review",
+    "files": 57,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/manifest.json",
+      "bytes": 9494,
+      "sha256": "b9acbe463e4db2cca00a9f5822af49871bef182bb3e4270a58c52ee740ad4396"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/freeze.json",
+      "bytes": 184,
+      "sha256": "bc4104a9929839ab2fdfe307cb9bf1b68c5a5c37e83acd3e6cb45bccfeba6843"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/529 one complete readonly winter quality research gbc8gb3y/complete winter quality research with spaces",
+      "payload_files": 99,
+      "total_files": 100,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/529 one complete readonly winter quality research gbc8gb3y/complete winter quality research with spaces/release_manifest.json",
+        "bytes": 17282,
+        "sha256": "1bf8ecd858f09a2d972667a2285593a4d15007d9ec50b0c6a6933781b45a323d"
+      },
+      "all_payload_bytes_exact": true,
+      "no_clone_or_chmod": true
+    }
+  ],
+  "source_rules": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_winter_warm_actual_effect/rule_cards_substantive.json",
+    "bytes": 12963,
+    "sha256": "0ea6c897e20b53c6daa0f4ed11e34ea44772ec409a1f97cef4271d88d9ab7885"
+  },
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev563_effective_rule_cards.json",
+    "bytes": 14599,
+    "sha256": "06ab6e32c3473b595a531f14dde7305308e9484d4257c7065ed6f62ccf78a63e"
+  },
+  "all_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+    "bytes": 81263,
+    "sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185"
+  },
+  "source_and_scope_boundaries": [
+    "仅任氏PDF367金日木财冬水多木泛的既定源意向/品质口径，非全流派寒暖统一定理。",
+    "活动y与净留r分列，全部生克/费用/木燃料负荷保留；热口品质信用不新添木库存或木根。",
+    "品质净题与从向净题分列；普通可靠原印/金根优先否从，不能用暖阳性倒推从财。",
+    "根少/无根并非传统一概不能暖；原无火现有算子无暖actor，真实新来源仍554/原C03研究。",
+    "全部9组ακ与预定剂量全报，不挑阳性方法；ακηγ及承载门均具名工程。",
+    "当前小核完整100件含来源/运行/合同；大IO与3825证明由精确外部索引保，不谎称在1MB小核内。"
+  ],
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/independent_report.json",
+    "bytes": 8177,
+    "sha256": "31429583a2f3c57be11853486b04cc954d8bf95928498cb8c1a53393f9041c8b"
+  },
+  "full_independent_report_summary": {
+    "schema": "553-nonauthor-winter-warm-independent-final-report/1",
+    "utc": "2026-11-03T14:17:27.947963+00:00",
+    "status": "independent_passed_named_finite529_operator",
+    "author_handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_author_completion_handoff.json",
+      "bytes": 4700,
+      "sha256": "3f05c763e9f9ae39dcd596be9c3e2cbfd23d45c7c97a0174e86ba75ad3f7de23"
+    },
+    "author_study": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_winter_warm_actual_effect",
+    "version": "WINTER-WOOD-FINANCE-WARM-WHOLE-0.1.1",
+    "source_profile": "Ren367-winterwoodquality-concurrent-thermal-port-engineering-v1",
+    "findings": {
+      "new_numerical_worlds": 13,
+      "source_predicate_fixtures": 6,
+      "complete_comparison_counts": {
+        "worlds": 13,
+        "regular_edges": 377,
+        "thermal_ports": 24,
+        "thermal_source_native_root_joint_components": 568,
+        "all_pool_origin_components": 6060,
+        "source_fee_origin_components": 9375
+      },
+      "all33_ast_contracts_and_real_IO": {
+        "algorithms": 33,
+        "exact_old_AST_and_contracts": 19,
+        "new_or_changed": 14,
+        "normal_current_IO": 32,
+        "actual_exception_IO": 1,
+        "distinct_IO_artifacts": 64,
+        "actual_source_byte_values": 19,
+        "serialized_ModuleType_code_contexts": 5,
+        "providers_separate": 6,
+        "same_return_object_aliases": 2
+      },
+      "fresh_existing_copy_protocol": {
+        "processes": 18,
+        "real_negative_controls": 72,
+        "normal_forbidden_accesses_or_mutations": 0,
+        "sourcefaults_three_zero_provider": true,
+        "strict_new_boundaries": 9,
+        "full_warm_api_cli_bytes_each": 105026492,
+        "full_no_fire_cli_bytes": 14022916,
+        "byte_exact_reference_matches": true
+      }
+    },
+    "source_substance": "Ren367 winter cultivation/warming motive verified in its conditional following context; Ren093/094 native-root reference; PrimaryPDF95/print86 exact separate print-support mechanism. All numerical thresholds, alpha/kappa/eta, workload, roots and R0 engineering explicitly separate; no false common verbatim attribution.",
+    "important_behavior": "Actual paid warm-work is separate from fire-earth generation. Ordinary reliable metal-root/print-source veto first, then carrying bound. Quality success does not establish following. Every source, fee and opposing effect remains; cutheat same-fee physical invariance checked, eta0 is different.",
+    "reviewed_material_boundaries": {
+      "author_files": 163,
+      "kernel_files": 100,
+      "readonly_copy_files": 100,
+      "old510_files": 99,
+      "all_SHA_and_file_modes_unchanged": true,
+      "samepath_research_payload97": true,
+      "two_release_only_entries_exact": true,
+      "large_IO_and3825proof_external_pins_not_all_bundled": true,
+      "no_clone_or_chmod_of_existing_copy": true
+    },
+    "reused_existing_correct_evidence": "Original3798+27 independent complete states, original cross-hashseed full protocols and original old510 physical regressions reused with exact pins. This independent review does not rerun or relabel all3825 as new reviewer calculations.",
+    "genuine_remaining_original_scope": "Original missing fire -> real external pillar/actor/source/position/root and all feedback not implemented by529; remains C03 work. Finite existing-actor computed zero and rejection are not full warm-chain completion. No full-classical unique final auxiliary/physical thermal/predictive claim.",
+    "reviewer_errors": [
+      {
+        "issue": "Wrong assumed report filename, actual FINAL_RESEARCH_REPORT.json. Metadata prefix failed; private checker separately bound formal handoff and captured163precall files. Later verified captured snapshot against official MF; no private13rerun.",
+        "history": "history/first_author_report_filename_assumption"
+      },
+      {
+        "issue": "All99 release payloads wrongly assumed same relative path in study, overlooking two intentional release-only metadata/oldreference files. Corrected check only.",
+        "history": "history/second_release_only_metadata_assumption"
+      },
+      {
+        "issue": "Relative study path compared to absolute appendix pin; normalized root resolution only.",
+        "history": "history/third_relative_vs_absolute_appendix_path_assert"
+      },
+      {
+        "issue": "Resumed read-only display probe treated receipt.records dict as sliceable list (TypeError unhashable slice). No candidate invocation in that probe; corrected iteration in next small read. Exact shell transcript remains tool history, no invented original script artifact.",
+        "history": null
+      },
+      {
+        "issue": "Reviewer verifier wrongly imposed uniform outputs_and_limits on exact old math contracts which legitimately preserve outputs/preconditions_and_limits. Original script and first failure preserved; accepted both substantive schemas, exact old contract contents still compared.",
+        "history": "history/contract_schema_assumption"
+      }
+    ],
+    "no_author_defect_found_within_finite_supported_scope": true,
+    "evidence": {
+      "00_new_private_questions_before_candidate_calls.json": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/00_new_private_questions_before_candidate_calls.json",
+        "bytes": 4515,
+        "sha256": "f3373cbad5a128e8696417533e0ce7e045f24cde101a3bf9b4f59cfa78a05c91"
+      },
+      "private13_complete_oracles_before_529_calls.json.gz": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/private13_complete_oracles_before_529_calls.json.gz",
+        "bytes": 261952,
+        "sha256": "0c7da4e469dd5b254dfbede97f44fc26d8016cc62c2c08c46203d24d597aad32"
+      },
+      "source_support_unit6_before_any_529_calls.json": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/source_support_unit6_before_any_529_calls.json",
+        "bytes": 11920,
+        "sha256": "bfc47f12f706aaafa15b2958ae9e70f9ec297c71eedec9619cda780f24a35b9c"
+      },
+      "private13_full_actual.json": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/private13_full_actual.json",
+        "bytes": 9770,
+        "sha256": "adf9a5889b2e9cd14ac73a0a0b5e669a8cfd51dd4a3d7e82f2b20c33c534deda"
+      },
+      "contracts33_actual_IO_audit.json": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/contracts33_actual_IO_audit.json",
+        "bytes": 18436,
+        "sha256": "10be206fc6156a6f6ddad882f9d24690379dfe8281c382c57ac349945a2e4703"
+      },
+      "source_rules_and_algorithm_substantive_review.json": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/source_rules_and_algorithm_substantive_review.json",
+        "bytes": 10347,
+        "sha256": "4b99cdd3d44dde77a9aaaea330024d181124763a3ea8989ae8bb722b80b53acd"
+      },
+      "fresh_existing_readonly_full_protocol.json": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/fresh_existing_readonly_full_protocol.json",
+        "bytes": 24865,
+        "sha256": "8be2d9403c38031d0d67576791a3baf848f581bab0c0e45620abca5b126317e2"
+      },
+      "initial_frozen_author_and_existing_kernel_pins_modes.json": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/initial_frozen_author_and_existing_kernel_pins_modes.json",
+        "bytes": 88049,
+        "sha256": "6692ea9fdfc772dfcdee2fe92f1ab6b172a10c46afb27ef864fbaf2c1d53f695"
+      },
+      "fresh_protocol_after_bytes_modes.json": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev553_winter_warm_independent_review/fresh_protocol_after_bytes_modes.json",
+        "bytes": 87269,
+        "sha256": "90ec0556215605b3f2a9cae9d84a80c1264cf68c957b1b6de6a5db64ccdb2cb0"
+      }
+    },
+    "self_adoption": false,
+    "progress_delta": "0.00",
+    "B_or_display_research": false,
+    "empirical_prediction_or_temperature_verified": false
+  },
+  "all_original_C02_complete": false,
+  "all_original_task_complete": false,
+  "progress": "88.75/100",
+  "progress_delta": "0.00",
+  "no_B_theme_display": true,
+  "empirical_prediction_or_temperature_validated": false
+}

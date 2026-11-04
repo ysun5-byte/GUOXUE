@@ -1,0 +1,161 @@
+{
+  "schema": "source-qualified-follow-kill-shared-budget-model-adoption-0.1",
+  "revision": 378,
+  "registered_utc": "2026-11-02T20:39:32.241417+00:00",
+  "status": "adopted_exact363_K2_full_fiveelement_sharedbudget_research_after374",
+  "verified": {
+    "candidate363": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_Ren_follow_kill_whole",
+      "files": 64,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_Ren_follow_kill_whole/manifest.json",
+        "bytes": 9358,
+        "sha256": "9c59cc50dcca948d127cb3075c28e36b40adbd13eff7f15f0bbc86b8e0a56df3"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_Ren_follow_kill_whole/freeze.json",
+        "bytes": 403,
+        "sha256": "90004e75faebceb469a88d36f7bd6156c6075dd2481f510954b56ad51029d571"
+      },
+      "root_all_bytes_and_SHA_actual": true
+    },
+    "review374": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev374_Ren_follow_kill_independent",
+      "files": 58,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev374_Ren_follow_kill_independent/manifest.json",
+        "bytes": 8550,
+        "sha256": "5fc211e1b5bc83232cc924445d3f12b7d2c3fdfce243cb402c370a01a1d18ee8"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev374_Ren_follow_kill_independent/freeze.json",
+        "bytes": 509,
+        "sha256": "f6a8b234921b7159a6e6c9e7d7cd43373abd28cf98c632874821ae8d2121da94"
+      },
+      "root_all_bytes_and_SHA_actual": true
+    }
+  },
+  "precise_candidate_pins": {
+    "manifest": "9c59cc50dcca948d127cb3075c28e36b40adbd13eff7f15f0bbc86b8e0a56df3",
+    "freeze": "90004e75faebceb469a88d36f7bd6156c6075dd2481f510954b56ad51029d571",
+    "core": "21fd0b9a8d1d99d0ec0eae2f67f009916240f1333d48f74f2db5bdaf3ec5c205",
+    "source_lock": "b6ff700f26d7370858340f7cec2b5b2e6bdca2af89336f3234660634f3549030",
+    "author_report": "3141580fe2e7c9be3240d79c1bccd2fd41c14fa602e3f1c14bdb3a2be3af46cd"
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev374_Ren_follow_kill_independent/independent_report.json",
+    "bytes": 4020,
+    "sha256": "4e70f8611457bd322fbfee2d67c624fdc944fd6add500125bbc12cb7d5c5e54e"
+  },
+  "source_case": {
+    "year": "辛巳",
+    "month": "辛丑",
+    "day": "乙酉",
+    "hour": "乙酉"
+  },
+  "source": "1947阐微PDF371 K2，从杀斯真；367—370与93—94上下文分层，沿347原任务。",
+  "source_gate": "Exact named source goldformation allowed before numerical success; no universal巳酉丑 transformation, ordinaryfailure-to-followkill or literalno印比 predicate.",
+  "inventory": "12realactors:6金2木2土1水1火;48qualificationwitnesses,50actualactorpaths, allroots/positions remain. 时乙 and丑癸 notdeleted to fitsource.",
+  "equations": "Five actual currents fromsame full signed clamped equations; exact rational activefaces withglobal contraction<=3/5; origin conservation onlywithin declared per-element bookkeeping, not cross-element physical mass.",
+  "peer_assumption": "Extra same-element peer协同 p*x木 has no additional peer-send charge; wood diagonal11/8-1/8=5/4. Explicit engineering assumption, not classical formula or natural conservation.",
+  "questions": [
+    {
+      "id": "main_weak_dependency",
+      "meaning": "允许木现量非零；源原局弱依附/无独立牢根，实际所选金控制信用覆盖同current外来印比支持。",
+      "H_count": 21
+    },
+    {
+      "id": "strict_zero_pressure",
+      "meaning": "更强覆盖包括木自身库存的完整潜在支持；不能把它冒源真从的唯一绝对零门。",
+      "H_count": 39
+    }
+  ],
+  "complete_solutions": "All1024package worlds checked independently; original AUX limits unchanged, CNF partitions solved thenAND-minimal-union reconstructed, all6chunks exacttruth verified.",
+  "sensitivities": "Two declared alternative parameter methods preserve rawsource taskbutchange fullH to25/42 and21/43. No claim21/39 source-unique final喜用 or priority.",
+  "verification": {
+    "nominal_all_worlds": 1024,
+    "distinct_beta_states": 180,
+    "independent_exact_origin_checks": 40960,
+    "actors": 12,
+    "qualification_rows": 48,
+    "actual_edges": 50,
+    "mainH": 21,
+    "strongH": 39,
+    "row_global_contraction": "3/5",
+    "current_origin_linear_bound": "3/11 nominal domain",
+    "CNF_truth_rebuilt_for_all1024_each_of6_chunks": true,
+    "fresh_private_before_call_cases": 8,
+    "sensitivity_fullH_exact_sets": [
+      {
+        "main": 25,
+        "strong": 42
+      },
+      {
+        "main": 21,
+        "strong": 43
+      }
+    ],
+    "sensitivity_method": "independent full exact equation reconstruction; compare sealed artifact, no fresh full producer family reruns"
+  },
+  "source_opinion": {
+    "actual_visual_pages": [
+      367,
+      368,
+      369,
+      370,
+      371,
+      93,
+      94
+    ],
+    "pdf_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+    "precise_K2_source_allowance": true,
+    "not_generic_triple_gold_transform": true,
+    "not_parameter_source_or_prediction_validation": true
+  },
+  "functions": "All41 descriptions/IO/sourceAST substantively reviewed; no source/body-math alias substitution.",
+  "CLI_missing_source_limit": "actual FileNotFoundError/exit1/stdout empty; main OSError catch not claimed. Not waiver for source or algorithm error.",
+  "strict_source_behavior": {
+    "new_badsource_challenges": 7,
+    "badsource_registered_provider_exec": 0,
+    "clean_positive_provider_exec": 3,
+    "strict_cases": 13,
+    "new_legal_sourcegap_API_CLI_exact": true,
+    "known_declared_missing_lock_IO_limit": "actual FileNotFoundError/exit1/stdout empty; main OSError catch not claimed. Not waiver for source or algorithm error."
+  },
+  "transport": {
+    "receipt": "full_transport_actual_receipt.json",
+    "existing64_complete_copy_reused": true,
+    "new4_full_API_CLI_processes": true,
+    "native_bytes": 3398530,
+    "native_sha256": "bb765a6012254a71345658e9c87a287489affc4bfe215c9d30f1f02cfd62bb41",
+    "original_project_read_attempts": 0,
+    "package_write_attempts": 0,
+    "no_normalization": true,
+    "final_all64_original_copy_unchanged": true
+  },
+  "postfreeze_author_boundaries": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_reusable_math_and_source_boundary_addendum.txt",
+    "bytes": 4049,
+    "sha256": "50a009a8312265cd9b088e5359f13b7e752aca6344d96d88e165119422d7a17f"
+  },
+  "author_afterfreeze_stable_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_author_completion_handoff.json",
+    "bytes": 2535,
+    "sha256": "b8d2ed2c3cf8b3f0265e76736fb769712423a6d98a324b7ff1c06c314fc73c43"
+  },
+  "author_afterfreeze_stable_move": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev363_author_readonly_and_complete_move_receipt.json",
+    "bytes": 13767,
+    "sha256": "a47b7e5559d63a6517721a33a7a6479e77ac25b04f4f7effb332d3d6f3f2f87f"
+  },
+  "source_cache_and_reusable_scope": "Exact original pages/receipts retained. Mathkernel reusable; current code/source gate onlyK2. Other inputs require own relation/source tasks.",
+  "other_K1_or_all_followkill_complete": false,
+  "traditional_all_rival_priority_or_final_yong_unified": false,
+  "B_theme_J2_display_exported": false,
+  "default_B155_unchanged": true,
+  "original_C02_complete": false,
+  "original_task_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

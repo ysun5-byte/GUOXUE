@@ -1,0 +1,887 @@
+王命例乙庚作用与真假从/普通依赖竞争
+rev522_Wang_YiGeng_actual_competition
+所属原模块：C02
+当前采用：rev556_Wang_full_competition_project_adoption.json
+范围：adopted_exact52274_release37_after55140_RBC_SL_all_actor_methods
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev522_Wang_YiGeng_actual_competition/algorithm_explanations_all28.json
+SHA256：aefc0b0fe9ff35c4d5e8ced4c7395c2b079335bc7e6a162f094afd4c7a280619
+
+1. wang_competition.py:canonical
+算法标识：wang_competition.py:canonical
+source_identity：{
+  "relative_path": "wang_competition.py",
+  "qualified_name": "canonical",
+  "first_line": 9,
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "b54a6df034a16801c20cd8c18c2e17dd8ce04822be8e842fd0af6f992f7e2955"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "稳定规范JSON",
+  "inputs": "JSON兼容已pack结果",
+  "operations": "键排序/紧凑Unicode/拒NaN",
+  "outputs_and_limits": "str；CLI另换行，不校验来源",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "seasonal_intent.py:canonical",
+  "exact_AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "wang_competition.py:canonical",
+  "full_values_actual_call_and_return": true
+}
+
+2. wang_competition.py:pairs
+算法标识：wang_competition.py:pairs
+source_identity：{
+  "relative_path": "wang_competition.py",
+  "qualified_name": "pairs",
+  "first_line": 10,
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "module_sha256": "b54a6df034a16801c20cd8c18c2e17dd8ce04822be8e842fd0af6f992f7e2955"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "拒重复JSON键",
+  "inputs": "解析器键值对",
+  "operations": "逐键出现检测，固定错误不回显原键",
+  "outputs_and_limits": "dict或ValueError；转义重复也拒",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "seasonal_intent.py:pairs",
+  "exact_AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "wang_competition.py:pairs",
+  "full_values_actual_call_and_return": true
+}
+
+3. wang_competition.py:constant
+算法标识：wang_competition.py:constant
+source_identity：{
+  "relative_path": "wang_competition.py",
+  "qualified_name": "constant",
+  "first_line": 16,
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6",
+  "module_sha256": "b54a6df034a16801c20cd8c18c2e17dd8ce04822be8e842fd0af6f992f7e2955"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "拒非有限常量",
+  "inputs": "NaN/Infinity标记",
+  "operations": "固定抛ValueError",
+  "outputs_and_limits": "无正常返回；观察器None为异常展开",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "seasonal_intent.py:constant",
+  "exact_AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "wang_competition.py:constant",
+  "exception_boundary": "constant为真实异常profile return(None)，不能冒成功返回"
+}
+
+4. wang_competition.py:bounded
+算法标识：wang_competition.py:bounded
+source_identity：{
+  "relative_path": "wang_competition.py",
+  "qualified_name": "bounded",
+  "first_line": 17,
+  "AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351",
+  "module_sha256": "b54a6df034a16801c20cd8c18c2e17dd8ce04822be8e842fd0af6f992f7e2955"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "限制公开树",
+  "inputs": "API值或已解析JSON",
+  "operations": "深16/节点1000/对象16/列表32/串2000/Unicode标量，float等拒",
+  "outputs_and_limits": "None或ValueError；不是业务schema核对",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "seasonal_intent.py:bounded",
+  "exact_AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "wang_competition.py:bounded",
+  "full_values_actual_call_and_return": true
+}
+
+5. wang_competition.py:strict_load
+算法标识：wang_competition.py:strict_load
+source_identity：{
+  "relative_path": "wang_competition.py",
+  "qualified_name": "strict_load",
+  "first_line": 31,
+  "AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22",
+  "module_sha256": "b54a6df034a16801c20cd8c18c2e17dd8ce04822be8e842fd0af6f992f7e2955"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "严格JSON文本",
+  "inputs": "最多5000字符str",
+  "operations": "json.loads重复键/非有限回调，再bounded",
+  "outputs_and_limits": "支持JSON值；根字段在evaluate核",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "seasonal_intent.py:strict_load",
+  "exact_AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "wang_competition.py:strict_load",
+  "full_values_actual_call_and_return": true
+}
+
+6. wang_competition.py:guard
+算法标识：wang_competition.py:guard
+source_identity：{
+  "relative_path": "wang_competition.py",
+  "qualified_name": "guard",
+  "first_line": 34,
+  "AST_sha256": "83d761aea3539388ab7b69669d730dc88fcef804a60dc9ef53a182439c83070c",
+  "module_sha256": "b54a6df034a16801c20cd8c18c2e17dd8ce04822be8e842fd0af6f992f7e2955"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "来源与执行物的逐字节先验绑定",
+  "inputs": "本包source_execution_lock及列举source/runtime",
+  "operations": "核锁SHA、目录闭合、不可symlink逃逸、每件长度/SHA；只读全部通过后才返回模块字节",
+  "outputs_and_limits": "材料bytes或ValueError，坏源必须0 runtime模块执行；不认证文献真值",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "wang_competition.py:guard",
+  "full_values_actual_call_and_return": true
+}
+
+7. wang_competition.py:load
+算法标识：wang_competition.py:load
+source_identity：{
+  "relative_path": "wang_competition.py",
+  "qualified_name": "load",
+  "first_line": 47,
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "module_sha256": "b54a6df034a16801c20cd8c18c2e17dd8ce04822be8e842fd0af6f992f7e2955"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "只执行已守卫材料",
+  "inputs": "内部模块名/锁内path/material",
+  "operations": "ModuleType+固定filename编译执行",
+  "outputs_and_limits": "module；本函数本身不代guard，唯一公开调用者已先guard",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "seasonal_intent.py:load",
+  "exact_AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "wang_competition.py:load",
+  "full_values_actual_call_and_return": true
+}
+
+8. wang_competition.py:evaluate
+算法标识：wang_competition.py:evaluate
+source_identity：{
+  "relative_path": "wang_competition.py",
+  "qualified_name": "evaluate",
+  "first_line": 49,
+  "AST_sha256": "517749a23330523e44b14a20a69a0c926389f64f250f71ad2d3b7ae61ea75b38",
+  "module_sha256": "b54a6df034a16801c20cd8c18c2e17dd8ce04822be8e842fd0af6f992f7e2955"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "严格入口串接既定六种解释",
+  "inputs": "恰四键版本/方法/来源/合法raw",
+  "operations": "bounded→固定schema→guard→精确六runtime执行→本局完整all-on及所有已存在方向组合三增量→pack",
+  "outputs_and_limits": "完整固定方法结果；不能用不支持/默认主题代替本题，拒范围外明确输入",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "wang_competition.py:evaluate",
+  "full_values_actual_call_and_return": true
+}
+
+9. wang_competition.py:main
+算法标识：wang_competition.py:main
+source_identity：{
+  "relative_path": "wang_competition.py",
+  "qualified_name": "main",
+  "first_line": 54,
+  "AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113",
+  "module_sha256": "b54a6df034a16801c20cd8c18c2e17dd8ce04822be8e842fd0af6f992f7e2955"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "原子CLI",
+  "inputs": "最多20000输入bytes",
+  "operations": "UTF8严格解码→strict_load→evaluate→canonical print；固定错误捕获",
+  "outputs_and_limits": "正常/有效未知0；硬错2，仅rejected/no_partial；输出一newline",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "seasonal_intent.py:main",
+  "exact_AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "wang_competition.py:main",
+  "full_values_actual_call_and_return": true
+}
+
+10. runtime/exact_reused.py:pack
+算法标识：runtime/exact_reused.py:pack
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "pack",
+  "first_line": 7,
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Encode internal exact mathematics.",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "runtime/exact_reused.py:pack",
+  "exact_AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/exact_reused.py:pack",
+  "full_values_actual_call_and_return": true
+}
+
+11. runtime/exact_reused.py:gauss
+算法标识：runtime/exact_reused.py:gauss
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "gauss",
+  "first_line": 14,
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "runtime/exact_reused.py:gauss",
+  "exact_AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/exact_reused.py:gauss",
+  "full_values_actual_call_and_return": true
+}
+
+12. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "十干查五行",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "runtime/foundation_facts.py:stem_element",
+  "exact_AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "full_values_actual_call_and_return": true
+}
+
+13. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "严格十神角色",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "runtime/foundation_facts.py:ten_god",
+  "exact_AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "full_values_actual_call_and_return": true
+}
+
+14. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原柱基础合法性",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "runtime/foundation_facts.py:validate",
+  "exact_AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/foundation_facts.py:validate",
+  "full_values_actual_call_and_return": true
+}
+
+15. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留有位置的形式合冲",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "runtime/foundation_facts.py:formal_relations",
+  "exact_AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "full_values_actual_call_and_return": true
+}
+
+16. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "runtime/foundation_facts.py:root_evidence",
+  "exact_AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "full_values_actual_call_and_return": true
+}
+
+17. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原61完整四柱事实入口",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "runtime/foundation_facts.py:parse",
+  "exact_AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/foundation_facts.py:parse",
+  "full_values_actual_call_and_return": true
+}
+
+18. runtime/root_types.py:classify
+算法标识：runtime/root_types.py:classify
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "classify",
+  "first_line": 6,
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "module_sha256": "98a6f86aa91d44bb071bc84d142fd0d44fcf24a7e6d2da74c3bcda02cd99aa15"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "原Primary ROOT类型",
+  "inputs": "合法stem/branch和已捕获原primitive",
+  "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+  "outputs": "type info",
+  "preconditions_and_limits": "caller已factsparse合法，primitive与ROOT代码源锁；不增加藏干、不判实际强弱。",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：{
+  "document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "function": "runtime/root_types.py:classify",
+  "exact_AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396"
+}
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/root_types.py:classify",
+  "full_values_actual_call_and_return": true
+}
+
+19. runtime/root_types.py:choose_value
+算法标识：runtime/root_types.py:choose_value
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "choose_value",
+  "first_line": 30,
+  "AST_sha256": "5f711116638a8c7bb0ccd95a1477d98dd5a444b9c76a38b4c81ee8e8cc09aaf2",
+  "module_sha256": "98a6f86aa91d44bb071bc84d142fd0d44fcf24a7e6d2da74c3bcda02cd99aa15"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "Primary分阴阳根类转具名工程资格",
+  "inputs": "classify的phase/yang/同元素藏据/主气",
+  "operations": "长生阳7/2阴5/2→临官帝旺7/2→非土阳墓3/2→主根7/2→其他藏根5/2→0，互斥优先只计一次",
+  "outputs_and_limits": "str数值与类别；不是实际力，不改藏干、不抄Ren共阳表；当前每演员四根均实际调用",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/root_types.py:choose_value",
+  "full_values_actual_call_and_return": true
+}
+old_code_exact_identity_new_current_contract：{
+  "source": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev253_effective_support_follow_competition/runtime/From06/vendor/follow05/vendor/hap/vendor/root_policy/root_policy.py",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "AST_sha256": "5f711116638a8c7bb0ccd95a1477d98dd5a444b9c76a38b4c81ee8e8cc09aaf2"
+}
+
+20. runtime/wang_core.py:metrics
+算法标识：runtime/wang_core.py:metrics
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "metrics",
+  "first_line": 6,
+  "AST_sha256": "6307b46ff6faa86618d93ccbd754d9da6031da6bd2c7f6777dd30dc8845cde77",
+  "module_sha256": "dc6dadc4f5cae71fe30c15acedce1e4ba05c66348915ad6653093c8dab25e55e"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "在同一全图先判印比是否可靠与普通/依附竞争",
+  "inputs": "原身份/有效路由/current/所有原点与边/U/L",
+  "operations": "日比current不重复叠生日；同一原根firm留存≥1/2、peer原根留存≥1、轻根与carry5/4；同一印同原根实际生日>0充分否从；原身体外生日足额条件；财势弱身及S无官/L暗官参与财主门预先全判",
+  "outputs_and_limits": "完整源前件/所有候选失败理由/实际生扶发送和留存/净题量。S/L不是原文唯一解；rooted来源成立不等于可任财；C定义不作印不证明化真",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/wang_core.py:metrics",
+  "full_values_actual_call_and_return": true
+}
+
+21. runtime/wang_core.py:compare
+算法标识：runtime/wang_core.py:compare
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "compare",
+  "first_line": 24,
+  "AST_sha256": "07cb337a71125572ca10ab6a179190516dd8d04be9d2441c701d25578ee97fc7",
+  "module_sha256": "dc6dadc4f5cae71fe30c15acedce1e4ba05c66348915ad6653093c8dab25e55e"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "按出生已选具名题比较完整辅助，保真阴性",
+  "inputs": "原all-on metrics、新全图metrics、固定S/L",
+  "operations": "普通弱体：M/印生日/原印根不降且财食活，严格改善；普通可任：仍可任且原财根/食财流不降；依附财：同源/财根/食财不降、生日/财源入官相对压力不增；全约束且至少一严格",
+  "outputs_and_limits": "逐目标真值、净通过/实际是否任财；净方案集合非H、不是现实运吉；原源未立不能靠后补输入倒选原格",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/wang_core.py:compare",
+  "full_values_actual_call_and_return": true
+}
+
+22. runtime/wang_core.py:world
+算法标识：runtime/wang_core.py:world
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "world",
+  "first_line": 35,
+  "AST_sha256": "4f194d8252d90712880ec8942b6f7634d6ebfc08bf7d89b0d33dde46e9184f7f",
+  "module_sha256": "dc6dadc4f5cae71fe30c15acedce1e4ba05c66348915ad6653093c8dab25e55e"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "每个增补仍重算同一完整图",
+  "inputs": "base/cf/独立来源d/数学与精确模块",
+  "operations": "solve→trace→bounds→metrics，全部原明藏正负同算",
+  "outputs_and_limits": "完整world；不从某个单边为正直接推出全盘辅助",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/wang_core.py:world",
+  "full_values_actual_call_and_return": true
+}
+
+23. runtime/wang_core.py:evaluate
+算法标识：runtime/wang_core.py:evaluate
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 39,
+  "AST_sha256": "502707acb7d13bed47240a5afd2cd56bd0fce7cbefd8abad80608beece430cbc",
+  "module_sha256": "dc6dadc4f5cae71fe30c15acedce1e4ba05c66348915ad6653093c8dab25e55e"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "串出所有三作用×两官杀口径完整辅助替代",
+  "inputs": "已sourceguard的request和六模块",
+  "operations": "原raw资格先立→三法all-on→每现存有效元素所有非空组合×1/2,1,2总量平均分到相应actor→每世界S/L目标全报→保全部通过失败及缺项",
+  "outputs_and_limits": "原王每R/B94、C46世界；其他随实际功能存在数变，五raw合1218。缺功能不写0/忌，不改B/显示/权重/进度",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/wang_core.py:evaluate",
+  "full_values_actual_call_and_return": true
+}
+
+24. runtime/wang_inventory.py:build
+算法标识：runtime/wang_inventory.py:build
+source_identity：{
+  "relative_path": "runtime/wang_inventory.py",
+  "qualified_name": "build",
+  "first_line": 5,
+  "AST_sha256": "04cdaa8bea349c1e2590392e3c0c83c37ac3b36633844ee62c928046d603e4c2",
+  "module_sha256": "762b08ba93d83c64ef45e12a98fbf26f1b21b96b27f83e5d9ca45d9703e979aa"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "保全原四柱及预先判断乙庚功能假说资格",
+  "inputs": "合法庚年乙酉月火日raw，旧facts/Primary ROOT02/primitive",
+  "operations": "全明藏演员→四个原根→每元素同origin max一次按本origin资格分股→非日明float1→先判唯一相邻乙庚/酉月/原庚重根正/乙木根0",
+  "outputs_and_limits": "全演员根、原始输入、formal事实、C资格；日D0仍实体；其他合冲仅R0无额外增量而非证明传统无效",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/wang_inventory.py:build",
+  "full_values_actual_call_and_return": true
+}
+
+25. runtime/wang_inventory.py:variants
+算法标识：runtime/wang_inventory.py:variants
+source_identity：{
+  "relative_path": "runtime/wang_inventory.py",
+  "qualified_name": "variants",
+  "first_line": 28,
+  "AST_sha256": "6deba4de6a5d505f98f35ce96179cbfdf199a0d6e34d1122bd8aae9c2d1e7562",
+  "module_sha256": "762b08ba93d83c64ef45e12a98fbf26f1b21b96b27f83e5d9ca45d9703e979aa"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "将R/B/C作用与费用公平固定",
+  "inputs": "同一个base、g∈[1/5,1/4]、c∈[2/5,1/2]",
+  "operations": "每真实actor对依有效功能列G/C与peer→day；受纳1/n；B两端各半；C仅预先有资格改月乙功能；可用方法名义端口并集最大预收费，行实作用/列发送严格加权1范数证明",
+  "outputs_and_limits": "全部三法系数/未退费用/收缩界；C无资格不纳其不可用端口；同日自环禁止；不生成新根/日干",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/wang_inventory.py:variants",
+  "full_values_actual_call_and_return": true
+}
+
+26. runtime/wang_math.py:solve
+算法标识：runtime/wang_math.py:solve
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "solve",
+  "first_line": 3,
+  "AST_sha256": "f6549e68c12b3c0d0ec87255d1003669cabbabf44826faf4a213401c84a5429e",
+  "module_sha256": "e2a2c35b4a712b8f3aeb8a0d32a5cc52f234ddb93acc70e3a53f9e5baafb4055"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "求唯一完整同时反馈状态",
+  "inputs": "带原点输入d与具名G/C/固定fees",
+  "operations": "从全活跃面精确消元，按全部max右项改策略；若循环完整有限面枚举；所有方程精确代回，收缩证明唯一",
+  "outputs_and_limits": "每真实节点有理数current、活跃面检查数；无浮点容差拟合或先删印/官杀",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/wang_math.py:solve",
+  "full_values_actual_call_and_return": true
+}
+
+27. runtime/wang_math.py:trace
+算法标识：runtime/wang_math.py:trace
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "trace",
+  "first_line": 20,
+  "AST_sha256": "812223d165702ce7e25fd972db74c3be3ca6d8e2a352245a4561b362e5a914c3",
+  "module_sha256": "e2a2c35b4a712b8f3aeb8a0d32a5cc52f234ddb93acc70e3a53f9e5baafb4055"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "每个原根/float/新输入的一次预算及完整真实边费",
+  "inputs": "精确current、完整输入与三法系数",
+  "operations": "gross=D+Gx；rho=x/gross；解每origin正生成线性系统；cap=Cx与loss=min(gross,cap)分开；gross=current+fee+loss逐原点核对；每正负边/预费实际量全部算出",
+  "outputs_and_limits": "全原点ports、每actor费用与真实损失、全边；每边原点数组用明确无损公式因子化，未谎称展开数组内嵌；传递循环不添独立原根",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/wang_math.py:trace",
+  "full_values_actual_call_and_return": true
+}
+
+28. runtime/wang_math.py:bounds
+算法标识：runtime/wang_math.py:bounds
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "bounds",
+  "first_line": 32,
+  "AST_sha256": "b0e7415b636e31dbeb81ab2e1949fb77ed3e416bc85e7021b8a281a9b5ec8c74",
+  "module_sha256": "e2a2c35b4a712b8f3aeb8a0d32a5cc52f234ddb93acc70e3a53f9e5baafb4055"
+}
+条目分类：new_current_contract
+contract：{
+  "purpose": "把身体支持不足证明与源可依判据分开",
+  "inputs": "同费用/d/G/C/current",
+  "operations": "U解全正生成系统，L=max(0,(d−CU)/diag)，逐节点核L≤x≤U；不以carry失败倒推从财",
+  "outputs_and_limits": "U/L全节点及证明；U身<负担L是不能承担全部负担，不是没有任何独立根或印源",
+  "current522_boundary": "Primary95王案及预定源变化；R/B/C×S/L解释分层。完整有限工程净比较不冒唯一传统喜用或现实预测；全部来源/实现/现实验证分别记录。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_actual_function_io.json.gz",
+  "record": "runtime/wang_math.py:bounds",
+  "full_values_actual_call_and_return": true
+}
+
+原件：work/rev522_Wang_YiGeng_actual_competition/source_rule_cards_ten_fields.json
+SHA256：3cb80514380c5bf29e3de7f2da8789cb8be84b7dda0642b53f09956f11f63d68
+
+1. 522-ROLE-C
+算法标识：522-ROLE-C
+title：乙庚随财功能假说
+source_locator：{
+  "Primary95": "source/primary-page-095.png；世界图书馆本PDF95/印86",
+  "Xu326": "source/actual_electronic_unit326_reading.json；https://dao.time.actor/ziping-zhenquan-pingzhu/juan-5 第326单元，未认证徐印本",
+  "ROOT02": "source/primitive_tables.json +原281固定Primary ROOT02；原型源码/采用记录列于reference/exact_old_contract_records.json，不冒古文有数字"
+}
+source_layers：主本命例/后注明解/工程功能路由分层；不认证后注唯一真值
+method_scope：原王与庚年乙酉月火日的具名旁干任务，非日主化金
+conditions：年庚月乙唯一邻接、酉月、庚重根正、乙原木根严格0
+exclusions_and_failure：乙原根正或明乙/庚争合则C不应用；原角色回放不按成功替换
+change_conditions：原raw根/争合改变重判；人工同功能资源增补不假造新干根
+conflict_resolution：R保留、B合绊、C化功能全部报；C被定义不作印不是化已证实
+algorithm：只换原月乙有效功能至金财，原乙字/木原身份/原根/float1均留；不造庚/金ROOT/新日主
+verification：WANG C资格真；PRINT_ROOT/双寅/强体/留出各门反例；全1218状态先验、45新条件对照
+status：已实现具名解释；源后注印本认证及唯一传统作用保争议
+
+2. 522-ROLE-B
+算法标识：522-ROLE-B
+title：相邻乙庚合绊双端同半
+source_locator：{
+  "Primary95": "source/primary-page-095.png；世界图书馆本PDF95/印86",
+  "Xu326": "source/actual_electronic_unit326_reading.json；https://dao.time.actor/ziping-zhenquan-pingzhu/juan-5 第326单元，未认证徐印本"
+}
+source_layers：形式合候选有来源；两端1/2是事前工程假设，不冒古书分数
+method_scope：同raw三方法并行比较
+conditions：具名年庚月乙参与
+exclusions_and_failure：不能只抑制负作用或退发送费；不能令其他演员一起消失
+change_conditions：双方原输入变化全图重算；所有参数三法均固定报
+conflict_resolution：不以B净方案数多寡选为真；S/L亦独立
+algorithm：仅参与者发送/受纳端各1/2，双方相连乘1/4；全部正负同抑
+verification：原王B20净方案/R24/C12；强体B28/R29，保具体真实差异
+status：暂定工程口径，已实现与验证
+
+3. 522-SOURCE-PRINT
+算法标识：522-SOURCE-PRINT
+title：身赖印生先于不能任财的修复判断
+source_locator：{
+  "Primary95": "source/primary-page-095.png；世界图书馆本PDF95/印86",
+  "281": "source/rev281_effective_support_project_adoption.json；原253 standing/choose_question/goals正确域，不改原采用代码",
+  "ROOT02": "source/primitive_tables.json +原281固定Primary ROOT02；原型源码/采用记录列于reference/exact_old_contract_records.json，不冒古文有数字"
+}
+source_layers：主本透印且身赖印生条件；可靠路径的量化是具名充分解释
+method_scope：普通有源弱体与依附财竞争
+conditions：同一印演员自身原根>0、该同源当前留存>0、实际送到身体且接收留存>0；或其他独立根/peer/足额外印充分条件
+exclusions_and_failure：印仅字面存在、原根0、发出但全消耗不留存，不满足这条充分门；不因此证明无效；不能拼接印A根与印B生日
+change_conditions：源头根恢复、路由/受克/接收留存变化会改判断；没有新实际路径不改
+conflict_resolution：此源门成立就入普通修复，即便carry负或U身<任务L，也不反选从财
+algorithm：281重根留存1/2、peer原根留存≥1、light/carry5/4与同印同源候选完整枚举；body current不再叠加credit
+verification：PRINT_ROOT有根生日真、carry负仍普通；双寅firm真但carry负；强体carry真；原王无可靠路径
+status：已核主本前件与实现；数值充分门为工程解释非唯一传统定量法
+
+4. 522-SOURCE-SL
+算法标识：522-SOURCE-SL
+title：纯从财与财主保留暗官两口径
+source_locator：{
+  "Primary95": "source/primary-page-095.png；世界图书馆本PDF95/印86",
+  "Xu326": "source/actual_electronic_unit326_reading.json；https://dao.time.actor/ziping-zhenquan-pingzhu/juan-5 第326单元，未认证徐印本",
+  "281": "source/rev281_effective_support_project_adoption.json；原253 standing/choose_question/goals正确域，不改原采用代码"
+}
+source_layers：原文不能从财兼从官；后注原王从财解；S/L及1.5为明确工程解释
+method_scope：固定R/B/C×S/L六结果，不擅选来源
+conditions：都需原月财根活、财势强、身弱、无普通可靠支持；S还需官current0；L需官不明透且财≥3/2官
+exclusions_and_failure：暗官杀实际量不可因后注说从而删；普通失败不是自动从；S阴性不是原书唯一判王不成
+change_conditions：恢复印根/日根优先改变普通源；官杀真实当前或财主比改变S/L
+conflict_resolution：主本如句两读保文献层；程序执行预先固定的S/L，不用阳性替语法证据
+algorithm：全源条件beforeaux；后续只比较保持同源的净辅助，禁止增补后倒认出生格
+verification：原王三法L真S假且三藏官全作用；其余四组普通源真，S/L从均假
+status：完整具名行为已实现；原文归属/后注真实性不冒唯一结论
+
+5. 522-BUDGET
+算法标识：522-BUDGET
+title：原根一次、真实日实体与同时费用
+source_locator：{
+  "ROOT02": "source/primitive_tables.json +原281固定Primary ROOT02；原型源码/采用记录列于reference/exact_old_contract_records.json，不冒古文有数字",
+  "281": "source/rev281_effective_support_project_adoption.json；原253 standing/choose_question/goals正确域，不改原采用代码"
+}
+source_layers：Primary阴阳根表推演+继承工程量阶+新actor分股
+method_scope：本具名全量actor图，不回改281其他正确域
+conditions：每个root:柱位:元素原点取max一次并按该origin资格分股；非日明float1
+exclusions_and_failure：无日float；日D0不删actor；无day→day同气环；不得用合字添ROOT
+change_conditions：raw根/节点改变重构；cut/合绊不退同raw预留费用
+conflict_resolution：C源门未立则不纳不可用C财端口；只用预先可用方法并集收费
+algorithm：加权1范数收缩；精确活跃面/全max核；每origin正线性系统；gross=current+fee+actualLoss
+verification：1218世界395796原点、16776一次预算全独立核；45新增含只切明乙生日且留藏印/费用；原王手列五元素原输入一致
+status：已实现与精确验证；资格/分股不是实测局部力或物理守恒
+
+6. 522-NET
+算法标识：522-NET
+title：完整辅助与替代方案
+source_locator：{
+  "Primary95": "source/primary-page-095.png；世界图书馆本PDF95/印86",
+  "Xu326": "source/actual_electronic_unit326_reading.json；https://dao.time.actor/ziping-zhenquan-pingzhu/juan-5 第326单元，未认证徐印本",
+  "281": "source/rev281_effective_support_project_adoption.json；原253 standing/choose_question/goals正确域，不改原采用代码"
+}
+source_layers：运喜伤食财及后注运宜土金水只作条件方向参照；当前人工资源偏序为工程比较
+method_scope：普通弱体修复/普通已可任/依附财质量三任务分别固定
+conditions：出生源先立；保全全部实际正负；所有现存方向非空组合×总量1/2,1,2
+exclusions_and_failure：净正边或格名不直接当全局喜用；无木功能C不测木，不写木忌；不称H；不将所有失败说未知
+change_conditions：添加资源后同图重算；来源/方法/参数不由结果改选
+conflict_resolution：保全部通过/失败；原王土单增可净改善而纯金/水未过，不改目标追注释阳性
+algorithm：弱体M/印源不降；强体仍可任且财根/食财不降；依附财维持源/财根/食财并生日/财源入官相对压力不增；至少一严格
+verification：原王R/B/C L最小方案土；根印弱体木OR火；强体土OR金；共2406辅助目标行为独立核、完整输出可重放
+status：本有限方法终局已出；不冒普遍传统唯一辅助/真实运吉/B显示
+

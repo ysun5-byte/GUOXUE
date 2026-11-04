@@ -1,0 +1,1352 @@
+港澳台既有文化资料具名接续
+rev469_nonCN_existing_cultural_context
+所属原模块：C04
+当前采用：rev473_nonCN_existing_context_adoption.json
+范围：adopted_exact46981_after47145_finite_positive_named_administrative_chain_not_partition_whole_claim
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev469_nonCN_existing_cultural_context/algorithm_explanations45.json
+SHA256：790df8342c781c3356f4f7fa4e43bb4795c3021a689dd9b271ae82d2fba5d972
+
+1. noncn_context_lookup.py:canonical
+算法标识：noncn_context_lookup.py:canonical
+module：noncn_context_lookup.py
+qualname：canonical
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序键/紧凑/非ASCII原样/allow_nanFalse",
+  "outputs": "str，不是bytes；主入口最后编码UTF8",
+  "preconditions_and_limits": "不做来源/schema核；源输出必须先为JSON兼容类型",
+  "purpose": "稳定输出"
+}
+source_identity：{
+  "relative_path": "noncn_context_lookup.py",
+  "qualified_name": "canonical",
+  "first_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "e8aba6c4e1d3d1c82de392479f277a5893410afe28df29c58d358a5639313b75"
+}
+reuse：{
+  "old455_id": "city_context_lookup.py:canonical",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "noncn_context_lookup.py:canonical"
+}
+unused_scope：null
+
+2. noncn_context_lookup.py:pairs
+算法标识：noncn_context_lookup.py:pairs
+module：noncn_context_lookup.py
+qualname：pairs
+contract：{
+  "inputs": "有序键值pairs",
+  "operations": "逐键检查已出现键；固定错误码不回显原键",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "孤立代理重复键也不进入错误输出，实际high/low都测",
+  "purpose": "拒重复JSON键"
+}
+source_identity：{
+  "relative_path": "noncn_context_lookup.py",
+  "qualified_name": "pairs",
+  "first_line": 9,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "module_sha256": "e8aba6c4e1d3d1c82de392479f277a5893410afe28df29c58d358a5639313b75"
+}
+reuse：{
+  "old455_id": "city_context_lookup.py:pairs",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "noncn_context_lookup.py:pairs"
+}
+unused_scope：null
+
+3. noncn_context_lookup.py:constant
+算法标识：noncn_context_lookup.py:constant
+module：noncn_context_lookup.py
+qualname：constant
+contract：{
+  "inputs": "NaN/Infinity token",
+  "operations": "固定ValueError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常unwindNone不冒正常None",
+  "purpose": "拒非有限常量"
+}
+source_identity：{
+  "relative_path": "noncn_context_lookup.py",
+  "qualified_name": "constant",
+  "first_line": 15,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6",
+  "module_sha256": "e8aba6c4e1d3d1c82de392479f277a5893410afe28df29c58d358a5639313b75"
+}
+reuse：{
+  "old455_id": "city_context_lookup.py:constant",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+
+4. noncn_context_lookup.py:bounded
+算法标识：noncn_context_lookup.py:bounded
+module：noncn_context_lookup.py
+qualname：bounded
+contract：{
+  "inputs": "直接API/已解析JSON值",
+  "operations": "迭代深度12/节点500/对象12/数组20/字符串2000及Unicode标量；只允null,bool,int",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不校城市schema，不校文件；float一律不作为请求值",
+  "purpose": "限制公开请求树"
+}
+source_identity：{
+  "relative_path": "noncn_context_lookup.py",
+  "qualified_name": "bounded",
+  "first_line": 16,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "254230f28bae34f9a89a8611eed059eea862888686d987d5177a7e1f9321adfa",
+  "module_sha256": "e8aba6c4e1d3d1c82de392479f277a5893410afe28df29c58d358a5639313b75"
+}
+reuse：{
+  "old455_id": "city_context_lookup.py:bounded",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "noncn_context_lookup.py:bounded"
+}
+unused_scope：null
+
+5. noncn_context_lookup.py:strict_load
+算法标识：noncn_context_lookup.py:strict_load
+module：noncn_context_lookup.py
+qualname：strict_load
+contract：{
+  "inputs": "str≤10000字符",
+  "operations": "json.loads+pairs/constant后bounded",
+  "outputs": "JSON值或解析/边界异常",
+  "preconditions_and_limits": "main先UTF8strict decode；不是来源查表",
+  "purpose": "严格字面解析"
+}
+source_identity：{
+  "relative_path": "noncn_context_lookup.py",
+  "qualified_name": "strict_load",
+  "first_line": 30,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e5b7a027faf55001a6e6504988417d43f73b41159e8a8b65776cc42f7ea5dd30",
+  "module_sha256": "e8aba6c4e1d3d1c82de392479f277a5893410afe28df29c58d358a5639313b75"
+}
+reuse：{
+  "old455_id": "city_context_lookup.py:strict_load",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "noncn_context_lookup.py:strict_load"
+}
+unused_scope：null
+
+6. noncn_context_lookup.py:guard
+算法标识：noncn_context_lookup.py:guard
+module：noncn_context_lookup.py
+qualname：guard
+contract：{
+  "purpose": "执行前核本版全部39材料",
+  "inputs": "固定ROOT和LOCK_SHA，无公开参数",
+  "operations": "先来源锁SHA，再source/runtime/data精确集合及每件bytes/SHA/包含/非软链，全部通过才返回字节",
+  "outputs": "dict[str,bytes]或拒绝",
+  "preconditions_and_limits": "不认证来源为真；4provider均后置；锁外说明/测试不充当源"
+}
+source_identity：{
+  "relative_path": "noncn_context_lookup.py",
+  "qualified_name": "guard",
+  "first_line": 33,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9ff065b84cf3b53c636370910cbf9acd4e2b03f592ea0dadd08e4e551b72dec3",
+  "module_sha256": "e8aba6c4e1d3d1c82de392479f277a5893410afe28df29c58d358a5639313b75"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "noncn_context_lookup.py:guard"
+}
+unused_scope：null
+
+7. noncn_context_lookup.py:load
+算法标识：noncn_context_lookup.py:load
+module：noncn_context_lookup.py
+qualname：load
+contract：{
+  "inputs": "name/相对path/material",
+  "operations": "新ModuleType设真实__file__，compile material[path]并exec",
+  "outputs": "module",
+  "preconditions_and_limits": "loader不自行核来源；caller guard承担前置，实际2providers",
+  "purpose": "已核provider执行"
+}
+source_identity：{
+  "relative_path": "noncn_context_lookup.py",
+  "qualified_name": "load",
+  "first_line": 46,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "module_sha256": "e8aba6c4e1d3d1c82de392479f277a5893410afe28df29c58d358a5639313b75"
+}
+reuse：{
+  "old455_id": "city_context_lookup.py:load",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "noncn_context_lookup.py:load"
+}
+unused_scope：null
+
+8. noncn_context_lookup.py:evaluate
+算法标识：noncn_context_lookup.py:evaluate
+module：noncn_context_lookup.py
+qualname：evaluate
+contract：{
+  "purpose": "新非CN文化研究严格入口",
+  "inputs": "公开五字段request",
+  "operations": "bounded→guard→解压原data→加载旧city/native/context与新noncn4provider→读取两套固定spec→调新core",
+  "outputs": "完整dict或固定类别错误",
+  "preconditions_and_limits": "不自动选择文化版本，不修改旧城市/省路径；没有显示或方向计算"
+}
+source_identity：{
+  "relative_path": "noncn_context_lookup.py",
+  "qualified_name": "evaluate",
+  "first_line": 48,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "5fecdf38480091dc3301bf4bc6cb24fe2652a6a2002bf2d2cf710ec11c1b044e",
+  "module_sha256": "e8aba6c4e1d3d1c82de392479f277a5893410afe28df29c58d358a5639313b75"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "noncn_context_lookup.py:evaluate"
+}
+unused_scope：null
+
+9. noncn_context_lookup.py:main
+算法标识：noncn_context_lookup.py:main
+module：noncn_context_lookup.py
+qualname：main
+contract：{
+  "inputs": "stdinUTF8bytes≤20000",
+  "operations": "strict_load→evaluate→canonical+LF；所列异常固定拒绝JSON",
+  "outputs": "成功0/拒绝2及stdout；不回显原异常值",
+  "preconditions_and_limits": "AssertionError等未列异常不伪装正常结果；只支持此公开入口",
+  "purpose": "安全CLI"
+}
+source_identity：{
+  "relative_path": "noncn_context_lookup.py",
+  "qualified_name": "main",
+  "first_line": 55,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e7cf65e118167e39c65787ce04f3c895ed476e4e8adcb75451468b7afa9c7101",
+  "module_sha256": "e8aba6c4e1d3d1c82de392479f277a5893410afe28df29c58d358a5639313b75"
+}
+reuse：{
+  "old455_id": "city_context_lookup.py:main",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+
+10. runtime/noncn_core.py:membership
+算法标识：runtime/noncn_core.py:membership
+module：runtime/noncn_core.py
+qualname：membership
+contract：{
+  "purpose": "正向具名行政成员资格",
+  "inputs": "固定record、family、data",
+  "operations": "核admin种类/支持层级→唯一原ADM1→精确正向anchor row SHA/admin/code；TW下级另核唯一ADM2及20正向锚；输出完整源证书",
+  "outputs": "qualified bool与proof或明确reason；锚材料不一致拒绝",
+  "preconditions_and_limits": "不是补集规则、不按点判全境、不把01转04；驻地和不明ADMD不继承；相同坐标不合并身份"
+}
+source_identity：{
+  "relative_path": "runtime/noncn_core.py",
+  "qualified_name": "membership",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='family'), arg(arg='data')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "efd75283b297ca8a901f0bb1ed04488e673a21b7eb01c6c5dbca63694a817ceb",
+  "module_sha256": "327d5941065f993cbfaee0dbafe814b375536bef57729494f5c3e72f80f07be3"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/noncn_core.py:membership"
+}
+unused_scope：null
+
+11. runtime/noncn_core.py:derive
+算法标识：runtime/noncn_core.py:derive
+module：runtime/noncn_core.py
+qualname：derive
+contract：{
+  "purpose": "完整旧源链之后接新正向成员包含",
+  "inputs": "固定record/精确旧entry/family/data/native/oldcore/legacy/spec",
+  "operations": "membership→原native重放→全部geo引用→必要原subject旧target完整同frame link→组合证书→新直接same-frame candidate upper-bound→原native重放",
+  "outputs": "unknown或完整native request/report、原报告、成员证据及旧限制",
+  "preconditions_and_limits": "原subject==target无需中间link；原未知/断链无法由新桥修好；不把旧文化点覆盖GN自有点或新造权重"
+}
+source_identity：{
+  "relative_path": "runtime/noncn_core.py",
+  "qualified_name": "derive",
+  "first_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='entry'), arg(arg='family'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='legacy'), arg(arg='spec')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "86649fb3c4311cd5d51ae6e3a0638fc6ae483cc0c959a9875cacf1c9d3888567",
+  "module_sha256": "327d5941065f993cbfaee0dbafe814b375536bef57729494f5c3e72f80f07be3"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/noncn_core.py:derive"
+}
+unused_scope：null
+
+12. runtime/noncn_core.py:evaluate
+算法标识：runtime/noncn_core.py:evaluate
+module：runtime/noncn_core.py
+qualname：evaluate
+contract：{
+  "purpose": "新非CN路径与精确旧455语义调度",
+  "inputs": "精确新schema五字段；固定data/native/oldcore/legacy/cityspec/noncnspec",
+  "operations": "新schema核→同请求转旧455取地点/点与原路径→仅已知HK/MO/TW、精确所选原文化身份匹配才derive→重绑新context→新版wrapper",
+  "outputs": "完整地点/点/Rn及明确新旧方法版本",
+  "preconditions_and_limits": "CN与旧city identity/point/Rn逐字段不改，未知GN不补点；null/未知文化不改成closed；跨分区文化ref保持未定"
+}
+source_identity：{
+  "relative_path": "runtime/noncn_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 85,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='legacy'), arg(arg='cityspec'), arg(arg='spec')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6ea5e689b27578086663ef76345f04fcda13eb4d649a5ff018a444f70fb174c5",
+  "module_sha256": "327d5941065f993cbfaee0dbafe814b375536bef57729494f5c3e72f80f07be3"
+}
+reuse：null
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/noncn_core.py:evaluate"
+}
+unused_scope：null
+
+13. runtime/context_core.py:unknown
+算法标识：runtime/context_core.py:unknown
+module：runtime/context_core.py
+qualname：unknown
+contract：{
+  "purpose": "保留地点已知、文化尚未定的分别状态",
+  "inputs": "selected ref、固定reason及具体来源/成员details",
+  "operations": "复制selected、native_request/report置None、标注不是零贡献及点不作scope证据，再加入details",
+  "outputs": "coverage_undetermined dict",
+  "preconditions_and_limits": "kwargs为内部可信固定字段，非任意公开覆盖；未定不等于判定无文化贡献"
+}
+source_identity：{
+  "relative_path": "runtime/context_core.py",
+  "qualified_name": "unknown",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='selected'), arg(arg='reason')], kwonlyargs=[], kw_defaults=[], kwarg=arg(arg='details'), defaults=[])",
+  "AST_sha256": "312f535c8650f04cc2c65eaf0bdd4508da8ef45d21a3a319e6ce09afe7e7a2f4",
+  "module_sha256": "af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c"
+}
+reuse：{
+  "old455_id": "runtime/context_core.py:unknown",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/context_core.py:unknown"
+}
+unused_scope：null
+
+14. runtime/context_core.py:city_membership
+算法标识：runtime/context_core.py:city_membership
+module：runtime/context_core.py
+qualname：city_membership
+contract：{
+  "purpose": "核固定城市具名身份和提供者行政成员关系",
+  "inputs": "固定record/旧city/data/specs",
+  "operations": "选legacy_id/name登记anchor；拒驻地与非CN；核省桥、源行SHA、feature、中文名；同精确record直连，ADM3则按admin1/admin2唯一ADM2；全部合格证明均保留",
+  "outputs": "qualified bool、reason或proofs；anchor资料不一致拒绝",
+  "preconditions_and_limits": "这是工程文化frame包含，不证明当前官方行政多边形一致；不合并潜江两层GN身份；不按经纬度判城市全境"
+}
+source_identity：{
+  "relative_path": "runtime/context_core.py",
+  "qualified_name": "city_membership",
+  "first_line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='legacy'), arg(arg='data'), arg(arg='specs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "668b053d8bbae09e0f558c5c709927d5cb7677f9ddfe6062b0b1caa68a00b21c",
+  "module_sha256": "af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c"
+}
+reuse：{
+  "old455_id": "runtime/context_core.py:city_membership",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+
+15. runtime/context_core.py:derive_city
+算法标识：runtime/context_core.py:derive_city
+module：runtime/context_core.py
+qualname：derive_city
+contract：{
+  "purpose": "先核旧城市完整来源链，再生成本次GN目标文化候选上界",
+  "inputs": "固定GNrecord、精确旧city entry、data/native/oldcore/specs",
+  "operations": "成员核→原native重放→完整geo集合和旧subject链接→同frame组合certificate→新直接完整候选上界链接→原native重放；保留旧scope限制与原报告",
+  "outputs": "未定或完整派生native_request/report/lineage certificates/membership",
+  "preconditions_and_limits": "旧source==旧target可无旧中间链接；其余须complete、reviewed、同frame；原未决不会被新桥洗成已知；代表点独立"
+}
+source_identity：{
+  "relative_path": "runtime/context_core.py",
+  "qualified_name": "derive_city",
+  "first_line": 40,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='entry'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='specs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dad8ab48730b59e4d3cb5b31187711017c718e21d057bf2bd8e654c5618a8042",
+  "module_sha256": "af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c"
+}
+reuse：{
+  "old455_id": "runtime/context_core.py:derive_city",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+
+16. runtime/context_core.py:evaluate
+算法标识：runtime/context_core.py:evaluate
+module：runtime/context_core.py
+qualname：evaluate
+contract：{
+  "purpose": "明确所选文化资料的分支调度及版本追溯",
+  "inputs": "精确schema/operation/data_version/region_ref/cultural_record_ref五字段；固定data/native/oldcore/specs",
+  "operations": "严格字段/ref核→先取得独立地点/点→null/未知ref未定，province复用442，city调用derive_city→context hash绑定实际GN与资料native request",
+  "outputs": "新wrapper下的完整地点、点、文化报告与版本边界",
+  "preconditions_and_limits": "未知地点/地点版本不构造文化结果；不自动优先城市；同名宿州不会因名称相近继承苏州；无D2/C0/C20/显示"
+}
+source_identity：{
+  "relative_path": "runtime/context_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 91,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data'), arg(arg='native'), arg(arg='oldcore'), arg(arg='specs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "69877c0e3b40b8e4bb23ba25febe589a95ca773ab8c9e38752efe533141c65b4",
+  "module_sha256": "af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c"
+}
+reuse：{
+  "old455_id": "runtime/context_core.py:evaluate",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/context_core.py:evaluate"
+}
+unused_scope：null
+
+17. runtime/city_core.py:canonical
+算法标识：runtime/city_core.py:canonical
+module：runtime/city_core.py
+qualname：canonical
+contract：{
+  "inputs": "JSON兼容v",
+  "operations": "排序紧凑JSON",
+  "outputs": "str",
+  "preconditions_and_limits": "不生成source truth/地理真实性",
+  "purpose": "规范对象文字"
+}
+source_identity：{
+  "relative_path": "runtime/city_core.py",
+  "qualified_name": "canonical",
+  "first_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "old455_id": "runtime/city_core.py:canonical",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/city_core.py:canonical"
+}
+unused_scope：null
+
+18. runtime/city_core.py:digest
+算法标识：runtime/city_core.py:digest
+module：runtime/city_core.py
+qualname：digest
+contract：{
+  "inputs": "JSON兼容v",
+  "operations": "canonical UTF8 SHA256",
+  "outputs": "64小写hex str",
+  "preconditions_and_limits": "摘要是内容绑定，不是署名认证",
+  "purpose": "绑定内容摘要"
+}
+source_identity：{
+  "relative_path": "runtime/city_core.py",
+  "qualified_name": "digest",
+  "first_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "old455_id": "runtime/city_core.py:digest",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/city_core.py:digest"
+}
+unused_scope：null
+
+19. runtime/city_core.py:normalize
+算法标识：runtime/city_core.py:normalize
+module：runtime/city_core.py
+qualname：normalize
+contract：{
+  "inputs": "str",
+  "operations": "NFKC→casefold→合并空白",
+  "outputs": "str",
+  "preconditions_and_limits": "只查询文字；不把繁简/别名跨记录传递、不推城市身份",
+  "purpose": "名字规范化"
+}
+source_identity：{
+  "relative_path": "runtime/city_core.py",
+  "qualified_name": "normalize",
+  "first_line": 9,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='s')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fa00b2fc5a92d2a7d7dbdc41c359271def1f816b63b0387ecd9bf3766f3fc758",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "old455_id": "runtime/city_core.py:normalize",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+
+20. runtime/city_core.py:ref_key
+算法标识：runtime/city_core.py:ref_key
+module：runtime/city_core.py
+qualname：ref_key
+contract：{
+  "inputs": "恰namespace/id/version的dict，值trim非空str",
+  "operations": "字段/类型核后按固定顺序",
+  "outputs": "tuple(namespace,id,version)或ValueError",
+  "preconditions_and_limits": "命名空间和版是否存在在上层查；不数字强转/截前缀",
+  "purpose": "精确版本身份"
+}
+source_identity：{
+  "relative_path": "runtime/city_core.py",
+  "qualified_name": "ref_key",
+  "first_line": 10,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='ref')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fe8ae87c7790f2f244859d355e4b46ab523a7c8cde13d09b2ed01d411bdb13e4",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "old455_id": "runtime/city_core.py:ref_key",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/city_core.py:ref_key"
+}
+unused_scope：null
+
+21. runtime/city_core.py:candidate
+算法标识：runtime/city_core.py:candidate
+module：runtime/city_core.py
+qualname：candidate
+contract：{
+  "inputs": "一个固定record",
+  "operations": "deepcopy身份/类型/层级码/省祖先/点ref",
+  "outputs": "候选dict，not_automatically_selectedTrue",
+  "preconditions_and_limits": "稳定排序不是优先级；无人口/距离/第一条选取",
+  "purpose": "候选摘要"
+}
+source_identity：{
+  "relative_path": "runtime/city_core.py",
+  "qualified_name": "candidate",
+  "first_line": 13,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "5361db42392529ef4afdcf798680c0635a93329623f6f439bae13a3d02b913a9",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "old455_id": "runtime/city_core.py:candidate",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+
+22. runtime/city_core.py:search
+算法标识：runtime/city_core.py:search
+module：runtime/city_core.py
+qualname：search
+contract：{
+  "inputs": "严格7字段request/data",
+  "operations": "核数据Unicode版本；名字匹配仅source label；partition/kind/唯一或歧义省提示过滤；全候选稳定输出",
+  "outputs": "status/normalized_query/candidates/province_candidates等dict",
+  "preconditions_and_limits": "简繁只用provider已列形式；未知省提示不退无提示；唯一候选也不自动lookup/采纳",
+  "purpose": "原源别名检索"
+}
+source_identity：{
+  "relative_path": "runtime/city_core.py",
+  "qualified_name": "search",
+  "first_line": 15,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d6482cc185fed7a5e043b0d5bfd57555a879b6f567ad1d40c6067bd9c2b4cb2f",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "old455_id": "runtime/city_core.py:search",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+
+23. runtime/city_core.py:cultural_attribute
+算法标识：runtime/city_core.py:cultural_attribute
+module：runtime/city_core.py
+qualname：cultural_attribute
+contract：{
+  "inputs": "record/nullableexactparentref/data/native module",
+  "operations": "显式父版→CN31命名桥和A行政范围→旧父source状态→保原frame/evidence完整链组合target_within_source_scope→旧native评价",
+  "outputs": "Rn dict：status/reason/native_request/report/parentreport/lineage证及限制",
+  "preconditions_and_limits": "新GN具名包含是工程解释候选，非官方城市/省界法证。P驻地/非CN无桥/父未决不补0；旧市自有版不换省版；不猜五行/权重",
+  "purpose": "同框父文化包含解释"
+}
+source_identity：{
+  "relative_path": "runtime/city_core.py",
+  "qualified_name": "cultural_attribute",
+  "first_line": 34,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='record'), arg(arg='parent_ref'), arg(arg='data'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "543ea71cb81c984e0ff17c7fb487dd68f9a0b61248dcfb0fc3e5a93a3587090d",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "old455_id": "runtime/city_core.py:cultural_attribute",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/city_core.py:cultural_attribute"
+}
+unused_scope：null
+
+24. runtime/city_core.py:evaluate
+算法标识：runtime/city_core.py:evaluate
+module：runtime/city_core.py
+qualname：evaluate
+contract：{
+  "inputs": "request/data/native",
+  "operations": "schema/data版/op精确；lookup按GNid版，search不选首；点和Rn分开；文化context哈希绑定geo+父版+完整native请求",
+  "outputs": "完整lookup或search dict，含source/adoption/C0/D2/B状态",
+  "preconditions_and_limits": "Geo身份/点版与显式文化context分开；无lease/方向/C0/主题计算，不声称新C20已接",
+  "purpose": "精确新数据入口与context"
+}
+source_identity：{
+  "relative_path": "runtime/city_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 57,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='data'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e26a62e7a48f9f09fc8d316320eee64955f598501a68b31ee8b0f38937c57cf3",
+  "module_sha256": "cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266"
+}
+reuse：{
+  "old455_id": "runtime/city_core.py:evaluate",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/city_core.py:evaluate"
+}
+unused_scope：null
+
+25. runtime/region_evidence_catalog.py:ContractError.__init__
+算法标识：runtime/region_evidence_catalog.py:ContractError.__init__
+module：runtime/region_evidence_catalog.py
+qualname：ContractError.__init__
+contract：{
+  "inputs": "status/path/code",
+  "operations": "赋三属性",
+  "outputs": "None",
+  "preconditions_and_limits": "仅旧文化engine内部错误载体",
+  "purpose": "结构化内部异常"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "ContractError.__init__",
+  "first_line": 23,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:ContractError.__init__",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+
+26. runtime/region_evidence_catalog.py:fail
+算法标识：runtime/region_evidence_catalog.py:fail
+module：runtime/region_evidence_catalog.py
+qualname：fail
+contract：{
+  "inputs": "status/path/code",
+  "operations": "raise ContractError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常回传给evaluate，不是源判定",
+  "purpose": "抛内部异常"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "fail",
+  "first_line": 27,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='status'), arg(arg='path'), arg(arg='code')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:fail",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+
+27. runtime/region_evidence_catalog.py:obj
+算法标识：runtime/region_evidence_catalog.py:obj
+module：runtime/region_evidence_catalog.py
+qualname：obj
+contract：{
+  "inputs": "value/allowedfields/path",
+  "operations": "必须dict、未知/缺项分别拒",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "只schema不证来源",
+  "purpose": "文化对象字段核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "obj",
+  "first_line": 31,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='fields'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8370003829b998b49b7e5347a36da126d3d32b057e2f02c0c0a9fc272ee9b3e5",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:obj",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:obj"
+}
+unused_scope：null
+
+28. runtime/region_evidence_catalog.py:text
+算法标识：runtime/region_evidence_catalog.py:text
+module：runtime/region_evidence_catalog.py
+qualname：text
+contract：{
+  "inputs": "value/path",
+  "operations": "必须非空且trim str",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不查文义/地理真值",
+  "purpose": "trim非空文字核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "text",
+  "first_line": 40,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "24378609ea51a60f93b5570f67462a2ae518150fbeee44fdf1f43ef370c24437",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:text",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:text"
+}
+unused_scope：null
+
+29. runtime/region_evidence_catalog.py:choice
+算法标识：runtime/region_evidence_catalog.py:choice
+module：runtime/region_evidence_catalog.py
+qualname：choice
+contract：{
+  "inputs": "value/allowed/path",
+  "operations": "str且allowed成员",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不是隐式映射",
+  "purpose": "枚举值核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "choice",
+  "first_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='allowed'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ef44d01bd507164178a220ce8017809d49051de827789728a94583950fd6e696",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:choice",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:choice"
+}
+unused_scope：null
+
+30. runtime/region_evidence_catalog.py:sha
+算法标识：runtime/region_evidence_catalog.py:sha
+module：runtime/region_evidence_catalog.py
+qualname：sha
+contract：{
+  "inputs": "value/path",
+  "operations": "64位小写hex正则",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不重新认证出处",
+  "purpose": "摘要语法核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "sha",
+  "first_line": 50,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ab12fcaffeebd0d4d57c85dc4fdd3dfea637a13c80b29b4be8f662daba60ccd3",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:sha",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:sha"
+}
+unused_scope：null
+
+31. runtime/region_evidence_catalog.py:digest
+算法标识：runtime/region_evidence_catalog.py:digest
+module：runtime/region_evidence_catalog.py
+qualname：digest
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序紧凑UTF8 SHA",
+  "outputs": "64hex str",
+  "preconditions_and_limits": "精确旧AST未改",
+  "purpose": "旧规范摘要"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "digest",
+  "first_line": 55,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "87399cc705ddc0bce51619f01766e43b8d07720ce8247a0eb508c1633855fef6",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:digest",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:digest"
+}
+unused_scope：null
+
+32. runtime/region_evidence_catalog.py:reference
+算法标识：runtime/region_evidence_catalog.py:reference
+module：runtime/region_evidence_catalog.py
+qualname：reference
+contract：{
+  "inputs": "value/path",
+  "operations": "id/version文本+SHA格式",
+  "outputs": "tuple(id,version)",
+  "preconditions_and_limits": "内容hash另在resolve_refs核",
+  "purpose": "旧三字段ref核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "reference",
+  "first_line": 60,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dbad1b23988ac94d47b09ed84834335bd9e3f5153c38a2f39582532922cced2e",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:reference",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:reference"
+}
+unused_scope：null
+
+33. runtime/region_evidence_catalog.py:ref_for
+算法标识：runtime/region_evidence_catalog.py:ref_for
+module：runtime/region_evidence_catalog.py
+qualname：ref_for
+contract：{
+  "inputs": "带id/version的value",
+  "operations": "保id/version并digest完整value",
+  "outputs": "dict id/version/sha256",
+  "preconditions_and_limits": "不裁城市/省域",
+  "purpose": "旧内容ref生成"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "ref_for",
+  "first_line": 68,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6450db815f6ac1fb49ae002563050ab6b7a88357ede1f7529b9a0d588bf45f6e",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:ref_for",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:ref_for"
+}
+unused_scope：null
+
+34. runtime/region_evidence_catalog.py:load_catalog
+算法标识：runtime/region_evidence_catalog.py:load_catalog
+module：runtime/region_evidence_catalog.py
+qualname：load_catalog
+contract：{
+  "inputs": "无参；邻文件",
+  "operations": "读旧固定文化表SHA，解析JSON并核每unit source_ref内容",
+  "outputs": "catalog dict或ContractError",
+  "preconditions_and_limits": "只给旧两个profile；无城市地理映射/运行采纳",
+  "purpose": "固定旧文化表装载"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "load_catalog",
+  "first_line": 72,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8e931b773b0998ea2c64406c2c39ddcaf4b582ae5a74a458475fac3887fd721e",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:load_catalog",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:load_catalog"
+}
+unused_scope：null
+
+35. runtime/region_evidence_catalog.py:region
+算法标识：runtime/region_evidence_catalog.py:region
+module：runtime/region_evidence_catalog.py
+qualname：region
+contract：{
+  "inputs": "value/path",
+  "operations": "恰7字段、每字段文字、kind为3种既有值",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "level仅文字；GN层级仍提供方类型，不借此认证MCA市级",
+  "purpose": "旧region形状核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "region",
+  "first_line": 91,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49e6779bcc49467a5df6b7a0db970354e7c438a08032ecbfcd8947922d2d856d",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:region",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:region"
+}
+unused_scope：null
+
+36. runtime/region_evidence_catalog.py:frame
+算法标识：runtime/region_evidence_catalog.py:frame
+module：runtime/region_evidence_catalog.py
+qualname：frame
+contract：{
+  "inputs": "value/path",
+  "operations": "恰id/version/era/description非空文字",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "frame完全相等由后续比较，不跨版投票",
+  "purpose": "旧frame核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "frame",
+  "first_line": 98,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "89375389d855fcdb4ab0fc8c498ff305982ef185cacb10c6bae02dba8494ce37",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:frame",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:frame"
+}
+unused_scope：null
+
+37. runtime/region_evidence_catalog.py:unit_set
+算法标识：runtime/region_evidence_catalog.py:unit_set
+module：runtime/region_evidence_catalog.py
+qualname：unit_set
+contract：{
+  "inputs": "value/allowed/path",
+  "operations": "list、每unit在固定profile、无重复",
+  "outputs": "set[str]",
+  "preconditions_and_limits": "不造新单位或权重",
+  "purpose": "旧文化单位集核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "unit_set",
+  "first_line": 104,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='allowed'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "badb95fcf6e3b23aa70e44f5e118e09ffcc196bacbf61414201d61e58d161aa3",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:unit_set",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:unit_set"
+}
+unused_scope：null
+
+38. runtime/region_evidence_catalog.py:validate_source
+算法标识：runtime/region_evidence_catalog.py:validate_source
+module：runtime/region_evidence_catalog.py
+qualname：validate_source
+contract：{
+  "inputs": "value/path",
+  "operations": "恰7文字字段",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "格式不认证真实发布/全界",
+  "purpose": "旧来源元数据核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "validate_source",
+  "first_line": 114,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ac2a73a291ba170988620a226c160bcba9e70305bad881bd8e7c6ff217fa03ac",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:validate_source",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:validate_source"
+}
+unused_scope：null
+
+39. runtime/region_evidence_catalog.py:validate_evidence
+算法标识：runtime/region_evidence_catalog.py:validate_evidence
+module：runtime/region_evidence_catalog.py
+qualname：validate_evidence
+contract：{
+  "inputs": "value/path",
+  "operations": "按kind精确字段、来源/frame/审核/单位或链接形状",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "reviewed/complete是显式研究声明，不是软件真值认证",
+  "purpose": "旧geo/crosswalk证形状核"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "validate_evidence",
+  "first_line": 120,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e43674850f9b9dd063330df63282a861449b8b644bff10ce8a6945a050f346c1",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:validate_evidence",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:validate_evidence"
+}
+unused_scope：null
+
+40. runtime/region_evidence_catalog.py:resolve_refs
+算法标识：runtime/region_evidence_catalog.py:resolve_refs
+module：runtime/region_evidence_catalog.py
+qualname：resolve_refs
+contract：{
+  "inputs": "refs/index/kind/path",
+  "operations": "逐id+version+SHA核对象，去重复且kind匹配",
+  "outputs": "list[evidence]或ContractError",
+  "preconditions_and_limits": "同名/错版/改件不能替代",
+  "purpose": "旧证内容绑定"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "resolve_refs",
+  "first_line": 154,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='values'), arg(arg='index'), arg(arg='kind'), arg(arg='path')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e7a6a917ae9de3ac3ca2459361c2ebdc1962d57285036cf37f0bf409856a05e5",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:resolve_refs",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:resolve_refs"
+}
+unused_scope：null
+
+41. runtime/region_evidence_catalog.py:evaluate_coverage
+算法标识：runtime/region_evidence_catalog.py:evaluate_coverage
+module：runtime/region_evidence_catalog.py
+qualname：evaluate_coverage
+contract：{
+  "inputs": "payload/profile/index/result",
+  "operations": "核target/profile/frame；geo单位并集与全集声明；接受同框已审完整same_scope/within链接；跨元素保ambiguous；无权重",
+  "outputs": "None，原地填result状态/单位/attribute等",
+  "preconditions_and_limits": "缺项或链接不可用保coverage_undetermined；exact集合不能由仅包含冒完全相同范围；不从坐标推属",
+  "purpose": "旧完整范围评价"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "evaluate_coverage",
+  "first_line": 172,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload'), arg(arg='profile'), arg(arg='index'), arg(arg='result')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b30c90c2b46934eb2cc209b48db9dcfc68a01e643a2cca5b982a94b32bb09da8",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:evaluate_coverage",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:evaluate_coverage"
+}
+unused_scope：null
+
+42. runtime/region_evidence_catalog.py:evaluate
+算法标识：runtime/region_evidence_catalog.py:evaluate
+module：runtime/region_evidence_catalog.py
+qualname：evaluate
+contract：{
+  "inputs": "5字段nativepayload",
+  "operations": "固定profile+target+证全部核；evaluate_coverage；结构异常转状态；deepcopy输出",
+  "outputs": "原native report dict",
+  "preconditions_and_limits": "源真实性/边界/现实效果未认证；不改变喜用/B/运行采用",
+  "purpose": "旧原生文化API"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "evaluate",
+  "first_line": 260,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "eceecaf04a472d5e8df7e8a26142f3f74b22ff122f8c36b5e2276773a78b90ef",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:evaluate",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:evaluate"
+}
+unused_scope：null
+
+43. runtime/region_evidence_catalog.py:load_request
+算法标识：runtime/region_evidence_catalog.py:load_request
+module：runtime/region_evidence_catalog.py
+qualname：load_request
+contract：{
+  "inputs": "str或bytes",
+  "operations": "json.loads unique及非有限constant拒绝",
+  "outputs": "JSON值或ValueError",
+  "preconditions_and_limits": "当前只读固定旧表；公开用户走新wrapper更严协议",
+  "purpose": "旧JSON读取"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "load_request",
+  "first_line": 304,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "131852621d606b74efe1d01ffe1b052f3618d8ac3d9e1217335d225d922f1050",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:load_request",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:load_request"
+}
+unused_scope：null
+
+44. runtime/region_evidence_catalog.py:load_request.<locals>.unique
+算法标识：runtime/region_evidence_catalog.py:load_request.<locals>.unique
+module：runtime/region_evidence_catalog.py
+qualname：load_request.<locals>.unique
+contract：{
+  "inputs": "pairs",
+  "operations": "构dict并拒重复",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "保旧字节；不声称其错误序列化是新公共CLI",
+  "purpose": "旧JSON重复键钩子"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "load_request.<locals>.unique",
+  "first_line": 305,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "6ff6e0da03aa43b7ebe74e0bc3001bfe7c611965325cfd37f0fa73f90904d715",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:load_request.<locals>.unique",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_evidence_catalog.py:load_request.<locals>.unique"
+}
+unused_scope：null
+
+45. runtime/region_evidence_catalog.py:main
+算法标识：runtime/region_evidence_catalog.py:main
+module：runtime/region_evidence_catalog.py
+qualname：main
+contract：{
+  "inputs": "argv一文件",
+  "operations": "读旧nativepayload，evaluate并print indentJSON；捕所列IO/ValueError",
+  "outputs": "已知三状态0，否则2",
+  "preconditions_and_limits": "未作为本包公开城市入口执行；静态解释，不编造IO",
+  "purpose": "旧独立文化CLI"
+}
+source_identity：{
+  "relative_path": "runtime/region_evidence_catalog.py",
+  "qualified_name": "main",
+  "first_line": 316,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='argv')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "37bd4caf8cef79ac8128996f03a0a6d98255532639bebfba30a9772d7355e805",
+  "module_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca"
+}
+reuse：{
+  "old455_id": "runtime/region_evidence_catalog.py:main",
+  "exact_AST_and_contract": true,
+  "old_full_contract": "source/reused455_algorithm_contracts.json",
+  "old_actual_IO_scope": "See precise old455 reference, never claimed as new469 execution."
+}
+current_actual_IO：null
+unused_scope：Not executed by these current four public calls; exact old contract/old execution references retained. No invented new IO.
+

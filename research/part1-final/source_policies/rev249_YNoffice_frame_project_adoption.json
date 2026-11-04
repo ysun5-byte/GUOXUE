@@ -1,0 +1,57 @@
+{
+  "id": "rev249_YNoffice_frame_project_adoption",
+  "revision": 249,
+  "date": "2026-11-02",
+  "status": "adopted_exact_version_attributed_Yunnan_cultural_frame",
+  "target": {
+    "component": "batch01_YNoffice_candidate",
+    "files": 643,
+    "manifest_sha256": "b924e618811a9b8ee360f0f0a06af6f8e3e9ecdf87f8191eb702296ec34e7f8a",
+    "freeze_sha256": "dba0d54166daa21107c2a9190f6d20b6b2e3f9f6545c137b25f38f84cd77d893",
+    "relative_directory": "rev242_national_region_source_batch/batch01_YNoffice_candidate"
+  },
+  "independent_review": {
+    "component": "rev246_Yunnan_data14_independent",
+    "files": 66,
+    "manifest_sha256": "ffb0414421df01f530043f192f2e60f11a44c246f8c5f95d592e268644689f86",
+    "freeze_sha256": "a5e0ff9133056e94a1186300c796c654446b3ac6a96d257a2e3a8768ce662bd7",
+    "relative_directory": "rev246_Yunnan_data14_independent"
+  },
+  "aggregate_acceptance": {
+    "component": "rev249_YNoffice_frame_acceptance",
+    "files": 3,
+    "manifest_sha256": "f5c040bb30cfeeedc1134a87a874a3e4254173f5ca376c5875c1d037f0994e25",
+    "freeze_sha256": "e48a0b541bfe237a29637f0b49e3c105a454eff8e55ce975f05222fe7d27a6e0",
+    "report_sha256": "9aa11c8fde3f296e2e716bae0145dc2f926901fc3cc1f75d0c9c807411dfcf86"
+  },
+  "scope": {
+    "id": "YN-office-observed20261102-modern-named-whole-cultural-account",
+    "region_ref": {
+      "namespace": "cn-admin-code-named-region-project-versioned",
+      "id": "530000",
+      "version": "research-yn-shoffice-observed20261102-body2021-named-liang-v1"
+    },
+    "source_url": "https://www.ynszfzshbsc.cn/index/Index/ynsq/id/5.html",
+    "source_layer": "现代省级派出机构省情网页的具名文化史解释；不是古九州疆界认证",
+    "source_locator": "云南省情→历史→建制沿革首段；实际web body L16–18，页尾L88–92",
+    "source_version": "observed20261102/body-admin2021/publication-date-unknown",
+    "selected_reading": "Modern named whole Yunnan is the paragraph subject; selected author account assigns Shang/Xia Liang. The literal sentence does not name 禹贡.",
+    "engineering_bridge": "Modern named whole → existing530000 identity; separate Sanming Liang→金 cultural correspondence. Neither ancient parcel proof nor personal 喜金.",
+    "identity_limit": "Office site selfdescription+footer/ICP text; no independent ICP registration verification, government outboundlink or actual new-domain announcement body obtained. Announcement request returned cache miss, search index not body.",
+    "runtime_behavior": "Explicit exact data14 version with complete reviewed evidence gives local metal. Old unknown version remains callable; never automatically select latest.",
+    "source_truth_or_ancient_GIS_authenticated": false,
+    "conflict_handling": "Other named frames stay separate. Unread planning/yearbook and partial newspaper do not become this source or a second verified source.",
+    "C0": "Only relative-direction share returns to B; known local metal stays.",
+    "whole_national_C04_complete": false
+  },
+  "runtime_adopted": true,
+  "explicit_version_only": true,
+  "frozen_candidate_bytes_and_historical_pending_flags_unchanged": true,
+  "effective_adoption_is_this_external_root_policy": true,
+  "automatic_default_replacement": false,
+  "weights_C20_D2_C0_changed": false,
+  "progress_delta": "0.00",
+  "score": "82.50/100",
+  "whole_original_task_complete": false,
+  "real_prediction_validated": false
+}

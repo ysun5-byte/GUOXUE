@@ -1,0 +1,2052 @@
+普通禄劫食伤泄秀、食伤生财与原印救应整盘
+rev524_Lujie_Yimao_exposed_food_finance_joint_operator
+所属原模块：C02
+当前采用：rev543_Lujie_whole_food_finance_project_adoption.json
+范围：adopted_exact52464_kernel43_after54125_with_effective_source_correction
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev524_Lujie_Yimao_exposed_food_finance_joint_operator/algorithm_explanations_53_including_lambda.json
+SHA256：be3694b1fe1e812db4afb4e96724ddde5d33d8d19c3148ba1c10a75a14e220f5
+
+1. current.py:canonical
+算法标识：current.py:canonical
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "canonical",
+  "first_line": 9,
+  "kind": "FunctionDef",
+  "module_sha256": "1c781faddac57d86fd5def67ac4c437b0daa9664d8436ec9d91d2177fea0a75e",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Serialize a packed whole result deterministically.",
+  "inputs": "JSON-compatible result.",
+  "operations": "Compact Unicode JSON, sortedkeys, allow_nan=False; noencoding or valueprojection.",
+  "outputs": "str.",
+  "preconditions_and_limits": "Fractions/tuplekeys packed beforecall; main alone UTF8prints it."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "outlet.py:canonical",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Serialize a packed whole result deterministically.",
+    "inputs": "JSON-compatible result.",
+    "operations": "Compact Unicode JSON, sortedkeys, allow_nan=False; noencoding or valueprojection.",
+    "outputs": "str.",
+    "preconditions_and_limits": "Fractions/tuplekeys packed beforecall; main alone UTF8prints it."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "current.py:canonical",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+2. current.py:pairs
+算法标识：current.py:pairs
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "pairs",
+  "first_line": 10,
+  "kind": "FunctionDef",
+  "module_sha256": "1c781faddac57d86fd5def67ac4c437b0daa9664d8436ec9d91d2177fea0a75e",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "严格JSON去重",
+  "inputs": "JSON对象有序键值对",
+  "operations": "逐对检查键是否重复；重复抛ValueError，不以末项覆盖前项",
+  "outputs": "唯一键dict或duplicate_JSON_key异常",
+  "preconditions_and_limits": "json.loads真实object_pairs_hook；不替代schema验证"
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev519_Quzhi_source_terminal_and_Primary_intersection/algorithm_explanations_55_functions.json",
+  "id": "quzhi_terminal.py:pairs",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "严格JSON去重",
+    "inputs": "JSON对象有序键值对",
+    "operations": "逐对检查键是否重复；重复抛ValueError，不以末项覆盖前项",
+    "outputs": "唯一键dict或duplicate_JSON_key异常",
+    "preconditions_and_limits": "json.loads真实object_pairs_hook；不替代schema验证"
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "current.py:pairs",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+3. current.py:nonfinite
+算法标识：current.py:nonfinite
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "nonfinite",
+  "first_line": 16,
+  "kind": "FunctionDef",
+  "module_sha256": "1c781faddac57d86fd5def67ac4c437b0daa9664d8436ec9d91d2177fea0a75e",
+  "AST_sha256": "738d1722bbd20a94f468b3c896a63fd6037749d3d838cefb6548c41090a8f99b",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Reject JSON nonfinite tokens.",
+  "inputs": "parse_constant token.",
+  "operations": "Always raise fixedValueError.",
+  "outputs": "Exception only.",
+  "preconditions_and_limits": "Actual exceptionalcall retained; no fabricatednormalNone."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "outlet.py:nonfinite",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Reject JSON nonfinite tokens.",
+    "inputs": "parse_constant token.",
+    "operations": "Always raise fixedValueError.",
+    "outputs": "Exception only.",
+    "preconditions_and_limits": "Actual exceptionalcall retained; no fabricatednormalNone."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "current.py:nonfinite",
+  "paired_same_first_call_frame": true,
+  "normal_return": false,
+  "exception_unwind_not_normal_None": true
+}
+not_executed_note：null
+
+4. current.py:bounded
+算法标识：current.py:bounded
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "bounded",
+  "first_line": 17,
+  "kind": "FunctionDef",
+  "module_sha256": "1c781faddac57d86fd5def67ac4c437b0daa9664d8436ec9d91d2177fea0a75e",
+  "AST_sha256": "df19f08d44670401817cc45a336a9bd75514f317d3b4807bb0c8d0a53a79dcb8",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "限制原始请求资源及字符",
+  "inputs": "原请求JSON对象",
+  "operations": "显式栈校验深度12、节点500、对象12键/列表20项、字符串2000、仅JSON固定标量且无代理码点",
+  "outputs": "正常None或具体ValueError",
+  "preconditions_and_limits": "资源门不判八字；三字段schema和原柱合法性另校验"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "current.py:bounded",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+5. current.py:strict_load
+算法标识：current.py:strict_load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "strict_load",
+  "first_line": 31,
+  "kind": "FunctionDef",
+  "module_sha256": "1c781faddac57d86fd5def67ac4c437b0daa9664d8436ec9d91d2177fea0a75e",
+  "AST_sha256": "7d7a5aba302745b8d66e49b9d4e8603aad951517aa85738b3cc7a87dbf41afc3",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "严格解析原请求",
+  "inputs": "str最长10000字符",
+  "operations": "json.loads调用真实去重/非有限回调，再全树资源校验",
+  "outputs": "原请求对象；解析/类型/资源异常",
+  "preconditions_and_limits": "不接受外给ready报告；字节UTF8与20000字节门另由main执行"
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev519_Quzhi_source_terminal_and_Primary_intersection/algorithm_explanations_55_functions.json",
+  "id": "quzhi_terminal.py:strict_load",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "严格解析原请求",
+    "inputs": "str最长10000字符",
+    "operations": "json.loads调用真实去重/非有限回调，再全树资源校验",
+    "outputs": "原请求对象；解析/类型/资源异常",
+    "preconditions_and_limits": "不接受外给ready报告；字节UTF8与20000字节门另由main执行"
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "current.py:strict_load",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+6. current.py:guard
+算法标识：current.py:guard
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "guard",
+  "first_line": 34,
+  "kind": "FunctionDef",
+  "module_sha256": "1c781faddac57d86fd5def67ac4c437b0daa9664d8436ec9d91d2177fea0a75e",
+  "AST_sha256": "37d8deb7fd0b82066b439de8f894ffbd3ea2d88129a508981af5f0a3cc248985",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "全部源及算法先核再执行",
+  "inputs": "包内固定锁与18材料",
+  "operations": "核锁SHA；source/runtime集合精确相等；文件包含/非软链；逐文件长度与SHA；只返回原材料bytes",
+  "outputs": "18材料的原bytes字典或ValueError",
+  "preconditions_and_limits": "全部4provider前执行；不把SHA当古文真值；任何数学前先源精度/版本一致"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "current.py:guard",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+7. current.py:load
+算法标识：current.py:load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "load",
+  "first_line": 47,
+  "kind": "FunctionDef",
+  "module_sha256": "1c781faddac57d86fd5def67ac4c437b0daa9664d8436ec9d91d2177fea0a75e",
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "从本包已核字节加载单个计算模块",
+  "inputs": "固定模块名、包内相对路径、guard材料字典",
+  "operations": "构造ModuleType并设置实际__file__；compile/exec已核bytes",
+  "outputs": "完整ModuleType计算上下文",
+  "preconditions_and_limits": "load不主动读旧树；模块和固定全局由真实IO显式绑定，不堆序列化"
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev519_Quzhi_source_terminal_and_Primary_intersection/algorithm_explanations_55_functions.json",
+  "id": "quzhi_terminal.py:load",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "从本包已核字节加载单个计算模块",
+    "inputs": "固定模块名、包内相对路径、guard材料字典",
+    "operations": "构造ModuleType并设置实际__file__；compile/exec已核bytes",
+    "outputs": "完整ModuleType计算上下文",
+    "preconditions_and_limits": "load不主动读旧树；模块和固定全局由真实IO显式绑定，不堆序列化"
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "current.py:load",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+8. current.py:evaluate
+算法标识：current.py:evaluate
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "evaluate",
+  "first_line": 49,
+  "kind": "FunctionDef",
+  "module_sha256": "1c781faddac57d86fd5def67ac4c437b0daa9664d8436ec9d91d2177fea0a75e",
+  "AST_sha256": "33f914b75c99d670b347f40da3c6429b454626cbed4a71f55cad3e0f91f37523",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "完整原始四柱到两个普通禄劫源任务及印救应子题",
+  "inputs": "schema/source_profile/raw_pillars三字段",
+  "operations": "严格类型→源锁→4模块→facts合法性→明确34资格→完整原库存→全部源反馈/费用→两个source问题与native全H→精确pack",
+  "outputs": "完整原生报告；非法原柱或合法外域给具体事实与范围，不给部分数字判断",
+  "preconditions_and_limits": "公开恰纯食15/食财19、固定nominal；外域不否定传统；原21及全部原项目任务保留；不接B/主题/显示"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "current.py:evaluate",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+9. current.py:main
+算法标识：current.py:main
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "main",
+  "first_line": 60,
+  "kind": "FunctionDef",
+  "module_sha256": "1c781faddac57d86fd5def67ac4c437b0daa9664d8436ec9d91d2177fea0a75e",
+  "AST_sha256": "3e15fecf094e5f1c87f30096788bd46a8bbaa47735ff390d356de499a972daa0",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "完整原生CLI与拒绝协议",
+  "inputs": "真实stdin UTF8字节",
+  "operations": "20000字节限→严格UTF8/JSON→evaluate→canonical完整打印；指定异常无部分结论",
+  "outputs": "退出0+完整一行报告，或退出2+rejected",
+  "preconditions_and_limits": "真实IO保stdin/stdout和exit；原生stdout按全部字节比，不只挑key"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "current.py:main",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+10. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "bounded",
+  "first_line": 16,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work.",
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:bounded",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Bound the supplied JSON-like graph before recursive schema work.",
+    "inputs": "Any parsed Python value representing JSON.",
+    "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+    "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+    "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:bounded",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+11. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "shape",
+  "first_line": 38,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Require an exact allowed object field set.",
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:shape",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Require an exact allowed object field set.",
+    "inputs": "value plus required names and optional names.",
+    "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+    "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+    "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:shape",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+12. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "string",
+  "first_line": 43,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Require a nonempty string field.",
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:string",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Require a nonempty string field.",
+    "inputs": "Any candidate field value.",
+    "operations": "Check isinstance(value,str) and nonempty.",
+    "outputs": "None on pass; ValueError otherwise.",
+    "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:string",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+13. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "boolean",
+  "first_line": 48,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Require actual bool instead of truthy/coercible values.",
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:boolean",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Require actual bool instead of truthy/coercible values.",
+    "inputs": "Any candidate field value.",
+    "operations": "Require type(value) is bool.",
+    "outputs": "None or ValueError.",
+    "preconditions_and_limits": "Integers0/1 are not booleans for this schema."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:boolean",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+14. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "validate",
+  "first_line": 53,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request.",
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:validate",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request.",
+    "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+    "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+    "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+    "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:validate",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+15. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "closed",
+  "first_line": 135,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Check that every declared graph-scope obligation is marked complete.",
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:closed",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Check that every declared graph-scope obligation is marked complete.",
+    "inputs": "Validated request with five SCOPE_KEYS booleans.",
+    "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+    "outputs": "Boolean complete-scope flag.",
+    "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:closed",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+16. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "hard_failure",
+  "first_line": 139,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Determine whether a required actual goal or global check still blocks selection.",
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:hard_failure",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Determine whether a required actual goal or global check still blocks selection.",
+    "inputs": "Validated request containing goals/global_checks.",
+    "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+    "outputs": "Boolean hard-failure flag.",
+    "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:hard_failure",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+17. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "repair_candidates",
+  "first_line": 144,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions.",
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.Current402 graph has no repair_routes."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:repair_candidates",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions.",
+    "inputs": "Validated request plus actor_map and goal_map.",
+    "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+    "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+    "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.Current402 graph has no repair_routes."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:repair_candidates",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+18. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "minimal_covers",
+  "first_line": 184,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal.",
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:minimal_covers",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal.",
+    "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+    "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+    "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+    "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:minimal_covers",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+19. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "prefer",
+  "first_line": 197,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution.",
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:prefer",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution.",
+    "inputs": "left/right actor sets, actor_map, preference rules.",
+    "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+    "outputs": "Boolean left-preferred-over-right relation.",
+    "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:prefer",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+20. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "preference_frontier",
+  "first_line": 206,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle.",
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:preference_frontier",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle.",
+    "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+    "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+    "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+    "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:preference_frontier",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+21. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "select",
+  "first_line": 224,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms.",
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "Base result fields are version, semantic_scope, source_and_scope_bindings_independently_validated, positive_current_tasks, all_current_actors_preserved, all_tasks_preserved, actual_goals_preserved, actual_global_checks_preserved, unmet_task_repair_candidates, needed_absent_directions, luck_directions_separate, selected_current_auxiliary_sets, common_selected_actors, final_whole_chart_auxiliary_elements, final_priority, B and warning; status is added on every return. The incomplete-scope and hard-failure branches leave selection fields None. The no-active-target branch sets selected_current_auxiliary_sets=[] and also returns positive_background_tasks. The active-target branch additionally returns qualified_coverage, all_inclusion_minimal_explanation_sets, preference_edges_by_set_index, preference_cycle_undecided and positive_background_tasks, and fills selected/common actor fields. Input schema, mode and scope are not returned. Current402 adapter separately saves input graphs at original_native_auxiliary.chunks[*].full_native_graph; select itself does not return that field.",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:select",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms.",
+    "inputs": "Full evaluated graph request accepted by validate.",
+    "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+    "outputs": "Base result fields are version, semantic_scope, source_and_scope_bindings_independently_validated, positive_current_tasks, all_current_actors_preserved, all_tasks_preserved, actual_goals_preserved, actual_global_checks_preserved, unmet_task_repair_candidates, needed_absent_directions, luck_directions_separate, selected_current_auxiliary_sets, common_selected_actors, final_whole_chart_auxiliary_elements, final_priority, B and warning; status is added on every return. The incomplete-scope and hard-failure branches leave selection fields None. The no-active-target branch sets selected_current_auxiliary_sets=[] and also returns positive_background_tasks. The active-target branch additionally returns qualified_coverage, all_inclusion_minimal_explanation_sets, preference_edges_by_set_index, preference_cycle_undecided and positive_background_tasks, and fills selected/common actor fields. Input schema, mode and scope are not returned. Current402 adapter separately saves input graphs at original_native_auxiliary.chunks[*].full_native_graph; select itself does not return that field.",
+    "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:select",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+22. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "strict_pairs",
+  "first_line": 272,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser.",
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "Current402 raw pipeline does not execute this original AUX CLI routine; static explanation only; this is not extension_model.py:pairs."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:strict_pairs",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser.",
+    "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+    "operations": "Insert into new dict, raising ValueError if key already exists.",
+    "outputs": "Parsed dict or ValueError duplicate JSON key.",
+    "preconditions_and_limits": "Current402 raw pipeline does not execute this original AUX CLI routine; static explanation only; this is not extension_model.py:pairs."
+  }
+}
+actual_IO_reference：null
+not_executed_note：精确旧AST及原合同保留；本次未执行，无当前IO声明，含旧lambda。
+
+23. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "reject_constant",
+  "first_line": 280,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing.",
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "Current402 raw pipeline does not execute this original AUX CLI routine; static explanation only; not extension_model.py:nonfinite."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:reject_constant",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing.",
+    "inputs": "A constant token string supplied by json.loads parse_constant.",
+    "operations": "Always raise ValueError(nonfinite JSON constant).",
+    "outputs": "No normal return.",
+    "preconditions_and_limits": "Current402 raw pipeline does not execute this original AUX CLI routine; static explanation only; not extension_model.py:nonfinite."
+  }
+}
+actual_IO_reference：null
+not_executed_note：精确旧AST及原合同保留；本次未执行，无当前IO声明，含旧lambda。
+
+24. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "main",
+  "first_line": 284,
+  "kind": "FunctionDef",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol.",
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. Current402 raw pipeline does not execute this original AUX CLI routine; static explanation only. This differs from both extension main and standalone graph main."
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/auxiliary_selector.py:main",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol.",
+    "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+    "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+    "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+    "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. Current402 raw pipeline does not execute this original AUX CLI routine; static explanation only. This differs from both extension main and standalone graph main."
+  }
+}
+actual_IO_reference：null
+not_executed_note：精确旧AST及原合同保留；本次未执行，无当前IO声明，含旧lambda。
+
+25. runtime/flow402.py:pack
+算法标识：runtime/flow402.py:pack
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "pack",
+  "first_line": 7,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Encode internal exact mathematics.",
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:pack",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Encode internal exact mathematics.",
+    "inputs": "Fraction,dict,list/tuple,set or scalar.",
+    "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+    "outputs": "JSON-compatible structure.",
+    "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:pack",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+26. runtime/flow402.py:gauss
+算法标识：runtime/flow402.py:gauss
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "gauss",
+  "first_line": 15,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:gauss",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+    "inputs": "Nonsingular square rational matrix and same-row RHS.",
+    "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+    "outputs": "Exact solution rows; singular raises ArithmeticError.",
+    "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:gauss",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+27. runtime/flow402.py:actors_from_raw
+算法标识：runtime/flow402.py:actors_from_raw
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "actors_from_raw",
+  "first_line": 29,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "2761c46300aaf228478b1a371ff1c631e7fc22009e8f6299ce0868e8a279bf89",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='context')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Keep all visible and hidden real carriers.",
+  "inputs": "Legal raw pillars, original facts module, optional internal literal comparison pillar.",
+  "operations": "Preserve four positions, lookup all hidden stems and strict tengod roles; optional external column gets its own identity/position.",
+  "outputs": "actors and pillar tuples.",
+  "preconditions_and_limits": "Caller has raw legality. Internal literal context is not realUTC or publicly accepted input; no absentgold actor created. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:actors_from_raw",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Keep all visible and hidden real carriers.",
+    "inputs": "Legal raw pillars, original facts module, optional internal literal comparison pillar.",
+    "operations": "Preserve four positions, lookup all hidden stems and strict tengod roles; optional external column gets its own identity/position.",
+    "outputs": "actors and pillar tuples.",
+    "preconditions_and_limits": "Caller has raw legality. Internal literal context is not realUTC or publicly accepted input; no absentgold actor created. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:actors_from_raw",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+28. runtime/flow402.py:inventory
+算法标识：runtime/flow402.py:inventory
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "inventory",
+  "first_line": 43,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "0ef7beac7e0acc7fa3e0d296c660541ab9fa4d0eb3c3db8f5eeaf025aef67893",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='cfg'), arg(arg='context')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Build typed phasefree direct pools and declared actor shares.",
+  "inputs": "Actors/raw/facts and fixed mu,m cfg; optional literal context.",
+  "operations": "Main hidden element1, other actualhidden mu, month m; one non-day visible float. Per-element typedorigin max once; actors weighted by their direct totals; preserve every actor-root row.",
+  "outputs": "actors,present,direct,weights,rootrows,cfg.",
+  "preconditions_and_limits": "mu/m are engineering qualifications, not hidden percentages or earth12palaces. Common pool demonstrably not actor-local; per-element qualifications not cross-element mass conservation. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:inventory",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Build typed phasefree direct pools and declared actor shares.",
+    "inputs": "Actors/raw/facts and fixed mu,m cfg; optional literal context.",
+    "operations": "Main hidden element1, other actualhidden mu, month m; one non-day visible float. Per-element typedorigin max once; actors weighted by their direct totals; preserve every actor-root row.",
+    "outputs": "actors,present,direct,weights,rootrows,cfg.",
+    "preconditions_and_limits": "mu/m are engineering qualifications, not hidden percentages or earth12palaces. Common pool demonstrably not actor-local; per-element qualifications not cross-element mass conservation. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:inventory",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+29. runtime/flow402.py:solve
+算法标识：runtime/flow402.py:solve
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "solve",
+  "first_line": 65,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "3f5e3a272d0d037d2d692a713a79b8317f9e06a1bb993ca6ca8aee3c6182789d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='selected')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Find exact unique max-affine fixed point.",
+  "inputs": "Base and selected extras.",
+  "operations": "Enumerate all active faces over present elements, rational solve candidate, substitute full max equations and nonnegative vector. Global contraction supplies uniqueness.",
+  "outputs": "Current,coefficients,activeface,exact certificate.",
+  "preconditions_and_limits": "No float gate/hint or oracle-selected phase; original4elements<=16faces, real5elements<=32faces. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:solve",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Find exact unique max-affine fixed point.",
+    "inputs": "Base and selected extras.",
+    "operations": "Enumerate all active faces over present elements, rational solve candidate, substitute full max equations and nonnegative vector. Global contraction supplies uniqueness.",
+    "outputs": "Current,coefficients,activeface,exact certificate.",
+    "preconditions_and_limits": "No float gate/hint or oracle-selected phase; original4elements<=16faces, real5elements<=32faces. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:solve",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+30. runtime/flow402.py:origins
+算法标识：runtime/flow402.py:origins
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "origins",
+  "first_line": 79,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "68b315515713bb428dd7871847a3de739c68fdb4906a425cb5967529d60afa48",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Reconstruct every typed source in the same solved vector.",
+  "inputs": "Base and exact current world.",
+  "operations": "Gross direct+licensed generation; retention=current/gross; solve multi-RHS linear inherited flow; check nonnegative and exact sums/substitution.",
+  "outputs": "Typed pools,gross,retention,b contraction bound.",
+  "preconditions_and_limits": "Each original element-qualification origin injected once; allzero/noorigin case valid. Does not equate same branch labels across elements. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:origins",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Reconstruct every typed source in the same solved vector.",
+    "inputs": "Base and exact current world.",
+    "operations": "Gross direct+licensed generation; retention=current/gross; solve multi-RHS linear inherited flow; check nonnegative and exact sums/substitution.",
+    "outputs": "Typed pools,gross,retention,b contraction bound.",
+    "preconditions_and_limits": "Each original element-qualification origin injected once; allzero/noorigin case valid. Does not equate same branch labels across elements. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:origins",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+31. runtime/flow402.py:robust
+算法标识：runtime/flow402.py:robust
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "robust",
+  "first_line": 95,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "b2a342ee6e918307ea9bead7387af4313b9e657a39683de9582bbc816fa7d85e",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows'), arg(arg='ids')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Compute all minimal stable additional-support sets.",
+  "inputs": "Complete powerset rows and ordered IDs.",
+  "operations": "Boolean superset closure; every immediate-removal test gives minima, maximal stablefalse complements give CNF.",
+  "outputs": "AllH,CNF,true/robustcounts.",
+  "preconditions_and_limits": "Complete powerset is caller precondition. [[]] means no extra auxiliary under fixed core, never no用神. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。",
+  "旧稳健许可全世界算法未被本API执行；合同保历史，不伪新trace或用旧H投影。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:robust",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Compute all minimal stable additional-support sets.",
+    "inputs": "Complete powerset rows and ordered IDs.",
+    "operations": "Boolean superset closure; every immediate-removal test gives minima, maximal stablefalse complements give CNF.",
+    "outputs": "AllH,CNF,true/robustcounts.",
+    "preconditions_and_limits": "Complete powerset is caller precondition. [[]] means no extra auxiliary under fixed core, never no用神. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+  }
+}
+actual_IO_reference：null
+not_executed_note：精确旧AST及原合同保留；本次未执行，无当前IO声明，含旧lambda。
+
+32. runtime/flow402.py:robust.<locals>.<lambda>
+算法标识：runtime/flow402.py:robust.<locals>.<lambda>
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "robust.<locals>.<lambda>",
+  "first_line": 104,
+  "kind": "Lambda",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "c51d24376362a4b6cca991e431866aaff7ae77c44a7518eae4e4d8ee386ac15a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='m')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Convert a package bitmask to all exact actor names.",
+  "inputs": "Integer mask over ordered IDs captured from robust.",
+  "operations": "Emit each ID whose bit is present.",
+  "outputs": "ID list.",
+  "preconditions_and_limits": "Local pure finite mapping, not source selection; actual mask0 returns empty member of mathematicalH. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。",
+  "旧稳健许可全世界算法未被本API执行；合同保历史，不伪新trace或用旧H投影。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:robust.<locals>.<lambda>",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Convert a package bitmask to all exact actor names.",
+    "inputs": "Integer mask over ordered IDs captured from robust.",
+    "operations": "Emit each ID whose bit is present.",
+    "outputs": "ID list.",
+    "preconditions_and_limits": "Local pure finite mapping, not source selection; actual mask0 returns empty member of mathematicalH. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification."
+  }
+}
+actual_IO_reference：null
+not_executed_note：精确旧AST及原合同保留；本次未执行，无当前IO声明，含旧lambda。
+
+33. runtime/flow402.py:packages
+算法标识：runtime/flow402.py:packages
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "packages",
+  "first_line": 109,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "ebc9302b438faa5d77d5b4963754b8e7639b711c17d1a36d1f5f72930e482112",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Enumerate all real signed function and exhibition atoms.",
+  "inputs": "Fullactualbase.",
+  "operations": "Fireexhibition; noncorewoodcontrolsactualsoil; waterjointbirth/control; soilcontrol onlyifactualwater exists; sortexactIDs andpartitionhelpers/fire.",
+  "outputs": "ids,kinds,helpers,fire dict.",
+  "preconditions_and_limits": "Not permanentlygoodroles. Corebodyfixed; noabsenttargets/actors; no additionaldayfloatingstock."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。",
+  "524只用全部包作为实际全开、全部水包共同关作为同费用诊断；不运行旧全许可幂集/旧稳健H。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:packages",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Enumerate all real signed function and exhibition atoms.",
+    "inputs": "Fullactualbase.",
+    "operations": "Fireexhibition; noncorewoodcontrolsactualsoil; waterjointbirth/control; soilcontrol onlyifactualwater exists; sortexactIDs andpartitionhelpers/fire.",
+    "outputs": "ids,kinds,helpers,fire dict.",
+    "preconditions_and_limits": "Not permanentlygoodroles. Corebodyfixed; noabsenttargets/actors; no additionaldayfloatingstock."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:packages",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+34. runtime/flow402.py:coefficients
+算法标识：runtime/flow402.py:coefficients
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "coefficients",
+  "first_line": 120,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "ddef5fed6602ccf07712703d4a70b1f33ecd0bb7932d31289547a304ddeeed8b",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='selected')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Build one complete fresh-from-direct permission-world map.",
+  "inputs": "Base andselected exactpackageIDs.",
+  "operations": "Potentialoutgoingcosts stayfixed fromactualendpoints. Waterbirth/control useonebeta/current; wood/soilcontrolbeta; basicW/Fgeneration fixed. Formtarget-normalizedK andrequireL<1.",
+  "outputs": "b,c,h,diagonals,rates,K,bound,present,helper_betas.",
+  "preconditions_and_limits": "Jointavailability semantics explicitlydifferent379positive-only. No physicalall-onresidual reinjury; everyworld solvedfromdirect once; noFexhibition deletion."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:coefficients",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Build one complete fresh-from-direct permission-world map.",
+    "inputs": "Base andselected exactpackageIDs.",
+    "operations": "Potentialoutgoingcosts stayfixed fromactualendpoints. Waterbirth/control useonebeta/current; wood/soilcontrolbeta; basicW/Fgeneration fixed. Formtarget-normalizedK andrequireL<1.",
+    "outputs": "b,c,h,diagonals,rates,K,bound,present,helper_betas.",
+    "preconditions_and_limits": "Jointavailability semantics explicitlydifferent379positive-only. No physicalall-onresidual reinjury; everyworld solvedfromdirect once; noFexhibition deletion."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:coefficients",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+35. runtime/flow402.py:goals
+算法标识：runtime/flow402.py:goals
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "goals",
+  "first_line": 136,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "70bff5c5fe473da8bd54c55df80296232743e56122d66ea3af71b5c64e7ed534",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='origin'), arg(arg='selected')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Evaluate full carry/channel and true exhibition credit.",
+  "inputs": "Base,sharedworld,origins,selectedpackages.",
+  "operations": "W>0/root>0/F>0; L=retFire*bW>0; strictW>margin*load*F; selectedfireweightedL>=etaL>0.",
+  "outputs": "Checks/met/helpermet,root/current/strictload/channel/credit/threshold fields.",
+  "preconditions_and_limits": "Carrycomparison not anotherphysicaldebit. Coverageequalitypasses, carryequalityfails; no classicalstrength or lucklabel."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。",
+  "本函数仅旧expand_ledger内执行的food-only展示/承载诊断，当前world_record已明确改名另存，不是524食财完整目标。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:goals",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Evaluate full carry/channel and true exhibition credit.",
+    "inputs": "Base,sharedworld,origins,selectedpackages.",
+    "operations": "W>0/root>0/F>0; L=retFire*bW>0; strictW>margin*load*F; selectedfireweightedL>=etaL>0.",
+    "outputs": "Checks/met/helpermet,root/current/strictload/channel/credit/threshold fields.",
+    "preconditions_and_limits": "Carrycomparison not anotherphysicaldebit. Coverageequalitypasses, carryequalityfails; no classicalstrength or lucklabel."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:goals",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+36. runtime/flow402.py:geometry
+算法标识：runtime/flow402.py:geometry
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "geometry",
+  "first_line": 141,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "d3503b5fc6993dce664450c1426e83c775330f9b7c16ac2e1380b37b465ca8a8",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Retain each real endpoint and source cost layout once.",
+  "inputs": "Completeactors/actualelements.",
+  "operations": "Enumerateallgeneration/control actorpairs andcostkind; retainpositions/distance/roles, sharedgain1,sourcepermissionkey.",
+  "outputs": "all_actual_endpoint_edges,all_potential_cost_layouts,nonlocal-equivalence flag.",
+  "preconditions_and_limits": "Sharedpool spatialgain1 is declaredengineering, not provedreduction oflocalinjury. Norealendpoint omitted orabsentgoldcreated."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:geometry",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Retain each real endpoint and source cost layout once.",
+    "inputs": "Completeactors/actualelements.",
+    "operations": "Enumerateallgeneration/control actorpairs andcostkind; retainpositions/distance/roles, sharedgain1,sourcepermissionkey.",
+    "outputs": "all_actual_endpoint_edges,all_potential_cost_layouts,nonlocal-equivalence flag.",
+    "preconditions_and_limits": "Sharedpool spatialgain1 is declaredengineering, not provedreduction oflocalinjury. Norealendpoint omitted orabsentgoldcreated."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:geometry",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+37. runtime/flow402.py:state_budget
+算法标识：runtime/flow402.py:state_budget
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "state_budget",
+  "first_line": 155,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "a98fe50fbae83330c5231fe5d94e50c70ef4be14b83653289987f96551e567f6",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='origin')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Balance every element and every origin forone solvedworld.",
+  "inputs": "Base,world,origin.",
+  "operations": "Computeactualrequestedcapacity,clippedloss,unusedcapacity,potentialcost; apportiontargetgrossoriginlosses; exactcurrent+cost+loss checks.",
+  "outputs": "Element->direct/gross/current/cost/capacity/loss/unused/originbalances.",
+  "preconditions_and_limits": "Capacity notactualloss. Costs do not vanishwithpermission; all-onloss countedonce."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:state_budget",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Balance every element and every origin forone solvedworld.",
+    "inputs": "Base,world,origin.",
+    "operations": "Computeactualrequestedcapacity,clippedloss,unusedcapacity,potentialcost; apportiontargetgrossoriginlosses; exactcurrent+cost+loss checks.",
+    "outputs": "Element->direct/gross/current/cost/capacity/loss/unused/originbalances.",
+    "preconditions_and_limits": "Capacity notactualloss. Costs do not vanishwithpermission; all-onloss countedonce."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:state_budget",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+38. runtime/flow402.py:expand_ledger
+算法标识：runtime/flow402.py:expand_ledger
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "expand_ledger",
+  "first_line": 164,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "7bef9f3eaa13d5600f41cff894c222665a75b6380714885ac4dc92ef78f7ab39",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='origin'), arg(arg='selected'), arg(arg='geo')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Expand lossless per-state/per-mask data into every real action.",
+  "inputs": "Base,world,origins,selected andoptionalgeo.",
+  "operations": "Actorports=share*elementorigins; realedge rate*receiver_share*sourceport*sourcepermission; costsunmasked; controlattribution bycapacity; checktotals andincludeexhibitiongoal.",
+  "outputs": "actorports,allrealedges,allcosts,budgets,exhibition andsemanticsflags.",
+  "preconditions_and_limits": "Same-current bothwaterfaces; no physicalsecondcontrol. Compactoutputstoresallelementvalues/weights/edges/masks needed to reconstructthis exactly, not hashonly."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:expand_ledger",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Expand lossless per-state/per-mask data into every real action.",
+    "inputs": "Base,world,origins,selected andoptionalgeo.",
+    "operations": "Actorports=share*elementorigins; realedge rate*receiver_share*sourceport*sourcepermission; costsunmasked; controlattribution bycapacity; checktotals andincludeexhibitiongoal.",
+    "outputs": "actorports,allrealedges,allcosts,budgets,exhibition andsemanticsflags.",
+    "preconditions_and_limits": "Same-current bothwaterfaces; no physicalsecondcontrol. Compactoutputstoresallelementvalues/weights/edges/masks needed to reconstructthis exactly, not hashonly."
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/flow402.py:expand_ledger",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+39. runtime/flow402.py:analyze
+算法标识：runtime/flow402.py:analyze
+source_identity：{
+  "relative_path": "runtime/flow402.py",
+  "qualified_name": "analyze",
+  "first_line": 178,
+  "kind": "FunctionDef",
+  "module_sha256": "3c941996993c7ad398e71a38576eb7b7740f5f207bda3e9614601c7175aeaf8d",
+  "AST_sha256": "f4d16564e44f7a5519215f08111570fc70c2c5616a62c8c2109ddf44ca325e30",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='full_table')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=True)])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "Compute complete signed availability truth and all robustH.",
+  "inputs": "Base,full_table flag.",
+  "operations": "Enumerateallhelpermasks; cacheonlyequalphysicalrates/states; retainactor-specificmask; enumerateallfirecoverage; supersetrobust both; tensorH/CNF. NominalallProws directlyre-evaluate andcheckfullclosure. Preserveallonexpandedledger.",
+  "outputs": "actors/qualifications/direct/shares/spec/geometry/states/helpertable/firetable/allnominalrows/actualallon/logic/factorization.",
+  "preconditions_and_limits": "full_table=False retainsfulltwofactortruth+allH, not droppedcombinations. Factorization provenbeforeproducer. No monotonichelperassumption or elementidentitymerge."
+}
+current_context：[
+  "精确402旧算子；当前范围由524 source_scope决定，不继承402甲寅5盘资格。当前main财负荷与印救目标仅lujie_joint.complete_goals给。",
+  "旧稳健许可全世界算法未被本API执行；合同保历史，不伪新trace或用旧H投影。"
+]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/flow402.py:analyze",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "Compute complete signed availability truth and all robustH.",
+    "inputs": "Base,full_table flag.",
+    "operations": "Enumerateallhelpermasks; cacheonlyequalphysicalrates/states; retainactor-specificmask; enumerateallfirecoverage; supersetrobust both; tensorH/CNF. NominalallProws directlyre-evaluate andcheckfullclosure. Preserveallonexpandedledger.",
+    "outputs": "actors/qualifications/direct/shares/spec/geometry/states/helpertable/firetable/allnominalrows/actualallon/logic/factorization.",
+    "preconditions_and_limits": "full_table=False retainsfulltwofactortruth+allH, not droppedcombinations. Factorization provenbeforeproducer. No monotonichelperassumption or elementidentitymerge."
+  }
+}
+actual_IO_reference：null
+not_executed_note：精确旧AST及原合同保留；本次未执行，无当前IO声明，含旧lambda。
+
+40. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "kind": "FunctionDef",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "十干查五行",
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。"
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/foundation_facts.py:stem_element",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "十干查五行",
+    "inputs": "单个合法十干",
+    "operations": "校验字符后按十干索引每两干映五行",
+    "outputs": "五行名或ValueError",
+    "preconditions_and_limits": "事实查表，不是旺衰。"
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+41. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "kind": "FunctionDef",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "严格十神角色",
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/foundation_facts.py:ten_god",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "严格十神角色",
+    "inputs": "日干和另一干",
+    "operations": "按五行环差及阴阳同异取角色",
+    "outputs": "十神名",
+    "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+42. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "kind": "FunctionDef",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "原柱基础合法性",
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/foundation_facts.py:validate",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "原柱基础合法性",
+    "inputs": "原始四字段对象",
+    "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+    "outputs": "校验报告",
+    "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+43. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "kind": "FunctionDef",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "保留有位置的形式合冲",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。"
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/foundation_facts.py:formal_relations",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "保留有位置的形式合冲",
+    "inputs": "四柱对象",
+    "operations": "逐柱对按天干五合/支六合六冲匹配",
+    "outputs": "形式候选列表",
+    "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。"
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+44. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "kind": "FunctionDef",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/foundation_facts.py:root_evidence",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "保留同字同五行藏据及已明列特殊根例",
+    "inputs": "一干及四柱",
+    "operations": "查各支完整藏干和四项特殊例",
+    "outputs": "证据列表，强度not_computed",
+    "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+45. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "kind": "FunctionDef",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_context_rebound
+算法解释：{
+  "purpose": "原61完整四柱事实入口",
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+}
+current_context：[]
+prior_exact_reference：{
+  "artifact": "work/rev402_primary_lujie_wood_fire/algorithm_explanations_51_functions.json",
+  "id": "runtime/foundation_facts.py:parse",
+  "AST_exact": true,
+  "verbatim_prior_contract": {
+    "purpose": "原61完整四柱事实入口",
+    "inputs": "原始四柱对象",
+    "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+    "outputs": "facts_parsed或非法/缺项报告",
+    "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+  }
+}
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+46. runtime/lujie_joint.py:source_scope
+算法标识：runtime/lujie_joint.py:source_scope
+source_identity：{
+  "relative_path": "runtime/lujie_joint.py",
+  "qualified_name": "source_scope",
+  "first_line": 7,
+  "kind": "FunctionDef",
+  "module_sha256": "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b",
+  "AST_sha256": "191a2f267d564b2c694d5e851bd10770eef23b9d5a2bcc9fb62187f68362fed5",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='params')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "按本源资格分普通用食与财带食两支",
+  "inputs": "合法raw与固定34枚举/参数",
+  "operations": "乙日卯月亥卯未三齐且非日明丁、无辛；同独立34表相互断言；有明己为PFT，否则PF",
+  "outputs": "完整资格/分支/原源含义及边界",
+  "preconditions_and_limits": "普通禄劫不套外格两财禁令；纯食15不套有己财19；不把取运印论当原文无条件原局喜水"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/lujie_joint.py:source_scope",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+47. runtime/lujie_joint.py:inventory
+算法标识：runtime/lujie_joint.py:inventory
+source_identity：{
+  "relative_path": "runtime/lujie_joint.py",
+  "qualified_name": "inventory",
+  "first_line": 17,
+  "kind": "FunctionDef",
+  "module_sha256": "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b",
+  "AST_sha256": "ddea05bd0c26318b53a8ade9dc19b17ffe671bab6a0200f7ca6c1f8fe03d502d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='cfg'), arg(arg='flow')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "保全部原明藏与独立于新数量的原根身份",
+  "inputs": "raw/facts/完整cfg/精确旧flow模块",
+  "operations": "精确复用402库存和权重；不添日float；从原root_rows正资格取每元素原位置根集合，非从压力后current倒推根",
+  "outputs": "完整base及original_root_sets",
+  "preconditions_and_limits": "原亥壬、未己丁、各木根全在；不二次会木或删根；内部root量0压力仍保原根身份用于失败核"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/lujie_joint.py:inventory",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+48. runtime/lujie_joint.py:world_record
+算法标识：runtime/lujie_joint.py:world_record
+source_identity：{
+  "relative_path": "runtime/lujie_joint.py",
+  "qualified_name": "world_record",
+  "first_line": 23,
+  "kind": "FunctionDef",
+  "module_sha256": "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b",
+  "AST_sha256": "ed930e88e64d52c47df82a5ac5c1b8550599103f9eeac701f8afc5d5882a6611",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='selected'), arg(arg='flow')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "完整同current解/账与新目标量",
+  "inputs": "完整base、功能许可selected、旧flow",
+  "operations": "旧solve/origins/expand_ledger；保全部发送成本与克损；补每边实际源原点效果、生成在目标留存；旧food-only内部诊断单列；计算Lwf/Lft/Load/M",
+  "outputs": "完整world/每源ledger/metrics和明确旧工具诊断",
+  "preconditions_and_limits": "selected在本版只用于全开或全部水生日/制食共关；H不删实际演员；M是能力比较不二次扣物理成本"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/lujie_joint.py:world_record",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+49. runtime/lujie_joint.py:route
+算法标识：runtime/lujie_joint.py:route
+source_identity：{
+  "relative_path": "runtime/lujie_joint.py",
+  "qualified_name": "route",
+  "first_line": 35,
+  "kind": "FunctionDef",
+  "module_sha256": "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b",
+  "AST_sha256": "fe84515fd305958b095f50f112bea805a021f9c7077737eb05d3b3ac47fdc2df",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='id'), arg(arg='credits'), arg(arg='witnesses'), arg(arg='floor'), arg(arg='meaning')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "明确通路信用/根见证与集合总门",
+  "inputs": "id、每候选credits、各根witnesses、floor、含义",
+  "operations": "保给定精确数据并注明集合总门",
+  "outputs": "通路对象",
+  "preconditions_and_limits": "根见证与实际源通路量分开，不造新origin、不把每成员门换成总门"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/lujie_joint.py:route",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+50. runtime/lujie_joint.py:complete_goals
+算法标识：runtime/lujie_joint.py:complete_goals
+source_identity：{
+  "relative_path": "runtime/lujie_joint.py",
+  "qualified_name": "complete_goals",
+  "first_line": 38,
+  "kind": "FunctionDef",
+  "module_sha256": "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b",
+  "AST_sha256": "b26fd996cf19acf40cd2c748dbb21b845cd0c973e5d9bcdcc21699fa83034268",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='scope'), arg(arg='actual'), arg(arg='printoff')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "把当前原局全部条件变成两主源/原印救应目标",
+  "inputs": "原base/scope、全开与同费用关印完整world",
+  "operations": "共同体根与M>0；PF真实木食通路；PFT再财与食财通路；原木经食/原火根及原土根逐候选见证；印子题Moff<=0<Mon且改善/亥源信用",
+  "outputs": "main和print_rescue各自全部硬条件、候选信用/根与阈值",
+  "preconditions_and_limits": "水生日/克火、木争财/土坏印全作用先算；印子题不要求F>0；不自动AND或合成最终喜用"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/lujie_joint.py:complete_goals",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+51. runtime/lujie_joint.py:complete_H
+算法标识：runtime/lujie_joint.py:complete_H
+source_identity：{
+  "relative_path": "runtime/lujie_joint.py",
+  "qualified_name": "complete_H",
+  "first_line": 51,
+  "kind": "FunctionDef",
+  "module_sha256": "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b",
+  "AST_sha256": "f3ce2467ca5ba1c9d2523e6e5a7ceaefe62614f6d7e0e12d63334c3d3623c868",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='goal')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "保固定完整实际世界全部支持替代和失败",
+  "inputs": "完整goal对象",
+  "operations": "全部候选子集逐通路总信用>0且>=floor、每成员指定根见证正、全部硬门；核当前共同池真值单调；最小H/最大失败CNF",
+  "outputs": "全部真值表、H/CNF/mask和精确语义",
+  "preconditions_and_limits": "不是旧402全世界/全超集稳健H，不是删实体，也非唯一传统必要性；阴性不改门造阳"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/lujie_joint.py:complete_H",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+52. runtime/lujie_joint.py:native_H
+算法标识：runtime/lujie_joint.py:native_H
+source_identity：{
+  "relative_path": "runtime/lujie_joint.py",
+  "qualified_name": "native_H",
+  "first_line": 64,
+  "kind": "FunctionDef",
+  "module_sha256": "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b",
+  "AST_sha256": "8229ea068153360a735d31d7370109e1baaa4e08e96f21bbeddf85a0a24d44b2",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='goal'), arg(arg='logic'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "接原未改AUX并逐子集核对",
+  "inputs": "原base/goal/logic/旧aux",
+  "operations": "全部候选与每真实元素见证；当前硬门+完整CNF成原生图；select结果全H及每mask覆盖真值核等价",
+  "outputs": "完整native输入图/结果和核对数",
+  "preconditions_and_limits": "完整实际负面图另保，非选择者在真盘未删；不冒source label或直接最终B"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/lujie_joint.py:native_H",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+
+53. runtime/lujie_joint.py:analyze
+算法标识：runtime/lujie_joint.py:analyze
+source_identity：{
+  "relative_path": "runtime/lujie_joint.py",
+  "qualified_name": "analyze",
+  "first_line": 79,
+  "kind": "FunctionDef",
+  "module_sha256": "b51428a8d2e28fdf4f2df180c01d492f502d896aa818494363bda702dc34b30b",
+  "AST_sha256": "5b2e6744b1b6e584ca537d361b45184aae91dbbc5424d73fcf27946c814bcf86",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='scope'), arg(arg='flow'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted
+算法解释：{
+  "purpose": "完整原局三命题研究结果与全部源反作用",
+  "inputs": "完整base、source资格、旧flow及aux",
+  "operations": "全实际同current；全水生日/制食共同关的同潜在费用world；完整main与印救goals/H/native、具体失败和源所用功能",
+  "outputs": "两完整world、主任务/印子题所有真值及含义、剩余边界",
+  "preconditions_and_limits": "主源火或财带食只在完整任务成立后给；印救工程不伪古原文；不默认合并为最终喜用/主次/显示"
+}
+current_context：[]
+prior_exact_reference：null
+actual_IO_reference：{
+  "artifact": "current_function_actual_IO.json.gz",
+  "record": "runtime/lujie_joint.py:analyze",
+  "paired_same_first_call_frame": true,
+  "normal_return": true,
+  "exception_unwind_not_normal_None": false
+}
+not_executed_note：null
+

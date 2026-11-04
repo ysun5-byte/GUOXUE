@@ -1,0 +1,623 @@
+{
+  "schema": "513-exact497-after509-all-visible-MCN2-adoption/1",
+  "revision": 513,
+  "registered_utc": "2026-11-03T09:58:08.137434+00:00",
+  "status": "adopted_exact49790_and_complete33kernel_after50964_all_visible_MCN2_whole_local_net",
+  "author": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole",
+    "files": 90,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/manifest.json",
+      "bytes": 13854,
+      "sha256": "061c4c3afd6cec8d9e94e1124e6764ffc0348f50f73aa95eaa9dfb890005abf4"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/freeze.json",
+      "bytes": 92,
+      "sha256": "b4e287a320167674cab63d1cd55e52e435202b3e9e617b7acb887e76684a0629"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_review": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev509_MCN2_multiple_witness_independent_review",
+    "files": 64,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev509_MCN2_multiple_witness_independent_review/manifest.json",
+      "bytes": 9884,
+      "sha256": "e1ae16c7645d78bdb2f334a27dff1b7ec085ed57795c72323facddaa414ea436"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev509_MCN2_multiple_witness_independent_review/freeze.json",
+      "bytes": 147,
+      "sha256": "f238cfe619ee0c1c0c406783659deb2a954d0a178ac980224394ba08877d3bb7"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_runtime_kernel": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_runtime_release",
+    "files": 33,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_runtime_release/manifest.json",
+      "bytes": 4668,
+      "sha256": "a786639ee6f7214cc2e6a83db9f051434c1aeb628e54d46efeecb96104d5f763"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_runtime_release/freeze.json",
+      "bytes": 92,
+      "sha256": "b4e466b4e7a5e3380c09c2963d4831e72992154945b4d2fd40cb65e9ef7bc16e"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_author_completion_handoff.json",
+    "bytes": 3628,
+    "sha256": "a89efb36c275530ea40713ddb08226e523d32ab1ac74633e93ab875e6e31a68a"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev509_independent_completion_handoff.json",
+    "bytes": 4944,
+    "sha256": "25b99f28a8d343447d8e5067d151456fee5458213681bec997730937bc216ff4"
+  },
+  "kernel_to_research_exact_map": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_runtime_kernel_to_research_map.json",
+    "bytes": 12792,
+    "sha256": "9509064013e26cbaeb07f064d373162d82c701014c48f047a7e989f35c7223dc"
+  },
+  "full_rules": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/source_rules_ten_fields.json",
+    "bytes": 21805,
+    "sha256": "5c9b03e0c5680205b4ce59c074f79729a42cca2087a61afabff408b7672f3b33"
+  },
+  "all48_algorithms": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+    "bytes": 87477,
+    "sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629"
+  },
+  "old_467_finite_domain_preserved": true,
+  "actual_core_gap_closed": "原同盘两个明壬/明丙停multiple_visible_source_witnesses，现在逐载体完整核同一壬的原根/辰月来源/生日连通，全部明壬印与明丙食集合量、全土攻击与生财、全组受制诊断及净辅助同算；不再next(first)取代表。",
+  "source": "Primary42–43印33–34原图無所得与电子無所碍分存；多个载体聚合/门/权重为明标工程，不冒原典已写双壬双丙公式。",
+  "physical_vs_source": "完整申子辰物理受纳仍仅原完整水形/同源根许可；实际生日/功能为另门。物理receiver真但Q=0/generalfalse为正常完整阴性，不回改物理门。",
+  "capacity_vs_loss": "旧攻击容量保原字段，新实际目标损失另列；有效general内相等需实证，失败态容量大于实际不偷换。",
+  "all_alternatives": "每法三幅度全部31混合集，保AND/OR与阴性；木OR水不写共同木水，不从单元素或H并集推最终主次。",
+  "author_public_cases": [
+    {
+      "raw": {
+        "day": "甲午",
+        "hour": "壬申",
+        "month": "壬辰",
+        "year": "丙申"
+      },
+      "status": "complete_MCN2_all_visible_witnesses_whole_and_local_net_calculation",
+      "output_bytes": 240392384,
+      "output_sha256": "11c5c4a9796dd8396e3b240fd9435f5d3e722e35cd6e2b9157276cb9c6a89abd",
+      "variants": [
+        {
+          "relation": "all_original_clash_tasks",
+          "all_options": 93,
+          "accepted_options": 21,
+          "three_scale_AND_with_OR": [
+            [
+              "木"
+            ],
+            [
+              "木",
+              "火"
+            ],
+            [
+              "木",
+              "金"
+            ],
+            [
+              "木",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "水"
+            ],
+            [
+              "木",
+              "金",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "金",
+              "水"
+            ]
+          ],
+          "single_directions": [
+            "木"
+          ],
+          "physical_receiver": false,
+          "source_whole": true
+        },
+        {
+          "relation": "conditional_full_water_receiver",
+          "all_options": 93,
+          "accepted_options": 21,
+          "three_scale_AND_with_OR": [
+            [
+              "木"
+            ],
+            [
+              "木",
+              "火"
+            ],
+            [
+              "木",
+              "金"
+            ],
+            [
+              "木",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "水"
+            ],
+            [
+              "木",
+              "金",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "金",
+              "水"
+            ]
+          ],
+          "single_directions": [
+            "木"
+          ],
+          "physical_receiver": false,
+          "source_whole": true
+        }
+      ]
+    },
+    {
+      "raw": {
+        "day": "甲午",
+        "hour": "丙寅",
+        "month": "壬辰",
+        "year": "丙申"
+      },
+      "status": "complete_MCN2_all_visible_witnesses_whole_and_local_net_calculation",
+      "output_bytes": 294091174,
+      "output_sha256": "0e1d5a71aa4741f16846836335e99e106f851649a4a26b1701cd659c5539ab49",
+      "variants": [
+        {
+          "relation": "all_original_clash_tasks",
+          "all_options": 93,
+          "accepted_options": 24,
+          "three_scale_AND_with_OR": [
+            [
+              "木"
+            ],
+            [
+              "水"
+            ],
+            [
+              "木",
+              "火"
+            ],
+            [
+              "木",
+              "金"
+            ],
+            [
+              "木",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "水"
+            ],
+            [
+              "木",
+              "金",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "金",
+              "水"
+            ]
+          ],
+          "single_directions": [
+            "木",
+            "水"
+          ],
+          "physical_receiver": false,
+          "source_whole": true
+        },
+        {
+          "relation": "conditional_full_water_receiver",
+          "all_options": 93,
+          "accepted_options": 24,
+          "three_scale_AND_with_OR": [
+            [
+              "木"
+            ],
+            [
+              "水"
+            ],
+            [
+              "木",
+              "火"
+            ],
+            [
+              "木",
+              "金"
+            ],
+            [
+              "木",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "水"
+            ],
+            [
+              "木",
+              "金",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "金",
+              "水"
+            ]
+          ],
+          "single_directions": [
+            "木",
+            "水"
+          ],
+          "physical_receiver": false,
+          "source_whole": true
+        }
+      ]
+    },
+    {
+      "raw": {
+        "day": "甲子",
+        "hour": "壬申",
+        "month": "壬辰",
+        "year": "丙申"
+      },
+      "status": "complete_MCN2_all_visible_witnesses_whole_and_local_net_calculation",
+      "output_bytes": 48429676,
+      "output_sha256": "742a0d31a40b67a98db857f1f3f813257af06513290156bd9f97316d48b8b787",
+      "variants": [
+        {
+          "relation": "all_original_clash_tasks",
+          "all_options": 93,
+          "accepted_options": 0,
+          "three_scale_AND_with_OR": [],
+          "single_directions": [],
+          "physical_receiver": false,
+          "source_whole": false
+        },
+        {
+          "relation": "conditional_full_water_receiver",
+          "all_options": 93,
+          "accepted_options": 0,
+          "three_scale_AND_with_OR": [],
+          "single_directions": [],
+          "physical_receiver": true,
+          "source_whole": false
+        }
+      ]
+    },
+    {
+      "raw": {
+        "day": "甲子",
+        "hour": "丙寅",
+        "month": "壬辰",
+        "year": "丙申"
+      },
+      "status": "complete_MCN2_all_visible_witnesses_whole_and_local_net_calculation",
+      "output_bytes": 212038661,
+      "output_sha256": "714102e13a557bf09fde0ec552e90d194a23dd25079cfddbec9fc6caab4a30ba",
+      "variants": [
+        {
+          "relation": "all_original_clash_tasks",
+          "all_options": 93,
+          "accepted_options": 18,
+          "three_scale_AND_with_OR": [
+            [
+              "木"
+            ],
+            [
+              "木",
+              "金"
+            ],
+            [
+              "木",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "水"
+            ],
+            [
+              "木",
+              "金",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "金",
+              "水"
+            ]
+          ],
+          "single_directions": [
+            "木"
+          ],
+          "physical_receiver": false,
+          "source_whole": true
+        },
+        {
+          "relation": "conditional_full_water_receiver",
+          "all_options": 93,
+          "accepted_options": 18,
+          "three_scale_AND_with_OR": [
+            [
+              "木"
+            ],
+            [
+              "木",
+              "金"
+            ],
+            [
+              "木",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "水"
+            ],
+            [
+              "木",
+              "金",
+              "水"
+            ],
+            [
+              "木",
+              "火",
+              "金",
+              "水"
+            ]
+          ],
+          "single_directions": [
+            "木"
+          ],
+          "physical_receiver": true,
+          "source_whole": true
+        }
+      ]
+    }
+  ],
+  "independent_evidence": {
+    "new53_full_worlds": {
+      "worlds": 53,
+      "actor_origin_cells": 12605,
+      "pool_origin_cells": 5034,
+      "signed_edges": 4588,
+      "edge_origin_components": 73344,
+      "fee_origin_components": 73344,
+      "budget_origin_components": 5034,
+      "native_root_rows": 3172,
+      "reordered_worlds": 8
+    },
+    "additional_new2_capacity_failed_states": {
+      "status": "passed",
+      "new_private_failed_states": 2,
+      "each_capacity_strictly_greater_than_actual": true,
+      "I0_generalfalse": true,
+      "old_capacity_field_preserved_actual_new_field_separate": true,
+      "not_a_public_birth_prediction": true
+    },
+    "all48_and36_actualIO": {
+      "status": "passed",
+      "old_exact_AST": 36,
+      "current_actual_IO": 36,
+      "old12_not_new_trace": true,
+      "streamed_large_IO_without_fullreport_materialization": true,
+      "full_trace_uncompressed_bytes_read": 1838019188,
+      "all_def_and_nondef_record_count": 57,
+      "nondef_frames_not_algorithms": true,
+      "descriptor_checks_from_captured_actual_arguments": {
+        "bytes": 32,
+        "module": 24
+      },
+      "all_trace_bytes_bound_to_frozen_artifact": true,
+      "current_main_is_actual_error_protocol_not_fullpositive_main_claim": true,
+      "compiled_shared_lambda_distinguished_by_actual_Ren_Bing_role_and_AST_position": true
+    },
+    "strict_and_source_bad_clean": {
+      "status": "passed",
+      "strict": [
+        {
+          "id": "duplicate_escape",
+          "rejected": true
+        },
+        {
+          "id": "nan",
+          "rejected": true
+        },
+        {
+          "id": "float",
+          "rejected": true
+        },
+        {
+          "id": "surrogate",
+          "rejected": true
+        },
+        {
+          "id": "deep",
+          "rejected": true
+        },
+        {
+          "id": "list33",
+          "rejected": true
+        },
+        {
+          "id": "text5001",
+          "rejected": true
+        },
+        {
+          "id": "oldversion",
+          "rejected": true,
+          "provider_calls": 0
+        },
+        {
+          "id": "extrafield",
+          "rejected": true,
+          "provider_calls": 0
+        },
+        {
+          "id": "wrongsource",
+          "rejected": true,
+          "provider_calls": 0
+        }
+      ],
+      "new_source_bad0_clean6": [
+        {
+          "fault": "runtime/mcn2_core.py",
+          "bad_provider_calls": 0,
+          "clean_guard_and_real_loads": 6,
+          "hardlinked_fault_leaf_unlinked_before_write": true
+        },
+        {
+          "fault": "source/ROOT_primitive_tables.json",
+          "bad_provider_calls": 0,
+          "clean_guard_and_real_loads": 6,
+          "hardlinked_fault_leaf_unlinked_before_write": true
+        },
+        {
+          "fault": "source_execution_lock.json",
+          "bad_provider_calls": 0,
+          "clean_guard_and_real_loads": 6,
+          "hardlinked_fault_leaf_unlinked_before_write": true
+        }
+      ],
+      "partial16guardmaterials_only_not_new_completecopy": true,
+      "no_large_public_rerun_for_clean_control": true
+    },
+    "existing33_readonly": {
+      "status": "passed",
+      "existing33_complete_copy": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/497 one complete readonly multi witness research zc3pyzsv/complete runtime with spaces",
+      "completecopies_created": 0,
+      "modes_changed": false,
+      "fresh_processes": 8,
+      "real_controls_denied": 32,
+      "all_native_API_CLI_bytes_equal": true,
+      "positive_wire_full_not_reduced": true,
+      "full_source_negative_baseline_computed_not_pending_or_default": true,
+      "results": [
+        {
+          "id": "full_api",
+          "mode": "api",
+          "exit": 0,
+          "bytes": 48429676,
+          "sha256": "742a0d31a40b67a98db857f1f3f813257af06513290156bd9f97316d48b8b787",
+          "provider_exec": 6,
+          "four_real_controls_denied": true,
+          "normal_old_access_and_package_mutation": 0
+        },
+        {
+          "id": "full_cli",
+          "mode": "cli",
+          "exit": 0,
+          "bytes": 48429676,
+          "sha256": "742a0d31a40b67a98db857f1f3f813257af06513290156bd9f97316d48b8b787",
+          "provider_exec": 6,
+          "four_real_controls_denied": true,
+          "normal_old_access_and_package_mutation": 0
+        },
+        {
+          "id": "duplicate",
+          "mode": "cli",
+          "exit": 2,
+          "bytes": 49,
+          "sha256": "358adb86c0fed4143ca88f5baef77b8396023dfd5efeb9b7290b931d4e9e59d3",
+          "provider_exec": 0,
+          "four_real_controls_denied": true,
+          "normal_old_access_and_package_mutation": 0
+        },
+        {
+          "id": "old_version",
+          "mode": "cli",
+          "exit": 2,
+          "bytes": 49,
+          "sha256": "358adb86c0fed4143ca88f5baef77b8396023dfd5efeb9b7290b931d4e9e59d3",
+          "provider_exec": 0,
+          "four_real_controls_denied": true,
+          "normal_old_access_and_package_mutation": 0
+        },
+        {
+          "id": "invalid_utf8",
+          "mode": "cli",
+          "exit": 2,
+          "bytes": 49,
+          "sha256": "358adb86c0fed4143ca88f5baef77b8396023dfd5efeb9b7290b931d4e9e59d3",
+          "provider_exec": 0,
+          "four_real_controls_denied": true,
+          "normal_old_access_and_package_mutation": 0
+        },
+        {
+          "id": "specific_pending",
+          "mode": "api",
+          "exit": 0,
+          "bytes": 12754133,
+          "sha256": "d76ef24e9fa0ddb507402d58589f8693d6dbf59840290ecf42f4179780b72f4e",
+          "provider_exec": 6,
+          "four_real_controls_denied": true,
+          "normal_old_access_and_package_mutation": 0
+        },
+        {
+          "id": "legal_other",
+          "mode": "api",
+          "exit": 0,
+          "bytes": 9152,
+          "sha256": "079af0229659dcf07af49de19665c2ea8a7d24e45d14f7b6e8d989854e418474",
+          "provider_exec": 6,
+          "four_real_controls_denied": true,
+          "normal_old_access_and_package_mutation": 0
+        },
+        {
+          "id": "verifier",
+          "mode": "verify",
+          "exit": 0,
+          "bytes": 279,
+          "sha256": "1736eca10931d039576b185a6b621cfafe023f2856f5dd7d9164aff2a91424b8",
+          "provider_exec": 0,
+          "four_real_controls_denied": true,
+          "normal_old_access_and_package_mutation": 0
+        }
+      ],
+      "original12process_author_evidence_not_recounted_as_new": true
+    }
+  },
+  "old_correct_evidence_reused": "必要32单明完整物理差异与744旧增补新指标归约复用既有正确证据；不冒重新跑旧784。",
+  "first_failures_bound": "作者排序列表遍历敏感已实修；8参考受纳完整水形前提发现后订正（56原先验保）；公开四盘都源功能真误断改回事前Q0；实际次数/原代码与锁均保。审者独立首败也保。未把全部64说完全先验。",
+  "remaining_original_scope": "只补当前既定MCN2来源族的多明算子；其他源位/额外干支与完整三刑等具体原pending保持原前件及退出，其他原C02/C03和G02–08/统一发行继续，不以此声称整族无条件或全任务完成。",
+  "progress": "88.75/100",
+  "progress_delta": "0.00",
+  "all_original_C02_complete": false,
+  "all_original_task_complete": false,
+  "no_B_J2_theme_or_display": true,
+  "not_empirical_prediction_validation": true
+}

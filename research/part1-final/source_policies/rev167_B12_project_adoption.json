@@ -1,0 +1,52 @@
+{
+  "id": "project-adopted-whole-natal-B12-monthfood",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_bounded_whole_natal_base_adapter",
+  "component": "rev155_month_food_baseline_v0_12",
+  "method_version": "whole-natal-multibranch-to-original-base-0.12",
+  "implementation_revision": "0.12.0",
+  "target_binding": {
+    "component": "rev155_month_food_baseline_v0_12",
+    "core_sha256": "e5e85d47c03e8e3ee9d0ccbc43404b7cdd44afc58530c6e979074e7dc2b08476",
+    "lock_sha256": "c8047f7509d5e456ea4cc1a249734f9c7f1a66475685c443c4dda914dd39acba",
+    "author_report_sha256": "b219b495bc68675f83db58eccce14c5d8430213265308843e2c23ac57518f2bb",
+    "manifest_sha256": "be2cb5f5abfebf4d4a1e0e27e571f74850cc18fbc813b88867c4546de6c7477d",
+    "freeze_sha256": "197cd137c78d4ed319aed83b1331397df363bc22f3c6898179d543d4dd77e99c",
+    "source_registry_sha256": "6200ab8122557079b3e94798b396b9c440a1588e2a02bd5f6b14aebc2dd073c5",
+    "files": 5163,
+    "runtime_source_files": 4989,
+    "method_version": "whole-natal-multibranch-to-original-base-0.12",
+    "implementation_revision": "0.12.0"
+  },
+  "aggregate_acceptance": {
+    "component": "rev167_B12_acceptance",
+    "files": 3,
+    "manifest_sha256": "a3d1346df50f92c60b20fd09473126944d61772fc6662740a94e67d4580979fa",
+    "freeze_sha256": "59082392927356822fbe0e5e38099a78be5fcaca867c3ba7a400860e8f85e490",
+    "report_sha256": "cc6ab7901cbbb09f07054cac04c615f1cb67ba5309a6a6b2b5ace86cb62c3ec1"
+  },
+  "independent_review": {
+    "component": "rev167_B12_independent",
+    "files": 139,
+    "manifest_sha256": "aad79d59d267ad5668427f9af2b890cc6d2cd3d3d2c7e04935ceed7b86b450f7",
+    "freeze_sha256": "a87052b667fb1b3f3354059ca8a1047d0bbc2e455d8f7fc3fa5d0d7a33e4c51f"
+  },
+  "review_report_sha256": "03f59bee744e282c1205593abddfda07faa53cf01743b554b3d84ccc629f3343",
+  "scope": {
+    "source_route": "From raw original month-main strict food BEFORE testing H; all non-monthfood use exact parent146 route. No retry after sourcepending/outside/numericfailure.",
+    "domain_union": "Original124 visiblefood <=1peer OR literal145 hiddenmonthfood/exact2peer/onevisiblefinance/noactiveprint/officialkill/other, each stillrequires complete native source/root/secondary/climate/actualgoals.",
+    "whole_before_theme": "All9actualgoals, unique feedback, everyminimal-support fullgraph/nativeAUX/selectableactors/all alternatives; union of every alternative element set mustbe exactlyone to produce singleB.",
+    "joint_H": "Visible土水 and both hidden水火 jointH preserved in entirety, no B/no ranking/no equalweight.",
+    "usage": "Unknown/beforestart/endexclusiveusage keeps alreadycomputed H/theme but deniesB; notsourcefailure or computedunchanged.",
+    "prior_models": "All36 unique prior rawrecords/12 route names preserved as exactnative reports/whole summaries/Bsemantics, under newgoverningmethodidentity. Fourprior monthlyfood records explicitlymethodchanged, neverrelabeled.",
+    "not_imported": "143printoutlet secondary interpretation,148ordinarynontransforming hypothesis,166miscsourceclassifier and157newkillprint are not promoted toB here."
+  },
+  "old_B11_and_failed_histories_not_rewritten": true,
+  "new_Bmethod_identity_required": true,
+  "native_sources_parameters_P_C20_unchanged": true,
+  "unordered_multielement_projection_approved": false,
+  "source_truth_or_prediction_authenticated": false,
+  "whole_original_C02_or_task_complete": false,
+  "progress_delta": "0.00"
+}

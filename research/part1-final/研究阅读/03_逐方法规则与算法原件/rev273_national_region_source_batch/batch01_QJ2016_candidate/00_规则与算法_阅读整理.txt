@@ -1,0 +1,1633 @@
+潜江2016具名城市文化框架与data16
+rev273_national_region_source_batch/batch01_QJ2016_candidate
+所属原模块：C04
+当前采用：rev282_Qianjiang_frame_project_adoption.json
+范围：2016潜江地域夏商周荆州叙述→单独三命金映射；2015code与2026同名市情、GN同名代理点分层，不认证2026县表或古今逐地同界。原45/44/40前缀保留为46/45/43，不自动latest或推全湖北。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev273_national_region_source_batch/batch01_QJ2016_candidate/docs/native_region_lookup_v0_16_算法说明.json
+SHA256：32089e1b77e6b29748af602f5770a000ca47d49364841c2674b71a386d8c53c8
+
+1. NRL01
+算法标识：NRL01
+title：严格JSON、规范摘要与全部固定字节先核
+输入：[
+  "原JSON请求",
+  "全部锁定依赖及lock"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "拒重复键/非有限数",
+  "精确字段与trimmed字符串",
+  "先读全量固定字节逐SHA核，再严格读JSON，最后exec已核旧源码",
+  "额外固定3份SC研究来源原文文件；全部active固定来源字节先核。旧lookup1完整33文件字节历史另存并由只读runner逐SHA核，不执行为新产品结果。"
+]
+why_calculated_this_way：摘要保证内容一致和来源绑定，不认证史地/原典真值；后项坏字节不能在旧源码已执行后才发现。
+basis_nature：engineering_contract
+输出：[
+  "合法请求/固定pack或硬拒"
+]
+does_not_guarantee：[
+  "不认证来源真值"
+]
+error_and_unknown_boundaries：[
+  "缺文件、错锁、错SHA不降unknown"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_16/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.16",
+    "file_sha256": "f0cd93563234a8cce55c829f0ea55b62db545a3eb22a2dea2f734aad22742530",
+    "symbols": [
+      {
+        "name": "ContractError.__init__",
+        "start_line": 25,
+        "end_line": 27,
+        "ast_sha256": "dd04c55d3678e6a8bb7882537b1a6d54576f77b7fafdd0ab001d0dce6f4d8ecf"
+      },
+      {
+        "name": "canonical",
+        "start_line": 30,
+        "end_line": 31,
+        "ast_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+      },
+      {
+        "name": "digest",
+        "start_line": 34,
+        "end_line": 35,
+        "ast_sha256": "d1bfb3c39d40eba325f5da0764662786680743ab0388fe32af4efd8099a44305"
+      },
+      {
+        "name": "load_request",
+        "start_line": 38,
+        "end_line": 50,
+        "ast_sha256": "6f3267e06bcbc0717041eadb164bf7d343fa619777c150aa22165d95d3dfc6bc"
+      },
+      {
+        "name": "obj",
+        "start_line": 53,
+        "end_line": 55,
+        "ast_sha256": "989aa118169da160b901865ae4adf045b39b017658ee7c461f22925bd48c68c0"
+      },
+      {
+        "name": "text",
+        "start_line": 58,
+        "end_line": 60,
+        "ast_sha256": "66ca2edce8b2468b7108d13a12cc846898c2a31b6615a9ef4b599ddcfa86f34b"
+      },
+      {
+        "name": "sha",
+        "start_line": 63,
+        "end_line": 65,
+        "ast_sha256": "cc8ff88fe3d5c7b222a0cfea4b57261d7a002e5c45d3c4c70ccf8fe08f3b53ce"
+      },
+      {
+        "name": "check_ref",
+        "start_line": 72,
+        "end_line": 77,
+        "ast_sha256": "b8794b7fb54d10430318f94866d7167558b6207bcc4ddccd8ad511bfcdb16bb9"
+      },
+      {
+        "name": "region_ref",
+        "start_line": 80,
+        "end_line": 84,
+        "ast_sha256": "74d75c9225f648e78c4ba197f31f9dba9f5ee23510a1abb4e560ef9adab68197"
+      },
+      {
+        "name": "load_pack",
+        "start_line": 87,
+        "end_line": 107,
+        "ast_sha256": "ce0055d41252198afef38d97638af592075dba2fddbc0be38787c6e560789bbf"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+2. NRL02
+算法标识：NRL02
+title：完整来源、点与typed identity绑定
+输入：[
+  "完整固定sources/points/records"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "所有提供来源包括未用来源先验",
+  "完整source_ref解引用",
+  "点SHA与R5完整SHA绑定，typed同kind/namespace/id/version变内容拒",
+  "新active catalog的旧sources/records/points逐对象等旧版前缀，后缀逐对象等冻结SC raw草案；不把草案原先未执行标记改写为过去已执行。"
+]
+why_calculated_this_way：未命中地区不能跳坏未选记录；点可用性与史地归属不同轴。
+basis_nature：engineering_content_binding
+输出：[
+  "全量合法身份/refs或原子硬拒"
+]
+does_not_guarantee：[
+  "不认证reviewed/完整性宣言为事实",
+  "不承诺跨运行注册"
+]
+error_and_unknown_boundaries：[
+  "坏unused point/source也拒，合法CRS未知是点语义未定"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_16/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.16",
+    "file_sha256": "f0cd93563234a8cce55c829f0ea55b62db545a3eb22a2dea2f734aad22742530",
+    "symbols": [
+      {
+        "name": "ref",
+        "start_line": 68,
+        "end_line": 69,
+        "ast_sha256": "a1bfb032661c13fa073f9f1a98e966bbffecc2ba8d2a74ea4dafd8a997c505dd"
+      },
+      {
+        "name": "validate_point",
+        "start_line": 137,
+        "end_line": 168,
+        "ast_sha256": "4927ecb22b1384d72862efc592f9381316a3a08bd0b29db82c21be168b93aa10"
+      },
+      {
+        "name": "validate_catalog.guard",
+        "start_line": 187,
+        "end_line": 196,
+        "ast_sha256": "a6b56341c807fe2ff487b8318f934e119ca6aa375adc19e191c13f2c2f1b82db"
+      },
+      {
+        "name": "validate_catalog.source_refs",
+        "start_line": 210,
+        "end_line": 220,
+        "ast_sha256": "7b33b54676a9fe46a3ac0ae95dcead34258bb68d169b9cbe07b73e66d1127595"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+3. NRL03
+算法标识：NRL03
+title：每条完整Rn原请求实际执行
+输入：[
+  "全部目录原Rn请求/target R7/请求SHA"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "先核wrapper与原目标全文",
+  "真实旧evaluate处理全部原始evidence",
+  "不按将选地区裁剪，不消费给定ready",
+  "原生hard error整体拒，unknown/ambiguous保留"
+]
+why_calculated_this_way：沿用冻结Rn原约束，防止选择湖南时隐藏江苏坏请求；全源来源推论仍与产品采用分层。
+basis_nature：actual_fixed_native_execution
+输出：[
+  "完整实际原生报告及执行trace"
+]
+does_not_guarantee：[
+  "标量资料不证明整评估窗",
+  "不认证古今实际界址"
+]
+error_and_unknown_boundaries：[
+  "Rn跨元素不私选/均分；未审和缺覆盖仍未定"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_16/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.16",
+    "file_sha256": "f0cd93563234a8cce55c829f0ea55b62db545a3eb22a2dea2f734aad22742530",
+    "symbols": [
+      {
+        "name": "validate_catalog",
+        "start_line": 171,
+        "end_line": 295,
+        "ast_sha256": "00344c66835dc6a1f0dcc4e569f47146155dd88688c9dbb401ce774b0148e918"
+      }
+    ]
+  },
+  {
+    "path": "runtime/native_region_lookup_v0_16/vendor/region_evidence_catalog.py",
+    "module_relative_path": "vendor/region_evidence_catalog.py",
+    "module_version": "region-evidence-catalog-0.1",
+    "file_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 260,
+        "end_line": 301,
+        "ast_sha256": "eceecaf04a472d5e8df7e8a26142f3f74b22ff122f8c36b5e2276773a78b90ef"
+      },
+      {
+        "name": "evaluate_coverage",
+        "start_line": 172,
+        "end_line": 257,
+        "ast_sha256": "b30c90c2b46934eb2cc209b48db9dcfc68a01e643a2cca5b982a94b32bb09da8"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+4. NRL04
+算法标识：NRL04
+title：精确命名地区身份与版本薄查询
+输入：[
+  "普通namespace/id/version"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "全目录成功校验后再精确查key",
+  "匹配返回完整R7与确切era/scope",
+  "错版仅列可见版本不私选",
+  "未收录不当无影响或零"
+]
+why_calculated_this_way：普通caller不用自找史地数据库；产品明确配置版本，软件不得暗选最高版改变命名范围。
+basis_nature：version_exact_catalog_lookup
+输出：[
+  "region_found/version_not_found/not_found及独立原生轴"
+]
+does_not_guarantee：[
+  "3试点不等全国覆盖",
+  "region_found不等Rn/点均ready"
+]
+error_and_unknown_boundaries：[
+  "错namespace/错版不复用另一领土范围",
+  "SC版本只承载2019全境叙述+MCA2024名码的明列项目identity解释，不宣称2026省界或各年代边界恒等。"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_16/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.16",
+    "file_sha256": "f0cd93563234a8cce55c829f0ea55b62db545a3eb22a2dea2f734aad22742530",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 313,
+        "end_line": 368,
+        "ast_sha256": "091e53ee61341d18033cd2148896f65161ee703402227a9f5dffbd7c1af37097"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+5. NRL05
+算法标识：NRL05
+title：代表点数据独立输出
+输入：[
+  "项目选定点、R5和提供者CRS/来源"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "按固定R2同样type/trim/十进制regex/finite/range门原样核坐标，不清洗或重写；空格/下划线数值串硬拒",
+  "只WGS84且含义已声明、坐标齐才数据available",
+  "缺点或语义未知不抹掉Rn",
+  "不解算两点方向或C0",
+  "SC返回成都GeoNames1815286 PPLA原WGS84 30.66667/104.06667；FIPS32非国标510000。与HN点一起实际经冻结R2 validate_point/resolve_location/calculate兼容回放，方向结果仅独立研究回放，不改变public lookup的Rr/C0/lease=null。"
+]
+why_calculated_this_way：来源给长沙地名点，项目选择其承载湖南粗地区；二者不是全省真实方向/出生位置。
+basis_nature：declared_project_proxy_plus_primary_dataset
+输出：[
+  "point_available/no_record/point_semantically_undetermined"
+]
+does_not_guarantee：[
+  "不是个人位置",
+  "同坐标不同地区不证明C0",
+  "不静改CGCS2000为WGS84"
+]
+error_and_unknown_boundaries：[
+  "坏绑定仍整包硬拒，合法未知只影响点轴",
+  "Decimal可解析不等R2可接收；词法坏值为invalid_input，不降point未知或available"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_16/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.16",
+    "file_sha256": "f0cd93563234a8cce55c829f0ea55b62db545a3eb22a2dea2f734aad22742530",
+    "symbols": [
+      {
+        "name": "point_status",
+        "start_line": 110,
+        "end_line": 118,
+        "ast_sha256": "8094673ea06d5a433a83c8e05cc9e74ec9e04f3bf02b1da49d67be3a2a885c9c"
+      },
+      {
+        "name": "validate_point",
+        "start_line": 137,
+        "end_line": 168,
+        "ast_sha256": "4927ecb22b1384d72862efc592f9381316a3a08bd0b29db82c21be168b93aa10"
+      },
+      {
+        "name": "validate_coordinate",
+        "start_line": 121,
+        "end_line": 134,
+        "ast_sha256": "7ccbefd4abfdb6433ae0285e1f73c2447e1f046030f72ce66a783f328fcedb25"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+6. NRL06
+算法标识：NRL06
+title：原报告保留、研究边界和只读CLI
+输入：[
+  "实际API报告和原请求文件"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "逐轴保留原生candidate/unknown/ambiguous及全文ref",
+  "不创建产品采纳/lease/库存/B/Rr",
+  "CLI硬错误退出2，其余实际查询结果退出0"
+]
+why_calculated_this_way：承认有界正常Rn资料已算通，同时不把资料审阅/推论和软件SHA冒充产品采用或传统效力。
+basis_nature：research_boundary_and_replay
+输出：[
+  "完整JSON及可回放状态"
+]
+does_not_guarantee：[
+  "不升C04分数",
+  "无自然UTC效力",
+  "不计算最终喜用"
+]
+error_and_unknown_boundaries：[
+  "非法JSON独立拒绝，不生成ready摘要"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_16/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.16",
+    "file_sha256": "f0cd93563234a8cce55c829f0ea55b62db545a3eb22a2dea2f734aad22742530",
+    "symbols": [
+      {
+        "name": "empty_report",
+        "start_line": 298,
+        "end_line": 310,
+        "ast_sha256": "772010d33c85fba62f3224ab8463018b61508de59cf9667ecc8481b1e00292ee"
+      },
+      {
+        "name": "main",
+        "start_line": 371,
+        "end_line": 382,
+        "ast_sha256": "98680ba180450896340e390aaa6160028a48b0d2b4c25585f2deae62d24a223f"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+原件：work/rev273_national_region_source_batch/batch01_QJ2016_candidate/docs/region_lookup_composer_v0_16_算法说明.json
+SHA256：7d19c89286c7a8a83906b046369ea0c30c091325eac5e10fddeac580ff7f2406
+
+1. RLC01
+算法标识：RLC01
+title：严格JSON与全部固定字节先核
+输入：[
+  "完整普通请求",
+  "dependency_lock、研究profile、50份固定依赖快照"
+]
+preconditions：[
+  "有限JSON对象；无重复键/非有限数；全部依赖核完才exec"
+]
+steps_or_formula：[
+  "严格解析并递归限制JSON值；规范UTF8排序摘要。",
+  "核lock/profile固定SHA；完整snapshot文件集、大小、SHA与JSON；全部读核完成后执行两固定模块并加载其原依赖。"
+]
+why_calculated_this_way：软件绑定先于notfound或语义unknown，后项坏字节不能被先查地区绕过。摘要只证明内容一致。
+basis_nature：engineering_contract
+输出：[
+  "已核pack或硬拒"
+]
+does_not_guarantee：[
+  "来源现实真值、软件外历史修改检测"
+]
+error_and_unknown_boundaries：[
+  "缺文件/多文件/错锁/SHA/路径逃逸硬拒；不降unknown"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_16/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.16",
+    "file_sha256": "e270d74d6febc50190f6db714f5161fbe18dac4682288514be1e2a9b5363448a",
+    "symbols": [
+      {
+        "name": "ContractError.__init__",
+        "start_line": 29,
+        "end_line": 31,
+        "ast_sha256": "dd04c55d3678e6a8bb7882537b1a6d54576f77b7fafdd0ab001d0dce6f4d8ecf"
+      },
+      {
+        "name": "canonical",
+        "start_line": 34,
+        "end_line": 35,
+        "ast_sha256": "3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96"
+      },
+      {
+        "name": "digest",
+        "start_line": 38,
+        "end_line": 39,
+        "ast_sha256": "2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8"
+      },
+      {
+        "name": "json_tree",
+        "start_line": 42,
+        "end_line": 55,
+        "ast_sha256": "9586ca19af36b08a071aa95e52c6069c0cfdf2f86ab1a9da16c7b3fa31d42020"
+      },
+      {
+        "name": "load_request",
+        "start_line": 58,
+        "end_line": 68,
+        "ast_sha256": "6f3267e06bcbc0717041eadb164bf7d343fa619777c150aa22165d95d3dfc6bc"
+      },
+      {
+        "name": "load_request.pairs",
+        "start_line": 59,
+        "end_line": 65,
+        "ast_sha256": "89e247811acfaaec1a9741ae200978648d1a9b8175ed99ff5d13dfe486c3b737"
+      },
+      {
+        "name": "load_request.nonfinite",
+        "start_line": 66,
+        "end_line": 67,
+        "ast_sha256": "788503789eea1e391bac6a705410c1ae61129aee1d6067b920c2d0087c5a3993"
+      },
+      {
+        "name": "load_pack",
+        "start_line": 86,
+        "end_line": 126,
+        "ast_sha256": "82acc3a5fba34f1395751770e3087738c56199c94cdbaf9a84834e0e4461fb6c"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+2. RLC02
+算法标识：RLC02
+title：普通地区身份、主体方法与完整位置声明绑定
+输入：[
+  "context、两完整exact ref、外部claim及其全文SHA",
+  "原始B/T/P或null"
+]
+preconditions：[
+  "仅本主口径；无caller Rn/Rr/point/coverage/ready"
+]
+steps_or_formula：[
+  "精确字段及非空trim字符串；ref namespace/id/version全部保留。",
+  "claim人物/方法等context，两个ref摘要等真实ref；source/validity全文摘要等required location_claim_sha256。",
+  "所有提供UTC按旧原P.utc词法真实解析，正半开期限；unknown/null保留，不加默认寿命。"
+]
+why_calculated_this_way：caller只声明普通身份与本次外部位置使用范围；source verified是其状态，不是系统认证。合法更改原文和摘要为新声明。
+basis_nature：engineering_binding_and_external_declaration
+输出：[
+  "完整已核普通请求/原claim或硬拒"
+]
+does_not_guarantee：[
+  "行政区永远有效、现实个人位置、源权威"
+]
+error_and_unknown_boundaries：[
+  "不支持方法硬拒；给定摘要矛盾硬拒；unknown或缺界限后续未决"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_16/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.16",
+    "file_sha256": "e270d74d6febc50190f6db714f5161fbe18dac4682288514be1e2a9b5363448a",
+    "symbols": [
+      {
+        "name": "obj",
+        "start_line": 71,
+        "end_line": 73,
+        "ast_sha256": "989aa118169da160b901865ae4adf045b39b017658ee7c461f22925bd48c68c0"
+      },
+      {
+        "name": "text",
+        "start_line": 76,
+        "end_line": 78,
+        "ast_sha256": "66ca2edce8b2468b7108d13a12cc846898c2a31b6615a9ef4b599ddcfa86f34b"
+      },
+      {
+        "name": "sha",
+        "start_line": 81,
+        "end_line": 83,
+        "ast_sha256": "cc8ff88fe3d5c7b222a0cfea4b57261d7a002e5c45d3c4c70ccf8fe08f3b53ce"
+      },
+      {
+        "name": "validate_request",
+        "start_line": 129,
+        "end_line": 187,
+        "ast_sha256": "024b5e5da920de48463bab29d30145340fef7602d279b1fc6983b7df60806749"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+3. RLC03
+算法标识：RLC03
+title：原B/T/P实际public composer先核
+输入：[
+  "完整原始B/T/P、context、真实固定composer lock"
+]
+preconditions：[
+  "instant；给定源不得用手填ready替代"
+]
+steps_or_formula：[
+  "系统生成内容绑定的C20预核packet，Rn/Rr/lease明确null。",
+  "真实public compose；保存完整请求/报告/SHA。任何给定B/T/P结构/绑定错误先硬拒，不因地区未收录提前返回。",
+  "system packet/joins身份含完整输入及阶段，两个阶段不会同ID版本改内容。"
+]
+why_calculated_this_way：缺地理因素仍必须核所有提供源；P嵌入base不能补独立B。预核不是最终Z，也不是伪ready证明。
+basis_nature：engineering_native_reexecution
+输出：[
+  "真实预核原报告或硬拒"
+]
+does_not_guarantee：[
+  "B/T/P外部源真值、传统取用自动完成"
+]
+error_and_unknown_boundaries：[
+  "合法B/T/P语义未知可继续查资料但Z最终仍null；结构/绑定错不能跳"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_16/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.16",
+    "file_sha256": "e270d74d6febc50190f6db714f5161fbe18dac4682288514be1e2a9b5363448a",
+    "symbols": [
+      {
+        "name": "composer_request",
+        "start_line": 190,
+        "end_line": 203,
+        "ast_sha256": "255fa4fc55e12080adf8d007f5e93905f9cc3725ae455bc2e28beca84971a22b"
+      },
+      {
+        "name": "require_native",
+        "start_line": 206,
+        "end_line": 211,
+        "ast_sha256": "52c0d61a1d57204470b509c0f2977f77c7fe982d8209678aecde4dceec9ca9d7"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+4. RLC04
+算法标识：RLC04
+title：两次精确lookup与Rn/Rr独立轴导出
+输入：[
+  "两个exact region refs",
+  "两个实际lookup完整返回"
+]
+preconditions：[
+  "实际lookup每次全目录硬核及执行原Rn；无最高版/第一条回退"
+]
+steps_or_formula：[
+  "出生和当前分别实际evaluate；保完整原请求/报告/SHA。",
+  "当前原native_request全文成为Rn，不改ambiguous/coverage_undetermined。",
+  "两边target R7准确投影公共R5，目录原point_ref/full record成为Rr；未收录region=null，缺点ref=null。",
+  "同点仅完整id/version/content相同才去重；同身份变内容硬拒。",
+  "新lookup2版真实取得SC2019/MCA2024完整身份及成都PPLA代理；和HN点实际求有向初始方位，SC→HN木1、HN→SC金1，不能直接喂入预算Rr或假点。"
+]
+why_calculated_this_way：文化属性可用性与代表点可用性独立；代表点是项目省会PPLA代理，不代表个人GPS或全域方向。
+basis_nature：source_backed_lookup_plus_explicit_project_mapping
+输出：[
+  "真实Rn、Rr和逐字段映射",
+  "完整两lookup来源/版本/解释"
+]
+does_not_guarantee：[
+  "全国覆盖、苏州全域闭合、不同地区同点C0、外部点补齐"
+]
+error_and_unknown_boundaries：[
+  "JS原生火土歧义保留；SZ原生覆盖未闭保留；任何缺项不作零贡献"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_16/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.16",
+    "file_sha256": "e270d74d6febc50190f6db714f5161fbe18dac4682288514be1e2a9b5363448a",
+    "symbols": [
+      {
+        "name": "derive_regions",
+        "start_line": 214,
+        "end_line": 255,
+        "ast_sha256": "64f984e9fd988ff6921592e9c60c89692b3487360c60ac49d4aaf880ae9c9719"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+5. RLC05
+算法标识：RLC05
+title：外部声明绑定本次实际导出的lease
+输入：[
+  "完整claim和已核claim SHA",
+  "实际完整Rn/Rr/context"
+]
+preconditions：[
+  "不创造外部位置真值或自然历史有效期"
+]
+steps_or_formula：[
+  "status/start/end/source逐字段原样复制。",
+  "系统native_request/relative_request及R7/R5全内容摘要直接绑定真实导出。",
+  "lease ID摘要包含完整claim、Rn/Rr、context和研究profile，version固定adapter版本。"
+]
+why_calculated_this_way：声明有效期只许可本次用这些真实导出资料，不把研究资料reviewed写成产品采用。完整内容改变则新lease身份。
+basis_nature：engineering_binding_of_provided_claim
+输出：[
+  "系统绑定lease及身份preimage"
+]
+does_not_guarantee：[
+  "跨运行历史权威、行政沿革长期有效、用户默认数据采用"
+]
+error_and_unknown_boundaries：[
+  "unknown/空界限/过期/未来不补窗，实际composer阻断；半开end时刻已过期"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_16/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.16",
+    "file_sha256": "e270d74d6febc50190f6db714f5161fbe18dac4682288514be1e2a9b5363448a",
+    "symbols": [
+      {
+        "name": "bind_lease",
+        "start_line": 258,
+        "end_line": 272,
+        "ast_sha256": "44beb2b20126f743c9d129c8c3c4f8148ca19f6c91984919ee4381552bb9df7f"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+6. RLC06
+算法标识：RLC06
+title：真正第二次C20/D2/C0组合而非查询占位
+输入：[
+  "原B/T/P全文",
+  "真实Rn/Rr/lease及准确join"
+]
+preconditions：[
+  "真实固定composer0.3执行；不复用预核计算报告"
+]
+steps_or_formula：[
+  "再次public compose完整重算，保完整原请求/报告/各native结果与权重。",
+  "固定已批C20系数B4/5、T1/20、Rn1/40、Rr1/40、P1/10；所有数值计算由固定原composer和原API执行。",
+  "严格同地区身份+同完整point_ref且原Rr确证同代理点才C0，仅Rr1/40归B；Rn金仍1/40。",
+  "P明确空时1/10归B，非空用peer_mean；任何未知不归B，完整Z=null。",
+  "全窗只实际验证原提供B/T/P，原evaluation不改；不造at或join，不计算Z，明确unsupported。",
+  "非C0两方向Rr均保1/40且不归B；Rn金仍保1/40。未知位置声明即使两点方位已算，Z也为null。"
+]
+why_calculated_this_way：只为资料进入真实作用路径提供研究验证；已有公式已批不等新资料已批，更不产传统final/B。
+basis_nature：user_approved_formula_executed_with_research_data
+输出：[
+  "native Z或null",
+  "完整原报告与边界flags"
+]
+does_not_guarantee：[
+  "传统效力、最终喜用、window覆盖、默认库存、主题selector呈现"
+]
+error_and_unknown_boundaries：[
+  "原生错误硬拒；未决因子不得均值/填零/C0；无previous"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_16/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.16",
+    "file_sha256": "e270d74d6febc50190f6db714f5161fbe18dac4682288514be1e2a9b5363448a",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 289,
+        "end_line": 362,
+        "ast_sha256": "33f8c029e67075eba2ce847987a7c96db39b2bf8ec299fe01223eccf68f2fc95"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+7. RLC07
+算法标识：RLC07
+title：可复算原文、错误与CLI返回
+输入：[
+  "普通原始输入、完整中间及最终原生回报"
+]
+preconditions：[
+  "输出无B/采纳写入与现实真值认证"
+]
+steps_or_formula：[
+  "保完整input_snapshot/摘要、claim原文、两lookup、导出字段/lease preimage、两次composer请求/结果。",
+  "结构/绑定/固定依赖错显式硬拒；原合法未知报告保留，根Z=null。",
+  "严格CLI仅一原JSON文件；与API完全同值；正常/未知/明确unsupported返回0，硬错2。"
+]
+why_calculated_this_way：调用者和独审能直接复跑原composer输入，不被只见query报告或美化candidate历史字段遮蔽。
+basis_nature：engineering_audit_contract
+输出：[
+  "完整可复算研究回报或显式硬错"
+]
+does_not_guarantee：[
+  "产品采用、活动库存、真实个人位置、历法和传统效力",
+  "lookup2尚未独审，不能声称source acceptance或生产采用；四川全境解释限定2019+MCA2024，不以代理点认证2026行政界或个人位置。"
+]
+error_and_unknown_boundaries：[
+  "window与全国缺口继续开放；native历史candidate字段原样保留"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_16/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.16",
+    "file_sha256": "e270d74d6febc50190f6db714f5161fbe18dac4682288514be1e2a9b5363448a",
+    "symbols": [
+      {
+        "name": "empty_report",
+        "start_line": 275,
+        "end_line": 286,
+        "ast_sha256": "ce4e9c5b4d37c5ff59b470c83cceb29688020aa528cfa6c90302c52d87097cb3"
+      },
+      {
+        "name": "main",
+        "start_line": 365,
+        "end_line": 375,
+        "ast_sha256": "c100923064279719da1336f27952b23b3f3f856658934ea4953142bd6e6eadfc"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SZ2024_source_card.json",
+  "source/SZ2024_scope_logic.json",
+  "source/GN_Suzhou_exact_rows.json",
+  "precontract_before_runtime.json",
+  "expectations_before_actual.json",
+  "native_scope_actual.json",
+  "author_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SZ_API.json",
+  "replays/compose/ACTUAL_B12_FIRE_WATERPEER_SH_TO_SZ_API.json"
+]
+current_edition_note：data12只加苏州现代全市→刘2021江苏废黄河南子域包含链与独立GN1886760点；旧41/40/36精确前缀，原数学证明复用。
+actual_current_IO_ref：algorithm_actual_IO.json
+current_batch_note：Actual currentdata-onlywrapper43IO retained. Reused underlying math; formeredition-specific sourcecounts/examples remain historical wording, not newbatch counts. Currentactual289runtime andsourcegate checks are in author_actual.json.
+
+原件：work/rev273_national_region_source_batch/batch01_QJ2016_candidate/docs/batch_source_and_auxiliary_algorithms.json
+SHA256：aa105c249a9091da614dd43292b042f8867a061c6ae24aaf7daa3ddd15d79477
+
+1. BATCH273-read
+算法标识：BATCH273-read
+输入：Explicit path
+preconditions：Sources/identity/point/expectedC20 fixed beforefirstnewruntimeexecution.
+steps_or_formula：Read whole retainedJSON; no implicitlatest ornetwork.
+why_calculated_this_way：Keep namedculturalinterpretation,modernidentity,placeproxy,softwarebindingandadoption as independent layers; no silentwholeprovinceorlatestinference.
+basis_nature：explicit_finite_engineering_contract
+输出：Wholeobject or error.
+error_and_unknown_boundaries：Incomplete source declaration cannot produceclosedentry; correcthash isnotcorrecthistory.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "9a2c269aec33c4fb2b1f6335d4007ba2d4945a84e6f7034908773284b5368308",
+    "symbols": [
+      {
+        "name": "read",
+        "start_line": 11,
+        "end_line": 12,
+        "ast_sha256": "eb0c878a297a01fa18b6a88fe42a87f1bd560a02b2be04e7dc3baf9e9852aab4"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#read
+verification_refs：[
+  "expectations_before_runtime.json",
+  "author_actual.json",
+  "old45_regression_actual.json",
+  "c0_boundary_actual.json"
+]
+
+2. BATCH273-write
+算法标识：BATCH273-write
+输入：Path/object
+preconditions：Sources/identity/point/expectedC20 fixed beforefirstnewruntimeexecution.
+steps_or_formula：DeterministicUTF8JSON, disallowNaN; persist evidencebytes.
+why_calculated_this_way：Keep namedculturalinterpretation,modernidentity,placeproxy,softwarebindingandadoption as independent layers; no silentwholeprovinceorlatestinference.
+basis_nature：explicit_finite_engineering_contract
+输出：Written artifact.
+error_and_unknown_boundaries：Incomplete source declaration cannot produceclosedentry; correcthash isnotcorrecthistory.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "9a2c269aec33c4fb2b1f6335d4007ba2d4945a84e6f7034908773284b5368308",
+    "symbols": [
+      {
+        "name": "write",
+        "start_line": 14,
+        "end_line": 17,
+        "ast_sha256": "89c37d097b2694b8c229e2dbe42b8672e915dc29e6a4bd202a10b86884d428b8"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#write
+verification_refs：[
+  "expectations_before_runtime.json",
+  "author_actual.json",
+  "old45_regression_actual.json",
+  "c0_boundary_actual.json"
+]
+
+3. BATCH273-sha
+算法标识：BATCH273-sha
+输入：Path
+preconditions：Sources/identity/point/expectedC20 fixed beforefirstnewruntimeexecution.
+steps_or_formula：SHA256 completebytes; binding isnot source-truth certification.
+why_calculated_this_way：Keep namedculturalinterpretation,modernidentity,placeproxy,softwarebindingandadoption as independent layers; no silentwholeprovinceorlatestinference.
+basis_nature：explicit_finite_engineering_contract
+输出：Bytes SHA256.
+error_and_unknown_boundaries：Incomplete source declaration cannot produceclosedentry; correcthash isnotcorrecthistory.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "9a2c269aec33c4fb2b1f6335d4007ba2d4945a84e6f7034908773284b5368308",
+    "symbols": [
+      {
+        "name": "sha",
+        "start_line": 19,
+        "end_line": 20,
+        "ast_sha256": "f44b68eca57557554ed5003be6ebc9cebaf265bd3c6f8465e7e36a1c4a0e6b46"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#sha
+verification_refs：[
+  "expectations_before_runtime.json",
+  "author_actual.json",
+  "old45_regression_actual.json",
+  "c0_boundary_actual.json"
+]
+
+4. BATCH273-digest
+算法标识：BATCH273-digest
+输入：Object
+preconditions：Sources/identity/point/expectedC20 fixed beforefirstnewruntimeexecution.
+steps_or_formula：Canonical sortedcompactUTF8JSON thenSHA256; exact semantic binding.
+why_calculated_this_way：Keep namedculturalinterpretation,modernidentity,placeproxy,softwarebindingandadoption as independent layers; no silentwholeprovinceorlatestinference.
+basis_nature：explicit_finite_engineering_contract
+输出：Object SHA256.
+error_and_unknown_boundaries：Incomplete source declaration cannot produceclosedentry; correcthash isnotcorrecthistory.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "9a2c269aec33c4fb2b1f6335d4007ba2d4945a84e6f7034908773284b5368308",
+    "symbols": [
+      {
+        "name": "digest",
+        "start_line": 22,
+        "end_line": 24,
+        "ast_sha256": "c95fb8aef5d97f85e6f7404a960a492855f68b746c41c32295786803b58a284e"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#digest
+verification_refs：[
+  "expectations_before_runtime.json",
+  "author_actual.json",
+  "old45_regression_actual.json",
+  "c0_boundary_actual.json"
+]
+
+5. BATCH273-ref
+算法标识：BATCH273-ref
+输入：Versionedobject
+preconditions：Sources/identity/point/expectedC20 fixed beforefirstnewruntimeexecution.
+steps_or_formula：Return id/version/canonicalSHA, never name/latest selection.
+why_calculated_this_way：Keep namedculturalinterpretation,modernidentity,placeproxy,softwarebindingandadoption as independent layers; no silentwholeprovinceorlatestinference.
+basis_nature：explicit_finite_engineering_contract
+输出：Exactcontent reference.
+error_and_unknown_boundaries：Incomplete source declaration cannot produceclosedentry; correcthash isnotcorrecthistory.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "9a2c269aec33c4fb2b1f6335d4007ba2d4945a84e6f7034908773284b5368308",
+    "symbols": [
+      {
+        "name": "ref",
+        "start_line": 26,
+        "end_line": 27,
+        "ast_sha256": "a1bfb032661c13fa073f9f1a98e966bbffecc2ba8d2a74ea4dafd8a997c505dd"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#ref
+verification_refs：[
+  "expectations_before_runtime.json",
+  "author_actual.json",
+  "old45_regression_actual.json",
+  "c0_boundary_actual.json"
+]
+
+6. BATCH273-replace_constant
+算法标识：BATCH273-replace_constant
+输入：Source/key/value
+preconditions：Sources/identity/point/expectedC20 fixed beforefirstnewruntimeexecution.
+steps_or_formula：ASTlocate exacttop-levelconstant and replaceonly assignment; allremainingAST checked.
+why_calculated_this_way：Keep namedculturalinterpretation,modernidentity,placeproxy,softwarebindingandadoption as independent layers; no silentwholeprovinceorlatestinference.
+basis_nature：explicit_finite_engineering_contract
+输出：Updatedsource.
+error_and_unknown_boundaries：Incomplete source declaration cannot produceclosedentry; correcthash isnotcorrecthistory.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "9a2c269aec33c4fb2b1f6335d4007ba2d4945a84e6f7034908773284b5368308",
+    "symbols": [
+      {
+        "name": "replace_constant",
+        "start_line": 29,
+        "end_line": 34,
+        "ast_sha256": "23b7765960c2073365aff4800aa66d3eaa4ba59e66f0f8bf471f54cba016dd79"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#replace_constant
+verification_refs：[
+  "expectations_before_runtime.json",
+  "author_actual.json",
+  "old45_regression_actual.json",
+  "c0_boundary_actual.json"
+]
+
+7. BATCH273-validate_entry
+算法标识：BATCH273-validate_entry
+输入：Entry andsourcebytes
+preconditions：Sources/identity/point/expectedC20 fixed beforefirstnewruntimeexecution.
+steps_or_formula：Require exactQianjiang citynamedcontext, threeerasperiod,Jingunit,all3actualsourcebindings; verify2016card,2015code/2026name separation and1786067frozenrow. Rejectpartial/oldscope/otherregion/period/omittedbinding. Doesnot certifyhistory.
+why_calculated_this_way：Keep namedculturalinterpretation,modernidentity,placeproxy,softwarebindingandadoption as independent layers; no silentwholeprovinceorlatestinference.
+basis_nature：explicit_finite_engineering_contract
+输出：True or hardValueError.
+error_and_unknown_boundaries：Incomplete source declaration cannot produceclosedentry; correcthash isnotcorrecthistory.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "9a2c269aec33c4fb2b1f6335d4007ba2d4945a84e6f7034908773284b5368308",
+    "symbols": [
+      {
+        "name": "validate_entry",
+        "start_line": 36,
+        "end_line": 54,
+        "ast_sha256": "7f98797b5e2076cebcea998c8087daedcd95c483e3de8a45cb9500184a673bfc"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#validate_entry
+verification_refs：[
+  "expectations_before_runtime.json",
+  "author_actual.json",
+  "old45_regression_actual.json",
+  "c0_boundary_actual.json"
+]
+
+8. BATCH273-append_entries
+算法标识：BATCH273-append_entries
+输入：Oldcatalog/entries
+preconditions：Sources/identity/point/expectedC20 fixed beforefirstnewruntimeexecution.
+steps_or_formula：Deepcopyold; append3separatelayeredsources,onecityrecord,oneexactdecimalGNplaceproxy. Preserve45/44/40prefix; retainedADMconflict isnotadministrativerank inference.
+why_calculated_this_way：Keep namedculturalinterpretation,modernidentity,placeproxy,softwarebindingandadoption as independent layers; no silentwholeprovinceorlatestinference.
+basis_nature：explicit_finite_engineering_contract
+输出：46records45points43sources; noadoption.
+error_and_unknown_boundaries：Incomplete source declaration cannot produceclosedentry; correcthash isnotcorrecthistory.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "9a2c269aec33c4fb2b1f6335d4007ba2d4945a84e6f7034908773284b5368308",
+    "symbols": [
+      {
+        "name": "append_entries",
+        "start_line": 56,
+        "end_line": 119,
+        "ast_sha256": "4f12ab3314ae2a99792a36c08c96c90848d4fe4f3e59798e6f762d34fd8ff783"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#append_entries
+verification_refs：[
+  "expectations_before_runtime.json",
+  "author_actual.json",
+  "old45_regression_actual.json",
+  "c0_boundary_actual.json"
+]
+
+9. BATCH273-build
+算法标识：BATCH273-build
+输入：Newemptydirectory
+preconditions：Sources/identity/point/expectedC20 fixed beforefirstnewruntimeexecution.
+steps_or_formula：Copyexact255data15runtime; appendfixeddata; snapshotallnewsourcefiles; regeneratepins/embeddedlookup/locks/profile/wrapper. AllnumericalfunctionsAST unchanged.
+why_calculated_this_way：Keep namedculturalinterpretation,modernidentity,placeproxy,softwarebindingandadoption as independent layers; no silentwholeprovinceorlatestinference.
+basis_nature：explicit_finite_engineering_contract
+输出：289file runtime/newsafeentrysource; exactrebuild.
+error_and_unknown_boundaries：Incomplete source declaration cannot produceclosedentry; correcthash isnotcorrecthistory.
+implementation_refs：[
+  {
+    "path": "build_batch.py",
+    "file_sha256": "9a2c269aec33c4fb2b1f6335d4007ba2d4945a84e6f7034908773284b5368308",
+    "symbols": [
+      {
+        "name": "build",
+        "start_line": 121,
+        "end_line": 180,
+        "ast_sha256": "61a50dcb50afca77921662132a94ba8beaa228cc670ceee9cdd9de4085a0a22e"
+      }
+    ]
+  }
+]
+actual_IO_ref：builder_actual_IO.json#build
+verification_refs：[
+  "expectations_before_runtime.json",
+  "author_actual.json",
+  "old45_regression_actual.json",
+  "c0_boundary_actual.json"
+]
+
+10. SAFE273-execute
+算法标识：SAFE273-execute
+输入：Pinnedmode/explicitJSONpath
+steps_or_formula：CheckexactcoreSHA beforeexecution; preserve strictJSON andfullnativeAPI report.
+why_calculated_this_way：Malformedinput/badcorecannotmasqueradeassourceunknown.
+basis_nature：reused_engineering_contract
+输出：Fullreport or hardinvalidinput/dependencymismatch.
+implementation_refs：[
+  {
+    "path": "safe_region_entry.py",
+    "file_sha256": "2344b8ae3f26e2e3df2016b8ec22723e84b653ad1b803b36fea2a8c66b25bba1",
+    "symbols": [
+      {
+        "name": "execute",
+        "start_line": 14,
+        "end_line": 35,
+        "ast_sha256": "feb750769e6e54795b4425630a6f6d2462bbaa6f3ae1045d2a0ca2936ba3ac78"
+      }
+    ]
+  }
+]
+actual_IO_ref：algorithm_actual_IO.json
+verification_refs：[
+  "author_actual.json"
+]
+
+11. SAFE273-main
+算法标识：SAFE273-main
+输入：Pinnedmode/explicitJSONpath
+steps_or_formula：CheckexactcoreSHA beforeexecution; preserve strictJSON andfullnativeAPI report.
+why_calculated_this_way：Malformedinput/badcorecannotmasqueradeassourceunknown.
+basis_nature：reused_engineering_contract
+输出：Fullreport or hardinvalidinput/dependencymismatch.
+implementation_refs：[
+  {
+    "path": "safe_region_entry.py",
+    "file_sha256": "2344b8ae3f26e2e3df2016b8ec22723e84b653ad1b803b36fea2a8c66b25bba1",
+    "symbols": [
+      {
+        "name": "main",
+        "start_line": 38,
+        "end_line": 44,
+        "ast_sha256": "2cab09f22817de098116e24a454bdf3dde022e20d79fd8c332dc13dbb55906f7"
+      }
+    ]
+  }
+]
+actual_IO_ref：algorithm_actual_IO.json
+verification_refs：[
+  "author_actual.json"
+]
+
+原件：work/rev273_national_region_source_batch/batch01_QJ2016_candidate/docs/rule_ten_fields.json
+SHA256：5330d3e02dd7c659633f40f0a6ac9492589860c0787a58a0083410f1f9806642
+
+1. REG273-SCOPE
+算法标识：REG273-SCOPE
+title：潜江具名地域主语
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：明确选定2016三代frame，新429005项目版本，完整页面实际读取。
+5_exclusions：L35旧县不是2026逐地同界证；点/古府/城区不能代表全市；一市不能推湖北全省。
+6_changes：新同框架实质相反来源需另版复核；原未知省记录不覆盖。
+7_conflicts：这是工程对现代地方史主语的解释，非原页逐字声明2026全市每一土地均同古界。
+8_rule_expression：现代市政府潜江概况历史沿革L37不带部分/大部限定；后L48–52明确分区，L70–71叙至建市和省直管。选择2016作者的具名市域三代文化解释。
+9_verification：source/QJ2016_primary_source_card.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+
+2. REG273-PERIOD
+算法标识：REG273-PERIOD
+title：三代与后世分开
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：所选时期先于运行固定，原上下文保留。
+5_exclusions：不能由后世同名荆州府单独推禹贡荆州，不能按结果挑句。
+6_changes：不同主体/时代/术语框架另版处理。
+7_conflicts：作者文化史表述不等夏商周行政史真值认证。
+8_rule_expression：只选夏商周的荆州域；晋隋唐分县及明荆州府等不拼入该九州集合。
+9_verification：source/history_actual_web.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+
+3. REG273-IDENTITY
+算法标识：REG273-IDENTITY
+title：名码日期分层
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：已实际读表头和P63潜江行；当前市情正文已读。
+5_exclusions：无MCA2024潜江县项读证、无2026官方代码认证；备案号/站点码不作名码证明。
+6_changes：新代码表或身份变化需显式新版本，不把旧附件变2026表。
+7_conflicts：2015classification不是2026所有区划事实的保证；市level是本项目名字类别，不由PPLA4推中国地级。
+8_rule_expression：MEE2015明确行政区代码表P63给429005/潜江市/省直辖县级行政区划；2026基本市情仅给当前同名市与面积。项目显式承接名称，日期分别记录。
+9_verification：source/QJ2016_identity_and_point.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+
+4. REG273-POINT
+算法标识：REG273-POINT
+title：明确地名代理点
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：明确选择现代同名地名代理，GN/中国行政码命名空间分开，许可/as-is保留。
+5_exclusions：不是市政府中心、边界质心、个人GPS；不按人口/nearest/等级选点。
+6_changes：以后不同点须新point/version，旧点来源保留。
+7_conflicts：ADM2与ADM3提供者矛盾行保留；选P代理不解决或隐藏其行政层级矛盾。
+8_rule_expression：原冻结CN.zip实际SHA与精确nameQianjiang/P/CN/admin1=12唯一1786067原行已核，数值30.421/112.8919逐字使用。
+9_verification：source/GN_Qianjiang_ADM_conflicting_rows.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+
+5. REG273-BRIDGE
+算法标识：REG273-BRIDGE
+title：荆金分层
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：固定profile/namekey，coverage/evidence/目标摘要一致。
+5_exclusions：无个人喜金、命理官方、自然物理效力或B改变。
+6_changes：改解释profile需另方法/版本，不能自动latest。
+7_conflicts：现代政府出处不认证命理映射；传统名字桥是单独项目解释层。
+8_rule_expression：页面给Jing州名，金来自既有Sanmingprofile0.1。Rn完整唯一元素才onehot，Rr另依D2。
+9_verification：replays/raw_native/FULL_SELECTED_ACCOUNT_API.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+
+6. REG273-UNKNOWN
+算法标识：REG273-UNKNOWN
+title：范围缺口与歧义
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：闭合仅限所选作者具名框架，全部引用与unitset门仍在。
+5_exclusions：不能由未知/default凑全国完成或以一条单值抵消反证。
+6_changes：完备/审核/候选变动会改变状态和归因。
+7_conflicts：程序声明完备不等全部古史GIS封闭。
+8_rule_expression：unknown/未审/旧scope不给Rn；测试[jing,ji]两元素保留ambiguous，不投票取金/等半；unsupportedalias硬拒。
+9_verification：author_actual.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+
+7. REG273-C0
+算法标识：REG273-C0
+title：身份和点严格相同
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：原有效窗与location绑定均明确；nativeRr与实际gate6边界+publiccomposer另实测。
+5_exclusions：坐标相同不替代同身份/版本/点；未知方向不当knownempty。
+6_changes：改变ID/version/point/坐标/meaning时按真实native输出拒C0。
+7_conflicts：同地仍需要当地来源闭合；C0不补未知Rn。
+8_rule_expression：同潜江exactref/version/point触发C0，只返Rr2.5%给B，Rn金保留。原吉林两版本同坐标仍不可C0。
+9_verification：c0_boundary_actual.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+
+8. REG273-C20
+算法标识：REG273-C20
+title：预算与手算
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：同一BTP完整对象未改；几何浮点先容差核，再按实际角度精确FractionD2/C20。
+5_exclusions：不改RGB/个人取用/默认权重；软件通过不等现实效力。
+6_changes：显式新资料/地区变化才相应重算；unknown/expired仍undetermined。
+7_conflicts：复用旧数学证明，未冒本批为新独立数学证明。
+8_rule_expression：原B80T5Rn2.5Rr2.5P10不变。原fixtureB木2/3火1/3、T火、P确知空；C0木37/60火43/120金1/40。两异地用原Vincenty/D2独立手算。
+9_verification：old3_C20_regression_actual.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+
+9. REG273-APPEND
+算法标识：REG273-APPEND
+title：只追加旧前缀
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：显式选data16精确region_ref；无覆盖/自动latest。
+5_exclusions：数据行数不等省覆盖率；普通城市未有来源者仍真实缺口。
+6_changes：后续新源另数据版；冻结旧字节不回写。
+7_conflicts：旧版结果不随新版偷偷改变，版本一致性不代表永远未知。
+8_rule_expression：原45record/44point/40source逐对象相同，新增46/45/43；新独立名字1市，不是46省。旧吉林unknown与采用木、广西歧义、云南金均保留。
+9_verification：old45_regression_actual.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+
+10. REG273-GATE
+算法标识：REG273-GATE
+title：绑定、算法与真实运行
+1_source：[
+  {
+    "title": "潜江市人民政府《历史沿革》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+    "locator": "L22–31当前潜江概况/历史沿革及署名日期；L35旧县云梦泽；L37潜江地域三代荆州；L48–52后续时期分区；L70–71撤县建市与省直管。",
+    "reading_grade": "作者实际web.open读取82行页面正文，保留抽取返回；原HTML未下载，未冒称影印目验。"
+  },
+  {
+    "title": "2015年国家重点监控企业名单",
+    "url": "https://www.mee.gov.cn/gkml/hbb/bgt/201501/W020150107605872278150.pdf",
+    "locator": "零基P63/印66：行政区代码表头L2879–2882，429005/省直辖县级行政区划/潜江市L2926–2935；P64同名重复非独立第二证据",
+    "reading_grade": "实际web.open575页26682行文字层，再find及open到P63代码行；screenshot实际失败cachemiss，无本地PDF原字节或视觉目验。"
+  },
+  {
+    "title": "潜江市人民政府《基本市情》",
+    "url": "https://www.hbqj.gov.cn/zjqj/qjgk/jbsq/",
+    "locator": "L31日期署名；L35具名潜江、撤县建市、省直管、面积2004平方公里；L41湖北中部",
+    "reading_grade": "实际web.open读取53行正文；非原HTML下载"
+  }
+]
+2_source_layers：现代市政府2016文化叙述、MEE2015名码、2026同名背景、GeoNames地名点、三命映射、工程合同各层分记。
+3_interpretation：具名地区文化象征Rn；个人取用/扶抑/调候/B不变。
+4_conditions：包manifest、单composer快照读取、lookupPINS数量分别列；当前SHA/VERSION/函数符号有绑定。
+5_exclusions：hash只认证字节；不说一个入口读取整包每文件；不把测试数作覆盖进度。
+6_changes：任何来源byte变须新版本，不静默重封。
+7_conflicts：独立审查/采纳由根执行，作者测试与盲测分开。
+8_rule_expression：全部数学/函数AST与其余依赖逐字复用，当前43wrapper/9builderIO实跑。三关键卡6损坏案在unknown位置仍0firstprovider拒，clean1；完整移位单独核。
+9_verification：algorithm_equivalence.json
+10_status：author_candidate_verified_implementation_pending_independent_source_and_behavior_review
+

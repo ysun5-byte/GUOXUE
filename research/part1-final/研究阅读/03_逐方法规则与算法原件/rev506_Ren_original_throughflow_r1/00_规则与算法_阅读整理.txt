@@ -1,0 +1,1535 @@
+任氏从财原案水木火连续流通与全局净辅助
+rev506_Ren_original_throughflow_r1
+所属原模块：C02
+当前采用：rev518_Ren_original_throughflow_r1_adoption.json
+范围：adopted_exact506r1_0.1.1_50research39runtime_after50761
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev506_Ren_original_throughflow_r1/algorithm_explanations31.json
+SHA256：83d6c73e5f74ff4110da04fb14cd2be83f065c742b60fb5d3c65cfdf49d3f3a3
+
+1. throughflow_research.py:canonical
+算法标识：throughflow_research.py:canonical
+source_identity：{
+  "file": "throughflow_research.py",
+  "qualname": "canonical",
+  "line": 10,
+  "module_sha256": "d18138565ff5c61a35d085be38ec627ebbe07bc43b59eba7af1c00a0e584ee68",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：protocol_and_source_integrity_support
+contract：{
+  "purpose": "稳定编码当前报告",
+  "inputs": "已pack的JSON兼容对象",
+  "operations": "sort_keys且紧凑编码，allow_nan=False；无行尾换行",
+  "outputs": "完整JSON字符串；不兼容值抛错",
+  "conditions_exclusions_and_failures": "本函数不验证来源/命盘/取用；CLI才另加换行",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/throughflow_research.py:canonical",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": true,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "true_follow_finance.py:canonical",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "prior_pure_contract_verbatim": {
+    "purpose": "把当前完整原生报告编码成稳定JSON文本；本472实际执行，并非未执行旧ROOT入口。",
+    "inputs": "当前exact.pack后JSON兼容的报告对象。Fraction需先pack；不是任意Python对象/源真实性判断入口。",
+    "operations": "json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(逗号,冒号), allow_nan=False)，保Unicode并排序键，不添加行尾换行。",
+    "outputs": "JSON文本str；main打印时另加换行。类型不兼容/非有限数值等由json.dumps抛TypeError或ValueError。",
+    "preconditions_and_limits": "该纯编码器本身不执行源锁、输入树边界或真假从判断；这些由外层各函数承担。当前实际IO已记录完整原生字符串，不继承433旧ROOT的未执行/相对路径状态。",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+2. throughflow_research.py:pairs
+算法标识：throughflow_research.py:pairs
+source_identity：{
+  "file": "throughflow_research.py",
+  "qualname": "pairs",
+  "line": 12,
+  "module_sha256": "d18138565ff5c61a35d085be38ec627ebbe07bc43b59eba7af1c00a0e584ee68",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：protocol_and_source_integrity_support
+contract：{
+  "purpose": "拒绝重复JSON键",
+  "inputs": "JSON解析器给出的有序键值对",
+  "operations": "逐对建字典，遇已存在键立即ValueError",
+  "outputs": "完整无重复对象",
+  "conditions_exclusions_and_failures": "不以最后值覆盖前值；不是命理算法",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/throughflow_research.py:pairs",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "true_follow_finance.py:pairs",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "prior_pure_contract_verbatim": {
+    "inputs": "parserpairs",
+    "operations": "Buildmap, fixedduplicatecode/noecho",
+    "outputs": "dict orValueError",
+    "preconditions_and_limits": "not source/schema validation 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+    "purpose": "StrictuniqueJSONkeys",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+3. throughflow_research.py:nonfinite
+算法标识：throughflow_research.py:nonfinite
+source_identity：{
+  "file": "throughflow_research.py",
+  "qualname": "nonfinite",
+  "line": 19,
+  "module_sha256": "d18138565ff5c61a35d085be38ec627ebbe07bc43b59eba7af1c00a0e584ee68",
+  "AST_sha256": "c4747df202600f063858e8a7141d7d0c2a1280d4f1f71c3091bc5e28ed45db4e",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='token')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：protocol_and_source_integrity_support
+contract：{
+  "purpose": "拒绝非标准有限数常量",
+  "inputs": "JSON解析器传入NaN/Infinity等token",
+  "operations": "直接抛ValueError",
+  "outputs": "异常；没有正常None返回",
+  "conditions_exclusions_and_failures": "本例只有异常IO，不伪造正常运行",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/nonfinite_exception_only",
+  "normal_return": false,
+  "exception_only": true,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "true_follow_finance.py:nonfinite",
+  "AST_sha256": "c4747df202600f063858e8a7141d7d0c2a1280d4f1f71c3091bc5e28ed45db4e",
+  "prior_pure_contract_verbatim": {
+    "purpose": "拒绝非有限JSON常量",
+    "inputs": "NaN/Infinity常量token",
+    "operations": "无回退地抛ValueError",
+    "outputs": "无正常返回",
+    "preconditions_and_limits": "实际异常IO不能记为正常None",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+4. throughflow_research.py:bounded
+算法标识：throughflow_research.py:bounded
+source_identity：{
+  "file": "throughflow_research.py",
+  "qualname": "bounded",
+  "line": 21,
+  "module_sha256": "d18138565ff5c61a35d085be38ec627ebbe07bc43b59eba7af1c00a0e584ee68",
+  "AST_sha256": "672aedd7ac7cc59672e240a08b85d202c90c2c911840aedecf3b910ceda3135e",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：protocol_and_source_integrity_support
+contract：{
+  "purpose": "限定当前请求树的大小和类型",
+  "inputs": "已解析JSON值",
+  "operations": "显式栈遍历，深度<=12/节点<=500/对象<=12/列表<=20/字符串<=2000，拒代理项与非支持类型",
+  "outputs": "合法时正常None；超界/类型错误抛ValueError",
+  "conditions_exclusions_and_failures": "此函数只做输入边界；不验证源真值或数值有效性",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/throughflow_research.py:bounded",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "true_follow_finance.py:bounded",
+  "AST_sha256": "672aedd7ac7cc59672e240a08b85d202c90c2c911840aedecf3b910ceda3135e",
+  "prior_pure_contract_verbatim": {
+    "purpose": "限定输入树资源与Unicode",
+    "inputs": "任意候选请求树",
+    "operations": "显式栈：深12、节点500、对象12项、列表20、串2000；仅标量Unicode/布尔/整数/null",
+    "outputs": "正常None或ValueError",
+    "preconditions_and_limits": "不是四柱合法性或来源校验",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+5. throughflow_research.py:strict_load
+算法标识：throughflow_research.py:strict_load
+source_identity：{
+  "file": "throughflow_research.py",
+  "qualname": "strict_load",
+  "line": 36,
+  "module_sha256": "d18138565ff5c61a35d085be38ec627ebbe07bc43b59eba7af1c00a0e584ee68",
+  "AST_sha256": "fa879c3936f171bdbe26446b584343cdc08491c655b757f9a616aec67aacf007",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：protocol_and_source_integrity_support
+contract：{
+  "purpose": "严格解析当前请求文本",
+  "inputs": "str且长度<=10000",
+  "operations": "json.loads绑定pairs/nonfinite，随后bounded",
+  "outputs": "完整对象；任一步失败即抛错",
+  "conditions_exclusions_and_failures": "字节/UTF8上界在main另核；不宽容重复键和非有限值",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/throughflow_research.py:strict_load",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "true_follow_finance.py:strict_load",
+  "AST_sha256": "fa879c3936f171bdbe26446b584343cdc08491c655b757f9a616aec67aacf007",
+  "prior_pure_contract_verbatim": {
+    "purpose": "严格解析请求文本",
+    "inputs": "最长10000字符字符串",
+    "operations": "JSON解析绑定pairs/nonfinite，再bounded",
+    "outputs": "请求值或ValueError",
+    "preconditions_and_limits": "CLI另限20000字节与严格UTF8",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+6. throughflow_research.py:guard
+算法标识：throughflow_research.py:guard
+source_identity：{
+  "file": "throughflow_research.py",
+  "qualname": "guard",
+  "line": 40,
+  "module_sha256": "d18138565ff5c61a35d085be38ec627ebbe07bc43b59eba7af1c00a0e584ee68",
+  "AST_sha256": "dec94710cde5884697a0560944033c4874e678856e882a4ebed9f19ee414bb4e",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_current_algorithm
+runtime_role：protocol_and_source_integrity_support
+contract：{
+  "purpose": "任何提供者运行前核全部固定材料",
+  "inputs": "当前包ROOT、内嵌LOCK_SHA、source_execution_lock.json",
+  "operations": "先核锁SHA和source/runtime及事前问题精确文件集合；逐项核包含关系、非软链、长度、SHA；全部通过才返回材料",
+  "outputs": "全部已核字节字典；坏源/缺项/多项立即拒绝",
+  "conditions_exclusions_and_failures": "锁涵盖源材料与六runtime、00事前问题；不证明古典真值；本函数本身没有加载任何提供者",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/throughflow_research.py:guard",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+
+7. throughflow_research.py:load
+算法标识：throughflow_research.py:load
+source_identity：{
+  "file": "throughflow_research.py",
+  "qualname": "load",
+  "line": 54,
+  "module_sha256": "d18138565ff5c61a35d085be38ec627ebbe07bc43b59eba7af1c00a0e584ee68",
+  "AST_sha256": "d77ce2ded76c5e61962664dbec514c473a2ddb7654c0ba8943e9a8ea63cde002",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：protocol_and_source_integrity_support
+contract：{
+  "purpose": "从已核字节装入指定模块上下文",
+  "inputs": "模块名、相对文件、guard返回的material",
+  "operations": "新ModuleType设__file__，仅compile/exec对应已核材料",
+  "outputs": "代码与固定全局量对应的模块对象",
+  "conditions_exclusions_and_failures": "模块是上下文绑定而非JSON堆快照；调用必须在完整guard之后",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/throughflow_research.py:load",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "true_follow_finance.py:load",
+  "AST_sha256": "d77ce2ded76c5e61962664dbec514c473a2ddb7654c0ba8943e9a8ea63cde002",
+  "prior_pure_contract_verbatim": {
+    "purpose": "只执行guard已经返回的字节",
+    "inputs": "模块名、包内相对路径、材料字典",
+    "operations": "创建独立ModuleType，固定文件名，compile/exec指定字节",
+    "outputs": "模块对象",
+    "preconditions_and_limits": "当前实际IO通过观测load钩子委托未改原load；返回模块在研究包装后记录身份，完整输出与未包装版本相同",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+8. throughflow_research.py:evaluate
+算法标识：throughflow_research.py:evaluate
+source_identity：{
+  "file": "throughflow_research.py",
+  "qualname": "evaluate",
+  "line": 57,
+  "module_sha256": "d18138565ff5c61a35d085be38ec627ebbe07bc43b59eba7af1c00a0e584ee68",
+  "AST_sha256": "ded33bf4e440c3e48e44c1931efbff1073813297469ffc1621bf36528ee6b50d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_current_algorithm
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "完整原案源任务与有限净辅助入口",
+  "inputs": "四个精确字段schema/method/source_profile/raw_pillars",
+  "operations": "先请求边界与版本，再guard，加载六已核提供者，合法性/具名原案前件先行；三g/c×两关系×三alpha全18版，每版基线+93共同增补及五同费切边",
+  "outputs": "全部原生报告；合法别案回other_source_question_required且不解算；非法四柱单列；硬错抛出",
+  "conditions_exclusions_and_failures": "只原丙寅庚寅壬午乙巳；所有原演员/根不删，不添日主浮量；不是普遍真假从分类器或最终全流派唯一喜用",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/throughflow_research.py:evaluate",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": true,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+
+9. throughflow_research.py:main
+算法标识：throughflow_research.py:main
+source_identity：{
+  "file": "throughflow_research.py",
+  "qualname": "main",
+  "line": 82,
+  "module_sha256": "d18138565ff5c61a35d085be38ec627ebbe07bc43b59eba7af1c00a0e584ee68",
+  "AST_sha256": "da4fe3be2db093f2a2ddd2ffb03cf8b4930f5d66b9ddc341a8a7ba9ab3fd5820",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：protocol_and_source_integrity_support
+contract：{
+  "purpose": "字节入口与完整失败原子性",
+  "inputs": "标准输入UTF8 JSON字节流",
+  "operations": "最多读20001字节并拒>20000，strict_load→evaluate→canonical并打印；捕获列明异常返回2",
+  "outputs": "成功完整一行JSON/退出0；失败仅rejected+no_partial_judgment/退出2",
+  "conditions_exclusions_and_failures": "本次函数跟踪为合法别案正常0，选中原案完整211628112字节API/CLI另有全量字节证据，不把两者混称同一条trace",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/throughflow_research.py:main",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": true,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "true_follow_finance.py:main",
+  "AST_sha256": "da4fe3be2db093f2a2ddd2ffb03cf8b4930f5d66b9ddc341a8a7ba9ab3fd5820",
+  "prior_pure_contract_verbatim": {
+    "purpose": "提供严格UTF8原生CLI",
+    "inputs": "标准输入最多20001字节探限",
+    "operations": "解码→strict_load→evaluate→canonical；固定错误消息",
+    "outputs": "成功完整JSON和退出0；拒绝固定JSON和退出2",
+    "preconditions_and_limits": "原四柱非法是结构结果退出0；软件拒绝与命理未覆盖不同",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+10. runtime/equilibrium.py:coefficients
+算法标识：runtime/equilibrium.py:coefficients
+source_identity：{
+  "file": "runtime/equilibrium.py",
+  "qualname": "coefficients",
+  "line": 6,
+  "module_sha256": "7e84820a0992394664b87744a0ad2b13b07b4beebc2781e033a813bc3a2f0fa9",
+  "AST_sha256": "84bfa217021d8f44569d9b48404fc9a91a4ec1eb24f036ae387301df84ff304d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='g'), arg(arg='c'), arg(arg='relation'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "把所有生克、关系压力和费用同时固定",
+  "inputs": "完整base、g/c、R0/R1、可选私有删边名",
+  "operations": "所有演员配对取生克；距离<=1取1否则1/2；乘静态双方份额；R1月庚时乙出效减半且藏寅巳既存克边加半；所有原预留费用不退；核L<1",
+  "outputs": "全正负边、G/C矩阵、费用、唯一性界",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1equilibrium.py:coefficients",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/equilibrium.py:coefficients",
+  "AST_sha256": "84bfa217021d8f44569d9b48404fc9a91a4ec1eb24f036ae387301df84ff304d",
+  "prior_pure_contract_verbatim": {
+    "purpose": "把所有生克、关系压力和费用同时固定",
+    "inputs": "完整base、g/c、R0/R1、可选私有删边名",
+    "operations": "所有演员配对取生克；距离<=1取1否则1/2；乘静态双方份额；R1月庚时乙出效减半且藏寅巳既存克边加半；所有原预留费用不退；核L<1",
+    "outputs": "全正负边、G/C矩阵、费用、唯一性界",
+    "preconditions_and_limits": "g∈[1/5,1/4] c∈[2/5,1/2]；R1是具名工程解释，非古书给半数；删边是诊断不是现实干预",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+11. runtime/equilibrium.py:solve
+算法标识：runtime/equilibrium.py:solve
+source_identity：{
+  "file": "runtime/equilibrium.py",
+  "qualname": "solve",
+  "line": 29,
+  "module_sha256": "7e84820a0992394664b87744a0ad2b13b07b4beebc2781e033a813bc3a2f0fa9",
+  "AST_sha256": "1651c447dbbe8e871f3d5c2aba7f4ea846a79e28470e57c5ab294ede5533159c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：legacy_alpha0_comparator_only_not_nonzero_producer
+contract：{
+  "purpose": "精确解同流全盘非负状态",
+  "inputs": "各元素来源d和固定cf、精确高斯算子",
+  "operations": "枚举32个非负面，解活动线性系；精确核max方程；cf的L<1保证全局唯一",
+  "outputs": "五池现量、活动面和唯一性凭据",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1equilibrium.py:solve",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": true,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/equilibrium.py:solve",
+  "AST_sha256": "1651c447dbbe8e871f3d5c2aba7f4ea846a79e28470e57c5ab294ede5533159c",
+  "prior_pure_contract_verbatim": {
+    "purpose": "精确解同流全盘非负状态",
+    "inputs": "各元素来源d和固定cf、精确高斯算子",
+    "operations": "枚举32个非负面，解活动线性系；精确核max方程；cf的L<1保证全局唯一",
+    "outputs": "五池现量、活动面和唯一性凭据",
+    "preconditions_and_limits": "不以迭代容差或成功面选流派；零折点多面标签可等价，现量须同",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+12. runtime/equilibrium.py:origin_state
+算法标识：runtime/equilibrium.py:origin_state
+source_identity：{
+  "file": "runtime/equilibrium.py",
+  "qualname": "origin_state",
+  "line": 40,
+  "module_sha256": "7e84820a0992394664b87744a0ad2b13b07b4beebc2781e033a813bc3a2f0fa9",
+  "AST_sha256": "01868b754e7ce8b627298839c40a2e12d6b2ddbba18e7a1bfeabd3262958a908",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：legacy_alpha0_comparator_only_not_nonzero_producer
+contract：{
+  "purpose": "把当前每一原始来源及费用损失分清",
+  "inputs": "d、cf、已解state、精确算子",
+  "operations": "gross=d+Gx，rho=x/gross；解p=rho(d+Gp)；核收缩、非负、各源加和；费用=fee*x、控制损失=min(gross,Cx)，逐源核余额",
+  "outputs": "完整每池每来源、rho、gross、逐源损失与全部预算",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1equilibrium.py:origin_state",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": true,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/equilibrium.py:origin_state",
+  "AST_sha256": "01868b754e7ce8b627298839c40a2e12d6b2ddbba18e7a1bfeabd3262958a908",
+  "prior_pure_contract_verbatim": {
+    "purpose": "把当前每一原始来源及费用损失分清",
+    "inputs": "d、cf、已解state、精确算子",
+    "operations": "gross=d+Gx，rho=x/gross；解p=rho(d+Gp)；核收缩、非负、各源加和；费用=fee*x、控制损失=min(gross,Cx)，逐源核余额",
+    "outputs": "完整每池每来源、rho、gross、逐源损失与全部预算",
+    "preconditions_and_limits": "控制容量不足不用的部分不退给源；不是跨元素物理能量守恒",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+13. runtime/equilibrium.py:full_graph
+算法标识：runtime/equilibrium.py:full_graph
+source_identity：{
+  "file": "runtime/equilibrium.py",
+  "qualname": "full_graph",
+  "line": 57,
+  "module_sha256": "7e84820a0992394664b87744a0ad2b13b07b4beebc2781e033a813bc3a2f0fa9",
+  "AST_sha256": "60c0b0ab59915ac33d0c777a002ea90eea970c18516553a585c295c7ee51ba77",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='origin')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：legacy_alpha0_comparator_only_not_nonzero_producer
+contract：{
+  "purpose": "恢复全部演员、带符号边和费用的原点账",
+  "inputs": "base/cf/state/origin",
+  "operations": "演员=静态份额×元素原点；每边=有效系数×同一源现量原点；生成留存乘目标rho，克损乘目标兑现比；预留源费独立全列并核总额",
+  "outputs": "全演员×原点、全边×原点、全费×原点、池预算",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1equilibrium.py:full_graph",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": true,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/equilibrium.py:full_graph",
+  "AST_sha256": "60c0b0ab59915ac33d0c777a002ea90eea970c18516553a585c295c7ee51ba77",
+  "prior_pure_contract_verbatim": {
+    "purpose": "恢复全部演员、带符号边和费用的原点账",
+    "inputs": "base/cf/state/origin",
+    "operations": "演员=静态份额×元素原点；每边=有效系数×同一源现量原点；生成留存乘目标rho，克损乘目标兑现比；预留源费独立全列并核总额",
+    "outputs": "全演员×原点、全边×原点、全费×原点、池预算",
+    "preconditions_and_limits": "不把共享池演员份额叫演员独立实体力；正负与费用使用同一个state",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+14. runtime/exact_reused.py:pack
+算法标识：runtime/exact_reused.py:pack
+source_identity：{
+  "file": "runtime/exact_reused.py",
+  "qualname": "pack",
+  "line": 7,
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "Encode internal exact mathematics.",
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1exact_reused.py:pack",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/exact_reused.py:pack",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "prior_pure_contract_verbatim": {
+    "inputs": "Fraction,dict,list/tuple,set or scalar.",
+    "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+    "outputs": "JSON-compatible structure.",
+    "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+    "purpose": "Encode internal exact mathematics.",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+15. runtime/exact_reused.py:gauss
+算法标识：runtime/exact_reused.py:gauss
+source_identity：{
+  "file": "runtime/exact_reused.py",
+  "qualname": "gauss",
+  "line": 14,
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1exact_reused.py:gauss",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/exact_reused.py:gauss",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "prior_pure_contract_verbatim": {
+    "inputs": "Nonsingular square rational matrix and same-row RHS.",
+    "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+    "outputs": "Exact solution rows; singular raises ArithmeticError.",
+    "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+    "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+16. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "stem_element",
+  "line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "十干查五行",
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1foundation_facts.py:stem_element",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/foundation_facts.py:stem_element",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "prior_pure_contract_verbatim": {
+    "inputs": "单个合法十干",
+    "operations": "校验字符后按十干索引每两干映五行",
+    "outputs": "五行名或ValueError",
+    "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+    "purpose": "十干查五行",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+17. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "ten_god",
+  "line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "严格十神角色",
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1foundation_facts.py:ten_god",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/foundation_facts.py:ten_god",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "prior_pure_contract_verbatim": {
+    "inputs": "日干和另一干",
+    "operations": "按五行环差及阴阳同异取角色",
+    "outputs": "十神名",
+    "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+    "purpose": "严格十神角色",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+18. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "validate",
+  "line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "原柱基础合法性",
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1foundation_facts.py:validate",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/foundation_facts.py:validate",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "prior_pure_contract_verbatim": {
+    "inputs": "原始四字段对象",
+    "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+    "outputs": "校验报告",
+    "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+    "purpose": "原柱基础合法性",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+19. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "formal_relations",
+  "line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "保留有位置的形式合冲",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1foundation_facts.py:formal_relations",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/foundation_facts.py:formal_relations",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "prior_pure_contract_verbatim": {
+    "inputs": "四柱对象",
+    "operations": "逐柱对按天干五合/支六合六冲匹配",
+    "outputs": "形式候选列表",
+    "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+    "purpose": "保留有位置的形式合冲",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+20. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "root_evidence",
+  "line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1foundation_facts.py:root_evidence",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/foundation_facts.py:root_evidence",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "prior_pure_contract_verbatim": {
+    "inputs": "一干及四柱",
+    "operations": "查各支完整藏干和四项特殊例",
+    "outputs": "证据列表，强度not_computed",
+    "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+    "purpose": "保留同字同五行藏据及已明列特殊根例",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+21. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "file": "runtime/foundation_facts.py",
+  "qualname": "parse",
+  "line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "原61完整四柱事实入口",
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1foundation_facts.py:parse",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/foundation_facts.py:parse",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "prior_pure_contract_verbatim": {
+    "inputs": "原始四柱对象",
+    "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+    "outputs": "facts_parsed或非法/缺项报告",
+    "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+    "purpose": "原61完整四柱事实入口",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+22. runtime/inventory.py:root_explain
+算法标识：runtime/inventory.py:root_explain
+source_identity：{
+  "file": "runtime/inventory.py",
+  "qualname": "root_explain",
+  "line": 8,
+  "module_sha256": "ef79b5087c5ace95132c7280910ae6d17e5701f4388022a946391563b7c27495",
+  "AST_sha256": "3272242d66788897bd130198b0b3bd1d77062dea37dbefc0ac4c7e44d32f59e8",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive'), arg(arg='root')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "保留每位原根，分清资格和现效",
+  "inputs": "干、支、既有原始表、纯root模块",
+  "operations": "按该元素阳干共生死参照分类；长生/禄旺7/2、非土墓3/2、主气7/2、其他藏根5/2，否则0",
+  "outputs": "含参照、阶段、藏干、来源层和精确资格的记录",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1inventory.py:root_explain",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/inventory.py:root_explain",
+  "AST_sha256": "3272242d66788897bd130198b0b3bd1d77062dea37dbefc0ac4c7e44d32f59e8",
+  "prior_pure_contract_verbatim": {
+    "purpose": "保留每位原根，分清资格和现效",
+    "inputs": "干、支、既有原始表、纯root模块",
+    "operations": "按该元素阳干共生死参照分类；长生/禄旺7/2、非土墓3/2、主气7/2、其他藏根5/2，否则0",
+    "outputs": "含参照、阶段、藏干、来源层和精确资格的记录",
+    "preconditions_and_limits": "根数/月倍数为继承工程量；金寅绝不删巳金7/2；戊土共火宫移植不认定现力",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+23. runtime/inventory.py:build
+算法标识：runtime/inventory.py:build
+source_identity：{
+  "file": "runtime/inventory.py",
+  "qualname": "build",
+  "line": 23,
+  "module_sha256": "ef79b5087c5ace95132c7280910ae6d17e5701f4388022a946391563b7c27495",
+  "AST_sha256": "7e82008ebf8ed3f6bfb8915d5d55123c722b81af98536055d4ab1f70b5f1e01f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "构成全15演员/60原根与同池分配",
+  "inputs": "原案四柱与已核原始表/事实/root模块",
+  "operations": "枚举全部明藏；每演员四位置ROOT，月乘3/2；非日明干浮量1；同元素同原根max一次，演员按直接资格静态分配，零组均分",
+  "outputs": "演员、原根、五池直接来源、静态份额、全部形式关系",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1inventory.py:build",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/inventory.py:build",
+  "AST_sha256": "7e82008ebf8ed3f6bfb8915d5d55123c722b81af98536055d4ab1f70b5f1e01f",
+  "prior_pure_contract_verbatim": {
+    "purpose": "构成全15演员/60原根与同池分配",
+    "inputs": "原案四柱与已核原始表/事实/root模块",
+    "operations": "枚举全部明藏；每演员四位置ROOT，月乘3/2；非日明干浮量1；同元素同原根max一次，演员按直接资格静态分配，零组均分",
+    "outputs": "演员、原根、五池直接来源、静态份额、全部形式关系",
+    "preconditions_and_limits": "不是把每演员根量都累计；日水无另添浮量但份额1能接受印生日；不把乙庚/寅巳名字当删根",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+24. runtime/root_types.py:classify
+算法标识：runtime/root_types.py:classify
+source_identity：{
+  "file": "runtime/root_types.py",
+  "qualname": "classify",
+  "line": 6,
+  "module_sha256": "08c6179ee721681916e53cd583e14415e3e1cc4cfec0e73d0060afe8da4f05c2",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_operations_current_context_rebound
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "原Primary ROOT类型",
+  "inputs": "合法stem/branch和已捕获原primitive",
+  "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+  "outputs": "type info",
+  "current_semantic_boundary": "与精确472前函数同AST的纯操作/参数边界；在506重新绑定原完整root/系数，输出供新并行题使用。旧合同中的472当时执行语句仅属旧版，不能拿来代当前IO。",
+  "source_layer": "精确旧资格/代数/原事实操作；不自动继承旧source强零生日题为传统必要。"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1root_types.py:classify",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+exact_reuse：{
+  "prior_document": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "prior_id": "runtime/root_types.py:classify",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "prior_pure_contract_verbatim": {
+    "purpose": "原Primary ROOT类型",
+    "inputs": "合法stem/branch和已捕获原primitive",
+    "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+    "outputs": "type info",
+    "preconditions_and_limits": "caller已factsparse合法，primitive与ROOT代码源锁；不增加藏干、不判实际强弱。",
+    "current_semantic_boundary": "仅复用该AST的纯事实/通用解析/精确代数合同；新472原源、阳干共生死调用、五池、关系压力与目标不继承旧433从势语义。",
+    "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量"
+  },
+  "prior_472_IO_not_claimed_as_current506_IO": true
+}
+
+25. runtime/throughflow.py:activity_state
+算法标识：runtime/throughflow.py:activity_state
+source_identity：{
+  "file": "runtime/throughflow.py",
+  "qualname": "activity_state",
+  "line": 7,
+  "module_sha256": "6e96e010437c740235c061b67187a939b239c5f09bb4c1d559ae7dfbc466aea6",
+  "AST_sha256": "4bd81312d75270a172dec6450e709d48e3e7aff641b4be2667c3c05b54dc20e2",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='alpha'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_current_algorithm
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "同一全图求并行活动y、净留r和被制消耗loss",
+  "inputs": "非负原点库存d、旧完整系数cf、Fraction alpha∈[0,1]、精确gauss模块",
+  "operations": "先核两仿射max全局收缩L<1；逆序穷举32作用面有理消元；候选逐项代回max；u=b-f*y/l=min(u,a)/r=u-l，核非负与两预算等式",
+  "outputs": "唯一精确状态和收缩界；无有效面或预算失败抛ArithmeticError",
+  "conditions_exclusions_and_failures": "alpha是新增工程并行假设；0精确退旧物理，1两支重合。不是多加原生水量，控制容量与实际消耗分开",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1throughflow.py:activity_state",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+
+26. runtime/throughflow.py:all_origins
+算法标识：runtime/throughflow.py:all_origins
+source_identity：{
+  "file": "runtime/throughflow.py",
+  "qualname": "all_origins",
+  "line": 26,
+  "module_sha256": "6e96e010437c740235c061b67187a939b239c5f09bb4c1d559ae7dfbc466aea6",
+  "AST_sha256": "378e2f5bde5aefbf7626e4e23e5e639a57e682484ca0ce5c177af99b201bd621",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_current_algorithm
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "把活动、净留、消耗和费用追溯至同一原始来源",
+  "inputs": "d、cf、已核活动状态、精确代数模块",
+  "operations": "rho=y/b；求(I-diag(rho)G)P=diag(rho)D，并核正传递收缩；逐源gross=r_source+loss_source+f*P及P=r_source+alpha*loss_source",
+  "outputs": "每一原点的活动/gross/净留/消耗及原点列表",
+  "conditions_exclusions_and_failures": "不删零原点/原根；是资格作用量分解，不冒五行物理质量守恒；净留原点不能改名当活动原点",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1throughflow.py:all_origins",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+
+27. runtime/throughflow.py:full_graph
+算法标识：runtime/throughflow.py:full_graph
+source_identity：{
+  "file": "runtime/throughflow.py",
+  "qualname": "full_graph",
+  "line": 39,
+  "module_sha256": "6e96e010437c740235c061b67187a939b239c5f09bb4c1d559ae7dfbc466aea6",
+  "AST_sha256": "98826341a01f72e6c0a82c5507e5c389405aaf9f8aee54864186e62d1266d67a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_current_algorithm
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "保所有原演员、85条正负边及全部发送费用",
+  "inputs": "原base、完整cf、state与ports",
+  "operations": "逐旧边用同一y计算发送；生边分别算活动信用与净留信用；克边按目标实际loss/容量分配；费用仍reserved*y",
+  "outputs": "全部标量边/费用和精确公共原点展开公式",
+  "conditions_exclusions_and_failures": "大逐边原点数组采用无损公式分解，未假称全部重复数组内嵌；受制或诊断删边不退预留发送费",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1throughflow.py:full_graph",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+
+28. runtime/throughflow.py:metrics_and_source
+算法标识：runtime/throughflow.py:metrics_and_source
+source_identity：{
+  "file": "runtime/throughflow.py",
+  "qualname": "metrics_and_source",
+  "line": 49,
+  "module_sha256": "6e96e010437c740235c061b67187a939b239c5f09bb4c1d559ae7dfbc466aea6",
+  "AST_sha256": "7fb9b3dcff960ccc8b7a884cfcda8f18b0b7e4eb82c45ac218897fb2078418de",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='ports'), arg(arg='graph')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_current_algorithm
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "核原局连续通流与完整从财具名条件",
+  "inputs": "同一base/cf/state/ports/graph",
+  "operations": "用r算身体/财/食/印及原火来源留存；用y算边发送；连续sent=G火木*rho木*G木水*y水，terminal=(r火/b火)*sent；逐项核旧general概念及正连续路径",
+  "outputs": "完整指标、逐条件真假、原strong_zero_birthday诊断与新源证书",
+  "conditions_exclusions_and_failures": "同一原点出现在两端不代连续路径；两跳是明确下界非全路径去重总和；生日零不是传统从财必要；alpha0新通流证书false是预期",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1throughflow.py:metrics_and_source",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+
+29. runtime/throughflow.py:world
+算法标识：runtime/throughflow.py:world
+source_identity：{
+  "file": "runtime/throughflow.py",
+  "qualname": "world",
+  "line": 56,
+  "module_sha256": "6e96e010437c740235c061b67187a939b239c5f09bb4c1d559ae7dfbc466aea6",
+  "AST_sha256": "7883fac9aad8b88218d896dd743c504d511c0174709ff81c2bc4785ad5015166",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='alpha'), arg(arg='exact'), arg(arg='chosen'), arg(arg='amount')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load()), Call(func=Name(id='F', ctx=Load()), args=[], keywords=[])])"
+}
+条目分类：new_or_adapted_current_algorithm
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "共同增补后整盘重算全部生克/预算",
+  "inputs": "base/cf/alpha/精确模块、互异五行子集、Fraction总量0..16；空集合仅允许0基线，正量必须有非空选择",
+  "operations": "深拷贝原库存，按子集均分纯数学增补原点，activity_state→all_origins→full_graph→metrics_and_source",
+  "outputs": "完整独立世界和所有指标、来源任务",
+  "conditions_exclusions_and_failures": "增补是内部资格量干预，不伪造新天干/根或真实时运；选择不删除未选演员，所有反作用仍在",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1throughflow.py:world",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+
+30. runtime/throughflow.py:net
+算法标识：runtime/throughflow.py:net
+source_identity：{
+  "file": "runtime/throughflow.py",
+  "qualname": "net",
+  "line": 63,
+  "module_sha256": "6e96e010437c740235c061b67187a939b239c5f09bb4c1d559ae7dfbc466aea6",
+  "AST_sha256": "0500c8118aaf2cf91b0024528a0fd2318c56b160a6e346cd97a3cecc2197dbdb",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='current'), arg(arg='baseline')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_current_algorithm
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "按已声明四目标判完整共同净方案",
+  "inputs": "当前与相同参数/原局基线完整世界",
+  "operations": "要求原火净留分母存在；比较食生财净留/原火净留不降、生日净留/同原火留土比不升，至少一严格改进且新源任务仍立",
+  "outputs": "accepted、四有理边际与失败原因",
+  "conditions_exclusions_and_failures": "不把财总量最大化；不只看单向功效；不是原典唯一数学/全局唯一喜用，所有混合集保留",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1throughflow.py:net",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+
+31. runtime/throughflow.py:analyze
+算法标识：runtime/throughflow.py:analyze
+source_identity：{
+  "file": "runtime/throughflow.py",
+  "qualname": "analyze",
+  "line": 68,
+  "module_sha256": "6e96e010437c740235c061b67187a939b239c5f09bb4c1d559ae7dfbc466aea6",
+  "AST_sha256": "5062b3082bd8d2d78026fb3e8852190403e0950542d20e5fc8a77934dc4ee8fa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='alpha'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_current_algorithm
+runtime_role：current_nonzero_production_core
+contract：{
+  "purpose": "枚举有限全部共同增补而非只挑单元素",
+  "inputs": "已核base/cf/alpha及精确模块",
+  "operations": "基线一次；三总量1/2、1、2各枚举31非空五行子集，完整world后net",
+  "outputs": "基线、完整93世界/通过与失败、每幅度全部有效集合",
+  "conditions_exclusions_and_failures": "三离散幅度不是连续全量定理；不选成功alpha/关系，也不把[木]与[木火]等合并成一个最终集合",
+  "source_layer": "具名原典动机/既有资格资料与明确工程实现分层；详规则卡"
+}
+实际输入输出：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "native_JSON_pointer": "/records/runtime~1throughflow.py:analyze",
+  "normal_return": true,
+  "exception_only": false,
+  "legacy_only_trace": false,
+  "entry_trace_not_selected_source_fullwire": false,
+  "separate_full_selected_native_wire": "actual/full_native_API.json.gz"
+}
+not_an_independent_classical_rule：true
+

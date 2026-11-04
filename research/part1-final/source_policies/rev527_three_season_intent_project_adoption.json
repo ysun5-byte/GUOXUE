@@ -1,0 +1,94 @@
+{
+  "schema": "527-exact510-after526-three-season-submodel-adoption/1",
+  "revision": 527,
+  "registered_utc": "2026-11-03T11:02:00.356265+00:00",
+  "status": "adopted_exact51099_runtime39_after526_finite_seasonal_quality_warm_gap_open",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_author_completion_handoff.json",
+    "bytes": 4982,
+    "sha256": "20ca75edf26da218b780f62d2855738b9bb9b44bcaac2cc9f8ac13dabfc3db77"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev526_independent_completion_handoff.json",
+    "bytes": 2980,
+    "sha256": "cd60939382102f01fe0ceca74ed794a3fb727e01083dfb6604825cae55e6611d"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source",
+    "files": 99,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/manifest.json",
+      "bytes": 15373,
+      "sha256": "c98388450dc71dd1200a32a14b222f4e161ed671402719e8af9ab39ae026d462"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/freeze.json",
+      "bytes": 92,
+      "sha256": "039df679cb904ed77cf99e81fff7ac3d2c29541d1c95c872caf8c8fa659ec75c"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "kernel_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_runtime_release",
+    "files": 39,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_runtime_release/manifest.json",
+      "bytes": 5570,
+      "sha256": "c9ecc26520c737e9be553184eb0955dd17f632aac29d291e7b06abe1ff29706e"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_runtime_release/freeze.json",
+      "bytes": 92,
+      "sha256": "453121a52f2bc8a52e7d478b243f9b23f842a0a172fbe55af99f0d18dd1c01e9"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev526_seasonal_independent_review",
+    "files": 35,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev526_seasonal_independent_review/manifest.json",
+      "bytes": 6257,
+      "sha256": "28f0bd399898d99c9f35de757917de31dc88c2f0a0d745ad4c0ceaf806f52f11"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev526_seasonal_independent_review/freeze.json",
+      "bytes": 92,
+      "sha256": "1aef8bafbdd8bffd11a71ee7ec542aefd2184af14288038cbd3730e906448cde"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "rules12": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/source_rule_cards_ten_fields.json",
+    "bytes": 24143,
+    "sha256": "d7b41d827fbdb4e52ed1eb48e3bfb6a1d6cd0db08bf04049da598c2a602078ee"
+  },
+  "algorithm_contracts33": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+    "bytes": 58701,
+    "sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5"
+  },
+  "current33_IO": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev526_seasonal_independent_review/current33_nonauthor_actual_IO.json.gz",
+    "bytes": 13396305,
+    "sha256": "bc19a4c03527c2f8094f86915f408e194dabc758e64002ee3a1b03fff5609b55"
+  },
+  "source_lock": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev510_Ren_follow_finance_intent_source/source_execution_lock.json",
+    "bytes": 2767,
+    "sha256": "1bfcb0f82ae010f9d2c3cb18bfa4d13c8697ed3ddf632d679906fa64a10dbc32"
+  },
+  "same_version_reproducible_full_API_CLI": true,
+  "whole_quality_and_ALL_alternatives": "原6公开与3留出之全现有元素子集/3幅度/3κ全部保；130独立新全图状态验证，负向/触发未立/缺实体明确状态。阳性不选单一参数。",
+  "source_limits_and_remaining": "冬原局火gross>0/net0，不能由终余0判未暖；纯火2实际原火终余虽起但水/木根压力变差，整题未通过。三季算子可采用不等原喜火暖已数值化解决，保真实原缺口，不调κ/目标冒复现。新增火实体/全部跨元素季节与其他从势/取用/变化仍按原范围。",
+  "source_layers": "金日木财，春水生太过火行、夏火旺泄气水生、冬水多木泛土培火暖；原注/任注分层，非449丁日金财秋例；书无本项目κ或份额。",
+  "no_original_or_current_chart_rewriting": true,
+  "not_source_guidance_equals_engineering_net_result": true,
+  "original_G03_fully_closed": false,
+  "all_original_C02_complete": false,
+  "original_task_complete": false,
+  "empirical_prediction_validated": false,
+  "score": "88.75/100",
+  "progress_delta": "0.00",
+  "no_B_theme_display": true
+}

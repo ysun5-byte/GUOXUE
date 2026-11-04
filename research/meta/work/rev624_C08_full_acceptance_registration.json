@@ -1,0 +1,32 @@
+{
+  "status": "accepted_original_C08_stage1_and_original_Part1_delivery_complete",
+  "decision": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_original_full_acceptance/acceptance_decision.json",
+    "bytes": 15592,
+    "sha256": "f601d86c0fbfab0405ea2457aefdd94ef622a9390e3a5a2d4807fa710e921cd6"
+  },
+  "public": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_最终验收与使用说明_rev624.txt",
+    "bytes": 8375,
+    "sha256": "8f49090347f5a052b1f406ef8051c663296b1edfa4663a2f0662a9b3fd06eee7"
+  },
+  "module": "C08",
+  "old_stage": "0.75",
+  "new_stage": "1.00",
+  "old_score": "98.75",
+  "score": "100.00",
+  "progress_delta": "1.25",
+  "denominator": 100,
+  "remaining_total_points": "0.00",
+  "original_task_complete": true,
+  "final_independent_evidence_archive": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_最终验收与独立复核记录_rev624.zip",
+    "bytes": 36325210,
+    "sha256": "283793dc8140f1c2b9b7b67724c46501557adbfa8288597789371916f6a92393"
+  },
+  "final_evidence_archive_index": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_final_evidence_archive_index.json",
+    "bytes": 101242,
+    "sha256": "9180b98ca61a1607d6462248bcd596831b02d9d6ef9d9402d4cf4c37ac8cc373"
+  }
+}

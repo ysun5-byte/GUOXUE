@@ -1,0 +1,68 @@
+{
+  "schema": "479-original-MCN4-finite-whole-and-negative-net-adoption/1",
+  "revision": 479,
+  "registered_utc": "2026-11-03T07:05:20.600802+00:00",
+  "status": "adopted_exact47078_after47730_finite_whole_diagnostics_and_all_negative_net_results",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev470_MC_N4_officer_hurt_whole",
+      "files": 78,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev470_MC_N4_officer_hurt_whole/manifest.json",
+        "bytes": 12074,
+        "sha256": "4592596b2882c9b65aaabda1edf4ec066a6be736f95e80afa563fcf43c760317"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev470_MC_N4_officer_hurt_whole/freeze.json",
+        "bytes": 148,
+        "sha256": "35e36959ca98c6dbc09acc3024481e03d3cd545f3bb82b0940b4bf609723bee2"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev477_MC_N4_independent_review",
+      "files": 30,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev477_MC_N4_independent_review/manifest.json",
+        "bytes": 4308,
+        "sha256": "04962ee397c58cc22778eb762dd13208cac4efc883656bf87829db2869f14d9e"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev477_MC_N4_independent_review/freeze.json",
+        "bytes": 92,
+        "sha256": "d682aff7981b60df6bf9c358a846f0ed4c9551e95da235195e7f515f3779d5c2"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev470_author_completion_handoff.json",
+    "bytes": 4994,
+    "sha256": "e5a02bf47f81c2b99d171a9a25702839657b5fc009ac83e30c56e4ec146bf8f3"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev477_independent_completion_handoff.json",
+    "bytes": 6043,
+    "sha256": "3eb7fd03f3ef4ba93a8b7b3551b4367332ea52e16b9f9e664b5cf4f79c715e7a"
+  },
+  "source": "Primary42印33甲戌辛官丁伤的官伤相背，24–30印15–21合会/成败/救应另层；原175与徐注部分会组分别保，不把原形0解释为全部条件不可能。",
+  "scope": "仅辛卯戊戌甲寅丁卯、辛卯戊戌甲午丁卯两人工合法完整盘，2具名接收解释/3profile，原明藏/ROOT全部与生克/费用共current。非原典完整命例、非盲测或现实效果。",
+  "relation_meaning": "原根比较版不证明会效零；具名火接收版本以寅戌/午戌/卯戌支位max(native,7/2)工程资格，不造新藏火、不删木根、同origin一次，不声称传统完整化火或所有关系通用。",
+  "whole_goals": "M木体gross−5/4全费用与负担，O原明年辛current/原金根留存，A全部真火攻该辛；一般量效/官伤存在/强A=0分开。主寅原根M正仍A正，午原根M负，火接收均M负。",
+  "finance_diagnostic": "仅切土→年辛正生成，不退原潜在费率/删根/删演员，所有实际费用随新current重算；实际财生官为正不直接推净喜土或官格已救。",
+  "net_question": "仅当前四元素每非空subset、3固定λ等分：新M>0/O_native>0，M/O不降、A不升且一strict。两盘12版本合540候选均未过。全部失败/权衡是已计算验过的阴性，不能要求调参造正。",
+  "not_universal_negative": "未证明任意连续份额/任意增量/所有其它原局都无喜用无救应，亦不能断缺水不需或水唯一；有藏印/其它实际关系与救应还在原范围。",
+  "independent_evidence": "477事前24新条件/45完整解（6base6财关6显式零源24增量3新严格边），2640来源方程/2375正负/70114边源费用分项全符自有库存/Cramer；39契约/27当前IO/12旧未执行，3实际坏0/clean4，现成78只读副本12新进程/48真实负控，全字节模式不变。",
+  "author_correct_domain_reused": "564完整world/540增补、40留出3等号边、13strict2完整协议等正确域复用，不重复作为新独立命例。",
+  "documentation_history": "原433主56说明未单列两旧ROOT内部回调，470首次doc walker报缺键，首错/脚本/IO保。当前39定义=17新适配+20旧合同+2未改旧callback新显式说明，27真实IO；原源码/数值/预期/trace均未改。",
+  "original_remaining": [
+    "原MCN4更广原柱、真实复杂关系/藏印与合格救应、全局辅助主次/替代方案",
+    "原普通财/真假从/所从意向/调候和实际五层其它支",
+    "原地区窗口及最后支持范围完整回放/运行发行"
+  ],
+  "no_B_theme_weights_display_or_physical_work": true,
+  "no_all_school_consensus_or_prediction_gate_added": true,
+  "not_empirical_predictive_validation": true,
+  "progress": "86.25/100",
+  "progress_delta": 0
+}

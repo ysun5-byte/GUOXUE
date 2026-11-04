@@ -1,0 +1,155 @@
+{
+  "schema": "real-time-carriers-whole-source-flow-and-window-comparison-adoption-0.1",
+  "revision": 385,
+  "registered_utc": "2026-11-02T21:01:05.097637+00:00",
+  "status": "adopted_exact372_0.1.1_after380_and_reused368_correct_source_math",
+  "verified": {
+    "candidate372": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev372_current_time_window_patch",
+      "files": 144,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev372_current_time_window_patch/manifest.json",
+        "bytes": 24771,
+        "sha256": "cdd9af5210e35a23170e463d9ce6ba66558867be30332ea924c893303119503e"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev372_current_time_window_patch/freeze.json",
+        "bytes": 229,
+        "sha256": "aa473671917dc30781e4bd7296f95e5ae9bb13fb0467bd33ded95dac1084f13e"
+      },
+      "all_payload_bytes_SHA_checked": true
+    },
+    "targeted380": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev380_current_window_patch_independent",
+      "files": 41,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev380_current_window_patch_independent/manifest.json",
+        "bytes": 4639,
+        "sha256": "4aee98f506ed3e3c153e6ceae49f8ba994200e88bb027af5a2373a5d14312095"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev380_current_window_patch_independent/freeze.json",
+        "bytes": 578,
+        "sha256": "d341b2d869d8feb142d284e162e8f6998ca3c0f9b659efdcf7ace8fe6976e5df"
+      },
+      "all_payload_bytes_SHA_checked": true
+    },
+    "correct_domain368": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev368_follow_child_current_time_independent",
+      "files": 50,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev368_follow_child_current_time_independent/manifest.json",
+        "bytes": 5942,
+        "sha256": "0a72d3b244114fb72c84f10bbce887021e9d85c67f773d74973f6424b90f45a0"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev368_follow_child_current_time_independent/freeze.json",
+        "bytes": 573,
+        "sha256": "af8141a8c27a036bc5fc06c651d512c731d5c9d85a299e7bf436b622d996f38c"
+      },
+      "all_payload_bytes_SHA_checked": true
+    }
+  },
+  "precise_pins": {
+    "manifest": "cdd9af5210e35a23170e463d9ce6ba66558867be30332ea924c893303119503e",
+    "freeze": "aa473671917dc30781e4bd7296f95e5ae9bb13fb0467bd33ded95dac1084f13e",
+    "core": "54e662139d9404754bc605df9c2d780131dcc84a6e213596e92d84f6a700cd86",
+    "entry": "57c47a168b34971068a2f25a87aba7e2e2d1815291519bfcf8d5742697ea7887",
+    "math": "39ac212a578b80d02fe0a49c8e65e1251108552d5dd61e0f563543b66f78f176",
+    "source_lock": "29f6bd7f85b511ada8ad572e268a59eb55ec49968a6a74c12a727f5a6e3f7e20"
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev380_current_window_patch_independent/independent_report.json",
+    "bytes": 5814,
+    "sha256": "e9f4f10daa7d5e323116b6cb7c1b0d9fcb051ca7d757a884e6b19618b0bb41a0"
+  },
+  "inherited_source_math_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev368_follow_child_current_time_independent/independent_report.json",
+    "bytes": 8819,
+    "sha256": "b7ee10d3f7622a28ee4f0de05ebe7ee9e7566b7e30db1188390a51a5a23376a1"
+  },
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev372_author_completion_handoff.json",
+    "bytes": 2103,
+    "sha256": "99006078cc9135598ab1f644ab79d99beb6bfd095a754d27fa8a61074cff44e7"
+  },
+  "author_complete_move": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev372_author_readonly_and_complete_move_receipt.json",
+    "bytes": 7814,
+    "sha256": "10b0b9c13f8702699aeb6441b65a25286cbe5312038261e61a01fe3b680d3167"
+  },
+  "underlying_natal_adoption": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev354_follow_child_project_model_adoption.json",
+    "bytes": 11508,
+    "sha256": "64a53f84f9872a0f3d8f92f58cf19990e663bf462287bcfc88ee4f2e16fbe63a"
+  },
+  "whole_natal_conclusion": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev373_follow_child_whole_conclusion_adoption.json",
+    "bytes": 10026,
+    "sha256": "bcc513871419792109d27123ba7c99ac1aaf435379a0de4e790fc4497f2094bd"
+  },
+  "source_scope": "ExactRen393Q6 natal辛丑辛丑戊申壬子 plus externally supplied fiveUTCtyped layers; supported new支申/酉 and stems土金水 under source/no-new-unclosed-relation conditions.",
+  "real_carriers": "Each selected大运/年/月/日/时 creates actual visible/hidden actors and independent origins; allbirth/control/cost/root paths read same current; not merely symbolic time vector.",
+  "allocation": "First deduct control against same-origin water, then distribute unused soil-control budget across remaining water stocks, withfull source×target ledger. Old344entirebox nooverflow proof gives old origin-by-origin equivalence; not claim old344bug.",
+  "complete_math": "Exactsamecurrent土生金/金生水/土克水 and costs, physicalworld vspositivecredit ledger; allminimalH for up to33packages via proved boundedwitness factorization, oldAUX16cap unchanged, independently checked small originaldomain. Source/time validity and overlap-only五虎/五鼠 checks retained.",
+  "comparison_semantics": "actualselectedrecord layer/id/version/fullrecordSHA keeprawsegments; onlyadjacentexactsame refs merge. Function timeline merges adjacentknown equal-effect intervals; compare usesunionofbothfunctionalboundarysets, withsameUTCrequestedwindow domain. Pending/unknown nothashed asknown.",
+  "existing_contract": "sameowner/method/chart/evaluationkind prerequisite, wrongmethodhardbeforeworld, differentwindowdomain explicitnotcomparable, instants retainclockrollback/oldlease checks; no newpermissionmode or broadancientgate introduced",
+  "corrected_two_original_defects": "actual independent2028-06-21 case: all5sourceIDsreplaced andsamepillarhour split; functional confirmed_same + sourceidentityTrue, rawframes2→functional1 while sourcecanonical2 staysvisible",
+  "real_change_validation": "fresh existing144copy case secondhour辛酉 vs庚申, [True,False] at06:23, currentH[120,108], properconfirmed_changed/sourceidentityTrue",
+  "unknown_not_same": "8 independentnewnative gap/pending/window/instant/owner/kind/domain/methodcases pass; sourceknown pending can have identityFalse withfunctionalunknown; gap/uncovered sourceidentityNone notemptyFalse; nofunctionalSame/Changed confirmations",
+  "code_change_scope": "wholeAST complement exactly357 except5functions/VERSION, entryonlyCOREpin; all58source/mathmaterials source_lock/current_flow byte-identical; no hiddenclass/config/permissionmode/gate changes",
+  "verification": {
+    "full_native_original_case": {
+      "API": 1,
+      "CLI": 1,
+      "bytes": 292268706,
+      "sha256": "eb8e9fd8ede5d8f5ebd999e81137cc1c05c45d562b652f14210ea295f4fb3733",
+      "everyfield_no_projection_native_JSON_and_bytes_equal": true,
+      "new5observedcounts": {
+        "snapshot": 2,
+        "window_functional_timeline": 2,
+        "snapshot_source_trace": 2,
+        "compare": 1,
+        "compare_window_functional": 1
+      }
+    },
+    "existing_complete_copy_localcase": {
+      "files": 144,
+      "API": 1,
+      "CLI": 1,
+      "bytes": 282529260,
+      "sha256": "ee2ef87b90e8ac105b9796fa83999ce64185b47f93274d43b8688667e52e3def",
+      "everyfield_native_JSON_and_bytes_equal": true,
+      "whole_original_projectroot_read_attempts": 0,
+      "whole_package_write_attempts": 0,
+      "all144original_andcopy_prepost_SHAequal": true,
+      "new_fullcopy": false
+    },
+    "cheap_native_API": 8,
+    "new_entry_strict_CLI": 2,
+    "changed_core_or_sourcelock_bad_CLI_provider0": 2,
+    "clean_pending_CLI": 1,
+    "fullnormal_CLI_total": 2,
+    "sourceguard_strict_CLI_total": 5,
+    "new_helper_cases": "static_scope_and_new_helpers_actual.json; exact prospective interval/source/clockback assertions"
+  },
+  "original_source_math_reuse": "368 correctdomain: entireoriginalbox equivalence, new17origin/spill, 125compatibletype bounds/33package factorization/newsource boundaries/37originalcontracts; no fresh704/125fullgrids repeated after5temporalfunctions change.",
+  "helper_contracts": "Three new timeline/trace/comparison helpers plus snapshot/compare changed; all5 realIO/AST andcaller/sourceboundary substantively reviewed, old unchanged functions reused.",
+  "same_theme_or_color_claim": false,
+  "temporal_strength_not_symbolic_weight": "Externalreach1 and currentroot/cost profile are explicit engineering. No1/5 symbolictimecode or5percent C20 budget is treated as actualtraditional force.",
+  "calendar_and_prediction": "SuppliedUTC/pillars only, no calendar/起运 authentication or realityprediction validation.",
+  "old357_exact_hold": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev375_original357_window_comparison_hold.json",
+    "bytes": 1642,
+    "sha256": "04d2ea49defd7d6483b69496f2363a6698f4d53ef810b95070e51f4cffaa8f9a"
+  },
+  "old357_not_retroapproved": true,
+  "no_effect_on_prior344_354_or301_adoption": true,
+  "remaining_scope": "othernatal/woodfire/newformalrelations andtraditionalfinalpriority gaps retained",
+  "all_C03_complete": false,
+  "B_theme_J2_display_exported": false,
+  "default_B155_or_approved_weights_changed": false,
+  "original_task_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

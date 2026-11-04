@@ -1,0 +1,47 @@
+{
+  "id": "rev277-current-print-finance-outlet-coupled-whole-project-adoption",
+  "status": "adopted_for_bounded_current_model",
+  "method": "current-print-finance-outlet-coupled-whole",
+  "method_version": "0.1",
+  "component": "rev267_concurrent_finance_print_extension",
+  "model_core_sha256": "2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d",
+  "model_math_sha256": "87bef8841e5e0edd9ef0a9d6b408d9824f53b0fdd76e56faa32698d41c052d99",
+  "model_dependency_lock_sha256": "58b78572aef6fa9630e503d6d2fd40586b481abef3dd8c9f71bf118e23d6ec71",
+  "model_manifest_sha256": "70fc139d944b1d6f1bf8498bbb2651b15dc06629edfd4e30e3fea8c6af4b7d5e",
+  "model_freeze_sha256": "a4b8635aa0f0a9f53989e747537e4503e26bb1093874a6e84fbc4f604460ea21",
+  "source_scope": "Selected original monthly印格 印重身强/财轻兼露伤食; source roles/ROOT/HAP/relation/climate and pre-H fixed degree conditions exactly as267. Half thresholds and full feedback/package conventions are declared engineering, not classical numbers.",
+  "accepted_effect": "Source-qualified full signed current graph and every robust minimal auxiliary AND/OR package, including active-peer effects. Native time inputs actually drive stocks/conditions; original natal B remains separate.",
+  "effective_document_clarification": {
+    "target": "rule_cards.json CFP-FEEDBACK.preconditions/exclusions",
+    "target_sha256": "c5fed75cf9fe2c09d690cfb4d07a4a69fea81245db147227f25cae563d955d65",
+    "issue": "L<1 is stated without the explicit control-edge-present qualification. Existing solve/README/proof already include exact acyclicw1 exception.",
+    "effective_reading": "Require L<1 for an enabled finance-to-print feedback edge. When control is absent, solve exactw1 under the other primitive/domain premises; no contraction bound is needed. Failed active certificate means unresolved, not no solution.",
+    "actual_new_tests": "activeL6 returns unresolved; same no-controlL6 returns exactw1; strict carry equality at720/131 fails,719/131 passes and721/131 fails",
+    "implementation_changed": false,
+    "frozen_original_changed": false
+  },
+  "aggregate_acceptance": {
+    "component": "rev277_concurrent_print_finance_whole_acceptance",
+    "files": 3,
+    "manifest_sha256": "3a5f68754d7e1c2a3f0ae8120079bbcab360d14f88414fbbb029c54832a8d246",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "e174d86fa1371f7cc4b664385334fef26ab24080821c69dc9a65c2532870eb2b",
+    "report_sha256": "0f737057820b3e1e6822424f2335a1ae4d14de6fde7e2026f094aa0af1a3737c"
+  },
+  "independent_review": {
+    "component": "rev272_concurrent_print_finance_independent",
+    "files": 36,
+    "manifest_sha256": "74c554a617470c57bafd77b2f5d59bbba44d532f436267790b925b66210d4ffa",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "ae6ae295842cb8469300347a0f70240202cc06f0ef5af58dc792abfa9c5a6543",
+    "report_sha256": "46e88db673a84a8c4fb1ddbffb43d3369a596c6f081a3fea57eb1094d05caffb"
+  },
+  "frozen_historical_pending_flags_not_rewritten": true,
+  "current_theme_consumer_adopted": false,
+  "natal_B_or_C20_or_default_changed": false,
+  "all_original_task_complete": false,
+  "all_C03_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

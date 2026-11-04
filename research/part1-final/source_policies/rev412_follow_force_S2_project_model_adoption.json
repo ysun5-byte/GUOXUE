@@ -1,0 +1,169 @@
+{
+  "schema": "source-qualified-follow-force-connected-flow-model-adoption-0.1",
+  "revision": 412,
+  "registered_utc": "2026-11-02T22:19:33.686693+00:00",
+  "status": "adopted_exact392_method0.1.1_connectedH0.2_after409_with_historical_contract_clarification",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev392_Ren_follow_force_S2_whole",
+      "files": 90,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev392_Ren_follow_force_S2_whole/manifest.json",
+        "bytes": 13964,
+        "sha256": "48c49b6e6dbb4ea229a09e353247f82c7a0eb81f784bf48d3106a81980cef697"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev392_Ren_follow_force_S2_whole/freeze.json",
+        "bytes": 355,
+        "sha256": "ff13e6ce025d355220bba3ec7479194310a5bf3e4be0211010f97274e84bbff7"
+      },
+      "root_all_SHA_bytes_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev409_follow_force_S2_independent_review",
+      "files": 51,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev409_follow_force_S2_independent_review/manifest.json",
+        "bytes": 8464,
+        "sha256": "00c61134cf416f5c8b043e6bb99a16c54189998c4cb30dfdedd7bfa0e4036834"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev409_follow_force_S2_independent_review/freeze.json",
+        "bytes": 204,
+        "sha256": "00af6ef6223c484d9efee57aa77099a9677ecb90952313f7937df9011a2eb968"
+      },
+      "root_all_SHA_bytes_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev392_author_completion_handoff.json",
+    "bytes": 1987,
+    "sha256": "80015d5c6d2f429706e2a48b7868a873bab5fa1a4d5751e5d4af3f2eae9b5924"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev409_independent_completion_handoff.json",
+    "bytes": 2595,
+    "sha256": "85699b27d925eaa9409640563e2c6071fe1a8ecf6bded86eb99c9f87a8295183"
+  },
+  "source": {
+    "book": "1947滴天髓阐微任氏从势",
+    "actual_case_PDF_page": 373,
+    "actual_source_case": [
+      "丙戌",
+      "壬辰",
+      "癸巳",
+      "甲寅"
+    ],
+    "context_read": "372—373及81—84/90/93—95原图；版次沿248，不冒全书核毕",
+    "interpretation": "财官伤并旺、官当令，须从官势，坐下财引通伤官；月壬为劫财，巳庚正印/戌辛偏印与辰癸根都保。"
+  },
+  "finite_scope": "仅具名S2原局、三套注册参数和原载亥运支事件；不假作所有从势或完整干支岁运通解。",
+  "inventory": {
+    "original_actors": 16,
+    "original_root_rows": 64,
+    "actual_edges": 101,
+    "Hai_actors": 18,
+    "Hai_root_rows": 90,
+    "direct_wood_fire_earth_metal_water": [
+      "33/4",
+      "19/2",
+      "55/4",
+      "6",
+      "17/4"
+    ],
+    "origin_max_then_actor_pool_weight": "原来源只注一次，全部演员/根/正负和预算保留；非演员局部库存等价。"
+  },
+  "source_relation_consumption": {
+    "ChenXu": "官当令/同土不强制开库拔根；两支8实际藏物路径都消费，不另加一份冲力。",
+    "YinSi": "按源83—84相生解释不叠名称性害，7真实路径及巳庚克寅甲坏作用仍保。",
+    "Hai": "具名帮身+冲去巳火事件：加入亥壬甲及根，关闭有效日火和日火根功能，原身份/资格保留，巳庚戊不无源删除；未明运干不补。",
+    "not_generic_all_clash_or_punishment_rule": true
+  },
+  "physical_model": {
+    "redirect": "u=min(c*wood,k*fire)",
+    "wood_generation": "b*wood+u",
+    "wood_direct_control_earth": "c*wood-u",
+    "same_wood_source_budget": "(b+c)*wood always, no second emission from fire reception capacity",
+    "all_other_actions_same_current": true,
+    "exact_faces": "2 redirect regimes times32 nonnegative faces, all five equations substituted exactly",
+    "contraction_bound": "(b+c+max(c,k))/(1+b+c)<1",
+    "units_and_thresholds": "已声明根资格数/月乘/浮源和b,c,k为工程约定，未冒原典定量。"
+  },
+  "complete_questions": {
+    "officer_core": "官土当令原根仍活，c*earth>=residual_water，b*metal<c*earth；不要求把所有根和水清零。",
+    "redirect_half": "u>=c*wood/2，必须有真实木→财火→官土两段流。",
+    "connected_credit": "u*sw*sf>=c*wood/2 AND twohop*sw*sf*st>=b*rho_fire*c*wood/2；直接从现有actor边求同股流核乘积。",
+    "source_sitting_finance_preference": "原文坐下财优选另问保留，不由数值最小路线抹掉偏好。",
+    "fixedworld_credit_not_physical_actor_deletion": true
+  },
+  "method_whole_conclusion": "全部实际作用/源目标/同股H与同成本关闭正许可对照都通过后，官土为核心、财火为相；木在H中是输入，不自动判喜木。",
+  "nominal": {
+    "current_wood_fire_earth_metal_water": [
+      "5549/1096",
+      "1057/137",
+      "1432/137",
+      "1221/274",
+      "1005/548"
+    ],
+    "u": "5549/4384",
+    "connected_H": 44,
+    "sitting_finance_H": 28,
+    "other_profiles_H": [
+      [
+        24,
+        20
+      ],
+      [
+        11,
+        7
+      ]
+    ],
+    "Hai_current": [
+      "24567/3161",
+      "34693/6322",
+      "61327/6322",
+      "29727/6322",
+      "27397/6322"
+    ],
+    "Hai_fails_all_three_profiles": true
+  },
+  "independent409": {
+    "public_worlds": 6,
+    "all_unique_masks": 18432,
+    "two_question_native_AND_truths": 36864,
+    "all_actual_actor_edges_origins_and_costs_reconstructed": true,
+    "diagnostic_worlds": 12,
+    "new_parameter_combinations": 2,
+    "new_exact_boundaries": 3,
+    "functions": 43,
+    "current_actual_IO": 40,
+    "new_functions": 20,
+    "old_AST_reuse": 23,
+    "legacy_unexecuted": 3,
+    "strict": 10,
+    "new_bad_source": 2,
+    "bad_provider_exec": 0,
+    "clean_provider_exec_each": 4,
+    "existing90copy_new_processes": "4 positive API/CLI plus independent forbidden-oldroot negative control; exact output, all90 SHA same, oldroot0/包写0。"
+  },
+  "native_projection": "旧AUX16上限不改。每CNF只列11/12全部可选演员，不可选金水由完整物理图/背景库存报告保；2048/4096每mask核子题AND等价，CNF图不冒完整物理图。",
+  "real_defects_repaired_not_retroapproved": {
+    "old_halfstage_H": "木62/91与财18/35各过半，但同股1116/3185u不足半；新0.1.1/H0.2真实修目标和H，旧48/24等不追认。",
+    "18_actor_native_limit": "首次源亥事件实际超16失败保留；现分题投影及全部mask等价真证明，未改旧native限制。",
+    "physical_worlds_unchanged_by_H_repair": true
+  },
+  "effective_documentation_context_clarification": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev409_follow_force_S2_independent_review/historical_K2_contract_context_clarification.json",
+    "bytes": 1128,
+    "sha256": "4ce9ce0895279e92c9bfe351fe846025bb7356e607174b9ed3f9d1d47335371f"
+  },
+  "clarification_meaning": "当前formal_relations卡末K2金局句只属旧363被引合同历史语境，不为S2授予金局消费；该函数本身仍只报六合法冲形式。旧卡不篡改，解释范围随本记录绑定。",
+  "no_B_theme_display_export": true,
+  "default_B155_or_weights_changed": false,
+  "general_follow_force_or_cross_school_final_priority_complete": false,
+  "all_C02_C03_complete": false,
+  "real_prediction_validated": false,
+  "original_task_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

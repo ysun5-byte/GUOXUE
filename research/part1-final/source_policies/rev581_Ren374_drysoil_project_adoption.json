@@ -1,0 +1,111 @@
+{
+  "schema": "581-exact572-after580-drysoil-sourcecap-adoption/1",
+  "revision": 581,
+  "status": "adopted_exact572_after580_finite_Ren374_JiWei_dry_soil_routing_cap",
+  "saved_utc": "2026-11-03T16:00:24.929068+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_author_completion_handoff.json",
+    "bytes": 2030,
+    "sha256": "6ce7de93480572de66f82b7aaced77aa92f261595aa440bcb2cf6002fc8c57ac"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev580_independent_completion_handoff.json",
+    "bytes": 1890,
+    "sha256": "8cc9e3d3154eada0738dc449551096e6d8b70d4fbda1afc22232eaca4e7a96b4"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer",
+    "files": 66,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/manifest.json",
+      "bytes": 10141,
+      "sha256": "83a3e47c98060adad7600b2ed0fdec761543cf95ffe535e2178dcc807b0899b3"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/freeze.json",
+      "bytes": 166,
+      "sha256": "6cdc85854721d101246bba6659553514c43bb418b3bb6c944720c0c00a93432b"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev580_Ren374_drysoil_independent_review",
+    "files": 24,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev580_Ren374_drysoil_independent_review/manifest.json",
+      "bytes": 3481,
+      "sha256": "96d06b8e85ecf28153568ff293963f4582b3a33c33c68a5659852c245177de4f"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev580_Ren374_drysoil_independent_review/freeze.json",
+      "bytes": 186,
+      "sha256": "7c323e0c756664f74d2db604aa56b1ecab9e6396aa224f664d3a324acc931f8d"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_complete_runtime_kernel",
+      "files": 55,
+      "payload_files": 53,
+      "payload_bytes": 5831262,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 8390,
+        "sha256": "a16eb2ebe08e59477d588c2572589d05432035d9b2f907e4324af3e6ebf8c786"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 167,
+        "sha256": "c49af70576fc31f4e0fd02659dcd382c80bc8f3764aa9a06879e844794cfef57"
+      },
+      "all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/572 one complete readonly sourcecap research bywt05hl/complete sourcecap runtime with spaces",
+      "files": 55,
+      "payload_files": 53,
+      "payload_bytes": 5831262,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/572 one complete readonly sourcecap research bywt05hl/complete sourcecap runtime with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 8390,
+        "sha256": "a16eb2ebe08e59477d588c2572589d05432035d9b2f907e4324af3e6ebf8c786"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/572 one complete readonly sourcecap research bywt05hl/complete sourcecap runtime with spaces/DELIVERY_FREEZE.json",
+        "bytes": 167,
+        "sha256": "c49af70576fc31f4e0fd02659dcd382c80bc8f3764aa9a06879e844794cfef57"
+      },
+      "all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev581_Ren374_drysoil_effective_rule_cards.json",
+    "bytes": 9081,
+    "sha256": "fb61df134af623242617d0debbea2ca7c10590a05588cf4efd595c43e4d97f24"
+  },
+  "all48_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/algorithm_explanations_all48.json",
+    "bytes": 94508,
+    "sha256": "1f5915b61309f460696f13bee8522f860706153ce7b1bee0d22f7f6f9c4332f0"
+  },
+  "independent_report": {
+    "path": "work/rev580_Ren374_drysoil_independent_review/independent_report.json",
+    "bytes": 9867,
+    "sha256": "4da26eca356fc3e4fd5f9ecc1927325f530ab810affed0d84907e9af3954e836"
+  },
+  "scope": "原癸酉乙丑丙申丙申natal/癸亥/己未；三个旧参数与三个公开theta方法，新增未位土控制预算引化容量限制及原全金水题。",
+  "source_function_S_not_same_as_incremental_N_or_oldcore": true,
+  "ordinary_soil_birth_and_all_feedback_costs_retained": true,
+  "all12_new_independent_points25_registered_worlds_and46_comparison_references_passed": true,
+  "reviewer_source575_label_is572_typo_not_another_source": true,
+  "source_pins_comparison_after_new_calls_before_adoption_not_retroprereg": true,
+  "author63_and_old27_correct_evidence_reused": true,
+  "original_other_soil_and_actualfiveUTC_still_continue": true,
+  "all_original_C03_complete": false,
+  "original_task_complete": false,
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "no_B_or_display": true,
+  "realprediction_or_mortality_verified": false
+}

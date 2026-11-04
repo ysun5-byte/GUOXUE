@@ -1,0 +1,70 @@
+{
+  "id": "rev301-native-current-food-kill-print-whole-project-adoption",
+  "status": "adopted_for_bounded_current_whole_model",
+  "component": "rev286_food_kill_print_current_consumer/model_whole_extension",
+  "method": "MCN3-native-current-carriers-whole-0.1",
+  "implementation_revision": "0.1.0",
+  "target": {
+    "component": "rev286_food_kill_print_current_consumer/model_whole_extension",
+    "files": 1587,
+    "manifest_sha256": "d45f23b41bc2da3938e5f754fea9fb11e4a814a361938df10a6b2dc01082dcba",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "647bc490619719ad02013093fe978492f70edb99e031c1604dafee864a99d312",
+    "pins": {
+      "extension_model.py": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+      "carrier_coupled_extension.py": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+      "dependency_lock.json": "1a7e7e4099f7524237edc0b5f900cc2e9fc22180a47931371251eaf8fdf88f9e",
+      "report.json": "6c647387b636e87b11b94d5e0bffdfd275fae223c7f4dcfe91945533902944c3",
+      "manifest.json": "d45f23b41bc2da3938e5f754fea9fb11e4a814a361938df10a6b2dc01082dcba",
+      "freeze.json": "647bc490619719ad02013093fe978492f70edb99e031c1604dafee864a99d312",
+      "reference_receipt.json": "53e74261b986951761e2f07859aefb9aff7ee0c8b1042afbd81f9a880c025114"
+    }
+  },
+  "model_core_sha256": "733f5891bf0c0f83626bb3fc5a91d6538b0a7a62e346a98d54bccd31dc0ac063",
+  "engine_sha256": "ebf9c1e45e74c0028397d750e44f95d3ae9c74f838f5873132a116318ce9a6cb",
+  "lock_sha256": "1a7e7e4099f7524237edc0b5f900cc2e9fc22180a47931371251eaf8fdf88f9e",
+  "review": {
+    "component": "rev291_food_kill_print_model_independent",
+    "files": 88,
+    "manifest_sha256": "812543cfc6f8007539890aff3d77603d2760806b2e3f0f70549e95b13d8b1e04",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "5bb9b205288f450f67cc8d67be933b3c45d90ed24b09c81b8c0e6f6710d4691a",
+    "report_sha256": "8dfe8c2c9d59f6b57de4f731c71ffdd7311c27075ca8c1ced838fad69c12ab09"
+  },
+  "aggregate_acceptance": {
+    "component": "rev301_current_carriers_inner_acceptance",
+    "files": 3,
+    "manifest_sha256": "ad1e94a0333cf9d1a845a122abff9b908a7fda539d5b9661fe71e1bf1f1fde13",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "cade23a98c42a75fbf39bf68dea0325a072c8e6f6665ff06783e0a94578e3723",
+    "report_sha256": "845656721cfcc10bc0f36ef96aa9b90a0317a4ff6eb046b36a6e5db716537783"
+  },
+  "scope": "Four natal pillars and actual five external same-stem layers under the source-qualified Chen food/kill/print branch, with all actual carrier geometries. Not arbitrary extra finance/peer/officer/hurt, transformations or climate.",
+  "source_scope": "Primary43/76/77 food-with-kill-print branch plus actually read56–59 conditional luck changes. Same operator across five supplied layers, nativeROOT/reach, lambda1/2 and strict rho1/5 are explicitly engineered, not classical printed numbers.",
+  "runtime_effect": "Same currentK supplies attack and kill生印; P birthday/negativefoodrestraint retained with package switches. Fulltypedpath, remaining livekill, strictbody and source root conditions precede allsuperset robustminimalH.",
+  "publication_binding": "Adopt entire exact1587 manifest/freeze, including retained originalPDF/newimages/proofs. DirectCLI registered runtime capture1501 plus sourcecontract/engine is distinct from release1587 evidence. Future outer must check entire1587 publishedfreeze before using inner, including unknown outcomes; an engineSHA alone is insufficient.",
+  "prior_actual_natal_adoption": {
+    "path": "rev280_food_kill_print_project_adoption.json",
+    "sha256": "796828d24531807faf03782fdcfab2824fb5ec798b53340a47926d9c191cd925"
+  },
+  "prior_actual_window_dependency": {
+    "path": "rev117_current012_project_adoption.json",
+    "sha256": "03337fe405f66c182b0519d38a675279516d78762b088f15221fa106a5dfb197"
+  },
+  "separate_consumer_must_be_reviewed_after_real_inner_policy": true,
+  "B_exported": false,
+  "theme_exported": false,
+  "window_consumer_adopted": false,
+  "weights_changed": false,
+  "original_task_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0",
+  "remaining_original_tasks": [
+    "other current finance/peer/officer/hurt and mixed vectors",
+    "unclosed relations/climate",
+    "broadC02/C03 and realvalidation",
+    "separate upper consumer/theme/window acceptance",
+    "丁壬真/假化 positive source branch not covered by286"
+  ]
+}

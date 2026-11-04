@@ -1,0 +1,616 @@
+{
+  "schema": "C08-effective-production-transport-and-reader-all20-r1/1",
+  "original_transport_named_definitions18": true,
+  "new_source_retrieval_definitions2": true,
+  "total20": 20,
+  "functions": [
+    {
+      "id": "delivery_common.py:canonical",
+      "path": "delivery_common.py",
+      "line": 7,
+      "arguments": [
+        "value"
+      ],
+      "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "稳定JSON序列化",
+        "inputs": "待传递JSON值",
+        "operations": "排序键、紧凑分隔、Unicode原样、禁止NaN/Infinity；不隐式认证命理含义",
+        "outputs": "str；不兼容类型或非有限数抛异常",
+        "preconditions_and_limits": "其本身仍会把tuple转list/非str键转字串；公开execute必须先后配合exact_JSON_tree，保首反例。"
+      },
+      "source_sha256": "66164f9408e39c112cacf40040d003b4e5e8229b6942abcde9c945b2d3442fa0",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "delivery_common.py:canonical:7",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "delivery_common.py:strict_load",
+      "path": "delivery_common.py",
+      "line": 10,
+      "arguments": [
+        "text"
+      ],
+      "AST_sha256": "a66e3637b5c0aadfd2212ed72ddc9caffb0949b058e85e55e9fdbc57a8ae308d",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "严格读入JSON文本",
+        "inputs": "str文本",
+        "operations": "object_pairs_hook逐对象拒重复键；parse_constant拒非有限常量",
+        "outputs": "实际JSON树，或ValueError/JSONDecodeError",
+        "preconditions_and_limits": "不增加原合同未约定的大小、深度、整数位数限额；UTF8由调用者先解码。"
+      },
+      "source_sha256": "66164f9408e39c112cacf40040d003b4e5e8229b6942abcde9c945b2d3442fa0",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "delivery_common.py:strict_load:10",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "delivery_common.py:strict_load.pairs",
+      "path": "delivery_common.py",
+      "line": 11,
+      "arguments": [
+        "items"
+      ],
+      "AST_sha256": "abf3d33f251817f46f3c2600c0437a882323058c6995639f5ec070a3f2721544",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "逐JSON对象保键唯一",
+        "inputs": "解析器传入键值对list[tuple]",
+        "operations": "新dict依次写入；已存在同键则ValueError(duplicate_JSON_key)",
+        "outputs": "dict",
+        "preconditions_and_limits": "这是读取对象的局部条件，不验证业务字段。"
+      },
+      "source_sha256": "66164f9408e39c112cacf40040d003b4e5e8229b6942abcde9c945b2d3442fa0",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "delivery_common.py:pairs:11",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "delivery_common.py:strict_load.constant",
+      "path": "delivery_common.py",
+      "line": 17,
+      "arguments": [
+        "value"
+      ],
+      "AST_sha256": "d6404d7b01f302ae0a93185cd23daf9d6e241a6fa548716b3bc3f7e57c850e3b",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "拒JSON非有限扩展",
+        "inputs": "解析器传入常量字串",
+        "operations": "无条件raise ValueError(nonfinite_JSON_constant)",
+        "outputs": "抛ValueError",
+        "preconditions_and_limits": "profile可见return事件None是抛异常展开，不冒正常返回。"
+      },
+      "source_sha256": "66164f9408e39c112cacf40040d003b4e5e8229b6942abcde9c945b2d3442fa0",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "delivery_common.py:constant:17",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "delivery_common.py:exact_JSON_tree",
+      "path": "delivery_common.py",
+      "line": 20,
+      "arguments": [
+        "value"
+      ],
+      "AST_sha256": "911e5345e3aeda406e0c46cfdb92a7309476356d6d9e3b050c1973cf1a5d7b1e",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "阻止Python专有类型在运输中被静默转换",
+        "inputs": "原始Python请求树",
+        "operations": "显式栈遍历；只准内建dict/list及None/str/bool/int/float，dict键必须内建str",
+        "outputs": "无异常时None；不合类型ValueError",
+        "preconditions_and_limits": "不检查finite或UTF8，公开execute此前canonical+UTF8已做；不新增长度深度限额。"
+      },
+      "source_sha256": "66164f9408e39c112cacf40040d003b4e5e8229b6942abcde9c945b2d3442fa0",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "delivery_common.py:exact_JSON_tree:20",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "delivery_common.py:safe_path",
+      "path": "delivery_common.py",
+      "line": 32,
+      "arguments": [
+        "base",
+        "relative"
+      ],
+      "AST_sha256": "58b3eaff1b27a923bbe16a225b6f79fac411d954f921cd5149646d1dc1345092",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "将选定文件及祖先锚在当前包ROOT",
+        "inputs": "ROOT内的词法base和相对relative",
+        "operations": "拒绝绝对relative及..；base必须词法属于canonical ROOT；逐祖先拒symlink；最终resolve仍必须属于ROOT",
+        "outputs": "Path或ValueError",
+        "preconditions_and_limits": "已修prepared_runtime祖先/.objects越界；这是当次路径检查，不承诺并发恶意改文件的无竞态文件系统。"
+      },
+      "source_sha256": "66164f9408e39c112cacf40040d003b4e5e8229b6942abcde9c945b2d3442fa0",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "delivery_common.py:safe_path:32",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "delivery_common.py:matched",
+      "path": "delivery_common.py",
+      "line": 44,
+      "arguments": [
+        "path",
+        "meta",
+        "cache"
+      ],
+      "AST_sha256": "27a3294cf5a98505869a9cb73b20c7091a1d0e37bc0d37f934eeac4f7d32fea4",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "核当前文件字节身份",
+        "inputs": "Path、{bytes,sha256}、可选本次inode缓存",
+        "operations": "要求常规非symlink文件；读取SHA/长度，或复用同一次guard中同inode的已读结果；与pin精确比对",
+        "outputs": "None或ValueError",
+        "preconditions_and_limits": "缓存只在单次不可变组件核对中用；不把mode权限当来源身份。"
+      },
+      "source_sha256": "66164f9408e39c112cacf40040d003b4e5e8229b6942abcde9c945b2d3442fa0",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "delivery_common.py:matched:44",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "delivery_common.py:component_guard",
+      "path": "delivery_common.py",
+      "line": 53,
+      "arguments": [
+        "catalog",
+        "component"
+      ],
+      "AST_sha256": "b612e7392062cae4cf999af55fae44c2b1664ae1c62514d1661f69b7db606953",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "provider前核组件完整文件集合与每字节来源",
+        "inputs": "实际catalog和registered component",
+        "operations": "ROOT锚定运行目录；实际文件集合必须恰等注册集合；逐文件matched；当前精确policy也matched",
+        "outputs": "完整组件base Path，或ValueError",
+        "preconditions_and_limits": "只处理已登记的成熟版本；不知道/阴性由native报告，不能用已通过来源核对代替规则成立。"
+      },
+      "source_sha256": "66164f9408e39c112cacf40040d003b4e5e8229b6942abcde9c945b2d3442fa0",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "delivery_common.py:component_guard:53",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "delivery_common.py:native_module",
+      "path": "delivery_common.py",
+      "line": 63,
+      "arguments": [
+        "path"
+      ],
+      "AST_sha256": "8662bd7972877f5e469413e51a62e0747881187cf584dec83b85ab89e5ccae3e",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "在新命名空间装载已核固定入口",
+        "inputs": "已经guard的入口Path",
+        "operations": "新ModuleType、设置__file__、把其目录放sys.path首；compile/exec原字节",
+        "outputs": "实际ModuleType",
+        "preconditions_and_limits": "本函数不自行guard；只由已核分派使用。sys.path不恢复，公开运行是一调用一隔离进程。"
+      },
+      "source_sha256": "66164f9408e39c112cacf40040d003b4e5e8229b6942abcde9c945b2d3442fa0",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "delivery_common.py:native_module:63",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "v1_entry.py:verify_registration",
+      "path": "v1_entry.py",
+      "line": 14,
+      "arguments": [],
+      "AST_sha256": "9488ac54697e4c8aa061c453966ea4b814f17a6e2addb0fea04d65e6faa76357",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "在选路前核发行登记",
+        "inputs": "当前固定文件",
+        "operations": "先package_pins整文件SHA，再全部登记元数据与policy逐字节；严格读取route_manifest",
+        "outputs": "原始manifest dict或异常",
+        "preconditions_and_limits": "不消费命盘、不判断格局；unknown route仍交原31入口拒绝。"
+      },
+      "source_sha256": "3ac8a47214a1bb36634a99ae36518bb24e3151cccc6e6d2bd19cfcbd5407251a",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "v1_entry.py:verify_registration:14",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "v1_entry.py:execute",
+      "path": "v1_entry.py",
+      "line": 21,
+      "arguments": [
+        "request"
+      ],
+      "AST_sha256": "2025f2fd597302d525d192574e343f3ceec2190a084307b5ee2427e903006e72",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "沿原三字段入口接通已采用原生方法",
+        "inputs": "schema_version/route_id/native_request恰三字段",
+        "operations": "canonical+UTF8与exact_JSON_tree；核schema/route登记；仅缺所选完整目录才固定脚本prepare；坏现存目录不自动修；新隔离worker接收完整raw native_request；原31只翻译外层schema为旧0.7.1",
+        "outputs": "完整外层dict，内含未裁剪native_report；异常拒绝issues",
+        "preconditions_and_limits": "executed仅说明调用完成，已算阴性/unknown与失败分开；无新B/显示/权重；不能从route数推出规则覆盖率。"
+      },
+      "source_sha256": "3ac8a47214a1bb36634a99ae36518bb24e3151cccc6e6d2bd19cfcbd5407251a",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "v1_entry.py:execute:21",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "v1_entry.py:main",
+      "path": "v1_entry.py",
+      "line": 56,
+      "arguments": [
+        "argv"
+      ],
+      "AST_sha256": "945faf2a2e282daf67a44e1326d559f808b0a2721953f03849e851b632f88b77",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "公开统一CLI",
+        "inputs": "argv=[request.json]",
+        "operations": "按UTF8/strict_load读原请求；execute；打印canonical完整结果",
+        "outputs": "int0(executed)或2(rejected)，stdout完整JSON",
+        "preconditions_and_limits": "输入/序列化错误形成拒绝；不把旧native内部预测真实性认证。"
+      },
+      "source_sha256": "3ac8a47214a1bb36634a99ae36518bb24e3151cccc6e6d2bd19cfcbd5407251a",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "v1_entry.py:main:56",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "native_worker.py:dispatch",
+      "path": "native_worker.py",
+      "line": 11,
+      "arguments": [
+        "request",
+        "catalog",
+        "manifest"
+      ],
+      "AST_sha256": "3f168c7049d24766189eb5c1f9943543e24cda051ba6d61d3cc57980d54ebc93",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "单隔离进程的一次原生调用",
+        "inputs": "固定kind/component/route_id/native_request及精确catalog/manifest",
+        "operations": "安装局部exec计数hook；component_guard在先；旧31精确schema适配；新raw JSON完整交固定public_API；region用给定lookup/compose和临时JSON路径；返回前检查结果可JSON化",
+        "outputs": "ok/native_report/native_provider_exec；原生异常保type/message返回ok false",
+        "preconditions_and_limits": "不裁剪原报告、不加选择参数；exec数仅当前worker，旧入口后代计数须看跨进程guard证据。"
+      },
+      "source_sha256": "3cb991f560de775b8179e0759ef0443427911e435629dff2004ec8c9a27978fe",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "native_worker.py:dispatch:11",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "native_worker.py:dispatch.audit",
+      "path": "native_worker.py",
+      "line": 13,
+      "arguments": [
+        "event",
+        "args"
+      ],
+      "AST_sha256": "8a1fa37361e0008a8b5dcfd04c863c02977eef9de36cbc61e3fe9997b6cf226d",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "记录当前worker实际provider执行",
+        "inputs": "Python审计event,args及闭包base",
+        "operations": "仅exec且真实co_filename属于所选base时累加；<...>不计",
+        "outputs": "None并更新闭包计数",
+        "preconditions_and_limits": "不是整个进程树总计；不能从计数推规则成立，真正隔离另有后代审计。"
+      },
+      "source_sha256": "3cb991f560de775b8179e0759ef0443427911e435629dff2004ec8c9a27978fe",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "native_worker.py:audit:13",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "native_worker.py:main",
+      "path": "native_worker.py",
+      "line": 37,
+      "arguments": [],
+      "AST_sha256": "f90d2d7a517623087cee070c90f011e5dcfb3f0d053d22650d3161b56d9a5f2b",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "worker真实stdin/stdout合同",
+        "inputs": "stdin UTF8严格JSON",
+        "operations": "读固定catalog/manifest，调用dispatch，完整canonical打印",
+        "outputs": "int0；stdout含ok真/假及完整结果",
+        "preconditions_and_limits": "原生拒绝可在进程正常退出0中表达；外层不得据退出码判格局成功。"
+      },
+      "source_sha256": "3cb991f560de775b8179e0759ef0443427911e435629dff2004ec8c9a27978fe",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "native_worker.py:main:37",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "prepare_runtime.py:volume_digest",
+      "path": "prepare_runtime.py",
+      "line": 12,
+      "arguments": [
+        "path"
+      ],
+      "AST_sha256": "508cf188760612e174d95593e892500c9bb4d47e333407e355a32971545bfc2f",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "流式核冻结卷身份",
+        "inputs": "卷Path",
+        "operations": "8MiB逐块累加总bytes和SHA256；iter中lambda只是同一读块操作",
+        "outputs": "(int bytes,str SHA256)",
+        "preconditions_and_limits": "只字节读取，不展开/运行研究；不重复大数学。"
+      },
+      "source_sha256": "d2e9af67d842fc64ffcb53cbd7acca2634d7eeb63f1e25a4367e20010431b840",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "prepare_runtime.py:volume_digest:12",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "prepare_runtime.py:prepare",
+      "path": "prepare_runtime.py",
+      "line": 18,
+      "arguments": [
+        "selected"
+      ],
+      "AST_sha256": "2e3057c3ea2db71de80c7083429f377d2d6b8bd411c87ca61de4d140fd5ecc7e",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "按组件恢复原冻结文件布局",
+        "inputs": "None(全部)或非空唯一registered IDs list",
+        "operations": "核固定登记；核所需卷；ROOT锚定.objects；每新对象从卷读取并核SHA后独立写入新inode；从本次新对象常规hardlink到完整布局；核已有文件及完整集合",
+        "outputs": "exact_runtime_prepared回执或异常",
+        "preconditions_and_limits": "不hardlink旧work/唯一只读核；不改原source lock/verify/schema；按需缓存与全卷保全并存；不把所有同时展开当功能门。"
+      },
+      "source_sha256": "d2e9af67d842fc64ffcb53cbd7acca2634d7eeb63f1e25a4367e20010431b840",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "prepare_runtime.py:prepare:18",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "prepare_runtime.py:main",
+      "path": "prepare_runtime.py",
+      "line": 60,
+      "arguments": [
+        "argv"
+      ],
+      "AST_sha256": "19d55c27e34627b5f4342d8336a1964c05b66d728fd0256a901e88d3aa076cc7",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "公开按组件准备CLI",
+        "inputs": "argv空或--component id...",
+        "operations": "解析固定语法，prepare，完整canonical打印回执",
+        "outputs": "None；命令正常退出0，异常由Python报告",
+        "preconditions_and_limits": "默认全部可能需更大空间；说明推荐所选组件按需恢复。"
+      },
+      "source_sha256": "d2e9af67d842fc64ffcb53cbd7acca2634d7eeb63f1e25a4367e20010431b840",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "prepare_runtime.py:main:60",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "research_files_effective_r1.py:fetch",
+      "path": "research_files_effective_r1.py",
+      "line": 12,
+      "arguments": [
+        "key"
+      ],
+      "AST_sha256": "c68b650d8c4f6c4b04323db031bfac46188cb140feaaafc13b798619984f5b0e",
+      "classification": "exact_old_reader_controlflow_and_operations_only_fixed_data_catalog_filename_and_SHA_rebound",
+      "algorithm_contract": {
+        "purpose": "从相对卷恢复精确研究原文/附录",
+        "inputs": "project-relative key，或reading:/original501:逻辑键",
+        "operations": "核research_catalog_effective_r1固定SHA；映射精确文件SHA；ROOT锚定相对卷；拒目录/symlink成员；取原字节并核长度/SHA；使用已由收件器按原schema规范并补齐49419条的r1登记，本取件函数不解析原MF。",
+        "outputs": "bytes或异常",
+        "preconditions_and_limits": "不执行附录；旧absolute定位只作来源别名；按版本/SHA消歧。两份失存旧导航SHA明确ValueError，mutable current裸路径要求版本，不用最新值冒充旧字节。"
+      },
+      "source_sha256": "280bd548aeb5ef764b29d35df0cbac17ea2124d20847195227664cdb1a376b8a",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08_r1.zip",
+        "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/first_complete_actual_r1_reader_IO.json.gz",
+        "record": "fetch"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true,
+      "exact_old_reference": {
+        "artifact": "运行整合层_20个算法解释.json",
+        "record": "research_files.py:fetch",
+        "only_function_literal_changes": [
+          {
+            "old": "research_catalog.json",
+            "new": "research_catalog_effective_r1.json"
+          }
+        ],
+        "whole_module_reverse_identity_except_fixed_catalog_SHA_and_filename": true
+      }
+    },
+    {
+      "id": "research_files_effective_r1.py:main",
+      "path": "research_files_effective_r1.py",
+      "line": 30,
+      "arguments": [
+        "argv"
+      ],
+      "AST_sha256": "97e991a9ca641ca4c1451dc10b4c19d30a98dcc5cdaac8edf11aaa87459ac654",
+      "classification": "exact_old_reader_controlflow_and_operations_only_fixed_data_catalog_filename_and_SHA_rebound",
+      "algorithm_contract": {
+        "purpose": "供人和接续研究取资料",
+        "inputs": "list-reading；show key；extract key outside_destination",
+        "operations": "列当前阅读逻辑名，或fetch后原字节stdout，或只向包外指定路径写出；使用已由收件器按原schema规范并补齐49419条的r1登记，本取件函数不解析原MF。",
+        "outputs": "int0；错误抛ValueError/KeyError/来源异常",
+        "preconditions_and_limits": "只取资料不运算命理；extract禁止写冻结包内，show/list可在整包只读条件下运行。"
+      },
+      "source_sha256": "280bd548aeb5ef764b29d35df0cbac17ea2124d20847195227664cdb1a376b8a",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08_r1.zip",
+        "member": "C08_runtime_integration_after612/actual_effective_r1_reader_IO/first_complete_actual_r1_reader_IO.json.gz",
+        "record": "main"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true,
+      "exact_old_reference": {
+        "artifact": "运行整合层_20个算法解释.json",
+        "record": "research_files.py:main",
+        "only_function_literal_changes": [
+          {
+            "old": "research_catalog.json",
+            "new": "research_catalog_effective_r1.json"
+          }
+        ],
+        "whole_module_reverse_identity_except_fixed_catalog_SHA_and_filename": true
+      }
+    }
+  ],
+  "actual_IO_limits": "首个实际完整形式参数/return event；不冒全部分支，异常展开None由phase实际异常另解释；ModuleType/code只记录身份非完整命名空间。",
+  "native_methods_and_formulas_unchanged": true,
+  "progress_delta": "0.00",
+  "current_effective_named_definitions20": true,
+  "original18_transport_module_source_and_AST_and_IO_unchanged": true,
+  "current_reader_definitions2_r1": true,
+  "superseded_original_reader_definitions2": [
+    {
+      "id": "research_files.py:fetch",
+      "path": "research_files.py",
+      "line": 12,
+      "arguments": [
+        "key"
+      ],
+      "AST_sha256": "6dcbb158526fc06735aa344a0bed763573f559788a64efaf14b389b7ce3014e9",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "从相对卷恢复精确研究原文/附录",
+        "inputs": "project-relative key，或reading:/original501:逻辑键",
+        "operations": "核research_catalog固定SHA；映射精确文件SHA；ROOT锚定相对卷；拒目录/symlink成员；取原字节并核长度/SHA",
+        "outputs": "bytes或异常",
+        "preconditions_and_limits": "不执行附录；旧absolute定位只作来源别名；按版本/SHA消歧。两份失存旧导航SHA明确ValueError，mutable current裸路径要求版本，不用最新值冒充旧字节。"
+      },
+      "source_sha256": "2e1c02edf451575d5b9f314de319f9996b3cfef354fd9d85419eac19c57bdb5f",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "research_files.py:fetch:12",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    },
+    {
+      "id": "research_files.py:main",
+      "path": "research_files.py",
+      "line": 30,
+      "arguments": [
+        "argv"
+      ],
+      "AST_sha256": "7066944ebac528937d5287a7ef82558d5cbdba8ee42940aef1ec3d133f0f13cd",
+      "classification": "transport_or_research_retrieval_only_no_BaZi_formula_change",
+      "algorithm_contract": {
+        "purpose": "供人和接续研究取资料",
+        "inputs": "list-reading；show key；extract key outside_destination",
+        "operations": "列当前阅读逻辑名，或fetch后原字节stdout，或只向包外指定路径写出",
+        "outputs": "int0；错误抛ValueError/KeyError/来源异常",
+        "preconditions_and_limits": "只取资料不运算命理；extract禁止写冻结包内，show/list可在整包只读条件下运行。"
+      },
+      "source_sha256": "2e1c02edf451575d5b9f314de319f9996b3cfef354fd9d85419eac19c57bdb5f",
+      "current_actual_IO_reference": {
+        "artifact": "交付验证证据_C08.zip",
+        "record": "research_files.py:main:30",
+        "member": "C08_runtime_integration_after612/actual_transport_helpers_current_IO/first_complete_actual_IO_by_definition.json.gz"
+      },
+      "source_layer": "本项目发行工程约定；原命理来源仍在各native原规则卡",
+      "reality_prediction_validated": false,
+      "exact_current_source_and_IO_module_SHA_pair": true
+    }
+  ],
+  "total_physical_named_definitions22_including_superseded_reader": true,
+  "original20_document_is_r0_historical_scope_not_current_data_completeness": true,
+  "source_schema_omission_repair_changes_only_source_collection_and_reader_catalog_not_native_rules": true
+}

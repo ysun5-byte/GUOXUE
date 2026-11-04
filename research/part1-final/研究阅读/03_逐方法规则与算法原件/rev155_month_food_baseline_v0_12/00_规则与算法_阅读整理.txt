@@ -1,0 +1,491 @@
+个人基础：先整盘再生成主题
+rev155_month_food_baseline_v0_12
+所属原模块：C02
+当前采用：rev167_B12_project_adoption.json
+范围：原十二条有限分流与月令食神新接合；全源/参与/根/关系/调候及完整目标之后，全备选辅助元素并集唯一才给单主题。无序多元素保留。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev155_month_food_baseline_v0_12/algorithm_explanations.json
+SHA256：c3df0d57def5b422565434c47f9eebf3e7e0225a4b3d629e6016a4490073be92
+
+1. VerifiedMaterial.__init__
+函数AST摘要：014ec40baf1e6355cf68dd2c19e08237a21e60c5fc8c90d585392201e7ed72af
+实际输入输出：actual_algorithm_IO.json.gz#functions.VerifiedMaterial.__init__
+算法与理由：保存实际材料索引和延迟捕获缓存；根目录仅新runtime完整快照。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：23
+file：baseline.py
+来源层次与边界：源完整性工程，不认证外部事实。
+start_line：23
+函数标识：VerifiedMaterial.__init__
+
+2. VerifiedMaterial.sha
+函数AST摘要：344a18a5f3d475a8e87145ecff078e902b2c556257577791f12672fc996b9d45
+实际输入输出：actual_algorithm_IO.json.gz#functions.VerifiedMaterial.sha
+算法与理由：只从已流式核验的真实文件记录取摘要；不用调用方声称的摘要。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：24
+file：baseline.py
+来源层次与边界：源完整性工程。
+start_line：24
+函数标识：VerifiedMaterial.sha
+
+3. VerifiedMaterial.size
+函数AST摘要：dfd483451c82beb1cd163bd37e0b881def7fcadb3feb348ba329e212cf8ca7bf
+实际输入输出：actual_algorithm_IO.json.gz#functions.VerifiedMaterial.size
+算法与理由：读取真实文件字节长度，配合内层manifest既有bytes或size格式。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：25
+file：baseline.py
+来源层次与边界：不同既有清单格式保持原样。
+start_line：25
+函数标识：VerifiedMaterial.size
+
+4. VerifiedMaterial.__getitem__
+函数AST摘要：826ad58da191a39899cab3f4619a48cf42baeb8acc7d67965442f81c1128dd0a
+实际输入输出：actual_algorithm_IO.json.gz#functions.VerifiedMaterial.__getitem__
+算法与理由：实际需要源码/JSON时重新读并核sha与长度，拒符号链接和逃出目录；先验后使用之间变动也拒。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：33
+file：baseline.py
+来源层次与边界：快照字节绑定，不是来源真值判断。
+start_line：26
+函数标识：VerifiedMaterial.__getitem__
+
+5. file_digest
+函数AST摘要：3c934d13b3ff4681395f2112e69c110f8c47882eafeefc6cdbff405be9b668d6
+实际输入输出：actual_algorithm_IO.json.gz#functions.file_digest
+算法与理由：分块读取全部源件作SHA，避免把4GB原始证据整体装内存。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：39
+file：baseline.py
+来源层次与边界：实现细节服务完整性；不声称理论有效。
+start_line：35
+函数标识：file_digest
+
+6. canonical
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+实际输入输出：actual_algorithm_IO.json.gz#functions.canonical
+算法与理由：排序键、固定分隔符和中文JSON；禁止非有限数值，用相同内容得相同规范字节。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：41
+file：baseline.py
+来源层次与边界：软件同值身份，不是命理判断。
+start_line：41
+函数标识：canonical
+
+7. digest
+函数AST摘要：ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431
+实际输入输出：actual_algorithm_IO.json.gz#functions.digest
+算法与理由：对规范JSON作SHA，绑定原始输入、完整报告、模型与规则版本。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：43
+file：baseline.py
+来源层次与边界：内容变化可追溯，不认证身份/日历/现实。
+start_line：43
+函数标识：digest
+
+8. declared
+函数AST摘要：285c07aa4add98fe629db32d9d00bad50616d0759369623074070cca281583e8
+实际输入输出：actual_algorithm_IO.json.gz#functions.declared
+算法与理由：用AST读取源代码实际VERSION/METHOD/IMPLEMENTATION常量，不执行提供方去猜版本。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：46
+file：baseline.py
+来源层次与边界：源对象版本核对。
+start_line：45
+函数标识：declared
+
+9. parse
+函数AST摘要：91c2eb1214fd0f3fb33392393c84f5884f2aa44eb47c07f8ea5603f641f1438d
+实际输入输出：actual_algorithm_IO.json.gz#functions.parse
+算法与理由：JSON解析调用去重键和非有限常量拦截；实际来源和原始接口都保持严格结构。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：48
+file：baseline.py
+来源层次与边界：严格解析，不将坏输入降成无作用。
+start_line：48
+函数标识：parse
+
+10. verify_tree
+函数AST摘要：d1b9132827e4282d50d7765a50bc31ad58f6c7c0f557592de1dd844528415718
+实际输入输出：actual_algorithm_IO.json.gz#functions.verify_tree
+算法与理由：核内层实际完整件集、各件sha及既有bytes/size，再核freeze到实际manifest。新148/155之类固定release另加完整freeze锚，不能只清单自洽。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：59
+file：baseline.py
+来源层次与边界：首次我误将110 size按bytes读，0provider失败已留历史；修解析不改原件。
+start_line：50
+函数标识：verify_tree
+
+11. pairs
+函数AST摘要：57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24
+实际输入输出：actual_algorithm_IO.json.gz#functions.pairs
+算法与理由：同一对象重复键立即拒绝，即使值相同；不偷偷取最后一个。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：66
+file：baseline.py
+来源层次与边界：严格输入工程。
+start_line：61
+函数标识：pairs
+
+12. no_constant
+函数AST摘要：8580e8ad284df5a3401a9a7dd99fbe3a1243c14d0b85b608517759ff622c8ad4
+实际输入输出：actual_algorithm_IO.json.gz#functions.no_constant
+算法与理由：NaN/Infinity等常量一律ValueError；实际IO的None为异常展开，不能当成合法值。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：68
+file：baseline.py
+来源层次与边界：严格输入工程。
+start_line：68
+函数标识：no_constant
+
+13. frozen_sources
+函数AST摘要：f182b4af0e113a046859df51782c77903c3c4d5679b752ac546c0c995b58cba3
+实际输入输出：actual_algorithm_IO.json.gz#functions.frozen_sources
+算法与理由：首exec前核全部固定对象：父1464264/14772+3真实采纳、MF138609含原110541/11941/1243、14535+3与实际政策。完整manifest/freeze/编译方法/件数/报告/算法/IO、目标和范围都实指；旧记录历史状态不改。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：115
+file：baseline.py
+来源层次与边界：原规则源复用；已知对象完整freeze和政策字节锚，不逐字段放宽未核版本。
+start_line：71
+函数标识：frozen_sources
+
+14. load_modules
+函数AST摘要：d453cfb082eabeafcc28c1e1612d515fafb88107b8117d287fe8a105675cdf3a
+实际输入输出：actual_algorithm_IO.json.gz#functions.load_modules
+算法与理由：流核4989原件并固定完整新registry，再核所有父/新源和实际批准；之后才exec原146/110并调用各自原生加载器。旧模型全部原字节。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：135
+file：baseline.py
+来源层次与边界：自有registry未用component标签曾first1，现固定全registry，2反例first0；原模型始终正确未改。
+start_line：117
+函数标识：load_modules
+
+15. classify
+函数AST摘要：aeed0253a5b3596a52f08be9387b9a92bfaa90b431859411303a4949dfcaf741
+实际输入输出：actual_algorithm_IO.json.gz#functions.classify
+算法与理由：从原四柱和月支主气严格十神先定分流。仅月主食神进入month_food，其余用原146准确路由；不看H成功、强弱结果或试求解器。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：140
+file：baseline.py
+来源层次与边界：月主只是入口，不等于全格局成立；source/type失败也不换路。
+start_line：137
+函数标识：classify
+
+16. month_food_intake
+函数AST摘要：51b9145868a62bc60b0a49bda2014653c7e68bbc1441a6369171cfa501c3f78f
+实际输入输出：actual_algorithm_IO.json.gz#functions.month_food_intake
+算法与理由：完整HAP/规范actor和source_context先于effect求解；先记录旧124 visible食神<=1peer或新145 hidden月主+恰2peer/1明财/无印官杀other的互斥guard，实际ctx随后须逐项同。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：148
+file：baseline.py
+来源层次与边界：门槛来自原实际政策，两种status保原样；不伪造统一批准。
+start_line：142
+函数标识：month_food_intake
+
+17. whole_selection
+函数AST摘要：1e56b7501e007eaaf8512ff49ff05ddd39d4edf116823eb255365a28ddf7a42a
+实际输入输出：actual_algorithm_IO.json.gz#functions.whole_selection
+算法与理由：非月食直接原146全盘选择；月食核9实际目标/唯一反馈/所有最小carry支持图、精确hard族及global，再重播真实nativeAUX并对齐全部actor/element备选。只有全备选元素并集唯一才支持B。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：173
+file：baseline.py
+来源层次与边界：AND在组内/OR在图间；固定全部原危害和负荷。私有删必要goal曾漏检，已留失败并补精确族和nativeAUX重核。
+start_line：150
+函数标识：whole_selection
+
+18. validate
+函数AST摘要：92ebce6d33765546eaee718766fc6202e705a773cf72b7c9cc5f29d54ec1bee4
+实际输入输出：actual_algorithm_IO.json.gz#functions.validate
+算法与理由：保留原五字段原始接口和声明含义，新逻辑schema仅0.12；拒手填H、cfg、ordinary假设、别人的声明和混淆0.12.0实现号。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：184
+file：baseline.py
+来源层次与边界：坏声明硬错与未知/到期合法声明分开。
+start_line：175
+函数标识：validate
+
+19. build_theme
+函数AST摘要：7d3b544994653990a4435ed87c44e89313aeed017e6ae9e0cf9d72be792ff103
+实际输入输出：actual_algorithm_IO.json.gz#functions.build_theme
+算法与理由：完整且唯一的整盘H之后，按原theme0.2合同生成单主题证据、完整来源/版本/摘要、理由和本地派生登记；new0.12独立方法不重贴旧B。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：204
+file：baseline.py
+来源层次与边界：派生结果供新适配器审查；source采用本身不等新wrapper正式发布或现实验证。
+start_line：186
+函数标识：build_theme
+
+20. evaluate
+函数AST摘要：fb72d399beb14b3e4087f340a1b0c549e2547d7959ddbab6b419b733835784ed
+实际输入输出：actual_algorithm_IO.json.gz#functions.evaluate
+算法与理由：先全源、合法原柱、固定路由、实际preH guard，再调用一个完整模型。完整结果/未决/外域/多元素/usage未知到期各有状态；无fallback，B仅走原桥。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：259
+file：baseline.py
+来源层次与边界：原0.11数学/报告保原版本，完整土水/水火H不删项、不排序/等权，也不只取财。
+start_line：206
+函数标识：evaluate
+
+21. main
+函数AST摘要：70bee9880e7dc87fddf1c7be6549ddf7114a57b90baa10ef8f459e7ffbed3c11
+实际输入输出：actual_algorithm_IO.json.gz#functions.main
+算法与理由：有界标准输入，严格JSON与原API；合法输出规范JSON，输入或结构错误返回2。源码和规则同一冻结版可复现。
+行为验证：[
+  "behavior_report.json",
+  "source_guard_report.json",
+  "projection_contract_actual.json",
+  "projection_alternatives_actual.json.gz",
+  "compatibility_report.json",
+  "strict_report.json"
+]
+end_line：270
+file：baseline.py
+来源层次与边界：实际stdin/stdout与API全文相等；21实际函数IO而非字段空模板。
+start_line：261
+函数标识：main
+
+原件：work/rev155_month_food_baseline_v0_12/rules_ten_fields.json
+SHA256：2b705e598a47d1743ef8fd1de54f283b7d904f4ed3290bd28a8b3afba074055a
+
+1. B12-R-ROUTE
+change_conditions：改原柱或方法版重算；H成败不改变已选入口。
+conditions：原始月支主气严格十神为食神。
+conflict_resolution：source/type不适用保未决或外域，不挑另一个能成功的模型。
+exclusions_and_failure：伤官、月财、官杀、禄劫、印等走原父分流；非法柱先报invalid。
+framework：格局入口/工程接合
+算法标识：B12-R-ROUTE
+rule_expression：role==食神 -> month_food else literal146.classify
+source_level：原典/后注/工程分层沿110/119/145和父146原卡；本版新增接合非新古籍定理
+sources：原146逐源classify和110严格月食方法
+status：已真实验证，wrapper尚待独审
+title：月令食神先分流
+verification：10真实接口/伤官边界、36旧盘12分支
+
+2. B12-R-GUARD
+change_conditions：增删角色/新来源版本重判；matched实际policy原status和ID保留。
+conditions：visible食神<=1peer；或hidden月主食神+恰2peer/1明财无印官杀other。
+conflict_resolution：同一模型外域可以保诊断，但不准H/B，不转其他求解器。
+exclusions_and_failure：隐藏0/1peer、有印或other不借新域批准；guard不是9目标成功。
+framework：具体源型工程范围
+算法标识：B12-R-GUARD
+rule_expression：month_food_intake -> old124/new145/none, beforeeffects
+source_level：原典/后注/工程分层沿110/119/145和父146原卡；本版新增接合非新古籍定理
+sources：原124政策1cb2... OR正式145政策ce516...
+status：正式源域已采用；本B12接合待审
+title：范围采用必须先于成功
+verification：可B火/两joint/外域1peer印/源pending实际例
+
+3. B12-R-WHOLE
+change_conditions：任一来源或实际目标变化重算；打印未知不等于计算无作用。
+conditions：原源门、9目标、唯一反馈和全支持解释图都完成。
+conflict_resolution：旧fixed负荷与current剩食负荷为两条件AND，不相加，也不互代。
+exclusions_and_failure：财有一条正边、只财的元素、ROOT>0或月令标签都不能顶替整盘。
+framework：格局/工程正负全图
+算法标识：B12-R-WHOLE
+rule_expression：native nine-goal world + exact hard goal/global family + actual AUX replay
+source_level：原典/后注/工程分层沿110/119/145和父146原卡；本版新增接合非新古籍定理
+sources：已审原110完整9目标/ROOT/HAP/反馈及145独审35
+status：继承模型未改；实现接合验证通过
+title：整盘所有目标先于主题
+verification：数值onlycurrentcarry失败/源pending/14私有图反例
+
+4. B12-R-UNION
+change_conditions：H任何成员、备选、scope/hardgoal/可选性变化可改B资格。
+conditions：每个minimal support有独立完整图，所有nativeH对齐；所有selectedactor真实/当前/可选；全部元素并集恰1。
+conflict_resolution：组内AND、图间OR；同元素actor多并非坏，元素联合不唯一则不B。
+exclusions_and_failure：土水或水火共同/备选不等位、不排序、不取首项，不只取财水/火。
+framework：全盘后投影
+算法标识：B12-R-UNION
+rule_expression：complete_H_all_alternatives -> actor-derived union -> exactly1
+source_level：原典/后注/工程分层沿110/119/145和父146原卡；本版新增接合非新古籍定理
+sources：母0.11 whole_before_B原则与原theme/base桥
+status：新源完整H保留，单主题B边界明确
+title：完整备选元素唯一才B
+verification：真实土水/水火无B，OR2图实际AUX和缺图/错标签反例
+
+5. B12-R-USAGE
+change_conditions：仅eval时间跨声明边界可使B不可用，不改传统原柱/H。
+conditions：完整唯一H且使用声明在给定UTC有效才导出B。
+conflict_resolution：不把声明不明写成命理算不出，也不延长外部窗口。
+exclusions_and_failure：end排除、unknown声明保完整theme/H但暂不B；坏格式是硬错。
+framework：语义接口
+算法标识：B12-R-USAGE
+rule_expression：original_base.bridge on exactnew theme/currentusage
+source_level：原典/后注/工程分层沿110/119/145和父146原卡；本版新增接合非新古籍定理
+sources：原base/theme/usage声明合同
+status：原合同不变，状态区别已验
+title：结果和使用窗口分开
+verification：end与unknown2实际API/CLI；完整H火仍保留
+
+6. B12-R-METHOD
+change_conditions：已知lease到期成员撤出，base_only把P预算回B；不等于未知兼容。
+conditions：B12实际双成员同0.12方法，且active verifiedcompatible。
+conflict_resolution：从immutableB重算，不递归Z；全部C20原权重不变。
+exclusions_and_failure：真实旧0.11即使compat也不混；缺/unknown不计算P。
+framework：产品工程
+算法标识：B12-R-METHOD
+rule_expression：same_actual_method AND activeverifiedcompat; knownemptyP return
+source_level：原典/后注/工程分层沿110/119/145和父146原卡；本版新增接合非新古籍定理
+sources：原R08 effectiveAND/P0.1/C20/D2/C0
+status：没有改相遇预算或地域/时间解释
+title：新旧方法与相遇规则分清
+verification：正1/负3/已知到期1各P/C20实际API/CLI；手算Z火37/40
+
+7. B12-R-SOURCE
+change_conditions：文件/源对象变化先拒，实际捕获时再核；不修改原所有版本。
+conditions：4989全源、固定registry/完整freeze/policy、实际code/version/count/report/算法/IO/审查与范围全对应。
+conflict_resolution：可核来源字节，不认证外部身份、古籍真值、日历或现实作用。
+exclusions_and_failure：语义标签、仅同分值或自洽重封不等于批准；任何新metadata需新版审定。
+framework：资料/工程完整性
+算法标识：B12-R-SOURCE
+rule_expression：streamhash -> frozen_sources+registry anchor -> first exec
+source_level：原典/后注/工程分层沿110/119/145和父146原卡；本版新增接合非新古籍定理
+sources：实际146/147、110/124/138/145完整被冻结对象
+status：当前工程源门真实通过，现实预测未验证
+title：首执行前核实际完整版本
+verification：9负探针first0/cleanfirst1；继承原源独审24/18及完整冻结件
+

@@ -1,0 +1,290 @@
+杀印通关新条件研究
+rev157_kill_print_shared_path_research
+所属原模块：C02
+当前采用：rev165_kill_print_research_archival_acceptance.json
+范围：以具名来源条件和完整印路替代缺少必要依据的跨角色容量门；位置保护及二值优先是新工程研究；何例关系未决，无当前H，不自动接B。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev157_kill_print_shared_path_research/algorithm_explanations.json
+SHA256：a17501fc0756b9797031f10442603eca5bd8748ed137a11b91c9787ade3ae57e
+
+1. 1
+qualified_name：strict
+line：16
+end_line：24
+函数AST摘要：70b3dbac2dc3896c4b105ed39d00d353278656af18e3734c78df9e5111b70b8d
+actual_call_count：5
+actual_IO_file：algorithm_IO/strict.json.gz
+actual_IO_bytes：514
+actual_IO_sha256：cdc8ff5254c3f5db7ba9f24b87025871b162b67308db1e52b128c13ac724b44f
+exception：null
+explanation：严格读入JSON，不接受同名键或NaN。
+boundary_and_reason：只负责输入语法，不能证明四柱真实。
+
+2. 2
+qualified_name：strict.pairs
+line：17
+end_line：22
+函数AST摘要：729515ff34737d6cba1bdb88d95483365af435798e7c6fdd13525c0f23a47f07
+actual_call_count：331
+actual_IO_file：algorithm_IO/strict.pairs.json.gz
+actual_IO_bytes：343
+actual_IO_sha256：9ca863d4a153b904658b8d2ae507a8d7b057a4748522850990f6e9d5a2086782
+exception：null
+explanation：按实际对象键逐一还原；遇重复键立即拒绝。
+boundary_and_reason：避免后一个同名字段覆盖前一个。
+
+3. 3
+qualified_name：strict.bad
+line：23
+end_line：23
+函数AST摘要：3bd45a4cb39147fb32468b755d00bdb91de6c524f631d8bfa1e76038cb13d988
+actual_call_count：1
+actual_IO_file：algorithm_IO/strict.bad.json.gz
+actual_IO_bytes：195
+actual_IO_sha256：34a365cad9d399a1a84593eaeb25166207b568239c9beebfd867e8ba473d28ce
+exception：nonfinite:NaN
+explanation：遇NaN或Infinity即报错。
+boundary_and_reason：实际NaN异常已触发；跟踪返回None是异常退出，不是合法null。
+
+4. 4
+qualified_name：pack
+line：25
+end_line：29
+函数AST摘要：0cbc3fb786dde1d52305b83980651f99e9a2c466f3ca6427608aca289ace3394
+actual_call_count：12969
+actual_IO_file：algorithm_IO/pack.json.gz
+actual_IO_bytes：514814
+actual_IO_sha256：fe337cdc260b4210e3058de9889afa5227670471086448786eabacd360d69cd7
+exception：null
+explanation：把精确分数写成字符串，递归保存全部账本。
+boundary_and_reason：不转浮点，不改变判断。
+
+5. 5
+qualified_name：validate_request
+line：30
+end_line：34
+函数AST摘要：86431d7b122cd0a767ed193f9d12b4213662a265bb988cc4a3de8da67a05657c
+actual_call_count：1
+actual_IO_file：algorithm_IO/validate_request.json.gz
+actual_IO_bytes：417
+actual_IO_sha256：4dd8af6c9dc28bc2d757a87c4e83cf71844191caaa843517d42d8a06b14f7f6b
+exception：null
+explanation：只收本研究新方法版本和完整四柱；先检查形状再加载来源。
+boundary_and_reason：旧方法标签、手填B、alpha或格局结论均拒绝。历法合法性另由原生解析器检查。
+
+6. 6
+qualified_name：load
+line：35
+end_line：56
+函数AST摘要：43bc78172e0b311ac3013bc717e2b22308dd0864b3667056c8d975936140d37a
+actual_call_count：1
+actual_IO_file：algorithm_IO/load.json.gz
+actual_IO_bytes：64154
+actual_IO_sha256：0a22dc3ece3347a541710bf78150f0d8ecfa539ebd07e1afb2ed6a5b4e8435b4
+exception：null
+explanation：逐件实读349项固定资料，核原326完整freeze、manifest、core与实际件数，再从已核原字节加载。
+boundary_and_reason：旧PF1仅作数学运输，不借用其印格结论。未知新来源需要新版本，不能猜兼容。
+
+7. 7
+qualified_name：source_context
+line：57
+end_line：57
+函数AST摘要：2c30178e970f14920aef9577193088453a37cf7d4bbf668ff0bffb475a45a547
+actual_call_count：1
+actual_IO_file：algorithm_IO/source_context.json.gz
+actual_IO_bytes：149823
+actual_IO_sha256：8df4de70382cffee23eecdfc18b38a1f7d84440c026b22cea876895594c78b61
+exception：null
+explanation：精确复用原109的月令、角色、全部藏干参与、根资格、合冲、刑害破、气候和具体源条件。
+boundary_and_reason：源外、未决、输入无效分开。有实际其他角色时不能只写限制后仍给H。
+
+8. 8
+qualified_name：world
+line：58
+end_line：100
+函数AST摘要：4455f13b47f422ea0998132b5363035b320e2f8a0811041f850f9be74152e078
+actual_call_count：7
+actual_IO_file：algorithm_IO/world.json.gz
+actual_IO_bytes：123086
+actual_IO_sha256：e7b72ad973c4aee52f3c02520197113a8cc8fc3149259821e73e4d288efd7584
+exception：null
+explanation：保留原根资格、生克系数、位置衰减、同源去重和财负荷；把印数值必须大于杀的旧门，换为具名源域中的完整路径门。印路断开就恢复完整杀攻身。
+boundary_and_reason：同通月令和财不破印有来源；位置代理与二值优先是新工程推论。alpha正量退出保护门，不声称真实力量会突然跳变。root_retention和断边仅为私有探针。
+
+9. 9
+qualified_name：whole_H
+line：101
+end_line：149
+函数AST摘要：3da4b5b89ff98627211f2631148f33b8544bbe233307b3b800c7baec8ef00bbb
+actual_call_count：1
+actual_IO_file：algorithm_IO/whole_H.json.gz
+actual_IO_bytes：320077
+actual_IO_sha256：1b1ac946deecb6904e7370269e9d4d90287cb5e090f0ca869d37dbd0c8894388
+exception：null
+explanation：重算财与印全部4个正功能组合，每次保留财负荷和残余杀攻，找出扩充功能后仍成立的最小充分集合，交原生整图选择器核对。
+boundary_and_reason：月杀是本源框架，不能删掉。不是看见印便直接取水；边界上确实出现财与印同时必要。
+
+10. 10
+qualified_name：evaluate
+line：152
+end_line：176
+函数AST摘要：9e2595df0ec397c874259b2f9f4fae09dd9e2844a92c1507eec5a6daf64e1040
+actual_call_count：1
+actual_IO_file：algorithm_IO/evaluate.json.gz
+actual_IO_bytes：514927
+actual_IO_sha256：84bd3d700e6859db2cfc35bbde20a7c90909c952f8e567789d8160d89051a2b0
+exception：null
+explanation：先输入、来源、原生解析、角色分流，再做整图。未决只保留明确不可当作当前H的诊断图。
+boundary_and_reason：何例数值桥通过，但当前H仍为null。不产B，不改默认或进度。
+
+11. 11
+qualified_name：main
+line：177
+end_line：180
+函数AST摘要：5c06cf86ab9aa67d650fd0a27561c5e2f5e8e0c8ac0b2e1d1dcaa8b5c88d9ede
+actual_call_count：1
+actual_IO_file：algorithm_IO/main.json.gz
+actual_IO_bytes：178
+actual_IO_sha256：5d84995eaef1439aac225c4e9333b3ffacf7d175b3e743d3f376038022affb96
+exception：null
+explanation：真实标准输入和输出接口；正常给完整判断，结构或版本错误返回2。
+boundary_and_reason：公开API与命令行全文相等，只使用本版本固定参数。
+
+原件：work/rev157_kill_print_shared_path_research/rule_cards.json
+SHA256：3b28eabf710a2ede3c597eb6d6b46be9e045bd8286ca5b2ff638b2675da9b8c4
+
+1. KP157-SOURCE
+算法标识：KP157-SOURCE
+来源层次：P79-4/X134 + engineering
+mouth：格局
+conditions：月主严格七杀；年财月杀时印；杀印同月支明藏且根资格正；实际角色闭合
+exclusions：缺共同月根只是退出本充分域，不判所有此类不成；实际食伤官比另完整分支
+changes：四柱、参与、合冲气候变化重算；相遇和显示不改原局
+conflicts：源外先分流，未决None，不搜索成功分支
+implementation：source_context
+verification：Ren两例虽有印但源外，不误用
+status：new_engineering_research_not_adopted
+
+2. KP157-UNIT
+算法标识：KP157-UNIT
+来源层次：primary qualitative + engineering unit audit
+mouth：格局与工程
+conditions：根资格不是物理能量或跨角色容量
+exclusions：R>=K没有原典必要条件支持；保留旧保守模型原样
+changes：新方法命名，不重贴旧结果
+conflicts：不调接收倍数迎合何例
+implementation：world仅移除此必要门，保历史诊断
+verification：旧容量反例新方法变正，非古法真值纠错
+status：new_engineering_research_not_adopted
+
+3. KP157-PATH
+算法标识：KP157-PATH
+来源层次：X134/RT + P79-4
+mouth：格局
+conditions：具名源域、实际印根尚在、杀生印和印生日均正、实际财损为零
+exclusions：有印字符但财破、路径断或根全失均不能开门
+changes：切任一生成边恢复杀攻；财损正量退出保护域
+conflicts：食制杀压制杀作用；印化路径没有删除杀库存
+implementation：typed_path_conditions全AND，二值attack是本有限工程约定
+verification：15私有场景含逐边切断、根0和财损
+status：new_engineering_research_not_adopted
+
+4. KP157-ORIGIN
+算法标识：KP157-ORIGIN
+来源层次：ROOT02 and old109
+mouth：工程
+conditions：同一来源到一个目标只取max，保全部根和可见来源
+exclusions：生日和日主直接同源支持不能重复相加；杀传入不能补造直接印根
+changes：新来源或实际关系变化需全账本重算
+conflicts：禁止先总额相加再冒同源去重
+implementation：merge/scale逐origin
+verification：24独立全世界账本相等；何571/128而非粗估6
+status：new_engineering_research_not_adopted
+
+5. KP157-NEG
+算法标识：KP157-NEG
+来源层次：old109 signed DAG
+mouth：工程
+conditions：财演员及财负荷始终存在；财生杀、财剋印、杀攻身、印生日全列
+exclusions：关正功能不删除财；不选财也仍承担财负荷
+changes：保护来自固定位置代理，不偷随财正功能开关改变财损
+conflicts：alpha实际损印减库存和生日；不关财回避负作用
+implementation：all negative effects retained/recomputed
+verification：断印后财load仍43/16；alpha正量杀攻仍25/2
+status：new_engineering_research_not_adopted
+
+6. KP157-BODY
+算法标识：KP157-BODY
+来源层次：full body/load engineering
+mouth：扶抑代理
+conditions：生日后BODY扣实际攻击，再严格大于5/4财负荷
+exclusions：路径通不是承财充分条件，等号失败
+changes：负荷、根留存变则整盘重算
+conflicts：不把数值代理当真实身强弱
+implementation：bodyafter>carry
+verification：甲午与甲戌两负例；439/344承财边界等号无H
+status：new_engineering_research_not_adopted
+
+7. KP157-H
+算法标识：KP157-H
+来源层次：whole graph/native solver
+mouth：整盘辅助功能
+conditions：实际整盘硬目标先过，再枚举4子集取向上稳定最小充分集
+exclusions：不能局部F直接当H；实际失败不输出修复方案H
+changes：功能组合变化全重算所有负作用与负荷
+conflicts：框架月杀非待选辅助；财印由全部依赖决定
+implementation：whole_H + native select
+verification：rho在(383/392,48/49]需要财印；更高才印
+status：new_engineering_research_not_adopted
+
+8. KP157-UNRESOLVED
+算法标识：KP157-UNRESOLVED
+来源层次：P19-20/X134 + relations
+mouth：关系
+conditions：何例远合丙辛和丑戌正量根依赖尚未闭合
+exclusions：数值桥不覆盖来源欠缺，不删pending
+changes：明确新关系来源方法才改变状态
+conflicts：当前None优先于不可导出诊断H
+implementation：evaluate分流
+verification：He API/CLI当前None，两pending全保
+status：new_engineering_research_not_adopted
+
+9. KP157-HAP-CLIMATE
+算法标识：KP157-HAP-CLIMATE
+来源层次：exact old109 context
+mouth：调候与藏干
+conditions：全部参与行、根资格、气候、合冲刑害破和源触发保留
+exclusions：潜藏未参与不证明现实零作用；ROOT0不是无气
+changes：激活新角色便需源外或未决
+conflicts：印化杀不覆盖未实现调候或食制杀冲突
+implementation：source_context
+verification：mixedFood退出；丑藏官比潜藏行仍保
+status：new_engineering_research_not_adopted
+
+10. KP157-REPRO
+算法标识：KP157-REPRO
+来源层次：fixed source closure/strict inputs
+mouth：工程
+conditions：新方法完整四柱，固定旧326源，实际payload先核再执行
+exclusions：旧schema/手填alpha/B/重复键/NaN拒绝
+changes：新freeze须新版本
+conflicts：firstattempt和executed分开
+implementation：load/validate/main
+verification：7coherent反例0attempt，clean1；8形状0load和2真CLI
+status：new_engineering_research_not_adopted
+
+11. KP157-LIMIT
+算法标识：KP157-LIMIT
+来源层次：source layers/acceptance
+mouth：验收
+conditions：可执行研究原型及复算验证完成，不表示总任务完成
+exclusions：一般不共月杀印、财印损坏、真假从格、何例关系仍欠
+changes：另续来源桥与独立复核，不改旧版本
+conflicts：来源、实现、现实三层分开
+implementation：report
+verification：没有现实效果验证，无采纳/B/C20/进度
+status：new_engineering_research_not_adopted
+

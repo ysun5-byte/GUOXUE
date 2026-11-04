@@ -1,0 +1,921 @@
+杂气月来源前件，含实质引文修正
+rev175_misc_month_source_conditions_v0_1_2
+所属原模块：C02
+当前采用：rev178_misc_source_frontend_project_adoption.json
+范围：只采用透干/具名库气候选及全形/半组的条件分类；无所得后句待校，禁止据通行无碍免除暗财。原166及174失败保真，不输出有效立用/H/B。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev175_misc_month_source_conditions_v0_1_2/algorithm_explanations.json
+SHA256：4c17699dffa549335c82a3982d2f5ff57ee3d4975bf9f2640df478405ad0d8c4
+
+1. classify
+name：classify
+file：misc_source.py
+line：102
+end_line：125
+函数AST摘要：2ce18c231c1521d2929a259ae26cb11aa8d5c1d1ed5e30b72b46c669c8876d9f
+actual_IO_file：algorithm_IO/classify.json.gz
+actual_IO_bytes：120999
+actual_IO_sha256：f285ed270da542726eea7c0a352801a30cb4f4a85fddeb34bc824792aae2d2bb
+actual_call_count：1
+explanation：先合法性，再月令来源候选、全部藏干和根、关系、气候及下一整盘依赖。
+limits_and_reason：不返回有效月令立用、完整H、B或主次。四库外原支不覆盖；输入无效单列。
+
+2. conditional_source_matches
+name：conditional_source_matches
+file：misc_source.py
+line：90
+end_line：101
+函数AST摘要：74edc1722c9cad4865d520c0221f7a096b3b2021a92706e810c38b86d89f69f4
+actual_IO_file：algorithm_IO/conditional_source_matches.json.gz
+actual_IO_bytes：7406
+actual_IO_sha256：918ca9ed086883460ca3ce8ac7db871adf54a2db7e308029f82bf8cbd42b9655
+actual_call_count：1
+explanation：逐条核日干、月支、明干和会支形，保留全部匹配的条件例。
+limits_and_reason：有情、无情和末后反转是待实际作用检验的源条件；不拿某条成功跳过冲突。
+
+3. formal_month_groups
+name：formal_month_groups
+file：misc_source.py
+line：65
+end_line：70
+函数AST摘要：760c760ace30aad6cadf6a2a989b4299a43b087a4751906f2ef2011dc1c4e408
+actual_IO_file：algorithm_IO/formal_month_groups.json.gz
+actual_IO_bytes：6171
+actual_IO_sha256：dd67f96449a41078c46bd3367c23fab6161dc6009c6d3b7be57c254745efec41
+actual_call_count：1
+explanation：把四库对应的全三字、半组、仅月支分开，并保全部出现位置。
+limits_and_reason：这是形式前件，不宣布会局有效；半组也不当零。
+
+4. later_Xu_probe.xu_fire_antecedents
+name：later_Xu_probe.xu_fire_antecedents
+file：check_later_Xu_shapes.py
+line：11
+end_line：17
+函数AST摘要：8d6e45b0acc947261fdb8bbe8f2dabb6fcf5e097adc5b74fab73dca67d7c0314
+actual_IO_file：algorithm_IO/later_Xu_probe.xu_fire_antecedents.json.gz
+actual_IO_bytes：548
+actual_IO_sha256：67595216bcdc4acba5d3648000719e5fe699f3c5aa548607f5fd5770a662b4d8
+actual_call_count：1
+explanation：另核徐注火局全组、含四正半组、透丙丁的寅戌拱组和巳替位前件。
+limits_and_reason：有位置、反解等后续限制；前件符合不意味着全局无碍。
+
+5. later_Xu_probe.xu_water_antecedents
+name：later_Xu_probe.xu_water_antecedents
+file：check_later_Xu_shapes.py
+line：4
+end_line：10
+函数AST摘要：e77a999580faccd8c636980586018adc910028ce5f7ba4747564629c06e74410
+actual_IO_file：algorithm_IO/later_Xu_probe.xu_water_antecedents.json.gz
+actual_IO_bytes：551
+actual_IO_sha256：7aba6a958d525ee05a9afb7746d9599fdeb5aba9580ed5ed8dffdc2b337e074a
+actual_call_count：1
+explanation：另核徐注水局全组、含四正半组、透壬癸的申辰拱组和亥替位前件。
+limits_and_reason：独立后注研究探针，不静默补入主本或判实际会效。
+
+6. load
+name：load
+file：misc_source.py
+line：37
+end_line：64
+函数AST摘要：edafaaeb4a6d4b0b98bd275f3bf8738851e133236eb32da971c07fc4da6feb3d
+actual_IO_file：algorithm_IO/load.json.gz
+actual_IO_bytes：5903
+actual_IO_sha256：86aeaa5f7faa9b97ebca609238023c514731e39694df433b3e02da6b32fc8540
+actual_call_count：1
+explanation：逐件读139项来源，核实际HAP、ROOT、151、源规格与原关系代码锚，再编译已核字节。
+limits_and_reason：复制的来源和派生关系代码不能仅彼此一致；本批两条真实连贯重封反例已修复并保历史。
+
+7. main
+name：main
+file：misc_source.py
+line：126
+end_line：129
+函数AST摘要：7c9c73c6298c49227e2a572d8fe211aec68fe712fd1245845ca1fe898412f9a2
+actual_IO_file：algorithm_IO/main.json.gz
+actual_IO_bytes：194
+actual_IO_sha256：d666af910ba8cc54e6ead22e3080f3fba4d3c7242210de9443cafefc8f286852
+actual_call_count：1
+explanation：真实输入输出接口。
+limits_and_reason：19组完整API与命令行全文相等，错误输入另报错。
+
+8. reused_context.adopted_relation_context
+name：reused_context.adopted_relation_context
+file：runtime/existing_context_functions.py
+line：21
+end_line：55
+函数AST摘要：87807577ed39e2685dfc1cda9b61256a905d81e5d1f9c49bd7aba4752e254236
+actual_IO_file：algorithm_IO/reused_context.adopted_relation_context.json.gz
+actual_IO_bytes：2337
+actual_IO_sha256：90defffe3f79c482748445ef7d8a6fa97a3d591f2eee21464821a40752243509
+actual_call_count：1
+explanation：精确复用原刑害破、半组和已采用源任务触发。
+limits_and_reason：保位置、源层和未决，不把形式关系一律消星。
+
+9. reused_context.climate_context
+name：reused_context.climate_context
+file：runtime/existing_context_functions.py
+line：57
+end_line：69
+函数AST摘要：ae9cdd43091e77e30aa77dc23ca1860427a234d97335bf0b1e3e772f4c978380
+actual_IO_file：algorithm_IO/reused_context.climate_context.json.gz
+actual_IO_bytes：1847
+actual_IO_sha256：1c8033c7451ee1d0f815dec00b0da8a19e1c7caa8eb14ed2d902f5acca8a3b5a
+actual_call_count：1
+explanation：精确复用原具体冬木、夏木、冬金等已知气候前件。
+limits_and_reason：旧普通模型的月份范围字段仅作历史背景，不作为本杂气分类器退出门；并不证明未命中即无气候作用。
+
+10. reused_context.supplement_relations
+name：reused_context.supplement_relations
+file：runtime/existing_context_functions.py
+line：6
+end_line：19
+函数AST摘要：2c6bb4dc676489705af1b1ec5834d7c17fe7987243c3a65a4d6a9430aff547ad
+actual_IO_file：algorithm_IO/reused_context.supplement_relations.json.gz
+actual_IO_bytes：487
+actual_IO_sha256：9cc62e9187d36f0f9e4e977692ebd726b9c158100b1ed9385d2c99c3a632577a
+actual_call_count：1
+explanation：精确复用原全三合、三会的形式清单。
+limits_and_reason：原函数AST完全相同，只列形式，不表示实际已合化。
+
+11. source_options
+name：source_options
+file：misc_source.py
+line：71
+end_line：89
+函数AST摘要：51d1be09532177855e6cb37dfd18173369dda63617ae133b0f446ef465ba5eaa
+actual_IO_file：algorithm_IO/source_options.json.gz
+actual_IO_bytes：79813
+actual_IO_sha256：994f45de13cb7da24ad66c9c276dcc03f2ccb9568b272c0897a5df36faaa8e0d
+actual_call_count：1
+explanation：原藏表同干明透照旧记录；仅主本明确的甲辰壬印、丙辰壬杀另列具名候选。
+limits_and_reason：不把癸改壬，不把所有同五行都发用。同一干反复透出只去重候选，证据位置全部保存。
+
+12. strict
+name：strict
+file：misc_source.py
+line：14
+end_line：22
+函数AST摘要：c247ce9f57888e399a954dab8cedc383c521196f9e73534c60e0c6f8354262b8
+actual_IO_file：algorithm_IO/strict.json.gz
+actual_IO_bytes：495
+actual_IO_sha256：fbe0f05430ef5f3ce9958741c83430d43aa9ef116a4de553d03104fc746d8114
+actual_call_count：12
+explanation：严格解析JSON。
+limits_and_reason：不允许重复键、NaN或隐式覆盖输入。
+
+13. strict.nonfinite
+name：strict.nonfinite
+file：misc_source.py
+line：21
+end_line：21
+函数AST摘要：9329376381f490b161e8450b2eeabebd15062ff2b24bc8cb5af922bcdfe85e2f
+actual_IO_file：algorithm_IO/strict.nonfinite.json.gz
+actual_IO_bytes：217
+actual_IO_sha256：44d0f26bba9b1bb22615202044efd115dcde8fa8c7d15381baee36834ac4e181
+actual_call_count：1
+explanation：遇非有限数值即拒绝。
+limits_and_reason：真实NaN异常有记录；跟踪None不是合法返回。
+
+14. strict.pairs
+name：strict.pairs
+file：misc_source.py
+line：15
+end_line：20
+函数AST摘要：729515ff34737d6cba1bdb88d95483365af435798e7c6fdd13525c0f23a47f07
+actual_IO_file：algorithm_IO/strict.pairs.json.gz
+actual_IO_bytes：359
+actual_IO_sha256：ff0b63d94beb8b94ba91aa41a0c8e29486bd57d11f0af5a3279f188e81d9f69c
+actual_call_count：149
+explanation：逐键还原，重复键报错。
+limits_and_reason：实际正常对象与重复输入测试分开。
+
+15. validate
+name：validate
+file：misc_source.py
+line：23
+end_line：27
+函数AST摘要：86560f87fc5b424bd8210f550f1bc8d3b7e31f430699e42fe926f421ffc3f352
+actual_IO_file：algorithm_IO/validate.json.gz
+actual_IO_bytes：413
+actual_IO_sha256：c9bf5fbffa27cfb7ad5bbdbe86bb5c5d7f2e41541120e30ecb6ed804a626a400
+actual_call_count：1
+explanation：只接受本方法及完整四柱，先检查形状再读来源。
+limits_and_reason：手填H、旧方法或缺项不会进入provider。历柱六项合法性另由原生解析器核。
+
+16. verify_original_tree
+name：verify_original_tree
+file：misc_source.py
+line：28
+end_line：36
+函数AST摘要：9765ad1a571d3f88627954fd28d2c3a07f2022bbd1751489eb9bfa2052d4d64e
+actual_IO_file：algorithm_IO/verify_original_tree.json.gz
+actual_IO_bytes：10292
+actual_IO_sha256：f86a6d2e6a311d211f3191da8951d4e9fcc2b2eba4513e6b889384b5aa857fa9
+actual_call_count：3
+explanation：核原组件完整目录、每个实际字节与原manifest、freeze对应。
+limits_and_reason：没有只检查字段格式。完整84、26、13件来源分别固定，原历史未采纳声明不改。
+
+原件：work/rev175_misc_month_source_conditions_v0_1_2/rule_cards_ten_fields.json
+SHA256：54004af3c60b4c833ec5e22daf416d154f34f42574851a480603ff7ce1e94a26
+
+1. CHEN-JIA-GUI-WATER
+算法标识：CHEN-JIA-GUI-WATER
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF41–42",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "癸",
+  "group": "申子辰",
+  "group_mode": "full"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHEN-JIA-GUI-WATER",
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "癸",
+  "group": "申子辰",
+  "group_mode": "full",
+  "source_disposition": "conditional_concordant",
+  "next_actual_tasks": [
+    "透癸印与完整水局是同印框架的两个来源；实际会局、印效及全盘其他角色另核"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "print_full_water"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "透癸印与完整水局是同印框架的两个来源；实际会局、印效及全盘其他角色另核"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+2. CHEN-BING-GUI-YI
+算法标识：CHEN-BING-GUI-YI
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF41–42",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "丙",
+  "month": "辰",
+  "required_visible": "癸乙",
+  "group": null,
+  "group_mode": null
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHEN-BING-GUI-YI",
+  "day": "丙",
+  "month": "辰",
+  "required_visible": "癸乙",
+  "group": null,
+  "group_mode": null,
+  "source_disposition": "conditional_concordant",
+  "next_actual_tasks": [
+    "实际官印相生；乙是否确能去辰中暗戊；财破印与其他作用不能略"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "officer_print_dark_earth"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "实际官印相生；乙是否确能去辰中暗戊；财破印与其他作用不能略"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+3. CHOU-JIA-XIN-JI-FULL
+算法标识：CHOU-JIA-XIN-JI-FULL
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF42",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "丑",
+  "required_visible": "辛己",
+  "group": "巳酉丑",
+  "group_mode": "full"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHOU-JIA-XIN-JI-FULL",
+  "day": "甲",
+  "month": "丑",
+  "required_visible": "辛己",
+  "group": "巳酉丑",
+  "group_mode": "full",
+  "source_disposition": "conditional_concordant",
+  "next_actual_tasks": [
+    "辛官与金局、己财生官的实际路径；原文或巳或酉会何全局歧义保留，不把全三字当普遍必要"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "officer_finance_full_metal"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "辛官与金局、己财生官的实际路径；原文或巳或酉会何全局歧义保留，不把全三字当普遍必要"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+4. CHOU-JIA-XIN-JI-PARTIAL
+算法标识：CHOU-JIA-XIN-JI-PARTIAL
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF42",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "丑",
+  "required_visible": "辛己",
+  "group": "巳酉丑",
+  "group_mode": "partial_not_full"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHOU-JIA-XIN-JI-PARTIAL",
+  "day": "甲",
+  "month": "丑",
+  "required_visible": "辛己",
+  "group": "巳酉丑",
+  "group_mode": "partial_not_full",
+  "source_disposition": "source_reading_unresolved",
+  "next_actual_tasks": [
+    "源或巳或酉句不能直接宣布半会已成；需要本源半会成立及反制条件"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "officer_finance_partial_metal"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "源或巳或酉句不能直接宣布半会已成；需要本源半会成立及反制条件"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+5. WEI-REN-JI-WOOD
+算法标识：WEI-REN-JI-WOOD
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF42",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "壬",
+  "month": "未",
+  "required_visible": "己",
+  "group": "亥卯未",
+  "group_mode": "full"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "WEI-REN-JI-WOOD",
+  "day": "壬",
+  "month": "未",
+  "required_visible": "己",
+  "group": "亥卯未",
+  "group_mode": "full",
+  "source_disposition": "conditional_conflicting",
+  "next_actual_tasks": [
+    "己官与会成木伤官之冲突；印救或其它救应须整盘，不直接判败"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "officer_hurt_wood"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "己官与会成木伤官之冲突；印救或其它救应须整盘，不直接判败"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+6. CHEN-JIA-WU-GUI
+算法标识：CHEN-JIA-WU-GUI
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF42",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "戊癸",
+  "group": null,
+  "group_mode": null
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHEN-JIA-WU-GUI",
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "戊癸",
+  "group": null,
+  "group_mode": null,
+  "source_disposition": "conditional_conflicting",
+  "next_actual_tasks": [
+    "戊癸形式五合与实际合绊、合化、位置阻隔；不把字同现当财印已经两失"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "finance_print_combination_candidate"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "戊癸形式五合与实际合绊、合化、位置阻隔；不把字同现当财印已经两失"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+7. CHEN-JIA-WU-REN
+算法标识：CHEN-JIA-WU-REN
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF42",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "戊壬",
+  "group": null,
+  "group_mode": null
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHEN-JIA-WU-REN",
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "戊壬",
+  "group": null,
+  "group_mode": null,
+  "source_disposition": "conditional_conflicting",
+  "next_actual_tasks": [
+    "财印两伤、财坏印需实际作用；保财负荷与印生日及根留存"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "finance_print_nonliteral_with_local_exception"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "财印两伤、财坏印需实际作用；保财负荷与印生日及根留存"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+8. XU-JIA-XIN-DING-FULL
+算法标识：XU-JIA-XIN-DING-FULL
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF42",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "戌",
+  "required_visible": "辛丁",
+  "group": "寅午戌",
+  "group_mode": "full"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "XU-JIA-XIN-DING-FULL",
+  "day": "甲",
+  "month": "戌",
+  "required_visible": "辛丁",
+  "group": "寅午戌",
+  "group_mode": "full",
+  "source_disposition": "conditional_conflicting",
+  "next_actual_tasks": [
+    "官伤相争与火会作用；合法四柱全局域可能为空，先核历柱，不造命例"
+  ]
+}
+verification：{
+  "matching_public_cases": [],
+  "strict_legal_full_fire_joint_domain_empty": true,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "官伤相争与火会作用；合法四柱全局域可能为空，先核历柱，不造命例"
+  ]
+}
+status：documented_source_reading_unresolved_no_legal_full_joint_example
+
+9. XU-JIA-XIN-DING-PARTIAL
+算法标识：XU-JIA-XIN-DING-PARTIAL
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF42",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "戌",
+  "required_visible": "辛丁",
+  "group": "寅午戌",
+  "group_mode": "partial_not_full"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "XU-JIA-XIN-DING-PARTIAL",
+  "day": "甲",
+  "month": "戌",
+  "required_visible": "辛丁",
+  "group": "寅午戌",
+  "group_mode": "partial_not_full",
+  "source_disposition": "source_reading_unresolved",
+  "next_actual_tasks": [
+    "主本文会寅会午是否半会/分叙需校；阴阳、五虎五鼠不容假完整命例"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "hurt_officer_partial_fire"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "主本文会寅会午是否半会/分叙需校；阴阳、五虎五鼠不容假完整命例"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+10. CHEN-JIA-REN-BING-DARK
+算法标识：CHEN-JIA-REN-BING-DARK
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF42–43",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "壬丙",
+  "group": "申子辰",
+  "group_mode": "not_full"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHEN-JIA-REN-BING-DARK",
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "壬丙",
+  "group": "申子辰",
+  "group_mode": "not_full",
+  "source_disposition": "conditional_concordance_can_reverse",
+  "next_actual_tasks": [
+    "印食泄秀与火生辰暗戊、财坏印反馈；本印强身强与印夺食均需完整计算"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "print_food_dark_earth"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "印食泄秀与火生辰暗戊、财坏印反馈；本印强身强与印夺食均需完整计算"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+11. CHEN-JIA-REN-BING-WATER-EXCEPTION
+算法标识：CHEN-JIA-REN-BING-WATER-EXCEPTION
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF42–43",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：所选NLC原印則透丙亦無所得；原166误引通行无碍。当前只核raw前件，后句consequent待校。
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "壬丙",
+  "group": "申子辰",
+  "group_mode": "full"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHEN-JIA-REN-BING-WATER-EXCEPTION",
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "壬丙",
+  "group": "申子辰",
+  "group_mode": "full",
+  "source_disposition": "source_consequent_reading_unresolved",
+  "next_actual_tasks": [
+    "壬丙与完整申子辰只是raw前件匹配；所选NLC原印無所得，后句consequent待校。不得据通行无碍免责、取消月戊暗财或删除财破印及其他负作用。"
+  ],
+  "historical_id_only_not_clearance": true,
+  "primary_literal": "則透丙亦無所得",
+  "source_consequent_revision": "0.1.2"
+}
+verification：{
+  "matching_public_cases": [
+    "finance_print_nonliteral_with_local_exception",
+    "print_food_water_exception"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "壬丙与完整申子辰只是raw前件匹配；所选NLC原印無所得，后句consequent待校。不得据通行无碍免责、取消月戊暗财或删除财破印及其他负作用。"
+  ],
+  "no_clearance_of_dark_finance_or_other_negatives_certified": true
+}
+status：source_antecedent_only_consequent_reading_unresolved
+
+12. CHEN-JIA-REN-XU
+算法标识：CHEN-JIA-REN-XU
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF43",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "壬",
+  "group": null,
+  "group_mode": "xu_branch"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHEN-JIA-REN-XU",
+  "day": "甲",
+  "month": "辰",
+  "required_visible": "壬",
+  "group": null,
+  "group_mode": "xu_branch",
+  "source_disposition": "conditional_concordance_can_reverse",
+  "next_actual_tasks": [
+    "辰戌冲土动使壬难通月令，实际根与路径需算；印格下成疑字不默改，更不设逢冲即开印库"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "print_chou_xu_not_needed_chen_xu_clash"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "辰戌冲土动使壬难通月令，实际根与路径需算；印格下成疑字不默改，更不设逢冲即开印库"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+13. CHEN-GUI-WU-WATER
+算法标识：CHEN-GUI-WU-WATER
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF43",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "癸",
+  "month": "辰",
+  "required_visible": "戊",
+  "group": "申子辰",
+  "group_mode": "full"
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHEN-GUI-WU-WATER",
+  "day": "癸",
+  "month": "辰",
+  "required_visible": "戊",
+  "group": "申子辰",
+  "group_mode": "full",
+  "source_disposition": "conditional_conflict_can_be_concordant",
+  "next_actual_tasks": [
+    "源称官制劫财；水会族是比劫，不把每个水演员都标劫财；实际官制劫及财官负荷另算"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "officer_controls_peer_family"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "源称官制劫财；水会族是比劫，不把每个水演员都标劫财；实际官制劫及财官负荷另算"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+14. CHEN-BING-WU-REN
+算法标识：CHEN-BING-WU-REN
+source：{
+  "edition": "NLC上海世界图书馆发行本，年代未定",
+  "chapter": "论杂气如何取用",
+  "locator": "PDF43",
+  "PDF_sha256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620"
+}
+source_level：主本文条件例；拆成raw谓词、全组充分形和半组未决为明示工程表达；徐注另层
+method：格局/月令来源前件，非扶抑力量、最终相神或喜用
+conditions：{
+  "day": "丙",
+  "month": "辰",
+  "required_visible": "戊壬",
+  "group": null,
+  "group_mode": null
+}
+exclusions_and_failure：缺必要raw字形不匹配；匹配仍不证明会动、克制、合去或成格。辛丁全火联合合法域为空，不造正例。
+change_conditions：四柱、明干或会形变化触发重新匹配；同五行但阴阳角色不同不可自动替换。
+conflict_resolution：所有实际源匹配并列；水会后句待校，不认证任何局部免责或删除财印冲突。相克可因目标是忌神而有情，相生也可因暗土而转碍。
+rule_expression：{
+  "id": "CHEN-BING-WU-REN",
+  "day": "丙",
+  "month": "辰",
+  "required_visible": "戊壬",
+  "group": null,
+  "group_mode": null,
+  "source_disposition": "conditional_conflict_can_be_concordant",
+  "next_actual_tasks": [
+    "戊食制壬杀的实际全图；身荷、印夺食、财生杀均不能因源称美格而免核"
+  ]
+}
+verification：{
+  "matching_public_cases": [
+    "food_controls_kill"
+  ],
+  "strict_legal_full_fire_joint_domain_empty": false,
+  "positive_not_invented_if_unreachable": true,
+  "all_public_H_B_null_by_stage_contract_not_claim_fullsolver_success": true,
+  "next_actual_tasks": [
+    "戊食制壬杀的实际全图；身荷、印夺食、财生杀均不能因源称美格而免核"
+  ]
+}
+status：verified_source_antecedent_classifier_only
+
+15. MISC166-EXPOSURE
+算法标识：MISC166-EXPOSURE
+source：PDF41一透一用/兼透兼用
+source_level：原文/后注/项目表达分别如定位
+method：月令源前置与关系边界
+conditions：同干明透候选去重、保全部位置；不据一透选B
+exclusions_and_failure：不把标签、数量、纯形式或默认显示当整盘取用闭合。
+change_conditions：源、四柱、实际任务或已核会效变化需重算。
+conflict_resolution：保全部不同来源、有效条件和未决任务，不投票，不成功搜索。
+rule_expression：同干明透候选去重、保全部位置；不据一透选B
+verification：repeated_rob_wood / single_finance / single_print
+status：bounded_source_stage_only_not_whole_completion
+
+16. MISC166-NONLITERAL
+算法标识：MISC166-NONLITERAL
+source：PDF42–43甲辰壬、丙辰壬
+source_level：原文/后注/项目表达分别如定位
+method：月令源前置与关系边界
+conditions：具名非同干水库候选与原藏表、旧HAP分存；其它同五行不泛化
+exclusions_and_failure：不把标签、数量、纯形式或默认显示当整盘取用闭合。
+change_conditions：源、四柱、实际任务或已核会效变化需重算。
+conflict_resolution：保全部不同来源、有效条件和未决任务，不投票，不成功搜索。
+rule_expression：具名非同干水库候选与原藏表、旧HAP分存；其它同五行不泛化
+verification：print_food_dark_earth / food_controls_kill
+status：bounded_source_stage_only_not_whole_completion
+
+17. MISC166-FRAME-NOT-H
+算法标识：MISC166-FRAME-NOT-H
+source：PDF41–43 + 原58/T3和151
+source_level：原文/后注/项目表达分别如定位
+method：月令源前置与关系边界
+conditions：月令立用候选不同于最终整盘辅助集合；兼用不自动等权或主次
+exclusions_and_failure：不把标签、数量、纯形式或默认显示当整盘取用闭合。
+change_conditions：源、四柱、实际任务或已核会效变化需重算。
+conflict_resolution：保全部不同来源、有效条件和未决任务，不投票，不成功搜索。
+rule_expression：月令立用候选不同于最终整盘辅助集合；兼用不自动等权或主次
+verification：所有19例H/B均None，但前件与任务有实际区分
+status：bounded_source_stage_only_not_whole_completion
+
+18. MISC166-NO-AUTO-OPEN
+算法标识：MISC166-NO-AUTO-OPEN
+source：PDF44–45相邻墓库刑冲章
+source_level：原文/后注/项目表达分别如定位
+method：月令源前置与关系边界
+conditions：透干会支不依赖先冲开；辰戌既可能动土也损印/伤官，须按实际作用源分支
+exclusions_and_failure：不把标签、数量、纯形式或默认显示当整盘取用闭合。
+change_conditions：源、四柱、实际任务或已核会效变化需重算。
+conflict_resolution：保全部不同来源、有效条件和未决任务，不投票，不成功搜索。
+rule_expression：透干会支不依赖先冲开；辰戌既可能动土也损印/伤官，须按实际作用源分支
+verification：P43壬印遇戌与原关系全保
+status：bounded_source_stage_only_not_whole_completion
+
+19. MISC166-XU-SEPARATE
+算法标识：MISC166-XU-SEPARATE
+source：徐注电子P34L1110–1114，非本NLC正文
+source_level：原文/后注/项目表达分别如定位
+method：月令源前置与关系边界
+conditions：四正半组、拱组透干替位可形成可算前件；实际会效与反解仍需核
+exclusions_and_failure：不把标签、数量、纯形式或默认显示当整盘取用闭合。
+change_conditions：源、四柱、实际任务或已核会效变化需重算。
+conflict_resolution：保全部不同来源、有效条件和未决任务，不投票，不成功搜索。
+rule_expression：四正半组、拱组透干替位可形成可算前件；实际会效与反解仍需核
+verification：3后注前件匹配+1新增人工缺透水反例
+status：bounded_source_stage_only_not_whole_completion
+

@@ -1,0 +1,3196 @@
+固定GN完整地区作用分量与逐片比较
+rev490_region_effect_research
+所属原模块：C04
+当前采用：rev499_GN_region_components_adoption.json
+范围：完整raw到Rn/Rr各1/40、严格C0返还与未知预留、整窗合量/分项比较；只地区研究分量，不新GN全Z/B/显示。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev490_region_effect_research/algorithm_explanations139.json
+SHA256：58a6a1c7d7cac1bad9a7aa606c9640cc95f22c6bbd10cda2865fa17edfe2991a
+
+1. region_effect_research.py:canonical
+算法标识：region_effect_research.py:canonical
+source_identity：{
+  "relative_path": "region_effect_research.py",
+  "qualified_name": "canonical",
+  "first_line": 10,
+  "last_line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "afb306e4e3e7f16ea887d7a3b14426dd9ac1c3d455d897d516e10d5c20204550",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+}
+条目分类：exact_old_pure_AST_with_current_contract
+contract：{
+  "purpose": "稳定完整原生JSON文本",
+  "inputs": "已pack的JSON兼容完整报告",
+  "operations": "排序键、紧凑分隔、Unicode原样、allow_nan=False",
+  "outputs": "str；主程序另加换行",
+  "preconditions_and_limits": "不执行源审查/树大小门；不支持Fraction等未pack对象，不把编码当内容真实性证明。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：{
+  "document": "reference/489_effective_pure_function_contracts31.json",
+  "id": "true_follow_finance.py:canonical"
+}
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "region_effect_research.py:canonical",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 3,
+  "record_data_retained_completely": true
+}
+
+2. region_effect_research.py:pairs
+算法标识：region_effect_research.py:pairs
+source_identity：{
+  "relative_path": "region_effect_research.py",
+  "qualified_name": "pairs",
+  "first_line": 14,
+  "last_line": 19,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "afb306e4e3e7f16ea887d7a3b14426dd9ac1c3d455d897d516e10d5c20204550",
+  "AST_sha256": "c6b6da4b973cbf17fe5f11c9d9266023a6087a7f6c67fcd0ce62d8e1cbc1b841"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "拒绝JSON重复键",
+  "inputs": "解析器给出的有序键值对",
+  "operations": "逐键加入，重复立即ValueError",
+  "outputs": "dict或错误",
+  "preconditions_and_limits": "不做业务schema或来源选择；不会挑后一个重复值。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "region_effect_research.py:pairs",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 35,
+  "record_data_retained_completely": true
+}
+
+3. region_effect_research.py:nonfinite
+算法标识：region_effect_research.py:nonfinite
+source_identity：{
+  "relative_path": "region_effect_research.py",
+  "qualified_name": "nonfinite",
+  "first_line": 22,
+  "last_line": 23,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='token')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "afb306e4e3e7f16ea887d7a3b14426dd9ac1c3d455d897d516e10d5c20204550",
+  "AST_sha256": "c4747df202600f063858e8a7141d7d0c2a1280d4f1f71c3091bc5e28ed45db4e"
+}
+条目分类：exact_old_pure_AST_with_current_contract
+contract：{
+  "purpose": "拒绝JSON非有限常量",
+  "inputs": "解析器NaN/Infinity等token",
+  "operations": "立即抛ValueError",
+  "outputs": "只有真实异常，不是正常None",
+  "preconditions_and_limits": "实际IO用NaN验证异常路径，不把unwind当正常返回。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：{
+  "document": "reference/489_effective_pure_function_contracts31.json",
+  "id": "true_follow_finance.py:nonfinite"
+}
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "region_effect_research.py:nonfinite",
+  "normal_return": false,
+  "actual_call_count_in_this_trace": 1,
+  "record_data_retained_completely": true
+}
+
+4. region_effect_research.py:bounded
+算法标识：region_effect_research.py:bounded
+source_identity：{
+  "relative_path": "region_effect_research.py",
+  "qualified_name": "bounded",
+  "first_line": 26,
+  "last_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "afb306e4e3e7f16ea887d7a3b14426dd9ac1c3d455d897d516e10d5c20204550",
+  "AST_sha256": "7ed163c603533f6322a34bd15d331c7c2e28069e03257417ce8278e97946f8df"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "约束公开包装对象大小及字符",
+  "inputs": "JSON兼容包装对象",
+  "operations": "depth24/nodes30000/object16/list64/str6400，Unicode标量；null/bool/int限定",
+  "outputs": "成功无返回值或ValueError",
+  "preconditions_and_limits": "这是新外层边界；原window还独立执行其depth20/nodes20000等原门，不弱化内部规则。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "region_effect_research.py:bounded",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 3,
+  "record_data_retained_completely": true
+}
+
+5. region_effect_research.py:strict_load
+算法标识：region_effect_research.py:strict_load
+source_identity：{
+  "relative_path": "region_effect_research.py",
+  "qualified_name": "strict_load",
+  "first_line": 42,
+  "last_line": 44,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "afb306e4e3e7f16ea887d7a3b14426dd9ac1c3d455d897d516e10d5c20204550",
+  "AST_sha256": "54365c45407e6dc69b34d42bc17deea067f29d314ec0604a69bf659c612a86c4"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "严格文本解析",
+  "inputs": "最多250000字符JSON str",
+  "operations": "使用pairs/nonfinite回调，随后bounded",
+  "outputs": "完整包装对象或错误",
+  "preconditions_and_limits": "UTF8及500000字节上限由main另核；不接受ready或向量摘要。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "region_effect_research.py:strict_load",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 2,
+  "record_data_retained_completely": true
+}
+
+6. region_effect_research.py:guard
+算法标识：region_effect_research.py:guard
+source_identity：{
+  "relative_path": "region_effect_research.py",
+  "qualified_name": "guard",
+  "first_line": 47,
+  "last_line": 60,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "afb306e4e3e7f16ea887d7a3b14426dd9ac1c3d455d897d516e10d5c20204550",
+  "AST_sha256": "5ce92d7c69fca7d7849423bc9cf629d2b183f2d64ef79d55297c0f868cd3aab8"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "在任何计算模块前核固定材料",
+  "inputs": "本目录固定source_execution_lock与77个deps/runtime/source文件",
+  "operations": "先核锁SHA、完整文件集合、常规文件/无符号链接、逐字节数及SHA",
+  "outputs": "完整已核材料bytes字典或错误",
+  "preconditions_and_limits": "外层入口和说明另由完整发行manifest绑定；资料锁只证固定资料，不认证文化/真实在场。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "region_effect_research.py:guard",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 2,
+  "record_data_retained_completely": true
+}
+
+7. region_effect_research.py:load
+算法标识：region_effect_research.py:load
+source_identity：{
+  "relative_path": "region_effect_research.py",
+  "qualified_name": "load",
+  "first_line": 63,
+  "last_line": 66,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "afb306e4e3e7f16ea887d7a3b14426dd9ac1c3d455d897d516e10d5c20204550",
+  "AST_sha256": "d77ce2ded76c5e61962664dbec514c473a2ddb7654c0ba8943e9a8ea63cde002"
+}
+条目分类：exact_old_pure_AST_with_current_contract
+contract：{
+  "purpose": "执行已核固定模块",
+  "inputs": "name/relative/material",
+  "operations": "只编译guard返回的指定文件bytes，模块__file__为本小包位置",
+  "outputs": "module对象",
+  "preconditions_and_limits": "不能把外部caller材料字典当公开输入；真实IO模块结果由本包完整源可复出。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：{
+  "document": "reference/489_effective_pure_function_contracts31.json",
+  "id": "true_follow_finance.py:load"
+}
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "region_effect_research.py:load",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 4,
+  "record_data_retained_completely": true
+}
+
+8. region_effect_research.py:evaluate
+算法标识：region_effect_research.py:evaluate
+source_identity：{
+  "relative_path": "region_effect_research.py",
+  "qualified_name": "evaluate",
+  "first_line": 69,
+  "last_line": 89,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "afb306e4e3e7f16ea887d7a3b14426dd9ac1c3d455d897d516e10d5c20204550",
+  "AST_sha256": "8fb096d6917516581488d0fb07c6f4f9f7558dd80cd53e22925d7a96acd1e38f"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "完整原请求到地区分量",
+  "inputs": "三个精确字段schema_version/operation/raw_request",
+  "operations": "先边界/源锁/原批准；实际调用原静态或整窗；成功后才载入分量算法",
+  "outputs": "原报告全文、分量、来源SHA与范围说明",
+  "preconditions_and_limits": "所有原current/previous/未来窗外硬错先由旧核拒绝，不能先给部分分量；不计算B/T/P/总Z/主题。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "region_effect_research.py:evaluate",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 2,
+  "record_data_retained_completely": true
+}
+
+9. region_effect_research.py:main
+算法标识：region_effect_research.py:main
+source_identity：{
+  "relative_path": "region_effect_research.py",
+  "qualified_name": "main",
+  "first_line": 92,
+  "last_line": 100,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "afb306e4e3e7f16ea887d7a3b14426dd9ac1c3d455d897d516e10d5c20204550",
+  "AST_sha256": "c7c1a88847f2da8808543e576ea9b56273c961301df8f2bb51a727173a75a475"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "完整UTF8命令行入口",
+  "inputs": "标准输入最多500000字节",
+  "operations": "strict UTF8→strict_load→evaluate→稳定完整JSON；规定错误原子reject/exit2",
+  "outputs": "一行完整JSON，正常exit0/拒绝exit2",
+  "preconditions_and_limits": "软语义unknown仍是完整报告；输入/绑定硬错不输出半个计算。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "region_effect_research.py:main",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 1,
+  "record_data_retained_completely": true
+}
+
+10. runtime/regional_effects.py:fraction_record
+算法标识：runtime/regional_effects.py:fraction_record
+source_identity：{
+  "relative_path": "runtime/regional_effects.py",
+  "qualified_name": "fraction_record",
+  "first_line": 9,
+  "last_line": 10,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "b6ab41e731e133b84a7b932f076692a3aff519aadd1d30c08db4de56bf3c8bd1",
+  "AST_sha256": "a01fce7089e22fa6153f4fef25c7f076a5579b677a674e4f34dfbf0c105f100b"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "无损表示有理数",
+  "inputs": "内部Fraction",
+  "operations": "取numerator/denominator",
+  "outputs": "规范两整数字段",
+  "preconditions_and_limits": "只是表示，不证明五行数额有传统或实测含义。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "runtime/regional_effects.py:fraction_record",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 75,
+  "record_data_retained_completely": true
+}
+
+11. runtime/regional_effects.py:parse_vector
+算法标识：runtime/regional_effects.py:parse_vector
+source_identity：{
+  "relative_path": "runtime/regional_effects.py",
+  "qualified_name": "parse_vector",
+  "first_line": 13,
+  "last_line": 27,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "b6ab41e731e133b84a7b932f076692a3aff519aadd1d30c08db4de56bf3c8bd1",
+  "AST_sha256": "eb64569f8b072577010fbf7d30912a7ed8e0b117502012d1e984f8f93070e165"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "核已知原生规范向量",
+  "inputs": "恰五元素/两整数字段的内部向量",
+  "operations": "拒布尔当整数、负数/分母非正/错键/和不为1；精确Fraction",
+  "outputs": "五元素Fraction映射",
+  "preconditions_and_limits": "仅内部已核报告使用；公开入口不收该摘要，也不做未知向量归一。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "runtime/regional_effects.py:parse_vector",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 6,
+  "record_data_retained_completely": true
+}
+
+12. runtime/regional_effects.py:channel
+算法标识：runtime/regional_effects.py:channel
+source_identity：{
+  "relative_path": "runtime/regional_effects.py",
+  "qualified_name": "channel",
+  "first_line": 30,
+  "last_line": 56,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='kind'), arg(arg='state')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "b6ab41e731e133b84a7b932f076692a3aff519aadd1d30c08db4de56bf3c8bd1",
+  "AST_sha256": "ca38f24a71fe00ef41863f8d53ec84a7eb284e2b3c1519051d525fcbf0f314d3"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "按已批各1/40算单项",
+  "inputs": "Rn或Rr及真实原生已知状态/函数",
+  "operations": "已知正常向量乘1/40；严格C0方向已知零并返1/40；unknown贡献null且预留未决",
+  "outputs": "逐项贡献/返还/未决/原原因",
+  "preconditions_and_limits": "unknown返还0只表示尚无已知返还，不表示该未知作用为零。C0向量必须null，未知不得有已知function。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "runtime/regional_effects.py:channel",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 6,
+  "record_data_retained_completely": true
+}
+
+13. runtime/regional_effects.py:piece
+算法标识：runtime/regional_effects.py:piece
+source_identity：{
+  "relative_path": "runtime/regional_effects.py",
+  "qualified_name": "piece",
+  "first_line": 59,
+  "last_line": 74,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rn'), arg(arg='rr')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "b6ab41e731e133b84a7b932f076692a3aff519aadd1d30c08db4de56bf3c8bd1",
+  "AST_sha256": "8e9b82797fac6785abb02b4051c1a4ee91513d0b9b14460b7f7a3bd015d25607"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "生成一片完整或部分地区作用",
+  "inputs": "同片Rn/Rr原生状态",
+  "operations": "分别计算；核地区已分配+已知返还+未决=1/20；不重分",
+  "outputs": "完整贡献或null，明确已知项部分和和预算账",
+  "preconditions_and_limits": "部分和不是完整贡献，C0不实际计算基础；不混五行配色或最终主题。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "runtime/regional_effects.py:piece",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 3,
+  "record_data_retained_completely": true
+}
+
+14. runtime/regional_effects.py:pair_components
+算法标识：runtime/regional_effects.py:pair_components
+source_identity：{
+  "relative_path": "runtime/regional_effects.py",
+  "qualified_name": "pair_components",
+  "first_line": 77,
+  "last_line": 84,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='report')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "b6ab41e731e133b84a7b932f076692a3aff519aadd1d30c08db4de56bf3c8bd1",
+  "AST_sha256": "a786f4be3f1bc10d78b8dfea9e407419b623691abceefc7a854f24d06d05b66e"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "静态原生报告桥接",
+  "inputs": "刚由原478算出的完整报告",
+  "operations": "分别读Rn_encoding及Rr；known状态保原语义，调用piece",
+  "outputs": "静态地区分量",
+  "preconditions_and_limits": "不要求出生文化；当前文化未知不抹方向；本函数不是公开ready导入器。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "runtime/regional_effects.py:pair_components",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 1,
+  "record_data_retained_completely": true
+}
+
+15. runtime/regional_effects.py:window_components
+算法标识：runtime/regional_effects.py:window_components
+source_identity：{
+  "relative_path": "runtime/regional_effects.py",
+  "qualified_name": "window_components",
+  "first_line": 87,
+  "last_line": 91,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='report')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "b6ab41e731e133b84a7b932f076692a3aff519aadd1d30c08db4de56bf3c8bd1",
+  "AST_sha256": "17c3bacda7a8239c3a91959df479c2b93db4892fa6eae6644845fccdfebfef9b"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "保全部原半开片算作用",
+  "inputs": "刚由原480算出的完整snapshot",
+  "operations": "每片独立piece，保start/end；只有所有片完整才wholecomplete",
+  "outputs": "逐片分量及全窗状态",
+  "preconditions_and_limits": "不按时长平均、不取端点代全窗；原全部来源报告仍保在raw_native_region_report。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "runtime/regional_effects.py:window_components",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 2,
+  "record_data_retained_completely": true
+}
+
+16. runtime/regional_effects.py:aligned_component
+算法标识：runtime/regional_effects.py:aligned_component
+source_identity：{
+  "relative_path": "runtime/regional_effects.py",
+  "qualified_name": "aligned_component",
+  "first_line": 94,
+  "last_line": 101,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='snapshot'), arg(arg='start'), arg(arg='end')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "b6ab41e731e133b84a7b932f076692a3aff519aadd1d30c08db4de56bf3c8bd1",
+  "AST_sha256": "3cc2b09b0e641420e5a4616082adc8893f2508268571bceda9403bab486493ee"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "读取联合边界对应的唯一分量",
+  "inputs": "已算snapshot与原双方联合片start/end",
+  "operations": "按带时区UTC比较，必须恰一原片全覆盖联合片",
+  "outputs": "该片components或错误",
+  "preconditions_and_limits": "依原480有效窗口合同，不能从两个不相邻片拼出一片，也不自行制造新时间边界。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "runtime/regional_effects.py:aligned_component",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 2,
+  "record_data_retained_completely": true
+}
+
+17. runtime/regional_effects.py:weighted_comparison
+算法标识：runtime/regional_effects.py:weighted_comparison
+source_identity：{
+  "relative_path": "runtime/regional_effects.py",
+  "qualified_name": "weighted_comparison",
+  "first_line": 104,
+  "last_line": 124,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='native'), arg(arg='current'), arg(arg='previous')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "b6ab41e731e133b84a7b932f076692a3aff519aadd1d30c08db4de56bf3c8bd1",
+  "AST_sha256": "9095d2da9c99fe8cbe30023952473d4f8582552930e75866687e3b674d972fbf"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "区分地区合量变化与分项/来源变化",
+  "inputs": "原完整比较、当前及前次分量窗口",
+  "operations": "先复用同人/方法/窗域/出生模型/known门，再逐双方联合片比完整贡献+返还",
+  "outputs": "确认相同/改变或原不可比/证据不足",
+  "preconditions_and_limits": "分项可互抵而合量相同，原Rn/Rr与source原因不删；模型不同即使数等也不确认不变。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "runtime/regional_effects.py:weighted_comparison",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 1,
+  "record_data_retained_completely": true
+}
+
+18. runtime/regional_effects.py:evaluate
+算法标识：runtime/regional_effects.py:evaluate
+source_identity：{
+  "relative_path": "runtime/regional_effects.py",
+  "qualified_name": "evaluate",
+  "first_line": 127,
+  "last_line": 136,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='operation'), arg(arg='native')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "module_sha256": "b6ab41e731e133b84a7b932f076692a3aff519aadd1d30c08db4de56bf3c8bd1",
+  "AST_sha256": "a0b25e099ef3bf48efb9b41ccedbb81091baa0f525295f04ee82615c0d0174a9"
+}
+条目分类：new_or_adapted_current_contract
+contract：{
+  "purpose": "按研究操作分派",
+  "inputs": "固定operation与现场实际native报告",
+  "operations": "静态pair_components或整窗current/previous/weightedcompare",
+  "outputs": "分量研究结构",
+  "preconditions_and_limits": "没有默认操作；不新增采纳、主题或现实作用认证。",
+  "source_layer": "用户批准地区权重/原来源规则与工程作用分量，非古典数值比例或现实功效证明。"
+}
+exact_pure_AST_reference：null
+实际输入输出：{
+  "artifact": "actual/current18_function_IO_lossless_material_refs.json.gz",
+  "record": "runtime/regional_effects.py:evaluate",
+  "normal_return": true,
+  "actual_call_count_in_this_trace": 2,
+  "record_data_retained_completely": true
+}
+
+19. deps/window/gn_region_window_research.py:canonical
+算法标识：deps/window/gn_region_window_research.py:canonical
+current_relative_module：deps/window/gn_region_window_research.py
+current_qualified_name：canonical
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+module_sha256：bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/0
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序键/紧凑/非ASCII原样/allow_nanFalse",
+  "outputs": "str，不是bytes；主入口最后编码UTF8",
+  "preconditions_and_limits": "不做来源/schema核；源输出必须先为JSON兼容类型",
+  "purpose": "稳定输出"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+20. deps/window/gn_region_window_research.py:pairs
+算法标识：deps/window/gn_region_window_research.py:pairs
+current_relative_module：deps/window/gn_region_window_research.py
+current_qualified_name：pairs
+函数AST摘要：57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24
+module_sha256：bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/1
+contract：{
+  "inputs": "有序键值pairs",
+  "operations": "逐键检查已出现键；固定错误码不回显原键",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "孤立代理重复键也不进入错误输出，实际high/low都测",
+  "purpose": "拒重复JSON键"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+21. deps/window/gn_region_window_research.py:constant
+算法标识：deps/window/gn_region_window_research.py:constant
+current_relative_module：deps/window/gn_region_window_research.py
+current_qualified_name：constant
+函数AST摘要：d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6
+module_sha256：bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/2
+contract：{
+  "inputs": "NaN/Infinity token",
+  "operations": "固定ValueError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常unwindNone不冒正常None",
+  "purpose": "拒非有限常量"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+22. deps/window/gn_region_window_research.py:bounded
+算法标识：deps/window/gn_region_window_research.py:bounded
+current_relative_module：deps/window/gn_region_window_research.py
+current_qualified_name：bounded
+函数AST摘要：90150128b8337231cb21ad695b7ba43bf78582f63c101bf8ece387d5e31941aa
+module_sha256：bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/3
+contract：{
+  "inputs": "public JSON tree",
+  "operations": "depth20/nodes20000/object16/list64/str6400/Unicode scalar；null/bool/int only",
+  "outputs": "None orValueError",
+  "preconditions_and_limits": "snapshot records最多32另在core核；这是有限输入内存约束，不是传统数学条件",
+  "purpose": "整窗输入边界"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "gn_region_window_research.py:bounded",
+  "calls": 23,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+23. deps/window/gn_region_window_research.py:strict_load
+算法标识：deps/window/gn_region_window_research.py:strict_load
+current_relative_module：deps/window/gn_region_window_research.py
+current_qualified_name：strict_load
+函数AST摘要：40625c4337fea33e89327dc21706e497d44094ee1406558f1bad6f73a919c365
+module_sha256：bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/4
+contract：{
+  "inputs": "str max200000 chars",
+  "operations": "duplicate/nonfinite reject→bounded",
+  "outputs": "JSON value orValueError",
+  "preconditions_and_limits": "CLI先strictUTF8和400000byte cap",
+  "purpose": "整窗严格JSON"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/actual_new_strict_load_main_complete_IO.json.gz",
+  "record": "gn_region_window_research.py:strict_load",
+  "calls": 1,
+  "capture_phase": "487 actual unchanged-function callable observation, complete inputs/return; original author91 profiling count remains91",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/actual_new_strict_load_main_complete_IO.json.gz",
+    "bytes": 2053,
+    "sha256": "3cbf478361b4a8d2cb88448df9fd3f1ccb486386475849de254a6d944cc83c35"
+  }
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+24. deps/window/gn_region_window_research.py:guard
+算法标识：deps/window/gn_region_window_research.py:guard
+current_relative_module：deps/window/gn_region_window_research.py
+current_qualified_name：guard
+函数AST摘要：6d652bb34a7c9595711cf4a0858aa1890a510a7201bd5d91a72701bcf6c421d2
+module_sha256：bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/5
+contract：{
+  "inputs": "fixed root andsource lock",
+  "operations": "先lockSHA，再deps/runtime/source精确72材料bytes/SHA/非软链/包含；含root483精确采纳policy，全通过才返回可执行bytes",
+  "outputs": "dict[str,bytes] orValueError",
+  "preconditions_and_limits": "任何provider前拒来源坏；普通shape错不新增0模块加载要求；来源真值未认证",
+  "purpose": "整图执行前来源核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "gn_region_window_research.py:guard",
+  "calls": 7,
+  "capture_phase": "final483-disposition-bound implementation"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+25. deps/window/gn_region_window_research.py:load
+算法标识：deps/window/gn_region_window_research.py:load
+current_relative_module：deps/window/gn_region_window_research.py
+current_qualified_name：load
+函数AST摘要：3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f
+module_sha256：bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/6
+contract：{
+  "inputs": "name/相对path/material",
+  "operations": "新ModuleType设真实__file__，compile material[path]并exec",
+  "outputs": "module",
+  "preconditions_and_limits": "loader不自行核来源；caller guard承担前置，实际2providers",
+  "purpose": "已核provider执行"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "gn_region_window_research.py:load",
+  "calls": 92,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+26. deps/window/gn_region_window_research.py:evaluate
+算法标识：deps/window/gn_region_window_research.py:evaluate
+current_relative_module：deps/window/gn_region_window_research.py
+current_qualified_name：evaluate
+函数AST摘要：88bed1b810881a9ab6efbcf4de83eeb5305c2280ca3a2ff40a6c161003883eee
+module_sha256：bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/7
+contract：{
+  "inputs": "bounded request",
+  "operations": "guard→三窗口模块+固定478entry→478guard→原chain/oldref preflight模块→绑定root483policy/outer source锁→window.evaluate",
+  "outputs": "complete dict orhard error",
+  "preconditions_and_limits": "不执行旧大C20组合；资料版与分析版固定；所有raw preflight之前不pair math",
+  "purpose": "窗口原生路由"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "gn_region_window_research.py:evaluate",
+  "calls": 7,
+  "capture_phase": "final483-disposition-bound implementation"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+27. deps/window/gn_region_window_research.py:main
+算法标识：deps/window/gn_region_window_research.py:main
+current_relative_module：deps/window/gn_region_window_research.py
+current_qualified_name：main
+函数AST摘要：4dce0a70bf984e101bbaa73a56f328085fc7d410c804e4e3e8aeded0c9625224
+module_sha256：bc1f591ff083b32beca1fb3414c16074cceb94132981c95a12fd0385abe9520f
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/8
+contract：{
+  "inputs": "stdin UTF8 max400000bytes",
+  "operations": "strict_load→evaluate→canonical str；typed/常见输入异常固定拒绝JSON",
+  "outputs": "stdout +exit0/2",
+  "preconditions_and_limits": "不回显用户原字段；未知系统错误不伪成功",
+  "purpose": "公开CLI"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/actual_new_strict_load_main_complete_IO.json.gz",
+  "record": "gn_region_window_research.py:main",
+  "calls": 1,
+  "capture_phase": "487 actual unchanged-function callable observation, complete inputs/return; original author91 profiling count remains91",
+  "artifact_ref": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/actual_new_strict_load_main_complete_IO.json.gz",
+    "bytes": 2053,
+    "sha256": "3cbf478361b4a8d2cb88448df9fd3f1ccb486386475849de254a6d944cc83c35"
+  }
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+28. deps/window/runtime/gn_window.py:parse_snapshot
+算法标识：deps/window/runtime/gn_window.py:parse_snapshot
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：parse_snapshot
+函数AST摘要：780278d6df2fee05cff255b4e955c6bdac06d19d4c4835023e48e2bc7574fe32
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/9
+contract：{
+  "inputs": "one snapshot dict,label,verified modules/data pack",
+  "operations": "精确4字段→person/method/UTC window→registry完整preimage→逐条row形状/区间→原478请求schema/ref与固定data版→validity精确字段/owner/method/fullpairSHA/区间→固定源region/point和原始source/registry不可变条目",
+  "outputs": "parsed dict with index/ranges/boundaries/entries/complete; or hard exception",
+  "preconditions_and_limits": "包括所有W外/未来/前次记录；本函数不调用任何pair evaluate或测地方位；缺未知边界不是无限有效",
+  "purpose": "在任何判断前完成全原始硬门"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:parse_snapshot",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+29. deps/window/runtime/gn_window.py:select_source
+算法标识：deps/window/runtime/gn_window.py:select_source
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：select_source
+函数AST摘要：dbab1c5c506e4d39e564c5b55c2cf60c434c463b04bc231ad14ba7a49bb4a9de
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/10
+contract：{
+  "inputs": "parsed snapshot,start/end UTC datetimes,common",
+  "operations": "已知range必须覆盖整片；未知端点仅当其已知边界不能排除此片才possibly_applicable；完整registry+恰一active且无unknownpossible才selection_known",
+  "outputs": "(selected row orNone,bool,issues list,possible row hashes)",
+  "preconditions_and_limits": "只同数值不能解决两source竞争；unknown有已知结束边界后可恢复；known selection不等于validity verified",
+  "purpose": "整片唯一源，不作端点抽样"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:select_source",
+  "calls": 46,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+30. deps/window/runtime/gn_window.py:location_model
+算法标识：deps/window/runtime/gn_window.py:location_model
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：location_model
+函数AST摘要：519098097eea1caa5cebe49e33b376f8005dbd8f3f28863483fc89ba950bbb59
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/11
+contract：{
+  "inputs": "one478 geography_only dict",
+  "operations": "found且有point→保完整region_r5和point_ref；否则None",
+  "outputs": "dict orNone",
+  "preconditions_and_limits": "完整point SHA/版保留；仅坐标、文化ref、同名不证明同模型",
+  "purpose": "出生与现地参照分别追踪"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:location_model",
+  "calls": 88,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+31. deps/window/runtime/gn_window.py:function_state
+算法标识：deps/window/runtime/gn_window.py:function_state
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：function_state
+函数AST摘要：b1ebff0c00b65cb70978481b1070b6b05b35d81d3d325e7d3361829c7b2da3a4
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/12
+contract：{
+  "inputs": "full478 report,kind Rn/Rr,usable bool,common",
+  "operations": "Rn仅encoded_single_element；Rr仅computed或strictC0；再与整片usable相与；known时给功能内容及digest，否则function/effect=null",
+  "outputs": "typed channel dict",
+  "preconditions_and_limits": "C0 function为known_no_direction_contribution+vectorNone，是已知状态；unknown null不是zero或same；Rn与Rr互不当先决条件",
+  "purpose": "各通道功能状态"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:function_state",
+  "calls": 88,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+32. deps/window/runtime/gn_window.py:segment
+算法标识：deps/window/runtime/gn_window.py:segment
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：segment
+函数AST摘要：53683e661fd44f3a4ed05335369bd4a206ec4dbe4f5b5479581708bd5682ea44
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/13
+contract：{
+  "inputs": "one half-open segment,parsed,precomputed exact pair reports,pack",
+  "operations": "选择源→检查完整validity status/界/整片覆盖→独立Rn/Rr状态→绑定源ref、完整pair reportSHA、出生模型/现地/文化context",
+  "outputs": "raw segment dict; unresolved source或channel仍显式保留",
+  "preconditions_and_limits": "source可唯一但validity未知/过期；实际报告保存在all_original_pair_results；不默认B/北水/零向量",
+  "purpose": "完整区间分片研究"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:segment",
+  "calls": 46,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+33. deps/window/runtime/gn_window.py:merge_timeline
+算法标识：deps/window/runtime/gn_window.py:merge_timeline
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：merge_timeline
+函数AST摘要：a1b5dc0c4b59fc898bb3ab2755f70b29d1628b0d3a07a5e00c7a88fe5299ee7c
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/14
+contract：{
+  "inputs": "ordered rows,explicit equality fields",
+  "operations": "仅相邻end==start且指定状态字段全等才合并；deepcopy输入",
+  "outputs": "canonical rows list",
+  "preconditions_and_limits": "不跨gap或unknown补洞；只有调用者已证明known才能用于functional timeline；源/功能调用不同fields",
+  "purpose": "时间中立合并基础"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:merge_timeline",
+  "calls": 88,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+34. deps/window/runtime/gn_window.py:functional_timeline
+算法标识：deps/window/runtime/gn_window.py:functional_timeline
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：functional_timeline
+函数AST摘要：9ed9ec71096c76ddfe04e7f778fec75bbb633279275cd88cdb13e2cadc70a9be
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/15
+contract：{
+  "inputs": "raw segments,kind",
+  "operations": "全部片该通道known才取effect；Rr连出生model作为比较域；相邻effect/model同则merge",
+  "outputs": "timeline list orNone",
+  "preconditions_and_limits": "sourceid/record拆段不创造功能变化；出生模型改动不能被相同vector吞掉；任一unknown不给known timeline",
+  "purpose": "整窗已知功能规范形"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:functional_timeline",
+  "calls": 70,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+35. deps/window/runtime/gn_window.py:source_trace
+算法标识：deps/window/runtime/gn_window.py:source_trace
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：source_trace
+函数AST摘要：67dc133f884997f4b50edd2322a93e6f6ef936073387746719ab1fa48e3d7efe
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/16
+contract：{
+  "inputs": "raw segments,common",
+  "operations": "取实际unique selected source id/version/fullrecordSHA；只合并相邻同refs/selection状态；全部selectionknown才有identity signature",
+  "outputs": "trace dict with raw/canonical refs andsignature orNone",
+  "preconditions_and_limits": "可以在功能/validityunknown时仍知道选择了哪个声明；gap/竞争unknown不以{}空对象与自己比same",
+  "purpose": "资料轴独立于功能轴"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:source_trace",
+  "calls": 35,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+36. deps/window/runtime/gn_window.py:boundary_events
+算法标识：deps/window/runtime/gn_window.py:boundary_events
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：boundary_events
+函数AST摘要：d7245cfee294944371798a1a9c152cb0f9b239ea34a44347829cb491d15a822b
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/17
+contract：{
+  "inputs": "chronological raw segments",
+  "operations": "逐相邻片列source/出生模型/现地声明/文化context变化；功能两片都known才列function change；出生改动明确inputmodel非当前旅行",
+  "outputs": "event dict array",
+  "preconditions_and_limits": "不认证人在何处或移动；source选择未知则变化轴None；不触发显示",
+  "purpose": "给有依据事件明确语义反馈"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:boundary_events",
+  "calls": 35,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+37. deps/window/runtime/gn_window.py:compute_snapshot
+算法标识：deps/window/runtime/gn_window.py:compute_snapshot
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：compute_snapshot
+函数AST摘要：f999e17941fa588119460f0a53bbc8428f99216a4e7eb7316562471de9b28aff
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/18
+contract：{
+  "inputs": "preflighted snapshot,per-call cache,pack",
+  "operations": "所有raw pair_requests（含W外未来）按完整SHA重算/同key缓存→原common.partition联合applicability/validity边界→逐segment→各通道functional/source traces/events→保全部原478报告",
+  "outputs": "complete/unresolved snapshot dict",
+  "preconditions_and_limits": "只能在current/previous硬预核及共同immutable guard之后调用；partition数学完整不等同来源事实真实；不作持续时长加权",
+  "purpose": "真正全窗运行与可回放结果"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:compute_snapshot",
+  "calls": 35,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+38. deps/window/runtime/gn_window.py:aligned_piece_state
+算法标识：deps/window/runtime/gn_window.py:aligned_piece_state
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：aligned_piece_state
+函数AST摘要：411a73a6d2a246e239017bab7010f7cfeae12c46df54f7d31894f605716f9570
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/19
+contract：{
+  "inputs": "current/previous aligned raw pieces,kind",
+  "operations": "先两侧known，否则insufficient；Rr出生完整model不等则not_comparable；其余完整function等值比较",
+  "outputs": "status +same bool orNone",
+  "preconditions_and_limits": "同null未知不能same；C0是known标签；改变出生源不能冒现实旅行",
+  "purpose": "逐联合片比较"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:aligned_piece_state",
+  "calls": 50,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+39. deps/window/runtime/gn_window.py:compare
+算法标识：deps/window/runtime/gn_window.py:compare
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：compare
+函数AST摘要：219fe59919b9ac55ffb89e1fd83f4396c108835d3bbb4f4a502f2c77687207d9
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/20
+contract：{
+  "inputs": "current snapshot,previous ornull,pack",
+  "operations": "no_previous→person/method/同UTC domain门→独立实际source identity trace→双方所有raw边界原partition联合→逐片两通道比较→各通道及全窗确认",
+  "outputs": "typed comparison with aligned_segments,source axis,whole confirmation",
+  "preconditions_and_limits": "方法版本/不同W不可悄悄同方法；Rn与Rr可一个same一个unknown；任一必要unknown不确认全窗same/changed；只重排/等功能拆段不造变",
+  "purpose": "复用385/372中立比较，不是主题/显示比较"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:compare",
+  "calls": 18,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+40. deps/window/runtime/gn_window.py:evaluate
+算法标识：deps/window/runtime/gn_window.py:evaluate
+current_relative_module：deps/window/runtime/gn_window.py
+current_qualified_name：evaluate
+函数AST摘要：fb57c24978d88e53e7f7c006c2af9b2ecdf4f47b325bd699e11dd67e46491862
+module_sha256：0518f5f10277fbe03d32f72a15054ff770c00ac7da279d319d14dcae869b41fa
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/21
+contract：{
+  "inputs": "five-field window request and verifiedpack",
+  "operations": "精确schema/analysis/operation→parse ALLcurrent+previous→common immutable guard→才compute snapshots→compare→input/source/dependency trace",
+  "outputs": "complete conditional_GN_region_window_research dict orhard rejection",
+  "preconditions_and_limits": "固定478依root disposition接；不自采用来源/新增传统映射；不输出B/预算/主题/RGB；prediction false",
+  "purpose": "原C04整窗研究入口"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/gn_window.py:evaluate",
+  "calls": 7,
+  "capture_phase": "final483-disposition-bound implementation"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+41. deps/window/runtime/region_window_exact_helpers.py:canonical
+算法标识：deps/window/runtime/region_window_exact_helpers.py:canonical
+current_relative_module：deps/window/runtime/region_window_exact_helpers.py
+current_qualified_name：canonical
+函数AST摘要：3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96
+module_sha256：bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/22
+contract：{
+  "inputs": "JSON value",
+  "operations": "排序紧凑UTF8 finite",
+  "outputs": "bytes",
+  "preconditions_and_limits": "和入口canonical输出str不同",
+  "purpose": "旧源条目序列化"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:canonical",
+  "calls": 44,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+42. deps/window/runtime/region_window_exact_helpers.py:digest
+算法标识：deps/window/runtime/region_window_exact_helpers.py:digest
+current_relative_module：deps/window/runtime/region_window_exact_helpers.py
+current_qualified_name：digest
+函数AST摘要：2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8
+module_sha256：bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/23
+contract：{
+  "inputs": "JSON value",
+  "operations": "canonical→SHA256",
+  "outputs": "64hex str",
+  "preconditions_and_limits": "完整内容绑定",
+  "purpose": "旧source ref摘要"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:digest",
+  "calls": 44,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+43. deps/window/runtime/region_window_exact_helpers.py:parse_range
+算法标识：deps/window/runtime/region_window_exact_helpers.py:parse_range
+current_relative_module：deps/window/runtime/region_window_exact_helpers.py
+current_qualified_name：parse_range
+函数AST摘要：c413a5712c7b542a3e8d3bd5de5dc713000dbb6d733e5935fd77f1a8211dbbb6
+module_sha256：bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/24
+contract：{
+  "inputs": "start/end可能null的dict,path,common",
+  "operations": "非null按UTC解析；两端known需start<end",
+  "outputs": "(datetime orNone,datetime orNone)",
+  "preconditions_and_limits": "None是未知端点，不是已知无限有效；窗口选择按可影响范围处理",
+  "purpose": "原区间合同"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:parse_range",
+  "calls": 99,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+44. deps/window/runtime/region_window_exact_helpers.py:method
+算法标识：deps/window/runtime/region_window_exact_helpers.py:method
+current_relative_module：deps/window/runtime/region_window_exact_helpers.py
+current_qualified_name：method
+函数AST摘要：676b53dfa76ed33b8c7abe6ec7c1bb940167ebc446e0403e7e48a91f0dbb0f31
+module_sha256：bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/25
+contract：{
+  "inputs": "profile_id/version dict,path,common",
+  "operations": "精确两字段text",
+  "outputs": "None orhard error",
+  "preconditions_and_limits": "typed来源上下文；实际算法固定analysis_ref不任意路由",
+  "purpose": "原方法来源绑定"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:method",
+  "calls": 91,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+45. deps/window/runtime/region_window_exact_helpers.py:source_ref
+算法标识：deps/window/runtime/region_window_exact_helpers.py:source_ref
+current_relative_module：deps/window/runtime/region_window_exact_helpers.py
+current_qualified_name：source_ref
+函数AST摘要：4e7fbb17a2c8c79f2f526c612a92e600673f05792ee3e537c343866f960aedfb
+module_sha256：bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/26
+contract：{
+  "inputs": "full row id/version",
+  "operations": "id/version+完整rowSHA",
+  "outputs": "dict",
+  "preconditions_and_limits": "不把同功能误作同来源",
+  "purpose": "旧源引用"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/region_window_exact_helpers.py:source_ref",
+  "calls": 44,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+46. deps/window/runtime/region_window_exact_helpers.py:native_identity_entries
+算法标识：deps/window/runtime/region_window_exact_helpers.py:native_identity_entries
+current_relative_module：deps/window/runtime/region_window_exact_helpers.py
+current_qualified_name：native_identity_entries
+函数AST摘要：f4232838cbc058b29a03b89b57d442b3c648d56bea45910c39bcc42f19efb1db
+module_sha256：bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/27
+contract：{
+  "inputs": "native request,owner,common",
+  "operations": "取region/coverage/frame/evidence全内容并构造旧entry",
+  "outputs": "entry list",
+  "preconditions_and_limits": "本版已固定source preflight用data region/point；此legacy工具未调用",
+  "purpose": "旧native不可变条目留存"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+47. deps/window/runtime/region_window_exact_helpers.py:native_identity_entries.region
+算法标识：deps/window/runtime/region_window_exact_helpers.py:native_identity_entries.region
+current_relative_module：deps/window/runtime/region_window_exact_helpers.py
+current_qualified_name：native_identity_entries.region
+函数AST摘要：97b90bca7489d554efa998d5d11ed578e02ce3e0a66e00c007e219baf895208f
+module_sha256：bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/28
+contract：{
+  "inputs": "inner region dict",
+  "operations": "有REGION5则region5 entry；有era/kind再native_region7",
+  "outputs": "修改外层entries，returnNone",
+  "preconditions_and_limits": "旧工具内部回调，未调用",
+  "purpose": "旧region展开"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+48. deps/window/runtime/region_window_exact_helpers.py:relative_identity_entries
+算法标识：deps/window/runtime/region_window_exact_helpers.py:relative_identity_entries
+current_relative_module：deps/window/runtime/region_window_exact_helpers.py
+current_qualified_name：relative_identity_entries
+函数AST摘要：7003e4dc2fe9bc46881e3332cad53c45a22f0580488c14bb739e890295406679
+module_sha256：bc59ae9f88e82b997cd49079dc4d4cd96503ad61b8e1cdfbf31d7192b28be106
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/29
+contract：{
+  "inputs": "old relative request,common",
+  "operations": "取origin/current region和point_records source/edition entry",
+  "outputs": "entry list",
+  "preconditions_and_limits": "本版GN自有点由固定data preflight，本工具未调用；不伪改层级",
+  "purpose": "旧relative不可变条目留存"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+49. deps/window/runtime/window_common.py:ContractError.__init__
+算法标识：deps/window/runtime/window_common.py:ContractError.__init__
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：ContractError.__init__
+函数AST摘要：4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/30
+contract：{
+  "inputs": "status/path/code",
+  "operations": "保存属性",
+  "outputs": "None",
+  "preconditions_and_limits": "异常对象，不是正常判断",
+  "purpose": "有定位错误"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:__init__",
+  "calls": 3,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+50. deps/window/runtime/window_common.py:fail
+算法标识：deps/window/runtime/window_common.py:fail
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：fail
+函数AST摘要：b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/31
+contract：{
+  "inputs": "status/path/code",
+  "operations": "raise ContractError",
+  "outputs": "不正常返回",
+  "preconditions_and_limits": "profile return None可能为异常unwind，不当成功None",
+  "purpose": "硬错误"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:fail",
+  "calls": 3,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+51. deps/window/runtime/window_common.py:obj
+算法标识：deps/window/runtime/window_common.py:obj
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：obj
+函数AST摘要：44b44bc3785bcbdebb2ccd7ef079bea5ec4a2e6bfdc4edba34269c2228d7789d
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/32
+contract：{
+  "inputs": "value,exact fieldset,path",
+  "operations": "dict且键集合完全相等",
+  "outputs": "None orhard error",
+  "preconditions_and_limits": "不补默认字段",
+  "purpose": "严格形状"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:obj",
+  "calls": 1253,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+52. deps/window/runtime/window_common.py:text
+算法标识：deps/window/runtime/window_common.py:text
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：text
+函数AST摘要：24378609ea51a60f93b5570f67462a2ae518150fbeee44fdf1f43ef370c24437
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/33
+contract：{
+  "inputs": "value,path",
+  "operations": "非空无两侧空白str",
+  "outputs": "None orhard error",
+  "preconditions_and_limits": "不做名称身份推理",
+  "purpose": "文本字段"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:text",
+  "calls": 2901,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+53. deps/window/runtime/window_common.py:canonical
+算法标识：deps/window/runtime/window_common.py:canonical
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：canonical
+函数AST摘要：3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/34
+contract：{
+  "inputs": "JSON value",
+  "operations": "排序紧凑UTF8/nonASCII/finite",
+  "outputs": "bytes",
+  "preconditions_and_limits": "不是真值认证",
+  "purpose": "稳定序列化"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:canonical",
+  "calls": 1378,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+54. deps/window/runtime/window_common.py:digest
+算法标识：deps/window/runtime/window_common.py:digest
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：digest
+函数AST摘要：2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/35
+contract：{
+  "inputs": "JSON value",
+  "operations": "canonical→SHA256",
+  "outputs": "64hex str",
+  "preconditions_and_limits": "完整内容绑定，不是签名",
+  "purpose": "稳定摘要"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:digest",
+  "calls": 787,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+55. deps/window/runtime/window_common.py:utc
+算法标识：deps/window/runtime/window_common.py:utc
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：utc
+函数AST摘要：0cd9195b03cacde49408e922c6f7631b97bce9723693e0157b2e6777c2610417
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/36
+contract：{
+  "inputs": "Z UTC str max6fraction digits,path",
+  "operations": "严格正则并datetime.fromisoformat",
+  "outputs": "aware UTC datetime orhard error",
+  "preconditions_and_limits": "不生成历法/GPS事实；非法日期拒绝",
+  "purpose": "原UTC解析"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:utc",
+  "calls": 1206,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+56. deps/window/runtime/window_common.py:stamp
+算法标识：deps/window/runtime/window_common.py:stamp
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：stamp
+函数AST摘要：0a740d9313f01120147866a6d49d21cfc0c5afc2030e197c0e2eadbeb145ac02
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/37
+contract：{
+  "inputs": "UTC datetime",
+  "operations": "检查UTC offset并规范秒/微秒Z",
+  "outputs": "str",
+  "preconditions_and_limits": "规范拼写不增加时间精度",
+  "purpose": "原UTC输出"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:stamp",
+  "calls": 454,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+57. deps/window/runtime/window_common.py:window
+算法标识：deps/window/runtime/window_common.py:window
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：window
+函数AST摘要：a9ec64d4994b23509e1f2624595a3e428d78b35fb1d52fe994378fd4b4f3b1ce
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/38
+contract：{
+  "inputs": "kind/start/end dict",
+  "operations": "window kind且positive start<end UTC",
+  "outputs": "(start,end) datetimes",
+  "preconditions_and_limits": "半开正区间；同domain比较用解析后时间",
+  "purpose": "原评价窗"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:window",
+  "calls": 166,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+58. deps/window/runtime/window_common.py:source
+算法标识：deps/window/runtime/window_common.py:source
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：source
+函数AST摘要：26038277c9614b9cfe1b5d2ca6cbb421fb3b8837fe494cb7460a2f5399898a35
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/39
+contract：{
+  "inputs": "provider_ref/record_ref/basis dict",
+  "operations": "精确三字段text",
+  "outputs": "None orhard error",
+  "preconditions_and_limits": "只是来源声明",
+  "purpose": "来源结构"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:source",
+  "calls": 91,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+59. deps/window/runtime/window_common.py:check_registry
+算法标识：deps/window/runtime/window_common.py:check_registry
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：check_registry
+函数AST摘要：4287b6ecc76b4e282b406a4ae52780d81984c708980fffa360ece1407d1c44e5
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/40
+contract：{
+  "inputs": "registry,full records preimage,evaluation,path",
+  "operations": "核精确字段/来源/wholewindow/recordsSHA/明确complete或unknown",
+  "outputs": "bool complete",
+  "preconditions_and_limits": "不是信任一个complete标志；W外record也在完整preimage",
+  "purpose": "原完整目录合同"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:check_registry",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+60. deps/window/runtime/window_common.py:registry
+算法标识：deps/window/runtime/window_common.py:registry
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：registry
+函数AST摘要：69070495782a7865ad010777869b2a061824c1719daa15c3d8d3547fbd6b3468
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/41
+contract：{
+  "inputs": "records/window/id/version/provider",
+  "operations": "构造声明registry和preimageSHA",
+  "outputs": "dict",
+  "preconditions_and_limits": "fixture utility，本版生产链未调用；不认证complete事实",
+  "purpose": "旧构造工具留存"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+61. deps/window/runtime/window_common.py:partition
+算法标识：deps/window/runtime/window_common.py:partition
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：partition
+函数AST摘要：f4f81747da4bf59f204cb0899d79bbd9ae42fadecf85532cd2ce6b68bfd4c655
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/42
+contract：{
+  "inputs": "evaluation and all labelled boundaries",
+  "operations": "校验全部边界后仅有效时刻clip到W；集合排序；输出所有相邻半开片和来源标签",
+  "outputs": "boundaries/segments/proof dict",
+  "preconditions_and_limits": "union==W且disjoint是数学声明；domain/source事实不是此函数证明；不是端点抽样",
+  "purpose": "原精确分段"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:partition",
+  "calls": 50,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+62. deps/window/runtime/window_common.py:entry
+算法标识：deps/window/runtime/window_common.py:entry
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：entry
+函数AST摘要：2f74804c9291742a293d8de16178c6fc0a225f43758e221b19f3ba75ea3071c3
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/43
+contract：{
+  "inputs": "kind,nonempty structured namespace,full record withid/version",
+  "operations": "规范身份及内容SHA",
+  "outputs": "identity entry dict",
+  "preconditions_and_limits": "保明确namespace；不是只看外层packetid",
+  "purpose": "原不可变条目"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:entry",
+  "calls": 321,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+63. deps/window/runtime/window_common.py:guard
+算法标识：deps/window/runtime/window_common.py:guard
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：guard
+函数AST摘要：305b69388062a15db96abd90e0ca2789599340843637e7a2dac99fc99c031eb7
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/44
+contract：{
+  "inputs": "all identity entries current+previous",
+  "operations": "以kind/namespace/id/version为键；同键不同SHA硬拒；去重规范列表",
+  "outputs": "registry count/hash/entries dict",
+  "preconditions_and_limits": "source sameidversion更内容不能靠新window/segmentid绕过；事实真实性false",
+  "purpose": "原全图不可变检查"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/window_common.py:guard",
+  "calls": 19,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+64. deps/window/runtime/window_common.py:load_fixed
+算法标识：deps/window/runtime/window_common.py:load_fixed
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：load_fixed
+函数AST摘要：8854a581581e42e30487715fd967e4dae097b68f4b768c3eb9204c9ffb934c5e
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/45
+contract：{
+  "inputs": "dependency metadata,anchor_file",
+  "operations": "原兄弟目录包含性/SHA/version校验后exec",
+  "outputs": "module orhard error",
+  "preconditions_and_limits": "本版入口不调用，统一整图guard接管加载；旧兼容函数留存",
+  "purpose": "原小依赖加载"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+65. deps/window/runtime/window_common.py:load_request
+算法标识：deps/window/runtime/window_common.py:load_request
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：load_request
+函数AST摘要：f93d34afc28407812a993681f755776d969cdcf80f01c9b434d11714e1406562
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/46
+contract：{
+  "inputs": "JSON raw",
+  "operations": "loads with duplicate callback andnonfinite reject",
+  "outputs": "JSON value orValueError",
+  "preconditions_and_limits": "本版公开入口用bounded strict_load；此原工具未执行",
+  "purpose": "原JSON读入留存"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+66. deps/window/runtime/window_common.py:load_request.pairs
+算法标识：deps/window/runtime/window_common.py:load_request.pairs
+current_relative_module：deps/window/runtime/window_common.py
+current_qualified_name：load_request.pairs
+函数AST摘要：f8d84d0ecc432b175133db1e727ee459a69833f2f3095056742fa0e2f0c6dde7
+module_sha256：0ddb402f79800a221ccc62497639c37b217e54826a279fb0977b01093ee0d377
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/47
+contract：{
+  "inputs": "ordered pairs",
+  "operations": "拒重复key再dict",
+  "outputs": "dict orValueError",
+  "preconditions_and_limits": "旧内部回调，本版未执行",
+  "purpose": "原重复键拒绝"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+67. deps/window/deps/gn_pair/geography_direction_research.py:canonical
+算法标识：deps/window/deps/gn_pair/geography_direction_research.py:canonical
+current_relative_module：deps/window/deps/gn_pair/geography_direction_research.py
+current_qualified_name：canonical
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+module_sha256：2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/48
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序键/紧凑/非ASCII原样/allow_nanFalse",
+  "outputs": "str，不是bytes；主入口最后编码UTF8",
+  "preconditions_and_limits": "不做来源/schema核；源输出必须先为JSON兼容类型",
+  "purpose": "稳定输出"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+68. deps/window/deps/gn_pair/geography_direction_research.py:pairs
+算法标识：deps/window/deps/gn_pair/geography_direction_research.py:pairs
+current_relative_module：deps/window/deps/gn_pair/geography_direction_research.py
+current_qualified_name：pairs
+函数AST摘要：57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24
+module_sha256：2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/49
+contract：{
+  "inputs": "有序键值pairs",
+  "operations": "逐键检查已出现键；固定错误码不回显原键",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "孤立代理重复键也不进入错误输出，实际high/low都测",
+  "purpose": "拒重复JSON键"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+69. deps/window/deps/gn_pair/geography_direction_research.py:constant
+算法标识：deps/window/deps/gn_pair/geography_direction_research.py:constant
+current_relative_module：deps/window/deps/gn_pair/geography_direction_research.py
+current_qualified_name：constant
+函数AST摘要：d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6
+module_sha256：2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/50
+contract：{
+  "inputs": "NaN/Infinity token",
+  "operations": "固定ValueError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常unwindNone不冒正常None",
+  "purpose": "拒非有限常量"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+70. deps/window/deps/gn_pair/geography_direction_research.py:bounded
+算法标识：deps/window/deps/gn_pair/geography_direction_research.py:bounded
+current_relative_module：deps/window/deps/gn_pair/geography_direction_research.py
+current_qualified_name：bounded
+函数AST摘要：254230f28bae34f9a89a8611eed059eea862888686d987d5177a7e1f9321adfa
+module_sha256：2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/51
+contract：{
+  "inputs": "直接API/已解析JSON值",
+  "operations": "迭代深度12/节点500/对象12/数组20/字符串2000及Unicode标量；只允null,bool,int",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不校城市schema，不校文件；float一律不作为请求值",
+  "purpose": "限制公开请求树"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/geography_direction_research.py:bounded",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+71. deps/window/deps/gn_pair/geography_direction_research.py:strict_load
+算法标识：deps/window/deps/gn_pair/geography_direction_research.py:strict_load
+current_relative_module：deps/window/deps/gn_pair/geography_direction_research.py
+current_qualified_name：strict_load
+函数AST摘要：e5b7a027faf55001a6e6504988417d43f73b41159e8a8b65776cc42f7ea5dd30
+module_sha256：2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/52
+contract：{
+  "inputs": "str≤10000字符",
+  "operations": "json.loads+pairs/constant后bounded",
+  "outputs": "JSON值或解析/边界异常",
+  "preconditions_and_limits": "main先UTF8strict decode；不是来源查表",
+  "purpose": "严格字面解析"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+72. deps/window/deps/gn_pair/geography_direction_research.py:guard
+算法标识：deps/window/deps/gn_pair/geography_direction_research.py:guard
+current_relative_module：deps/window/deps/gn_pair/geography_direction_research.py
+current_qualified_name：guard
+函数AST摘要：8804c71f33cfdda88126c516559adbc36548b154757a23b3fe7060e7d7872e03
+module_sha256：2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/53
+contract：{
+  "inputs": "ROOT与固定source_execution_lock SHA，无公开参数",
+  "operations": "先锁文件SHA；精确核source/runtime/data/relative共66件集合、bytes/SHA、非软链和包含；全部通过才返回被核字节",
+  "outputs": "dict[str,bytes]或ValueError",
+  "preconditions_and_limits": "包括方向库全部18个release许可/测试文件；不是来源真实性认证；任何provider均后置",
+  "purpose": "本版一条完整来源守卫"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/geography_direction_research.py:guard",
+  "calls": 44,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+73. deps/window/deps/gn_pair/geography_direction_research.py:load
+算法标识：deps/window/deps/gn_pair/geography_direction_research.py:load
+current_relative_module：deps/window/deps/gn_pair/geography_direction_research.py
+current_qualified_name：load
+函数AST摘要：3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f
+module_sha256：2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/54
+contract：{
+  "inputs": "name/相对path/material",
+  "operations": "新ModuleType设真实__file__，compile material[path]并exec",
+  "outputs": "module",
+  "preconditions_and_limits": "loader不自行核来源；caller guard承担前置，实际2providers",
+  "purpose": "已核provider执行"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/geography_direction_research.py:load",
+  "calls": 193,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+74. deps/window/deps/gn_pair/geography_direction_research.py:evaluate
+算法标识：deps/window/deps/gn_pair/geography_direction_research.py:evaluate
+current_relative_module：deps/window/deps/gn_pair/geography_direction_research.py
+current_qualified_name：evaluate
+函数AST摘要：f0bb5c7d73daa4ef45b8e2848fa98115aaa5c58c2559104fb1a47bd9da7accd8
+module_sha256：2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/55
+contract：{
+  "inputs": "有限JSON request，7个精确字段",
+  "operations": "bounded→guard→解压同一GN目录→从核字节载四旧查找核心+原方向核心+原C0谓词+新薄组合；调用新研究core",
+  "outputs": "完整research_pair_evaluated dict或异常",
+  "preconditions_and_limits": "公开输入不含坐标；Rr和Rn不互当先决条件；不是窗口/显示/预算入口",
+  "purpose": "可复现地区研究链"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/geography_direction_research.py:evaluate",
+  "calls": 21,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+75. deps/window/deps/gn_pair/geography_direction_research.py:main
+算法标识：deps/window/deps/gn_pair/geography_direction_research.py:main
+current_relative_module：deps/window/deps/gn_pair/geography_direction_research.py
+current_qualified_name：main
+函数AST摘要：e7cf65e118167e39c65787ce04f3c895ed476e4e8adcb75451468b7afa9c7101
+module_sha256：2e1106a1da8b32b17faf099cf90c9ad58177e3712aaea0c593c3552684a1df16
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/56
+contract：{
+  "inputs": "stdinUTF8bytes≤20000",
+  "operations": "strict_load→evaluate→canonical+LF；所列异常固定拒绝JSON",
+  "outputs": "成功0/拒绝2及stdout；不回显原异常值",
+  "preconditions_and_limits": "AssertionError等未列异常不伪装正常结果；只支持此公开入口",
+  "purpose": "安全CLI"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+76. deps/window/deps/gn_pair/runtime/c0_exact.py:c0_eligible
+算法标识：deps/window/deps/gn_pair/runtime/c0_exact.py:c0_eligible
+current_relative_module：deps/window/deps/gn_pair/runtime/c0_exact.py
+current_qualified_name：c0_eligible
+函数AST摘要：306a465b61dadddb80a61a165bc340c1ba18e6194d579505367f3a24e445624b
+module_sha256：2f70e5e2cec150f7b5fefe2e32d3bf9a72c30f9ddab6b307e2a36b26c2a9f86c
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/57
+contract：{
+  "inputs": "request.origin/current的region+point_ref与result ready状态/geometry",
+  "operations": "仅ready/ready且coincident，再要求两个region dict完整相等、point_ref完整相等",
+  "outputs": "bool",
+  "preconditions_and_limits": "函数AST与原region_window_v0_1精确一致；caller已核point SHA/CRS/meaning/coords；只同坐标或文化ref相同不够",
+  "purpose": "原严格C0谓词精确复用"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/c0_exact.py:c0_eligible",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+77. deps/window/deps/gn_pair/runtime/city_core.py:canonical
+算法标识：deps/window/deps/gn_pair/runtime/city_core.py:canonical
+current_relative_module：deps/window/deps/gn_pair/runtime/city_core.py
+current_qualified_name：canonical
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+module_sha256：cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/58
+contract：{
+  "inputs": "JSON兼容v",
+  "operations": "排序紧凑JSON",
+  "outputs": "str",
+  "preconditions_and_limits": "不生成source truth/地理真实性",
+  "purpose": "规范对象文字"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:canonical",
+  "calls": 430,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+78. deps/window/deps/gn_pair/runtime/city_core.py:digest
+算法标识：deps/window/deps/gn_pair/runtime/city_core.py:digest
+current_relative_module：deps/window/deps/gn_pair/runtime/city_core.py
+current_qualified_name：digest
+函数AST摘要：ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431
+module_sha256：cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/59
+contract：{
+  "inputs": "JSON兼容v",
+  "operations": "canonical UTF8 SHA256",
+  "outputs": "64小写hex str",
+  "preconditions_and_limits": "摘要是内容绑定，不是署名认证",
+  "purpose": "绑定内容摘要"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:digest",
+  "calls": 412,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+79. deps/window/deps/gn_pair/runtime/city_core.py:normalize
+算法标识：deps/window/deps/gn_pair/runtime/city_core.py:normalize
+current_relative_module：deps/window/deps/gn_pair/runtime/city_core.py
+current_qualified_name：normalize
+函数AST摘要：fa00b2fc5a92d2a7d7dbdc41c359271def1f816b63b0387ecd9bf3766f3fc758
+module_sha256：cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/60
+contract：{
+  "inputs": "str",
+  "operations": "NFKC→casefold→合并空白",
+  "outputs": "str",
+  "preconditions_and_limits": "只查询文字；不把繁简/别名跨记录传递、不推城市身份",
+  "purpose": "名字规范化"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+80. deps/window/deps/gn_pair/runtime/city_core.py:ref_key
+算法标识：deps/window/deps/gn_pair/runtime/city_core.py:ref_key
+current_relative_module：deps/window/deps/gn_pair/runtime/city_core.py
+current_qualified_name：ref_key
+函数AST摘要：fe8ae87c7790f2f244859d355e4b46ab523a7c8cde13d09b2ed01d411bdb13e4
+module_sha256：cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/61
+contract：{
+  "inputs": "恰namespace/id/version的dict，值trim非空str",
+  "operations": "字段/类型核后按固定顺序",
+  "outputs": "tuple(namespace,id,version)或ValueError",
+  "preconditions_and_limits": "命名空间和版是否存在在上层查；不数字强转/截前缀",
+  "purpose": "精确版本身份"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:ref_key",
+  "calls": 6173,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+81. deps/window/deps/gn_pair/runtime/city_core.py:candidate
+算法标识：deps/window/deps/gn_pair/runtime/city_core.py:candidate
+current_relative_module：deps/window/deps/gn_pair/runtime/city_core.py
+current_qualified_name：candidate
+函数AST摘要：5361db42392529ef4afdcf798680c0635a93329623f6f439bae13a3d02b913a9
+module_sha256：cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/62
+contract：{
+  "inputs": "一个固定record",
+  "operations": "deepcopy身份/类型/层级码/省祖先/点ref",
+  "outputs": "候选dict，not_automatically_selectedTrue",
+  "preconditions_and_limits": "稳定排序不是优先级；无人口/距离/第一条选取",
+  "purpose": "候选摘要"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+82. deps/window/deps/gn_pair/runtime/city_core.py:search
+算法标识：deps/window/deps/gn_pair/runtime/city_core.py:search
+current_relative_module：deps/window/deps/gn_pair/runtime/city_core.py
+current_qualified_name：search
+函数AST摘要：d6482cc185fed7a5e043b0d5bfd57555a879b6f567ad1d40c6067bd9c2b4cb2f
+module_sha256：cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/63
+contract：{
+  "inputs": "严格7字段request/data",
+  "operations": "核数据Unicode版本；名字匹配仅source label；partition/kind/唯一或歧义省提示过滤；全候选稳定输出",
+  "outputs": "status/normalized_query/candidates/province_candidates等dict",
+  "preconditions_and_limits": "简繁只用provider已列形式；未知省提示不退无提示；唯一候选也不自动lookup/采纳",
+  "purpose": "原源别名检索"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+83. deps/window/deps/gn_pair/runtime/city_core.py:cultural_attribute
+算法标识：deps/window/deps/gn_pair/runtime/city_core.py:cultural_attribute
+current_relative_module：deps/window/deps/gn_pair/runtime/city_core.py
+current_qualified_name：cultural_attribute
+函数AST摘要：543ea71cb81c984e0ff17c7fb487dd68f9a0b61248dcfb0fc3e5a93a3587090d
+module_sha256：cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/64
+contract：{
+  "inputs": "record/nullableexactparentref/data/native module",
+  "operations": "显式父版→CN31命名桥和A行政范围→旧父source状态→保原frame/evidence完整链组合target_within_source_scope→旧native评价",
+  "outputs": "Rn dict：status/reason/native_request/report/parentreport/lineage证及限制",
+  "preconditions_and_limits": "新GN具名包含是工程解释候选，非官方城市/省界法证。P驻地/非CN无桥/父未决不补0；旧市自有版不换省版；不猜五行/权重",
+  "purpose": "同框父文化包含解释"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:cultural_attribute",
+  "calls": 58,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+84. deps/window/deps/gn_pair/runtime/city_core.py:evaluate
+算法标识：deps/window/deps/gn_pair/runtime/city_core.py:evaluate
+current_relative_module：deps/window/deps/gn_pair/runtime/city_core.py
+current_qualified_name：evaluate
+函数AST摘要：e26a62e7a48f9f09fc8d316320eee64955f598501a68b31ee8b0f38937c57cf3
+module_sha256：cba8bf1426dc677bee98b689cecea7e0104f7d281defcfcd108685b268070266
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/65
+contract：{
+  "inputs": "request/data/native",
+  "operations": "schema/data版/op精确；lookup按GNid版，search不选首；点和Rn分开；文化context哈希绑定geo+父版+完整native请求",
+  "outputs": "完整lookup或search dict，含source/adoption/C0/D2/B状态",
+  "preconditions_and_limits": "Geo身份/点版与显式文化context分开；无lease/方向/C0/主题计算，不声称新C20已接",
+  "purpose": "精确新数据入口与context"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/city_core.py:evaluate",
+  "calls": 58,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+85. deps/window/deps/gn_pair/runtime/context_core.py:unknown
+算法标识：deps/window/deps/gn_pair/runtime/context_core.py:unknown
+current_relative_module：deps/window/deps/gn_pair/runtime/context_core.py
+current_qualified_name：unknown
+函数AST摘要：312f535c8650f04cc2c65eaf0bdd4508da8ef45d21a3a319e6ce09afe7e7a2f4
+module_sha256：af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/66
+contract：{
+  "purpose": "保留地点已知、文化尚未定的分别状态",
+  "inputs": "selected ref、固定reason及具体来源/成员details",
+  "operations": "复制selected、native_request/report置None、标注不是零贡献及点不作scope证据，再加入details",
+  "outputs": "coverage_undetermined dict",
+  "preconditions_and_limits": "kwargs为内部可信固定字段，非任意公开覆盖；未定不等于判定无文化贡献"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/context_core.py:unknown",
+  "calls": 24,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+86. deps/window/deps/gn_pair/runtime/context_core.py:city_membership
+算法标识：deps/window/deps/gn_pair/runtime/context_core.py:city_membership
+current_relative_module：deps/window/deps/gn_pair/runtime/context_core.py
+current_qualified_name：city_membership
+函数AST摘要：668b053d8bbae09e0f558c5c709927d5cb7677f9ddfe6062b0b1caa68a00b21c
+module_sha256：af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/67
+contract：{
+  "purpose": "核固定城市具名身份和提供者行政成员关系",
+  "inputs": "固定record/旧city/data/specs",
+  "operations": "选legacy_id/name登记anchor；拒驻地与非CN；核省桥、源行SHA、feature、中文名；同精确record直连，ADM3则按admin1/admin2唯一ADM2；全部合格证明均保留",
+  "outputs": "qualified bool、reason或proofs；anchor资料不一致拒绝",
+  "preconditions_and_limits": "这是工程文化frame包含，不证明当前官方行政多边形一致；不合并潜江两层GN身份；不按经纬度判城市全境"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/context_core.py:city_membership",
+  "calls": 1,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+87. deps/window/deps/gn_pair/runtime/context_core.py:derive_city
+算法标识：deps/window/deps/gn_pair/runtime/context_core.py:derive_city
+current_relative_module：deps/window/deps/gn_pair/runtime/context_core.py
+current_qualified_name：derive_city
+函数AST摘要：dad8ab48730b59e4d3cb5b31187711017c718e21d057bf2bd8e654c5618a8042
+module_sha256：af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/68
+contract：{
+  "purpose": "先核旧城市完整来源链，再生成本次GN目标文化候选上界",
+  "inputs": "固定GNrecord、精确旧city entry、data/native/oldcore/specs",
+  "operations": "成员核→原native重放→完整geo集合和旧subject链接→同frame组合certificate→新直接完整候选上界链接→原native重放；保留旧scope限制与原报告",
+  "outputs": "未定或完整派生native_request/report/lineage certificates/membership",
+  "preconditions_and_limits": "旧source==旧target可无旧中间链接；其余须complete、reviewed、同frame；原未决不会被新桥洗成已知；代表点独立"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/context_core.py:derive_city",
+  "calls": 1,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+88. deps/window/deps/gn_pair/runtime/context_core.py:evaluate
+算法标识：deps/window/deps/gn_pair/runtime/context_core.py:evaluate
+current_relative_module：deps/window/deps/gn_pair/runtime/context_core.py
+current_qualified_name：evaluate
+函数AST摘要：69877c0e3b40b8e4bb23ba25febe589a95ca773ab8c9e38752efe533141c65b4
+module_sha256：af50c5371854c6ea87a3d451ae5bc55a4391e3018ea6f8e9a34384c042538f4c
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/69
+contract：{
+  "purpose": "明确所选文化资料的分支调度及版本追溯",
+  "inputs": "精确schema/operation/data_version/region_ref/cultural_record_ref五字段；固定data/native/oldcore/specs",
+  "operations": "严格字段/ref核→先取得独立地点/点→null/未知ref未定，province复用442，city调用derive_city→context hash绑定实际GN与资料native request",
+  "outputs": "新wrapper下的完整地点、点、文化报告与版本边界",
+  "preconditions_and_limits": "未知地点/地点版本不构造文化结果；不自动优先城市；同名宿州不会因名称相近继承苏州；无D2/C0/C20/显示"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/context_core.py:evaluate",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+89. deps/window/deps/gn_pair/runtime/noncn_core.py:membership
+算法标识：deps/window/deps/gn_pair/runtime/noncn_core.py:membership
+current_relative_module：deps/window/deps/gn_pair/runtime/noncn_core.py
+current_qualified_name：membership
+函数AST摘要：efd75283b297ca8a901f0bb1ed04488e673a21b7eb01c6c5dbca63694a817ceb
+module_sha256：327d5941065f993cbfaee0dbafe814b375536bef57729494f5c3e72f80f07be3
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/70
+contract：{
+  "purpose": "正向具名行政成员资格",
+  "inputs": "固定record、family、data",
+  "operations": "核admin种类/支持层级→唯一原ADM1→精确正向anchor row SHA/admin/code；TW下级另核唯一ADM2及20正向锚；输出完整源证书",
+  "outputs": "qualified bool与proof或明确reason；锚材料不一致拒绝",
+  "preconditions_and_limits": "不是补集规则、不按点判全境、不把01转04；驻地和不明ADMD不继承；相同坐标不合并身份"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/noncn_core.py:membership",
+  "calls": 18,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+90. deps/window/deps/gn_pair/runtime/noncn_core.py:derive
+算法标识：deps/window/deps/gn_pair/runtime/noncn_core.py:derive
+current_relative_module：deps/window/deps/gn_pair/runtime/noncn_core.py
+current_qualified_name：derive
+函数AST摘要：86649fb3c4311cd5d51ae6e3a0638fc6ae483cc0c959a9875cacf1c9d3888567
+module_sha256：327d5941065f993cbfaee0dbafe814b375536bef57729494f5c3e72f80f07be3
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/71
+contract：{
+  "purpose": "完整旧源链之后接新正向成员包含",
+  "inputs": "固定record/精确旧entry/family/data/native/oldcore/legacy/spec",
+  "operations": "membership→原native重放→全部geo引用→必要原subject旧target完整同frame link→组合证书→新直接same-frame candidate upper-bound→原native重放",
+  "outputs": "unknown或完整native request/report、原报告、成员证据及旧限制",
+  "preconditions_and_limits": "原subject==target无需中间link；原未知/断链无法由新桥修好；不把旧文化点覆盖GN自有点或新造权重"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/noncn_core.py:derive",
+  "calls": 18,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+91. deps/window/deps/gn_pair/runtime/noncn_core.py:evaluate
+算法标识：deps/window/deps/gn_pair/runtime/noncn_core.py:evaluate
+current_relative_module：deps/window/deps/gn_pair/runtime/noncn_core.py
+current_qualified_name：evaluate
+函数AST摘要：6ea5e689b27578086663ef76345f04fcda13eb4d649a5ff018a444f70fb174c5
+module_sha256：327d5941065f993cbfaee0dbafe814b375536bef57729494f5c3e72f80f07be3
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/72
+contract：{
+  "purpose": "新非CN路径与精确旧455语义调度",
+  "inputs": "精确新schema五字段；固定data/native/oldcore/legacy/cityspec/noncnspec",
+  "operations": "新schema核→同请求转旧455取地点/点与原路径→仅已知HK/MO/TW、精确所选原文化身份匹配才derive→重绑新context→新版wrapper",
+  "outputs": "完整地点/点/Rn及明确新旧方法版本",
+  "preconditions_and_limits": "CN与旧city identity/point/Rn逐字段不改，未知GN不补点；null/未知文化不改成closed；跨分区文化ref保持未定"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/noncn_core.py:evaluate",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+92. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:ContractError.__init__
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:ContractError.__init__
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：ContractError.__init__
+函数AST摘要：4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/73
+contract：{
+  "inputs": "status/path/code",
+  "operations": "赋三属性",
+  "outputs": "None",
+  "preconditions_and_limits": "仅旧文化engine内部错误载体",
+  "purpose": "结构化内部异常"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+93. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:fail
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:fail
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：fail
+函数AST摘要：b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/74
+contract：{
+  "inputs": "status/path/code",
+  "operations": "raise ContractError",
+  "outputs": "正常不返回",
+  "preconditions_and_limits": "异常回传给evaluate，不是源判定",
+  "purpose": "抛内部异常"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+94. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:obj
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:obj
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：obj
+函数AST摘要：8370003829b998b49b7e5347a36da126d3d32b057e2f02c0c0a9fc272ee9b3e5
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/75
+contract：{
+  "inputs": "value/allowedfields/path",
+  "operations": "必须dict、未知/缺项分别拒",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "只schema不证来源",
+  "purpose": "文化对象字段核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:obj",
+  "calls": 1061,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+95. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:text
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:text
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：text
+函数AST摘要：24378609ea51a60f93b5570f67462a2ae518150fbeee44fdf1f43ef370c24437
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/76
+contract：{
+  "inputs": "value/path",
+  "operations": "必须非空且trim str",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不查文义/地理真值",
+  "purpose": "trim非空文字核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:text",
+  "calls": 3133,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+96. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:choice
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:choice
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：choice
+函数AST摘要：ef44d01bd507164178a220ce8017809d49051de827789728a94583950fd6e696
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/77
+contract：{
+  "inputs": "value/allowed/path",
+  "operations": "str且allowed成员",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不是隐式映射",
+  "purpose": "枚举值核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:choice",
+  "calls": 469,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+97. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:sha
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:sha
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：sha
+函数AST摘要：ab12fcaffeebd0d4d57c85dc4fdd3dfea637a13c80b29b4be8f662daba60ccd3
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/78
+contract：{
+  "inputs": "value/path",
+  "operations": "64位小写hex正则",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不重新认证出处",
+  "purpose": "摘要语法核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:sha",
+  "calls": 771,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+98. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:digest
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:digest
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：digest
+函数AST摘要：87399cc705ddc0bce51619f01766e43b8d07720ce8247a0eb508c1633855fef6
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/79
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "排序紧凑UTF8 SHA",
+  "outputs": "64hex str",
+  "preconditions_and_limits": "精确旧AST未改",
+  "purpose": "旧规范摘要"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:digest",
+  "calls": 916,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+99. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:reference
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:reference
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：reference
+函数AST摘要：dbad1b23988ac94d47b09ed84834335bd9e3f5153c38a2f39582532922cced2e
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/80
+contract：{
+  "inputs": "value/path",
+  "operations": "id/version文本+SHA格式",
+  "outputs": "tuple(id,version)",
+  "preconditions_and_limits": "内容hash另在resolve_refs核",
+  "purpose": "旧三字段ref核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:reference",
+  "calls": 663,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+100. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:ref_for
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:ref_for
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：ref_for
+函数AST摘要：6450db815f6ac1fb49ae002563050ab6b7a88357ede1f7529b9a0d588bf45f6e
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/81
+contract：{
+  "inputs": "带id/version的value",
+  "operations": "保id/version并digest完整value",
+  "outputs": "dict id/version/sha256",
+  "preconditions_and_limits": "不裁城市/省域",
+  "purpose": "旧内容ref生成"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:ref_for",
+  "calls": 108,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+101. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:load_catalog
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:load_catalog
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：load_catalog
+函数AST摘要：8e931b773b0998ea2c64406c2c39ddcaf4b582ae5a74a458475fac3887fd721e
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/82
+contract：{
+  "inputs": "无参；邻文件",
+  "operations": "读旧固定文化表SHA，解析JSON并核每unit source_ref内容",
+  "outputs": "catalog dict或ContractError",
+  "preconditions_and_limits": "只给旧两个profile；无城市地理映射/运行采纳",
+  "purpose": "固定旧文化表装载"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:load_catalog",
+  "calls": 37,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+102. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:region
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:region
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：region
+函数AST摘要：49e6779bcc49467a5df6b7a0db970354e7c438a08032ecbfcd8947922d2d856d
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/83
+contract：{
+  "inputs": "value/path",
+  "operations": "恰7字段、每字段文字、kind为3种既有值",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "level仅文字；GN层级仍提供方类型，不借此认证MCA市级",
+  "purpose": "旧region形状核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:region",
+  "calls": 73,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+103. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:frame
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:frame
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：frame
+函数AST摘要：89375389d855fcdb4ab0fc8c498ff305982ef185cacb10c6bae02dba8494ce37
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/84
+contract：{
+  "inputs": "value/path",
+  "operations": "恰id/version/era/description非空文字",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "frame完全相等由后续比较，不跨版投票",
+  "purpose": "旧frame核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:frame",
+  "calls": 108,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+104. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:unit_set
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:unit_set
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：unit_set
+函数AST摘要：badb95fcf6e3b23aa70e44f5e118e09ffcc196bacbf61414201d61e58d161aa3
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/85
+contract：{
+  "inputs": "value/allowed/path",
+  "operations": "list、每unit在固定profile、无重复",
+  "outputs": "set[str]",
+  "preconditions_and_limits": "不造新单位或权重",
+  "purpose": "旧文化单位集核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:unit_set",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+105. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:validate_source
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:validate_source
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：validate_source
+函数AST摘要：ac2a73a291ba170988620a226c160bcba9e70305bad881bd8e7c6ff217fa03ac
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/86
+contract：{
+  "inputs": "value/path",
+  "operations": "恰7文字字段",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "格式不认证真实发布/全界",
+  "purpose": "旧来源元数据核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:validate_source",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+106. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:validate_evidence
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:validate_evidence
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：validate_evidence
+函数AST摘要：e43674850f9b9dd063330df63282a861449b8b644bff10ce8a6945a050f346c1
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/87
+contract：{
+  "inputs": "value/path",
+  "operations": "按kind精确字段、来源/frame/审核/单位或链接形状",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "reviewed/complete是显式研究声明，不是软件真值认证",
+  "purpose": "旧geo/crosswalk证形状核"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:validate_evidence",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+107. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:resolve_refs
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:resolve_refs
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：resolve_refs
+函数AST摘要：e7a6a917ae9de3ac3ca2459361c2ebdc1962d57285036cf37f0bf409856a05e5
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/88
+contract：{
+  "inputs": "refs/index/kind/path",
+  "operations": "逐id+version+SHA核对象，去重复且kind匹配",
+  "outputs": "list[evidence]或ContractError",
+  "preconditions_and_limits": "同名/错版/改件不能替代",
+  "purpose": "旧证内容绑定"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:resolve_refs",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+108. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:evaluate_coverage
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:evaluate_coverage
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：evaluate_coverage
+函数AST摘要：b30c90c2b46934eb2cc209b48db9dcfc68a01e643a2cca5b982a94b32bb09da8
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/89
+contract：{
+  "inputs": "payload/profile/index/result",
+  "operations": "核target/profile/frame；geo单位并集与全集声明；接受同框已审完整same_scope/within链接；跨元素保ambiguous；无权重",
+  "outputs": "None，原地填result状态/单位/attribute等",
+  "preconditions_and_limits": "缺项或链接不可用保coverage_undetermined；exact集合不能由仅包含冒完全相同范围；不从坐标推属",
+  "purpose": "旧完整范围评价"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:evaluate_coverage",
+  "calls": 37,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+109. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:evaluate
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:evaluate
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：evaluate
+函数AST摘要：eceecaf04a472d5e8df7e8a26142f3f74b22ff122f8c36b5e2276773a78b90ef
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/90
+contract：{
+  "inputs": "5字段nativepayload",
+  "operations": "固定profile+target+证全部核；evaluate_coverage；结构异常转状态；deepcopy输出",
+  "outputs": "原native report dict",
+  "preconditions_and_limits": "源真实性/边界/现实效果未认证；不改变喜用/B/运行采用",
+  "purpose": "旧原生文化API"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:evaluate",
+  "calls": 37,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+110. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:load_request
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:load_request
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：load_request
+函数AST摘要：131852621d606b74efe1d01ffe1b052f3618d8ac3d9e1217335d225d922f1050
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/91
+contract：{
+  "inputs": "str或bytes",
+  "operations": "json.loads unique及非有限constant拒绝",
+  "outputs": "JSON值或ValueError",
+  "preconditions_and_limits": "当前只读固定旧表；公开用户走新wrapper更严协议",
+  "purpose": "旧JSON读取"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:load_request",
+  "calls": 37,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+111. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:load_request.unique
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:load_request.unique
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：load_request.unique
+函数AST摘要：6ff6e0da03aa43b7ebe74e0bc3001bfe7c611965325cfd37f0fa73f90904d715
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/92
+contract：{
+  "inputs": "pairs",
+  "operations": "构dict并拒重复",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "保旧字节；不声称其错误序列化是新公共CLI",
+  "purpose": "旧JSON重复键钩子"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/region_evidence_catalog.py:unique",
+  "calls": 1221,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+112. deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:main
+算法标识：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py:main
+current_relative_module：deps/window/deps/gn_pair/runtime/region_evidence_catalog.py
+current_qualified_name：main
+函数AST摘要：37bd4caf8cef79ac8128996f03a0a6d98255532639bebfba30a9772d7355e805
+module_sha256：947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/93
+contract：{
+  "inputs": "argv一文件",
+  "operations": "读旧nativepayload，evaluate并print indentJSON；捕所列IO/ValueError",
+  "outputs": "已知三状态0，否则2",
+  "preconditions_and_limits": "未作为本包公开城市入口执行；静态解释，不编造IO",
+  "purpose": "旧独立文化CLI"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+113. deps/window/deps/gn_pair/runtime/research_chain.py:validate_request
+算法标识：deps/window/deps/gn_pair/runtime/research_chain.py:validate_request
+current_relative_module：deps/window/deps/gn_pair/runtime/research_chain.py
+current_qualified_name：validate_request
+函数AST摘要：2424c26e9e6a45f406b491ef67a582cb0a5c85a5b8ce8ab862d366938abbf6ac
+module_sha256：35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/94
+contract：{
+  "inputs": "request dict与accepted city_core模块",
+  "operations": "核精确7字段/schema/operation/data_version字符串/scope两值；对三组非null引用调用原ref_key",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "固定data_version真值由原查找核再核；文化ref仅现地，出生地无需文化ref",
+  "purpose": "阻止暗中补参及新默认含义"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:validate_request",
+  "calls": 72,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+114. deps/window/deps/gn_pair/runtime/research_chain.py:lookup_location
+算法标识：deps/window/deps/gn_pair/runtime/research_chain.py:lookup_location
+current_relative_module：deps/window/deps/gn_pair/runtime/research_chain.py
+current_qualified_name：lookup_location
+函数AST摘要：3861c1121f983e5b81d3f1d808edc4945bdf26649a62e13229801329aff0cf98
+module_sha256：35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/95
+contract：{
+  "inputs": "地理ref或null，文化ref或null，请求及四旧核心/固定spec/data",
+  "operations": "null→明确place_not_supplied；否则构造469精确五字段请求、实际调用未改noncn.evaluate",
+  "outputs": "原469完整lookup dict或missing dict",
+  "preconditions_and_limits": "生地区固定selected=null；不自动选文化版/省版/城市版",
+  "purpose": "复用已采用显式文化源链"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:lookup_location",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+115. deps/window/deps/gn_pair/runtime/research_chain.py:geography_only
+算法标识：deps/window/deps/gn_pair/runtime/research_chain.py:geography_only
+current_relative_module：deps/window/deps/gn_pair/runtime/research_chain.py
+current_qualified_name：geography_only
+函数AST摘要：91cac8cd751e06775c03514035b98e2fdeae7b1d78dc58195861f3d4aa9faf0b
+module_sha256：35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/96
+contract：{
+  "inputs": "lookup dict、原relative模块",
+  "operations": "保留lookup_status、完整identity/point、整份lookup摘要及点含义说明",
+  "outputs": "JSON dict；identity/point可null",
+  "preconditions_and_limits": "去掉的是未请求的出生文化输出，身份及点的完整source receipt仍在；不把地理source hash等同文化状态",
+  "purpose": "公开地理与文化责任分开"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:geography_only",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+116. deps/window/deps/gn_pair/runtime/research_chain.py:resolve_point
+算法标识：deps/window/deps/gn_pair/runtime/research_chain.py:resolve_point
+current_relative_module：deps/window/deps/gn_pair/runtime/research_chain.py
+current_qualified_name：resolve_point
+函数AST摘要：c6f884e91252bc9bb70e16f3f79664f84f7d5bf6ad22592aa850c4b00b9496ab
+module_sha256：35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/97
+contract：{
+  "inputs": "原lookup dict、原relative模块、错误路径label",
+  "operations": "非place_found→语义未定；核五字段region真实GN.feature_code及3字段ref绑定；核原point/ref格式、SHA、identity内自有点相等、region_sha；known/WGS84/坐标→原coordinate",
+  "outputs": "(resolved dict,ready)；或(None,reason)；绑定坏项抛异常",
+  "preconditions_and_limits": "resolved lat/lon为Decimal，float另存；不调用原city/province验证器、不伪改GN级别；缺文化不影响点；所有点均来自已锁源",
+  "purpose": "为旧数学提供真实GN身份和已绑定自有点"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:resolve_point",
+  "calls": 42,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+117. deps/window/deps/gn_pair/runtime/research_chain.py:relative_report
+算法标识：deps/window/deps/gn_pair/runtime/research_chain.py:relative_report
+current_relative_module：deps/window/deps/gn_pair/runtime/research_chain.py
+current_qualified_name：relative_report
+函数AST摘要：a24c6d345c21c1e67170bc9bc7997e885ebd36e35725098a2121d2ba39ac5fed
+module_sha256：35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/98
+contract：{
+  "inputs": "出生和现地lookup、scope、原relative和原C0模块",
+  "operations": "解析两点→真实范围请求拒代表点替代→ready门→同id冲突门→原WGS84 inverse/有限检查/退化分类→原C0精确谓词→唯一方向原D2",
+  "outputs": "Rr dict：known_no_direction_contribution / relative_direction_computed / direction_undetermined / unsupported_scope",
+  "preconditions_and_limits": "C0仅同规范region完整五字段+point_ref完整三字段且known点同点；异id同坐标未定；不填零向量/默认北/中心土；不退还预算也不计算B",
+  "purpose": "区分已知无方向贡献、已算方向、证据不足"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:relative_report",
+  "calls": 21,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+118. deps/window/deps/gn_pair/runtime/research_chain.py:evaluate
+算法标识：deps/window/deps/gn_pair/runtime/research_chain.py:evaluate
+current_relative_module：deps/window/deps/gn_pair/runtime/research_chain.py
+current_qualified_name：evaluate
+函数AST摘要：1ff4878be607a92e5ce40875a99d155b81e242d446c3d6400351619ab69d8751
+module_sha256：35770f0a5da842bd2297e575b42c18a40a316151af2f87195ee4e35a6453d27a
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/99
+contract：{
+  "inputs": "7字段request、固定data/spec、四旧核心、原relative/C0、lock SHA",
+  "operations": "请求结构核→直接核固定data_version，即使两地null也不能绕过→出生无文化lookup→现地显式文化lookup→保持Rn原报告或明确unknown；仅原native链闭合且元素唯一才按已批工程规则给Rn_encoding one-hot，歧义/未知保持null→独立Rr→完整源/框架/输入摘要",
+  "outputs": "完整JSON dict；源identity/point、原Rn native_request/native_report、单独Rn_encoding与新Rr分别可追溯",
+  "preconditions_and_limits": "静态给定地点对，不宣称实际出生或现时在场；Rn one-hot不把原candidate_only历史记录改成现实真值；无主题、全预算、RGB、显示；不制造采纳",
+  "purpose": "本版研究交付"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/runtime/research_chain.py:evaluate",
+  "calls": 21,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+119. deps/window/deps/gn_pair/relative/relative_region.py:ContractError.__init__
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:ContractError.__init__
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：ContractError.__init__
+函数AST摘要：4bba30e846e713c81b24bd1012f66525cf50dd4ed7bbf2a5adc9c54064729a66
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/100
+contract：{
+  "inputs": "status,path,code",
+  "operations": "保存三个属性",
+  "outputs": "exception对象初始化",
+  "preconditions_and_limits": "不是正常结果；新入口转ValueError后拒绝",
+  "purpose": "带定位的原合同错误"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+120. deps/window/deps/gn_pair/relative/relative_region.py:fail
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:fail
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：fail
+函数AST摘要：b00b20a090fbdd4e9771870ac37a513661b8c836702abe1adb91c9778ba20a04
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/101
+contract：{
+  "inputs": "status,path,code",
+  "operations": "raise ContractError",
+  "outputs": "不正常返回",
+  "preconditions_and_limits": "调用者处理；无部分向量",
+  "purpose": "原拒绝入口"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+121. deps/window/deps/gn_pair/relative/relative_region.py:obj
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:obj
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：obj
+函数AST摘要：8370003829b998b49b7e5347a36da126d3d32b057e2f02c0c0a9fc272ee9b3e5
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/102
+contract：{
+  "inputs": "value,fields,path",
+  "operations": "必须dict，差集检查未知/缺失字段",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "原isinstance语义保留；公开输入另经bounded约束",
+  "purpose": "精确对象形状"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:obj",
+  "calls": 160,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+122. deps/window/deps/gn_pair/relative/relative_region.py:text
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:text
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：text
+函数AST摘要：24378609ea51a60f93b5570f67462a2ae518150fbeee44fdf1f43ef370c24437
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/103
+contract：{
+  "inputs": "value,path",
+  "operations": "非空、无两侧空格str",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "不做别名或简繁转换",
+  "purpose": "原文本格式"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:text",
+  "calls": 680,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+123. deps/window/deps/gn_pair/relative/relative_region.py:digest
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:digest
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：digest
+函数AST摘要：87399cc705ddc0bce51619f01766e43b8d07720ce8247a0eb508c1633855fef6
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/104
+contract：{
+  "inputs": "JSON兼容value",
+  "operations": "ensure_asciiFalse、排序键、紧凑、allow_nanFalse后UTF8 SHA256",
+  "outputs": "64位小写str",
+  "preconditions_and_limits": "绑定完整内容，不认证真值",
+  "purpose": "稳定内容绑定"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:digest",
+  "calls": 203,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+124. deps/window/deps/gn_pair/relative/relative_region.py:ref_for
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:ref_for
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：ref_for
+函数AST摘要：6450db815f6ac1fb49ae002563050ab6b7a88357ede1f7529b9a0d588bf45f6e
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/105
+contract：{
+  "inputs": "含id/version的JSON record",
+  "operations": "保留id/version并digest完整record",
+  "outputs": "dict{id,version,sha256}",
+  "preconditions_and_limits": "本版主链不调用；旧公共API兼容保留",
+  "purpose": "旧ref构造"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+125. deps/window/deps/gn_pair/relative/relative_region.py:reference
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:reference
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：reference
+函数AST摘要：7a97a3dadc21c12490b4f074aa598e537a3c54dd360d41c028783cdfabf60d1c
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/106
+contract：{
+  "inputs": "三字段point ref、path",
+  "operations": "obj精确字段；id/version text；SHA正则",
+  "outputs": "tuple(id,version)或ContractError",
+  "preconditions_and_limits": "用于point ref而非GN三字段地名ref；两者不可混用",
+  "purpose": "原点引用验证"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:reference",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+126. deps/window/deps/gn_pair/relative/relative_region.py:verified_vendor
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:verified_vendor
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：verified_vendor
+函数AST摘要：ac737d023a80465fa1c82ee83162569b67a2f88b78a66caa66ebc4f9ba960dcb
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/107
+contract：{
+  "inputs": "relative目录的原manifest/requirements/vendor",
+  "operations": "先固定manifest SHA，再requirements SHA和18文件精确集合/每件SHA，返回所核源bytes",
+  "outputs": "(manifest dict,dict[str,bytes])或ContractError",
+  "preconditions_and_limits": "忽略原库合同中的pyc但本版外层66件精确守卫不忽略新增文件；不得认证代码仓库真实性",
+  "purpose": "原GeographicLib2.1完整源校验"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:verified_vendor",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+127. deps/window/deps/gn_pair/relative/relative_region.py:load_geodesic
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:load_geodesic
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：load_geodesic
+函数AST摘要：450cb8e023e1962485804c3d431e4a7fc6b502d155e98a1225ad6cfc96c9ee95
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/108
+contract：{
+  "inputs": "无公开参数；verified_vendor返回的固定bytes",
+  "operations": "RLock；仅同源8模块集可复用，否则按LOAD_ORDER compile所核字节；核2.1及WGS84参数",
+  "outputs": "Geodesic class或ContractError",
+  "preconditions_and_limits": "不走全局安装/字节码；同进程恶意对象安全不在此合同；新鲜进程首次8源模块",
+  "purpose": "原测地加载"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:load_geodesic",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+128. deps/window/deps/gn_pair/relative/relative_region.py:coordinate
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:coordinate
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：coordinate
+函数AST摘要：d8644342cff881a98091630548974a22ad2d1ad5236dff32292f1bc9c526d286
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/109
+contract：{
+  "inputs": "str/int/float非bool,limit=90或180,path",
+  "operations": "严格有限十进制/范围；Decimal保留相等性，-0归0、+180归-180；转binary64",
+  "outputs": "(Decimal,float)或ContractError",
+  "preconditions_and_limits": "不提升输入精度；本版公共点只从固定GN来源读字符串",
+  "purpose": "原坐标解析"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:coordinate",
+  "calls": 160,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+129. deps/window/deps/gn_pair/relative/relative_region.py:validate_region
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:validate_region
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：validate_region
+函数AST摘要：6cb825aa3998559fe14c84871a297d723bb68cd807b883274a78e8aa2abfd813
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/110
+contract：{
+  "inputs": "五字段旧region,path",
+  "operations": "obj/text并仅city/province级别",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "旧公共calculate专用；本版GN消费者明确不调用，也不把GN层级伪装city/province",
+  "purpose": "原地区级别门留存"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+130. deps/window/deps/gn_pair/relative/relative_region.py:validate_point
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:validate_point
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：validate_point
+函数AST摘要：2c86316214329171b06ec3204f18d40a70915d30e796b6244f174257d5ea7d1d
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/111
+contract：{
+  "inputs": "十字段point,path",
+  "operations": "核文本/SHA/meaning、四字段source、给定坐标有限范围",
+  "outputs": "None或ContractError",
+  "preconditions_and_limits": "known与unknown均可结构合法；是否可算由resolve核；本版仍用原函数",
+  "purpose": "原代表点记录合同"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:validate_point",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+131. deps/window/deps/gn_pair/relative/relative_region.py:resolve_location
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:resolve_location
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：resolve_location
+函数AST摘要：bf0acb682dc11f033f01fd34faac3b7e511f15f5ca5676ca5b0ead5a66843557
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/112
+contract：{
+  "inputs": "旧{region,point_ref}、点索引、path",
+  "operations": "旧validate_region、point ref和full SHA/region SHA/meaning/CRS/coords",
+  "outputs": "(resolved,ready)或(None,reason)或ContractError",
+  "preconditions_and_limits": "只服务旧city/province原API；本版GN由新resolve_point提供同数学输入，不调用此函数",
+  "purpose": "旧位置解析兼容留存"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+132. deps/window/deps/gn_pair/relative/relative_region.py:fraction_record
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:fraction_record
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：fraction_record
+函数AST摘要：a01fce7089e22fa6153f4fef25c7f076a5579b677a674e4f34dfbf0c105f100b
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/113
+contract：{
+  "inputs": "Fraction",
+  "operations": "取numerator/denominator",
+  "outputs": "dict[str,int]",
+  "preconditions_and_limits": "不转浮点，也不暗示测地精度提升",
+  "purpose": "原有理向量编码"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:fraction_record",
+  "calls": 90,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+133. deps/window/deps/gn_pair/relative/relative_region.py:normalize_azimuth
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:normalize_azimuth
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：normalize_azimuth
+函数AST摘要：ad15f98aa00733c1962731a5f651b3237dbfb2bb00ec0e0b2cb6b3a29c0da102
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/114
+contract：{
+  "inputs": "finite binary64角度",
+  "operations": "模360；binary64极小负角可舍成360时再归0",
+  "outputs": "float in[0,360)",
+  "preconditions_and_limits": "必须先核逆解有限；不能给未知方位强造0",
+  "purpose": "原角度归一"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:normalize_azimuth",
+  "calls": 112,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+134. deps/window/deps/gn_pair/relative/relative_region.py:direction_vector
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:direction_vector
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：direction_vector
+函数AST摘要：b7d17bb6c933df3fc4dc131be11abd0610a03cd125c55ec1391d5996cddc073d
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/115
+contract：{
+  "inputs": "唯一方向finite角度",
+  "operations": "theta规范→Fraction(str)→q=floor(theta/45),t→水土木木火土金金水相邻1-t/t累加→sum1/非负",
+  "outputs": "五元素dict，各含整数numerator/denominator",
+  "preconditions_and_limits": "八方锚点为文化对应；连续比例为已批工程规则；同元素段累加为1；无距离衰减",
+  "purpose": "原D2精确复用"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:direction_vector",
+  "calls": 18,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+135. deps/window/deps/gn_pair/relative/relative_region.py:classify_geometry
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:classify_geometry
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：classify_geometry
+函数AST摘要：5def3ee53ad582d28e6ab8b5ef7346e6ab3ca6e7e67b1eed2c4e0d78deb08449
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/116
+contract：{
+  "inputs": "两份含Decimal及float坐标的resolved、inverse dict",
+  "operations": "先exact同点，再float折叠/零距离、数值舍成极点、异极点、起点极点、反纬两解/舍入反纬，最后唯一",
+  "outputs": "七类status字符串之一",
+  "preconditions_and_limits": "近对跖不一概未定；终点极点可唯一；实际全地区/GPS误差未建模",
+  "purpose": "原唯一性和退化边界"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:classify_geometry",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+136. deps/window/deps/gn_pair/relative/relative_region.py:calculate
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:calculate
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：calculate
+函数AST摘要：aeaf10cd680386f72fdb38e5e99af953faa7d75e169fc71a52c0dc50c338abcd
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/117
+contract：{
+  "inputs": "旧relative-region0.2/prof/scope/origin/current/point_records",
+  "operations": "旧全point验证→旧city/province解析→逆测地→唯一D2；返回原历史批准元数据",
+  "outputs": "完整dict",
+  "preconditions_and_limits": "本版GN主入口不调用，因GN真实level不属于旧city/province；其center_policy not_approved等是当时历史输出，不充当本版C0状态",
+  "purpose": "旧原API兼容保留，不冒本版IO"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+137. deps/window/deps/gn_pair/relative/relative_region.py:load_request
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:load_request
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：load_request
+函数AST摘要：131852621d606b74efe1d01ffe1b052f3618d8ac3d9e1217335d225d922f1050
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/118
+contract：{
+  "inputs": "JSON str或bytes",
+  "operations": "json.loads并unique拒重复键，parse_constant拒非有限",
+  "outputs": "JSON值或ValueError",
+  "preconditions_and_limits": "原库读manifest时实际调用；不是本版公开bounded入口",
+  "purpose": "原严格JSON读入"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:load_request",
+  "calls": 20,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+138. deps/window/deps/gn_pair/relative/relative_region.py:load_request.unique
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:load_request.unique
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：load_request.unique
+函数AST摘要：6ff6e0da03aa43b7ebe74e0bc3001bfe7c611965325cfd37f0fa73f90904d715
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/119
+contract：{
+  "inputs": "有序键值pairs",
+  "operations": "逐键查重再dict",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "内部回调；不做来源认证",
+  "purpose": "原重复键拒绝"
+}
+original_actual_IO_identity_retained：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "deps/gn_pair/relative/relative_region.py:unique",
+  "calls": 40,
+  "capture_phase": "pre483metadata real IO; exact function AST reused unless overwritten by final483 changed-function capture"
+}
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+
+139. deps/window/deps/gn_pair/relative/relative_region.py:main
+算法标识：deps/window/deps/gn_pair/relative/relative_region.py:main
+current_relative_module：deps/window/deps/gn_pair/relative/relative_region.py
+current_qualified_name：main
+函数AST摘要：78f21a08a569414d56e4f661dbb4afed68b59f5d969379a21bb030608786e5a0
+module_sha256：0d71d387429ef117acc154f8fefa2d5fccc7ae7a7ab1ba9d9276ffeff0f9bb31
+exact_old_contract_document：reference/480_effective121_contracts_after487.json
+exact_old_contract_pointer：/functions/120
+contract：{
+  "inputs": "argv恰一JSON文件路径",
+  "operations": "读request→calculate→prettyJSON；按三个语义状态0否则2",
+  "outputs": "int退出码及stdout",
+  "preconditions_and_limits": "旧city/province文件CLI，本版不调用；新公开CLI读stdin",
+  "purpose": "旧CLI留存，不冒本版执行"
+}
+original_actual_IO_identity_retained：null
+490_trace_status：原合同/IO精确复用；本次只另采新外层18，不把121都说本次重新观测。
+

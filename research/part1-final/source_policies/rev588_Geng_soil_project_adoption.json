@@ -1,0 +1,131 @@
+{
+  "schema": "588-exact583-after587-Geng-soil-adoption/1",
+  "revision": 588,
+  "status": "adopted_exact583_after587_finite_Geng_spring_summer_soil",
+  "saved_utc": "2026-11-03T16:21:34.059248+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_author_completion_handoff.json",
+    "bytes": 2346,
+    "sha256": "c674cc79c3355ba04728f9c9f83b3edf59e721bf3ba8b38936acf93fbfdeb3d8"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev587_independent_completion_handoff.json",
+    "bytes": 2267,
+    "sha256": "c826ac9f547e7589e26fbcff1e0573df94ae8eaa990f90b750805afddbcbceb6"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil",
+    "files": 75,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/manifest.json",
+      "bytes": 11860,
+      "sha256": "187f44ddff6db95df5330126d5ab326b246ad3ed2e5f73722398cdb4f0ab2451"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/freeze.json",
+      "bytes": 166,
+      "sha256": "d1331bb638a5660f4fd39ee3ed977c6cf3b0497153a134599bb3b4fb3e3b5118"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev587_Geng_soil_independent_review",
+    "files": 32,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev587_Geng_soil_independent_review/manifest.json",
+      "bytes": 4772,
+      "sha256": "c05a8a9730398ea9f544e1333f676994a885ff8695ab4b5ae66748470973304e"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev587_Geng_soil_independent_review/freeze.json",
+      "bytes": 139,
+      "sha256": "a1a269a5495ab803cb051f9f35d4094b56dae38d78859a0e9163ac3a91259aa0"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_complete_runtime_kernel",
+      "files": 70,
+      "payload_files": 68,
+      "payload_bytes": 4627306,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 11092,
+        "sha256": "416fc0f0c1c43ad07af28bbcb4e083cccd6fd22b004afa00cfd5b4a8b7bd315d"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 167,
+        "sha256": "7ef6f03c082e59cd2d29fe3f7c4614634a802d757889478de8dfad828f71b753"
+      },
+      "all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/583 one complete readonly Geng soil research pims8vti/complete Geng soil source runtime with spaces",
+      "files": 70,
+      "payload_files": 68,
+      "payload_bytes": 4627306,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/583 one complete readonly Geng soil research pims8vti/complete Geng soil source runtime with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 11092,
+        "sha256": "416fc0f0c1c43ad07af28bbcb4e083cccd6fd22b004afa00cfd5b4a8b7bd315d"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/583 one complete readonly Geng soil research pims8vti/complete Geng soil source runtime with spaces/DELIVERY_FREEZE.json",
+        "bytes": 167,
+        "sha256": "7ef6f03c082e59cd2d29fe3f7c4614634a802d757889478de8dfad828f71b753"
+      },
+      "all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev588_Geng_soil_effective_rule_cards.json",
+    "bytes": 12035,
+    "sha256": "1f8f95611aaff99db29605f51dd15800798528bd78331c6a6fcb98bd0a3ee0ef"
+  },
+  "mandatory_source_precisions": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/06_根量继承出处订正_102先验后首producer前.json",
+      "bytes": 1620,
+      "sha256": "7324797b6c888ff3656b6d69b04806d7abcbce4e7a3c4554e248d6a995db9faf"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/07_原数学函数计数笔误精度.json",
+      "bytes": 651,
+      "sha256": "c0b2a58508473b629e39e6b06555fa8af780605044fd25f0783e7c573c92b804"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/08_零改配回归的算子对象精度.json",
+      "bytes": 1084,
+      "sha256": "bccea0d22f7fde687b2167ba5aeeb96546efcf7a24ff4e3447dc64e33b858d58"
+    }
+  ],
+  "all39_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev583_Geng_summer_moist_dry_soil/algorithm_explanations_all39.json",
+    "bytes": 69284,
+    "sha256": "83faad138f088529764c5773630f9c4a014ed04ebce377d3bb9988cb63056c8b"
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev587_Geng_soil_independent_review/review_report.json",
+    "bytes": 4590,
+    "sha256": "0b1f75c340695e16e436ac811206ce2aebb5e59a6bf6bf54a53f1065e8f059f5"
+  },
+  "scope": "两具名人工春夏庚日原盘、natal及己丑/戊辰/己未/戊戌完整柱、原三参数/三theta；模型相对弱的出生充分门。",
+  "birth_gate_not_selected_after_effect": true,
+  "same_target_fire_and_soil_clamp": true,
+  "total_source_fee_b_plus_c_conserved": true,
+  "wet_retained_not_sent_credit": true,
+  "local_D_not_same_as_incremental_N": true,
+  "all107_author_worlds_and32_theta0_regressions_reused": true,
+  "new39_Cramer_worlds_and4_source_relabels_passed": true,
+  "all39_contracts_and27_full_IO_all11_new_passed": true,
+  "existing70_readonly_copy_reused_no_clone_or_chmod": true,
+  "original_other_soil_and_actual_five_layer_continue": true,
+  "all_original_C03_complete": false,
+  "original_task_complete": false,
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "no_B_or_display": true,
+  "real_prediction_verified": false
+}

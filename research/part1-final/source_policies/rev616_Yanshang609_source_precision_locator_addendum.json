@@ -1,0 +1,24 @@
+{
+  "schema": "616-source-precision-locator-effective-correction/1",
+  "historical_policy": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev616_Yanshang609_project_adoption.json",
+    "bytes": 8243,
+    "sha256": "3285d33e4c961042966f09e284df84b3995e640354f1f8e352963a55f36a7630"
+  },
+  "exact_JSON_pointer": "/source_precision",
+  "historical_value": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/source/00_complete_source_problem_before_new_numbers.json",
+    "bytes": 10025,
+    "sha256": "698c787c667757f7b637ff1ea3c4d7b19abdee017d3e2f3543e62663e22049cd"
+  },
+  "effective_value": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev609_Yanshang404_actual_five_layer_adaptation/source/01_precision_correction_before_new_numbers.json",
+    "bytes": 1355,
+    "sha256": "69f69b74f65ab79a723b1b61f3cfd3b64aee64e659daed31c09e648c742ee222"
+  },
+  "reason": "Adoption writer guessed a nonexistent filename then fell back tosource00; source00 and authorMF were correctly bound, but source_precision locator must identifyactual source01. Correctthis single locator explicitly, do not mutate alreadysealed adoption records.",
+  "source00_source01_and_all_author_peer_frozen_unchanged": true,
+  "no_algorithm_rule_IO_or_prediction_change": true,
+  "mandatory_for_current_navigation_and_final_reading": true,
+  "progress_delta": "0.00"
+}

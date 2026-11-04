@@ -1,0 +1,89 @@
+{
+  "schema": "464-surviving-print-finite-follow-finance-adoption/1",
+  "revision": 464,
+  "registered_utc": "2026-11-03T06:43:42.889513+00:00",
+  "status": "adopted_exact4490.1.2_375_after46356_with_effective154_algorithm_contracts",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev449_Ren_surviving_print_follow_finance",
+      "files": 375,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev449_Ren_surviving_print_follow_finance/manifest.json",
+        "bytes": 71832,
+        "sha256": "a25b623164784826a4eb2b51118a10e6b53ccf02c79bcaec4714fd2ffaa40514"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev449_Ren_surviving_print_follow_finance/freeze.json",
+        "bytes": 298,
+        "sha256": "6bd850531ec943113e9b384eba793ab1db6ef56e5fad889c768c043f3537dea9"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev463_surviving_print_independent_review",
+      "files": 56,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev463_surviving_print_independent_review/manifest.json",
+        "bytes": 8737,
+        "sha256": "87912012adf3ad3103e4aa6231bedb52ea60add383e17a4525a531971d0ef65c"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev463_surviving_print_independent_review/freeze.json",
+        "bytes": 144,
+        "sha256": "98c57f91f925ed776601278013b2ecfabc3ea03dd27eab80203427afedd907fb"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev449_author_completion_handoff.json",
+    "bytes": 7872,
+    "sha256": "4d838667d2ce1a27a4a43068d32dac6e7ba8108cbb0c44e746293dabd9f8adb3"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev463_independent_completion_handoff.json",
+    "bytes": 4092,
+    "sha256": "b8e2c70632741f1b32cf111b2ca925d82dd1739bf2c38db8b4a62c28d783bdea"
+  },
+  "effective_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev463_surviving_print_independent_review/effective_algorithm_explanations_all154_named_definitions.json",
+    "bytes": 514872,
+    "sha256": "46e120ee9787ef262892efadca8334f5b805c2d9ee8a46b9739dc7a2d8b58dd0"
+  },
+  "exact_three_field_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev463_surviving_print_independent_review/effective_documentation_exact_three_field_correction.json",
+    "bytes": 3169,
+    "sha256": "eda8746b740516838663ac57cc7c02d2a28047389f151a0a05813d8cd63df81b"
+  },
+  "documentation_fix_scope": "仅guard/providers三说明字段：当前16个外层模块、主盘140重复模块事件、异题clean25；原15/139过时。条件、来源、数值、AST与115实际IO身份未改。",
+  "method_scope": "Ren380有印生日而难依的明确有限后继，先源资格与独立潜界，再全食财印/身体反馈、许可H及全净增补。不由普通carry失败或H成功反选从财。",
+  "main_artificial_legal_chart": "戊辰 庚申 丁丑 甲辰；非古籍完整命例/非真实生日预测。",
+  "main_values": {
+    "food_direct": "61/4",
+    "print_current": "1592/505",
+    "print_actual_birthday": "398/505",
+    "food_current": "7353/505",
+    "wealth_current": "5752/505",
+    "max_potential_support": "3/2",
+    "unavoidable_workload_min": "141/16"
+  },
+  "source_layers": "Ren1947 PDF380印104一般扶助仍难依可支持活印资格；369/370根浅/生犹死/食财流通。380暗生/财运与本明甲/原局虚增不同，跨情景净作用明标工程，不冒直接原文许可。",
+  "full_scope_honesty": "16明藏事实及全部原根保留；既有5独立参与演员在所选HAP中生克共算。非独立gate0不称现实0，也不声称全部藏字功能/32未闭正式关系已完成。",
+  "root_locator": "最终449 binding将继承Ren物理93/94卷一印42/43错串改为实际43/44；原253与Ren根模块不变，raw_legacy_locator保留。不是Primary93印84，不能混书。",
+  "first_question_H": "实际许可全图及负边始终在；四源足盘的稳健H为年伤官+月透庚财 OR 年伤官+月本气庚财；不是喜金土并集。",
+  "net_question": "只在既定一般/强难依、食财通路与财量strict增目标内，年戊土伤官单路 OR 月透庚财单路 OR 申本气庚财单路，0<t<=2完整分段；两金载体分存，无主次比例。",
+  "not_final_whole_喜用": "367从神意向/盈损与秋金财神质量未因此解除。财量增是此有限题的比较目标，不是财富永越多越好或任氏直接判本人工盘全局喜土金。",
+  "independent_evidence": "463事前3基线+32净组合+9边界实际44world（旧口头43误计已说明），792来源账/8777origin/308正负边、32连续解析及全部净H一致；154defs含115当前IO/9嵌套/91精确旧/24新适配/39未执行实审；3坏源0及clean16外层25模块、必要strict/完整协议和现成375只读核10新进程/40真实负控，全SHA/模式不变。",
+  "author_correct_domain_reused": "780世界与64连续证书、36源域4clear32pending等作者已有正确证据复用，不冒本次另重跑。",
+  "computed_failure_not_new_uncompleted_requirement": "一般/强不同、净印使财下降和源pending各分开；已计算失败保阴性，不调参数造正例。",
+  "original_remaining": [
+    "从财形成后所从神盈损/意向及一般财、更多有根/比/印/官真假从竞争",
+    "原特殊/杂气/会化/藏功能/调候与最终辅助主次或替代",
+    "原C03/C04及最终完整支持范围回放与运行分发"
+  ],
+  "no_B_theme_weights_display_or_physical_work": true,
+  "no_all_school_consensus_or_empirical_gate_added": true,
+  "not_empirical_predictive_validation": true,
+  "progress": "86.25/100",
+  "progress_delta": 0
+}

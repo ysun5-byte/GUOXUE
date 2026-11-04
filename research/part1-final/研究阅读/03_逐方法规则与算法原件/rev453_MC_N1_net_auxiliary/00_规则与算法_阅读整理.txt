@@ -1,0 +1,2611 @@
+杂气官印完整局部净辅助
+rev453_MC_N1_net_auxiliary
+所属原模块：C02
+当前采用：rev460_MC_N1_net_auxiliary_project_adoption.json
+范围：全正负及费用后M/A双目标、全部非单调混合；62顶层契约另2旧回调，16新IO46精确复用，不是H并集。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev453_MC_N1_net_auxiliary/algorithm_explanations_and_reuse_453.json
+SHA256：efa80d5a1ccb9a8bd9827581379347b9589948cb6ec664f6cb88567b231e8915
+
+1. net_auxiliary.py:canonical
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "完整已pack结果",
+  "operations_and_reason": "排序、紧凑Unicode JSON，拒NaN；保证同输入/版可逐字复现。",
+  "outputs_and_limits": "str；主程序另补换行。",
+  "verification_basis": "actual完整API/原生CLI逐字比较；打印本身不是喜用规则。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:canonical"
+  },
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:canonical"
+  }
+]
+算法标识：net_auxiliary.py:canonical
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "file": "net_auxiliary.py",
+  "line": 11,
+  "module_sha256": "dd848f36dccb727d8add1c2986abe6e3cd0f5106b80c59513f496ee4fff2a98b",
+  "qualname": "canonical",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+2. net_auxiliary.py:pairs
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "JSON解析实际键值对",
+  "operations_and_reason": "重复键立即拒绝，防同文输入被不同实现解释。",
+  "outputs_and_limits": "无重复的dict或ValueError。",
+  "verification_basis": "重复JSON键反例；正常完整CLI请求。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 2,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:pairs"
+  },
+  {
+    "actual_call_count": 2,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:pairs"
+  }
+]
+算法标识：net_auxiliary.py:pairs
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "3ced37bc755db5c717579840ab360aba4f3ec42171259da75164aa81b6cd54bc",
+  "file": "net_auxiliary.py",
+  "line": 12,
+  "module_sha256": "dd848f36dccb727d8add1c2986abe6e3cd0f5106b80c59513f496ee4fff2a98b",
+  "qualname": "pairs",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+3. net_auxiliary.py:reject_constant
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "NaN/Infinity等非法JSON常量标记",
+  "operations_and_reason": "无条件抛ValueError。",
+  "outputs_and_limits": "异常，无正常返回；profile的None只是异常展开事件。",
+  "verification_basis": "strict非有限反例；不能写成正常返回None。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:reject_constant"
+  }
+]
+算法标识：net_auxiliary.py:reject_constant
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "576529a4e8ed9aa76c22939526ad59de069d13cbc4f522b5e7a39d7514781e71",
+  "file": "net_auxiliary.py",
+  "line": 18,
+  "module_sha256": "dd848f36dccb727d8add1c2986abe6e3cd0f5106b80c59513f496ee4fff2a98b",
+  "qualname": "reject_constant",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+4. net_auxiliary.py:bounded
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "任意入口候选对象",
+  "operations_and_reason": "显式栈约束深度20、节点2000、键/数组/字符串长度与Unicode标量；数值只准int。",
+  "outputs_and_limits": "通过时None，越界ValueError。",
+  "verification_basis": "deep/float/surrogate/长度反例和正常请求；不是命理算法。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 2,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:bounded"
+  },
+  {
+    "actual_call_count": 2,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:bounded"
+  }
+]
+算法标识：net_auxiliary.py:bounded
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "c17f4e9c81cf80b88ede9d970dc095688bdb23de39ef0f1f91a26f69a217f682",
+  "file": "net_auxiliary.py",
+  "line": 19,
+  "module_sha256": "dd848f36dccb727d8add1c2986abe6e3cd0f5106b80c59513f496ee4fff2a98b",
+  "qualname": "bounded",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+5. net_auxiliary.py:strict_load
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "长度<=5000 Unicode文本",
+  "operations_and_reason": "严格JSON+重复键/非有限回调+bounded。",
+  "outputs_and_limits": "安全JSON值；请求结构由evaluate再检。",
+  "verification_basis": "重复/深度/float等输入测试；标准真实CLI。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 2,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:strict_load"
+  },
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:strict_load"
+  }
+]
+算法标识：net_auxiliary.py:strict_load
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "8c2c5484c13e35d073410fa326b8188fcfa862757aa3a12149351d25ea528369",
+  "file": "net_auxiliary.py",
+  "line": 33,
+  "module_sha256": "dd848f36dccb727d8add1c2986abe6e3cd0f5106b80c59513f496ee4fff2a98b",
+  "qualname": "strict_load",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+6. net_auxiliary.py:guard
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "发行内固定ROOT，无调用方source路径",
+  "operations_and_reason": "校验固定锁SHA、source/runtime完整文件集合、每项路径/字节数/SHA；尚未执行任何provider。",
+  "outputs_and_limits": "已核bytes材料映射；坏源拒绝。",
+  "verification_basis": "坏叶/坏锁/额外文件3次0provider；clean3次8provider。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:guard"
+  },
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:guard"
+  }
+]
+算法标识：net_auxiliary.py:guard
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "a267df922ce4e0e29c728741628c622438c2225366774bfa1fef11c9b43979e0",
+  "file": "net_auxiliary.py",
+  "line": 36,
+  "module_sha256": "dd848f36dccb727d8add1c2986abe6e3cd0f5106b80c59513f496ee4fff2a98b",
+  "qualname": "guard",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+7. net_auxiliary.py:load
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "已由guard核过的指定材料模块名、相对路径",
+  "operations_and_reason": "只compile+exec已核bytes，无sys.path旧工作区依赖；调用顺序固定。",
+  "outputs_and_limits": "独立ModuleType。",
+  "verification_basis": "全API实际8provider；源码来源与材料锁精确绑定。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 8,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:load"
+  },
+  {
+    "actual_call_count": 8,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:load"
+  }
+]
+算法标识：net_auxiliary.py:load
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "file": "net_auxiliary.py",
+  "line": 50,
+  "module_sha256": "dd848f36dccb727d8add1c2986abe6e3cd0f5106b80c59513f496ee4fff2a98b",
+  "qualname": "load",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+8. net_auxiliary.py:evaluate
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "精确schema/method/source_profile/raw_pillars四字段请求",
+  "operations_and_reason": "先bounded/精确方法→guard→8provider→固定参数与ROOT→core.evaluate。",
+  "outputs_and_limits": "完整pack结果+execution_lock_sha256。",
+  "verification_basis": "全部4完整题、pending/other分支；坏方法0provider。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:evaluate"
+  },
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:evaluate"
+  }
+]
+算法标识：net_auxiliary.py:evaluate
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "03fc40952617cd83a7be85c0b959fbf6856dbdb7edcbec90e85b353f7636cafd",
+  "file": "net_auxiliary.py",
+  "line": 52,
+  "module_sha256": "dd848f36dccb727d8add1c2986abe6e3cd0f5106b80c59513f496ee4fff2a98b",
+  "qualname": "evaluate",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+9. net_auxiliary.py:main
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "标准输入UTF8，最多20000bytes",
+  "operations_and_reason": "严格加载；成功完整canonical输出，拒绝仅固定status/rejected且exit2，禁止部分判断泄漏。",
+  "outputs_and_limits": "exit0完整JSON或exit2统一拒绝。",
+  "verification_basis": "真实__main__完整搬移CLI/输出逐字比较；无显示操作。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "net_auxiliary.py:main"
+  }
+]
+算法标识：net_auxiliary.py:main
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "6a59b290ba60edb5227f421f3b37671523c50008c877ab01499264b9ebc7ce99",
+  "file": "net_auxiliary.py",
+  "line": 62,
+  "module_sha256": "dd848f36dccb727d8add1c2986abe6e3cd0f5106b80c59513f496ee4fff2a98b",
+  "qualname": "main",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+10. runtime/auxiliary_selector.py:bounded
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "任意JSON树",
+  "operations": "检查depth≤20/nodes≤15000/容器标量",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不是raw命盘parser。",
+  "purpose": "限定解释图体积"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:bounded"
+}
+算法标识：runtime/auxiliary_selector.py:bounded
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 54,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:bounded",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 16,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "bounded",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+11. runtime/auxiliary_selector.py:shape
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "对象及必需/可选keys",
+  "operations": "子集检查",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不判语义。",
+  "purpose": "字段精确集合"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:shape"
+}
+算法标识：runtime/auxiliary_selector.py:shape
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 1174,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:shape",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 38,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "shape",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])"
+}
+
+12. runtime/auxiliary_selector.py:string
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "value",
+  "operations": "类型非空检查",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "不是安全来源认证。",
+  "purpose": "非空字符串"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:string"
+}
+算法标识：runtime/auxiliary_selector.py:string
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 3278,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:string",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 43,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "string",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+13. runtime/auxiliary_selector.py:boolean
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "value",
+  "operations": "type is bool",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "整数0/1不替bool。",
+  "purpose": "严格bool"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:boolean"
+}
+算法标识：runtime/auxiliary_selector.py:boolean
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 2254,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:boolean",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 48,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "boolean",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+14. runtime/auxiliary_selector.py:validate
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "graph/nestedflag",
+  "operations": "完整schema、ID引用、边类型、scope、修复及完整干预SHA",
+  "outputs": "actor/goal maps",
+  "preconditions_and_limits": "16actors20goals100tasks；不独立验古典来源或执行receipt。",
+  "purpose": "原生解释图合同"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:validate"
+}
+算法标识：runtime/auxiliary_selector.py:validate
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 54,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:validate",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 53,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "validate",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+
+15. runtime/auxiliary_selector.py:closed
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "graph",
+  "operations": "所有SCOPE_KEYS为真",
+  "outputs": "bool",
+  "preconditions_and_limits": "只是声明；433另以完整图/源分层绑定。",
+  "purpose": "解释图声明范围"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:closed"
+}
+算法标识：runtime/auxiliary_selector.py:closed
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 54,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:closed",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 135,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "closed",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+16. runtime/auxiliary_selector.py:hard_failure
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "graph",
+  "operations": "hard goals/check不是met/pass/notapp就失败",
+  "outputs": "bool",
+  "preconditions_and_limits": "unknown同样不允许当前H，不说传统格败。",
+  "purpose": "硬目标可行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:hard_failure"
+}
+算法标识：runtime/auxiliary_selector.py:hard_failure
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 54,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:hard_failure",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 139,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "hard_failure",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+17. runtime/auxiliary_selector.py:repair_candidates
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "graph/actor_map/goal_map",
+  "operations": "原未过natal_repair且元素缺才列候选；完整干预保原不可变语义/全图通过后列有限可行",
+  "outputs": "pending,feasible",
+  "preconditions_and_limits": "本版调用没有新repair_routes；[]不证明不存在外方向，433外层留unknown；不认证未来干支/真实效果。",
+  "purpose": "原局缺而所需接口"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:repair_candidates"
+}
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 54,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:repair_candidates",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 144,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "repair_candidates",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+18. runtime/auxiliary_selector.py:minimal_covers
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "eligible/coverage/required",
+  "operations": "组合枚举并去超集",
+  "outputs": "minimalsetlist",
+  "preconditions_and_limits": "最多256解释集；433每CNF子句单独调用后AND，不改此上限。",
+  "purpose": "最小正任务覆盖"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:minimal_covers"
+}
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 48,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:minimal_covers",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 184,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "minimal_covers",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+19. runtime/auxiliary_selector.py:prefer
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "two sets/actors/preferences",
+  "operations": "只允许一对role及已核条件的preference",
+  "outputs": "bool",
+  "preconditions_and_limits": "433preferences为空，不因数组位置或星名排序。",
+  "purpose": "有证据的单actor替换比较"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:prefer"
+}
+算法标识：runtime/auxiliary_selector.py:prefer
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 164,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:prefer",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 197,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "prefer",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+20. runtime/auxiliary_selector.py:preference_frontier
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "sets/actors/preferences",
+  "operations": "构图、拓扑检测；有环保全",
+  "outputs": "sets/cyclic/edges",
+  "preconditions_and_limits": "不制造主次，空prefs保全部最小集合。",
+  "purpose": "保全部偏序前沿"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:preference_frontier"
+}
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 48,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:preference_frontier",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 206,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "preference_frontier",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+21. runtime/auxiliary_selector.py:select
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "validated evaluatedgraph",
+  "operations": "validate/repair/scope/hardfeasibility/cover/prefer",
+  "outputs": "完整nativeJSONcompatible结构",
+  "preconditions_and_limits": "不是raw最终喜用器；sourcebindings未由selector独验，finalaux/priority/B保null。",
+  "purpose": "原解释选择入口"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:select"
+}
+算法标识：runtime/auxiliary_selector.py:select
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 54,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/auxiliary_selector.py:select",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 224,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "select",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+22. runtime/auxiliary_selector.py:strict_pairs
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "pairs",
+  "operations": "重复key拒绝",
+  "outputs": "dict/ValueError",
+  "preconditions_and_limits": "本433入口未调用此旧CLIhook。",
+  "purpose": "旧独立CLI去重hook"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:strict_pairs"
+}
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 272,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "strict_pairs",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+23. runtime/auxiliary_selector.py:reject_constant
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "token",
+  "operations": "拒非有限数",
+  "outputs": "ValueError",
+  "preconditions_and_limits": "本433入口未调用此旧CLIhook。",
+  "purpose": "旧独立CLI常量hook"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:reject_constant"
+}
+算法标识：runtime/auxiliary_selector.py:reject_constant
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 280,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "reject_constant",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+24. runtime/auxiliary_selector.py:main
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "stdin图",
+  "operations": "旧解析/选择/打印",
+  "outputs": "exitcode",
+  "preconditions_and_limits": "本433入口不执行旧main；无虚构current IO。",
+  "purpose": "旧AUX独立图CLI"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/auxiliary_selector.py:main"
+}
+算法标识：runtime/auxiliary_selector.py:main
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "file": "runtime/auxiliary_selector.py",
+  "line": 284,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualname": "main",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+25. runtime/exact_reused.py:pack
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Encode internal exact mathematics."
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/exact_reused.py:pack"
+}
+算法标识：runtime/exact_reused.py:pack
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 161825,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/exact_reused.py:pack",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "file": "runtime/exact_reused.py",
+  "line": 7,
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe",
+  "qualname": "pack",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+26. runtime/exact_reused.py:gauss
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve."
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/exact_reused.py:gauss"
+}
+算法标识：runtime/exact_reused.py:gauss
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 24,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/exact_reused.py:gauss",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "file": "runtime/exact_reused.py",
+  "line": 14,
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe",
+  "qualname": "gauss",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+27. runtime/foundation_facts.py:stem_element
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "十干查五行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+算法标识：runtime/foundation_facts.py:stem_element
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 268,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/foundation_facts.py:stem_element",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "file": "runtime/foundation_facts.py",
+  "line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualname": "stem_element",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+28. runtime/foundation_facts.py:ten_god
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "严格十神角色"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+算法标识：runtime/foundation_facts.py:ten_god
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 62,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/foundation_facts.py:ten_god",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "file": "runtime/foundation_facts.py",
+  "line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualname": "ten_god",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+29. runtime/foundation_facts.py:validate
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原柱基础合法性"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/foundation_facts.py:validate"
+}
+算法标识：runtime/foundation_facts.py:validate
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 1,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/foundation_facts.py:validate",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "file": "runtime/foundation_facts.py",
+  "line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualname": "validate",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+30. runtime/foundation_facts.py:formal_relations
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留有位置的形式合冲"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+算法标识：runtime/foundation_facts.py:formal_relations
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 1,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "file": "runtime/foundation_facts.py",
+  "line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualname": "formal_relations",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+31. runtime/foundation_facts.py:root_evidence
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+算法标识：runtime/foundation_facts.py:root_evidence
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 4,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "file": "runtime/foundation_facts.py",
+  "line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualname": "root_evidence",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+32. runtime/foundation_facts.py:parse
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原61完整四柱事实入口"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/foundation_facts.py:parse"
+}
+算法标识：runtime/foundation_facts.py:parse
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 1,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/foundation_facts.py:parse",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "file": "runtime/foundation_facts.py",
+  "line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualname": "parse",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+33. runtime/named_equilibrium.py:coefficients
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "base、b/c固定盒、内部单乙→月戊cut",
+  "operations": "逐真实actor对生/克，sourcegroup内份额×target全元素份额×近1远1/2；全部潜在发送费用进delta；单cut只改信用不退费用；火另负3/4全土+1/4金stock任务",
+  "outputs": "G/C/load/delta/K/全edge及加权L",
+  "preconditions_and_limits": "实际生受体不存在则该类源预算也不存在；不按目标数重复一源预算；L≤32/33，含两土→水/金；保operator成本与食stocklambda不同账。",
+  "purpose": "全部实际方向/位置/费用使用同一现量"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/named_equilibrium.py:coefficients"
+}
+算法标识：runtime/named_equilibrium.py:coefficients
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 12,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/named_equilibrium.py:coefficients",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "a51addd85502e67003e22d6fd040c38eace396a6b86cd84c818b7968d1aa7f8f",
+  "file": "runtime/named_equilibrium.py",
+  "line": 7,
+  "module_sha256": "b6b63c243737c00dcba668ed109efe2806db327173a43debe78e316b6a0aeb41",
+  "qualname": "coefficients",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='cut_named_Yi')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+
+34. runtime/named_equilibrium.py:solve
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "base、cfg、未变Gauss、可选内部具名边cut",
+  "operations": "至多六池64activefaces；精确解候选并整张max方程回代；由加权全域收缩给唯一性",
+  "outputs": "current/coeff/activegroups/精确方程证书",
+  "preconditions_and_limits": "无浮点容差、中点或oracle择相；边界零可多描述但向量唯一。全源解释是工程问题，不因有数学解即古法有效。",
+  "purpose": "唯一完整非负现量的精确活跃面解"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/named_equilibrium.py:solve"
+}
+算法标识：runtime/named_equilibrium.py:solve
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 12,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/named_equilibrium.py:solve",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "8eb394b32d72df28cd7eb621d7bdc312834dd327e64be93605a7c5ca1c91029b",
+  "file": "runtime/named_equilibrium.py",
+  "line": 27,
+  "module_sha256": "b6b63c243737c00dcba668ed109efe2806db327173a43debe78e316b6a0aeb41",
+  "qualname": "solve",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='exact'), arg(arg='cut_named_Yi')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+
+35. runtime/named_equilibrium.py:origins
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "base/已解state/精确Gauss",
+  "operations": "gross=direct+当前生成；rho=current/gross；多RHS线性解z=rho(d+Gz)，回代非负与sum=current",
+  "outputs": "全部pools/gross/rho/矩阵行界",
+  "preconditions_and_limits": "两土前驱可入金，统一行界1/2不是1/4；原root与incoming官信用分开，不将同支异元素看自然物理质量。",
+  "purpose": "重建同一现量所有typed来源"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/named_equilibrium.py:origins"
+}
+算法标识：runtime/named_equilibrium.py:origins
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 12,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/named_equilibrium.py:origins",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "f55c884d3056482ac9435bed2c53a69cb850aa7bb2487a1f783aefb6e76a9f73",
+  "file": "runtime/named_equilibrium.py",
+  "line": 39,
+  "module_sha256": "b6b63c243737c00dcba668ed109efe2806db327173a43debe78e316b6a0aeb41",
+  "qualname": "origins",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+36. runtime/named_equilibrium.py:full_graph
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "base/state/origins",
+  "operations": "按池内份额归actor；逐源边发出各origin；容量受gross限幅，实际损失按接收来源分配；火水约身/食stock/财stock分别记录；核gross=current+sourcecost+loss",
+  "outputs": "全actorports/生克edges/潜费用/身体stock负荷/池账",
+  "preconditions_and_limits": "未用容量不返给另端；月戊被印制后的current才攻官，目标清官标签不再扣一份力量；所有未选仍全图。",
+  "purpose": "完整actor-origin正负、源预算和目标实损账"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/named_equilibrium.py:full_graph"
+}
+算法标识：runtime/named_equilibrium.py:full_graph
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 12,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/named_equilibrium.py:full_graph",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "560e955f2ef69c4fa959497986dc7ef06f4a9eb4d37c416c909772cff0b48ace",
+  "file": "runtime/named_equilibrium.py",
+  "line": 47,
+  "module_sha256": "b6b63c243737c00dcba668ed109efe2806db327173a43debe78e316b6a0aeb41",
+  "qualname": "full_graph",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+37. runtime/net_direction_core.py:present_elements
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "原完整演员inventory",
+  "operations_and_reason": "依木火土金水顺序收集确有演员的类别，土两池只是一类别。",
+  "outputs_and_limits": "有序类别list。",
+  "verification_basis": "主盘缺金留未评估，旧酉有金时原样测试。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 276,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:present_elements"
+  },
+  {
+    "actual_call_count": 276,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:present_elements"
+  }
+]
+算法标识：runtime/net_direction_core.py:present_elements
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "c885fd5df6a37d6b1dcebae96be137b69793bae06199d11850e8807c1e077eeb",
+  "file": "runtime/net_direction_core.py",
+  "line": 8,
+  "module_sha256": "2375fc67970c090da60a2b4691fdf4d926db3ac5167b396476b93a8371358073",
+  "qualname": "present_elements",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+38. runtime/net_direction_core.py:increment
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "原base、确有元素非空唯一子集、Fraction总量0..2",
+  "operations_and_reason": "deepcopy；总λ/k的math-add来源，土按原share拆；原演员/ROOT/权重完全不变。",
+  "outputs_and_limits": "新base+完整输入收据。",
+  "verification_basis": "1368公开条件、60留出、24零量、8非法输入；均分仅输入试验。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 270,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:increment"
+  },
+  {
+    "actual_call_count": 270,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:increment"
+  }
+]
+算法标识：runtime/net_direction_core.py:increment
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "44f3b1c752b2c089d75ea7e0337a905698d6cfec25d8d2fc52e9531d785bdded",
+  "file": "runtime/net_direction_core.py",
+  "line": 11,
+  "module_sha256": "2375fc67970c090da60a2b4691fdf4d926db3ac5167b396476b93a8371358073",
+  "qualname": "increment",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='elements'), arg(arg='total')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+39. runtime/net_direction_core.py:metrics
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "同一新base与完整one_world",
+  "operations_and_reason": "从全带符号图累计所有土→明癸容量/实际损、月戊/余土拆分；读取M、根、生印、生日等完整量。",
+  "outputs_and_limits": "12比较指标+current/逐土明细/general/strong。",
+  "verification_basis": "独立标量预期及137976原公开来源方程等实际代入；general时A=实际土损。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 276,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:metrics"
+  },
+  {
+    "actual_call_count": 276,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:metrics"
+  }
+]
+算法标识：runtime/net_direction_core.py:metrics
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "0d4791843e2d79d0755f89589c7c6082ff7a3d32396c053e4299ac8033981690",
+  "file": "runtime/net_direction_core.py",
+  "line": 32,
+  "module_sha256": "2375fc67970c090da60a2b4691fdf4d926db3ac5167b396476b93a8371358073",
+  "qualname": "metrics",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+40. runtime/net_direction_core.py:judge
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "基线/新指标、源闭合bool",
+  "operations_and_reason": "固定源/general维持与M不降、A不升、至少一项严格；逐项delta全部输出。",
+  "outputs_and_limits": "确切条件是否局部净有利、失败原因、12量变化。",
+  "verification_basis": "事前正反/8精确边界：等M减A可过，等双量不过；不写无条件忌。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 270,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:judge"
+  },
+  {
+    "actual_call_count": 270,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:judge"
+  }
+]
+算法标识：runtime/net_direction_core.py:judge
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "5ca138bde270420de0b472ee73e767c7c254e7bb1e9fd0e116d43bf4297407fa",
+  "file": "runtime/net_direction_core.py",
+  "line": 50,
+  "module_sha256": "2375fc67970c090da60a2b4691fdf4d926db3ac5167b396476b93a8371358073",
+  "qualname": "judge",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='before'), arg(arg='after'), arg(arg='source_closed')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+41. runtime/net_direction_core.py:evaluate_variant
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "具名关系base、预定参数档、固定三尺度及原生依赖",
+  "operations_and_reason": "保留完整原433分析；所有非空子集×三尺度逐一新one_world，保留全成败，不假设单调。",
+  "outputs_and_limits": "完整具名结论/全部AND输入/有效OR替代/三点共同结果。",
+  "verification_basis": "24具名版本与独立先验全一致；旧酉R0/R1分歧保留；不是H投影。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 6,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:evaluate_variant"
+  },
+  {
+    "actual_call_count": 6,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:evaluate_variant"
+  }
+]
+算法标识：runtime/net_direction_core.py:evaluate_variant
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "f8eb837a2ee31c53cd73a521a63c561c5147571c5dd62fcef6d77271b77817f7",
+  "file": "runtime/net_direction_core.py",
+  "line": 61,
+  "module_sha256": "2375fc67970c090da60a2b4691fdf4d926db3ac5167b396476b93a8371358073",
+  "qualname": "evaluate_variant",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='profile_name'), arg(arg='parameters'), arg(arg='math'), arg(arg='exact'), arg(arg='support'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+42. runtime/net_direction_core.py:conservative_common
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "全部具名结论与固定尺度",
+  "operations_and_reason": "仅所有基线有效时附交集；否则共同结果null；不改变任何单版结论。",
+  "outputs_and_limits": "可选保守共同描述。",
+  "verification_basis": "主盘六版共同与旧酉无共同有效起点；不加共识验收门。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:conservative_common"
+  },
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:conservative_common"
+  }
+]
+算法标识：runtime/net_direction_core.py:conservative_common
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "9c7cc1a230ee939075ced9a32a857348a87573a9cbd3d89244af3c5df52cfee0",
+  "file": "runtime/net_direction_core.py",
+  "line": 90,
+  "module_sha256": "2375fc67970c090da60a2b4691fdf4d926db3ac5167b396476b93a8371358073",
+  "qualname": "conservative_common",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='variants'), arg(arg='parameters')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+43. runtime/net_direction_core.py:evaluate
+条目分类：new453_entry_or_local_net_inference
+contract：{
+  "inputs": "已守卫请求、固定参数、ROOT和7旧provider",
+  "operations_and_reason": "先源语义闭合，再每关系×每档完整计算；invalid/other/pending明确分开。",
+  "outputs_and_limits": "局部净辅助推论全结果；B/theme仍None、adoptionfalse、progress0。",
+  "verification_basis": "4完整源题、pending/other边界、新进程确定性；不覆盖未建模核心。"
+}
+current453_actual_IO：[
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_api/fresh_process_audit.json",
+    "mode": "api",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:evaluate"
+  },
+  {
+    "actual_call_count": 1,
+    "artifact": "actual/moved_cli/fresh_process_audit.json",
+    "mode": "cli",
+    "projection_not_full_value": true,
+    "record": "runtime/net_direction_core.py:evaluate"
+  }
+]
+算法标识：runtime/net_direction_core.py:evaluate
+new_classical_quotation：false
+source_identity：{
+  "AST_sha256": "780840fac1eb496e0406b509a9667056f52e80106d34706d96fc5f2cb6c69d8a",
+  "file": "runtime/net_direction_core.py",
+  "line": 108,
+  "module_sha256": "2375fc67970c090da60a2b4691fdf4d926db3ac5167b396476b93a8371358073",
+  "qualname": "evaluate",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='parameters'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive'), arg(arg='inventory'), arg(arg='math'), arg(arg='exact'), arg(arg='support'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+44. runtime/primary_inventory.py:source_context
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "raw、原factsparser",
+  "operations": "机械合法后匹配丙辰非日癸乙；保原形式/全木会/其它全组/secondary；唯一辰酉及木会入两声明解释，其他冲合争用/子卯/三刑列具体缺项",
+  "outputs": "facts/已消费任务/未闭任务/sourceclosed/源框架候选",
+  "preconditions_and_limits": "15/72是本有限解释足域，不是传统仅15盘可用；PDF21只斥合官不否一切辰酉。裸刑害破/半组沿208/225作用边界保候选非物理零。",
+  "purpose": "物理前先固定源资格和具体关系任务"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/primary_inventory.py:source_context"
+}
+算法标识：runtime/primary_inventory.py:source_context
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 1,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/primary_inventory.py:source_context",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "e0298b72072167b8023f50a04068cfe8d6568b8eeb194b715f79d58e0f79f14b",
+  "file": "runtime/primary_inventory.py",
+  "line": 9,
+  "module_sha256": "c48009bb2808a401861190db2621842602fe0d4e766c7b7c670c70f5c95b3a82",
+  "qualname": "source_context",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+45. runtime/primary_inventory.py:inventory
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "合法源raw、固定关系解释、facts、纯ROOTclassifier、捕获primitive、source_context",
+  "operations": "每个实字每支调用未变ROOT类型/数值；同origin原与关系取max；明浮1含日；元素内库存max一次；按资格总量分配真实actor；月戊单池、其余土另一池",
+  "outputs": "actors/rootrows/native/used资格、元素/分池direct与固定份额",
+  "preconditions_and_limits": "这是新明示共池预算，不证等价actorlocal或跨元素守恒；原表/原戊癸不删，qiROOT不造演员；藏字端点不等重新认证传统独立发用/月令立用。",
+  "purpose": "保全部明藏、位置、ROOT原账与关系账和具名月戊"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/primary_inventory.py:inventory"
+}
+算法标识：runtime/primary_inventory.py:inventory
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 2,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/primary_inventory.py:inventory",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "d96b0477f30f045a302c7a7a0742c7cc3ba89b8c47bf75bf013a0df01c1eee46",
+  "file": "runtime/primary_inventory.py",
+  "line": 36,
+  "module_sha256": "c48009bb2808a401861190db2621842602fe0d4e766c7b7c670c70f5c95b3a82",
+  "qualname": "inventory",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='interpretation'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive'), arg(arg='context')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+46. runtime/root_types.py:canonical
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "canonical original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:canonical"
+}
+算法标识：runtime/root_types.py:canonical
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "file": "runtime/root_types.py",
+  "line": 30,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "canonical",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+47. runtime/root_types.py:strict_load
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "strict_load original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:strict_load"
+}
+算法标识：runtime/root_types.py:strict_load
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "2ef9ff64dfa5b57cd3c6b9fc32d7294ad2e92b9e2e37460455a48ea8c311e1fe",
+  "file": "runtime/root_types.py",
+  "line": 34,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "strict_load",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+48. runtime/root_types.py:data
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "data original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:data"
+}
+算法标识：runtime/root_types.py:data
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "74c864b733cb2e6604ffdd2f501cd9e11724c091e6ede6b8deb7efd3c0330b80",
+  "file": "runtime/root_types.py",
+  "line": 45,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "data",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+49. runtime/root_types.py:validate_pair
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "validate_pair original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:validate_pair"
+}
+算法标识：runtime/root_types.py:validate_pair
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "d9fcbb697b6f7ceea9e8a85060c1558bb7a18ad208193ada2057ad09bc4865ba",
+  "file": "runtime/root_types.py",
+  "line": 59,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "validate_pair",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+50. runtime/root_types.py:classify
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "合法stem/branch和已捕获原primitive",
+  "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+  "outputs": "type info",
+  "preconditions_and_limits": "caller已factsparse合法，primitive与ROOT代码源锁；不增加藏干、不判实际强弱。",
+  "purpose": "原Primary ROOT类型"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:classify"
+}
+算法标识：runtime/root_types.py:classify
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 128,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/root_types.py:classify",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "file": "runtime/root_types.py",
+  "line": 66,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "classify",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+51. runtime/root_types.py:choose_value
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "typeinfo",
+  "operations": "源类型优先7/2、5/2、非土阳墓3/2、未列0",
+  "outputs": "value/category",
+  "preconditions_and_limits": "0非现实无根证明；数额非经典唯一比值；未被新关系7/2改写原表。",
+  "purpose": "原公共ROOT工程刻度"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:choose_value"
+}
+算法标识：runtime/root_types.py:choose_value
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 128,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/root_types.py:choose_value",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "5f711116638a8c7bb0ccd95a1477d98dd5a444b9c76a38b4c81ee8e8cc09aaf2",
+  "file": "runtime/root_types.py",
+  "line": 90,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "choose_value",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='info')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+52. runtime/root_types.py:source_basis
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "source_basis original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:source_basis"
+}
+算法标识：runtime/root_types.py:source_basis
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "1643a04853eff5fc578612fb2bc1c05825cc388518eecf5b813ec4ae423fcc71",
+  "file": "runtime/root_types.py",
+  "line": 102,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "source_basis",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='info')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+53. runtime/root_types.py:explain
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "explain original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:explain"
+}
+算法标识：runtime/root_types.py:explain
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "222a4a79d6925a57d0b5c5bc35ae8e2208071362d26d957a80874e5c87bfaf8d",
+  "file": "runtime/root_types.py",
+  "line": 122,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "explain",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+
+54. runtime/root_types.py:qualification
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "qualification original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:qualification"
+}
+算法标识：runtime/root_types.py:qualification
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "85fdefa9f5a9d58b715853ed897344e9ac0c552605406c1104b0cab3e2f7ce19",
+  "file": "runtime/root_types.py",
+  "line": 141,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "qualification",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+
+55. runtime/root_types.py:matrix
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "matrix original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:matrix"
+}
+算法标识：runtime/root_types.py:matrix
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "1379d3a571ba65c87b578d49f3315ce72171048b40ef7028f191f6acf33fd7ae",
+  "file": "runtime/root_types.py",
+  "line": 146,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "matrix",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+56. runtime/root_types.py:evaluate
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "evaluate original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:evaluate"
+}
+算法标识：runtime/root_types.py:evaluate
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "d0124402959b900ef224cb9c3d99f72dbae1c0a423edbc74ae5c03d08ffd2b44",
+  "file": "runtime/root_types.py",
+  "line": 151,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "evaluate",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+57. runtime/root_types.py:main
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "main original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。",
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/root_types.py:main"
+}
+算法标识：runtime/root_types.py:main
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 0,
+  "artifact": null,
+  "current_executed": false,
+  "record": null,
+  "unexecuted_none_is_not_fabricated_return": true
+}
+source_identity：{
+  "AST_sha256": "d7d801468486509dd801cf6f2348c956a5d800d1b67b736cc0d7f61713c80cb6",
+  "file": "runtime/root_types.py",
+  "line": 166,
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf",
+  "qualname": "main",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+58. runtime/support_and_goals.py:goals
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "具名rawbase、同state/origins/fullgraph",
+  "operations": "只取透乙→h:month:戊实际受克份额，官原根/生乙、乙原根/生日、全体负担严格S>5/4C；强题另加月戊攻官0；局部减害归因除delta，不再入物理扣量",
+  "outputs": "两组checks/met、精确bodymargin与具名量",
+  "preconditions_and_limits": "别处土被制不能替月戊；实损>0非只capacity>0；局部归因非全反事实净变化，原句有情不以全清为普遍必要；不取官→喜水。",
+  "purpose": "一般有情量效与强全清分层"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/support_and_goals.py:goals"
+}
+算法标识：runtime/support_and_goals.py:goals
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 12,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/support_and_goals.py:goals",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "3a2396d8de6a3adc27a961281a0ac3ef7c9832b52b08a11a9620f458b7aeee6c",
+  "file": "runtime/support_and_goals.py",
+  "line": 6,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "qualname": "goals",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='ports'), arg(arg='graph')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+59. runtime/support_and_goals.py:one_world
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "base/config/math/exact",
+  "operations": "solve→origins→full_graph→goals",
+  "outputs": "完整state/origins/graph/goals",
+  "preconditions_and_limits": "不是单作用图或先选辅助再删负；原局所有真实字和根保留。",
+  "purpose": "一个完整实际作用世界"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/support_and_goals.py:one_world"
+}
+算法标识：runtime/support_and_goals.py:one_world
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 6,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/support_and_goals.py:one_world",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "f5bd826b2df9580295f4fd01fb8ee64f01b1cddca1d156b3d379b9fa5227c383",
+  "file": "runtime/support_and_goals.py",
+  "line": 16,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "qualname": "one_world",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='math'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+60. runtime/support_and_goals.py:numerical_support_table
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "base/实际完整world",
+  "operations": "日主分配direct为intrinsic；印生日/具名控制与比direct作为可选正信用；DP全部mask累加；严格body门+实际护月戊正量，强题需覆盖月戊gross的容量；求所有极小真/极大假",
+  "outputs": "全部数值行/真假/H/反CNF边界",
+  "preconditions_and_limits": "不重解或删演员，所有负/费用固定；日非aux；一般包不是全清；数学压力用同被替换directFire，不能偷用原始element缓存。H不是最终喜印/喜火或盘外方向。",
+  "purpose": "全幂集固定实际正功能解释"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/support_and_goals.py:numerical_support_table"
+}
+算法标识：runtime/support_and_goals.py:numerical_support_table
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 6,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/support_and_goals.py:numerical_support_table",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "6ba3b164cbd122832b7d21783d87f900d17c0d09d87aa16532a2ee585e79c0db",
+  "file": "runtime/support_and_goals.py",
+  "line": 20,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "qualname": "numerical_support_table",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+61. runtime/support_and_goals.py:native_CNF_projection
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "base/world/完整table/question/原aux/exact",
+  "operations": "每个极大假集补集一CNF子句，真实旧native结果；子句结果AND最小并集与完整H逐值一致",
+  "outputs": "所有原生图/完整native结果/全部最终AND并集",
+  "preconditions_and_limits": "每包≤16actors/20goals/100tasks/256sets；没有提高限额。AUX只是有限numeric任务投影，不是全物理图；不因此替源未闭出口认证，更不证明未来修复实际发生。",
+  "purpose": "完整真值精确投影已有AUX，不改老限额"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/support_and_goals.py:native_CNF_projection"
+}
+算法标识：runtime/support_and_goals.py:native_CNF_projection
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 12,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/support_and_goals.py:native_CNF_projection",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "bad843c82505a1ac331eb46fa229bf42215b1095907a913d66f7567310f23f72",
+  "file": "runtime/support_and_goals.py",
+  "line": 36,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "qualname": "native_CNF_projection",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='table'), arg(arg='question'), arg(arg='aux'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+62. runtime/support_and_goals.py:analyze
+条目分类：exact433_AST_contract_reused
+contract：{
+  "inputs": "base/config/math/exact/aux",
+  "operations": "算实际和仅乙制月戊关闭同费用系数世界；保所有差额；全支持/native；源是否闭决定current_source_H能否导出；源官印身份独列",
+  "outputs": "完整两世界、两题数值H/native/sourceH/差额/身份/限制",
+  "preconditions_and_limits": "单项controlcut不是选择/增加整印的净因果证明；H正信用不可单独改名最终取印。traditional_final_auxiliary/priority/B皆null；absent方向未穷尽仍unknown。",
+  "purpose": "实际全图、单项诊断、全H和源桥分栏"
+}
+current453_actual_IO：{
+  "fresh_per_function_observer_used": false,
+  "historical_old_IO_not_relabelled_current": true,
+  "reason": "exact46 old AST contracts and historical IO reused; new-only observer intentionally does not trace millions of legacy pack calls; all new whole-world current/origin/edge/budget IO independently substituted in complete API verification"
+}
+exact433_full_contract_reference：{
+  "file": "source/reused433_algorithm_contracts.json",
+  "record": "runtime/support_and_goals.py:analyze"
+}
+算法标识：runtime/support_and_goals.py:analyze
+not_claimed_all_as_new_algorithms：true
+old_actual_IO_history：{
+  "actual_count": 6,
+  "artifact": "actual/current_qualified_function_IO.json.gz",
+  "current_executed": true,
+  "record": "runtime/support_and_goals.py:analyze",
+  "unexecuted_none_is_not_fabricated_return": false
+}
+source_identity：{
+  "AST_sha256": "1b6f3697accbc75a8302ebae37da34113f5fa64ca0e05b5b9811a4c56fdbf697",
+  "file": "runtime/support_and_goals.py",
+  "line": 52,
+  "module_sha256": "82561ddf100074f53c9467faa4ead00ad23b7021e16721c92fdd58d54fb7d3c3",
+  "qualname": "analyze",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='math'), arg(arg='exact'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+
+原件：work/rev458_MCN1_net_auxiliary_independent_review/effective_eight_rule_cards_status_correction.json
+SHA256：05ba640c859972aa77b3fccdef7679626402403fb77647f2ce205b872c5affb7
+
+1. N453-1
+change_conditions：只改本规格数学direct输入，ROOT资格、演员、分配权重不变；源关系或参数变化必须单列新版本。
+conditions：原四柱合法、原源特定任务闭合；同名关系解释、参数版本的基线general全部成立。
+conflict_resolution：先源闭合→基线完整→变化后完整→双目标比较；无权以部分功能已过跳过整盘。
+effective_status_evidence：{
+  "author_actual": {
+    "bytes": 10426,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/actual/complete_independent_actual_verification.json",
+    "sha256": "022f0de034301d124d0ace69d17e9f23e3fbdf2dba8e5dede866353057088854"
+  },
+  "non_author_new_conditions": {
+    "bytes": 190551,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/new24_conditions_full_signed_independent_actual.json",
+    "sha256": "a323a18ce9858769f42e718d476b1b488d3ff8953f5b386f9eed2bca9e04f45f"
+  },
+  "readonly_and_strict": {
+    "bytes": 3783,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/complete_existing34_readonly_runtime_review.json",
+    "sha256": "c1196fefe67cb68e6edd2bbadb45877913ff18d80a0bd0d796bb14a33b6dc479"
+  },
+  "specific_review": {
+    "basis": "source-closed named heavy baseline remains false; author pending and legal-other strict outputs preserved",
+    "new_condition_ids": [
+      23
+    ]
+  }
+}
+exclusions_and_failure：源任务pending或基线承载失败不进入净辅助导出；不得靠挑成功关系版本掩盖失败。
+historical_preproducer_status：事前固定的有限工程推论候选；资料定位已复核，实际程序尚未运行；不能据此称古典原句或现实预测有效。
+算法标识：N453-1
+rule_expression：valid0=source_closed AND general0; valid1=general1; 比较须valid0 AND valid1。
+school：子平格局：丙辰杂气官印、有情机制；不是扶抑/调候全面总裁决。
+source：{
+  "original_scope": "官印相生、印生身与去辰暗土清官。",
+  "primary": "Primary_WorldLibrary.pdf PDF42/printed33; adjacent PDF21/24/31–33, physical correction receipt"
+}
+source_layers：{
+  "commentary": "不新增未经核对引文。",
+  "engineering": "本卡规则表达/判据/输入域皆明确项目推论，复用433固定物理量效。",
+  "original": "仅上述可定位语义；未载本卡数学式或完整人工盘。"
+}
+status：资料原图已核；有限工程规则实际实现、作者验证及458非作者实质复核已完成；采用由项目主记录决定。不是经典原句或现实预测验证。
+title：先维持完整源任务，再谈局部有利方向
+verification_material_precommitted：四组人工题24具名基线；旧酉R0/R1相反预期保留；弱身基线反例；源pending反例。
+
+2. N453-2
+change_conditions：M=S−5/4*C，A为所有实有土演员对明癸控制容量之和；任一新current改变全部任务与费用。
+conditions：N453-1成立，全部正负作用在同一次新current固定点/来源方程求解。
+conflict_resolution：M1>=M0 AND A1<=A0 AND (M1>M0 OR A1<A0)。官水量/生印量等另行完整列出，允许有权衡。
+effective_status_evidence：{
+  "author_actual": {
+    "bytes": 10426,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/actual/complete_independent_actual_verification.json",
+    "sha256": "022f0de034301d124d0ace69d17e9f23e3fbdf2dba8e5dede866353057088854"
+  },
+  "non_author_new_conditions": {
+    "bytes": 190551,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/new24_conditions_full_signed_independent_actual.json",
+    "sha256": "a323a18ce9858769f42e718d476b1b488d3ff8953f5b386f9eed2bca9e04f45f"
+  },
+  "readonly_and_strict": {
+    "bytes": 3783,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/complete_existing34_readonly_runtime_review.json",
+    "sha256": "c1196fefe67cb68e6edd2bbadb45877913ff18d80a0bd0d796bb14a33b6dc479"
+  },
+  "specific_review": {
+    "basis": "M/A each exact, all actual soil attack incl other actors, equality not strict",
+    "new_condition_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      20,
+      21,
+      22
+    ]
+  }
+}
+exclusions_and_failure：M降低、A上升、general失效或两目标全相等均不通过；失败只针对该确切输入条件。
+historical_preproducer_status：事前固定的有限工程推论候选；资料定位已复核，实际程序尚未运行；不能据此称古典原句或现实预测有效。
+算法标识：N453-2
+rule_expression：runtime.metrics+judge；全净表示全部作用同解，不表示每个指标均改善。general有效且水current>0时A恰等于官所受实际土损。
+school：子平格局：丙辰杂气官印、有情机制；不是扶抑/调候全面总裁决。
+source：{
+  "original_scope": "生身与护官为该原段明确的两项机制。",
+  "primary": "Primary_WorldLibrary.pdf PDF42/printed33; adjacent PDF21/24/31–33, physical correction receipt"
+}
+source_layers：{
+  "commentary": "不新增未经核对引文。",
+  "engineering": "本卡规则表达/判据/输入域皆明确项目推论，复用433固定物理量效。",
+  "original": "仅上述可定位语义；未载本卡数学式或完整人工盘。"
+}
+status：资料原图已核；有限工程规则实际实现、作者验证及458非作者实质复核已完成；采用由项目主记录决定。不是经典原句或现实预测验证。
+title：净有利的双目标偏序，不声称所有量更好
+verification_material_precommitted：先验1368输入含木正例、火/土/水单项反例；λ0为严格改善边界；所有土逐演员核算。
+
+3. N453-3
+change_conditions：每选中k类别各加λ/k；土再依原月戊/余土share拆分；原有direct及独立ROOT来源全保留。
+conditions：只在原演员实际存在的元素类别上，枚举非空子集；固定总量λ=1/2、1、2。
+conflict_resolution：对称均分只是一组可复现输入条件，不是传统等重、J2各半、产品权重或原局喜用排序。
+effective_status_evidence：{
+  "author_actual": {
+    "bytes": 10426,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/actual/complete_independent_actual_verification.json",
+    "sha256": "022f0de034301d124d0ace69d17e9f23e3fbdf2dba8e5dede866353057088854"
+  },
+  "non_author_new_conditions": {
+    "bytes": 190551,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/new24_conditions_full_signed_independent_actual.json",
+    "sha256": "a323a18ce9858769f42e718d476b1b488d3ff8953f5b386f9eed2bca9e04f45f"
+  },
+  "readonly_and_strict": {
+    "bytes": 3783,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/complete_existing34_readonly_runtime_review.json",
+    "sha256": "c1196fefe67cb68e6edd2bbadb45877913ff18d80a0bd0d796bb14a33b6dc479"
+  },
+  "specific_review": {
+    "basis": "independent input sums and original actor/root/weights unchanged; private checks do not expand three public scales",
+    "new_condition_ids": [
+      0,
+      1,
+      2,
+      20,
+      21,
+      22
+    ]
+  }
+}
+exclusions_and_failure：缺金不造金演员，不写不需金/忌金；非公开连续λ、真实岁运、UTC变化不在本规则声称范围。
+historical_preproducer_status：事前固定的有限工程推论候选；资料定位已复核，实际程序尚未运行；不能据此称古典原句或现实预测有效。
+算法标识：N453-3
+rule_expression：increment(deepcopy(base),subset,Fraction(lambda))；新增math-add:元素来源；actors/root_rows/global_actor_weights全等。
+school：子平格局：丙辰杂气官印、有情机制；不是扶抑/调候全面总裁决。
+source：{
+  "original_scope": "原段提供机制方向，未给增补数量与均分公式。",
+  "primary": "Primary_WorldLibrary.pdf PDF42/printed33; adjacent PDF21/24/31–33, physical correction receipt"
+}
+source_layers：{
+  "commentary": "不新增未经核对引文。",
+  "engineering": "本卡规则表达/判据/输入域皆明确项目推论，复用433固定物理量效。",
+  "original": "仅上述可定位语义；未载本卡数学式或完整人工盘。"
+}
+status：资料原图已核；有限工程规则实际实现、作者验证及458非作者实质复核已完成；采用由项目主记录决定。不是经典原句或现实预测验证。
+title：增补输入是数学试验，不虚构新干支
+verification_material_precommitted：所有子集×三尺度精确总量；λ0完整旧世界回归；无金元素拒绝；非法数量/重复元素拒绝。
+
+4. N453-4
+change_conditions：新增direct只改右端；系数矩阵、成本系数不变，但所有费用金额随新current重算。
+conditions：复用433全六池、原生AUX、所有演员正负边及原ROOT。
+conflict_resolution：生火可能同时生土伤官，水可生印也可约身；同一次求解后比较，禁止事后挑边。
+effective_status_evidence：{
+  "author_actual": {
+    "bytes": 10426,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/actual/complete_independent_actual_verification.json",
+    "sha256": "022f0de034301d124d0ace69d17e9f23e3fbdf2dba8e5dede866353057088854"
+  },
+  "non_author_new_conditions": {
+    "bytes": 190551,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/new24_conditions_full_signed_independent_actual.json",
+    "sha256": "a323a18ce9858769f42e718d476b1b488d3ff8953f5b386f9eed2bca9e04f45f"
+  },
+  "readonly_and_strict": {
+    "bytes": 3783,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/complete_existing34_readonly_runtime_review.json",
+    "sha256": "c1196fefe67cb68e6edd2bbadb45877913ff18d80a0bd0d796bb14a33b6dc479"
+  },
+  "specific_review": {
+    "basis": "all48 world Cramer, original-origin solution, all4428 signed/cost edges and budgets matched",
+    "new_condition_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+}
+exclusions_and_failure：不得只看月戊忽略余土，不得关闭反作用，不把未实现攻击退还成源库存。
+historical_preproducer_status：事前固定的有限工程推论候选；资料定位已复核，实际程序尚未运行；不能据此称古典原句或现实预测有效。
+算法标识：N453-4
+rule_expression：max-affine完整固定点→非负来源线性方程→所有actor ports/生克/费用/承载→N453-2。
+school：子平格局：丙辰杂气官印、有情机制；不是扶抑/调候全面总裁决。
+source：{
+  "original_scope": "原段没有授权只保留印的正面功能或清官以后退还源耗。",
+  "primary": "Primary_WorldLibrary.pdf PDF42/printed33; adjacent PDF21/24/31–33, physical correction receipt"
+}
+source_layers：{
+  "commentary": "不新增未经核对引文。",
+  "engineering": "本卡规则表达/判据/输入域皆明确项目推论，复用433固定物理量效。",
+  "original": "仅上述可定位语义；未载本卡数学式或完整人工盘。"
+}
+status：资料原图已核；有限工程规则实际实现、作者验证及458非作者实质复核已完成；采用由项目主记录决定。不是经典原句或现实预测验证。
+title：所有生克与潜在源费用保持同解
+verification_material_precommitted：独立Cramer全部current预期；逐来源方程、总量、费用和每条带符号边的独立代入；旧原生接口回归。
+
+5. N453-5
+change_conditions：改子集会改变每类别分配量，联合真值可非单调；三尺度通过只对这三个离散输入。
+conditions：固定总λ的每一个确切子集各自求解；保留全部成功与失败。
+conflict_resolution：每子集内是AND输入，多个有效子集是OR替代；不得J2掩盖不同元素替代。
+effective_status_evidence：{
+  "author_actual": {
+    "bytes": 10426,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/actual/complete_independent_actual_verification.json",
+    "sha256": "022f0de034301d124d0ace69d17e9f23e3fbdf2dba8e5dede866353057088854"
+  },
+  "non_author_new_conditions": {
+    "bytes": 190551,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/new24_conditions_full_signed_independent_actual.json",
+    "sha256": "a323a18ce9858769f42e718d476b1b488d3ff8953f5b386f9eed2bca9e04f45f"
+  },
+  "readonly_and_strict": {
+    "bytes": 3783,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/complete_existing34_readonly_runtime_review.json",
+    "sha256": "c1196fefe67cb68e6edd2bbadb45877913ff18d80a0bd0d796bb14a33b6dc479"
+  },
+  "specific_review": {
+    "basis": "published total1 wood-water false but wood-fire-water true; complete options retained",
+    "new_condition_ids": [
+      20,
+      21
+    ]
+  }
+}
+exclusions_and_failure：不假设木水过则木火水过，或木水败则木火水败；不把现有H木火解释为额外木火都喜。
+historical_preproducer_status：事前固定的有限工程推论候选；资料定位已复核，实际程序尚未运行；不能据此称古典原句或现实预测有效。
+算法标识：N453-5
+rule_expression：all_exact_options_including_failures完整保存；all_three_declared_scales_supported_mixtures逐项核对三点，不作上闭/最小集压缩。
+school：子平格局：丙辰杂气官印、有情机制；不是扶抑/调候全面总裁决。
+source：{
+  "original_scope": "原局有情/现有功能配合不等于新增某元素的边际有利。",
+  "primary": "Primary_WorldLibrary.pdf PDF42/printed33; adjacent PDF21/24/31–33, physical correction receipt"
+}
+source_layers：{
+  "commentary": "不新增未经核对引文。",
+  "engineering": "本卡规则表达/判据/输入域皆明确项目推论，复用433固定物理量效。",
+  "original": "仅上述可定位语义；未载本卡数学式或完整人工盘。"
+}
+status：资料原图已核；有限工程规则实际实现、作者验证及458非作者实质复核已完成；采用由项目主记录决定。不是经典原句或现实预测验证。
+title：联合方案真值不可用H或元素并集代替
+verification_material_precommitted：事前已算主人工题木水败而木火水过；全部非单调对照、单项与联合独立预期保存。
+
+6. N453-6
+change_conditions：关系解释、参数或源闭合变化触发新具名结果；相同输入/版本确定。
+conditions：两关系解释×三个预先固定参数版本逐一运行、分别解释。
+conflict_resolution：individual valid result优先原样保留；optional common仅描述交集，不否定任何已选合法版本。
+effective_status_evidence：{
+  "author_actual": {
+    "bytes": 10426,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/actual/complete_independent_actual_verification.json",
+    "sha256": "022f0de034301d124d0ace69d17e9f23e3fbdf2dba8e5dede866353057088854"
+  },
+  "non_author_new_conditions": {
+    "bytes": 190551,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/new24_conditions_full_signed_independent_actual.json",
+    "sha256": "a323a18ce9858769f42e718d476b1b488d3ff8953f5b386f9eed2bca9e04f45f"
+  },
+  "readonly_and_strict": {
+    "bytes": 3783,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/complete_existing34_readonly_runtime_review.json",
+    "sha256": "c1196fefe67cb68e6edd2bbadb45877913ff18d80a0bd0d796bb14a33b6dc479"
+  },
+  "specific_review": {
+    "basis": "heavy baseline failure not replaced by passing relation; all6 exact native variants compared in complete API/CLI",
+    "new_condition_ids": [
+      23
+    ]
+  }
+}
+exclusions_and_failure：六版共同比较不得新增为已有具名结论的验收门；源不闭/基线不成立版本不能改成选另一版。
+historical_preproducer_status：事前固定的有限工程推论候选；资料定位已复核，实际程序尚未运行；不能据此称古典原句或现实预测有效。
+算法标识：N453-6
+rule_expression：conservative_common仅当全部基线合法才计算共同精确条件；否则null并列原因。
+school：子平格局：丙辰杂气官印、有情机制；不是扶抑/调候全面总裁决。
+source：{
+  "original_scope": "古典争论和关系版本原分歧继续保留。",
+  "primary": "Primary_WorldLibrary.pdf PDF42/printed33; adjacent PDF21/24/31–33, physical correction receipt"
+}
+source_layers：{
+  "commentary": "不新增未经核对引文。",
+  "engineering": "本卡规则表达/判据/输入域皆明确项目推论，复用433固定物理量效。",
+  "original": "仅上述可定位语义；未载本卡数学式或完整人工盘。"
+}
+status：资料原图已核；有限工程规则实际实现、作者验证及458非作者实质复核已完成；采用由项目主记录决定。不是经典原句或现实预测验证。
+title：每个具名版本独立交付，共同结果只是附加保守描述
+verification_material_precommitted：主人工题两解释各三档；旧酉R0有效/R1基线失败；单版本结果保持而共同null。
+
+7. N453-7
+change_conditions：现有H是固定actual信用选择；本规则变化direct后全物理重算，问题和输出字段分别保存。
+conditions：基线原433的general/strong/H/AUX全结果仍保留。
+conflict_resolution：任何冲突先检查是否比较同一问题；不能以边际结果覆盖原H或全传统最终喜用。
+effective_status_evidence：{
+  "author_actual": {
+    "bytes": 10426,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/actual/complete_independent_actual_verification.json",
+    "sha256": "022f0de034301d124d0ace69d17e9f23e3fbdf2dba8e5dede866353057088854"
+  },
+  "non_author_new_conditions": {
+    "bytes": 190551,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/new24_conditions_full_signed_independent_actual.json",
+    "sha256": "a323a18ce9858769f42e718d476b1b488d3ff8953f5b386f9eed2bca9e04f45f"
+  },
+  "readonly_and_strict": {
+    "bytes": 3783,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/complete_existing34_readonly_runtime_review.json",
+    "sha256": "c1196fefe67cb68e6edd2bbadb45877913ff18d80a0bd0d796bb14a33b6dc479"
+  },
+  "specific_review": {
+    "basis": "lambda0 entire world equality; no current H projection into local directions; fire increment negative is not natal fire useless",
+    "new_condition_ids": [
+      22
+    ]
+  }
+}
+exclusions_and_failure：单火增补不净有利不能写火在原局无用；局部木方向不等于盘外总喜木或其他五行皆忌。
+historical_preproducer_status：事前固定的有限工程推论候选；资料定位已复核，实际程序尚未运行；不能据此称古典原句或现实预测有效。
+算法标识：N453-7
+rule_expression：baseline_complete_433_analysis不改；local auxiliary独立字段；传统全面最终喜用、优先级、B/theme仍null。
+school：子平格局：丙辰杂气官印、有情机制；不是扶抑/调候全面总裁决。
+source：{
+  "original_scope": "原段重实际印生身护官，原局火仍承担日主及信用。",
+  "primary": "Primary_WorldLibrary.pdf PDF42/printed33; adjacent PDF21/24/31–33, physical correction receipt"
+}
+source_layers：{
+  "commentary": "不新增未经核对引文。",
+  "engineering": "本卡规则表达/判据/输入域皆明确项目推论，复用433固定物理量效。",
+  "original": "仅上述可定位语义；未载本卡数学式或完整人工盘。"
+}
+status：资料原图已核；有限工程规则实际实现、作者验证及458非作者实质复核已完成；采用由项目主记录决定。不是经典原句或现实预测验证。
+title：边际方向与原局现有结构分开
+verification_material_precommitted：λ0旧完整world回归；所有四人工基线H与事前独立H完全一致；代码不导显示。
+
+8. N453-8
+change_conditions：未来新增源目标、演员或实际干支必须重新立具体任务与可复算范围，不能无条件外推。
+conditions：资料准确、规则实现、现实作用验证分别记。
+conflict_resolution：原任务验收分母保持，作者不自采用不加分；研究限制如实列出。
+effective_status_evidence：{
+  "author_actual": {
+    "bytes": 10426,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/actual/complete_independent_actual_verification.json",
+    "sha256": "022f0de034301d124d0ace69d17e9f23e3fbdf2dba8e5dede866353057088854"
+  },
+  "non_author_new_conditions": {
+    "bytes": 190551,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/new24_conditions_full_signed_independent_actual.json",
+    "sha256": "a323a18ce9858769f42e718d476b1b488d3ff8953f5b386f9eed2bca9e04f45f"
+  },
+  "readonly_and_strict": {
+    "bytes": 3783,
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/complete_existing34_readonly_runtime_review.json",
+    "sha256": "c1196fefe67cb68e6edd2bbadb45877913ff18d80a0bd0d796bb14a33b6dc479"
+  },
+  "specific_review": {
+    "basis": "actual source guard0/clean8 and5 moved normal/rejected fresh processes; source/implementation/empirical distinction explicit",
+    "new_condition_ids": []
+  }
+}
+exclusions_and_failure：测试通过不能改写现实预测成立；局部有限源桥不能宣布全C02或原195hold/MCN2–4/57关系完成。
+historical_preproducer_status：事前固定的有限工程推论候选；资料定位已复核，实际程序尚未运行；不能据此称古典原句或现实预测有效。
+算法标识：N453-8
+rule_expression：版本0.1提供有限具名推论、全输出、来源、解释、测试与可复现命令；其余核心依原任务继续。
+school：子平格局：丙辰杂气官印、有情机制；不是扶抑/调候全面总裁决。
+source：{
+  "original_scope": "已核引文只证明原文语义。",
+  "primary": "Primary_WorldLibrary.pdf PDF42/printed33; adjacent PDF21/24/31–33, physical correction receipt"
+}
+source_layers：{
+  "commentary": "不新增未经核对引文。",
+  "engineering": "本卡规则表达/判据/输入域皆明确项目推论，复用433固定物理量效。",
+  "original": "仅上述可定位语义；未载本卡数学式或完整人工盘。"
+}
+status：资料原图已核；有限工程规则实际实现、作者验证及458非作者实质复核已完成；采用由项目主记录决定。不是经典原句或现实预测验证。
+title：验证三层分开与原核心范围保留
+verification_material_precommitted：严格入口/坏源0provider/只读新进程/完整搬移/留出条件另存实际证据，不伪称未执行项通过。
+

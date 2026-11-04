@@ -1,0 +1,1578 @@
+主本文原吴一方秀气整盘喜印
+rev428b_Primary_Wu_complete_print
+所属原模块：C02
+当前采用：rev440_Primary_Wu_whole_print_adoption.json
+范围：原吴完整原局以双明印生日与克食联合诊断得到本源喜印水，保原食通路；不编壬癸主次及其余皆忌。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev428b_Primary_Wu_complete_print/algorithm_explanations_47_functions.json
+SHA256：d6d814a281a0b7c26da125b7b3f67df14a3096261daddb1ad570e9d9fd5a542d
+
+1. wu.py:canonical
+算法标识：wu.py:canonical
+source_identity：{
+  "relative_path": "wu.py",
+  "qualified_name": "canonical",
+  "first_line": 8,
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "module_sha256": "b83b77a8a5a7e52ede6b92a1fb19b02be3d75e03c9cee229ed149cac22f532b9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "生成稳定原生JSON文字",
+  "inputs": "pack后的JSON兼容值",
+  "operations": "排序键、紧凑分隔、非ASCII原样、allow_nan=False；不转化输出对象",
+  "outputs": "str或类型/非有限数异常",
+  "preconditions_and_limits": "Fraction需先pack；此函数不做UTF8编码；全API/CLI按实际文字byte比较"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "quzhi.py:canonical",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "quzhi.py:canonical"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+2. wu.py:strict_load
+算法标识：wu.py:strict_load
+source_identity：{
+  "relative_path": "wu.py",
+  "qualified_name": "strict_load",
+  "first_line": 11,
+  "AST_sha256": "8d5a868d238377e001b05cab6fe086573bebe7758cd8d3c0c71239924d02f80e",
+  "module_sha256": "b83b77a8a5a7e52ede6b92a1fb19b02be3d75e03c9cee229ed149cac22f532b9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "有限JSON文本解析",
+  "inputs": "str且不超5000字符",
+  "operations": "json.loads逐对象pairs拒重复键，constant拒NaN/Infinity",
+  "outputs": "JSON值或解析/递归异常",
+  "preconditions_and_limits": "不是schema审查；Unicode代理在scalar_tree拒绝"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "quzhi.py:strict_load",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "quzhi.py:strict_load"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+3. wu.py:strict_load.<locals>.pairs
+算法标识：wu.py:strict_load.<locals>.pairs
+source_identity：{
+  "relative_path": "wu.py",
+  "qualified_name": "strict_load.<locals>.pairs",
+  "first_line": 13,
+  "AST_sha256": "9821bdaa719a02380897afdb888e878803c58c11b2f29d7b41bd5e490f356f81",
+  "module_sha256": "b83b77a8a5a7e52ede6b92a1fb19b02be3d75e03c9cee229ed149cac22f532b9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "每个JSON对象拒重复键",
+  "inputs": "解析器已给的键值顺序对",
+  "operations": "逐键检查已存在即抛ValueError，否则保值",
+  "outputs": "dict",
+  "preconditions_and_limits": "不在此判请求schema；嵌套对象同样调用"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "quzhi.py:strict_load.<locals>.pairs",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "quzhi.py:strict_load.<locals>.pairs"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+4. wu.py:strict_load.<locals>.constant
+算法标识：wu.py:strict_load.<locals>.constant
+source_identity：{
+  "relative_path": "wu.py",
+  "qualified_name": "strict_load.<locals>.constant",
+  "first_line": 19,
+  "AST_sha256": "d6404d7b01f302ae0a93185cd23daf9d6e241a6fa548716b3bc3f7e57c850e3b",
+  "module_sha256": "b83b77a8a5a7e52ede6b92a1fb19b02be3d75e03c9cee229ed149cac22f532b9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "拒JSON非有限常量",
+  "inputs": "NaN/Infinity等解析token",
+  "operations": "直接抛ValueError，不返回一个假数",
+  "outputs": "异常；trace return-event None不是正常返回",
+  "preconditions_and_limits": "实际NaN调用有异常事件并保存"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "quzhi.py:strict_load.<locals>.constant",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "quzhi.py:strict_load.<locals>.constant"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+5. wu.py:scalar_tree
+算法标识：wu.py:scalar_tree
+source_identity：{
+  "relative_path": "wu.py",
+  "qualified_name": "scalar_tree",
+  "first_line": 22,
+  "AST_sha256": "42eab752ffe8da79bdda67913092a56dbc647d85f8a868d346adc3e6d366c453",
+  "module_sha256": "b83b77a8a5a7e52ede6b92a1fb19b02be3d75e03c9cee229ed149cac22f532b9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='depth')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=0)])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "API值树与Unicode/大小审查",
+  "inputs": "请求任意Python值、当前深度",
+  "operations": "深度<=20，字串<=5000、无代理，对象/数组<=20；键须str；只JSON值且浮数有限",
+  "outputs": "成功None，否则ValueError",
+  "preconditions_and_limits": "guard先于本函数；不负责四柱合法性和source_profile"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "quzhi.py:scalar_tree",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "quzhi.py:scalar_tree"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+6. wu.py:guard
+算法标识：wu.py:guard
+source_identity：{
+  "relative_path": "wu.py",
+  "qualified_name": "guard",
+  "first_line": 37,
+  "AST_sha256": "8faacc7241fc2261999d4ba91bfcbd1995c7ab53129c5f8106a14807430573b8",
+  "module_sha256": "b83b77a8a5a7e52ede6b92a1fb19b02be3d75e03c9cee229ed149cac22f532b9",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "所有源和provider先验完整核验",
+  "inputs": "本包固定lock及其源码常量SHA",
+  "operations": "先核lock字节；比source/runtime整树文件集；逐项regular/非越界、长度、SHA，再收已核bytes",
+  "outputs": "完整已核material；任何坏项异常",
+  "preconditions_and_limits": "未来未选的原页/源卡也不能跳过；在任一provider exec前完成。不宣OS级所有IO原子性"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "wu.py:guard"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "quzhi.py:guard"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+7. wu.py:load
+算法标识：wu.py:load
+source_identity：{
+  "relative_path": "wu.py",
+  "qualified_name": "load",
+  "first_line": 52,
+  "AST_sha256": "2786dafdd2d1cfce9b11593c83f4d1a866967ab3c89643c097b875bd74e69889",
+  "module_sha256": "b83b77a8a5a7e52ede6b92a1fb19b02be3d75e03c9cee229ed149cac22f532b9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "执行一个已核内存provider",
+  "inputs": "名称、包内相对路径、guard material",
+  "operations": "新ModuleType，设真实__file__，compile已核bytes并exec",
+  "outputs": "模块对象",
+  "preconditions_and_limits": "只能由已核material取bytes；未注册到sys.modules；无外部import框架"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "wu.py:load"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "quzhi.py:load"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+8. wu.py:evaluate
+算法标识：wu.py:evaluate
+source_identity：{
+  "relative_path": "wu.py",
+  "qualified_name": "evaluate",
+  "first_line": 57,
+  "AST_sha256": "97b95f394e111920b059e27623300752a10136f33764129fcb5c7333d085bb1f",
+  "module_sha256": "b83b77a8a5a7e52ede6b92a1fb19b02be3d75e03c9cee229ed149cac22f532b9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "完整原局原生API",
+  "inputs": "严格请求dict",
+  "operations": "guard→scalar_tree→加载exact/pool/core/facts/AUX五模块→用已核参数调用core→递归pack",
+  "outputs": "未经删改的全部事实、origin、全图、信用表、CNF与native H",
+  "preconditions_and_limits": "这里不接采纳policy/B/显示；坏源优先0provider执行"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "wu.py:evaluate"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "quzhi.py:evaluate"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+9. wu.py:main
+算法标识：wu.py:main
+source_identity：{
+  "relative_path": "wu.py",
+  "qualified_name": "main",
+  "first_line": 67,
+  "AST_sha256": "47467ed4d59d07431b9868f1246876999d0659baebf3d9b04b6860cc11c60248",
+  "module_sha256": "b83b77a8a5a7e52ede6b92a1fb19b02be3d75e03c9cee229ed149cac22f532b9",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "有限UTF8完整CLI",
+  "inputs": "stdin.buffer最多20001bytes",
+  "operations": "超20000拒；strict UTF8与strict JSON；完整evaluate后一次canonical行；已列异常转单行rejected/exit2",
+  "outputs": "成功exit0完整JSON；拒绝exit2、不输出部分判断",
+  "preconditions_and_limits": "捕ValueError/TypeError/KeyError/RecursionError/UnicodeError/OSError/ArithmeticError；不冒任意BaseException/进程中断均可恢复"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "quzhi.py:main",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "quzhi.py:main"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+10. runtime/wu_core.py:scope
+算法标识：runtime/wu_core.py:scope
+source_identity：{
+  "relative_path": "runtime/wu_core.py",
+  "qualified_name": "scope",
+  "first_line": 10,
+  "AST_sha256": "2b3c22fcdffa99e4723f081d3ef979fa61767d11379859c264fadbf94be1b0c5",
+  "module_sha256": "ed51bd72a695e79166686823fd6ba45485e22d97ee3076a5bcd13dfb79f83bfa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='raw'), arg(arg='prior')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "核原书原吴与源竞争入口",
+  "inputs": "合法facts/raw/prior",
+  "operations": "精确原柱；乙木卯春、亥卯未；印透，无明财官食；保午未形式及原例关系有限共存解释",
+  "outputs": "源checks/域内、关系/徐评条件界",
+  "preconditions_and_limits": "只原吴和三参数；合法外例不判全局败；原藏丁非露食伤。"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "runtime/wu_core.py:scope"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/quzhi_core.py:scope"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+11. runtime/wu_core.py:inventory
+算法标识：runtime/wu_core.py:inventory
+source_identity：{
+  "relative_path": "runtime/wu_core.py",
+  "qualified_name": "inventory",
+  "first_line": 22,
+  "AST_sha256": "751d5c5e688146a874f89ac2a04007e3cdb4d3c6c3d47d553977f39a54e1c338",
+  "module_sha256": "ed51bd72a695e79166686823fd6ba45485e22d97ee3076a5bcd13dfb79f83bfa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "全12演员及本题明印候选",
+  "inputs": "parsed/params/pool",
+  "operations": "旧428phasefree源库存不变；仅明水设候选，隐亥水持续实际作用",
+  "outputs": "base与两个明印id",
+  "preconditions_and_limits": "不删藏火土，也不以阴阳相同数率冒传统正偏印完全等价。"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "runtime/wu_core.py:inventory"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/quzhi_core.py:inventory"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+12. runtime/wu_core.py:solve_print_world
+算法标识：runtime/wu_core.py:solve_print_world
+source_identity：{
+  "relative_path": "runtime/wu_core.py",
+  "qualified_name": "solve_print_world",
+  "first_line": 29,
+  "AST_sha256": "c05bb8210408e06041731e8e4d28fa2aa1d2dc2dbfb86ca3e8baa37998380a0e",
+  "module_sha256": "ed51bd72a695e79166686823fd6ba45485e22d97ee3076a5bcd13dfb79f83bfa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='pool'), arg(arg='enabled')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "生日与制食联合许可的完整5current",
+  "inputs": "base/math/pool/enabled明印子集",
+  "operations": "theta隐水+启用明印权重；旧潜在系数a和cost固定，木行生水项/火行受水克项同时theta；全32有理面解并代回",
+  "outputs": "当前量、实际K/原潜在系数、实际生/克率/启用情况",
+  "preconditions_and_limits": "actual全开严格退化旧pool；off是功能诊断，不删原干/根/浮输入；不返未用费用。"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "runtime/wu_core.py:solve_print_world"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：null
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+13. runtime/wu_core.py:origin_ports
+算法标识：runtime/wu_core.py:origin_ports
+source_identity：{
+  "relative_path": "runtime/wu_core.py",
+  "qualified_name": "origin_ports",
+  "first_line": 53,
+  "AST_sha256": "be7647fa5183ddd871ac7e7e273c204193f1c01b06e67925421016dbbddcfd81",
+  "module_sha256": "ed51bd72a695e79166686823fd6ba45485e22d97ee3076a5bcd13dfb79f83bfa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "每诊断同解全部真实源追踪",
+  "inputs": "base/world/math",
+  "operations": "按实际generationrates形成gross与rho；多rhs有理解每origin；核每式、非负、和=current",
+  "outputs": "全ports/gross/retention",
+  "preconditions_and_limits": "不能把旧固定b origin函数用于theta非1；控制/成本消费比例同世界，不跨world。"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "runtime/wu_core.py:origin_ports"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：null
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+14. runtime/wu_core.py:actual_effects
+算法标识：runtime/wu_core.py:actual_effects
+source_identity：{
+  "relative_path": "runtime/wu_core.py",
+  "qualified_name": "actual_effects",
+  "first_line": 68,
+  "AST_sha256": "da5a4da6d65d03891c61793c2fb6a5fec32afc8f907ac1a7ed6c8166244fd34a",
+  "module_sha256": "ed51bd72a695e79166686823fd6ba45485e22d97ee3076a5bcd13dfb79f83bfa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "全actual正负边与不退还的原源费用",
+  "inputs": "base/world/ports",
+  "operations": "每actor原poolport全保；只有启用明印生日/制食同时可发；目标clamp克损；生日target留存另列；每actor-origin潜在费用、未用生成/控制费用与五账守恒核",
+  "outputs": "全12actorports/边/五账/每源预留/禁用费用/克损clamps",
+  "preconditions_and_limits": "发送/保留/实际克损/未用源费不同；禁用并不删实体、已归属输入或根。"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "runtime/wu_core.py:actual_effects"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/quzhi_core.py:actual_effects"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+15. runtime/wu_core.py:goals
+算法标识：runtime/wu_core.py:goals
+source_identity：{
+  "relative_path": "runtime/wu_core.py",
+  "qualified_name": "goals",
+  "first_line": 113,
+  "AST_sha256": "d85cc2e1cee4639503a8607fc3618b035d8056ede5f2cb21290c93641b1e9fb4",
+  "module_sha256": "ed51bd72a695e79166686823fd6ba45485e22d97ee3076a5bcd13dfb79f83bfa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='graph'), arg(arg='eta')], kwonlyargs=[], kw_defaults=[], defaults=[Call(func=Name(id='F', ctx=Load()), args=[Constant(value=1), Constant(value=32)], keywords=[])])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "全木/原食任务与实际明印信用",
+  "inputs": "base/world/ports/graph/eta内部默认1/32",
+  "operations": "体活覆盖，原木根、亥水源活，F与木生F保留活；每明印真实边求木池保留及亥根份额；核权重公式",
+  "outputs": "checks/foodflow/两个信用表/门/木余量",
+  "preconditions_and_limits": "eta界是内部数学压力非公共新参数；half冗余解释，不冒重复覆盖；保食为本题充分约定。"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "runtime/wu_core.py:goals"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/quzhi_core.py:goals"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+16. runtime/wu_core.py:complete_credit_H
+算法标识：runtime/wu_core.py:complete_credit_H
+source_identity：{
+  "relative_path": "runtime/wu_core.py",
+  "qualified_name": "complete_credit_H",
+  "first_line": 136,
+  "AST_sha256": "625b9109ebb882c1c2e9d44e80a4e7a51ae730363785f3cba10d24aa360f06ae",
+  "module_sha256": "ed51bd72a695e79166686823fd6ba45485e22d97ee3076a5bcd13dfb79f83bfa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='goal')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "固定实际世界全部明印解释",
+  "inputs": "base/actualgoal",
+  "operations": "四个选集算真实印留存>=门且各有亥源；体/根/食硬件AND；真极小/最大假补CNF",
+  "outputs": "全rows/H/CNF",
+  "preconditions_and_limits": "与4个联合诊断world分开；两正偏印替代保身份/不编主次。"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "runtime/wu_core.py:complete_credit_H"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/quzhi_core.py:complete_credit_H"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+17. runtime/wu_core.py:analyze
+算法标识：runtime/wu_core.py:analyze
+source_identity：{
+  "relative_path": "runtime/wu_core.py",
+  "qualified_name": "analyze",
+  "first_line": 150,
+  "AST_sha256": "9c8ff6dccdac0af7ee1c6230b837c6a37c7c2aa9d9d79c8687a864e98818c55f",
+  "module_sha256": "ed51bd72a695e79166686823fd6ba45485e22d97ee3076a5bcd13dfb79f83bfa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='aux'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "完整原局喜印源桥",
+  "inputs": "base/math/AUX/pool",
+  "operations": "4联合world完整算；仅全开actual取H及原native全OR逐mask；和全关两面对照，源硬件/H过且木及余量增才喜印",
+  "outputs": "全部四世界/固定actualH/准确源偏好及负面变化",
+  "preconditions_and_limits": "原食被压量真披露且须仍存；源句与fullbody全反馈共同桥，不由印role映射；无B/配比。"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "runtime/wu_core.py:analyze"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/quzhi_core.py:analyze"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+18. runtime/wu_core.py:evaluate
+算法标识：runtime/wu_core.py:evaluate
+source_identity：{
+  "relative_path": "runtime/wu_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 181,
+  "AST_sha256": "5a1b2af68b90ba7d539263cfae99f9679c14d2810413573862c9bf240c86b76b",
+  "module_sha256": "ed51bd72a695e79166686823fd6ba45485e22d97ee3076a5bcd13dfb79f83bfa",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='prior'), arg(arg='facts'), arg(arg='math'), arg(arg='aux'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_originalWu_runtime
+算法解释：{
+  "purpose": "带源、参数的完整原始入口",
+  "inputs": "四字段request/prior/facts/math/AUX/pool",
+  "operations": "精确schema/source/三profile/raw对象；原facts非法/缺项保协议；合法外域保facts与原待办；原吴则完整analyze",
+  "outputs": "全原生/非法事实/合法外域或异常",
+  "preconditions_and_limits": "不以永久unsupported掩原吴：本原例已经计算；其他一方/时间原scope继续。"
+}
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/changed_function_actual_IO.json.gz",
+    "record": "runtime/wu_core.py:evaluate"
+  }
+]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/quzhi_core.py:evaluate"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+19. runtime/element_pool.py:inventory
+算法标识：runtime/element_pool.py:inventory
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "inventory",
+  "first_line": 9,
+  "AST_sha256": "5cdf8387d2fe6337a0eacda26e1f65c17a179960b5c92885df5456587703fb67",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "保明藏全部实体并形成phase-free任务库",
+  "inputs": "完整parsed及指定b/c参数",
+  "operations": "逐明藏根证：同元素各支主列1余列1/4月3/2、每明干浮源1；同元素同origin最大聚合；每演员根证总和归一作分配权重",
+  "outputs": "actors/direct/weights/parsed/params",
+  "preconditions_and_limits": "主余权重是工程结构权重，非司令/任土12宫。共池分配不是演员局部库存。",
+  "current_adapter_note": "原库存先木火标记；本wu.inventory只设两个明水为候选，其余原演员/根/权重保。旧428包标水范围不是本题候选。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/element_pool.py:inventory",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/element_pool.py:inventory"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+20. runtime/element_pool.py:coefficients
+算法标识：runtime/element_pool.py:coefficients
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "coefficients",
+  "first_line": 37,
+  "AST_sha256": "615b03099456f6f43f080508f3ebca37ed456b3adfc8b9293122fc5299b9e1fd",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "声明同current全生克预算",
+  "inputs": "base直接库与参数b,c",
+  "operations": "b,c∈(0,1/3]；无实体目标不接收/不预留该输出；a_i=1+b*生目标存在+c*克目标存在；K目标行生正克负除a；行和L核<1",
+  "outputs": "b,c,present,a,K,L",
+  "preconditions_and_limits": "每个正负发送与成本均读同一个解；预留全部控制容量不因目标被耗尽回收。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/element_pool.py:coefficients",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/element_pool.py:coefficients"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+21. runtime/element_pool.py:solve
+算法标识：runtime/element_pool.py:solve
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "solve",
+  "first_line": 50,
+  "AST_sha256": "b7e9b32624c59cd4352eef349c857cce8326f350acb8704cdbf52ff0892ab382",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "精确求唯一五行任务状态",
+  "inputs": "base/math.gauss",
+  "operations": "枚举32活跃面；解(I-K_AA)x=v；非活跃0；对全部五行max方程精确有理代入、非负才收；结合全域L<1唯一",
+  "outputs": "current、coefficients、活跃面与证书",
+  "preconditions_and_limits": "全有理无浮点suggestion；缺实体坐标夹0；不生成不存在金等演员。",
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/element_pool.py:solve",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/element_pool.py:solve"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+22. runtime/element_pool.py:origin_ports
+算法标识：runtime/element_pool.py:origin_ports
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "origin_ports",
+  "first_line": 64,
+  "AST_sha256": "70baff7d919978b41bdcf3d715947a428e61ade1f4c704d6a20210e991c29261",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "在同解上分清所有库存来源",
+  "inputs": "base/world/math",
+  "operations": "gross_i=d_i+b*x_parent(须目标存在)；rho=x/gross；多右端解o_i=rho_i(d_i,o+b*o_parent)；逐origin非负/方程/和=x断言",
+  "outputs": "pools/gross/retention与L",
+  "preconditions_and_limits": "控制不把被克元素转换为克者；成本与克损同比耗用毛入。origin代表工程资格输入，不是物理分子守恒。",
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/element_pool.py:origin_ports",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/element_pool.py:origin_ports"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+23. runtime/element_pool.py:reconstruct
+算法标识：runtime/element_pool.py:reconstruct
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "reconstruct",
+  "first_line": 77,
+  "AST_sha256": "64dd281189586e10828753327a067962357487735b0575f3a23e10f60c30256e",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "还原每个演员每origin全部发送与消耗",
+  "inputs": "同一base/world/ports",
+  "operations": "actorports=权重*元素origin池；遍历所有真实演员，生/克每对按b或c及目标权重发送；gross=x+gen预算+control预算+实际克损逐项核",
+  "outputs": "全部actorports、全部有向生克边、五库存账、形式关系",
+  "preconditions_and_limits": "0现量演员仍在；容量超目标部分另记。没有跨不同world拼正负，也不删除未选包。",
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/element_pool.py:reconstruct",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/element_pool.py:reconstruct"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+24. runtime/element_pool.py:native_H
+算法标识：runtime/element_pool.py:native_H
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "native_H",
+  "first_line": 103,
+  "AST_sha256": "56fe1b2195732cc356eec3de8c69bc229643a286f00fa631b5b0090371617c2d",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='logic'), arg(arg='aux'), arg(arg='actual_met')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "接原native选择器且保全部OR",
+  "inputs": "base/完整logic/原AUX/实际目标是否满足",
+  "operations": "CNF按最多18goal/100tasks分块；每块存完整输入图并调用原select；AND各块的所有局部OR，枚举并集再最小化；与独立全H断言相等",
+  "outputs": "bounded_native_parts及全部最小并集",
+  "preconditions_and_limits": "原AUX源码不改；full_native_graph由此adapter保存，select本身不返schema/mode/scope。原AUX B字段恒未接产品。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/element_pool.py:native_H",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/element_pool.py:native_H"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+25. runtime/shared_exact.py:pack
+算法标识：runtime/shared_exact.py:pack
+source_identity：{
+  "relative_path": "runtime/shared_exact.py",
+  "qualified_name": "pack",
+  "first_line": 3,
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d",
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "将数学结构转为可重复JSON兼容值",
+  "inputs": "Fraction/字典/序列/集合等",
+  "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+  "outputs": "转换后的值",
+  "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/shared_exact.py:pack",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/shared_exact.py:pack"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+26. runtime/shared_exact.py:gauss
+算法标识：runtime/shared_exact.py:gauss
+source_identity：{
+  "relative_path": "runtime/shared_exact.py",
+  "qualified_name": "gauss",
+  "first_line": 10,
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec",
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "精确多右端线性消元",
+  "inputs": "n×n有理系数及n行多列右端",
+  "operations": "逐列选非零枢轴、归一、消去其他行",
+  "outputs": "有理数解矩阵；奇异报ArithmeticError",
+  "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/shared_exact.py:gauss",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/shared_exact.py:gauss"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+27. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "十干查五行",
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/foundation_facts.py:stem_element",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/foundation_facts.py:stem_element"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+28. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "严格十神角色",
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/foundation_facts.py:ten_god",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/foundation_facts.py:ten_god"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+29. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "原柱基础合法性",
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/foundation_facts.py:validate",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/foundation_facts.py:validate"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+30. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "保留有位置的形式合冲",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。本原吴木三合与午未有限源消费在scope，保原藏而不自动合化或删根。",
+  "historical_note": "旧K2尾注全文仅在原428合同引用保，不充当前原吴作用规则。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/foundation_facts.py:formal_relations",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/foundation_facts.py:formal_relations"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+31. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/foundation_facts.py:root_evidence",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/foundation_facts.py:root_evidence"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+32. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "原61完整四柱事实入口",
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/foundation_facts.py:parse",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/foundation_facts.py:parse"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+33. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "bounded",
+  "first_line": 16,
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work.",
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:bounded",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:bounded"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+34. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "shape",
+  "first_line": 38,
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Require an exact allowed object field set.",
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:shape",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:shape"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+35. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "string",
+  "first_line": 43,
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Require a nonempty string field.",
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:string",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:string"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+36. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "boolean",
+  "first_line": 48,
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Require actual bool instead of truthy/coercible values.",
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:boolean",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:boolean"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+37. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "validate",
+  "first_line": 53,
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request.",
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:validate",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:validate"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+38. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "closed",
+  "first_line": 135,
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Check that every declared graph-scope obligation is marked complete.",
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:closed",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:closed"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+39. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "hard_failure",
+  "first_line": 139,
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Determine whether a required actual goal or global check still blocks selection.",
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:hard_failure",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:hard_failure"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+40. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "repair_candidates",
+  "first_line": 144,
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions.",
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:repair_candidates",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:repair_candidates"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+41. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "minimal_covers",
+  "first_line": 184,
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal.",
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:minimal_covers",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:minimal_covers"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+42. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "prefer",
+  "first_line": 197,
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution.",
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:prefer",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:prefer"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+43. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "preference_frontier",
+  "first_line": 206,
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle.",
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:preference_frontier",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:preference_frontier"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+44. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "select",
+  "first_line": 224,
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms.",
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "Base result fields are version, semantic_scope, source_and_scope_bindings_independently_validated, positive_current_tasks, all_current_actors_preserved, all_tasks_preserved, actual_goals_preserved, actual_global_checks_preserved, unmet_task_repair_candidates, needed_absent_directions, luck_directions_separate, selected_current_auxiliary_sets, common_selected_actors, final_whole_chart_auxiliary_elements, final_priority, B and warning; status is added on every return. The incomplete-scope and hard-failure branches leave selection fields None. The no-active-target branch sets selected_current_auxiliary_sets=[] and also returns positive_background_tasks. The active-target branch additionally returns qualified_coverage, all_inclusion_minimal_explanation_sets, preference_edges_by_set_index, preference_cycle_undecided and positive_background_tasks, and fills selected/common actor fields. Input schema, mode and scope are not returned. In this originalWu adapter the input graph is separately saved at whole.complete_actual_fixed_world_print_H.native.bounded_native_parts[index].full_native_graph; select itself does not return that field. Full physical graphs remain in each world actual_signed_graph.",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.",
+  "current_adapter_note": "当前路径已直接替换有效说明中的历史384路径；原合同全文在source/reused428_algorithm_contracts.json保留，原select不返回全输入。"
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[
+  {
+    "artifact": "source/reused428_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:select",
+    "exact_AST": true
+  }
+]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:select"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+45. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "strict_pairs",
+  "first_line": 272,
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser.",
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:strict_pairs"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+46. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "reject_constant",
+  "first_line": 280,
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing.",
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:reject_constant"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+47. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "main",
+  "first_line": 284,
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_prior_AST_contract_reused
+算法解释：{
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol.",
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main."
+}
+本版实际输入输出记录：[]
+verified_reused_IO_reference：[]
+prior_contract_reference：{
+  "artifact": "source/reused428_algorithm_contracts.json",
+  "id": "runtime/auxiliary_selector.py:main"
+}
+precise_IO_scope：12 changed functions have fresh complete inputs/returns. Exact generic functions bind verified old IO and current fullAPI regression, not claimed reexecuted old record for same new input.
+
+原件：work/rev428b_Primary_Wu_complete_print/source/source_rules_ten_fields.json
+SHA256：9b117aad2950010428cd03107de095c1ed7c0745de743c52addf84aba6e5e978
+
+1. PWU-SOURCE
+算法标识：PWU-SOURCE
+source：主本文PDF93/印84，论杂格一方秀气及原吴
+来源层次：主本文；后徐评与三命诗另层
+conditions：甲乙全亥卯未/寅卯辰、春月，喜印露体纯；原吴癸亥乙卯乙未壬午。
+exclusions：不把运喜印比/财食吉直接当本局所有当前辅助；不把徐评运食伤最美冒主文。
+changes：真实新财官食印、根和关系可换支；本输入只源原吴、参数三档。
+conflict：主文该原例明确一方喜印，藏丁不等徐评露食伤印运忌；不要求跨流派共识才可有限采用。
+expression：exact book raw+springwood+visibleprint+natal whole calculation before preference
+verification：实际重读Primary93/94整图及书SHA，网页/徐评文字层读取级另存。
+status：原局喜印源已核，有限整盘候选
+
+2. PWU-RELATIONS
+算法标识：PWU-RELATIONS
+source：主本文原吴既成一方实例、61目录与428根账
+来源层次：原例条件＋工程有限关系消费
+conditions：亥卯未与午未在原吴同在；保12明藏与原木/火/土/水根。
+exclusions：不自动化全木/全土，不抹午丁己或未己丁乙；隐丁与明壬不自动化木。
+changes：换新支须源关系重核，本例不提供通用争合/藏合优先。
+conflict：原例归格限制不能被机械午未合去未推翻；同时不把所有合都宣布无效。
+expression：retain everyoriginalactor/root; source-specific coexistence; no bonus stock/removal
+verification：12actor、全部origin及午未全正负真实ledger，源例合法性独立五虎/五鼠核。
+status：有限消费，非通用关系定理
+
+3. PWU-WHOLE
+算法标识：PWU-WHOLE
+source：原局喜印露体纯＋428/384公开工程
+来源层次：原义选问题，工程数额与充分条件
+conditions：木体活、覆盖火土金，三支木根存，亥水源存；原食F及木→火留存仍活。
+exclusions：half由强覆盖率盒蕴含，不冒新独立功能；保食是本题保原功能充分规格非古书全部曲直充要。
+changes：印过量灭食、土抑印、火泄过度等真实失效不填喜印默认；木1仍通过亦保。
+conflict：负作用与正作用同current先完成，不能以单水角色绕全盘。
+expression：5 exact maxaffine equations with full potential sourcecost; printgen andcontrol jointly licensed in separate diagnostic worlds
+verification：3参数×4诊断与11数学压力×4共56world；全部actor-origin正负/真实克损/保留信用与独立Cramer全等。
+status：完整工程充分题，非经验命理定律
+
+4. PWU-PRINT-H
+算法标识：PWU-PRINT-H
+source：主文喜印露、真实有根生日与旧AUX
+来源层次：源功能＋固定实际world解释
+conditions：选明壬/癸印确有亥原水来源；沿实际生日在木target保留>=B/32且亥根贡献>0。
+exclusions：隐亥壬始终有实际作用但不冒印露候选；正偏印身份不合并；源无主次不造偏好。
+changes：信用阈值、根/源变化全H重算；恒留所有OR，不用选中集合删负面。
+conflict：H固定actualworld与四耦合功能诊断分开，不拿不同world凑信用。
+expression：all subsets exposedprints -> retained real credit +sourcehard checks -> minH/CNF -> originalnative fullOR
+verification：原三参数H各为时壬或年癸两替代；留存eta=842/19905及±1/99991由两单印变共同印，全部OR保。
+status：量门工程先验；本原局源辅助取用需后续完整桥
+
+5. PWU-COUPLED
+算法标识：PWU-COUPLED
+source：双明印既生木又制原藏食；完整变化因果解释
+来源层次：工程诊断，非删除反事实
+conditions：每一明印水生木与水克火同开关；原隐亥壬始终作用；四world每次全5量/来源重解。
+exclusions：原字、根、浮输入、潜在b+c费用不删不返；不是现实排除明印，也不是H的另题。
+changes：theta=隐水份额+启用明印份额同时改木生与火克行；其余作用和成本固定。
+conflict：原potentialK与actualeffectiveK分列；未用费用和目标克容量分别列，不混。
+expression：gW=b*theta,cW=c*theta withoriginala; fullrational32faces; originsactualg; eachactorlicensedpositiveandnegativeedges
+verification：每根/actor预算独立核；theta1严格退化旧428physical+origin；名义两印关闭木减、火增全保。
+status：精确工程诊断，不声称现实可实验开关
+
+6. PWU-BRIDGE
+算法标识：PWU-BRIDGE
+source：主本文原吴喜印露体纯及已全算结果
+来源层次：源命题与有限方法结论桥
+conditions：源入口、全部body/root/保食、实际有根印信用和全部H通过；actual木与木体余量比两明印功能全关更高。
+exclusions：不以功能名直接水；不称其余皆忌/再加水总好/所有未来印运都好/跨口径唯一主次，不导B。
+changes：任何whole/source条件或原函数版本变重算，失败保None明确条件，不借默认喜水。
+conflict：原局来源喜印与后徐评泄秀分层保；同水系数只是本公开工程，不声称正偏印传统无差异。
+expression：if fullsource +fullactual+allH+jointdiagnosticpositivebodybridge: limitednatalprintpreference水
+verification：原例三档全过；水31灭食、土31抑印、火29过重/亥源0使桥失败；木1通过照存；食品0等号与两侧真分。
+status：有限原局辅助喜印候选，未自采纳/现实未验
+
+原件：work/rev428b_Primary_Wu_complete_print/source/reference_receipt.json
+SHA256：f3df1bb5bb38ff0bc0be8ed937b5bafe29afdfb15ac5fd738ef4980c2f3ac60d
+
+{
+  "actual_local_full_pages_read": [
+    "Primary93/印84 original一方秀气paragraph",
+    "Primary94/印85 contextnext化象and倒冲"
+  ],
+  "PDF": "Primary.pdf",
+  "PDF_SHA256": "71402a780b0351b54edf121a51bc4a4a4ce5896496c35b954563ee06f1a6f620",
+  "edition": "上海世界图书馆发行本，国图藏扫描；年代未定，无新生平/旧断现实认证",
+  "source_supported_original": "一方秀气甲乙全亥卯未/寅卯辰春月、喜印露体纯，原吴癸亥乙卯乙未壬午；继句是运印比/财食吉/官煞忌，分原局与运。",
+  "after_commentary": "徐评食伤泄秀最美/露食伤印运忌，只实际读现代PDF文字层、未认证其印本；与主文不同层。",
+  "poem_question": "三命坎位字柱/运未定，四库五言有春月庚辛条件；不把诗断域作为此原局新增喜水证据。",
+  "full_readinglevels_URLs": "web_source_levels428.json containsallactualsearch/open/find andunreadlevels",
+  "source_math_scope": "原局喜印题由原句选择，所有数门与共池/功能诊断工程另标；原局整盘算完才桥，不由角色名字直接导元素。"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "project-adopted-misc175-source-frontend-only",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_bounded_source_frontend_only",
+  "component": "rev175_misc_month_source_conditions_v0_1_2",
+  "method_version": "misc-month-source-conditions/0.1",
+  "implementation_revision": "0.1.2",
+  "target_pins": {
+    "misc_source.py": "bbc1acc66bd1649b87fe5aa81626c10f7d9e60665a7d02406ca8df4bf3e2d10c",
+    "dependency_lock.json": "f409842f58cd37436713e6212b9b9925750a180f210ab276b1c0e37ecca851cd",
+    "report.json": "ac101e83fc0815bf3168cf8c627af5815e8707543f38294bc0173032382747b5",
+    "manifest.json": "6cc763925884b2b829eae6e7c4958348e70d849d76eb1f08d0eab39adb23b8c0",
+    "freeze.json": "5d5cb1a8054b29bbab2889eed718bd2c465a3dde149b6b14b287bde2bea0fafc"
+  },
+  "aggregate_acceptance": {
+    "component": "rev178_misc_source_acceptance",
+    "files": 3,
+    "manifest_sha256": "4bdce49543b8a4fd603f6d5823d810eb109b3c92ee57023bb9e12a4332261fb3",
+    "freeze_sha256": "e9ca21d5622c9943dc1593d4ca0241920e4936a35a39402cefa0d945d24818a5",
+    "report_sha256": "7946a9701d335852469edf93a9999b0c1e5bc550406864bea20185cb0807797b"
+  },
+  "independent_review": {
+    "component": "rev176_misc_source_repair_independent",
+    "files": 20,
+    "manifest_sha256": "33a87444be9934d05ddcac714d73b78f9676dfaf2c13e9ffd09d48afefd3aee1",
+    "freeze_sha256": "44017b12805dd2a404b9697a4a9808e8e230086c80e2c1cbb01d1e21aa7047b1"
+  },
+  "scope": {
+    "accepted": "Raw original四柱 source-condition front end only: literalmonthhidden exposure/alloccurrences, explicitly named甲/丙辰壬 nonliteraloptions, full/partialform and14conditionaltemplates.",
+    "not_accepted": "Effective monthframe/meeting/transformation, whole H/finaluse/priority/B. Fourpromisedcoupledwholebranches continue in173.",
+    "corrected_consequent": "ExactNLCprimary043無所得 kept; 壬丙+申子辰 rawantecedentsrecognized but source_consequent_reading_unresolved. No darkfinance/financeprintcontrol exemption; oldEXCEPTIONid onlyhistoricalalias.",
+    "source_profiles": "PrimaryNLC/通行无碍transcription/Xu halfmeeting变例 separated; no automaticuse oflatertext orhalfshape as effective会.",
+    "scope_borders": "未/辰/戌/丑 only; no general sameelementnonliteralactivation, no invented full辛丁寅午戌fourpillars; legal4320/72/24/full0 independentlyderived.",
+    "all_existing_facts_kept": "Complete original HAP/ROOT/hiddenrows/actualqualification/relations/climate preserved. Named壬doesnotreplace辰藏癸 or alterprimaryrootpolicy."
+  },
+  "old166_source_hold_lifted": false,
+  "new175_exact_release_source_correspondence_accepted": true,
+  "unresolved_primary_consequent_resolved": false,
+  "effective_frame_H_B_priority_or_C20_adopted": false,
+  "original_core_missing_capabilities_retained": true,
+  "progress_delta": "0.00"
+}

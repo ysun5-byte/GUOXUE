@@ -1,0 +1,75 @@
+{
+  "schema": "460-MCN1-fixed-whole-net-auxiliary-research-adoption/1",
+  "revision": 460,
+  "registered_utc": "2026-11-03T01:15:20.478794+00:00",
+  "status": "adopted_exact453102_finite_source_based_local_net_auxiliary_after458_with_effective_status_cards",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_author_completion_handoff.json",
+    "bytes": 2765,
+    "sha256": "e8993c58d6fe4569ab9d9cf55ee4d57a9c657bac48b2b30b6fcd686201a850df"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_independent_completion_handoff.json",
+    "bytes": 2414,
+    "sha256": "8990c322b5bd3723e59b659f121d8825de7da5e55eefcc27dd6383b7b9409deb"
+  },
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary",
+      "files": 102,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/manifest.json",
+        "bytes": 16396,
+        "sha256": "b4a7e268f54a902bdee29b29c1b9b8a4813d3e9c239d629e6256b225b9b391fe"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev453_MC_N1_net_auxiliary/freeze.json",
+        "bytes": 287,
+        "sha256": "a952e8c4608ab6fe7bc5dc8bf132a4241632c7aa138a2688e37d5ef929048a2b"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review",
+      "files": 38,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/manifest.json",
+        "bytes": 5613,
+        "sha256": "4c09ee8718247ba5ea73a9bbbe705cb73485a42f399829b82d8447e0392ce2d8"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/freeze.json",
+        "bytes": 92,
+        "sha256": "55cd2ca79653674f521748c2f61369547e50fc85cc520a809cd9d4c57248e1d4"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "effective_eight_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev458_MCN1_net_auxiliary_independent_review/effective_eight_rule_cards_status_correction.json",
+    "bytes": 27132,
+    "sha256": "05ba640c859972aa77b3fccdef7679626402403fb77647f2ce205b872c5affb7"
+  },
+  "historical_card_correction": "八卡原事前status还写实际未运行，458外部逐卡绑定已完成证据；原文/SHA保留，不修改原来源、条件、公式、输入或数值。运行锁仍精确原版本，解释当前状态按此覆盖。",
+  "method": "Primary42-MCN1-complete-signed-local-net-directions/0.1",
+  "version": "MCN1-LOCAL-NET-AUXILIARY-0.1",
+  "source": "Primary物理PDF42印33；丙辰癸乙官印相生、印制暗土；扫描41/42/43印32/33/34已实核。完整四柱为人工，不冒古籍完整命例。",
+  "full_net_not_role_union": "原局及增补后源资格均成立，所有原根/演员/负作用/费用以同current求解；净取用比较不是用官→水，也不是H木火并集。",
+  "net_goal": "M=S−5/4*C不降，A=全部实有土对明癸攻击总量不增，至少一严格改善；两目标是源语义下明确工程选择。全部量权衡仍输出。",
+  "finite_input": "仅现有元素共同池外加总量λ∈{1/2,1,2}；每非空可用元素组合各分λ/k。份额为数学试验约定，不是J2、现实测量或传统比例；没有虚造金/新干根。",
+  "runtime_dispute_policy": "两具名关系解释、三预设量效档各自运行并保留结果；六版本common只额外保守汇总，不要求全流派共识才可采用固定方法。",
+  "main_complete_result": "主人工癸未丙辰丙寅乙未：每具名方法/参数/三尺度分别算；单木通过；三尺度共同全部可接受集合木、木火、木火水；木水失败，非单调，不只留最小集。",
+  "computed_negatives_are_completed": "强全清默认失败、旧酉R1基线失败、λ0无严格改善都是已计算且验证的阴性结论，不因没有所期待的正例就另设未完成项。",
+  "independent_evidence": "458事前24新条件/48完整世界，4075来源方程、12858演员来源分配、4428正负作用及费用；62AST合同/16新IO/46精确复用，完整90,176,969字节结果与原生CLI一致（CLI另真实newline），3坏源0/3clean8、现成34只读运行核全字节/模式未变。",
+  "author_correct_domain_reused": "1368增补、24基线/零增补、60留出、18边界等作者证明保留，不冒称458全量重跑。",
+  "original_remaining": [
+    "MCN2–4和57项确实未闭合的源关系任务",
+    "原范围其他一般有效支持/从财假从/调候/复杂关系与所需辅助解释",
+    "原约定实际五时层/地区资料和最终完整支持范围回放分发"
+  ],
+  "not_new_acceptance_gate": "作者旧remaining中all-school措辞不得解释为新增全流派最终喜用一致门。原V1有限支持、来源分歧保留原则不变。",
+  "no_B_theme_display_or_weights_change": true,
+  "not_empirical_prediction_validation": true,
+  "progress": "86.25/100",
+  "progress_delta": 0
+}

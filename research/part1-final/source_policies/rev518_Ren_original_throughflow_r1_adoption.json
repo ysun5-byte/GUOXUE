@@ -1,0 +1,426 @@
+{
+  "schema": "518-exact506r1-after507-original-flow-and-whole-net-adoption/1",
+  "revision": 518,
+  "registered_utc": "2026-11-03T10:24:21.668852+00:00",
+  "status": "adopted_exact506r1_0.1.1_50research39runtime_after50761",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_r1_author_completion_handoff.json",
+    "bytes": 9821,
+    "sha256": "f7684c05ded7c8f714375991d2bd708f62a2062c9a295adabf52943b48d145b0"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev507_independent_completion_handoff.json",
+    "bytes": 1639,
+    "sha256": "6b9a1a84742427c7c6af77c0ed4b70dd7318dac9cb2945cfa8638595a951097b"
+  },
+  "author_frozen_verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1",
+      "files": 50,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/manifest.json",
+        "bytes": 8283,
+        "sha256": "93ef6c5c6338623ed4aed6f58b3a85c27f418981e5bf96c405fb4159e470dbcf"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/freeze.json",
+        "bytes": 92,
+        "sha256": "b444874c6249334b3f778f737cc59273bba845f16ffda04a748abe2d447240ca"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_runtime_release_r1",
+      "files": 39,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_runtime_release_r1/manifest.json",
+        "bytes": 6253,
+        "sha256": "05d04d8f455975f160f38310d4b35f680b9cd57f78f2e28bbb8379db890025ed"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_runtime_release_r1/freeze.json",
+        "bytes": 92,
+        "sha256": "95b6db9d86106a221aa84982c5c52e9eafd3e483b9d9e9e6a4235aa1e8438742"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "independent_frozen_verified": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev507_Ren_throughflow_independent_review",
+    "files": 61,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev507_Ren_throughflow_independent_review/manifest.json",
+      "bytes": 9534,
+      "sha256": "1e90d0a8c8a505c11bdea206cd3de714720c5fa97d29e2fd78682dd3d13293c5"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev507_Ren_throughflow_independent_review/freeze.json",
+      "bytes": 146,
+      "sha256": "c6a0c1a3ed07fe2ebd3d6a38fba9b56136e6d7d0a6798adc65ea14adc54ae310"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "full_current_rules": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/rules_ten_fields.json",
+    "bytes": 16073,
+    "sha256": "78395f71374256acb219a6ddaf5e0407cc3b746797a510c87e15c7fc72eb1d2f"
+  },
+  "full_current_algorithms": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/algorithm_explanations31.json",
+    "bytes": 96039,
+    "sha256": "83d6c73e5f74ff4110da04fb14cd2be83f065c742b60fb5d3c65cfdf49d3f3a3"
+  },
+  "current_actual_IO": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/actual/current_function_IO.json.gz",
+    "bytes": 6387247,
+    "sha256": "695dbaddafeb28e69f04ce57b20b27095fbed9f204a8f755e79e232845930aec"
+  },
+  "current_source_lock": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev506_Ren_original_throughflow_r1/source_execution_lock.json",
+    "bytes": 3428,
+    "sha256": "d78c022a54d126e25323353ebbfb1b01e5fd6a8b4a50e8f491ef80db373ea0b0"
+  },
+  "old0_1_not_retro_adopted": true,
+  "source_mechanism_closed_for_declared_method": "原丙寅庚寅壬午乙巳：同一壬的连续水→木→火实际路径与完整原图丙制庚/弱身/原财根等条件俱算；活动y、净留r、被制loss明确分开，未加日浮量/根。旧472零水流保旧方法，未把原局水木火句挪成后运。",
+  "source_layer": "1947任氏原案注释PDF370印94支持流通动机；alpha并行与量效、费用、目标皆工程推论，不归较早【原注】或原典数学。",
+  "declared_method_scope": "原案、三固定g/c、两固定关系、三alpha全部18版，93共同有限增补/5同费切边每版全保。alpha(0,1]原未切图正性不推广全输入或所有general/净题。",
+  "whole_net_result": "每版每既定幅度全部通过集合为木、木火、木火土；其余28非空集合失败。单木唯一通过的单元素；不等于古典唯一喜木或所有含木皆可。",
+  "actual_defect_and_repair": {
+    "status": "passed",
+    "formal_handoff": "work/rev506_r1_author_completion_handoff.json",
+    "r1_directory": "work/rev506_Ren_original_throughflow_r1",
+    "world_only_first_guard_changed": true,
+    "seven_core_bodies_same_except_guard": true,
+    "all125_saved_valid_conditions_still_pass_guard_without_rerunning125_math": true,
+    "all_other_entry_AST_same_except_three_metadata": {
+      "VERSION": {
+        "old": "REN370-CONCURRENT-THROUGHFLOW-0.1",
+        "new": "REN370-CONCURRENT-THROUGHFLOW-0.1.1"
+      },
+      "METHOD": {
+        "old": "Ren370-concurrent-throughflow-whole-net/0.1",
+        "new": "Ren370-concurrent-throughflow-whole-net/0.1.1"
+      },
+      "LOCK_SHA": {
+        "old": "edbfe3364ae8d076fb9a7f5148dab7f62bcc2f869e4de122f5ca05e3db7c7118",
+        "new": "d78c022a54d126e25323353ebbfb1b01e5fd6a8b4a50e8f491ef80db373ea0b0"
+      }
+    },
+    "guarded_materials_changed": [
+      "runtime/throughflow.py"
+    ],
+    "guarded_materials_added": [
+      "source/implementation_revision_basis.json"
+    ],
+    "emptypositive_new_boundary": [
+      {
+        "chosen": [],
+        "amount": "1",
+        "rejected_before_activity": true
+      },
+      {
+        "chosen": [],
+        "amount": "1/1009",
+        "rejected_before_activity": true
+      }
+    ],
+    "valid_controls": [
+      {
+        "chosen": [],
+        "amount": "0",
+        "same_old125_numeric_state_and_metrics": true,
+        "zero_original_origin_may_remain_explicit": false
+      },
+      {
+        "chosen": [
+          "木"
+        ],
+        "amount": "0",
+        "same_old125_numeric_state_and_metrics": true,
+        "zero_original_origin_may_remain_explicit": true
+      },
+      {
+        "chosen": [
+          "木",
+          "火",
+          "土"
+        ],
+        "amount": "4/3",
+        "same_old125_numeric_state_and_metrics": true,
+        "zero_original_origin_may_remain_explicit": false
+      }
+    ],
+    "actual_activity_calls_valid_only": 3,
+    "old_failure_preserved_not_scope_redefined": true
+  },
+  "independent_evidence_counts": {
+    "worlds": 125,
+    "all_original_pool_components": 62300,
+    "scalar_edges": 10625,
+    "edge_sent_origin_components": 264775,
+    "edge_activity_credit_origin_components": 149520,
+    "edge_terminal_credit_origin_components": 149520,
+    "control_loss_source_components": 115255,
+    "fee_origin_components": 264775,
+    "actor_activity_and_terminal_origin_components": 93450,
+    "original_double_budget_components": 15575,
+    "alpha0_full_old_physics_worlds": 2
+  },
+  "new31_current30_IO": {
+    "status": "passed_for_repaired_r1_contracts_and_actualIO_original_failure_preserved",
+    "normal_actual_IO": 30,
+    "exception_only": 1,
+    "exact_old_AST_contracts": 22,
+    "new_adapted": 9,
+    "all7_new_core_actualIO": true,
+    "legacy3_only_alpha0_comparator_not_nonzero_producer": true,
+    "actual_type_context_counts": {
+      "exact_material_bytes": 42,
+      "loaded_module_context": 10,
+      "exact_fraction": 186286
+    },
+    "actual_main_other_source_protocol_not_misrepresented_as_selected_fullreport": true,
+    "source_world_emptypositive_defect_separate": "history/old_0.1_empty_positive_report_defect/failure_and_disposition.json",
+    "r1_guard_AST_currentbinding_and_fullversion_review_in_separate_actual": true
+  },
+  "strict_and_source": {
+    "status": "passed_repaired_r1_strict_source_internal_boundaries",
+    "strict10": [
+      {
+        "id": "duplicate_escape",
+        "rejected": true
+      },
+      {
+        "id": "nan",
+        "rejected": true
+      },
+      {
+        "id": "float",
+        "rejected": true
+      },
+      {
+        "id": "surrogate",
+        "rejected": true
+      },
+      {
+        "id": "depth",
+        "rejected": true
+      },
+      {
+        "id": "longstring",
+        "rejected": true
+      },
+      {
+        "id": "text10001",
+        "rejected": true
+      },
+      {
+        "id": "wrongmethod",
+        "rejected": true,
+        "providers": 0
+      },
+      {
+        "id": "oldschema",
+        "rejected": true,
+        "providers": 0
+      },
+      {
+        "id": "extra",
+        "rejected": true,
+        "providers": 0
+      }
+    ],
+    "source_bad0_clean6": [
+      {
+        "target": "runtime/throughflow.py",
+        "bad_provider_calls": 0,
+        "clean_real_providers": 6
+      },
+      {
+        "target": "source/implementation_revision_basis.json",
+        "bad_provider_calls": 0,
+        "clean_real_providers": 6
+      },
+      {
+        "target": "source_execution_lock.json",
+        "bad_provider_calls": 0,
+        "clean_real_providers": 6
+      }
+    ],
+    "invalid_alpha5": [
+      {
+        "type": "Fraction",
+        "value": "-1/991",
+        "rejected": true
+      },
+      {
+        "type": "Fraction",
+        "value": "998/997",
+        "rejected": true
+      },
+      {
+        "type": "float",
+        "value": "0.5",
+        "rejected": true
+      },
+      {
+        "type": "bool",
+        "value": "False",
+        "rejected": true
+      },
+      {
+        "type": "int",
+        "value": "0",
+        "rejected": true
+      }
+    ],
+    "other_internal_invalid3": [
+      {
+        "chosen": [
+          "木",
+          "木"
+        ],
+        "amount": "1",
+        "rejected": true
+      },
+      {
+        "chosen": [
+          "木"
+        ],
+        "amount": "16001/1000",
+        "rejected": true
+      },
+      {
+        "chosen": [
+          "水"
+        ],
+        "amount": "-1/997",
+        "rejected": true
+      }
+    ],
+    "empty_positive_internal_now_rejected_by_code": true,
+    "all_fault_leaves_unlinked_before_write": true,
+    "no_new_complete_copy": true
+  },
+  "complete_native_existing39_readonly": {
+    "status": "passed",
+    "new_r1_unique_complete_copy": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/506 r1 one complete readonly research yeps7zfq/complete runtime with spaces",
+    "completecopy_created_by_reviewer": false,
+    "modes_changed": false,
+    "fresh_processes": 8,
+    "real_controls_denied": 32,
+    "all_whole_API_CLI_bytes_equal": true,
+    "old0_1_full_API_reruns_by_reviewer": 0,
+    "whole_original_math_report_exact_after_only_three_metadata_fields": true,
+    "old_whole_normalized": {
+      "bytes": 211628013,
+      "sha256": "6af02e5bc5fe59c82313dd76986a1cb662b5ab3758e18f30e471e70a7878d8b1",
+      "exact_fields_replaced_once": {
+        "\"version\":\"REN370-CONCURRENT-THROUGHFLOW-0.1\"": 1,
+        "\"method\":\"Ren370-concurrent-throughflow-whole-net/0.1\"": 1,
+        "\"execution_lock_sha256\":\"edbfe3364ae8d076fb9a7f5148dab7f62bcc2f869e4de122f5ca05e3db7c7118\"": 1
+      }
+    },
+    "new_whole_normalized": {
+      "bytes": 211628013,
+      "sha256": "6af02e5bc5fe59c82313dd76986a1cb662b5ab3758e18f30e471e70a7878d8b1",
+      "exact_fields_replaced_once": {
+        "\"version\":\"REN370-CONCURRENT-THROUGHFLOW-0.1.1\"": 1,
+        "\"method\":\"Ren370-concurrent-throughflow-whole-net/0.1.1\"": 1,
+        "\"execution_lock_sha256\":\"d78c022a54d126e25323353ebbfb1b01e5fd6a8b4a50e8f491ef80db373ea0b0\"": 1
+      }
+    },
+    "results": [
+      {
+        "id": "r1_full_api",
+        "mode": "api",
+        "exit": 0,
+        "bytes": 211628117,
+        "sha256": "5f6596970e60a5c50f9038c7cbd11adef733e459c8e59cd95d78c767ee85a59f",
+        "provider_exec": 6,
+        "four_real_controls_denied": true,
+        "normal_old_access_mutations0": true
+      },
+      {
+        "id": "r1_full_cli",
+        "mode": "cli",
+        "exit": 0,
+        "bytes": 211628117,
+        "sha256": "5f6596970e60a5c50f9038c7cbd11adef733e459c8e59cd95d78c767ee85a59f",
+        "provider_exec": 6,
+        "four_real_controls_denied": true,
+        "normal_old_access_mutations0": true
+      },
+      {
+        "id": "r1_complete_verifier",
+        "mode": "verify",
+        "exit": 0,
+        "bytes": 239,
+        "sha256": "a40e57b5afe26f0ba0d6f52a7cc8b3500a525c6c852e1ab4733bc6639236f6bb",
+        "provider_exec": 0,
+        "four_real_controls_denied": true,
+        "normal_old_access_mutations0": true
+      },
+      {
+        "id": "r1_duplicate",
+        "mode": "cli",
+        "exit": 2,
+        "bytes": 49,
+        "sha256": "358adb86c0fed4143ca88f5baef77b8396023dfd5efeb9b7290b931d4e9e59d3",
+        "provider_exec": 0,
+        "four_real_controls_denied": true,
+        "normal_old_access_mutations0": true
+      },
+      {
+        "id": "r1_oldschema",
+        "mode": "cli",
+        "exit": 2,
+        "bytes": 49,
+        "sha256": "358adb86c0fed4143ca88f5baef77b8396023dfd5efeb9b7290b931d4e9e59d3",
+        "provider_exec": 0,
+        "four_real_controls_denied": true,
+        "normal_old_access_mutations0": true
+      },
+      {
+        "id": "r1_invalid_utf8",
+        "mode": "cli",
+        "exit": 2,
+        "bytes": 49,
+        "sha256": "358adb86c0fed4143ca88f5baef77b8396023dfd5efeb9b7290b931d4e9e59d3",
+        "provider_exec": 0,
+        "four_real_controls_denied": true,
+        "normal_old_access_mutations0": true
+      },
+      {
+        "id": "r1_legal_other",
+        "mode": "api",
+        "exit": 0,
+        "bytes": 9084,
+        "sha256": "4602dbaf99393b1c33185ed7f2d7dfc11b9d345dbe63043df1318f5c82a93ffe",
+        "provider_exec": 6,
+        "four_real_controls_denied": true,
+        "normal_old_access_mutations0": true
+      },
+      {
+        "id": "r1_invalid_original",
+        "mode": "api",
+        "exit": 0,
+        "bytes": 2586,
+        "sha256": "7a1e297edf6d6f250690a47d576d3c9d2d6851373020415b5e5165217fd91ed4",
+        "provider_exec": 6,
+        "four_real_controls_denied": true,
+        "normal_old_access_mutations0": true
+      }
+    ],
+    "logs_written_outside_forbidden_old_root_before_retaining": true
+  },
+  "correct_old_evidence_reuse": "125非作者有效完整世界、253作者独立世界、旧564物理/558旧净题保原证据；r1仅新增精确输入guard并经AST/全原生归约证明有效状态不变，不冒重新跑这些旧世界。",
+  "all_failed_attempts_and_hypotheses_kept": true,
+  "remaining_original_scope": "原G03财神盈损、G04源争议/真假从、G05其余禄劫、G06/07/08、实际C03及最终全交付继续；本方法不自动覆盖其他盘、所有从财或所有主次。",
+  "progress": "88.75/100",
+  "progress_delta": "0.00",
+  "all_original_C02_complete": false,
+  "all_original_task_complete": false,
+  "no_B_theme_or_display_work": true,
+  "not_empirical_prediction_validation": true
+}

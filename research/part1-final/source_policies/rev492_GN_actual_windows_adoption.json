@@ -1,0 +1,81 @@
+{
+  "schema": "492-fixed-GN-actual-windows-research-adoption/1",
+  "revision": 492,
+  "registered_utc": "2026-11-03T07:33:53.466260+00:00",
+  "status": "adopted_exact480129_after487111_with_effective121docs_and_two_new_IO",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev480_GN_region_window_research",
+      "files": 129,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev480_GN_region_window_research/manifest.json",
+        "bytes": 21681,
+        "sha256": "c50a183427d443e7d46dbb82647e3e8a32756b06e96356ff5a9e9bd512ca19cc"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev480_GN_region_window_research/freeze.json",
+        "bytes": 175,
+        "sha256": "282c464c2864af6d2a1625bdfd30f5969ed2d4e64f98488cd5b67f8dd8abeee4"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review",
+      "files": 111,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/manifest.json",
+        "bytes": 21089,
+        "sha256": "0812028d91dbd5188d0766cc7dff7ada1e19cb1df34736f00a172d244795d80f"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/freeze.json",
+        "bytes": 164,
+        "sha256": "1f0eb5de00153f648ff31d50d5d69ee4db070c0c1d814dc7f58780c0d2257678"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev480_author_completion_handoff.json",
+    "bytes": 7166,
+    "sha256": "de1297bac33ad58c05eb97f6f1bcac0e7f886a20ba8cae1bd73e1c8214f6adcc"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_independent_completion_handoff.json",
+    "bytes": 4007,
+    "sha256": "52d0162ce118d8607213e7f8a416a5a6dfe40a75fc7146a141dea18c144836db"
+  },
+  "support": "固定GN身份/自有点、显式当前文化、出生参照的完整current/previous声明；每快照最多32源、UTC半开窗口和完整登记/有效声明。各片实际调用已采483/478r1静态链，全部原报告保留。",
+  "hard_preflight": "当前/前次/未来/窗外所有原始资料和不可变身份先核完，才计算任何地点对。输入错的真实保证是pair0；源字节坏另保provider0，不扩大为所有错0模块。",
+  "known_unknown": "Rn/Rr独立，knownC0不等unknownnull。只要必要资料未定不能用null==null确认不变；完整计算后确认不变与证据不足分别输出。",
+  "changes": "双方全部适用/有效边界联合半开分片；源ID/重排/同功能拆段不造功能变化。参照出生模型变化明确不可比，不认证现实旅行；源、现地、文化及Rn/Rr功能轴各自保留。",
+  "effective121docs": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/effective_algorithm_explanations121.json",
+    "bytes": 193106,
+    "sha256": "f43e450760e0cd92af0fcd9b8b1f09d1e1bad12de3d17f5214de09c212b1dedc"
+  },
+  "mandatory_doc_delta": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/effective_documentation_delta.json",
+    "bytes": 2714,
+    "sha256": "da6e2ec8d6e008ef6ddcad1b00e34499f39c0cb410f2dbf7f7eee3bba71e5c20"
+  },
+  "additional_actual_IO": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/actual_new_strict_load_main_complete_IO.json.gz",
+    "bytes": 2053,
+    "sha256": "3cbf478361b4a8d2cb88448df9fd3f1ccb486386475849de254a6d944cc83c35"
+  },
+  "actual_doc_fix": "bounded说明str2000误填更正为实际6400；strict_load/main补两真实输入输出映射；原91批profile不改称93本批，103旧AST/18新改定义和18新改实际IO分别核对。",
+  "independent_evidence": "487新31条件：22全原生API/CLI对和9硬错pair0；4来源故障provider0/clean21；现成129完整副本+局部小守卫夹具16新过程64真实负控均拒，正常违规0，全原SHA/模式不变。独审一等价UTC构造漏秒首败已保存后修样例；不改算法或原条件。",
+  "old_correct_evidence_reused": "作者26条件/20最终全协议及7原478完整静态回归、103旧AST与原规则的正确域复用，不重复当独立盲例；480只加483采纳元数据三处差，原正确结果全文其余不变。",
+  "original_C04_scope_audit": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev487_GN_window_independent_review/original_C04_A06_scope_and_actual_remaining_audit.json",
+    "bytes": 8160,
+    "sha256": "bc19c1b9f3c9feb6ba9951aa60daa079efcd9e28519744fcdc54ce1c17255be6"
+  },
+  "original_C04_remaining": "旧53/55/216真实全因子地区作用及最终Z证据不抹掉；新GN本版只到Rn/Rr及变化，490须补各片Rn/40+Rr/40及C0返还研究分量的独审与完整可复现发行，不新增B/手环/全GN全Z或无限GIS门。",
+  "source_limits": "旧九州TAR/HLJ不足、四省完整歧义、Fukien/驻地具名范围边界不被包装成确定元素；未批national7不暗换。完整声明不认证实际在场或历史文化真值。",
+  "no_B_C20_totalZ_theme_RGB_display_or_physical_work": true,
+  "not_empirical_prediction_validation": true,
+  "progress": "86.25/100",
+  "progress_delta": "0.00"
+}

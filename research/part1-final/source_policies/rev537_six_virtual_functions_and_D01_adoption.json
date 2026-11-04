@@ -1,0 +1,141 @@
+{
+  "schema": "537-exact515-after534-six-source-functions-and-four-D01/1",
+  "revision": 537,
+  "registered_utc": "2026-11-03T11:23:48.480493+00:00",
+  "status": "adopted_exact515174_after53455_with_historical_context_and_IO_reading_notes",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev515_author_completion_handoff.json",
+    "bytes": 4643,
+    "sha256": "9a93c3cbaf0eb6b877a4df698672e02ba0e0453d3d656876bb9f3babb02cea98"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev534_independent_completion_handoff.json",
+    "bytes": 2532,
+    "sha256": "176c2df5584b60af5e231997a52aab4ed02f6abc9c17dcad645aa9b359f1b331"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev515_Primary_six_virtual_invitation",
+    "files": 174,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev515_Primary_six_virtual_invitation/manifest.json",
+      "bytes": 31433,
+      "sha256": "a30da07732e2147ed820f46ced4f1e7991d5255a4d53e1cb89193d8ae4025a2a"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev515_Primary_six_virtual_invitation/freeze.json",
+      "bytes": 258,
+      "sha256": "46bf7daa193efe3502344fdf86fb5ed79ca0d4ef43eda1e7e8ee0ca2cd417458"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "unique_existing_complete_copy": {
+    "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/515 one complete readonly six virtual move l8g1ebtq/complete six virtual functions research with spaces",
+    "files": 174,
+    "manifest": {
+      "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/515 one complete readonly six virtual move l8g1ebtq/complete six virtual functions research with spaces/manifest.json",
+      "bytes": 31433,
+      "sha256": "a30da07732e2147ed820f46ced4f1e7991d5255a4d53e1cb89193d8ae4025a2a"
+    },
+    "freeze": {
+      "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/515 one complete readonly six virtual move l8g1ebtq/complete six virtual functions research with spaces/freeze.json",
+      "bytes": 258,
+      "sha256": "46bf7daa193efe3502344fdf86fb5ed79ca0d4ef43eda1e7e8ee0ca2cd417458"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev534_Primary_virtual_invitation_independent_review",
+    "files": 55,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev534_Primary_virtual_invitation_independent_review/manifest.json",
+      "bytes": 9362,
+      "sha256": "9008b0138fdc65af57005496229eb159cf0701febd392e52abeb0b4689739c11"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev534_Primary_virtual_invitation_independent_review/freeze.json",
+      "bytes": 214,
+      "sha256": "4af8112f2603230849ba93035ce098db69e22b398fbebf1a7d6b8095e2d68cda"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "rules10": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev515_Primary_six_virtual_invitation/rules_ten_fields.json",
+    "bytes": 46535,
+    "sha256": "1ea97e7f70a31afcd0a0498b65ec7bdf335298edf9e2185aa2cac034e6982e77"
+  },
+  "algorithms54": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev515_Primary_six_virtual_invitation/function_explanations54.json",
+    "bytes": 94526,
+    "sha256": "6bf39e74a04f928f6304e36412960b3e2417ee64c653576bbd218ca4ee522c5d"
+  },
+  "required_historical_contract_note": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev534_Primary_virtual_invitation_independent_review/documentation_precision_erratum.json",
+    "bytes": 848,
+    "sha256": "af8a8443158c7e2a4fc8daca2e0a4162144f9e5fe3ecdc7aa7832eba22aae881"
+  },
+  "current_IO_evidence_precision": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev537_current_IO_evidence_precision.json",
+    "bytes": 888,
+    "sha256": "bdbd6182bdf895af6f14eb815477b826aa437c26f1cc41d8c52869def0dac414"
+  },
+  "source_profile": "Primary93–98原图六肯定虚邀：倒冲财/官、朝阳、合禄戊/癸、井栏、刑合、遥合。癸总则严格与原例优先两方法预定分列；四D01执行拒独立许贵/非独立描述，不造书废格阳性。",
+  "source_corrections": "朝阳按跨栏完整戊辰辛酉辛酉戊子，不去重辛酉；刑合原乙未癸卯在既定五虎不合，原印保留人工合法别记；己/巳疑字不默改。",
+  "output_meaning": "形成许可、实际功能安全、所有真实源预算/指定根/正负边与费用、完整H分别核；虚目标actor/ROOT/quantity仍null。支持H是实际源载体，不是全传统最终喜用，不能把虚官当实火克金或源演员五行直接接B。",
+  "M1_M2_boundary": "M1是固定本印肯定例；M2月主同字透等有限工程准入，既不证月令事实上无用，也不证所有普通格失败。实际官财/填实优先与具体例外两方法按预定规则执行，不挑数值阳性源。",
+  "current_all_costs": "结构源服务一次费用与真实生克费用分账，源活/原日能承/真实根在同current核；关许可不退费且物理不变，关服务费可改变物理。",
+  "author_evidence": {
+    "worlds": 204,
+    "full_API_CLI_pairs": 93,
+    "invalid_printed_pairs": 3,
+    "real_edges": 11400,
+    "edge_origin_components": 154206,
+    "all_public_H_masks": 327,
+    "source_bad_zero_provider": 8,
+    "clean_provider_exec_each": 6,
+    "strict_CLI": 7,
+    "outer_binding_API": 5,
+    "algorithms": 54,
+    "new_real_IO": 46,
+    "exact_old_AST": 41,
+    "new_or_adapted": 13,
+    "unexecuted_exact_old_contract_only": 8
+  },
+  "nonauthor_math_and_behavior": {
+    "status": "passed",
+    "counts": {
+      "worlds": 66,
+      "actor_origins": 12292,
+      "edge_origins": 153152,
+      "fee_origin_components": 36876,
+      "edges": 4272,
+      "H_masks": 282
+    },
+    "full_new_API_requests": 18,
+    "source_predicates_fixed_before_call": true,
+    "all_real_actors_roots_ports_edges_actual_losses_fees_H_compared": true,
+    "D01_four_actually_refused_independent_positive_no_default_or_ordinary_failure": true,
+    "Gui_both_fixed_methods_actual": true,
+    "no_dayroot_source_ready_actual_function_fails": true,
+    "real_hidden_fire_opposing_effect_retained": true,
+    "old204_not_recomputed": true,
+    "no_author_files_modified": true
+  },
+  "critical_behavior": {
+    "source_ready_but_no_real_day_root_fails_actual_license": true,
+    "all_real_hidden_fire_control_and_Gui_real_kill_costs_preserved": true,
+    "body_retention_and_body_service_cost_equality_fail_strictly": true,
+    "selected_total_credit_floor_equality_accepts_single_below_requires_joint_pair": true,
+    "all_real_actor_origin_budget_and_actual_loss_checks_complete": true,
+    "permission_off_same_physics_with_costs_fails_function_axis": true,
+    "old204_successful_complete_domain_reused_not_recomputed": true
+  },
+  "all54_contracts": "41旧AST/13新改；46真实当前配对IO，8旧未执行；独审补46调用类型观测如精度注释，不冒全分支。",
+  "readonly_new7": "现成174件副本7独立过程/28真负控全部正常0违例，8尝试含一次外驱语法未开始审计；不复制或chmod。",
+  "remaining_original": "G07六具体源功能和D01四命题有限链已成；不以许可代全整盘喜用。524禄劫食财杀/522王案/528其他化气条件、529冬暖及实际C03/最终交付原承诺继续。",
+  "all_original_C02_complete": false,
+  "all_original_task_complete": false,
+  "empirical_prediction_validated": false,
+  "progress": "88.75/100",
+  "progress_delta": "0.00",
+  "no_B_theme_display_work": true
+}

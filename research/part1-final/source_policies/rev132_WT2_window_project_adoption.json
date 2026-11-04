@@ -1,0 +1,55 @@
+{
+  "id": "project-accepted-WT2-full-window-current-theme",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_bounded_current_WT2_window_transport",
+  "reviewer_ref": "Codex-root-project-review-under-explicit-user-research-authorization",
+  "component": "rev131_current_WT2_window_theme",
+  "module_version": "current-WT2-window-theme-0.1",
+  "implementation_revision": "0.1.0",
+  "core_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+  "lock_sha256": "b3de49b6da3b162201bd2a5f8b4669fb28b44e212b785f45e584bf32c042fa97",
+  "report_sha256": "91825c8dd8eed5d332b9bb726c7cca956dc9c43a9ad85756c9411834ba65e83c",
+  "manifest_sha256": "068da3939366e9f6cd13c398d75c9c1c2625e5990462691b1cd046cd926cbcef",
+  "freeze_sha256": "7ceb4e58c847695511864b276c7259eb6d6d7d7cc6e5494797b5143ad66dc9e8",
+  "aggregate_acceptance": {
+    "component": "rev132_WT2_window_source_acceptance",
+    "report_sha256": "f786c5dcdd0601af86b03612fbcac3b5e7988349e5fec74eba5d12fcf00f0122",
+    "manifest_sha256": "294f252fa4e06a254f4c57483a90663b1bbadb0e7fade368b08fea9c8cc71943",
+    "freeze_sha256": "81bd752e34d484d92c27415196ea2a2dc100b36464ec46c67c9c2791935093df"
+  },
+  "actual_analysis_method_ref": {
+    "id": "Current-WT2-QF-whole",
+    "version": "0.1"
+  },
+  "source_model_policy_sha256": "944bae47d30d64ae425be86708f1ec2fb766abbfaef884073c6d4fe07a9a0678",
+  "source_transport_policy_sha256": "03337fe405f66c182b0519d38a675279516d78762b088f15221fa106a5dfb197",
+  "independent_review": {
+    "component": "rev132_WT2_window_independent",
+    "report_sha256": "cff5bcca08cddf700f310bdf4fd8b2a50b68a18df474715a547cc72aa128d82d",
+    "manifest_sha256": "30dc0527f4513f8eeadd5e37c54c80f52e15da7932f1642f86a42859906cd2ad",
+    "freeze_sha256": "f000cc932991aacfe6e84744bbaf60850324e3a523ba5a21854b111a01d98a73"
+  },
+  "limits": {
+    "source_and_model": "Only exact adopted Current-WT2-QF-whole0.1 and window012 transport. All actual source/functional hard gates before H; H means minimal robust carry assistance, not allgoals in every disabled-subset world.",
+    "whole_atom": "Every finite supplied record boundary retained; unique complete native whole-window selection plus frozen deterministic dependencies proves semantic image constant within atom. UTC selects source, not continuous force. No endpoint-only, midpoint or empirical constancy proof.",
+    "method_identity": "Literal native method and new actual WT2 analysis ref kept distinct; selected traditional source profile remains selected profile, exact new algorithm id/version inside theme method version and evidence.",
+    "projection": "Only complete single-element H projects. Whole unordered or multipleelement H kept including complete alternatives; no ranking, equalweights, firstitem shortcut or implied B.",
+    "feedback": "Known current/same identity/softprior unavailable shows current with previous_not_projectable and no same/change claim. Both known and full comparable identity required for same/change; changedchartversion protects existing display. All provided prior/future hard errors reject before any frame.",
+    "new_source_conditions": "Two new artificial catalogs: adjacent same-glyph records still have distinct identities and correct half-open selection; future competitor atom retained unknown while current known. Eleven actual WT2calls include three original898 standalone comparisons; no inheritedmath or empirical test relabelled new.",
+    "remaining": [
+      "同一原盘同一方法下两个不同明确单元素当前主题的实际实例仍未核得；不得把静态换方法或无序H当成该完成。",
+      "Only the already accepted finite WT2/QF source/functional route; not general original-natal final 喜用/priority or every temporal/classical pattern.",
+      "No verified real simultaneous calendar, source truth, prediction or physical effect.",
+      "No new B/P/C20/RGB route and no changes to default display or project acceptance numerator.",
+      "All other original task core gaps remain under parent checklist."
+    ],
+    "original_natal_B_read_or_written": false,
+    "P_C20_RGB_or_existing_entry_routes_changed": false,
+    "real_prediction_validated": false,
+    "native_candidate_flags": "Immutable native report/profile pending-review labels record author-freeze state. This separate exact-byte acceptance supplies the later project decision; do not edit old frozen labels."
+  },
+  "all_original_C03_or_task_complete": false,
+  "B_P_C20_RGB_or_existing_entry_changed": false,
+  "progress_delta": "0.00"
+}

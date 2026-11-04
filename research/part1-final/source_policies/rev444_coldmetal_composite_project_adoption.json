@@ -1,0 +1,197 @@
+{
+  "schema": "finite-coldmetal-430runtime-441effective-cards-composite-adoption-0.1",
+  "revision": 444,
+  "registered_utc": "2026-11-02T23:56:35.188687+00:00",
+  "status": "adopted_exact430_runtime80_plus441_corrected7cards_after439_443",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev430_BingXin_cold_metal_whole",
+      "files": 80,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev430_BingXin_cold_metal_whole/manifest.json",
+        "bytes": 12071,
+        "sha256": "9ea9e177a1d13b686afb4aba728efc6c7611b056aba8ce47f120f4fcdea4b872"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev430_BingXin_cold_metal_whole/freeze.json",
+        "bytes": 226,
+        "sha256": "0a04fd3e80c7d297656277082d50b1b9a024bf79ea07edfaafa3fc0f7b822c0d"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev441_coldmetal_effective_documentation_layer",
+      "files": 10,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev441_coldmetal_effective_documentation_layer/manifest.json",
+        "bytes": 1313,
+        "sha256": "3d832e11e1786dc6e5a85eaac986b120903e0bcd85e83e73074f0bb1d29b7878"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev441_coldmetal_effective_documentation_layer/freeze.json",
+        "bytes": 151,
+        "sha256": "4712542132a1f59ab794f4f6789d98cbcd73994166ed9f12b6e5b919fbe3a716"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev443_coldmetal_documentation_review",
+      "files": 12,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev443_coldmetal_documentation_review/manifest.json",
+        "bytes": 1656,
+        "sha256": "263af756d85d9c7e1261adf5dd46921eb45329e3858acdc02357d4caee924a34"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev443_coldmetal_documentation_review/freeze.json",
+        "bytes": 141,
+        "sha256": "10effac8f3cedc54ae21286562ba55092839384db535c2ef531c795734de4744"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev439_BingXin_coldmetal_independent_review",
+      "files": 27,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev439_BingXin_coldmetal_independent_review/manifest.json",
+        "bytes": 3876,
+        "sha256": "9d05b1c9e358113f61bd07f3ba71983b365ded0399e56ad70ca8996e83f8696f"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev439_BingXin_coldmetal_independent_review/freeze.json",
+        "bytes": 143,
+        "sha256": "54ea8046ce0b58941e227bcb3f068481a39cce408d7b6e96dd511a1b56bfc574"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "runtime_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev430_author_completion_handoff.json",
+    "bytes": 4864,
+    "sha256": "300cd19777a2d13422dc4a0e2fe0f2f741671259a1556ee769263d473917fc42"
+  },
+  "runtime_review_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev439_independent_completion_handoff.json",
+    "bytes": 2002,
+    "sha256": "7b39367a9b62d0641b5e1f5d248f55ac0ea0c42bf305466f9e2be9701bafa2bc"
+  },
+  "documentation_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev441_author_completion_handoff.json",
+    "bytes": 3740,
+    "sha256": "7ccc5bbc2b2c1b1a028ac20f87220c19d084af689573ac92ea5351a23c9110ef"
+  },
+  "documentation_review_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev443_independent_completion_handoff.json",
+    "bytes": 1980,
+    "sha256": "d3aa9ce0f591584c2476dc7db4cf427640c0b6c07636af280b2dcea5aa92cdd0"
+  },
+  "effective_current_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev441_coldmetal_effective_documentation_layer/all7_corrected_source_rule_cards.json",
+    "bytes": 13294,
+    "sha256": "a8b7c115cca6f47565a1f882f8323cd36968a0663a7627e0e10e76d906856a70"
+  },
+  "effective_documentation_binding_lock": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev441_coldmetal_effective_documentation_layer/documentation_binding_lock.json",
+    "bytes": 3848,
+    "sha256": "1909f2650f976aa2b7687184c8c1e207d7c22c358d6b52444c26cb4a2a7fa489"
+  },
+  "old430_in_package_rule_card_disposition": "保历史与原源锁字节，不追认11错字段。当前仅以441更正7卡作有效规则解释。运行API不返回错误卡字面，原运行件无该错误数值/方法。",
+  "exact_doc_corrections": [
+    "430-R4验证值nominal1917/7756与halfwet4613/15382具名区分",
+    "430-R2/R3/R4/R5/R6各literal/engineering明确分层，共10字段"
+  ],
+  "source": {
+    "book": "1947李雨田校订发行滴天髓阐微，任注寒暖/燥湿",
+    "PDF": 261,
+    "printed_leaf": 229,
+    "raw": [
+      "丙辰",
+      "辛丑",
+      "庚辰",
+      "丙子"
+    ],
+    "additional_scope_PDF": [
+      73,
+      74,
+      256,
+      257,
+      258,
+      259,
+      260,
+      262,
+      263,
+      264,
+      374,
+      375,
+      376,
+      377
+    ],
+    "question": "年丙月辛局内合水，时丙无暖根，支重寒湿；源本题用水而不取无根火暖。"
+  },
+  "not_daymaster_transformation": "庚日两旁干功能合水，不能算丙辛日主真化/假化格整族完成。",
+  "whole_natal_conclusion": "完成原实体/根/合水输入守恒、湿土预算、全部正负、真实金→水承接和无根暖资格后，本源有限原局水可用、火不能完成暖任务；非H含水直接定用。",
+  "nominal_current_wood_fire_earth_metal_water": [
+    "5063/7756",
+    "1917/7756",
+    "17573/7756",
+    "9719/7756",
+    "24585/7756"
+  ],
+  "nominal_fire": "1917/7756>0；实际无火藏根，暖资格0，不假定所有无根干现量为0。",
+  "halfwet_diagnostic_fire": "4613/15382对应gamma1/2，不能冒nominal gamma1；source完成状态另存。",
+  "input_conservation": "年丙/月辛各1既有浮源转水，原direct木火土金水=(1/2,2,7/2,19/8,15/8)，转后=(1/2,1,7/2,11/8,31/8)，原干角色与真实根事实保。",
+  "wet_soil_budget": "同cT预留从制水改配助水，原bT生金保，总(b+c)T不重复花；全部5current同解，quantity助水不假称运行流通质量已解。",
+  "two_regressions": "固定转后seed湿比0→普通384方程；同时关转换/湿0→原raw384，分别逐式与origin核。",
+  "actor_allocation_limit": "ownseed分配是明确新工程方法；总direct等384不等actor/H等价，旧原金月辛11/25、新8/19及43/100信用门反例保。",
+  "H": "全6水actor含辰丑余癸可选；三余气7/8+一个单位15/8<31/16，所以名义3单位任2得3H，非先删候选；仅本固定world半量信用解释。",
+  "original_runtime_validation": {
+    "actor_allocation_not384_equivalent_explicit_counterexample": true,
+    "actors_main": 14,
+    "all_actor_origin_cost_loss_and_actual_path_credit_verified": true,
+    "all_actual_optional_masks": 1216,
+    "all_bad_zero_provider_exec": true,
+    "all_signed_edges_nominal": 89,
+    "all_small_actual_water_candidates_retained": true,
+    "bad_sources": 42,
+    "current_actual_function_IO": 39,
+    "exact_prior_AST_reused": 29,
+    "fresh_CLI_processes": 23,
+    "full_native_API_CLI_protocols": 10,
+    "full_nominal_CLI": {
+      "bytes": 410143,
+      "equals_API": true,
+      "exit": 0,
+      "sha256": "2d798a36b94087cabfaeba256fc987d09fab075bf32065a96c8020d00993c202"
+    },
+    "function_count": 42,
+    "new_exact_boundary_and_heldout": 4,
+    "new_or_adapted_AST": 13,
+    "old_unused_AUX_helpers": [
+      "runtime/auxiliary_selector.py:strict_pairs",
+      "runtime/auxiliary_selector.py:reject_constant",
+      "runtime/auxiliary_selector.py:main"
+    ],
+    "public_fixed_methods": 6,
+    "raw_root_rows": 56,
+    "samecost_metal_birth_off6_independently_verified": true,
+    "source_complete_methods": 3,
+    "strict_API_cases": 3,
+    "strict_CLI_cases": 13,
+    "strict_CLI_native_invalid_exit0": 1,
+    "strict_CLI_rejected_exit2": 12,
+    "two_distinct_ordinary384_regressions": true
+  },
+  "runtime_review": "439独立1472完整mask/39实际IO与全账、源/strict/既有80copy正确域保留；未因文档11字段重算。",
+  "documentation_review": "443逐11字段精确old/new、R1/R7与其他叶值全同；反改错卡先0runtime读取即拒、恢复clean组合verifier过，原80+10四树SHA不变。",
+  "remaining_original_work": [
+    "262丁壬保护时丙、子未不助壬的完整origin-target-specific作用",
+    "261木制土卫水的阻滞/水运行质量",
+    "一般丙辛日主真化假化及庚辛各季节土质完整族"
+  ],
+  "all_example_luck_or_all_BingXin_patterns_complete": false,
+  "empirical_prediction_validated": false,
+  "B_theme_display_integration": false,
+  "original_goal_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

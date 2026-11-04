@@ -1,0 +1,77 @@
+{
+  "id": "rev282-Qianjiang-data16-project-adoption",
+  "status": "adopted_exact_version_attributed_modern_named_city_frame",
+  "component": "rev273_national_region_source_batch/batch01_QJ2016_candidate",
+  "data_edition": "0.16",
+  "target": {
+    "component": "rev273_national_region_source_batch/batch01_QJ2016_candidate",
+    "files": 705,
+    "manifest_sha256": "1960e6e99258570b0582b7c43f76fedd339bc86ddb58024f76b4ffb867559313",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "66ccd082202a4796b0b7e58f124127c3bbc798436e46a571f01a023cab4376e9",
+    "pins": {
+      "manifest.json": "1960e6e99258570b0582b7c43f76fedd339bc86ddb58024f76b4ffb867559313",
+      "freeze.json": "66ccd082202a4796b0b7e58f124127c3bbc798436e46a571f01a023cab4376e9",
+      "author_report.json": "550e05d0828169f4d1bb727c2153504189176b86c8e80d892e30a7b3f2422c6b"
+    }
+  },
+  "model_core_sha256": "f0cd93563234a8cce55c829f0ea55b62db545a3eb22a2dea2f734aad22742530",
+  "composer_sha256": "e270d74d6febc50190f6db714f5161fbe18dac4682288514be1e2a9b5363448a",
+  "safe_entry_sha256": "2344b8ae3f26e2e3df2016b8ec22723e84b653ad1b803b36fea2a8c66b25bba1",
+  "source_scope": {
+    "status": "sufficient_for_explicitly_selected2016_named_city_cultural_interpretation",
+    "primary_history": {
+      "url": "https://www.hbqj.gov.cn/zjqj/qjgk/lsyg/",
+      "displayed_date": "2016-04-05 23:48",
+      "root_actual_original_web_read": "prior root271 full82-line extract; latest author snapshot also read",
+      "locators": "L22–31 subject/date,35 old county,37 unqualified named地域,48–52 explicit regional qualifications in later periods,70–71 modern city narrative"
+    },
+    "identity": {
+      "name": "潜江市",
+      "code": "429005",
+      "old_code_source": "MEE2015 official attachment, zero-basedP63/printed66, headerL2879–2882 and code/name rowsL2926–2935",
+      "root_reading_grade": "Read author-retained actual open/find extract including whole row and header; not claimed a new successful web fetch or PDF visual. Prior original root opened575-page PDF; screenshot and originalHTML not obtained.",
+      "current_name_source": "city government基本市情2026-03-17, prior root actual53-line read",
+      "not_2026_MCA_or_same_parcel_assertion": true
+    },
+    "GN": "Root independently scanned originalCN.zip before author273, exactQianjiang+CN/P/admin1=12 unique1786067, decimal30.421/112.8919. PPLA4/ADM2/ADM3/provider namespaces do not establish Chinese city rank, municipal centre or boundary.",
+    "geography_reasoning": "Choose the2016 named-city cultural account before numerical outputs. Unqualified潜江地域 sentence and modern city narrative support this attributed name scope; the old county sentence is not used to prove2016/2026 parcel equality. Later geographic splits are preserved. Only this locality, never all Hubei.",
+    "layers": "Modern local-history account→explicit project named-region bridge→separate Sanmingjing-to-metal map→symbolicRn; no official命理 rule, personal喜金 or ancient行政 truth certified.",
+    "independence": "Root researched source271 before author273 but authored no273 producer/fixture. Software and new hand compositions are nonauthor; source discovery not called fully blind.",
+    "truth_or_prediction_authenticated": false
+  },
+  "review": {
+    "component": "rev278_Qianjiang_data16_independent",
+    "files": 69,
+    "manifest_sha256": "7a71e8b3770bce85fa7538bec710a536791a299403e6be0d234e323666258504",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "55cb0307874eee53abd88d961a0d9659da2837c0dd9b52bb6616c9e69251e6b1",
+    "report_sha256": "789b8fb086917d6db5a707e5f8e470dd010e22b4f6714d251c434daeeeea4566"
+  },
+  "aggregate_acceptance": {
+    "component": "rev282_Qianjiang_frame_acceptance",
+    "files": 3,
+    "manifest_sha256": "40c1ca5d4ce913222d6ab75e141f07041b66d0e3b9236efa367ae6e3f83599e8",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "92f18f926f911b4a8388e6c07138a021edb3968c2faa3081080cb70cce0857a6",
+    "report_sha256": "37cbc348afd6db71cf9b5f9f74cecf7598f227ad470431f8c78e127e5e5654b3"
+  },
+  "old_exact_prefix": [
+    45,
+    44,
+    40
+  ],
+  "new_counts": [
+    46,
+    45,
+    43
+  ],
+  "automatic_latest_or_default_change": false,
+  "original_B_P_T_C20_D2_C0_unchanged": true,
+  "all_national_sources_closed": false,
+  "historical_source_uncertainties_preserved": true,
+  "original_task_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "rev295-Fan2019-Benxi2026-selected-cultural-frame-project-adoption",
+  "status": "adopted_exact_version_attributed_approximate_modern_cultural_frames_engineering",
+  "component": "rev273_national_region_source_batch/batch03_Fan2019_BX2026_candidate",
+  "data_edition": "0.18",
+  "target": {
+    "component": "rev273_national_region_source_batch/batch03_Fan2019_BX2026_candidate",
+    "files": 901,
+    "manifest_sha256": "5cf410a499558a37780445245b92fa51d0ec778e1dd8ffbdf0ac8bf377c1c366",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "b4c925df3d0d546338bf921a7cd16a4f087539cf430061de8e5813181a12534c",
+    "pins": {
+      "manifest.json": "5cf410a499558a37780445245b92fa51d0ec778e1dd8ffbdf0ac8bf377c1c366",
+      "freeze.json": "b4c925df3d0d546338bf921a7cd16a4f087539cf430061de8e5813181a12534c",
+      "author_report.json": "5686e2048402e3b97007a113cd89a0d57f2fe36316a11c7abb21dd528f8902e8"
+    }
+  },
+  "model_core_sha256": "f24b52bff34773c3ba4524eaacfaa70787d1a837bc6b699845371f28f11383d5",
+  "composer_sha256": "2d73ac14054328f1c2b969a76d90fccba7bf23fcbc2e3c2755c3df9f33a7dd4f",
+  "safe_entry_sha256": "87cb5318cd68f4e6c87116608ec8f184bf495528528f730be450d6225d5c964b",
+  "source_scope": {
+    "status": "quotation_and_selected_attributed_modern_cultural_frames_verified",
+    "Fan": {
+      "title": "范曾《〈尔雅〉说略》2019网站署名版",
+      "url": "https://art.rmlt.com.cn/2019/0929/558124.shtml",
+      "edition": "2019-09-29 14:13, 释地第九L369–379",
+      "actual_root_reading": "Earlier actual web opening of2019 article and current retained extraction/card checked. Not a new complete672-line reading or original2013 PDF inspection.",
+      "named_subject_direction": "Modern province names are the forward subjects of称 in the paragraph. 河南称豫、湖北湖南称荆、晋陕称雍; 大体的位置 explicitly restricts precision.",
+      "selected_targets": {
+        "410000": "yu→土",
+        "420000": "jing→金",
+        "610000": "yong→水"
+      },
+      "edition_and_errors": "2013 journal catalogue known but exact2013 PDF not read, rootTLS failure retained. SouthernSong XingBing wording is retained as source error, not endorsed as history.",
+      "not_certified": "Exact ancientGIS, allhistorical claims, officialBaZi standards or real effects."
+    },
+    "Benxi": {
+      "title": "本溪市政府市史志办《建置沿革》",
+      "url": "https://benxi.gov.cn/sq/lsyg/jzyg/content_206895",
+      "edition": "2026-05-06 14:10:05; L85/87/94–98",
+      "actual_root_reading": "Retained actual109-line web extract relevant clauses and city/county context checked. No rawHTML archive asserted.",
+      "selected_target": "210500 modern named city cultural interpretation; choose夏青→木 before numerical output, preserve商营 separately.",
+      "code_layer": "2023 LN construction energy monitoring draft PDF75pages, P52/printed45 B.1.1-1 row210500本溪市. Draft xxxx/date placeholders and incorrect tablecaption retained. Dated name/code anchor only, not effective standard or currentMCA2026 certification.",
+      "point": "Exact original GN2038300 CN/19 P.PPL named-place proxy. Keep wronghomonym10139207/ADM alternatives; nopopulation or municipal-centre inference.",
+      "exclusion": "Does not establish whole辽宁; lookup original210000 remains coverage_undetermined."
+    },
+    "Shaanxi_alias": "LS/T1715—2023 P6 table1 independently lists陕西省/陕秦; code27 is its owntwo-digitnamespace, notMCA610000 orGN26.",
+    "historical_pending_flags": "Candidate built with282data16 realpolicy and800data17 thenpending snapshot.289 later adopted exactdata17. Those frozen historical statements are preserved; this policy supplies true later chain, not an in-place rewrite.",
+    "engineering_layer": "After choosing explicit attributed cultural frames, fixed separateSanming unit→element givesRn. No newweights or priority inference fromsourceauthority.",
+    "truth_or_prediction_authenticated": false
+  },
+  "source_truth_status": "Named source wording/layers checked; exact historicalGIS/metaphysical truth not certified.",
+  "review": {
+    "component": "rev294_Fan_Benxi_data18_independent",
+    "files": 90,
+    "manifest_sha256": "b67fc6acaf5a597fb90327c7bab5f6dd6bb837f3e4326b706ce6a210bfba8682",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "033f3c4a6de9d2173afe6c895297e75d556e59ddd284e608d809bf00bfe9826b",
+    "report_sha256": "170359cbb9b87a406e1298f70f2b11397234e497c09dce97dd87e531f9b5816a"
+  },
+  "aggregate_acceptance": {
+    "component": "rev295_Fan_Benxi_frame_acceptance",
+    "files": 3,
+    "manifest_sha256": "02848e6f199a9974d10cf331a55faaf8786d2ec9a36c005e09000a9d58183137",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "4a922012985a51ddc4852bcfe1c947cdf2ea9fb021cfb29b3b0ae738a7caa533",
+    "report_sha256": "b3a147f65f3a66721135691a9d79ec46336ea536c372eacb6608dcd04034cb7d"
+  },
+  "true_previous_data17_adoption": {
+    "path": "rev289_People2023_frame_project_adoption.json",
+    "sha256": "e7610503bf980b98044d38ef1ec6f9eef1fd85b0218329cdd9b1afcb666295e2"
+  },
+  "old_exact_prefix": [
+    49,
+    48,
+    44
+  ],
+  "new_counts": [
+    53,
+    52,
+    48
+  ],
+  "original_B_P_T_C20_D2_C0_unchanged": true,
+  "automatic_latest_or_default_change": false,
+  "all_national_sources_closed": false,
+  "all_original_task_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0"
+}

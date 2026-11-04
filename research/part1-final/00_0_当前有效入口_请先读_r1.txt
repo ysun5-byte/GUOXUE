@@ -1,0 +1,17 @@
+当前有效入口（r1，先读本文件）
+
+命理规则、原生运行入口 v1_entry.py、native_worker.py、guard以及95个方法的代码/参数均未改变。统一运行方法仍按01运行说明；真正移位独审49进程已验证的完整运行前缀继续有效。
+
+资料取件请改用：
+python3 -I -B research_files_effective_r1.py list-reading
+python3 -I -B research_files_effective_r1.py show 资料键
+python3 -I -B research_files_effective_r1.py extract 资料键 /包外/文件
+对应当前数据登记为 research_catalog_effective_r1.json。原research_files.py/research_catalog.json及原00/01中的取件命令是首版历史，不作为最新完整取件默认。两份失存历史导航SHA仍明确unavailable，绝不以当前值替代。
+
+独审发现并修复的实质缺收：首版收件器只识别部分旧清单格式，漏掉6个旧方法的size/SHA-only条目，且错误把0条当通过。该“全95来源闭包”首报告不成立，必须用本次r1证据替代。r1已独立规范所有95原清单，49419个路径/期望SHA/原尺寸逐条对齐，未知或空格式硬拒；same-SHA多路径全保。
+
+首版379条缺收中，244条原字节已在完整266卷，本次补正确locator；其余135条原359研究材料实存、摘要全符，按SHA去重117对象追加30.42MB证据卷。原代码/模型/数学没有更改，也没有拿两份旧导航例外豁免这些实料。
+
+当前运行胶合解释见 运行整合层_当前有效20个算法解释_r1.json：18原运行函数源/AST/实际I/O原样；2取件定义只换固定catalog文件名和SHA，并有本版真实输入/完整字节返回。旧取件器2定义及其原解释留作历史，共22个物理定义不当成新增命理能力/进度。
+
+当前组合永久清单以 DELIVERY_MANIFEST_r1.json / DELIVERY_FREEZE_r1.json为准，首版274永久件逐字节保留。本目录成稿时仍98.75%，最后C08须根根据真正非作者复核验收；100%记录另绑定最终清单，不代表现实预测验证。

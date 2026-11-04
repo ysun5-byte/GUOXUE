@@ -1,0 +1,80 @@
+{
+  "id": "rev289-People2023-three-named-cultural-frame-project-adoption",
+  "status": "adopted_exact_version_attributed_modern_editorial_frame_engineering",
+  "component": "rev273_national_region_source_batch/batch02_People2023_candidate",
+  "data_edition": "0.17",
+  "target": {
+    "component": "rev273_national_region_source_batch/batch02_People2023_candidate",
+    "files": 800,
+    "manifest_sha256": "2a795e7b9853a0ad95c09218df6d4f4fda5dc133604af44b63ddbcd632435cfb",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "fa4b6a9509dd86dd7f11ddfac913a99fd8a816dd80a7cff15cc5630be47e709f",
+    "pins": {
+      "manifest.json": "2a795e7b9853a0ad95c09218df6d4f4fda5dc133604af44b63ddbcd632435cfb",
+      "freeze.json": "fa4b6a9509dd86dd7f11ddfac913a99fd8a816dd80a7cff15cc5630be47e709f",
+      "author_report.json": "e355eb998b76bbd0e6a008bc94c2c04961ff4a4655c40adcc1ae5be6f265f36d"
+    }
+  },
+  "model_core_sha256": "741926c6a17a2222d3b73f678467b6318534c89475bf0e23fb50ec12709be26c",
+  "composer_sha256": "f618b879fb5a882ff06e8c6dc7cd29fd11b26181780b66919ce323a79074745d",
+  "safe_entry_sha256": "d74aafa5fb8d6e39483392d1784e6f35b8f8a42cc44b5f6489a1ed633fe774de",
+  "source_scope": {
+    "status": "quotation_and_named_scope_verified_for_explicit_attributed_editorial_cultural_frame",
+    "primary": {
+      "title": "跟着《封神》去打卡",
+      "publication": "讽刺与幽默",
+      "edition": "2023-09-01 Friday page14 漫游世界",
+      "url": "https://paper.people.com.cn/fcyym/images/2023-09/01/14/fcymm2023090114.pdf",
+      "original_PDF_sha256": "0492dd26f6b20382d530437804733d225699b9a76a8ac55d8d11400dfe03cd45",
+      "text_author": null,
+      "text_byline_observed": false,
+      "editors": "岳秋童、穆兰",
+      "art_editor": "果园",
+      "illustrator": "张叶; 本版插图, not text author"
+    },
+    "actual_root_reading": "Original publicPDF downloaded; completepage/masthead/Ji detail images actually viewed. All three source image fingerprints stored separately. No independent textual author fabricated.",
+    "named_scope": "The Ji paragraph explicitly says corresponding to today administrative divisions and lists Beijing,Tianjin,Hebei without partial modifiers; partial modifiers are attached to Henannorth and Liaoning/InnerMongolia. Only these three selected source objects are adopted.",
+    "ancient_source_boundary": "Its reference to尚书禹贡 introduces a modern newspaper explanation; modern province names are not words in the ancient text. Not certification of ancient administrative truth, exact GIS, official metaphysical rules or real effects.",
+    "original_Shaanxi": "Original image really prints陕西省. Preserve literal and conflicts; do not silently turn it into山西 or infer the writer intended a particular correction. This item is excluded from the selected three-target frame, and its unknown oldrecord stays accessible.",
+    "film_context": "Other paragraphs discuss filming in modern Xinjiang/Tibet/etc. Those filming locations and suggested冀州古城/冀宝斋 do not establish wholeprovince cultural coverage; none used for these targets.",
+    "chosen_engineering": "After selecting this attributed2023 modern-name interpretation, separate fixedSanming ji→water givesRn; this is a deliberately labelled cultural engineering frame, not a new historical truth finding.",
+    "identity_point": "MCA2024 existing34province names/IDs and original GN/proxy policies retained; new versions reuse the exact old decimalpoints with new versioned records. No province-centre/territorial parcel inference.",
+    "independence": "Root obtained the publicsource and reviewed it before author273, so source discovery is not blind. Root authored no producer/fixture; six new handcompositions precommitted before target import, independent reference reused.",
+    "truth_or_prediction_authenticated": false
+  },
+  "source_truth_status": "Text and attributed modern-name frame verified; historicalGIS/metaphysical validity not certified. Engineering choiceexplicit, sourceerror preserved.",
+  "review": {
+    "component": "rev288_People2023_data17_independent",
+    "files": 79,
+    "manifest_sha256": "b808c76d34e83c9f38b62faabf422f59bb9e1807e45c600eaa29c55620998096",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "065551a34a794ede1b6cc48a29ec9c89906d7154a27e05ce78d5fe11d676e2c0",
+    "report_sha256": "d4af420b61e9ca06d6d2c5c2b582b51221109e8ab4b04499805518f8dfa41789"
+  },
+  "aggregate_acceptance": {
+    "component": "rev289_People2023_frame_acceptance",
+    "files": 3,
+    "manifest_sha256": "5a7e740d784281d61fe989982e28ab9142515a0556f4eda3ad6852fdd761c9c0",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "53876320e608474c954b89d186bdf8bad046425dcde6f049cbc5b68bb1edbf60",
+    "report_sha256": "c1e20e5169783ccb1de15ff8c1a5b89e00741e58217cfc012a1d436f82d3eea7"
+  },
+  "old_exact_prefix": [
+    46,
+    45,
+    43
+  ],
+  "new_counts": [
+    49,
+    48,
+    44
+  ],
+  "shared_newspaper_source_entries_added": 1,
+  "original_B_P_T_C20_D2_C0_unchanged": true,
+  "automatic_latest_or_default_change": false,
+  "all_national_sources_closed": false,
+  "all_original_task_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

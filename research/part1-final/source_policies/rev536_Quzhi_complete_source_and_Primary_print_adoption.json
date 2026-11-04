@@ -1,0 +1,139 @@
+{
+  "schema": "536-exact519-after533-Quzhi-source-and-Primary-intersection/1",
+  "revision": 536,
+  "registered_utc": "2026-11-03T11:13:25.611269+00:00",
+  "status": "adopted_exact51961_runtime42_after53334_with_direction_erratum",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev519_author_completion_handoff.json",
+    "bytes": 5909,
+    "sha256": "75526a1a91ca1b23c566cb6bda3808c65a8128802f91fa1d22b13e35656a2f96"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev533_independent_review_handoff.json",
+    "bytes": 2127,
+    "sha256": "abc52cfb699afc61a729670d933185e373d716f35c7367b400517011cf6aa650"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev519_Quzhi_source_terminal_and_Primary_intersection",
+    "files": 61,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev519_Quzhi_source_terminal_and_Primary_intersection/manifest.json",
+      "bytes": 9432,
+      "sha256": "9307077aa90c16c5b10e7e0716507ebfe1637a351488760cdf84458b02620a0a"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev519_Quzhi_source_terminal_and_Primary_intersection/freeze.json",
+      "bytes": 234,
+      "sha256": "c9a0eb8bbe4b9d101248ffb8db2a61c783001a70d3c9282e1c744285cb4b5d99"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "kernel_frozen": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev519_complete_runtime_kernel",
+      "files": 42,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev519_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 6466,
+        "sha256": "0d9218834f1a17a7a9bb0e54f9db010c8545dc32b87775d02d6b90c31a7faa6b"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev519_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 216,
+        "sha256": "414924ff2ab9ad00b45c91e02bf3e6d64c45f46a09e9162bb9a132572bc713aa"
+      },
+      "all_exact": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/519 one complete readonly curve source 2op_rz91/complete source research with spaces",
+      "files": 42,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/519 one complete readonly curve source 2op_rz91/complete source research with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 6466,
+        "sha256": "0d9218834f1a17a7a9bb0e54f9db010c8545dc32b87775d02d6b90c31a7faa6b"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/519 one complete readonly curve source 2op_rz91/complete source research with spaces/DELIVERY_FREEZE.json",
+        "bytes": 216,
+        "sha256": "414924ff2ab9ad00b45c91e02bf3e6d64c45f46a09e9162bb9a132572bc713aa"
+      },
+      "all_exact": true
+    }
+  ],
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev533_Quzhi_independent_review",
+    "files": 34,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev533_Quzhi_independent_review/manifest.json",
+      "bytes": 5479,
+      "sha256": "055400a63c8429bfd6a36df261e1571e9836291365dad19bc53d40a556681e64"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev533_Quzhi_independent_review/freeze.json",
+      "bytes": 134,
+      "sha256": "f290b0f933c4343a33aa9c7a4cf74adbaf5978d7634cfea37597b5e158750aaa"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "effective_source_rules": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev519_Quzhi_source_terminal_and_Primary_intersection/rule_cards_complete_source_and_engineering.json",
+    "bytes": 7816,
+    "sha256": "605fe93b912ea7eb5b0aa4dbbe220de0319f5b260b55302c5349b22ae66dbdb3"
+  },
+  "complete55_algorithm_contracts": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev519_Quzhi_source_terminal_and_Primary_intersection/algorithm_explanations_55_functions.json",
+    "bytes": 116309,
+    "sha256": "5968c9277b4a4743dbb9c47dd31293107ea28e947a0ea2f36e76aa9330e2ccad"
+  },
+  "required_effective_reading_erratum": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev533_Quzhi_independent_review/effective_algorithm_reading_erratum.json",
+    "bytes": 972,
+    "sha256": "149609c15eb9635de2dbd638e8a87041c4ad97f13933df678520db3deb3901b2"
+  },
+  "source_terminal": "Sanming原180既定维护已计算成败终局不改名最终喜木水；Primary93如前泛论的明确5充分分支完整喜印水另算，食活只附加子题。显式AND非共识硬门；55未冒全族终局完成。",
+  "independent_new_behavior": {
+    "new_coupled_worlds": 36,
+    "signed_edges": 1712,
+    "edge_origin_components": 20944,
+    "full_H_masks": 36,
+    "new_eta_boundary_checks": 3,
+    "five_complete_public_API_CLI_pairs": 5,
+    "new_private_coefficients": [
+      "2/9",
+      "3/10"
+    ],
+    "food_zero_main_true_optional_preserve_false": true,
+    "one_Hai_root_zero_not_all_Hai_sources_erased": true,
+    "all_actual_negative_effects_costs_and_roots_checked": true
+  },
+  "source_and_delivery": {
+    "all60_and_clear5_independently_enumerated": true,
+    "all55_specific_operator_membership_checked": true,
+    "other55_three_roles_real_complete_maintenance_and_no_final_claim": true,
+    "three_source_faults_zero_provider_clean6": true,
+    "fresh_complete_readonly_processes": 5,
+    "real_negative_controls_denied": 20,
+    "no_oldtree_or_write_violations": true,
+    "no_copy_chmod_or_author_mutation": true
+  },
+  "algorithm_reading_evidence": {
+    "all55_actual_AST_signature_source_bindings_checked": true,
+    "42_prior_actual_AST_and_contracts_read": true,
+    "13_new_adapted_substantive_contracts_checked": true,
+    "current_real_normal_IO": 50,
+    "current_exception_IO": 1,
+    "old_unexecuted_no_new_trace": 4,
+    "actual_source_material_refs": 16,
+    "actual_module_code_refs": 5
+  },
+  "whole_main_print_scope": "Primary93属类泛论在吴例前，明确五个纯印比交集盘的全生日/制食/根/Hai/费用与双印共同诊断成全盘喜印水；F>0不是主题硬门，保食只独立子题。三命维护题60盘×3原目标无漏，完成其维护题不重命名最终喜木水。",
+  "three_profiles_all": "原low/nominal/high分别固定报告；低参数下两个双卯构型需两癸共同H，其余单癸替代，不编唯一主次。",
+  "remaining_original55": "另55分别纯食15/纯财9/食财19/纯杀5/杀食5/杀财2，有源/operator逐盘映射；524共享禄劫算子继续，不把三种其他支维护结果冒最终取用或outside完成。",
+  "current_IO": "50正常/1异常/4未执行旧合同，16材料5ModuleType实际引用；未执行不编trace。",
+  "all_original_C02_complete": false,
+  "all_original_task_complete": false,
+  "no_B_theme_display_work": true,
+  "empirical_prediction_validated": false,
+  "progress": "88.75/100",
+  "progress_delta": "0.00"
+}

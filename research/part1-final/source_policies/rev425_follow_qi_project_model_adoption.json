@@ -1,0 +1,138 @@
+{
+  "schema": "source-qualified-finite-Ren-gold-water-full-model-adoption-0.1",
+  "revision": 425,
+  "registered_utc": "2026-11-02T22:59:03.121353+00:00",
+  "status": "adopted_exact415_natal_goldwater_full_tasks_and_fixed_actualworld_H_after423",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev415_Ren_follow_qi_metal_water",
+      "files": 96,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev415_Ren_follow_qi_metal_water/manifest.json",
+        "bytes": 14951,
+        "sha256": "f8d2c52f2f5f20032ef9ddfb7120a7e884117a5236cc7a7f2688a77d17fec481"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev415_Ren_follow_qi_metal_water/freeze.json",
+        "bytes": 227,
+        "sha256": "4635af87f89b39b25c0850119f9d0ec0dd5421d73fa2b03004fbee5999ffff57"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev423_follow_qi_independent_review",
+      "files": 64,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev423_follow_qi_independent_review/manifest.json",
+        "bytes": 10420,
+        "sha256": "794540d684c8feaea31ce2d0dec84a931104bdff56592e1290d8ad767b3ce5cd"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev423_follow_qi_independent_review/freeze.json",
+        "bytes": 201,
+        "sha256": "31933aaf2e249c32909daa55219947fa076b6ed45112ae3162399fa2e1cf15b7"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev415_author_completion_handoff.json",
+    "bytes": 4046,
+    "sha256": "8d9dc6c1ad0473d85401151db1542b6dfd11f14f079755fc42a9fcecdba24d52"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev423_independent_completion_handoff.json",
+    "bytes": 3710,
+    "sha256": "a93c299bdb5c51dd52dc94fe1bea05cb02ec63ba20584f80b8efb68f04463eac"
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev423_follow_qi_independent_review/independent_report.json",
+    "bytes": 3458,
+    "sha256": "2f3be1faad0df3473269cc37759186a6f730de8a9ae47a873e1833d516f6b9f9"
+  },
+  "source": {
+    "book": "滴天髓阐微1947李雨田校订发行本，任氏从象",
+    "definition_PDF": 368,
+    "case_PDF": 374,
+    "case": [
+      "癸酉",
+      "乙丑",
+      "丙申",
+      "丙申"
+    ],
+    "classification": "本例原文金水之势，映射从气定义是跨段推论，并非例题原名。",
+    "soil_context_PDF": [
+      72,
+      73,
+      74
+    ]
+  },
+  "scope": "仅原盘、natal/具名癸亥/具名己未及nominal/limited_metal/low_transfer公开配置；其他合法盘保事实与具体缺口，不泛化所有从气。",
+  "natal_complete_conclusion": "真实金水共同核心、主次未定；土为待引通输入，不因所选土在H便喜土。弱乙与两丙完整保留，不按字名拒从或先删掉。",
+  "physics": "u=min(cT,kM)，土生金bT+u、剩余克水cT-u，同(b+c)T预算；全部五行与演员/根/来源/生克/成本同current，actual_loss与unused_capacity分开。",
+  "full_tasks": "金水势及根活、印比反馈、土输入大半经金、真实同股土→金→水与金制印水制火；各段独立够不替代全链。",
+  "H_question": "固定完整实际世界内的正功能信用，含同股连通及全部最小替代；并非402/410许可反事实、不删除演员，不自动代表最终跨口径唯一必要性。",
+  "whole_source_bridge": "完整原局各任务通过，并与同成本关引通/关金生水对照比较金水与火反馈后，才确定本源金水共同核心。",
+  "natal_current_wood_fire_earth_metal_water": [
+    "308/643",
+    "0",
+    "8685/1286",
+    "6913/643",
+    "6189/643"
+  ],
+  "natal_H_counts": [
+    94,
+    42,
+    94
+  ],
+  "native_global_OR": "癸亥最大376组，全CNF两子句分段，每段<=136极小覆盖，旧AUX256界不改、全8192mask和全局OR保留。",
+  "functions": {
+    "all": 43,
+    "changed_AST": 14,
+    "context_grouping": "19 entry/source locations includes5 stable parser ASTs;24 generic providers also reused",
+    "current_IO": 40,
+    "exact_AST_to392": 29,
+    "unused": 3
+  },
+  "verification": {
+    "adaptedAST": 14,
+    "all43_AST_and_substantive_contracts": true,
+    "all96_original_and_existing_copy_before_after_SHA_equal": true,
+    "all_actor_root_origin_signed_edges_budget_and_existing_path_coefficients_checked": true,
+    "all_native_masks": 69632,
+    "audit_scope": "Python after-hook observations, not every OS syscall",
+    "cached_complete_native_results_independently_checked": 9,
+    "exactAST_reused": 29,
+    "full_new_copy_API_CLI_SHA256": "a06beeca3edb9e7c53f4753d124f722a50633d74d6b4171b946bbb8378e48771",
+    "full_new_copy_API_CLI_byte_length": 6141985,
+    "full_tree_copies_created": 0,
+    "live_negative_controls_read_write_each": 1,
+    "new_bad_source0exec": 2,
+    "new_copy_H376_and8192mask": true,
+    "new_legal_outside_API_CLI_pairs": 2,
+    "new_mathematical_parameter_boundary_restore_cases": 7,
+    "new_processes": 22,
+    "new_strict": 10,
+    "normal_oldroot_reads_or_package_writes": 0,
+    "old_correct32_badsource_domain_reused": true,
+    "realIO_reexecuted": 40,
+    "restored_clean_provider_exec": 4,
+    "unexecuted_old_AUX": 3
+  },
+  "author_bug_repair": "raw_pillars list now strict public object-schema rejection; old source/actual exit0 minimal example and first failure kept; illegal pair dict still original native report exit0",
+  "exact_inherited_contract_context": "foundation_facts.py:formal_relations卡尾K2金局是继承392更早合同背景；本函数只列原四柱形式五合/六合/六冲。415酉丑拱金与两运冲害由consume_relations有限消费，不据旧尾注宣称本题已解K2或通用三合。当前43卡identity/字节不改。",
+  "source_event_conclusion": "癸亥同算水生印，己未名义火由0恢复6149/3836；源运吉/不禄不作core真假的预期或现实死亡验证。",
+  "C03_not_adopted_as_complete": "origin-specific moist/dry earth and庚/辛生脆/埋/涸水 contextual operator; nominalJiWei fire recovery true but residual土克水0, not falsely certified伤官助劫 full mechanism; todo/source73/74 preserved, no original task removed",
+  "remaining_original_work": [
+    "按来源土质区分庚辛、湿燥生脆埋涸等实际作用",
+    "更广从气类型、关系与实际五时层",
+    "跨方法最终主次与原V1最终全链交付"
+  ],
+  "numeric_values": "工程充分题、先验与独立边界，不是古籍数额或贵级拟合。",
+  "all_fromqi_or_all_luck_complete": false,
+  "empirical_prediction_validated": false,
+  "B_theme_display_integration": false,
+  "original_goal_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

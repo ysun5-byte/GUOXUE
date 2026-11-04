@@ -1,0 +1,73 @@
+{
+  "schema": "499-fixed-GN-regional-components-research-adoption/1",
+  "revision": 499,
+  "registered_utc": "2026-11-03T07:57:56.264792+00:00",
+  "status": "adopted_exact490132_after49333_with_external_transport_counter_correction",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev490_region_effect_research",
+      "files": 132,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev490_region_effect_research/manifest.json",
+        "bytes": 24827,
+        "sha256": "cf72d9afa7d4f8534e7d4d05223f9cf6d944fe2df41710db41ba514011d05c47"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev490_region_effect_research/freeze.json",
+        "bytes": 92,
+        "sha256": "dcafc3324e342e8c13452ef2074797f270f9529593fb3d0eab6f0af562cee440"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev493_region_components_independent_review",
+      "files": 33,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev493_region_components_independent_review/manifest.json",
+        "bytes": 5320,
+        "sha256": "1d9304627a34703e9a27654b7221fe1c82b648ba17f8b6020556d1afa6cb974a"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev493_region_components_independent_review/freeze.json",
+        "bytes": 92,
+        "sha256": "120f7763bb886acfb4a88c5ac813e0e3a2389613286a292faaf06339dd4705c9"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev490_author_completion_handoff.json",
+    "bytes": 2858,
+    "sha256": "4def74d0a5964110657cb43bc2725b1248699737f8561497949f094dac9d8dd2"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev493_independent_completion_handoff.json",
+    "bytes": 2488,
+    "sha256": "b0b441e2a93207c5fcbc5eced378353c43d01cf41fdeab9d2fa055e5bfcfdf31"
+  },
+  "support": "完整478静态pair或480 current/previous整窗原始请求，实际原生Rn/Rr→已批1/40+1/40地区贡献；保原报告全文、版本/来源/功能和联合边界。公开不收ready/任意向量。",
+  "source_weights": "原用户C20批准SHA6a59ea282c1d6e4d672f0f9dab0c641be51d2ea98b3087e5291350cb6edda112；数字是已批产品规则，不是传统数额或现实作用验证。",
+  "known_C0_unknown": "严格C0方向贡献为已知零，只报基础应返1/40而不实际算B；unknown贡献null、份额继续未决，不返还/重分。已知部分和与完整贡献分别存，预算恰1/20。",
+  "comparison": "原人/方法/窗域/出生参照/known门先行，双方全部边界逐片比地区向量+返还。分项可抵消为合量same，但原Rn/Rr/来源原因不删；模型改或unknown即使数等也不确认same。",
+  "independent_evidence": "493事前新7静态、4微秒整窗、1窗外错版硬错、5精确分量/8反例及火土抵消；139 AST签名/121旧有效合同/18当前IO核实并9数学IO复算。3新源坏provider0；既有132只读核新8过程32真控全拒，正常违规0，2完整API/CLI逐字同；原与copy SHA/模式不变。",
+  "author_correct_evidence_reused": "20正常整窗/4静态/6硬错/7strict、3源坏0及独立Fraction先定预期；18当前IO/原121准确继承，93旧IO不称本轮观测。原正确域不无目的重跑或按数量提分。",
+  "mandatory_external_transport_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev490_readonly_C0_provider_expectation_correction.json",
+    "bytes": 1910,
+    "sha256": "a1f58b0f3cf143e7a975ac1a788ae5531ee6a0bd4eb8c88517908ef9b6909afd"
+  },
+  "transport_counter_boundary": "首次作者只读驱动误猜C0 9模块，实际17：C0须逆测地先确认coincident，8固定库正常加载。API原本exit0，仅外部驱动修计数，原包保首错；同一copy先3过程后续4过程共7/28真控，不再clone/chmod/reseal，初始modesdict未序列化不虚构。独审另8过程实证17。",
+  "no_implementation_defect_found": true,
+  "no_frozen_numeric_source_or_IO_changes": true,
+  "original_C04_A06": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev493_region_components_independent_review/source_boundary_and_original_acceptance_audit.json",
+    "bytes": 4653,
+    "sha256": "c11e360557f7fdda4e8a3767ffd2b314ce90ce24e1ce6eea41724eb56f8dcd3b"
+  },
+  "remaining": "500统一地区研究可复现发行与原C04done_when最终核对；旧53/55/216全原生最终Z证据沿用，不冒新GN全Z或新增B/手环/GIS门。其余C02/C03/C08原核心继续。",
+  "source_limits": "旧TAR/HLJ文化证据不足、四省完整歧义、Fukien/驻地与未给版等保原理由；GN自有点/声明有效期不证现实在场，未批七区不暗换。",
+  "not_empirical_prediction_validation": true,
+  "no_B_time_peers_totalZ_theme_RGB_or_display": true,
+  "progress": "86.25/100",
+  "progress_delta": "0.00"
+}

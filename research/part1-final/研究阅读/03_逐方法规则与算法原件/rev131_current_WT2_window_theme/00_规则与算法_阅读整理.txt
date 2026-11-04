@@ -1,0 +1,251 @@
+完整当下反馈与时间区间
+rev131_current_WT2_window_theme
+所属原模块：C03
+当前采用：rev132_WT2_window_project_adoption.json
+范围：接既有898当前整盘与773区间运输，整原子区间证明而非只采端点。已知当前、未知旧窗与不可比各分；不改本命B。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev131_current_WT2_window_theme/algorithm_explanations.json
+SHA256：d5de497ad7f9643a3d57102775a569e097ba9cf03f445c1a0f825c30c8d08f49
+
+1. TW01
+算法标识：TW01
+name：规范输入与摘要
+source：原主题与WT2原生JSON合同；本版沿用有限结构。
+来源层次：本版软件接合工程规则；原典和数值算法逐字复用原898，本版不新增传统定理。
+tradition_profile：ziping-world-library-primary-provisional-v1；实际分析法Current-WT2-QF-whole0.1
+conditions：所有JSON键唯一，数值有限；原输入保持原样。
+exclusions：重复键、NaN/Infinity或原生方法/绑定错立即拒绝。
+change_conditions：同值规范JSON摘要一致；摘要不验证外部事实。
+conflict_resolution：实际完整源/功能硬门优先；不可比与无判断不同；运行执行冻结方法，分歧留原报告。
+algorithm_explanation：同值规范JSON摘要一致；摘要不验证外部事实。
+implementation_refs：[
+  {
+    "symbol": "canonical",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 16,
+    "end_line": 16,
+    "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+  },
+  {
+    "symbol": "digest",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 17,
+    "end_line": 17,
+    "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f"
+  },
+  {
+    "symbol": "strict_load",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 19,
+    "end_line": 27,
+    "AST_sha256": "fc103c964a95a0e4118ff4cafb22d0e6897b25216352593e5301f39325b117fa"
+  }
+]
+validation_artifact：glue_behavior_actual.json
+status：author_verified_candidate_requires_nonauthor_review
+reality_validation：false
+
+2. TW02
+算法标识：TW02
+name：先核实际来源再执行
+source：原898/773实件、108/111独审、113/117采纳及汇总。
+来源层次：本版软件接合工程规则；原典和数值算法逐字复用原898，本版不新增传统定理。
+tradition_profile：ziping-world-library-primary-provisional-v1；实际分析法Current-WT2-QF-whole0.1
+conditions：完整1749依赖逐字匹配；实际review/freeze/代码/参数/报告/IO与对应目标一致。
+exclusions：任一给定字段指向错误目标、遗漏实件或代码在校验后变化，执行前拒绝。
+change_conditions：固定源版才能构成同一方法；工程依赖绑定与古籍外部真伪分开。
+conflict_resolution：实际完整源/功能硬门优先；不可比与无判断不同；运行执行冻结方法，分歧留原报告。
+algorithm_explanation：固定源版才能构成同一方法；工程依赖绑定与古籍外部真伪分开。
+implementation_refs：[
+  {
+    "symbol": "manifest_check",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 29,
+    "end_line": 41,
+    "AST_sha256": "656ef096fbd0cbacfedf7870868ef2a62c695c7d4ea053723b86aa4b69615ae8"
+  },
+  {
+    "symbol": "source_correspondence",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 43,
+    "end_line": 82,
+    "AST_sha256": "4d6a62a61e943692e89b10bc4b963a62fee7c33d0cfd672cb828d48faa9f4993"
+  },
+  {
+    "symbol": "load_modules",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 84,
+    "end_line": 108,
+    "AST_sha256": "32a6349e75c38bade5ba8e2fb77d6e1f958e8d260759568910483103eb4e0dcb"
+  }
+]
+validation_artifact：source_correspondence_actual.json
+status：author_verified_candidate_requires_nonauthor_review
+reality_validation：false
+
+3. TW03
+算法标识：TW03
+name：当前和旧输入原子预检
+source：已采纳773/117完整预检行为，加原WT2实际外层合同。
+来源层次：本版软件接合工程规则；原典和数值算法逐字复用原898，本版不新增传统定理。
+tradition_profile：ziping-world-library-primary-provisional-v1；实际分析法Current-WT2-QF-whole0.1
+conditions：先分别验证双方完整WT2外层，再将原生输入原样交原窗口预检。
+exclusions：旧资料硬错误、未来未用资料错误、同名异内容均在首个frame之前拒绝。
+change_conditions：旧判断软未决与旧输入硬错误分别处理；后者不能降为没判断。
+conflict_resolution：实际完整源/功能硬门优先；不可比与无判断不同；运行执行冻结方法，分歧留原报告。
+algorithm_explanation：旧判断软未决与旧输入硬错误分别处理；后者不能降为没判断。
+implementation_refs：[
+  {
+    "symbol": "flatten_frame",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 110,
+    "end_line": 111,
+    "AST_sha256": "d514d0f528067fefbdb90c72deb8c92110e731d4e2971015aacb09d71ef1e0d3"
+  },
+  {
+    "symbol": "preflight",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 113,
+    "end_line": 123,
+    "AST_sha256": "c0c467fa281e7eb5e30a4e0d008e57fa7b57e8a5cd0cef2b94b33963cefb0a8d"
+  }
+]
+validation_artifact：source_correspondence_actual.json
+status：author_verified_candidate_requires_nonauthor_review
+reality_validation：false
+
+4. TW04
+算法标识：TW04
+name：整段来源证明与请求派生
+source：复用773有限原子、原生整窗来源判定；新增WT2依赖分解说明。
+来源层次：本版软件接合工程规则；原典和数值算法逐字复用原898，本版不新增传统定理。
+tradition_profile：ziping-world-library-primary-provisional-v1；实际分析法Current-WT2-QF-whole0.1
+conditions：所有输入记录界点分段；只有整原子唯一完整来源，才能取左端代表重算。
+exclusions：缺口、竞争、未知资料和未核claim的片段全部保留未决。最多256原子，不截断。
+change_conditions：原子内选定完整记录不变，analyze_ledger只读原柱、HAP、选定actor和冻结配置，故功能判断不变。请求/报告时间戳摘要不声称不变。
+conflict_resolution：实际完整源/功能硬门优先；不可比与无判断不同；运行执行冻结方法，分歧留原报告。
+algorithm_explanation：原子内选定完整记录不变，analyze_ledger只读原柱、HAP、选定actor和冻结配置，故功能判断不变。请求/报告时间戳摘要不声称不变。
+implementation_refs：[
+  {
+    "symbol": "derive",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 125,
+    "end_line": 130,
+    "AST_sha256": "4a73b37988981594996befb2e55ee057bdf492fc8c2ec5abee88c9a3037ade62"
+  },
+  {
+    "symbol": "dependency_image",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 132,
+    "end_line": 133,
+    "AST_sha256": "b8603787da651ee7eb95fd338b079e0b87568afe9d15aba4deff5b8f5ee0c7dd"
+  },
+  {
+    "symbol": "evaluate_frame",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 154,
+    "end_line": 178,
+    "AST_sha256": "c2bbc18ac970b664eab6d3d81591f88d42c3327c3272e277ef81633af25db2c5"
+  }
+]
+validation_artifact：dependency_factorization_explanation.json
+status：author_verified_candidate_requires_nonauthor_review
+reality_validation：false
+
+5. TW05
+算法标识：TW05
+name：完整H到当前主题
+source：原WT2整盘源/功能门与稳健承载辅助；原theme-projection0.2合同。
+来源层次：本版软件接合工程规则；原典和数值算法逐字复用原898，本版不新增传统定理。
+tradition_profile：ziping-world-library-primary-provisional-v1；实际分析法Current-WT2-QF-whole0.1
+conditions：实际全部硬门通过，完整辅助仅一个元素且所有备选完整保留，才构造独立当前主题。
+exclusions：联合/备选多元素不擅排主次、不取第一项，不把计算出来的无序H写成从未判断。
+change_conditions：原典来源profile仍为所选profile；新分析方法id+version进入独立method.version和证据，不重贴旧口径结果。
+conflict_resolution：实际完整源/功能硬门优先；不可比与无判断不同；运行执行冻结方法，分歧留原报告。
+algorithm_explanation：原典来源profile仍为所选profile；新分析方法id+version进入独立method.version和证据，不重贴旧口径结果。
+implementation_refs：[
+  {
+    "symbol": "build_theme",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 135,
+    "end_line": 152,
+    "AST_sha256": "dd00628f783510a0c38ca436aea1b0681a6cd8c4bbb2102547f69de0794e66e4"
+  },
+  {
+    "symbol": "evaluate_frame",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 154,
+    "end_line": 178,
+    "AST_sha256": "c2bbc18ac970b664eab6d3d81591f88d42c3327c3272e277ef81633af25db2c5"
+  }
+]
+validation_artifact：native_behavior_actual.json
+status：author_verified_candidate_requires_nonauthor_review
+reality_validation：false
+
+6. TW06
+算法标识：TW06
+name：已知值与前后比较
+source：用户已确认事件反馈、明确依据才更新；复用117已采纳修复。
+来源层次：本版软件接合工程规则；原典和数值算法逐字复用原898，本版不新增传统定理。
+tradition_profile：ziping-world-library-primary-provisional-v1；实际分析法Current-WT2-QF-whole0.1
+conditions：同完整主体、原方法、chart和本版固定实际分析法，才能比较。
+exclusions：当前未决保原显示指令；身份改变不可比；硬错由预检拒绝。
+change_conditions：当前已知/旧软未决可显示当前值，但不判变化或相同；两边都明确且可比才判same/change。
+conflict_resolution：实际完整源/功能硬门优先；不可比与无判断不同；运行执行冻结方法，分歧留原报告。
+algorithm_explanation：当前已知/旧软未决可显示当前值，但不判变化或相同；两边都明确且可比才判same/change。
+implementation_refs：[
+  {
+    "symbol": "evaluate",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 180,
+    "end_line": 196,
+    "AST_sha256": "c4f60e5b5cabebb6de4e4267e8ccc88e630eaab9feee5509a5592bf26d75b52e"
+  }
+]
+validation_artifact：glue_behavior_actual.json
+status：author_verified_candidate_requires_nonauthor_review
+reality_validation：false
+
+7. TW07
+算法标识：TW07
+name：复现与失败出口
+source：原项目CLI及错误分层约定。
+来源层次：本版软件接合工程规则；原典和数值算法逐字复用原898，本版不新增传统定理。
+tradition_profile：ziping-world-library-primary-provisional-v1；实际分析法Current-WT2-QF-whole0.1
+conditions：标准输入唯一严格JSON，输出规范JSON；同输入和同冻结版本一致。
+exclusions：输入错误返回2；不能将异常、缺项或未决冒作无作用。
+change_conditions：本版不写原始B，不调用P/C20/RGB；当前判断、旧方法原局、新方法原局分别保留。
+conflict_resolution：实际完整源/功能硬门优先；不可比与无判断不同；运行执行冻结方法，分歧留原报告。
+algorithm_explanation：本版不写原始B，不调用P/C20/RGB；当前判断、旧方法原局、新方法原局分别保留。
+implementation_refs：[
+  {
+    "symbol": "main",
+    "file": "current_WT2_window.py",
+    "file_sha256": "9cee70518af9f6ee85e074abdff61dcdeb820776bdb8a5646ceb42a15dd39314",
+    "line": 198,
+    "end_line": 208,
+    "AST_sha256": "e5b6f03d260abebbd85c51c1ec5a1e1a9df2934ba9dc97f4d16537bdde034792"
+  }
+]
+validation_artifact：main_glue_actual.json
+status：author_verified_candidate_requires_nonauthor_review
+reality_validation：false
+

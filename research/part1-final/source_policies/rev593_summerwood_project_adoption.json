@@ -1,0 +1,103 @@
+{
+  "schema": "593-exact590-after592-summerwood-adoption/1",
+  "revision": 593,
+  "status": "adopted_exact590_after592_finite_summerwood_source_paths",
+  "saved_utc": "2026-11-03T16:41:17.759158+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev590_author_completion_handoff.json",
+    "bytes": 3032,
+    "sha256": "23ecd9a3c5351c211024cda9850e3343c10a54aca1375883ce408754b5933c98"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev592_independent_completion_handoff.json",
+    "bytes": 1057,
+    "sha256": "9b1cc6bdae9131a50469e7a2c749a69449973c61376d7f88f24165530e3cae60"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev590_summer_wood_moist_dry",
+    "files": 57,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev590_summer_wood_moist_dry/manifest.json",
+      "bytes": 8606,
+      "sha256": "fe891708fee297f746552a9bd63e54875331fa33471580c7361c0abeb0bd7eb8"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev590_summer_wood_moist_dry/freeze.json",
+      "bytes": 136,
+      "sha256": "b0d96fb92a8a9958376fc494c51c9b7e77ad91d1e53e4c279968748d0ead78d0"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev592_independent_review590",
+    "files": 32,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev592_independent_review590/manifest.json",
+      "bytes": 4958,
+      "sha256": "3b6b5783bee13ed9a1025ab629fe6db77c903cc2eacadfae417a294174e80a24"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev592_independent_review590/freeze.json",
+      "bytes": 92,
+      "sha256": "03372625f54d8039355f48d1df3f97fc60aafb20f10232f518f7129033d64002"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev590_complete_runtime_kernel",
+      "files": 52,
+      "payload_files": 50,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev590_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 7807,
+        "sha256": "20a295f2efbf9fd72f7ed22e459b6f4d4a590fbebcf1b806abfb51d035e0df3b"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev590_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 143,
+        "sha256": "ca8a5e6a97a63c080e8b4a187bc3078e1303aa20826b14c9a11224cfeb4372f5"
+      },
+      "all_payload_bytes_SHA_verified": true
+    },
+    {
+      "directory": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/590 one complete readonly summerwood research vpxhr1rx/complete Ren260 source root functions with spaces",
+      "files": 52,
+      "payload_files": 50,
+      "manifest": {
+        "path": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/590 one complete readonly summerwood research vpxhr1rx/complete Ren260 source root functions with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 7807,
+        "sha256": "20a295f2efbf9fd72f7ed22e459b6f4d4a590fbebcf1b806abfb51d035e0df3b"
+      },
+      "freeze": {
+        "path": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/590 one complete readonly summerwood research vpxhr1rx/complete Ren260 source root functions with spaces/DELIVERY_FREEZE.json",
+        "bytes": 143,
+        "sha256": "ca8a5e6a97a63c080e8b4a187bc3078e1303aa20826b14c9a11224cfeb4372f5"
+      },
+      "all_payload_bytes_SHA_verified": true
+    }
+  ],
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev593_summerwood_effective_rule_cards.json",
+    "bytes": 9799,
+    "sha256": "2dbe00256f8510f1edcf46c488dd811eb513141050fd82c47916f83039b0fe7f"
+  },
+  "all49_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev590_summer_wood_moist_dry/algorithm_explanations_all49.json",
+    "bytes": 72860,
+    "sha256": "577522352915c40e1e90dd2421c507d24025dd9c7acd720159eb116efe597dfe"
+  },
+  "scope": "两注册午月木日人工原盘、natal/壬子/癸亥/己丑/戊辰/己未/戊戌及四率；局部源R/W/D1/D2和完整净变化分题。",
+  "source_text_vs_hiddenroot_engineering_distinct": true,
+  "source_presence_not_universal_innerweakness_certificate": true,
+  "no_new_soil_to_wood_or_fire_edges": true,
+  "local_wet_support_does_not_force_whole_fire_decrease": true,
+  "all_source_actor_weights_and_fees_retained": true,
+  "independent_initial_metric_error_corrected_analytically_after1_candidateworld": true,
+  "all_original_C03_complete": false,
+  "original_task_complete": false,
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "no_B_or_display": true,
+  "real_prediction_verified": false
+}

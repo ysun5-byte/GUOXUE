@@ -1,0 +1,161 @@
+{
+  "schema": "source-qualified-Jiase-ChenWei-whole-mechanism-adoption-0.1",
+  "revision": 401,
+  "registered_utc": "2026-11-02T21:49:09.542475+00:00",
+  "status": "adopted_exact384_ChenWei_one_official_wood_fixed_actualworld_credit_after390",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev384_Sanming_Jiase_onewood_whole",
+      "files": 70,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev384_Sanming_Jiase_onewood_whole/manifest.json",
+        "bytes": 10958,
+        "sha256": "6fce0dd127ee59ab17243508db276b250d776c1f7c1d4790c0eea0e58eaef1ca"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev384_Sanming_Jiase_onewood_whole/freeze.json",
+        "bytes": 351,
+        "sha256": "40be2532a0f9c5750b2cd6b721e922d762123bb308270047f8dc5b02c90d48da"
+      },
+      "all_payload_SHA_bytes_checked_by_root": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev390_Jiase_onewood_independent",
+      "files": 56,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev390_Jiase_onewood_independent/manifest.json",
+        "bytes": 8342,
+        "sha256": "ddaed8fe2fb3e4eab1d6b9139f1528113b8ecd1104362a931e925c8c30aed147"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev390_Jiase_onewood_independent/freeze.json",
+        "bytes": 502,
+        "sha256": "67ff536b9b0b7b66f7cf74316fd706cbf653940e2c1f15015e6b67489b1678d5"
+      },
+      "all_payload_SHA_bytes_checked_by_root": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev384_author_completion_handoff.json",
+    "bytes": 1755,
+    "sha256": "5214de4c1c4a31fdcbc558204b876bc9f1d13f3f7acde9b7c917348361a580ba"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev390_independent_completion_handoff.json",
+    "bytes": 3198,
+    "sha256": "5356091982612c0b68db5674a63553b89ea3fc9f0ba376b04c35c2e611f83cbd"
+  },
+  "source": {
+    "book": "三命通会NLC42998扫描卷六",
+    "actual_visual_pages": [
+      154,
+      155,
+      156
+    ],
+    "correct_printed_leaves": [
+      33,
+      34,
+      35
+    ],
+    "309_prior_wrong_leaf32_kept_historical": true,
+    "body": "戊己四季月/喜木为官、止一木为妙、木多土虚；辰未见巳午附加有利，火过土燥；丑戌与秋冬及附诗另层。"
+  },
+  "bounded_scope": {
+    "day": "戊/己",
+    "month": "辰/未",
+    "branches": "至少三处辰未、无丑戌的保守土聚族",
+    "wood_entry": "恰一明透正官木；根与实际木容量上下限仍须计算，不数每藏乙为多木。",
+    "entry_is_engineered_sufficient_domain_not_ancient_full_necessary_sufficient": true
+  },
+  "model": {
+    "all_visible_hidden_and_roots_kept": true,
+    "all_same_current_signed_actions_and_costs": true,
+    "physical_recipient_absent_no_invented_actor": true,
+    "pool_not_actorlocal_conservation": true,
+    "equation": "x_i=max(0,(d_i+b*x_parent-c*x_controller)/a_i); a_i=1+b*生目标存在+c*克目标存在",
+    "exact_active_faces": 32,
+    "contraction_at_most": "2/3",
+    "independent_origin_linear_closure": true,
+    "inventory": "主属1/余属1/4/月3/2/明干浮源1；全部为明示工程，不认证土十二宫或古籍气量。"
+  },
+  "separate_goals": {
+    "quantity": "T>0、覆盖木金、保至少半直接土库存",
+    "quality": "dry=max(0,F/4-W/2);wet=max(0,W/4-T/2);Q=max(0,T-dry-wet);Q>=3T/4",
+    "wood_total": "cB in [T/32,T/4]",
+    "selected_official_credit": "被选同正官干真实作用之和>=T/32",
+    "extra_fire": "先核心成立、实有巳午、火生土信用>=T/32且质量合格；不覆盖无巳午时核心判断",
+    "all_numeric_thresholds_engineering": true
+  },
+  "H_semantics": "固定实际全状态下全部非负正功能信用子集；不删除实体、不改全物理世界，也不冒所选子集另造一套现量。完整CNF为解释题投影，实际全signed图另存。",
+  "whole_method_conclusion": "土主体数量/质量及完整生克通过，木为本方法必要核心辅助；巳午火为条件性附加，不固定木火共同必需。未由一个用官字直接导出B。",
+  "nominal_synthetic_case": {
+    "raw": [
+      "丙辰",
+      "乙未",
+      "戊辰",
+      "戊午"
+    ],
+    "actors": 15,
+    "signed_edges": 80,
+    "credit_subsets": 128,
+    "current_B_F_T_M_W": [
+      "5/4",
+      "43/20",
+      "239/50",
+      "0",
+      "0"
+    ],
+    "main_H": 4,
+    "optional_fire_H": 8,
+    "not_book_case_or_realworld_validation": true
+  },
+  "verification": {
+    "source_full_three_pages": true,
+    "author_preplanned_raw": 5,
+    "author_reserved": 2,
+    "new_independent_raw": 2,
+    "new_exact_halfstep_boundaries": 9,
+    "whole_H_and_origins_edges_budgets_reconstructed": true,
+    "bidirectional_quantity_quality_isolation": "量足仅Q失效；另一真实巳庚结构上的人工库存[1,1,2,3,1/2]仅土覆盖木金失效，非新命例。",
+    "sensitivity": "低高参数完整H及质量系数变化如实保存，未称连续箱H全不变。",
+    "functions": 43,
+    "new": 20,
+    "exact_AST_reuse": 23,
+    "actual_IO": 40,
+    "legacy_unexecuted": 3,
+    "independent_bad_source": 8,
+    "all_provider_exec_before_bad": 0,
+    "clean_provider_exec": 4,
+    "strict": 13
+  },
+  "native": {
+    "new_Jia_root_andwater": {
+      "bytes": 209320,
+      "sha256": "24b1e47d8653ddae0af661474666a209e695b01828a9631e0a341074623aa610"
+    },
+    "new_two_Bing_noSiWu": {
+      "bytes": 216619,
+      "sha256": "93f389acf7366c1037ab066dc9e2011993e382a01f6f370bc57d8b0ae0e36d86"
+    },
+    "original": {
+      "bytes": 171237,
+      "sha256": "ac3b8a25c4890d3ed13436d13f073acd9e0a27f7cf92eac533cdab1fc83a7a5d"
+    }
+  },
+  "transport": "原70及既存完整副本新API/CLI全字节一致；两盘原生SHA固定；前后70全SHA不变，旧root访问0/包写0，负控制双拦。",
+  "first_failures_kept": "309页脚偏一、首数量门蕴含质量门已修、作者纸算字段/43vs44标签准备错误留历史。390未发现当前有限域新实质缺陷。",
+  "known_limits": [
+    "丑戌/秋冬/附诗异说、其它土聚域与跨格局/扶抑/调候主次未统一。",
+    "一明透正官是本工程明确入口，不是穷尽原文所有一木情况。",
+    "main已声明OSError/ArithmeticError捕捉限制保留，不声称所有源故障均原子错误JSON。",
+    "数值质量不是真湿度；source贵级后件未拿来拟合现实官位。"
+  ],
+  "all_original_Jiase_complete": false,
+  "all_C02_complete": false,
+  "no_B_theme_or_display_export": true,
+  "default_B155_or_weights_changed": false,
+  "real_prediction_validated": false,
+  "original_task_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

@@ -1,0 +1,1889 @@
+己未燥土伤官助劫同费容量限制
+rev572_Ren374_dry_soil_injury_peer
+所属原模块：C03
+当前采用：rev581_Ren374_drysoil_project_adoption.json
+范围：adopted_exact572_after580_finite_Ren374_JiWei_dry_soil_routing_cap
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev572_Ren374_dry_soil_injury_peer/algorithm_explanations_all48.json
+SHA256：1f5915b61309f460696f13bee8522f860706153ce7b1bee0d22f7f6f9c4332f0
+
+1. current.py:canonical
+算法标识：current.py:canonical
+path：current.py
+line：11
+函数AST摘要：0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/current.py",
+  "bytes": 5892,
+  "sha256": "8e80691e8d3b863fca92da1ea8f7830c5118d8acceb9faf0a918428397cde45f"
+}
+参数：[
+  "value"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "稳定JSON文字",
+  "inputs": "JSON兼容值",
+  "operations": "排序键、紧凑、非ASCII原样、allow_nan=False",
+  "outputs": "str或类型/非有限异常",
+  "preconditions_and_limits": "不做UTF8编码，不认证内容。"
+}
+精确复用旧版记录：{
+  "record": "qi.py:canonical",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:canonical"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+2. current.py:strict_load
+算法标识：current.py:strict_load
+path：current.py
+line：14
+函数AST摘要：8d5a868d238377e001b05cab6fe086573bebe7758cd8d3c0c71239924d02f80e
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/current.py",
+  "bytes": 5892,
+  "sha256": "8e80691e8d3b863fca92da1ea8f7830c5118d8acceb9faf0a918428397cde45f"
+}
+参数：[
+  "raw"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "有限JSON解析",
+  "inputs": "str最多5000字符",
+  "operations": "json.loads，重复键callback和非有限callback拒绝",
+  "outputs": "解析值或异常",
+  "preconditions_and_limits": "Unicode代理由scalar_tree而非本解析器拒绝；CLI先严格UTF8。"
+}
+精确复用旧版记录：{
+  "record": "qi.py:strict_load",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "8d5a868d238377e001b05cab6fe086573bebe7758cd8d3c0c71239924d02f80e"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:strict_load"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+3. current.py:strict_load.pairs
+算法标识：current.py:strict_load.pairs
+path：current.py
+line：16
+函数AST摘要：9821bdaa719a02380897afdb888e878803c58c11b2f29d7b41bd5e490f356f81
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/current.py",
+  "bytes": 5892,
+  "sha256": "8e80691e8d3b863fca92da1ea8f7830c5118d8acceb9faf0a918428397cde45f"
+}
+参数：[
+  "items"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "逐对象拒重复键",
+  "inputs": "解析器键值对",
+  "operations": "逐键已存在即ValueError，否则保原值",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "不做source/schema/四柱判断。"
+}
+精确复用旧版记录：{
+  "record": "qi.py:strict_load.<locals>.pairs",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "9821bdaa719a02380897afdb888e878803c58c11b2f29d7b41bd5e490f356f81"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:strict_load.pairs"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+4. current.py:strict_load.constant
+算法标识：current.py:strict_load.constant
+path：current.py
+line：22
+函数AST摘要：d6404d7b01f302ae0a93185cd23daf9d6e241a6fa548716b3bc3f7e57c850e3b
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/current.py",
+  "bytes": 5892,
+  "sha256": "8e80691e8d3b863fca92da1ea8f7830c5118d8acceb9faf0a918428397cde45f"
+}
+参数：[
+  "value"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "拒NaN/Infinity",
+  "inputs": "非有限JSON token",
+  "operations": "恒抛ValueError",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "trace return-event None和异常事件一起保存，不假报正常None。"
+}
+精确复用旧版记录：{
+  "record": "qi.py:strict_load.<locals>.constant",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "d6404d7b01f302ae0a93185cd23daf9d6e241a6fa548716b3bc3f7e57c850e3b"
+}
+本版实际输入输出记录：null
+本版未执行情况：精确旧合同保留，当前新入口不调用；不伪造本次IO。
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+5. current.py:scalar_tree
+算法标识：current.py:scalar_tree
+path：current.py
+line：25
+函数AST摘要：42eab752ffe8da79bdda67913092a56dbc647d85f8a868d346adc3e6d366c453
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/current.py",
+  "bytes": 5892,
+  "sha256": "8e80691e8d3b863fca92da1ea8f7830c5118d8acceb9faf0a918428397cde45f"
+}
+参数：[
+  "value",
+  "depth"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "有限API树和Unicode检查",
+  "inputs": "request/depth",
+  "operations": "深度<=20、字串<=5000且无代理、dict/list<=20、键str、只JSON类型、float有限",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "guard在先；不负责四柱干支源含义。"
+}
+精确复用旧版记录：{
+  "record": "qi.py:scalar_tree",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "42eab752ffe8da79bdda67913092a56dbc647d85f8a868d346adc3e6d366c453"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:scalar_tree"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+6. current.py:load
+算法标识：current.py:load
+path：current.py
+line：40
+函数AST摘要：d669cd8300a4894b8762903afcf1781b2918dbdec5b272d1dd35e1a0e17fd0ae
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/current.py",
+  "bytes": 5892,
+  "sha256": "8e80691e8d3b863fca92da1ea8f7830c5118d8acceb9faf0a918428397cde45f"
+}
+参数：[
+  "name",
+  "relative",
+  "material"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "加载一份内存provider",
+  "inputs": "名称/相对名/material",
+  "operations": "新ModuleType设__file__，compile caller给的material bytes后exec",
+  "outputs": "模块",
+  "preconditions_and_limits": "已核material是caller guard前提，本函数自己不验证SHA或来源；不注册sys.modules。"
+}
+精确复用旧版记录：{
+  "record": "qi.py:load",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "d669cd8300a4894b8762903afcf1781b2918dbdec5b272d1dd35e1a0e17fd0ae"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:load"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+7. current.py:guard
+算法标识：current.py:guard
+path：current.py
+line：45
+函数AST摘要：1e42ed635e37a66a35c18494f68d37f2f05de546f01b269ef67e65a73aedfebb
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/current.py",
+  "bytes": 5892,
+  "sha256": "8e80691e8d3b863fca92da1ea8f7830c5118d8acceb9faf0a918428397cde45f"
+}
+参数：[]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "在任何模型执行前固定版本材料",
+  "inputs": "当前lock和12项材料字节，425采用记录",
+  "operations": "核lock、精确运行/来源库存、包内正规文件及每项长度/SHA，最后核原425状态",
+  "outputs": "12项实际bytes字典；任意不符拒绝",
+  "preconditions_and_limits": "字节身份不证明书句为真；错误先于5模型执行。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:guard"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+8. current.py:evaluate
+算法标识：current.py:evaluate
+path：current.py
+line：61
+函数AST摘要：534b5f1f2c62e3b92d2e2d3fd9cff8b3bf571fbaad9edd3153d54d4f3a2817c6
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/current.py",
+  "bytes": 5892,
+  "sha256": "8e80691e8d3b863fca92da1ea8f7830c5118d8acceb9faf0a918428397cde45f"
+}
+参数：[
+  "request"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "按明确方法完成原374燥土有限源题",
+  "inputs": "精确六字段请求、三个旧profile、三种theta方法、三个事件、原四柱",
+  "operations": "先guard/树与方法核，再载5模块，核四柱；构建原415全库存，执行新cap和旧完整H",
+  "outputs": "全部实际图、S/N及金水原题，或合法其他盘明确未用此源",
+  "preconditions_and_limits": "不提供真实历法/完整五时运或全局传统喜用；不凭S/N导基础B。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:evaluate"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+9. current.py:main
+算法标识：current.py:main
+path：current.py
+line：75
+函数AST摘要：2189a5901559a972d78635a09354252819a1db2613cabe9c95c39bbd6314b200
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/current.py",
+  "bytes": 5892,
+  "sha256": "8e80691e8d3b863fca92da1ea8f7830c5118d8acceb9faf0a918428397cde45f"
+}
+参数：[]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "提供与API一致的完整命令行",
+  "inputs": "有界UTF8 JSON stdin",
+  "operations": "字节有界、严格UTF8/重复键/非有限拒，evaluate后canonical；失败整次拒",
+  "outputs": "一份完整结果加LF，退出0；异常明确整次拒退出2",
+  "preconditions_and_limits": "不生成部分成功；类型与Unicode错误不进入数学。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "current.py:main"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+10. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+path：runtime/auxiliary_selector.py
+line：16
+函数AST摘要：3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "value"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work.",
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:bounded",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:bounded"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+11. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+path：runtime/auxiliary_selector.py
+line：38
+函数AST摘要：8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "value",
+  "required",
+  "optional"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Require an exact allowed object field set.",
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:shape",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:shape"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+12. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+path：runtime/auxiliary_selector.py
+line：43
+函数AST摘要：2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "value"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Require a nonempty string field.",
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:string",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:string"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+13. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+path：runtime/auxiliary_selector.py
+line：48
+函数AST摘要：a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "value"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Require actual bool instead of truthy/coercible values.",
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:boolean",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:boolean"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+14. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+path：runtime/auxiliary_selector.py
+line：53
+函数AST摘要：2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "request",
+  "nested"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request.",
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:validate",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:validate"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+15. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+path：runtime/auxiliary_selector.py
+line：135
+函数AST摘要：ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "request"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Check that every declared graph-scope obligation is marked complete.",
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:closed",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:closed"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+16. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+path：runtime/auxiliary_selector.py
+line：139
+函数AST摘要：710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "request"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Determine whether a required actual goal or global check still blocks selection.",
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:hard_failure",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:hard_failure"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+17. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+path：runtime/auxiliary_selector.py
+line：144
+函数AST摘要：86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "request",
+  "actor_map",
+  "goal_map"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions.",
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:repair_candidates",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:repair_candidates"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+18. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+path：runtime/auxiliary_selector.py
+line：184
+函数AST摘要：ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "eligible",
+  "coverage",
+  "required"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal.",
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:minimal_covers",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:minimal_covers"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+19. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+path：runtime/auxiliary_selector.py
+line：197
+函数AST摘要：dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "left",
+  "right",
+  "actors",
+  "preferences"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution.",
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:prefer",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f"
+}
+本版实际输入输出记录：null
+本版未执行情况：精确旧合同保留，当前新入口不调用；不伪造本次IO。
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+20. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+path：runtime/auxiliary_selector.py
+line：206
+函数AST摘要：255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "sets",
+  "actors",
+  "preferences"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle.",
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:preference_frontier",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:preference_frontier"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+21. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+path：runtime/auxiliary_selector.py
+line：224
+函数AST摘要：8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "request"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms.",
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "Base result fields are version, semantic_scope, source_and_scope_bindings_independently_validated, positive_current_tasks, all_current_actors_preserved, all_tasks_preserved, actual_goals_preserved, actual_global_checks_preserved, unmet_task_repair_candidates, needed_absent_directions, luck_directions_separate, selected_current_auxiliary_sets, common_selected_actors, final_whole_chart_auxiliary_elements, final_priority, B and warning; status is added on every return. The incomplete-scope and hard-failure branches leave selection fields None. The no-active-target branch sets selected_current_auxiliary_sets=[] and also returns positive_background_tasks. The active-target branch additionally returns qualified_coverage, all_inclusion_minimal_explanation_sets, preference_edges_by_set_index, preference_cycle_undecided and positive_background_tasks, and fills selected/common actor fields. Input schema, mode and scope are not returned. In415 the full input CNF projection is separately saved at whole.complete_function_H.native.bounded_native_parts[index].full_native_graph; background_inventory_native_reports are separate. None is the complete physical graph, which is saved at whole.actual_full_signed_graph. select itself does not return input schema/mode/scope or full_native_graph.",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:select",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:select"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+22. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+path：runtime/auxiliary_selector.py
+line：272
+函数AST摘要：7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "pairs"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser.",
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:strict_pairs",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f"
+}
+本版实际输入输出记录：null
+本版未执行情况：精确旧合同保留，当前新入口不调用；不伪造本次IO。
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+23. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+path：runtime/auxiliary_selector.py
+line：280
+函数AST摘要：d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[
+  "value"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing.",
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:reject_constant",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6"
+}
+本版实际输入输出记录：null
+本版未执行情况：精确旧合同保留，当前新入口不调用；不伪造本次IO。
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+24. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+path：runtime/auxiliary_selector.py
+line：284
+函数AST摘要：96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/auxiliary_selector.py",
+  "bytes": 16035,
+  "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f"
+}
+参数：[]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol.",
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main."
+}
+精确复用旧版记录：{
+  "record": "runtime/auxiliary_selector.py:main",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1"
+}
+本版实际输入输出记录：null
+本版未执行情况：精确旧合同保留，当前新入口不调用；不伪造本次IO。
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+25. runtime/dry_soil_core.py:dry_budget
+算法标识：runtime/dry_soil_core.py:dry_budget
+path：runtime/dry_soil_core.py
+line：12
+函数AST摘要：ad80e0fc1decc86dcfba458fdc26d04d93834ce18c192a417ffe5d88bcf0e97c
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/dry_soil_core.py",
+  "bytes": 7064,
+  "sha256": "26bbd65be138b30d5a0d05b2f45bf4cc5ebf98c9bfc948c4d8dd69db1a2018aa"
+}
+参数：[
+  "base",
+  "theta",
+  "legacy"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "给土控制预算引化增加具名燥土容量",
+  "inputs": "原完整base、exact theta与旧rates模块",
+  "operations": "theta0..1；新未土两actor份额s求和；cap=c*(1-theta*s)，验各min面收缩界不超过旧globalL",
+  "outputs": "含cap、s、theta、两面界的原rates扩展",
+  "preconditions_and_limits": "static份额为工程代理；旧b*T常规生金保，非燥土一律不生金。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/dry_soil_core.py:dry_budget"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+26. runtime/dry_soil_core.py:solve
+算法标识：runtime/dry_soil_core.py:solve
+path：runtime/dry_soil_core.py
+line：25
+函数AST摘要：a2162eae60c8415229a15288648a5ad2d890b1002b7f8478feb421fe5702d380
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/dry_soil_core.py",
+  "bytes": 7064,
+  "sha256": "26bbd65be138b30d5a0d05b2f45bf4cc5ebf98c9bfc948c4d8dd69db1a2018aa"
+}
+参数：[
+  "base",
+  "theta",
+  "math",
+  "legacy",
+  "routing",
+  "metal_birth"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "在原全生克与费用下求新容量固定点",
+  "inputs": "base/theta/math/legacy及route、metalbirth开关",
+  "operations": "两个min面乘32非负面，高斯有理解全部5池；逐项代回非负固定点；u=min(cap*T,k*M)",
+  "outputs": "同一世界现量、实际生成/控制率、u、面与唯一证书",
+  "preconditions_and_limits": "切作用不删根/演员/float；土发送总费始终(b+c)*T，不调参拟合结局。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/dry_soil_core.py:solve"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+27. runtime/dry_soil_core.py:source_metrics
+算法标识：runtime/dry_soil_core.py:source_metrics
+path：runtime/dry_soil_core.py
+line：48
+函数AST摘要：f785f2a6330985c19310d1bdf39de73b50c44eba8ac03869f6ba8ad5fbc4d650
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/dry_soil_core.py",
+  "bytes": 7064,
+  "sha256": "26bbd65be138b30d5a0d05b2f45bf4cc5ebf98c9bfc948c4d8dd69db1a2018aa"
+}
+参数：[
+  "base",
+  "world",
+  "ports",
+  "graph"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "辨别新增未土演员与来源共同的实际伤水助火",
+  "inputs": "同世界base、world、ports、完整实际graph",
+  "operations": "只取注册新土actor→水控制边，在控制者来源中累计新土root/float；另算全部土损水、原丙终留/原float源及新增丁",
+  "outputs": "S每个条件、总与新源/旧源贡献、原丙与丁留存",
+  "preconditions_and_limits": "实际控制来源不可换成受损水来源；此为工程源见证，非古法普遍必要或死亡预测。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/dry_soil_core.py:source_metrics"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+28. runtime/dry_soil_core.py:net_question
+算法标识：runtime/dry_soil_core.py:net_question
+path：runtime/dry_soil_core.py
+line：57
+函数AST摘要：81c608b2a7aea37f2dae81906548456b14012a20514b777e734a8e15d9d9e590
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/dry_soil_core.py",
+  "bytes": 7064,
+  "sha256": "26bbd65be138b30d5a0d05b2f45bf4cc5ebf98c9bfc948c4d8dd69db1a2018aa"
+}
+参数：[
+  "actual",
+  "baseline"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "区分本已有作用与新增容量限制的净收益",
+  "inputs": "当前完整S/作用量与同一库存同费theta0基线",
+  "operations": "S真，土损水不减，原两丙留存严格增且原丙float源留存不减且正",
+  "outputs": "N全条件及失败门，完整原基线",
+  "preconditions_and_limits": "theta0可以S真N假；不额外强求每条水伤火量下降或金水core必破。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/dry_soil_core.py:net_question"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+29. runtime/dry_soil_core.py:analyze
+算法标识：runtime/dry_soil_core.py:analyze
+path：runtime/dry_soil_core.py
+line：61
+函数AST摘要：9b803dc5b541d74332242054f08aaf701a286be3abbe24ecfe1524e2cf06196d
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/dry_soil_core.py",
+  "bytes": 7064,
+  "sha256": "26bbd65be138b30d5a0d05b2f45bf4cc5ebf98c9bfc948c4d8dd69db1a2018aa"
+}
+参数：[
+  "base",
+  "theta",
+  "math",
+  "aux",
+  "legacy"
+]
+条目分类：new_or_changed_substantive_contract
+算法解释：{
+  "purpose": "贯通新土质源题与原金水完整问题",
+  "inputs": "完整base、显式theta、math/aux/legacy模块",
+  "operations": "A、routeOff、metalBirthOff全图；需要时同库存theta0；取S/N；旧goals/全部H与native逐mask验证，再给原transfer同费benefit",
+  "outputs": "全world注册、S/N、旧H/完整core、原relations与解释范围",
+  "preconditions_and_limits": "新S/N与旧core分别报告；H集合不变成全局喜用，单事件不是已实现五层接口。"
+}
+精确复用旧版记录：null
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/dry_soil_core.py:analyze"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+30. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+path：runtime/foundation_facts.py
+line：39
+函数AST摘要：90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "stem"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "十干查五行",
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。"
+}
+精确复用旧版记录：{
+  "record": "runtime/foundation_facts.py:stem_element",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+31. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+path：runtime/foundation_facts.py
+line：45
+函数AST摘要：69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "day_stem",
+  "other_stem"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "严格十神角色",
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+}
+精确复用旧版记录：{
+  "record": "runtime/foundation_facts.py:ten_god",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+32. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+path：runtime/foundation_facts.py
+line：60
+函数AST摘要：2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "payload"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "原柱基础合法性",
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+}
+精确复用旧版记录：{
+  "record": "runtime/foundation_facts.py:validate",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+33. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+path：runtime/foundation_facts.py
+line：104
+函数AST摘要：37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "pillars"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "保留有位置的形式合冲",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。"
+}
+精确复用旧版记录：{
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+34. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+path：runtime/foundation_facts.py
+line：121
+函数AST摘要：fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "stem",
+  "pillars"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+}
+精确复用旧版记录：{
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+35. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+path：runtime/foundation_facts.py
+line：148
+函数AST摘要：295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/foundation_facts.py",
+  "bytes": 11191,
+  "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+参数：[
+  "payload"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "原61完整四柱事实入口",
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+}
+精确复用旧版记录：{
+  "record": "runtime/foundation_facts.py:parse",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+36. runtime/qi_core.py:inventory
+算法标识：runtime/qi_core.py:inventory
+path：runtime/qi_core.py
+line：10
+函数AST摘要：fc5589b92c6bca64fa61bf862068d6c1aae1bb8eb773ca46bd64cbb9a96b903f
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "parsed",
+  "prior",
+  "profile",
+  "event",
+  "facts"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "保原14实体并完整增加具名运干支",
+  "inputs": "parsed/prior/profile/event/facts",
+  "operations": "每明藏位置十神保留；每actor每原/新支含0根行；原natal见证独立保、当前加入亥/未根与新明藏；同元素同origin最大一次；各actor资格毛和归一分同池",
+  "outputs": "actors/direct/weights/root_rows/params",
+  "preconditions_and_limits": "原14/亥17/未18演员，原56/运85或90根行；7/2等工程资格不当现实效力；不删乙/丙，不造巳。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:inventory",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "fc5589b92c6bca64fa61bf862068d6c1aae1bb8eb773ca46bd64cbb9a96b903f"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/qi_core.py:inventory"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+37. runtime/qi_core.py:rates
+算法标识：runtime/qi_core.py:rates
+path：runtime/qi_core.py
+line：43
+函数AST摘要：69b5e05775d877eeebe303376a744d469fa045d7fe07358f572d6c7d776b24cd
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "base"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "限制预算参数并给全域收缩界",
+  "inputs": "base.params的b,c,k",
+  "operations": "0<b,c<=1/3,0<k<=1/2；a=1+b+c，L=(b+c+max(c,k))/a<1",
+  "outputs": "rates或ValueError",
+  "preconditions_and_limits": "证明同current唯一，不认证古籍比例、整个连续箱H相同或现实效力。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:rates",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "69b5e05775d877eeebe303376a744d469fa045d7fe07358f572d6c7d776b24cd"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/qi_core.py:rates"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+38. runtime/qi_core.py:solve
+算法标识：runtime/qi_core.py:solve
+path：runtime/qi_core.py
+line：48
+函数AST摘要：3f98fca16ad768972da7f5df56d9d27b8923723d91dcc20dbcbab2c3bf10c0d7
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "base",
+  "math",
+  "routing",
+  "metal_birth"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "求土伤逢金财化的唯一五量状态",
+  "inputs": "base/math/routing/metal_birth诊断许可",
+  "operations": "u=min(cT,kM)两支各32非负面；有理高斯后精确代回原5式/min域；土生金bT+u、土克水cT-u，同土源总预算仍(b+c)T；其他生克同current",
+  "outputs": "current/u/5rates/活跃分支/收缩证书",
+  "preconditions_and_limits": "诊断停正信用仍花原预留预算；不是从革公式旋转、不是旧从杀入格。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:solve",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "3f98fca16ad768972da7f5df56d9d27b8923723d91dcc20dbcbab2c3bf10c0d7"
+}
+本版实际输入输出记录：null
+本版未执行情况：精确旧合同保留，当前新入口不调用；不伪造本次IO。
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+39. runtime/qi_core.py:reconstruct
+算法标识：runtime/qi_core.py:reconstruct
+path：runtime/qi_core.py
+line：74
+函数AST摘要：bccaf0e2eeefa9e44848ca4c17e57f7e07b0b2e55e55245bf0a359b574187ae2
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "base",
+  "world",
+  "ports"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "还原全部actor-origin正负、实际克损与预算",
+  "inputs": "base/world/origin_ports",
+  "operations": "每actorport=权重*同池origin；全部实际actor有向生/克对；克容量按目标min(gross,attack)/attack限幅；同土预算redirect单列；各actor-origin生预留+克预留=(b+c)current；五gross守账",
+  "outputs": "全边/actorports/五账/每源成本/实际克损和未用容量",
+  "preconditions_and_limits": "未用容量不退还；被选包外实体、零现量乙丙及原根仍在；质量/源事件未实现项不虚加算子。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:reconstruct",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "bccaf0e2eeefa9e44848ca4c17e57f7e07b0b2e55e55245bf0a359b574187ae2"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/qi_core.py:reconstruct"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+40. runtime/qi_core.py:consume_relations
+算法标识：runtime/qi_core.py:consume_relations
+path：runtime/qi_core.py
+line：107
+函数AST摘要：0fbeee60d1232cd882e08c90a6a6cbf9e36c96462e764d85f98c70c0f82faae7
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "base",
+  "graph"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "限定消费本源拱金及运输入名关系",
+  "inputs": "base/实际全signed graph",
+  "operations": "酉丑拱金只授原两支真实金资格并提取实际边，无巳/局bonus；亥运对两申害、未运对丑冲列源上下文与已有藏物生克；不重复名称力或自动删根",
+  "outputs": "形式关系和明确有限消费/实际边/适用边界",
+  "preconditions_and_limits": "不是通用合冲害零效力定理；庚燥土/辛埋金差异明列继续C03，不能称本均质模型已复现。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:consume_relations",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "0fbeee60d1232cd882e08c90a6a6cbf9e36c96462e764d85f98c70c0f82faae7"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/qi_core.py:consume_relations"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+41. runtime/qi_core.py:goals
+算法标识：runtime/qi_core.py:goals
+path：runtime/qi_core.py
+line：115
+函数AST摘要：0f02eeb253b714a192e5a79cfadab17914a556f4f494be68060ea51531f1e93d
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "base",
+  "world",
+  "ports",
+  "graph"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "完整金水势、实际印比反馈与同路径门",
+  "inputs": "base/world/ports/graph",
+  "operations": "金水活根；M+W>=2(B+F)；金实际制印>0、实际水克损>=F、bB<cW；土输入真且u>=cT/2，两段生路真；给路径/实际制印一半/制火及两核心载量四分之一门",
+  "outputs": "checks/complete_actual/完整floors及实际任务量",
+  "preconditions_and_limits": "不将金单独压过印全部current当从气必要门；数门均工程充分题。水制火门max(F,lossF/4)后半由载量门同池份额>=1/4蕴含，不是新增拟合门。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:goals",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "0f02eeb253b714a192e5a79cfadab17914a556f4f494be68060ea51531f1e93d"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/qi_core.py:goals"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+42. runtime/qi_core.py:complete_H
+算法标识：runtime/qi_core.py:complete_H
+path：runtime/qi_core.py
+line：128
+函数AST摘要：db1a3e86d89138137f67b7a7502fd08e1cc7756378fcce6667ba319a1bca04dd
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "base",
+  "g",
+  "world"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "枚举同一世界全部同股土金水功能解释",
+  "inputs": "base/goal/world",
+  "operations": "全11或13候选全部2048/8192子集；同股u*st*sm及twohop*st*sm*sw；选金制印、选水制火与核心载量均核；成功包含极小、失败包含极大补CNF",
+  "outputs": "全rows/全H/CNF/真数/版本",
+  "preconditions_and_limits": "乘积只因本共池目标权重和同比保留，非一般图定理；H土是输入不自动喜土；不删除演员或重解物理。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:complete_H",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "db1a3e86d89138137f67b7a7502fd08e1cc7756378fcce6667ba319a1bca04dd"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/qi_core.py:complete_H"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+43. runtime/qi_core.py:origin_ports
+算法标识：runtime/qi_core.py:origin_ports
+path：runtime/qi_core.py
+line：143
+函数AST摘要：c13fb4f80335acbb47cb634f9fcab7791ff6a622301926f8c303e69fd5dfa831
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "base",
+  "world",
+  "math"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "同解每个origin全部生路追踪",
+  "inputs": "base/world/math",
+  "operations": "gross=d+实际g_parent*x_parent；rho=current/gross；逐origin多右端解o_i=rho_i(d_i,o+g_parent*o_parent)，核非负、逐式及和=current；本版土实际生率b+u/T",
+  "outputs": "pools/gross/retention/origin_L",
+  "preconditions_and_limits": "函数AST精确复用392；这里只更新任务背景，由木改道变为土改道。控制不把被克量转给控制者，不能跨world拼信用。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:origin_ports",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "c13fb4f80335acbb47cb634f9fcab7791ff6a622301926f8c303e69fd5dfa831"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/qi_core.py:origin_ports"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+44. runtime/qi_core.py:native_H
+算法标识：runtime/qi_core.py:native_H
+path：runtime/qi_core.py
+line：157
+函数AST摘要：d94df10677f8e8be178df5ca63eb49253a47a646dd01edc546c24e36c53fddeb
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "base",
+  "logic",
+  "aux",
+  "actual_met",
+  "all_rows",
+  "row_key"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "在旧AUX限额内保全部376等全局替代",
+  "inputs": "base/logic/AUX/actual_met/all_rows/row_key",
+  "operations": "CNF最多2子句一块；全部可选<=16 actor保在每块，背景单列inventory-only；原select后分配全部OR并集再极小化；每mask核原native实际coverage及hard status的AND真值",
+  "outputs": "全native分块输入输出/全部极小并集/逐mask证/背景报告",
+  "preconditions_and_limits": "2子句极小集最多单项+两项<=16+C(16,2)=136<256旧界；全局H可376不截断。投影不是完整物理图，背景报告不是合取或默认成功。 本题u和cT/2严格正，空选必失败；不把任意all-true CNF/空覆盖题作为本函数独立支持域。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:native_H",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "d94df10677f8e8be178df5ca63eb49253a47a646dd01edc546c24e36c53fddeb"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/qi_core.py:native_H"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+45. runtime/qi_core.py:analyze
+算法标识：runtime/qi_core.py:analyze
+path：runtime/qi_core.py
+line：207
+函数AST摘要：40b196043c350e573fb1e8e7d07a15aa626bf19a0a650109f2d7a4e86aaf86ca
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "base",
+  "math",
+  "aux",
+  "natal_base"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "完整共同金水源题与实际变化桥",
+  "inputs": "base/math/AUX/可选natal_base",
+  "operations": "实解->origin->全图->goals->全H/native；另两同预算world关土引通或金生水正信用；W/金水共同势增强且火不增再桥金水共同核心；运与同参数原盘独立比较",
+  "outputs": "完整world/OR-H/对照world/关系/源运变化/有限结论",
+  "preconditions_and_limits": "木可能因水生反增而火仍受制，必须披露不强迫印缩。己未火恢复不等结构必破/死亡；名义土残克水0则明确土伤官助劫特定通路未认证，C03不删。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:analyze",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "40b196043c350e573fb1e8e7d07a15aa626bf19a0a650109f2d7a4e86aaf86ca"
+}
+本版实际输入输出记录：null
+本版未执行情况：精确旧合同保留，当前新入口不调用；不伪造本次IO。
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+46. runtime/qi_core.py:evaluate
+算法标识：runtime/qi_core.py:evaluate
+path：runtime/qi_core.py
+line：236
+函数AST摘要：2868ed43b3dc6464adf84d17349c6fbe82bccb36a85bae04c48d7136ed8aec66
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/qi_core.py",
+  "bytes": 25412,
+  "sha256": "36161cc89cbd274036a227172f5d99d7d19920c988c9e3624afdbd260dd982db"
+}
+参数：[
+  "request",
+  "prior",
+  "facts",
+  "math",
+  "aux"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "严格原始五字段源版本入口",
+  "inputs": "request/prior/facts/math/AUX",
+  "operations": "精确schema/source/profile/event；raw_pillars必须object；原parser合法性保持；合法其他盘保事实whole=None；精确原例建全演员，运另建同参原盘作比较，再analyze",
+  "outputs": "完整候选/原生非法事实/合法外域或指定异常",
+  "preconditions_and_limits": "raw列表是公共字段schema错exit2；object内非法四柱仍按原parser事实报告exit0；不冒全从气/全部时运。"
+}
+精确复用旧版记录：{
+  "record": "runtime/qi_core.py:evaluate",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "2868ed43b3dc6464adf84d17349c6fbe82bccb36a85bae04c48d7136ed8aec66"
+}
+本版实际输入输出记录：null
+本版未执行情况：精确旧合同保留，当前新入口不调用；不伪造本次IO。
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+47. runtime/shared_exact.py:pack
+算法标识：runtime/shared_exact.py:pack
+path：runtime/shared_exact.py
+line：3
+函数AST摘要：ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/shared_exact.py",
+  "bytes": 936,
+  "sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a"
+}
+参数：[
+  "x"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "将数学结构转为可重复JSON兼容值",
+  "inputs": "Fraction/字典/序列/集合等",
+  "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+  "outputs": "转换后的值",
+  "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。"
+}
+精确复用旧版记录：{
+  "record": "runtime/shared_exact.py:pack",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/shared_exact.py:pack"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+48. runtime/shared_exact.py:gauss
+算法标识：runtime/shared_exact.py:gauss
+path：runtime/shared_exact.py
+line：10
+函数AST摘要：4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec
+module：{
+  "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev572_Ren374_dry_soil_injury_peer/runtime/shared_exact.py",
+  "bytes": 936,
+  "sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a"
+}
+参数：[
+  "matrix",
+  "rhs"
+]
+条目分类：exact_old_AST_and_substantive_contract
+算法解释：{
+  "purpose": "精确多右端线性消元",
+  "inputs": "n×n有理系数及n行多列右端",
+  "operations": "逐列选非零枢轴、归一、消去其他行",
+  "outputs": "有理数解矩阵；奇异报ArithmeticError",
+  "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。"
+}
+精确复用旧版记录：{
+  "record": "runtime/shared_exact.py:gauss",
+  "artifact": "reference/exact415_function_contracts43.json",
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec"
+}
+本版实际输入输出记录：{
+  "artifact": "actual/first_complete_function_IO.json.gz",
+  "record": "runtime/shared_exact.py:gauss"
+}
+本版未执行情况：null
+本版范围：[
+  "旧core.solve/analyze/evaluate仍是415语义、当前主链改用dry_soil_core；保旧定义不冒新土质。",
+  "旧Ren73燥土脆金条件不能从庚春夏泛化到本冬丙；本版仅374土控制预算cap。",
+  "资料/算法/现实效果分开；没有B/手环显示或完整五层承诺代替。"
+]
+
+原件：work/rev581_Ren374_drysoil_effective_rule_cards.json
+SHA256：fb61df134af623242617d0debbea2ca7c10590a05588cf4efd595c43e4d97f24
+
+1. DS01-source-exact374
+算法标识：DS01-source-exact374
+source：滴天髓阐微1947本PDF374，原丙日丑冬盘；source/Ren-374.png；原称金水之势及己未南方燥土伤官助劫。
+来源层次：任氏注命例原文（后人注释层）与项目推论分别保；不给不禄作死亡验证。
+method：金水从气具名源题及调候土质；不是泛用扶抑评分。
+conditions：只取原癸酉乙丑丙申丙申/三个具名事件，先保全部原及新增明藏与根。
+exclusions：任73庚春夏气稍弱/湿燥及74辛戊重，不能套冬丙/所有己；不把金水类别冒喜土火。
+changes：输入真实事件改变演员/根/作用；theta方法变化在同库存同费比较。
+conflict_resolution：先原415实体和所有反作用；原来源叙事、模型S/N、原金水core分别报告。
+algorithm：原415inventory/具名源范围；native严格请求+guard。
+verification：54+9全世界；27旧物理用冻结9API退旧；原图实读。
+status：由581经580真正非作者复核采用的原374己未土质预算限制有限方法；其余原C03继续。
+historical_author_status：数学与入口已验证或正在复现；待作者封交及真正非作者复核，不自采用。
+
+2. DS02-capacity-not-generic-damage
+算法标识：DS02-capacity-not-generic-damage
+source：374己未燥土源意；01–03源计划与449非作者预算审，数值式为项目推导。
+来源层次：工程约定：静态actor份额代理，不是古代测力或现实温度。
+method：原土引化预算的有限土质容量修订。
+conditions：s为新未位明己+藏己份额；theta0/half/1全报告；cap=c(1-theta*s)，u=min(cap*T,k*M)。
+exclusions：常规b*T生金不可删；不造燥土直接克金、土生火或重戊埋金边。
+changes：s0/θ0精确退原引化，金capacity已先限时可没有新增收益。
+conflict_resolution：土生金bT+u、克水cT-u，合计费用始终(b+c)T；全部旧反作用仍在。
+algorithm：dry_budget/solve；两min面×32面与全5式回代。
+verification：54事前世界和未用新率9留出，S真N假保；分面收缩证。
+status：由581经580真正非作者复核采用的原374己未土质预算限制有限方法；其余原C03继续。
+historical_author_status：数学与入口已验证或正在复现；待作者封交及真正非作者复核，不自采用。
+
+3. DS03-original-actors-origins-cost
+算法标识：DS03-original-actors-origins-cost
+source：精确原415/425已采用完整实体/根与生成克制预算。
+来源层次：旧正确AST/合同复用；新土质只影响可引化份额。
+method：五元素共池/实际原点重建。
+conditions：同origin取max一次；原日丙float1；新root不回填出生；全旧/新演员共同作用。
+exclusions：不删零末态actor、不以新演员借原土的活动冒新土输入、不以关闭作用退费。
+changes：真实事件加减库存才改原点；同总量foreign仅改来源归因，物理不变。
+conflict_resolution：新cap后通过实际g土=b+u/T传播原点；控制不转给施控者，按受方实际clamp。
+algorithm：原origin_ports/reconstruct不改；全边、控制者来源和发送预算。
+verification：63全物理world逐原点/边/费；foreign反例S假。
+status：由581经580真正非作者复核采用的原374己未土质预算限制有限方法；其余原C03继续。
+historical_author_status：数学与入口已验证或正在复现；待作者封交及真正非作者复核，不自采用。
+
+4. DS04-source-function-S
+算法标识：DS04-source-function-S
+source：原374伤官助劫方向；02–03事前把作用与净收益分题。
+来源层次：古文方向＋具名工程充分见证，不称古法普遍必要条件。
+method：原土制水间接助火的实际来源题。
+conditions：己未/原两丙真实在；土损水和新未土actor实际贡献正；新actor×新root/float实损正；原两丙终留与原float源留存正。
+exclusions：只看土或火总量/actor名称不足；不得取受损水的来源充土控制来源。
+changes：同总量去新土来源物理不变而新源信用0；S假不说原书错。
+conflict_resolution：S可在theta0成立；原金水core是否仍在另算。
+algorithm：source_metrics逐实际边actor×origin联合累计。
+verification：limited_metal θ0为S真；名义θ0无残伤水S假；foreign S假。
+status：由581经580真正非作者复核采用的原374己未土质预算限制有限方法；其余原C03继续。
+historical_author_status：数学与入口已验证或正在复现；待作者封交及真正非作者复核，不自采用。
+
+5. DS05-incremental-net-N
+算法标识：DS05-incremental-net-N
+source：02事前定义新增容量对同库存同费theta0的净作用。
+来源层次：工程比较充分条件；不拟合古例不禄。
+method：新增土质限制是否实际净助原丙。
+conditions：S成立；土实际损水不减；原两丙留存严格增；原两丙float源留存不减且正。
+exclusions：不强求每条水损火下降/金水必破；不得把已有S当新增N。
+changes：金承接先限时θ变化可物理不变，明确已算N假。
+conflict_resolution：原core仍成立/失效均报；N不产生全局喜用或B。
+algorithm：net_question；baseline同真实柱/根/费，不是无运。
+verification：名义/low θhalf/full可N真；limited无增益N假；新率留出同样全报。
+status：由581经580真正非作者复核采用的原374己未土质预算限制有限方法；其余原C03继续。
+historical_author_status：数学与入口已验证或正在复现；待作者封交及真正非作者复核，不自采用。
+
+6. DS06-old-core-H-not-favorability
+算法标识：DS06-old-core-H-not-favorability
+source：415/425金水共同势原问题、完整支持组与native选择合同。
+来源层次：原典跨段归类推论及工程证书，非所有H元素皆喜。
+method：原金水题与新增土质题并行。
+conditions：更新现量后旧goals/H全部重算，原土金水全候选与木火反作用保。
+exclusions：不可因N真就删金水旧core，或N假就称时运证据不足；H的OR不并成喜用。
+changes：low新cap可能使旧core失效；其他参数可以仍成立，均给失败条件。
+conflict_resolution：新S/N、旧完整core及samecost转化benefit分别保存。
+algorithm：legacy.goals/complete_H/native_H；analyze贯通。
+verification：54全世界104448H行+9留出16384H行，native全mask等价。
+status：由581经580真正非作者复核采用的原374己未土质预算限制有限方法；其余原C03继续。
+historical_author_status：数学与入口已验证或正在复现；待作者封交及真正非作者复核，不自采用。
+
+7. DS07-reproducible-not-full-time
+算法标识：DS07-reproducible-not-full-time
+source：源guard12项，425采用及48算法说明/40同帧IO。
+来源层次：来源身份/实现与现实效果三轴。
+method：有限单事件运行模块，569另做完整五层。
+conditions：显式profile/方法/事件，完整API与CLI，材料变先拒。
+exclusions：不把合法其他盘/源未知冒相同；不以本源排除门顶其他原土质/五层任务。
+changes：规则或方法版本改变需新身份；同入力同版确定结果。
+conflict_resolution：硬错整次拒无部分结论；成熟子项不自行充全C03。
+algorithm：current.guard/evaluate/main及验证器；所有新算法有对应解释。
+verification：12字节材料/5模块exec/4参数ModuleType身份分计，完整CLI/源坏0与还原5、只读迁移及非作者复核需齐。
+status：由581经580真正非作者复核采用的原374己未土质预算限制有限方法；其余原C03继续。
+historical_author_status：数学与入口已验证或正在复现；待作者封交及真正非作者复核，不自采用。
+

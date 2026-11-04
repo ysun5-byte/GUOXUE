@@ -1,0 +1,16 @@
+本研究交付用Python3运行，不需联网或读取旧项目。所有卷须与本目录相对位置一并保留。
+
+1. 查看route_manifest.json或当前95方法_运行与来源登记.json，选择精确方法/版本。
+2. 原native_request必须沿该方法自己的原生请求合同填写，不把不同方法的同名字段混用。integration_tests保留原31和新混合链完整示例；其它方法原请求可由research_files.py取件。
+3. 统一请求恰含schema_version、route_id、native_request三字段。schema_version固定v1-capability-entry-research-0.8。
+4. python3 -I -B v1_entry.py /包外/请求.json
+5. 所选组件目录不存在时，入口按固定卷自动完整恢复该组件；坏的已有组件直接拒绝。可手动 python3 -I -B prepare_runtime.py --component 精确component。prepared_runtime为本次生成的运行缓存，不是另一个来源版本；不必把95个组件同时展开才使用全部方法。
+
+返回的native_report完整保留原结果。entry_status=executed表示原生调用完成，不表示命题成立或现实作用已证明；查看原报告的资格、功能、来源/知识轴及unknown原因。出错有issues或原异常，不把证据不足冒充“确认不变”。
+
+研究原件：python3 -I -B research_files.py show work/具体文件
+旧501原件：python3 -I -B research_files.py show original501:相对文件
+提取到包外：python3 -I -B research_files.py extract 键 /包外/目标文件
+相对卷和逐文件摘要见research_catalog.json；历史绝对路径只作溯源别名。native原source lock、verify、schema、manifest未改，准备器只从新卷对象建立本次新inode/hardlink，不连接旧研究原件inode。
+
+内部大参数箱的已正确结果以明确原精确版本重放/证据复用保留；最后接线测试及必要新当前调用是真实新运行，二者不混称。

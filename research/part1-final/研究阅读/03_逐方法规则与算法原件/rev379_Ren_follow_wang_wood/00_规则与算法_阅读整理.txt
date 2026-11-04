@@ -1,0 +1,1712 @@
+任氏从旺木原局的完整方法结论
+rev379_Ren_follow_wang_wood
+所属原模块：C02
+当前采用：rev391_follow_wang_project_model_adoption.json
+范围：原局核心木、印水实际助旺、额外辅助H[[]]；条件族机械合法两盘；后运土金/湿土未完成。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev379_Ren_follow_wang_wood/algorithm_explanations_50_functions.json
+SHA256：f56b36571814af47137d451fbea5271eda9ed5ebd2147df9bd0c65711e726ba6
+
+1. follow_wang.py:canonical
+算法标识：follow_wang.py:canonical
+source_identity：{
+  "relative_path": "follow_wang.py",
+  "qualified_name": "canonical",
+  "first_line": 10,
+  "module_sha256": "13dea89fd2e1681b674df0cd998a3526e3a67aead4f7961b6f81ee5b189a5f4e",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+}
+算法解释：{
+  "purpose": "Serialize the already packed result deterministically.",
+  "inputs": "JSON-compatible Python value.",
+  "operations": "Unicode sorted keys, compact separators, allow_nan=False; no UTF8 encoding here.",
+  "outputs": "str.",
+  "preconditions_and_limits": "Fractions/tuplekeys must be packed before this call; caller controls encoding."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "follow_wang.py:canonical"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+2. follow_wang.py:bounded
+算法标识：follow_wang.py:bounded
+source_identity：{
+  "relative_path": "follow_wang.py",
+  "qualified_name": "bounded",
+  "first_line": 12,
+  "module_sha256": "13dea89fd2e1681b674df0cd998a3526e3a67aead4f7961b6f81ee5b189a5f4e",
+  "AST_sha256": "00a63adb4be21b2eff381b20201d884084214c6f90db1078548aed2aedb1871d"
+}
+算法解释：{
+  "purpose": "Bound public structured requests and reject nonscalar Unicode.",
+  "inputs": "Any proposed API/parsed JSON value.",
+  "operations": "Iterative stack: depth<=20,nodes<=1000,dict<=20,list<=50,string<=1000 and no surrogate; only null/bool/int other scalars.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "This is structural request safety, not source qualification or native graph AUX validation."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "follow_wang.py:bounded"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+3. follow_wang.py:pairs
+算法标识：follow_wang.py:pairs
+source_identity：{
+  "relative_path": "follow_wang.py",
+  "qualified_name": "pairs",
+  "first_line": 29,
+  "module_sha256": "13dea89fd2e1681b674df0cd998a3526e3a67aead4f7961b6f81ee5b189a5f4e",
+  "AST_sha256": "9821bdaa719a02380897afdb888e878803c58c11b2f29d7b41bd5e490f356f81"
+}
+算法解释：{
+  "purpose": "Reject duplicate JSON keys at every object.",
+  "inputs": "Ordered JSON object key-value pairs.",
+  "operations": "Build dict once; a repeated key raises.",
+  "outputs": "dict or ValueError.",
+  "preconditions_and_limits": "Does not decide domain semantics."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "follow_wang.py:pairs"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+4. follow_wang.py:nonfinite
+算法标识：follow_wang.py:nonfinite
+source_identity：{
+  "relative_path": "follow_wang.py",
+  "qualified_name": "nonfinite",
+  "first_line": 36,
+  "module_sha256": "13dea89fd2e1681b674df0cd998a3526e3a67aead4f7961b6f81ee5b189a5f4e",
+  "AST_sha256": "738d1722bbd20a94f468b3c896a63fd6037749d3d838cefb6548c41090a8f99b"
+}
+算法解释：{
+  "purpose": "Reject JSON NaN/Infinity constants.",
+  "inputs": "json.loads parse_constant token.",
+  "operations": "Always raise ValueError(nonfinite_JSON_constant).",
+  "outputs": "Exception only.",
+  "preconditions_and_limits": "Actual exceptional callback captured; no fabricated normal None result."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "source_strict_pending_actual_receipt.json",
+  "path": [
+    "actual_nonfinite_callback_IO"
+  ],
+  "current_actual_call": true,
+  "exception_only_no_success_return": true
+}
+
+5. follow_wang.py:strict_load
+算法标识：follow_wang.py:strict_load
+source_identity：{
+  "relative_path": "follow_wang.py",
+  "qualified_name": "strict_load",
+  "first_line": 38,
+  "module_sha256": "13dea89fd2e1681b674df0cd998a3526e3a67aead4f7961b6f81ee5b189a5f4e",
+  "AST_sha256": "573d773560ad1f2bd368211b11a67a1edeec3898be92fb6ebde136b260e50114"
+}
+算法解释：{
+  "purpose": "Parse bounded public JSON.",
+  "inputs": "str of at most5000characters.",
+  "operations": "Strict duplicate/nonfinite callbacks, then bounded structural/Unicode check.",
+  "outputs": "JSON value or parsing/structure exception.",
+  "preconditions_and_limits": "Request schema and raw legality are later checks; deep JSON RecursionError propagates to main catch."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "follow_wang.py:strict_load"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+6. follow_wang.py:guard
+算法标识：follow_wang.py:guard
+source_identity：{
+  "relative_path": "follow_wang.py",
+  "qualified_name": "guard",
+  "first_line": 42,
+  "module_sha256": "13dea89fd2e1681b674df0cd998a3526e3a67aead4f7961b6f81ee5b189a5f4e",
+  "AST_sha256": "b6b45cb7f6e83e60ec36e58029b45db4b384afc412c56348fc22ee073f20e09c"
+}
+算法解释：{
+  "purpose": "Bind all fixed source/code/question bytes before any provider exec.",
+  "inputs": "Fixed source lock plus all source/source_audit/runtime inventories and root question files.",
+  "operations": "Fixed lock digest; exact three-directory inventories; reject symlink/outside paths; every length/SHA; independently pinned inner anchors; return captured bytes.",
+  "outputs": "material dict or rejection/IO exception.",
+  "preconditions_and_limits": "This authenticates intended bytes, not philology or predictive truth; public main also catches missing-file IO."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "follow_wang.py:guard"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+7. follow_wang.py:load
+算法标识：follow_wang.py:load
+source_identity：{
+  "relative_path": "follow_wang.py",
+  "qualified_name": "load",
+  "first_line": 58,
+  "module_sha256": "13dea89fd2e1681b674df0cd998a3526e3a67aead4f7961b6f81ee5b189a5f4e",
+  "AST_sha256": "e9a759800c9db1126cd968995b535d484db9ae33b5e72f7cc38eae9627109c04"
+}
+算法解释：{
+  "purpose": "Execute only captured verified provider bytes.",
+  "inputs": "Module name, relative filename, material.",
+  "operations": "Create ModuleType, set package __file__, compile and exec captured bytes.",
+  "outputs": "module.",
+  "preconditions_and_limits": "Does not self-authenticate; public caller must guard first."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "follow_wang.py:load"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+8. follow_wang.py:evaluate
+算法标识：follow_wang.py:evaluate
+source_identity：{
+  "relative_path": "follow_wang.py",
+  "qualified_name": "evaluate",
+  "first_line": 61,
+  "module_sha256": "13dea89fd2e1681b674df0cd998a3526e3a67aead4f7961b6f81ee5b189a5f4e",
+  "AST_sha256": "9aff0e41dcf867b3637436d98a184e0e83def0c26b1d33017228a6984cae9c7b"
+}
+算法解释：{
+  "purpose": "Raw public pipeline.",
+  "inputs": "Three-field request.",
+  "operations": "Bound request; guard all material; load facts/AUX/math/core4providers; call fixed-profile core; pack exact result.",
+  "outputs": "JSON-compatible full result or exception.",
+  "preconditions_and_limits": "No quantity/context/ready/final caller field; no calendar/location/time display implementation."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "follow_wang.py:evaluate"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+9. follow_wang.py:main
+算法标识：follow_wang.py:main
+source_identity：{
+  "relative_path": "follow_wang.py",
+  "qualified_name": "main",
+  "first_line": 67,
+  "module_sha256": "13dea89fd2e1681b674df0cd998a3526e3a67aead4f7961b6f81ee5b189a5f4e",
+  "AST_sha256": "e39c14f3f4d6a51b07763ee30254ae9f7666f486f9d098760afea8d4d8a66951"
+}
+算法解释：{
+  "purpose": "Public atomic CLI.",
+  "inputs": "stdin.buffer at most20001bytes.",
+  "operations": "Reject >20000bytes; strict UTF8+JSON; evaluate; print canonical result. Catch declared ValueError/TypeError/KeyError/RecursionError/OSError/UnicodeError/OverflowError/ArithmeticError.",
+  "outputs": "Success0/full JSON or caught failure2/single rejected JSON.",
+  "preconditions_and_limits": "No claim to catch arbitrary Python/BaseException failures; actual deepJSON, missing lock and Unicode rejection checked."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "stdin": "native_request.json",
+  "stdout": "first_actual_CLI.stdout.gz",
+  "stderr": "first_actual_CLI.stderr",
+  "exit": 0,
+  "current_actual_call": true,
+  "actual_full_raw_CLI_separate_process": true
+}
+
+10. runtime/wang_math.py:pack
+算法标识：runtime/wang_math.py:pack
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "pack",
+  "first_line": 10,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c"
+}
+算法解释：{
+  "purpose": "Encode internal exact mathematics.",
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:pack"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+11. runtime/wang_math.py:gauss
+算法标识：runtime/wang_math.py:gauss
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "gauss",
+  "first_line": 17,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830"
+}
+算法解释：{
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:gauss"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+12. runtime/wang_math.py:actors_from_raw
+算法标识：runtime/wang_math.py:actors_from_raw
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "actors_from_raw",
+  "first_line": 30,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "2761c46300aaf228478b1a371ff1c631e7fc22009e8f6299ce0868e8a279bf89"
+}
+算法解释：{
+  "purpose": "Keep all visible and hidden real carriers.",
+  "inputs": "Legal raw pillars, original facts module, optional internal literal comparison pillar.",
+  "operations": "Preserve four positions, lookup all hidden stems and strict tengod roles; optional external column gets its own identity/position.",
+  "outputs": "actors and pillar tuples.",
+  "preconditions_and_limits": "Caller has raw legality. Internal literal context is not realUTC or publicly accepted input; no absentgold actor created."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:actors_from_raw"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+13. runtime/wang_math.py:inventory
+算法标识：runtime/wang_math.py:inventory
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "inventory",
+  "first_line": 43,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "0ef7beac7e0acc7fa3e0d296c660541ab9fa4d0eb3c3db8f5eeaf025aef67893"
+}
+算法解释：{
+  "purpose": "Build typed phasefree direct pools and declared actor shares.",
+  "inputs": "Actors/raw/facts and fixed mu,m cfg; optional literal context.",
+  "operations": "Main hidden element1, other actualhidden mu, month m; one non-day visible float. Per-element typedorigin max once; actors weighted by their direct totals; preserve every actor-root row.",
+  "outputs": "actors,present,direct,weights,rootrows,cfg.",
+  "preconditions_and_limits": "mu/m are engineering qualifications, not hidden percentages or earth12palaces. Common pool demonstrably not actor-local; per-element qualifications not cross-element mass conservation."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:inventory"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+14. runtime/wang_math.py:is_positive
+算法标识：runtime/wang_math.py:is_positive
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "is_positive",
+  "first_line": 64,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "d97f71e24d01b64593455995f85193debd165224fea309e514c04b81c1123b09"
+}
+算法解释：{
+  "purpose": "Assign source-specific positive function types for woodcore.",
+  "inputs": "Source element and generation/control kind.",
+  "operations": "Water birthwood/controlfire, woodcontrolearth, firecontrolmetal and metalbirthwater map true.",
+  "outputs": "bool.",
+  "preconditions_and_limits": "Only semantic mapping; packages/coefficients separately require a realtarget endpoint. No classical finalpriority inferred."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:is_positive"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+15. runtime/wang_math.py:packages
+算法标识：runtime/wang_math.py:packages
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "packages",
+  "first_line": 67,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "c96232de0de7074579d09a441182f9bd2a1b10e013fed1d5557451618d675c26"
+}
+算法解释：{
+  "purpose": "Enumerate all additional positive-function carriers.",
+  "inputs": "Complete base inventory.",
+  "operations": "Check both actual target families and positive mapping; exclude fixed natal subject; sort exact actor IDs.",
+  "outputs": "All selectable extra IDs.",
+  "preconditions_and_limits": "Rawstocks and all harmful paths remain even unselected; intrinsicpeer roots are not an extra lossless birthday loop."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:packages"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+16. runtime/wang_math.py:coefficients
+算法标识：runtime/wang_math.py:coefficients
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "coefficients",
+  "first_line": 76,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "d0d54d8734b2e5c14135582f0e22c75cacb244b813ae4ca0bb6ac4e249263398"
+}
+算法解释：{
+  "purpose": "Assemble one shared complete current map.",
+  "inputs": "Base and selected extraIDs.",
+  "operations": "Beta from selected actor shares plus fixed subject; only existing endpoints create gen/control rates and outgoing costs. Positive licences masked, negatives and potential budgets retained. FormK and require absolute row bound<1.",
+  "outputs": "b,c,h,diagonals,betas,rates,K and contraction.",
+  "preconditions_and_limits": "Public fixed mu/m/b/c/h profile; explicit rate domain enforced. No absent-metal receiving port or cost. Not physical energy-law calibration."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:coefficients"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+17. runtime/wang_math.py:solve
+算法标识：runtime/wang_math.py:solve
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "solve",
+  "first_line": 93,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "3f5e3a272d0d037d2d692a713a79b8317f9e06a1bb993ca6ca8aee3c6182789d"
+}
+算法解释：{
+  "purpose": "Find exact unique max-affine fixed point.",
+  "inputs": "Base and selected extras.",
+  "operations": "Enumerate all active faces over present elements, rational solve candidate, substitute full max equations and nonnegative vector. Global contraction supplies uniqueness.",
+  "outputs": "Current,coefficients,activeface,exact certificate.",
+  "preconditions_and_limits": "No float gate/hint or oracle-selected phase; original4elements<=16faces, real5elements<=32faces."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:solve"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+18. runtime/wang_math.py:origins
+算法标识：runtime/wang_math.py:origins
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "origins",
+  "first_line": 106,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "68b315515713bb428dd7871847a3de739c68fdb4906a425cb5967529d60afa48"
+}
+算法解释：{
+  "purpose": "Reconstruct every typed source in the same solved vector.",
+  "inputs": "Base and exact current world.",
+  "operations": "Gross direct+licensed generation; retention=current/gross; solve multi-RHS linear inherited flow; check nonnegative and exact sums/substitution.",
+  "outputs": "Typed pools,gross,retention,b contraction bound.",
+  "preconditions_and_limits": "Each original element-qualification origin injected once; allzero/noorigin case valid. Does not equate same branch labels across elements."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:origins"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+19. runtime/wang_math.py:goals
+算法标识：runtime/wang_math.py:goals
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "goals",
+  "first_line": 121,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "73529c17b5f3a2be224e20a7122095e3d622648f1fd45365585007ec8da7fc5e"
+}
+算法解释：{
+  "purpose": "Test the explicit core-maintenance question.",
+  "inputs": "Same base/current/origins.",
+  "operations": "Wood>0, own direct-qualified wood-root inheritance>0, wood>=each otheractualcurrent.",
+  "outputs": "Checks,AND result,own-root amount andsamecurrent.",
+  "preconditions_and_limits": "This is an engineered maintenance ordering, not classical旺极 reauthentication or favorableluck. Equality passes; strict root/current positivity distinct."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:goals"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+20. runtime/wang_math.py:ledger
+算法标识：runtime/wang_math.py:ledger
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "ledger",
+  "first_line": 128,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "b18f9f96b8246769b427ca5309e3ad144f6f8e227087a300cd3a666c3cc4abd5"
+}
+算法解释：{
+  "purpose": "Expose all real endpoints, capped control losses and potential budgets.",
+  "inputs": "Base,selection,sameworld andorigins.",
+  "operations": "Actor shares of exact origin pools; every real generation/control pair sends from same current; actual targetloss=min(gross,capacity), separately apportion controller capacity and target-own-origin loss. Sourcepotential b/h costs remain when licences off; verify per-origin balance.",
+  "outputs": "Actorports,allsignededges,allcostrows,elementbudgets andledger semantics.",
+  "preconditions_and_limits": "Capacity is not actual loss; unusedcapacity explicit. Physical allon vs explanatorycredit book named; no empirical natural-mass claim."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:ledger"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+21. runtime/wang_math.py:robust
+算法标识：runtime/wang_math.py:robust
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "robust",
+  "first_line": 163,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "b2a342ee6e918307ea9bead7387af4313b9e657a39683de9582bbc816fa7d85e"
+}
+算法解释：{
+  "purpose": "Compute all minimal stable additional-support sets.",
+  "inputs": "Complete powerset rows and ordered IDs.",
+  "operations": "Boolean superset closure; every immediate-removal test gives minima, maximal stablefalse complements give CNF.",
+  "outputs": "AllH,CNF,true/robustcounts.",
+  "preconditions_and_limits": "Complete powerset is caller precondition. [[]] means no extra auxiliary under fixed core, never no用神."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:robust"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+22. runtime/wang_math.py:robust.<locals>.<lambda>
+算法标识：runtime/wang_math.py:robust.<locals>.<lambda>
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "robust.<locals>.<lambda>",
+  "first_line": 172,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "c51d24376362a4b6cca991e431866aaff7ae77c44a7518eae4e4d8ee386ac15a"
+}
+算法解释：{
+  "purpose": "Convert a package bitmask to all exact actor names.",
+  "inputs": "Integer mask over ordered IDs captured from robust.",
+  "operations": "Emit each ID whose bit is present.",
+  "outputs": "ID list.",
+  "preconditions_and_limits": "Local pure finite mapping, not source selection; actual mask0 returns empty member of mathematicalH."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:<lambda>@172"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+23. runtime/wang_math.py:analyze
+算法标识：runtime/wang_math.py:analyze
+source_identity：{
+  "relative_path": "runtime/wang_math.py",
+  "qualified_name": "analyze",
+  "first_line": 176,
+  "module_sha256": "86c04babb9476897bcefe0a9017ab1c1797b0db37bb2a8ab332c58bd06519abe",
+  "AST_sha256": "d8b87264ff87295a73cb55429900f9d3e0e937e1b2d1044acd2943f388ffe499"
+}
+算法解释：{
+  "purpose": "Enumerate complete explanatory worlds.",
+  "inputs": "Complete base and full_graphs flag.",
+  "operations": "Enumerate all package masks; cache only equal beta scalar/origin states; compute goals; reconstruct each nominal signed graph with its ownpermissions; derive complete robust logic.",
+  "outputs": "Allactors/roots/typedinputs/shares,worlds,actualallon,allH andcachecount.",
+  "preconditions_and_limits": "Equal current does not merge actor identities orpermissionledgers. full_graphs=False omits serialized edge expansion only, not same-current equation evaluation."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_math.py:analyze"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+24. runtime/wang_core.py:source_scope
+算法标识：runtime/wang_core.py:source_scope
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "source_scope",
+  "first_line": 8,
+  "module_sha256": "5be62204637147382b3cab3e57da97d2f0773ee0cafd1f55179094f0d8f0739a",
+  "AST_sha256": "587029ee196fb0e34d778c3450677c16533e1b23eec00491502a1efc8ff3ac7a"
+}
+算法解释：{
+  "purpose": "Select the declared springwood condition family before numerical solve.",
+  "inputs": "Original legal facts/raw,math andfixedprofile.",
+  "operations": "Woodday; springwoodmonth; branchesYinMaoHai; >=3wood-mainbranches; allvisiblewood/water and>=2non-daywood; actualwatercarrier. ExactW1 source judgment separately tagged.",
+  "outputs": "Checks,within flag,sourceidentity andspecific missing conditions.",
+  "preconditions_and_limits": "Manually justified conservative derivedscope, not universal Ren classifier. Exact mechanical enumeration yields twolegalraw patterns; no failedordinary fallback."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_core.py:source_scope"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+25. runtime/wang_core.py:native_auxiliary
+算法标识：runtime/wang_core.py:native_auxiliary
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "native_auxiliary",
+  "first_line": 22,
+  "module_sha256": "5be62204637147382b3cab3e57da97d2f0773ee0cafd1f55179094f0d8f0739a",
+  "AST_sha256": "7529c66bd1719a43ec9f30d36dae2d0f5069f4c47903223bc51bb3e381fb4a82"
+}
+算法解释：{
+  "purpose": "Connect exact extra-support CNF to unchanged original AUX.",
+  "inputs": "Complete analyzed logic,realbase,originalAUX.",
+  "operations": "Partition<=18clauses/100tasks; call actual select; minimize all unions forAND. Special no-active-target raw [] is retained while mathematical oneempty solution [[]] is represented separately.",
+  "outputs": "All original native graphs/results plus exact mathematical unions.",
+  "preconditions_and_limits": "Trusted internal evaluatedlogic helper, not source certificate. No public ready input; no overwrite/normalization of rawAPI orCLI result. Actor16/goal20/task100/minima256 originallimits unchanged."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_core.py:native_auxiliary"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+26. runtime/wang_core.py:parameter_vertices
+算法标识：runtime/wang_core.py:parameter_vertices
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "parameter_vertices",
+  "first_line": 47,
+  "module_sha256": "5be62204637147382b3cab3e57da97d2f0773ee0cafd1f55179094f0d8f0739a",
+  "AST_sha256": "2167e628cb0ad4856feae4ea88a9dda3ef67f11f2a0fb6b8158a5d7d4e967b31"
+}
+算法解释：{
+  "purpose": "Verify every declared parameter corner on the same method.",
+  "inputs": "Fixed raw,facts/math/profile.",
+  "operations": "All32 mu,m,b,c,h endpoint tuples; full positive package powerset solved withtyped origins; output current/goal table andallH, actualprintbirth.",
+  "outputs": "32 complete scalar/goal tables and logic.",
+  "preconditions_and_limits": "The independent continuous-family bound proves between corners; corner voting is not proof. No parameter success selection."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_core.py:parameter_vertices"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+27. runtime/wang_core.py:source_task_completion
+算法标识：runtime/wang_core.py:source_task_completion
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "source_task_completion",
+  "first_line": 55,
+  "module_sha256": "5be62204637147382b3cab3e57da97d2f0773ee0cafd1f55179094f0d8f0739a",
+  "AST_sha256": "307a31242bd353970119c67911696ae3646450daaed30fc8f85f154eff22218d"
+}
+算法解释：{
+  "purpose": "Bridge the semantically fixed original task families to actual function evidence.",
+  "inputs": "Source scope,base,complete analysis.",
+  "operations": "Check ownrootedwood, actualprintbirth withintrinsicpeerstock, fullsamecurrent/everyorigin and source-qualified relations/rivalscope; preserve taskIDs andreferences.",
+  "outputs": "All4 taskrows andmanual completeness contract.",
+  "preconditions_and_limits": "Completeness came from prior semantic source reading, not automatic union of goals; does not close specialwetearth or Bingwang futureconditions."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_core.py:source_task_completion"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+28. runtime/wang_core.py:natal_conclusion
+算法标识：runtime/wang_core.py:natal_conclusion
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "natal_conclusion",
+  "first_line": 65,
+  "module_sha256": "5be62204637147382b3cab3e57da97d2f0773ee0cafd1f55179094f0d8f0739a",
+  "AST_sha256": "06908db635d3dc38a01f52d87a522936e169d57d0fbbbcf72f5765d7d9907c06"
+}
+算法解释：{
+  "purpose": "State the bounded complete natal core use and additional need separately.",
+  "inputs": "Scope,actualgoal/H andsourcecompletion.",
+  "operations": "Ifspecificsource taskmissing return it; ifmaintenancefailed preserve failedchecks. Otherwise fixedwoodcore, actualprintsupport andall extraH; emptyextra means noadditionaljointnecessity.",
+  "outputs": "Method-qualified natal conclusion or specific failure.",
+  "preconditions_and_limits": "NotB,proportions,themes,allfuturebenefit or universalclassification. Coremaintenance is not goodluck; book comparison semantic erratum explicitly kept."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_core.py:natal_conclusion"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+29. runtime/wang_core.py:evaluate
+算法标识：runtime/wang_core.py:evaluate
+source_identity：{
+  "relative_path": "runtime/wang_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 76,
+  "module_sha256": "5be62204637147382b3cab3e57da97d2f0773ee0cafd1f55179094f0d8f0739a",
+  "AST_sha256": "04709df510b8f93c5887182a096a29d885ba9724b60177447c84aa17204f475c"
+}
+算法解释：{
+  "purpose": "Execute the source-selected whole natal research.",
+  "inputs": "Exact schema/sourceprofile/raw andfixedproviders.",
+  "operations": "Originalfacts validation; scope first; legaloutsideraw preserved withmissingconditions; validfamily computesallnominalgraphs,sourcebridge,nativeextra,vertices andconclusion.",
+  "outputs": "Full native result orknownsourcegap.",
+  "preconditions_and_limits": "No classifier fallback, sourceaccepted flag injection or public strength/context override; actualUTC consumer absent."
+}
+条目分类：new379 algorithm or explicit source-scoped adaptation
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/wang_core.py:evaluate"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+30. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977"
+}
+算法解释：{
+  "purpose": "十干查五行",
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。"
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/foundation_facts.py:stem_element"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+31. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d"
+}
+算法解释：{
+  "purpose": "严格十神角色",
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/foundation_facts.py:ten_god"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+32. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4"
+}
+算法解释：{
+  "purpose": "原柱基础合法性",
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/foundation_facts.py:validate"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+33. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218"
+}
+算法解释：{
+  "purpose": "保留有位置的形式合冲",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。"
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/foundation_facts.py:formal_relations"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+34. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7"
+}
+算法解释：{
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/foundation_facts.py:root_evidence"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+35. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748"
+}
+算法解释：{
+  "purpose": "原61完整四柱事实入口",
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/foundation_facts.py:parse"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+36. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "bounded",
+  "first_line": 16,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660"
+}
+算法解释：{
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work.",
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/auxiliary_selector.py:bounded"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+37. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "shape",
+  "first_line": 38,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265"
+}
+算法解释：{
+  "purpose": "Require an exact allowed object field set.",
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/auxiliary_selector.py:shape"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+38. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "string",
+  "first_line": 43,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0"
+}
+算法解释：{
+  "purpose": "Require a nonempty string field.",
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/auxiliary_selector.py:string"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+39. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "boolean",
+  "first_line": 48,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91"
+}
+算法解释：{
+  "purpose": "Require actual bool instead of truthy/coercible values.",
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/auxiliary_selector.py:boolean"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+40. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "validate",
+  "first_line": 53,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57"
+}
+算法解释：{
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request.",
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/auxiliary_selector.py:validate"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+41. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "closed",
+  "first_line": 135,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1"
+}
+算法解释：{
+  "purpose": "Check that every declared graph-scope obligation is marked complete.",
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/auxiliary_selector.py:closed"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+42. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "hard_failure",
+  "first_line": 139,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a"
+}
+算法解释：{
+  "purpose": "Determine whether a required actual goal or global check still blocks selection.",
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/auxiliary_selector.py:hard_failure"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+43. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "repair_candidates",
+  "first_line": 144,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2"
+}
+算法解释：{
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions.",
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.Current379 graph has no repair_routes."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/auxiliary_selector.py:repair_candidates"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+44. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "minimal_covers",
+  "first_line": 184,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290"
+}
+算法解释：{
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal.",
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "remaining_AUX_function_actual_IO.json.gz",
+  "path": [
+    "first_actual_private_native_function_IO",
+    "runtime/auxiliary_selector.py:minimal_covers"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true,
+  "call_scope": "pure evaluated-logic helper fixture; not sourcequalification"
+}
+
+45. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "prefer",
+  "first_line": 197,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f"
+}
+算法解释：{
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution.",
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "remaining_AUX_function_actual_IO.json.gz",
+  "path": [
+    "first_actual_private_native_function_IO",
+    "runtime/auxiliary_selector.py:prefer"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true,
+  "call_scope": "pure evaluated-logic helper fixture; not sourcequalification"
+}
+
+46. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "preference_frontier",
+  "first_line": 206,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9"
+}
+算法解释：{
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle.",
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "remaining_AUX_function_actual_IO.json.gz",
+  "path": [
+    "first_actual_private_native_function_IO",
+    "runtime/auxiliary_selector.py:preference_frontier"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true,
+  "call_scope": "pure evaluated-logic helper fixture; not sourcequalification"
+}
+
+47. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "select",
+  "first_line": 224,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934"
+}
+算法解释：{
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms.",
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "Base result fields are version, semantic_scope, source_and_scope_bindings_independently_validated, positive_current_tasks, all_current_actors_preserved, all_tasks_preserved, actual_goals_preserved, actual_global_checks_preserved, unmet_task_repair_candidates, needed_absent_directions, luck_directions_separate, selected_current_auxiliary_sets, common_selected_actors, final_whole_chart_auxiliary_elements, final_priority, B and warning; status is added on every return. The incomplete-scope and hard-failure branches leave selection fields None. The no-active-target branch sets selected_current_auxiliary_sets=[] and also returns positive_background_tasks. The active-target branch additionally returns qualified_coverage, all_inclusion_minimal_explanation_sets, preference_edges_by_set_index, preference_cycle_undecided and positive_background_tasks, and fills selected/common actor fields. Input schema, mode and scope are not returned. Current379 adapter separately saves input graphs at native_additional_auxiliary.chunks[*].full_native_graph; select itself does not return that field.",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "artifact": "first_actual_function_IO.json.gz",
+  "path": [
+    "first_calls",
+    "runtime/auxiliary_selector.py:select"
+  ],
+  "current_actual_call": true,
+  "has_real_return": true
+}
+
+48. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "strict_pairs",
+  "first_line": 272,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f"
+}
+算法解释：{
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser.",
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "Current379 raw pipeline does not execute this original AUX CLI routine; static explanation only; this is not extension_model.py:pairs."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "current_actual_call": false,
+  "classification": "unchanged inherited AUX CLI; not claimed newly executed",
+  "source_explanation_only": true
+}
+
+49. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "reject_constant",
+  "first_line": 280,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6"
+}
+算法解释：{
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing.",
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "Current379 raw pipeline does not execute this original AUX CLI routine; static explanation only; not extension_model.py:nonfinite."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "current_actual_call": false,
+  "classification": "unchanged inherited AUX CLI; not claimed newly executed",
+  "source_explanation_only": true
+}
+
+50. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "main",
+  "first_line": 284,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1"
+}
+算法解释：{
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol.",
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. Current379 raw pipeline does not execute this original AUX CLI routine; static explanation only. This differs from both extension main and standalone graph main."
+}
+条目分类：exact unchanged original facts/AUX implementation; source/call context newly bound
+actual_IO_binding：{
+  "current_actual_call": false,
+  "classification": "unchanged inherited AUX CLI; not claimed newly executed",
+  "source_explanation_only": true
+}
+
+原件：work/rev379_Ren_follow_wang_wood/source_rule_cards_ten_fields.json
+SHA256：d1d1f640c2f6875bae2b8f208cc70c2d4bcb775c550b9a88c4a5c978a80b97c4
+
+1. REN379-CORE-WOOD
+算法标识：REN379-CORE-WOOD
+source：Ren1947 PDF372/印叶九六；367-370一般从象上下文；原347来源。
+来源层次：任注原文+有限方法解释
+conditions：原W1春木禄旺生、乙助癸印、从其旺神；条件族另作推论身份。
+exclusions：不套从财/从杀孤弱无印比；不把源旺极再伪装数值阈值。
+changes：根与季令/印比实际作用变化时须重算源任务。
+conflicts：原木核心始终存在，额外H不能替代主体。
+rule_expression：source_scope before full equations; coreuse wood separated from extraH.
+verification：2合法条件族原柱完整API/CLI和全部组合。
+status：candidate_no_self_adoption
+
+2. REN379-ALL-RAW
+算法标识：REN379-ALL-RAW
+source：Ren1947 PDF372/印叶九六；367-370一般从象上下文；原347来源。
+来源层次：原始角色事实与工程库存分层
+conditions：11演员：7木2水1火1土；寅丙戊亥壬甲全部保。
+exclusions：无金不造金端口/根/成本；亥寅不自动化木或删除藏干。
+changes：真实新演员出现才增加实际相生克端点。
+conflicts：源禄生资格与phasefree主余月浮不同量纲。
+rule_expression：typed per-element origin max once; actor share weights; no extra losslesspeer.
+verification：44原根资格行、10typed来源、33实际端口。
+status：candidate_no_self_adoption
+
+3. REN379-FULL-CURRENT
+算法标识：REN379-FULL-CURRENT
+source：Ren1947 PDF372/印叶九六；367-370一般从象上下文；原347来源。
+来源层次：明确工程方程
+conditions：全部正负端口同当前量；控制容量、实际损失与潜在成本分账。
+exclusions：不正边原量负边余量；不超gross克损；不借共池声称自然物量守恒。
+changes：b/c/h、库存、对端改变按同方程重解。
+conflicts：共池与actor-local模型不等价，另有小反例。
+rule_expression：exact max-affine <=32faces; row contraction <=9/10; origins <=b.
+verification：256完整signed图、10240来源分量、8448边独立复代。
+status：candidate_no_self_adoption
+
+4. REN379-EXTRA-H
+算法标识：REN379-EXTRA-H
+source：Ren1947 PDF372/印叶九六；367-370一般从象上下文；原347来源。
+来源层次：源问题与有限集合逻辑
+conditions：本来木核心固定；8额外真实正功能完整幂集与全超集。
+exclusions：[[]]不作无用神；不把火财裸角色自动列共同必要。
+changes：actual目标失败/无充分集合/无额外需要分别输出。
+conflicts：原AUX no_active_target raw[]和数学[[]]并列保留，不改原协议。
+rule_expression：all complete subsets/supersets robust minima and CNF -> nativeAND unions.
+verification：256原世界、32角点/连续证明；原AUX空/OR-AND/分块/失败对照。
+status：candidate_no_self_adoption
+
+5. REN379-BOUNDARIES
+算法标识：REN379-BOUNDARIES
+source：Ren1947 PDF372/印叶九六；367-370一般从象上下文；原347来源。
+来源层次：工程顺序目标，非古法吉凶门
+conditions：木正、原木根继承正、木>=每个其他实际current。
+exclusions：不把维持优势等于运有利；不拿名人结果调参数。
+changes：水253/36、火626/121等号通过，过界失败；其余强印/火/土/弱木/零量反例。
+conflicts：定性旺极是来源准入，排序检查是工程维护。
+rule_expression：exact nonstrict ordering + strict positive roots/current.
+verification：全部事前边界预期和实际正反对照保存。
+status：candidate_no_self_adoption
+
+6. REN379-BOOK-CONTEXT
+算法标识：REN379-BOOK-CONTEXT
+source：Ren1947 PDF372/印叶九六；367-370一般从象上下文；原347来源。
+来源层次：原书运叙述/数学诊断/现实分层
+conditions：辛亥金不通根支逢生旺；庚戌土金并旺触旺；所有外柱真藏干保。
+exclusions：不因金字即败，不把旧核心布尔与运吉凶作同题比较。
+changes：独立增补相对木现量/原有根承继差额，系数和旧数值不改。
+conflicts：土current0未复现活土生金/土金并旺，癸丑湿土条件未偷改为水。
+rule_expression：same fiveelement equations when realgoldactor exists; relative mechanisms only.
+verification：语义勘误+新先验+5外柱实际；无真实UTC或预测验真。
+status：candidate_no_self_adoption
+
+7. REN379-SOURCE-FIRST
+算法标识：REN379-SOURCE-FIRST
+source：Ren1947 PDF372/印叶九六；367-370一般从象上下文；原347来源。
+来源层次：软件契约与来源真实性分层
+conditions：固定sourceprofile/原柱；全source+sourceaudit+runtime+先验锁。
+exclusions：不收强度/ready/context覆盖；合法域外保原事实与具体缺口，不判非从旺。
+changes：坏源或代码变更需新明确版本，不借fallback改学校。
+conflicts：SHA绑定不能认证文义/版次/预测；根采用独立于作者结果。
+rule_expression：all fixed bytes before4providerexec; strictUTF8/JSON including missinglock/deep/surrogate.
+verification：10源坏0exec含有效外部符号链接；17strict与pending全文API/CLI。
+status：candidate_no_self_adoption
+
+原件：work/rev379_Ren_follow_wang_wood/reference_receipt.json
+SHA256：660d41f05ac6af4463a9caa9354924ad116c2b4a74a39f33d0d32cf1e2e7cbda
+
+{
+  "schema": "379-reference-retention-for-root-knowledge-index",
+  "references": [
+    {
+      "id": "REN1947-372-and-fromxiang-context",
+      "book": "滴天髓阐微，李雨田校订发行，1947年四月初版影印",
+      "chapter": "卷三六亲论从象",
+      "physical_page": 372,
+      "printed_leaf": "九六",
+      "stable_url": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SSID-11335994_%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE.pdf",
+      "local_original": "source/Ren1947.pdf",
+      "sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+      "edition_record": "source/edition248.json",
+      "acquisition_record": "source/download248.json",
+      "actual_read_level": "Author current372 fullimage; 367-370 author actual prior374 reading reused; independent child sourceaudit actually reread all5 pages this379. No full516 semantic reading or newedition authentication.",
+      "pages": [
+        {
+          "page": 367,
+          "path": "source/pages/Ren-367.png",
+          "sha256": "ddd92ccda920bd0577ebba6b566b003358b4ac846de5e72a43515b9cf37d651e"
+        },
+        {
+          "page": 368,
+          "path": "source/pages/Ren-368.png",
+          "sha256": "a21f31967d487a6b1d4161c21b51c82d9505040ccb6476626707dea786cdb8b8"
+        },
+        {
+          "page": 369,
+          "path": "source/pages/Ren-369.png",
+          "sha256": "fa91a638c68138cc71ae3e8005dc5b53a44db1da56f69839c57b822e4625bf82"
+        },
+        {
+          "page": 370,
+          "path": "source/pages/Ren-370.png",
+          "sha256": "c42974cd177f2780a7dc52ed69095702de8c958aa8267e39b0d985af77e1adc4"
+        },
+        {
+          "page": 372,
+          "path": "source/pages/Ren-372.png",
+          "sha256": "efafd7e4deecbc66d5f1aaff139286f778257955d086b5c9457b9eb5db393347"
+        }
+      ],
+      "supports": [
+        "W1 ownwood旺神 and actualprintpeer help",
+        "YinMaoHai rootbirth coexisting, no hidden deletion or automatic化",
+        "XinHai unrootedgold vsGengXu sourcequalitative土金并旺"
+      ],
+      "does_not_supply": [
+        "numeric mu/month/b/c/h or coreordering thresholds",
+        "universal sufficient/necessary fromwangclassifier",
+        "calibratedfutureluck or realprediction"
+      ]
+    },
+    {
+      "id": "original347",
+      "items": [
+        {
+          "path": "source/347/manifest.json",
+          "sha256": "e719e1042b9b7fa2c584ceb66dc5e8a3f6569264cc6a9facc6f90dae2d3fa752",
+          "bytes": 1466
+        },
+        {
+          "path": "source/347/freeze.json",
+          "sha256": "2fcec54416dc0151e024729144f98dcd0bc69c30dac718c8ae87ae5a50b457da",
+          "bytes": 129
+        },
+        {
+          "path": "source/347/source_rules_ten_fields.json",
+          "sha256": "83d1aed77c0a48b56bc17639ef201b25a677335a285a94e7d8f00aff7faa3589",
+          "bytes": 4485
+        },
+        {
+          "path": "source/347/cases_and_expected_facts_before_calls.json",
+          "sha256": "3667e63926954bd838e78720556d8a582698962ab704a1ca0dc0f1966b64356a",
+          "bytes": 2722
+        }
+      ],
+      "actual_read_level": "347source cards/facts expectation read; full frozen sourcepackage copied byteforbyte",
+      "specific_rule_algorithm_scope": "sourceonly: not prior wholeclassical H/B"
+    },
+    {
+      "id": "344-phasefree-and-real354",
+      "items": [
+        {
+          "path": "source/phasefree344.py.txt",
+          "sha256": "ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7",
+          "bytes": 10446
+        },
+        {
+          "path": "source/344_problem_before_producer.txt",
+          "sha256": "daab8a5422a05da3436088df8a45721b74c4393e9becb9ce09cb4f78eb407cb1",
+          "bytes": 7380
+        },
+        {
+          "path": "source/354_real_adoption.json",
+          "sha256": "64a53f84f9872a0f3d8f92f58cf19990e663bf462287bcfc88ee4f2e16fbe63a",
+          "bytes": 11508
+        }
+      ],
+      "actual_read_level": "sourcecode/problem andrealadoption read, inventory idea reused",
+      "specific_rule_algorithm_scope": "new4elementcoupled budget not old3elementfromchild graph equivalence; old354 doesnot adopt379"
+    },
+    {
+      "id": "373-source-task-bridge",
+      "items": [
+        {
+          "path": "source/373_real_conclusion_adoption.json",
+          "sha256": "bcc513871419792109d27123ba7c99ac1aaf435379a0de4e790fc4497f2094bd",
+          "bytes": 10026
+        },
+        {
+          "path": "source/367_conclusion_source_tasks.json",
+          "sha256": "c964c18652ca1e8196d199d0382f20f2bb9ce5049a8158b1c8571d6fbe83cc51",
+          "bytes": 3529
+        }
+      ],
+      "actual_read_level": "actual rootpolicy andprior complete-task-to-conclusion method read",
+      "specific_rule_algorithm_scope": "source completeness manually argued; no automatic goalname union; prior金水result not reused as379elements"
+    },
+    {
+      "id": "363-exact-math-reference",
+      "items": [
+        {
+          "path": "source/shared_exact363.py.txt",
+          "sha256": "21fd0b9a8d1d99d0ec0eae2f67f009916240f1333d48f74f2db5bdaf3ec5c205",
+          "bytes": 15785
+        },
+        {
+          "path": "reference_only/363_function_contracts.json",
+          "sha256": "082fac32cb407cdcbe01aade275a0f865f10895139589db26b281d57868ac5f5",
+          "bytes": 66160
+        }
+      ],
+      "actual_read_level": "actual exactgauss/sourcebudget code andcontract cards read",
+      "specific_rule_algorithm_scope": "only standard arithmeticbody andexplicit budgetrates reused, no fromkill weakdependency/peerloop or sourcepredicate rotation; old363 not equivalent to379"
+    },
+    {
+      "id": "existing-facts-and-AUX",
+      "items": [
+        {
+          "path": "runtime/foundation_facts.py",
+          "sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+          "bytes": 11191
+        },
+        {
+          "path": "runtime/auxiliary_selector.py",
+          "sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+          "bytes": 16035
+        }
+      ],
+      "actual_read_level": "unchanged exact providers plus every50runtimecontract actualreviewed",
+      "specific_rule_algorithm_scope": "originalfacts identity primaryprovisional is only frozen facts softwareidentity; newRenphasefree profile not ROOT02 overwrite; AUX remains evaluatedgraph helper"
+    },
+    {
+      "id": "379-prior-proof",
+      "items": [
+        {
+          "path": "complete_problem_before_producer.md",
+          "sha256": "537b7f0790afd1df8b77071c2dc9eecc49e6c0191b7a9f6e1d7130e43f8d839c",
+          "bytes": 9042
+        },
+        {
+          "path": "pencil_before_producer.py",
+          "sha256": "3a2397713a1a09f294d7c2136003495335dc0ee6168d2d590e35b07697a553d6",
+          "bytes": 5293
+        },
+        {
+          "path": "pencil_expected_before_producer.json.gz",
+          "sha256": "3d7a3fb404f94c0b344906d992165f660e38d7d49708307d1f05f2d52ea572a5",
+          "bytes": 58043
+        },
+        {
+          "path": "family_bounds_before_producer.json",
+          "sha256": "e74802c8470661706af1f865c99413e72e1e3865f4fe1c4a3177d943818d3cc8",
+          "bytes": 990
+        },
+        {
+          "path": "additional_expected_before_calls.json.gz",
+          "sha256": "37f9cec7ad62d74aa723de1e6c76961203bea27e2618f5466c8955e3fee4513d",
+          "bytes": 3056
+        }
+      ],
+      "actual_read_level": "actual writtenbefore corresponding producer calls",
+      "specific_rule_algorithm_scope": "continuousbox proof vs32corners vs empiricaltruth separate"
+    },
+    {
+      "id": "corrected-book-question",
+      "items": [
+        {
+          "path": "book_source_comparison_semantic_correction.json",
+          "sha256": "d0a15e7cf54a389443ec536ae9755d4856af5116490ced4f8cbdcd0229aeac5b",
+          "bytes": 1640
+        },
+        {
+          "path": "book_relative_current_and_root_prior_r1.json",
+          "sha256": "efcfbf28b1b49f8b461bb3ec7903235f03c872112c675c991315b047a7927a22",
+          "bytes": 3691
+        },
+        {
+          "path": "book_relative_current_and_root_actual_r1.json",
+          "sha256": "cd4bc01c5254dfc84738cc1d98f05e573d5d63ad2ba38311925bebcdbc3f0f57",
+          "bytes": 3050
+        }
+      ],
+      "actual_read_level": "first attribution error preserved and corrected after rootobservation; newdiagnostic prior precedes newcall",
+      "specific_rule_algorithm_scope": "old corebool/source favorable comparison is withdrawn, not numeric counterexample. Allnumbers/equations untouched; actualT0 doesnot replicate activeearthfeedsmetal"
+    },
+    {
+      "id": "actual-native-evidence",
+      "items": [
+        {
+          "path": "first_actual_report.json",
+          "sha256": "ab2cbd9657321e0085fdf839d0f46dd5a6f1e95c987fe53248dd49aa4a5d83fa",
+          "bytes": 2322
+        },
+        {
+          "path": "independent_origin_edge_actual_receipt.json",
+          "sha256": "133875ecfd224c68b024bb771c125ac75c3db0a3c5a71245a4edcb307a3269ab",
+          "bytes": 413
+        },
+        {
+          "path": "behavior_family_actual_summary.json",
+          "sha256": "9c1027c69350f5ac002f5025d89f4580a1c1126d7e6a23ed2b19442bd62399b3",
+          "bytes": 754
+        },
+        {
+          "path": "source_strict_pending_actual_receipt.json",
+          "sha256": "91e9fc2926d5cd11b80d1de965c336284a4fb53010e13d2824cce9d49a7ca8f4",
+          "bytes": 10755
+        },
+        {
+          "path": "valid_external_symlink_zeroexec_actual.json",
+          "sha256": "4bcf7eb7e9a6eea00bb3dbc15a937e037c70d31164894f7baa3e0dff83bff242",
+          "bytes": 504
+        },
+        {
+          "path": "algorithm_explanations_50_functions.json",
+          "sha256": "f56b36571814af47137d451fbea5271eda9ed5ebd2147df9bd0c65711e726ba6",
+          "bytes": 67157
+        },
+        {
+          "path": "documented_function_output_actual_receipt.json",
+          "sha256": "8dda3c45a9e0e6e65e65fd2c5a7111b3ac77736785fd2255c4813eb3cd17aeb5",
+          "bytes": 660
+        }
+      ],
+      "actual_read_level": "all actualrecords andsource/IO binding read",
+      "specific_rule_algorithm_scope": "behavior_summary old source_book_nonreproduced_direction field is superseded by semanticcorrection; othermath/bytechecks remain valid"
+    },
+    {
+      "id": "unread-unclosed-scope",
+      "read_level": "explicit notread ornotimplemented, notnegativeevidence",
+      "items": [
+        "all516pages semanticcontent beyonddeclaredpages",
+        "universalotherseasons/fromstrong/competing财官/rootsdamaged sourcefamily",
+        "specialwetearth qualitativeconsumption and complete土金并旺 quantifiedcontext",
+        "actualUTC five-layer carriers/location-boundary consumer301/357 not implemented oradopted here",
+        "calendar birthdate/biography/prediction verification",
+        "B/proportions/theme/display integration"
+      ],
+      "status": "These limits do not erase already answered exactW1 complete natal core question."
+    }
+  ],
+  "all_reference_or_reading_levels_retained": true,
+  "source_copy_full_map": "source_copy_receipt.json",
+  "source_subreview": "source_audit/reference_receipt.json",
+  "new_network_requests": 0,
+  "no_root_index_or_oldfreeze_edits": true,
+  "adoption": false
+}

@@ -1,0 +1,1370 @@
+杂气多明印食全部载体共同净辅助
+rev497_MCN2_multiple_visible_witnesses_whole
+所属原模块：C02
+当前采用：rev513_MCN2_multiple_visible_adoption.json
+范围：adopted_exact49790_and_complete33kernel_after50964_all_visible_MCN2_whole_local_net
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json
+SHA256：597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629
+
+1. mcn2_whole.py:canonical
+算法标识：mcn2_whole.py:canonical
+source_identity：{
+  "relative_path": "mcn2_whole.py",
+  "qualified_name": "canonical",
+  "first_line": 10,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "8ae3416850c09e19b46307cde6df4d9599c76b9bb2e203f797425463794dabb8"
+}
+contract：{
+  "purpose": "稳定规范JSON",
+  "inputs": "JSON兼容已pack结果",
+  "operations": "键排序/紧凑Unicode/拒NaN",
+  "outputs_and_limits": "str；CLI另换行，不校验来源"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "mcn2_whole.py:canonical",
+  "old_AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn2_whole.py:canonical",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+2. mcn2_whole.py:pairs
+算法标识：mcn2_whole.py:pairs
+source_identity：{
+  "relative_path": "mcn2_whole.py",
+  "qualified_name": "pairs",
+  "first_line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "module_sha256": "8ae3416850c09e19b46307cde6df4d9599c76b9bb2e203f797425463794dabb8"
+}
+contract：{
+  "purpose": "拒重复JSON键",
+  "inputs": "解析器键值对",
+  "operations": "逐键出现检测，固定错误不回显原键",
+  "outputs_and_limits": "dict或ValueError；转义重复也拒"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "mcn2_whole.py:pairs",
+  "old_AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/additional_entry_lambda_IO.json",
+  "record": "mcn2_whole.py:pairs",
+  "type": "actual supplementary call/return or explicitly captured exception"
+}
+unused_scope：null
+
+3. mcn2_whole.py:constant
+算法标识：mcn2_whole.py:constant
+source_identity：{
+  "relative_path": "mcn2_whole.py",
+  "qualified_name": "constant",
+  "first_line": 17,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6",
+  "module_sha256": "8ae3416850c09e19b46307cde6df4d9599c76b9bb2e203f797425463794dabb8"
+}
+contract：{
+  "purpose": "拒非有限常量",
+  "inputs": "NaN/Infinity标记",
+  "operations": "固定抛ValueError",
+  "outputs_and_limits": "无正常返回；观察器None为异常展开"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "mcn2_whole.py:constant",
+  "old_AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/additional_entry_lambda_IO.json",
+  "record": "mcn2_whole.py:constant",
+  "type": "actual supplementary call/return or explicitly captured exception"
+}
+unused_scope：null
+
+4. mcn2_whole.py:bounded
+算法标识：mcn2_whole.py:bounded
+source_identity：{
+  "relative_path": "mcn2_whole.py",
+  "qualified_name": "bounded",
+  "first_line": 18,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351",
+  "module_sha256": "8ae3416850c09e19b46307cde6df4d9599c76b9bb2e203f797425463794dabb8"
+}
+contract：{
+  "purpose": "限制公开树",
+  "inputs": "API值或已解析JSON",
+  "operations": "深16/节点1000/对象16/列表32/串2000/Unicode标量，float等拒",
+  "outputs_and_limits": "None或ValueError；不是业务schema核对"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "mcn2_whole.py:bounded",
+  "old_AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn2_whole.py:bounded",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+5. mcn2_whole.py:strict_load
+算法标识：mcn2_whole.py:strict_load
+source_identity：{
+  "relative_path": "mcn2_whole.py",
+  "qualified_name": "strict_load",
+  "first_line": 32,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22",
+  "module_sha256": "8ae3416850c09e19b46307cde6df4d9599c76b9bb2e203f797425463794dabb8"
+}
+contract：{
+  "purpose": "严格JSON文本",
+  "inputs": "最多5000字符str",
+  "operations": "json.loads重复键/非有限回调，再bounded",
+  "outputs_and_limits": "支持JSON值；根字段在evaluate核"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "mcn2_whole.py:strict_load",
+  "old_AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/additional_entry_lambda_IO.json",
+  "record": "mcn2_whole.py:strict_load",
+  "type": "actual supplementary call/return or explicitly captured exception"
+}
+unused_scope：null
+
+6. mcn2_whole.py:guard
+算法标识：mcn2_whole.py:guard
+source_identity：{
+  "relative_path": "mcn2_whole.py",
+  "qualified_name": "guard",
+  "first_line": 35,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a1779daa8f0eda35efaa8524bbe8667b92530fd2de1d97498d9d98526d50e836",
+  "module_sha256": "8ae3416850c09e19b46307cde6df4d9599c76b9bb2e203f797425463794dabb8"
+}
+contract：{
+  "purpose": "固定497来源与运行代码先验绑定",
+  "inputs": "无参；根于自身路径的source_execution_lock",
+  "operations": "逐字节/哈希/清单/包含/非软链核验，全部通过才交给六模块加载",
+  "outputs_and_limits": "material字节映射或ValueError/OSError；不认证古典真值；旧source文件同被锁"
+}
+条目分类：new_or_changed497
+exact_reuse：null
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn2_whole.py:guard",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+7. mcn2_whole.py:load
+算法标识：mcn2_whole.py:load
+source_identity：{
+  "relative_path": "mcn2_whole.py",
+  "qualified_name": "load",
+  "first_line": 48,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "module_sha256": "8ae3416850c09e19b46307cde6df4d9599c76b9bb2e203f797425463794dabb8"
+}
+contract：{
+  "purpose": "只执行已守卫材料",
+  "inputs": "内部模块名/锁内path/material",
+  "operations": "ModuleType+固定filename编译执行",
+  "outputs_and_limits": "module；本函数本身不代guard，唯一公开调用者已先guard"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "mcn2_whole.py:load",
+  "old_AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn2_whole.py:load",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+8. mcn2_whole.py:evaluate
+算法标识：mcn2_whole.py:evaluate
+source_identity：{
+  "relative_path": "mcn2_whole.py",
+  "qualified_name": "evaluate",
+  "first_line": 50,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e7a57600d994267345794cd14dca0c076a650ec8916153eb9b3faee355212e75",
+  "module_sha256": "8ae3416850c09e19b46307cde6df4d9599c76b9bb2e203f797425463794dabb8"
+}
+contract：{
+  "purpose": "固定公开输入到完整多载体研究结果",
+  "inputs": "exact497 schema/method/profile/raw四字段dict",
+  "operations": "bounded与固定身份→guard→六模块→新core评价",
+  "outputs_and_limits": "完整pack结果；source错误在六provider前拒；合法域外保状态；不接B/显示"
+}
+条目分类：new_or_changed497
+exact_reuse：null
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "mcn2_whole.py:evaluate",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+9. mcn2_whole.py:main
+算法标识：mcn2_whole.py:main
+source_identity：{
+  "relative_path": "mcn2_whole.py",
+  "qualified_name": "main",
+  "first_line": 55,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113",
+  "module_sha256": "8ae3416850c09e19b46307cde6df4d9599c76b9bb2e203f797425463794dabb8"
+}
+contract：{
+  "purpose": "原子CLI",
+  "inputs": "最多20000输入bytes",
+  "operations": "UTF8严格解码→strict_load→evaluate→canonical print；固定错误捕获",
+  "outputs_and_limits": "正常/有效未知0；硬错2，仅rejected/no_partial；输出一newline"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "mcn2_whole.py:main",
+  "old_AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/additional_entry_lambda_IO.json",
+  "record": "mcn2_whole.py:main",
+  "type": "actual supplementary call/return or explicitly captured exception"
+}
+unused_scope：null
+
+10. runtime/equilibrium.py:coefficients
+算法标识：runtime/equilibrium.py:coefficients
+source_identity：{
+  "relative_path": "runtime/equilibrium.py",
+  "qualified_name": "coefficients",
+  "first_line": 4,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='exact'), arg(arg='cut_print'), arg(arg='cut_food')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False), Constant(value=False)])",
+  "AST_sha256": "4d024221af479dacf42bca904645ebb49b3aa43c0379150d1b1bd9e6e6f23e68",
+  "module_sha256": "3d769b755334b36a676141593ba1cc7e86a27e5970a39ad6c5e28c51f773ae20"
+}
+contract：{
+  "purpose": "完整同流矩阵与全部明壬/明丙组诊断",
+  "inputs": "base/config/exact/cut_print/cut_food",
+  "operations": "沿旧全部生克/位置/自然与额外冲争/存量负荷与潜在费用；按集合切全部明壬→全部明丙控制、全部明丙→全部土生成；费用不退；权范数收缩证明",
+  "outputs_and_limits": "完整系数/边/费用/唯一性证；只切明确两组，不称所有印/食关闭，藏干仍在"
+}
+条目分类：new_or_changed497
+exact_reuse：null
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/equilibrium.py:coefficients",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+11. runtime/equilibrium.py:solve
+算法标识：runtime/equilibrium.py:solve
+source_identity：{
+  "relative_path": "runtime/equilibrium.py",
+  "qualified_name": "solve",
+  "first_line": 26,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='exact'), arg(arg='cut_print'), arg(arg='cut_food')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False), Constant(value=False)])",
+  "AST_sha256": "40d68fd966bf961dfd172242bd71a75a962c1e8210f61d23fd07bec6e4c7ad0e",
+  "module_sha256": "3d769b755334b36a676141593ba1cc7e86a27e5970a39ad6c5e28c51f773ae20"
+}
+contract：{
+  "purpose": "唯一max仿射共同解",
+  "inputs": "base/config/exact/cuts",
+  "operations": "先系数证明，枚举活跃面精确Gauss并代回每个max",
+  "outputs_and_limits": "state含current/coefficients；本矩阵全非负direct唯一，不证明传统或实际世界"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/equilibrium.py:solve",
+  "old_AST_sha256": "40d68fd966bf961dfd172242bd71a75a962c1e8210f61d23fd07bec6e4c7ad0e"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/equilibrium.py:solve",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+12. runtime/equilibrium.py:origins
+算法标识：runtime/equilibrium.py:origins
+source_identity：{
+  "relative_path": "runtime/equilibrium.py",
+  "qualified_name": "origins",
+  "first_line": 36,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f55c884d3056482ac9435bed2c53a69cb850aa7bb2487a1f783aefb6e76a9f73",
+  "module_sha256": "3d769b755334b36a676141593ba1cc7e86a27e5970a39ad6c5e28c51f773ae20"
+}
+contract：{
+  "purpose": "每原来源的同解去向",
+  "inputs": "base/state/exact",
+  "operations": "gross/retention，解生成线性来源系统并核非负、总和、逐方程",
+  "outputs_and_limits": "ports；生成行界≤1/2保证唯一，不重复造根"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/equilibrium.py:origins",
+  "old_AST_sha256": "f55c884d3056482ac9435bed2c53a69cb850aa7bb2487a1f783aefb6e76a9f73"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/equilibrium.py:origins",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+13. runtime/equilibrium.py:graph
+算法标识：runtime/equilibrium.py:graph
+source_identity：{
+  "relative_path": "runtime/equilibrium.py",
+  "qualified_name": "graph",
+  "first_line": 43,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "11ccce7c9551144fa7d36890f9961904d8076279820f77572d6a1efe4dc0648c",
+  "module_sha256": "3d769b755334b36a676141593ba1cc7e86a27e5970a39ad6c5e28c51f773ae20"
+}
+contract：{
+  "purpose": "完整带符号、来源及一次预算图",
+  "inputs": "base/state/ports",
+  "operations": "按静态演员权分当前来源；逐边生成/控制/潜在费用；池损耗按比例摊；木体存量负荷另列",
+  "outputs_and_limits": "完整图；容量与实际损失分开，gross=x+fee+loss，未用容量不退款"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/equilibrium.py:graph",
+  "old_AST_sha256": "11ccce7c9551144fa7d36890f9961904d8076279820f77572d6a1efe4dc0648c"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/equilibrium.py:graph",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+14. runtime/exact_reused.py:pack
+算法标识：runtime/exact_reused.py:pack
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "pack",
+  "first_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+contract：{
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Encode internal exact mathematics."
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/exact_reused.py:pack",
+  "old_AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/exact_reused.py:pack",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+15. runtime/exact_reused.py:gauss
+算法标识：runtime/exact_reused.py:gauss
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "gauss",
+  "first_line": 14,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+contract：{
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve."
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/exact_reused.py:gauss",
+  "old_AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/exact_reused.py:gauss",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+16. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+contract：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "十干查五行"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/foundation_facts.py:stem_element",
+  "old_AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+17. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+contract：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "严格十神角色"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/foundation_facts.py:ten_god",
+  "old_AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+18. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+contract：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原柱基础合法性"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/foundation_facts.py:validate",
+  "old_AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+19. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+contract：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留有位置的形式合冲"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/foundation_facts.py:formal_relations",
+  "old_AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+20. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+contract：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/foundation_facts.py:root_evidence",
+  "old_AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+21. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+contract：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原61完整四柱事实入口"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/foundation_facts.py:parse",
+  "old_AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+22. runtime/inventory.py:context
+算法标识：runtime/inventory.py:context
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "context",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f66913cfa97683fb3380bb853b180d3d45787f108c9d4f2e7a5595103930fed9",
+  "module_sha256": "e611f91611b09abf111aebaaf6fa98f94457efce70fc1621b6a5a1743ce79e03"
+}
+contract：{
+  "purpose": "判断多载体源条件及具体其他未决",
+  "inputs": "原合法四柱、facts模块",
+  "operations": "甲日辰月且壬/丙非日明透，保全部一至二角色载体；只消费旧multiple任务，指定冲争及全水形另记录，其他formal仍pending",
+  "outputs_and_limits": "source_closed及visible_source_witnesses/具体pending；多载体是声明工程扩展，不是古书逐盘明断"
+}
+条目分类：new_or_changed497
+exact_reuse：null
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/inventory.py:context",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+23. runtime/inventory.py:build
+算法标识：runtime/inventory.py:build
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "build",
+  "first_line": 32,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='source'), arg(arg='reception'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "b038531aeac33b643eb1bd9cbd666405978314b9e929882c3a29d4681f9b4f3c",
+  "module_sha256": "e611f91611b09abf111aebaaf6fa98f94457efce70fc1621b6a5a1743ce79e03"
+}
+contract：{
+  "purpose": "构造全部明藏和来源资格",
+  "inputs": "raw/source/reception/facts/root/primitive",
+  "operations": "每明藏×四支ROOT，native/effective分开；候选水根max7/2；同元素origin最大一次→静态演员分配→月戊/余土分组",
+  "outputs_and_limits": "base含全部原根/演员/权重/direct；非现实库存计量或喜用判定"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/inventory.py:build",
+  "old_AST_sha256": "b038531aeac33b643eb1bd9cbd666405978314b9e929882c3a29d4681f9b4f3c"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/inventory.py:build",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+24. runtime/mcn2_core.py:connected_candidate
+算法标识：runtime/mcn2_core.py:connected_candidate
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "qualified_name": "connected_candidate",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='native'), arg(arg='month'), arg(arg='birthday')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d51ceee71c9309637d383039d959642b3e1111355147eb312aaffba71302e2f1",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+contract：{
+  "purpose": "禁止跨壬拼接根与生日证据",
+  "inputs": "同一颗明壬native/month/birthday三个Fraction量",
+  "operations": "三者均严格>0",
+  "outputs_and_limits": "bool；不等物理会水受纳；人工条件组合测试不是伪造物理原局"
+}
+条目分类：new_or_changed497
+exact_reuse：null
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn2_core.py:connected_candidate",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+25. runtime/mcn2_core.py:metrics
+算法标识：runtime/mcn2_core.py:metrics
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "qualified_name": "metrics",
+  "first_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='ports'), arg(arg='graph')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f459d33883b2f403450856026aedb0ae81905784f952ea75b48d25cae47c5185",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+contract：{
+  "purpose": "全部可行/失败载体与集合功能量",
+  "inputs": "base/state/origins/完整graph",
+  "operations": "每壬自身原根、月水原点、生日及三源候选；每丙泄秀；总I/Q、所有土对所有壬的capacity与actual_loss分列；M沿旧全负荷；至少同一壬连通且一个丙出口及M>0；general成立才assert容量=实损；诊断源/目标排序",
+  "outputs_and_limits": "完整metrics；aggregate为总和非第一人或人数平均；静态共池非现实演员局部力；强无损与一般活路分列"
+}
+条目分类：new_or_changed497
+exact_reuse：null
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn2_core.py:metrics",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+26. runtime/mcn2_core.py:increment
+算法标识：runtime/mcn2_core.py:increment
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "qualified_name": "increment",
+  "first_line": 21,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='elements'), arg(arg='total')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9608981d39e61ccb6bb268f1e09a8aa4ca3f47ccda3e2a4af9fb485f99acfd5e",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+contract：{
+  "purpose": "明确有限数学增补",
+  "inputs": "base、非空唯一现有元素、Fraction total0..2",
+  "operations": "各分总量/k，土按原组份额；独立math-add来源；断言总量守恒且actor/root/weight不变",
+  "outputs_and_limits": "deepcopy base+输入收据；不是真实新干支/新ROOT，不许缺金造金"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/mcn2_core.py:increment",
+  "old_AST_sha256": "9608981d39e61ccb6bb268f1e09a8aa4ca3f47ccda3e2a4af9fb485f99acfd5e"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn2_core.py:increment",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+27. runtime/mcn2_core.py:physical
+算法标识：runtime/mcn2_core.py:physical
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "qualified_name": "physical",
+  "first_line": 32,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='config'), arg(arg='math'), arg(arg='exact'), arg(arg='cut_print'), arg(arg='cut_food')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False), Constant(value=False)])",
+  "AST_sha256": "7df64e9276d7738f9df183f53ca48d56f69934a004e6d6ecd9b74e3daccb0105",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+contract：{
+  "purpose": "联解与完整预算/指标",
+  "inputs": "base/config/math/exact/cuts",
+  "operations": "solve→origins→graph→metrics",
+  "outputs_and_limits": "world含base与所有实际作用；不单独判源已闭"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/mcn2_core.py:physical",
+  "old_AST_sha256": "7df64e9276d7738f9df183f53ca48d56f69934a004e6d6ecd9b74e3daccb0105"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn2_core.py:physical",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+28. runtime/mcn2_core.py:resolved_world
+算法标识：runtime/mcn2_core.py:resolved_world
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "qualified_name": "resolved_world",
+  "first_line": 35,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='source'), arg(arg='relation'), arg(arg='config'), arg(arg='modules'), arg(arg='addition'), arg(arg='cut_print'), arg(arg='cut_food')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None), Constant(value=False), Constant(value=False)])",
+  "AST_sha256": "7bc347222b83706c496054be575ef1327b894ea244ebafc08fcbb62ee3045b59",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+contract：{
+  "purpose": "物理受纳候选与源功能分层",
+  "inputs": "raw/source/固定relation/config/modules/可选增补与两组cuts",
+  "operations": "fullshape才建候选；有同一壬原根及申子辰三来源活则保物理候选，不以生日/源功能失败撤销；否则完整保冲重解；增补全目标同解",
+  "outputs_and_limits": "world含失败候选与原因；不选较好关系版本；物理资格不等general，双壬甲子例R1受纳真而Q0"
+}
+条目分类：new_or_changed497
+exact_reuse：null
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn2_core.py:resolved_world",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+29. runtime/mcn2_core.py:judge
+算法标识：runtime/mcn2_core.py:judge
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "qualified_name": "judge",
+  "first_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='before'), arg(arg='after'), arg(arg='source_closed')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e71ad4bb97a676c5a36b71311121b2c4153407167dccea4c3d947899fada3a76",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+contract：{
+  "purpose": "全部载体四目标净偏序",
+  "inputs": "before/after完整metrics及source_closed",
+  "operations": "两局general；M/I总/Q总非减、全部土攻全部明壬实际损失非增、至少一严格；capacity另列不冒actual",
+  "outputs_and_limits": "checks/net/deltas；不要求每条原有效路径不减；各载体变化全留，不是全局最终传统喜用或现实预测"
+}
+条目分类：new_or_changed497
+exact_reuse：null
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn2_core.py:judge",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+30. runtime/mcn2_core.py:variant
+算法标识：runtime/mcn2_core.py:variant
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "qualified_name": "variant",
+  "first_line": 48,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='source'), arg(arg='relation'), arg(arg='params'), arg(arg='modules')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9d5249ee02187e2462a4ef105ceea36851ad3e56a2ad7b40700db833fa05bd7e",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+contract：{
+  "purpose": "一具名法完整原局/诊断/所有增补",
+  "inputs": "raw/source/relation/固定params/modules",
+  "operations": "基线+联合四诊断；源闭才全部非空现有元素子集×3量（五元素时31×3），全部结果与三尺度共同混合保留",
+  "outputs_and_limits": "完整variant；不单调压缩，不按两法common作为结果准入门"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/mcn2_core.py:variant",
+  "old_AST_sha256": "9d5249ee02187e2462a4ef105ceea36851ad3e56a2ad7b40700db833fa05bd7e"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn2_core.py:variant",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+31. runtime/mcn2_core.py:evaluate
+算法标识：runtime/mcn2_core.py:evaluate
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 64,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='params'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive'), arg(arg='inventory'), arg(arg='math'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "89371151a973d9700097959fcde17332463d6245e115776bf8a718b8b108bba8",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+contract：{
+  "purpose": "源入口与完整多载体结果分流",
+  "inputs": "固定request/params/facts/root/primitive/inventory/math/exact",
+  "operations": "源前件失败/合法别源明确退出；两固定关系分别全variant；pending不输出净方向但保完整诊断",
+  "outputs_and_limits": "完整结果与来源状态；阴性也是算完，B/主题/传统grade/priority均不新增"
+}
+条目分类：new_or_changed497
+exact_reuse：null
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/mcn2_core.py:evaluate",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+32. runtime/root_types.py:canonical
+算法标识：runtime/root_types.py:canonical
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "canonical",
+  "first_line": 30,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "canonical original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:canonical",
+  "old_AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+33. runtime/root_types.py:strict_load
+算法标识：runtime/root_types.py:strict_load
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "strict_load",
+  "first_line": 34,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2ef9ff64dfa5b57cd3c6b9fc32d7294ad2e92b9e2e37460455a48ea8c311e1fe",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "strict_load original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:strict_load",
+  "old_AST_sha256": "2ef9ff64dfa5b57cd3c6b9fc32d7294ad2e92b9e2e37460455a48ea8c311e1fe"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+34. runtime/root_types.py:strict_load.<locals>.pairs
+算法标识：runtime/root_types.py:strict_load.<locals>.pairs
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "strict_load.<locals>.pairs",
+  "first_line": 35,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "84be0e655057bd44adcf8874ae041932c14a574b747bd201b8e253b8c0dfc383",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "旧ROOT严格JSON解析器内部拒重复键回调",
+  "inputs": "items键值对",
+  "operations": "出现同键固定ValueError，错误带原键；这是旧未被新公开入口调用的内部契约",
+  "outputs_and_limits": "dict或ValueError，独立定义未在本次执行；公开入口用自己的固定不回显错误"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:strict_load.<locals>.pairs",
+  "old_AST_sha256": "84be0e655057bd44adcf8874ae041932c14a574b747bd201b8e253b8c0dfc383"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+35. runtime/root_types.py:strict_load.<locals>.nonfinite
+算法标识：runtime/root_types.py:strict_load.<locals>.nonfinite
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "strict_load.<locals>.nonfinite",
+  "first_line": 41,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "09bf2a29cdc0a118e8e7feb8f560f977eec1a8478dd9e230dc76b12f25156dd7",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "旧ROOT严格JSON解析器内部拒非有限回调",
+  "inputs": "非有限token",
+  "operations": "抛ValueError并带原token",
+  "outputs_and_limits": "无正常返回；旧未执行内部接口，不冒当前trace"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:strict_load.<locals>.nonfinite",
+  "old_AST_sha256": "09bf2a29cdc0a118e8e7feb8f560f977eec1a8478dd9e230dc76b12f25156dd7"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+36. runtime/root_types.py:data
+算法标识：runtime/root_types.py:data
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "data",
+  "first_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "74c864b733cb2e6604ffdd2f501cd9e11724c091e6ede6b8deb7efd3c0330b80",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "data original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:data",
+  "old_AST_sha256": "74c864b733cb2e6604ffdd2f501cd9e11724c091e6ede6b8deb7efd3c0330b80"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+37. runtime/root_types.py:validate_pair
+算法标识：runtime/root_types.py:validate_pair
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "validate_pair",
+  "first_line": 59,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d9fcbb697b6f7ceea9e8a85060c1558bb7a18ad208193ada2057ad09bc4865ba",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "validate_pair original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:validate_pair",
+  "old_AST_sha256": "d9fcbb697b6f7ceea9e8a85060c1558bb7a18ad208193ada2057ad09bc4865ba"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+38. runtime/root_types.py:classify
+算法标识：runtime/root_types.py:classify
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "classify",
+  "first_line": 66,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "原Primary ROOT类型",
+  "inputs": "合法stem/branch和已捕获原primitive",
+  "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+  "outputs": "type info",
+  "preconditions_and_limits": "caller已factsparse合法，primitive与ROOT代码源锁；不增加藏干、不判实际强弱。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:classify",
+  "old_AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/root_types.py:classify",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+39. runtime/root_types.py:choose_value
+算法标识：runtime/root_types.py:choose_value
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "choose_value",
+  "first_line": 90,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='info')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "5f711116638a8c7bb0ccd95a1477d98dd5a444b9c76a38b4c81ee8e8cc09aaf2",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "原公共ROOT工程刻度",
+  "inputs": "typeinfo",
+  "operations": "源类型优先7/2、5/2、非土阳墓3/2、未列0",
+  "outputs": "value/category",
+  "preconditions_and_limits": "0非现实无根证明；数额非经典唯一比值；未被新关系7/2改写原表。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:choose_value",
+  "old_AST_sha256": "5f711116638a8c7bb0ccd95a1477d98dd5a444b9c76a38b4c81ee8e8cc09aaf2"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/root_types.py:choose_value",
+  "type": "actual first completed fullAPI trace; non-def frames separately indexed but not counted as definitions"
+}
+unused_scope：null
+
+40. runtime/root_types.py:source_basis
+算法标识：runtime/root_types.py:source_basis
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "source_basis",
+  "first_line": 102,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='info')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1643a04853eff5fc578612fb2bc1c05825cc388518eecf5b813ec4ae423fcc71",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "source_basis original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:source_basis",
+  "old_AST_sha256": "1643a04853eff5fc578612fb2bc1c05825cc388518eecf5b813ec4ae423fcc71"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+41. runtime/root_types.py:explain
+算法标识：runtime/root_types.py:explain
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "explain",
+  "first_line": 122,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "222a4a79d6925a57d0b5c5bc35ae8e2208071362d26d957a80874e5c87bfaf8d",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "explain original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:explain",
+  "old_AST_sha256": "222a4a79d6925a57d0b5c5bc35ae8e2208071362d26d957a80874e5c87bfaf8d"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+42. runtime/root_types.py:qualification
+算法标识：runtime/root_types.py:qualification
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "qualification",
+  "first_line": 141,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "85fdefa9f5a9d58b715853ed897344e9ac0c552605406c1104b0cab3e2f7ce19",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "qualification original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:qualification",
+  "old_AST_sha256": "85fdefa9f5a9d58b715853ed897344e9ac0c552605406c1104b0cab3e2f7ce19"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+43. runtime/root_types.py:matrix
+算法标识：runtime/root_types.py:matrix
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "matrix",
+  "first_line": 146,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1379d3a571ba65c87b578d49f3315ce72171048b40ef7028f191f6acf33fd7ae",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "matrix original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:matrix",
+  "old_AST_sha256": "1379d3a571ba65c87b578d49f3315ce72171048b40ef7028f191f6acf33fd7ae"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+44. runtime/root_types.py:evaluate
+算法标识：runtime/root_types.py:evaluate
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "evaluate",
+  "first_line": 151,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d0124402959b900ef224cb9c3d99f72dbae1c0a423edbc74ae5c03d08ffd2b44",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "evaluate original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:evaluate",
+  "old_AST_sha256": "d0124402959b900ef224cb9c3d99f72dbae1c0a423edbc74ae5c03d08ffd2b44"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+45. runtime/root_types.py:main
+算法标识：runtime/root_types.py:main
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "main",
+  "first_line": 166,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d7d801468486509dd801cf6f2348c956a5d800d1b67b736cc0d7f61713c80cb6",
+  "module_sha256": "4a62aaffd86d280ab4063d8d6f406da38474b277404c46012fc43dbd7c32c9cf"
+}
+contract：{
+  "purpose": "保留原ROOT旧入口/辅助定义，当前不执行",
+  "inputs": "main original ROOT component inputs",
+  "operations": "原函数体及原调用布局前提未改；本433只取classify/choose_value两个纯函数",
+  "outputs": "原布局合同中的结果或错误",
+  "preconditions_and_limits": "未在433调用，不能借AST相同宣称本目录仍是完整ROOT独立CLI布局；data/explain等原相对材料路径只在原组件合同成立。完整原实现与cached120结果已保存source/reused。无current IO声明。"
+}
+条目分类：exact_old_AST_current_context497
+exact_reuse：{
+  "old_contract": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_complete_runtime_release/algorithm_explanations_all44.json",
+  "old_function_id": "runtime/root_types.py:main",
+  "old_AST_sha256": "d7d801468486509dd801cf6f2348c956a5d800d1b67b736cc0d7f61713c80cb6"
+}
+current_context_note：Singleton physics exact; current delegated metrics aggregate all visible actors and actual-loss order. Exact AST identity alone is not proof of source equivalence.
+actual_current_IO：null
+unused_scope：No execution in this completed current trace; old unused ROOT data/explain/CLI contracts not relabeled as executed.
+
+46. runtime/mcn2_core.py:metrics.<lambda@9:97>
+算法标识：runtime/mcn2_core.py:metrics.<lambda@9:97>
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "first_line": 9,
+  "column": 97,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='a')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dbcba343862e49c7962813af97716372f0b75cffa91a02d28af856c16f86b709",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+条目分类：new_lambda_expression497
+contract：{
+  "purpose": "稳定排序诊断载体或攻击行",
+  "inputs": "实际actor含id，或实际边含source/target",
+  "operations": "前两取actor.id；第三取(source,target)二元组",
+  "outputs_and_limits": "str或tuple排序键，不改变物理量/作用优先；前两相同AST被编译器共享code但实际actor.stem区分两次调用位置"
+}
+actual_current_IO：{
+  "artifact": "actual/additional_entry_lambda_IO.json",
+  "record": "runtime/mcn2_core.py:metrics.<lambda@9:97>",
+  "type": "actual argument/return; source AST location + actual sort-input role disambiguates shared compiled ID-key lambda"
+}
+unused_scope：null
+
+47. runtime/mcn2_core.py:metrics.<lambda@9:190>
+算法标识：runtime/mcn2_core.py:metrics.<lambda@9:190>
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "first_line": 9,
+  "column": 190,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='a')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dbcba343862e49c7962813af97716372f0b75cffa91a02d28af856c16f86b709",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+条目分类：new_lambda_expression497
+contract：{
+  "purpose": "稳定排序诊断载体或攻击行",
+  "inputs": "实际actor含id，或实际边含source/target",
+  "operations": "前两取actor.id；第三取(source,target)二元组",
+  "outputs_and_limits": "str或tuple排序键，不改变物理量/作用优先；前两相同AST被编译器共享code但实际actor.stem区分两次调用位置"
+}
+actual_current_IO：{
+  "artifact": "actual/additional_entry_lambda_IO.json",
+  "record": "runtime/mcn2_core.py:metrics.<lambda@9:190>",
+  "type": "actual argument/return; source AST location + actual sort-input role disambiguates shared compiled ID-key lambda"
+}
+unused_scope：null
+
+48. runtime/mcn2_core.py:metrics.<lambda@15:209>
+算法标识：runtime/mcn2_core.py:metrics.<lambda@15:209>
+source_identity：{
+  "relative_path": "runtime/mcn2_core.py",
+  "first_line": 15,
+  "column": 209,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='e')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2b540516c2da86da1d4c7a721e173ca17048c355cd6b5d63dcb5964cd4be1246",
+  "module_sha256": "89fa7b54c9924d2eff8a976d33c9b1403cc27dc15a0e3e45484983c6033ddeed"
+}
+条目分类：new_lambda_expression497
+contract：{
+  "purpose": "稳定排序诊断载体或攻击行",
+  "inputs": "实际actor含id，或实际边含source/target",
+  "operations": "前两取actor.id；第三取(source,target)二元组",
+  "outputs_and_limits": "str或tuple排序键，不改变物理量/作用优先；前两相同AST被编译器共享code但实际actor.stem区分两次调用位置"
+}
+actual_current_IO：{
+  "artifact": "actual/additional_entry_lambda_IO.json",
+  "record": "runtime/mcn2_core.py:metrics.<lambda@15:209>",
+  "type": "actual argument/return; source AST location + actual sort-input role disambiguates shared compiled ID-key lambda"
+}
+unused_scope：null
+

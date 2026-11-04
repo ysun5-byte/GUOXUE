@@ -1,0 +1,86 @@
+{
+  "status": "tools_validated_full_archive_still_in_progress",
+  "archive_validation": {
+    "tests": "author17 and root complete suite passed"
+  },
+  "restore_validation": {
+    "status": "passed",
+    "unit_fixture_tests": 24,
+    "unit_fixture_command": "python3 work/上传准备/test_restore_project.py",
+    "cross_archive_fixture": {
+      "source": "work/上传准备/archive_restore_fixture/manifests",
+      "scope": "all",
+      "verified_regular_files": 6,
+      "downloaded_assets_first_restore": 7,
+      "downloaded_assets_verify_only": 0,
+      "exact_expected_bytes_match": true,
+      "empty_directory_preserved": true,
+      "external_symlink_metadata_preserved": true
+    },
+    "coverage": [
+      "zip-member streaming",
+      "raw-part ordered assembly",
+      "full original object SHA-256 and bytes",
+      "same-content aliases",
+      "reuse already correct local bytes without download",
+      "cache reuse",
+      "corrupt remote/cached/member/whole-object rejection",
+      "existing invalid file explicit replacement",
+      "scope final/history/all",
+      "offline read-only verify",
+      "traversal/absolute/backslash refusal",
+      "destination parent symlink refusal",
+      "explicit internal-relative symlink handling",
+      "external symlink metadata-only default",
+      "read-only directory final mode",
+      "atomic no-replace file commit during concurrent target creation/change",
+      "already-correct concurrent file preserved without replacing inode",
+      "explicit replacement leaf type recheck after data write",
+      "atomic symlink create preserves concurrent destination",
+      "complete four-manifest checksum table before any restore write",
+      "missing checksum table/schema/duplicate keys/incomplete file list refusal",
+      "valid gzip with deleted path row refusal before restore and verify",
+      "changed objects/assets/directories refusal without updated checksum anchor"
+    ],
+    "did_not_run_original_research_math": true,
+    "original_frozen_files_modified": false,
+    "concurrent_leaf_fix": {
+      "default_file_commit": "same-directory os.link temporary to final: atomic no-replace; EEXIST exact bytes are skipped, conflicts refused",
+      "explicit_replace": "destination leaf type and exact SHA rechecked before os.replace",
+      "symlink_commit": "atomic os.symlink; EEXIST refuses conflict without --replace-invalid",
+      "additional_concurrency_fixture_tests": 6
+    },
+    "manifest_checksum_anchor": {
+      "required_file": "manifest-checksums.json",
+      "schema_version": 1,
+      "exact_required_file_set": [
+        "project-files.jsonl.gz",
+        "objects.jsonl.gz",
+        "release-assets.json",
+        "directories.jsonl.gz"
+      ],
+      "verified_fields": [
+        "bytes",
+        "sha256"
+      ],
+      "production_trust_anchor": "Git commit and release acceptance; no digital signature claim",
+      "additional_checksum_fixture_tests": 5,
+      "cross_fixture_passed_after_checksum_enforcement": true
+    }
+  },
+  "independent_review": "Actual source/fixtures reviewed; full remote archive and public restore checks still required.",
+  "scripts": {
+    "archive_plan_and_upload.py": {
+      "bytes": 40346,
+      "sha256": "fd56be4d492688c1c0fa83a3541e23f48ea8f5384726d56f6bd46ac61aadb316"
+    },
+    "restore_project.py": {
+      "bytes": 31991,
+      "sha256": "add8462030e17b4fe27f62e42a0457b71b8453debd1b632117de97c767c3e659"
+    },
+    "build_source_inventory.py": {
+      "bytes": 9478,
+      "sha256": "226ebc3aa59c7545b3d49b397ee90d277e279a973a72154ed3997040f4275c0a"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "schema": "source-qualified-original-Wu-whole-natal-print-adoption-0.1",
+  "revision": 440,
+  "registered_utc": "2026-11-02T23:46:31.580023+00:00",
+  "status": "adopted_exact428b_originalWu_full_natal_print_water_after438",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev428b_Primary_Wu_complete_print",
+      "files": 84,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev428b_Primary_Wu_complete_print/manifest.json",
+        "bytes": 14238,
+        "sha256": "8710b3fe07fdadab2e980a310ba0aa18e7edca8d74ddf22c678083331d3407d2"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev428b_Primary_Wu_complete_print/freeze.json",
+        "bytes": 207,
+        "sha256": "1a218b016c0cb991689058201dd9de8a2743d4f0ad4dfe500f62f581f0479cfd"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev438_Primary_Wu_independent_review",
+      "files": 67,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev438_Primary_Wu_independent_review/manifest.json",
+        "bytes": 10113,
+        "sha256": "b2cfbaa32c45d2b63b924c4c8bf766973bb3a533bea4674291c1034b18d81939"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev438_Primary_Wu_independent_review/freeze.json",
+        "bytes": 182,
+        "sha256": "aa56342c76bede4f68723c9fd361bf82536d39382f7848626900e3568cbf7164"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev428b_author_completion_handoff.json",
+    "bytes": 4285,
+    "sha256": "98b52dd8688ef6bd8172675e5b331df5442fae19db05548e2b94e9c617445944"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev438_independent_completion_handoff.json",
+    "bytes": 13816,
+    "sha256": "220dd6f2dcd7194ee19179f0c066cae0d3a3c49780b9bb0b58953c3623b0b220"
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev438_Primary_Wu_independent_review/independent_report.json",
+    "bytes": 12973,
+    "sha256": "e9b230649d593306bbd7bfff8d8a8e31f073bee58dcec7db86ec6174a2779420"
+  },
+  "original44_id": "PRIMARY-ONE-QI",
+  "source_profile": "Primary-worldlibrary-PDF93-originalWu-onewoodqi-exposedprint/0.1",
+  "source": {
+    "book": "子平真诠，上海世界图书馆发行本，国图影印，出版年未定",
+    "PDF": 93,
+    "printed_leaf": 84,
+    "neighbor_PDF": 94,
+    "raw_original_Wu": [
+      "癸亥",
+      "乙卯",
+      "乙未",
+      "壬午"
+    ],
+    "natal_choice": "喜印露而体纯，为原局选题，源并有吴原例。",
+    "luck_separate": "运喜印比、财食亦吉/官杀忌另存，不直接当原局所有财食喜用。",
+    "Xu_layer": "后注露食伤才忌印运；原吴仅藏丁，不冒明露食伤，后注不换主本文。"
+  },
+  "whole_natal_conclusion": "完成原局木体、亥卯未原根、原有藏食通路、所有正负和明印实际信用及两面联合对照后，本具名方法原局辅助喜印（水），未排壬癸唯一主次。",
+  "not_function_name_shortcut": "先源喜印选题与完整全盘作用，再给原局方向；不是从H元素或印名直接导水，不表示其余皆忌或任意加水吉。",
+  "physics": "12真实演员及午丁己/未己丁乙全保；每世界同5current、origin/源预算/实际克损；两明印生日+克食联签诊断，未用潜在费用不退。",
+  "H": "固定实际世界明印信用，时壬或年癸两个替代；隐藏亥壬持续实际作用但不代印露的源要求；诊断world不拼H。",
+  "nominal_current_wood_fire_earth_metal_water": [
+    "1327/445",
+    "542/445",
+    "288/445",
+    "0",
+    "842/445"
+  ],
+  "nominal_joint_print_effect": {
+    "wood": "10104/39961",
+    "fire": "-10104/39961",
+    "wood_body_margin": "20208/39961",
+    "original_food_channel_still_live": true
+  },
+  "both_print_birth_control_off_wood_fire": [
+    "6127/2245",
+    "3302/2245"
+  ],
+  "new_context_failure": "水31灭原食、土31伤印、火29过重、亥来源0等预期失败保；木1仍过不改负例。",
+  "finite_relation_consumption": "依原吴已成木局之明确例保午未/亥卯未有限共存，保真实根藏，不自动合去未木/造全土或全木，不授通用争合与藏干合化能力。",
+  "regression": "theta1物理与origin退回428；不宣H问题或三命方法等价。",
+  "math": {
+    "actor_budget_origin_components": 12672,
+    "edge_origin_components": 53856,
+    "edges": 4488,
+    "fixedactual_H_masks": 112,
+    "theta1_old_physics_origin_checks": 22,
+    "worlds": 88
+  },
+  "functions": {
+    "allAST_signature_moduleexact": 47,
+    "caller_guard_loader_separate": true,
+    "exact_priorAST": 35,
+    "freshcomplete_current_IO": 12,
+    "priorIOexactcontractbound_not_falsely_new": true,
+    "unused_old_AUX3_and_oldpool3_not_currentAPI_explicit": true
+  },
+  "software": {
+    "correct_prior19badsource_3structure_11strict_reused": true,
+    "new_complete_publicAPI_CLI": 3,
+    "newbadmaterial0provider": 4,
+    "newlegaloutside0math": 3,
+    "newstrict": 6,
+    "returnmutation_isolated": true,
+    "same_actual_resolved_clean_exec": 5
+  },
+  "transport": {
+    "actualfreshprocesses": 19,
+    "allfullstdout_exit_stderr_originalmovedidentical": true,
+    "before_after_original_copy_allSHAidentical": true,
+    "new_process_pairs": 9,
+    "no_new_complete_copy": true,
+    "normaloldroot_or_pkgwrite_attempts": 0,
+    "observability_scope": "Python audit after hook, not earlier bootstrapimports or all OS syscalls",
+    "realnegativeoldreads": 2,
+    "realnegativepackagewrite": 1
+  },
+  "author_failure_scope": {
+    "actual_audits": 22,
+    "all22provider_exec0": true,
+    "allold_nominal_API_fields_exact_afterremoving2newmatrixmetadatafields": true,
+    "core_numeric_oracle_unchanged": true,
+    "exact_only_these_two_helper_deltas_verified": true,
+    "negative_actual_readwrite1each": true,
+    "precise_helper_changes": [
+      "Sanming153 to Primary093 actuallocator",
+      "optionalargv existingfixture andmkdir exist_ok reuseplumbing"
+    ],
+    "rawhistory_nevermodified": true
+  },
+  "full_nominal_native": {
+    "fullAPI_CLI_cached_allbytes_equal": true,
+    "profile": "nominal",
+    "stdout_SHA256": "cd8be1db8850668ee2a0ca916bc6dbd2350d98f12ca56f839fbcda8c5385bbfb",
+    "stdout_bytes": 556881
+  },
+  "remaining_original_work": [
+    "other合法onepartyrawand财官食印竞争",
+    "真实岁运/其他源岁运条件",
+    "广义争合与甲日/寅卯辰source",
+    "调候/扶抑与跨方法分歧及最终统一交付"
+  ],
+  "all_oneparty_or_all_C02_complete": false,
+  "empirical_prediction_validated": false,
+  "B_theme_display_integration": false,
+  "original_goal_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

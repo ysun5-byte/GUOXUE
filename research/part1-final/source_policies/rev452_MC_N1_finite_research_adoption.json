@@ -1,0 +1,87 @@
+{
+  "schema": "452-original-MCN1-finite-whole-task-research-adoption/1",
+  "revision": 452,
+  "registered_utc": "2026-11-03T00:32:48.747198+00:00",
+  "status": "adopted_exact433373_finite_general_concordance_strong_fullclear_and_fixedactual_H_after450_not_final_auxiliary",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_complete_followup",
+      "files": 373,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_complete_followup/manifest.json",
+        "bytes": 65227,
+        "sha256": "6071453213a5f848b8cccba516e7cadd8b2ca9ebc39ddd8344a42fbdee7fd847"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_complete_followup/freeze.json",
+        "bytes": 296,
+        "sha256": "7bf339041734155b3c9e4ad446d163fad123059e3feda5113df4d8829a646d47"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev450_MC_N1_independent_review",
+      "files": 70,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev450_MC_N1_independent_review/manifest.json",
+        "bytes": 12178,
+        "sha256": "ed0eec0ed75b9998b0d43490797fdb00af9d39ebdbde29e89a379c3a32f2079e"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev450_MC_N1_independent_review/freeze.json",
+        "bytes": 92,
+        "sha256": "9e0e2b935e5ef1054926c723dda87b42e70096e732e16a5f19dd98753d216465"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_author_completion_handoff.json",
+    "bytes": 5858,
+    "sha256": "4f8aad52600c366cb5eeb72da7aa0b41df1c71b0ea2de9fd07160fdf0257bcb0"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev450_independent_completion_handoff.json",
+    "bytes": 1913,
+    "sha256": "6163cce0a0c4000a50f1a966def04a587cb197b6832d6fa9c268ed40c042b385"
+  },
+  "source": "世界图书馆本子平真诠71402，PDF41/42/43实页32/33/34；MCN1在42印33",
+  "exact_source_locator_correction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev433_MC_N1_complete_followup/source/physical_folio_correction_receipt.json",
+    "bytes": 2754,
+    "sha256": "314b6a6ecc8d610baaa71ae3070f762d2652954cb8c39751c837b1fd6adda58e"
+  },
+  "root_actual_source_review": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev450_MC_N1_independent_review/source_substantive_reading_review.json",
+    "bytes": 2586,
+    "sha256": "4d8bf6fbb7aee6aa55550a6bb4da19ffd87b35b381755f2923317b2ac46dd73a"
+  },
+  "original_chain": "175 MC-N1, not added catalogue/denominator",
+  "method": "Primary42-MCN1-all-carrier-named-earth-feedback/0.1",
+  "supported_question": "一般量效需具名月戊实际受乙制、官印根与生身通道、全盘严格负荷；强全清额外要求月戊攻官端口0。",
+  "independently_reviewed_engineering": "全部实际明藏/根、分具名月戊与余土、同current六池预算、生克/源成本/身体stock任务、origin、固定actual支持全部AND/OR及原生AUX精确组合。",
+  "source_and_engineering_layers": "原句官印相生/印去暗土；ROOT工程数、3/4与1/4stock任务、5/4严格门及R1重根7/2分别标工程；一般/强均为有限充分规格。",
+  "declared_relation_policy": "原资格与已有真实受体重根两解释固定都输出；不按哪个数值成功选，结果分歧保持可追溯。",
+  "current_known_results": {
+    "all_two_relations_retained_no_choice_by_success": true,
+    "canonical_raw": "癸未 丙辰 丙寅 乙未",
+    "default_strong": false,
+    "fullwoodmeeting_nominal_R0_H": 10,
+    "fullwoodmeeting_nominal_R1_H": 11,
+    "lower_and_interior_H_each_relation": 5,
+    "nominal_general_H_each_relation": 7,
+    "original175_酉_nominal_R0_general_H": 4,
+    "original175_酉_nominal_R1_general_H": null
+  },
+  "not_final_auxiliary": "H正信用只解释完整实际图；源用官/印身份不相加为喜用，单乙制月戊关边不是整个印包净作用。",
+  "original_remaining": [
+    "最终净印/比/官及其他有效路线与源辅助主次接合",
+    "原57具体正式关系/会化源任务和MCN2–4",
+    "一般财/从财/假从、其他原格局/时运/地区和最终全量交付"
+  ],
+  "old173_195_208_results_and218_hold_not_retroapproved": true,
+  "no_B_theme_or_display_or_weights_change": true,
+  "progress": "86.25/100",
+  "progress_delta": 0,
+  "not_empirical_predictive_validation": true
+}

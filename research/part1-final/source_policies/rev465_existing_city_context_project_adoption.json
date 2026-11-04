@@ -1,0 +1,73 @@
+{
+  "schema": "465-existing-city-cultural-frame-context-adoption/1",
+  "revision": 465,
+  "registered_utc": "2026-11-03T01:23:04.065007+00:00",
+  "status": "adopted_exact455102_after461_with_external_effective_provenance_clarification",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev455_GN_Suzhou_own_cultural_context",
+      "files": 102,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev455_GN_Suzhou_own_cultural_context/manifest.json",
+        "bytes": 15779,
+        "sha256": "f4bbc618b13cdc4b848fe72037a4fb249f498b8675f4811b45a5f8cb67532008"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev455_GN_Suzhou_own_cultural_context/freeze.json",
+        "bytes": 244,
+        "sha256": "9fee78f02142b373c1da2611736edfd4827b6291d79d0a2bad97f2f84ff26194"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev461_existing_city_context_independent_review",
+      "files": 68,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev461_existing_city_context_independent_review/manifest.json",
+        "bytes": 10062,
+        "sha256": "70f0269dc3241440b086973e7f12ae653a43c08fd1de35717bb784894dd2addb"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev461_existing_city_context_independent_review/freeze.json",
+        "bytes": 92,
+        "sha256": "63d9263fb6c833c54914d288a8ace9e016357aee5b4b7042f48b5520df41c10a"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev455_author_completion_handoff.json",
+    "bytes": 4738,
+    "sha256": "f91e8106dbb45c17bd5de54387aced6736bcaf5c5ffc0eada0a5644c8ebc900c"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev461_independent_completion_handoff.json",
+    "bytes": 1925,
+    "sha256": "690f00ab73fa3d171399da799ae71c731e2ee2552e7a4847942c8111627692b8"
+  },
+  "effective_provenance": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev461_existing_city_context_independent_review/effective_city_source_provenance_clarification.json",
+    "bytes": 11185,
+    "sha256": "1378c3420c29293df90a20f3b106d4772df51684d96630bd94c91678e1f8c615"
+  },
+  "source_attribution_correction": "335新增内蒙古/广东/港澳/辽宁/贵州/海南七个省级具名frame；QJ/BX属于其保留的旧data20前缀，不是335新增七城市。QJ2016/BX2026直接原native证据及精确299采用链才是本溪/潜江来源。不是388全国七区含义。455旧335文件只作精确保留版本参考。",
+  "version": "GN-EXISTING-CITY-CULTURAL-CONTEXT-0.1",
+  "scope": "固定GN行政4anchor与3旧城市身份/4资料版；同admin1/2唯一ADM2成员的ADM3可读在所选旧现代具名文化frame内；独立点与身份保留；省版路径复用442。",
+  "engineering_interpretation": "新接续是明确工程文化包含候选上界，不是GN/FIPS=MCA码，不证明源年/当代官方行政多边形同界，不把点当whole证据。",
+  "source_first": "先原旧城市native闭合，再核原geo全部refs与subject→旧target完整同frame链接，再本次GN具名成员证书→候选集，原profile与scope限制不改。",
+  "version_policy": "显式选精确city/province ref；不自动选城市、省版或最新版。苏州旧未决保持未定，潜江两GN层不合并，驻地不继承行政全域；未定不是零。",
+  "current_bounded_results": "明确选苏州212完整城市frame为火，旧未决仍未定；潜江荆→金，本溪夏青→木；来自旧文化映射，不是新客观城市元素或出生喜用。",
+  "independent_evidence": "461事前12源条件/8原始CN行与昆山唯一ADM2、3完整API/CLI及断链，42defs=40top+2类/嵌套、6新/36旧/34真实IO，3坏源0/3clean3；现成102完整只读副本11新进程/每次4真实读scanexecappend负控，全SHA/模式未变。",
+  "first_reviewer_failure": "审者误假定42全顶层，保存原错误/脚本后只修AST walker；原455文档/规则/数值未改。",
+  "author_correct_domain_reused": "34城市条件、54旧省级回归、14strict、4内部断链与源/协议证明直接复用，不冒全部独审重跑。",
+  "original_remaining": [
+    "非CN行政文化whole桥与旧西藏/黑龙江九州覆盖缺口",
+    "既定方位/同地/代表点与地区作用消费者全链及必要原边界",
+    "原其他核心取用/时运与最终全量回放/运行分发；新全国七区含义未批准，不能偷偷采用"
+  ],
+  "no_B_theme_direction_weights_display_or_physical_work": true,
+  "old442_212_299_335_not_mutated": true,
+  "not_new_official_geometry_or_prediction_authentication_gate": true,
+  "progress": "86.25/100",
+  "progress_delta": 0
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "489-Ren370-sourcecase-engineering-whole-net-adoption/1",
+  "revision": 489,
+  "registered_utc": "2026-11-03T07:25:22.951906+00:00",
+  "status": "adopted_exact472101_after48633_with_effective31docs_and_source_attribution_correction_finite_engineering_only",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev472_Ren_true_follow_finance_wood_fire_whole",
+      "files": 101,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev472_Ren_true_follow_finance_wood_fire_whole/manifest.json",
+        "bytes": 18235,
+        "sha256": "6ed98289acd8e5977f995a59a45ecb7e239634d232226af525c04d0f755f8064"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev472_Ren_true_follow_finance_wood_fire_whole/freeze.json",
+        "bytes": 498,
+        "sha256": "609a94cedb933128719a2e1d6c4d147281b6a6a98faf405e4200772a99d499b8"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review",
+      "files": 33,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/manifest.json",
+        "bytes": 5350,
+        "sha256": "51626eab341a9ae44777e44a1b1f4373c65db862c14068bfccddc764d0b7c1e4"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/freeze.json",
+        "bytes": 92,
+        "sha256": "bb3a45eb3eec98aefbae55f241028d74242f14692d752c8935f6b74025b697f8"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev472_author_completion_handoff.json",
+    "bytes": 2930,
+    "sha256": "1134d6088565f9db2fae965b8a972a5ff94d7472c6c5122489352e295b77311b"
+  },
+  "nonauthor_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_independent_completion_handoff.json",
+    "bytes": 2767,
+    "sha256": "b539d01783cd992f073f685031e727cb9fdc2827236e5ad8edb8efacd7e892e4"
+  },
+  "source": "任氏原案丙寅庚寅壬午乙巳；1947李雨田校订发行滴天髓阐微PDF370卷三印94明确称从财格真。它是来源记载，不是程序通用分类器算出真从。",
+  "full_numeric_support": "保15明藏/60原根、巳金根7/2；庚金受克后仍有current，但生日留存0。木火土金水全部正负/费用共同求解，六事前关系/参数版本，全部93有限增补/各24诊断公开。",
+  "net_goal_scope": "原食伤→财实际流及原财来源留财不降、印生日及固定原财源留土/留财比不增，至少一严格并维护固定强题；这是具名工程意向代理，不是财越多越好或原典唯一数值法。",
+  "no_success_selection": "六版全保；三公开幅度中含木16种皆通过、不含木15种皆未过；单火相对压力proxy失败不调参，不外推火忌或真实行运凶。",
+  "effective31docs": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_algorithm_explanations_all31_definitions.json",
+    "bytes": 77855,
+    "sha256": "1c174943ab3d67f8bbd11ddfe7a5bbbc067f396fc20c279fdbb3d95197a96bca"
+  },
+  "effective9cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_nine_source_cards_attribution_correction.json",
+    "bytes": 14158,
+    "sha256": "ef7842e11596b33db6599db7866d165ae9d642494246590f73ac0de02c70e33a"
+  },
+  "effective_research_reading": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev486_true_follow_finance_independent_review/effective_research_text_source_attribution_corrected.txt",
+    "bytes": 3062,
+    "sha256": "1661c4684acb1c064e6063ff083541475f28c675463b88e9944cd8f563007d13"
+  },
+  "explanation_correction": "canonical原误取433旧ROOT未执行合同；只改当前合同5字段，31真实IO/源AST/所有数值不变。11旧AST/20新改AST计数不变，旧错误合同留历史不作现依据。",
+  "source_attribution_correction": "木火运吉是作者概括，不是370该页明文。原文水生木→木生火为该原例机理评价，不能挪称仅后运以解释本模型水→木0。原文确有该叙述，模型未重现整条链，完整原典机理尚未闭合。",
+  "numeric_vs_source_completion": "采用的是固定原案及完整五池工程净问题，不是宣称所有原典作用、普遍真假从或最终喜用都完成；原局源选择与实际量的分歧明确分存。",
+  "independent_evidence": "486独立手列ROOT/份额+Cramer行列式/正五环来源闭式，50新完整世界、6060池原点/4250边及费用/18180演员原点全部精确一致；新相边界含水0→正生日，但不得自动改叫古典假从。",
+  "software": "现成101完整只读核13新过程52实负控，正常违规0，原39,692,942字节全文API/CLI与另新合法壬申源外盘全文相同；3坏来源0/恢复6，2strict0和全包验0；全SHA/模式未动，无大clone/chmod。",
+  "old_evidence_reused": "作者588+72及46无损恢复证据复用，不冒全独审重跑660；旧原件与失败均留存。",
+  "remaining_original": [
+    "原书水生木机理与本工程0流的解释/实现对齐，实际比劫食伤运而非虚拟数学增量",
+    "原一般有效支持/普通财与真假从竞争、秋金财神盈损和最终辅助",
+    "其余原C02/C03关系/调候与全链运行交付"
+  ],
+  "no_B_theme_J2_display_or_physical_work": true,
+  "not_empirical_prediction_validation": true,
+  "progress": "86.25/100",
+  "progress_delta": "0.00"
+}

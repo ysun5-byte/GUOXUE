@@ -1,0 +1,430 @@
+完整时间段到原生当前主题和变化比较
+rev233_single_theme_window_candidate
+所属原模块：C03/C07
+当前采用：rev261_current_single_window_project_adoption.json
+范围：真实254模型、全部时间边界和原生全atom证明→原主题0.2与比较。同盘同法火到木、确认相同、仅确认当前、共同必要、无需新增辅助、来源不足、目标失败分别保留；内部缺口/未来坏源/跨身份不得冒确定更新。不读写原natalB。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev233_single_theme_window_candidate/algorithm_explanations.json
+SHA256：e3ee943895c5181c9984d25108ce35b4e03903494c8f507bb6e34666f89e895a
+
+1. SW01
+算法标识：SW01
+name：Exact complete release verification before provider execution
+source：Literal233 source/whole model; literal773/012 native window and originaltheme0.2; actual117/111 transport acceptance. New233 source policy is actually supplied and matched from root254, not inferred.
+source_level：Source text and whole equations inherited from frozen233. New adapter identity, partitions, adoption-binding and feedback are engineering contracts. No predictive validation claimed.
+method：Fixed DingChen compound-source whole-support question, then existing single-theme semantic consumer; not natalB/fullalltraditional喜用.
+establishment_conditions：All actual dependency files regular/contained, full inventories and allmemberSHA/bytes, originalmanifest-to-originalfreeze correspondence, fixedrelease anchors, actual compiled versions and trueprojectpolicy targets match.
+exclusions_and_failure：Missing/stale/coherently resealed different releases, relabelledpolicy, review target mismatch reject before first provider exec; no caller supplied arbitrary approved-model label.
+change_conditions：Any source byte/method/review/policy change requires explicit new release/adoption. Normal time does not change policy.
+conflict_resolution：Exact known release is required before any solver success is considered. A working numerical result never overrides source failure.
+rule_expression：Read/verify every dependency; bind runtime/review/acceptance object to fixedpolicy; only then execute exact captured provider definitions.
+implementation_functions：[
+  "capture",
+  "load_modules"
+]
+validation_material：[
+  "tests/coherent_source_front_actual.json: 6fullycoherentdirtycopies rejectedbeforefirstprovider, clean1firstattempt/0actualdefinitionexec; fixedtrue254/233/250/117targets",
+  "tests/public_hard_inputs_actual.json: sourceinputfailures preemptframes; no mathclaim"
+]
+status：verified_candidate_software; source_model_adopted254; consumer_waits_own_nonauthor_acceptance
+implementation_refs：{
+  "path": "single_window.py",
+  "file_sha256": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+  "module_version": "DingChen-source-single-window-0.1",
+  "implementation_revision": "0.1.0",
+  "symbols": [
+    {
+      "name": "capture",
+      "start_line": 33,
+      "end_line": 85,
+      "AST_sha256": "00f85284a08aa7a8f2295ea1a9d8c444a6fa255f03b09bc3df2ad08300281d46"
+    },
+    {
+      "name": "load_modules",
+      "start_line": 87,
+      "end_line": 94,
+      "AST_sha256": "b351ec78ad98efd48a7c148e94e215a39f0b4548ab8dbed4c271ec916b3dac2c"
+    }
+  ],
+  "actual_IO": "actual_function_IO_AST.json.gz"
+}
+
+2. SW02
+算法标识：SW02
+name：Complete two-frame validation and named object identity
+source：Literal233 source/whole model; literal773/012 native window and originaltheme0.2; actual117/111 transport acceptance. New233 source policy is actually supplied and matched from root254, not inferred.
+source_level：Source text and whole equations inherited from frozen233. New adapter identity, partitions, adoption-binding and feedback are engineering contracts. No predictive validation claimed.
+method：Fixed DingChen compound-source whole-support question, then existing single-theme semantic consumer; not natalB/fullalltraditional喜用.
+establishment_conditions：Both frames exact source-model outershape/method/profile/binding and native seven-field contract; every supplied future record valid; full shared namedobjects byteconsistent; claim/person/evaluation coherent.
+exclusions_and_failure：Any selected or future bad evidence, registry binding, contradictory same-id/version object, wrongmethod/profile, evaluation mismatch rejects before 0whole frame solves.
+change_conditions：Newselectedrecord/value requires new valid record identity or version; equivalentUTC allowed by native instant comparison.
+conflict_resolution：Hardbad source anywhere preempts partialcurrent display. Unknown合法previous remains different from malformed previous.
+rule_expression：Validate both full original source envelopes before any frame solve. Flatten only outerwrapper for accepted native transport preflight.
+implementation_functions：[
+  "flatten_frame",
+  "preflight"
+]
+validation_material：[
+  "tests/public_hard_inputs_actual.json: current/previous trulyunused11-12recordbad, publicAPIframe0+2actualCLI; 8strictcases",
+  "tests/end_and_identity_actual.json: fullnativepreflight then controlledreuse actualcomputedframes for versionmismatch feedbackguard"
+]
+status：verified_candidate_software; source_model_adopted254; consumer_waits_own_nonauthor_acceptance
+implementation_refs：{
+  "path": "single_window.py",
+  "file_sha256": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+  "module_version": "DingChen-source-single-window-0.1",
+  "implementation_revision": "0.1.0",
+  "symbols": [
+    {
+      "name": "flatten_frame",
+      "start_line": 96,
+      "end_line": 97,
+      "AST_sha256": "3fabc36ee4b803f3d6146a925c37929342f993107f5ddfd128cb32a523872886"
+    },
+    {
+      "name": "preflight",
+      "start_line": 99,
+      "end_line": 106,
+      "AST_sha256": "7b447d03a8e8ae95f172fa53b4bdbed69cb7141e62d949583ca92265410a29d7"
+    }
+  ],
+  "actual_IO": "actual_function_IO_AST.json.gz"
+}
+
+3. SW03
+算法标识：SW03
+name：Whole supplied-window atomic proof
+source：Literal233 source/whole model; literal773/012 native window and originaltheme0.2; actual117/111 transport acceptance. New233 source policy is actually supplied and matched from root254, not inferred.
+source_level：Source text and whole equations inherited from frozen233. New adapter identity, partitions, adoption-binding and feedback are engineering contracts. No predictive validation claimed.
+method：Fixed DingChen compound-source whole-support question, then existing single-theme semantic consumer; not natalB/fullalltraditional喜用.
+establishment_conditions：Verified bounded claim, finite fullcatalog boundaries <=256atoms; each native full-atom selection must be uniquelycurrent for allfive layers.
+exclusions_and_failure：No endpoint-only sampling, truncation, selectedinterval intersection lease, continuousforce extrapolation or unverified/unknownclaim proof.
+change_conditions：Boundary crossing changes selected records and requires separate whole solve; allsourcefixed overatom implies fixedsource/ROOT/graph/H under declaredmethod, not fixedmetadata or reality.
+conflict_resolution：Future/unresolvedatoms stay in report and are not deleted to claim a longer constantcolor lease.
+rule_expression：Partition at every provided finite start/end within claim. Retain everyatom. Run native fullwindowproof first, then fixedselected-record left representative under dependency-factorization certificate.
+implementation_functions：[
+  "evaluate_frame"
+]
+validation_material：[
+  "tests/behavior_windows_actual.json: whole09-11claim preservesbothA/Batoms, exactnativefullwindowselection before eachactualmodel",
+  "tests/end_and_identity_actual.json: exclusive11end no nextsource,0model,no lastvaluefallback",
+  "dependency_factorization.json: fullcode dependency argument; not sampling/realityproof"
+]
+status：verified_candidate_software; source_model_adopted254; consumer_waits_own_nonauthor_acceptance
+implementation_refs：{
+  "path": "single_window.py",
+  "file_sha256": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+  "module_version": "DingChen-source-single-window-0.1",
+  "implementation_revision": "0.1.0",
+  "symbols": [
+    {
+      "name": "evaluate_frame",
+      "start_line": 129,
+      "end_line": 150,
+      "AST_sha256": "c88846b84191ec0b1efc931fecf2757160f3135f4d6cbf7d95531b93a39e4e0f"
+    }
+  ],
+  "actual_IO": "actual_function_IO_AST.json.gz"
+}
+
+4. SW04
+算法标识：SW04
+name：Bound locally derived requests
+source：Literal233 source/whole model; literal773/012 native window and originaltheme0.2; actual117/111 transport acceptance. New233 source policy is actually supplied and matched from root254, not inferred.
+source_level：Source text and whole equations inherited from frozen233. New adapter identity, partitions, adoption-binding and feedback are engineering contracts. No predictive validation claimed.
+method：Fixed DingChen compound-source whole-support question, then existing single-theme semantic consumer; not natalB/fullalltraditional喜用.
+establishment_conditions：Original complete inventory retained, originalclaim/evaluationpreflight valid, only evaluation and localregistry/bindings changed.
+exclusions_and_failure：A locally rebuilt registry is not authenticated outside source authority or approved new model; no changedsource data may hide behind a lease.
+change_conditions：Evaluationmetadata may change while selected whole dependencies do not. Record/source semantics changes remain observable.
+conflict_resolution：Native proof and actualmodel instant eligible fullrecords must exactly match; mismatch rejects rather than choosing a favorable time.
+rule_expression：Use literal012 derive for complete native request. Rebind new source-wrapper native_input hash. Preserve originalmethod/person/chart and both original/derived digests.
+implementation_functions：[
+  "derive"
+]
+validation_material：[
+  "replays/B_AFTER_A_API.json and CLI: completeoriginalinventories and exactlocalderivationtraces preserved",
+  "tests/behavior_windows_actual.json: allowedZ/+00sameinstant; unknownpreviousno fabricatedrecord",
+  "15actualfunctionIO includes fullactualderive input/return"
+]
+status：verified_candidate_software; source_model_adopted254; consumer_waits_own_nonauthor_acceptance
+implementation_refs：{
+  "path": "single_window.py",
+  "file_sha256": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+  "module_version": "DingChen-source-single-window-0.1",
+  "implementation_revision": "0.1.0",
+  "symbols": [
+    {
+      "name": "derive",
+      "start_line": 108,
+      "end_line": 110,
+      "AST_sha256": "e9bb6cc3233ca45b38bfd19f71a59a381cba22b419544d05ddb84c1f13e3f4f9"
+    }
+  ],
+  "actual_IO": "actual_function_IO_AST.json.gz"
+}
+
+5. SW05
+算法标识：SW05
+name：Literal whole-function calculation and all-H projection
+source：Literal233 source/whole model; literal773/012 native window and originaltheme0.2; actual117/111 transport acceptance. New233 source policy is actually supplied and matched from root254, not inferred.
+source_level：Source text and whole equations inherited from frozen233. New adapter identity, partitions, adoption-binding and feedback are engineering contracts. No predictive validation claimed.
+method：Fixed DingChen compound-source whole-support question, then existing single-theme semantic consumer; not natalB/fullalltraditional喜用.
+establishment_conditions：Source233 proof and fullactualgoals pass, original188 signedfunctions/physicalroots/backgroundactors/allrobustminimalH retained, union of everyminimalalternative element exactlysingleton.
+exclusions_and_failure：Jointunordered, mixedOR, knownemptyadditional-support, failedgoals and sourcepending all remain distinct and do not become forcedsingle. No newrank/equalhalf.
+change_conditions：Any actual time pillar/qualification changes directports, source tasks, graph, goals or H through frozen equations; no coefficients adjusted to find desiredcolor.
+conflict_resolution：No successfuloneworld drops anotherH; source_used/goals/support not unioned asallfinaluse. Old stockriskdiagnostic kept separate from actualflowhardgoals.
+rule_expression：Call literal233 evaluate; preserve fullreport and everyH. Crosscheck wholeatom fullrecords. Project only candidate supported by full actualall-H, never firstsuccessfulcarrier or fixed官role.
+implementation_functions：[
+  "dependency_image",
+  "evaluate_frame",
+  "build_theme"
+]
+validation_material：[
+  "tests/behavior_knowledge_actual.json: sourcepending0parentwhole, actualK0goalfailed737/64<475/32, K3knownemptyadditional support, independent250fivejointretained",
+  "replays/B_AFTER_A_API.json: allsixedgefire/allfivewoodH retained; no rolecolor or firstHchoice",
+  "Math/source233/222/250 actuallyreused; no claim of new independentproof"
+]
+status：verified_candidate_software; source_model_adopted254; consumer_waits_own_nonauthor_acceptance
+implementation_refs：{
+  "path": "single_window.py",
+  "file_sha256": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+  "module_version": "DingChen-source-single-window-0.1",
+  "implementation_revision": "0.1.0",
+  "symbols": [
+    {
+      "name": "dependency_image",
+      "start_line": 112,
+      "end_line": 114,
+      "AST_sha256": "554021f0b0c4c189080de0656f7c400d90ce5a0fbe31443359e6728919efbc23"
+    },
+    {
+      "name": "evaluate_frame",
+      "start_line": 129,
+      "end_line": 150,
+      "AST_sha256": "c88846b84191ec0b1efc931fecf2757160f3135f4d6cbf7d95531b93a39e4e0f"
+    },
+    {
+      "name": "build_theme",
+      "start_line": 116,
+      "end_line": 127,
+      "AST_sha256": "95a3c1c7b43c608820dfa76ae185227888ca53d38e275dffe78a4df3c26f68e8"
+    }
+  ],
+  "actual_IO": "actual_function_IO_AST.json.gz"
+}
+
+6. SW06
+算法标识：SW06
+name：Original semantic consumer and actual adoption
+source：Literal233 source/whole model; literal773/012 native window and originaltheme0.2; actual117/111 transport acceptance. New233 source policy is actually supplied and matched from root254, not inferred.
+source_level：Source text and whole equations inherited from frozen233. New adapter identity, partitions, adoption-binding and feedback are engineering contracts. No predictive validation claimed.
+method：Fixed DingChen compound-source whole-support question, then existing single-theme semantic consumer; not natalB/fullalltraditional喜用.
+establishment_conditions：Exact originaltheme0.2 bundle/context/method/evidence/result/reason/allrecord bindings; actualnewmodel policy reviewed and matched if accepted.
+exclusions_and_failure：Pending/rejected/missing/stalemodeladoption cannot project. A controlledacceptedfixture does not count as true adoption. Source text, engineeringretention1 and prediction layers explicit.
+change_conditions：Adoption/source/model changes produce distinctversion/evidence/snapshot; raw natalbasis remains unmodified.
+conflict_resolution：An actualsingleH can be mathematicallyknown while productadoption is pending; originalconsumer rejection takesprecedence for formal display.
+rule_expression：Build localsingle result with completeH/certificate/sourceprofile/policy proof; pending until actualmodelpolicy. Originalconsumer independently verifies exactbundle and adoption. No reimplemented rank/color reducer.
+implementation_functions：[
+  "build_theme",
+  "evaluate_frame"
+]
+validation_material：[
+  "tests/pending_consumer_actual.json and pending_complete_window_receipt.json: historical pre254 candidate genuinelynotadopted, never counted as finalversion success",
+  "replays/B_AFTER_A_API.json and directCLI: true254 policy-backed originaltheme0.2single accepted in candidatewrapper tests; wrapperitself stillpendingownreview",
+  "Finalfixedrelease requires actual254 atbeforeprovider gate; removing/relabeling policy is harderror, not silentpending downgrade"
+]
+status：verified_candidate_software; source_model_adopted254; consumer_waits_own_nonauthor_acceptance
+implementation_refs：{
+  "path": "single_window.py",
+  "file_sha256": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+  "module_version": "DingChen-source-single-window-0.1",
+  "implementation_revision": "0.1.0",
+  "symbols": [
+    {
+      "name": "build_theme",
+      "start_line": 116,
+      "end_line": 127,
+      "AST_sha256": "95a3c1c7b43c608820dfa76ae185227888ca53d38e275dffe78a4df3c26f68e8"
+    },
+    {
+      "name": "evaluate_frame",
+      "start_line": 129,
+      "end_line": 150,
+      "AST_sha256": "c88846b84191ec0b1efc931fecf2757160f3135f4d6cbf7d95531b93a39e4e0f"
+    }
+  ],
+  "actual_IO": "actual_function_IO_AST.json.gz"
+}
+
+7. SW07
+算法标识：SW07
+name：Feedback and comparison separate from known current
+source：Literal233 source/whole model; literal773/012 native window and originaltheme0.2; actual117/111 transport acceptance. New233 source policy is actually supplied and matched from root254, not inferred.
+source_level：Source text and whole equations inherited from frozen233. New adapter identity, partitions, adoption-binding and feedback are engineering contracts. No predictive validation claimed.
+method：Fixed DingChen compound-source whole-support question, then existing single-theme semantic consumer; not natalB/fullalltraditional喜用.
+establishment_conditions：Known current originalconsumer output, same fullperson/chart/native/newmethod/profile identity for comparison; currentandprevious each independentlywindowed.
+exclusions_and_failure：Do not call differentpersons/charts/methods a timechange; no previousunknown treatedsame orchanged. Hardbadprevious blockedpreflight is not softunknown.
+change_conditions：Samevalue may have newexplanation/decision; equalUTC or metadata-only changes do not invent elementchange. Actualdifferent complete element ->confirmed_change.
+conflict_resolution：Originaltheme decides element/relation/decision/content change dimensions, adapteronly maps feedback statuses. Unresolved retains existingbasis without asserting itsvalue.
+rule_expression：Initialknown ->confirmed_initial_value. Knownsameidentity priorunknown ->confirmed_current_value without same/change claim. Bothknown ->useoriginaltheme semanticcomparison. Identity mismatch preserves012comparisonprotection.
+implementation_functions：[
+  "evaluate"
+]
+validation_material：[
+  "tests/behavior_windows_actual.json: knownsame, unknownprevious/currentknown, and bothboundaryatoms",
+  "tests/behavior_knowledge_actual.json: jointknown-but-unranked previous gives currentonly, distinct from sourcepending/failedgoals/knownnone",
+  "tests/end_and_identity_actual.json: controlled person/chartversion mismatch protects comparison/display, no newmath",
+  "replays/B_AFTER_A_API.json: actualoriginalconsumer theme_elements_changed"
+]
+status：verified_candidate_software; source_model_adopted254; consumer_waits_own_nonauthor_acceptance
+implementation_refs：{
+  "path": "single_window.py",
+  "file_sha256": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+  "module_version": "DingChen-source-single-window-0.1",
+  "implementation_revision": "0.1.0",
+  "symbols": [
+    {
+      "name": "evaluate",
+      "start_line": 152,
+      "end_line": 163,
+      "AST_sha256": "bbe7abee70a6d38ef72525715c9b52d1affa1a24c8d4a98f1303836e48580d36"
+    }
+  ],
+  "actual_IO": "actual_function_IO_AST.json.gz"
+}
+
+8. SW08
+算法标识：SW08
+name：Strict deterministic JSON, hashing and entrypoint
+source：Literal233 source/whole model; literal773/012 native window and originaltheme0.2; actual117/111 transport acceptance. New233 source policy is actually supplied and matched from root254, not inferred.
+source_level：Source text and whole equations inherited from frozen233. New adapter identity, partitions, adoption-binding and feedback are engineering contracts. No predictive validation claimed.
+method：Fixed DingChen compound-source whole-support question, then existing single-theme semantic consumer; not natalB/fullalltraditional喜用.
+establishment_conditions：Finite boundednativeJSON, no duplicates/NaN, exactfields and fixedmethod; fullinputs reproducible.
+exclusions_and_failure：Unsupported types/size/depth/profile or duplicate/nonfinite values reject, no coerced success/defaulttheme.
+change_conditions：Same exactversion/input/source has same output. Sourceversion changes are explicit and not natural timeeffects.
+conflict_resolution：Parsererrors never fallthrough to solver; nativecontract error fields preserved in rejection.
+rule_expression：Use canonicalutf8 sortedJSON for binds; strictparse no silentlast-keywins; main stable boundederrorresponse with no natalB output.
+implementation_functions：[
+  "canonical",
+  "digest",
+  "strict_load",
+  "strict_load.pairs",
+  "strict_load.bad",
+  "main"
+]
+validation_material：[
+  "actual_function_IO_AST.json.gz: all15qualifiedfunctions realinput/return and AST, including mainandnestedJSONparsefunctions",
+  "tests/public_hard_inputs_actual.json: 3parse+5exactmethod/schema/bindingstrictcases, realhardbadCLIatomicoutputs",
+  "Helperfailures transparenthistory, targetcompileverifiedinmemory; no unusedholdout executed"
+]
+status：verified_candidate_software; source_model_adopted254; consumer_waits_own_nonauthor_acceptance
+implementation_refs：{
+  "path": "single_window.py",
+  "file_sha256": "9d4a5607ac4b32b5b2b090fc5b370b687fada61d876bf987d4374a1f1c0aef61",
+  "module_version": "DingChen-source-single-window-0.1",
+  "implementation_revision": "0.1.0",
+  "symbols": [
+    {
+      "name": "canonical",
+      "start_line": 21,
+      "end_line": 21,
+      "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1"
+    },
+    {
+      "name": "digest",
+      "start_line": 22,
+      "end_line": 22,
+      "AST_sha256": "ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431"
+    },
+    {
+      "name": "strict_load",
+      "start_line": 23,
+      "end_line": 31,
+      "AST_sha256": "9470ad934d174e541525c7ee7a9f5dfba05dda5fe9a22a8f9b1677f4f2dd0a8b"
+    },
+    {
+      "name": "strict_load.pairs",
+      "start_line": 24,
+      "end_line": 29,
+      "AST_sha256": "8576e65fed5a40c8f8a610d4ed0a8a646235001a1f0e87cd68a53a79f966efb7"
+    },
+    {
+      "name": "strict_load.bad",
+      "start_line": 30,
+      "end_line": 30,
+      "AST_sha256": "5b8c2ebb52a8ccd7a06f5b6448e46ab4d1257babb591495fa82d2d2c29226eaa"
+    },
+    {
+      "name": "main",
+      "start_line": 165,
+      "end_line": 173,
+      "AST_sha256": "d5014f49a467e14804514969535489e981d06fd96835b8b22ba3c7583db6cda4"
+    }
+  ],
+  "actual_IO": "actual_function_IO_AST.json.gz"
+}
+
+原件：work/rev233_single_theme_window_candidate/preimplementation_contract.json
+SHA256：b3a910caf9e95d223624d1a71f97724653e887bc36ef8e60fcdc99f96877aaef
+
+{
+  "schema": "233-single-window-preimplementation-contract-0.1",
+  "status": "candidate_pending_model_source_review",
+  "before_new_window_implementation_or_calls": true,
+  "source_model": "literal1506 model233, fullH first, source conditioned before H; no new equations/gains/goals",
+  "native_window_transport": "literal773 0.1.2 accepted fixedrelease, actual117policy/review111 retained; old KT/WT numerical kernel is not used to replace233 source model",
+  "whole_atom_semantics": "full supplied source inventory cut at every finite boundary; native whole-window unique selection over entire atom first; then left representative only under explicit fixed-method dependency-factorization certificate",
+  "source_dependency_factorization": [
+    "fixed raw/person/source profile and gains, all source validation over full supplied catalog before first frame model solve",
+    "selected full records fix all temporal actor symbols, ports, source gates and relation tasks",
+    "absoluteUTC only selects source records; no duration/time-angle continuous force in233/186 current operator",
+    "metadata and registry hash variation not claimed constant; complete source truth and natural calendar not authenticated"
+  ],
+  "identity": "both complete frames preflight before any whole solve; full person/chart/native method/newsource method/profile identity; if mismatch no same/change; current known may be displayed only per adopted012 current-value semantics",
+  "theme": "original theme0.2 strict consumer, no reimplemented color reducer. All alternative minimalH sets and originalnative graphs retained; only singleton element union throughout allH receives single result. Unordered and mixedOR remain nonprojectable without invented rank.",
+  "adoption": "pending bundle must actually reject now. Final local accepted projection only generated under real root-reviewed source/model policy with exact actualfreeze/reviewreport/meta pins. No controlledaccepted fixture counts as project adoption or true end-to-end success.",
+  "pair": "same raw BingChen/RenChen/DingWei/JiaChen and same10 records; k2 A sixfire OR, B fivewood OR; no natalB/P/C20/RGB calls",
+  "tests_expected_before_calls": [
+    {
+      "case": "pendingA",
+      "expected": "originalconsumer not_adopted"
+    },
+    {
+      "case": "pendingB",
+      "expected": "originalconsumer not_adopted"
+    },
+    {
+      "case": "currentB_previousA_after_realpolicy",
+      "expected": "confirmed_change; theme_elements_changed; bothcompleteatomproofs retained"
+    },
+    {
+      "case": "sameB_equivalentUTC_after_realpolicy",
+      "expected": "confirmed_same; metadata may differ"
+    },
+    {
+      "case": "future_bad_source_in_eitherframe",
+      "expected": "hardreject before0wholeframe solves"
+    },
+    {
+      "case": "claim_across_transition",
+      "expected": "allatoms retained; select propercurrent atom without claiming wholeclaimconstant"
+    },
+    {
+      "case": "unprojectable_previous_sameidentity",
+      "expected": "confirmed_current_value, previous unknown not same/change"
+    },
+    {
+      "case": "crossidentity_previous",
+      "expected": "not comparable, no same/change"
+    },
+    {
+      "case": "unresolved_source_atom",
+      "expected": "sourceundetermined retainbase, never fire/wood guessed"
+    }
+  ],
+  "not_new_math": "fullmath192/222 inherited; actualglue behavior tests are new software evidence, not independenttraditional proof",
+  "progress_delta": "0.00"
+}

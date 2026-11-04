@@ -1,0 +1,84 @@
+{
+  "id": "project-adopted-sanming-reforming-metal-fixed-position-whole-0.1",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_bounded_comparative_source_whole_model",
+  "component": "rev232_reforming_metal_whole_research",
+  "target": {
+    "component": "rev232_reforming_metal_whole_research",
+    "files": 837,
+    "manifest_sha256": "57eafe8ab7ee7d9267dde8dc3d9508ee7d9321f1f4533ec88e086e80c2d771b4",
+    "freeze_sha256": "c6c482aba673d2f7c28d12542d8761af447f29e1e2fd0d49150dc65e415df7f0"
+  },
+  "target_binding": {
+    "component": "rev232_reforming_metal_whole_research",
+    "method_version": "sanming-reforming-metal-signed-whole/0.1",
+    "source_profile": "sanming-reforming-metal-NLC42998-comparison/0.1",
+    "implementation_revision": "0.1.2",
+    "files": 837,
+    "runtime_source_files": 314,
+    "reforming_whole.py": "d726dcc4729a991fdb7c5762277e7d4a6d690129379ae67e624137006dfc5cd5",
+    "dependency_lock.json": "43a02675bd2f633d369555e8c568b9d3add478cee6cdb2e0028dbe9cd3c61171",
+    "report.json": "995b55b169b42261cae30d15574dc6d74c5b5448151c07428414f23faccf7795",
+    "manifest.json": "57eafe8ab7ee7d9267dde8dc3d9508ee7d9321f1f4533ec88e086e80c2d771b4",
+    "freeze.json": "c6c482aba673d2f7c28d12542d8761af447f29e1e2fd0d49150dc65e415df7f0"
+  },
+  "independent_review": {
+    "component": "rev226_reforming_whole_independent",
+    "files": 89,
+    "manifest_sha256": "2ddc2c5c53796727bf5ca13fa84b05ca615a87919323f4d52069cf26dd86abc8",
+    "freeze_sha256": "c9f804e5dcf3162bd269a926366ab7da291a7051aa706ea59fdd9fe4479cfa91"
+  },
+  "aggregate_acceptance": {
+    "component": "rev235_reforming_whole_acceptance",
+    "files": 3,
+    "manifest_sha256": "a606130c614f9b448f0d47ea4a507e88b81d7360eac58c20305ac284df514755",
+    "freeze_sha256": "212f1ca3eeb52f9e548fe14c245a877f32d82d4c66c2438d173bb6aed8679c8e",
+    "report_sha256": "81d8fcc6441e80ea69053710a625a91ebd2127c82018d61b531acc704bf5413c"
+  },
+  "scope": {
+    "source_profile": "sanming-reforming-metal-NLC42998-comparison/0.1",
+    "method_version": "sanming-reforming-metal-signed-whole/0.1",
+    "implementation_revision": "0.1.2",
+    "source_locator": "三命通会卷六从革，NLC42998 PDF153–154/叶32–33；实际文明书局第二册标题页。1926/秦慎安仅网页书目。",
+    "source_layers": "该扫描正文、诗诀、别本转录和子平主本分开；数字及nativeROOT/HAP、无自动化金约定另列工程。",
+    "source_choice": "Explicitly selected small-fire refining-metal complete model. This is not all 从革 source routes or every classical 喜忌.",
+    "structural_conditions": {
+      "year_stem": "辛",
+      "month_pillar": "丁酉",
+      "day_stem": "辛",
+      "hour_pillar": "己丑",
+      "legal_raw_pillars": true,
+      "full_branch_framework": [
+        "巳",
+        "酉",
+        "丑"
+      ],
+      "fire_symbol_and_pillar_counts": "Each1–2; exactly one independent rooted visible fire carrier.",
+      "all_admitted_roles": "day、fire、print、peer only after original ROOT/HAP activation; all actual eligible hidden tasks must be consumed.",
+      "other_relation_climate_tasks": "No unclosed actual formal/primary/climate task; outside fixed positions/source domain gives precise no-H route."
+    },
+    "conditional_engineering_convention": "Explicit native-triad primary-context/root inventory. A full金局 does not automatically erase native火/root or certify physical transformation/nontransformation. This is the chosen method convention, not an unconditionally proved classical force fact.",
+    "whole_judgment_chain": "source and activation before H → exact roots/origins → fire/print/peer complete signed functions → every coupled subset and hard goal → upward-robust all minimal supports → original AUX verification → whole result.",
+    "terminal_goal_contract": "rooted metal, actual literal fire root, positive refining availability, and strict full-body carrying of the unchanged parallel fire pressure.",
+    "fire_budget": "New explicit gross per-origin max generation budget debits positive refining availability; full negative fire pressure stays. Old3/4stock-risk remains separate diagnostic, not a substituted half-official gate.",
+    "source_clause_reconciliation": "Smallfire方成器 motivates refining; 八月 applies in this domain. Existing己印养育/birthday is fully computed and may be beneficial without being a necessary helper in every酉月 chart. No sentence found requires adding an independent inactive water task here; active water/food changes source domain.",
+    "H_meaning": "Final minimal existing-positive-function auxiliary sets for THIS complete named whole-model question. A set is jointly needed; separate sets are alternatives. Not direct source-use/官-role coloring and not all possible external supplementation.",
+    "theme_rule": "Only after exact complete whole qualification and all minimal H are retained, their element union uniquely火 can yield single火 in a separately accepted explicit-profile bridge. It does not label other elements忌.",
+    "all4_source_and32_worlds": "Independent legal36→4 screen and complete32 signed-world comparison; not blind ancient charts or empirical prediction."
+  },
+  "runtime_model_adopted": true,
+  "allows_B_derivation_after_separate_bridge_acceptance": true,
+  "B_created": false,
+  "bridge_code_adopted": false,
+  "new_profile_must_be_explicit": true,
+  "old_primary_default_unchanged": true,
+  "same_actual_method_AND_valid_compatibility_required_for_P": true,
+  "no_local_F_shortcut": true,
+  "no_unordered_equalweight_inference": true,
+  "weights_C20_D2_C0_changed": false,
+  "score": "76.25/100",
+  "progress_delta": "0.00",
+  "original_task_complete": false,
+  "real_prediction_validated": false
+}

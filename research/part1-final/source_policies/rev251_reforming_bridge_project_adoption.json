@@ -1,0 +1,58 @@
+{
+  "id": "rev251_reforming_bridge_project_adoption",
+  "revision": 251,
+  "date": "2026-11-02",
+  "status": "adopted_finite_explicit_profile_whole_to_B_P_T_C20_bridge",
+  "target": {
+    "component": "rev231_reforming_profile_bridge",
+    "files": 2042,
+    "manifest_sha256": "52aaaa008c1cbb90737fc73097c60f1a572124e6dd7eb152fefac6e0d75b2936",
+    "freeze_sha256": "cad630f6bea56f1a6a7eb3a4803294f35b5071ba5d13fe0b4599fd8591bbf741",
+    "relative_directory": "rev231_reforming_profile_bridge"
+  },
+  "independent_review": {
+    "component": "rev247_reforming_bridge_independent",
+    "files": 136,
+    "manifest_sha256": "4dc71119d46416064500037bc5a6d5027ada541b27c2d08b8ee0b53634c6afef",
+    "freeze_sha256": "04ed72a41e874a64f3c07a07da3e3d134581ad2d8d5537f27c9d746651adb225",
+    "relative_directory": "rev247_reforming_bridge_independent"
+  },
+  "aggregate_acceptance": {
+    "component": "rev251_reforming_bridge_acceptance",
+    "files": 3,
+    "manifest_sha256": "bdaac7faf374472960881cf01978c8528d1da10a48500524354255b181e44250",
+    "freeze_sha256": "ca17ea9fa18e504426996c22afbf2f4479eae151896753ea7be7240877d96877",
+    "report_sha256": "e13c38ee7ccbe8a2734669c4a7638e522a8a2bed2030f5e8b9933091d556d7ea"
+  },
+  "scope": {
+    "method_version": "sanming-reforming-whole-to-base/0.1",
+    "source_profile": "sanming-reforming-metal-NLC42998-comparison/0.1",
+    "logical_whole_model": "sanming-reforming-metal-signed-whole/0.1",
+    "upstream_model_policy": {
+      "path": "rev235_reforming_whole_project_model_adoption.json",
+      "sha256": "b9ac38f1c40db7c15dfcf804be6b234de771f5ab518ae05a4e3f0a744aa2524a"
+    },
+    "actual_chain": "Fresh raw four pillars → complete source/ROOT/activation and all8 signed worlds/allH/native AUX → actual235whole-model decision → unique all-alternative element union → B → same-method P and actual T/C20.",
+    "accepted_base_meaning": "Single fire is the result of the complete named whole functional-support question. It is not merely the selected source role, all other elements忌, or oldF承载.",
+    "old_default_B155_changed": false,
+    "explicit_profile_and_exact_implementation_required": true,
+    "peer_compatibility": "Actual same logical method AND active verified compatibility; same displayed fire does not waive method mismatch.",
+    "missing_or_exit": "Known departure/expiry/base_only returns its budget; still-present missing B or compatibility remains undetermined.",
+    "C20_D2_C0_T_and_lifecycle": "Original coefficients and behavior retained; only three exact profile guards and necessary identity bindings changed.",
+    "old_primary_rebinding": "A full old exported B packet cannot be inserted into the derived implementation unchanged. Each implementation must actually export its own source-bound packet. Old-primary method/Pmean/Z/weights match after real re-export; stale packet rejection remains.",
+    "old_original_primary_protocol_entry_unchanged": true,
+    "frozen_policy_and_candidate_flags": "235 false bridge flag and231 candidate pending flags describe their historical issuance. This external251policy adopts the exact frozen bridge; do not rewrite or create a self-referential hash cycle.",
+    "data_scope": "Only locked202data12 region directory is integrated here. New data14 is a separate version; this decision does not claim automatic cross-package integration.",
+    "whole_window_or_all_pattern_support_completed": false
+  },
+  "runtime_adopted": true,
+  "explicit_version_only": true,
+  "frozen_candidate_bytes_and_historical_pending_flags_unchanged": true,
+  "effective_adoption_is_this_external_root_policy": true,
+  "automatic_default_replacement": false,
+  "weights_C20_D2_C0_changed": false,
+  "progress_delta": "0.00",
+  "score": "82.50/100",
+  "whole_original_task_complete": false,
+  "real_prediction_validated": false
+}

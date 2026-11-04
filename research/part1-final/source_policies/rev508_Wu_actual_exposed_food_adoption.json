@@ -1,0 +1,152 @@
+{
+  "schema": "508-exact488-after504-finite-current-exposed-food-adoption/1",
+  "revision": 508,
+  "registered_utc": "2026-11-03T08:41:51.101727+00:00",
+  "status": "adopted_exact488167_after50465_actual_Bing_five_layer_research_not_global_final_yong",
+  "author": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev488_Wu_actual_exposed_food_whole",
+    "files": 167,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev488_Wu_actual_exposed_food_whole/manifest.json",
+      "bytes": 29631,
+      "sha256": "d1e51533c19f0438d10bbb21d725e4a8a938a8908425c3ac5feb7944e3b68981"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev488_Wu_actual_exposed_food_whole/freeze.json",
+      "bytes": 165,
+      "sha256": "a7d9a07f869368fc25e16fbc49838d4087429e10926e84dd6fac3688fef70f4e"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_review": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev504_Wu_food_independent_review",
+    "files": 65,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev504_Wu_food_independent_review/manifest.json",
+      "bytes": 11590,
+      "sha256": "61595df124b31cef36d86ab91cd280bb1040028aebf26bd38ad95372d6957f8e"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev504_Wu_food_independent_review/freeze.json",
+      "bytes": 92,
+      "sha256": "b1f94a1e58b355d825ab4d1f11f10d2244e88139c5f95f0b70d85b73635deb9f"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev488_author_completion_handoff.json",
+    "bytes": 12683,
+    "sha256": "78f0c7b7695b00764c393d4b45a663339a6ceb50c51e940b503dbbb5d2100bcf"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev504_independent_completion_handoff.json",
+    "bytes": 2698,
+    "sha256": "93a11d90c0767f89e3e308dd9343a8e00fad99f31ffe006b1415c0165d2091a1"
+  },
+  "full_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev488_Wu_actual_exposed_food_whole/function_explanations109.json",
+    "bytes": 228622,
+    "sha256": "440b1fec8f2cfc1aec1273211ae7a0609a41988638b9a232f1bfa6375ec6bd65"
+  },
+  "full_rules": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev488_Wu_actual_exposed_food_whole/rules_ten_fields.json",
+    "bytes": 11787,
+    "sha256": "d67397d6a1070d5248465a631b415373d9f11c708d67dec77be84102cff74432"
+  },
+  "scope_preservation": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev488_Wu_actual_exposed_food_whole/scope_preservation_audit.json",
+    "bytes": 2981,
+    "sha256": "a2a0cbd23e17249953b1bb9fca2d1aef57c4cad781f0e6498555ed8a057bae6f"
+  },
+  "support": "原吴癸亥乙卯乙未壬午；旧有限实际五UTC层干支族加入明丙，未闭甲己等原关系保留。所有实际载体/原木根/财印食双面/全部发送费用共同算，真实窗口和前次同人/方法/源预核复用。",
+  "source_layers": "Primary93印84原局喜印水不改；新当下丙为伤官，徐评行运食伤泄秀与原局露食前件分开。当前新丙不把出生无明食改写成出生露食，不把后注归原正文。",
+  "engineering": "三固定参数，各入选丙正原出生木来源，所选丙集合总受生信用>=木体当前量1/32；8联合同费用诊断全重算、财制印对照独立保留，不按参数成功挑版。",
+  "separate_named_complete_tasks": "当前喜印/当前新明丙泄秀分别有完整H与真值，不以并存H并集断最终水火喜用/主次；原局参考水单独保。",
+  "independent_evidence": {
+    "private_completed_math": {
+      "worlds": 108,
+      "edges": 29484,
+      "edge_origin_components": 805923,
+      "actor_budget_origin_components": 562275,
+      "print_masks": 144,
+      "food_masks": 36
+    },
+    "new_caseprofiles": 12,
+    "new_food_task_qualified": 5,
+    "new_print_task_qualified": 6,
+    "new_window_cases": 3,
+    "new_previous_outside_future_hard_before_world": 1,
+    "new_floor_equal_plus_minus_boundaries": 3,
+    "definitions_contracts": 109,
+    "exact_old_AST_contracts": 95,
+    "new_adapted_actual_IO": 14,
+    "real_current_function_IO": 30,
+    "fresh_sourcebad_provider0_cases": 3,
+    "fresh_existing_copy_processes": 7,
+    "real_negative_controls": 28,
+    "original167_copy167_old445127_all_SHA_and_modes_unchanged": true
+  },
+  "author_history": "294事前/独立完整世界；22完整窗口17字节相同5硬错0world；6原正确域完整回归。首0编码/IO清单/旧合同附加说明checker失败保，producer不调；只读外部LF误比只修汇总，同副本准确14尝试，非一次无败。",
+  "remaining_original_scope": {
+    "actual_closed_this_revision": "新的原吴明丙五层完整生克/根/费用/受生信用/H/同费用诊断/真实UTC窗口/源功能双轴，而非outside/default状态。",
+    "adopted459_remaining_exact": [
+      "新官杀/乙庚甲己等实际关系",
+      "露食与原典/徐注条件",
+      "新支会化冲刑害、土质/通关、其他原局格局及约定时运",
+      "261制土卫水与262丁壬/子未完整链及其他确实未实现所需干预",
+      "最终原支持范围统一回放及完整运行分发"
+    ],
+    "effective_remaining": [
+      {
+        "id": "officials_relations",
+        "scope": "新官杀与乙庚/甲己/丙辛/丁壬等实际新干合、具体作用，原范围保留。"
+      },
+      {
+        "id": "food_broader",
+        "scope": "本版真正实现原吴固定五层明丙充分任务；丁/其他来源前件/其他食运完整路径与最终传统冲突不冒已解。"
+      },
+      {
+        "id": "branches_quality",
+        "scope": "新支/会化冲刑害、土质与通关，以及原261制土卫水、262丁壬/子未完整链。"
+      },
+      {
+        "id": "other_natal_approaches",
+        "scope": "原支持范围内其他原局格局、扶抑/调候、当前最终主次与方法冲突。"
+      },
+      {
+        "id": "absent_need_interventions",
+        "scope": "其他确有来源资格的needed-absent修复/干预不从H并集替代；未因本版摘要省略而删承诺。"
+      },
+      {
+        "id": "unified_delivery",
+        "scope": "原支持范围最终统一回放、可运行发行与文档验收；本版有限模块完成不冒全部原C03/原任务100%。"
+      }
+    ],
+    "native_output_scope": "remaining_original_C03是短摘要，完整未删范围以本审计与原459为准；B/theme/display/手环/物理未研究。",
+    "new_profile_five_are_summary_aliases_not_deletions": [
+      "丁 andnewformal丁壬/other actualofficial/specificrelations",
+      "Othernewbranches andbroader合冲刑害/soilquality/mediation",
+      "Othernatal charts/currenttraditionalfinalpriority andmethodconflicts",
+      "261制土卫水/262丁壬子未完整干预",
+      "Originalscope finalunifiedwhole replay/run delivery; no sourceempiricaltruth requiredas new completiongate"
+    ],
+    "no_adoption_or_progress_claim": true,
+    "not_new_gate": "459已说明现实预测有效/全部历法官方认证不新增为100%门；只如实披露未验证。原real-world-validation字样是研究限制，不偷转无穷门。",
+    "old445_original_six_exact": [
+      "Actual officials with source忌 and new乙庚/other五合 mechanisms",
+      "Exposedfood and Primary/Xu conditions with complete food-luck paths",
+      "New branches/合冲会化/刑害, soil quality and mediation",
+      "Other birth charts/patterns/support/climate temporal chains",
+      "261制土卫水 mobility and262丁壬/子未 exact effects",
+      "Other source-qualified absent-need repair/interventions and real-world validation"
+    ],
+    "schema": "488-original-C03-no-deletion-audit/1"
+  },
+  "no_frozen_math_or_source_or_contract_correction_needed": true,
+  "progress": "88.75/100",
+  "progress_delta": "0.00",
+  "all_C03_complete": false,
+  "all_original_task_complete": false,
+  "not_empirical_prediction_validation": true,
+  "no_B_J2_theme_display_or_physical": true
+}

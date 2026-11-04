@@ -1,0 +1,1836 @@
+原无火的真实external来源参与暖木/整盘净修复
+rev554_missing_fire_external_intervention
+所属原模块：C02
+当前采用：rev567_external_fire_project_adoption.json
+范围：adopted_exact554_0.1.1_after566_complete_finite_external_actor_source_and_feedback
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev554_missing_fire_external_intervention/algorithm_explanations_all35.json
+SHA256：031324b774c48ba52eeffc069e216f4e70d95d9d940717c15715ddf103b04b03
+
+1. current.py:canonical
+算法标识：current.py:canonical
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "canonical",
+  "first_line": 10,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "9ff5caf77b26627796ce8a76e5763aad74eef6308e2bcb57600873ce4743a9bb"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "稳定规范JSON",
+  "inputs": "JSON兼容已pack结果",
+  "operations": "键排序/紧凑Unicode/拒NaN",
+  "outputs_and_limits": "str；CLI另换行，不校验来源",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "current.py:canonical",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1"
+}
+actual_current_IO：{
+  "id": "current.py:canonical",
+  "first_line": 10,
+  "call_sequence": 164105,
+  "sample_scope": "actual main with originalfire-present legal scope feedback; fixed early pack branch; complete normalCLI separately crosshashseed",
+  "input": {
+    "path": "actual/function_IO/current.py__canonical.input.json.gz",
+    "bytes": 5970,
+    "sha256": "8e16ec73aa84ca5e680b80bf87687d4032acf76120ae8a5202c1b6132f6c2b2f"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__canonical.return.json.gz",
+    "bytes": 4169,
+    "sha256": "814ab4d717397620ba76ee21bbfcf0037efbd295abfb694b2e0a8c31fa1422b4"
+  }
+}
+actual_observed_calls：1
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+2. current.py:pairs
+算法标识：current.py:pairs
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "pairs",
+  "first_line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "module_sha256": "9ff5caf77b26627796ce8a76e5763aad74eef6308e2bcb57600873ce4743a9bb"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "拒重复JSON键",
+  "inputs": "解析器键值对",
+  "operations": "逐键出现检测，固定错误不回显原键",
+  "outputs_and_limits": "dict或ValueError；转义重复也拒",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "current.py:pairs",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24"
+}
+actual_current_IO：{
+  "id": "current.py:pairs",
+  "first_line": 11,
+  "call_sequence": 2,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/current.py__pairs.input.json.gz",
+    "bytes": 149,
+    "sha256": "3d71dd071059585a0a1930d1e2c286a9a6ae59f0805eaef0b304e48f86e5ed5d"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__pairs.return.json.gz",
+    "bytes": 124,
+    "sha256": "2e7cdb3fcb8cc04e5204f35ae0f49a86f5f1307e6eb90162d1db706b88c47817"
+  }
+}
+actual_observed_calls：4
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+3. current.py:constant
+算法标识：current.py:constant
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "constant",
+  "first_line": 17,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6",
+  "module_sha256": "9ff5caf77b26627796ce8a76e5763aad74eef6308e2bcb57600873ce4743a9bb"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "拒非有限常量",
+  "inputs": "NaN/Infinity标记",
+  "operations": "固定抛ValueError",
+  "outputs_and_limits": "无正常返回；观察器None为异常展开",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "current.py:constant",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6"
+}
+actual_current_IO：{
+  "id": "current.py:constant",
+  "first_line": 17,
+  "call_sequence": 162409,
+  "sample_scope": "actual strict NaN rejection, exception caller verified",
+  "input": {
+    "path": "actual/function_IO/current.py__constant.input.json.gz",
+    "bytes": 81,
+    "sha256": "1aca34c8036650943f20cfd22bd0ed4c5db3795b2b2dfa5900aa54e95fd0edeb"
+  },
+  "completion": "exception_unwind_confirmed_by_caller",
+  "return": {
+    "path": "actual/function_IO/current.py__constant.return.json.gz",
+    "bytes": 63,
+    "sha256": "3aca2694269d62a7b71ec25be59c17bd588d4cc3e4bd865767e6d36fbbd34e90"
+  }
+}
+actual_observed_calls：1
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+4. current.py:bounded
+算法标识：current.py:bounded
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "bounded",
+  "first_line": 18,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351",
+  "module_sha256": "9ff5caf77b26627796ce8a76e5763aad74eef6308e2bcb57600873ce4743a9bb"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "限制公开树",
+  "inputs": "API值或已解析JSON",
+  "operations": "深16/节点1000/对象16/列表32/串2000/Unicode标量，float等拒",
+  "outputs_and_limits": "None或ValueError；不是业务schema核对",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "current.py:bounded",
+  "AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351"
+}
+actual_current_IO：{
+  "id": "current.py:bounded",
+  "first_line": 18,
+  "call_sequence": 4,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/current.py__bounded.input.json.gz",
+    "bytes": 269,
+    "sha256": "4e4d1425439aea6210e300d7d3230868cd251ddef801e86404af381e8b831278"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__bounded.return.json.gz",
+    "bytes": 62,
+    "sha256": "b4c429e906246b69005bb06574ca0edece2cbb9fa81904c10d23f70ed6a6dd7d"
+  }
+}
+actual_observed_calls：4
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+5. current.py:strict_load
+算法标识：current.py:strict_load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "strict_load",
+  "first_line": 32,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22",
+  "module_sha256": "9ff5caf77b26627796ce8a76e5763aad74eef6308e2bcb57600873ce4743a9bb"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "严格JSON文本",
+  "inputs": "最多5000字符str",
+  "operations": "json.loads重复键/非有限回调，再bounded",
+  "outputs_and_limits": "支持JSON值；根字段在evaluate核",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "current.py:strict_load",
+  "AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22"
+}
+actual_current_IO：{
+  "id": "current.py:strict_load",
+  "first_line": 32,
+  "call_sequence": 1,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/current.py__strict_load.input.json.gz",
+    "bytes": 279,
+    "sha256": "85dbe8eccd5003159580b16358dfb341e9e2dea4c60ffea9ff34a357646f54b0"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__strict_load.return.json.gz",
+    "bytes": 267,
+    "sha256": "8c02999c83acc71c406b6b8942be8eac7164832a62559be27ea70aefabd4c2ea"
+  }
+}
+actual_observed_calls：3
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+6. current.py:guard
+算法标识：current.py:guard
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "guard",
+  "first_line": 35,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3ee94790654a694e306740134085c3e402c0b9aa87a4dd02f39e850ac717acd4",
+  "module_sha256": "9ff5caf77b26627796ce8a76e5763aad74eef6308e2bcb57600873ce4743a9bb"
+}
+条目分类：new_or_changed554
+contract：{
+  "purpose": "先绑定554全部材料和运行码",
+  "inputs": "固定source_execution_lock/EXTRA目录",
+  "operations": "先核锁SHA、全source/runtime清单、字节/SHA/包含/非软链，捕获23材料；通过才load",
+  "outputs_and_limits": "material或拒；核完整性不认证经典真值或现实温度",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "current.py:guard",
+  "first_line": 35,
+  "call_sequence": 7,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/current.py__guard.input.json.gz",
+    "bytes": 67,
+    "sha256": "af969f2ec3ec272809e1c234ca722596abdff10dd46ecea34afe4d72ac549326"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__guard.return.json.gz",
+    "bytes": 1804,
+    "sha256": "b8108c1a82de98002ee6c6b46125f038fa6933fbf03e94384c191fe47f51c4e0"
+  }
+}
+actual_observed_calls：2
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+7. current.py:load
+算法标识：current.py:load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "load",
+  "first_line": 48,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "module_sha256": "9ff5caf77b26627796ce8a76e5763aad74eef6308e2bcb57600873ce4743a9bb"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "只执行已守卫材料",
+  "inputs": "内部模块名/锁内path/material",
+  "operations": "ModuleType+固定filename编译执行",
+  "outputs_and_limits": "module；本函数本身不代guard，唯一公开调用者已先guard",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "current.py:load",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f"
+}
+actual_current_IO：{
+  "id": "current.py:load",
+  "first_line": 48,
+  "call_sequence": 8,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/current.py__load.input.json.gz",
+    "bytes": 1831,
+    "sha256": "43ccfa63d41bc18e9d6bb903c388161d55db55df68eb2590a968964cff2d8b8e"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__load.return.json.gz",
+    "bytes": 233,
+    "sha256": "d4f98bb3fb588fe25be98d5f9c20c64cebc28858e2feac785267161caa6cd330"
+  }
+}
+actual_observed_calls：14
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+8. current.py:evaluate
+算法标识：current.py:evaluate
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "evaluate",
+  "first_line": 50,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "16e2107f86301c0c9b8d058fff9f331d4177943807b31e43d67dc45dee220deb",
+  "module_sha256": "9ff5caf77b26627796ce8a76e5763aad74eef6308e2bcb57600873ce4743a9bb"
+}
+条目分类：new_or_changed554
+contract：{
+  "purpose": "固定缺火外来干预研究入口",
+  "inputs": "精确schema/source_profile/raw_pillars三字段",
+  "operations": "bounded/版本/源身份→guard→七实际模块→core.evaluate",
+  "outputs_and_limits": "全pack结果/明确范围反馈或错误；正常全65world；ModuleType实参6与provider执行7分别记录",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "current.py:evaluate",
+  "first_line": 50,
+  "call_sequence": 5,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/current.py__evaluate.input.json.gz",
+    "bytes": 272,
+    "sha256": "ddee4c064060d9582fe3a93114e09f6dbf7fbe26edce1221994b3bf793ba4923"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_exact_reused.py__pack.return.json.gz",
+    "bytes": 908947,
+    "sha256": "7dd55de97a38afb1aa75a34a78b141c99d90d080b40200ec71020aeb58c7469c"
+  },
+  "observed_same_return_object_as": "runtime/exact_reused.py:pack"
+}
+actual_observed_calls：2
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+9. current.py:main
+算法标识：current.py:main
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "main",
+  "first_line": 55,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113",
+  "module_sha256": "9ff5caf77b26627796ce8a76e5763aad74eef6308e2bcb57600873ce4743a9bb"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "原子CLI",
+  "inputs": "最多20000输入bytes",
+  "operations": "UTF8严格解码→strict_load→evaluate→canonical print；固定错误捕获",
+  "outputs_and_limits": "正常/有效未知0；硬错2，仅rejected/no_partial；输出一newline",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "current.py:main",
+  "AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113"
+}
+actual_current_IO：{
+  "id": "current.py:main",
+  "first_line": 55,
+  "call_sequence": 162410,
+  "sample_scope": "actual main with originalfire-present legal scope feedback; fixed early pack branch; complete normalCLI separately crosshashseed",
+  "input": {
+    "path": "actual/function_IO/current.py__main.input.json.gz",
+    "bytes": 66,
+    "sha256": "3642cfcf04c2542e87eea6e20fd5dc879f8b34cedb54e3d136cdd07e2405c266"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__main.return.json.gz",
+    "bytes": 56,
+    "sha256": "1282a09a0d53c981ee8d0413fcab2cb2ce673451e2cff93d8d92153458430715"
+  }
+}
+actual_observed_calls：1
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+10. runtime/exact_reused.py:pack
+算法标识：runtime/exact_reused.py:pack
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "pack",
+  "first_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Encode internal exact mathematics.",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/exact_reused.py:pack",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c"
+}
+actual_current_IO：{
+  "id": "runtime/exact_reused.py:pack",
+  "first_line": 7,
+  "call_sequence": 3222,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_exact_reused.py__pack.input.json.gz",
+    "bytes": 939772,
+    "sha256": "a192fd1c3070729a7ea5f440ac3969270dd2e84ea4d41353a821b9b7834559b3"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_exact_reused.py__pack.return.json.gz",
+    "bytes": 908947,
+    "sha256": "7dd55de97a38afb1aa75a34a78b141c99d90d080b40200ec71020aeb58c7469c"
+  }
+}
+actual_observed_calls：160552
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+11. runtime/exact_reused.py:gauss
+算法标识：runtime/exact_reused.py:gauss
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "gauss",
+  "first_line": 14,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/exact_reused.py:gauss",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830"
+}
+actual_current_IO：{
+  "id": "runtime/exact_reused.py:gauss",
+  "first_line": 14,
+  "call_sequence": 521,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_exact_reused.py__gauss.input.json.gz",
+    "bytes": 216,
+    "sha256": "379f2f1d7b43961946af2c7e8c03beb00c3d3f2fe786bb4d41429af9fd0c903c"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_exact_reused.py__gauss.return.json.gz",
+    "bytes": 156,
+    "sha256": "53b57351d9cc1af7296b6d95364cf4ce97f5055b65992ebba4beb57039cd4286"
+  }
+}
+actual_observed_calls：2104
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+12. runtime/external_fire_core.py:external_inventory
+算法标识：runtime/external_fire_core.py:external_inventory
+source_identity：{
+  "relative_path": "runtime/external_fire_core.py",
+  "qualified_name": "external_inventory",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='original'), arg(arg='amount')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f72898ae98051410ef90cef61720e0706a58b3260cd2b61fedc725151c30a5c3",
+  "module_sha256": "f5a3a0aacb55a94e3261fd4e4e8e09e7faa77522780ef703f72c2ae0fd6e9371"
+}
+条目分类：new_or_changed554
+contract：{
+  "purpose": "保原出生实体，加入明确外来火身份",
+  "inputs": "原无任何明藏火actor库存，Fraction量0..2",
+  "operations": "deepcopy；仅加external:fire独立演员和external-input:fire；无干/支/ROOT/float；新火独占火份额1，其余原根/原份额不动",
+  "outputs_and_limits": "原/当前inventory分存；量0仅开放通路诊断，不是无干预基线、不证古法有气或真实时运柱",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/external_fire_core.py:external_inventory",
+  "first_line": 6,
+  "call_sequence": 878,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__external_inventory.input.json.gz",
+    "bytes": 4599,
+    "sha256": "5d348d70cd28e49f5e7dc3a7a744848744aa8074519a30ff8132409fd17df968"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__external_inventory.return.json.gz",
+    "bytes": 4779,
+    "sha256": "47b38d54cba3df5a420f4042ba7625112a9d9aea77ab4ef9a8b1d2d1a4d3d488"
+  }
+}
+actual_observed_calls：58
+additional_nonvacuous_real_IO：[
+  {
+    "artifact": "actual/targeted_positive_external_IO.json.gz",
+    "actual_samples": 2,
+    "zero_new_physical_solves": true
+  }
+]
+not_one_classical_rule_per_function：true
+
+13. runtime/external_fire_core.py:external_coefficients
+算法标识：runtime/external_fire_core.py:external_coefficients
+source_identity：{
+  "relative_path": "runtime/external_fire_core.py",
+  "qualified_name": "external_coefficients",
+  "first_line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='g'), arg(arg='c'), arg(arg='eta'), arg(arg='reach'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "065b74ac7f0cf66fe949888cf159b48c6b7ae16634b1d476d42f3267df1249ff",
+  "module_sha256": "f5a3a0aacb55a94e3261fd4e4e8e09e7faa77522780ef703f72c2ae0fd6e9371"
+}
+条目分类：new_or_changed554
+contract：{
+  "purpose": "全部外来正负生克与付费暖口同时建图",
+  "inputs": "完整原+外actor，g/c/η/外来reach1/2或1；注册同费cut",
+  "operations": "原两端几何沿四柱；外来双向reach统一预定；全生/克/火暖木边，名义保留费不因关作用退款；两几何全报",
+  "outputs_and_limits": "G/C/全边/热口/费用；木生外火、水克外火、外火生土/克金均实算；几何为工程而非原柱位",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/external_fire_core.py:external_coefficients",
+  "first_line": 11,
+  "call_sequence": 879,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__external_coefficients.input.json.gz",
+    "bytes": 4814,
+    "sha256": "fa1af10b49e02256aad26de623721685909b948aa2cdfa01dd2653a3bc7e77c3"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__external_coefficients.return.json.gz",
+    "bytes": 1820,
+    "sha256": "d151c288c82f97a0628446ca5ccf5383d76a9c65dd08baee7796372259db2265"
+  }
+}
+actual_observed_calls：2
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+14. runtime/external_fire_core.py:metrics
+算法标识：runtime/external_fire_core.py:metrics
+source_identity：{
+  "relative_path": "runtime/external_fire_core.py",
+  "qualified_name": "metrics",
+  "first_line": 25,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='po'), arg(arg='graph'), arg(arg='bounds'), arg(arg='support')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2d3323410b8f52dcc4ce40779f047bfa6939420979453b8884dda6f756cef865",
+  "module_sha256": "f5a3a0aacb55a94e3261fd4e4e8e09e7faa77522780ef703f72c2ae0fd6e9371"
+}
+条目分类：new_or_changed554
+contract：{
+  "purpose": "来源分摊暖作用、身体和格源分轴",
+  "inputs": "完整base/cf/state/po/graph/U-L/support",
+  "operations": "原木根末态、总热/水压比/土实制水；每火来源qP火[o]*原木根末态/gross木，合外来与原生；核合等总热；保原印比与carry",
+  "outputs_and_limits": "完整指标；总热正不证明外来输入有作用；外来活动/暖信用均正才有函数见证；无真实温度/古法有气认证",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/external_fire_core.py:metrics",
+  "first_line": 25,
+  "call_sequence": 557,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__metrics.input.json.gz",
+    "bytes": 12512,
+    "sha256": "e175d5abb5d2dafa05af5f2efb87182a04b9b70e71f7b85ed8656d20ab06e5e6"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__metrics.return.json.gz",
+    "bytes": 1283,
+    "sha256": "fae63c11df9ed2b187d7077c87ffe513eb475a3bab29d9397052c63a2d03ff21"
+  }
+}
+actual_observed_calls：65
+additional_nonvacuous_real_IO：[
+  {
+    "artifact": "actual/targeted_positive_external_IO.json.gz",
+    "actual_samples": 2,
+    "zero_new_physical_solves": true
+  }
+]
+not_one_classical_rule_per_function：true
+
+15. runtime/external_fire_core.py:world
+算法标识：runtime/external_fire_core.py:world
+source_identity：{
+  "relative_path": "runtime/external_fire_core.py",
+  "qualified_name": "world",
+  "first_line": 29,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='alpha'), arg(arg='kappa'), arg(arg='math'), arg(arg='source'), arg(arg='exact'), arg(arg='proof')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "03d3b2e0c3aa81686676f8cc62417f99620a2efb40916a234759cb81d6650bb4",
+  "module_sha256": "f5a3a0aacb55a94e3261fd4e4e8e09e7faa77522780ef703f72c2ae0fd6e9371"
+}
+条目分类：new_or_changed554
+contract：{
+  "purpose": "一个干预/诊断世界的全图同时状态",
+  "inputs": "base/cf/固定ακ/math/source/exact，可复用全域proof",
+  "operations": "精确旧activity→origins→support_bounds→graph→原源source_support→新metrics",
+  "outputs_and_limits": "完整state/原点/费用/原根/印比及热来源；新actor不造原木根，不由净结果倒选源",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/external_fire_core.py:world",
+  "first_line": 29,
+  "call_sequence": 518,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__world.input.json.gz",
+    "bytes": 6221,
+    "sha256": "c7b2667da33254586ba21478e6005668684365fa0d0db3daa122d971991f0fac"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__world.return.json.gz",
+    "bytes": 7321,
+    "sha256": "704569fdeda43e1c9a5ba675261230d51ff7c2fbb22f13078ddce3c4c290c6db"
+  }
+}
+actual_observed_calls：65
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+16. runtime/external_fire_core.py:compare
+算法标识：runtime/external_fire_core.py:compare
+source_identity：{
+  "relative_path": "runtime/external_fire_core.py",
+  "qualified_name": "compare",
+  "first_line": 33,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='current'), arg(arg='baseline'), arg(arg='amount')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "7b0b9fbdc1693e08e6426079fbc9ba4ce1f34e04b9cd71be72d0dbbc90bcf592",
+  "module_sha256": "f5a3a0aacb55a94e3261fd4e4e8e09e7faa77522780ef703f72c2ae0fd6e9371"
+}
+条目分类：new_or_changed554
+contract：{
+  "purpose": "原三目标净品质和外来资源真实参与、从向/普通支持分流",
+  "inputs": "current、无actor原baseline、外来Fraction量",
+  "operations": "原coldcue、新原木/总热正，压力不升/总热不降/土实制水不降且一严格；另正外量且该源实际暖正；from另原新dependency；ordinary支持单列",
+  "outputs_and_limits": "margins/quality/from/ordinary/λ0诊断分别报；品质不等终喜或从真；只三预定目标，不求每路径全改善",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/external_fire_core.py:compare",
+  "first_line": 33,
+  "call_sequence": 921,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__compare.input.json.gz",
+    "bytes": 23204,
+    "sha256": "be598946dd328a206f7a7d35bd086ddb9fe5ef6e0941ce633d60ba778aa8e02e"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__compare.return.json.gz",
+    "bytes": 476,
+    "sha256": "bfe0df1c6d2a1e90682294e0508472e57406fe1d00528f1a6e986a9278f4c1e2"
+  }
+}
+actual_observed_calls：56
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+17. runtime/external_fire_core.py:analyze
+算法标识：runtime/external_fire_core.py:analyze
+source_identity：{
+  "relative_path": "runtime/external_fire_core.py",
+  "qualified_name": "analyze",
+  "first_line": 37,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='original'), arg(arg='params'), arg(arg='math'), arg(arg='source'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "72a16e4e874384862585f46537e87de4384c897a50b15ceac15a0f142263101a",
+  "module_sha256": "f5a3a0aacb55a94e3261fd4e4e8e09e7faa77522780ef703f72c2ae0fd6e9371"
+}
+条目分类：new_or_changed554
+contract：{
+  "purpose": "预定全部几何/参数/量及零输入诊断",
+  "inputs": "原无火base和固定params，旧数学/可靠源模块",
+  "operations": "9原无actor基线；两几何×9ακ×3正量=54；各几何名义ακ的0输入actor诊断2，共65；所有阴性保，原基线缓存不混",
+  "outputs_and_limits": "全部65world与三种净轴；几何不按成功选择；0输入在新图可受生且改变费用，不冒无actor中性",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/external_fire_core.py:analyze",
+  "first_line": 37,
+  "call_sequence": 516,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__analyze.input.json.gz",
+    "bytes": 5200,
+    "sha256": "52e37ee1c22248f9bf788d01ca46e703accec9d65694c272f20f9fbd82f3e12d"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__analyze.return.json.gz",
+    "bytes": 932005,
+    "sha256": "1298a99d61d4626a7c1246161e897751b7ceff241fb14e39e8efb1a30a38993e"
+  }
+}
+actual_observed_calls：1
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+18. runtime/external_fire_core.py:evaluate
+算法标识：runtime/external_fire_core.py:evaluate
+source_identity：{
+  "relative_path": "runtime/external_fire_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 54,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='params'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive'), arg(arg='inventory'), arg(arg='math'), arg(arg='source'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "e8816030eac8606912436733a08b46c085f0c0a01bcfcab5be6dffbe4ced6766",
+  "module_sha256": "f5a3a0aacb55a94e3261fd4e4e8e09e7faa77522780ef703f72c2ae0fd6e9371"
+}
+条目分类：new_or_changed554
+contract：{
+  "purpose": "原柱事实到具名缺火完整研究",
+  "inputs": "固定request/params/facts/root/primitive/inventory/math/source/exact",
+  "operations": "非法/合法别源/原已含火分别明确反馈；已有火早退原库存也pack；金日冬月无火才全analyze，再pack",
+  "outputs_and_limits": "JSON完整正常65world/范围反馈；真实时运柱身份/合冲未闭，原总任务未完成；不B/显示/自采用/加分",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/external_fire_core.py:evaluate",
+  "first_line": 54,
+  "call_sequence": 15,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_external_fire_core.py__evaluate.input.json.gz",
+    "bytes": 1325,
+    "sha256": "6133381998c2371322a79c5382e8cd9cd719f8780317df57306065b028cd5c54"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_exact_reused.py__pack.return.json.gz",
+    "bytes": 908947,
+    "sha256": "7dd55de97a38afb1aa75a34a78b141c99d90d080b40200ec71020aeb58c7469c"
+  },
+  "observed_same_return_object_as": "runtime/exact_reused.py:pack"
+}
+actual_observed_calls：2
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+19. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "十干查五行",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/foundation_facts.py:stem_element",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:stem_element",
+  "first_line": 39,
+  "call_sequence": 19,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__stem_element.input.json.gz",
+    "bytes": 105,
+    "sha256": "86cab0136895d61e6542ccd2b2c838f6c00098aa81f5427911633127b14bec9a"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__stem_element.return.json.gz",
+    "bytes": 85,
+    "sha256": "e3370a60ac700b12859d5d36ae937a944f798cd4dabc675def39ac1e81325bcf"
+  }
+}
+actual_observed_calls：492
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+20. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "严格十神角色",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/foundation_facts.py:ten_god",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:ten_god",
+  "first_line": 45,
+  "call_sequence": 18,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__ten_god.input.json.gz",
+    "bytes": 120,
+    "sha256": "037a479c4a5d8f04b0bf45f552f72b43d7083d9f8170c073c67f09c35616246b"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__ten_god.return.json.gz",
+    "bytes": 84,
+    "sha256": "eed7c92a2693d4070c54593c96826c7e1223cccfc2f5c01f163b4a14cfb46e77"
+  }
+}
+actual_observed_calls：121
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+21. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原柱基础合法性",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/foundation_facts.py:validate",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:validate",
+  "first_line": 60,
+  "call_sequence": 17,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__validate.input.json.gz",
+    "bytes": 156,
+    "sha256": "21fffdaef807fab2ad9d431b293ffc71e6db5f177ddf2e89a127213dbfe10e24"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__validate.return.json.gz",
+    "bytes": 439,
+    "sha256": "149084d74141c286fe6f7872b85ef8e441ee9f1c39b97045acf03e28dacb124f"
+  }
+}
+actual_observed_calls：4
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+22. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留有位置的形式合冲",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/foundation_facts.py:formal_relations",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:formal_relations",
+  "first_line": 104,
+  "call_sequence": 194,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__formal_relations.input.json.gz",
+    "bytes": 164,
+    "sha256": "446ff209af88c3fc3c8baa071d5755ada2780d6102c659456cedadbd793677e8"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__formal_relations.return.json.gz",
+    "bytes": 96,
+    "sha256": "ad1a5d4ee48d2f667a4bcbe559970acd5d6a4812243d466f19241d072e666730"
+  }
+}
+actual_observed_calls：4
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+23. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/foundation_facts.py:root_evidence",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:root_evidence",
+  "first_line": 121,
+  "call_sequence": 118,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__root_evidence.input.json.gz",
+    "bytes": 169,
+    "sha256": "f0356bf838f7af071335af06ff98e399f8bb2a45da78f4cff461646398a5d31c"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__root_evidence.return.json.gz",
+    "bytes": 506,
+    "sha256": "d7cd3378b1d41fc821e4b0089eca934c62d2ef623beb4defcc7a2b01eeffcc71"
+  }
+}
+actual_observed_calls：16
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+24. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原61完整四柱事实入口",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/foundation_facts.py:parse",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:parse",
+  "first_line": 148,
+  "call_sequence": 16,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__parse.input.json.gz",
+    "bytes": 153,
+    "sha256": "03549b6229a4988c42beed26453c45990edbaa0c042a4eb40bf133619dcabee3"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__parse.return.json.gz",
+    "bytes": 2221,
+    "sha256": "2188144bc1a7798958845b3ec5fef23b4ed0e4c382f1b3055e2dd5da58c7a98b"
+  }
+}
+actual_observed_calls：4
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+25. runtime/inventory.py:root_explain
+算法标识：runtime/inventory.py:root_explain
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "root_explain",
+  "first_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive'), arg(arg='root')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3272242d66788897bd130198b0b3bd1d77062dea37dbefc0ac4c7e44d32f59e8",
+  "module_sha256": "11a8de0811ae9262633042b382cf211a6778368bdf1e35f67b6a00f1f59df927"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "保留每位原根，分清资格和现效",
+  "inputs": "干、支、既有原始表、纯root模块",
+  "operations": "按该元素阳干共生死参照分类；长生/禄旺7/2、非土墓3/2、主气7/2、其他藏根5/2，否则0",
+  "outputs": "含参照、阶段、藏干、来源层和精确资格的记录",
+  "preconditions_and_limits": "根数/月倍数为继承工程量；金寅绝不删巳金7/2；戊土共火宫移植不认定现力",
+  "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/inventory.py:root_explain",
+  "AST_sha256": "3272242d66788897bd130198b0b3bd1d77062dea37dbefc0ac4c7e44d32f59e8"
+}
+actual_current_IO：{
+  "id": "runtime/inventory.py:root_explain",
+  "first_line": 8,
+  "call_sequence": 196,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_inventory.py__root_explain.input.json.gz",
+    "bytes": 654,
+    "sha256": "5816a17d5c4dd784e9c8093491ecaa3d1d0488da9cdf9bf5690fb4f49b135e00"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_inventory.py__root_explain.return.json.gz",
+    "bytes": 475,
+    "sha256": "a2b5c8a66fc98ec83741dde3f4e05652ae972183a7cdda5596671f99d9818244"
+  }
+}
+actual_observed_calls：84
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+26. runtime/inventory.py:context
+算法标识：runtime/inventory.py:context
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "context",
+  "first_line": 23,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "18414b3259782eebeef1a4fe28f48d99b855130b5e4f37ec1a3226dd571e5774",
+  "module_sha256": "11a8de0811ae9262633042b382cf211a6778368bdf1e35f67b6a00f1f59df927"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "原文金日木财/三季候选而非449跨元素",
+  "inputs": "raw/facts",
+  "operations": "先原四柱自洽合法性，再金日与季节；原formal逐项保，R0固定不额外合化增删",
+  "outputs_and_limits": "源候选或非法/合法别源；工程cue不认证传统太过真值；不声称formal无效",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/inventory.py:context",
+  "AST_sha256": "18414b3259782eebeef1a4fe28f48d99b855130b5e4f37ec1a3226dd571e5774"
+}
+actual_current_IO：{
+  "id": "runtime/inventory.py:context",
+  "first_line": 23,
+  "call_sequence": 336,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_inventory.py__context.input.json.gz",
+    "bytes": 325,
+    "sha256": "8e6581f88206b980cdbd4e032804350ed0e1317b5bcf9ab970ab5fd52a0d5406"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_inventory.py__context.return.json.gz",
+    "bytes": 2440,
+    "sha256": "f0b32350c780ea49c6afb65ba26668d053d18cf7ce7caf0de2e644e102e0194b"
+  }
+}
+actual_observed_calls：2
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+27. runtime/inventory.py:build
+算法标识：runtime/inventory.py:build
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "build",
+  "first_line": 30,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "73bc8d4c07524815f06b16e87e1d19d1909e869167c93d27d3f3d63465e0cd4e",
+  "module_sha256": "11a8de0811ae9262633042b382cf211a6778368bdf1e35f67b6a00f1f59df927"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "全原演员与四支根、同源不重复",
+  "inputs": "raw/facts/root/primitive",
+  "operations": "每明藏×四支root_explain，原点max一次；非日明干float1，日无新增float；静态份额分配；缺元素零池不造演员",
+  "outputs_and_limits": "base全根/直接原点/份额/源上下文；共池不等演员局部实强或物理守恒",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/inventory.py:build",
+  "AST_sha256": "73bc8d4c07524815f06b16e87e1d19d1909e869167c93d27d3f3d63465e0cd4e"
+}
+actual_current_IO：{
+  "id": "runtime/inventory.py:build",
+  "first_line": 30,
+  "call_sequence": 195,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_inventory.py__build.input.json.gz",
+    "bytes": 698,
+    "sha256": "ef410f65070ec21433592b160deb7161dceb3510b7a6e89ccfec9250f684a82d"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_inventory.py__build.return.json.gz",
+    "bytes": 4563,
+    "sha256": "ffb7a24a2e1d2d418220c7418a0a511ef9895381c7ffafbe203fc99f8d9eae9b"
+  }
+}
+actual_observed_calls：2
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+28. runtime/reliable_source.py:source_support
+算法标识：runtime/reliable_source.py:source_support
+source_identity：{
+  "relative_path": "runtime/reliable_source.py",
+  "qualified_name": "source_support",
+  "first_line": 5,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='po'), arg(arg='bounds')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "05b73d3b8c5e0bf0f825bd54bb06c45ef63220999ca102c2787101c14642f960",
+  "module_sha256": "170fbfc38a63af54b8e286e2b6002a45d43cfdd54e7c431409392ed11c84fbc8"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "可靠原根印先于承载不足分流",
+  "inputs": "base/cf/state/po/bounds",
+  "operations": "核原金重根末态/q≥1/2、轻根且金池承负荷、严格金池>5/4负荷；同一原土演员own root>0且该同根活动、该土演员直生金末态信用>0；不拼接别actor/root，不把日自环当外助；先veto再gap",
+  "outputs_and_limits": "四个明式工程veto+全部正负见证；Primary95印赖、Ren从意向与281/522量化转接分别标；半值和5/4不是原文",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/winter_warm_core.py:source_support",
+  "AST_sha256": "05b73d3b8c5e0bf0f825bd54bb06c45ef63220999ca102c2787101c14642f960"
+}
+actual_current_IO：{
+  "id": "runtime/reliable_source.py:source_support",
+  "first_line": 5,
+  "call_sequence": 556,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_reliable_source.py__source_support.input.json.gz",
+    "bytes": 9190,
+    "sha256": "8869097bf4a187d9d6b896692268440ab849f8e712fefe57909eae78da6e1af9"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_reliable_source.py__source_support.return.json.gz",
+    "bytes": 886,
+    "sha256": "c233c58665d4c0e3c59e81fd7bf220e49634d72b9e82b598dbf72e57c0b3d2a0"
+  }
+}
+actual_observed_calls：65
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+29. runtime/root_types.py:classify
+算法标识：runtime/root_types.py:classify
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "classify",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "module_sha256": "08c6179ee721681916e53cd583e14415e3e1cc4cfec0e73d0060afe8da4f05c2"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "原Primary ROOT类型",
+  "inputs": "合法stem/branch和已捕获原primitive",
+  "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+  "outputs": "type info",
+  "preconditions_and_limits": "caller已factsparse合法，primitive与ROOT代码源锁；不增加藏干、不判实际强弱。",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/root_types.py:classify",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396"
+}
+actual_current_IO：{
+  "id": "runtime/root_types.py:classify",
+  "first_line": 6,
+  "call_sequence": 197,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_root_types.py__classify.input.json.gz",
+    "bytes": 492,
+    "sha256": "8ce5d696582a2fd3d9dca962b0653387be22cf91e3db4d9e9b77568a2db34652"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_root_types.py__classify.return.json.gz",
+    "bytes": 252,
+    "sha256": "f83e4568c23bbde4caf7affe9f7b221c920355bf554c0ad82f56df36615d8638"
+  }
+}
+actual_observed_calls：84
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+30. runtime/winter_warm_math.py:coefficients
+算法标识：runtime/winter_warm_math.py:coefficients
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "coefficients",
+  "first_line": 5,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='g'), arg(arg='c'), arg(arg='eta'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "aa11195d63ed305a8039c2255be7478ce7434fa406ca7212e4330aa1433cdece",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "所有生克与暖木端口及发送保留费",
+  "inputs": "全原演员/静态份额、Fraction g∈[1/5,1/4],c∈[2/5,1/2],η∈[0,1/3]、可选具名诊断切边",
+  "operations": "全演员对，近位reach1远位1/2；生与克汇G/C；火→木热口仅品质信用；每口原保留费恰扣一次。切热/生土/制水只切实作不退费用",
+  "outputs_and_limits": "G/C/全边/热口/费率；热非生木新库存；位置、份额、费率均工程约定",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/winter_warm_math.py:coefficients",
+  "AST_sha256": "aa11195d63ed305a8039c2255be7478ce7434fa406ca7212e4330aa1433cdece"
+}
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:coefficients",
+  "first_line": 5,
+  "call_sequence": 517,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__coefficients.input.json.gz",
+    "bytes": 4603,
+    "sha256": "6d38f32ac745af6c8f2ed642165d4829f6d3d7f8959071dc047db32f2f0f8658"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__coefficients.return.json.gz",
+    "bytes": 1445,
+    "sha256": "3d9ab36ce2b17baa28cd3044430221b065ce9167d2cb018738bffbfce58e2949"
+  }
+}
+actual_observed_calls：1
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+31. runtime/winter_warm_math.py:contraction
+算法标识：runtime/winter_warm_math.py:contraction
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "contraction",
+  "first_line": 18,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='cf'), arg(arg='alpha'), arg(arg='kappa'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1de94e9b0201cc68b1d3a6eabd8e83e01df9a86401b47de0afed4a69adb94536",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "证明共同五池max方程全域唯一",
+  "inputs": "固定cf、α∈[0,1]、κ∈[0,3/8]、exact",
+  "operations": "含Rfire绝对斜率构非负B；先木权4/3其余1，若不够只求同B的正resolvent，不换参数或源；核加权范数<1",
+  "outputs_and_limits": "全域收缩证；非按选中活跃面局部拟合；α=1重合分支允许",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/winter_warm_math.py:contraction",
+  "AST_sha256": "1de94e9b0201cc68b1d3a6eabd8e83e01df9a86401b47de0afed4a69adb94536"
+}
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:contraction",
+  "first_line": 18,
+  "call_sequence": 520,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__contraction.input.json.gz",
+    "bytes": 1630,
+    "sha256": "794041f2819e09720c99d2390db7af1ad3bd49836bf4b9328f4f1a2bdc00a46b"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__contraction.return.json.gz",
+    "bytes": 464,
+    "sha256": "0d3948ff591b9144c00fcd829f92987f8b11f9055327c92c667758053103234c"
+  }
+}
+actual_observed_calls：29
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+32. runtime/winter_warm_math.py:activity
+算法标识：runtime/winter_warm_math.py:activity
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "activity",
+  "first_line": 28,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='alpha'), arg(arg='kappa'), arg(arg='exact'), arg(arg='proof')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "8a759a1922b79f4aece83f0594b36d64c35fc8311202dd2b221eb1522292cdb6",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "并行活动、末态与实际克耗同时求解",
+  "inputs": "全部原点直接D、cf、α/κ、可复用全域proof",
+  "operations": "32面逆序精确Gauss，代回全部max；gross=D+Gy，available=gross−fy，loss=min(available,Cy+κr火 at木)，r=available−loss，y=r+αloss",
+  "outputs_and_limits": "非负唯一state及容量/实损/费用；κ额外火存量供养假设非原文火克木；不添日干浮量",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/winter_warm_math.py:activity",
+  "AST_sha256": "8a759a1922b79f4aece83f0594b36d64c35fc8311202dd2b221eb1522292cdb6"
+}
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:activity",
+  "first_line": 28,
+  "call_sequence": 519,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__activity.input.json.gz",
+    "bytes": 1774,
+    "sha256": "42e788ea1a67c32d7bc27aa9f4888bc367e4ba03efae9667b0c4aa58bdcec889"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__activity.return.json.gz",
+    "bytes": 527,
+    "sha256": "d5968a862ec0ee360cd7aa03f875f24c664bb876770e5bb3a7163194ef3ea3c6"
+  }
+}
+actual_observed_calls：65
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+33. runtime/winter_warm_math.py:origins
+算法标识：runtime/winter_warm_math.py:origins
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "origins",
+  "first_line": 44,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2810e3945bb9795de87166ac804cf79892c85cacdd6c610ac262530ea7318fc8",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "逐个原点核一次活动与末态预算",
+  "inputs": "完整d/cf/state/exact",
+  "operations": "rho=y/gross，解(I−rhoG)P=rhoD；逐源gross、末态R、loss按各池比例；核gross=R+loss+fP及P=R+αloss；容量与按比例实现实损分列",
+  "outputs_and_limits": "全原点P/R/loss/gross与预算；共池追源是静态份额抽象，非每演员局部实物力",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/winter_warm_math.py:origins",
+  "AST_sha256": "2810e3945bb9795de87166ac804cf79892c85cacdd6c610ac262530ea7318fc8"
+}
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:origins",
+  "first_line": 44,
+  "call_sequence": 551,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__origins.input.json.gz",
+    "bytes": 2122,
+    "sha256": "0bddf25335888f830e5dd844a048ae235d3f68b0a3c94245ebb16c16eccb00b9"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__origins.return.json.gz",
+    "bytes": 2754,
+    "sha256": "1eba25424ce49c116aa584c211ee145cfb8fa89d5fecf54cf7cc0f5b11c8ed71"
+  }
+}
+actual_observed_calls：65
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+34. runtime/winter_warm_math.py:support_bounds
+算法标识：runtime/winter_warm_math.py:support_bounds
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "support_bounds",
+  "first_line": 56,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "05dc2593f2d7ab1c28eb71be33fb35a63b7e258650d2a2fb615c9e52547306dd",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "不凭净方案成败选择从向源的独立承载界",
+  "inputs": "同一d/cf/state/exact",
+  "operations": "正生成含全部热费U=(diag(1+f)−G)^−1 D；L=max0(D−fU−CU−κU火 at木)；逐池核0≤L≤r≤y≤U；gap=L水/2+L木/4−U金",
+  "outputs_and_limits": "充分不能承载gap；未立不是已证能承载；不沿用旧510除对角下界；可靠根印另行优先排除",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/winter_warm_math.py:support_bounds",
+  "AST_sha256": "05dc2593f2d7ab1c28eb71be33fb35a63b7e258650d2a2fb615c9e52547306dd"
+}
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:support_bounds",
+  "first_line": 56,
+  "call_sequence": 553,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__support_bounds.input.json.gz",
+    "bytes": 2129,
+    "sha256": "3b173ceff891707b283ec2020bd66a4f67e8cf1561c8e308bb7357bba0e2b36a"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__support_bounds.return.json.gz",
+    "bytes": 490,
+    "sha256": "9f3b5c04bf66405886e2d45f9516ae5970706d53af5bd29904b7c468a7ed41c3"
+  }
+}
+actual_observed_calls：65
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+35. runtime/winter_warm_math.py:graph
+算法标识：runtime/winter_warm_math.py:graph
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "graph",
+  "first_line": 61,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='po')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ed19eba0600798e7a8f732a30f8e15bab46066de7eea53ebd39f95cb8b2988f1",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：exact529_AST_and_contract_reuse
+contract：{
+  "purpose": "完整演员边与热源×原木根信用可展开图",
+  "inputs": "base/cf/state/po",
+  "operations": "每生克边实发送、末态接收、控制实损；逐口保留费；热=η×活动火×原木末态/gross木；原木根依四柱顺序；逐池核生克热费用与实际控制损失",
+  "outputs_and_limits": "全标量+完整池原点+无损展开公式；热不增木或根；实际暖温和预测尚未实证",
+  "current554_boundary": "外来元素工程干预与原生四柱/原根/真实时运身份分开；旧同图数学与原根可靠源合同复用，不外推全局传统终喜或实证现实温度。旧winter_warm_math.coefficients只供无外来actor原基线；新几何用external_coefficients。"
+}
+exact_reuse：{
+  "document": "rev529_winter_warm_actual_effect/algorithm_explanations_all33.json",
+  "document_sha256": "d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185",
+  "old_id": "runtime/winter_warm_math.py:graph",
+  "AST_sha256": "ed19eba0600798e7a8f732a30f8e15bab46066de7eea53ebd39f95cb8b2988f1"
+}
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:graph",
+  "first_line": 61,
+  "call_sequence": 555,
+  "sample_scope": "one complete current public API: new heldout Xin nofire root/print bearing chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__graph.input.json.gz",
+    "bytes": 8861,
+    "sha256": "d22ae5237bfc3912f2fe89e39d2f16cd60bf0c555623ff36cf82d403c1a36a98"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__graph.return.json.gz",
+    "bytes": 2851,
+    "sha256": "5e08a95cc6f1959bcde73a09234a332380308fbadc37585ab79a931ccda3ff38"
+  }
+}
+actual_observed_calls：65
+additional_nonvacuous_real_IO：[]
+not_one_classical_rule_per_function：true
+
+原件：work/rev567_external_fire_effective_rule_cards.json
+SHA256：764e5214531a0be78d5997a78b89dbabb4ce15d875c689a03157f2c74ed4ae38
+
+1. EF01-original-source-vs-engineered-entry
+算法标识：EF01-original-source-vs-engineered-entry
+source：任铁樵评《滴天髓阐微》1947影印PDF367/印91，金日木财冬段土培火暖；source/Ren367.png。同本PDF256/257印224/225《寒暖》原注/任注分列，任注寒虽甚要暖有气，过寒暖无气另论。source/Ren256.png/Ren257.png。
+source_layers：{
+  "commentary": "冬水多木泛的火暖方向；有气不等有根必要",
+  "engineering": "金日冬月/原无火演员/原木根/coldcue/可靠支持与外来算子"
+}
+method_mouth：从意向/冬木财品质；非格局扶抑调候统一解
+conditions：[
+  "结构自洽金日、亥子丑月，原所有明藏实际无火actor",
+  "按各固定ακ原基线计算原木根与coldcue；源条件不由新净阳性倒推"
+]
+exclusions_and_failure：[
+  "合法别源、非法原柱、原已有火分别反馈",
+  "原cue不立或原木根末态0不填未知也不推火忌；本题不是所有寒金或全传统喜火"
+]
+change_conditions：[
+  "原柱/原根/原份额变化需要重算",
+  "不因某几何阳性改用另一源"
+]
+conflict_resolution：原质量问题与from源资格分开，普通支持存在仍照算品质
+rule_and_algorithm：core.evaluate→alloriginal_baselines→source_support+metrics，所有formal事实R0照存，不新增转化/冲去
+verification：{
+  "positive": "五人工合法原无火盘，含独立留出辛日",
+  "negative": "原有丙火合法盘返回已有火范围反馈，非法/别源分别测",
+  "boundary": "木较强候选独立算后仍cold真如实保，不伪造阴性",
+  "case_origin": "全部人工结构组合，非新造古籍完整命例或已验证现实出生"
+}
+current_status：本具名有限原无火外来源算子已由567经566非作者复核采用；真实火柱/当前根与原C03继续。
+historical_author_status：源已实看；具名工程入口已实现验证；不全局定论
+root_reading_precision：原文分别说暖有气、寒有根。它没有给出本工程外来λ或无火根参与的通用古法判据；不把模型功能正改说成古法有气已认证。
+
+2. EF02-explicit-external-identity
+算法标识：EF02-explicit-external-identity
+source：任铁樵评《滴天髓阐微》1947影印PDF367/印91，金日木财冬段土培火暖；source/Ren367.png。
+source_layers：{
+  "engineering": "无原柱位外来元素actor与独立量标签",
+  "not_claimed": "非原天干、非藏干、非出生根、非真实丙丁巳午时运"
+}
+method_mouth：具名外来元素干预
+conditions：[
+  "原无任何火actor后才能增加唯一external:fire；新来源external-input:fire，正量1/2,1,2全报",
+  "无原火根/float，原所有演员/根资格/根原点/份额不改，新增火份额1"
+]
+exclusions_and_failure：[
+  "不把λ>0说成古法有气已证",
+  "原有火不插入第二火演员；真实时运柱身份/合冲/新支根未因本元素量完成"
+]
+change_conditions：[
+  "输入原生演员/原根改变另算；正量改变全部current和source",
+  "λ0仅专门开放通路诊断"
+]
+conflict_resolution：外来身份显式，原Root0不得虚补；原身体和印比不能删
+rule_and_algorithm：external_inventory(original,Famount) deepcopy→加外actor/source；保原/当前inventory
+verification：{
+  "positive": "336条件所有原根和原份额不变逐核",
+  "negative": "已有火不进本source；外来输入不生成任一出生ROOT",
+  "boundary": "10 λ0开放通路：外来源活动/暖信用精确0，仍保actor可受原木生与新增费用"
+}
+current_status：本具名有限原无火外来源算子已由567经566非作者复核采用；真实火柱/当前根与原C03继续。
+historical_author_status：工程约定可复现候选，非真实时运排柱
+
+3. EF03-full-geometry-and-cost
+算法标识：EF03-full-geometry-and-cost
+source：任铁樵评《滴天髓阐微》1947影印PDF367/印91，金日木财冬段土培火暖；source/Ren367.png。
+source_layers：{
+  "engineering": "双向外来reach1/2或1、g1/4/c1/2/η1/4；原位置规则不改"
+}
+method_mouth：完整同图作用
+conditions：[
+  "两外来几何全部报告；原间相邻1/远位1/2",
+  "全木→火、水→火克、火→土、火→金克、火暖原木和全部其他原正负同时"
+]
+exclusions_and_failure：[
+  "不得只加暖边省略生日/受克/发送费用",
+  "同费cut保额定预留，eta0改费不能冒同费关暖"
+]
+change_conditions：[
+  "几何/量/ακ变均重算；九组参数不按成功选择"
+]
+conflict_resolution：新增端口正负与费用并存，未实现容量不能退款
+rule_and_algorithm：G/C/热口按源/目标份额×reach；每口保留费一次；κ木供火末态独立
+verification：{
+  "positive": "17677生克边351569边来源、18550费369029源费分量核",
+  "negative": "关热/火生土/火克金/水克火八同费诊断",
+  "boundary": "一η0另费、α0/1两端点，阴性保"
+}
+current_status：本具名有限原无火外来源算子已由567经566非作者复核采用；真实火柱/当前根与原C03继续。
+historical_author_status：明确工程几何/费率，未实证现实力
+
+4. EF04-concurrent-r-y-budgets
+算法标识：EF04-concurrent-r-y-budgets
+source：529经553/563采用的同图activity/net/loss与完整预算；本source/冻结529手册与reference/exact563_prior529_adoption.json
+source_layers：{
+  "engineering": "旧精确数学与U/L/可靠源函数AST逐项复用；新外actor改变对应矩阵"
+}
+method_mouth：全五池精确计算
+conditions：[
+  "b=D+Gy，负荷Cy+κr火 at木，r=max0(b−fy−负荷)，y=r+αloss",
+  "32面精确求解/全域收缩、逐源一次预算，日0初量仍实体"
+]
+exclusions_and_failure：[
+  "不加日float，不把外火新名当第五根",
+  "股权共池投影不是每演员局部实物力；κ非古文火克木"
+]
+change_conditions：[
+  "每输入量/current反馈变重解；普通生日/金根变化改源门"
+]
+conflict_resolution：容量、actual loss、reservedfee分开；正生成U和负荷L含热费与κU火
+rule_and_algorithm：旧math.activity/origins/support_bounds/graph，nativecoeff旧精确，externalcoeff新明确
+verification：{
+  "positive": "336完整先验先于producer；133500池原点，155028演员活动/末态原点分量",
+  "negative": "0原点额外字段逐个核0，不填缺值",
+  "regression": "9必要旧无火基线+36新raw基线；未重3798；仅scope pack修复不改世界AST"
+}
+current_status：本具名有限原无火外来源算子已由567经566非作者复核采用；真实火柱/当前根与原C03继续。
+historical_author_status：数学/实现核对通过，不代表现实预测
+
+5. EF05-source-split-warming
+算法标识：EF05-source-split-warming
+source：任铁樵评《滴天髓阐微》1947影印PDF367/印91，金日木财冬段土培火暖；source/Ren367.png。同本PDF256/257印224/225《寒暖》原注/任注分列，任注寒虽甚要暖有气，过寒暖无气另论。source/Ren256.png/Ren257.png。
+source_layers：{
+  "engineering": "qP火[o]R原木[p]/gross木品质信用",
+  "commentary_boundary": "有气不由正量单字认证"
+}
+method_mouth：暖木过程与来源
+conditions：[
+  "原木根末态正，逐热口/逐火原点/逐原木根信用合等H",
+  "外来源P火>0且该源暖信用>0才证明这项工程输入参与此功能"
+]
+exclusions_and_failure：[
+  "总火或总暖正不能全部归外来量；原木燃料经外actor作用单列",
+  "不新添木量/木根，不测温、不把暖工作当现实热能"
+]
+change_conditions：[
+  "新λ/几何/反馈改各源份额；λ0外来源0但原源仍可能经开放通路参与"
+]
+conflict_resolution：全H=外来来源H+全部原来源H，输入有量但无实际参与要分开
+rule_and_algorithm：metrics.warm_by_original_source + graph完整无损联合展开；核34920源×原木根信用
+verification：{
+  "positive": "原缺火主盘两几何三λ名义全部外来源正且净过",
+  "negative": "λ0源作用0拒作正输入方案；同费关热H0",
+  "variation": "原金/土根回强后仍暖，但源资格另变",
+  "actual_IO": "first35 paired加4正外来/λ0真实IO，0新解"
+}
+current_status：本具名有限原无火外来源算子已由567经566非作者复核采用；真实火柱/当前根与原C03继续。
+historical_author_status：具名工程品质功能已算，不冒古法有气充分定理
+
+6. EF06-original-support-before-from
+算法标识：EF06-original-support-before-from
+source：Primary《子平真诠》影印PDF95/印86若透印身赖印生；任氏从意向；529/281/522量效见证；source中Primary原图/定位
+source_layers：{
+  "original": "可靠原印可有独立意义，不能因从标签删生日",
+  "engineering": "半根信用、5/4、金池负荷、同actor/root直生日留存为具名旧门"
+}
+method_mouth：普通印比/从向竞争
+conditions：[
+  "原重根ret/q≥1/2、原轻根承载、金池>5/4负荷、同土actor/root实际直生金留存任一先veto",
+  "旧U/L gap>0只证不能承载，不否定可靠源；原新都重算"
+]
+exclusions_and_failure：[
+  "不以外来火暖正倒推from真",
+  "不由日share0直生日0判全金无支持；不拼不同actor根路径"
+]
+change_conditions：[
+  "外来火生土生日、火克金或水/木量变化能改变当前veto/carry",
+  "原/当前source分类不同须保原触发条件"
+]
+conflict_resolution：可靠支持优先，ordinary质量修复与from净分别输出
+rule_and_algorithm：source_support旧AST完整复用→metrics.dep；ordinary_support_present_quality_repair不等最终普通格喜用主次
+verification：{
+  "positive": "原主盘名义两几何三量品质/from净",
+  "negative": "土金根回强两盘及辛留出等只品质净/from否",
+  "boundary": "重金根盘firmroot与土印都保，不删负证",
+  "verification": "1105原印候选同根路径完整核"
+}
+current_status：本具名有限原无火外来源算子已由567经566非作者复核采用；真实火柱/当前根与原C03继续。
+historical_author_status：精确旧具名源门复用，非普遍真从分类
+
+7. EF07-fixed-quality-net
+算法标识：EF07-fixed-quality-net
+source：任铁樵评《滴天髓阐微》1947影印PDF367/印91，金日木财冬段土培火暖；source/Ren367.png。
+source_layers：{
+  "commentary": "水多木泛、土培/火暖方向",
+  "engineering": "三目标偏序+正外来源实际参与，非全局辅助排序"
+}
+method_mouth：有限完整净修复
+conditions：[
+  "基线cold；新原木和H正；水压比不升/H不降/土实制水不降且一严格；外源实际功能正",
+  "from净另原新dep；ordinary支持存在品质过单列"
+]
+exclusions_and_failure：[
+  "无每条路径全改善/纯火必过临时门",
+  "全部两几何九ακ三λ如实报；不能将OR混共同必要或同权"
+]
+change_conditions：[
+  "同一目标在不同剂量/根反馈下变化；不假越多越好"
+]
+conflict_resolution：净阴性是该具名目标下已算结果，证不足另列；不当传统永久火忌
+rule_and_algorithm：compare(current,baseline,amount)，analyze全部65 world；原与当前证据保
+verification：{
+  "positive": "289完整净比较独立核；两新公开盘65world全文与已正确336逐对象匹配",
+  "negative": "8因果切边/10 λ0/ordinary-from分流",
+  "regression": "保存130完整public世界对direct正确证据，0新解"
+}
+current_status：本具名有限原无火外来源算子已由567经566非作者复核采用；真实火柱/当前根与原C03继续。
+historical_author_status：原预定有限净问题已贯通，非全盘终喜/现实验证
+
+8. EF08-zero-presence-and-causal-diagnostics
+算法标识：EF08-zero-presence-and-causal-diagnostics
+source：01事前零量定义；529同费诊断预算；无古籍数值公式
+source_layers：{
+  "engineering": "无actor基线 vsactor在但外量0；同费cut vsη0费用变化"
+}
+method_mouth：反事实解释
+conditions：[
+  "λ0公开非正干预，只作专门诊断；无干预原图无actor精确旧基线",
+  "cut不退费且保持所有原与外actor"
+]
+exclusions_and_failure：[
+  "不得用λ0物理受生当外来源信用正",
+  "不得把缺演员直接填一个0数当原任务完结"
+]
+change_conditions：[
+  "开放端口改变原木出口和成本，即便新直接输入为0",
+  "有实际火柱介入将改变源/根/合冲另需原C03"
+]
+conflict_resolution：诊断功能因果与正干预取用不同，全部明示
+rule_and_algorithm：十0量开放通路+八同费切边+η0另费与α0/1各完整重算
+verification：{
+  "positive": "0源每origin均0闭环唯一性证，原根仍可经新火actor活动",
+  "negative": "正外量功能门λ0false；关暖仍可火生土",
+  "boundary": "热无库存原木不造新根，介入不称真实岁运"
+}
+current_status：本具名有限原无火外来源算子已由567经566非作者复核采用；真实火柱/当前根与原C03继续。
+historical_author_status：已实现验证，真实流时柱任务仍保
+
+9. EF09-version-source-and-delivery
+算法标识：EF09-version-source-and-delivery
+source：用户原验收标准；01事前稿；current.py/source_execution_lock/变更记录
+source_layers：{
+  "engineering": "精确版本/23材料/7provider/6ModuleType上下文分别绑定"
+}
+method_mouth：可复现研究交付
+conditions：[
+  "同版本/输入/材料全文一致，guard先于任何provider",
+  "原已有火/非法/别源反馈与计算后净不变/不充分分开"
+]
+exclusions_and_failure：[
+  "不自采用、不提分、不B/显示",
+  "原真实柱身份/合冲未由元素干预顶替，不宣全部C03或100%"
+]
+change_conditions：[
+  "0.1.1只修原已火早退Fraction pack，保原0.1.0正确336与静态发现时点",
+  "真实新规则/材料必须新版本/锁和来源记录"
+]
+conflict_resolution：来源准确、软件行为、现实预测三轴分列
+rule_and_algorithm：严格JSON/固定guard→7模块→完整方法，全部35函数解释和真IO；一次完整小只读核
+verification：{
+  "positive": "4整包跨实际hashseed输出相同；130保存wholeworld regression",
+  "negative": "真实sourcebyte坏0provider、正常7、旧读/扫/执行和包写负控",
+  "history": "原已火早退pack静态缺陷在首次公开入口前修，首版/锁保，首数值336无败"
+}
+current_status：本具名有限原无火外来源算子已由567经566非作者复核采用；真实火柱/当前根与原C03继续。
+historical_author_status：待非作者审/根采用；无自计完成率
+

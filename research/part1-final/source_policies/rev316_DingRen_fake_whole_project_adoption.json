@@ -1,0 +1,188 @@
+{
+  "schema": "project-limited-source-whole-model-adoption-0.1",
+  "revision": 316,
+  "registered_utc": "2026-11-02T17:04:33.998358+00:00",
+  "status": "adopted_exact315_limited_Ren388_declared_full_function_engineering_model",
+  "method_version": "DR-REN388-FULL-FUNCTION-0.1",
+  "implementation_revision": "315-selected-year-current-pool-trace-0.1",
+  "candidate": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev315_ding_ren_fake_trace_repair",
+    "files": 213,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev315_ding_ren_fake_trace_repair/manifest.json",
+      "bytes": 37086,
+      "sha256": "cb2fe8fe362373be684f58ca6f7fa48a7f89d5eccb3d696349cf9e82ceb7cdc5"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev315_ding_ren_fake_trace_repair/freeze.json",
+      "bytes": 1420,
+      "sha256": "ff7f6bd66c306a240f19c25563233b198361f8d551aae30d23d45f741fb84c8f"
+    },
+    "all_files_SHA_and_bytes_actually_checked": true
+  },
+  "precise_pins": {
+    "extension_model.py": {
+      "path": "work/rev315_ding_ren_fake_trace_repair/extension_model.py",
+      "bytes": 20250,
+      "sha256": "a76853817fc6bb1dc1c458083d257d713ca427eaf1bde3405ceb91073a10ad91"
+    },
+    "transform_math.py": {
+      "path": "work/rev315_ding_ren_fake_trace_repair/transform_math.py",
+      "bytes": 10773,
+      "sha256": "2c036851d5557bd9a7996e87144446935b5634d47aa6577d36d99e877c8e1bf4"
+    },
+    "execution_source_lock.json": {
+      "path": "work/rev315_ding_ren_fake_trace_repair/execution_source_lock.json",
+      "bytes": 18830,
+      "sha256": "27c19310825a48490bdebc339f7e0c291160ed44d2ed307980c7dd9271c342fa"
+    },
+    "author_report315.json": {
+      "path": "work/rev315_ding_ren_fake_trace_repair/author_report315.json",
+      "bytes": 2115,
+      "sha256": "5f9799fa5acd47e09c88212da81b9bf6a0320ab5f6b2094ae738b0bb37de0c62"
+    },
+    "manifest.json": {
+      "path": "work/rev315_ding_ren_fake_trace_repair/manifest.json",
+      "bytes": 37086,
+      "sha256": "cb2fe8fe362373be684f58ca6f7fa48a7f89d5eccb3d696349cf9e82ceb7cdc5"
+    },
+    "freeze.json": {
+      "path": "work/rev315_ding_ren_fake_trace_repair/freeze.json",
+      "bytes": 1420,
+      "sha256": "ff7f6bd66c306a240f19c25563233b198361f8d551aae30d23d45f741fb84c8f"
+    },
+    "source_research/reference_receipt315.json": {
+      "path": "work/rev315_ding_ren_fake_trace_repair/source_research/reference_receipt315.json",
+      "bytes": 3636,
+      "sha256": "a34b99982b9daff4b7b038a2efe6ad06ab2b057bf8a7161e5f37ad3ae9e93039"
+    },
+    "verify_artifacts.py": {
+      "path": "work/rev315_ding_ren_fake_trace_repair/verify_artifacts.py",
+      "bytes": 5503,
+      "sha256": "0ae4a26d0e15d9a0e725d2fc379d2f70bdb4db600fd5d85086312a105c2606d4"
+    }
+  },
+  "independent_source_math_review": {
+    "report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev312_ding_ren_fake_independent_review/independent_report.json",
+      "bytes": 10169,
+      "sha256": "24487fc415235da7bd87513b91912e1a007721e91dd525dea2a6295d3281fe1c"
+    },
+    "package": {
+      "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev312_ding_ren_fake_independent_review",
+      "files": 116,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev312_ding_ren_fake_independent_review/manifest.json",
+        "bytes": 19913,
+        "sha256": "01126e8f10ee4dec96db5acfe7f051e1ed7fda0b0930109689a1e4b71062f567"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev312_ding_ren_fake_independent_review/freeze.json",
+        "bytes": 515,
+        "sha256": "af6135e06a2a9c9b2222d7533cac8c5d869ebd0eec6f3b695f9754476bb2bac1"
+      },
+      "all_files_SHA_and_bytes_actually_checked": true
+    },
+    "disposition": "source/math/heldout/private/allH/strict/guard/dynamicIO passed within declared bounds, but old193 trace rejected; only unchanged portions reusable"
+  },
+  "independent_post315_repair_review": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev320_post315_independent_review",
+    "files": 38,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev320_post315_independent_review/manifest.json",
+      "bytes": 6224,
+      "sha256": "0c48d916b12f87f9129a7444820de1e6e560956d255f5e572e6d61e72cddc01a"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev320_post315_independent_review/freeze.json",
+      "bytes": 253,
+      "sha256": "626953a6c587cfedf1ca0b693c550121396cc51ec1eb93251231d71da3fe5c74"
+    },
+    "all_files_SHA_and_bytes_actually_checked": true
+  },
+  "root_source_opinion": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev320_post315_independent_review/root_source_and_proxy_opinion.json",
+    "bytes": 2098,
+    "sha256": "671c3ee28d9a1498772ccc53d5d6f8471084c5e37587e62617a41f7448435850"
+  },
+  "old193_kept_under_hold": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev318_original305_trace_semantics_hold.json",
+    "bytes": 3321,
+    "sha256": "f7343ee62d21089dfaaf275b3303b96fc4ed0f044539fad569e5cca95235617a"
+  },
+  "source_originals_unchanged": {
+    "component": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev305_ding_ren_true_false_transform",
+    "files": 193,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev305_ding_ren_true_false_transform/manifest.json",
+      "bytes": 33612,
+      "sha256": "5f4b836f86b02f0936f702d281cdbbf3fc81d250346cc0c1ffa6954715b1a9b2"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev305_ding_ren_true_false_transform/freeze.json",
+      "bytes": 1334,
+      "sha256": "ddecfffaea115bab800d182b8ccc566356ec6ea845ad39f3a7630000a15b1c10"
+    },
+    "all_files_SHA_and_bytes_actually_checked": true
+  },
+  "supported_source_scope": {
+    "primary_case": "Ren1947 PDF388 甲辰 丁卯 壬辰 辛亥 effective fake-transformation mechanism",
+    "raw_footprints": "year甲辰or甲午; month丁卯; day壬辰or壬寅; hour辛亥, with all native/source guards before math",
+    "school": "explicit Ren388 comparison profile, not silently merged Primary/Sanming or dayDing",
+    "question": "Jia wood origin, Ding controlling floatingXin, shared-person carrying and all selected positive functions with all retained negative functions, rootrestoration family; not all classical true/fake types",
+    "source_before_success": true
+  },
+  "authorized_engineering_inference": {
+    "chemical_functional_port": "day2 wood functional port; original waterday roots/roles retained separately; no inventedvisiblewoodday credit",
+    "common_rho": "explicit person-task shared burden proxy, not actor-local injury law or conservation; local-sensitivity counterexample retained",
+    "uncertain_old_roots": "theta in[0,1] declaredlinearrestorationfamily; allfamily proof, not every conceivable response",
+    "quantitative_scales": "fixed inherited statedengineeringgains andstrictcarry; not numbers in classical text",
+    "hidden_Yi": "full stock; one hiddenhalf per relevant outgoing edge; positivefunction need not be necessaryH",
+    "year_support_trace": "selectedcurrent witness with physicaldistance2, no reachattenuation under specific sharedtask admission; prequalification not fedcurrent recursively"
+  },
+  "verification": {
+    "independent312_heldout_raws": 2,
+    "independent312_preexpected_fullorigin_points": 80,
+    "independent312_private_boundaries": 10,
+    "independent312_exactirrational": 1,
+    "independent312_allH_truth_tables": 256,
+    "independent312_truth_checks": 2048,
+    "independent312_fresh_dynamic_IO_AST_functions": 28,
+    "post315_root_full_native_API_CLI_cases": 4,
+    "post315_native_fullstates": 96,
+    "post315_native_signededges": 1440,
+    "post315_private_existing_independent_manual_states": 80,
+    "post315_private_signededges": 1200,
+    "post315_unchanged_AST_functions": 26,
+    "post315_changed_functions_fresh_actual_IO": 2,
+    "post315_coherently_resealed_badsource_zeroexec": 4,
+    "post315_clean_control": 1,
+    "post315_entire213_move_newheldout_API_CLI_pairs": 2,
+    "post315_originalroot_read_or_copywrite_attempts": 0,
+    "proof": "fullphase contraction andtheta monotonicity reused only after exactequationAST checks; witness counts not fullparameter proof",
+    "no_claim_unaffected_tests_reran": "312 strict9/bad6 andauthor315strict12/guard4 separately labelled; root did not call all those again",
+    "first_failures_retained": [
+      "305 firstpaper/guard/manifestpreparation history",
+      "312 old193 trace failure and original reviewer preexpectation writer error",
+      "320 empty-zero-vector-key reviewer assertion error; independent full-output preexpectation unchanged"
+    ]
+  },
+  "result_semantics": "Full finite mechanism results and all minimal robust AND/OR positive-function supports; no unproved relative priority, no source quote supplies exact minimalH",
+  "remaining_original_scope": [
+    "313 true化 primary andRen378 full conflicts/earth paths",
+    "otherfalseclasses, dayDing, othertransformations, competingstems/strongmetalwater",
+    "general whole natal finalselection andagreedtime/region/finaldelivery"
+  ],
+  "default_original_B_changed": false,
+  "B": null,
+  "theme": null,
+  "display_integration": "deferred_by_latest_user",
+  "weights_changed": false,
+  "root_HAP_ROOT_defaults_changed": false,
+  "Wang269_hold_unchanged": true,
+  "real_prediction_validation": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00",
+  "denominator_unchanged": true,
+  "original_task_complete": false
+}

@@ -1,0 +1,1616 @@
+任注寒湿金丙辛局内合水有限任务
+rev430_BingXin_cold_metal_whole
+所属原模块：C02
+当前采用：rev444_coldmetal_composite_project_adoption.json
+范围：精确430运行80与441更正7卡组合；庚日旁干合水不冒丙辛日主化格，存火与有暖根分开。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev430_BingXin_cold_metal_whole/算法说明_42逐函数对应.json
+SHA256：3f7b41a0567af647cbd0d7b22b7904af6c7a7c278b646565d9a02ce899033d9e
+
+1. cold.py:canonical
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "cold.py:canonical"
+  }
+]
+算法解释：{
+  "inputs": "JSON兼容值",
+  "operations": "排序键、紧凑、非ASCII原样、allow_nan=False",
+  "outputs": "str或类型/非有限异常",
+  "preconditions_and_limits": "不做UTF8编码，不认证内容。",
+  "purpose": "稳定JSON文字"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "qi.py:canonical"
+}
+explanation：稳定JSON文字 JSON兼容值 排序键、紧凑、非ASCII原样、allow_nan=False str或类型/非有限异常 不做UTF8编码，不认证内容。
+算法标识：cold.py:canonical
+source_identity：{
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "first_line": 9,
+  "module_sha256": "4271ad02b9e1ceacef7befa4ccdaf591155a1a541531822abac6923db0f4fcc1",
+  "qualified_name": "canonical",
+  "relative_path": "cold.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+2. cold.py:strict_load
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "cold.py:strict_load"
+  }
+]
+算法解释：{
+  "inputs": "str最多5000字符",
+  "operations": "json.loads，重复键callback和非有限callback拒绝",
+  "outputs": "解析值或异常",
+  "preconditions_and_limits": "Unicode代理由scalar_tree而非本解析器拒绝；CLI先严格UTF8。",
+  "purpose": "有限JSON解析"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "qi.py:strict_load"
+}
+explanation：有限JSON解析 str最多5000字符 json.loads，重复键callback和非有限callback拒绝 解析值或异常 Unicode代理由scalar_tree而非本解析器拒绝；CLI先严格UTF8。
+算法标识：cold.py:strict_load
+source_identity：{
+  "AST_sha256": "8d5a868d238377e001b05cab6fe086573bebe7758cd8d3c0c71239924d02f80e",
+  "first_line": 12,
+  "module_sha256": "4271ad02b9e1ceacef7befa4ccdaf591155a1a541531822abac6923db0f4fcc1",
+  "qualified_name": "strict_load",
+  "relative_path": "cold.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+3. cold.py:strict_load.<locals>.pairs
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "cold.py:strict_load.<locals>.pairs"
+  }
+]
+算法解释：{
+  "inputs": "解析器键值对",
+  "operations": "逐键已存在即ValueError，否则保原值",
+  "outputs": "dict或ValueError",
+  "preconditions_and_limits": "不做source/schema/四柱判断。",
+  "purpose": "逐对象拒重复键"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "qi.py:strict_load.<locals>.pairs"
+}
+explanation：逐对象拒重复键 解析器键值对 逐键已存在即ValueError，否则保原值 dict或ValueError 不做source/schema/四柱判断。
+算法标识：cold.py:strict_load.<locals>.pairs
+source_identity：{
+  "AST_sha256": "9821bdaa719a02380897afdb888e878803c58c11b2f29d7b41bd5e490f356f81",
+  "first_line": 14,
+  "module_sha256": "4271ad02b9e1ceacef7befa4ccdaf591155a1a541531822abac6923db0f4fcc1",
+  "qualified_name": "strict_load.<locals>.pairs",
+  "relative_path": "cold.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+4. cold.py:strict_load.<locals>.constant
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "cold.py:strict_load.<locals>.constant"
+  }
+]
+算法解释：{
+  "inputs": "非有限JSON token",
+  "operations": "恒抛ValueError",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "trace return-event None和异常事件一起保存，不假报正常None。",
+  "purpose": "拒NaN/Infinity"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "qi.py:strict_load.<locals>.constant"
+}
+explanation：拒NaN/Infinity 非有限JSON token 恒抛ValueError 无正常返回 trace return-event None和异常事件一起保存，不假报正常None。
+算法标识：cold.py:strict_load.<locals>.constant
+source_identity：{
+  "AST_sha256": "d6404d7b01f302ae0a93185cd23daf9d6e241a6fa548716b3bc3f7e57c850e3b",
+  "first_line": 20,
+  "module_sha256": "4271ad02b9e1ceacef7befa4ccdaf591155a1a541531822abac6923db0f4fcc1",
+  "qualified_name": "strict_load.<locals>.constant",
+  "relative_path": "cold.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+5. cold.py:scalar_tree
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "cold.py:scalar_tree"
+  }
+]
+算法解释：{
+  "inputs": "request/depth",
+  "operations": "深度<=20、字串<=5000且无代理、dict/list<=20、键str、只JSON类型、float有限",
+  "outputs": "None或ValueError",
+  "preconditions_and_limits": "guard在先；不负责四柱干支源含义。",
+  "purpose": "有限API树和Unicode检查"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "qi.py:scalar_tree"
+}
+explanation：有限API树和Unicode检查 request/depth 深度<=20、字串<=5000且无代理、dict/list<=20、键str、只JSON类型、float有限 None或ValueError guard在先；不负责四柱干支源含义。
+算法标识：cold.py:scalar_tree
+source_identity：{
+  "AST_sha256": "42eab752ffe8da79bdda67913092a56dbc647d85f8a868d346adc3e6d366c453",
+  "first_line": 23,
+  "module_sha256": "4271ad02b9e1ceacef7befa4ccdaf591155a1a541531822abac6923db0f4fcc1",
+  "qualified_name": "scalar_tree",
+  "relative_path": "cold.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='depth')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=0)])"
+}
+unused_note：null
+
+6. cold.py:guard
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "cold.py:guard"
+  }
+]
+算法解释：{
+  "inputs": "包内固定source_execution_lock字节和LOCK_SHA430常量；不收用户ready/theta",
+  "operations": "核lock长度摘要常量；核source/runtime精确文件集、非符号链接且解析在包内；核lock每项bytes/SHA后保留其已核bytes",
+  "outputs": "已核material字典；缺失/增加/改变/外链/lock变更抛ValueError或文件OSError",
+  "preconditions_and_limits": "共38项登记；当前42坏源测试均在provider load/exec前拒绝。字节锁不认证古籍文义、版本真伪或现实作用。",
+  "purpose": "全部固定源及provider执行前绑定"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：全部固定源及provider执行前绑定 包内固定source_execution_lock字节和LOCK_SHA430常量；不收用户ready/theta 核lock长度摘要常量；核source/runtime精确文件集、非符号链接且解析在包内；核lock每项bytes/SHA后保留其已核bytes 已核material字典；缺失/增加/改变/外链/lock变更抛ValueError或文件OSError 共38项登记；当前42坏源测试均在provider load/exec前拒绝。字节锁不认证古籍文义、版本真伪或现实作用。
+算法标识：cold.py:guard
+source_identity：{
+  "AST_sha256": "415ceaeeb8f0d5aeb2b0a869a7e18717c635bdbb9b809154aec95950ba312ceb",
+  "first_line": 38,
+  "module_sha256": "4271ad02b9e1ceacef7befa4ccdaf591155a1a541531822abac6923db0f4fcc1",
+  "qualified_name": "guard",
+  "relative_path": "cold.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+7. cold.py:load
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "cold.py:load"
+  }
+]
+算法解释：{
+  "inputs": "模块名、相对路径、guard所返material；均内部固定",
+  "operations": "新建ModuleType，设包内__file__用于位置，compile/exec material[relative]；不重新从盘读provider源码",
+  "outputs": "加载的module；缺key/编译执行异常可传播",
+  "preconditions_and_limits": "本函数不自行核源；必须此前guard成功。文件名是定位元数据，不构成外包读取。",
+  "purpose": "只执行已核内存provider"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：只执行已核内存provider 模块名、相对路径、guard所返material；均内部固定 新建ModuleType，设包内__file__用于位置，compile/exec material[relative]；不重新从盘读provider源码 加载的module；缺key/编译执行异常可传播 本函数不自行核源；必须此前guard成功。文件名是定位元数据，不构成外包读取。
+算法标识：cold.py:load
+source_identity：{
+  "AST_sha256": "d61093fd287b26ace765f3b7944e45b9a3d6f02d7eeccbc8f3b4beedd82ecaaf",
+  "first_line": 53,
+  "module_sha256": "4271ad02b9e1ceacef7befa4ccdaf591155a1a541531822abac6923db0f4fcc1",
+  "qualified_name": "load",
+  "relative_path": "cold.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+8. cold.py:evaluate
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "cold.py:evaluate"
+  }
+]
+算法解释：{
+  "inputs": "JSON值request；公开对象由core限定raw_pillars/method",
+  "operations": "先guard再scalar_tree；从已核material加载exact/core/facts/AUX；取已核先验；core.evaluate后exact.pack有理数",
+  "outputs": "可JSON序列化整份结果；外层严格/schema异常抛出，原生结构非法/缺项/合法源外按原协议正常返回",
+  "preconditions_and_limits": "guard执行先于provider；raw合格不等source合格。来源/数值/现实验证分别记录，无B/显示推导。",
+  "purpose": "严格公开API总入口"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：严格公开API总入口 JSON值request；公开对象由core限定raw_pillars/method 先guard再scalar_tree；从已核material加载exact/core/facts/AUX；取已核先验；core.evaluate后exact.pack有理数 可JSON序列化整份结果；外层严格/schema异常抛出，原生结构非法/缺项/合法源外按原协议正常返回 guard执行先于provider；raw合格不等source合格。来源/数值/现实验证分别记录，无B/显示推导。
+算法标识：cold.py:evaluate
+source_identity：{
+  "AST_sha256": "4c27b76d64ff80ce37935ad97067cae154bfd3fe0ec2d792d2045472a236c90f",
+  "first_line": 58,
+  "module_sha256": "4271ad02b9e1ceacef7befa4ccdaf591155a1a541531822abac6923db0f4fcc1",
+  "qualified_name": "evaluate",
+  "relative_path": "cold.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+9. cold.py:main
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "cold.py:main"
+  }
+]
+算法解释：{
+  "inputs": "stdin最多20001bytes",
+  "operations": "20000字节界、严格UTF8/JSON、evaluate后一次canonical行；列明异常转单行rejected",
+  "outputs": "正常exit0；拒绝exit2无部分判断",
+  "preconditions_and_limits": "捕ValueError/TypeError/KeyError/RecursionError/UnicodeError/OSError/ArithmeticError；不承诺任意进程中断/所有BaseException可恢复。",
+  "purpose": "完整严格CLI"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "qi.py:main"
+}
+explanation：完整严格CLI stdin最多20001bytes 20000字节界、严格UTF8/JSON、evaluate后一次canonical行；列明异常转单行rejected 正常exit0；拒绝exit2无部分判断 捕ValueError/TypeError/KeyError/RecursionError/UnicodeError/OSError/ArithmeticError；不承诺任意进程中断/所有BaseException可恢复。
+算法标识：cold.py:main
+source_identity：{
+  "AST_sha256": "b0e0ae047d2f37b801afe9f63d7b176bdb0785d1d3a1eaeeac84377b741a1153",
+  "first_line": 66,
+  "module_sha256": "4271ad02b9e1ceacef7befa4ccdaf591155a1a541531822abac6923db0f4fcc1",
+  "qualified_name": "main",
+  "relative_path": "cold.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+10. runtime/cold_core.py:inventory
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:inventory"
+  }
+]
+算法解释：{
+  "inputs": "facts_parsed、内部固定params/transform、原facts模块；只由上层精确源入口对真实raw调用",
+  "operations": "明干各1独立float；隐藏本气1/余气1/4且月乘3/2，每carrier一次。为每actor保4位置原五行藏根行；只year丙/month辛自己的1输入改功能水，原身份/根不删。逐origin before==after；功能池按ownseed比例分配演员权",
+  "outputs": "actors/direct/raw_direct/weights/56root_rows/parsed/params等base；重复origin或不守恒报ArithmeticError",
+  "preconditions_and_limits": "本内部函数不自己认证source，也不把辛原金根当转换水根。总direct等384，actor分配不等384；无未证土十二宫。",
+  "purpose": "保十四原实体并消费具名双方已有种子"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：保十四原实体并消费具名双方已有种子 facts_parsed、内部固定params/transform、原facts模块；只由上层精确源入口对真实raw调用 明干各1独立float；隐藏本气1/余气1/4且月乘3/2，每carrier一次。为每actor保4位置原五行藏根行；只year丙/month辛自己的1输入改功能水，原身份/根不删。逐origin before==after；功能池按ownseed比例分配演员权 actors/direct/raw_direct/weights/56root_rows/parsed/params等base；重复origin或不守恒报ArithmeticError 本内部函数不自己认证source，也不把辛原金根当转换水根。总direct等384，actor分配不等384；无未证土十二宫。
+算法标识：runtime/cold_core.py:inventory
+source_identity：{
+  "AST_sha256": "b842e0fcc5ace879cc2256a0e7b3b83f0c3c6e77a0ca030748686ca7b3777817",
+  "first_line": 10,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "inventory",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params'), arg(arg='transform'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+11. runtime/cold_core.py:coefficients
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:coefficients"
+  }
+]
+算法解释：{
+  "inputs": "base内部generation/control/wet_reallocation",
+  "operations": "F解析；限定0<b,c≤1/3、0≤γ≤1，a=1+b+c；普通P生/N克，土水P=γc、N=(1−γ)c；算K=(P−N)/a及最大行绝对和L",
+  "outputs": "b/c/gamma/a/P/N/K/global_L；越界或L≥1抛ValueError",
+  "preconditions_and_limits": "仅本5元素全部真实存在域；γ是已固定method参数而非外给ready。湿土预留总费不变。",
+  "purpose": "生成同预算生克矩阵与唯一性证"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：生成同预算生克矩阵与唯一性证 base内部generation/control/wet_reallocation F解析；限定0<b,c≤1/3、0≤γ≤1，a=1+b+c；普通P生/N克，土水P=γc、N=(1−γ)c；算K=(P−N)/a及最大行绝对和L b/c/gamma/a/P/N/K/global_L；越界或L≥1抛ValueError 仅本5元素全部真实存在域；γ是已固定method参数而非外给ready。湿土预留总费不变。
+算法标识：runtime/cold_core.py:coefficients
+source_identity：{
+  "AST_sha256": "de5583c4b4a4596e78c3cee3155cd811572976e476d775d99dbb53e419fc55e1",
+  "first_line": 38,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "coefficients",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+12. runtime/cold_core.py:solve
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:solve"
+  }
+]
+算法解释：{
+  "inputs": "base、精确Gauss module；可选内部disabled_positive=(4,3)",
+  "operations": "取direct总量；可关金生水的正信用但a和源成本不变。枚举32活跃面，解(I−K)候选，保非负且全5原max方程精确相等的一解",
+  "outputs": "current、coefficients、实际P/N、活跃面、关闭标记与证书；不支持关闭项ValueError，无解ArithmeticError",
+  "preconditions_and_limits": "唯一性靠coefficients全域收缩而非选首成功假设。诊断非新原局，不能免耗用后比较。",
+  "purpose": "同一五current精确非负定点"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：同一五current精确非负定点 base、精确Gauss module；可选内部disabled_positive=(4,3) 取direct总量；可关金生水的正信用但a和源成本不变。枚举32活跃面，解(I−K)候选，保非负且全5原max方程精确相等的一解 current、coefficients、实际P/N、活跃面、关闭标记与证书；不支持关闭项ValueError，无解ArithmeticError 唯一性靠coefficients全域收缩而非选首成功假设。诊断非新原局，不能免耗用后比较。
+算法标识：runtime/cold_core.py:solve
+source_identity：{
+  "AST_sha256": "7acb6274b90bef6713a36793d5589863274e77c5219e124fae624cc5d99d1798",
+  "first_line": 48,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "solve",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='disabled_positive')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+unused_note：null
+
+13. runtime/cold_core.py:origin_ports
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:origin_ports"
+  }
+]
+算法解释：{
+  "inputs": "base的守恒direct、world同解与实际P、精确Gauss",
+  "operations": "gross=d+Px，rho=x/gross；解(I−diag(rho)P)p=diag(rho)d；逐项核非负、每池合x与全部origin方程",
+  "outputs": "pools/gross/retention/origin_linear_map_L/范围",
+  "preconditions_and_limits": "是完整正生成图，含湿土→水；成本与受克比例消耗，不把被克物转成控制者获益。调用者须传一致world。",
+  "purpose": "把同一实际current拆成可追溯原始origin"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：把同一实际current拆成可追溯原始origin base的守恒direct、world同解与实际P、精确Gauss gross=d+Px，rho=x/gross；解(I−diag(rho)P)p=diag(rho)d；逐项核非负、每池合x与全部origin方程 pools/gross/retention/origin_linear_map_L/范围 是完整正生成图，含湿土→水；成本与受克比例消耗，不把被克物转成控制者获益。调用者须传一致world。
+算法标识：runtime/cold_core.py:origin_ports
+source_identity：{
+  "AST_sha256": "771deacd68aec8368b7b3d9d67ba9bb195ad2d7ee7b078fa03be78f95d2017b9",
+  "first_line": 66,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "origin_ports",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+14. runtime/cold_core.py:reconstruct
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:reconstruct"
+  }
+]
+算法解释：{
+  "inputs": "base/world/origin_ports同current",
+  "operations": "演员按ownseed权分池origin；所有普通生/克与土→水正端逐source-target分摊；控制按target实际min(gross,attack)限幅。逐池gross=current+生费+克费+实际loss；逐actor/origin检查生克费合(b+c)",
+  "outputs": "physical_graph包含all_actor_current_origins/all_signed_edges/5预算账/actor-origin预算及clamps",
+  "preconditions_and_limits": "包含零rate的结构土制水端供审计；原身份与功能分开。未用控制容量不返；这是共享功能任务分配，不是actor-local定律。",
+  "purpose": "重建全部位置actor正负边与真实费用损耗"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：重建全部位置actor正负边与真实费用损耗 base/world/origin_ports同current 演员按ownseed权分池origin；所有普通生/克与土→水正端逐source-target分摊；控制按target实际min(gross,attack)限幅。逐池gross=current+生费+克费+实际loss；逐actor/origin检查生克费合(b+c) physical_graph包含all_actor_current_origins/all_signed_edges/5预算账/actor-origin预算及clamps 包含零rate的结构土制水端供审计；原身份与功能分开。未用控制容量不返；这是共享功能任务分配，不是actor-local定律。
+算法标识：runtime/cold_core.py:reconstruct
+source_identity：{
+  "AST_sha256": "661f9c619f84ddfd365283a5ba045fd01c33ea3c570204f8b51b7b1fae98001c",
+  "first_line": 79,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "reconstruct",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+15. runtime/cold_core.py:relation_consumption
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:relation_consumption"
+  }
+]
+算法解释：{
+  "inputs": "base原facts、transform、双方实际seed",
+  "operations": "返回全部原形式关系；记录261年丙/月辛已由inventory消费；保留时丙及原水土隐藏，说明远丙辛/子丑/子辰不额外授权转换删除",
+  "outputs": "来源有限关系记录；不改变base/world",
+  "preconditions_and_limits": "本函数只形成解释记录，真正转换在inventory。261具名消费不证明一般最近优先、全半合必化或刑害普遍无效。",
+  "purpose": "记录已消费与保留的源关系边界"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：记录已消费与保留的源关系边界 base原facts、transform、双方实际seed 返回全部原形式关系；记录261年丙/月辛已由inventory消费；保留时丙及原水土隐藏，说明远丙辛/子丑/子辰不额外授权转换删除 来源有限关系记录；不改变base/world 本函数只形成解释记录，真正转换在inventory。261具名消费不证明一般最近优先、全半合必化或刑害普遍无效。
+算法标识：runtime/cold_core.py:relation_consumption
+source_identity：{
+  "AST_sha256": "197110a02ac4f5b1d16be85835e4edf1d835ba7cab630d91580cb880edd84350",
+  "first_line": 114,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "relation_consumption",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+16. runtime/cold_core.py:goals
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:goals"
+  }
+]
+算法解释：{
+  "inputs": "base/world/ports/graph；内部source_allowed由exactraw入口固定或诊断显式False",
+  "operations": "核水/金各保direct半量、W≥F、actual水loss火≥F、真实金→水保留流>0；另核精确源、双方转水、γ1、原金水根及无暖根。暖容量仅真实有火藏根且仍火功能actor份额投影",
+  "outputs": "numerical_checks/source_checks、两个不同water完成布尔、真实flow/loss、暖容量、存活F、独立暖任务状态",
+  "preconditions_and_limits": "半量/数量门为先验工程充分题；raw火根与转水水根不同；F可>0。source_allowed不是公开ready字段。暖投影不新增物理发送或第二次费用。",
+  "purpose": "在全盘同current后桥接源261用水/无根暖"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：在全盘同current后桥接源261用水/无根暖 base/world/ports/graph；内部source_allowed由exactraw入口固定或诊断显式False 核水/金各保direct半量、W≥F、actual水loss火≥F、真实金→水保留流>0；另核精确源、双方转水、γ1、原金水根及无暖根。暖容量仅真实有火藏根且仍火功能actor份额投影 numerical_checks/source_checks、两个不同water完成布尔、真实flow/loss、暖容量、存活F、独立暖任务状态 半量/数量门为先验工程充分题；raw火根与转水水根不同；F可>0。source_allowed不是公开ready字段。暖投影不新增物理发送或第二次费用。
+算法标识：runtime/cold_core.py:goals
+source_identity：{
+  "AST_sha256": "d65af08b054f30445cfa6d8b6664fcd732914853855172136d23992c4a90a1a8",
+  "first_line": 121,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "goals",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='graph'), arg(arg='source_allowed')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+17. runtime/cold_core.py:complete_H
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:complete_H"
+  }
+]
+算法解释：{
+  "inputs": "完整base/world/ports/goals",
+  "operations": "可选全水/火演员；遍历所有mask，按选水权s拆实际W、真实金→水同股保留流、水克火loss，各需至少半；有根火另给暖信用。分numeric_water/source_water/warming各求全部包含最小H及失败极大mask补集CNF",
+  "outputs": "ids/all_rows/questions/all_masks及精确语义",
+  "preconditions_and_limits": "当前7候选128mask，未转化诊断6候选64mask。辰丑余癸均可选；H不删除实体、不重解物理许可，也不由H反推喜用/主次。",
+  "purpose": "全候选固定世界正功能信用与全部最小H"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：全候选固定世界正功能信用与全部最小H 完整base/world/ports/goals 可选全水/火演员；遍历所有mask，按选水权s拆实际W、真实金→水同股保留流、水克火loss，各需至少半；有根火另给暖信用。分numeric_water/source_water/warming各求全部包含最小H及失败极大mask补集CNF ids/all_rows/questions/all_masks及精确语义 当前7候选128mask，未转化诊断6候选64mask。辰丑余癸均可选；H不删除实体、不重解物理许可，也不由H反推喜用/主次。
+算法标识：runtime/cold_core.py:complete_H
+source_identity：{
+  "AST_sha256": "857f00a86babc7370759dc92d8532f608acc2cc1e55ff394bf56112df00b7fe8",
+  "first_line": 134,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "complete_H",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='goal')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+18. runtime/cold_core.py:native_H
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:native_H"
+  }
+]
+算法解释：{
+  "inputs": "base、全部H/CNF逻辑、精确原AUX module",
+  "operations": "每问构造可选功能actor的CNF投影，硬门记录实际任务，原select执行；全部minima逐项相等；每mask逐CNF真值等其独立记录",
+  "outputs": "各question的full_native_graph/native_result/逐mask核数/projection说明；不一致报ArithmeticError",
+  "preconditions_and_limits": "只含可选水火actor的解释投影；其余actor在physical_graph和实际全局goals完整保留。投影不是完整物理图，select本身不返原schema/mode/scope。",
+  "purpose": "原AUX公开选择器真实执行三问并逐mask核"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：原AUX公开选择器真实执行三问并逐mask核 base、全部H/CNF逻辑、精确原AUX module 每问构造可选功能actor的CNF投影，硬门记录实际任务，原select执行；全部minima逐项相等；每mask逐CNF真值等其独立记录 各question的full_native_graph/native_result/逐mask核数/projection说明；不一致报ArithmeticError 只含可选水火actor的解释投影；其余actor在physical_graph和实际全局goals完整保留。投影不是完整物理图，select本身不返原schema/mode/scope。
+算法标识：runtime/cold_core.py:native_H
+source_identity：{
+  "AST_sha256": "4ce30ccaa83b4e5246e2a7b5aa7e21b66ccd73a38c273aa10193bdcfa3dcebf4",
+  "first_line": 153,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "native_H",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='logic'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+19. runtime/cold_core.py:evaluate
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/cold_core.py:evaluate"
+  }
+]
+算法解释：{
+  "inputs": "公开request只raw_pillars及fixed method；已核prior、facts/exact/AUX",
+  "operations": "检查schema；parse原始四柱；native非法/缺项正常回原结果；合法源外回完整facts、实际火根与具体未闭合。exact261按固定profile建base→solve→origins→graph→goals→allH→native，再关金生水同成本对照",
+  "outputs": "finite_source_question_evaluated完整结果或raw_facts_not_ready/outside_exact261_source_question；schema/method异常ValueError",
+  "preconditions_and_limits": "外层cold.evaluate另做Unicode/有限树与源guard。只有源与全部数值goal完备才method_internal_core_function水；不冒传统全部辅助主次、通用丙辛/262/早运流通已完。",
+  "purpose": "精确原raw源任务与合法源外的执行分流"
+}
+条目分类：430 new/adapted exact AST
+exact_reuse_reference：null
+explanation：精确原raw源任务与合法源外的执行分流 公开request只raw_pillars及fixed method；已核prior、facts/exact/AUX 检查schema；parse原始四柱；native非法/缺项正常回原结果；合法源外回完整facts、实际火根与具体未闭合。exact261按固定profile建base→solve→origins→graph→goals→allH→native，再关金生水同成本对照 finite_source_question_evaluated完整结果或raw_facts_not_ready/outside_exact261_source_question；schema/method异常ValueError 外层cold.evaluate另做Unicode/有限树与源guard。只有源与全部数值goal完备才method_internal_core_function水；不冒传统全部辅助主次、通用丙辛/262/早运流通已完。
+算法标识：runtime/cold_core.py:evaluate
+source_identity：{
+  "AST_sha256": "d310e781798d71bb9abd31ea64f2612ca97e848f01e993f3d913818094a1016e",
+  "first_line": 171,
+  "module_sha256": "cf435185a6fae3af2a802c3ef560a823a24bd28a4bb116c5912abd34d700a222",
+  "qualified_name": "evaluate",
+  "relative_path": "runtime/cold_core.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='prior'), arg(arg='facts'), arg(arg='math'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+20. runtime/shared_exact.py:pack
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/shared_exact.py:pack"
+  }
+]
+算法解释：{
+  "inputs": "Fraction/字典/序列/集合等",
+  "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+  "outputs": "转换后的值",
+  "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。",
+  "purpose": "将数学结构转为可重复JSON兼容值"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/shared_exact.py:pack"
+}
+explanation：将数学结构转为可重复JSON兼容值 Fraction/字典/序列/集合等 Fraction用精确分数字符串，递归；集合按str键排序 转换后的值 不认证数值真义；普通不可JSON对象不会自动转。
+算法标识：runtime/shared_exact.py:pack
+source_identity：{
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d",
+  "first_line": 3,
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "qualified_name": "pack",
+  "relative_path": "runtime/shared_exact.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+21. runtime/shared_exact.py:gauss
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/shared_exact.py:gauss"
+  }
+]
+算法解释：{
+  "inputs": "n×n有理系数及n行多列右端",
+  "operations": "逐列选非零枢轴、归一、消去其他行",
+  "outputs": "有理数解矩阵；奇异报ArithmeticError",
+  "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。",
+  "purpose": "精确多右端线性消元"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/shared_exact.py:gauss"
+}
+explanation：精确多右端线性消元 n×n有理系数及n行多列右端 逐列选非零枢轴、归一、消去其他行 有理数解矩阵；奇异报ArithmeticError 调用者负责矩阵形状；不是通用容错线代输入校验器。
+算法标识：runtime/shared_exact.py:gauss
+source_identity：{
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec",
+  "first_line": 10,
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "qualified_name": "gauss",
+  "relative_path": "runtime/shared_exact.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+22. runtime/foundation_facts.py:stem_element
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/foundation_facts.py:stem_element"
+  }
+]
+算法解释：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。",
+  "purpose": "十干查五行"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/foundation_facts.py:stem_element"
+}
+explanation：十干查五行 单个合法十干 校验字符后按十干索引每两干映五行 五行名或ValueError 事实查表，不是旺衰。
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "first_line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "stem_element",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+23. runtime/foundation_facts.py:ten_god
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/foundation_facts.py:ten_god"
+  }
+]
+算法解释：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。",
+  "purpose": "严格十神角色"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/foundation_facts.py:ten_god"
+}
+explanation：严格十神角色 日干和另一干 按五行环差及阴阳同异取角色 十神名 官杀、食伤分开，不推喜用。
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "first_line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "ten_god",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+24. runtime/foundation_facts.py:validate
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/foundation_facts.py:validate"
+  }
+]
+算法解释：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。",
+  "purpose": "原柱基础合法性"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/foundation_facts.py:validate"
+}
+explanation：原柱基础合法性 原始四字段对象 检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误 校验报告 不核真实公历生日/节气/换日异议。
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "first_line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "validate",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+25. runtime/foundation_facts.py:formal_relations
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/foundation_facts.py:formal_relations"
+  }
+]
+算法解释：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。",
+  "purpose": "保留有位置的形式合冲"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/foundation_facts.py:formal_relations"
+}
+explanation：保留有位置的形式合冲 四柱对象 逐柱对按天干五合/支六合六冲匹配 形式候选列表 不含三合/会局；不判生克效力。K2金局另有限源消费。
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "first_line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "formal_relations",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+26. runtime/foundation_facts.py:root_evidence
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/foundation_facts.py:root_evidence"
+  }
+]
+算法解释：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/foundation_facts.py:root_evidence"
+}
+explanation：保留同字同五行藏据及已明列特殊根例 一干及四柱 查各支完整藏干和四项特殊例 证据列表，强度not_computed 仅事实，不能用本表空项冒任氏真实无根。
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "first_line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "root_evidence",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+27. runtime/foundation_facts.py:parse
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/foundation_facts.py:parse"
+  }
+]
+算法解释：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。",
+  "purpose": "原61完整四柱事实入口"
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/foundation_facts.py:parse"
+}
+explanation：原61完整四柱事实入口 原始四柱对象 先validate；成功保明藏所有位置/角色/根查据/形式关系 facts_parsed或非法/缺项报告 没有在原事实程序新增强度、格局或颜色。
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "first_line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "parse",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+28. runtime/auxiliary_selector.py:bounded
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:bounded"
+  }
+]
+算法解释：{
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite.",
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:bounded"
+}
+explanation：Bound the supplied JSON-like graph before recursive schema work. Any parsed Python value representing JSON. Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted. Returns None on pass; raises ValueError on bound/type failure. These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite.
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "first_line": 16,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "bounded",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+29. runtime/auxiliary_selector.py:shape
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:shape"
+  }
+]
+算法解释：{
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity.",
+  "purpose": "Require an exact allowed object field set."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:shape"
+}
+explanation：Require an exact allowed object field set. value plus required names and optional names. Check dict type, all required keys present, and no keys outside required union optional. None when valid; ValueError object schema mismatch otherwise. Does not validate the field values; called repeatedly for each graph entity.
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "first_line": 38,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "shape",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])"
+}
+unused_note：null
+
+30. runtime/auxiliary_selector.py:string
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:string"
+  }
+]
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation.",
+  "purpose": "Require a nonempty string field."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:string"
+}
+explanation：Require a nonempty string field. Any candidate field value. Check isinstance(value,str) and nonempty. None on pass; ValueError otherwise. Length bounds are supplied separately by bounded; no source interpretation.
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "first_line": 43,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "string",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+31. runtime/auxiliary_selector.py:boolean
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:boolean"
+  }
+]
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema.",
+  "purpose": "Require actual bool instead of truthy/coercible values."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:boolean"
+}
+explanation：Require actual bool instead of truthy/coercible values. Any candidate field value. Require type(value) is bool. None or ValueError. Integers0/1 are not booleans for this schema.
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "first_line": 48,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "boolean",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+32. runtime/auxiliary_selector.py:validate
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:validate"
+  }
+]
+算法解释：{
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate.",
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:validate"
+}
+explanation：Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request. request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions. Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest. Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding. <=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate.
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "first_line": 53,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "validate",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+unused_note：null
+
+33. runtime/auxiliary_selector.py:closed
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:closed"
+  }
+]
+算法解释：{
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them.",
+  "purpose": "Check that every declared graph-scope obligation is marked complete."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:closed"
+}
+explanation：Check that every declared graph-scope obligation is marked complete. Validated request with five SCOPE_KEYS booleans. Return all(request[scope][key] for key in SCOPE_KEYS). Boolean complete-scope flag. Relies on caller-provided scope assertions; does not independently prove them.
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "first_line": 135,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "closed",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+34. runtime/auxiliary_selector.py:hard_failure
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:hard_failure"
+  }
+]
+算法解释：{
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here.",
+  "purpose": "Determine whether a required actual goal or global check still blocks selection."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:hard_failure"
+}
+explanation：Determine whether a required actual goal or global check still blocks selection. Validated request containing goals/global_checks. Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true. Boolean hard-failure flag. Optional failures do not block; caller statuses are not independently recomputed here.
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "first_line": 139,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "hard_failure",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+35. runtime/auxiliary_selector.py:repair_candidates
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:repair_candidates"
+  }
+]
+算法解释：{
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes.",
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:repair_candidates"
+}
+explanation：Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions. Validated request plus actor_map and goal_map. Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash. (pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified. No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes.
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "first_line": 144,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "repair_candidates",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+36. runtime/auxiliary_selector.py:minimal_covers
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:minimal_covers"
+  }
+]
+算法解释：{
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case.",
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:minimal_covers"
+}
+explanation：Enumerate all inclusion-minimal actor sets covering every required selection goal. Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set. Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets. List of frozenset actor IDs, all minimal covers in enumeration order. Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case.
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "first_line": 184,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "minimal_covers",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+37. runtime/auxiliary_selector.py:prefer
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:prefer"
+  }
+]
+算法解释：{
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred.",
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:prefer"
+}
+explanation：Compare two minimal sets using an explicitly verified one-actor role substitution. left/right actor sets, actor_map, preference rules. Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match. Boolean left-preferred-over-right relation. Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred.
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "first_line": 197,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "prefer",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+38. runtime/auxiliary_selector.py:preference_frontier
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:preference_frontier"
+  }
+]
+算法解释：{
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker.",
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:preference_frontier"
+}
+explanation：Apply all pairwise set preferences without losing alternatives under a preference cycle. Minimal actor sets, actor_map and explicit preference rules. Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets. (frontier_sets,cyclic,sorted index_edges). An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker.
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "first_line": 206,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "preference_frontier",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+39. runtime/auxiliary_selector.py:select
+actual_IO_reference：[
+  {
+    "artifact": "actual/function_actual_IO.json.gz",
+    "current_execution": true,
+    "record": "runtime/auxiliary_selector.py:select"
+  }
+]
+算法解释：{
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "Base result fields are version, semantic_scope, source_and_scope_bindings_independently_validated, positive_current_tasks, all_current_actors_preserved, all_tasks_preserved, actual_goals_preserved, actual_global_checks_preserved, unmet_task_repair_candidates, needed_absent_directions, luck_directions_separate, selected_current_auxiliary_sets, common_selected_actors, final_whole_chart_auxiliary_elements, final_priority, B and warning; status is added on every return. The incomplete-scope and hard-failure branches leave selection fields None. The no-active-target branch sets selected_current_auxiliary_sets=[] and also returns positive_background_tasks. The active-target branch additionally returns qualified_coverage, all_inclusion_minimal_explanation_sets, preference_edges_by_set_index, preference_cycle_undecided and positive_background_tasks, and fills selected/common actor fields. Input schema, mode and scope are not returned. In430 full input CNF graph is separately retained at native_H[question].full_native_graph. The complete physical graph is separately physical_graph. There is no background_inventory_native_reports field in430. select itself does not return input schema/mode/scope or full_native_graph.",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.",
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:select"
+}
+explanation：Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms. Full evaluated graph request accepted by validate. Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks. Base result fields are version, semantic_scope, source_and_scope_bindings_independently_validated, positive_current_tasks, all_current_actors_preserved, all_tasks_preserved, actual_goals_preserved, actual_global_checks_preserved, unmet_task_repair_candidates, needed_absent_directions, luck_directions_separate, selected_current_auxiliary_sets, common_selected_actors, final_whole_chart_auxiliary_elements, final_priority, B and warning; status is added on every return. The incomplete-scope and hard-failure branches leave selection fields None. The no-active-target branch sets selected_current_auxiliary_sets=[] and also returns positive_background_tasks. The active-target branch additionally returns qualified_coverage, all_inclusion_minimal_explanation_sets, preference_edges_by_set_index, preference_cycle_undecided and positive_background_tasks, and fills selected/common actor fields. Input schema, mode and scope are not returned. In430 full input CNF graph is separately retained at native_H[question].full_native_graph. The complete physical graph is separately physical_graph. There is no background_inventory_native_reports field in430. select itself does not return input schema/mode/scope or full_native_graph. Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "first_line": 224,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "select",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：null
+
+40. runtime/auxiliary_selector.py:strict_pairs
+actual_IO_reference：[]
+算法解释：{
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs.",
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:strict_pairs"
+}
+explanation：Reject duplicate object keys in the inherited AUX CLI JSON parser. Ordered (key,item) pairs supplied by json.loads object_pairs_hook. Insert into new dict, raising ValueError if key already exists. Parsed dict or ValueError duplicate JSON key. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs.
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "first_line": 272,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "strict_pairs",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：精确保留的旧AUX独立CLI helper，在当前完整API/CLI路径不执行；保留[]，不捏造IO。
+
+41. runtime/auxiliary_selector.py:reject_constant
+actual_IO_reference：[]
+算法解释：{
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite.",
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:reject_constant"
+}
+explanation：Reject nonfinite JSON constants in inherited AUX CLI parsing. A constant token string supplied by json.loads parse_constant. Always raise ValueError(nonfinite JSON constant). No normal return. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite.
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "first_line": 280,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "reject_constant",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：精确保留的旧AUX独立CLI helper，在当前完整API/CLI路径不执行；保留[]，不捏造IO。
+
+42. runtime/auxiliary_selector.py:main
+actual_IO_reference：[]
+算法解释：{
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main.",
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol."
+}
+条目分类：exact prior AST and reviewed contract reused; current context paths explicit
+exact_reuse_reference：{
+  "AST_exact": true,
+  "artifact": "reused_prior_algorithm_contracts.json",
+  "old_id": "runtime/auxiliary_selector.py:main"
+}
+explanation：Run inherited evaluated-graph AUX CLI with its own protocol. No Python arguments; reads stdin up to1048577 characters for a graph request. Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError. Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return). Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main.
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "first_line": 284,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "main",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+unused_note：精确保留的旧AUX独立CLI helper，在当前完整API/CLI路径不执行；保留[]，不捏造IO。
+
+原件：work/rev441_coldmetal_effective_documentation_layer/all7_corrected_source_rule_cards.json
+SHA256：a8b7c115cca6f47565a1f882f8323cd36968a0663a7627e0e10e76d906856a70
+
+1. 430-R1
+算法标识：430-R1
+冲突处理：先固定sourceprofile再算，不因其他方式数值通过而替换；形式合不等已化。
+变化条件：method变工程系数不改raw身份；raw或root变化保原事实并离开本源入口。
+成立条件：只直接准入丙辰辛丑庚辰丙子；两丙均保，选择年丙/月辛系源具名非无源最近优先。
+所属口径：格局身份/局内关系与寒暖，分别记录
+排除失效条件：其他raw/只见丙辛/262丁壬/日主化气格均不能据此直接采用。
+来源：{
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "edition": "Ren注滴天髓阐微1947李雨田校订见证",
+  "evidence": "cached full originalPDF + actually viewed pages, not webtranscription alone",
+  "locator": "261印229/374印98/375印99/377印101"
+}
+来源层次：{
+  "commentary": "原注/任注的具体归属见阅读收据；73/74条件不混",
+  "engineering": "本卡算法/阈值不是书中数学",
+  "literal": "源261具名年丙合辛化水，庚仍日主；374丙辛冬月为原注，375五合化水，377不泛争合。"
+}
+规则表达：先facts.parse；精确raw匹配后 only year丙/month辛 ports consume；否则原nativefacts+具体未闭合。
+验证材料与状态：{
+  "status": "已核实源身份与具名入口；通用丙辛化气族未完成",
+  "validation": "正main；反合法hour丙戌；边界两丙仍按源；来源准确性与运行准确性分验。"
+}
+
+2. 430-R2
+算法标识：430-R2
+冲突处理：转水与合去区别：双方功能都改；源261优先于泛远近代理，不把359保丁火算子平移。
+变化条件：关转换只还原两seed分类；逐origin量不变。其他演员/根/费用不受H选择删除。
+成立条件：每visible一独立float；每actualhidden一根seed；总direct逐元素与384rootmax+float一致因每支每元素最多一个藏干。
+所属口径：局内部件功能转换，不改原十神
+排除失效条件：raw root资格不等转换水根；不把辛全部藏金重定向、不保重复原火/金发送；actor权重与旧384不同。
+来源：{
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "edition": "Ren注滴天髓阐微1947李雨田校订见证",
+  "evidence": "cached full originalPDF + actually viewed pages, not webtranscription alone",
+  "locator": "261具名成化 +344/384 phasefree工程库存"
+}
+来源层次：{
+  "commentary": "原注/任注的具体归属见阅读收据；73/74条件不混",
+  "engineering": "明确工程约定：每明干输入1、藏本气1/余1/4、月乘3/2；仅年丙/月辛自己已有seed改水功能，原火/金发送关闭并改水生木/水克火，隐藏丑辛功能不重定向；逐origin守恒、ownseed池权与384演员权不同，非古籍比例或唯一传统合化机制。",
+  "literal": "任注261具名年干丙火合辛化水，另称时干丙火无根；原四柱中丑藏辛等原事实保留。"
+}
+规则表达：inventory own-origin reassignment, all-origin before==after;原raw资格另56行；功能池actor按ownseed比例分current/origin。
+验证材料与状态：{
+  "status": "库存/转换为明确有限工程解释，源没有1或1/4数值",
+  "validation": "手算原/转后5direct；对旧384inventory逐项同direct，actorweighted difference显例；all14演员和56rootrows保。"
+}
+
+3. 430-R3
+算法标识：430-R3
+冲突处理：预算先守恒bT+γcT+(1−γ)cT=(b+c)T，不把旧制水与新助水各花一份。
+变化条件：γ0 on相同转后输入退普通5池；同时关转换才退原raw；γ1源定性消费，其他γ标诊断。
+成立条件：仅261原丑辰土carrier/context，普通bT生金保；cT同预算γ份助水、(1−γ)份制水。
+所属口径：寒暖/土质数量作用
+排除失效条件：未戌/其他季节/辛戊重/夏己不自动映射；未实现土壅水运动/燥脆算子不得冒初运制土卫水已成。
+来源：{
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "edition": "Ren注滴天髓阐微1947李雨田校订见证",
+  "evidence": "cached full originalPDF + actually viewed pages, not webtranscription alone",
+  "locator": "260末—261头冬金条件"
+}
+来源层次：{
+  "commentary": "原注/任注的具体归属见阅读收据；73/74条件不混",
+  "engineering": "明确工程约定：在本261源域，把原cT预算的gamma份转为正助水、(1-gamma)份仍制水，bT生金保留；gamma=1消费本源定性，half/0为诊断，不复现土壅水的运行质量。",
+  "literal": "任注260末—261首在金生冬令上下文说丑辰湿土反助水而不能制水；未戌燥土除湿另有条件。"
+}
+规则表达：P[水][土]=γc,N[水][土]=(1−γ)c;全current同时解;每origin实际cost/loss/clamp。
+验证材料与状态：{
+  "status": "源符号已核；分配比例为工程、土质原任务仍保具体后续",
+  "validation": "gamma0/half/1；全实体反作用；同direct旧384 solve回归；guard坏源执行前拒。"
+}
+
+4. 430-R4
+算法标识：430-R4
+冲突处理：源暖资格与数量强弱分账，source gate不以数值逼零。
+变化条件：合法hour丙戌有戌丁根但raw离源入口；263等对照不冒单变量控制。
+成立条件：原raw实际火藏干根列表为空，时丙原身份与完整火生土克金仍在。
+所属口径：寒暖有气与普通存量分层
+排除失效条件：float火非自动热效；丙辛转水并不证明所有火已消失；一般暖有气不能只等有藏根，非本例通解。
+来源：{
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "edition": "Ren注滴天髓阐微1947李雨田校订见证",
+  "evidence": "cached full originalPDF + actually viewed pages, not webtranscription alone",
+  "locator": "256—257寒暖/261时丙无根"
+}
+来源层次：{
+  "commentary": "原注/任注的具体归属见阅读收据；73/74条件不混",
+  "engineering": "明确工程约定：原真火藏根作为本有限题暖资格；仍保火current及全部正负，不能把无根逼成F=0。一般暖有气不等仅查藏火；warming负荷cW是未推广的工程充分题。",
+  "literal": "任注261称时干丙火无根、只有寒湿并无生发之意，只得用水不能用火；257有寒甚要暖有气等前提。"
+}
+规则表达：qualifiedwarm=sum(functionfire current actor shares withrawfirehiddenroot);存活F单列。暖负荷cW只是未推广工程质量题。
+验证材料与状态：{
+  "status": "源无根结论已核；暖有根全族及262作用未闭",
+  "validation": "名义nominal(gamma=1)独立纸算及完整API均为F=1917/7756>0、暖根资格0；half_wet_diagnostic(gamma=1/2)的F=4613/15382>0亦暖根0，仅为非源完成的半湿诊断，不能写作名义值。合法根变化与262对照保留原facts，不能据有根自动给用火结论。"
+}
+
+5. 430-R5
+算法标识：430-R5
+冲突处理：每rowL≤(b+c)/(1+b+c)<1给唯一解；exact32faces+全原方程替代numericalfit。
+变化条件：参数预设3源方法+3退化诊断；持出新参数/seed只数学验证，不变源准入。
+成立条件：0<b,c≤1/3,0≤γ≤1；14真实actor均在，全部5元素有实体；每origin相同正生成图分摊损耗。
+所属口径：工程实际生克而非古典比例
+排除失效条件：不能造缺失actor/把损失当生克者得物；unusedcapacity不返；无主体任财新门。
+来源：{
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "edition": "Ren注滴天髓阐微1947李雨田校订见证",
+  "evidence": "cached full originalPDF + actually viewed pages, not webtranscription alone",
+  "locator": "344/363/384/415已验通用数学 +本新增湿土/端口"
+}
+来源层次：{
+  "commentary": "原注/任注的具体归属见阅读收据；73/74条件不混",
+  "engineering": "明确工程约定：五元素全部current、生克、源费用/实际min-clamp及origin损耗来自同一非负解；0<b,c<=1/3、gamma[0,1]与a=1+b+c、严格收缩、32面精确求解均为工程数学，不是古文。",
+  "literal": "任注261在此具名原例先辨丙辛成化、寒湿与时丙无根，再得用水不能用火；原典没有本卡五池current、clamp、费用或数值唯一性公式。"
+}
+规则表达：solve exact5;origin generalizedpositive matrix exactGauss;reconstruct allsource-targetsignededges及每originbudget。
+验证材料与状态：{
+  "status": "工程模型可复算，不能写现实预测有效",
+  "validation": "独立Cramer beforeproducer、准确火量界±1/997、3profile、heldout、全账/原nativeH。"
+}
+
+6. 430-R6
+算法标识：430-R6
+冲突处理：先源题与整盘task，再H；选中仅信用不改物理图，禁止把其它世界信用拼接。
+变化条件：source/dF/参数变可令数值goals失败，仍保源历史文字；samecost metal→water off是解释性counterfactual非新命例。
+成立条件：source+所有fixed前提+全部数量goal成立才输出finite_water_use；金为已存被泄主体，水正功能需真实流量。
+所属口径：源选择与数值功能桥及H，分别解释
+排除失效条件：H含水/水角色名不足选喜；不推出土木金皆忌；不以全局辅助穷尽名义删除原早运木制土任务。
+来源：{
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "edition": "Ren注滴天髓阐微1947李雨田校订见证",
+  "evidence": "cached full originalPDF + actually viewed pages, not webtranscription alone",
+  "locator": "261用水不能用火 +73庚得水气流(跨章解释)"
+}
+来源层次：{
+  "commentary": "原注/任注的具体归属见阅读收据；73/74条件不混",
+  "engineering": "明确工程约定：先源与整盘数值目标，再H；保半、W>=F、实际水克火loss>=F、三个固定世界水信用各半均为有限充分任务。金水实际流与全负面同时核，same-cost金生水关闭对照独立核，不能由H名水反推传统喜用或现实效用。",
+  "literal": "任注261直接给该具名原例只得用水不能用火；73任注另有庚金得水清与春夏稍弱等条件，只能作标明跨章的解释，不能变成无条件量化断言。"
+}
+规则表达：水6+火1全128mask；waterrecipient/current/control三个实际信用≥各半；主H/sourceH/暖H分开；原AUX完整CNF逐mask真值。
+验证材料与状态：{
+  "status": "源结论具名；工程辅助H附加解释，不认证传统全局唯一主次",
+  "validation": "所有余气也可选；small总7/8+一个单位=15/8<31/16，所以名义最小确仅3个单位任选2，不是先删余气。"
+}
+
+7. 430-R7
+算法标识：430-R7
+冲突处理：source足够支持机制任务，不足支持当前5池全量替代；不冒支合普遍消根。
+变化条件：更换raw外域保真实facts和具体关系缺口，不给默认water/usefire结论。
+成立条件：本版保持其全raw根/十神/关系用于反例；完整作用另需origin-target-specific实现。
+所属口径：寒暖源比较/后续原任务
+排除失效条件：不能仅近合判化木或删子/壬；两例多变量同改非因果单变量实验。
+来源：{
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "edition": "Ren注滴天髓阐微1947李雨田校订见证",
+  "evidence": "cached full originalPDF + actually viewed pages, not webtranscription alone",
+  "locator": "262印230与261比照"
+}
+来源层次：{
+  "commentary": "原注/任注的具体归属见阅读收据；73/74条件不混",
+  "engineering": "本卡算法/阈值不是书中数学",
+  "literal": "262重燥土去湿，未丁戌丁真根；丁壬合使壬不能克丙，子未相克使子不助壬。"
+}
+规则表达：legaloutside返回sourcegap+actualrootfacts；后续实现丁壬protectfire与子未support限制。
+验证材料与状态：{
+  "status": "实际来源支持；本版仅源比较未完整数值，原任务后续不删",
+  "validation": "正/反 source261 vs262；不拿科名、婚丧、生死作oracle。"
+}
+
+原件：work/rev430_BingXin_cold_metal_whole/source/reference_receipt.json
+SHA256：0f269254d9bec384449e8725e6b2d12ee450763e203eb6596307055872548c22
+
+{
+  "actual_images": [
+    {
+      "PDF_page": 73,
+      "bytes": 111421,
+      "path": "source/pages/Ren-073.png",
+      "reading": "actual full local image viewed in430;256/257/260 in pre-compaction430 history",
+      "sha256": "1868bd78df5a622299069683a91fdf6a143da1305c443626ca26be26229227d5"
+    },
+    {
+      "PDF_page": 74,
+      "bytes": 103258,
+      "path": "source/pages/Ren-074.png",
+      "reading": "actual full local image viewed in430;256/257/260 in pre-compaction430 history",
+      "sha256": "8721797aff0366b06539429719bc55ac8d5d16d79df454cedbed07285a64160e"
+    },
+    {
+      "PDF_page": 256,
+      "bytes": 106271,
+      "path": "source/pages/Ren-256.png",
+      "reading": "actual full local image viewed in430;256/257/260 in pre-compaction430 history",
+      "sha256": "5d16f9c58768c6320f7409c5ac24de33c4c2321d55f1ab3948c3d41bffd017c3"
+    },
+    {
+      "PDF_page": 257,
+      "bytes": 107560,
+      "path": "source/pages/Ren-257.png",
+      "reading": "actual full local image viewed in430;256/257/260 in pre-compaction430 history",
+      "sha256": "6c6725317dfbe21ef555730c3999c7087102231e5d5820547ba9a549ee95d09b"
+    },
+    {
+      "PDF_page": 260,
+      "bytes": 98370,
+      "path": "source/pages/Ren-260.png",
+      "reading": "actual full local image viewed in430;256/257/260 in pre-compaction430 history",
+      "sha256": "e775f0b9c333be144e1b78b6a249d0245f276ab8c895ddfecf438067923e4faf"
+    },
+    {
+      "PDF_page": 261,
+      "bytes": 86999,
+      "path": "source/pages/Ren-261.png",
+      "reading": "actual full local image viewed in430;256/257/260 in pre-compaction430 history",
+      "sha256": "3de45407d8948c83406e002f56a2e6a994bf93f2f39d9a40a866cea394c7e449"
+    },
+    {
+      "PDF_page": 262,
+      "bytes": 84431,
+      "path": "source/pages/Ren-262.png",
+      "reading": "actual full local image viewed in430;256/257/260 in pre-compaction430 history",
+      "sha256": "ebe890b4396b96b108618730b5c4f54d01d3772219e420856d1969167c0bbdaa"
+    },
+    {
+      "PDF_page": 374,
+      "bytes": 86920,
+      "path": "source/pages/Ren-374.png",
+      "reading": "actual full local image viewed in430",
+      "sha256": "725ca86906cfc29bdcad27d8fdd5afc98cd6064527ec6614354e67c9f837deeb"
+    },
+    {
+      "PDF_page": 375,
+      "bytes": 104766,
+      "path": "source/pages/Ren-375.png",
+      "reading": "actual full local image viewed in430",
+      "sha256": "972e8faafbdb152f3c4d4a02c2403c8f075ee94460f483af8ac7027c0f1eedb0"
+    },
+    {
+      "PDF_page": 376,
+      "bytes": 114399,
+      "path": "source/pages/Ren-376.png",
+      "reading": "actual full local image viewed in430",
+      "sha256": "644b7a4c2d4e3f27bbb1da9cc582a6ff405242530e39d4c272d43bec71e967f3"
+    },
+    {
+      "PDF_page": 377,
+      "bytes": 87843,
+      "path": "source/pages/Ren-377.png",
+      "reading": "actual full local image viewed in430",
+      "sha256": "121fdef845385264f2278a7bb9b80411f8a25a2d75fc4a7f2c5a35cca1373be4"
+    },
+    {
+      "PDF_page": 379,
+      "bytes": 70441,
+      "path": "source/pages/Ren-379.png",
+      "reading": "actual full newly rendered local image viewed in430; top closes378 contrasting化象, then假从",
+      "sha256": "0e5284f0f585bf68f8472e8f6c83538539387d846d3120b8f45e4b548a4da5a6"
+    }
+  ],
+  "actual_reading_findings": [
+    "261 main named year丙-month辛 transforms water, hour丙 without actual fire hiddenroot; 庚 day is not化气日主",
+    "374 原注丙辛冬月;375丙辛化水 and五辰 theory;376旺衰余泄;377 rejects automatic争合;379 exits化象 into假从. No separate full丙辛 originalcase in this bounded化象 paragraph. Do not transplant378丁壬 mathematical conditions.",
+    "261冬湿丑辰助水不能制水;262燥土rootedfire and丁壬 binding protect hour丙 are distinct source questions, not automatic化木",
+    "73 Geng湿生燥脆 spring/summer稍弱 antecedent;74Xin戊重/夏己/冬丁 distinct, not numeric premise here"
+  ],
+  "producer_calls_430": 0,
+  "rendered_not_read_in430": [
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387
+  ],
+  "schema": "430-source-reading/0.1",
+  "scope": "electronic1947 witness text not oldest-manuscript authentication; cached byte identity not historical effectiveness",
+  "source429_report_sha256": "3f744c03a7398c738c71f889ce629d30bd33a8fa122881f092ef893d86f459fa",
+  "source_pdf": {
+    "bytes": 14751242,
+    "path": "source/Ren1947.pdf",
+    "sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803"
+  },
+  "time_utc": "2026-11-02T23:20:58.380317+00:00"
+}

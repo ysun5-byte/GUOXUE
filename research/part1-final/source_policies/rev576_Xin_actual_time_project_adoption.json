@@ -1,0 +1,110 @@
+{
+  "schema": "576-exact555-after574-finite-Xin-current-adoption/1",
+  "revision": 576,
+  "status": "adopted_exact555_0.3.1_with574_source_erratum_finite_actualfive_Xin_research",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev555_author_completion_handoff.json",
+    "bytes": 2768,
+    "sha256": "e7cab6ac1e2b5adf4eab87467c95f08c20490c45bbc6a170c81ba37ea16460de"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev574_independent_completion_handoff.json",
+    "bytes": 1367,
+    "sha256": "2ef759e94d0750daf56bf4798bc790294c460d0bbadcca265be4f86a6fc89867"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev555_Wu_four_actual_time_gaps",
+    "files": 173,
+    "payload_files": 171,
+    "payload_bytes": 40525826,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev555_Wu_four_actual_time_gaps/RESEARCH_MANIFEST.json",
+      "bytes": 28920,
+      "sha256": "cdcae2f6cab5b3d4f065929bf82b2226123c7cad1528a762e128eac9eededefb"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev555_Wu_four_actual_time_gaps/AUTHOR_FREEZE.json",
+      "bytes": 265,
+      "sha256": "7c283ca4e2e19fc8b619e9f2bad46c6043d91000f9511b30d349e7e7d3aae5d4"
+    },
+    "all_payload_bytes_and_SHA_checked": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev574_independent_review555",
+    "files": 35,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev574_independent_review555/manifest.json",
+      "bytes": 5379,
+      "sha256": "fd0282ad9529a3fb0bf7c47c49f4845ad8a34545adabfbf3e0f20f88ab625f45"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev574_independent_review555/freeze.json",
+      "bytes": 92,
+      "sha256": "719b7e0e16de35cbee35bad9589e80835460e2784ebe163a0152b04752832394"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "work/rev555_Xin_complete_runtime_kernel",
+      "files": 53,
+      "payload_files": 51,
+      "payload_bytes": 10951445,
+      "manifest": {
+        "path": "work/rev555_Xin_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 7850,
+        "sha256": "bba96a5e6016c3b23ae2482b8e97e56297b95ac1fae83b846a482378941f7323"
+      },
+      "freeze": {
+        "path": "work/rev555_Xin_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 226,
+        "sha256": "ea110de375abf1706622baea3f21c93d85a136d678904ffdca6e5143c588696a"
+      },
+      "all_payload_bytes_and_SHA_checked": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/555 one final small complete readonly Xin research lfjecf4x/complete five UTC Xin research with spaces",
+      "files": 53,
+      "payload_files": 51,
+      "payload_bytes": 10951445,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/555 one final small complete readonly Xin research lfjecf4x/complete five UTC Xin research with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 7850,
+        "sha256": "bba96a5e6016c3b23ae2482b8e97e56297b95ac1fae83b846a482378941f7323"
+      },
+      "freeze": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/555 one final small complete readonly Xin research lfjecf4x/complete five UTC Xin research with spaces/DELIVERY_FREEZE.json",
+        "bytes": 226,
+        "sha256": "ea110de375abf1706622baea3f21c93d85a136d678904ffdca6e5143c588696a"
+      },
+      "all_payload_bytes_and_SHA_checked": true
+    }
+  ],
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev576_Xin_actual_time_effective_rule_cards.json",
+    "bytes": 10359,
+    "sha256": "44545fa60e00d3164de26df41baeecdc938c01e966b5ecac3c63ccad9afe1ab8"
+  },
+  "mandatory_source_erratum": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev574_independent_review555/required_effective_F_source_correction.json",
+    "bytes": 1619,
+    "sha256": "9037baad8f8087935e33272f64a83dd00a1a9a5429421a374cd15e25d24c203f"
+  },
+  "all122_algorithm_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev555_Wu_four_actual_time_gaps/function_explanations122.json",
+    "bytes": 233685,
+    "sha256": "8daf23086f3c24f21a8270df1e862f1f0fec407d9e89d05b58d1eecc6bbb92e3"
+  },
+  "all_original_C03_remains_open": true,
+  "scope": "固定原吴盘真实所提供五层UTC、现有明丙/印任务与本次明辛K1/K2/F作用；源/功能和已知阴性分轴。",
+  "frozen_X08_transport_status_superseded_by": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev555_Wu_four_actual_time_gaps/actual/small_kernel_and_readonly_transport_actual.json",
+    "bytes": 22933,
+    "sha256": "0731589ea41b06142e5c149369c24293f361910edf9c50d83b3b0727349b7e25"
+  },
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "original_task_complete": false,
+  "no_B_or_display": true,
+  "real_prediction_validated": false
+}

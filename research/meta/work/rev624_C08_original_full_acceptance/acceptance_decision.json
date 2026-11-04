@@ -1,0 +1,267 @@
+{
+  "schema": "624-original-C08-full-stage-and-original-task-acceptance/1",
+  "revision": 624,
+  "status": "accepted_original_C08_stage1_and_original_Part1_delivery_complete",
+  "saved_utc": "2026-11-03T20:19:22.149920+00:00",
+  "module": "C08",
+  "weight": 5,
+  "original_done_when": "全链在约定支持范围内完成开发回放、边界、冲突及独立留出一致性复核。",
+  "original_ledger": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_生辰核与变色规则_接续研究包_v0.12/02_规则与进度/生成核_变色规则进度账本_v0.1.json",
+    "bytes": 22946,
+    "sha256": "fab4ab043eadb5def3cc703dd9e869db8cc724ab38154b318d53d7eaeedff3fd"
+  },
+  "old_stage": "0.75",
+  "new_stage": "1.00",
+  "old_points": "3.75",
+  "new_points": "5.00",
+  "progress_delta": "1.25",
+  "old_score": "98.75",
+  "score": "100.00",
+  "denominator": 100,
+  "all_original_weights_scope_done_when_preserved": true,
+  "original_task_complete": true,
+  "all_required_original_deliverables_complete": true,
+  "no_unknown_default_or_unsupported_as_core_completion": true,
+  "quality_lowered": false,
+  "stable_delivery_directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付",
+  "effective_first_read": "00_0_当前有效入口_请先读_r1.txt",
+  "manifest": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_MANIFEST_r1.json",
+    "bytes": 49396,
+    "sha256": "5d5016b696bb55bd101b5592bd32cf5fedbf3b08b610881961bbd064f916add4"
+  },
+  "freeze": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_FREEZE_r1.json",
+    "bytes": 130,
+    "sha256": "fe444a07f44bd0eec1c9868fb6e139a27dffdb2145e2bde466695350cc4e9003"
+  },
+  "independently_full_hashed_permanent_files": 285,
+  "root_did_not_repeat_correct_native_math_or_large_archive_hash_campaign": true,
+  "checked_actual_evidence": {
+    "original_ledger": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_生辰核与变色规则_接续研究包_v0.12/02_规则与进度/生成核_变色规则进度账本_v0.1.json",
+      "bytes": 22946,
+      "sha256": "fab4ab043eadb5def3cc703dd9e869db8cc724ab38154b318d53d7eaeedff3fd"
+    },
+    "original_scope54": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev54_v1_scope_and_theme_acceptance_plan.json",
+      "bytes": 56457,
+      "sha256": "285a189ce84af93b0c417926986f5cc02ce46518eda20a7d41e845caa31a9369"
+    },
+    "original_eight_module_evidence_mapping": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_unified_delivery_increment_after608/original_eight_modules_delivery_evidence_mapping.json",
+      "bytes": 15456,
+      "sha256": "b38127dfc8615e8770e99c3229b1ddd1c40220c6ecc61e3ce6e80e2886d26d48"
+    },
+    "prior_C08_stage075": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev187_C08_stage075_project_acceptance.json",
+      "bytes": 1050,
+      "sha256": "5834e03790a7d5f81d995a0903bb90c5261f8c5a97cbc779e3a42a5d931a16bc"
+    },
+    "C02_full570": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev570_C02_original_full_acceptance/acceptance_decision.json",
+      "bytes": 12834,
+      "sha256": "cddad94e5d16260354a978be686692d0f74cdd7f9362e46acd2f50131bdbf1f9"
+    },
+    "C03_full622": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev622_C03_original_full_acceptance/acceptance_decision.json",
+      "bytes": 4938,
+      "sha256": "d77bca18062e4564ce41a106563c71c685655e473d517d6907abdc6613a3027b"
+    },
+    "C04_full500": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev500_C04_stage1_project_acceptance.json",
+      "bytes": 9939,
+      "sha256": "1dc020dd83e6cbef70999ccc451a06430a817c2f57a50288ea4c43b16f6e2ae5"
+    },
+    "immutable_prior_all_module_registry623": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev623_effective_current_state_snapshot/current_acceptance_registry.json",
+      "bytes": 178103,
+      "sha256": "06344b2a0027c1515016b2767c281283a98382c8ca3ed1acc2a33eef37cdfd3e"
+    },
+    "navigation623": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev623_current_algorithm_navigation.json",
+      "bytes": 2696876,
+      "sha256": "4f99a5e188deb71e682afa3ba3d8f096fedf5899734705f1f3542e841254aaea"
+    },
+    "root_scope_checklist474": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_final_root_acceptance_checklist474.json",
+      "bytes": 19445,
+      "sha256": "dd8f93ae18a84af9bc8c18e4aaca3803dd77df7106d83d6ed8d40c30ce365fb5"
+    },
+    "author_r0_historical_handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_author_final_delivery_handoff.json",
+      "bytes": 6032,
+      "sha256": "3cbef2b85369cce6e31f1a38bff713a0435e17b7fc522e33ed6167d814de7a73"
+    },
+    "rejected_r0_source_completeness_statement": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_final_source_research_closure.json",
+      "bytes": 18128,
+      "sha256": "bcc99c08c68515c76b202f3fe201b3d31a13a4d0dae7e83f1c31f0886ca41aca"
+    },
+    "author_effective_r1_handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_author_effective_r1_delivery_handoff.json",
+      "bytes": 7087,
+      "sha256": "0a280e4df53a326265cd7fe50debe89f4028bf2e3a1e6fd8dd45ff1486c5acc6"
+    },
+    "author_normalized95_actual_evidence": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_all95_r1_full_object_SHA_and_alias_validation.json",
+      "bytes": 15086866,
+      "sha256": "2f4310fd1174a676579a3bbad593adce7dcbcd54a45f41404f4ec4638d2d36a8"
+    },
+    "author_138_transport_boundaries": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_all138_route_transport_boundaries_r2/complete_report.json",
+      "bytes": 59560,
+      "sha256": "f877c98e3a57bbfd8dac32574313f1b83bb10496152481470101122cfa89822f"
+    },
+    "author_six_relationship_lifecycle": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_disjoint_component_lifecycle_and_loaders/complete_report.json",
+      "bytes": 1154351,
+      "sha256": "b030a8296ba0f921973e78a79e68493a0d9b4390194179b13f4db6c0094c55fc"
+    },
+    "author_original251_fullchain": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_existing251_fullchain/complete_report.json",
+      "bytes": 3752,
+      "sha256": "6a9e90d062c3b1bbff1a5ed2f15404f77a70b98a216cd1887c8258531975ba4c"
+    },
+    "genuine_final_handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_final_genuine_independent449_completion_handoff.json",
+      "bytes": 5206,
+      "sha256": "cc54d7dcb2132d08b5501b04cd71b6e18c12cb2cfe21424c76ad49a9a0bcd4bc"
+    },
+    "genuine_final_manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/manifest.json",
+      "bytes": 38413,
+      "sha256": "0faccb12c1127ec53eaa60eb29adbbf92ec85c17321a2032540b0528b445124d"
+    },
+    "genuine_final_freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/freeze.json",
+      "bytes": 142,
+      "sha256": "1e73e91d6b96d54d5e22466204ed6050604ddf4668039e5fb4b081d3c24345ab"
+    },
+    "genuine_final_report": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/final_review_report.json",
+      "bytes": 16201,
+      "sha256": "d7d27b2540dff662238b2d30d297e4ce852cd5796d3df288ac1f009a89011eea"
+    },
+    "genuine_review_archive": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent449_review_evidence.zip",
+      "bytes": 16956315,
+      "sha256": "060316d76765359a3f518ed78035d6cbb3fdc5abfb65d3f841da56d1025b7483"
+    },
+    "genuine_review_archive_post_integrity": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_independent449_review_archive_postfreeze_integrity.json",
+      "bytes": 338,
+      "sha256": "ee968b0e0bc522a2f4ac7fc8e0bb7b830266f3ca96689d0fde51d35c21b930fa"
+    },
+    "root_genuine_final218_actual_integrity_check": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_root_genuine218_final_proof_validation.json",
+      "bytes": 1437,
+      "sha256": "baf3fb49a63d7d5d3449439e3d860a9f199c57a24c2912f1deb6d06539bb2742"
+    },
+    "stable_publication_handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_stable_outputs_final_handoff.json",
+      "bytes": 3870,
+      "sha256": "513d50150d08a8ca03ed5083b0e22013176a173e9383f3449d7729d07f486325"
+    },
+    "stable_publication_full285_receipt": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_stable_outputs_final_receipt.json",
+      "bytes": 83137,
+      "sha256": "91ab84a98c0974442243fe053e87151a81e649ee4610734089af89410127c3e7"
+    },
+    "stable_manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_MANIFEST_r1.json",
+      "bytes": 49396,
+      "sha256": "5d5016b696bb55bd101b5592bd32cf5fedbf3b08b610881961bbd064f916add4"
+    },
+    "stable_freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/DELIVERY_FREEZE_r1.json",
+      "bytes": 130,
+      "sha256": "fe444a07f44bd0eec1c9868fb6e139a27dffdb2145e2bde466695350cc4e9003"
+    },
+    "stable_first_read": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_统一可复现交付/00_0_当前有效入口_请先读_r1.txt",
+      "bytes": 2029,
+      "sha256": "74a522edf85f7d51318125205b7eb0ee7b60d712050669cbc9eb2bc07e3bf274"
+    },
+    "two_navigation_specific_scope_disposition": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_root_two_historical_navigation_gap_disposition.json",
+      "bytes": 3601,
+      "sha256": "f6d80327fad1e9d2cd9a97a0f988f945d84bdcffc215c3bb9245eed63029a57d"
+    },
+    "two_navigation_early_search_handoff": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_early_source_index_exact_snapshot_search474_handoff.json",
+      "bytes": 1117,
+      "sha256": "0c5f23337356dbaf765ec298e0b1d458ee4928b5d837f77d8c91cc320d26b845"
+    },
+    "operational_receipt_precision": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_historical_operational_receipt_precision.json",
+      "bytes": 982,
+      "sha256": "33f61c584073ea130eb1d293a2c42934b9c21dd3a1a353cdb640bf367e9131e0"
+    },
+    "genuine_first_true_move": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final274_full_stream_pin_and_true_move.json",
+      "bytes": 1001,
+      "sha256": "0612cdb9de71c9c5897a866e747ec9a3cba3adcb1f16a55014af15bdb6d6a313"
+    },
+    "genuine_runtime49": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_unified/complete_report.json",
+      "bytes": 10663,
+      "sha256": "c23daf4014a26ecabac352279c1d84d3073d7ad7ed7aa72f69888df355ccdca4"
+    },
+    "genuine_last615": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/last615_full_original_source_pair/complete_report.json",
+      "bytes": 1131,
+      "sha256": "cb5f0d60e81c834a6632c399973c8f10fd5ab3928e8951cadeb600ea9d79eec9"
+    },
+    "genuine_source49419_and21610objects": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_all95_real49419_paths21610_objects_fullSHA.json",
+      "bytes": 6633063,
+      "sha256": "1e3fa163fc0b50717f623183c0b8b43ec49608684938278ddd70af0623073db2"
+    },
+    "genuine_actual379": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_actual379_production_reader/complete_report_with_actual_guard.json",
+      "bytes": 89428,
+      "sha256": "c61063f7fe788a69c62ca89ba33824c5505252a5d1cc176bb6c396c61108e11e"
+    },
+    "genuine_r1_20docs_IO_and_schema14": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/r1_current20_contract_IO_and_schema_negative_audit.json",
+      "bytes": 2141,
+      "sha256": "05543c5fe238f2b6e000714d065766c844bd4ba95410e63a28efb52ecbffa180"
+    },
+    "genuine_r0_20docs_IO": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/frozen_r0_transport20_docs_actual_IO_substantive_audit.json",
+      "bytes": 6738,
+      "sha256": "5dfef044d76e2153e3eb6628877f6b81d9a06af0d8a35270fb58da01a605882f"
+    },
+    "genuine_permanent285_current302refs": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/final_r1_285_permanent_fullSHA_302_currentdoc_aliases.json",
+      "bytes": 157251,
+      "sha256": "972b6d8047fa27047414dc24c1cd6456a89f747f6b97c74f720a72c42df3336b"
+    },
+    "genuine_reference13disposition": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/actual/closure13_final_forensic_disposition_with2_unrecovered_navigation_versions.json",
+      "bytes": 118994,
+      "sha256": "ed76e3a29a1f90ffba9f20f0a12258733e9cbdbdb94dc7bcaee82fcab037ca1f"
+    },
+    "genuine_original_C20_independent_arithmetic": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_genuine_independent_review449/prior/06_original251_C20_independent_approved_budget_arithmetic.json",
+      "bytes": 1305,
+      "sha256": "a9c04a1af162f74a29297d7decf07d585403e3bdac62906742a40b05922458f7"
+    }
+  },
+  "root_reason": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev624_C08_original_full_acceptance/root_substantive_acceptance_reason.txt",
+    "bytes": 4067,
+    "sha256": "498865ff078d8ca5bc261c7eeebc4af87cd871498bdcd92d32405f9c9075051b"
+  },
+  "known_limits": [
+    "two exact early historical navigation snapshot byte versions unavailable",
+    "specific overwritten early operational receipt cannot certify its original before-first-call timestamp",
+    "bounded method versions and source disagreements retained; not all possible charts/all schools universal truth",
+    "software acceptance is not empirical prediction validation",
+    "physical presentation and new display work remain deferred by user"
+  ],
+  "real_prediction_validation_count": 0,
+  "new_B_RGB_or_physical_work": false
+}

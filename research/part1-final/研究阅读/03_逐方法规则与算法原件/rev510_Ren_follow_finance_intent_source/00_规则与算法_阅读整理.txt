@@ -1,0 +1,999 @@
+财星三季意向与盈损全图
+rev510_Ren_follow_finance_intent_source
+所属原模块：C02
+当前采用：rev527_three_season_intent_project_adoption.json
+范围：adopted_exact51099_runtime39_after526_finite_seasonal_quality_warm_gap_open
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json
+SHA256：acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5
+
+1. seasonal_intent.py:canonical
+算法标识：seasonal_intent.py:canonical
+source_identity：{
+  "relative_path": "seasonal_intent.py",
+  "qualified_name": "canonical",
+  "first_line": 10,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "ecb05f307e3746b571fe5c1ab9d9b2be930d9989f13d50cf524698a94681202a"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "purpose": "稳定规范JSON",
+  "inputs": "JSON兼容已pack结果",
+  "operations": "键排序/紧凑Unicode/拒NaN",
+  "outputs_and_limits": "str；CLI另换行，不校验来源",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "mcn2_whole.py:canonical",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "seasonal_intent.py:canonical",
+  "actual_first_line": 10,
+  "observed_actual_calls": 1
+}
+not_independent_classical_rule：true
+
+2. seasonal_intent.py:pairs
+算法标识：seasonal_intent.py:pairs
+source_identity：{
+  "relative_path": "seasonal_intent.py",
+  "qualified_name": "pairs",
+  "first_line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "module_sha256": "ecb05f307e3746b571fe5c1ab9d9b2be930d9989f13d50cf524698a94681202a"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "purpose": "拒重复JSON键",
+  "inputs": "解析器键值对",
+  "operations": "逐键出现检测，固定错误不回显原键",
+  "outputs_and_limits": "dict或ValueError；转义重复也拒",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "mcn2_whole.py:pairs",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "seasonal_intent.py:pairs",
+  "actual_first_line": 11,
+  "observed_actual_calls": 2
+}
+not_independent_classical_rule：true
+
+3. seasonal_intent.py:constant
+算法标识：seasonal_intent.py:constant
+source_identity：{
+  "relative_path": "seasonal_intent.py",
+  "qualified_name": "constant",
+  "first_line": 17,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6",
+  "module_sha256": "ecb05f307e3746b571fe5c1ab9d9b2be930d9989f13d50cf524698a94681202a"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "purpose": "拒非有限常量",
+  "inputs": "NaN/Infinity标记",
+  "operations": "固定抛ValueError",
+  "outputs_and_limits": "无正常返回；观察器None为异常展开",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "mcn2_whole.py:constant",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "seasonal_intent.py:constant",
+  "actual_first_line": 17,
+  "observed_actual_calls": 1
+}
+not_independent_classical_rule：true
+
+4. seasonal_intent.py:bounded
+算法标识：seasonal_intent.py:bounded
+source_identity：{
+  "relative_path": "seasonal_intent.py",
+  "qualified_name": "bounded",
+  "first_line": 18,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351",
+  "module_sha256": "ecb05f307e3746b571fe5c1ab9d9b2be930d9989f13d50cf524698a94681202a"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "purpose": "限制公开树",
+  "inputs": "API值或已解析JSON",
+  "operations": "深16/节点1000/对象16/列表32/串2000/Unicode标量，float等拒",
+  "outputs_and_limits": "None或ValueError；不是业务schema核对",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "mcn2_whole.py:bounded",
+  "AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "seasonal_intent.py:bounded",
+  "actual_first_line": 18,
+  "observed_actual_calls": 2
+}
+not_independent_classical_rule：true
+
+5. seasonal_intent.py:strict_load
+算法标识：seasonal_intent.py:strict_load
+source_identity：{
+  "relative_path": "seasonal_intent.py",
+  "qualified_name": "strict_load",
+  "first_line": 32,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22",
+  "module_sha256": "ecb05f307e3746b571fe5c1ab9d9b2be930d9989f13d50cf524698a94681202a"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "purpose": "严格JSON文本",
+  "inputs": "最多5000字符str",
+  "operations": "json.loads重复键/非有限回调，再bounded",
+  "outputs_and_limits": "支持JSON值；根字段在evaluate核",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "mcn2_whole.py:strict_load",
+  "AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "seasonal_intent.py:strict_load",
+  "actual_first_line": 32,
+  "observed_actual_calls": 1
+}
+not_independent_classical_rule：true
+
+6. seasonal_intent.py:guard
+算法标识：seasonal_intent.py:guard
+source_identity：{
+  "relative_path": "seasonal_intent.py",
+  "qualified_name": "guard",
+  "first_line": 35,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "574767545517f8e851cbad0ece13b698b291d0d71d2fba7925771f36be23ffb4",
+  "module_sha256": "ecb05f307e3746b571fe5c1ab9d9b2be930d9989f13d50cf524698a94681202a"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "绑定来源/代码先于任何provider",
+  "inputs": "无参数；当前源锁与文件树",
+  "operations": "核锁SHA、完整source/runtime清单、每文件bytes/SHA/包含/非软链；通过才交六模块加载",
+  "outputs_and_limits": "material字节映射或拒绝；不认证原典真理或经验预测",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "seasonal_intent.py:guard",
+  "actual_first_line": 35,
+  "observed_actual_calls": 1
+}
+not_independent_classical_rule：true
+
+7. seasonal_intent.py:load
+算法标识：seasonal_intent.py:load
+source_identity：{
+  "relative_path": "seasonal_intent.py",
+  "qualified_name": "load",
+  "first_line": 48,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "module_sha256": "ecb05f307e3746b571fe5c1ab9d9b2be930d9989f13d50cf524698a94681202a"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "purpose": "只执行已守卫材料",
+  "inputs": "内部模块名/锁内path/material",
+  "operations": "ModuleType+固定filename编译执行",
+  "outputs_and_limits": "module；本函数本身不代guard，唯一公开调用者已先guard",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "mcn2_whole.py:load",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "seasonal_intent.py:load",
+  "actual_first_line": 48,
+  "observed_actual_calls": 6
+}
+not_independent_classical_rule：true
+
+8. seasonal_intent.py:evaluate
+算法标识：seasonal_intent.py:evaluate
+source_identity：{
+  "relative_path": "seasonal_intent.py",
+  "qualified_name": "evaluate",
+  "first_line": 50,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9f1b78bbc8768fe5df677e80be6b172bf66dc54959fbb0fd4b671239b8904f20",
+  "module_sha256": "ecb05f307e3746b571fe5c1ab9d9b2be930d9989f13d50cf524698a94681202a"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "固定公开入口",
+  "inputs": "exact schema/method/source_profile/raw四字段",
+  "operations": "bounded与固定身份→guard→六模块→core.evaluate",
+  "outputs_and_limits": "全pack结果或错误；合法别源/非法原柱分别明退，不从普通失败fallback",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "seasonal_intent.py:evaluate",
+  "actual_first_line": 50,
+  "observed_actual_calls": 1
+}
+not_independent_classical_rule：true
+
+9. seasonal_intent.py:main
+算法标识：seasonal_intent.py:main
+source_identity：{
+  "relative_path": "seasonal_intent.py",
+  "qualified_name": "main",
+  "first_line": 55,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113",
+  "module_sha256": "ecb05f307e3746b571fe5c1ab9d9b2be930d9989f13d50cf524698a94681202a"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "purpose": "原子CLI",
+  "inputs": "最多20000输入bytes",
+  "operations": "UTF8严格解码→strict_load→evaluate→canonical print；固定错误捕获",
+  "outputs_and_limits": "正常/有效未知0；硬错2，仅rejected/no_partial；输出一newline",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "mcn2_whole.py:main",
+  "AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "seasonal_intent.py:main",
+  "actual_first_line": 55,
+  "observed_actual_calls": 1
+}
+not_independent_classical_rule：true
+
+10. runtime/exact_reused.py:pack
+算法标识：runtime/exact_reused.py:pack
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "pack",
+  "first_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Encode internal exact mathematics.",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "runtime/exact_reused.py:pack",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/exact_reused.py:pack",
+  "actual_first_line": 7,
+  "observed_actual_calls": 168146
+}
+not_independent_classical_rule：true
+
+11. runtime/exact_reused.py:gauss
+算法标识：runtime/exact_reused.py:gauss
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "gauss",
+  "first_line": 14,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "runtime/exact_reused.py:gauss",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/exact_reused.py:gauss",
+  "actual_first_line": 14,
+  "observed_actual_calls": 984
+}
+not_independent_classical_rule：true
+
+12. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "十干查五行",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "runtime/foundation_facts.py:stem_element",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "actual_first_line": 39,
+  "observed_actual_calls": 206
+}
+not_independent_classical_rule：true
+
+13. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "严格十神角色",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "runtime/foundation_facts.py:ten_god",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "actual_first_line": 45,
+  "observed_actual_calls": 54
+}
+not_independent_classical_rule：true
+
+14. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原柱基础合法性",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "runtime/foundation_facts.py:validate",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate",
+  "actual_first_line": 60,
+  "observed_actual_calls": 2
+}
+not_independent_classical_rule：true
+
+15. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留有位置的形式合冲",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "runtime/foundation_facts.py:formal_relations",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "actual_first_line": 104,
+  "observed_actual_calls": 2
+}
+not_independent_classical_rule：true
+
+16. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "runtime/foundation_facts.py:root_evidence",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "actual_first_line": 121,
+  "observed_actual_calls": 8
+}
+not_independent_classical_rule：true
+
+17. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原61完整四柱事实入口",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "runtime/foundation_facts.py:parse",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse",
+  "actual_first_line": 148,
+  "observed_actual_calls": 2
+}
+not_independent_classical_rule：true
+
+18. runtime/inventory.py:root_explain
+算法标识：runtime/inventory.py:root_explain
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "root_explain",
+  "first_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive'), arg(arg='root')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3272242d66788897bd130198b0b3bd1d77062dea37dbefc0ac4c7e44d32f59e8",
+  "module_sha256": "11a8de0811ae9262633042b382cf211a6778368bdf1e35f67b6a00f1f59df927"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "purpose": "保留每位原根，分清资格和现效",
+  "inputs": "干、支、既有原始表、纯root模块",
+  "operations": "按该元素阳干共生死参照分类；长生/禄旺7/2、非土墓3/2、主气7/2、其他藏根5/2，否则0",
+  "outputs": "含参照、阶段、藏干、来源层和精确资格的记录",
+  "preconditions_and_limits": "根数/月倍数为继承工程量；金寅绝不删巳金7/2；戊土共火宫移植不认定现力",
+  "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev472_Ren_true_follow_finance_wood_fire_whole/algorithm_explanations_all31_definitions.json",
+  "old_document_sha256": "22d002774d5c290e43b6be68a635588788007c2bdf92046ecdc1a1f47e923add",
+  "old_id": "runtime/inventory.py:root_explain",
+  "AST_sha256": "3272242d66788897bd130198b0b3bd1d77062dea37dbefc0ac4c7e44d32f59e8"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/inventory.py:root_explain",
+  "actual_first_line": 8,
+  "observed_actual_calls": 36
+}
+not_independent_classical_rule：true
+
+19. runtime/inventory.py:context
+算法标识：runtime/inventory.py:context
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "context",
+  "first_line": 23,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "18414b3259782eebeef1a4fe28f48d99b855130b5e4f37ec1a3226dd571e5774",
+  "module_sha256": "11a8de0811ae9262633042b382cf211a6778368bdf1e35f67b6a00f1f59df927"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "原文金日木财/三季候选而非449跨元素",
+  "inputs": "raw/facts",
+  "operations": "先原四柱自洽合法性，再金日与季节；原formal逐项保，R0固定不额外合化增删",
+  "outputs_and_limits": "源候选或非法/合法别源；工程cue不认证传统太过真值；不声称formal无效",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/inventory.py:context",
+  "actual_first_line": 23,
+  "observed_actual_calls": 2
+}
+not_independent_classical_rule：true
+
+20. runtime/inventory.py:build
+算法标识：runtime/inventory.py:build
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "build",
+  "first_line": 30,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "73bc8d4c07524815f06b16e87e1d19d1909e869167c93d27d3f3d63465e0cd4e",
+  "module_sha256": "11a8de0811ae9262633042b382cf211a6778368bdf1e35f67b6a00f1f59df927"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "全原演员与四支根、同源不重复",
+  "inputs": "raw/facts/root/primitive",
+  "operations": "每明藏×四支root_explain，原点max一次；非日明干float1，日无新增float；静态份额分配；缺元素零池不造演员",
+  "outputs_and_limits": "base全根/直接原点/份额/源上下文；共池不等演员局部实强或物理守恒",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/inventory.py:build",
+  "actual_first_line": 30,
+  "observed_actual_calls": 1
+}
+not_independent_classical_rule：true
+
+21. runtime/root_types.py:classify
+算法标识：runtime/root_types.py:classify
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "classify",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "module_sha256": "08c6179ee721681916e53cd583e14415e3e1cc4cfec0e73d0060afe8da4f05c2"
+}
+条目分类：exact_old_AST_contract_reuse
+contract：{
+  "purpose": "原Primary ROOT类型",
+  "inputs": "合法stem/branch和已捕获原primitive",
+  "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+  "outputs": "type info",
+  "preconditions_and_limits": "caller已factsparse合法，primitive与ROOT代码源锁；不增加藏干、不判实际强弱。",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：{
+  "old_document": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev497_MCN2_multiple_visible_witnesses_whole/algorithm_explanations_all48.json",
+  "old_document_sha256": "597fd8e60410dde432653f407d1f250750b7ff4247e34674db0280c1be99b629",
+  "old_id": "runtime/root_types.py:classify",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396"
+}
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/root_types.py:classify",
+  "actual_first_line": 6,
+  "observed_actual_calls": 36
+}
+not_independent_classical_rule：true
+
+22. runtime/seasonal_core.py:input_direct
+算法标识：runtime/seasonal_core.py:input_direct
+source_identity：{
+  "relative_path": "runtime/seasonal_core.py",
+  "qualified_name": "input_direct",
+  "first_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='elements'), arg(arg='amount')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load()), Call(func=Name(id='F', ctx=Load()), args=[], keywords=[])])",
+  "AST_sha256": "e8cb3a384bff914986cdf66576f7e1a18d4cc77484f52d16e1de2e4cbe1db3d0",
+  "module_sha256": "d97aa394c6c9746ef80ce7697e2c71ee1246043a117610f4b40af86b9275f2fd"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "有限数学比较输入",
+  "inputs": "base/现有唯一元素集合/Fraction amount0..2",
+  "operations": "各元素分总量/k，原演员/根/权重不变，独立math-input原点",
+  "outputs_and_limits": "新direct；缺火/土不虚造受体，非真实新干支或UTC；λ0不应净严格有利",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_core.py:input_direct",
+  "actual_first_line": 7,
+  "observed_actual_calls": 138
+}
+not_independent_classical_rule：true
+
+23. runtime/seasonal_core.py:metrics
+算法标识：runtime/seasonal_core.py:metrics
+source_identity：{
+  "relative_path": "runtime/seasonal_core.py",
+  "qualified_name": "metrics",
+  "first_line": 14,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='ports'), arg(arg='graph'), arg(arg='bounds')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "38eaa2aa8cfdbd0fde5e04b7b466a8bb15213b818e9a683c9394e3d9589b4fbf",
+  "module_sha256": "d97aa394c6c9746ef80ce7697e2c71ee1246043a117610f4b40af86b9275f2fd"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "源三季所需质量与反作用量",
+  "inputs": "base/cf/state/ports/graph/bounds",
+  "operations": "合计水生木/木生火/土实制水、原木根和火来源留存、生日、U/L gap、三种比率",
+  "outputs_and_limits": "完整metrics；春比率不等实际流量，冬火留存代理不等物理温度；分母消失用None",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_core.py:metrics",
+  "actual_first_line": 14,
+  "observed_actual_calls": 138
+}
+not_independent_classical_rule：true
+
+24. runtime/seasonal_core.py:source_quality
+算法标识：runtime/seasonal_core.py:source_quality
+source_identity：{
+  "relative_path": "runtime/seasonal_core.py",
+  "qualified_name": "source_quality",
+  "first_line": 18,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='state'), arg(arg='metric')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "685548ea403549dda098c7066e002778336cdea02bb9ef8697a25a30be20a563",
+  "module_sha256": "d97aa394c6c9746ef80ce7697e2c71ee1246043a117610f4b40af86b9275f2fd"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "资格、偏差前件与原文条件指导分开",
+  "inputs": "base/state/metrics",
+  "operations": "金原ROOT0/木ROOT正/独立严格gap，原木根/财活；分季cue；明确证书未立≠已证自立；原文火/水/土火方向另列",
+  "outputs_and_limits": "dependency/viability/cue/source_entry+状态；proxy不认证古文质性条件，冬并列不宣共同必要或主次",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_core.py:source_quality",
+  "actual_first_line": 18,
+  "observed_actual_calls": 138
+}
+not_independent_classical_rule：true
+
+25. runtime/seasonal_core.py:world
+算法标识：runtime/seasonal_core.py:world
+source_identity：{
+  "relative_path": "runtime/seasonal_core.py",
+  "qualified_name": "world",
+  "first_line": 27,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='g'), arg(arg='c'), arg(arg='kappa'), arg(arg='math'), arg(arg='exact'), arg(arg='elements'), arg(arg='amount'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load()), Call(func=Name(id='F', ctx=Load()), args=[], keywords=[]), Constant(value=None)])",
+  "AST_sha256": "c036aa0f9571a705e0ca1adb7a90fa0c52a0a09bf8007fd8bea4a446c4e31e1d",
+  "module_sha256": "d97aa394c6c9746ef80ce7697e2c71ee1246043a117610f4b40af86b9275f2fd"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "所有依赖同current一次重算",
+  "inputs": "base/g/c/kappa/math/exact/可选输入切边",
+  "operations": "输入→系数→现量→U/L→来源→全图→指标→源资格与cue",
+  "outputs_and_limits": "完整world；原正负/根/费都在，不取成功标签后补源",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_core.py:world",
+  "actual_first_line": 27,
+  "observed_actual_calls": 138
+}
+not_independent_classical_rule：true
+
+26. runtime/seasonal_core.py:compare
+算法标识：runtime/seasonal_core.py:compare
+source_identity：{
+  "relative_path": "runtime/seasonal_core.py",
+  "qualified_name": "compare",
+  "first_line": 31,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='current'), arg(arg='baseline')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "afe61b96094f7e6e2c656934ace8ecb2b43d4f7a5c3500b7d7313ea858462881",
+  "module_sha256": "d97aa394c6c9746ef80ce7697e2c71ee1246043a117610f4b40af86b9275f2fd"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "按原季节固定质量偏序比较",
+  "inputs": "current/baseline完整世界",
+  "operations": "先原源cue与新viable；春J严格增；夏4目标不坏；冬3目标不坏；至少一严格",
+  "outputs_and_limits": "net/margins与真实财量/木火变化；修复后不要求原病cue仍真，非全局传统喜用",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_core.py:compare",
+  "actual_first_line": 31,
+  "observed_actual_calls": 135
+}
+not_independent_classical_rule：true
+
+27. runtime/seasonal_core.py:analyze
+算法标识：runtime/seasonal_core.py:analyze
+source_identity：{
+  "relative_path": "runtime/seasonal_core.py",
+  "qualified_name": "analyze",
+  "first_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='params'), arg(arg='kappa'), arg(arg='math'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1fccd90c7cab1766066f622e7c02ad15f7cab81937acfc0053ed82e31a8a7f36",
+  "module_sha256": "d97aa394c6c9746ef80ce7697e2c71ee1246043a117610f4b40af86b9275f2fd"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "固定κ下所有输入与替代",
+  "inputs": "base/固定params/kappa/math/exact",
+  "operations": "基线+现有元素全部非空子集×三固定幅度；保所有阴性；只全三量通过者作明确AND/OR汇总",
+  "outputs_and_limits": "所有options与三量稳定集；无单调压缩，不将OR合并成共同必要或比例",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_core.py:analyze",
+  "actual_first_line": 39,
+  "observed_actual_calls": 3
+}
+not_independent_classical_rule：true
+
+28. runtime/seasonal_core.py:evaluate
+算法标识：runtime/seasonal_core.py:evaluate
+source_identity：{
+  "relative_path": "runtime/seasonal_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 52,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='params'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive'), arg(arg='inventory'), arg(arg='math'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "55b19f09d212ff3bb8afc1a5b27752a803f6fcc1871bd635ed9f2702c7446b8f",
+  "module_sha256": "d97aa394c6c9746ef80ce7697e2c71ee1246043a117610f4b40af86b9275f2fd"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "完整研究输出及源状态",
+  "inputs": "request/params/facts/root/primitive/inventory/math/exact",
+  "operations": "分非法/合法别源；构建base；三κ固定全报；pack全部结果",
+  "outputs_and_limits": "完整三季有限方法；B/theme/display空、未采用/未加分/未验证现实，不只给标签",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_core.py:evaluate",
+  "actual_first_line": 52,
+  "observed_actual_calls": 1
+}
+not_independent_classical_rule：true
+
+29. runtime/seasonal_math.py:coefficients
+算法标识：runtime/seasonal_math.py:coefficients
+source_identity：{
+  "relative_path": "runtime/seasonal_math.py",
+  "qualified_name": "coefficients",
+  "first_line": 5,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='g'), arg(arg='c'), arg(arg='kappa'), arg(arg='exact'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "86a255018b4a3ae9a27d91281c2006a955781740c965594e55c10ae2402481c9",
+  "module_sha256": "d484db4853ce81c08671feb3f4078f16f12c1e27335b38172e86df745bf7229f"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "同图所有正负与火存量需求",
+  "inputs": "base/g/c/kappa/exact/可选三私有切边",
+  "operations": "全演员生成/控制及位置份额；固定发送保留费用不退；木收到另κ火存量负荷；正权收缩核验",
+  "outputs_and_limits": "G/C/all_loads/费用/全边/收缩证；κ非原文火克木，固定R0不按成功选源",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_math.py:coefficients",
+  "actual_first_line": 5,
+  "observed_actual_calls": 138
+}
+not_independent_classical_rule：true
+
+30. runtime/seasonal_math.py:solve
+算法标识：runtime/seasonal_math.py:solve
+source_identity：{
+  "relative_path": "runtime/seasonal_math.py",
+  "qualified_name": "solve",
+  "first_line": 21,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "207c35ab4d63b7d1a4e4e891e6945532e5a370a270a1b48126e50a7ee82eafab",
+  "module_sha256": "d484db4853ce81c08671feb3f4078f16f12c1e27335b38172e86df745bf7229f"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "精确共同现量",
+  "inputs": "direct/cf/exact",
+  "operations": "32活跃面逐一精确Gauss代回全部max方程",
+  "outputs_and_limits": "唯一非负state或ArithmeticError；非迭代公差、未证现实因果",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_math.py:solve",
+  "actual_first_line": 21,
+  "observed_actual_calls": 138
+}
+not_independent_classical_rule：true
+
+31. runtime/seasonal_math.py:independent_bounds
+算法标识：runtime/seasonal_math.py:independent_bounds
+source_identity：{
+  "relative_path": "runtime/seasonal_math.py",
+  "qualified_name": "independent_bounds",
+  "first_line": 31,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "f98ed98f21cd5d78b87201e503636461534410f94e3cbba13a6da763b5fdf5c4",
+  "module_sha256": "d484db4853ce81c08671feb3f4078f16f12c1e27335b38172e86df745bf7229f"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "与质量成功无关的独立支持充分证",
+  "inputs": "direct/cf/state/exact",
+  "operations": "正生成唯一U忽略负作用；L=max(0,(D−all_loads*U)/diag)，明确含κU火；核0≤L≤x≤U",
+  "outputs_and_limits": "U/L/gap，U金对L水/2+L木/4；证书未成立不证明实际自立，不是carry失败选从",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_math.py:independent_bounds",
+  "actual_first_line": 31,
+  "observed_actual_calls": 138
+}
+not_independent_classical_rule：true
+
+32. runtime/seasonal_math.py:origins
+算法标识：runtime/seasonal_math.py:origins
+source_identity：{
+  "relative_path": "runtime/seasonal_math.py",
+  "qualified_name": "origins",
+  "first_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "0ceb51f72f75db9d52dcc5eb07716598169e2277177f531f48cd4a6f75b49d40",
+  "module_sha256": "d484db4853ce81c08671feb3f4078f16f12c1e27335b38172e86df745bf7229f"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "逐原点一次预算",
+  "inputs": "direct/cf/state/exact",
+  "operations": "按gross/retention解正生成来源系统；控制+存量总负荷统一实际损失、按比例分配；费用另列",
+  "outputs_and_limits": "pool原点及gross/loss/fee，逐源gross=diag*retained+loss；负荷未实现不退款，不二扣",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_math.py:origins",
+  "actual_first_line": 39,
+  "observed_actual_calls": 138
+}
+not_independent_classical_rule：true
+
+33. runtime/seasonal_math.py:graph
+算法标识：runtime/seasonal_math.py:graph
+source_identity：{
+  "relative_path": "runtime/seasonal_math.py",
+  "qualified_name": "graph",
+  "first_line": 52,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8d522290016402cae1cda4bc4e0867ccd1f9fe49e034f3f0aaeaa8af82c0cb05",
+  "module_sha256": "d484db4853ce81c08671feb3f4078f16f12c1e27335b38172e86df745bf7229f"
+}
+条目分类：new_or_changed510
+contract：{
+  "purpose": "完整作用标量和可展开原点图",
+  "inputs": "base/cf/state/ports",
+  "operations": "逐演员边的传量/实生/实克/费用；木供火存量实际损失另列；核每池控制+存量损失及源费总和",
+  "outputs_and_limits": "lossless编码+全scalaredges+明确所有原点展开式；不假称重复数组已嵌入；火需求不写火克木",
+  "current510_boundary": "Source367金日木财三季+固定R0/κ/质量偏序；旧AST只复用数学/事实/解析合同，不继承别源取用结论。来源准确、实现正确、现实预测三个问题分记。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "artifact": "actual/current_function_IO.json.gz",
+  "record": "runtime/seasonal_math.py:graph",
+  "actual_first_line": 52,
+  "observed_actual_calls": 138
+}
+not_independent_classical_rule：true
+

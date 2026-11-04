@@ -1,0 +1,49 @@
+{
+  "status": "immutable_exact_asof623_current_state_snapshots",
+  "score": "98.75/100",
+  "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev623_effective_current_state_snapshot",
+  "captured_live_paths_and_pins": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/current_acceptance_registry.json",
+      "bytes": 178103,
+      "sha256": "06344b2a0027c1515016b2767c281283a98382c8ca3ed1acc2a33eef37cdfd3e"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/current_continuation_state.json",
+      "bytes": 170392,
+      "sha256": "7dbe0d6302a6c7e1801e89c8f903b483849278dcdcebbfd6c96f1eef85721ce5"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev72_root_checkpoint.json",
+      "bytes": 137825,
+      "sha256": "3292b8d4c0001669091cc8dbca36a7cdd0cc1612aa8da6505d2614fa8b7d35f7"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/生成核_变色规则进度账本_current.json",
+      "bytes": 163482,
+      "sha256": "874e33073371a9a0cae536274ce10cc6564572f791ec884c6f4510a44074cc30"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/来源索引_current.json",
+      "bytes": 69482,
+      "sha256": "d264c14836220a70555738170746bed7d9e9e5f99a2b610ba7f4988affdd2dab"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/SOURCE_OF_TRUTH.md",
+      "bytes": 30091,
+      "sha256": "719bb87a0e8edc06db55816097c40c520108aa7214e318a5d9659fdec9b24e82"
+    }
+  ],
+  "manifest": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev623_effective_current_state_snapshot/manifest.json",
+    "bytes": 1019,
+    "sha256": "b6e4dac1659d60cce6f0b6ddea43d83ad8587ecb85378f30e4f50a5a8524f5c5"
+  },
+  "freeze": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev623_effective_current_state_snapshot/freeze.json",
+    "bytes": 92,
+    "sha256": "53e9a32b911f4be7345e220c67c2abfe7ab99ce22dfa665e43abf6730b9ebb4a"
+  },
+  "purpose": "Capture current-source pointer and four live states with source-of-truth by exact bytes now; future updates do not destroy this version. Not a recovery/substitution of the two unlocated321/331 historical versions.",
+  "progress_delta": "0.00"
+}

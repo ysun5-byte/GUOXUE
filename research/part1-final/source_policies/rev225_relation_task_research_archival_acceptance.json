@@ -1,0 +1,32 @@
+{
+  "id": "rev225_relation_task_research_archival_acceptance",
+  "revision": 225,
+  "date": "2026-11-02",
+  "status": "accepted_independently_reviewed_relation_application_research_only",
+  "target": {
+    "component": "rev208_relation_task_whole",
+    "files": 981,
+    "manifest_sha256": "ba757f7ff7433eebe2a731749b44f6e9ab880d29ad71bf5d506a013f73ab5d0d",
+    "freeze_sha256": "27765b5410ad0b36a3034dee7a0fc13d30fc4aba387b3e0318341ee2bd221718"
+  },
+  "independent_review": {
+    "component": "rev220_relation_task_independent",
+    "files": 56,
+    "manifest_sha256": "ab176d85aea7861b9d17c69d42fe027dac9cc1bc5e22751f1f3cb7e58ba343f0",
+    "freeze_sha256": "b5c199fe2b80c1c63d9bf42ecbe9681ff86c4bed4d4acc86d4cc2ad7c29c4ad7"
+  },
+  "aggregate_acceptance": {
+    "component": "rev225_relation_task_archive_acceptance",
+    "files": 3,
+    "manifest_sha256": "c16811120c7890b480373b494b2d89e130ea5e9edfc35a79d8b5aff7219ac231",
+    "freeze_sha256": "f384345d4bb278017cecc71498f939ca2a27c4fb876e44184471d8a2081ae38b",
+    "report_sha256": "7227681a8397b90489b458e509ba25bfc685862ee169b75e9eaee630017ae4d8"
+  },
+  "runtime_adopted": false,
+  "scope": "Finite source-first primary-context relation task applicability plus the declared complete signed 官印/body support calculation; research archive only.",
+  "B_created": false,
+  "progress_delta": "0.00",
+  "score": "76.25/100",
+  "whole_original_task_complete": false,
+  "real_prediction_validated": false
+}

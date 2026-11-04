@@ -1,0 +1,2082 @@
+四种日主化格整盘作用与旺余泄题（实修零初量实体）
+rev505_four_daymaster_true_transformation_r1
+所属原模块：C02
+当前采用：rev523_four_daymaster_r1_project_adoption.json
+范围：adopted_exact505_0.1.1_257_after51657_plus_required_document_errata
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev505_four_daymaster_true_transformation_r1/function_explanations51_r1.json
+SHA256：d94938bce5109a6bf92461d38c1a2d173942b7aa2dd7e4c4743a17bb1b854590
+
+1. current.py:ResearchError.__init__
+算法解释：{
+  "inputs": "code,status=invalid_input",
+  "operations": "保存code/status并调用ValueError构造",
+  "outputs": "正常构造返回None；异常实例保存两个字段",
+  "preconditions_and_limits": "不生成判断结果；CLI据此返回2。",
+  "purpose": "建立当前入口的类型化异常"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:ResearchError.__init__"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:ResearchError.__init__
+source_identity：{
+  "AST_sha256": "76fe5c17a69fcce7f30862e13b19f66b73c4db1a6854f5a1f41029beb54d20b8",
+  "first_line": 12,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "ResearchError.__init__",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='code'), arg(arg='status')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='invalid_input')])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [
+      {
+        "artifact": "actual/key_function_actual_IO.json.gz",
+        "record": "current.py:ResearchError.__init__"
+      }
+    ],
+    "older_precise_reuse": [],
+    "record": "current.py:ResearchError.__init__"
+  }
+]
+
+2. current.py:canonical
+算法解释：{
+  "inputs": "JSON兼容value",
+  "operations": "Unicode、键排序、紧凑分隔、allow_nan=False",
+  "outputs": "str，不是UTF8 bytes",
+  "preconditions_and_limits": "Fraction需先pack；并不自行检查来源或业务schema。",
+  "purpose": "确定JSON文本"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:canonical"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:canonical
+source_identity：{
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "first_line": 15,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "canonical",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [
+      {
+        "artifact": "actual/key_function_actual_IO.json.gz",
+        "record": "current.py:canonical"
+      }
+    ],
+    "older_precise_reuse": [],
+    "record": "current.py:canonical"
+  }
+]
+
+3. current.py:digest
+算法解释：{
+  "inputs": "JSON兼容value",
+  "operations": "canonical文本UTF8编码后SHA256",
+  "outputs": "64位hex str",
+  "preconditions_and_limits": "指纹相同只绑定该规范值，不认证文献或历法。",
+  "purpose": "内容指纹"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:digest"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:digest
+source_identity：{
+  "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f",
+  "first_line": 18,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "digest",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [
+      {
+        "artifact": "actual/key_function_actual_IO.json.gz",
+        "record": "current.py:digest"
+      }
+    ],
+    "older_precise_reuse": [],
+    "record": "current.py:digest"
+  }
+]
+
+4. current.py:strict_load
+算法解释：{
+  "inputs": "str，最多2000000字符",
+  "operations": "重复键与非有限常量回调拒绝，json.loads",
+  "outputs": "任意解析JSON值；根schema在evaluate检查",
+  "preconditions_and_limits": "不是单独Unicode scalar/深度校验；后续scalar_tree负责。",
+  "purpose": "当前CLI严格JSON解析"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:strict_load"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:strict_load
+source_identity：{
+  "AST_sha256": "da43b3c2a785a350bacda9238a86ebe24633bc615f41079312445d885accdadc",
+  "first_line": 21,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "strict_load",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [
+      {
+        "artifact": "actual/key_function_actual_IO.json.gz",
+        "record": "current.py:strict_load"
+      }
+    ],
+    "older_precise_reuse": [],
+    "record": "current.py:strict_load"
+  }
+]
+
+5. current.py:strict_load.<locals>.pairs
+算法解释：{
+  "inputs": "JSON解析器提供的键值序列",
+  "operations": "逐项构造dict，已有键即ResearchError",
+  "outputs": "唯一键dict",
+  "preconditions_and_limits": "仅JSON object回调；不能把覆盖旧键当成功。",
+  "purpose": "拒绝重复键"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:strict_load.<locals>.pairs"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:strict_load.<locals>.pairs
+source_identity：{
+  "AST_sha256": "74625c803e0589b53f87a2feb9cdcb7d8e3fc42a1ad9068a240895a9bafb7550",
+  "first_line": 23,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "strict_load.<locals>.pairs",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [
+      {
+        "artifact": "actual/key_function_actual_IO.json.gz",
+        "record": "current.py:strict_load.<locals>.pairs"
+      }
+    ],
+    "older_precise_reuse": [],
+    "record": "current.py:strict_load.<locals>.pairs"
+  }
+]
+
+6. current.py:strict_load.<locals>.constant
+算法解释：{
+  "inputs": "解析器常量文本",
+  "operations": "总是抛ResearchError(nonfinite_JSON_constant)",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "异常事件加None不是正常结果。",
+  "purpose": "拒绝非有限JSON常量"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:strict_load.<locals>.constant"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:strict_load.<locals>.constant
+source_identity：{
+  "AST_sha256": "fce474ceff0a4f04f2983720b398eb25aab021581a761c44251572bf7d5a4a7f",
+  "first_line": 29,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "strict_load.<locals>.constant",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [
+      {
+        "artifact": "actual/key_function_actual_IO.json.gz",
+        "record": "current.py:strict_load.<locals>.constant"
+      }
+    ],
+    "older_precise_reuse": [],
+    "record": "current.py:strict_load.<locals>.constant"
+  }
+]
+
+7. current.py:scalar_tree
+算法解释：{
+  "inputs": "value,depth=0",
+  "operations": "深度<=64、dict<=128、list<=512、str<=2000000且无代理码；字符串键；只JSON标量且float有限",
+  "outputs": "成功None；错误ResearchError",
+  "preconditions_and_limits": "不解析UTC或schema，不接受Fraction/tuple等非JSON对象。",
+  "purpose": "当前API JSON树和Unicode约束"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:scalar_tree"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:scalar_tree
+source_identity：{
+  "AST_sha256": "6669becbafcf9720f0f29a1bb6c7866fe60a7ec2a9a4a52d807d93dbd8030723",
+  "first_line": 32,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "scalar_tree",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='depth')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=0)])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [
+      {
+        "artifact": "actual/key_function_actual_IO.json.gz",
+        "record": "current.py:scalar_tree"
+      }
+    ],
+    "older_precise_reuse": [],
+    "record": "current.py:scalar_tree"
+  }
+]
+
+8. current.py:guard
+算法解释：{
+  "inputs": "固定锁SHA、38个material字节与source/runtime精确文件集",
+  "operations": "核锁自身；逐相对路径/非软链/包内路径/字节数/SHA；sources与runtime精确集；核459旧框架采纳身份。所有检查完成才返回bytes，坏源无provider执行。 r1方法/工程来源版本0.1.1显式绑定；不将原0.1请求当同方法继续。",
+  "outputs": "name→bytes，或typed dependency_mismatch。",
+  "preconditions_and_limits": "旧459只证明复用框架来源，不是505方法已获采用；整包文档/测试由manifest/verify另外锁，运行不读旧项目。",
+  "purpose": "全部来源与执行材料逐字节核对后才准模块执行"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:guard"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:guard
+source_identity：{
+  "AST_sha256": "fcfacaf6581291057d688efe1be502f182934bca71e598508fce6d3219ca02d8",
+  "first_line": 47,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "guard",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+9. current.py:load
+算法解释：{
+  "inputs": "name,relative,material",
+  "operations": "新ModuleType，设置__file__，compile并exec material指定字节",
+  "outputs": "该模块对象",
+  "preconditions_and_limits": "仅由evaluate在guard后调用；函数本身不重作guard；模块独立全局避免跨请求配置污染。",
+  "purpose": "执行已核模块字节"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:load"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:load
+source_identity：{
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740",
+  "first_line": 62,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "load",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [
+      {
+        "artifact": "actual/key_function_actual_IO.json.gz",
+        "record": "current.py:load"
+      }
+    ],
+    "older_precise_reuse": [],
+    "record": "current.py:load"
+  }
+]
+
+10. current.py:evaluate
+算法解释：{
+  "inputs": "精确schema/method_ref/source_profile/chart/binding五字段；chart有id/version/pillars/origin",
+  "operations": "guard→scalar_tree→deepcopy→固定具名参数与所有内容绑定→加载5provider→facts.parse合法性→source_admission。来源足域不合保完整事实不给数值/默认；足域合格则inventory/analyze，把所有Fraction结果包括来源算子metadata经pack返回。 r1方法/工程来源版本0.1.1显式绑定；不将原0.1请求当同方法继续。",
+  "outputs": "JSON原生完整研究结果、原事实/原根/两个全世界/全部H/源与工程证书分轴；硬错由main无部分结果包装。",
+  "preconditions_and_limits": "不排自然历法，不做current/previous时间消费者或全传统最终喜用；单一source足域未合不等所有流派否定真化。",
+  "purpose": "从合法完整四柱实际运行四日主化气的来源、根、全作用与具名出口支持链"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:evaluate"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:evaluate
+source_identity：{
+  "AST_sha256": "771c8876c5c3d3b9f1f13bd173fe6cee79cba188293c4c51742ead12374e41f6",
+  "first_line": 65,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "evaluate",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+11. current.py:main
+算法解释：{
+  "inputs": "最多2000000 UTF8bytes stdin",
+  "operations": "读至2000001检超长；strict_load→evaluate→canonical；捕ResearchError及明确列举异常",
+  "outputs": "成功打印整JSON并返0；硬错打印无部分判断JSON并返2",
+  "preconditions_and_limits": "有效未知exit0；不捕所有BaseException；API自身不统一把所有内部异常改成正常结果。",
+  "purpose": "当前stdin/stdout公开CLI"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "current.py:main"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：current.py:main
+source_identity：{
+  "AST_sha256": "1f37c1a222653e90bcbbfe8581d061e4680a477cc0cc4c6250f39973c2a2e688",
+  "first_line": 87,
+  "module_sha256": "848bb810b7d360848ea14783449972cf5eaeab29f6d7d33c6147ad25b6ea77e8",
+  "qualified_name": "main",
+  "relative_path": "current.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [
+      {
+        "artifact": "actual/key_function_actual_IO.json.gz",
+        "record": "current.py:main"
+      }
+    ],
+    "older_precise_reuse": [],
+    "record": "current.py:main"
+  }
+]
+
+12. runtime/auxiliary_selector.py:bounded
+算法解释：{
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite.",
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "first_line": 16,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "bounded",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:bounded"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:bounded"
+  }
+]
+
+13. runtime/auxiliary_selector.py:shape
+算法解释：{
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity.",
+  "purpose": "Require an exact allowed object field set."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "first_line": 38,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "shape",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:shape"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:shape"
+  }
+]
+
+14. runtime/auxiliary_selector.py:string
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation.",
+  "purpose": "Require a nonempty string field."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "first_line": 43,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "string",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:string"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:string"
+  }
+]
+
+15. runtime/auxiliary_selector.py:boolean
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema.",
+  "purpose": "Require actual bool instead of truthy/coercible values."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "first_line": 48,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "boolean",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:boolean"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:boolean"
+  }
+]
+
+16. runtime/auxiliary_selector.py:validate
+算法解释：{
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate.",
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "first_line": 53,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "validate",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:validate"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:validate"
+  }
+]
+
+17. runtime/auxiliary_selector.py:closed
+算法解释：{
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them.",
+  "purpose": "Check that every declared graph-scope obligation is marked complete."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "first_line": 135,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "closed",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:closed"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:closed"
+  }
+]
+
+18. runtime/auxiliary_selector.py:hard_failure
+算法解释：{
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here.",
+  "purpose": "Determine whether a required actual goal or global check still blocks selection."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "first_line": 139,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "hard_failure",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:hard_failure"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:hard_failure"
+  }
+]
+
+19. runtime/auxiliary_selector.py:repair_candidates
+算法解释：{
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes.",
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "first_line": 144,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "repair_candidates",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:repair_candidates"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:repair_candidates"
+  }
+]
+
+20. runtime/auxiliary_selector.py:minimal_covers
+算法解释：{
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case.",
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "first_line": 184,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "minimal_covers",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:minimal_covers"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:minimal_covers"
+  }
+]
+
+21. runtime/auxiliary_selector.py:prefer
+算法解释：{
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred.",
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "first_line": 197,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "prefer",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:prefer"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:prefer"
+  }
+]
+
+22. runtime/auxiliary_selector.py:preference_frontier
+算法解释：{
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker.",
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "first_line": 206,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "preference_frontier",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:preference_frontier"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:preference_frontier"
+  }
+]
+
+23. runtime/auxiliary_selector.py:select
+算法解释：{
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "基础结果含version/semantic_scope/positive_current_tasks、输入投影actors/tasks/goals/checks对应保留项、repair/needed_absent/luck/selected/common/final/B/warning；各分支添status；无目标添background，活跃目标另添coverage/allminimal/preference/frontier。不返回schema/mode/scope或full_native_graph。当前完整投影由外层current.frames[i].calculation.native_H.full_native_graph保；完整物理图另在current.frames[i].calculation.actual_full_world.actual_signed_graph。",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.",
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/auxiliary_selector.py:select"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "first_line": 224,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "select",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/auxiliary_selector.py:select"
+      }
+    ],
+    "record": "runtime/auxiliary_selector.py:select"
+  }
+]
+
+24. runtime/auxiliary_selector.py:strict_pairs
+算法解释：{
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs.",
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "first_line": 272,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "strict_pairs",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [],
+    "record": "runtime/auxiliary_selector.py:strict_pairs"
+  }
+]
+
+25. runtime/auxiliary_selector.py:reject_constant
+算法解释：{
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite.",
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "first_line": 280,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "reject_constant",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [],
+    "record": "runtime/auxiliary_selector.py:reject_constant"
+  }
+]
+
+26. runtime/auxiliary_selector.py:main
+算法解释：{
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main.",
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol."
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "first_line": 284,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "qualified_name": "main",
+  "relative_path": "runtime/auxiliary_selector.py",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [],
+    "record": "runtime/auxiliary_selector.py:main"
+  }
+]
+
+27. runtime/element_pool.py:inventory
+算法解释：{
+  "inputs": "完整parsed及指定b/c参数",
+  "operations": "逐明藏根证：同元素各支主列1余列1/4月3/2、每明干浮源1；同元素同origin最大聚合；每演员根证总和归一作分配权重",
+  "outputs": "actors/direct/weights/parsed/params",
+  "preconditions_and_limits": "主余权重是工程结构权重，非司令/任土12宫。共池分配不是演员局部库存。",
+  "purpose": "保明藏全部实体并形成phase-free任务库"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/element_pool.py:inventory"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "本旧函数正常返回有日person float1与默认木火候选；新core.inventory随后明示去person float1（不去原根）并重算所有weight/候选；IO捕获的是旧函数返回当时真实值。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/element_pool.py:inventory
+source_identity：{
+  "AST_sha256": "5cdf8387d2fe6337a0eacda26e1f65c17a179960b5c92885df5456587703fb67",
+  "first_line": 9,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "qualified_name": "inventory",
+  "relative_path": "runtime/element_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/element_pool.py:inventory"
+      }
+    ],
+    "record": "runtime/element_pool.py:inventory"
+  }
+]
+
+28. runtime/element_pool.py:coefficients
+算法解释：{
+  "inputs": "base直接库与参数b,c",
+  "operations": "b,c∈(0,1/3]；无实体目标不接收/不预留该输出；a_i=1+b*生目标存在+c*克目标存在；K目标行生正克负除a；行和L核<1",
+  "outputs": "b,c,present,a,K,L",
+  "preconditions_and_limits": "每个正负发送与成本均读同一个解；预留全部控制容量不因目标被耗尽回收。",
+  "purpose": "声明同current全生克预算"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。",
+  "r1不调用此旧helper判存在；它沿旧direct非空语义，保留只为精确历史复用，当前实体系数由core.entity_coefficients完成。不能把原25 IO中的此函数当r1真实调用。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/element_pool.py:coefficients
+source_identity：{
+  "AST_sha256": "615b03099456f6f43f080508f3ebca37ed456b3adfc8b9293122fc5299b9e1fd",
+  "first_line": 37,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "qualified_name": "coefficients",
+  "relative_path": "runtime/element_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/element_pool.py:coefficients"
+      }
+    ],
+    "record": "runtime/element_pool.py:coefficients"
+  }
+]
+
+29. runtime/element_pool.py:solve
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "base/math.gauss",
+  "operations": "枚举32活跃面；解(I-K_AA)x=v；非活跃0；对全部五行max方程精确有理代入、非负才收；结合全域L<1唯一",
+  "outputs": "current、coefficients、活跃面与证书",
+  "preconditions_and_limits": "全有理无浮点suggestion；缺实体坐标夹0；不生成不存在金等演员。",
+  "purpose": "精确求唯一五行任务状态"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "本版未调用该旧helper，不冒新当前IO；关泄神受生的实际world/trace由core对应函数完成，不能错用旧未衰减origin helper当新结果。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/element_pool.py:solve
+source_identity：{
+  "AST_sha256": "b7e9b32624c59cd4352eef349c857cce8326f350acb8704cdbf52ff0892ab382",
+  "first_line": 50,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "qualified_name": "solve",
+  "relative_path": "runtime/element_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/element_pool.py:solve"
+      }
+    ],
+    "record": "runtime/element_pool.py:solve"
+  }
+]
+
+30. runtime/element_pool.py:origin_ports
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "base/world/math",
+  "operations": "gross_i=d_i+b*x_parent(须目标存在)；rho=x/gross；多右端解o_i=rho_i(d_i,o+b*o_parent)；逐origin非负/方程/和=x断言",
+  "outputs": "pools/gross/retention与L",
+  "preconditions_and_limits": "控制不把被克元素转换为克者；成本与克损同比耗用毛入。origin代表工程资格输入，不是物理分子守恒。",
+  "purpose": "在同解上分清所有库存来源"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "本版未调用该旧helper，不冒新当前IO；关泄神受生的实际world/trace由core对应函数完成，不能错用旧未衰减origin helper当新结果。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/element_pool.py:origin_ports
+source_identity：{
+  "AST_sha256": "70baff7d919978b41bdcf3d715947a428e61ade1f4c704d6a20210e991c29261",
+  "first_line": 64,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "qualified_name": "origin_ports",
+  "relative_path": "runtime/element_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/element_pool.py:origin_ports"
+      }
+    ],
+    "record": "runtime/element_pool.py:origin_ports"
+  }
+]
+
+31. runtime/element_pool.py:reconstruct
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "同一base/world/ports",
+  "operations": "actorports=权重*元素origin池；遍历所有真实演员，生/克每对按b或c及目标权重发送；gross=x+gen预算+control预算+实际克损逐项核",
+  "outputs": "全部actorports、全部有向生克边、五库存账、形式关系",
+  "preconditions_and_limits": "0现量演员仍在；容量超目标部分另记。没有跨不同world拼正负，也不删除未选包。",
+  "purpose": "还原每个演员每origin全部发送与消耗"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "本版未调用该旧helper，不冒新当前IO；关泄神受生的实际world/trace由core对应函数完成，不能错用旧未衰减origin helper当新结果。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/element_pool.py:reconstruct
+source_identity：{
+  "AST_sha256": "64dd281189586e10828753327a067962357487735b0575f3a23e10f60c30256e",
+  "first_line": 77,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "qualified_name": "reconstruct",
+  "relative_path": "runtime/element_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/element_pool.py:reconstruct"
+      }
+    ],
+    "record": "runtime/element_pool.py:reconstruct"
+  }
+]
+
+32. runtime/element_pool.py:native_H
+算法解释：{
+  "inputs": "base/完整logic/原AUX/实际目标是否满足",
+  "operations": "CNF按最多18goal/100tasks分块；每块存完整输入图并调用原select；AND各块的所有局部OR，枚举并集再最小化；与独立全H断言相等",
+  "outputs": "bounded_native_parts及全部最小并集",
+  "preconditions_and_limits": "原AUX源码不改；full_native_graph由此adapter保存，select本身不返schema/mode/scope。原AUX B字段恒未接产品。",
+  "purpose": "接原native选择器且保全部OR"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "本版未调用该旧helper，不冒新当前IO；关泄神受生的实际world/trace由core对应函数完成，不能错用旧未衰减origin helper当新结果。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/element_pool.py:native_H
+source_identity：{
+  "AST_sha256": "56fe1b2195732cc356eec3de8c69bc229643a286f00fa631b5b0090371617c2d",
+  "first_line": 103,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "qualified_name": "native_H",
+  "relative_path": "runtime/element_pool.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='logic'), arg(arg='aux'), arg(arg='actual_met')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/element_pool.py:native_H"
+      }
+    ],
+    "record": "runtime/element_pool.py:native_H"
+  }
+]
+
+33. runtime/foundation_facts.py:stem_element
+算法解释：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。",
+  "purpose": "十干查五行"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "first_line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "stem_element",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/foundation_facts.py:stem_element"
+      }
+    ],
+    "record": "runtime/foundation_facts.py:stem_element"
+  }
+]
+
+34. runtime/foundation_facts.py:ten_god
+算法解释：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。",
+  "purpose": "严格十神角色"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "first_line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "ten_god",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/foundation_facts.py:ten_god"
+      }
+    ],
+    "record": "runtime/foundation_facts.py:ten_god"
+  }
+]
+
+35. runtime/foundation_facts.py:validate
+算法解释：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。",
+  "purpose": "原柱基础合法性"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "first_line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "validate",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/foundation_facts.py:validate"
+      }
+    ],
+    "record": "runtime/foundation_facts.py:validate"
+  }
+]
+
+36. runtime/foundation_facts.py:formal_relations
+算法解释：{
+  "historical_note": "旧K2尾注全文仅在原428合同引用保，不充当前原吴作用规则。",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。本原吴木三合与午未有限源消费在scope，保原藏而不自动合化或删根。",
+  "purpose": "保留有位置的形式合冲"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "first_line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "formal_relations",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/foundation_facts.py:formal_relations"
+      }
+    ],
+    "record": "runtime/foundation_facts.py:formal_relations"
+  }
+]
+
+37. runtime/foundation_facts.py:root_evidence
+算法解释：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "first_line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "root_evidence",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/foundation_facts.py:root_evidence"
+      }
+    ],
+    "record": "runtime/foundation_facts.py:root_evidence"
+  }
+]
+
+38. runtime/foundation_facts.py:parse
+算法解释：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。",
+  "purpose": "原61完整四柱事实入口"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "first_line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "qualified_name": "parse",
+  "relative_path": "runtime/foundation_facts.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/foundation_facts.py:parse"
+      }
+    ],
+    "record": "runtime/foundation_facts.py:parse"
+  }
+]
+
+39. runtime/shared_exact.py:pack
+算法解释：{
+  "inputs": "Fraction/字典/序列/集合等",
+  "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+  "outputs": "转换后的值",
+  "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。",
+  "purpose": "将数学结构转为可重复JSON兼容值"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/shared_exact.py:pack
+source_identity：{
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d",
+  "first_line": 3,
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "qualified_name": "pack",
+  "relative_path": "runtime/shared_exact.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/shared_exact.py:pack"
+      }
+    ],
+    "record": "runtime/shared_exact.py:pack"
+  }
+]
+
+40. runtime/shared_exact.py:gauss
+算法解释：{
+  "inputs": "n×n有理系数及n行多列右端",
+  "operations": "逐列选非零枢轴、归一、消去其他行",
+  "outputs": "有理数解矩阵；奇异报ArithmeticError",
+  "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。",
+  "purpose": "精确多右端线性消元"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/shared_exact.py:gauss"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/shared_exact.py:gauss
+source_identity：{
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec",
+  "first_line": 10,
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "qualified_name": "gauss",
+  "relative_path": "runtime/shared_exact.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428_inherited_function_IO.json.gz",
+        "record": "runtime/shared_exact.py:gauss"
+      }
+    ],
+    "record": "runtime/shared_exact.py:gauss"
+  }
+]
+
+41. runtime/transform.py:source_admission
+算法解释：{
+  "inputs": "合法raw、profile、已采用facts",
+  "operations": "日主属于甲己/乙庚/丙辛/戊癸；唯一邻位合干/无额外同日干；原注具名季节、辰、甲日其他明壬癸甲乙戊阻碍；其余明合逐位置sourcepending。原六合/冲全保，逐具体赋固定不二次变身/不额外增力算子，巳申/辰酉具体解释。",
+  "outputs": "ready/reasons/pair/chemical_element/partnerpositions、原formal facts及fixed_relation_consumption；反向日主工程标志。",
+  "preconditions_and_limits": "原注/任注分层；严格辰足域不宣任氏通用必辰。支规则是所选工程定义，非已判传统关系无效或已化；三合刑害等未普遍判效。",
+  "purpose": "四对共同的严格来源足域及逐位置关系消费"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:source_admission"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/transform.py:source_admission
+source_identity：{
+  "AST_sha256": "5b0033834dc58b7204dfb5db8972e1d7feef3b2bfddf5410b116b8230d64ca5e",
+  "first_line": 8,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "source_admission",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='profile'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+42. runtime/transform.py:inventory
+算法解释：{
+  "inputs": "parsed/source、固定params、旧pool",
+  "operations": "先调用原pool.inventory保全部明藏根；仅去原日person额外float1，不删根/演员；按当前真实witness重算所有weights；以化神五行做body参考、泄神为下一元素；原十神/柱位不重写；选全部实际非日person泄神为候选。 r1纠错：整个真实同元素组witness分母0时，分接收/共池份额1/n；有正分母仍沿原witness分摊。初始direct/原根/原日float均不新增，组内真实元素不能由初0变不存在。",
+  "outputs": "全actors/direct/weights/rootledger/原日与化神参照/反神元素与所有outletids。",
+  "preconditions_and_limits": "phasefree main1/minor1/4/month3/2与Ren十二宫不同；共享源max去重，演员份额非独立局部实物。化神不是凭空新甲/庚日干。 零组fallback不是给日主加库存或根；本合法域该组只能原日单演员，因此份额1。",
+  "purpose": "复用库存并保原日person无据浮量与实际原根分界"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:inventory"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：false
+算法标识：runtime/transform.py:inventory
+source_identity：{
+  "AST_sha256": "f823befcbe0923285a5b5d99d3c5dc35f013ada4f8173dd58d86705d69a87470",
+  "first_line": 39,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "inventory",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='source'), arg(arg='params'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+43. runtime/transform.py:entity_coefficients
+算法解释：{
+  "inputs": "base.params与全部真实actors；不以direct是否为空决定presence",
+  "operations": "沿原b/c范围及相同a_i/K公式；present_i=any真实actor元素匹配；即初库存0也保入生/受克槽和对存在目标的生出/控制费用；求相同严格收缩L；不添虚占位到direct/origins。",
+  "outputs": "b,c,present,a,K,L；presence_definition及zero_initial_but_real_elements、no_initial_stock_or_origin_added_for_presence。",
+  "preconditions_and_limits": "实际演员来自原合法四柱，非虚邀/新增实体。current仍由全方程得出，可以受生后被制归0；不能由无根/初0推不可受生。旧pool.coefficients函数保原AST，但其direct判presence不用于r1。",
+  "purpose": "按真实演员存在决定五行的入生/受克与发送费用，分开实体、初始库存和实际保留量"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:entity_coefficients"
+  }
+]
+本版范围：[
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：false
+算法标识：runtime/transform.py:entity_coefficients
+source_identity：{
+  "AST_sha256": "6552ba64b71b769b5c254dcc9777ecfa26ed420f74075abfd93c2ce2d395366a",
+  "first_line": 56,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "entity_coefficients",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原来源与目标不改；实际实体presence纠错是工程实现修复，不是新取用门。
+verified_old_contract_IO_reuse：[]
+
+44. runtime/transform.py:solve
+算法解释：{
+  "inputs": "base、math/pool、内部receipt_on bool",
+  "operations": "用新entity_coefficients固定实际实体presence的a/全部潜在费用；只将K泄神,化神受生边乘0或1；逐32face有理Gauss，完整5坐标max方程代回；有效生出率相应关，其他生克保持。",
+  "outputs": "current/有效K/所有生克率/activeface、全费用保留证书。",
+  "preconditions_and_limits": "全局L<1来自旧coefficients，0..1受生衰减不增收缩上界；零坐标可属于多种合法activeface，唯一的是current。诊断不删除泄神、不退费用、不关其余作用。 原无根日可以受真实印生，再同世界受控制；入生容量与最后保留量分开，受生后归0也不得抹入生/源费用。",
+  "purpose": "全五池生克/费用不退的当前量与关受生诊断"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:solve"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：false
+算法标识：runtime/transform.py:solve
+source_identity：{
+  "AST_sha256": "f7ec4e2b514642340b4e8f667e41f4004cf04bc7d9fd54d14a0bbbca88e4c0de",
+  "first_line": 72,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "solve",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='pool'), arg(arg='receipt_on')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=True)])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+45. runtime/transform.py:origin_ports
+算法解释：{
+  "inputs": "base/world/math",
+  "operations": "按实际generationrates形成gross与rho；多rhs有理解每origin；核每式、非负、和=current",
+  "outputs": "全ports/gross/retention",
+  "preconditions_and_limits": "不能把旧固定b origin函数用于theta非1；控制/成本消费比例同世界，不跨world。",
+  "purpose": "每诊断同解全部真实源追踪"
+}
+条目分类：exact_old_AST_reuse
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:origin_ports"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "精确445 generic effective-generation函数，原缺金拓扑假设未移入，当前全五元素环由实际Gauss求解；同来源总和current核查，独立oracle用五步环闭式。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/transform.py:origin_ports
+source_identity：{
+  "AST_sha256": "be7647fa5183ddd871ac7e7e273c204193f1c01b06e67925421016dbbddcfd81",
+  "first_line": 88,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "origin_ports",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[
+  {
+    "contract": "reference/old445_function_explanations105.json",
+    "exact_AST": true,
+    "old_actual_IO": "reference/old445_key_function_actual_IO.json.gz",
+    "old_current_IO_records": [],
+    "older_precise_reuse": [
+      {
+        "AST_equal": true,
+        "artifact": "source/source428b_changed_function_IO.json.gz",
+        "record": "runtime/wu_core.py:origin_ports"
+      }
+    ],
+    "record": "runtime/current_wu.py:origin_ports"
+  }
+]
+
+46. runtime/transform.py:actual_effects
+算法解释：{
+  "inputs": "base/world/同world origin_ports",
+  "operations": "共池按weights给所有演员来源份额；枚举生/克，每控制目标以全攻击与gross求实际钳位；记录传输/实损/生入保留；逐演员reserve/actual/withheld与五元素完整平衡。",
+  "outputs": "所有带kind生克边、来源分项、clamps、演员预算和五账；实体/原根全保。",
+  "preconditions_and_limits": "control_capacity非负amount是攻击容量大小，不是正收益；实际损失与负K另记。受生关闭无退款；按共同源分配不可冒演员局部真实力。",
+  "purpose": "将同一当前量分解为全部实际正负边、来源和费用"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:actual_effects"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/transform.py:actual_effects
+source_identity：{
+  "AST_sha256": "ada17d5456758d2100a4e40c19ea9c542ca140491f650e4c7b81d64cf5ec486f",
+  "first_line": 104,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "actual_effects",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+47. runtime/transform.py:original_root_trace
+算法解释：{
+  "inputs": "base、同world/ports/graph",
+  "operations": "只取日/合干原明演员，保每根qualified_input；逐原根源在原元素/化神及全5元素的actualcurrent求和，同时保原元素总current、演员共池份额。",
+  "outputs": "两方逐根/原角色/原元素现量、同源各池留存及所有非化神原元素现量。",
+  "preconditions_and_limits": "根在化神保留不等根仍在原神；两者不互相替代。是否被压0由全图算；不能由真化/相合label先清零。",
+  "purpose": "显示原日与原合干的原根资格、真实残留和同源转入各元素"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:original_root_trace"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/transform.py:original_root_trace
+source_identity：{
+  "AST_sha256": "ce4ffc249ec2bba3ceb0f217ce002eb6ab4f41a155d171447ed4066378aae2af",
+  "first_line": 134,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "original_root_trace",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='graph')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+48. runtime/transform.py:complete_goals
+算法解释：{
+  "inputs": "base、同一actual与receipt_off记录",
+  "operations": "source footprint独立；化神current>0/真实根源在化神存活、current>双方非化神原元素current、retention>1/5为工程形成门；再核泄神current/真实生入/比关受生多的输出；按每泄神演员汇总实际保留信用及真实化神根来源。",
+  "outputs": "formation_current_checks及证书、全部hardchecks、peractor actualcredits/rootcredits、化神current/32、实际输出差。",
+  "preconditions_and_limits": "旺有余宜泄是先选源题；数字门不是原文真化/旺余的通用必要定理，也不能覆盖阴寒/燥湿/不足生助。1/32不指产品B。",
+  "purpose": "把来源足域与充分工程形成、具名旺化出口分开判"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:complete_goals"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/transform.py:complete_goals
+source_identity：{
+  "AST_sha256": "019ea131c67d9999d74fd65450df6596fe9545e5515c19036e1d20875ec4fce0",
+  "first_line": 148,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "complete_goals",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='actual'), arg(arg='off')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+49. runtime/transform.py:complete_H
+算法解释：{
+  "inputs": "base.outlet_ids与完整goal",
+  "operations": "遍历2^n子集；所有hardchecks先满足，总actual受生信用>0且>=化神current/32，各入选成员原化神根信用>0才成立；保全mask真值、取包含最小H和极大失败补集CNF。",
+  "outputs": "all_rows/全部最小H/CNF/all_masks及固定实际世界语义。",
+  "preconditions_and_limits": "1/32约束选定集合总信用，不要求每演员分别达到；候选选择不删实体/原负作用，不能从H并集断最终喜用或缺失元素。",
+  "purpose": "完整枚举实际泄神支持替代组合"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:complete_H"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/transform.py:complete_H
+source_identity：{
+  "AST_sha256": "f9431ccaaef34cd458a5f6f12ff7826996db14f5dce7e688809298621076b831",
+  "first_line": 165,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "complete_H",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='goal')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+50. runtime/transform.py:native_H
+算法解释：{
+  "inputs": "base、完整logic/goal、已采用aux",
+  "operations": "投影所有可选泄神演员与每个有真实演员的元素一个不可选见证（初库存0亦保），最多12；hardgoal与CNF逐项建原生图；原select结果最小集与全mask真值逐一对照。全物理图另保。",
+  "outputs": "原生graph/result、全mask等价数与省略不可选演员ID。",
+  "preconditions_and_limits": "不是删全图，也不把投影当全部原明藏；不从H推needed_absent或完成干预；actualhardfail与空支持不等known无须支持。 原AUX present_current字段在此为真实实体在场，不声称current>0；真实零库存原日作不可选见证，不是needed_absent或新造实体。",
+  "purpose": "把全真值支持结构精确接原AUX"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:native_H"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：false
+算法标识：runtime/transform.py:native_H
+source_identity：{
+  "AST_sha256": "2a7f12f5e1e1ea000bbb1b40552631fe021806b68b98a101f3ff398297467eeb",
+  "first_line": 176,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "native_H",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='logic'), arg(arg='goal'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+
+51. runtime/transform.py:analyze
+算法解释：{
+  "inputs": "base、math/pool/aux",
+  "operations": "受生开/关各重解完整current/来源/正负/费用/原根；actual全图算完整goal/H/原生等价；两个证书分存，只有全hard与非空完整H才给具名泄神条件辅助；失败保全物理与原因。",
+  "outputs": "actual_complete_world、all_outlet_receipt_off_samecost_world、原根/完整goals/H/native、conditional_auxiliary_element或未立原因、全元素差。",
+  "preconditions_and_limits": "输出是具名旺化泄秀充分任务，不能冒全传统最终喜用/主次；来源、物理、辅助三知识态分开，未立不默认化神或泄神。",
+  "purpose": "四式统一执行来源已准后的两个完整世界及辅助链"
+}
+条目分类：explicit_new_or_adapted_contract
+本版实际输入输出记录：[
+  {
+    "artifact": "actual/r1_key_function_actual_IO.json.gz",
+    "record": "runtime/transform.py:analyze"
+  }
+]
+本版范围：[
+  "25项r1当前真实IO，其余26按精确旧AST/合同/旧IO复用，未冒新trace或全分支覆盖。",
+  "r1当前IO采用合法零初金/无金根的辛日完整main，真实采到零witness接收/实体系数/原生见证；原0.1 IO/90预期保留为历史，不冒已验证修复。"
+]
+exact_baseline505_AST：true
+算法标识：runtime/transform.py:analyze
+source_identity：{
+  "AST_sha256": "2f449fa2956bff7a86665704173898ae5ae9d0816f858524aaf748f627644e03",
+  "first_line": 198,
+  "module_sha256": "f6ad027bc1785770f5c171e14516f77793ab445cb8696e0952e750028caeecdd",
+  "qualified_name": "analyze",
+  "relative_path": "runtime/transform.py",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='pool'), arg(arg='aux')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+source_layers：原注374与任注376分题；算法/库存/参数/阈值/关系定义是工程层。实现通过不等现实预测有效。
+verified_old_contract_IO_reuse：[]
+

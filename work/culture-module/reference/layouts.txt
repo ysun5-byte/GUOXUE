@@ -1,0 +1,11 @@
+{"kind":"layout","id":"ly/atofqts7","editable":false,"name":"","type":"master"}
+{"kind":"layout","id":"ly/ux4ruhcv","editable":false,"name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title"},{"name":"subtitle","type":"subtitle"}]}
+{"kind":"layout","id":"ly/p83mt83u","editable":false,"name":"Section Header","type":"","placeholders":[{"name":"title","type":"title"}]}
+{"kind":"layout","id":"ly/4v2ps7ql","editable":false,"name":"Title and Body","type":"","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/3yt8jipk","editable":false,"name":"Title and Two Column","type":"","placeholders":[{"name":"title","type":"title"},{"name":"Left column","type":"body"},{"name":"Right column","type":"body"}]}
+{"kind":"layout","id":"ly/elwrupwj","editable":false,"name":"Title and One Column","type":"","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/14ra9krq","editable":false,"name":"Blank","type":"blank"}
+{"kind":"layout","id":"ly/07y1cjyt","editable":false,"name":"9_Blank","type":"","placeholders":[{"name":"Picture Placeholder 10","type":"picture"},{"name":"Picture Placeholder 10","type":"picture"},{"name":"Picture Placeholder 10","type":"picture"},{"name":"Picture Placeholder 10","type":"picture"}]}
+{"kind":"layout","id":"ly/bqdgbyxk","editable":false,"name":"10_Title Slide","type":"","placeholders":[{"name":"picture","type":"picture","textPreview":"Insert Image"}]}
+{"kind":"layout","id":"ly/m1sra9c7","editable":false,"name":"12_New Chapter 2","type":"","placeholders":[{"name":"picture","type":"picture"}]}
+{"kind":"layout","id":"ly/2t4jax8v","editable":false,"name":"智道石墨黑内容版式","type":""}

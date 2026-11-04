@@ -1,0 +1,2436 @@
+双地区项与上海新明确版本
+rev161_SH2021_named_frame
+所属原模块：C04
+当前采用：rev163_SH2021_project_adoption.json
+范围：同框架的古九州当地属性与相对出生地方向分别算。上海仅在所选2021现代具名文化解释版本中归扬火；旧版本继续保留，不自动最新版，不当古代精确GIS。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev161_SH2021_named_frame/docs/algorithm_index.json
+SHA256：95e652d80a9b711a0b2632e7dab72494c725c9e6d54a3a695f0bc08239d3f8d8
+
+{
+  "algorithm_rows": 51,
+  "inherited_runtime_algorithm_groups": 13,
+  "auxiliary_rows": 38,
+  "target_callable_IO_count": 43,
+  "source_or_location_truth_authenticated": false,
+  "new_traditional_capability_count": 0
+}
+原件：work/rev161_SH2021_named_frame/docs/native_region_lookup_v0_10_算法说明.json
+SHA256：a09931cb90db333bc8b5534225353523ab7814f0d833036f22eccb80bb033c55
+
+1. NRL01
+算法标识：NRL01
+title：严格JSON、规范摘要与全部固定字节先核
+输入：[
+  "原JSON请求",
+  "全部锁定依赖及lock"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "拒重复键/非有限数",
+  "精确字段与trimmed字符串",
+  "先读全量固定字节逐SHA核，再严格读JSON，最后exec已核旧源码",
+  "额外固定3份SC研究来源原文文件；全部active固定来源字节先核。旧lookup1完整33文件字节历史另存并由只读runner逐SHA核，不执行为新产品结果。"
+]
+why_calculated_this_way：摘要保证内容一致和来源绑定，不认证史地/原典真值；后项坏字节不能在旧源码已执行后才发现。
+basis_nature：engineering_contract
+输出：[
+  "合法请求/固定pack或硬拒"
+]
+does_not_guarantee：[
+  "不认证来源真值"
+]
+error_and_unknown_boundaries：[
+  "缺文件、错锁、错SHA不降unknown"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_10/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.10",
+    "file_sha256": "f83b85b104f1f990669a404801228e761a2e747318055707bdcd1499076e9970",
+    "symbols": [
+      {
+        "name": "ContractError.__init__",
+        "start_line": 25,
+        "end_line": 27,
+        "ast_sha256": "dd04c55d3678e6a8bb7882537b1a6d54576f77b7fafdd0ab001d0dce6f4d8ecf"
+      },
+      {
+        "name": "canonical",
+        "start_line": 30,
+        "end_line": 31,
+        "ast_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+      },
+      {
+        "name": "digest",
+        "start_line": 34,
+        "end_line": 35,
+        "ast_sha256": "d1bfb3c39d40eba325f5da0764662786680743ab0388fe32af4efd8099a44305"
+      },
+      {
+        "name": "load_request",
+        "start_line": 38,
+        "end_line": 50,
+        "ast_sha256": "6f3267e06bcbc0717041eadb164bf7d343fa619777c150aa22165d95d3dfc6bc"
+      },
+      {
+        "name": "obj",
+        "start_line": 53,
+        "end_line": 55,
+        "ast_sha256": "989aa118169da160b901865ae4adf045b39b017658ee7c461f22925bd48c68c0"
+      },
+      {
+        "name": "text",
+        "start_line": 58,
+        "end_line": 60,
+        "ast_sha256": "66ca2edce8b2468b7108d13a12cc846898c2a31b6615a9ef4b599ddcfa86f34b"
+      },
+      {
+        "name": "sha",
+        "start_line": 63,
+        "end_line": 65,
+        "ast_sha256": "cc8ff88fe3d5c7b222a0cfea4b57261d7a002e5c45d3c4c70ccf8fe08f3b53ce"
+      },
+      {
+        "name": "check_ref",
+        "start_line": 72,
+        "end_line": 77,
+        "ast_sha256": "b8794b7fb54d10430318f94866d7167558b6207bcc4ddccd8ad511bfcdb16bb9"
+      },
+      {
+        "name": "region_ref",
+        "start_line": 80,
+        "end_line": 84,
+        "ast_sha256": "74d75c9225f648e78c4ba197f31f9dba9f5ee23510a1abb4e560ef9adab68197"
+      },
+      {
+        "name": "load_pack",
+        "start_line": 87,
+        "end_line": 107,
+        "ast_sha256": "ce0055d41252198afef38d97638af592075dba2fddbc0be38787c6e560789bbf"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+2. NRL02
+算法标识：NRL02
+title：完整来源、点与typed identity绑定
+输入：[
+  "完整固定sources/points/records"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "所有提供来源包括未用来源先验",
+  "完整source_ref解引用",
+  "点SHA与R5完整SHA绑定，typed同kind/namespace/id/version变内容拒",
+  "新active catalog的旧sources/records/points逐对象等旧版前缀，后缀逐对象等冻结SC raw草案；不把草案原先未执行标记改写为过去已执行。"
+]
+why_calculated_this_way：未命中地区不能跳坏未选记录；点可用性与史地归属不同轴。
+basis_nature：engineering_content_binding
+输出：[
+  "全量合法身份/refs或原子硬拒"
+]
+does_not_guarantee：[
+  "不认证reviewed/完整性宣言为事实",
+  "不承诺跨运行注册"
+]
+error_and_unknown_boundaries：[
+  "坏unused point/source也拒，合法CRS未知是点语义未定"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_10/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.10",
+    "file_sha256": "f83b85b104f1f990669a404801228e761a2e747318055707bdcd1499076e9970",
+    "symbols": [
+      {
+        "name": "ref",
+        "start_line": 68,
+        "end_line": 69,
+        "ast_sha256": "a1bfb032661c13fa073f9f1a98e966bbffecc2ba8d2a74ea4dafd8a997c505dd"
+      },
+      {
+        "name": "validate_point",
+        "start_line": 137,
+        "end_line": 168,
+        "ast_sha256": "4927ecb22b1384d72862efc592f9381316a3a08bd0b29db82c21be168b93aa10"
+      },
+      {
+        "name": "validate_catalog.guard",
+        "start_line": 187,
+        "end_line": 196,
+        "ast_sha256": "a6b56341c807fe2ff487b8318f934e119ca6aa375adc19e191c13f2c2f1b82db"
+      },
+      {
+        "name": "validate_catalog.source_refs",
+        "start_line": 210,
+        "end_line": 220,
+        "ast_sha256": "7b33b54676a9fe46a3ac0ae95dcead34258bb68d169b9cbe07b73e66d1127595"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+3. NRL03
+算法标识：NRL03
+title：每条完整Rn原请求实际执行
+输入：[
+  "全部目录原Rn请求/target R7/请求SHA"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "先核wrapper与原目标全文",
+  "真实旧evaluate处理全部原始evidence",
+  "不按将选地区裁剪，不消费给定ready",
+  "原生hard error整体拒，unknown/ambiguous保留"
+]
+why_calculated_this_way：沿用冻结Rn原约束，防止选择湖南时隐藏江苏坏请求；全源来源推论仍与产品采用分层。
+basis_nature：actual_fixed_native_execution
+输出：[
+  "完整实际原生报告及执行trace"
+]
+does_not_guarantee：[
+  "标量资料不证明整评估窗",
+  "不认证古今实际界址"
+]
+error_and_unknown_boundaries：[
+  "Rn跨元素不私选/均分；未审和缺覆盖仍未定"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_10/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.10",
+    "file_sha256": "f83b85b104f1f990669a404801228e761a2e747318055707bdcd1499076e9970",
+    "symbols": [
+      {
+        "name": "validate_catalog",
+        "start_line": 171,
+        "end_line": 295,
+        "ast_sha256": "00344c66835dc6a1f0dcc4e569f47146155dd88688c9dbb401ce774b0148e918"
+      }
+    ]
+  },
+  {
+    "path": "runtime/native_region_lookup_v0_10/vendor/region_evidence_catalog.py",
+    "module_relative_path": "vendor/region_evidence_catalog.py",
+    "module_version": "region-evidence-catalog-0.1",
+    "file_sha256": "947bfec6837b24e696a0bdf32d0878a9ea16005915f3a8d2c5feab09bfe53bca",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 260,
+        "end_line": 301,
+        "ast_sha256": "eceecaf04a472d5e8df7e8a26142f3f74b22ff122f8c36b5e2276773a78b90ef"
+      },
+      {
+        "name": "evaluate_coverage",
+        "start_line": 172,
+        "end_line": 257,
+        "ast_sha256": "b30c90c2b46934eb2cc209b48db9dcfc68a01e643a2cca5b982a94b32bb09da8"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+4. NRL04
+算法标识：NRL04
+title：精确命名地区身份与版本薄查询
+输入：[
+  "普通namespace/id/version"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "全目录成功校验后再精确查key",
+  "匹配返回完整R7与确切era/scope",
+  "错版仅列可见版本不私选",
+  "未收录不当无影响或零"
+]
+why_calculated_this_way：普通caller不用自找史地数据库；产品明确配置版本，软件不得暗选最高版改变命名范围。
+basis_nature：version_exact_catalog_lookup
+输出：[
+  "region_found/version_not_found/not_found及独立原生轴"
+]
+does_not_guarantee：[
+  "3试点不等全国覆盖",
+  "region_found不等Rn/点均ready"
+]
+error_and_unknown_boundaries：[
+  "错namespace/错版不复用另一领土范围",
+  "SC版本只承载2019全境叙述+MCA2024名码的明列项目identity解释，不宣称2026省界或各年代边界恒等。"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_10/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.10",
+    "file_sha256": "f83b85b104f1f990669a404801228e761a2e747318055707bdcd1499076e9970",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 313,
+        "end_line": 368,
+        "ast_sha256": "091e53ee61341d18033cd2148896f65161ee703402227a9f5dffbd7c1af37097"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+5. NRL05
+算法标识：NRL05
+title：代表点数据独立输出
+输入：[
+  "项目选定点、R5和提供者CRS/来源"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "按固定R2同样type/trim/十进制regex/finite/range门原样核坐标，不清洗或重写；空格/下划线数值串硬拒",
+  "只WGS84且含义已声明、坐标齐才数据available",
+  "缺点或语义未知不抹掉Rn",
+  "不解算两点方向或C0",
+  "SC返回成都GeoNames1815286 PPLA原WGS84 30.66667/104.06667；FIPS32非国标510000。与HN点一起实际经冻结R2 validate_point/resolve_location/calculate兼容回放，方向结果仅独立研究回放，不改变public lookup的Rr/C0/lease=null。"
+]
+why_calculated_this_way：来源给长沙地名点，项目选择其承载湖南粗地区；二者不是全省真实方向/出生位置。
+basis_nature：declared_project_proxy_plus_primary_dataset
+输出：[
+  "point_available/no_record/point_semantically_undetermined"
+]
+does_not_guarantee：[
+  "不是个人位置",
+  "同坐标不同地区不证明C0",
+  "不静改CGCS2000为WGS84"
+]
+error_and_unknown_boundaries：[
+  "坏绑定仍整包硬拒，合法未知只影响点轴",
+  "Decimal可解析不等R2可接收；词法坏值为invalid_input，不降point未知或available"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_10/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.10",
+    "file_sha256": "f83b85b104f1f990669a404801228e761a2e747318055707bdcd1499076e9970",
+    "symbols": [
+      {
+        "name": "point_status",
+        "start_line": 110,
+        "end_line": 118,
+        "ast_sha256": "8094673ea06d5a433a83c8e05cc9e74ec9e04f3bf02b1da49d67be3a2a885c9c"
+      },
+      {
+        "name": "validate_point",
+        "start_line": 137,
+        "end_line": 168,
+        "ast_sha256": "4927ecb22b1384d72862efc592f9381316a3a08bd0b29db82c21be168b93aa10"
+      },
+      {
+        "name": "validate_coordinate",
+        "start_line": 121,
+        "end_line": 134,
+        "ast_sha256": "7ccbefd4abfdb6433ae0285e1f73c2447e1f046030f72ce66a783f328fcedb25"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+6. NRL06
+算法标识：NRL06
+title：原报告保留、研究边界和只读CLI
+输入：[
+  "实际API报告和原请求文件"
+]
+preconditions：[
+  "固定目录与显式研究范围；结构/绑定硬门优先于语义未知"
+]
+steps_or_formula：[
+  "逐轴保留原生candidate/unknown/ambiguous及全文ref",
+  "不创建产品采纳/lease/库存/B/Rr",
+  "CLI硬错误退出2，其余实际查询结果退出0"
+]
+why_calculated_this_way：承认有界正常Rn资料已算通，同时不把资料审阅/推论和软件SHA冒充产品采用或传统效力。
+basis_nature：research_boundary_and_replay
+输出：[
+  "完整JSON及可回放状态"
+]
+does_not_guarantee：[
+  "不升C04分数",
+  "无自然UTC效力",
+  "不计算最终喜用"
+]
+error_and_unknown_boundaries：[
+  "非法JSON独立拒绝，不生成ready摘要"
+]
+implementation_refs：[
+  {
+    "path": "runtime/native_region_lookup_v0_10/native_region_lookup.py",
+    "module_relative_path": "native_region_lookup.py",
+    "module_version": "native-region-lookup-research-0.10",
+    "file_sha256": "f83b85b104f1f990669a404801228e761a2e747318055707bdcd1499076e9970",
+    "symbols": [
+      {
+        "name": "empty_report",
+        "start_line": 298,
+        "end_line": 310,
+        "ast_sha256": "772010d33c85fba62f3224ab8463018b61508de59cf9667ecc8481b1e00292ee"
+      },
+      {
+        "name": "main",
+        "start_line": 371,
+        "end_line": 382,
+        "ast_sha256": "98680ba180450896340e390aaa6160028a48b0d2b4c25585f2deae62d24a223f"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+原件：work/rev161_SH2021_named_frame/docs/new_data_and_auxiliary_algorithms.json
+SHA256：346712827f663e834a3823739de9c8bb3ec7a9906fa8ef6dcc8ffd3311e7f449
+
+1. build_increment.py:read
+算法标识：build_increment.py:read
+输入：固定本地JSON文件
+steps_why_and_outputs：读完整JSON；无latest/缺省空对象。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "f952e752774803ddaff477058949211b39a9705fb5cdc2523844f0403cc7494a",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "read",
+        "start_line": 15,
+        "end_line": 15,
+        "ast_sha256": "165365da25c105273b069e139db74406526caba3b4ae1c2885a35919c4ebf7fe"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+2. build_increment.py:write
+算法标识：build_increment.py:write
+输入：新作者目录的路径与对象
+steps_why_and_outputs：UTF8确定性JSON，禁止NaN；不回写旧冻结件。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "f952e752774803ddaff477058949211b39a9705fb5cdc2523844f0403cc7494a",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "write",
+        "start_line": 18,
+        "end_line": 20,
+        "ast_sha256": "89c37d097b2694b8c229e2dbe42b8672e915dc29e6a4bd202a10b86884d428b8"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+3. build_increment.py:sha
+算法标识：build_increment.py:sha
+输入：真实文件字节
+steps_why_and_outputs：计算SHA256；本地字节绑定不代表远端网页原HTML或来源真值。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "f952e752774803ddaff477058949211b39a9705fb5cdc2523844f0403cc7494a",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "sha",
+        "start_line": 23,
+        "end_line": 23,
+        "ast_sha256": "f44b68eca57557554ed5003be6ebc9cebaf265bd3c6f8465e7e36a1c4a0e6b46"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+4. build_increment.py:digest
+算法标识：build_increment.py:digest
+输入：一个完整JSON对象
+steps_why_and_outputs：规范排序/紧凑JSON后SHA，绑定内容不认证地理真值。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "f952e752774803ddaff477058949211b39a9705fb5cdc2523844f0403cc7494a",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "digest",
+        "start_line": 26,
+        "end_line": 26,
+        "ast_sha256": "c95fb8aef5d97f85e6f7404a960a492855f68b746c41c32295786803b58a284e"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+5. build_increment.py:ref
+算法标识：build_increment.py:ref
+输入：id/version的完整对象
+steps_why_and_outputs：输出id/version/规范SHA三联引用，防同版静默改。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "f952e752774803ddaff477058949211b39a9705fb5cdc2523844f0403cc7494a",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "ref",
+        "start_line": 29,
+        "end_line": 29,
+        "ast_sha256": "a1bfb032661c13fa073f9f1a98e966bbffecc2ba8d2a74ea4dafd8a997c505dd"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+6. build_increment.py:replace_constant
+算法标识：build_increment.py:replace_constant
+输入：一个源码、指定顶层常量、明确值
+steps_why_and_outputs：只替指定声明所在行，剩余全部AST须等价。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "f952e752774803ddaff477058949211b39a9705fb5cdc2523844f0403cc7494a",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "replace_constant",
+        "start_line": 32,
+        "end_line": 35,
+        "ast_sha256": "23b7765960c2073365aff4800aa66d3eaa4ba59e66f0f8bf471f54cba016dd79"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+7. build_increment.py:build
+算法标识：build_increment.py:build
+输入：固定data9快照、已经人工读源的SH卡/语法与配置、新空输出目录
+steps_why_and_outputs：严格追加1来源/1target/1point新版本；旧39/38/34完整对象前缀、原GN坐标/行/CCBY4.0来源不动。输出data10 runtime与摘要；不是网页语义自动解析。只改wrapper声明/locks/profile，原生数学不变。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "build_increment.py",
+    "file_sha256": "f952e752774803ddaff477058949211b39a9705fb5cdc2523844f0403cc7494a",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "build",
+        "start_line": 38,
+        "end_line": 129,
+        "ast_sha256": "8f113f5db4e2a30511e9cddd5ba312320e0aedeffe6b864a097c98ad405d5e32"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+8. author_checks.py:load
+算法标识：author_checks.py:load
+输入：指定源码路径
+steps_why_and_outputs：作者加载当前模块用于真实调用；来源0exec计数从公开evaluate开始，顶层加载另述。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "b44640281d5a81ad28e64eab65c282460a1921c7877fa3fb7864852d4204cfc7",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "load",
+        "start_line": 24,
+        "end_line": 26,
+        "ast_sha256": "6359ab62c49ade51f907b70b2487e45ee842c7b5d123cc668c0b22211dac6a48"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+9. author_checks.py:inventory
+算法标识：author_checks.py:inventory
+输入：实际目录
+steps_why_and_outputs：递归保存所有非缓存文件字节SHA，含嵌套元数据；回放/移位前后逐项比较。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "b44640281d5a81ad28e64eab65c282460a1921c7877fa3fb7864852d4204cfc7",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "inventory",
+        "start_line": 29,
+        "end_line": 30,
+        "ast_sha256": "617403ecba3541bd1ba1db0aa87ece1dfecab2bea2cee0dc8e35450ed2dc9350"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+10. author_checks.py:vector
+算法标识：author_checks.py:vector
+输入：分子/分母向量
+steps_why_and_outputs：还原Fraction作精确C20核验，避免浮点近似当等式。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "b44640281d5a81ad28e64eab65c282460a1921c7877fa3fb7864852d4204cfc7",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "vector",
+        "start_line": 33,
+        "end_line": 33,
+        "ast_sha256": "feca27df26168a53382d9cd3c6da88a19773f6873aaab402a6b0488c99c6df68"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+11. author_checks.py:expected_plan
+算法标识：author_checks.py:expected_plan
+输入：原B/P合成fixture、五层甲寅、旧原GN点、新上海明确ref
+steps_why_and_outputs：先于首次当前API写7组C20手式及6对独立Vincenty/D2预期、3未决请求；新旧相同坐标但不同版本不得C0。没有从当前Z抄标准答案。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "b44640281d5a81ad28e64eab65c282460a1921c7877fa3fb7864852d4204cfc7",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "expected_plan",
+        "start_line": 36,
+        "end_line": 67,
+        "ast_sha256": "e6fd76a2d8bd77ff413403a454ee786a3edc52f780abd1f2064eeb2752e54c74"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+12. author_checks.py:expected_plan.bind
+算法标识：author_checks.py:expected_plan.bind
+输入：完整出生/当前ref及location_claim
+steps_why_and_outputs：重算完整ref与位置声明的规范摘要；不从来源年份捏造位置有效期。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "b44640281d5a81ad28e64eab65c282460a1921c7877fa3fb7864852d4204cfc7",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "expected_plan.bind",
+        "start_line": 42,
+        "end_line": 44,
+        "ast_sha256": "32a78475055eb0c534f569ef7f417dc686653680d54f4023752f724c764cad47"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+13. author_checks.py:expected_plan.make
+算法标识：author_checks.py:expected_plan.make
+输入：指定origin/current、明确版本、合成上下文名
+steps_why_and_outputs：生成可回放的source/profile/claim绑定。只在象征测试中给定甲寅层，B/P保持原合成值；不排历法、不判真实个人喜用。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "b44640281d5a81ad28e64eab65c282460a1921c7877fa3fb7864852d4204cfc7",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "expected_plan.make",
+        "start_line": 45,
+        "end_line": 55,
+        "ast_sha256": "c7e159d9f85c76b1f518eea67975a32e779e898e994f06d01ced2dc28c3ce1e7"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+14. author_checks.py:run
+算法标识：author_checks.py:run
+输入：已固定来源、runtime、事前plan
+steps_why_and_outputs：真实12API/CLI、110断言、7C20手式6几何、旧上海gap/C0/unknown/expired、4毒缺0exec、6strict、完整runtime空目录重建/移位，输出author_actual。开发例不是本批非作者独审。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "b44640281d5a81ad28e64eab65c282460a1921c7877fa3fb7864852d4204cfc7",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run",
+        "start_line": 70,
+        "end_line": 160,
+        "ast_sha256": "3539c1b718bd46863b037b2689f4790f45b5bb96d61636af41f73e8c5df641f8"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+15. author_checks.py:run.need
+算法标识：author_checks.py:run.need
+输入：一个明确布尔预期与名称
+steps_why_and_outputs：失败抛AssertionError；成功只记录软件断言，不提升现实预测效力。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "author_checks.py",
+    "file_sha256": "b44640281d5a81ad28e64eab65c282460a1921c7877fa3fb7864852d4204cfc7",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run.need",
+        "start_line": 72,
+        "end_line": 74,
+        "ast_sha256": "85023279601034b8d8ac34225b04127bb8983206d0f785faea5bb31f7eb5a078"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+16. scope_checks.py:inventory
+算法标识：scope_checks.py:inventory
+输入：实际目录
+steps_why_and_outputs：递归保存所有非缓存文件字节SHA，含嵌套元数据；回放/移位前后逐项比较。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "scope_checks.py",
+    "file_sha256": "8fc557866cb7b77fd5b1c2833767bbf5c832aef66b5ccc8e7f1d37260bb4110c",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "inventory",
+        "start_line": 7,
+        "end_line": 7,
+        "ast_sha256": "aa55cb8e1b4d9464e2b876dd536cceb52b9e1fb64b2b78aa0e3bb7c7a6d645d6"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+17. scope_checks.py:run
+算法标识：scope_checks.py:run
+输入：事前6scope条件组合与原核
+steps_why_and_outputs：实际API/CLI核古县/苏南/皖南/广东局部无全target桥、outer未知均不能闭合；原浙江全域请求仍火。5人工组合+1旧目录回归，不造地理边界。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "scope_checks.py",
+    "file_sha256": "8fc557866cb7b77fd5b1c2833767bbf5c832aef66b5ccc8e7f1d37260bb4110c",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run",
+        "start_line": 8,
+        "end_line": 24,
+        "ast_sha256": "7ba5e8b034647f89b11007b293fa8743187402fc3c4a6263d5c0c5fe42cb431d"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+18. capture_algorithm_io.py:encode
+算法标识：capture_algorithm_io.py:encode
+输入：真实调用参数或返回/异常对象
+steps_why_and_outputs：转换为可保存的JSON数据，保模块/Path类型、Fraction及非字符串键；字节保完整UTF8与SHA。此表示用于审计，不回写算法输入。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "7b14825cb14b5710a376fe7de9644ac327ae6e3433c56206acfa03dfcc19b0ad",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "encode",
+        "start_line": 8,
+        "end_line": 22,
+        "ast_sha256": "0a54b81f689c2b10ef763ee91df30d34f87ab08fd24846bf064d52f01cc5fa5c"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+19. capture_algorithm_io.py:symbols
+算法标识：capture_algorithm_io.py:symbols
+输入：当前实际源码AST
+steps_why_and_outputs：建file/首行→限定函数名索引，避免同名嵌套函数混淆。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "7b14825cb14b5710a376fe7de9644ac327ae6e3433c56206acfa03dfcc19b0ad",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "symbols",
+        "start_line": 24,
+        "end_line": 33,
+        "ast_sha256": "b93d955feba3f6520a74fc7345370c2fc88234a1c97afcabc934883dd70a4aef"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+20. capture_algorithm_io.py:symbols.walk
+算法标识：capture_algorithm_io.py:symbols.walk
+输入：AST节点及父限定名
+steps_why_and_outputs：递归收集实际函数含嵌套/类方法；不把文件名猜成方法版本。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "7b14825cb14b5710a376fe7de9644ac327ae6e3433c56206acfa03dfcc19b0ad",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "symbols.walk",
+        "start_line": 26,
+        "end_line": 32,
+        "ast_sha256": "df42b53c7fb1fa322dddbfea01aa3197760dc422323b68467d01759befc89a6d"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+21. capture_algorithm_io.py:run
+算法标识：capture_algorithm_io.py:run
+输入：当前lookup/composer/safe、已保存事前请求及真实公开回放
+steps_why_and_outputs：新跑5组API/nativeCLI/safeCLI定点轨迹，加非法contract、重复键及NaN；与已保存公开全报告逐字义核对，43/43当前可调用函数有真实输入/返回事件，异常事件分存。旧41函数profile初稿保history，不冒43全覆盖。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "7b14825cb14b5710a376fe7de9644ac327ae6e3433c56206acfa03dfcc19b0ad",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run",
+        "start_line": 35,
+        "end_line": 87,
+        "ast_sha256": "9895ef5b17341bfe0970e2c57e2a7413271f2b22a7f5171b8eaa22f076c1ebaf"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+22. capture_algorithm_io.py:run.profiler
+算法标识：capture_algorithm_io.py:run.profiler
+输入：Python call/exception/return事件
+steps_why_and_outputs：每个真实函数只采第一条调用参数、异常事件及返回事件；异常退出的None不会被写成正常计算成功，需结合exception_events及公开错误报告。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "capture_algorithm_io.py",
+    "file_sha256": "7b14825cb14b5710a376fe7de9644ac327ae6e3433c56206acfa03dfcc19b0ad",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run.profiler",
+        "start_line": 39,
+        "end_line": 54,
+        "ast_sha256": "a563571be95cfc34820b46324083afe87c4df02334439d27fa2347ab3266b3c6"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+23. safe_region_entry.py:execute
+算法标识：safe_region_entry.py:execute
+输入：lookup/compose和一个本地JSON路径
+steps_why_and_outputs：先核指定新core完整字节SHA，再导入原严格parser/evaluate，完整保留未知/错误/原报告；递归或读取失败显式硬拒。函数AST与原safe相同，仅版本/pin声明改。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "safe_region_entry.py",
+    "file_sha256": "4d653d7333873ec54c5000e1647c2e5210eed6e397a990d28455208767ff03cf",
+    "module_version": "safe-national-region-entry-0.7",
+    "symbols": [
+      {
+        "name": "execute",
+        "start_line": 14,
+        "end_line": 35,
+        "ast_sha256": "feb750769e6e54795b4425630a6f6d2462bbaa6f3ae1045d2a0ca2936ba3ac78"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+24. safe_region_entry.py:main
+算法标识：safe_region_entry.py:main
+输入：mode及一个路径的argv
+steps_why_and_outputs：真正打印完整safe报告，结构/依赖错exit2，其他计算或语义未定exit0；不吞noZ、不自动latest。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "safe_region_entry.py",
+    "file_sha256": "4d653d7333873ec54c5000e1647c2e5210eed6e397a990d28455208767ff03cf",
+    "module_version": "safe-national-region-entry-0.7",
+    "symbols": [
+      {
+        "name": "main",
+        "start_line": 38,
+        "end_line": 44,
+        "ast_sha256": "2cab09f22817de098116e24a454bdf3dde022e20d79fd8c332dc13dbb55906f7"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+25. reference_math.py:vincenty_inverse
+算法标识：reference_math.py:vincenty_inverse
+输入：普通非退化点对的WGS84经纬度
+steps_why_and_outputs：复用既有非作者写的Vincenty反解给本批作者独立验算。当前6普通点对适用，不称全球所有反极点证明。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "reference_math.py",
+    "file_sha256": "7231db27bcaab6ca4c3b324e0430b24489486fc7e308abc7bd099f2dac4ad3a6",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "vincenty_inverse",
+        "start_line": 7,
+        "end_line": 46,
+        "ast_sha256": "1a72689118682400e0f64905badb330b020d24722fa30f4e47e793b41bc74394"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+26. reference_math.py:d2
+算法标识：reference_math.py:d2
+输入：真实反解方向角
+steps_why_and_outputs：按已批北水东北土东木东南木南火西南土西金西北金八锚，相邻45度Fraction插值；份额是工程规格，非古籍百分比。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "reference_math.py",
+    "file_sha256": "7231db27bcaab6ca4c3b324e0430b24489486fc7e308abc7bd099f2dac4ad3a6",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "d2",
+        "start_line": 48,
+        "end_line": 56,
+        "ast_sha256": "0e023d13531fcc4f030dbaede2cef2535344652aa4a3238207895d90f3b88849"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+27. verify_frozen.py:read
+算法标识：verify_frozen.py:read
+输入：固定本地JSON文件
+steps_why_and_outputs：读完整JSON；无latest/缺省空对象。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "c2c96c8e74925f26b7922406b6e4942b656ed5150ccd851f05ee6df2ebf59d8b",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "read",
+        "start_line": 10,
+        "end_line": 10,
+        "ast_sha256": "a31cdd237d6d86d793611fe045c8ab8474ce5ad5864355cfd6fda05c03eb8842"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+28. verify_frozen.py:inventory
+算法标识：verify_frozen.py:inventory
+输入：实际目录
+steps_why_and_outputs：递归保存所有非缓存文件字节SHA，含嵌套元数据；回放/移位前后逐项比较。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "c2c96c8e74925f26b7922406b6e4942b656ed5150ccd851f05ee6df2ebf59d8b",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "inventory",
+        "start_line": 13,
+        "end_line": 14,
+        "ast_sha256": "617403ecba3541bd1ba1db0aa87ece1dfecab2bea2cee0dc8e35450ed2dc9350"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+29. verify_frozen.py:symbols
+算法标识：verify_frozen.py:symbols
+输入：一个真实Python文件
+steps_why_and_outputs：取得完整AST和含类/嵌套的限定名。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "c2c96c8e74925f26b7922406b6e4942b656ed5150ccd851f05ee6df2ebf59d8b",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "symbols",
+        "start_line": 17,
+        "end_line": 24,
+        "ast_sha256": "441001e8f46131f229243caa68ebc878c5991535e13fc88f6e425f03c43036dc"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+30. verify_frozen.py:symbols.visit
+算法标识：verify_frozen.py:symbols.visit
+输入：父AST和前缀
+steps_why_and_outputs：递归保实际命名作用域，避免只按函数短名混绑。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "c2c96c8e74925f26b7922406b6e4942b656ed5150ccd851f05ee6df2ebf59d8b",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "symbols.visit",
+        "start_line": 19,
+        "end_line": 23,
+        "ast_sha256": "4dfcb3c5eeaaf8622e7b23b156dd4a3161e4f7e0f5c1c941c8851d6fd76416ec"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+31. verify_frozen.py:literal_version
+算法标识：verify_frozen.py:literal_version
+输入：一个顶层AST
+steps_why_and_outputs：只读真实VERSION常量；无VERSION的作者/文档脚本登记null。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "c2c96c8e74925f26b7922406b6e4942b656ed5150ccd851f05ee6df2ebf59d8b",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "literal_version",
+        "start_line": 27,
+        "end_line": 29,
+        "ast_sha256": "c58e4456b60802824f1de2cb87289e322313df9aa6b796525f72435740854858"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+32. verify_frozen.py:run
+算法标识：verify_frozen.py:run
+输入：当前完整manifest/freeze/算法文档/回放
+steps_why_and_outputs：只读逐字节、文件数、每个实际SHA/literalVERSION/AST/行号和新回放检查；scope与43实际IO亦核。不认证文章史地含义或现实作用。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "verify_frozen.py",
+    "file_sha256": "c2c96c8e74925f26b7922406b6e4942b656ed5150ccd851f05ee6df2ebf59d8b",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run",
+        "start_line": 32,
+        "end_line": 67,
+        "ast_sha256": "aa74ac76b147c8c8c6e5d91551b788552de07efeedecf81a17ce915ce956d8b9"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+33. document_and_freeze.py:read
+算法标识：document_and_freeze.py:read
+输入：固定本地JSON文件
+steps_why_and_outputs：读完整JSON；无latest/缺省空对象。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "241f3af3337cac024cb8e64b1f6ce2565a9b13608632d3598447c074ee41ac32",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "read",
+        "start_line": 9,
+        "end_line": 9,
+        "ast_sha256": "96a757168d9b80f107ccfac925e964ad6a86778bcc1fb0e7a4518518b731bf85"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+34. document_and_freeze.py:write
+算法标识：document_and_freeze.py:write
+输入：新作者目录的路径与对象
+steps_why_and_outputs：UTF8确定性JSON，禁止NaN；不回写旧冻结件。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "241f3af3337cac024cb8e64b1f6ce2565a9b13608632d3598447c074ee41ac32",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "write",
+        "start_line": 10,
+        "end_line": 10,
+        "ast_sha256": "f6c34c1c509a44cf80ba8f3c936ce5bf30f19a11b7c78ccee8380421a168dffb"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+35. document_and_freeze.py:binding
+算法标识：document_and_freeze.py:binding
+输入：实际源码与限定名
+steps_why_and_outputs：输出当前文件SHA、真实VERSION、AST/行号引用，旧数学解释复用时重绑真实新声明。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "241f3af3337cac024cb8e64b1f6ce2565a9b13608632d3598447c074ee41ac32",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "binding",
+        "start_line": 11,
+        "end_line": 13,
+        "ast_sha256": "ca981235b80f72451a5b4ac520df91b0d5cfebc85522e6ac5b3adc3e7206859b"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+36. document_and_freeze.py:description
+算法标识：document_and_freeze.py:description
+输入：指定作者/运行辅助函数的文件名和限定名
+steps_why_and_outputs：显式文字解释输入、操作与输出；未登记函数硬失败，禁止空泛占位。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "241f3af3337cac024cb8e64b1f6ce2565a9b13608632d3598447c074ee41ac32",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "description",
+        "start_line": 15,
+        "end_line": 54,
+        "ast_sha256": "1e368894563329bca2027c38567f1fd5d7bf2c19ac6a7a1bdeb570971dc0c4e9"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+37. document_and_freeze.py:run
+算法标识：document_and_freeze.py:run
+输入：已通过的作者证据、来源、旧数学文档与实际源码
+steps_why_and_outputs：复用13原数学组但把实际当前版本/数量/locks写清；旧文档顶层残留0.8和早期4/2/19计数原样存历史元数据，在本版纠正。生成6实质来源规则、所有辅助函数解释、manifest/freeze；不改原395/政策。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "241f3af3337cac024cb8e64b1f6ce2565a9b13608632d3598447c074ee41ac32",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run",
+        "start_line": 56,
+        "end_line": 121,
+        "ast_sha256": "4e3c2381def863bc12113369e5e3635b2f69d63769697a0b0f3f936a91f44f68"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+38. document_and_freeze.py:run.stripped
+算法标识：document_and_freeze.py:run.stripped
+输入：旧/新源码及逐项允许常量
+steps_why_and_outputs：仅去声明允许的VERSION/PINS或locks/profileSHA，完整剩余AST比较；不删功能/生克/向量/几何来宣称等价。
+basis_nature：engineering_or_fixed_spec_or_source_scope_extraction
+implementation_refs：[
+  {
+    "path": "document_and_freeze.py",
+    "file_sha256": "241f3af3337cac024cb8e64b1f6ce2565a9b13608632d3598447c074ee41ac32",
+    "module_version": null,
+    "symbols": [
+      {
+        "name": "run.stripped",
+        "start_line": 89,
+        "end_line": 90,
+        "ast_sha256": "a656d453090a083198b323d6d93378755d504c116951878e407bd8d043f269bb"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+actual_IO_scope：runtime lookup/composer/safe 43 functions separately traced; other writer/oracle/check helpers are exercised as described, not falsely called new target IO
+limits：[
+  "人工具名语义须另人读源",
+  "固定数学/程序测试不认证地理或预测效力",
+  "作者例非新非作者审查",
+  "原B/P为合成fixture；不作个人喜用判断"
+]
+
+原件：work/rev161_SH2021_named_frame/docs/region_lookup_composer_v0_10_算法说明.json
+SHA256：435e89f3627113dffa7002ba3924375ec898f24f3f786b390544c94438af50bb
+
+1. RLC01
+算法标识：RLC01
+title：严格JSON与全部固定字节先核
+输入：[
+  "完整普通请求",
+  "dependency_lock、研究profile、50份固定依赖快照"
+]
+preconditions：[
+  "有限JSON对象；无重复键/非有限数；全部依赖核完才exec"
+]
+steps_or_formula：[
+  "严格解析并递归限制JSON值；规范UTF8排序摘要。",
+  "核lock/profile固定SHA；完整snapshot文件集、大小、SHA与JSON；全部读核完成后执行两固定模块并加载其原依赖。"
+]
+why_calculated_this_way：软件绑定先于notfound或语义unknown，后项坏字节不能被先查地区绕过。摘要只证明内容一致。
+basis_nature：engineering_contract
+输出：[
+  "已核pack或硬拒"
+]
+does_not_guarantee：[
+  "来源现实真值、软件外历史修改检测"
+]
+error_and_unknown_boundaries：[
+  "缺文件/多文件/错锁/SHA/路径逃逸硬拒；不降unknown"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_10/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.10",
+    "file_sha256": "b897f9ae99149d3e2f70f36f4f8475cb2ecbdad3a474537bd9c6087a38aed3b8",
+    "symbols": [
+      {
+        "name": "ContractError.__init__",
+        "start_line": 29,
+        "end_line": 31,
+        "ast_sha256": "dd04c55d3678e6a8bb7882537b1a6d54576f77b7fafdd0ab001d0dce6f4d8ecf"
+      },
+      {
+        "name": "canonical",
+        "start_line": 34,
+        "end_line": 35,
+        "ast_sha256": "3ae84aa782a9e4c0c00eecf4d4a9b3ca2babee5a9940a0faf9244e85ce1deb96"
+      },
+      {
+        "name": "digest",
+        "start_line": 38,
+        "end_line": 39,
+        "ast_sha256": "2708bab42c002905bcec7931ffab494e9ccabed784fc76097c94697bd5a8e2c8"
+      },
+      {
+        "name": "json_tree",
+        "start_line": 42,
+        "end_line": 55,
+        "ast_sha256": "9586ca19af36b08a071aa95e52c6069c0cfdf2f86ab1a9da16c7b3fa31d42020"
+      },
+      {
+        "name": "load_request",
+        "start_line": 58,
+        "end_line": 68,
+        "ast_sha256": "6f3267e06bcbc0717041eadb164bf7d343fa619777c150aa22165d95d3dfc6bc"
+      },
+      {
+        "name": "load_request.pairs",
+        "start_line": 59,
+        "end_line": 65,
+        "ast_sha256": "89e247811acfaaec1a9741ae200978648d1a9b8175ed99ff5d13dfe486c3b737"
+      },
+      {
+        "name": "load_request.nonfinite",
+        "start_line": 66,
+        "end_line": 67,
+        "ast_sha256": "788503789eea1e391bac6a705410c1ae61129aee1d6067b920c2d0087c5a3993"
+      },
+      {
+        "name": "load_pack",
+        "start_line": 86,
+        "end_line": 126,
+        "ast_sha256": "82acc3a5fba34f1395751770e3087738c56199c94cdbaf9a84834e0e4461fb6c"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+2. RLC02
+算法标识：RLC02
+title：普通地区身份、主体方法与完整位置声明绑定
+输入：[
+  "context、两完整exact ref、外部claim及其全文SHA",
+  "原始B/T/P或null"
+]
+preconditions：[
+  "仅本主口径；无caller Rn/Rr/point/coverage/ready"
+]
+steps_or_formula：[
+  "精确字段及非空trim字符串；ref namespace/id/version全部保留。",
+  "claim人物/方法等context，两个ref摘要等真实ref；source/validity全文摘要等required location_claim_sha256。",
+  "所有提供UTC按旧原P.utc词法真实解析，正半开期限；unknown/null保留，不加默认寿命。"
+]
+why_calculated_this_way：caller只声明普通身份与本次外部位置使用范围；source verified是其状态，不是系统认证。合法更改原文和摘要为新声明。
+basis_nature：engineering_binding_and_external_declaration
+输出：[
+  "完整已核普通请求/原claim或硬拒"
+]
+does_not_guarantee：[
+  "行政区永远有效、现实个人位置、源权威"
+]
+error_and_unknown_boundaries：[
+  "不支持方法硬拒；给定摘要矛盾硬拒；unknown或缺界限后续未决"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_10/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.10",
+    "file_sha256": "b897f9ae99149d3e2f70f36f4f8475cb2ecbdad3a474537bd9c6087a38aed3b8",
+    "symbols": [
+      {
+        "name": "obj",
+        "start_line": 71,
+        "end_line": 73,
+        "ast_sha256": "989aa118169da160b901865ae4adf045b39b017658ee7c461f22925bd48c68c0"
+      },
+      {
+        "name": "text",
+        "start_line": 76,
+        "end_line": 78,
+        "ast_sha256": "66ca2edce8b2468b7108d13a12cc846898c2a31b6615a9ef4b599ddcfa86f34b"
+      },
+      {
+        "name": "sha",
+        "start_line": 81,
+        "end_line": 83,
+        "ast_sha256": "cc8ff88fe3d5c7b222a0cfea4b57261d7a002e5c45d3c4c70ccf8fe08f3b53ce"
+      },
+      {
+        "name": "validate_request",
+        "start_line": 129,
+        "end_line": 187,
+        "ast_sha256": "024b5e5da920de48463bab29d30145340fef7602d279b1fc6983b7df60806749"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+3. RLC03
+算法标识：RLC03
+title：原B/T/P实际public composer先核
+输入：[
+  "完整原始B/T/P、context、真实固定composer lock"
+]
+preconditions：[
+  "instant；给定源不得用手填ready替代"
+]
+steps_or_formula：[
+  "系统生成内容绑定的C20预核packet，Rn/Rr/lease明确null。",
+  "真实public compose；保存完整请求/报告/SHA。任何给定B/T/P结构/绑定错误先硬拒，不因地区未收录提前返回。",
+  "system packet/joins身份含完整输入及阶段，两个阶段不会同ID版本改内容。"
+]
+why_calculated_this_way：缺地理因素仍必须核所有提供源；P嵌入base不能补独立B。预核不是最终Z，也不是伪ready证明。
+basis_nature：engineering_native_reexecution
+输出：[
+  "真实预核原报告或硬拒"
+]
+does_not_guarantee：[
+  "B/T/P外部源真值、传统取用自动完成"
+]
+error_and_unknown_boundaries：[
+  "合法B/T/P语义未知可继续查资料但Z最终仍null；结构/绑定错不能跳"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_10/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.10",
+    "file_sha256": "b897f9ae99149d3e2f70f36f4f8475cb2ecbdad3a474537bd9c6087a38aed3b8",
+    "symbols": [
+      {
+        "name": "composer_request",
+        "start_line": 190,
+        "end_line": 203,
+        "ast_sha256": "255fa4fc55e12080adf8d007f5e93905f9cc3725ae455bc2e28beca84971a22b"
+      },
+      {
+        "name": "require_native",
+        "start_line": 206,
+        "end_line": 211,
+        "ast_sha256": "52c0d61a1d57204470b509c0f2977f77c7fe982d8209678aecde4dceec9ca9d7"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+4. RLC04
+算法标识：RLC04
+title：两次精确lookup与Rn/Rr独立轴导出
+输入：[
+  "两个exact region refs",
+  "两个实际lookup完整返回"
+]
+preconditions：[
+  "实际lookup每次全目录硬核及执行原Rn；无最高版/第一条回退"
+]
+steps_or_formula：[
+  "出生和当前分别实际evaluate；保完整原请求/报告/SHA。",
+  "当前原native_request全文成为Rn，不改ambiguous/coverage_undetermined。",
+  "两边target R7准确投影公共R5，目录原point_ref/full record成为Rr；未收录region=null，缺点ref=null。",
+  "同点仅完整id/version/content相同才去重；同身份变内容硬拒。",
+  "新lookup2版真实取得SC2019/MCA2024完整身份及成都PPLA代理；和HN点实际求有向初始方位，SC→HN木1、HN→SC金1，不能直接喂入预算Rr或假点。"
+]
+why_calculated_this_way：文化属性可用性与代表点可用性独立；代表点是项目省会PPLA代理，不代表个人GPS或全域方向。
+basis_nature：source_backed_lookup_plus_explicit_project_mapping
+输出：[
+  "真实Rn、Rr和逐字段映射",
+  "完整两lookup来源/版本/解释"
+]
+does_not_guarantee：[
+  "全国覆盖、苏州全域闭合、不同地区同点C0、外部点补齐"
+]
+error_and_unknown_boundaries：[
+  "JS原生火土歧义保留；SZ原生覆盖未闭保留；任何缺项不作零贡献"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_10/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.10",
+    "file_sha256": "b897f9ae99149d3e2f70f36f4f8475cb2ecbdad3a474537bd9c6087a38aed3b8",
+    "symbols": [
+      {
+        "name": "derive_regions",
+        "start_line": 214,
+        "end_line": 255,
+        "ast_sha256": "64f984e9fd988ff6921592e9c60c89692b3487360c60ac49d4aaf880ae9c9719"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+5. RLC05
+算法标识：RLC05
+title：外部声明绑定本次实际导出的lease
+输入：[
+  "完整claim和已核claim SHA",
+  "实际完整Rn/Rr/context"
+]
+preconditions：[
+  "不创造外部位置真值或自然历史有效期"
+]
+steps_or_formula：[
+  "status/start/end/source逐字段原样复制。",
+  "系统native_request/relative_request及R7/R5全内容摘要直接绑定真实导出。",
+  "lease ID摘要包含完整claim、Rn/Rr、context和研究profile，version固定adapter版本。"
+]
+why_calculated_this_way：声明有效期只许可本次用这些真实导出资料，不把研究资料reviewed写成产品采用。完整内容改变则新lease身份。
+basis_nature：engineering_binding_of_provided_claim
+输出：[
+  "系统绑定lease及身份preimage"
+]
+does_not_guarantee：[
+  "跨运行历史权威、行政沿革长期有效、用户默认数据采用"
+]
+error_and_unknown_boundaries：[
+  "unknown/空界限/过期/未来不补窗，实际composer阻断；半开end时刻已过期"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_10/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.10",
+    "file_sha256": "b897f9ae99149d3e2f70f36f4f8475cb2ecbdad3a474537bd9c6087a38aed3b8",
+    "symbols": [
+      {
+        "name": "bind_lease",
+        "start_line": 258,
+        "end_line": 272,
+        "ast_sha256": "44beb2b20126f743c9d129c8c3c4f8148ca19f6c91984919ee4381552bb9df7f"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+6. RLC06
+算法标识：RLC06
+title：真正第二次C20/D2/C0组合而非查询占位
+输入：[
+  "原B/T/P全文",
+  "真实Rn/Rr/lease及准确join"
+]
+preconditions：[
+  "真实固定composer0.3执行；不复用预核计算报告"
+]
+steps_or_formula：[
+  "再次public compose完整重算，保完整原请求/报告/各native结果与权重。",
+  "固定已批C20系数B4/5、T1/20、Rn1/40、Rr1/40、P1/10；所有数值计算由固定原composer和原API执行。",
+  "严格同地区身份+同完整point_ref且原Rr确证同代理点才C0，仅Rr1/40归B；Rn金仍1/40。",
+  "P明确空时1/10归B，非空用peer_mean；任何未知不归B，完整Z=null。",
+  "全窗只实际验证原提供B/T/P，原evaluation不改；不造at或join，不计算Z，明确unsupported。",
+  "非C0两方向Rr均保1/40且不归B；Rn金仍保1/40。未知位置声明即使两点方位已算，Z也为null。"
+]
+why_calculated_this_way：只为资料进入真实作用路径提供研究验证；已有公式已批不等新资料已批，更不产传统final/B。
+basis_nature：user_approved_formula_executed_with_research_data
+输出：[
+  "native Z或null",
+  "完整原报告与边界flags"
+]
+does_not_guarantee：[
+  "传统效力、最终喜用、window覆盖、默认库存、主题selector呈现"
+]
+error_and_unknown_boundaries：[
+  "原生错误硬拒；未决因子不得均值/填零/C0；无previous"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_10/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.10",
+    "file_sha256": "b897f9ae99149d3e2f70f36f4f8475cb2ecbdad3a474537bd9c6087a38aed3b8",
+    "symbols": [
+      {
+        "name": "evaluate",
+        "start_line": 289,
+        "end_line": 362,
+        "ast_sha256": "33f8c029e67075eba2ce847987a7c96db39b2bf8ec299fe01223eccf68f2fc95"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+
+7. RLC07
+算法标识：RLC07
+title：可复算原文、错误与CLI返回
+输入：[
+  "普通原始输入、完整中间及最终原生回报"
+]
+preconditions：[
+  "输出无B/采纳写入与现实真值认证"
+]
+steps_or_formula：[
+  "保完整input_snapshot/摘要、claim原文、两lookup、导出字段/lease preimage、两次composer请求/结果。",
+  "结构/绑定/固定依赖错显式硬拒；原合法未知报告保留，根Z=null。",
+  "严格CLI仅一原JSON文件；与API完全同值；正常/未知/明确unsupported返回0，硬错2。"
+]
+why_calculated_this_way：调用者和独审能直接复跑原composer输入，不被只见query报告或美化candidate历史字段遮蔽。
+basis_nature：engineering_audit_contract
+输出：[
+  "完整可复算研究回报或显式硬错"
+]
+does_not_guarantee：[
+  "产品采用、活动库存、真实个人位置、历法和传统效力",
+  "lookup2尚未独审，不能声称source acceptance或生产采用；四川全境解释限定2019+MCA2024，不以代理点认证2026行政界或个人位置。"
+]
+error_and_unknown_boundaries：[
+  "window与全国缺口继续开放；native历史candidate字段原样保留"
+]
+implementation_refs：[
+  {
+    "path": "runtime/region_lookup_composer_v0_10/region_lookup_composer.py",
+    "module_relative_path": "region_lookup_composer.py",
+    "module_version": "region-lookup-composer-0.10",
+    "file_sha256": "b897f9ae99149d3e2f70f36f4f8475cb2ecbdad3a474537bd9c6087a38aed3b8",
+    "symbols": [
+      {
+        "name": "empty_report",
+        "start_line": 275,
+        "end_line": 286,
+        "ast_sha256": "ce4e9c5b4d37c5ff59b470c83cceb29688020aa528cfa6c90302c52d87097cb3"
+      },
+      {
+        "name": "main",
+        "start_line": 365,
+        "end_line": 375,
+        "ast_sha256": "c100923064279719da1336f27952b23b3f3f856658934ea4953142bd6e6eadfc"
+      }
+    ]
+  }
+]
+example_refs：[
+  "source/SH2021_Liu_source_card.json",
+  "source/SH2021_scope_logic.json",
+  "expectations_before_actual.json",
+  "author_actual.json",
+  "scope_expectations_before_actual.json",
+  "scope_actual.json",
+  "algorithm_actual_IO.json",
+  "replays/lookup/NEW_SH_FRAME_API.json",
+  "replays/compose/140000_to_310000_API.json"
+]
+current_edition_note：data10只加刘怀玉2021明确今上海的文化命名框架；古县/成陆/后世淮扬分开。原data9全部39/38/34对象精确前缀保留，旧数学不变。
+actual_current_IO_ref：algorithm_actual_IO.json
+

@@ -1,0 +1,1668 @@
+冬木财真实暖工作/普通支持优先/从向净题
+rev529_winter_warm_actual_effect
+所属原模块：C02
+当前采用：rev563_winter_warm_whole_project_adoption.json
+范围：adopted_exact_finite_source_operator_after_independent_review
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev529_winter_warm_actual_effect/algorithm_explanations_all33.json
+SHA256：d9660dc6e5dbb773bf721f3982b8fe4b74c50659b06a89632c4baf07d4420185
+
+1. current.py:canonical
+算法标识：current.py:canonical
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "canonical",
+  "first_line": 10,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1",
+  "module_sha256": "bbaca6f6e4a89f7f3bca0664821f2c1c61443a3e937fd8ecb664dcbb4ad11fc9"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "稳定规范JSON",
+  "inputs": "JSON兼容已pack结果",
+  "operations": "键排序/紧凑Unicode/拒NaN",
+  "outputs_and_limits": "str；CLI另换行，不校验来源",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "seasonal_intent.py:canonical",
+  "AST_sha256": "49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1"
+}
+actual_current_IO：{
+  "id": "current.py:canonical",
+  "first_line": 10,
+  "call_sequence": 1540203,
+  "sample_scope": "actual main with legal other-source chart; complete CLI normal coverage separately in cross_hashseed receipt",
+  "input": {
+    "path": "actual/function_IO/current.py__canonical.input.json.gz",
+    "bytes": 2437,
+    "sha256": "cb6420837d5571dd6228fa54f46caa156f228f5000d94cbfdd6632facf3ba0e4"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__canonical.return.json.gz",
+    "bytes": 2410,
+    "sha256": "9127810a7c46d6cd96ad335b55c41d26bb6b27b418278d32fc808ff098877905"
+  }
+}
+actual_observed_call_count：1
+not_separate_classical_rule：true
+
+2. current.py:pairs
+算法标识：current.py:pairs
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "pairs",
+  "first_line": 11,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "module_sha256": "bbaca6f6e4a89f7f3bca0664821f2c1c61443a3e937fd8ecb664dcbb4ad11fc9"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "拒重复JSON键",
+  "inputs": "解析器键值对",
+  "operations": "逐键出现检测，固定错误不回显原键",
+  "outputs_and_limits": "dict或ValueError；转义重复也拒",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "seasonal_intent.py:pairs",
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24"
+}
+actual_current_IO：{
+  "id": "current.py:pairs",
+  "first_line": 11,
+  "call_sequence": 2,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/current.py__pairs.input.json.gz",
+    "bytes": 153,
+    "sha256": "38b5799d1a75353c9d9b5c330320da6483c5be710fe482c454f947a8dacca6e2"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__pairs.return.json.gz",
+    "bytes": 128,
+    "sha256": "fd21cb169f36d0ec55ce76f59b3d7a7c49731241174458c8db6ca88ee3ed5f3c"
+  }
+}
+actual_observed_call_count：4
+not_separate_classical_rule：true
+
+3. current.py:constant
+算法标识：current.py:constant
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "constant",
+  "first_line": 17,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='v')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6",
+  "module_sha256": "bbaca6f6e4a89f7f3bca0664821f2c1c61443a3e937fd8ecb664dcbb4ad11fc9"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "拒非有限常量",
+  "inputs": "NaN/Infinity标记",
+  "operations": "固定抛ValueError",
+  "outputs_and_limits": "无正常返回；观察器None为异常展开",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "seasonal_intent.py:constant",
+  "AST_sha256": "d51c303dc14baac2266af63f48cb5c4550470d25022c5a1fd0da31b56d7e4ef6"
+}
+actual_current_IO：{
+  "id": "current.py:constant",
+  "first_line": 17,
+  "call_sequence": 1540008,
+  "sample_scope": "actual strict NaN rejection, exception caller verified",
+  "input": {
+    "path": "actual/function_IO/current.py__constant.input.json.gz",
+    "bytes": 81,
+    "sha256": "82e20586b961173b4bc32739357c449c600f0e33323568ca750f3ebe71cc3358"
+  },
+  "completion": "exception_unwind_confirmed_by_caller",
+  "return": {
+    "path": "actual/function_IO/current.py__constant.return.json.gz",
+    "bytes": 63,
+    "sha256": "50d6e55aa05053111d618bed696182aa5e5d45485e6d39d95aab04a12f25eb4e"
+  }
+}
+actual_observed_call_count：1
+not_separate_classical_rule：true
+
+4. current.py:bounded
+算法标识：current.py:bounded
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "bounded",
+  "first_line": 18,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351",
+  "module_sha256": "bbaca6f6e4a89f7f3bca0664821f2c1c61443a3e937fd8ecb664dcbb4ad11fc9"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "限制公开树",
+  "inputs": "API值或已解析JSON",
+  "operations": "深16/节点1000/对象16/列表32/串2000/Unicode标量，float等拒",
+  "outputs_and_limits": "None或ValueError；不是业务schema核对",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "seasonal_intent.py:bounded",
+  "AST_sha256": "9dda0acdab324808676b25c2736c74d1829803a08ace00726c2ad8424fea2351"
+}
+actual_current_IO：{
+  "id": "current.py:bounded",
+  "first_line": 18,
+  "call_sequence": 4,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/current.py__bounded.input.json.gz",
+    "bytes": 277,
+    "sha256": "c6b583a2bca12dd047af8c02d791f9d7b4db454c9e26b300b128874788671460"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__bounded.return.json.gz",
+    "bytes": 62,
+    "sha256": "920484f1f8e30f614f34a720797e472462a001bb22f75bc99482396289981ab8"
+  }
+}
+actual_observed_call_count：4
+not_separate_classical_rule：true
+
+5. current.py:strict_load
+算法标识：current.py:strict_load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "strict_load",
+  "first_line": 32,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22",
+  "module_sha256": "bbaca6f6e4a89f7f3bca0664821f2c1c61443a3e937fd8ecb664dcbb4ad11fc9"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "严格JSON文本",
+  "inputs": "最多5000字符str",
+  "operations": "json.loads重复键/非有限回调，再bounded",
+  "outputs_and_limits": "支持JSON值；根字段在evaluate核",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "seasonal_intent.py:strict_load",
+  "AST_sha256": "adab801ec5baa96545b39695845e31520931acdad1b114f1f97111240b36dc22"
+}
+actual_current_IO：{
+  "id": "current.py:strict_load",
+  "first_line": 32,
+  "call_sequence": 1,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/current.py__strict_load.input.json.gz",
+    "bytes": 285,
+    "sha256": "7bff5e7cbed1c654c3b87d122a1861c6b0bbdcb3e53c60f74873db476732339a"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__strict_load.return.json.gz",
+    "bytes": 276,
+    "sha256": "74bc5555e238f2c0e8c948191babaff99d92a425547e607fd5b791eec4922f55"
+  }
+}
+actual_observed_call_count：3
+not_separate_classical_rule：true
+
+6. current.py:guard
+算法标识：current.py:guard
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "guard",
+  "first_line": 35,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "a0eaf006d2e7710970739a9da728930f1e206e0e5cc2510053d4a7d5c4f39743",
+  "module_sha256": "bbaca6f6e4a89f7f3bca0664821f2c1c61443a3e937fd8ecb664dcbb4ad11fc9"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "在计算前绑定完整来源与运行代码",
+  "inputs": "无参数；固定source_execution_lock与source/runtime/EXTRA目录",
+  "operations": "先核固定锁SHA，再核精确清单、字节长度、SHA、非软链和包含路径；只返回已核字节",
+  "outputs_and_limits": "material映射；任一坏源在provider执行前拒绝；此完整性不认证引文或现实效果",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "current.py:guard",
+  "first_line": 35,
+  "call_sequence": 7,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/current.py__guard.input.json.gz",
+    "bytes": 67,
+    "sha256": "8996dda5d33dc920f7630ba60253aec24e4866749656f55b8cd99cd030cfde54"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__guard.return.json.gz",
+    "bytes": 1597,
+    "sha256": "65843846f61ee768b441313d5204a262b29644418305ba82e2ebc4dba4d6b430"
+  }
+}
+actual_observed_call_count：2
+not_separate_classical_rule：true
+
+7. current.py:load
+算法标识：current.py:load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "load",
+  "first_line": 48,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='path'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f",
+  "module_sha256": "bbaca6f6e4a89f7f3bca0664821f2c1c61443a3e937fd8ecb664dcbb4ad11fc9"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "只执行已守卫材料",
+  "inputs": "内部模块名/锁内path/material",
+  "operations": "ModuleType+固定filename编译执行",
+  "outputs_and_limits": "module；本函数本身不代guard，唯一公开调用者已先guard",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "seasonal_intent.py:load",
+  "AST_sha256": "3fcb9b86702a34b3c03c65eb41296949a4f1f6979fdbae3d428f5c03b741df7f"
+}
+actual_current_IO：{
+  "id": "current.py:load",
+  "first_line": 48,
+  "call_sequence": 8,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/current.py__load.input.json.gz",
+    "bytes": 1633,
+    "sha256": "c634e8d103152ba70c7240b151ed15047674fe05332530d78cf657f6e3f37e6f"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__load.return.json.gz",
+    "bytes": 232,
+    "sha256": "f6d346c01bb2d11b65c8a1e756c1228ce8d50e4fedd093e88a6db0d68dfafe5d"
+  }
+}
+actual_observed_call_count：12
+not_separate_classical_rule：true
+
+8. current.py:evaluate
+算法标识：current.py:evaluate
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "evaluate",
+  "first_line": 50,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "32efa0cfa4359cc2c597b0ce68bb2c74ecffcd6e4eba6dde4b3d4d214fec5662",
+  "module_sha256": "bbaca6f6e4a89f7f3bca0664821f2c1c61443a3e937fd8ecb664dcbb4ad11fc9"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "固定冬木财品质研究公开入口",
+  "inputs": "exact schema/source_profile/raw_pillars三键对象",
+  "operations": "bounded→固定身份→guard→6实际模块→core.evaluate",
+  "outputs_and_limits": "完整结果；非法四柱与合法别源有别；不是B、主题或产品显示",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "current.py:evaluate",
+  "first_line": 50,
+  "call_sequence": 5,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/current.py__evaluate.input.json.gz",
+    "bytes": 279,
+    "sha256": "c16895fbd0d7e9c42de8fb1a1c9629243bc6e398870cb85519c5179c31969a87"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_exact_reused.py__pack.return.json.gz",
+    "bytes": 13465337,
+    "sha256": "47e1820f76ee18c6243dc6bc12546eb4631bb6447d226ed0e1726ca9d0d02f78"
+  },
+  "observed_same_return_object_as": "runtime/exact_reused.py:pack"
+}
+actual_observed_call_count：2
+not_separate_classical_rule：true
+
+9. current.py:main
+算法标识：current.py:main
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "main",
+  "first_line": 55,
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113",
+  "module_sha256": "bbaca6f6e4a89f7f3bca0664821f2c1c61443a3e937fd8ecb664dcbb4ad11fc9"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "原子CLI",
+  "inputs": "最多20000输入bytes",
+  "operations": "UTF8严格解码→strict_load→evaluate→canonical print；固定错误捕获",
+  "outputs_and_limits": "正常/有效未知0；硬错2，仅rejected/no_partial；输出一newline",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "seasonal_intent.py:main",
+  "AST_sha256": "dc3b236365af6c1ff25a41be1e8609de7fa70b092c0a01d816c4c919bb0aa113"
+}
+actual_current_IO：{
+  "id": "current.py:main",
+  "first_line": 55,
+  "call_sequence": 1540009,
+  "sample_scope": "actual main with legal other-source chart; complete CLI normal coverage separately in cross_hashseed receipt",
+  "input": {
+    "path": "actual/function_IO/current.py__main.input.json.gz",
+    "bytes": 66,
+    "sha256": "1f605c591210b851e181ee58169fa58cb902647943c1ac71b88005ee3a45fdf1"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/current.py__main.return.json.gz",
+    "bytes": 56,
+    "sha256": "da4dbebe8328c1cddac55aed5e8a6414f46b367b632f5519d287429a5c35f306"
+  }
+}
+actual_observed_call_count：1
+not_separate_classical_rule：true
+
+10. runtime/exact_reused.py:pack
+算法标识：runtime/exact_reused.py:pack
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "pack",
+  "first_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "Fraction,dict,list/tuple,set or scalar.",
+  "operations": "Exact rational strings; recursive values; internal tuplekeys joined by |; sets stable-sort by str.",
+  "outputs": "JSON-compatible structure.",
+  "preconditions_and_limits": "Tuplekey conversion is for disjoint internal(element,kind)keys, not a general collision-proof untrusted key encoder; public keys are strings. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Encode internal exact mathematics.",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/exact_reused.py:pack",
+  "AST_sha256": "8995bbd374f6be5bf537f16e678688194835ce866034019cf321a1af7e2d226c"
+}
+actual_current_IO：{
+  "id": "runtime/exact_reused.py:pack",
+  "first_line": 7,
+  "call_sequence": 34248,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_exact_reused.py__pack.input.json.gz",
+    "bytes": 14505335,
+    "sha256": "f2b3293d51b16c1ce6666ab1be1374ac56be0000c0ff6cce7b966392d5be2801"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_exact_reused.py__pack.return.json.gz",
+    "bytes": 13465337,
+    "sha256": "47e1820f76ee18c6243dc6bc12546eb4631bb6447d226ed0e1726ca9d0d02f78"
+  }
+}
+actual_observed_call_count：1505759
+not_separate_classical_rule：true
+
+11. runtime/exact_reused.py:gauss
+算法标识：runtime/exact_reused.py:gauss
+source_identity：{
+  "relative_path": "runtime/exact_reused.py",
+  "qualified_name": "gauss",
+  "first_line": 14,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830",
+  "module_sha256": "e2973eb02bcb865a16fff8c0c8e34f31cdb785970c418f436d902f6e5c64ecfe"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "Nonsingular square rational matrix and same-row RHS.",
+  "operations": "Pivot nonzero row, normalize pivot, eliminate every other row, retain RHS columns.",
+  "outputs": "Exact solution rows; singular raises ArithmeticError.",
+  "preconditions_and_limits": "Arithmetic body reused from363; no fromkill source rule reused. Caller guarantees shape,n>0; zero RHS columns are supported for no-origin zero state. 402calls this unchangedprimitive with the newfixedcoefficients/sourcequestion; it doesnot reuse379fromwang Hsemantics orsourceclassification. Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "Exact multi-RHS Gauss-Jordan linear solve.",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/exact_reused.py:gauss",
+  "AST_sha256": "07fad04109455355cc88f76e01bd03b5e6ab747dde22c9e5147f58e435a42830"
+}
+actual_current_IO：{
+  "id": "runtime/exact_reused.py:gauss",
+  "first_line": 14,
+  "call_sequence": 403,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_exact_reused.py__gauss.input.json.gz",
+    "bytes": 244,
+    "sha256": "67bdb646a189f29583628a38ed8642fc4761f471480fdbcf0943ee5fbc3d31c9"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_exact_reused.py__gauss.return.json.gz",
+    "bytes": 191,
+    "sha256": "a3016b5b56d193ccbe7d3b6ca6151708808039edb70af42a3ef1e182b357cdf5"
+  }
+}
+actual_observed_call_count：27072
+not_separate_classical_rule：true
+
+12. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "十干查五行",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/foundation_facts.py:stem_element",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:stem_element",
+  "first_line": 39,
+  "call_sequence": 18,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__stem_element.input.json.gz",
+    "bytes": 105,
+    "sha256": "a5ccf68059d342655cddbb87bda27bc9a4e1ea45c45fb6c9c77436d910ef7b3a"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__stem_element.return.json.gz",
+    "bytes": 85,
+    "sha256": "41d5f49f72fd2f29095c47de5376b3b4771bf807cfa753ebccec0be7306405d3"
+  }
+}
+actual_observed_call_count：376
+not_separate_classical_rule：true
+
+13. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "严格十神角色",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/foundation_facts.py:ten_god",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:ten_god",
+  "first_line": 45,
+  "call_sequence": 17,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__ten_god.input.json.gz",
+    "bytes": 120,
+    "sha256": "552ceb9ddbf852881ff94bde9926d7928ce3449cdb0c97007ea52cd889c79f4d"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__ten_god.return.json.gz",
+    "bytes": 84,
+    "sha256": "ae8b4b53bb3e22e327ed8dea5b4dd19619317f091c62bd0a3f063a1911d7c2b5"
+  }
+}
+actual_observed_call_count：83
+not_separate_classical_rule：true
+
+14. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原柱基础合法性",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/foundation_facts.py:validate",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:validate",
+  "first_line": 60,
+  "call_sequence": 16,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__validate.input.json.gz",
+    "bytes": 161,
+    "sha256": "827dbe4b898c3ff53014edf55ddabb7705bd9fdef52a163281ed088868d9092a"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__validate.return.json.gz",
+    "bytes": 443,
+    "sha256": "dc2a9438c771d7f9c115d8ad57b7571b350fd9f0c517f742532e8469a6d84b92"
+  }
+}
+actual_observed_call_count：3
+not_separate_classical_rule：true
+
+15. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留有位置的形式合冲",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/foundation_facts.py:formal_relations",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:formal_relations",
+  "first_line": 104,
+  "call_sequence": 151,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__formal_relations.input.json.gz",
+    "bytes": 169,
+    "sha256": "beb1ceb2a085451b6e8fae69e59115967c1e32bf44dc8666a55208443a481a8c"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__formal_relations.return.json.gz",
+    "bytes": 322,
+    "sha256": "dcfa3fbd19d7b84ad7e430926482649c1165556eedabd568aee36d8e04f0abf4"
+  }
+}
+actual_observed_call_count：3
+not_separate_classical_rule：true
+
+16. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/foundation_facts.py:root_evidence",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:root_evidence",
+  "first_line": 121,
+  "call_sequence": 99,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__root_evidence.input.json.gz",
+    "bytes": 174,
+    "sha256": "fc37ace20f5b0b3ce8d6d2efb0c00611927e8a28768a6f3681c80f55d1fbb86c"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__root_evidence.return.json.gz",
+    "bytes": 480,
+    "sha256": "8f5fb1173c497ef060ade533ed7702849fb485551a1ac09ed04a7750779089f4"
+  }
+}
+actual_observed_call_count：12
+not_separate_classical_rule：true
+
+17. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。 Current417caller/coefficients/sourcegoalsreplaceold379/402source/Hquestion; exactprimitivealoneisnotsourceclassification. 433caller/source/model已改变；复用是通用壳/事实/精确算子合同，不继承417或其它源H语义。",
+  "purpose": "原61完整四柱事实入口",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/foundation_facts.py:parse",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748"
+}
+actual_current_IO：{
+  "id": "runtime/foundation_facts.py:parse",
+  "first_line": 148,
+  "call_sequence": 15,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__parse.input.json.gz",
+    "bytes": 158,
+    "sha256": "2245c383fce1cb68248cd68da19aaa2b5922ab4705ccf566849281f14e91d2b5"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_foundation_facts.py__parse.return.json.gz",
+    "bytes": 2274,
+    "sha256": "b6316cb816a3497babdfba82b8cd4bd8755a4fd8fca7ecd3919d245d78ed1728"
+  }
+}
+actual_observed_call_count：3
+not_separate_classical_rule：true
+
+18. runtime/inventory.py:root_explain
+算法标识：runtime/inventory.py:root_explain
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "root_explain",
+  "first_line": 8,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive'), arg(arg='root')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "3272242d66788897bd130198b0b3bd1d77062dea37dbefc0ac4c7e44d32f59e8",
+  "module_sha256": "11a8de0811ae9262633042b382cf211a6778368bdf1e35f67b6a00f1f59df927"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "保留每位原根，分清资格和现效",
+  "inputs": "干、支、既有原始表、纯root模块",
+  "operations": "按该元素阳干共生死参照分类；长生/禄旺7/2、非土墓3/2、主气7/2、其他藏根5/2，否则0",
+  "outputs": "含参照、阶段、藏干、来源层和精确资格的记录",
+  "preconditions_and_limits": "根数/月倍数为继承工程量；金寅绝不删巳金7/2；戊土共火宫移植不认定现力",
+  "source_layer": "纯工程/资料事实辅助；古典语句的边界请见具名规则卡，函数数量不是古典规则数量",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/inventory.py:root_explain",
+  "AST_sha256": "3272242d66788897bd130198b0b3bd1d77062dea37dbefc0ac4c7e44d32f59e8"
+}
+actual_current_IO：{
+  "id": "runtime/inventory.py:root_explain",
+  "first_line": 8,
+  "call_sequence": 153,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_inventory.py__root_explain.input.json.gz",
+    "bytes": 656,
+    "sha256": "e6594bcb0fff7b7df993e7b12f5e3864e926a211d27ba687e8030deab824c647"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_inventory.py__root_explain.return.json.gz",
+    "bytes": 474,
+    "sha256": "9e7e9822096e0f72875580583e6ca767b3c13c99e453030396eefcbbfaabd67e"
+  }
+}
+actual_observed_call_count：40
+not_separate_classical_rule：true
+
+19. runtime/inventory.py:context
+算法标识：runtime/inventory.py:context
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "context",
+  "first_line": 23,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "18414b3259782eebeef1a4fe28f48d99b855130b5e4f37ec1a3226dd571e5774",
+  "module_sha256": "11a8de0811ae9262633042b382cf211a6778368bdf1e35f67b6a00f1f59df927"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "原文金日木财/三季候选而非449跨元素",
+  "inputs": "raw/facts",
+  "operations": "先原四柱自洽合法性，再金日与季节；原formal逐项保，R0固定不额外合化增删",
+  "outputs_and_limits": "源候选或非法/合法别源；工程cue不认证传统太过真值；不声称formal无效",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/inventory.py:context",
+  "AST_sha256": "18414b3259782eebeef1a4fe28f48d99b855130b5e4f37ec1a3226dd571e5774"
+}
+actual_current_IO：{
+  "id": "runtime/inventory.py:context",
+  "first_line": 23,
+  "call_sequence": 260,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_inventory.py__context.input.json.gz",
+    "bytes": 329,
+    "sha256": "60c1b02aff08548daea408b6d37b5153838a9089a2dfc8ade1219364786e041a"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_inventory.py__context.return.json.gz",
+    "bytes": 2497,
+    "sha256": "e850a2049a1234f9a87eed0134fc8f5aae72a4db862fee925aecafb48d974890"
+  }
+}
+actual_observed_call_count：1
+not_separate_classical_rule：true
+
+20. runtime/inventory.py:build
+算法标识：runtime/inventory.py:build
+source_identity：{
+  "relative_path": "runtime/inventory.py",
+  "qualified_name": "build",
+  "first_line": 30,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "73bc8d4c07524815f06b16e87e1d19d1909e869167c93d27d3f3d63465e0cd4e",
+  "module_sha256": "11a8de0811ae9262633042b382cf211a6778368bdf1e35f67b6a00f1f59df927"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "全原演员与四支根、同源不重复",
+  "inputs": "raw/facts/root/primitive",
+  "operations": "每明藏×四支root_explain，原点max一次；非日明干float1，日无新增float；静态份额分配；缺元素零池不造演员",
+  "outputs_and_limits": "base全根/直接原点/份额/源上下文；共池不等演员局部实强或物理守恒",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/inventory.py:build",
+  "AST_sha256": "73bc8d4c07524815f06b16e87e1d19d1909e869167c93d27d3f3d63465e0cd4e"
+}
+actual_current_IO：{
+  "id": "runtime/inventory.py:build",
+  "first_line": 30,
+  "call_sequence": 152,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_inventory.py__build.input.json.gz",
+    "bytes": 702,
+    "sha256": "60c015ce56d7a12cd87bdba4a2b4adda1cf093217467aae855359492ee4365c8"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_inventory.py__build.return.json.gz",
+    "bytes": 4443,
+    "sha256": "bc1c626838080a9423a116bac355b9031a140e5cf125af570341a49104adeb57"
+  }
+}
+actual_observed_call_count：1
+not_separate_classical_rule：true
+
+21. runtime/root_types.py:classify
+算法标识：runtime/root_types.py:classify
+source_identity：{
+  "relative_path": "runtime/root_types.py",
+  "qualified_name": "classify",
+  "first_line": 6,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='branch'), arg(arg='primitive')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396",
+  "module_sha256": "08c6179ee721681916e53cd583e14415e3e1cc4cfec0e73d0060afe8da4f05c2"
+}
+条目分类：exact_old_AST_and_contract_reuse
+contract：{
+  "purpose": "原Primary ROOT类型",
+  "inputs": "合法stem/branch和已捕获原primitive",
+  "operations": "阴阳顺逆按BIRTH/PHASES，同藏/主藏/余气/土本气类型并存",
+  "outputs": "type info",
+  "preconditions_and_limits": "caller已factsparse合法，primitive与ROOT代码源锁；不增加藏干、不判实际强弱。",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：{
+  "document": "rev510_Ren_follow_finance_intent_source/algorithm_explanations_all33.json",
+  "document_sha256": "acf538e40ef4d11199f313817b07dfb05fdd3daa83eaeb0a18cccda02bb258f5",
+  "old_id": "runtime/root_types.py:classify",
+  "AST_sha256": "4fc1eca250089fc00c097b089fe3ec12d1a98082e50b1e8a39877623f846a396"
+}
+actual_current_IO：{
+  "id": "runtime/root_types.py:classify",
+  "first_line": 6,
+  "call_sequence": 154,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_root_types.py__classify.input.json.gz",
+    "bytes": 491,
+    "sha256": "dc58313a257ce9ddc764410c5cdba99f19b2906d42355bd1ff328a10212ac78b"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_root_types.py__classify.return.json.gz",
+    "bytes": 236,
+    "sha256": "68dfc6f62cb69d63c9668d6b81988e5a89a3ecdc9cb9879a1862e74f2270a2c9"
+  }
+}
+actual_observed_call_count：40
+not_separate_classical_rule：true
+
+22. runtime/winter_warm_core.py:source_support
+算法标识：runtime/winter_warm_core.py:source_support
+source_identity：{
+  "relative_path": "runtime/winter_warm_core.py",
+  "qualified_name": "source_support",
+  "first_line": 7,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='po'), arg(arg='bounds')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "05b73d3b8c5e0bf0f825bd54bb06c45ef63220999ca102c2787101c14642f960",
+  "module_sha256": "3853103a792f60e58cc86f264658a344e1ecd837e3a4226338cbb06524ecae0d"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "可靠原根印先于承载不足分流",
+  "inputs": "base/cf/state/po/bounds",
+  "operations": "核原金重根末态/q≥1/2、轻根且金池承负荷、严格金池>5/4负荷；同一原土演员own root>0且该同根活动、该土演员直生金末态信用>0；不拼接别actor/root，不把日自环当外助；先veto再gap",
+  "outputs_and_limits": "四个明式工程veto+全部正负见证；Primary95印赖、Ren从意向与281/522量化转接分别标；半值和5/4不是原文",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_core.py:source_support",
+  "first_line": 7,
+  "call_sequence": 438,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__source_support.input.json.gz",
+    "bytes": 15287,
+    "sha256": "adc0b0c4b9eb2d007e34ccbc7ba47f2776b9a5dcb1e5091b92f20ba5265ee7ef"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__source_support.return.json.gz",
+    "bytes": 1109,
+    "sha256": "46d4005863501ddfaef4e5b41ed2144e423f7e9e84ff130d34b9cf5a18deab68"
+  }
+}
+actual_observed_call_count：846
+not_separate_classical_rule：true
+
+23. runtime/winter_warm_core.py:metrics
+算法标识：runtime/winter_warm_core.py:metrics
+source_identity：{
+  "relative_path": "runtime/winter_warm_core.py",
+  "qualified_name": "metrics",
+  "first_line": 21,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='po'), arg(arg='graph'), arg(arg='bounds'), arg(arg='support')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "c74cdd5686d616eb825b4a146126baa745277e1f2629d3adf20dafcc10bb8669",
+  "module_sha256": "3853103a792f60e58cc86f264658a344e1ecd837e3a4226338cbb06524ecae0d"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "暖木质量与身体/从向资格分开",
+  "inputs": "同一完整base/cf/state/po/graph/bounds/support",
+  "operations": "合原木根末态、实际热work、土实制水、水/原木压力；保全金活动/末态/actualLoad、所有veto；dep=gap>0且无veto且原木正；cold=水末态>原木末态>0",
+  "outputs_and_limits": "完整指标与known missing fire；土印末态0仍可生日正，不由末态0删演员；品质不是从格真或经验预测",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_core.py:metrics",
+  "first_line": 21,
+  "call_sequence": 439,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__metrics.input.json.gz",
+    "bytes": 19210,
+    "sha256": "352e037f5e79454720cc97cc3631ad37656b921bb0d104d5e3aab4359395953f"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__metrics.return.json.gz",
+    "bytes": 1671,
+    "sha256": "f0875161e76bcab48f03bc3492901b9f3abbb66ba7e41d18c23c2db039cd1cae"
+  }
+}
+actual_observed_call_count：846
+not_separate_classical_rule：true
+
+24. runtime/winter_warm_core.py:world
+算法标识：runtime/winter_warm_core.py:world
+source_identity：{
+  "relative_path": "runtime/winter_warm_core.py",
+  "qualified_name": "world",
+  "first_line": 25,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='alpha'), arg(arg='kappa'), arg(arg='math'), arg(arg='exact'), arg(arg='elements'), arg(arg='total'), arg(arg='proof')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load()), Call(func=Name(id='F', ctx=Load()), args=[], keywords=[]), Constant(value=None)])",
+  "AST_sha256": "2085d945a9c74bac15c2b35a2d931eaf1f3ec8b5e52d874293269ba86c7698a9",
+  "module_sha256": "3853103a792f60e58cc86f264658a344e1ecd837e3a4226338cbb06524ecae0d"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "每个数学增补重新同算源门与质量",
+  "inputs": "固定base/cf/α/κ/math/exact、现有元素唯一子集、总Fraction0..2",
+  "operations": "增补共池独立math-input不改原演员/根/份额→activity→origins→bounds→graph→support→metrics",
+  "outputs_and_limits": "全world；不支持不存在的外来火演员不是火忌或总任务完成；与真实流时柱分列",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_core.py:world",
+  "first_line": 25,
+  "call_sequence": 401,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__world.input.json.gz",
+    "bytes": 6252,
+    "sha256": "6023a2d0ff0ac6ca7ff8538730a3954c5454b74eca4eb15ee8a6e120200bf5ab"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__world.return.json.gz",
+    "bytes": 14150,
+    "sha256": "3770189db5647b1b3e5934695fd8a497ada370d39ef329c1ccdec51d9057b645"
+  }
+}
+actual_observed_call_count：846
+not_separate_classical_rule：true
+
+25. runtime/winter_warm_core.py:compare
+算法标识：runtime/winter_warm_core.py:compare
+source_identity：{
+  "relative_path": "runtime/winter_warm_core.py",
+  "qualified_name": "compare",
+  "first_line": 33,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='current'), arg(arg='baseline')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "52ceb2a8a4970bb050527d9dfe9ee164ba3d4d8163d3e6bb5b5a45e993e33338",
+  "module_sha256": "3853103a792f60e58cc86f264658a344e1ecd837e3a4226338cbb06524ecae0d"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "固定三质量目标和从向保持的偏序",
+  "inputs": "current与baseline全部指标",
+  "operations": "基线cold、新原木和热正，压力不升、热不降、土实制水不降且至少一严格；from净还须原新dep都成立",
+  "outputs_and_limits": "quality_net/from_oriented_net分别输出及margins；可靠印对照可品质过而从向不过；不按α/κ成功挑规则",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_core.py:compare",
+  "first_line": 33,
+  "call_sequence": 479,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__compare.input.json.gz",
+    "bytes": 29474,
+    "sha256": "139ccfd38175475300e6922cca77d00a0e75efcd86f2a5391214ffa60b039f84"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__compare.return.json.gz",
+    "bytes": 617,
+    "sha256": "644205cc611b18a01f962b8a0fc086bda10b7a1f32730d3a9931933c50dfb9e1"
+  }
+}
+actual_observed_call_count：837
+not_separate_classical_rule：true
+
+26. runtime/winter_warm_core.py:analyze
+算法标识：runtime/winter_warm_core.py:analyze
+source_identity：{
+  "relative_path": "runtime/winter_warm_core.py",
+  "qualified_name": "analyze",
+  "first_line": 37,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='alpha'), arg(arg='kappa'), arg(arg='math'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "60ad22eda804450b370bd9520dc44a0c23cd186999788d3410692b902ad76590",
+  "module_sha256": "3853103a792f60e58cc86f264658a344e1ecd837e3a4226338cbb06524ecae0d"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "全现有方向、全剂量及阴性并存",
+  "inputs": "base/cf/固定ακ/math/exact",
+  "operations": "一次全域证→基线→现有五行全部非空组合×1/2,1,2，每个重新全world；保全部正负、候选列表与缺项",
+  "outputs_and_limits": "当前已有演员算子完整；缺外来火链仍开，不将不同替代OR合为共同必要或同权喜用",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_core.py:analyze",
+  "first_line": 37,
+  "call_sequence": 399,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__analyze.input.json.gz",
+    "bytes": 5899,
+    "sha256": "5da1c267c2217594367623ffd4c69700367df28a23d9ac154e5ad6f63d84e749"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__analyze.return.json.gz",
+    "bytes": 1635936,
+    "sha256": "e296a4c1cee6edf277459aac3f5c60ff18fba07846100d8bd34803c8e37db96b"
+  }
+}
+actual_observed_call_count：9
+not_separate_classical_rule：true
+
+27. runtime/winter_warm_core.py:evaluate
+算法标识：runtime/winter_warm_core.py:evaluate
+source_identity：{
+  "relative_path": "runtime/winter_warm_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 45,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='params'), arg(arg='facts'), arg(arg='root'), arg(arg='primitive'), arg(arg='inventory'), arg(arg='math'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "d3e0e1de47ca0d4178fa66570b751b1f449fa511814c6069a81c6401ea6596c3",
+  "module_sha256": "3853103a792f60e58cc86f264658a344e1ecd837e3a4226338cbb06524ecae0d"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "原始四柱到具名有限方法完整输出",
+  "inputs": "request/params/facts/root/primitive/inventory/math/exact",
+  "operations": "facts/合法别源分流；金日冬月建库存与系数；3α×3κ全部报告；完整pack；明确来源/工程/现实三轴",
+  "outputs_and_limits": "9组基线与全部组合输出，不B不显示不自采用不提分；全部原冬暖范围未闭合",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_core.py:evaluate",
+  "first_line": 45,
+  "call_sequence": 14,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_core.py__evaluate.input.json.gz",
+    "bytes": 1309,
+    "sha256": "6659cc3ac909d51f065d6c9135e6d173ac3f4b0c052e7f86ec4a89f9b0bae66b"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_exact_reused.py__pack.return.json.gz",
+    "bytes": 13465337,
+    "sha256": "47e1820f76ee18c6243dc6bc12546eb4631bb6447d226ed0e1726ca9d0d02f78"
+  },
+  "observed_same_return_object_as": "runtime/exact_reused.py:pack"
+}
+actual_observed_call_count：2
+not_separate_classical_rule：true
+
+28. runtime/winter_warm_math.py:coefficients
+算法标识：runtime/winter_warm_math.py:coefficients
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "coefficients",
+  "first_line": 5,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='g'), arg(arg='c'), arg(arg='eta'), arg(arg='cut')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "aa11195d63ed305a8039c2255be7478ce7434fa406ca7212e4330aa1433cdece",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "所有生克与暖木端口及发送保留费",
+  "inputs": "全原演员/静态份额、Fraction g∈[1/5,1/4],c∈[2/5,1/2],η∈[0,1/3]、可选具名诊断切边",
+  "operations": "全演员对，近位reach1远位1/2；生与克汇G/C；火→木热口仅品质信用；每口原保留费恰扣一次。切热/生土/制水只切实作不退费用",
+  "outputs_and_limits": "G/C/全边/热口/费率；热非生木新库存；位置、份额、费率均工程约定",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:coefficients",
+  "first_line": 5,
+  "call_sequence": 398,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__coefficients.input.json.gz",
+    "bytes": 4480,
+    "sha256": "e178a4b0d278f0f7a95f10073265ca99a2cf2eb6ffa0b0a147ffc8e9c77acb46"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__coefficients.return.json.gz",
+    "bytes": 1343,
+    "sha256": "e823759a81a7a5b94c99ff6275a566807228c581472d1b9127dc98ed926c558f"
+  }
+}
+actual_observed_call_count：1
+not_separate_classical_rule：true
+
+29. runtime/winter_warm_math.py:contraction
+算法标识：runtime/winter_warm_math.py:contraction
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "contraction",
+  "first_line": 18,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='cf'), arg(arg='alpha'), arg(arg='kappa'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "1de94e9b0201cc68b1d3a6eabd8e83e01df9a86401b47de0afed4a69adb94536",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "证明共同五池max方程全域唯一",
+  "inputs": "固定cf、α∈[0,1]、κ∈[0,3/8]、exact",
+  "operations": "含Rfire绝对斜率构非负B；先木权4/3其余1，若不够只求同B的正resolvent，不换参数或源；核加权范数<1",
+  "outputs_and_limits": "全域收缩证；非按选中活跃面局部拟合；α=1重合分支允许",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:contraction",
+  "first_line": 18,
+  "call_sequence": 400,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__contraction.input.json.gz",
+    "bytes": 1525,
+    "sha256": "67471fbc0594654e16719756ba509f6f35454bd11e91da6e8fa920a0cf76f257"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__contraction.return.json.gz",
+    "bytes": 526,
+    "sha256": "8a8bbd9d593d0bf67a23e4e98e54a7ecd5fceeef47926af26ab8cd864ff5260e"
+  }
+}
+actual_observed_call_count：9
+not_separate_classical_rule：true
+
+30. runtime/winter_warm_math.py:activity
+算法标识：runtime/winter_warm_math.py:activity
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "activity",
+  "first_line": 28,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='alpha'), arg(arg='kappa'), arg(arg='exact'), arg(arg='proof')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])",
+  "AST_sha256": "8a759a1922b79f4aece83f0594b36d64c35fc8311202dd2b221eb1522292cdb6",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "并行活动、末态与实际克耗同时求解",
+  "inputs": "全部原点直接D、cf、α/κ、可复用全域proof",
+  "operations": "32面逆序精确Gauss，代回全部max；gross=D+Gy，available=gross−fy，loss=min(available,Cy+κr火 at木)，r=available−loss，y=r+αloss",
+  "outputs_and_limits": "非负唯一state及容量/实损/费用；κ额外火存量供养假设非原文火克木；不添日干浮量",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:activity",
+  "first_line": 28,
+  "call_sequence": 402,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__activity.input.json.gz",
+    "bytes": 1996,
+    "sha256": "9ad6f278c780b5cf7b2b1aedae6045dea4841820009e1ecb0a0c44d91be44dc7"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__activity.return.json.gz",
+    "bytes": 708,
+    "sha256": "cbe71ecdd25730ec28d10c0629925240ee54ea6d1b59fd5d7e73c599519bb828"
+  }
+}
+actual_observed_call_count：846
+not_separate_classical_rule：true
+
+31. runtime/winter_warm_math.py:origins
+算法标识：runtime/winter_warm_math.py:origins
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "origins",
+  "first_line": 44,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "2810e3945bb9795de87166ac804cf79892c85cacdd6c610ac262530ea7318fc8",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "逐个原点核一次活动与末态预算",
+  "inputs": "完整d/cf/state/exact",
+  "operations": "rho=y/gross，解(I−rhoG)P=rhoD；逐源gross、末态R、loss按各池比例；核gross=R+loss+fP及P=R+αloss；容量与按比例实现实损分列",
+  "outputs_and_limits": "全原点P/R/loss/gross与预算；共池追源是静态份额抽象，非每演员局部实物力",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:origins",
+  "first_line": 44,
+  "call_sequence": 433,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__origins.input.json.gz",
+    "bytes": 2212,
+    "sha256": "c6981cbd9b6e4d0e7485b06ad3ac4035151d9a5d069b8570ef8a12c38d4d8ddc"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__origins.return.json.gz",
+    "bytes": 8394,
+    "sha256": "a3cc9ee09e34869d1992a6e9a4cfe74dcc23662ced20d7ac5c0f1e4e069457a2"
+  }
+}
+actual_observed_call_count：846
+not_separate_classical_rule：true
+
+32. runtime/winter_warm_math.py:support_bounds
+算法标识：runtime/winter_warm_math.py:support_bounds
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "support_bounds",
+  "first_line": 56,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='d'), arg(arg='cf'), arg(arg='state'), arg(arg='exact')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "05dc2593f2d7ab1c28eb71be33fb35a63b7e258650d2a2fb615c9e52547306dd",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "不凭净方案成败选择从向源的独立承载界",
+  "inputs": "同一d/cf/state/exact",
+  "operations": "正生成含全部热费U=(diag(1+f)−G)^−1 D；L=max0(D−fU−CU−κU火 at木)；逐池核0≤L≤r≤y≤U；gap=L水/2+L木/4−U金",
+  "outputs_and_limits": "充分不能承载gap；未立不是已证能承载；不沿用旧510除对角下界；可靠根印另行优先排除",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:support_bounds",
+  "first_line": 56,
+  "call_sequence": 435,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__support_bounds.input.json.gz",
+    "bytes": 2219,
+    "sha256": "5a651434163ac950af956ed0dc4ca3bb117b46c3693e336f7825fca92497ee57"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__support_bounds.return.json.gz",
+    "bytes": 580,
+    "sha256": "4668326009bbd78d11615d713a1493448e34380a6bdf4c402aa5dd1b75d65fee"
+  }
+}
+actual_observed_call_count：846
+not_separate_classical_rule：true
+
+33. runtime/winter_warm_math.py:graph
+算法标识：runtime/winter_warm_math.py:graph
+source_identity：{
+  "relative_path": "runtime/winter_warm_math.py",
+  "qualified_name": "graph",
+  "first_line": 61,
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='cf'), arg(arg='state'), arg(arg='po')], kwonlyargs=[], kw_defaults=[], defaults=[])",
+  "AST_sha256": "ed19eba0600798e7a8f732a30f8e15bab46066de7eea53ebd39f95cb8b2988f1",
+  "module_sha256": "fbe768950a0999e07ef0b8ac2add386c66d97bfa40b536cf03b1611c3809e8b9"
+}
+条目分类：new_or_changed529
+contract：{
+  "purpose": "完整演员边与热源×原木根信用可展开图",
+  "inputs": "base/cf/state/po",
+  "operations": "每生克边实发送、末态接收、控制实损；逐口保留费；热=η×活动火×原木末态/gross木；原木根依四柱顺序；逐池核生克热费用与实际控制损失",
+  "outputs_and_limits": "全标量+完整池原点+无损展开公式；热不增木或根；实际暖温和预测尚未实证",
+  "current529_boundary": "Ren367冬水多木泛、土培火暖的具名工程研究；事实/原根数学合同复用，不继承旧题或古法最终取用。原文、后注、工程公式和现实预测分别记。所有formal事实保留，R0无另加合化效果是固定工程分支，不声称原典说合冲无效。"
+}
+exact_reuse：null
+actual_current_IO：{
+  "id": "runtime/winter_warm_math.py:graph",
+  "first_line": 61,
+  "call_sequence": 437,
+  "sample_scope": "one complete current public API: root/print-bearing winter chart",
+  "input": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__graph.input.json.gz",
+    "bytes": 14847,
+    "sha256": "948d8fd30f83fdbc43dcb8003bcac8851b46b8669dab55932ba6a65c469507e5"
+  },
+  "completion": "normal_return",
+  "return": {
+    "path": "actual/function_IO/runtime_winter_warm_math.py__graph.return.json.gz",
+    "bytes": 3398,
+    "sha256": "4cbec68c1de14565355af53049f7f095fc28b2a112342196fb3a9226823b43b6"
+  }
+}
+actual_observed_call_count：846
+not_separate_classical_rule：true
+
+原件：work/rev563_effective_rule_cards.json
+SHA256：06ab6e32c3473b595a531f14dde7305308e9484d4257c7065ed6f62ccf78a63e
+
+{
+  "schema": "529-substantive-rulecards-10fields/1",
+  "important_rules": [
+    {
+      "id": "WQ01-winterwood-quality-source",
+      "source": "任铁樵评《滴天髓阐微》1947影印PDF367/印91，source/Ren367.png；金日木财冬段。原句只支持冬水多木泛时土培火暖方向，无α/κ/η、温度方程或任意四柱唯一喜用。",
+      "source_layers": {
+        "original_commentary": "金日木财冬水多木泛、土以培之火以暖之",
+        "engineering": "冬月亥子丑、coldcue与质量指标、R0不额外合冲变化"
+      },
+      "method_mouth": "任氏从财意向/品质；不等同格局扶抑调候全部统一",
+      "conditions": [
+        "合法自洽四柱，金日冬月，原木根末态正；工程coldcue=水末态>原木末态",
+        "全明藏/四根与原点、所有正负边/费用保留"
+      ],
+      "exclusions_and_failure": [
+        "非金日冬月返回合法别源；非法结构明确拒；源cue不成立不是认定现实不冷",
+        "原无火不虚造演员，真实外来火链仍开"
+      ],
+      "change_conditions": [
+        "原柱/根/份额变化重算；参数版本变化全可追溯",
+        "同version同输入不按净阳性挑季节或来源"
+      ],
+      "conflict_resolution": "品质问题可成立而从财资格因可靠印根被否，分别报告",
+      "executable_expression": "core.evaluate→inventory.build→9固定ακ→analyze",
+      "verification": {
+        "positive": "原冬1品质与从向均有净方案",
+        "negative": "合法别源/非法事实；原缺火链未闭",
+        "boundary": "原金根/可靠土印对照仍可品质过，不冒从格",
+        "artificial_cases": {
+          "WINTER_ORIGINAL": {
+            "year": "甲子",
+            "month": "丙子",
+            "day": "庚子",
+            "hour": "己卯"
+          },
+          "WINTER_FIRE_EARTH_ROOT_RETURN": {
+            "year": "甲午",
+            "month": "丙子",
+            "day": "庚子",
+            "hour": "己卯"
+          },
+          "WINTER_METAL_ROOT_PRESENT": {
+            "year": "甲子",
+            "month": "丁丑",
+            "day": "庚子",
+            "hour": "己卯"
+          },
+          "WINTER_NO_FIRE": {
+            "year": "乙亥",
+            "month": "戊子",
+            "day": "庚子",
+            "hour": "己卯"
+          },
+          "HELDOUT_WINTER_XIN": {
+            "year": "甲午",
+            "month": "丙子",
+            "day": "辛卯",
+            "hour": "己丑"
+          }
+        },
+        "case_kind": "五盘皆人工合法结构，非原典完整古命例，也非实测现实记录"
+      },
+      "status": "本具名有限规则经553非作者独审，由563根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。",
+      "historical_author_status": "已实现并经独立3798+27/完整协议验证的有限工程口径；源引文已实看"
+    },
+    {
+      "id": "WQ02-paid-activity-and-warm-port",
+      "source": "任铁樵评《滴天髓阐微》1947影印PDF367/印91，source/Ren367.png；金日木财冬段。原句只支持冬水多木泛时土培火暖方向，无α/κ/η、温度方程或任意四柱唯一喜用。",
+      "source_layers": {
+        "original_commentary": "火暖木与土培木是方向语言",
+        "borrowed_engineering": "518采用506r1 activity/net分解",
+        "new_engineering": "火→木品质口η、预留发送费、κ火存量需求；不写成原文火克木"
+      },
+      "method_mouth": "具名共池过程，不是物理热力学",
+      "conditions": [
+        "所有原演员存在性独立于库存0；日干无float仍实体",
+        "每gen/control/thermal口均同current，热仅原木末态信用"
+      ],
+      "exclusions_and_failure": [
+        "同费切热必须保费用，不能用eta0替代同费切热",
+        "热工作不新添木库存/根；土生量不是暖量"
+      ],
+      "change_conditions": [
+        "α/η改变可能改变活动/信用/费用，κ改变木实际负荷",
+        "只α=η=0才精确退510纯物理"
+      ],
+      "conflict_resolution": "容量、实际损失与发送费用分开；热未用付费不退款",
+      "executable_expression": "b=D+Gy; load=Cy+κr火δ木; r=max0(b−fy−load); y=r+αmin(b−fy,load); H=sum(q*y火)*nativeWoodTerminal/b木",
+      "verification": {
+        "positive": "原冬纯火1/2、1、2 nominal可暖且从向净过",
+        "negative": "同费切热H=0但火生土仍正",
+        "boundary": "切火生土仍可热；eta0与同费切热不等",
+        "change": "α=0/1与新η1/9、2/7，全部逐源预算核",
+        "regression": "15 α=η=0精确510数学：6旧基线、9新raw，无旧批量重跑"
+      },
+      "status": "本具名有限规则经553非作者独审，由563根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。",
+      "historical_author_status": "工程约定可采用候选；无现实温度/预测验证"
+    },
+    {
+      "id": "WQ03-once-origins-and-global-proof",
+      "source": "01/02事前明式+518过程概念；无古籍数字公式",
+      "source_layers": {
+        "engineering": "32仿射面、正收缩证、精确Fraction与闭环原点"
+      },
+      "method_mouth": "数学实现",
+      "conditions": [
+        "G/C/热费所有原正负同时，非先给从标签再计算",
+        "全原点按正生成共池求源，四支原根资格max一次；0额外原点精确0"
+      ],
+      "exclusions_and_failure": [
+        "共池/static share非演员局部物理力，不由某actor share0推全身无支持",
+        "不能只核数值近似或字段完整性"
+      ],
+      "change_conditions": [
+        "增补每个world重算活动/原点/源门，非保旧标签",
+        "输入原点信用重分配可改来源结论而总量不改"
+      ],
+      "conflict_resolution": "同一原点gross=末态+实损+发送费；容量≠实损，未实现费用不退",
+      "executable_expression": "(I−rhoG)P=rhoD; R=P*terminal/activity(等价gross分摊); gross_o=R_o+loss_o+fP_o; P_o=R_o+αloss_o",
+      "verification": {
+        "positive": "3798完整world逐池原点/全边/根印与净门独立精确对照",
+        "negative": "原木根信用全转非根后总量同、native/H=0品质不能过",
+        "boundary": "正生成空同质闭环唯一0证；所有0资格原点核0不填缺值",
+        "regression": "保存3798状态重排只复算graph/support/metrics，0新平衡解，数字不变"
+      },
+      "status": "本具名有限规则经553非作者独审，由563根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。",
+      "historical_author_status": "数学及实现验证通过；不代表现实因果已证"
+    },
+    {
+      "id": "WQ04-reliable-source-before-carry",
+      "source": "Primary《子平真诠》影印PDF95/印86《论杂格》：若透印则身赖印生而不从；reference/Primary095_printed086_Wang_source.png；Ren367；旧281/522工程见证",
+      "source_layers": {
+        "original": "透印身赖印生有独立意义；王十万如句归属争议不在此强定",
+        "engineering": "同actor/root直生金末态有效、重根信用1/2、负荷阈5/4、金全池；跨源明确转接"
+      },
+      "method_mouth": "普通印比支持/从向候选分流",
+      "conditions": [
+        "源普通支持veto先算，再依gap>0作为不能承载充分证",
+        "金原重根ret/q≥1/2；轻根有量且金末态≥实际负荷；strict金>5/4负荷；同原土actor ownroot>0+活动>0+直生金末态>0任一veto"
+      ],
+      "exclusions_and_failure": [
+        "不能因gap正就删可靠印源；不能拼接A土根与B土发送",
+        "不能以日share0直生日0当全金无印；日无float≠日不存在"
+      ],
+      "change_conditions": [
+        "root信用±1/1019横跨1/2按≥精确改变firm；其他veto可能仍真，不能强迫最终dep变",
+        "同库存原点重分配只能改源见证不改总量"
+      ],
+      "conflict_resolution": "ordinary veto优先；gap未成立保持证书未立，不叫已证能承载；品质阳性不推从格",
+      "executable_expression": "dependency=gap>0 and not any(veto) and nativeWood>0",
+      "verification": {
+        "positive": "WINTER_ORIGINAL无veto且gap正",
+        "negative": "WINTER_METAL_ROOT_PRESENT、HELDOUT土印同根实际生日retained正，quality9/from0 nominal",
+        "boundary": "人工根信用半值±1/1019；保来源与现实可达区别",
+        "regression": "3798全部8460根印候选与new27额外38候选独立核"
+      },
+      "status": "本具名有限规则经553非作者独审，由563根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。",
+      "historical_author_status": "源机制+明确工程数值候选，非普遍真从分类器"
+    },
+    {
+      "id": "WQ05-carry-bounds-with-thermal-and-stock",
+      "source": "02事前推导及03可靠源优先",
+      "source_layers": {
+        "engineering": "正生成上界与负荷下界，非古书强弱打分"
+      },
+      "method_mouth": "有限独立承载充分证",
+      "conditions": [
+        "U唯一非负正生成，含全部f包括热费；当前r/y均≤U",
+        "L=max0(D−fU−CU−κU火δ木)；逐池0≤L≤r≤y≤U"
+      ],
+      "exclusions_and_failure": [
+        "旧510除diag下界不适用于并行活动，不能照搬",
+        "gap>0只证明该负荷题不足，不否认另一原印源"
+      ],
+      "change_conditions": [
+        "每增补或费/κ/α都重新算；αη0回归只物理不强迫新源标签同旧"
+      ],
+      "conflict_resolution": "与WQ04合用并先执行可靠源veto",
+      "executable_expression": "U=(diag(1+f)−G)^−1D; gap=L水/2+L木/4−U金",
+      "verification": {
+        "positive": "3798每池bounds独立pencil核",
+        "negative": "两可靠印盘即使gap正也不from",
+        "boundary": "αη0状态回归、正源/边界反证分离"
+      },
+      "status": "本具名有限规则经553非作者独审，由563根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。",
+      "historical_author_status": "已实现验证；阈值与承载负荷量为工程解释"
+    },
+    {
+      "id": "WQ06-three-quality-targets-not-final-auxiliary",
+      "source": "任铁樵评《滴天髓阐微》1947影印PDF367/印91，source/Ren367.png；金日木财冬段。原句只支持冬水多木泛时土培火暖方向，无α/κ/η、温度方程或任意四柱唯一喜用。",
+      "source_layers": {
+        "original_commentary": "水多/土培/火暖",
+        "engineering": "水/原木比压力不升、暖原木work不降、土实制水不降且至少一严格；原木与work须正"
+      },
+      "method_mouth": "有限质量修复偏序，不是最终全传统喜用排序",
+      "conditions": [
+        "基线cold；新原木>0且H>0；三margins≥0且至少一>0",
+        "from净另要求基线和当前dependency均真；每个所有方案全报"
+      ],
+      "exclusions_and_failure": [
+        "纯火失败不改传统喜火；品质过而from未过分别输出",
+        "不把全参数某一阳性选成唯一结果；替代OR不写共同必要"
+      ],
+      "change_conditions": [
+        "输入总量1/2,1,2及全部现有元素子集可能改变，全部保阴性",
+        "原火/土根回强可改变方案；不反修源"
+      ],
+      "conflict_resolution": "不声称所有路径/指标不减；只执行事前具名三目标并列",
+      "executable_expression": "quality=base.cold && new.native>0 &&new.H>0 &&all(margins>=0)&&any>0; from_net=quality&&base.dep&&new.dep",
+      "verification": {
+        "positive": "nominal原冬12净，火土根回强6净",
+        "negative": "两印盘品质9而从0；缺火0是现有题未能暖，不是完整外来题阴性",
+        "variation": "全9ακ组3798全部保；独立留出辛日与因果切边",
+        "regression": "3753完整comparison与new27精确核"
+      },
+      "status": "本具名有限规则经553非作者独审，由563根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。",
+      "historical_author_status": "当前有限方法已算清；非全局唯一喜用/现实验证"
+    },
+    {
+      "id": "WQ07-missing-fire-and-reproducibility",
+      "source": "原任务必须保；01固定范围与current输出",
+      "source_layers": {
+        "engineering": "固定schema/guard/半开支持范围；缺项显式未闭合"
+      },
+      "method_mouth": "版本及原任务验收",
+      "conditions": [
+        "同version+同原柱/源材料必须一致；所有source/runtime锁先于provider",
+        "原火缺失不得用0、默认显示或拒绝冒完整暖问题已解"
+      ],
+      "exclusions_and_failure": [
+        "无火不可虚造为原生演员；实际外来柱与外来工程元素干预必须另定源",
+        "本529不接B、预算、显示，不自采用或加分"
+      ],
+      "change_conditions": [
+        "实际外来火actor输入是下个真实最小算子，非仅更多框架",
+        "坏源/坏JSON/非法原柱分别反馈，unknown≠same"
+      ],
+      "conflict_resolution": "运行固定预定规则，文献争议原文层保留",
+      "executable_expression": "all_original_winter_warm_scope_complete=False; exactversion_guard→6 providers; no display",
+      "verification": {
+        "positive": "4完整输出跨hashseed0/137 API/CLI全文一致",
+        "negative": "坏源0provider与正常6provider核；严格输入真实负控",
+        "boundary": "缺火盘完整现有方向46world/variant，不宣外来题完结"
+      },
+      "status": "本具名有限规则经553非作者独审，由563根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。",
+      "historical_author_status": "现有算子可复现候选；无火外来链实质未完成"
+    }
+  ],
+  "not_progress_by_card_count": true,
+  "not_empirical_validation": true,
+  "adoption_record": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev563_winter_warm_whole_project_adoption.json",
+  "frozen_original_unchanged": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev529_winter_warm_actual_effect/rule_cards_substantive.json",
+    "bytes": 12963,
+    "sha256": "0ea6c897e20b53c6daa0f4ed11e34ea44772ec409a1f97cef4271d88d9ab7885"
+  }
+}

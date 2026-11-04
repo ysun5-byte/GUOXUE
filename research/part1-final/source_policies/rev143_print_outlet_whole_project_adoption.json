@@ -1,0 +1,45 @@
+{
+  "id": "project-accepted-pure-print-outlet-secondary-whole",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_bounded_secondary_source_whole_model_not_primary_replacement",
+  "reviewer_ref": "Codex-root-project-review-under-explicit-user-research-authorization",
+  "model_component": "rev141_print_outlet_whole_v0_1_2",
+  "model_core_file": "print_outlet.py",
+  "method": "pure-monthly-print-outlet-whole-H-0.1",
+  "source_profile": "secondary-variant-comparison-and-explicit-print3-engineering-0.1",
+  "implementation_revision": "0.1.2",
+  "model_core_sha256": "6808019393f54e1a61c9f97dc0ff3f34e2f0f6113eb49673000019016932ad55",
+  "model_dependency_lock_sha256": "7aaa3853e8ecf6b1625137457dbd4cfdb722f8d8e58c6b987bda05fbef2f9631",
+  "model_manifest_sha256": "c6eeed125dd2cdd479ece03c8b4b09a76694046a294ce005edc24348f3b2cd00",
+  "model_freeze_sha256": "753c6cf65ca45449966fa3c89575e5292b496d6abcd3562a37a0be74fd5cf535",
+  "runtime_profile_sha256": "03e30a5537375d77af0ebc97bf35f9930f1b16c3a58059f0300cbb82b473a8be",
+  "aggregate_acceptance": {
+    "component": "rev143_print_outlet_whole_acceptance",
+    "report_sha256": "926f63c04e54327d9338edd2c8e1faa0fa352dad5e11d95da053f23e12b3db26",
+    "manifest_sha256": "e6e2f81b5a592f09478fc544b03f4963dce3fd405339e1b788102cbafa1c2835",
+    "freeze_sha256": "9ca9a95b8980090824523c8591f92e693e10572bd457e2ae460430a0ad6741b1"
+  },
+  "independent_review": {
+    "component": "rev143_print_outlet_source_repair_independent",
+    "report_sha256": "0ec77c41c8d4aa87f77c286928ad91d09d053f5474b3e78b31703e32b7a4e187",
+    "manifest_sha256": "f009da0c4a8b5e47397cfb506370e2beadbef60806fba8185f4ca9d5b3b81bc2",
+    "freeze_sha256": "4ba45f29912e78f4a78c7ac6aa008cce54e27d34f432be5f4cef2d269ea7f5fd"
+  },
+  "limits": {
+    "source_selection": "Explicit secondary-variant-comparison-and-explicit-print3-engineering-0.1. Selected primary PDF73 prints有卯; later Xu wording有印 is a different source layer. Original primary wording and illegal Li hour/version differences remain. Do not silently replace primary text or primary default.",
+    "finite_domain": "Pure strict monthly印, source-qualified strong-body/heavy-root proxy and same-print-stem carrier domain under original fullsource/secondary/climate/HAP guards. Added finance,官杀,peer/mixedprint or unknown actions retain their own out-of-domain or source-pending status.",
+    "actual_signed_world": "Every print uses own root inventory and birthday/control paths; body supplies food/hurt, actual leakage and suppression/display all retained. No invented food/hurt克印 or print-stock depletion. Frame pool is collective preexisting print frame only for this domain, not all print never auxiliary.",
+    "source_vs_model": "All12 month and multi-carrier choices/heavyROOT are explicit bounded engineering extensions, not universal古法strength or climatic neutrality. Exact model and source profile must stay in result provenance.",
+    "H": "Complete actual goals and all-superset robust carry support before original native H selection. Positive 土/金/木 conditions are full whole-model examples, not a single role shortcut. No priority/equalweight invented.",
+    "verification": "Reuse original127 independent full-origin/world/boundary/IO and134 unaffected semantic checks after actual source-byte and mathematical-AST equality; new143 source17/6wholepairs/24IO/strict/move evidence separately counted.",
+    "source_repair": "The exact complete originalPF1276freeze65ef2370abbe1187eae23bf008ed25053790d8a28cd401925f92b5129c043852 plus actual compiledidentity/276/payload bindings precede provider execution. Fixed release does not let local resealing create a new accepted source.",
+    "limits": "General mixed roles, all true/false/follow/transformation and relationship/climate effects, whole-natal final priority and all time branches remain in original scope.",
+    "projection": "No natal B or default-primary route accepted here. Future B integration requires its own explicit preselected source method and whole-result adapter review; do not choose this model only after another fails.",
+    "real_prediction_validated": false
+  },
+  "old640_689_and127_134_failures_preserved": true,
+  "B_or_primary_default_route_adopted": false,
+  "all_original_task_complete": false,
+  "progress_delta": "0.00"
+}

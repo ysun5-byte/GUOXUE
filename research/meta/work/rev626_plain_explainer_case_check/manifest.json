@@ -1,0 +1,16 @@
+{
+  "files": {
+    "整套规则怎么运行_大白话与完整算例_rev626.txt": {
+      "bytes": 11147,
+      "sha256": "741e4717a48f69eb92b03392c9f2e9bf19ac203bad6170aa0afe1a50a5411b03"
+    },
+    "exact_source_pins.json": {
+      "bytes": 3369,
+      "sha256": "9ea463eea771a6534e9581c5a760a3018e35292ba62089caa1787fdcc918509b"
+    },
+    "hand_calculation_and_scope_receipt.json": {
+      "bytes": 6081,
+      "sha256": "274c3ccd161955690527ac399e141386cda9c0241f53e37d7ff5dbd14c818719"
+    }
+  }
+}

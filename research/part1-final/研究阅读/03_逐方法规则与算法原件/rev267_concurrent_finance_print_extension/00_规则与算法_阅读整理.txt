@@ -1,0 +1,579 @@
+印重财轻兼伤食与比劫的当前完整反馈
+rev267_concurrent_finance_print_extension
+所属原模块：C03
+当前采用：rev277_concurrent_print_finance_project_adoption.json
+范围：原印月明确足域，生日/制食/生财/夺财和同源预算全闭环，所有稳健H保留；四元素共同需要不截成二。不含原局B或当前主题消费者。L<1仅限有反馈控制边，无控制边w1精确例外由277后发说明。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev267_concurrent_finance_print_extension/algorithm_explanations.json
+SHA256：fb3594b3f80a970ebe07618ef9ce57322e6fff63be2fbb033bb5ef1bf3b6641b
+
+1. CFP01
+算法标识：CFP01
+file：finance_print_whole.py
+qualified_function：canonical
+line：17
+signature：v
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+输入：A Python value
+输出：str containing strict canonical JSON; non-JSON/nonfinite values raise
+exceptions_and_None：None is a valid JSON value, not epistemic unknown here. Unsupported objects/nonfinite/cycles can raise TypeError/ValueError/RecursionError.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Deterministic identities and a safe API boundary. allow_nan=False is software policy, not traditional theory.
+evidence_layers：[
+  "software/serialization only; no primary-text rule or quantitative destiny claim"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:canonical
+
+2. CFP02
+算法标识：CFP02
+file：finance_print_whole.py
+qualified_function：digest
+line：18
+signature：v
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431
+输入：A strict JSON value
+输出：hexadecimal SHA256 str
+exceptions_and_None：None is a valid JSON value, not epistemic unknown here. Unsupported objects/nonfinite/cycles can raise TypeError/ValueError/RecursionError.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Content identity; no five-element judgement.
+evidence_layers：[
+  "software/serialization only; no primary-text rule or quantitative destiny claim"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:digest
+
+3. CFP03
+算法标识：CFP03
+file：finance_print_whole.py
+qualified_function：strict_load
+line：19
+signature：v
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：d9536335029b08a4febbf30efc5962a6758b56b92b9cdd663d32ed116d4b7cb6
+输入：str or bytes JSON
+输出：parsed native Python value; duplicates/nonfinite raise
+exceptions_and_None：JSON null returns None; duplicate/nonfinite/syntax/type/depth errors raise. No semantic unknown judgement.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Strict parser. Its nested callbacks retain the actual argument kinds.
+evidence_layers：[
+  "software/serialization only; no primary-text rule or quantitative destiny claim"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:strict_load
+
+4. CFP04
+算法标识：CFP04
+file：finance_print_whole.py
+qualified_function：strict_load.pairs
+line：20
+signature：rows
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：b93f5768b70320d74d41a648047f1348ebf71ccabfde21d20070b9047a9c0fe4
+输入：list of key/value pairs for one JSON object
+输出：dict; duplicate key raises ValueError
+exceptions_and_None：Duplicate key raises ValueError; existing None values are preserved as JSON null; normal return always dict.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Preserve duplicate-key detection before an ordinary dict could erase evidence.
+evidence_layers：[
+  "software/serialization only; no primary-text rule or quantitative destiny claim"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:strict_load.pairs
+
+5. CFP05
+算法标识：CFP05
+file：finance_print_whole.py
+qualified_function：strict_load.bad
+line：26
+signature：v
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：0c0f2ab8c85d48401ddff002e7a74142778719cc7684675d4c7ce92d91180c87
+输入：str naming nonfinite JSON token
+输出：raises ValueError; has no normal return
+exceptions_and_None：Always raises ValueError(nonfinite_JSON); never normally returns None or any result.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：NaN/Infinity cannot become quantities, identities, or unknown evidence.
+evidence_layers：[
+  "software/serialization only; no primary-text rule or quantitative destiny claim"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:strict_load.bad
+
+6. CFP06
+算法标识：CFP06
+file：finance_print_whole.py
+qualified_function：pack
+line：28
+signature：v
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：0d978c60e5eeafc768866f9e60ecd53c0a775bd369a0f458ffb58059d73b6d3e
+输入：Fraction, interval, dict, tuple/list/set or already JSON-safe value
+输出：recursively JSON-compatible representation; Fraction→str and interval→{lower,upper}
+exceptions_and_None：None preserved. Unknown object kinds pass through unchanged and strict canonical serialization may reject them later; this helper alone is not an input validator.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Serialization only. Tuple/module identities in actualIO use separate typed instrumentation, not a pretended native JSON tuple.
+evidence_layers：[
+  "software/serialization only; no primary-text rule or quantitative destiny claim"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:pack
+
+7. CFP07
+算法标识：CFP07
+file：finance_print_whole.py
+qualified_function：load_modules
+line：35
+signature：
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：1c5db60cf62d78283fd0e0add4c5ddb1b465b5d80921032b359a96a835408240
+输入：No arguments; fixed local files
+输出：dict with literal old module objects, native dependency tuples, fixed profile/contract, new coupled module and serializer callables
+exceptions_and_None：Missing/unreadable/changed/unbound material raises OSError/ValueError (or malformed-structure errors); no module/result fallback or partial provider execution before full own source validation.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：All 1419 registered dependencies, including unused/source images/old complete inventories, are byte/containment/exact-inventory checked before first dependency exec. Actual97/107 and129/130 policy correspondence is retained. No new267 approval.
+evidence_layers：[
+  "software exact byte/schema/source-policy binding",
+  "literal old accepted contracts; new267 explicitly unadopted"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:load_modules
+
+8. CFP08
+算法标识：CFP08
+file：finance_print_whole.py
+qualified_function：validate_request
+line：75
+signature：q, modules
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：32fb60b190c37c6779b791451c4f9d34217eab7209727c0b65d9a46f3e210bad
+输入：outer dict q and loaded module dict
+输出：literal old native reports dict; malformed/binding-invalid inputs raise
+exceptions_and_None：Raises ValueError/old ContractError(ValueError) for schema/content/native hard errors; literal native not_current is a valid report, handled by evaluate.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Exact new method/schema/content binding wraps unchanged old native input; old native APIs validate every supplied time record before readiness or domain decisions.
+evidence_layers：[
+  "software exact byte/schema/source-policy binding",
+  "literal old accepted contracts; new267 explicitly unadopted"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:validate_request
+
+9. CFP09
+算法标识：CFP09
+file：finance_print_whole.py
+qualified_function：source_context
+line：82
+signature：raw, hap, temporal, D, initial, cfg, modules
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：e752618f60dae1378602a8f3eab9a5ca1da67114ade9bea23a1bbf5edd92b26a
+输入：raw four pillars, canonical HAP, five temporal actors, direct port dict, initial context, cfg, modules
+输出：new context dict with precise scope reasons, typed roots, source-degree direct budgets and complete hidden/secondary records
+exceptions_and_None：Source misses return precise reasons, not exception or H. Assumes validated native inputs and actual module contract; malformed internal objects/dependency failures may raise.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Selected 印格§6 source, external-time extension, declared ordinary context and ROOT/HAP are separate layers. No literal time adjacency, latent=physical0 claim, day-self“不化” waiver, or H-success retry.
+evidence_layers：[
+  "primary印格§6 conditional clauses",
+  "ROOT02/HAP03 actual qualified inventories",
+  "named external-time/ordinary-context/finite-domain engineering inferences"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:source_context
+
+10. CFP10
+算法标识：CFP10
+file：finance_print_whole.py
+qualified_function：degree_qualification
+line：120
+signature：ctx, D, cfg, modules
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：4a3c2018b08928d3585b2ddd0e2e3b0b374c506598ec05196cb16024eba8808b
+输入：source-qualified context, direct ports, cfg, modules
+输出：dict with tri-state degree predicates plus full no-finance-control and no-outlet-generation worlds
+exceptions_and_None：qualified is True/False/None; no-finance control off has exactw1 even when the feedback L bound is inadequate; actual unresolved loops remain unresolved.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Multi-print count is not excess strength. Functional excess means actual no-finance outlet display fails; rooted pre-finance carrying is separately required. 财轻 uses declared direct budget comparison. These are new engineering sufficiency inferences, not ancient numeric definitions.
+evidence_layers：[
+  "primary qualitative印重/财轻/身强/抑过 conditions",
+  "new operational degree proxy; not source numeric theorem"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:degree_qualification
+
+11. CFP11
+算法标识：CFP11
+file：finance_print_whole.py
+qualified_function：h_graph
+line：130
+signature：ctx, world, E, modules
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：5774cfdec7879022bb07c74d61e67d78fd533d99d970b4f6d91b23b6d63635b2
+输入：actual closed context/world, one robust minimum complete package list E, modules
+输出：native AUX graph dict; no selector is run inside this function
+exceptions_and_None：Caller must already establish actual source/all goals and robust E; this low-level assembler does not independently certify an arbitrary E or closed world.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：AND within a sufficient signed package set, OR between full graph alternatives. Actual whole harms/actors survive selection; projection is not literal global actor/root removal. Generic selector mode name does not assert a separate 正格 determination.
+evidence_layers：[
+  "accepted H-AUX interface mathematics",
+  "new complete signed function-package support semantics; not a primary-text minimality theorem"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:h_graph
+
+12. CFP12
+算法标识：CFP12
+file：finance_print_whole.py
+qualified_function：causal_decomposition
+line：151
+signature：actual, no_finance_control, modules
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：3dad917efd42afbdea7d600fed269c35109259fda7ed8a30fe1e1ca92845a760
+输入：two complete solve results and modules
+输出：dict of per-target pooled birthday credits, net BODY capacity differences and outlet change; unavailable states return explicit status
+exceptions_and_None：Missing comparable current state returns explicit no_complete_comparable_state, not zero difference.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：A shared max budget must be pooled before summing. Gross loss of印/birthday capacity and loss of actual BODY max capacity are distinct; no physical energy interpretation.
+evidence_layers：[
+  "origin-max portfolio mathematics",
+  "engineering gross/net capacity accounts; no ancient flow magnitudes"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:causal_decomposition
+
+13. CFP13
+算法标识：CFP13
+file：finance_print_whole.py
+qualified_function：analyze
+line：167
+signature：raw, hap, temporal, modules, cfg=None, with_selection=True
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：597dee1aa186532427f0c1945ed89cb3b91d135f1026eb508f452fb5c9efd8f5
+输入：raw, HAP, temporal actors, modules, optional fixed cfg, with_selection bool
+输出：bounded current research dict, exact source/degree/goal/selection statuses, aux or None, always theme/B None
+exceptions_and_None：Source miss, degree outside/unknown, actual failure/unknown, selection unknown and success are distinct. with_selection=False deliberately leaves aux None without claiming failure. theme/B always None.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Source domain then degree then all actual targets then ALL package subsets then AUX. A source miss, numerical uncertainty and real target failure remain different states. No alternate method fallback.
+evidence_layers：[
+  "software orchestrates explicit source/degree/actual-goal/selection stages",
+  "source permission distinct from engineering numerical completeness and predictive reality"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:analyze
+
+14. CFP14
+算法标识：CFP14
+file：finance_print_whole.py
+qualified_function：sensitivity_worlds
+line：190
+signature：raw, hap, temporal, modules
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：d1415edfdcd67be4d4796a588672bc4806f627388154907593d4b5953586097e
+输入：one raw/HAP/five-layer structure and modules
+输出：16 cfg/world records, explicitly selection_not_requested_in_sensitivity=True
+exceptions_and_None：Each world independently preserves source/degree/goal failure or numerical unknown; selection is not requested, so aux None is not proof no auxiliary exists there.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Month/generation/control/far axes are descriptive engineering sensitivity. Default complete H is computed independently; these16 records are full actual-goal/degree diagnostics, not an exhaustive H claim for every alternative parameter world and not voting.
+evidence_layers：[
+  "engineering sensitivity of inherited coefficient axes",
+  "16 actual-goal diagnostics, not all-parameter whole-H or classical consensus"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:sensitivity_worlds
+
+15. CFP15
+算法标识：CFP15
+file：finance_print_whole.py
+qualified_function：evaluate
+line：197
+signature：request
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：656bcbb4d68d66e21d62691087d6981b40a33a63155912824fb8a072228d0dd5
+输入：one new outer request dict
+输出：complete research API dict; invalid input/source raises; knowledge-unready/window cases return no H
+exceptions_and_None：Canonical/native/source hard errors raise to caller. Window or time-unready returns valid no-H knowledge state; method does not fallback or produce theme/B.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Unchanged native four pillars/time-contract/provider reports are preserved. New method is unadopted and cannot manufacture a theme/B, default C20, accepted consumer or calendar evidence.
+evidence_layers：[
+  "software orchestrates explicit source/degree/actual-goal/selection stages",
+  "source permission distinct from engineering numerical completeness and predictive reality"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:evaluate
+
+16. CFP16
+算法标识：CFP16
+file：finance_print_whole.py
+qualified_function：main
+line：210
+signature：
+source_file_sha256：2de6fac23c413e47f240fb593976d84c2aeffb6b86890cd88907db8f27171c4d
+function_AST_sha256：fe30e30931cabde184eae982f921d615426e4303c4880a585ff00d3007053695
+输入：No positional arguments; reads at most100001 chars stdin
+输出：int0 on a valid API return; int2 on declared errors, with exactly one strict JSON stdout result
+exceptions_and_None：Declared exceptions become one JSON rejected result and exit2; valid API returns exit0 even when no H. Actual stdout is a side effect, not the Python return value.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Sets sys.dont_write_bytecode, reads stdin and writes stdout; catches OSError/RecursionError as well as input/arithmetic failures. An API may raise while the CLI provides an atomic error envelope.
+evidence_layers：[
+  "software/serialization only; no primary-text rule or quantitative destiny claim"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:finance_print_whole.py:main
+
+17. CFP17
+算法标识：CFP17
+file：coupled_math.py
+qualified_function：classification
+line：13
+signature：ctx
+source_file_sha256：87bef8841e5e0edd9ef0a9d6b408d9824f53b0fdd76e56faa32698d41c052d99
+function_AST_sha256：6e57235376ed4c07821a3ce52b5c8fc53a9b3e12627127ebed361735f6123684
+输入：context containing actual actors
+输出：5-tuple of print, finance, strict food-or-hurt, peer, body actor lists
+exceptions_and_None：Returns a real Python 5-tuple; assumes actor-role dicts. Unsupported/malformed internal structures can raise; no JSON module tuple fiction.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：食神 and伤官 are accepted by the source伤食 clause but their labels remain intact; no role relabel or independent latent actor creation.
+evidence_layers：[
+  "literal strict ten-god role facts",
+  "primary伤食 permits both roles; no role alias"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:coupled_math.py:classification
+
+18. CFP18
+算法标识：CFP18
+file：coupled_math.py
+qualified_function：certificate
+line：19
+signature：ctx, D, cfg, modules
+source_file_sha256：87bef8841e5e0edd9ef0a9d6b408d9824f53b0fdd76e56faa32698d41c052d99
+function_AST_sha256：2541c62024ecd8b873abb0f1ae37fe4ce267e8a5e6f5cb8ce49af07cd9efc4b0
+输入：context, nonnegative direct Fraction ports, fixed cfg, loaded modules
+输出：dict of executable scope premises, common rate, print capacity, slope bounds and global L; certified bool
+exceptions_and_None：certified=False is insufficient mathematical scope/bound, not false source or no fixed point. Common rate can be None; no current result is fabricated.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Reuse old129 common-w origin-max Lipschitz bound, not its monthly伤官 source permission. Enabled packages only remove nonnegative paths. L>=1 means bound unresolved, not absence or traditional failure.
+evidence_layers：[
+  "reused129 common-scalar origin-max mathematics",
+  "new bounded engineering map/goal/package definition",
+  "no primary-text numeric coefficients or empirical prediction certification"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:coupled_math.py:certificate
+
+19. CFP19
+算法标识：CFP19
+file：coupled_math.py
+qualified_function：feedback_map
+line：42
+signature：ctx, D, cfg, w, modules, enabled=None, blocked=()
+source_file_sha256：87bef8841e5e0edd9ef0a9d6b408d9824f53b0fdd76e56faa32698d41c052d99
+function_AST_sha256：ea34c718b4572725f09157296e337da40327693ff9f66235c61f67faac618764
+输入：context,D,cfg,w interval/Fraction,modules, optional enabled package ids and blocked diagnostic operator names
+输出：one complete signed state dict and next shared retention interval
+exceptions_and_None：Unknown enabled id or w outside[0,1] raises ValueError. Assumes independently checked complete numerical domain; does not grant source permission.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Every print keeps its own retained origin vector; financial control is one shared budget. Print birthday/control toggle together. Outlet generation and own-peer mediation toggle together. Peer physical supply/contest remain while selected carry ports change. BODY is parallel capacity, not depleted energy.
+evidence_layers：[
+  "reused129 common-scalar origin-max mathematics",
+  "new bounded engineering map/goal/package definition",
+  "no primary-text numeric coefficients or empirical prediction certification"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:coupled_math.py:feedback_map
+
+20. CFP20
+算法标识：CFP20
+file：coupled_math.py
+qualified_function：goal_evaluation
+line：111
+signature：state, w, cfg, modules
+source_file_sha256：87bef8841e5e0edd9ef0a9d6b408d9824f53b0fdd76e56faa32698d41c052d99
+function_AST_sha256：fa36c4c3b564c32c548a65ca7bd285ddd8384c43f866dc68cddab5f63ee46eb6
+输入：complete state,w,cfg,modules
+输出：2-tuple: hard target bool/None dict and separate actual-source-function qualification dict
+exceptions_and_None：Targets retain bool/None; inclusive vs strict inequalities explicit. Root positivity may be boolFalse; no interval None coerced to false.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Root/display/vitality half thresholds are inclusive; body 5/4 capacity threshold is strict. Positive actual birthday/generation are baseline source qualifications, not a requirement that each diagnostic E independently become a new classical pattern.
+evidence_layers：[
+  "reused129 common-scalar origin-max mathematics",
+  "new bounded engineering map/goal/package definition",
+  "no primary-text numeric coefficients or empirical prediction certification"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:coupled_math.py:goal_evaluation
+
+21. CFP21
+算法标识：CFP21
+file：coupled_math.py
+qualified_function：solve
+line：126
+signature：ctx, D, cfg, modules, enabled=None, blocked=(), keep_state=True
+source_file_sha256：87bef8841e5e0edd9ef0a9d6b408d9824f53b0fdd76e56faa32698d41c052d99
+function_AST_sha256：0b2891e55bbd96b05b87b360ddc839fd90cfc160e9ce819aba464bbbc58d062f
+输入：context,D,cfg,modules, optional E/blocked/keep_state
+输出：solve result dict with certified interval, all hard target predicates, optional full state and exact state digest; unresolved has no current state
+exceptions_and_None：Uncertified actual loop: current_state=None/goals_met=None. Finance-control absent: exactw1 needs premises but no contraction. Interval ambiguity: predicates remain None. Full-map mismatch raises.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Finite interval enclosure with globally proved L<1, never midpoint or a favorable iterative phase. Full-map interval must intersect fixed-root enclosure. No claim of source truth follows from numerical solvability.
+evidence_layers：[
+  "reused129 common-scalar origin-max mathematics",
+  "new bounded engineering map/goal/package definition",
+  "no primary-text numeric coefficients or empirical prediction certification"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:coupled_math.py:solve
+
+22. CFP22
+算法标识：CFP22
+file：coupled_math.py
+qualified_function：solve.point
+line：134
+signature：w
+source_file_sha256：87bef8841e5e0edd9ef0a9d6b408d9824f53b0fdd76e56faa32698d41c052d99
+function_AST_sha256：579cdb6a4e8d245e08fa51338c8eed5c681a6621fcfa0be0cc6dd0879fd53a81
+输入：one rational test w
+输出：exact Fraction next retention; non-exact point evaluation raises
+exceptions_and_None：Must return exact Fraction from a rational full map; an inexact point interval raises ValueError.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Actual complete feedback map at a rational evaluation point, used by the old certified interval solver. It is not the root or a rounded formation decision.
+evidence_layers：[
+  "reused129 common-scalar origin-max mathematics",
+  "new bounded engineering map/goal/package definition",
+  "no primary-text numeric coefficients or empirical prediction certification"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:coupled_math.py:solve.point
+
+23. CFP23
+算法标识：CFP23
+file：coupled_math.py
+qualified_function：complete_package_selection
+line：148
+signature：ctx, D, cfg, modules
+source_file_sha256：87bef8841e5e0edd9ef0a9d6b408d9824f53b0fdd76e56faa32698d41c052d99
+function_AST_sha256：91078e4137e0cbaba508a68ae6b50790b2f4a2c9f4595d9609c81e8976969389
+输入：actual source-qualified context,D,cfg,modules
+输出：all subset solve rows, deterministic compressed full signed states, all robust inclusion-minimal package sets or unresolved status
+exceptions_and_None：More than9 packages returns unresolved, no partial terminal. Any subset unknown suppresses authoritative minimal_sets; candidate sets are explicitly nonterminal.
+side_effects：stdout/stdin + sys flag only for main; filesystem reads and module exec only for load_modules; other functions return new values (actual maps/dicts are newly built), no frozen-file writes.
+why：Physical actors/roots/source inventory are fixed. Every whole signed package is recomputed, all supersets are checked, all actor alternatives survive. Any relevant interval-unknown prevents an exhaustive terminal. Archive binds every full state and its input E; no voting, greedy order or unordered weights.
+evidence_layers：[
+  "accepted H-AUX interface mathematics",
+  "new complete signed function-package support semantics; not a primary-text minimality theorem"
+]
+actual_IO_reference：actual_function_IO_final.json.gz:coupled_math.py:complete_package_selection
+
+原件：work/rev267_concurrent_finance_print_extension/rule_cards.json
+SHA256：c5fed75cf9fe2c09d690cfb4d07a4a69fea81245db147227f25cae563d955d65
+
+1. CFP-SOURCE
+算法标识：CFP-SOURCE
+name：原印月印重身强、财轻兼露伤食
+source：PDF74/book65 印格§6 + current-layer extension
+preconditions：Monthly印;≥2 explicit印;1external财;1rooted食神/伤官;heavy body typedroot;roles/HAP/relations/climate closed
+exclusions：官杀/多独立食伤/位置不共率/正式关系/已激活未消费HAP转未决
+time_or_input_change：五层改变库存与源足域，不改原月日
+conflict_policy：literal不要根深争议与徐注分层；不继承伤官兼财印位置豁免
+expression：source_context
+tests：NO_HEAVY/FORMAL_COMBINE/FOOD_K2
+state：new bounded source+engineering hypothesis
+
+2. CFP-DEGREE
+算法标识：CFP-DEGREE
+name：过制与财轻须具体证据
+source：PDF74条件意旨；数值定义为项目推论
+preconditions：0<Fdirect<Pdirect;无财制时食伤显示不足且身有根并能承剩余负荷
+exclusions：印多不自动过重；财重/不属过制救应不换成功支
+time_or_input_change：no-finance-control全图是同输入诊断，不是另挑命例
+conflict_policy：不把ROOT单位当真实气力或传统唯一阈值
+expression：degree_qualification
+tests：HURT_亥_K3/K4、PEER_BRANCH_亥
+state：conditional finite operational definition
+
+3. CFP-FEEDBACK
+算法标识：CFP-FEEDBACK
+name：财印食与peer完整同源反馈
+source：literal129 algebra + new source许可
+preconditions：common scalar,nonnegative maxports,all reach/gain≤1,L<1
+exclusions：向量不共率/界不足无部分H
+time_or_input_change：生日/制食/生财/夺财/自身介量同步重算
+conflict_policy：月伤官source权限不移植；97独立印retention旧模型不宣数值等价
+expression：feedback_map/solve
+tests：19原柱条件逐origin Fraction点映射；16敏感世界
+state：new full feedback operator extension
+
+4. CFP-CARRY
+算法标识：CFP-CARRY
+name：全负荷与根/显示/财活力并验
+source：old3/4、1/4、5/4预算 + PF1 half-root工程
+preconditions：实际财抑印、印根≥半、食伤显示≥半、财≥半、BODY严格承载、actual生日与生财正
+exclusions：数值闭合但任一目标失败不形成H
+time_or_input_change：财制印可能救显示也损生日/增泄负，非单向喜财
+conflict_policy：容量预算非能量守恒；gross生日损与净BODY损不同
+expression：goal_evaluation/causal_decomposition
+tests：HURT_卯_K1、FOOD_K2与strict等号算子题
+state：engineering whole-target contract
+
+5. CFP-PACKAGE
+算法标识：CFP-PACKAGE
+name：全部H基于完整正负功能包
+source：H-AUX selector + new signed package definition
+preconditions：actual源与全部目标先过；每E全图重算；每superset稳健
+exclusions：未知不当失败；不删actor/root躲害；不贪心截OR
+time_or_input_change：印生日+制食同包；财制印利害同包；食财+自身peer介量同包
+conflict_policy：端口套餐覆盖不等literal撤字/全来源因果最小
+expression：complete_package_selection/h_graph
+tests：三正例各256E全独立预期与实际完整状态归档
+state：complete bounded model auxiliary selection
+
+6. CFP-STATE
+算法标识：CFP-STATE
+name：known-none/source-pending/numeric-pending/unknown分开
+source：native current contract + named new method
+preconditions：全部提供记录先原生验证；源足域/程度/实际目标逐门
+exclusions：未来坏记录和坏源不能被unknown遮蔽；无失败回退
+time_or_input_change：同原局五层变动可重选但本研究无正式theme/window采纳
+conflict_policy：261 consumer限定旧Dingprofile，不能伪用它批准新267
+expression：validate_request/evaluate/main
+tests：source poison/unknown/end/futurebad/strict tests
+state：software and epistemic boundary
+
+7. CFP-SENSITIVITY
+算法标识：CFP-SENSITIVITY
+name：16世界记录分歧不投票
+source：unchanged inherited16 parameter axes
+preconditions：默认事前固定；各世界独立degree+actual图
+exclusions：其他world数值界不足不压成模型否定
+time_or_input_change：默认H全枚举；替代参数世界只actual诊断未请求H
+conflict_policy：不能称全参数所有H一致；不改旧coefficients或进度
+expression：sensitivity_worlds
+tests：HURT_卯_K1完整结构×16 diagnostic worlds；其余19条件默认事实另存
+state：research sensitivity, not empirical validation
+
+原件：work/rev267_concurrent_finance_print_extension/mathematical_proof_and_locator_notes.json
+SHA256：7f1b115a9cd93ed35ad83c9c7ccaa8880590e9a909d825216f79b30dd031da1c
+
+{
+  "schema": "267-proof-exact-locators-and-layer-boundary-0.1",
+  "literal129_alias": "runtime/hf129; certificate text uses a human-readable alias, not a different directory",
+  "real_artifacts": {
+    "runtime/hf129/global_feedback_proof_before_target_calls.json": {
+      "bytes": 2857,
+      "sha256": "3547f64631d8fc968e1434af620fbb8fb7177ea115cf81ee255cb48cd94584a5"
+    },
+    "runtime/hf129/certificate_scope_addendum_before_new_calls.json": {
+      "bytes": 2778,
+      "sha256": "dce0ceb89c552a99f30462965eee9580b4f4f63f839538ee1128260dfde08bc1"
+    },
+    "source/pages/page-074.png": {
+      "bytes": 140037,
+      "sha256": "a0ffc3dd99617853579b1682b4b2a4c9782ca70368891cc94e7dca153be6b78c"
+    },
+    "source/hf129_policy.json": {
+      "bytes": 4965,
+      "sha256": "e3743be0ca9db1f0965cdff5a0fc9a028a17b700994b676727da5e0056a0d4a2"
+    },
+    "source/pf97_policy.json": {
+      "bytes": 4215,
+      "sha256": "a1601494fef329620c7ff0faec79291069bbdbb916952e3be962ed324bece06b"
+    },
+    "source/wt2_actual944_policy.json": {
+      "bytes": 4512,
+      "sha256": "944bae47d30d64ae425be86708f1ec2fb766abbfaef884073c6d4fe07a9a0678"
+    }
+  },
+  "incremental_mathematical_argument": [
+    "Both严格食神 and伤官 are the same五行日生 role for these generation/control operators; role labels remain different and source permits伤食. This extends numerical domain but not old129 monthly source adoption.",
+    "All enabled packages are fixed binary choices while solving w. Each removed print package changes birthday/control coefficients to0, so its per-origin max slope is bounded by the full original nonnegative coefficients. Physical root/direct-print pool P remains fixed, not reassigned.",
+    "Removing outlet generation also removes the identical own-peer mediated path. Old full-map net loss Lipschitz bound already includes gross loss and own subportfolio mediation. No whole outlet amount is credited to every peer.",
+    "Peer carrying-port projection does not alter physical body supply/finance contest, hence does not introduce a feedback slope; it is applied only to final carry target.",
+    "One external finance has equal reach to every print, so a single shared retentionw applies. Actual numeric certificate checks common rate, nonnegative complete ports and each slope bound.",
+    "For actual finance control disabled or its full package absent, nextw=1 independent of all numeric loops; exactw1 is a DAG state and does not need L<1. With the edge present, insufficient bound produces no current state.",
+    "No packagewise success grants classical source permission. Actual source/degree baseline and all target checks precede exhaustive H; all positives are conditional declared-model support, not empirical prediction."
+  ],
+  "source_policy_boundary": "literal old policies remain about old components; no new267 source/model/consumer acceptance inferred from copies",
+  "new_adoption": false
+}

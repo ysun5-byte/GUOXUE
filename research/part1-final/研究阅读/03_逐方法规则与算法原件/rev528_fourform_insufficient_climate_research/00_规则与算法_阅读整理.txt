@@ -1,0 +1,2315 @@
+四化不足现有来源生助修复与土寒湿燥
+rev528_fourform_insufficient_climate_research
+所属原模块：C02
+当前采用：rev562_fourform_support_climate_project_adoption.json
+范围：adopted_exact_finite_source_operator_after_independent_review
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev528_fourform_insufficient_climate_research/function_explanations61.json
+SHA256：fc2089937cbbde581f1dda776da40ad5a97f7ed2f6029be21474659b5b681850
+
+1. current.py:ResearchError.__init__
+算法标识：current.py:ResearchError.__init__
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "ResearchError.__init__",
+  "first_line": 12,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "76fe5c17a69fcce7f30862e13b19f66b73c4db1a6854f5a1f41029beb54d20b8",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='self'), arg(arg='code'), arg(arg='status')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='invalid_input')])"
+}
+算法解释：{
+  "inputs": "code,status=invalid_input",
+  "operations": "保存code/status并调用ValueError构造",
+  "outputs": "正常构造返回None；异常实例保存两个字段",
+  "preconditions_and_limits": "不生成判断结果；CLI据此返回2。",
+  "purpose": "建立当前入口的类型化异常"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "current.py:ResearchError.__init__",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:ResearchError.__init__"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+2. current.py:canonical
+算法标识：current.py:canonical
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "canonical",
+  "first_line": 15,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "JSON兼容value",
+  "operations": "Unicode、键排序、紧凑分隔、allow_nan=False",
+  "outputs": "str，不是UTF8 bytes",
+  "preconditions_and_limits": "Fraction需先pack；并不自行检查来源或业务schema。",
+  "purpose": "确定JSON文本"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "current.py:canonical",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:canonical"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+3. current.py:digest
+算法标识：current.py:digest
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "digest",
+  "first_line": 18,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "53c92748c638f6e8ee8df3f92271e5c5e498e0e7f7a04a6546b0c1b878241b9f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "JSON兼容value",
+  "operations": "canonical文本UTF8编码后SHA256",
+  "outputs": "64位hex str",
+  "preconditions_and_limits": "指纹相同只绑定该规范值，不认证文献或历法。",
+  "purpose": "内容指纹"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "current.py:digest",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:digest"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+4. current.py:strict_load
+算法标识：current.py:strict_load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "strict_load",
+  "first_line": 21,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "da43b3c2a785a350bacda9238a86ebe24633bc615f41079312445d885accdadc",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "str，最多2000000字符",
+  "operations": "重复键与非有限常量回调拒绝，json.loads",
+  "outputs": "任意解析JSON值；根schema在evaluate检查",
+  "preconditions_and_limits": "不是单独Unicode scalar/深度校验；后续scalar_tree负责。",
+  "purpose": "当前CLI严格JSON解析"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "current.py:strict_load",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:strict_load"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+5. current.py:strict_load.pairs
+算法标识：current.py:strict_load.pairs
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "strict_load.pairs",
+  "first_line": 23,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "74625c803e0589b53f87a2feb9cdcb7d8e3fc42a1ad9068a240895a9bafb7550",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='items')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "JSON解析器提供的键值序列",
+  "operations": "逐项构造dict，已有键即ResearchError",
+  "outputs": "唯一键dict",
+  "preconditions_and_limits": "仅JSON object回调；不能把覆盖旧键当成功。",
+  "purpose": "拒绝重复键"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "current.py:strict_load.<locals>.pairs",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:strict_load.pairs"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+6. current.py:strict_load.constant
+算法标识：current.py:strict_load.constant
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "strict_load.constant",
+  "first_line": 29,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "fce474ceff0a4f04f2983720b398eb25aab021581a761c44251572bf7d5a4a7f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "解析器常量文本",
+  "operations": "总是抛ResearchError(nonfinite_JSON_constant)",
+  "outputs": "无正常返回",
+  "preconditions_and_limits": "异常事件加None不是正常结果。",
+  "purpose": "拒绝非有限JSON常量"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "current.py:strict_load.<locals>.constant",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:strict_load.constant"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+7. current.py:scalar_tree
+算法标识：current.py:scalar_tree
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "scalar_tree",
+  "first_line": 32,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "6669becbafcf9720f0f29a1bb6c7866fe60a7ec2a9a4a52d807d93dbd8030723",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='depth')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=0)])"
+}
+算法解释：{
+  "inputs": "value,depth=0",
+  "operations": "深度<=64、dict<=128、list<=512、str<=2000000且无代理码；字符串键；只JSON标量且float有限",
+  "outputs": "成功None；错误ResearchError",
+  "preconditions_and_limits": "不解析UTC或schema，不接受Fraction/tuple等非JSON对象。",
+  "purpose": "当前API JSON树和Unicode约束"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "current.py:scalar_tree",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:scalar_tree"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+8. current.py:guard
+算法标识：current.py:guard
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "guard",
+  "first_line": 47,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "335d2d579a0551a69e6bf421066d5d4fc927dbdffd5cf0854beb7b2c94314566",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "先核全部来源和提供者字节",
+  "inputs": "无参数；ROOT中硬绑定锁、22个材料",
+  "operations": "先锁SHA、runtime/source完整清单；拒软链和逃逸；逐件核大小SHA、523精确采纳状态；返回捕获原bytes",
+  "outputs": "dict[str,bytes]；任一坏来源抛ResearchError/OSError，0提供者",
+  "preconditions_and_limits": "核SHA不等原文内容真实；load只执行已捕获字节，不二读旧树。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:guard"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+9. current.py:load
+算法标识：current.py:load
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "load",
+  "first_line": 62,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "name,relative,material",
+  "operations": "新ModuleType，设置__file__，compile并exec material指定字节",
+  "outputs": "该模块对象",
+  "preconditions_and_limits": "仅由evaluate在guard后调用；函数本身不重作guard；模块独立全局避免跨请求配置污染。",
+  "purpose": "执行已核模块字节"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "current.py:load",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:load"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+10. current.py:evaluate
+算法标识：current.py:evaluate
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "evaluate",
+  "first_line": 65,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "830d62bd756f99b141b6f93c0c005af52bd9c810c6744881483dcacbd8cf81f1",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "一个严格绑定四柱研究请求的完整执行",
+  "inputs": "JSON dict：精确schema/method_ref/source_profile/chart/binding；chart含id/version/pillars/origin",
+  "operations": "先guard与JSON树/精确内容版本绑定；加载6捕获模块；旧facts合法性与旧source足域；合格才建库存并完成全部支持/气候问题",
+  "outputs": "完整JSON兼容结果；源外有原因而calculation=None；非法输入抛异常",
+  "preconditions_and_limits": "源外不是全传统否定；origin只是来件声明；不输出全局最终喜用/B/主题/显示，不借默认结论填能力。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:evaluate"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+11. current.py:main
+算法标识：current.py:main
+source_identity：{
+  "relative_path": "current.py",
+  "qualified_name": "main",
+  "first_line": 87,
+  "module_sha256": "c050757fa7549841525b77d9f053ced94c9cba5634762be8d0eed8afabd86904",
+  "AST_sha256": "1f37c1a222653e90bcbbfe8581d061e4680a477cc0cc4c6250f39973c2a2e688",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "最多2000000 UTF8bytes stdin",
+  "operations": "读至2000001检超长；strict_load→evaluate→canonical；捕ResearchError及明确列举异常",
+  "outputs": "成功打印整JSON并返0；硬错打印无部分判断JSON并返2",
+  "preconditions_and_limits": "有效未知exit0；不捕所有BaseException；API自身不统一把所有内部异常改成正常结果。",
+  "purpose": "当前stdin/stdout公开CLI"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "current.py:main",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "current.py:main"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+12. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "bounded",
+  "first_line": 16,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite.",
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:bounded",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:bounded"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+13. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "shape",
+  "first_line": 38,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])"
+}
+算法解释：{
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity.",
+  "purpose": "Require an exact allowed object field set."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:shape",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:shape"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+14. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "string",
+  "first_line": 43,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation.",
+  "purpose": "Require a nonempty string field."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:string",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:string"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+15. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "boolean",
+  "first_line": 48,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema.",
+  "purpose": "Require actual bool instead of truthy/coercible values."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:boolean",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:boolean"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+16. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "validate",
+  "first_line": 53,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+算法解释：{
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate.",
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:validate",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:validate"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+17. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "closed",
+  "first_line": 135,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them.",
+  "purpose": "Check that every declared graph-scope obligation is marked complete."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:closed",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:closed"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+18. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "hard_failure",
+  "first_line": 139,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here.",
+  "purpose": "Determine whether a required actual goal or global check still blocks selection."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:hard_failure",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:hard_failure"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+19. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "repair_candidates",
+  "first_line": 144,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes.",
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:repair_candidates",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:repair_candidates"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+20. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "minimal_covers",
+  "first_line": 184,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case.",
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:minimal_covers",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:minimal_covers"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+21. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "prefer",
+  "first_line": 197,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred.",
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:prefer",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:prefer"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+22. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "preference_frontier",
+  "first_line": 206,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker.",
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:preference_frontier",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:preference_frontier"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+23. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "select",
+  "first_line": 224,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "基础结果含version/semantic_scope/positive_current_tasks、输入投影actors/tasks/goals/checks对应保留项、repair/needed_absent/luck/selected/common/final/B/warning；各分支添status；无目标添background，活跃目标另添coverage/allminimal/preference/frontier。不返回schema/mode/scope或full_native_graph。当前完整投影由外层current.frames[i].calculation.native_H.full_native_graph保；完整物理图另在current.frames[i].calculation.actual_full_world.actual_signed_graph。",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.",
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:select",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:select"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+24. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "strict_pairs",
+  "first_line": 272,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs.",
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:strict_pairs",
+  "AST_exact": true
+}
+current_actual_IO：null
+additional_nonvacuous_actual_IO：[]
+execution_status：本次未执行，精确旧合同保留；不冒新IO
+current_context：旧pool仅inventory与native_H执行；其余旧pool物理解不适用于literal零库存日干，当前全图由reference/entity_coefficients与support_research.solve执行。旧aux独立CLI解析未调用。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+25. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "reject_constant",
+  "first_line": 280,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite.",
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:reject_constant",
+  "AST_exact": true
+}
+current_actual_IO：null
+additional_nonvacuous_actual_IO：[]
+execution_status：本次未执行，精确旧合同保留；不冒新IO
+current_context：旧pool仅inventory与native_H执行；其余旧pool物理解不适用于literal零库存日干，当前全图由reference/entity_coefficients与support_research.solve执行。旧aux独立CLI解析未调用。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+26. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "main",
+  "first_line": 284,
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main.",
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol."
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/auxiliary_selector.py:main",
+  "AST_exact": true
+}
+current_actual_IO：null
+additional_nonvacuous_actual_IO：[]
+execution_status：本次未执行，精确旧合同保留；不冒新IO
+current_context：旧pool仅inventory与native_H执行；其余旧pool物理解不适用于literal零库存日干，当前全图由reference/entity_coefficients与support_research.solve执行。旧aux独立CLI解析未调用。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+27. runtime/element_pool.py:inventory
+算法标识：runtime/element_pool.py:inventory
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "inventory",
+  "first_line": 9,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "5cdf8387d2fe6337a0eacda26e1f65c17a179960b5c92885df5456587703fb67",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "完整parsed及指定b/c参数",
+  "operations": "逐明藏根证：同元素各支主列1余列1/4月3/2、每明干浮源1；同元素同origin最大聚合；每演员根证总和归一作分配权重",
+  "outputs": "actors/direct/weights/parsed/params",
+  "preconditions_and_limits": "主余权重是工程结构权重，非司令/任土12宫。共池分配不是演员局部库存。",
+  "purpose": "保明藏全部实体并形成phase-free任务库"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/element_pool.py:inventory",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/element_pool.py:inventory"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+28. runtime/element_pool.py:coefficients
+算法标识：runtime/element_pool.py:coefficients
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "coefficients",
+  "first_line": 37,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "615b03099456f6f43f080508f3ebca37ed456b3adfc8b9293122fc5299b9e1fd",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "base直接库与参数b,c",
+  "operations": "b,c∈(0,1/3]；无实体目标不接收/不预留该输出；a_i=1+b*生目标存在+c*克目标存在；K目标行生正克负除a；行和L核<1",
+  "outputs": "b,c,present,a,K,L",
+  "preconditions_and_limits": "每个正负发送与成本均读同一个解；预留全部控制容量不因目标被耗尽回收。",
+  "purpose": "声明同current全生克预算"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/element_pool.py:coefficients",
+  "AST_exact": true
+}
+current_actual_IO：null
+additional_nonvacuous_actual_IO：[]
+execution_status：本次未执行，精确旧合同保留；不冒新IO
+current_context：旧pool仅inventory与native_H执行；其余旧pool物理解不适用于literal零库存日干，当前全图由reference/entity_coefficients与support_research.solve执行。旧aux独立CLI解析未调用。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+29. runtime/element_pool.py:solve
+算法标识：runtime/element_pool.py:solve
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "solve",
+  "first_line": 50,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "b7e9b32624c59cd4352eef349c857cce8326f350acb8704cdbf52ff0892ab382",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "base/math.gauss",
+  "operations": "枚举32活跃面；解(I-K_AA)x=v；非活跃0；对全部五行max方程精确有理代入、非负才收；结合全域L<1唯一",
+  "outputs": "current、coefficients、活跃面与证书",
+  "preconditions_and_limits": "全有理无浮点suggestion；缺实体坐标夹0；不生成不存在金等演员。",
+  "purpose": "精确求唯一五行任务状态"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/element_pool.py:solve",
+  "AST_exact": true
+}
+current_actual_IO：null
+additional_nonvacuous_actual_IO：[]
+execution_status：本次未执行，精确旧合同保留；不冒新IO
+current_context：旧pool仅inventory与native_H执行；其余旧pool物理解不适用于literal零库存日干，当前全图由reference/entity_coefficients与support_research.solve执行。旧aux独立CLI解析未调用。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+30. runtime/element_pool.py:origin_ports
+算法标识：runtime/element_pool.py:origin_ports
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "origin_ports",
+  "first_line": 64,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "70baff7d919978b41bdcf3d715947a428e61ade1f4c704d6a20210e991c29261",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "base/world/math",
+  "operations": "gross_i=d_i+b*x_parent(须目标存在)；rho=x/gross；多右端解o_i=rho_i(d_i,o+b*o_parent)；逐origin非负/方程/和=x断言",
+  "outputs": "pools/gross/retention与L",
+  "preconditions_and_limits": "控制不把被克元素转换为克者；成本与克损同比耗用毛入。origin代表工程资格输入，不是物理分子守恒。",
+  "purpose": "在同解上分清所有库存来源"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/element_pool.py:origin_ports",
+  "AST_exact": true
+}
+current_actual_IO：null
+additional_nonvacuous_actual_IO：[]
+execution_status：本次未执行，精确旧合同保留；不冒新IO
+current_context：旧pool仅inventory与native_H执行；其余旧pool物理解不适用于literal零库存日干，当前全图由reference/entity_coefficients与support_research.solve执行。旧aux独立CLI解析未调用。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+31. runtime/element_pool.py:reconstruct
+算法标识：runtime/element_pool.py:reconstruct
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "reconstruct",
+  "first_line": 77,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "64dd281189586e10828753327a067962357487735b0575f3a23e10f60c30256e",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "current_domain_note": "这是原全功能固定b/c物理工具，当前API不调用；solve/origin用于theta1回归。theta!=1诊断必须用本wu_core新函数，不能混用旧ports/reconstruct。",
+  "inputs": "同一base/world/ports",
+  "operations": "actorports=权重*元素origin池；遍历所有真实演员，生/克每对按b或c及目标权重发送；gross=x+gen预算+control预算+实际克损逐项核",
+  "outputs": "全部actorports、全部有向生克边、五库存账、形式关系",
+  "preconditions_and_limits": "0现量演员仍在；容量超目标部分另记。没有跨不同world拼正负，也不删除未选包。",
+  "purpose": "还原每个演员每origin全部发送与消耗"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/element_pool.py:reconstruct",
+  "AST_exact": true
+}
+current_actual_IO：null
+additional_nonvacuous_actual_IO：[]
+execution_status：本次未执行，精确旧合同保留；不冒新IO
+current_context：旧pool仅inventory与native_H执行；其余旧pool物理解不适用于literal零库存日干，当前全图由reference/entity_coefficients与support_research.solve执行。旧aux独立CLI解析未调用。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+32. runtime/element_pool.py:native_H
+算法标识：runtime/element_pool.py:native_H
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "native_H",
+  "first_line": 103,
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "AST_sha256": "56fe1b2195732cc356eec3de8c69bc229643a286f00fa631b5b0090371617c2d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='logic'), arg(arg='aux'), arg(arg='actual_met')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "base/完整logic/原AUX/实际目标是否满足",
+  "operations": "CNF按最多18goal/100tasks分块；每块存完整输入图并调用原select；AND各块的所有局部OR，枚举并集再最小化；与独立全H断言相等",
+  "outputs": "bounded_native_parts及全部最小并集",
+  "preconditions_and_limits": "原AUX源码不改；full_native_graph由此adapter保存，select本身不返schema/mode/scope。原AUX B字段恒未接产品。",
+  "purpose": "接原native选择器且保全部OR"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/element_pool.py:native_H",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/element_pool.py:native_H"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+33. runtime/formation_reference.py:source_admission
+算法标识：runtime/formation_reference.py:source_admission
+source_identity：{
+  "relative_path": "runtime/formation_reference.py",
+  "qualified_name": "source_admission",
+  "first_line": 6,
+  "module_sha256": "d3b37e48339e18b6b8b112060bc62b2fe3526c45248172550d664f30449a8bd6",
+  "AST_sha256": "5b0033834dc58b7204dfb5db8972e1d7feef3b2bfddf5410b116b8230d64ca5e",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='raw'), arg(arg='profile'), arg(arg='facts')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "合法raw、profile、已采用facts",
+  "operations": "日主属于甲己/乙庚/丙辛/戊癸；唯一邻位合干/无额外同日干；原注具名季节、辰、甲日其他明壬癸甲乙戊阻碍；其余明合逐位置sourcepending。原六合/冲全保，逐具体赋固定不二次变身/不额外增力算子，巳申/辰酉具体解释。",
+  "outputs": "ready/reasons/pair/chemical_element/partnerpositions、原formal facts及fixed_relation_consumption；反向日主工程标志。",
+  "preconditions_and_limits": "原注/任注分层；严格辰足域不宣任氏通用必辰。支规则是所选工程定义，非已判传统关系无效或已化；三合刑害等未普遍判效。",
+  "purpose": "四对共同的严格来源足域及逐位置关系消费"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/transform.py:source_admission",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/formation_reference.py:source_admission"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+34. runtime/formation_reference.py:inventory
+算法标识：runtime/formation_reference.py:inventory
+source_identity：{
+  "relative_path": "runtime/formation_reference.py",
+  "qualified_name": "inventory",
+  "first_line": 37,
+  "module_sha256": "d3b37e48339e18b6b8b112060bc62b2fe3526c45248172550d664f30449a8bd6",
+  "AST_sha256": "f823befcbe0923285a5b5d99d3c5dc35f013ada4f8173dd58d86705d69a87470",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='source'), arg(arg='params'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "parsed/source、固定params、旧pool",
+  "operations": "先调用原pool.inventory保全部明藏根；仅去原日person额外float1，不删根/演员；按当前真实witness重算所有weights；以化神五行做body参考、泄神为下一元素；原十神/柱位不重写；选全部实际非日person泄神为候选。 r1纠错：整个真实同元素组witness分母0时，分接收/共池份额1/n；有正分母仍沿原witness分摊。初始direct/原根/原日float均不新增，组内真实元素不能由初0变不存在。",
+  "outputs": "全actors/direct/weights/rootledger/原日与化神参照/反神元素与所有outletids。",
+  "preconditions_and_limits": "phasefree main1/minor1/4/month3/2与Ren十二宫不同；共享源max去重，演员份额非独立局部实物。化神不是凭空新甲/庚日干。 零组fallback不是给日主加库存或根；本合法域该组只能原日单演员，因此份额1。",
+  "purpose": "复用库存并保原日person无据浮量与实际原根分界"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/transform.py:inventory",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/formation_reference.py:inventory"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+35. runtime/formation_reference.py:entity_coefficients
+算法标识：runtime/formation_reference.py:entity_coefficients
+source_identity：{
+  "relative_path": "runtime/formation_reference.py",
+  "qualified_name": "entity_coefficients",
+  "first_line": 54,
+  "module_sha256": "d3b37e48339e18b6b8b112060bc62b2fe3526c45248172550d664f30449a8bd6",
+  "AST_sha256": "6552ba64b71b769b5c254dcc9777ecfa26ed420f74075abfd93c2ce2d395366a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "base.params与全部真实actors；不以direct是否为空决定presence",
+  "operations": "沿原b/c范围及相同a_i/K公式；present_i=any真实actor元素匹配；即初库存0也保入生/受克槽和对存在目标的生出/控制费用；求相同严格收缩L；不添虚占位到direct/origins。",
+  "outputs": "b,c,present,a,K,L；presence_definition及zero_initial_but_real_elements、no_initial_stock_or_origin_added_for_presence。",
+  "preconditions_and_limits": "实际演员来自原合法四柱，非虚邀/新增实体。current仍由全方程得出，可以受生后被制归0；不能由无根/初0推不可受生。旧pool.coefficients函数保原AST，但其direct判presence不用于r1。",
+  "purpose": "按真实演员存在决定五行的入生/受克与发送费用，分开实体、初始库存和实际保留量"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/transform.py:entity_coefficients",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/formation_reference.py:entity_coefficients"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+36. runtime/formation_reference.py:origin_ports
+算法标识：runtime/formation_reference.py:origin_ports
+source_identity：{
+  "relative_path": "runtime/formation_reference.py",
+  "qualified_name": "origin_ports",
+  "first_line": 70,
+  "module_sha256": "d3b37e48339e18b6b8b112060bc62b2fe3526c45248172550d664f30449a8bd6",
+  "AST_sha256": "be7647fa5183ddd871ac7e7e273c204193f1c01b06e67925421016dbbddcfd81",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "base/world/math",
+  "operations": "按实际generationrates形成gross与rho；多rhs有理解每origin；核每式、非负、和=current",
+  "outputs": "全ports/gross/retention",
+  "preconditions_and_limits": "不能把旧固定b origin函数用于theta非1；控制/成本消费比例同世界，不跨world。",
+  "purpose": "每诊断同解全部真实源追踪"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/transform.py:origin_ports",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/formation_reference.py:origin_ports"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+37. runtime/formation_reference.py:original_root_trace
+算法标识：runtime/formation_reference.py:original_root_trace
+source_identity：{
+  "relative_path": "runtime/formation_reference.py",
+  "qualified_name": "original_root_trace",
+  "first_line": 85,
+  "module_sha256": "d3b37e48339e18b6b8b112060bc62b2fe3526c45248172550d664f30449a8bd6",
+  "AST_sha256": "ce4ffc249ec2bba3ceb0f217ce002eb6ab4f41a155d171447ed4066378aae2af",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='graph')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "base、同world/ports/graph",
+  "operations": "只取日/合干原明演员，保每根qualified_input；逐原根源在原元素/化神及全5元素的actualcurrent求和，同时保原元素总current、演员共池份额。",
+  "outputs": "两方逐根/原角色/原元素现量、同源各池留存及所有非化神原元素现量。",
+  "preconditions_and_limits": "根在化神保留不等根仍在原神；两者不互相替代。是否被压0由全图算；不能由真化/相合label先清零。",
+  "purpose": "显示原日与原合干的原根资格、真实残留和同源转入各元素"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/transform.py:original_root_trace",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/formation_reference.py:original_root_trace"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+38. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。",
+  "purpose": "十干查五行"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+39. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。",
+  "purpose": "严格十神角色"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+40. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。",
+  "purpose": "原柱基础合法性"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/foundation_facts.py:validate",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+41. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "historical_note": "旧K2尾注全文仅在原428合同引用保，不充当前原吴作用规则。",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。本原吴木三合与午未有限源消费在scope，保原藏而不自动合化或删根。",
+  "purpose": "保留有位置的形式合冲"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+42. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。",
+  "purpose": "保留同字同五行藏据及已明列特殊根例"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+43. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。",
+  "purpose": "原61完整四柱事实入口"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/foundation_facts.py:parse",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+44. runtime/shared_exact.py:pack
+算法标识：runtime/shared_exact.py:pack
+source_identity：{
+  "relative_path": "runtime/shared_exact.py",
+  "qualified_name": "pack",
+  "first_line": 3,
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "Fraction/字典/序列/集合等",
+  "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+  "outputs": "转换后的值",
+  "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。",
+  "purpose": "将数学结构转为可重复JSON兼容值"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/shared_exact.py:pack",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/shared_exact.py:pack"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+45. runtime/shared_exact.py:gauss
+算法标识：runtime/shared_exact.py:gauss
+source_identity：{
+  "relative_path": "runtime/shared_exact.py",
+  "qualified_name": "gauss",
+  "first_line": 10,
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "inputs": "n×n有理系数及n行多列右端",
+  "operations": "逐列选非零枢轴、归一、消去其他行",
+  "outputs": "有理数解矩阵；奇异报ArithmeticError",
+  "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。",
+  "purpose": "精确多右端线性消元"
+}
+条目分类：exact523_AST_and_contract
+exact_prior_reference：{
+  "artifact": "reference/exact523_function_explanations51_r1.json",
+  "record": "runtime/shared_exact.py:gauss",
+  "AST_exact": true
+}
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/shared_exact.py:gauss"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+46. runtime/support_research.py:source_questions
+算法标识：runtime/support_research.py:source_questions
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "source_questions",
+  "first_line": 8,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "7120912db5c9ee66009e99d19a518674a14b73ab54add312f3f839d2b1b0e1bc",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "从原柱确定本次三个土气候题入口",
+  "inputs": "完整base，原parsed与source_formation",
+  "operations": "仅甲己：丑为cold；丑辰且有实金水为wet；未戌且丙丁明出和巳午实际支为dry；原字逐项查",
+  "outputs": "cold/wet/dry bool及范围说明",
+  "preconditions_and_limits": "具名充分题，不是所有土必冷湿燥；原时运用语不倒写原局最终喜用。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:source_questions"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+47. runtime/support_research.py:amplify
+算法标识：runtime/support_research.py:amplify
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "amplify",
+  "first_line": 14,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "f931be07fb10a4c0cbb89ca96c7b36b38086c9305d3879fd77e6a0dda6fcec97",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='original'), arg(arg='elements'), arg(arg='doses')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "只增补已经存在的真实来源",
+  "inputs": "original base；两个元素str；两个非负Fraction剂量（公开0/1/2/4/8）",
+  "operations": "deepcopy；每个正量需真实演员与原direct总量>0；按原origin比例新增aug:元素:原origin标签；记录引入量；原根/权重不改",
+  "outputs": "(changed base或None,introduced dict,missing list)",
+  "preconditions_and_limits": "不造新干支/演员/根；无演员、无可增初源与根资格分别判；零剂量原无根演员仍参与全部作用。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:amplify"
+}
+additional_nonvacuous_actual_IO：[
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "chemical_only_valid"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "positive_rootless_parent_action_rejected"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "rooted_parent_only"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "cold_real_augmentation"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "wet_real_augmentation"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "dry_water_positive"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "truly_absent_parent_no_virtual_actor"
+  }
+]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+48. runtime/support_research.py:solve
+算法标识：runtime/support_research.py:solve
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "solve",
+  "first_line": 27,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "27771cebaca80f3240a26619364b892a85dbaeb7fa9441950c2ecaec1a1a2817",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='reference'), arg(arg='flag')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='actual')])"
+}
+算法解释：{
+  "purpose": "完整实际与同费用诊断的唯一精确现量",
+  "inputs": "base；精确math与reference模块；五种注册flag",
+  "operations": "literal actor presence系数；关闭指定母生/母生克/水功能/金生水边；潜在原费用a不退款；核L<1；枚举32非负面Gauss并全5式代回",
+  "outputs": "current、全系数、有效生克率、K、活跃面与证书",
+  "preconditions_and_limits": "模型现量不是实测强弱；关功能不是删实体/模拟行运；原日零初量也可真实受生受克。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:solve"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+49. runtime/support_research.py:actual_effects
+算法标识：runtime/support_research.py:actual_effects
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "actual_effects",
+  "first_line": 51,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "b2708dd5a5b7414b4ded7034af0b46bf9fc29f4220ab69c8ab4a75335988e134",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "保每个真实演员的全部正负生克与逐源成本",
+  "inputs": "base/world/同世界origin_ports",
+  "operations": "按固定共池权重遍历全实际演员对；生边传来源并乘目标保留率；克容量按目标min(gross,attack)钳位；列每源预留/实发送/未用量和5守恒账本",
+  "outputs": "全有号边、实际控制损失、actor来源、潜在生克费、5账本",
+  "preconditions_and_limits": "克正数表示损失而非利；共池分配不是演员局部实测；H不删除未选演员或其反作用。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:actual_effects"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+50. runtime/support_research.py:formation
+算法标识：runtime/support_research.py:formation
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "formation",
+  "first_line": 77,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "611b284540ba6f7ee2e774194c1e6cab04df99269d588aa5bc1953c9bc164f37",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='record')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "判断沿用505的具名形成充分证书",
+  "inputs": "base；record含world与origin_ports",
+  "operations": "源足域；化神>0；原化神根当前>0；化神严格超过原配对非化元素；retention严格>1/5；同时列margin及全部失败项",
+  "outputs": "checks dict[str,bool]、adequate bool、Fraction margin、failed list",
+  "preconditions_and_limits": "源旺余/不足与此数值门分层；工程证书失败不是古法不真化证明，也不把数值成功倒推源成立。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:formation"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+51. runtime/support_research.py:fixed_H
+算法标识：runtime/support_research.py:fixed_H
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "fixed_H",
+  "first_line": 86,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "4a674c7fedb7a8c95074cb6a2faba51577103b0494d6237ec4f5d8e32ef1b51f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='hard'), arg(arg='requirements'), arg(arg='rootcredits'), arg(arg='aux'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "固定完整实际世界的全部最小支持替代",
+  "inputs": "base；hard dict[str,bool]；requirements list[name,values(actor→Fraction),floor,positive_required]；rootcredits；aux/pool模块",
+  "operations": "rootcredit>0者先成为候选，余者显列不删实体；枚举全部2^n子集，硬条件AND与各路总信用>=floor且按需>0；最小H/最大失败CNF；旧native_H逐mask比真值",
+  "outputs": "全rows/H/CNF/根证据/原生全图与结果/等价数",
+  "preconditions_and_limits": "阈值作用于各路所选集合总量，非每演员单独；固定信用H不等重新解加量方案；全失败保空H。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:fixed_H"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+52. runtime/support_research.py:family
+算法标识：runtime/support_research.py:family
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "family",
+  "first_line": 104,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "d7030386326802b0806612182b8b1b9a2fa2487b77f276e5c915048283588ac0",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='values'), arg(arg='floor'), arg(arg='positive')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=True)])"
+}
+算法解释：{
+  "purpose": "构造强类型信用路要求",
+  "inputs": "name str、values dict[str,Fraction]、floor Fraction、positive bool",
+  "operations": "原样封装命名总量门",
+  "outputs": "name/values/floor/positive_required dict",
+  "preconditions_and_limits": "不分配额外现量；各路不同单位不强行合成总数。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:family"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+53. runtime/support_research.py:mother_credits
+算法标识：runtime/support_research.py:mother_credits
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "mother_credits",
+  "first_line": 106,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "7e438d204dac8fe299df287eb30ec597214c9483ac7da8acdcb11225e463257d",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='record')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "量化真实母神实际保留生化神及原根信用",
+  "inputs": "base；全实际record",
+  "operations": "仅非日、母元素演员；汇总其对化神全部生边的目标留存来源；再仅汇总演员自己的原根origin",
+  "outputs": "(credits,roots)，均dict[actor,Fraction]",
+  "preconditions_and_limits": "原根资格依原库存；不因可生就直接断最终喜母，不把同元素合池当局部力。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:mother_credits"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+54. runtime/support_research.py:augmentation_credits_and_checks
+算法标识：runtime/support_research.py:augmentation_credits_and_checks
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "augmentation_credits_and_checks",
+  "first_line": 114,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "18d24ca2462788451a8f659572b6716651c841f7b71f61c3efbfe706f4cb161a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='record'), arg(arg='introduced')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "对所有真正投入的正剂量组核来源资格",
+  "inputs": "base、全actual record、introduced来源dict",
+  "operations": "分母元素新来源实际留生/化神新来源当前；每候选自有原根；另外所有正量母组/化神组必须有原真实根当前和新路径>0；输出组证据",
+  "outputs": "credits/roots/checks/evidence",
+  "preconditions_and_limits": "全正投入组门独立于H选择，不能由仅选另一组绕过；未使用时True仅条件不适用，不证明有根；不删除无根原演员。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:augmentation_credits_and_checks"
+}
+additional_nonvacuous_actual_IO：[
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "[0, 2]all_used_groups"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "[8, 1]all_used_groups"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "rooted_parent_only_source_check"
+  }
+]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+55. runtime/support_research.py:qualified_warmth
+算法标识：runtime/support_research.py:qualified_warmth
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "qualified_warmth",
+  "first_line": 132,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "1e89614423787e2d092ebc63375ad76336b2169e123c297b9f3c206c517e6c19",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='record')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "把暖代理与生土/形成独立分轴",
+  "inputs": "base、完整record",
+  "operations": "实火演员若有原火根，按其共池权重投影存活火；合计qualified火>0且>=c*实际水；另列真实火根当前、火量及水克火损失",
+  "outputs": "暖代理证据、proxy_sufficient bool、全根及控制损失",
+  "preconditions_and_limits": "明确移植已采444/430有限工程代理；不是温度/热能，也不再扣一次物理成本；有生土不证明暖够，无根火并非传统普遍不能暖。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:qualified_warmth"
+}
+additional_nonvacuous_actual_IO：[
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "cold_separate_actual_warmth"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "wet_separate_actual_warmth"
+  }
+]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+56. runtime/support_research.py:generation_logic
+算法标识：runtime/support_research.py:generation_logic
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "generation_logic",
+  "first_line": 143,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "28665a52aa116c5ca2649124b151b46db2eeafd0a3ef918a629ed1233c6015bc",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='record'), arg(arg='aux'), arg(arg='pool'), arg(arg='dependency')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+算法解释：{
+  "purpose": "当前母生作用或母神维持依赖的具名H",
+  "inputs": "base/record、aux/pool、可选dependency booldict",
+  "operations": "母实际留生/原根；formation硬门；若有dependency并入；母所选合计>=当前化神/32且正；调用fixed_H",
+  "outputs": "完整具名信用H",
+  "preconditions_and_limits": "当前作用、关母后不形成的维持题、实际原不足修复是三题；不能用维持题结清原不足。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:generation_logic"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+57. runtime/support_research.py:augmentation_logic
+算法标识：runtime/support_research.py:augmentation_logic
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "augmentation_logic",
+  "first_line": 148,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "fa050395763b78ff08be2bc252c84adf2a342f3a09e300b02c3d33d33dd86520",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='record'), arg(arg='introduced'), arg(arg='before'), arg(arg='aux'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "判实际原不足到足的完整修复和单列部分候选",
+  "inputs": "base/actual introduced、零剂量before、aux/pool",
+  "operations": "原证书不足、后证书足、新信用正、全部正投入组门、化神量与对原神margin严格改善；合计新增真实作用>=后化神/32；另去used_*门只作诊断候选",
+  "outputs": "(完整repair H,部分effect-credit candidate,各组证据)",
+  "preconditions_and_limits": "部分候选不等可采修复；保首版40真值纠正；完整物理1621未改。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:augmentation_logic"
+}
+additional_nonvacuous_actual_IO：[
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "[0, 2]full_repair_vs_partial_effect_candidate"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "[8, 1]full_repair_vs_partial_effect_candidate"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "rooted_parent_only_repair"
+  }
+]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+58. runtime/support_research.py:climate_logic
+算法标识：runtime/support_research.py:climate_logic
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "climate_logic",
+  "first_line": 157,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "6cc66811abd4f844836c5b3f48a2dcc0a6f1a449c0dc49f39b72214241061c3c",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='record'), arg(arg='kind'), arg(arg='aux'), arg(arg='pool'), arg(arg='wateroff'), arg(arg='metaloff'), arg(arg='introduced'), arg(arg='original_adequate')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None), Constant(value=None), Constant(value=None), Constant(value=None)])"
+}
+算法解释：{
+  "purpose": "冷/湿/燥具名源题的实际与修复H",
+  "inputs": "base/record、kind、aux/pool；dry需同费用wateroff/metaloff；可选introduced/原题adequate",
+  "operations": "先具体源与形成；冷湿需实际火生土留存>=土/32和所选暖代理>=c水；湿另需实土直接来源>=土/32；燥需真实水根/控制火、对关水火净降且根火仍活、实金根/金生水净增；金留生水>=水/32与水实克火>=火/32；修复另核原不足及全部正投入组根/新路径",
+  "outputs": "source_kind、暖独立证据、完整logic H/失败",
+  "preconditions_and_limits": "生土与暖不是同一条件；燥修复新路径正量独立核，金生水/水克火不乱加不同归一信用；不是所有气候或全局原局喜用。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:climate_logic"
+}
+additional_nonvacuous_actual_IO：[
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "cold_current_conditions"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "cold_repair_conditions"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "wet_current_conditions"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "wet_repair_conditions"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "dry_actual_and_signed_contrasts"
+  },
+  {
+    "artifact": "actual/targeted_action_function_IO.json.gz",
+    "label": "dry_positive_action_source"
+  }
+]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+59. runtime/support_research.py:pareto
+算法标识：runtime/support_research.py:pareto
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "pareto",
+  "first_line": 198,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "c249054ad365ade2b1d4793028389693b531d9eb3af38e3cee72d691b6a99c62",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows'), arg(arg='key')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='adequate')])"
+}
+算法解释：{
+  "purpose": "保所有无加权排序的最小可行剂量",
+  "inputs": "rows中两个剂量、指定bool字段名",
+  "operations": "取成立组；若存在另组每轴<=且不相等则被支配；保全部未被支配组并排序",
+  "outputs": "list[[dose0,dose1]]",
+  "preconditions_and_limits": "不假设生克随剂量单调；不编唯一优选或将Pareto与最小固定信用H混同。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:pareto"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+60. runtime/support_research.py:analyze
+算法标识：runtime/support_research.py:analyze
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "analyze",
+  "first_line": 202,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "edf9eb912268a685ac4bb43833b32e72bd909c314c395b531117330320f351f8",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='original'), arg(arg='profile'), arg(arg='math'), arg(arg='aux'), arg(arg='pool'), arg(arg='reference')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+算法解释：{
+  "purpose": "四式共享形成不足/维持/冷湿燥完整研究",
+  "inputs": "original base、固定profile、math/aux/pool/reference模块",
+  "operations": "固定25母/化神方案逐一完整解；完整修复H与部分候选分账；原零和部分候选Pareto作母生关/母联关诊断；dry另25金水和两个同费诊断；所有world缓存按direct+flag唯一；原已足已知无需修复",
+  "outputs": "完整所有方案、世界、H、Pareto、气候题、母实体/根/初源缺项状态",
+  "preconditions_and_limits": "公开来源/参数/剂量固定；只做已有源支持情景，不把actual模型称现实能量/真实行运量；保needed-absent原承诺。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:analyze"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+61. runtime/support_research.py:analyze.get
+算法标识：runtime/support_research.py:analyze.get
+source_identity：{
+  "relative_path": "runtime/support_research.py",
+  "qualified_name": "analyze.get",
+  "first_line": 204,
+  "module_sha256": "bbb30b863517c312b0c0712a33a5587a0dec6614ca804fcff1ea39637e9f8b80",
+  "AST_sha256": "986446ceffcb6e300cc3f80ca9da8af34c27e0ef8d76599f1fb69cb6c94a2ccb",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='flag')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value='actual')])"
+}
+算法解释：{
+  "purpose": "同输入同诊断只解一次并保完整证据",
+  "inputs": "捕获math/reference/original；base及注册flag",
+  "operations": "以所有direct来源值+flag为缓存键；无命中才solve→origin_ports→全signedgraph→全部原根→formation；固定world编号",
+  "outputs": "(worldid,record)",
+  "preconditions_and_limits": "本次analyze内演员/权重/参数固定，缓存不跨chart/method；不同诊断不得混信用。"
+}
+条目分类：new_or_adapted
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "actual/key_function_actual_IO.json.gz",
+  "record": "runtime/support_research.py:analyze.get"
+}
+additional_nonvacuous_actual_IO：[]
+execution_status：本次真实完整输入/返回
+current_context：本次完整研究调用；ModuleType按已核代码身份记录，不假称序列化其全部运行命名空间。
+来源层次：原注374/任376与444/430移植代理分别定位；库存、全图、费用、剂量、阈值、H属于工程，不是古书定量或现实预测验证。
+
+原件：work/rev562_effective_rule_cards.json
+SHA256：796bd68d2b3e677c4092178a3b1df04585bd7e80a91a9debc9562a382028ae0c
+
+1. FOURFORM-SOURCE-AND-FORMATION
+算法标识：FOURFORM-SOURCE-AND-FORMATION
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：原注374/任376是源层；反向日主、严格充分域、数量与1/5均工程。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：复用已采523四式严格足域：合法四柱、唯一月/时邻配、所选月季、至少辰；甲日排原注明阻，其他新明干合具体拒；化神量/原根活且超过原元素、保留率>1/5
+exclusions_and_failure：源未满足不叫传统假化；物理有化神也不倒推源真；阴性全列原因
+change_conditions：改原柱/方法/参数需重核；原实体即使零初量、零当前也不是不存在
+conflict_resolution：先原字合法性→独立源门→全实际生克/原根→工程形成证书；具体六合冲保原库存并明示不做二次转化，不能假称古典无效
+rule_and_algorithm：reference.source_admission/inventory/entity_coefficients + core.solve/origin_ports/formation
+verification：{
+  "evidence": "51完整API/CLI；source_missing_Chen_and_extra_combination与illegal_year_month；6私有形成/暖边界",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+2. CONDITIONAL-MOTHER-BIRTH
+算法标识：CONDITIONAL-MOTHER-BIRTH
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：任376生助动机＋工程共同池/根信用/32门。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：在当前完整世界形成足；真实母演员实际生化神留存；所选母集合合计>=化神当前量1/32且各候选原根信用正
+exclusions_and_failure：只有五行母子role、藏干名、未到达目标或原根信用0不足；不直接输出最终喜母
+change_conditions：原输入/库存增补/参数可改变实际留生及H；关闭信用不退款不删母
+conflict_resolution：全部母生/母克及别的负面和发送费一起保；H是同一世界信用
+rule_and_algorithm：mother_credits→generation_logic→fixed_H
+verification：{
+  "evidence": "1621全世界原点边/账及179471H掩码；母单投乙庚[4,0]实际IO",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+3. PRESENT-MOTHER-MAINTENANCE
+算法标识：PRESENT-MOTHER-MAINTENANCE
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：任376条件性生助解释＋明确反事实工程题；非原局最终用神。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：实际已形成；联关母生与母克且同费用后不形成；实际化神和对原元素margin均严格更好；当前母H成立
+exclusions_and_failure：关母维持依赖不是实际原局不足修复；只关生的诊断另存不偷代联关题
+change_conditions：真输入变更重算；诊断不模拟行运/消失演员
+conflict_resolution：实际、仅关母生、联关母生克三个完整世界；原库存/负面/潜在费保持
+rule_and_algorithm：analyze.parent_maintenance_questions + generation_logic dependency
+verification：{
+  "evidence": "完整diag逐世界核；额外部分候选诊断不等已采方案",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+4. ACTUAL-INSUFFICIENCY-REPAIR
+算法标识：ACTUAL-INSUFFICIENCY-REPAIR
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：任376衰不足宜生助源意；形成不足谓词、剂量、净改善与32均充分工程，不是古典弱旺实测。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：零剂量工程形成不足；25预定真实来源方案完整重算；后足、化神量与margin严格改善、新真实信用>=后化神/32；所有实际正投入组有原根留存/新路径
+exclusions_and_failure：不能从母维持题冒不足；不能只看数量补足或由H只选另一组绕投入来源资格；无可增来源不造
+change_conditions：0/1/2/4/8双轴逐组，不假单调；参数不同重算所有可行
+conflict_resolution：完整actual证书与完整source repair H分存；部分effect-credit候选仅诊断
+rule_and_algorithm：amplify/augmentation_credits_and_checks/augmentation_logic/pareto
+verification：{
+  "evidence": "原不足四式全部实际有合格正链；nominal甲己[0,2]、乙庚[0,1]或[4,0]、丙辛[0,1]、戊癸[0,2]或[4,1]；全部25含反例",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+5. ALL-POSITIVE-ACTIONS-ROOT-AND-PATH
+算法标识：ALL-POSITIVE-ACTIONS-ROOT-AND-PATH
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：原source_problem前置工程合同，首次独立H漏项已保留并在producer前修；不伪称首版H完整无错。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：凡实际正dose使用的母/化神/金/水组，组原真实根当前>0且该新来源相关路径>0；不论最小H最终选没选该组
+exclusions_and_failure：零dose无需动作资格但原演员全作用；根less原母不被删除；H不能掩盖未选的正投入
+change_conditions：仅加入无根正投入即可使支持计划不合格，即使物理数量形成足；不改既有物理
+conflict_resolution：先所有实际投入资格，再fixed H；完整H不得用部分stage候选代替
+rule_and_algorithm：augmentation_credits_and_checks + climate_logic dry used-group checks
+verification：{
+  "evidence": "40个首版H遗漏真→假；1621物理源流SHA不变；JIA[8,1]物理足但动作门失败",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+6. EXISTING-SOURCE-IDENTITY-AND-NO-REPAIR-NEEDED
+算法标识：EXISTING-SOURCE-IDENTITY-AND-NO-REPAIR-NEEDED
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：工程输入及范围合同；非传统“无根绝不可作用”。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：只对原已有实际演员且原direct总>0的元素按原来源比例增；原0dose已足给known_no_repair_needed
+exclusions_and_failure：实际缺演员/有演员但无可增初源/无根/当前归零分别记录；不造浮量、ROOT或新时运演员
+change_conditions：真实新演员/根须另合法输入方法，仍属原承诺；本题不替代
+conflict_resolution：地位/初源/根资格/当前量四层分开，能算的同化神不因母缺而全unknown
+rule_and_algorithm：amplify + analyze.parent_source_identity_root_input
+verification：{
+  "evidence": "held_parent_absent；cold_fire_root_missing_counter；held_BING_literal_zero_day真实无火初源仍受木生/水克并付发送费",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+7. WARMTH-IS-SEPARATE-AXIS
+算法标识：WARMTH-IS-SEPARATE-AXIS
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：原注374阴寒火气昌旺＋429寒甚暖有气精度；444/430代理明确跨题工程移植，不是古文数值。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：实火有原根资格的演员存活火份额合计>0且>=c*实际水；另报实际火根、火当前和水克火损失
+exclusions_and_failure：真实生土或形成足不能单独证明暖足；无根火并非传统普遍不暖；代理非温度
+change_conditions：火份额/水负荷/参数改变需复算；相等纳入，略下不入
+conflict_resolution：火生土材料门与暖代理两轴同时报；质量投影不新生能量或再扣费
+rule_and_algorithm：qualified_warmth，明确移植source/430_cold_core_for_exact_quality_contract.py.txt
+verification：{
+  "evidence": "固定[木1,火1±1/997,土2,金1,水4]三完整私有世界：生土均足而暖略下假、等/上真",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+8. COLD-SOIL-CURRENT-AND-REPAIR
+算法标识：COLD-SOIL-CURRENT-AND-REPAIR
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：原注374源条件与工程足域分层。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：甲己丑月具名源题；形成足、实际火留生土>=土/32、所选暖火>=c水；修复另原题不足/新来源真实贡献/全正投入组根门
+exclusions_and_failure：有生无暖、根缺、化神不足、来源不合均保原因；原0已足不是unknown
+change_conditions：cold low原不足有[1,1]或[2,0]；nominal/high原题已足；不是实际运步份量
+conflict_resolution：同一完整世界中保水克火、火生土与全部费用；H同时满足birth和warm
+rule_and_algorithm：source_questions/cold climate_logic + all25 plans
+verification：{
+  "evidence": "cold_soil_candidate三profile；cold_fire_root_missing_counter；6私有/3eta边界",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+9. WET-SOIL-CURRENT-AND-REPAIR
+算法标识：WET-SOIL-CURRENT-AND-REPAIR
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：任376湿弱土上下文，运域句不倒灌原局；湿月/实金水选择、1/32是工程。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：甲己丑/辰且实金水具名湿题；冷题双轴外还需实土直接来源当前>=土/32；修复来源/全动作门齐
+exclusions_and_failure：不把“火虽有而虚，水本无而实”误成明无水即支无水；火缺不造；带火土运不是原局最终喜火土
+change_conditions：原始源/土直接支持及实际水克火可改变；已足标明无需该修复
+conflict_resolution：火生土、暖代理、土直接来源三路共同；完整H/替代保留
+rule_and_algorithm：climate_logic wet + fixed_H + pareto
+verification：{
+  "evidence": "wet_soil_candidate与held_parent_absent全3参数；真实缺火不可增而其他可算结果保",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+10. DRY-SOIL-CURRENT-AND-REPAIR
+算法标识：DRY-SOIL-CURRENT-AND-REPAIR
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：任376燥土金水时运源意＋具名充分工程支持题，不是原局喜金水总论。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：甲己未/戌、明丙丁和实巳午；形成/原根安全；水根/实克火、关水功能时火更高且根火仍活；金根/生水净增；两路各32门；修复所有正dose组根/路径齐
+exclusions_and_failure：不以有水或金名字即润燥；不删除水生木/金克木/全部费用；不混金水不同归一信用
+change_conditions：金/水25方案各全actual+关水+关金生水；同系数不同量可能非单调
+conflict_resolution：实际火净降和化神安全同时成立；所选金→水与水克火路线分别给足域，不称所有气候通则
+rule_and_algorithm：climate_logic dry，water_joint_off_samecost与metal_birth_water_off_samecost
+verification：{
+  "evidence": "dry_soil_candidate三参数：nominal/high[0,1]或[4,0]，low[0,1]或[8,0]；所有75组合/225world完整保",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+11. FIXED-WORLD-H-VS-RECOMPUTED-DOSE
+算法标识：FIXED-WORLD-H-VS-RECOMPUTED-DOSE
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：纯工程可复算/解释框架，不是命理实效验证。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：每个固定实际世界以完整根信用枚举所有H/CNF/native；另每个剂量必须重解完整世界并保Pareto替代
+exclusions_and_failure：不能拼不同世界信用、按局部角色跳过负面或仅保一个最美方案；partial effect候选不是修复
+change_conditions：阈值相等包括；原神比较相等不满足严格>；版本变另绑定
+conflict_resolution：source轴、physical轴、功能证书、修复方案四层分开
+rule_and_algorithm：fixed_H/pareto/analyze.get缓存key
+verification：{
+  "evidence": "179471mask全等价；材料eta略下/等单H、略上空H；真实费用逐原点平衡",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+
+12. SOURCE-INTEGRITY-DETERMINISM-AND-SCOPE
+算法标识：SOURCE-INTEGRITY-DETERMINISM-AND-SCOPE
+source：{
+  "edition": "1947年4月李雨田校订/发行《滴天髓阐微》；大东/百新为经售，不改为发行",
+  "edition_card": "source/Ren_edition_source_card.json",
+  "PDF_sha256": "d6a7d1daf6513ce9fb9940ff8331b96804c10cdafbeac00d4d3d0a37229e1803",
+  "locations": [
+    "source/Ren-374.png 原注化气",
+    "source/Ren-376.png 任氏曰：旺有余宜泄，衰不足宜生助化神之神；土燥/湿分支",
+    "source/Ren-375.png、377、378上下文"
+  ],
+  "online_locator": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
+  "not_earliest_autograph_or_verified_biography": true
+}
+source_layers：本轮研究交付可验证，不自采用/提分，现实预测尚无验证。
+judgment_method：原注化气前件与任注不足生助/土气候分题；不是扶抑/调候/格局所有流派唯一终局
+conditions：同四柱/固定方法/22来源字节确定；全部材料先核才6provider；保原注/任注/编辑/工程分层
+exclusions_and_failure：损坏/错版/错误绑定不输出部分判断；源不足不以默认喜用代替；未完成核心不据此清账
+change_conditions：来源或方法版本变必须新输入绑定；静态dose不是5UTC真实新actor窗口
+conflict_resolution：guard→JSON/版本绑定→facts→source→全图；所有前版原文件只读保持
+rule_and_algorithm：current.guard/evaluate/main + source_execution_lock
+verification：{
+  "evidence": "8源坏0provider/恢复每次6；7严格CLI；5API绑定；唯一小完整只读核另记录",
+  "source_accuracy_code_behavior_and_prediction_distinct": true,
+  "real_prediction_validated": false
+}
+current_status：本具名有限规则经552非作者独审，由562根代理采用；原任务剩余能力继续，非全局最终喜用/现实验证。
+historical_author_status：有限具名研究规则已作者核验，待非作者复核；不自采用
+

@@ -1,0 +1,191 @@
+{
+  "schema": "source-qualified-complete-function-credit-research-adoption-0.1",
+  "revision": 354,
+  "registered_utc": "2026-11-02T19:14:13.439286+00:00",
+  "status": "adopted_exact344_0.1.1_Ren393_sharedorigin_followchild_complete_function_credit_model",
+  "version": "REN-FOLLOW-CHILD-FULL-FLOW-0.1.1",
+  "candidate": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole",
+    "files": 79,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/manifest.json",
+      "bytes": 12328,
+      "sha256": "9d9cdfc1f57d22e38d001ee789ae1f926ccd02987c8b9720c774667041483634"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/freeze.json",
+      "bytes": 424,
+      "sha256": "ca0fff87b80a2c59f70f39ea8415f54ab7a97e300198dbcbb1c860e2672d651e"
+    },
+    "root_all_bytes_SHA_actual": true
+  },
+  "independent_review": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev350_follow_child_independent_review",
+    "files": 49,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev350_follow_child_independent_review/manifest.json",
+      "bytes": 7154,
+      "sha256": "8336ead5a475c74a8045f2addbab14d039cdcb4be3bf093ec59c34ebbdfe68bb"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev350_follow_child_independent_review/freeze.json",
+      "bytes": 660,
+      "sha256": "5fe74ac81f91432e6ba9f2c924de5c3e6c48391b0f88977368fd9b020fe61e5f"
+    },
+    "root_all_bytes_SHA_actual": true
+  },
+  "independent_report": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev350_follow_child_independent_review/independent_report.json",
+    "bytes": 23328,
+    "sha256": "ff284b2d2afc3e71ac159301867083d26d7c09cc9736ef6d5757fa351b6e9ea2"
+  },
+  "precise_pins": {
+    "manifest.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/manifest.json",
+      "bytes": 12328,
+      "sha256": "9d9cdfc1f57d22e38d001ee789ae1f926ccd02987c8b9720c774667041483634"
+    },
+    "freeze.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/freeze.json",
+      "bytes": 424,
+      "sha256": "ca0fff87b80a2c59f70f39ea8415f54ab7a97e300198dbcbb1c860e2672d651e"
+    },
+    "author_report.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/author_report.json",
+      "bytes": 2152,
+      "sha256": "e2f2bb4d66b4249a902814739c8194907ed7491399147ce3fc4c228666bf7520"
+    },
+    "follow_child.py": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/follow_child.py",
+      "bytes": 15063,
+      "sha256": "083fe5c30aa2fdfe0075928ca90573bd771663afbd7422d5c7fc0facc43fb2cf"
+    },
+    "flow_math.py": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/flow_math.py",
+      "bytes": 10446,
+      "sha256": "ce7dc206589826751b25075795cb73461600870d04de677c2fd84d3991490ad7"
+    },
+    "entry.py": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/entry.py",
+      "bytes": 886,
+      "sha256": "c9d5948301b3e9bdaaa1931124db9ad58d29da38643a54a0ba9f86af4bd3807b"
+    },
+    "execution_source_lock.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/execution_source_lock.json",
+      "bytes": 4565,
+      "sha256": "c3180e2ab514cfbd04a4b2713b192fea7875c4cb190618b5d14ead541f200233"
+    },
+    "complete_problem_before_producer.txt": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/complete_problem_before_producer.txt",
+      "bytes": 7380,
+      "sha256": "daab8a5422a05da3436088df8a45721b74c4393e9becb9ce09cb4f78eb407cb1"
+    },
+    "pencil_expectations_before_producer.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/pencil_expectations_before_producer.json",
+      "bytes": 5916,
+      "sha256": "1daaa8c55fafcd41bf0fe6ef4b8c3a79e1d25fdd3cb1a5ac401b24618694d284"
+    },
+    "ledger_semantics_qualification.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/ledger_semantics_qualification.json",
+      "bytes": 827,
+      "sha256": "a220e7a10725ecc09839d64587af3b9256080e1097c7cbfd88bec4ba7bbb4aec"
+    },
+    "source340/manifest.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/source340/manifest.json",
+      "bytes": 2266,
+      "sha256": "4dfc1560c4633057432644605102a1dd7be940424eee3dd1700f207895935c18"
+    },
+    "source340/freeze.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/source340/freeze.json",
+      "bytes": 133,
+      "sha256": "b5ff590130256ed492772a5746017f900771766fca9515f9b71d5d2ee4727c88"
+    },
+    "algorithm_explanations.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/algorithm_explanations.json",
+      "bytes": 36659,
+      "sha256": "3a0e75c997ec2e695cfc2dec710a60ac31fdf6b44dd9212d08ed9c4fa3052145"
+    },
+    "rule_cards_ten_fields.json": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev344_Ren_follow_child_whole/rule_cards_ten_fields.json",
+      "bytes": 5302,
+      "sha256": "907fd3ccecd82dbcb6e0755334b24c97bbd960bb9078634bbd62abe0ff3e7a34"
+    }
+  },
+  "source_reading": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev350_follow_child_independent_review/reference_and_actual_source_reading_receipt.json",
+    "bytes": 10832,
+    "sha256": "c527c1dc10a2d33f662525677bc5f33cf98685a97df5cd7d624aaec0c3d5f341"
+  },
+  "author_postfreeze_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev350_follow_child_independent_review/author_postfreeze_author_completion_handoff.json",
+    "bytes": 3073,
+    "sha256": "655c9d360af5d36f4a85580acc0e126408b0321c10c1c836f3f05cf13724720a"
+  },
+  "author_postfreeze_move": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev350_follow_child_independent_review/author_postfreeze_complete_move_receipt.json",
+    "bytes": 18712,
+    "sha256": "077f3295956fcad8bc5c04b5a2a87ae491d5dee9dc8c006f299d32e0474c5832"
+  },
+  "source_case": {
+    "year": "辛丑",
+    "month": "辛丑",
+    "day": "戊申",
+    "hour": "壬子"
+  },
+  "source": "Ren1947 PDF393 顺局 Q6, within actual389–394 source-context review; source qualification before numerical success.",
+  "source_profile_not_primary_override": true,
+  "entry_conditions": "Exact named source/threeelement case and guarded source identity. Do not require weakbody, monthlybranch-firsthidden-food, or ordinarycarry. Other sourcecases not declared non-fromchild.",
+  "relations": "Two formal remote子丑 candidates retained; only this source-preserving finite operator keeps金水roots and doesnot invent全化土. No generic theorem all子丑ineffective.",
+  "inventory": "14carriers,土4金5水5. Phasefree primary/other-hidden proxy and month multiplier in explicit engineering box, not Ren authenticated土十二宫 or measured气.",
+  "operators": "All actual positional soil-to-metal, metal-to-water and soil-controls-water ports plus both-end cost proxies; same-origin max not duplicate sum. Complete state ledger and selected positive-function credit ledger distinguished.",
+  "shared_pool_limit": "K=k*sum(W_S) borrows declared common task library; not individual hidden receiver owns all inventory. Shared/local counterexample retained; no assertion of actorlocal equivalence or physical conservation.",
+  "question": "Whole declared threeelement 生育流通 function-credit problem; include source supply, nonzero metal/water, real receivedJ and completeoffer capacity, retain all original negative effects.",
+  "result": "All robust minimal solutions are25position-preserving pairs, one of5metal senders AND one of5water receivers. This is not25classical final喜用 verdicts.",
+  "conditional_extra": "Given complete food/wealth task, none of3additionalsoil packets needed; conditional[[]] is not mainHempty.",
+  "verification": {
+    "all14_carriers_and_soil4_metal5_water5": true,
+    "source2remoteZiChou_finite_root_preserving_consumption": true,
+    "new_P1_actual8192_worldcalls": 8192,
+    "new_P1_unique_numeric_states": 11,
+    "new_P1_all_origin_T_M_W_S_J_costs_H_CNF_supersets_independent": true,
+    "new_other_parameter_and_rh_boundary_worlds": 28,
+    "private_thinwater_exactboundary_cases": 4,
+    "thinwater_hiddenreceiver_threshold": "229/765",
+    "shared_K": "383/272",
+    "actorlocal_comparator_K": "21/272",
+    "nominal_offer": "167/340",
+    "fresh_public_API_fixed_models": 128,
+    "fresh_public_fullstates_independently_reconstructed": 704,
+    "public_classified_subset_modelpairs": 1048576,
+    "public_counts_not_independent_million_cases": true,
+    "all128_times78_origin_edges_and_costs_independently_reconstructed": true,
+    "all25_H_ORs_and_native_aux_exact": true,
+    "conditionalextra_H_empty_is_distinct_from_mainH": true,
+    "new_source_domain_counterchecks": 9,
+    "new_strict_cases": 7,
+    "bad_source_actual0providerexec_cases": 5,
+    "clean_real_facts_providerexec": 1,
+    "current22_explanations_source_AST_actualIO_bindings": 22,
+    "reviewer_fresh22dynamic_trace_claimed": false,
+    "moved_new_parameter_mathematical_API_and_reviewCLI": 2,
+    "moved_formal_public_CLI_complete128_equal_fresh_API": 1,
+    "moved_all79verifier": true,
+    "all79_original_moved_before_after_SHA_equal": true,
+    "functional_oldroot_read_or_copywrite_attempts": 0,
+    "negativecontrol_blocked_oldroot_and_copywrite_each": 1
+  },
+  "source_opinion": "Ren393Q6 sourcequalification and flowconditions supported by independent actual389–394 reading. No monthlybranch-food/bodyweak/ordinarycarry gate import; other bookcases source qualification kept separate from fullmodelclosure.",
+  "math_opinion": "Closedforms/costs/max sharedorigins exactly implemented. Entirecontinuousbox sufficient inequalities independently checked. New P1/P2/rh rational points and exactprivate capacity threshold substantiate whole function H, not source25喜用.",
+  "public_parameter_override_supported": false,
+  "new_public_api_or_old_tests_rerun_by_this_adoption": false,
+  "reuse_independent_math_API_custom_cfg_is_not_public_CLI_contract": true,
+  "history": "Original0.1 preserved,0.1.1 adds ledger labels; original AST/IO reused honestly for19unchanged functions,2changed andentry realIO bound. Author firstfailures retained; independent350 no firstfail.",
+  "traditional_final_priority_or_all_useful_elements_unified": false,
+  "all_followchild_family_complete": false,
+  "B_theme_J2_or_display_exported": false,
+  "real_prediction_validated": false,
+  "original_task_complete": false,
+  "original_C02_C03_complete": false,
+  "score": "86.25/100",
+  "progress_delta": "0.00"
+}

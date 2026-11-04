@@ -1,0 +1,300 @@
+月令食神生财限定模型
+rev110_food_month_finance_whole_research
+所属原模块：C02
+当前采用：rev145_month_food_hidden_two_peer_project_adoption.json
+范围：保留124明透食神至多一比劫；145另加隐藏月令食神恰两比劫、一明财、无印官杀及其他活动角色。只在所有原前件、九目标及整图成立时采用。
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev110_food_month_finance_whole_research/algorithm_explanations.json
+SHA256：53eb4ddc1c5a01f60dfc3a00013bdb73f5f89f41bef29ccc3999e4d5d7c0ac65
+
+1. MF-A01
+算法标识：MF-A01
+函数标识：canonical
+input：JSON-compatible value
+output：deterministic JSON, nonfinite rejected
+算法与理由：Stable exact content encoding for bindings and actual API/CLI.
+precondition_or_limit：No source truth certification.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：17
+end_line：17
+函数AST摘要：49a96513ce61cf58c9942be93b96b9d8482bb24b5fad260482196b1593dde3a1
+actual_IO_ref：actual_function_IO.json.gz#canonical
+
+2. MF-A02
+算法标识：MF-A02
+函数标识：digest
+input：JSON-compatible value
+output：SHA256 of canonical value
+算法与理由：Bind exact new-method raw input separately from literal old reports.
+precondition_or_limit：Content address, not signature or empirical validation.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：18
+end_line：18
+函数AST摘要：ecf7816f1ef77b7bbfb003580ca1688e657d7e32f5899f90f4127225121e6431
+actual_IO_ref：actual_function_IO.json.gz#digest
+
+3. MF-A03
+算法标识：MF-A03
+函数标识：strict_load
+input：JSON text/bytes
+output：parsed object or ValueError
+算法与理由：Reject duplicate and nonfinite tokens before interpretation.
+precondition_or_limit：Native pillars and source gates still required.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：19
+end_line：27
+函数AST摘要：d9536335029b08a4febbf30efc5962a6758b56b92b9cdd663d32ed116d4b7cb6
+actual_IO_ref：actual_function_IO.json.gz#strict_load
+
+4. MF-A04
+算法标识：MF-A04
+函数标识：strict_load.pairs
+input：ordered object pairs
+output：unique-key dict or ValueError
+算法与理由：No last-key-wins ambiguity in source or input.
+precondition_or_limit：Structural only.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：20
+end_line：25
+函数AST摘要：b93f5768b70320d74d41a648047f1348ebf71ccabfde21d20070b9047a9c0fe4
+actual_IO_ref：actual_function_IO.json.gz#strict_load.pairs
+
+5. MF-A05
+算法标识：MF-A05
+函数标识：strict_load.bad
+input：nonfinite token
+output：ValueError
+算法与理由：NaN/Infinity cannot enter exact arithmetic.
+precondition_or_limit：Actual rejection captured; no normal None return claimed.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：26
+end_line：26
+函数AST摘要：0c0f2ab8c85d48401ddff002e7a74142778719cc7684675d4c7ce92d91180c87
+actual_IO_ref：actual_function_IO.json.gz#strict_load.bad
+
+6. MF-A06
+算法标识：MF-A06
+函数标识：pack
+input：Fraction and nested structures
+output：exact rational-string JSON values
+算法与理由：Preserve exact stocks, budgets and booleans.
+precondition_or_limit：Serialization does not establish classical truth.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：28
+end_line：32
+函数AST摘要：c1e27166ecc04d905ced9250d2b750c039d409aee40f275fd078c2e6c02d508b
+actual_IO_ref：actual_function_IO.json.gz#pack
+
+7. MF-A07
+算法标识：MF-A07
+函数标识：manifest_check
+input：component prefix, captured meta, actual all-file inventory, optional count
+output：None or source rejection
+算法与理由：Full original206/209 inventory and every member, plus effective-doc components and freeze-manifest correspondence.
+precondition_or_limit：Nested metadata retained; root-only exclusions.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：33
+end_line：40
+函数AST摘要：5e1dcb6773669f4954ca169568016ae49de06b43959cbd49717cb6305cde9cf0
+actual_IO_ref：actual_function_IO.json.gz#manifest_check
+
+8. MF-A08
+算法标识：MF-A08
+函数标识：source_correspondence
+input：captured source records and actual hashes
+output：new explicit research source contract or rejection
+算法与理由：Actual old model/review/core/lock/manifest/freeze and effective-doc bindings; primary source SHA/image receipt; new runtime never falsely adopted.
+precondition_or_limit：Existing approvals do not adopt this new role/domain/projection extension.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：41
+end_line：61
+函数AST摘要：3c2b06447bee4d5264fcb15c00055c93f49f7e2976ca489a21de8c5f1699ed95
+actual_IO_ref：actual_function_IO.json.gz#source_correspondence
+
+9. MF-A09
+算法标识：MF-A09
+函数标识：load_modules
+input：fixed dependency tree and new profile
+output：literal Food05/ROOT02/HAP3/AUX providers plus new source/profile
+算法与理由：Verify all461 dependencies before provider exec; exact old coefficients; execute literal original Food05, never patch its methods.
+precondition_or_limit：No B/default/C20 or old-method mutation.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：62
+end_line：82
+函数AST摘要：a3d44992145c056fda2b17d2d831a09c313bf369af8bd3c0bcb39046cf90bef1
+actual_IO_ref：actual_function_IO.json.gz#load_modules
+
+10. MF-A10
+算法标识：MF-A10
+函数标识：actual_roots
+input：target stem, four raw columns, actual primitive hidden-stem facts
+output：same-element actual hidden-root witnesses with positions/origins
+算法与理由：Separate actual same-element hidden occurrence from ROOT02 special qi/effect qualification.
+precondition_or_limit：Conservative operational root contract; no root witness here is not universal traditional身弱/无根 proof.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：83
+end_line：84
+函数AST摘要：244613f61b76b1eb6774dde4eec64c464b2f7db7482a80ca073a7074a2d9fc6a
+actual_IO_ref：actual_function_IO.json.gz#actual_roots
+
+11. MF-A11
+算法标识：MF-A11
+函数标识：secondary_root_guard
+input：validated raw, context, fixed providers
+output：each named relation with every current positive root user and pending flag
+算法与理由：Reuse preserved harm/break/self-punishment registry and PF1/ordinary two-branch punishment guard. Bind actual nonzero origin inputs before treating unresolved effects as sourcepending.
+precondition_or_limit：Not universal fatality, automatic root cancellation or harmlessness. P01 stays numeric-only despite all9 goals.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：85
+end_line：97
+函数AST摘要：ee90389134433c0abb3118c35f10bd4d6c356213d5422420e32e588c1cf24422
+actual_IO_ref：actual_function_IO.json.gz#secondary_root_guard
+
+12. MF-A12
+算法标识：MF-A12
+函数标识：source_context
+input：actual HAP/H1 inventory and fixed raw/providers
+output：strict monthly-food source context, roots, all old reasons/transfers and new pending guards
+算法与理由：Start from original Food05. Strict月主食神, one strict food and exposed finance, at most one print/two peers; hidden-month and two-peer transfers explicit. Preserve all other named, climate, official/kill and relation gates.
+precondition_or_limit：Hidden month does not gain a visible float; missing明透 wording is not classical sufficiency. Two-peer source closure not claimed from this batch.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：98
+end_line：119
+函数AST摘要：b0bc5c242a389fb3b97d7282e6327e9045fa3a42a8306a495bcf8287bceb48d5
+actual_IO_ref：actual_function_IO.json.gz#source_context
+
+13. MF-A13
+算法标识：MF-A13
+函数标识：full_world
+input：validated context, fixed providers, optional declared operator block for unit replay
+output：literal exact full Food05 solution plus nine new hard goals and two separate loads
+算法与理由：Reuse every original generation/restraint, peer theft/mediation, wealth retention and post-loss rescue feedback. Only a unique exact state accepted. Add actual-root/exhibition and Lu12 current food load while old direct-load carry remains necessary.
+precondition_or_limit：Two carry inequalities are AND, not summed twice. Numeric9 goals alone never bypass source; no source noble-label fitting.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：120
+end_line：135
+函数AST摘要：07b579143c0a4d05d78be6c5cb6bcc0d0f2e2f4e7ec22ee4b68d4fecd5973ce0
+actual_IO_ref：actual_function_IO.json.gz#full_world
+
+14. MF-A14
+算法标识：MF-A14
+函数标识：carry_projection
+input：fixed full actual world/context/providers
+output：all support subsets, global float removal, robust inclusion-minimal supports
+算法与理由：For at most3 print/peer helpers remove disabled peer positive floats from every projected body portfolio; keep raw root facts and ALL actual harms/loads fixed. Both carry inequalities must pass in every superset.
+precondition_or_limit：Explanation, not physical/calendar actor deletion or proof all counterfactual goals hold.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：136
+end_line：152
+函数AST摘要：04a861f49840389983971f0ff7a5411da6f19c391e2f048c732c444ecf8b269b
+actual_IO_ref：actual_function_IO.json.gz#carry_projection
+
+15. MF-A15
+算法标识：MF-A15
+函数标识：graph_for_support
+input：one minimal support set plus complete source/actual world/HAP
+output：one complete H-AUX graph
+算法与理由：Finance forms monthly food->finance goal; each needed carry helper has its own mandatory goal. Complete hard source/function goals plus all actual positive/negative background paths. AND inside each graph, OR only across complete graphs.
+precondition_or_limit：Background positive quantity does not automatically become H. Actual zero rescued print control is inactive, not a fabricated harm.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：153
+end_line：193
+函数AST摘要：606611d25d486f71c1e851cb03550ee9cc784e94ec7f831b0d7662abe893e19a
+actual_IO_ref：actual_function_IO.json.gz#graph_for_support
+
+16. MF-A16
+算法标识：MF-A16
+函数标识：graph_for_support.background
+input：task name, actual actor, actual activity, reason; enclosing tasks list
+output：None plus append one exact positive background task
+算法与理由：Retain birthday, body->food, food->wealth, wealth rescue/stock and peer mediation/carry without permitting them to satisfy required selection goals by mere presence.
+precondition_or_limit：Side effect is visible in parent graph output; not an extra algorithmic source or a new auxiliary preference.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：167
+end_line：168
+函数AST摘要：0f2498fbdddb06f7be8b1bfe6717c28f875292a359f29ea93c839c0ad6f1c1ec
+actual_IO_ref：actual_function_IO.json.gz#graph_for_support.background
+
+17. MF-A17
+算法标识：MF-A17
+函数标识：evaluate
+input：exact schema/analysis_ref/raw_pillars request
+output：literal native HAP/Food05 report plus new full world/projection/H or explicit unresolved result
+算法与理由：Validate true raw correspondence, align all four canonical HAP root origins, keep old report literal, apply strict new source, complete effects and separate full minimal graphs. Preserve all element alternatives without ranking.
+precondition_or_limit：New candidate not adopted; hidden/two-peer P01 remains pending; official/kill/climate/full food-month task unfinished; B=None.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：194
+end_line：216
+函数AST摘要：6dd75c243247daef913d401a6c7450d8556f9ade3a9ff0536081e0908454c361
+actual_IO_ref：actual_function_IO.json.gz#evaluate
+
+18. MF-A18
+算法标识：MF-A18
+函数标识：main
+input：stdin at most100000 characters
+output：JSON exit0 or explicit rejection exit2
+算法与理由：Actual CLI deterministic and strict, preserving true method/version.
+precondition_or_limit：No background action, B update, progress or prediction claim.
+basis：located main-source constraints + explicit engineering; actual old default coefficients, not ancient quantitative truth
+file：monthly_food_finance.py
+module_version：monthly-food-finance-whole-0.1
+file_sha256：2fe7b2772f79077fb374589b44be929ac4f0f009d8accc425468993aa6885199
+start_line：217
+end_line：223
+函数AST摘要：fef44582ce31f68d730ca9a57e77bfe526cb72598602a7ca5702d943dc36c7f3
+actual_IO_ref：actual_function_IO.json.gz#main
+

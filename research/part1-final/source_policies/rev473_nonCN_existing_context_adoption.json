@@ -1,0 +1,66 @@
+{
+  "schema": "473-fixed-nonCN-existing-cultural-context-adoption/1",
+  "revision": 473,
+  "registered_utc": "2026-11-03T06:46:22.544286+00:00",
+  "status": "adopted_exact46981_after47145_finite_positive_named_administrative_chain_not_partition_whole_claim",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev469_nonCN_existing_cultural_context",
+      "files": 81,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev469_nonCN_existing_cultural_context/manifest.json",
+        "bytes": 12909,
+        "sha256": "347fe736ba04a7d958944974ea65c1c19f2f79292d66f9d0653bac20bed079c8"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev469_nonCN_existing_cultural_context/freeze.json",
+        "bytes": 227,
+        "sha256": "55843a0b6d52d0a785973de0266696e1f005a036e1d7f32908908ce031711b9c"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev471_nonCN_context_independent_review",
+      "files": 45,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev471_nonCN_context_independent_review/manifest.json",
+        "bytes": 6835,
+        "sha256": "5857ebc4a419dc4bd5f1db781208931bcc0dfd694c007e5122c9705124aeb8f3"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev471_nonCN_context_independent_review/freeze.json",
+        "bytes": 92,
+        "sha256": "71f06d6fba77ccd6be6ef37ae9992b5eed34aaa28618d7fc192132aaed0f35e6"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev469_author_completion_handoff.json",
+    "bytes": 4912,
+    "sha256": "61c0fe07cdc2c34e25aefe61b5bdad7d925a3d67960a89eba71a5c958808f77a"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev471_independent_completion_handoff.json",
+    "bytes": 3787,
+    "sha256": "52e9daeb1a69730ebbc28bd42ca08af69f79e5028a14bbd30f3c7877c54e4abf"
+  },
+  "support": "香港18/澳门8固定ADM1正向具名锚；台湾原GN02/03/04三ADM1及20个ADM2和唯一闭合下级链；不把整个技术分区作whole文化证明。",
+  "negative_conditions": "TW01/Fukien、金门/连江、不明层级ADMD与P驻地不能自动套该台湾资料；保各自GN身份/自有点/Rn未定，不称零或客观无文化属性。",
+  "source_scope": "旧3闭合与3仅点未定版本全部保；旧frame/profile/geo/link先完整重放，新bridge明标工程现代具名文化包含候选上界，不是FIPS=MCA/现年官方多边形同界或古代逐地GIS。",
+  "source_layers_precise": "台湾是2020现代读史编选网页；港澳两个ref来自同一现代账号文章。不是三篇独立权威原典/官方资料。实际所见文字、原型古九州profile及新增工程包含分层，程序不能认证网页历史解释真值。",
+  "point_and_version_policy": "同名/相同坐标不合身份，文化源点不盖GN点；显式选exactref，旧未定/null/错版/错文化不自动改用新确定版或省版。",
+  "whole_chain": "TW原subject就是旧target，无需无意义中间crosswalk；HKMO原有真实来源连接必须完整。新包含不洗白name_only/错frame/不完整/缺链。",
+  "independent_evidence": "471事前21源条件、51原行/29admin1文本键，3完整API/CLI、旧苏州identity/point/Rn全文、coherent旧HK断链，45AST/40旧合约/35本次IO与10未在该trace执行实审；4strict、3坏0/3clean4，现成81小完整核9新过程/36真实负控，全SHA/模式不变。",
+  "author_proof_reused": "490既定记录/407可接83未定、12版本边界、4旧回归、10strict等正确域精确复用，不冒全部独审重跑；数量不作全国城市覆盖率或进度。",
+  "first_failures_historical": "作者误将HKMO根PCLS当PCLI及误将TW自subject当必需旧中间链接，首败及只改资料核查/测试假设保留；非作者无新首败或作者缺陷。",
+  "original_remaining": [
+    "既定地点身份/旧文化与出生地相对D2方向、C0等研究消费者完整链及原边界回放",
+    "旧九州西藏/黑龙江与新七区含义各依原范围/允许未知政策核对，不暗换未经批准文化含义",
+    "原单人取用、五实际时层及最终约定范围运行发行"
+  ],
+  "no_B_theme_direction_weights_display_or_physical_work": true,
+  "not_empirical_or_official_truth_certificate": true,
+  "progress": "86.25/100",
+  "progress_delta": 0
+}

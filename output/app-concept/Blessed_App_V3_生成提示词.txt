@@ -1,0 +1,30 @@
+生成工具：内置 imagegen（编辑模式）
+版本：V3
+日期：2026-11-02
+本轮修改：移除单人首页今日解读的标题、说明和查看解读入口；在原位置展示喜用形态。保留我的形态、顶部全宽信息卡、今日喜用标签、生辰八字入口与导航。
+
+最终编辑提示词：
+
+Use case: precise-object-edit / ui-mockup.
+Edit the supplied Blessed app concept board with ONE targeted user correction.
+REFERENCE ROLES: Image 1 is the clean V2 board and is the EDIT TARGET. Image 2 is the user's marked-up image, showing the requested change in red. The red markup is reference only and must NOT appear in the final image.
+
+THE EXACT USER REQUEST: On the LEFTMOST phone, completely delete the '今日解读' section and put the '喜用形态' particle visualization in that same position. The homepage should now display BOTH my own personal shape and a separate favorable-element shape.
+
+WHAT TO CHANGE:
+1. Remove the entire lower-left '今日解读' section: its heading '今日解读', its sentence '看看此刻的状态，了解变化的原因。', its '查看解读' link, and that link's chevron.
+2. Replace that region, directly BELOW the '今日喜用' row with 木 and 火 chips, with a new elegant compact visualization section titled EXACTLY '喜用形态'.
+3. Show a clearly visible, beautiful, airy, delicate sage-green and soft terracotta THREE-DIMENSIONAL PARTICLE CLOUD inside this new section. Match the green/orange favorable-element cloud already visible on the RIGHT SIDE of the MIDDLE phone, retaining that same graceful open S-shaped curling ribbon identity. It is made of thousands of fine particles with translucent layered volume, not a solid ribbon or flat icon. This is a single favorable-element shape, NOT a second person and NOT a merged personal shape. Do not include a plus sign in the left phone.
+4. Give this lower visualization sufficient room (around 100–125 px tall region with label and artwork), using a compact spacious arrangement, no text-over-art overlap. The label can be left-aligned near its top and the particle art centered below or to its right, but it must be clearly seen as a distinct model. If needed, slightly tighten vertical whitespace or proportionally reduce the upper black personal cloud just enough to fit both visualizations. Keep the upper black cloud recognizable and beautiful.
+5. Retain the '生辰八字' entry below the new model and retain the bottom navigation 今日 / 相遇 / 我的 and home indicator. Keep content entirely within the phone; no overlaps or clipping. It is okay to minimally adjust the left phone's lower-section vertical spacing to accommodate this one change.
+
+STRICT INVARIANTS:
+- Preserve the LEFT phone's top full-width rounded framed information card, with its two-column 干支时辰/当前位置, 甲子时 示例, 甲·木 子·水, 上海, 五行·待确定, the verified classical excerpt, and its source. Do not remove the frame, or rewrite its text.
+- Preserve the upper black '我的形态' model and its rotation/pause controls; preserve the '今日喜用' row with 木/火 and info icon.
+- Preserve the ENTIRE middle phone '喜用' exactly as is, all text, drawings, controls, placement, and color.
+- Preserve the ENTIRE right phone '相遇' exactly as is.
+- Preserve the full 3:2 landscape board, Blessed | 看见运的形状 title, three phone frames and status bars, all three outside captions, footer, shadows, palette and original polished editorial Chinese typography.
+- No '今日解读' or '查看解读' anywhere on the LEFT phone after the edit.
+- No red annotations, no new explanations, no extra decorative objects, no luck scores. This is a restrained, beautiful, realistic implementable mobile UI.
+Only deliver the revised clean board with the user's correction applied. Opaque background.
+

@@ -1,0 +1,60 @@
+{
+  "id": "project-accepted-current-hurt-finance012-bounded-whole",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "adopted_for_bounded_current_model",
+  "reviewer_ref": "Codex-root-project-review-under-explicit-user-research-authorization",
+  "method_ref": {
+    "id": "Current-Hurt-Finance-whole",
+    "version": "0.1.1"
+  },
+  "module_version": "current-hurt-finance-whole-0.1.1",
+  "implementation_revision": "0.1.2",
+  "model_component": "rev129_hurt_finance_whole_v0_1_2",
+  "model_core_file": "hurt_finance.py",
+  "model_core_sha256": "770de24363a8fec281b07a267027f6000c4824e390cc52aec2a2a66168e4a89b",
+  "model_dependency_lock_sha256": "448860be98ca57d86286b56eacb04504c834793d7a69752103f40300e278ed96",
+  "model_manifest_sha256": "58bc301ed9ff862128316a6663aeb8c1dc343d9ec0f417edaf91f4af6c2ce84e",
+  "model_freeze_sha256": "b83cac0adb95afbfa2c3b041883e00b44f87a94647f9b56ca392abe167bf29eb",
+  "runtime_profile_sha256": "b71457cf73ec3ead73a5c6e3469a6550191b9852a496fc60de35bd84f2471941",
+  "independent_review_schema": "HF012-current-whole-root-final-acceptance-0.1",
+  "independent_review_sha256": "aaeb31878638b96b638d050cf4565684a05f1ad69e92402ab6a9a13bf725c41b",
+  "independent_manifest_sha256": "643fc529b130649d449cc3d54f01b4e9d2d51868048748bbef6ff0dbb64330ef",
+  "independent_review_freeze_sha256": "64213bbcd4fd56795cfc6279dfba0d80b3539bbe403621d1fae0a9ed484abe35",
+  "mandatory_scope_guard": {
+    "field": "current_new_method.context",
+    "predicate": "context['source_route_preselected_before_H']=='finance_body_strong_proxy' and not context['scope_reasons'] and not any(a['role'] in {'正印','偏印'} for a in context['actors'])",
+    "also_required": "All actual functional goals and native complete H graph/robust carry criteria; cannot derive H from this guard alone. Unknown source or mixed print/finance never promoted."
+  },
+  "model_limits": {
+    "source": "Primary World Library PDF82–84伤官, root actually visually read82/83/84. Primary requires bodystrong and actual finance roots; financial/print coexistence separately requires positional clarity/relative degree. Do not merge those into purefinance.",
+    "strength": "Bdirect>Hdirect and actual-root witnesses are explicit sufficient project qualification proxies, not measured forces or uniquely ancient bodystrength theorem.",
+    "full_signed_graph": "Body/hurt leakage, hurt generation, own peer support and own mediation versus peer wealth loss, all carried load and actual finance vitality kept. Numeric mixedprint calculations can be diagnostic but source compatibility remains blocked.",
+    "operator_proof": "Common one-w ownprint per-origin max under executable nonnegative/fullinventory/reach/commonattack premises; dynamic L includes nF and nPeer. No general transfer of old9m/128;19/64 and19/32 are only their stated count cases. No-print branch exact, no iterative certificate needed.",
+    "H": "Full finance formation AND robust minimal carry support under complete actual source and functional hard gates. All complete native actor/element alternatives preserved; no priority/equalweights invented.",
+    "time": "Three records separate: older method/static report where supplied, newmethod natal-only and current. Native columns remain literal. Different new algorithm label is not time-caused change. External five-layer combinations here are synthetic, not verified one real calendar moment.",
+    "unsupported_but_not_deleted": [
+      "General classical strength/priority and natal terminal取用",
+      "財印兼用relative-degree/position source and routing",
+      "Hidden-monthly-hurt without exposed hurt source domain",
+      "冬金/夏木/化伤为财 and formal/namedrelation effects",
+      "Actual官杀/财党杀/伤官见官/混食伤 whole source graphs",
+      "Same chart/same newmethod two distinct confirmed SINGLE currentelements",
+      "Whole-window display/release and other promised original modules"
+    ],
+    "mandatory_adoption_scope_guard": {
+      "field": "current_new_method.context",
+      "predicate": "context['source_route_preselected_before_H']=='finance_body_strong_proxy' and not context['scope_reasons'] and not any(a['role'] in {'正印','偏印'} for a in context['actors'])",
+      "also_required": "All actual functional goals and native complete H graph/robust carry criteria; cannot derive H from this guard alone. Unknown source or mixed print/finance never promoted."
+    },
+    "release_boundary": "Current-instant bounded model only. No whole-window/display release, original-natal B, C20, peer encoding, RGB, generaltraditionalfinal喜用 or samechart different-single proof.",
+    "reality_prediction_validated": false
+  },
+  "original1093_and126_remain_BLOCKED": true,
+  "new_outer_method_required": true,
+  "native_method_not_relabelled": true,
+  "all_original_C03_complete": false,
+  "whole_original_task_complete": false,
+  "B_P_C20_or_RGB_changed": false,
+  "progress_delta": "0.00"
+}

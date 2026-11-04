@@ -1,0 +1,80 @@
+{
+  "id": "rev299_TW_GS_frame_project_adoption",
+  "status": "adopted_exact_version_attributed_modern_cultural_frame_engineering",
+  "component": "rev273_national_region_source_batch/batch04_TW2020_GS2016_candidate_r2",
+  "data_edition": "0.19",
+  "target": {
+    "component": "rev273_national_region_source_batch/batch04_TW2020_GS2016_candidate_r2",
+    "files": 933,
+    "manifest_sha256": "ad04f71f4f30dbb9356fe1e42389ccf24299f66ff75a595551db18f033f4ccd7",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "6185b9819191b8d6e1048f2c1917d7ed469b08d08c4a11ea3b00186ef6462a72",
+    "pins": {
+      "manifest.json": "ad04f71f4f30dbb9356fe1e42389ccf24299f66ff75a595551db18f033f4ccd7",
+      "freeze.json": "6185b9819191b8d6e1048f2c1917d7ed469b08d08c4a11ea3b00186ef6462a72",
+      "author_report.json": "ebcae161b8360c400c4aff8f5bb52a827286e5608118eae6e2ac3778f2167228"
+    }
+  },
+  "model_core_sha256": "15cca0acfdca12d7f763aa37a0ab06547228c7f30358c551643eb0e8e200dd0e",
+  "composer_sha256": "5aaf15edc6a25f4919a270290d91d951b3c92938d2e3d791c4550c6b35062c41",
+  "safe_entry_sha256": "d154ce89142648a02b7ee8b784fbd9aa818d616916ee32351f1f5aa0da34d260",
+  "review": {
+    "component": "rev298_TW_GS_QH_independent",
+    "files": 89,
+    "manifest_sha256": "cc4f39e1f7bf337625a0d39a74233da0f236b8543857c800b65573caceb14eb2",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "78806f4bbe47030802ddf0923e23bb8bb5d76f17192aeb8131795afefcb7e596",
+    "report_sha256": "c2ec1a6b6757e6e7bf95c63e4aa8434d0887aa8d43cdc30bf08da124856042ac"
+  },
+  "aggregate_acceptance": {
+    "component": "rev299_regions_frame_acceptance",
+    "files": 3,
+    "manifest_sha256": "2aab881c1fe046ebf7cef695bdbbb5584b6bd9ef90ed21ac4e9b1fe369d49fcf",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "99c9e9c2072ee215e8ae03917fec63fc7f519762243983b49705fc08db6259c7",
+    "report_sha256": "436c10d5ce8e7c5c7e858b5ba8a8e1fc9da14aae8e956dda844b4b829766defe"
+  },
+  "source_scope": {
+    "TW2020": {
+      "source": "读史.2020-04-03 07:00编选发布页面",
+      "title": "大禹治水成功，天下划定九州，夏王朝统一中国｜经典中国通史03",
+      "url": "https://www.sohu.com/a/385211459_661771",
+      "actual_scope": "Retained115-line actualpage L24/L28/L89/L108/L112 checked byroot; actual2020 edited publication is selectedsource.",
+      "proposition": "现代地名列举明确台湾全省属扬；选此明确编选版本，扬→火。",
+      "limits": [
+        "原书影印未读；不能冒孟世凯2007/其他中国读本版原书逐字已核。",
+        "ISBN9787507827125与9787507830859分开，不因同题名合并。",
+        "搜狐号是存储发布平台，不是搜狐机构作者或审核背书。",
+        "同文其他省份的北部、东部、大部等限定不能上提全省。"
+      ]
+    },
+    "GS2016": {
+      "source": "民航西北地区管理局省政府门户网栏目《甘肃省》2016-04-28 13:18",
+      "url": "https://www.caac.gov.cn/PHONE/GLJ_PHONE/XBGLJ/XB_YQLJ/XB_SZFMHW/201604/t20160428_36913.html",
+      "actual_scope": "Retained48-line actualpage L16/18/20/22/24 checked; modernwhole namedprovince context, ancientclaim unqualified in this source.",
+      "proposition": "选此2016机构具名文化解释的雍→水；旧雍梁(水金)歧义版本保留。",
+      "limits": [
+        "不能用现代面积证明古今逐地GIS相等。",
+        "不冒独立文字署名或官方命理规范。",
+        "新版不是自动改旧版，也不是新增加省份identity。"
+      ]
+    }
+  },
+  "true_previous_adoption": {
+    "path": "rev295_Fan_Benxi_frame_project_adoption.json",
+    "sha256": "9c0e91e383baa72fad8a4ed7d739c4fa013a29706a86949f549fd727b693f449"
+  },
+  "source_truth_status": "Explicit modern cultural meanings, no ancientGIS truth, official BaZi standard, personal喜用改变或现实预测证明。",
+  "historical_pending_flags_not_rewritten": true,
+  "original930_delivery_hold": {
+    "path": "rev299_original930_delivery_hold.json",
+    "sha256": "8d0090f0496b0f69870a3f7cdbf9de4ae4a5e388119d234e0cfdc5eb786f15c8"
+  },
+  "original_B_P_T_C20_D2_C0_unchanged": true,
+  "automatic_latest_or_default_change": false,
+  "all_national_sources_closed": false,
+  "original_task_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0"
+}

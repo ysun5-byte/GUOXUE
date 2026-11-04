@@ -1,0 +1,140 @@
+{
+  "schema": "556-exact522-after551-complete-Wang-source-competition/1",
+  "revision": 556,
+  "status": "adopted_exact52274_release37_after55140_RBC_SL_all_actor_methods",
+  "registered_utc": "2026-11-03T13:13:04.814021+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev522_author_completion_handoff.json",
+    "bytes": 3153,
+    "sha256": "9089b68df693d61f7d3f40a5a4f7b1585fa22375b33902a1ea6f6eea53544cc0"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev551_independent_review_handoff.json",
+    "bytes": 2043,
+    "sha256": "bfe215c027ffc18db71339c98e4169a4dd972c2778c6ca323537e58eaa729f63"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev522_Wang_YiGeng_actual_competition",
+    "files": 74,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev522_Wang_YiGeng_actual_competition/manifest.json",
+      "bytes": 11230,
+      "sha256": "aa8b1c8dec247cff88718703d6c91b0393a21226f3a0b8da64eaab0d0771caba"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev522_Wang_YiGeng_actual_competition/freeze.json",
+      "bytes": 476,
+      "sha256": "4e6d3ddd8dfada6e209adb1f42dc362f8af1116ae557e5f4c7282eaf83e30ff6"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev551_Wang_independent_review",
+    "files": 40,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev551_Wang_independent_review/manifest.json",
+      "bytes": 6075,
+      "sha256": "5bc69cb7008eac3152ad104c1c136529499baefb70a3c184cf07bf778980e866"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev551_Wang_independent_review/freeze.json",
+      "bytes": 290,
+      "sha256": "686f38cfda985c2c6e0a03e5b15d4d80c2e80392f0f5d87843b0e4e97d5e2e10"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev522_runtime_release",
+      "payload_files": 36,
+      "total_with_release_manifest": 37,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev522_runtime_release/release_manifest.json",
+        "bytes": 5626,
+        "sha256": "2285c17ed7b80f2fb63729796938490e98c971cdea538082ba06036d5375ab56"
+      },
+      "all_payload_bytes_exact": true,
+      "no_new_copy_or_chmod": true
+    },
+    {
+      "directory": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/522 one complete readonly Wang research 7bi82iy4/complete research runtime with spaces",
+      "payload_files": 36,
+      "total_with_release_manifest": 37,
+      "manifest": {
+        "path": "/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/522 one complete readonly Wang research 7bi82iy4/complete research runtime with spaces/release_manifest.json",
+        "bytes": 5626,
+        "sha256": "2285c17ed7b80f2fb63729796938490e98c971cdea538082ba06036d5375ab56"
+      },
+      "all_payload_bytes_exact": true,
+      "no_new_copy_or_chmod": true
+    }
+  ],
+  "source_rules": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev522_Wang_YiGeng_actual_competition/source_rule_cards_ten_fields.json",
+    "bytes": 9058,
+    "sha256": "3cb80514380c5bf29e3de7f2da8789cb8be84b7dda0642b53f09956f11f63d68"
+  },
+  "complete28_algorithms": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev522_Wang_YiGeng_actual_competition/algorithm_explanations_all28.json",
+    "bytes": 45835,
+    "sha256": "aefc0b0fe9ff35c4d5e8ced4c7395c2b079335bc7e6a162f094afd4c7a280619"
+  },
+  "source_substance": {
+    "Primary95_actual_image_read": true,
+    "raw": "庚申、乙酉、丙申、己丑",
+    "source_ambiguity": "其格不成。如的回指两读均保；不能用R/B/C数值成败断主本唯一句义",
+    "commentary": "unit326电子乙从庚化不以印论不是已认证徐印本；旧乙丑不改主己丑；运宜土金水不直接变原局喜用",
+    "C_identity": "原乙仍原字/原木ROOT/float身份，只有具名effective function变财；非丙日主化金，无新金ROOT/庚演员",
+    "priority": "同一印同一原根actual retained birthday>0等普通可依门先于carry/强不足界；弱不自动从；原王依附需财月/财原根/财势/弱share及S-L全门",
+    "B_and_R": "半数端点/固定费用及保原作用是具名工程假设，不是已证合力；六方法全报不选阳性"
+  },
+  "independent_checks": {
+    "new_private_complete_worlds": 35,
+    "additional_public_default_complete_worlds": 6,
+    "independently_expected_worlds_total": 41,
+    "private_g": "7/31",
+    "private_c": "13/29",
+    "private_actor_budgets": 418,
+    "private_original_equations": 9924,
+    "private_actual_edges": 1893,
+    "predicate_only_boundaries_not_full_worlds": 6,
+    "new_independent_goal_comparisons": 52,
+    "full_public_API_CLI_pairs": 2,
+    "all_full_public_option_goal_recalculations": 1020,
+    "option_goal_checks_not_claimed_independent_numeric_worlds": true,
+    "fresh_full_processes": 5,
+    "actual_read_scan_oldsourceexec_packageappend_controls": 20,
+    "source_bad0": 3,
+    "restored_source_real_module_executions": 6,
+    "restored_source_clean_test_scope": "合法甲申月请求在6实际模块后明确拒declared乙酉month，0数学；正向完整API/CLI分开证明",
+    "strict_CLI": 8,
+    "API_negative": 4,
+    "full_current_algorithms": 28,
+    "old_contracts16_old_AST17": true,
+    "new_contracts12_new_AST11": true,
+    "all_real_current_IO_original_bytes_read": 91457653,
+    "explicit_constant_exception_not_normalNone": true,
+    "source20_original_bytes": 20,
+    "ModuleType_argument_contexts": 5,
+    "actual_provider_execution_clean": 6,
+    "old281_pins_reused_no_replay": 7,
+    "author1269_not_replayed": true
+  },
+  "decisive_new_cases": {
+    "NEW_HOUR_XINMAO": "庚申乙酉丙申辛卯，原印有根与实际发送>0但接收留存0，三法均无可靠印依赖；L仍须其他财主全门，不由carry失败直接选。C因原木根正不应用，R=C实体路由。",
+    "NEW_ROOTED_HOUR": "庚子乙酉丙子庚寅，可靠同印同源生日留存真、carry仍负，优先ordinary弱体修复，S/L依附皆假；C根/争合前件失败不反选阳性。",
+    "boundary": "严格carry在等号仍假、重根net/q在1/2等号含真，另反/略上略下；这些仅谓词输入组合，不冒全生克世界。"
+  },
+  "source_methods_all_reported_not_chosen_by_success": true,
+  "whole_ordinary_or_from_source_before_auxiliary": true,
+  "OR_alternative_elements_not_J2_equal_half": true,
+  "no_print_function_or_relation_label_direct_to_B": true,
+  "release_count_precision": "36 payload plus release_manifest =37 actual files; no freeze file in this small release. Earlier informal36件 means payload, not total.",
+  "source_ambiguity_retained_not_requirement_all_schools_agree": true,
+  "all_original_C02_complete": false,
+  "all_original_task_complete": false,
+  "progress": "88.75/100",
+  "progress_delta": "0.00",
+  "no_B_theme_display": true,
+  "empirical_prediction_validated": false
+}

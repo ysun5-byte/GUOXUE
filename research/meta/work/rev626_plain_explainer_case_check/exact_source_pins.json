@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_existing251_fullchain/B0.API.json.gz",
+      "bytes": 20935,
+      "sha256": "c2980986d044aee1873abe62fad0ae40e6693961f15389c1a18c810a16840760"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_existing251_fullchain/B1.API.json.gz",
+      "bytes": 20956,
+      "sha256": "dcf8c63d20e1bbbb920da61bd386a68ffbd253a1f5296ce8338214a5842396ef"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_existing251_fullchain/C20_same_new.actual_request.json",
+      "bytes": 18938,
+      "sha256": "3614e4059eaca0bfea898f96d7d2b3c3a441887c167bcd9921ba8b17d5fe0a2b"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_existing251_fullchain/C20_same_new.API.json.gz",
+      "bytes": 96383,
+      "sha256": "c44b8cdfb1f2509b370b20084a61ebd2e88521e1782b880e28dad0e355ee07f8"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C08_runtime_integration_after612/actual_existing251_fullchain/actual_sequential_leave_C20.API.json.gz",
+      "bytes": 99643,
+      "sha256": "27be8a4c9b96a369db694673c1f38f23778717ae5619b7c5ceca7dd7e2eec682"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev251_reforming_bridge_project_adoption.json",
+      "bytes": 3842,
+      "sha256": "2e083c3873e6d1dada8f961024a13eef6faba5519b66c40c2aefd7083f3e28a2"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev232_reforming_metal_whole_research/preimplementation_contract.json",
+      "bytes": 5568,
+      "sha256": "8256adc9384e5b1c424294cfa19699b1357ca6a26167d0c807b5e0d36f58e2b8"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev232_reforming_metal_whole_research/source/source_read_receipt.json",
+      "bytes": 2652,
+      "sha256": "baa37ff57d52d613fff7ef0f9ca80696354074e0d8a52562815588b25028a905"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev235_root_from革_source_spotread.json",
+      "bytes": 1466,
+      "sha256": "c228d728eff02aaac22dea67cd3f039d63a6825c636f47bf539ebe52f347fbf3"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev219_reforming_metal_whole_research/source/locate-154.png",
+      "bytes": 119365,
+      "sha256": "a700f5cadc40114ddb5d83a4f5514939e817912370b65b66e623e0e10593f095"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/待审方案/用户已确认_C20_C0_象征编码筛选_20261101.json",
+      "bytes": 1827,
+      "sha256": "6a59ea282c1d6e4d672f0f9dab0c641be51d2ea98b3087e5291350cb6edda112"
+    },
+    {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/C20_plain_rule_explanation_source_audit449/精确来源表.json",
+      "bytes": 19853,
+      "sha256": "9068b1786edb97f7ca3bf6a994233a6026934a52a0111c6599fa2381948551ff"
+    }
+  ],
+  "all_sources_existing_material": true,
+  "no_invented_classical_chart": true
+}

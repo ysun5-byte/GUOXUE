@@ -1,0 +1,76 @@
+{
+  "schema": "475-original-MCN2-complete-whole-local-net-adoption/1",
+  "revision": 475,
+  "registered_utc": "2026-11-03T07:00:10.872754+00:00",
+  "status": "adopted_exact4670.1.1_95_and_bound_complete49_runtime_after47442_nonauthor_review",
+  "verified": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_MC_N2_print_food_wealth_whole",
+      "files": 95,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_MC_N2_print_food_wealth_whole/manifest.json",
+        "bytes": 15149,
+        "sha256": "db33d32fa95250bef2e0e7a1a2e6ab185654e3ed69e55f5f3f49e65f3b388ad0"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_MC_N2_print_food_wealth_whole/freeze.json",
+        "bytes": 135,
+        "sha256": "8927224d17e559829d4bb217dd4a9fcc7bd81a3da9e2af89a2c9b3eb8b6c2341"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    },
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev474_MCN2_whole_independent_review",
+      "files": 42,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev474_MCN2_whole_independent_review/manifest.json",
+        "bytes": 6659,
+        "sha256": "2aceab33a6973390bbffecb8589b1990f3eef471059eeecdc41c34d7b4f6275a"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev474_MCN2_whole_independent_review/freeze.json",
+        "bytes": 92,
+        "sha256": "18adf9895fe38b3209c00e645bffb9fe2d07a5eb21d71aacf9362fd551bcf352"
+      },
+      "root_all_payload_bytes_and_SHA_verified": true
+    }
+  ],
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_author_completion_handoff.json",
+    "bytes": 7891,
+    "sha256": "88f0bebdff52b721584bda01246a7ae7bf486f231c5d1bab06715aa3e9fbdeb9"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev474_independent_completion_handoff.json",
+    "bytes": 6033,
+    "sha256": "2cfc62bf54e958d2ff2d5bbf64111f5b34a9a07d0eefd6ef43d19bc0016c363d"
+  },
+  "postfreeze_prior_reproduction": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev467_postfreeze_independent_prior_reproduction_receipt.json",
+    "bytes": 2460,
+    "sha256": "54aff68dbb7333ffffdde15da47d030597cc2d47565bf1978fd714202c3f9c3f"
+  },
+  "method": "Primary42-43-JiaChen-RenBing-complete-feedback-net/0.1",
+  "implementation": "0.1.1",
+  "source": "Primary42印33末/43印34，甲辰壬印丙食泄秀而生暗戊财反损印；主本跨栏为則透丙亦無所得，电子無所碍和徐注位置分别保，沿175更正，不静默改字也不以异文阻全部具名数学。",
+  "source_sufficient_domain": "甲辰透壬丙且各恰一明载体；多明壬/丙必须单独目标绑定，保全事实/数值诊断与具体pending，不让next第一项成为古法优先。原更多多载体任务仍在范围。",
+  "all_feedback": "所有实际明藏、根/位置及印生日/制食、木泄火、火生暗财、财坏印和身体全负担共current；原月戊不能删，全部正负/源费与来源留存均回代。",
+  "declared_relations": "all_original_clash_tasks与conditional_full_water_receiver两工程法各自固定：寅申具体原克边冲争/源费；完整申子辰三原来源在同解仍存并壬接收才候选保护，否则恢复冲。不是遇三字自动化水，不按哪法成功选支。",
+  "net_goal": "原/新有限源任务活；承载余量、壬印生日留存、日主向丙泄秀留存均不降，全部实财攻击壬不增，至少一严格改善。四指标为原源目标下明标工程，全部权衡保留。",
+  "complete_results": "主人工壬申甲辰甲午丙寅单木/水三尺度通过，共21/93混合输入；完整水形壬申甲辰甲子丙寅单木且18/93；辰戌控制一般失败0/93。一般活/实有损害/强无损分层，未称源后句已经无碍或传统全局喜用。",
+  "source_qualification_fix": "0.1.1修唯一明壬/丙遗漏，旧代码/锁/IO完整保history；4原context完全相同、build及其余25材料/数学字节不变，784原数学未重跑/未改oracle；双壬双丙新合法反例实际保pending。",
+  "postfreeze_process_error": "并发finalizer封95后误加一支只读Cramer脚本，已只移出额外文件且原95字节/SHA不变，无reseal/chmod。外置8件和首败收据保留；数学函数AST同，实际只读复现原784与8零增，不冒新条件或新producer。",
+  "independent_evidence": "474事前30私有条件60完整比较、5772来源方程/14470演员来源/5260正负及费用，与独立Bareiss/Cramer一致；44算法=22新适配+22旧含2嵌套，32真实IO/12不在当前trace；完整新公开API/CLI与多载体pending协议、sourcebad0clean6、49现成只读小核9新过程/36真实负控，全95/49/外置8字节模式不变。",
+  "author_correct_domain_reused": "784已核world/8零增、36留出/边界、14strict与3坏0等正确域复用，不无目的重算或拷201MB。",
+  "reviewer_first_errors": "3事前/观察核查问题首败留history，仅修审者；包括非完整水形误保reception在新producer前按完整形前件订正，未拿输出改预期。",
+  "original_remaining": [
+    "原MCN2多载体/其他新关系与全局最终辅助主次/不同完整方案",
+    "MCN3的279/280有限支已经采用，不能再称整条未实现；其余会冲/净辅助等具体分支继续",
+    "原MCN1/MCN4/普通真假从/调候/实际五层与地区及最终范围运行发行"
+  ],
+  "no_B_theme_weights_display_or_physical_work": true,
+  "no_new_all_school_consensus_or_prediction_gate": true,
+  "not_empirical_predictive_validation": true,
+  "progress": "86.25/100",
+  "progress_delta": 0
+}

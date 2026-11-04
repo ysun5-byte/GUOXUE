@@ -1,0 +1,50 @@
+{
+  "schema": "625-final-publication-and-actual-completion-verification/1",
+  "saved_utc": "2026-11-03T20:20:20.579892+00:00",
+  "score": "100.00",
+  "all8_original_stages1": true,
+  "original_weights_and_denominator_unchanged": true,
+  "all_four_current_score_remaining_active_aliases_verified": true,
+  "pre624_original_current_bytes_preserved": true,
+  "final624_and625_frozen_records_all_payload_bytes_SHA_verified": true,
+  "final_stable_package_manifest_unchanged": true,
+  "final_evidence_archive_all_saved_members_full_SHA_verified": true,
+  "metadata_and_storage_verification_not_new_rule_math": true,
+  "current_state_snapshot": {
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_actual_goal_complete_current_state_snapshot/manifest.json",
+      "bytes": 1019,
+      "sha256": "4d60db3380335429ce189a27f54ed80b2c8e9f47f3815d9678de373a4aec0732"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_actual_goal_complete_current_state_snapshot/freeze.json",
+      "bytes": 92,
+      "sha256": "1177df2b958705ceed13002fd65452eae6646d177e74db4e3880a0ec44adc7c3"
+    }
+  },
+  "actual_goal_completion": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_goal_completion_receipt.json",
+    "bytes": 1075,
+    "sha256": "2cf06299f9bf5c32917fdde37e58e17cd51b8d3caf01929b60d45696581516d8"
+  },
+  "checkpoint": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev625_live_checkpoint.json",
+    "bytes": 17104,
+    "sha256": "be69b417f6194c314300f41d570d6f1e467c17bc19cc56dd3375a6d52f1c0253"
+  },
+  "overview": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/研究成果总览_先读这一份.txt",
+    "bytes": 5180,
+    "sha256": "1e02ef5b11f97622d575625609c22f7c6e3a7c2ef3d60dd8577fd5a401a82309"
+  },
+  "final_guide": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_研究成果_最终验收与使用说明_rev624.txt",
+    "bytes": 8375,
+    "sha256": "8f49090347f5a052b1f406ef8051c663296b1edfa4663a2f0662a9b3fd06eee7"
+  },
+  "final_evidence_archive": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/outputs/Part1_最终验收与独立复核记录_rev624.zip",
+    "bytes": 36325210,
+    "sha256": "283793dc8140f1c2b9b7b67724c46501557adbfa8288597789371916f6a92393"
+  }
+}

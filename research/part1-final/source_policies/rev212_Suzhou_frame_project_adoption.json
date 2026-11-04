@@ -1,0 +1,43 @@
+{
+  "id": "project-adopted-Suzhou2024-Liu2021-selected-JS-subset",
+  "date": "2026-11-02",
+  "status": "adopted_exact_version_bounded_modern_city_frame",
+  "component": "rev202_Suzhou_whole_frame",
+  "target": {
+    "component": "rev202_Suzhou_whole_frame",
+    "files": 519,
+    "manifest_sha256": "e0c405c17be762f2b799ca2c0af1416a2c620709437aa5c165e9ff9aeaf1a401",
+    "freeze_sha256": "202b95196a579aa4cef34634a4bca918986fea17cdc7c7939709308805164a95"
+  },
+  "independent_review": {
+    "component": "rev211_Suzhou_independent",
+    "files": 96,
+    "manifest_sha256": "2d3afedec9683e20a3647262b47ae90fb45e6bae61bb81b04b2374fdb979508c",
+    "freeze_sha256": "d30f07e82d793ba0761d8480d07926f0c654657e073789ce72c8679f3123ca8c"
+  },
+  "aggregate_acceptance": {
+    "component": "rev212_Suzhou_frame_acceptance",
+    "files": 3,
+    "manifest_sha256": "51be3955af52330346a076b43bfe76e354f2e2455fdeb7095e4b75070bdec33b",
+    "freeze_sha256": "4b70cca50d5edb42b8660e87e365e952c81d75a8516770aaae7a8a445fa5f21e",
+    "report_sha256": "6b9ed034a60843965dde81a3331fe26657f598401ed201f806b2d84aa6f7a774"
+  },
+  "selected_frame": {
+    "id": "SZ2024-whole-modern-subset-in-Liu2021-JS-south-of-Feihuanghe",
+    "target": "320500 苏州市全市命名范围",
+    "source_frame": "刘怀玉2021《和合南北的淮扬文化》首句今江苏淮河（废黄河）以南子域；与后文唐宋淮扬及现代淮扬不混。",
+    "scope_inference": "Official2024whole-citynorthbound32°02′ is below min of four supplied Jiangsu channel-containing citysouthbounds32°34′; strictly32 arcminutes separation. Original bounds/route source editions and typography limitations retained.",
+    "exact_selected_line": "江苏境内所选废黄河线；四市行政包络不覆盖安徽穿插24.2km，不声称证明整条连续496km、所有不同作者的长度或古代疆界。",
+    "engineering_status": "Explicit sufficient modern envelope/subset inference and cross-text文化扬州name→fixed三命yang→火; no official metaphysical or personal喜火 claim.",
+    "source_grade": "Primary official/author HTML actually read by author and reviewer; exactold/undated cityintroductions disclosed. Officialengineering PDF index and荀2015 originaljournal not directly obtained; not mislabeled fulltext proof.",
+    "point": "Frozen GN1886760 same hierarchy named-city proxy only; exactrow and currentpage coordinates match. Not whole-city scope evidence, centroid or actual personalGPS.",
+    "version": "Newexact selected city/source/representativepoint versions only; oldSuzhou unknown and oldJiangsu multi-element objects kept; no automaticlatest."
+  },
+  "source_card_sha256": "a1ca03eed02d59445a4bf3a53fe6db25cb316b63f89f198f1947e4a645a5d2a5",
+  "scope_logic_sha256": "254bc77323f6c15535a1451edcc68dbed21a7f528eb39cf912a21c2efefb9e31",
+  "old_versions_and_data_objects_retained": true,
+  "automatic_latest": false,
+  "B_P_C20_D2_C0_unchanged": true,
+  "whole_C04_complete": false,
+  "progress_delta": "0.00"
+}

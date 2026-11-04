@@ -1,0 +1,31 @@
+{
+  "id": "project-archived-sharedmonthly-killprint157",
+  "version": "1",
+  "date": "2026-11-02",
+  "status": "accepted_bounded_new_engineering_research_archive",
+  "aggregate_acceptance": {
+    "component": "rev165_kill_print_research_acceptance",
+    "files": 3,
+    "manifest_sha256": "30053eed2b5337682e8f1892b2b0f5dd426792606b907878d1c1707d9ef09809",
+    "freeze_sha256": "80052244358db7346d6f0226b8505e4e32f926d8ad67adc785ab5ed8ddfe289d",
+    "report_sha256": "0fcc0e33d73a4b7bfb9adf6660c3a8e8f97a7a1374e868cc6fba193ecade34f9"
+  },
+  "target": {
+    "component": "rev157_kill_print_shared_path_research",
+    "files": 413,
+    "manifest_sha256": "80b115831aad6bf8984ba6791938d9876873be4b1aebe1e7274dd6958045da55",
+    "freeze_sha256": "25a2a4471ef7da5dc1eb7efb5fac8385a7bc61b45f04273457d812764cd7608a"
+  },
+  "review": {
+    "component": "rev165_kill_print_independent",
+    "files": 30,
+    "manifest_sha256": "593e5ccae65bc72485759af48406ddcd05e8d88f70aab95c7685f7bffe5a3683",
+    "freeze_sha256": "4949633e42423ce4cf772398edfc16ed12fd8072d86e0b4aeebed5ac5666b5a0"
+  },
+  "source_qualified_research_calculator_accepted": true,
+  "automatic_primary_H_or_B_adopted": false,
+  "unconditional_He_reproduced": false,
+  "whole_original_killprint_complete": false,
+  "default_P_C20_weights_changed": false,
+  "progress_delta": "0.00"
+}

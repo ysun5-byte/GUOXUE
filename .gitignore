@@ -1,0 +1,19 @@
+# 本地上传状态和认证配置不提交；完整原始资料按清单保存在Release。
+/work/上传准备/
+/.restore-cache/
+/restored-project/
+/work/culture-module/node_modules
+/research-history/
+/work/culture-module/module.proto.json
+/work/culture-module/reference/reference.proto.json
+/research/part1-final/volumes/Part1_整盘取用与算法解释_研究增量_rev266.zip
+/research/part1-final/volumes/accepted615616_unique_blobs.zip
+/research/part1-final/volumes/accepted619_unique_blobs.zip
+/research/part1-final/volumes/accepted621_unique_blobs.zip
+/research/part1-final/volumes/complete_research_evidence_unique.zip
+/research/part1-final/volumes/current_unique_blobs.zip
+/research/part1-final/volumes/final623_reference_and_reading.zip
+/research/part1-final/volumes/research_missing_original_manifest_payloads_r1.zip
+/research/part1-final/交付验证证据_C08.zip
+/research/part1-final/研究阅读/03_逐方法规则与算法原件/rev285_hidden_print_effective_support/00_规则与算法_阅读整理.txt
+/research/part1-final/研究阅读/03_逐方法规则与算法原件/rev359_true_transform_select_contract_repair/00_规则与算法_阅读整理.txt

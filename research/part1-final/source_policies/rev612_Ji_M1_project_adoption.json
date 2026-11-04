@@ -1,0 +1,129 @@
+{
+  "schema": "612-independent-Ji-M1-after-genuine449-adoption/1",
+  "revision": 612,
+  "status": "adopted_exact584_M1_after449_finite_paid_receiving_with_quality_root_quantity_separate",
+  "saved_utc": "2026-11-03T18:02:41.625917+00:00",
+  "author_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_author_completion_handoff.json",
+    "bytes": 3429,
+    "sha256": "6653f0de93ef3816ba5d96d6f92ad625bd67e6910d2bab522548669e5549f6b2"
+  },
+  "independent_handoff": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_independent449_completion_handoff.json",
+    "bytes": 2943,
+    "sha256": "338fe82da270a211f2bdeeff1a2ff76bcb9ea88a1395166d1279a785eea6c57a"
+  },
+  "author_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Ji_materiality_M1",
+    "files": 91,
+    "payload_files": 89,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Ji_materiality_M1/DELIVERY_MANIFEST.json",
+      "bytes": 14302,
+      "sha256": "983d6f47ac852d10112fb62ce5c27f430abc4b3047aaff8f0c56fccf5d2146ab"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Ji_materiality_M1/DELIVERY_FREEZE.json",
+      "bytes": 126,
+      "sha256": "a4ddbc10eb50fd1bd52ac6d6641b73beb823d735a2e316d770e54d6e4e6f3f5c"
+    },
+    "all_payload_bytes_verified": true
+  },
+  "independent_frozen": {
+    "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_independent_review_449",
+    "files": 61,
+    "manifest": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_independent_review_449/manifest.json",
+      "bytes": 9762,
+      "sha256": "563286e54bcd002688b75b6913d42c2577db3fcdab4d90482953e884bbba2ccd"
+    },
+    "freeze": {
+      "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_independent_review_449/freeze.json",
+      "bytes": 92,
+      "sha256": "7dafc44660c51db7855a3a2a2d45329688522f9c9246d6f62f68ace9b0b6ac52"
+    },
+    "root_all_payload_bytes_and_SHA_verified": true
+  },
+  "complete_releases": [
+    {
+      "directory": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_complete_runtime_kernel",
+      "files": 74,
+      "payload_files": 72,
+      "manifest": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_complete_runtime_kernel/DELIVERY_MANIFEST.json",
+        "bytes": 11614,
+        "sha256": "23bf6014a7420222df0ef5836171dc99f4258b6def0cc8d31ace09502f88447d"
+      },
+      "freeze": {
+        "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_complete_runtime_kernel/DELIVERY_FREEZE.json",
+        "bytes": 135,
+        "sha256": "551d0bfe60bb9e7c74930217f0e412d0cf4b375c3110925523a91a033dc34bc3"
+      },
+      "all_payload_bytes_verified": true
+    },
+    {
+      "directory": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/584 M1 one complete readonly research r6f76eow/complete independent Ji materiality with spaces",
+      "files": 74,
+      "payload_files": 72,
+      "manifest": {
+        "path": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/584 M1 one complete readonly research r6f76eow/complete independent Ji materiality with spaces/DELIVERY_MANIFEST.json",
+        "bytes": 11614,
+        "sha256": "23bf6014a7420222df0ef5836171dc99f4258b6def0cc8d31ace09502f88447d"
+      },
+      "freeze": {
+        "path": "/private/var/folders/l4/hpj5903n5d11qqrllkm7n0gm0000gn/T/584 M1 one complete readonly research r6f76eow/complete independent Ji materiality with spaces/DELIVERY_FREEZE.json",
+        "bytes": 135,
+        "sha256": "551d0bfe60bb9e7c74930217f0e412d0cf4b375c3110925523a91a033dc34bc3"
+      },
+      "all_payload_bytes_verified": true
+    }
+  ],
+  "H0_exact_608_policy": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev608_Xin_H0_project_adoption.json",
+    "bytes": 5972,
+    "sha256": "2978df12834c5cdce930b11b3048295dfac6e6e6e40943a76dcf120088feec8e"
+  },
+  "effective_rule_cards": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev612_Ji_M1_effective_rule_cards.json",
+    "bytes": 10346,
+    "sha256": "fd0ab0fdd8600879f6b4807fde837495f54d320cbd35c420d044432ed713b2b3"
+  },
+  "all58_current_effective_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev612_Ji_M1_effective_all58_algorithms.json",
+    "bytes": 91683,
+    "sha256": "4c1ae4dcf5634d7ea4f3c1762e8ab8b08ad6474dbc02a0613e28a4aed493bbe3"
+  },
+  "original58_frozen_explanations": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_Ji_materiality_M1/algorithm_explanations_all58.json",
+    "bytes": 90132,
+    "sha256": "1c6d41a7abbf149ec6b0160aa749bcb0e1848d37946722fb8995225907a77fb0"
+  },
+  "mandatory_quality_algorithm_precision": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_independent_review_449/effective_quality_projection_contract_precision.json",
+    "bytes": 2097,
+    "sha256": "eb7548160611e2faf37ef2a0716cc64d5e478edaa86e888ee8ebf12ec0e64661"
+  },
+  "mandatory_independent_source_disposition": {
+    "path": "/Users/yuanfeisun/Documents/Codex/2026-11-01/00-01-part-1-23/work/rev584_M1_independent_review_449/source_budget_and_original_scope_disposition.json",
+    "bytes": 2608,
+    "sha256": "5c57f1ff1a4ee2aa737ac90d01ee7d989f1ee2b3e6efa61e718c003c3ec13cbf"
+  },
+  "scope": "原夏辛具名当前明己分支，D丁/F全火两预选有限承接解释、theta0/半/全和质量lambda0/1/8/1/4；全普通正负、费用、来源与共同metal clamp保。",
+  "original_independent_Ji_materiality_action_task_implemented_not_only_H0": true,
+  "M1a_quality_not_substitute_for_M1b_actual_receiving": true,
+  "only_registered_positive_budget_reassigned_no_soil_controls_fire": true,
+  "positive_generation_b_minus_u_not_canceled_net_b": true,
+  "local_pressure_original_You_root_and_Xin_quantity_separate": true,
+  "no_final_Ji_favorable_or_empirical_material_property_claim": true,
+  "current_D_final_API_CLI_exact_byte_reproduction": true,
+  "F_W_older_receipts_only_historical_body_with_one_exact_dependency_pointer": true,
+  "old_receipts_not_claimed_final_byteequal": true,
+  "root_role": "Root participated in source/budget review, not author449 independent numeric/release verification; no root self-review claimed.",
+  "old96_158_180_reused_not_rerun": true,
+  "all_original_C03_complete": false,
+  "original_task_complete": false,
+  "score": "95.00/100",
+  "progress_delta": "0.00",
+  "no_B_or_display": true,
+  "real_prediction_or_material_property_validated": false
+}

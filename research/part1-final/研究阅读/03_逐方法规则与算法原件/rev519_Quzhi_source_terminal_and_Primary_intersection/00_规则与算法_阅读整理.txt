@@ -1,0 +1,2018 @@
+曲直源维护终结与Primary泛论喜印交集
+rev519_Quzhi_source_terminal_and_Primary_intersection
+所属原模块：C02
+当前采用：rev536_Quzhi_complete_source_and_Primary_print_adoption.json
+范围：adopted_exact51961_runtime42_after53334_with_direction_erratum
+
+本文件只按原已采用文档整理可阅读文字；未另增或改变命理规则。原JSON、来源、实际I/O及版本勘误均按相对卷/SHA保留。
+同名不同方法/版本分别保留。程序通过不证明现实预测成立。
+
+原件：work/rev519_Quzhi_source_terminal_and_Primary_intersection/algorithm_explanations_55_functions.json
+SHA256：5968c9277b4a4743dbb9c47dd31293107ea28e947a0ea2f36e76aa9330e2ccad
+
+1. quzhi_terminal.py:canonical
+算法标识：quzhi_terminal.py:canonical
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "canonical",
+  "first_line": 10,
+  "AST_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "生成稳定原生JSON文字",
+  "inputs": "pack后的JSON兼容值",
+  "operations": "排序键、紧凑分隔、非ASCII原样、allow_nan=False；不转化输出对象",
+  "outputs": "str或类型/非有限数异常",
+  "preconditions_and_limits": "Fraction需先pack；此函数不做UTF8编码；全API/CLI按实际文字byte比较"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "quzhi.py:canonical",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "生成稳定原生JSON文字",
+    "inputs": "pack后的JSON兼容值",
+    "operations": "排序键、紧凑分隔、非ASCII原样、allow_nan=False；不转化输出对象",
+    "outputs": "str或类型/非有限数异常",
+    "preconditions_and_limits": "Fraction需先pack；此函数不做UTF8编码；全API/CLI按实际文字byte比较"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:canonical",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+2. quzhi_terminal.py:pairs
+算法标识：quzhi_terminal.py:pairs
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "pairs",
+  "first_line": 11,
+  "AST_sha256": "57b136fa56c5b72ba6c4b54178dfb1b82636e6611c8686082323112b99fd7a24",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='rows')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "严格JSON去重",
+  "inputs": "JSON对象有序键值对",
+  "operations": "逐对检查键是否重复；重复抛ValueError，不以末项覆盖前项",
+  "outputs": "唯一键dict或duplicate_JSON_key异常",
+  "preconditions_and_limits": "json.loads真实object_pairs_hook；不替代schema验证"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:pairs",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+3. quzhi_terminal.py:nonfinite
+算法标识：quzhi_terminal.py:nonfinite
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "nonfinite",
+  "first_line": 17,
+  "AST_sha256": "738d1722bbd20a94f468b3c896a63fd6037749d3d838cefb6548c41090a8f99b",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "拒绝JSON非有限常量",
+  "inputs": "NaN或Infinity文字",
+  "operations": "无条件抛nonfinite_JSON_constant",
+  "outputs": "ValueError；异常展开不是正常None返回",
+  "preconditions_and_limits": "真实parse_constant回调已执行NaN负例"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:nonfinite",
+  "normal_return": false,
+  "exception_unwind_not_normalNone": true
+}
+not_executed_note：null
+
+4. quzhi_terminal.py:bounded
+算法标识：quzhi_terminal.py:bounded
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "bounded",
+  "first_line": 18,
+  "AST_sha256": "b13ec4db2dffbeef56ad5e18679b15179154be46d8914b6847d338172f705c44",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "请求资源与Unicode边界",
+  "inputs": "任意待校验JSON值",
+  "operations": "显式栈遍历；深度12、节点500、对象12键、列表20项、字符串2000；排除代理码点和浮点类型",
+  "outputs": "正常None或具体ValueError",
+  "preconditions_and_limits": "资源门不是命理判断，schema进一步约束四字段"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:bounded",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+5. quzhi_terminal.py:strict_load
+算法标识：quzhi_terminal.py:strict_load
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "strict_load",
+  "first_line": 32,
+  "AST_sha256": "7d7a5aba302745b8d66e49b9d4e8603aad951517aa85738b3cc7a87dbf41afc3",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='text')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "严格解析原请求",
+  "inputs": "str最长10000字符",
+  "operations": "json.loads调用真实去重/非有限回调，再全树资源校验",
+  "outputs": "原请求对象；解析/类型/资源异常",
+  "preconditions_and_limits": "不接受外给ready报告；字节UTF8与20000字节门另由main执行"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:strict_load",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+6. quzhi_terminal.py:guard
+算法标识：quzhi_terminal.py:guard
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "guard",
+  "first_line": 35,
+  "AST_sha256": "10cac43e76a2d969dc1773de86f78a33ce1fdbcc6fd3e785407963a6e1aee0dd",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "全部固定源和代码先核后载入",
+  "inputs": "无；包内source_execution_lock与16材料",
+  "operations": "先核锁SHA与全材料集合；拒软链/逃逸；核每个精确长度SHA；仅返回核过的材料bytes",
+  "outputs": "16材料的原bytes字典或ValueError",
+  "preconditions_and_limits": "全部六provider前执行；不声称SHA证明古文真值"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:guard",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+7. quzhi_terminal.py:load
+算法标识：quzhi_terminal.py:load
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "load",
+  "first_line": 48,
+  "AST_sha256": "8546f6bbe99f7fedd9eb89256a402f6147dcce7feaed3cc784a1cd704c258740",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='name'), arg(arg='relative'), arg(arg='material')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "从本包已核字节加载单个计算模块",
+  "inputs": "固定模块名、包内相对路径、guard材料字典",
+  "operations": "构造ModuleType并设置实际__file__；compile/exec已核bytes",
+  "outputs": "完整ModuleType计算上下文",
+  "preconditions_and_limits": "load不主动读旧树；模块和固定全局由真实IO显式绑定，不堆序列化"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:load",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+8. quzhi_terminal.py:classify_sources
+算法标识：quzhi_terminal.py:classify_sources
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "classify_sources",
+  "first_line": 50,
+  "AST_sha256": "7beadc7c7f5fbc1ccfaf92819f4b789d84f478577b4f898977ccde1f9218e7ba",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params'), arg(arg='maintenance'), arg(arg='raw'), arg(arg='operator_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "分别核三命60族及Primary明确比印5支源前件",
+  "inputs": "真实facts、固定参数、维护模块、raw、全55算子矩阵",
+  "operations": "三命有限族先判；非日明干只木水且至少明水为声明充分支；断言与预列5相合；其余精确匹配55矩阵",
+  "outputs": "两个独立源资格、全部非日明演员、明确G05任务",
+  "preconditions_and_limits": "无财食是所选充分域，不改成古书必要条件；不因不在5支就否定全部55或全局格局"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:classify_sources",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+9. quzhi_terminal.py:method_conclusions
+算法标识：quzhi_terminal.py:method_conclusions
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "method_conclusions",
+  "first_line": 61,
+  "AST_sha256": "1cc7fa03d1f3d523e80cfdc99b0fd3f5adb7d78dd40e4c12e2d96fa80672bab1",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='maintenance_result'), arg(arg='primary_result'), arg(arg='eligible')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "不混淆维护、最终辅助和并列源命题",
+  "inputs": "完整维护报告、可能的Primary整盘报告、资格bool",
+  "operations": "三命维护已知成败直接终局且不投最终喜用；Primary只有全源桥成立才给水及全源H；实际诊断H另存；显式AND另列",
+  "outputs": "具名方法结论、全H/未定主次、精确剩余任务",
+  "preconditions_and_limits": "AND非跨法共识硬门；嵌套旧428剩余用语保历史并附当前解释；水结论不等所有他行皆忌/越多越好"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:method_conclusions",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+10. quzhi_terminal.py:evaluate
+算法标识：quzhi_terminal.py:evaluate
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "evaluate",
+  "first_line": 70,
+  "AST_sha256": "815bdfda50df68ff7ad80bc0907ca9af2b56f212053632c35903fb44ba8aaba0",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "原始四柱到两个具名完整源问题",
+  "inputs": "严格四字段schema/source/profile/raw",
+  "operations": "资源与schema→全部源锁→6模块→原始柱合法性→源资格→全三命实际共池→合格5支同current全Primary→pack",
+  "outputs": "完整原生JSON兼容报告，不删任何负边/根/源原点/费用/全部H",
+  "preconditions_and_limits": "公开只60×3固定参数；5支新增Primary，另55有实际维护结果及具体G05前件，不虚称传统终局全闭合"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:evaluate",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+11. quzhi_terminal.py:main
+算法标识：quzhi_terminal.py:main
+source_identity：{
+  "relative_path": "quzhi_terminal.py",
+  "qualified_name": "main",
+  "first_line": 85,
+  "AST_sha256": "0b93a57fcf0c986d968817376eb72ebe58a69c640bdfdd09ddd9120ee0ab68f9",
+  "module_sha256": "a8a659777642a0b7c87c5adf49c588e92ebf48fd7ad30e5ae6a71d19a2d01337",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "完整原生CLI与安全失败",
+  "inputs": "真实stdin UTF8字节",
+  "operations": "限20000字节→严格UTF8→strict_load→evaluate→canonical完整打印；指定异常只给拒绝对象",
+  "outputs": "退出0和完整一行报告；退出2和无部分判断",
+  "preconditions_and_limits": "真实IO保stdin/stdout/exit，未把截取字段当完整结果"
+}
+current_context_notes：[]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "quzhi_terminal.py:main",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+12. runtime/auxiliary_selector.py:bounded
+算法标识：runtime/auxiliary_selector.py:bounded
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "bounded",
+  "first_line": 16,
+  "AST_sha256": "3aaad0561d65f35b66ddd374ec2c19cd92e4b676a974297c8255bcedfb6bd660",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Bound the supplied JSON-like graph before recursive schema work.",
+  "inputs": "Any parsed Python value representing JSON.",
+  "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+  "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+  "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:bounded",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Bound the supplied JSON-like graph before recursive schema work.",
+    "inputs": "Any parsed Python value representing JSON.",
+    "operations": "Iterative stack tracks depth/node count; depth>20 or nodes>15000 reject. Dicts<=30keys with string keys<=100chars; lists<=150items; strings<=1200chars; only null/bool/int scalars accepted.",
+    "outputs": "Returns None on pass; raises ValueError on bound/type failure.",
+    "preconditions_and_limits": "These are structural bounds, not graph semantics or source truth; unsupported float rejected even if finite."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:bounded",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+13. runtime/auxiliary_selector.py:shape
+算法标识：runtime/auxiliary_selector.py:shape
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "shape",
+  "first_line": 38,
+  "AST_sha256": "8c1c87e8bd1fecb93e5898eb4beaab31e23d9f0d48a767cf714a1db1197e1265",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value'), arg(arg='required'), arg(arg='optional')], kwonlyargs=[], kw_defaults=[], defaults=[Tuple(elts=[], ctx=Load())])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Require an exact allowed object field set.",
+  "inputs": "value plus required names and optional names.",
+  "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+  "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+  "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:shape",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Require an exact allowed object field set.",
+    "inputs": "value plus required names and optional names.",
+    "operations": "Check dict type, all required keys present, and no keys outside required union optional.",
+    "outputs": "None when valid; ValueError object schema mismatch otherwise.",
+    "preconditions_and_limits": "Does not validate the field values; called repeatedly for each graph entity."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:shape",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+14. runtime/auxiliary_selector.py:string
+算法标识：runtime/auxiliary_selector.py:string
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "string",
+  "first_line": 43,
+  "AST_sha256": "2ddbaf209e31f47fffc40433485ba5af3ed3cc0b989de2b5ddc1eef43bd70af0",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Require a nonempty string field.",
+  "inputs": "Any candidate field value.",
+  "operations": "Check isinstance(value,str) and nonempty.",
+  "outputs": "None on pass; ValueError otherwise.",
+  "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:string",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Require a nonempty string field.",
+    "inputs": "Any candidate field value.",
+    "operations": "Check isinstance(value,str) and nonempty.",
+    "outputs": "None on pass; ValueError otherwise.",
+    "preconditions_and_limits": "Length bounds are supplied separately by bounded; no source interpretation."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:string",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+15. runtime/auxiliary_selector.py:boolean
+算法标识：runtime/auxiliary_selector.py:boolean
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "boolean",
+  "first_line": 48,
+  "AST_sha256": "a0ca0bba9d763ff1ceb47fdcd053ada8ef4700b335a14e573370cd5dd7971c91",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Require actual bool instead of truthy/coercible values.",
+  "inputs": "Any candidate field value.",
+  "operations": "Require type(value) is bool.",
+  "outputs": "None or ValueError.",
+  "preconditions_and_limits": "Integers0/1 are not booleans for this schema."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:boolean",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Require actual bool instead of truthy/coercible values.",
+    "inputs": "Any candidate field value.",
+    "operations": "Require type(value) is bool.",
+    "outputs": "None or ValueError.",
+    "preconditions_and_limits": "Integers0/1 are not booleans for this schema."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:boolean",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+16. runtime/auxiliary_selector.py:validate
+算法标识：runtime/auxiliary_selector.py:validate
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "validate",
+  "first_line": 53,
+  "AST_sha256": "2fde08fd5c35b854791b231e96b1eb3c0ec0ad7326ea88a2a23c858934474e57",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='nested')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=False)])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request.",
+  "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+  "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+  "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+  "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:validate",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Validate a finite evaluated actor-goal-task graph and build identity maps; never a raw natal request.",
+    "inputs": "request graph and nested=False flag; schema/mode/actors/goals/tasks/scope/global_checks plus optional repair_routes/luck_directions/preferences/interventions.",
+    "operations": "Call bounded then exact shape/schema/mode and list/finite bounds; validate all actor/goal/task/check/repair/luck/preference identities, types, references; recursively validate at most one intervention level and verify each canonical graph digest.",
+    "outputs": "Returns (actor_map,goal_map); raises ValueError for invalid shape/bounds/references/intervention binding.",
+    "preconditions_and_limits": "<=16actors,20goals,100tasks; does not independently authenticate source/scope claims or numeric world evaluation; nested interventions forbidden. This is not extension_model.py:validate."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:validate",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+17. runtime/auxiliary_selector.py:closed
+算法标识：runtime/auxiliary_selector.py:closed
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "closed",
+  "first_line": 135,
+  "AST_sha256": "ffeaeb30e57cbc025d837ff8cfbdce0d7e174d210b8c55fe88831e05fe82dcf1",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Check that every declared graph-scope obligation is marked complete.",
+  "inputs": "Validated request with five SCOPE_KEYS booleans.",
+  "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+  "outputs": "Boolean complete-scope flag.",
+  "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:closed",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Check that every declared graph-scope obligation is marked complete.",
+    "inputs": "Validated request with five SCOPE_KEYS booleans.",
+    "operations": "Return all(request[scope][key] for key in SCOPE_KEYS).",
+    "outputs": "Boolean complete-scope flag.",
+    "preconditions_and_limits": "Relies on caller-provided scope assertions; does not independently prove them."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:closed",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+18. runtime/auxiliary_selector.py:hard_failure
+算法标识：runtime/auxiliary_selector.py:hard_failure
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "hard_failure",
+  "first_line": 139,
+  "AST_sha256": "710d233b9c92d030da8b85cd56c177c338449496c40b99cad7f04c5daa6ba08a",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Determine whether a required actual goal or global check still blocks selection.",
+  "inputs": "Validated request containing goals/global_checks.",
+  "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+  "outputs": "Boolean hard-failure flag.",
+  "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:hard_failure",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Determine whether a required actual goal or global check still blocks selection.",
+    "inputs": "Validated request containing goals/global_checks.",
+    "operations": "Any hard goal outside met/not_applicable or hard check outside pass/not_applicable makes failure true.",
+    "outputs": "Boolean hard-failure flag.",
+    "preconditions_and_limits": "Optional failures do not block; caller statuses are not independently recomputed here."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:hard_failure",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+19. runtime/auxiliary_selector.py:repair_candidates
+算法标识：runtime/auxiliary_selector.py:repair_candidates
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "repair_candidates",
+  "first_line": 144,
+  "AST_sha256": "86bbda3ea5190db7c8e20bebfaaa5e10a63fee5ebe3e74103d9b6a90388b31a2",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='actor_map'), arg(arg='goal_map')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions.",
+  "inputs": "Validated request plus actor_map and goal_map.",
+  "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+  "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+  "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:repair_candidates",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Keep absent-direction repair proposals separate from current auxiliaries and identify supplied hypothetical complete interventions.",
+    "inputs": "Validated request plus actor_map and goal_map.",
+    "operations": "Consider only unmet natal_repair rules for absent elements; collect pending proposals. For matching interventions, preserve every original actor and immutable goal/check/task field, require closed scope/no hardfailure/repaired goal met/new actor with requested element, then collect feasible hypothetical graphs with receipt/hash.",
+    "outputs": "(pending,feasible) lists; feasible explicitly not independently executed or real-future stem/branch-certified.",
+    "preconditions_and_limits": "No current actor is created/selected by a proposal; luck_only not natal repair; graph/receipt claims remain unverified by selector.313 actual branch has no repair_routes."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:repair_candidates",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+20. runtime/auxiliary_selector.py:minimal_covers
+算法标识：runtime/auxiliary_selector.py:minimal_covers
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "minimal_covers",
+  "first_line": 184,
+  "AST_sha256": "ba8d7222aeddeceeedc6cb16a6261084cd2aedf349809b6dff3f99d575f64290",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='eligible'), arg(arg='coverage'), arg(arg='required')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal.",
+  "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+  "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+  "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+  "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:minimal_covers",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Enumerate all inclusion-minimal actor sets covering every required selection goal.",
+    "inputs": "Finite ordered eligible actor IDs; coverage map actor→goal set; required goal set.",
+    "operations": "Enumerate combinations by increasing count; skip any superset of already sufficient set; accept if union coverage>=required; reject when more than256 minimal sets.",
+    "outputs": "List of frozenset actor IDs, all minimal covers in enumeration order.",
+    "preconditions_and_limits": "Uses only already qualified coverage; cannot certify source, feasibility or harmful-effect calculations. Empty required permits empty cover, though select bypasses this case."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:minimal_covers",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+21. runtime/auxiliary_selector.py:prefer
+算法标识：runtime/auxiliary_selector.py:prefer
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "prefer",
+  "first_line": 197,
+  "AST_sha256": "dcde9c071cd404e31f5386778132784962d2f522239af1573e2bec7e7651c22f",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='left'), arg(arg='right'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution.",
+  "inputs": "left/right actor sets, actor_map, preference rules.",
+  "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+  "outputs": "Boolean left-preferred-over-right relation.",
+  "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:prefer",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Compare two minimal sets using an explicitly verified one-actor role substitution.",
+    "inputs": "left/right actor sets, actor_map, preference rules.",
+    "operations": "Only one actor may differ on each side; read their roles and accept a condition_verified preferred_role/over_role match.",
+    "outputs": "Boolean left-preferred-over-right relation.",
+    "preconditions_and_limits": "Distinct actor identities are preserved despite same roles. Larger substitutions are not ordered; no implicit traditional preference inferred."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:prefer",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+22. runtime/auxiliary_selector.py:preference_frontier
+算法标识：runtime/auxiliary_selector.py:preference_frontier
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "preference_frontier",
+  "first_line": 206,
+  "AST_sha256": "255a8d8c85792a2f0aff4c0479573b781362385ff143dd48dcbded0f53e78fa9",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='sets'), arg(arg='actors'), arg(arg='preferences')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle.",
+  "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+  "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+  "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+  "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:preference_frontier",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Apply all pairwise set preferences without losing alternatives under a preference cycle.",
+    "inputs": "Minimal actor sets, actor_map and explicit preference rules.",
+    "operations": "Build directed preference graph via prefer; use indegree/topological traversal to detect any cycle. If cyclic retain all sets; otherwise retain zero-incoming sets.",
+    "outputs": "(frontier_sets,cyclic,sorted index_edges).",
+    "preconditions_and_limits": "An arbitrary cycle makes the entire comparison undecided, retaining all minima. With no rules all minima survive; does not invent a tie-breaker."
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:preference_frontier",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+23. runtime/auxiliary_selector.py:select
+算法标识：runtime/auxiliary_selector.py:select
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "select",
+  "first_line": 224,
+  "AST_sha256": "8bbe2c5c5164e5a2696c24260639bf962fbea1569f4cdbf3bbe750064ee03934",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms.",
+  "inputs": "Full evaluated graph request accepted by validate.",
+  "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+  "outputs": "Base result fields are version, semantic_scope, source_and_scope_bindings_independently_validated, positive_current_tasks, all_current_actors_preserved, all_tasks_preserved, actual_goals_preserved, actual_global_checks_preserved, unmet_task_repair_candidates, needed_absent_directions, luck_directions_separate, selected_current_auxiliary_sets, common_selected_actors, final_whole_chart_auxiliary_elements, final_priority, B and warning; status is added on every return. The incomplete-scope and hard-failure branches leave selection fields None. The no-active-target branch sets selected_current_auxiliary_sets=[] and also returns positive_background_tasks. The active-target branch additionally returns qualified_coverage, all_inclusion_minimal_explanation_sets, preference_edges_by_set_index, preference_cycle_undecided and positive_background_tasks, and fills selected/common actor fields. Input schema, mode and scope are not returned. In this384 adapter the input graph is separately saved at whole.complete_positive_credit_H.questions[question].native.bounded_native_parts[index].full_native_graph; select itself does not return that field.",
+  "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.",
+  "current428_adapter_note": "当前完整输入CNF在whole.complete_positive_credit_H.native.bounded_native_parts[index].full_native_graph；原select不返回完整输入，完整物理图另在whole.actual_full_signed_graph。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:select",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Return finite evaluated-graph explanatory auxiliary sets while preserving all actors/tasks/harms.",
+    "inputs": "Full evaluated graph request accepted by validate.",
+    "operations": "Validate; derive positive_current_tasks and preserve input actors as all_current_actors_preserved, tasks as all_tasks_preserved, goals as actual_goals_preserved, and global_checks as actual_global_checks_preserved; calculate separate repair reports. Exit early for incomplete scope, hard failure or no selection target. Otherwise required active goals receive only selectable positive effective tasks with qualifying bases; enumerate minimal covers, apply preference frontier, report all minima/common actors/background tasks.",
+    "outputs": "Base result fields are version, semantic_scope, source_and_scope_bindings_independently_validated, positive_current_tasks, all_current_actors_preserved, all_tasks_preserved, actual_goals_preserved, actual_global_checks_preserved, unmet_task_repair_candidates, needed_absent_directions, luck_directions_separate, selected_current_auxiliary_sets, common_selected_actors, final_whole_chart_auxiliary_elements, final_priority, B and warning; status is added on every return. The incomplete-scope and hard-failure branches leave selection fields None. The no-active-target branch sets selected_current_auxiliary_sets=[] and also returns positive_background_tasks. The active-target branch additionally returns qualified_coverage, all_inclusion_minimal_explanation_sets, preference_edges_by_set_index, preference_cycle_undecided and positive_background_tasks, and fills selected/common actor fields. Input schema, mode and scope are not returned. In this384 adapter the input graph is separately saved at whole.complete_positive_credit_H.questions[question].native.bounded_native_parts[index].full_native_graph; select itself does not return that field.",
+    "preconditions_and_limits": "Selection is explanatory coverage, not deletion counterfactual, source certificate or final whole-chart judgment. Negative tasks remain; source_and_scope_bindings_independently_validated=False.",
+    "current428_adapter_note": "当前完整输入CNF在whole.complete_positive_credit_H.native.bounded_native_parts[index].full_native_graph；原select不返回完整输入，完整物理图另在whole.actual_full_signed_graph。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/auxiliary_selector.py:select",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+24. runtime/auxiliary_selector.py:strict_pairs
+算法标识：runtime/auxiliary_selector.py:strict_pairs
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "strict_pairs",
+  "first_line": 272,
+  "AST_sha256": "7fd2a2a27703443d00e9eccb0d0d8d5d044606447f1849e7b690bfc43f24a14f",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pairs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser.",
+  "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+  "operations": "Insert into new dict, raising ValueError if key already exists.",
+  "outputs": "Parsed dict or ValueError duplicate JSON key.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:strict_pairs",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Reject duplicate object keys in the inherited AUX CLI JSON parser.",
+    "inputs": "Ordered (key,item) pairs supplied by json.loads object_pairs_hook.",
+    "operations": "Insert into new dict, raising ValueError if key already exists.",
+    "outputs": "Parsed dict or ValueError duplicate JSON key.",
+    "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; this is not extension_model.py:pairs."
+  }
+}
+current_actual_IO：null
+not_executed_note：精确旧AST合同保留；本次未执行，不冒充当前trace或伪造IO。
+
+25. runtime/auxiliary_selector.py:reject_constant
+算法标识：runtime/auxiliary_selector.py:reject_constant
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "reject_constant",
+  "first_line": 280,
+  "AST_sha256": "d7ce925c4409a5fef4c1c1136fbc9d2e26d03c87ad4e3e76e7c7e97bd503e3d6",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='value')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing.",
+  "inputs": "A constant token string supplied by json.loads parse_constant.",
+  "operations": "Always raise ValueError(nonfinite JSON constant).",
+  "outputs": "No normal return.",
+  "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:reject_constant",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Reject nonfinite JSON constants in inherited AUX CLI parsing.",
+    "inputs": "A constant token string supplied by json.loads parse_constant.",
+    "operations": "Always raise ValueError(nonfinite JSON constant).",
+    "outputs": "No normal return.",
+    "preconditions_and_limits": "No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only; not extension_model.py:nonfinite."
+  }
+}
+current_actual_IO：null
+not_executed_note：精确旧AST合同保留；本次未执行，不冒充当前trace或伪造IO。
+
+26. runtime/auxiliary_selector.py:main
+算法标识：runtime/auxiliary_selector.py:main
+source_identity：{
+  "relative_path": "runtime/auxiliary_selector.py",
+  "qualified_name": "main",
+  "first_line": 284,
+  "AST_sha256": "96fa838165882c01b5fcc9ba0758960481909eceeb8358a2cd22a202075d0ae1",
+  "module_sha256": "db8c0ffa1b55da6e5361c54efc90dc4254d8e9fee8d53f0859d5c18047622c1f",
+  "signature": "arguments(posonlyargs=[], args=[], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol.",
+  "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+  "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+  "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+  "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main."
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/auxiliary_selector.py:main",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "Run inherited evaluated-graph AUX CLI with its own protocol.",
+    "inputs": "No Python arguments; reads stdin up to1048577 characters for a graph request.",
+    "operations": "Reject input length>1048576, parse with strict_pairs/reject_constant, call select, print sorted Unicode noncompact JSON; catch only ValueError/KeyError/TypeError/RecursionError.",
+    "outputs": "Success: output result JSON and return0. Caught failure: output {status:rejected,error:exception_type} and return2; __main__ wrapper raises SystemExit(return).",
+    "preconditions_and_limits": "Not raw-pillar/source admission. Other exception types propagate. No313/353 execution evidence claimed: actual_IO remains[]; static source explanation only. This differs from both extension main and standalone graph main."
+  }
+}
+current_actual_IO：null
+not_executed_note：精确旧AST合同保留；本次未执行，不冒充当前trace或伪造IO。
+
+27. runtime/element_pool.py:inventory
+算法标识：runtime/element_pool.py:inventory
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "inventory",
+  "first_line": 9,
+  "AST_sha256": "5cdf8387d2fe6337a0eacda26e1f65c17a179960b5c92885df5456587703fb67",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "保明藏全部实体并形成phase-free任务库",
+  "inputs": "完整parsed及指定b/c参数",
+  "operations": "逐明藏根证：同元素各支主列1余列1/4月3/2、每明干浮源1；同元素同origin最大聚合；每演员根证总和归一作分配权重",
+  "outputs": "actors/direct/weights/parsed/params",
+  "preconditions_and_limits": "主余权重是工程结构权重，非司令/任土12宫。共池分配不是演员局部库存。",
+  "adapter_note": "此逐字函数仍先标木火；本版core.inventory随后仅将包标记改木水，库存/演员/根/权重均不变。",
+  "current428_adapter_note": "旧逐字函数先标木火，本428 core.inventory仅改正解释包为水；库存/全部原根/权重不变。旧404木水adapter语境不是本版规格。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/element_pool.py:inventory",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "保明藏全部实体并形成phase-free任务库",
+    "inputs": "完整parsed及指定b/c参数",
+    "operations": "逐明藏根证：同元素各支主列1余列1/4月3/2、每明干浮源1；同元素同origin最大聚合；每演员根证总和归一作分配权重",
+    "outputs": "actors/direct/weights/parsed/params",
+    "preconditions_and_limits": "主余权重是工程结构权重，非司令/任土12宫。共池分配不是演员局部库存。",
+    "adapter_note": "此逐字函数仍先标木火；本版core.inventory随后仅将包标记改木水，库存/演员/根/权重均不变。",
+    "current428_adapter_note": "旧逐字函数先标木火，本428 core.inventory仅改正解释包为水；库存/全部原根/权重不变。旧404木水adapter语境不是本版规格。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/element_pool.py:inventory",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+28. runtime/element_pool.py:coefficients
+算法标识：runtime/element_pool.py:coefficients
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "coefficients",
+  "first_line": 37,
+  "AST_sha256": "615b03099456f6f43f080508f3ebca37ed456b3adfc8b9293122fc5299b9e1fd",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "声明同current全生克预算",
+  "inputs": "base直接库与参数b,c",
+  "operations": "b,c∈(0,1/3]；无实体目标不接收/不预留该输出；a_i=1+b*生目标存在+c*克目标存在；K目标行生正克负除a；行和L核<1",
+  "outputs": "b,c,present,a,K,L",
+  "preconditions_and_limits": "每个正负发送与成本均读同一个解；预留全部控制容量不因目标被耗尽回收。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/element_pool.py:coefficients",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "声明同current全生克预算",
+    "inputs": "base直接库与参数b,c",
+    "operations": "b,c∈(0,1/3]；无实体目标不接收/不预留该输出；a_i=1+b*生目标存在+c*克目标存在；K目标行生正克负除a；行和L核<1",
+    "outputs": "b,c,present,a,K,L",
+    "preconditions_and_limits": "每个正负发送与成本均读同一个解；预留全部控制容量不因目标被耗尽回收。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/element_pool.py:coefficients",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+29. runtime/element_pool.py:solve
+算法标识：runtime/element_pool.py:solve
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "solve",
+  "first_line": 50,
+  "AST_sha256": "b7e9b32624c59cd4352eef349c857cce8326f350acb8704cdbf52ff0892ab382",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "精确求唯一五行任务状态",
+  "inputs": "base/math.gauss",
+  "operations": "枚举32活跃面；解(I-K_AA)x=v；非活跃0；对全部五行max方程精确有理代入、非负才收；结合全域L<1唯一",
+  "outputs": "current、coefficients、活跃面与证书",
+  "preconditions_and_limits": "全有理无浮点suggestion；缺实体坐标夹0；不生成不存在金等演员。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/element_pool.py:solve",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "精确求唯一五行任务状态",
+    "inputs": "base/math.gauss",
+    "operations": "枚举32活跃面；解(I-K_AA)x=v；非活跃0；对全部五行max方程精确有理代入、非负才收；结合全域L<1唯一",
+    "outputs": "current、coefficients、活跃面与证书",
+    "preconditions_and_limits": "全有理无浮点suggestion；缺实体坐标夹0；不生成不存在金等演员。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/element_pool.py:solve",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+30. runtime/element_pool.py:origin_ports
+算法标识：runtime/element_pool.py:origin_ports
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "origin_ports",
+  "first_line": 64,
+  "AST_sha256": "70baff7d919978b41bdcf3d715947a428e61ade1f4c704d6a20210e991c29261",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "在同解上分清所有库存来源",
+  "inputs": "base/world/math",
+  "operations": "gross_i=d_i+b*x_parent(须目标存在)；rho=x/gross；多右端解o_i=rho_i(d_i,o+b*o_parent)；逐origin非负/方程/和=x断言",
+  "outputs": "pools/gross/retention与L",
+  "preconditions_and_limits": "控制不把被克元素转换为克者；成本与克损同比耗用毛入。origin代表工程资格输入，不是物理分子守恒。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/element_pool.py:origin_ports",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "在同解上分清所有库存来源",
+    "inputs": "base/world/math",
+    "operations": "gross_i=d_i+b*x_parent(须目标存在)；rho=x/gross；多右端解o_i=rho_i(d_i,o+b*o_parent)；逐origin非负/方程/和=x断言",
+    "outputs": "pools/gross/retention与L",
+    "preconditions_and_limits": "控制不把被克元素转换为克者；成本与克损同比耗用毛入。origin代表工程资格输入，不是物理分子守恒。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/element_pool.py:origin_ports",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+31. runtime/element_pool.py:reconstruct
+算法标识：runtime/element_pool.py:reconstruct
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "reconstruct",
+  "first_line": 77,
+  "AST_sha256": "64dd281189586e10828753327a067962357487735b0575f3a23e10f60c30256e",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "还原每个演员每origin全部发送与消耗",
+  "inputs": "同一base/world/ports",
+  "operations": "actorports=权重*元素origin池；遍历所有真实演员，生/克每对按b或c及目标权重发送；gross=x+gen预算+control预算+实际克损逐项核",
+  "outputs": "全部actorports、全部有向生克边、五库存账、形式关系",
+  "preconditions_and_limits": "0现量演员仍在；容量超目标部分另记。没有跨不同world拼正负，也不删除未选包。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/element_pool.py:reconstruct",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "还原每个演员每origin全部发送与消耗",
+    "inputs": "同一base/world/ports",
+    "operations": "actorports=权重*元素origin池；遍历所有真实演员，生/克每对按b或c及目标权重发送；gross=x+gen预算+control预算+实际克损逐项核",
+    "outputs": "全部actorports、全部有向生克边、五库存账、形式关系",
+    "preconditions_and_limits": "0现量演员仍在；容量超目标部分另记。没有跨不同world拼正负，也不删除未选包。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/element_pool.py:reconstruct",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+32. runtime/element_pool.py:native_H
+算法标识：runtime/element_pool.py:native_H
+source_identity：{
+  "relative_path": "runtime/element_pool.py",
+  "qualified_name": "native_H",
+  "first_line": 103,
+  "AST_sha256": "56fe1b2195732cc356eec3de8c69bc229643a286f00fa631b5b0090371617c2d",
+  "module_sha256": "cab939405bc38e9c0402f8e7dfc3bc68d7c9bc946faa5145970fe2af1080decf",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='logic'), arg(arg='aux'), arg(arg='actual_met')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "接原native选择器且保全部OR",
+  "inputs": "base/完整logic/原AUX/实际目标是否满足",
+  "operations": "CNF按最多18goal/100tasks分块；每块存完整输入图并调用原select；AND各块的所有局部OR，枚举并集再最小化；与独立全H断言相等",
+  "outputs": "bounded_native_parts及全部最小并集",
+  "preconditions_and_limits": "原AUX源码不改；full_native_graph由此adapter保存，select本身不返schema/mode/scope。原AUX B字段恒未接产品。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/element_pool.py:native_H",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "接原native选择器且保全部OR",
+    "inputs": "base/完整logic/原AUX/实际目标是否满足",
+    "operations": "CNF按最多18goal/100tasks分块；每块存完整输入图并调用原select；AND各块的所有局部OR，枚举并集再最小化；与独立全H断言相等",
+    "outputs": "bounded_native_parts及全部最小并集",
+    "preconditions_and_limits": "原AUX源码不改；full_native_graph由此adapter保存，select本身不返schema/mode/scope。原AUX B字段恒未接产品。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/element_pool.py:native_H",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+33. runtime/foundation_facts.py:stem_element
+算法标识：runtime/foundation_facts.py:stem_element
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "stem_element",
+  "first_line": 39,
+  "AST_sha256": "90f83cc4668880c15b15d6c8f6a6eddeb84123dbfc8074b3a9539902126f5977",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "十干查五行",
+  "inputs": "单个合法十干",
+  "operations": "校验字符后按十干索引每两干映五行",
+  "outputs": "五行名或ValueError",
+  "preconditions_and_limits": "事实查表，不是旺衰。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/foundation_facts.py:stem_element",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "十干查五行",
+    "inputs": "单个合法十干",
+    "operations": "校验字符后按十干索引每两干映五行",
+    "outputs": "五行名或ValueError",
+    "preconditions_and_limits": "事实查表，不是旺衰。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:stem_element",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+34. runtime/foundation_facts.py:ten_god
+算法标识：runtime/foundation_facts.py:ten_god
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "ten_god",
+  "first_line": 45,
+  "AST_sha256": "69608c92c7bad6f34fcd8bf2525c1f4964aa8a28ccd05a3e40097e3dee7f786d",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='day_stem'), arg(arg='other_stem')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "严格十神角色",
+  "inputs": "日干和另一干",
+  "operations": "按五行环差及阴阳同异取角色",
+  "outputs": "十神名",
+  "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/foundation_facts.py:ten_god",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "严格十神角色",
+    "inputs": "日干和另一干",
+    "operations": "按五行环差及阴阳同异取角色",
+    "outputs": "十神名",
+    "preconditions_and_limits": "官杀、食伤分开，不推喜用。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:ten_god",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+35. runtime/foundation_facts.py:validate
+算法标识：runtime/foundation_facts.py:validate
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "validate",
+  "first_line": 60,
+  "AST_sha256": "2838e1e22305305c1f04979482fcfa5700a661cc8bb56d8e72518d3caaca08b4",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "原柱基础合法性",
+  "inputs": "原始四字段对象",
+  "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+  "outputs": "校验报告",
+  "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/foundation_facts.py:validate",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "原柱基础合法性",
+    "inputs": "原始四字段对象",
+    "operations": "检字符/配对/五虎遁年月/五鼠遁日时，记录缺项与错误",
+    "outputs": "校验报告",
+    "preconditions_and_limits": "不核真实公历生日/节气/换日异议。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:validate",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+36. runtime/foundation_facts.py:formal_relations
+算法标识：runtime/foundation_facts.py:formal_relations
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "formal_relations",
+  "first_line": 104,
+  "AST_sha256": "37f8083e907122743d9746d3bde547db8ec2076b79e4befbf222b0b890297218",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "保留有位置的形式合冲",
+  "inputs": "四柱对象",
+  "operations": "逐柱对按天干五合/支六合六冲匹配",
+  "outputs": "形式候选列表",
+  "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。",
+  "historical_reference_note": "继承旧合同K2尾注只作历史；本428只保四柱形式及source-specific coexistence，不以尾注声称解K2/通用合化。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/foundation_facts.py:formal_relations",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "保留有位置的形式合冲",
+    "inputs": "四柱对象",
+    "operations": "逐柱对按天干五合/支六合六冲匹配",
+    "outputs": "形式候选列表",
+    "preconditions_and_limits": "不含三合/会局；不判生克效力。K2金局另有限源消费。",
+    "historical_reference_note": "继承旧合同K2尾注只作历史；本428只保四柱形式及source-specific coexistence，不以尾注声称解K2/通用合化。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:formal_relations",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+37. runtime/foundation_facts.py:root_evidence
+算法标识：runtime/foundation_facts.py:root_evidence
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "root_evidence",
+  "first_line": 121,
+  "AST_sha256": "fa9f976fd6a7b0c112ade0933176428d664502fc4f08b6dbdd4bf447ba056df7",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='stem'), arg(arg='pillars')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "保留同字同五行藏据及已明列特殊根例",
+  "inputs": "一干及四柱",
+  "operations": "查各支完整藏干和四项特殊例",
+  "outputs": "证据列表，强度not_computed",
+  "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/foundation_facts.py:root_evidence",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "保留同字同五行藏据及已明列特殊根例",
+    "inputs": "一干及四柱",
+    "operations": "查各支完整藏干和四项特殊例",
+    "outputs": "证据列表，强度not_computed",
+    "preconditions_and_limits": "仅事实，不能用本表空项冒任氏真实无根。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:root_evidence",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+38. runtime/foundation_facts.py:parse
+算法标识：runtime/foundation_facts.py:parse
+source_identity：{
+  "relative_path": "runtime/foundation_facts.py",
+  "qualified_name": "parse",
+  "first_line": 148,
+  "AST_sha256": "295241ffb79d3f23ecab0f4150d07efee15a03c0e7f3d33d044896211f7bb748",
+  "module_sha256": "ec83107d62da9f11f868f09d640ef5a67e05c5c5c8fd9f2cf5eb8148c9b28105",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='payload')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "原61完整四柱事实入口",
+  "inputs": "原始四柱对象",
+  "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+  "outputs": "facts_parsed或非法/缺项报告",
+  "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/foundation_facts.py:parse",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "原61完整四柱事实入口",
+    "inputs": "原始四柱对象",
+    "operations": "先validate；成功保明藏所有位置/角色/根查据/形式关系",
+    "outputs": "facts_parsed或非法/缺项报告",
+    "preconditions_and_limits": "没有在原事实程序新增强度、格局或颜色。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/foundation_facts.py:parse",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+39. runtime/maintenance_core.py:scope
+算法标识：runtime/maintenance_core.py:scope
+source_identity：{
+  "relative_path": "runtime/maintenance_core.py",
+  "qualified_name": "scope",
+  "first_line": 9,
+  "AST_sha256": "85f1e3c345a7145ab34bea2442604db181f6720f75c0a4c998ee62ecd57bb2ff",
+  "module_sha256": "eb2ab0d8c7bf74d52fcf18b38ea530780a44084e65d1dc0a9419e519aa10f235",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "限定有亥曲直维护族",
+  "inputs": "合法facts",
+  "operations": "乙日、卯月、三支亥卯未齐且四支仅这三种；保原形式关系",
+  "outputs": "checks/域内标志/资格语义",
+  "preconditions_and_limits": "恰60人工合法组合；甲日、午、无亥及仁寿原任务另保，不作全球败断。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/quzhi_core.py:scope",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "限定有亥曲直维护族",
+    "inputs": "合法facts",
+    "operations": "乙日、卯月、三支亥卯未齐且四支仅这三种；保原形式关系",
+    "outputs": "checks/域内标志/资格语义",
+    "preconditions_and_limits": "恰60人工合法组合；甲日、午、无亥及仁寿原任务另保，不作全球败断。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/maintenance_core.py:scope",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+40. runtime/maintenance_core.py:inventory
+算法标识：runtime/maintenance_core.py:inventory
+source_identity：{
+  "relative_path": "runtime/maintenance_core.py",
+  "qualified_name": "inventory",
+  "first_line": 19,
+  "AST_sha256": "339c24b43f55d4591970d67ae14cf6cdaefeb0d0b8c2768fe695bb5435fc7529",
+  "module_sha256": "eb2ab0d8c7bf74d52fcf18b38ea530780a44084e65d1dc0a9419e519aa10f235",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "在旧精确库存上设本问题范围",
+  "inputs": "parsed/参数/pool",
+  "operations": "旧库存保全演员/藏根/同源max/权重，只把正解释包标为水",
+  "outputs": "完整base",
+  "preconditions_and_limits": "木主体不是额外辅助；不删金火土，也不改变其正负成本。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/quzhi_core.py:inventory",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "在旧精确库存上设本问题范围",
+    "inputs": "parsed/参数/pool",
+    "operations": "旧库存保全演员/藏根/同源max/权重，只把正解释包标为水",
+    "outputs": "完整base",
+    "preconditions_and_limits": "木主体不是额外辅助；不删金火土，也不改变其正负成本。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/maintenance_core.py:inventory",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+41. runtime/maintenance_core.py:actual_effects
+算法标识：runtime/maintenance_core.py:actual_effects
+source_identity：{
+  "relative_path": "runtime/maintenance_core.py",
+  "qualified_name": "actual_effects",
+  "first_line": 25,
+  "AST_sha256": "43fc1b4949cae28b0ec8b776983ba53aea6785c8396a90c128a4fb9ec744513b",
+  "module_sha256": "eb2ab0d8c7bf74d52fcf18b38ea530780a44084e65d1dc0a9419e519aa10f235",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "完整实际源边、目标克损和木池留存信用",
+  "inputs": "base/world/ports/pool",
+  "operations": "旧全图后每控制边按min(gross,capacity)实际目标限幅；生边发送不变，另乘target rho作解释留存；逐actor-origin列真实端点预留成本并核预算",
+  "outputs": "全边/克损/未用容量/目标留存/actor-origin预算",
+  "preconditions_and_limits": "留存信用不二扣物理量；源成本不因未用克容量退还；没有新因果干预。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/quzhi_core.py:actual_effects",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "完整实际源边、目标克损和木池留存信用",
+    "inputs": "base/world/ports/pool",
+    "operations": "旧全图后每控制边按min(gross,capacity)实际目标限幅；生边发送不变，另乘target rho作解释留存；逐actor-origin列真实端点预留成本并核预算",
+    "outputs": "全边/克损/未用容量/目标留存/actor-origin预算",
+    "preconditions_and_limits": "留存信用不二扣物理量；源成本不因未用克容量退还；没有新因果干预。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/maintenance_core.py:actual_effects",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+42. runtime/maintenance_core.py:goals
+算法标识：runtime/maintenance_core.py:goals
+source_identity：{
+  "relative_path": "runtime/maintenance_core.py",
+  "qualified_name": "goals",
+  "first_line": 56,
+  "AST_sha256": "ae36981c82d81656a66b83cf78a090054617294fa062616cf3e84fdc03550643",
+  "module_sha256": "eb2ab0d8c7bf74d52fcf18b38ea530780a44084e65d1dc0a9419e519aa10f235",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='graph')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "从完整木体核亥原水真实生日",
+  "inputs": "base/world/ports/完整实际图",
+  "operations": "木活并覆盖火土金；半直接量冗余证明；每位置木根活；亥水源活，沿实际水→木边和木target rho求留存，与同股公式恒等；给B/32门",
+  "outputs": "全部硬条件、真实各水载体信用/门与已知完整成否",
+  "preconditions_and_limits": "半库存不是独立新增功能；全部数额工程先验；不能水角色直接变终极喜用。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/quzhi_core.py:goals",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "从完整木体核亥原水真实生日",
+    "inputs": "base/world/ports/完整实际图",
+    "operations": "木活并覆盖火土金；半直接量冗余证明；每位置木根活；亥水源活，沿实际水→木边和木target rho求留存，与同股公式恒等；给B/32门",
+    "outputs": "全部硬条件、真实各水载体信用/门与已知完整成否",
+    "preconditions_and_limits": "半库存不是独立新增功能；全部数额工程先验；不能水角色直接变终极喜用。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/maintenance_core.py:goals",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+43. runtime/maintenance_core.py:complete_credit_H
+算法标识：runtime/maintenance_core.py:complete_credit_H
+source_identity：{
+  "relative_path": "runtime/maintenance_core.py",
+  "qualified_name": "complete_credit_H",
+  "first_line": 85,
+  "AST_sha256": "080272193f3212897fb58ecbe88f54b2b946b75f8a6fe689c99ba74855a4d6e8",
+  "module_sha256": "eb2ab0d8c7bf74d52fcf18b38ea530780a44084e65d1dc0a9419e519aa10f235",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='goal')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "保全部固定世界亥印解释组合",
+  "inputs": "base/goal",
+  "operations": "全部水载体子集求真实留存信用；硬条件AND足量；成功包含极小，最大失败补CNF",
+  "outputs": "完整每子集/全部H/CNF",
+  "preconditions_and_limits": "不删actor或重解许可世界；源体维护H不等传统最终必要性。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/quzhi_core.py:complete_credit_H",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "保全部固定世界亥印解释组合",
+    "inputs": "base/goal",
+    "operations": "全部水载体子集求真实留存信用；硬条件AND足量；成功包含极小，最大失败补CNF",
+    "outputs": "完整每子集/全部H/CNF",
+    "preconditions_and_limits": "不删actor或重解许可世界；源体维护H不等传统最终必要性。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/maintenance_core.py:complete_credit_H",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+44. runtime/maintenance_core.py:analyze
+算法标识：runtime/maintenance_core.py:analyze
+source_identity：{
+  "relative_path": "runtime/maintenance_core.py",
+  "qualified_name": "analyze",
+  "first_line": 100,
+  "AST_sha256": "923ab924d0f3d26d399dee3d6de486b7495b39765f4a7a472fed528c555b7681",
+  "module_sha256": "eb2ab0d8c7bf74d52fcf18b38ea530780a44084e65d1dc0a9419e519aa10f235",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='aux'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "贯通完整原局与准确结论层",
+  "inputs": "base/math/aux/pool",
+  "operations": "同current唯一解→origin→全实际图→全部目标→H→原native；每mask按原coverage/硬状态实查；结论只给木维护/亥印实际扶助",
+  "outputs": "全部原生数据与已知维护成败",
+  "preconditions_and_limits": "最终喜用/主次/B仍None；Primary原吴下一支保，不假称C02全完。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/quzhi_core.py:analyze",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "贯通完整原局与准确结论层",
+    "inputs": "base/math/aux/pool",
+    "operations": "同current唯一解→origin→全实际图→全部目标→H→原native；每mask按原coverage/硬状态实查；结论只给木维护/亥印实际扶助",
+    "outputs": "全部原生数据与已知维护成败",
+    "preconditions_and_limits": "最终喜用/主次/B仍None；Primary原吴下一支保，不假称C02全完。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/maintenance_core.py:analyze",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+45. runtime/maintenance_core.py:evaluate
+算法标识：runtime/maintenance_core.py:evaluate
+source_identity：{
+  "relative_path": "runtime/maintenance_core.py",
+  "qualified_name": "evaluate",
+  "first_line": 125,
+  "AST_sha256": "21990d46d4e1aa15e361a35ba611ad97ee8ff2c88d747b681bbd2924a03286f6",
+  "module_sha256": "eb2ab0d8c7bf74d52fcf18b38ea530780a44084e65d1dc0a9419e519aa10f235",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='request'), arg(arg='params'), arg(arg='facts'), arg(arg='math'), arg(arg='aux'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "四字段原生入口",
+  "inputs": "严格schema/source/profile/raw_pillars",
+  "operations": "源版本和参数名、raw对象；原facts判非法/缺项；合法域外保事实/wholeNone，域内建完整base/analyze",
+  "outputs": "完整维护研究或原facts报告/域外缺口",
+  "preconditions_and_limits": "只原局，不接受ready/final或外给色；合法域外不偷换来源默认。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/quzhi_core.py:evaluate",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "四字段原生入口",
+    "inputs": "严格schema/source/profile/raw_pillars",
+    "operations": "源版本和参数名、raw对象；原facts判非法/缺项；合法域外保事实/wholeNone，域内建完整base/analyze",
+    "outputs": "完整维护研究或原facts报告/域外缺口",
+    "preconditions_and_limits": "只原局，不接受ready/final或外给色；合法域外不偷换来源默认。"
+  }
+}
+current_actual_IO：null
+not_executed_note：精确旧AST合同保留；本次未执行，不冒充当前trace或伪造IO。
+
+46. runtime/primary_core.py:inventory
+算法标识：runtime/primary_core.py:inventory
+source_identity：{
+  "relative_path": "runtime/primary_core.py",
+  "qualified_name": "inventory",
+  "first_line": 11,
+  "AST_sha256": "751d5c5e688146a874f89ac2a04007e3cdb4d3c6c3d47d553977f39a54e1c338",
+  "module_sha256": "a31d5cd149938f92196fcb1d0a29844a7435bbd63c23ef211fbf9c0dc9832686",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='parsed'), arg(arg='params'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "保全部实际明藏演员并标明原局明水印候选",
+  "inputs": "parsed/params/pool",
+  "operations": "旧428phasefree源库存不变；仅明水设候选，隐亥水持续实际作用",
+  "outputs": "全部实际演员、根来源、direct、同元素共池权重与全部明印ID；演员数随原柱11/12/13变化",
+  "preconditions_and_limits": "不删藏火土，也不以阴阳相同数率冒传统正偏印完全等价。"
+}
+current_context_notes：[
+  "当前为Primary93明确比印5族；未继承旧原吴exact raw限制或旧保食硬门；本次源条件与当前IO另绑定。"
+]
+exact_prior_reference：{
+  "artifact": "work/rev428b_Primary_Wu_complete_print/algorithm_explanations_47_functions.json",
+  "id": "runtime/wu_core.py:inventory",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "全12演员及本题明印候选",
+    "inputs": "parsed/params/pool",
+    "operations": "旧428phasefree源库存不变；仅明水设候选，隐亥水持续实际作用",
+    "outputs": "base与两个明印id",
+    "preconditions_and_limits": "不删藏火土，也不以阴阳相同数率冒传统正偏印完全等价。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/primary_core.py:inventory",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+47. runtime/primary_core.py:solve_print_world
+算法标识：runtime/primary_core.py:solve_print_world
+source_identity：{
+  "relative_path": "runtime/primary_core.py",
+  "qualified_name": "solve_print_world",
+  "first_line": 18,
+  "AST_sha256": "c05bb8210408e06041731e8e4d28fa2aa1d2dc2dbfb86ca3e8baa37998380a0e",
+  "module_sha256": "a31d5cd149938f92196fcb1d0a29844a7435bbd63c23ef211fbf9c0dc9832686",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='pool'), arg(arg='enabled')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "生日与制食联合许可的完整5current",
+  "inputs": "base/math/pool/enabled明印子集",
+  "operations": "theta隐水+启用明印权重；旧潜在系数a和cost固定，木行生水项/火行受水克项同时theta；全32有理面解并代回",
+  "outputs": "当前量、实际K/原潜在系数、实际生/克率/启用情况",
+  "preconditions_and_limits": "actual全开严格退化旧pool；off是功能诊断，不删原干/根/浮输入；不返未用费用。"
+}
+current_context_notes：[
+  "当前为Primary93明确比印5族；未继承旧原吴exact raw限制或旧保食硬门；本次源条件与当前IO另绑定。"
+]
+exact_prior_reference：{
+  "artifact": "work/rev428b_Primary_Wu_complete_print/algorithm_explanations_47_functions.json",
+  "id": "runtime/wu_core.py:solve_print_world",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "生日与制食联合许可的完整5current",
+    "inputs": "base/math/pool/enabled明印子集",
+    "operations": "theta隐水+启用明印权重；旧潜在系数a和cost固定，木行生水项/火行受水克项同时theta；全32有理面解并代回",
+    "outputs": "当前量、实际K/原潜在系数、实际生/克率/启用情况",
+    "preconditions_and_limits": "actual全开严格退化旧pool；off是功能诊断，不删原干/根/浮输入；不返未用费用。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/primary_core.py:solve_print_world",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+48. runtime/primary_core.py:origin_ports
+算法标识：runtime/primary_core.py:origin_ports
+source_identity：{
+  "relative_path": "runtime/primary_core.py",
+  "qualified_name": "origin_ports",
+  "first_line": 42,
+  "AST_sha256": "be7647fa5183ddd871ac7e7e273c204193f1c01b06e67925421016dbbddcfd81",
+  "module_sha256": "a31d5cd149938f92196fcb1d0a29844a7435bbd63c23ef211fbf9c0dc9832686",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='math')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "每诊断同解全部真实源追踪",
+  "inputs": "base/world/math",
+  "operations": "按实际generationrates形成gross与rho；多rhs有理解每origin；核每式、非负、和=current",
+  "outputs": "全ports/gross/retention",
+  "preconditions_and_limits": "不能把旧固定b origin函数用于theta非1；控制/成本消费比例同世界，不跨world。"
+}
+current_context_notes：[
+  "当前为Primary93明确比印5族；未继承旧原吴exact raw限制或旧保食硬门；本次源条件与当前IO另绑定。"
+]
+exact_prior_reference：{
+  "artifact": "work/rev428b_Primary_Wu_complete_print/algorithm_explanations_47_functions.json",
+  "id": "runtime/wu_core.py:origin_ports",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "每诊断同解全部真实源追踪",
+    "inputs": "base/world/math",
+    "operations": "按实际generationrates形成gross与rho；多rhs有理解每origin；核每式、非负、和=current",
+    "outputs": "全ports/gross/retention",
+    "preconditions_and_limits": "不能把旧固定b origin函数用于theta非1；控制/成本消费比例同世界，不跨world。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/primary_core.py:origin_ports",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+49. runtime/primary_core.py:actual_effects
+算法标识：runtime/primary_core.py:actual_effects
+source_identity：{
+  "relative_path": "runtime/primary_core.py",
+  "qualified_name": "actual_effects",
+  "first_line": 57,
+  "AST_sha256": "da5a4da6d65d03891c61793c2fb6a5fec32afc8f907ac1a7ed6c8166244fd34a",
+  "module_sha256": "a31d5cd149938f92196fcb1d0a29844a7435bbd63c23ef211fbf9c0dc9832686",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "全actual正负边与不退还的原源费用",
+  "inputs": "base/world/ports",
+  "operations": "每actor原poolport全保；只有启用明印生日/制食同时可发；目标clamp克损；生日target留存另列；每actor-origin潜在费用、未用生成/控制费用与五账守恒核",
+  "outputs": "全部实际演员的原点ports、全生/克容量边与实损边、各源原点潜在费用、五行完整预算；不固定12演员",
+  "preconditions_and_limits": "发送/保留/实际克损/未用源费不同；禁用并不删实体、已归属输入或根。"
+}
+current_context_notes：[
+  "当前为Primary93明确比印5族；未继承旧原吴exact raw限制或旧保食硬门；本次源条件与当前IO另绑定。"
+]
+exact_prior_reference：{
+  "artifact": "work/rev428b_Primary_Wu_complete_print/algorithm_explanations_47_functions.json",
+  "id": "runtime/wu_core.py:actual_effects",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "全actual正负边与不退还的原源费用",
+    "inputs": "base/world/ports",
+    "operations": "每actor原poolport全保；只有启用明印生日/制食同时可发；目标clamp克损；生日target留存另列；每actor-origin潜在费用、未用生成/控制费用与五账守恒核",
+    "outputs": "全12actorports/边/五账/每源预留/禁用费用/克损clamps",
+    "preconditions_and_limits": "发送/保留/实际克损/未用源费不同；禁用并不删实体、已归属输入或根。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/primary_core.py:actual_effects",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+50. runtime/primary_core.py:goals
+算法标识：runtime/primary_core.py:goals
+source_identity：{
+  "relative_path": "runtime/primary_core.py",
+  "qualified_name": "goals",
+  "first_line": 102,
+  "AST_sha256": "4760d1d402cc9628e1ad9a602f9d598d1c2cfc1b09ddb532c94f497d9fbff3ea",
+  "module_sha256": "a31d5cd149938f92196fcb1d0a29844a7435bbd63c23ef211fbf9c0dc9832686",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='world'), arg(arg='ports'), arg(arg='graph'), arg(arg='eta')], kwonlyargs=[], kw_defaults=[], defaults=[Call(func=Name(id='F', ctx=Load()), args=[Constant(value=1), Constant(value=32)], keywords=[])])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "Primary喜印的整盘条件及真实源信用",
+  "inputs": "同一base/world/ports/全签名graph；eta默认1/32",
+  "operations": "木体活且覆盖火土金、每个原亥卯未木根留存、亥水原点活；逐明印汇总真实留木及亥源留木；信用阈值etaB；全算木生火通路但仅诊断",
+  "outputs": "3硬条件、逐印全信用/亥信用、margin、食活诊断",
+  "preconditions_and_limits": "食不活不是Primary93否定门；半直接木只是既有足域推论不另加能力；eta与共池均工程非古量"
+}
+current_context_notes：[
+  "当前为Primary93明确比印5族；未继承旧原吴exact raw限制或旧保食硬门；本次源条件与当前IO另绑定。"
+]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/primary_core.py:goals",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+51. runtime/primary_core.py:complete_credit_H
+算法标识：runtime/primary_core.py:complete_credit_H
+source_identity：{
+  "relative_path": "runtime/primary_core.py",
+  "qualified_name": "complete_credit_H",
+  "first_line": 124,
+  "AST_sha256": "625b9109ebb882c1c2e9d44e80a4e7a51ae730363785f3cba10d24aa360f06ae",
+  "module_sha256": "a31d5cd149938f92196fcb1d0a29844a7435bbd63c23ef211fbf9c0dc9832686",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='goal')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "固定实际世界全部明印解释",
+  "inputs": "base/actualgoal",
+  "operations": "遍历全部原明印组合；用当前goals的木体/全部木根/亥源3硬门，所选集合实际留木信用总量≥etaB且>0、所选每印亥源信用>0；生成全部最小H与精确CNF。食是否活不作本函数当前前件。",
+  "outputs": "全rows/H/CNF",
+  "preconditions_and_limits": "固定全实际世界信用H，不与其他关印世界拼信用；当前源前件和bridge另由analyze执行；不是全未来加水效益。"
+}
+current_context_notes：[
+  "当前为Primary93明确比印5族；未继承旧原吴exact raw限制或旧保食硬门；本次源条件与当前IO另绑定。"
+]
+exact_prior_reference：{
+  "artifact": "work/rev428b_Primary_Wu_complete_print/algorithm_explanations_47_functions.json",
+  "id": "runtime/wu_core.py:complete_credit_H",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "固定实际世界全部明印解释",
+    "inputs": "base/actualgoal",
+    "operations": "四个选集算真实印留存>=门且各有亥源；体/根/食硬件AND；真极小/最大假补CNF",
+    "outputs": "全rows/H/CNF",
+    "preconditions_and_limits": "与4个联合诊断world分开；两正偏印替代保身份/不编主次。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/primary_core.py:complete_credit_H",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+52. runtime/primary_core.py:seed_actual_world
+算法标识：runtime/primary_core.py:seed_actual_world
+source_identity：{
+  "relative_path": "runtime/primary_core.py",
+  "qualified_name": "seed_actual_world",
+  "first_line": 139,
+  "AST_sha256": "b80c625a1569fa1edff74ab599e02c6a98324e22cb2d9022bbf62dec19444179",
+  "module_sha256": "a31d5cd149938f92196fcb1d0a29844a7435bbd63c23ef211fbf9c0dc9832686",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='seed'), arg(arg='pool')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "复用内部刚算过的精确同current全开实际世界",
+  "inputs": "Primarybase、内部维护seed、pool",
+  "operations": "严格raw/direct/weights/fullcoefficients相同，复制全开current和原点/留存；声明theta1并绑定全费用矩阵",
+  "outputs": "全开world及全原点ports",
+  "preconditions_and_limits": "只由evaluate内部产生；不允许用户外给报告；与独立Cramer及15旧完整基准一致，不能用单选H投影"
+}
+current_context_notes：[
+  "当前为Primary93明确比印5族；未继承旧原吴exact raw限制或旧保食硬门；本次源条件与当前IO另绑定。"
+]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/primary_core.py:seed_actual_world",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+53. runtime/primary_core.py:analyze
+算法标识：runtime/primary_core.py:analyze
+source_identity：{
+  "relative_path": "runtime/primary_core.py",
+  "qualified_name": "analyze",
+  "first_line": 147,
+  "AST_sha256": "5e3f8261a34de5616261313e823fef77552cfef68761a99a1fc59195ddaeddc7",
+  "module_sha256": "a31d5cd149938f92196fcb1d0a29844a7435bbd63c23ef211fbf9c0dc9832686",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='base'), arg(arg='math'), arg(arg='aux'), arg(arg='pool'), arg(arg='actual_seed')], kwonlyargs=[], kw_defaults=[], defaults=[Constant(value=None)])"
+}
+条目分类：new_or_adapted_AST
+算法解释：{
+  "purpose": "全Primary整盘偏好与全部替代辅助H",
+  "inputs": "完整base、精确math、aux、pool、可选内部seed",
+  "operations": "遍历两个明印全部4联合生身/制食开关世界，原印库存和潜在费用不删；实际全开信用全幂集/native交叉；全开对联合关印B及margin严格改善；食活另列子profile",
+  "outputs": "4完整world、全部实际H/CNF/native、具名全源喜印水成立/失败及全反作用",
+  "preconditions_and_limits": "关功能不是删演员/模拟行运；H阈值为所选印集合总信用，非每印都须达1/32；真实失败保空全源H；不编主次"
+}
+current_context_notes：[
+  "当前为Primary93明确比印5族；未继承旧原吴exact raw限制或旧保食硬门；本次源条件与当前IO另绑定。"
+]
+exact_prior_reference：null
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/primary_core.py:analyze",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+54. runtime/shared_exact.py:pack
+算法标识：runtime/shared_exact.py:pack
+source_identity：{
+  "relative_path": "runtime/shared_exact.py",
+  "qualified_name": "pack",
+  "first_line": 3,
+  "AST_sha256": "ec719576639b8d44264d1e77569c012b60db222d04996d1725f7e473f0c98e7d",
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='x')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "将数学结构转为可重复JSON兼容值",
+  "inputs": "Fraction/字典/序列/集合等",
+  "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+  "outputs": "转换后的值",
+  "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/shared_exact.py:pack",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "将数学结构转为可重复JSON兼容值",
+    "inputs": "Fraction/字典/序列/集合等",
+    "operations": "Fraction用精确分数字符串，递归；集合按str键排序",
+    "outputs": "转换后的值",
+    "preconditions_and_limits": "不认证数值真义；普通不可JSON对象不会自动转。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/shared_exact.py:pack",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+
+55. runtime/shared_exact.py:gauss
+算法标识：runtime/shared_exact.py:gauss
+source_identity：{
+  "relative_path": "runtime/shared_exact.py",
+  "qualified_name": "gauss",
+  "first_line": 10,
+  "AST_sha256": "4a034632bc48eb61207acd546d985b56ef5911057cb1e0b43da22a1adb8866ec",
+  "module_sha256": "a4f2d3f3599b0728f7458691fad1d8965ec5a27a0c0b0793a0e11989ad5e878a",
+  "signature": "arguments(posonlyargs=[], args=[arg(arg='matrix'), arg(arg='rhs')], kwonlyargs=[], kw_defaults=[], defaults=[])"
+}
+条目分类：exact_old_AST_current_contract_rebound
+算法解释：{
+  "purpose": "精确多右端线性消元",
+  "inputs": "n×n有理系数及n行多列右端",
+  "operations": "逐列选非零枢轴、归一、消去其他行",
+  "outputs": "有理数解矩阵；奇异报ArithmeticError",
+  "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。"
+}
+current_context_notes：[]
+exact_prior_reference：{
+  "artifact": "work/rev428_Sanming_Quzhi_Hai_whole/algorithm_explanations_45_functions.json",
+  "id": "runtime/shared_exact.py:gauss",
+  "AST_exact": true,
+  "prior_algorithm_contract_verbatim": {
+    "purpose": "精确多右端线性消元",
+    "inputs": "n×n有理系数及n行多列右端",
+    "operations": "逐列选非零枢轴、归一、消去其他行",
+    "outputs": "有理数解矩阵；奇异报ArithmeticError",
+    "preconditions_and_limits": "调用者负责矩阵形状；不是通用容错线代输入校验器。"
+  }
+}
+current_actual_IO：{
+  "artifact": "current_function_IO.json.gz",
+  "record": "runtime/shared_exact.py:gauss",
+  "normal_return": true,
+  "exception_unwind_not_normalNone": false
+}
+not_executed_note：null
+

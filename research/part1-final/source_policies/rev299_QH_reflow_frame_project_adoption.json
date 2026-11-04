@@ -1,0 +1,77 @@
+{
+  "id": "rev299_QH_reflow_frame_project_adoption",
+  "status": "adopted_exact_version_attributed_modern_cultural_frame_engineering",
+  "component": "rev273_national_region_source_batch/batch05_QH_reflow_candidate",
+  "data_edition": "0.20",
+  "target": {
+    "component": "rev273_national_region_source_batch/batch05_QH_reflow_candidate",
+    "files": 960,
+    "manifest_sha256": "8aa5dd208fdb36a923343a826517f8f3b47c8886886610da889944ebe77af6a8",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "8fb6505114fed0bc89d0da32bff1a7dcd518f2acb3a8b13865aac96928130aaa",
+    "pins": {
+      "manifest.json": "8aa5dd208fdb36a923343a826517f8f3b47c8886886610da889944ebe77af6a8",
+      "freeze.json": "8fb6505114fed0bc89d0da32bff1a7dcd518f2acb3a8b13865aac96928130aaa",
+      "author_report.json": "c9319e1b857a62281b67ddc9bf422fd6a09020bb9341c25d10ad061cee9a5165"
+    }
+  },
+  "model_core_sha256": "6bc068f4b4636235dd4902561fb008adc742906353a38c131fbcec22a1a5d6f3",
+  "composer_sha256": "f0ebb81f01b49359245fdb36288ce1c3287e9335ad4c0e2c82836127f1f10bc9",
+  "safe_entry_sha256": "0c93f73e2ca6e0050f30232487440a64a634b1b3458e0364d445301c42d9c8f7",
+  "review": {
+    "component": "rev298_TW_GS_QH_independent",
+    "files": 89,
+    "manifest_sha256": "cc4f39e1f7bf337625a0d39a74233da0f236b8543857c800b65573caceb14eb2",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "78806f4bbe47030802ddf0923e23bb8bb5d76f17192aeb8131795afefcb7e596",
+    "report_sha256": "c2ec1a6b6757e6e7bf95c63e4aa8434d0887aa8d43cdc30bf08da124856042ac"
+  },
+  "aggregate_acceptance": {
+    "component": "rev299_regions_frame_acceptance",
+    "files": 3,
+    "manifest_sha256": "2aab881c1fe046ebf7cef695bdbbb5584b6bd9ef90ed21ac4e9b1fe369d49fcf",
+    "freeze_file": "freeze.json",
+    "freeze_sha256": "99c9e9c2072ee215e8ae03917fec63fc7f519762243983b49705fc08db6259c7",
+    "report_sha256": "436c10d5ce8e7c5c7e858b5ba8a8e1fc9da14aae8e956dda844b4b829766defe"
+  },
+  "source_scope": {
+    "QH_REFLOW": {
+      "source": "电子图书·学校专集重排本《中国大百科全书中国地理》，青海省条末署鲜肖威",
+      "url": "https://ivantsoi.myds.me/web/schoolebook/pdf/090002.pdf",
+      "PDF_sha256": "e47ba20fb5ac1af222a4a3cc885e591dac56ec01ff4569a8c3ffefe065d70a95",
+      "actual_root_visual_pages_zero_based": [
+        0,
+        1,
+        523,
+        526,
+        530
+      ],
+      "actual_scope": "Root downloaded exact5959571-byte PDF and actually viewed cover/title/currentprovince paragraph/historyparagraph/byline images. Author additionally viewed finalblank page; do not convert that to rootview claim.",
+      "proposition": "此确切重排版本的现代具名青海条“古属雍州地”不带部分限定；后述汉代东部限定另存，不倒移成首句。选此版本雍→水。",
+      "limits": [
+        "内部资料非卖品学校重排电子版；原出版社和原1993版身份未核，不冒原书逐字认证。",
+        "PDF元数据ivantsoi/2000 creation/2026 modification不是出版社或出版年证据。",
+        "鲜肖威是此文件条末署名事实；没有认证原作者确为该重排文字负责。",
+        "1127页只机器定位，不冒全书人读；六图/PDF/抽取不倍增为独立来源。",
+        "其他作者仅青海东部版本继续保留；选择新版本不是历史真值投票。"
+      ]
+    }
+  },
+  "true_previous_adoption": {
+    "path": "rev299_TW_GS_frame_project_adoption.json",
+    "sha256": "15f9517203bb15269c4c0060b7790d3cfbba13a48ae18c1f0472a706f98a2bd4"
+  },
+  "source_truth_status": "Explicit modern cultural meanings, no ancientGIS truth, official BaZi standard, personal喜用改变或现实预测证明。",
+  "historical_pending_flags_not_rewritten": true,
+  "original930_delivery_hold": {
+    "path": "rev299_original930_delivery_hold.json",
+    "sha256": "8d0090f0496b0f69870a3f7cdbf9de4ae4a5e388119d234e0cfdc5eb786f15c8"
+  },
+  "original_B_P_T_C20_D2_C0_unchanged": true,
+  "automatic_latest_or_default_change": false,
+  "all_national_sources_closed": false,
+  "original_task_complete": false,
+  "real_prediction_validated": false,
+  "score": "86.25/100",
+  "progress_delta": "0"
+}

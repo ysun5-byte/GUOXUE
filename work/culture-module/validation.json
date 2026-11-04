@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "ee340384ede79c59780a42c3533c85e8dc6d18b4e566b22c05f6992181dc5cc0",
+  "byteCount": 12294469,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 6,
+    "relationship_part_count": 26,
+    "slide_count": 6,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 137,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Arial",
+        "Hiragino Sans GB"
+      ],
+      "observed_font_use_counts": {
+        "Arial": 11,
+        "Hiragino Sans GB": 126
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 6,
+    "slide_size_in": [
+      16.6667,
+      9.375
+    ],
+    "warning_count": 0,
+    "warnings": [],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 137,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Arial",
+        "Hiragino Sans GB"
+      ],
+      "observed_font_use_counts": {
+        "Arial": 11,
+        "Hiragino Sans GB": 126
+      },
+      "passed": true,
+      "performed": true
+    }
+  },
+  "fontSelection": {
+    "basis": "reference",
+    "approvedFamilies": [
+      "Hiragino Sans GB",
+      "Arial"
+    ],
+    "scriptFonts": {},
+    "referenceSha256": "7f9a42a8bfb580d2e4675005d71f7beb3c6d28d0fe1ad39982c8d0e0aefbbefb",
+    "referenceFontsVerifiedInEncodedText": true,
+    "checked_text_script_count": 137,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "Arial",
+      "Hiragino Sans GB"
+    ],
+    "observed_font_use_counts": {
+      "Arial": 11,
+      "Hiragino Sans GB": 126
+    },
+    "passed": true,
+    "performed": true
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 6,
+    "sha256": "ee340384ede79c59780a42c3533c85e8dc6d18b4e566b22c05f6992181dc5cc0",
+    "runtimeNodeModules": "/Users/yuanfeisun/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "nodeExecutable": "/Users/yuanfeisun/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 1,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [
+      {
+        "reason": "no_numeric_amounts",
+        "slide": 6,
+        "table": 1
+      }
+    ],
+    "slide_count": 6,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "ee340384ede79c59780a42c3533c85e8dc6d18b4e566b22c05f6992181dc5cc0",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 6,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "15240000,8572500",
+    "--validate-bullet-geometry",
+    "--validate-heading-fit",
+    "--require-native-table-slide",
+    "6",
+    "--cover-role",
+    "none",
+    "--expected-slide-count",
+    "6",
+    "--approved-font-family",
+    "Hiragino Sans GB",
+    "--approved-font-family",
+    "Arial"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": "portable",
+    "sourceChartOwnersExplicitlyDeclared": true,
+    "validatorRan": false,
+    "passed": true
+  }
+}
